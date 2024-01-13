@@ -59,15 +59,12 @@ extra:
     #   link: /zh/
     #   lang: zh
   consent:
-    title: Cookie consent
     description: >- 
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our website and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our website better.<br>
-      <br>
-      Cookie授权使用说明：<br>
-      我们使用Cookies来识别您的重复访问和偏好，以及衡量我们文档的有效性以及用户是否找到了他们正在寻找的内容。经您同意，您正在帮助我们改善我们的文档。
+      <br><strong>Cookie Consent</strong><br>
+      We use cookies to enhance your web browsing experience, analyse site effectiveness and needs. 
+      By consenting, you help us improve our website. Thanks!<br>
+      <br><strong>Cookie 授权说明</strong><br>
+      我们使用Cookies以提升您的网页浏览体验，分析有效性和需求。您的同意将帮助我们改善网站。谢谢！
     # cookies:
     #   analytics:
     #     name: Google Analytics
