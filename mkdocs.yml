@@ -1,5 +1,5 @@
-site_name: MiniKVM Openterface Docs
-site_description: MiniKVM Openterface Docs
+site_name: Mini-KVM Openterface Docs
+site_description: Mini-KVM Openterface Docs
 
 theme:
   name: material
