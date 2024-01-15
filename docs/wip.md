@@ -2,7 +2,7 @@
 
 ## Product Overview
 
-Our **Openterface** mini-KVM enables a host (currently compatible only with macOS) to control a target device (compatible with Windows, macOS, Linux, Android, iOS). This setup removes the need for additional keyboards, mice, and monitors, making it an ideal solution for efficient and clutter-free computer management.
+Our **Openterface Mini-KVM** is designed to seamlessly integrate your workflow. It allows a host device (currently compatible with macOS) to control a target device (compatible with Windows, macOS, Linux, Android, iOS). By eliminating the need for extra keyboards, mice, and monitors, it offers an efficient and clutter-free solution for managing multiple computers.
 
 ### Slogan
 
@@ -10,21 +10,24 @@ One Interface, Stable Fast, Cross-OS
 
 ## Device Interface & Connection
 
-Openterface Mini-KVM has two ends:
+The Openterface Mini-KVM features ports on both black and orange ends:
 
-* Black End
+![Type-C to Host](images/type-c-to-host-2.svg)
+:   A Type-C port for connecting to the host device.
 
-    * Type-C port for connecting to target device.
-    * HDMI input port for fetching screen steaming from target device.
-    * Switchable USB-A port between host and target device.
+![Type-C to Target](images/type-c-to-target-2.svg)
+:   A Type-C port to connect to the target device.
 
-* Orange End
+![HDMI Port](images/hdmi-port-2.svg)
+:   An HDMI input port to capture screen streaming from the target device.
 
-    * Type-C port for connecting to target device.
-    * Switcher to toggle the above USB-A port for the use for either host or target device.
+![Switchable USB-A Port](images/switchable-usb-a-port-2.svg)
+:   A USB-A 2.0 port, switchable between the host and target device.
+
+![Switcher](images/switcher-2.svg)
+:   A switcher to toggle the USB-A port's connection between the host or target device.
 
     
-
 ## Use Guidelines
 
 * The mini-KVM captures screen streaming from the target computer and display on the app at the host computer;
