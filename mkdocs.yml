@@ -37,6 +37,8 @@ nav:
 extra:
   generator: false
   social:
+    # - icon: material/web
+    #   link: https://openterface.com/
     - icon: fontawesome/brands/github-alt
       link: https://github.com/youyoubilly
     - icon: fontawesome/brands/x-twitter
@@ -45,8 +47,6 @@ extra:
       link: https://www.linkedin.com/
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/
-    # - icon: fontawesome/websites
-    #   link: https://openterface.com/
   alternate:
     - name: English
       link: /
