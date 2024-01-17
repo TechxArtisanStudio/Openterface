@@ -38,19 +38,15 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/
+      link: https://github.com/youyoubilly
     - icon: fontawesome/brands/x-twitter
       link: https://twitter.com/
     - icon: fontawesome/brands/linkedin-in
       link: https://www.linkedin.com/
-    - icon: fontawesome/brands/discord
-      link: https://discord.com/
-    - icon: fontawesome/brands/linkedin-in
-      link: https://www.linkedin.com/
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/
-    - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/
+    # - icon: fontawesome/websites
+    #   link: https://openterface.com/
   alternate:
     - name: English
       link: /
