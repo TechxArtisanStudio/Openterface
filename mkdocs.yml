@@ -1,5 +1,5 @@
-site_name: Mini-KVM Openterface Docs
-site_description: Mini-KVM Openterface Docs
+site_name: Mini-KVM Openterface
+site_description: Mini-KVM Openterface is a portable KVM, which allows to control two computers with a single keyboard, mouse and monitor in the same interface. It is a great solution for those who need to work with multiple computers.
 
 theme:
   name: material
@@ -20,25 +20,17 @@ theme:
    - content.code.copy
   palette:
     primary: deep orange
+
 nav:
   - Home: index.md
-  - About: about.md
-  - Contact: contact.md
-  - Docs:
-    - Getting Started: getting-started.md
-    - Installation: installation.md
-    - Usage: usage.md
-    - Troubleshooting: troubleshooting.md
-    - FAQ: faq.md
-    - Changelog: changelog.md
-    - License: license.md
-
+  - Shop: https://www.tindie.com
+  - Documentation:
+    - Quick Start: quickstart.md
+  - FAQ: faq.md
 
 extra:
   generator: false
   social:
-    # - icon: material/web
-    #   link: https://openterface.com/
     - icon: fontawesome/brands/github-alt
       link: https://github.com/youyoubilly
     - icon: fontawesome/brands/x-twitter
