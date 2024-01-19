@@ -81,7 +81,7 @@ nav:
   - Home: index.md
   - Guidelines: /#quick-guidelines
   - Features: /#product-features
-  - Shop: https://www.tindie.com
-  - Documentation:
-    - Quick Start: quickstart.md
-  - FAQ: faq.md
+  - Cases: /#use-cases
+  # - Documentation:
+  #   - Quick Start: quickstart.md
+  # - FAQ: faq.md
