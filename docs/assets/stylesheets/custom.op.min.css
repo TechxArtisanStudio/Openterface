@@ -49,6 +49,11 @@
         height: auto; /* Maintain aspect ratio */
     }
 
+    /* Add this new line for the specific logo */
+    .mdx-hero__content .logo-container img[src="assets/logo.png"] {
+        width: 26%;
+    }
+
     .mdx-hero__content img, 
     .mdx-hero__content p, 
     .mdx-hero__content a {
@@ -62,8 +67,8 @@
         transform: none;
         width: auto; /* Adjust the image width */
         margin-bottom: 1rem; /* Space between the image and content */
-        padding-left: 4rem; /* Added left padding */
-        padding-right: 4rem; /* Added right padding */
+        padding-left: 3rem; /* Added left padding */
+        padding-right: 3rem; /* Added right padding */
     }
 }
 
