@@ -191,7 +191,9 @@
 }
 
 .product-features {
-    background-color: #7a7a7a;
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 1'><path d='M0,0 H1123' style='stroke: hsla(0, 0%, 100%, 1); stroke-width: 1'/></svg>") no-repeat bottom, 
+    linear-gradient(to top, var(--md-primary-fg-color), #ffffff 99%, var(--md-default-bg-color) 99%);
+    padding-top: 1rem;
     padding: 2rem 0;
     text-align: center;
 }
@@ -201,18 +203,45 @@
     margin-bottom: 1rem;
 }
 
-.product-features .features-list {
-    list-style: none;
-    padding: 0;
+.product-features .features-list .feature{
+    margin-bottom: 1rem;
 }
 
-.product-features .features-list li {
+.product-features .features-list h3 {
     font-size: 1.2rem;
-    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.product-features .features-list p {
+    font-size: 1rem;
+}
+
+.quick-guidelines {
+    background: var(--md-primary-fg-color);
+    padding-top: 1rem;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.quick-guidelines h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+/* Added styles for responsive image */
+.quick-guidelines img {
+    max-width: 100%; /* Limit image width to the container's width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Block display to enable margin settings */
+    margin-left: auto; /* Center the image horizontally */
+    margin-right: auto;
 }
 
 .use-cases {
-    padding: 2rem 0;
+    /* background: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 258'><path d='M1124,2c0,0 0,256 0,256l-1125,0l0,-48c0,0 16,5 55,5c116,0 197,-92 325,-92c121,0 114,46 254,46c140,0 214,-167 572,-166Z' style='fill: hsla(0, 0%, 100%, 1)' /></svg>") no-repeat bottom, 
+    linear-gradient(to bottom, var(--md-primary-fg-color), #ffffff 99%, var(--md-default-bg-color) 99%); */
+    padding-top: 1rem;
     text-align: center;
 }
 
@@ -226,36 +255,9 @@
 }
 
 .use-cases .cases-list h3 {
-    font-size: 1.5rem;
-    color: #333;
+    font-size: 1.2rem;
 }
 
 .use-cases .cases-list p {
-    font-size: 1.2rem;
-}
-
-.user-testimonials {
-    background-color: #f7f7f7;
-    padding: 2rem 0;
-    text-align: center;
-}
-
-.user-testimonials h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-.user-testimonials .testimonials blockquote {
-    font-style: italic;
-    margin: 2rem auto;
-    width: 80%;
-}
-
-.user-testimonials .testimonials blockquote p {
-    font-size: 1.2rem;
-}
-
-.user-testimonials .testimonials blockquote footer {
     font-size: 1rem;
-    text-align: right;
 }
