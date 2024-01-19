@@ -1,6 +1,17 @@
+# Project information
 site_name: Mini-KVM Openterface
+site_url: https://openterface.com/
+site_author: Billy Wang
 site_description: Mini-KVM Openterface is a portable KVM, which allows to control two computers with a single keyboard, mouse and monitor in the same interface. It is a great solution for those who need to work with multiple computers.
 
+# Repository
+repo_name: Openterface
+repo_url: https://github.com/TechxArtisan/Openterface
+
+# Copyright
+copyright: Copyright &copy; 2023 MiniKVM Openterface, TechxArtisan
+
+# Configuration
 theme:
   name: material
   custom_dir: docs/overrides
@@ -21,13 +32,6 @@ theme:
   palette:
     primary: deep orange
 
-nav:
-  - Home: index.md
-  - Shop: https://www.tindie.com
-  - Documentation:
-    - Quick Start: quickstart.md
-  - FAQ: faq.md
-
 extra:
   generator: false
   social:
@@ -46,19 +50,17 @@ extra:
     # - name: 中文
     #   link: /zh/
     #   lang: zh
-  consent:
-    description: >- 
-      <br><strong>Cookie Consent</strong><br>
-      We use cookies to enhance your web browsing experience, analyse site effectiveness and needs. 
-      By consenting, you help us improve our website. Thanks!<br>
-      <br><strong>Cookie 授权说明</strong><br>
-      我们使用Cookies以提升您的网页浏览体验，分析有效性和需求。您的同意将帮助我们改善网站。谢谢！
+  # consent:
+  #   description: >- 
+  #     <br><strong>Cookie Consent</strong><br>
+  #     We use cookies to enhance your web browsing experience, analyse site effectiveness and needs. 
+  #     By consenting, you help us improve our website. Thanks!<br>
+  #     <br><strong>Cookie 授权说明</strong><br>
+  #     我们使用Cookies以提升您的网页浏览体验，分析有效性和需求。您的同意将帮助我们改善网站。谢谢！
     # cookies:
     #   analytics:
     #     name: Google Analytics
     #     checked: false
-
-copyright: Copyright &copy; 2023 MiniKVM Openterface
 
 markdown_extensions:
   # Enables admonitions
@@ -74,3 +76,10 @@ markdown_extensions:
 
 plugins:
   - search
+
+nav:
+  - Home: index.md
+  - Shop: https://www.tindie.com
+  - Documentation:
+    - Quick Start: quickstart.md
+  - FAQ: faq.md
