@@ -33,7 +33,7 @@ theme:
     primary: deep orange
 
 extra:
-  generator: false
+  # generator: false   # Disable the credit of Mkdocks Material Credits
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/youyoubilly
