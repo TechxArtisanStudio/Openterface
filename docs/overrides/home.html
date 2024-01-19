@@ -1,7 +1,10 @@
 {% extends "main.html" %}
+
 {% block tabs %}
   {{ super() }}
+
   <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
+
   <section class="mdx-container">
     <div class="md-grid md-typeset">
       <div class="mdx-hero">
@@ -22,6 +25,76 @@
       </div>
     </div>
   </section>
+
+  <section class="product-close-up">
+    <div class="container">
+      <!-- First Content Block: Image on Left -->
+      <div class="product-close-up-content">
+        <div class="product-image">
+          <img src="images/product/close-up.png" alt="Product Close-up">
+        </div>
+        <div class="product-description">
+          <p>Our <strong>Openterface Mini-KVM</strong> is designed to seamlessly integrate your workflow. By eliminating the need for extra keyboards, mice, and monitors, it offers an efficient and clutter-free solution for managing multiple computers.</p>
+        </div>
+      </div>
+  
+      <!-- Second Content Block: Image on Right -->
+      <div class="product-close-up-content reverse-layout">
+        <div class="product-image">
+          <img src="images/product/mac_op_pi.png" alt="Product Close-up">
+        </div>
+        <div class="product-description">
+          <p>It allows a host device (currently compatible with macOS) to control a target device (compatible with Windows, macOS, Linux, Android, iOS).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="product-features">
+    <div class="container">
+      <h2>Product Features</h2>
+      <ul class="features-list">
+        <!-- List your product features here -->
+        <li>Feature 1</li>
+        <li>Feature 2</li>
+        <li>Feature 3</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="use-cases">
+    <div class="container">
+      <h2>Use Cases</h2>
+      <div class="cases-list">
+        <!-- Describe use cases here -->
+        <div class="case">
+          <h3>Use Case 1</h3>
+          <p>Description of Use Case 1.</p>
+        </div>
+        <div class="case">
+          <h3>Use Case 2</h3>
+          <p>Description of Use Case 2.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="user-testimonials">
+    <div class="container">
+      <h2>What Our Users Say</h2>
+      <div class="testimonials">
+        <blockquote>
+          <p>User testimonial 1</p>
+          <footer>- User Name 1</footer>
+        </blockquote>
+        <blockquote>
+          <p>User testimonial 2</p>
+          <footer>- User Name 2</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section> -->
+  
 {% endblock %}
 
 {% block content %}{% endblock %}

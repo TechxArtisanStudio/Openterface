@@ -76,3 +76,120 @@
     border-color: #FF633A;
     color: var(--md-accent-bg-color);
 }
+
+.product-close-up {
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-close-up .product-close-up-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px; /* Adjust based on your layout */
+    width: 100%;
+    margin-bottom: 2rem; /* Space between content blocks */
+}
+
+.product-close-up .product-image {
+    flex-basis: 50%;
+}
+
+.product-close-up .product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-close-up .product-description {
+    flex-basis: 50%;
+    padding-left: 2rem; /* Spacing between image and text */
+}
+
+.product-close-up .product-description p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: left;
+}
+
+/* Reverse layout for the second content block */
+.product-close-up .reverse-layout {
+    flex-direction: row-reverse;
+}
+
+.product-close-up .reverse-layout .product-description {
+    padding-left: 0;
+    padding-right: 2rem; /* Adjust text spacing for reverse layout */
+}
+
+
+.product-features {
+    background-color: #7a7a7a;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.product-features h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.product-features .features-list {
+    list-style: none;
+    padding: 0;
+}
+
+.product-features .features-list li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.use-cases {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.use-cases h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.use-cases .cases-list .case {
+    margin-bottom: 1rem;
+}
+
+.use-cases .cases-list h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.use-cases .cases-list p {
+    font-size: 1.2rem;
+}
+
+.user-testimonials {
+    background-color: #f7f7f7;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.user-testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.user-testimonials .testimonials blockquote {
+    font-style: italic;
+    margin: 2rem auto;
+    width: 80%;
+}
+
+.user-testimonials .testimonials blockquote p {
+    font-size: 1.2rem;
+}
+
+.user-testimonials .testimonials blockquote footer {
+    font-size: 1rem;
+    text-align: right;
+}
