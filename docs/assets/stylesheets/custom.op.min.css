@@ -191,8 +191,9 @@
 }
 
 .product-features {
-    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 1'><path d='M0,0 H1123' style='stroke: hsla(0, 0%, 100%, 1); stroke-width: 1'/></svg>") no-repeat bottom, 
-    linear-gradient(to top, var(--md-primary-fg-color), #ffffff 99%, var(--md-default-bg-color) 99%);
+    /* background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 1'><path d='M0,0 H1123' style='stroke: hsla(0, 0%, 100%, 1); stroke-width: 1'/></svg>") no-repeat bottom, 
+    linear-gradient(to top, var(--md-primary-fg-color), #ffffff 99%, var(--md-default-bg-color) 99%); */
+    background: var(--md-primary-fg-color);
     padding-top: 1rem;
     padding: 2rem 0;
     text-align: center;
@@ -201,6 +202,7 @@
 .product-features h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
+    color: #f0f0f0;
 }
 
 .product-features .features-list .feature{
@@ -209,15 +211,18 @@
 
 .product-features .features-list h3 {
     font-size: 1.2rem;
-    color: #333;
+    color: #f0f0f0;
 }
 
 .product-features .features-list p {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    color: #f0f0f0;
 }
 
 .quick-guidelines {
-    background: var(--md-primary-fg-color);
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 1'><path d='M0,0 H1123' style='stroke: hsla(0, 0%, 100%, 1); stroke-width: 1'/></svg>") no-repeat bottom, 
+    linear-gradient(to top, var(--md-primary-fg-color), #ffffff 99%, var(--md-default-bg-color) 99%);
+    /* background: var(--md-primary-fg-color); */
     padding-top: 1rem;
     text-align: center;
     padding-bottom: 3rem;
@@ -226,7 +231,7 @@
 .quick-guidelines h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #fff;
+    /* color: #fff; */
 }
 
 /* Added styles for responsive image */
@@ -259,5 +264,5 @@
 }
 
 .use-cases .cases-list p {
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
