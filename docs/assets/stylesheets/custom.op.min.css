@@ -41,7 +41,7 @@
         align-items: center;
         gap: 1rem;
         max-width: 50%;
-        margin: auto;
+        margin: auto; /* Center the container */
     }
 
     .mdx-hero__content .logo-container img {
@@ -62,6 +62,8 @@
         transform: none;
         width: auto; /* Adjust the image width */
         margin-bottom: 1rem; /* Space between the image and content */
+        padding-left: 4rem; /* Added left padding */
+        padding-right: 4rem; /* Added right padding */
     }
 }
 
