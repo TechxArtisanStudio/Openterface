@@ -80,21 +80,24 @@
 .product-close-up {
     padding: 2rem 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .product-close-up .product-close-up-content {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    max-width: 1200px; /* Adjust based on your layout */
+    justify-content: center;
+    max-width: 1200px;
     width: 100%;
-    margin-bottom: 2rem; /* Space between content blocks */
+    margin-bottom: 2rem;
 }
 
-.product-close-up .product-image {
-    flex-basis: 50%;
+.product-close-up .product-image, .product-close-up .product-description {
+    flex-basis: 100%;
+    max-width: 100%;
 }
 
 .product-close-up .product-image img {
@@ -103,26 +106,46 @@
 }
 
 .product-close-up .product-description {
-    flex-basis: 50%;
-    padding-left: 2rem; /* Spacing between image and text */
+    padding: 1rem; /* Adjust as needed */
 }
 
 .product-close-up .product-description p {
     font-size: 1.2rem;
     line-height: 1.6;
-    text-align: left;
+    text-align: center;
 }
 
 /* Reverse layout for the second content block */
 .product-close-up .reverse-layout {
-    flex-direction: row-reverse;
+    flex-direction: column;
 }
 
-.product-close-up .reverse-layout .product-description {
-    padding-left: 0;
-    padding-right: 2rem; /* Adjust text spacing for reverse layout */
-}
+/* Media query for larger screens */
+@media screen and (min-width:60em) {
+    .product-close-up .product-close-up-content {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
 
+    .product-close-up .product-image, .product-close-up .product-description {
+        flex-basis: 50%;
+    }
+
+    .product-close-up .product-description {
+        padding-left: 2rem;
+        text-align: left;
+    }
+
+    .product-close-up .reverse-layout {
+        flex-direction: row-reverse;
+    }
+
+    .product-close-up .reverse-layout .product-description {
+        padding-left: 0;
+        padding-right: 2rem;
+    }
+}
 
 .product-features {
     background-color: #7a7a7a;
