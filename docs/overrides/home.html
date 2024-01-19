@@ -16,7 +16,7 @@
             <img src="assets/logo.png" alt="Openterface Logo" width="138" draggable="false">
             <img src="images/logo-c-eng-white.svg" alt="Openterface Logo-C" draggable="false">
           </div>
-          <p>A portable KVM, which allows to control two computers with a single keyboard, mouse and monitor in the same interface. It is a great solution for those who need to work with multiple computers.</p>
+          <p>A portable KVM, which allows to control two computers with a single keyboard, mouse and monitor in the same interface.</p>
           <a href="{{ 'quickstart/' | url }}" title="Buy Mini-KVM Openterface" class="md-button md-button--primary">
             Get Started
           </a>
@@ -43,7 +43,11 @@
       <!-- Second Content Block: Image on Right -->
       <div class="product-close-up-content reverse-layout">
         <div class="product-image">
-          <img src="images/product/mac_op_pi.png" alt="Product Close-up">
+          <!-- Replaced <img> tag with <video> tag -->
+          <video width="640" height="480" controls>
+            <source src="http://res.makeronsite.com/openterface/op-demo_c.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
         <div class="product-description">
           <p>It allows a host device (currently compatible with macOS) to control a target device (compatible with Windows, macOS, Linux, Android, iOS).</p>
