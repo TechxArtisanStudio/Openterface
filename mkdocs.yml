@@ -2,7 +2,7 @@
 site_name: Mini-KVM Openterface
 site_url: https://openterface.com/
 site_author: Billy Wang
-site_description: Mini-KVM Openterface is a portable KVM, which allows to control two computers with a single keyboard, mouse and monitor in the same interface. It is a great solution for those who need to work with multiple computers.
+site_description: One Interface, Stable Fast, Cross-OS. A portable, open-source KVM Solution.
 
 # Repository
 repo_name: Openterface
