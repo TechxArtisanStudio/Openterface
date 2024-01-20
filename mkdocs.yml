@@ -43,10 +43,10 @@ extra:
       link: https://www.linkedin.com/
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/
-  alternate:
-    - name: English
-      link: /
-      lang: en
+  # alternate:
+  #   - name: English
+  #     link: /
+  #     lang: en
     # - name: 中文
     #   link: /zh/
     #   lang: zh
@@ -79,9 +79,11 @@ plugins:
 
 nav:
   - Home: index.md
+  - Product: /#product-close-up
   - Guidelines: /#quick-guidelines
   - Features: /#product-features
   - Cases: /#use-cases
-  # - Documentation:
-  #   - Quick Start: quickstart.md
+  # - Downloads: /#downloads
+  - Documentation:
+    - Quick Start: quickstart.md
   # - FAQ: faq.md

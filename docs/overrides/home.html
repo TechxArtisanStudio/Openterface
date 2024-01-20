@@ -16,12 +16,12 @@
             <img src="assets/logo.png" alt="Openterface Logo" width="138" draggable="false">
             <img src="images/logo-c-eng-white.svg" alt="Openterface Logo-C" draggable="false">
           </div>
-          <p>A portable KVM, which allows to control two computers with a single keyboard, mouse and monitor in the same interface.</p>
-          <a href="{{ 'quickstart/' | url }}" title="Buy Mini-KVM Openterface" class="md-button md-button--primary">
+          <p>A portable KVM and open-source app allows to control two computers with a single keyboard, mouse and monitor in the same interface.</p>
+          <a href="{{ 'quickstart/' | url }}" title="Get-Started" class="md-button md-button--primary">
             Get Started
           </a>
-          <a href="{{ 'https://www.tindie.com' | url }}" title="Buy Openterface" class="md-button">
-            Buy Openterface
+          <a href="{{ 'https://www.tindie.com' | url }}" title="Buy" class="md-button">
+            Buy NOW
           </a>
         </div>
       </div>
@@ -50,7 +50,7 @@
           </video>
         </div>
         <div class="product-description">
-          <p>It allows a host device (currently compatible with macOS) to control a target device (compatible with Windows, macOS, Linux, Android, iOS).</p>
+          <p>It allows a macOS host to control a target device, compatible with Windows, macOS, Linux, Android, iOS.</p>
         </div>
       </div>
     </div>
@@ -70,19 +70,23 @@
         <!-- Describe use features here -->
         <div class="feature">
           <h3>Plug-and-Play</h3>
-          <p>No software installations or configurations are required on the target computer.</p>
+          <p>Enables immediate use without the need for software installations or configurations on the target computer.</p>
         </div>
         <div class="feature">
           <h3>Stable & Fast Control</h3>
-          <p>Control the target computer with a stable and fast connection.</p>
+          <p>Control the target computer with a stable and fast connection, without networks required.</p>
         </div>
         <div class="feature">
-          <h3>No Networks Required</h3>
-          <p>Connect the host and target computers directly with a USB cable.</p>
+          <h3>A Switchable USB-A Port</h3>
+          <p>Seamlessly alternate USB access between the host and target computers, perfect for sharing of devices like USB flash drives.</p>
+        </div>
+        <div class="feature">
+          <h3>BIOS-Level Access</h3>
+          <p>Enables direct access to the target device's BIOS, offering control beyond standard remote solutions.</p>
         </div>
         <div class="feature">
           <h3>No Residue</h3>
-          <p>Leaves no software traces on the target computer after disconnection.</p>
+          <p>Ensures a tidy usage experience by not leaving any software remnants on the target computer.</p>
         </div>
       </div>
     </div>
@@ -116,4 +120,7 @@
 {% endblock %}
 
 {% block content %}{% endblock %}
-{% block footer %}{% endblock %}
+
+{% block footer %}
+  {{ super() }}
+{% endblock %}
