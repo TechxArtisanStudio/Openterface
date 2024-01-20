@@ -46,7 +46,6 @@
         height: auto; /* Maintain aspect ratio */
     }
 
-    /* Add this new line for the specific logo */
     .mdx-hero__content .logo-container img[src="assets/logo.png"] {
         width: 26%;
     }
@@ -69,7 +68,6 @@
     }
 }
 
-/* Styles for larger screens */
 @media screen and (min-width:60em) {
     .mdx-hero {
         align-items: stretch;
@@ -128,9 +126,15 @@
     justify-content: center;
 }
 
+.product-close-up .product-video {
+    width: 100%;    /* Makes the video width responsive */
+    height: auto;   /* Maintains the aspect ratio */
+    max-width: 640px; /* Maximum width of the video */
+}
+
 .product-close-up .product-close-up-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse; /* Reverse the order on smaller screens */
     align-items: center;
     justify-content: center;
     max-width: 1200px;
@@ -149,24 +153,19 @@
 }
 
 .product-close-up .product-description {
-    padding: 1rem; /* Adjust as needed */
+    padding: 1rem;
+    text-align: center;
 }
 
 .product-close-up .product-description p {
     font-size: 1.2rem;
     line-height: 1.6;
-    text-align: center;
 }
 
-/* Reverse layout for the second content block */
-.product-close-up .reverse-layout {
-    flex-direction: column;
-}
-
-/* Media query for larger screens */
+/* For larger screens, use a row layout with images and descriptions side by side */
 @media screen and (min-width:60em) {
     .product-close-up .product-close-up-content {
-        flex-direction: row;
+        flex-direction: row; /* Row layout for larger screens */
         align-items: center;
         justify-content: space-between;
     }
@@ -181,7 +180,7 @@
     }
 
     .product-close-up .reverse-layout {
-        flex-direction: row-reverse;
+        flex-direction: row-reverse; /* Reverse layout for alternate sections */
     }
 
     .product-close-up .reverse-layout .product-description {
@@ -191,8 +190,6 @@
 }
 
 .product-features {
-    /* background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 1'><path d='M0,0 H1123' style='stroke: hsla(0, 0%, 100%, 1); stroke-width: 1'/></svg>") no-repeat bottom, 
-    linear-gradient(to top, var(--md-primary-fg-color), #ffffff 99%, var(--md-default-bg-color) 99%); */
     background: var(--md-primary-fg-color);
     padding-top: 1rem;
     padding: 2rem 0;
@@ -222,7 +219,6 @@
 .quick-guidelines {
     background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 1'><path d='M0,0 H1123' style='stroke: hsla(0, 0%, 100%, 1); stroke-width: 1'/></svg>") no-repeat bottom, 
     linear-gradient(to top, var(--md-primary-fg-color), #ffffff 99%, var(--md-default-bg-color) 99%);
-    /* background: var(--md-primary-fg-color); */
     padding-top: 1rem;
     text-align: center;
     padding-bottom: 3rem;
@@ -231,10 +227,8 @@
 .quick-guidelines h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    /* color: #fff; */
 }
 
-/* Added styles for responsive image */
 .quick-guidelines img {
     max-width: 100%; /* Limit image width to the container's width */
     height: auto; /* Maintain aspect ratio */
@@ -244,8 +238,6 @@
 }
 
 .use-cases {
-    /* background: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 258'><path d='M1124,2c0,0 0,256 0,256l-1125,0l0,-48c0,0 16,5 55,5c116,0 197,-92 325,-92c121,0 114,46 254,46c140,0 214,-167 572,-166Z' style='fill: hsla(0, 0%, 100%, 1)' /></svg>") no-repeat bottom, 
-    linear-gradient(to bottom, var(--md-primary-fg-color), #ffffff 99%, var(--md-default-bg-color) 99%); */
     padding-top: 1rem;
     text-align: center;
 }
