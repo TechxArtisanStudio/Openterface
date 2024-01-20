@@ -84,6 +84,6 @@ nav:
   - Features: /#product-features
   - Cases: /#use-cases
   # - Downloads: /#downloads
-  - Documentation:
-    - Quick Start: quickstart.md
+  # - Documentation:
+  #   - Quick Start: quickstart.md
   # - FAQ: faq.md
