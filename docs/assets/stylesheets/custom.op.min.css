@@ -1,3 +1,8 @@
+:root {
+    --description-font-dark: #373737;
+    --description-font-light: #efefef;
+}
+
 .mdx-container {
     background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 1'><path d='M0,0 H1123' style='stroke: hsla(0, 0%, 100%, 1); stroke-width: 1'/></svg>") no-repeat bottom, 
     linear-gradient(to bottom, var(--md-primary-fg-color), #ffffff 99%, var(--md-default-bg-color) 99%);
@@ -158,8 +163,9 @@
 }
 
 .product-close-up .product-description p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.6;
+    color: var(--description-font-dark);
 }
 
 /* For larger screens, use a row layout with images and descriptions side by side */
@@ -191,15 +197,16 @@
 
 .product-features {
     background: var(--md-primary-fg-color);
-    padding-top: 1rem;
-    padding: 2rem 0;
+    padding: 2rem; /* This will apply to top and bottom */
+    padding-left: 1rem; /* Add left padding */
+    padding-right: 1rem; /* Add right padding */
     text-align: center;
 }
 
 .product-features h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #f0f0f0;
+    color: var(--description-font-light);
 }
 
 .product-features .features-list .feature{
@@ -208,12 +215,12 @@
 
 .product-features .features-list h3 {
     font-size: 1.2rem;
-    color: #f0f0f0;
+    color: var(--description-font-light);
 }
 
 .product-features .features-list p {
     font-size: 0.8rem;
-    color: #f0f0f0;
+    color: var(--description-font-light);
 }
 
 .quick-guidelines {
@@ -227,6 +234,7 @@
 .quick-guidelines h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
+    color: var(--description-font-dark);
 }
 
 .quick-guidelines img {
@@ -238,13 +246,16 @@
 }
 
 .use-cases {
-    padding-top: 1rem;
+    padding: 2rem; /* This will apply to top and bottom */
+    padding-left: 1rem; /* Add left padding */
+    padding-right: 1rem; /* Add right padding */
     text-align: center;
 }
 
 .use-cases h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
+    color: var(--description-font-dark);
 }
 
 .use-cases .cases-list .case {
@@ -253,8 +264,10 @@
 
 .use-cases .cases-list h3 {
     font-size: 1.2rem;
+    color: var(--description-font-dark);
 }
 
 .use-cases .cases-list p {
     font-size: 0.8rem;
+    color: var(--description-font-dark);
 }
