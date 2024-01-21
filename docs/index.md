@@ -1,6 +1,6 @@
 ---
 template: home.html
-title: Mini-KVM Openterface
+title: Home
 social:
   cards_layout_options:
     title: One Interface, Stable Fast, Cross-OS. A portable, open-source KVM Solution.
