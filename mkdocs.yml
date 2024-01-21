@@ -89,7 +89,12 @@ nav:
   - Guidelines: /#quick-guidelines
   - Features: /#product-features
   - Cases: /#use-cases
-  # - Downloads: /#downloads
-  # - Documentation:
-  #   - Quick Start: quickstart.md
+  - Documentation:
+    - Quick Start: quick-start.md
+    - Specifications: specifications.md
+    - Comparison: comparison.md
+    - Use Cases: use-cases.md
+    - Concepts: concepts.md
+    - Hardware: hardware.md
+    - Software: software.md
   # - FAQ: faq.md
