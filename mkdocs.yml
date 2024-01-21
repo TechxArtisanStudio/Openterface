@@ -5,8 +5,8 @@ site_author: Billy Wang
 site_description: One Interface, Stable Fast, Cross-OS. A portable, open-source KVM Solution.
 
 # Repository
-repo_name: Openterface
-repo_url: https://github.com/TechxArtisan/Openterface
+# repo_name: Openterface
+# repo_url: https://github.com/TechxArtisan/Openterface
 
 # Copyright
 copyright: Copyright &copy; 2023 MiniKVM Openterface, TechxArtisan
@@ -36,13 +36,19 @@ extra:
   # generator: false   # Disable the credit of Mkdocks Material Credits
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/youyoubilly
+      link: https://github.com/TechxArtisan
     - icon: fontawesome/brands/x-twitter
-      link: https://twitter.com/
-    - icon: fontawesome/brands/linkedin-in
-      link: https://www.linkedin.com/
+      link: https://twitter.com/TechxArtisan
+    - icon: fontawesome/brands/facebook-f
+      link: https://www.facebook.com/TechxArtisan
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/TechxArtisan
+    - icon: fontawesome/brands/threads
+      link: https://www.threads.net/@techxartisan
     - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/
+      link: https://youtube.com/@TechxArtisan
+    - icon: fontawesome/brands/linkedin-in
+      link: https://www.linkedin.com/company/techxartisan/
   # alternate:
   #   - name: English
   #     link: /
