@@ -73,6 +73,11 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
 
   # Enables emoji shortcodes like :+1: or :sunglasses:
   - attr_list
@@ -94,7 +99,7 @@ nav:
     - Specifications: specifications.md
     - Comparison: comparison.md
     - Use Cases: use-cases.md
-    - Concepts: concepts.md
-    - Hardware: hardware.md
-    - Software: software.md
+    # - Concepts: concepts.md
+    # - Open-Source App: software.md
+    # - Hardware: hardware.md
   # - FAQ: faq.md
