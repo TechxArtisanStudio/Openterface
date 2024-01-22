@@ -1,6 +1,13 @@
 :root {
     --description-font-dark: #373737;
     --description-font-light: #efefef;
+    --button-hover-color: #ffffff;
+}
+
+.md-button.md-button:hover {
+    background-color: var(--button-hover-color);
+    border-color: var(--md-primary-fg-color);
+    color: var(--md-primary-fg-color);
 }
 
 .mdx-container {
@@ -11,7 +18,7 @@
 
 .mdx-hero {
     color: var(--md-primary-bg-color);
-    margin: 0 .8rem;
+    margin: 0.8rem;
 }
 
 .mdx-hero h1 {
@@ -61,6 +68,8 @@
         display: block; /* Stack images, paragraphs, and links */
         margin: 0 auto; /* Center-align the elements */
         max-width: 100%; /* Ensure they fit the container */
+        font-size: 0.8rem;
+        color: var(--description-font-light);
     }
 
     .mdx-hero__image {
@@ -100,7 +109,7 @@
 
 
 .mdx-hero .md-button {
-    color: var(--md-primary-bg-color);
+    color: var(--md-primary-fg-color);
     margin-right: .5rem;
     margin-top: .5rem
 }
@@ -114,12 +123,12 @@
 .mdx-hero .md-button--primary {
     background-color: var(--md-primary-bg-color);
     border-color: var(--md-primary-bg-color);
-    color: #FF633A
+    color: var(--md-primary-fg-color);
 }
 
 .mdx-hero .md-button:focus, .mdx-hero .md-button:hover {
-    background-color: #FF633A;
-    border-color: #FF633A;
+    background-color: var(--md-primary-fg-color);
+    border-color: var(--md-primary-fg-color);
     color: var(--md-accent-bg-color);
 }
 
@@ -334,4 +343,3 @@
       padding: 8px;
     }
   }
-  
