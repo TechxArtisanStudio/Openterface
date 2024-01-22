@@ -90,7 +90,6 @@ plugins:
 
 nav:
   - Home: index.md
-  - Download: download.md
   # - Product: /#product-close-up
   # - Guidelines: /#quick-guidelines
   # - Features: /#product-features
@@ -103,4 +102,5 @@ nav:
     # - Concepts: concepts.md
     # - Open-Source App: software.md
     # - Hardware: hardware.md
+  - Download: download.md
   # - FAQ: faq.md
