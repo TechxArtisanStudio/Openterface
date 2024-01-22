@@ -3,7 +3,7 @@ template: home.html
 title: Home
 social:
   cards_layout_options:
-    title: One Interface, Stable Fast, Cross-OS. A portable, open-source KVM Solution.
+    title: Portable, Open-Source KVM Solution | One Interface, Stable Fast, Cross-OS
 ---
 
 Welcome to Mini-KVM Openterface.
