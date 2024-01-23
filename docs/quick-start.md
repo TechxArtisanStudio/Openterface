@@ -2,7 +2,7 @@
 
 ## Product Overview
 
-Our **Openterface Mini-KVM** is open-source app and device that allows to control two computers without the need for extra keyboard, mouse and monitor. 
+Our **Openterface Mini-KVM** allows to control two computers without the need for extra keyboard, mouse and monitor. 
 It allows a macOS host to control a target device, compatible with Windows, macOS, Linux, Android, iOS.
 It is designed to seamlessly integrate your workflow. It offers an efficient and clutter-free solution for managing multiple computers. 
 
@@ -40,7 +40,6 @@ The Openterface Mini-KVM features ports on both black and orange ends:
 * **A Switchable USB-A Port**: Seamlessly alternate USB access between the host and target computers, perfect for sharing of devices like USB flash drives.
 * **BIOS-Level Access**: Enables direct access to the target device's BIOS, offering control beyond standard remote solutions.
 * **No Residue**: Ensures a tidy usage experience by not leaving any software remnants on the target computer.
-* **Open-Source App**: Features a community-driven application, for transparency, customization and continuous improvements.
 
 ## Install the App
 

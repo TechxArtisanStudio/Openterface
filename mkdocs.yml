@@ -1,5 +1,5 @@
 # Project information
-site_name: Mini-KVM Openterface | Portable, Open-Source KVM Solution
+site_name: Mini-KVM Openterface | Portable KVM Solution
 site_url: https://openterface.com/
 site_author: Billy Wang
 site_description: One Interface, Stable Fast, Cross-OS
@@ -129,7 +129,7 @@ nav:
     - Comparison: comparison.md
     - Use Cases: use-cases.md
     # - Concepts: concepts.md
-    # - Open-Source App: software.md
+    # - App: software.md
     # - Hardware: hardware.md
   - Download: download.md
   # - FAQ: faq.md
