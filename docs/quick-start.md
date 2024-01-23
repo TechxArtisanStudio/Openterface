@@ -7,7 +7,7 @@ It allows a macOS host to control a target device, compatible with Windows, macO
 It is designed to seamlessly integrate your workflow. It offers an efficient and clutter-free solution for managing multiple computers. 
 
 ## Connection
-
+![Type-C to Host](images/product/connection_demo.png)
 The Openterface Mini-KVM features ports on both black and orange ends:
 
 ![Type-C to Host](images/type-c-to-host-2.svg)

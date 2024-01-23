@@ -107,9 +107,9 @@
     }
 }
 
-
 .mdx-hero .md-button {
     color: var(--md-primary-fg-color);
+    border-color: var(--md-accent-bg-color);
     margin-right: .5rem;
     margin-top: .5rem
 }
@@ -117,7 +117,7 @@
 .mdx-hero .md-button:focus, .mdx-hero .md-button:hover {
     background-color: var(--md-accent-fg-color);
     border-color: var(--md-accent-fg-color);
-    color: var(--md-accent-bg-color)
+    color: var(--md-accent-bg-color);
 }
 
 .mdx-hero .md-button--primary {
