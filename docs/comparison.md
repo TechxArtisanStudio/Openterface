@@ -4,7 +4,7 @@ To assist you in making an informed decision, we've compiled a comparison betwee
 
 | Comparison Category        | Openterface Mini-KVM                            | Traditional KVM                                  | Traditional VNC                                     |
 |----------------------------|-------------------------------------------------|--------------------------------------------------|-----------------------------------------------------|
-| 🎮 Control Method          | Local, cable-limited                         | Local, cable-limited                          | ocal/Remote, network-limited                    |
+| 🎮 Method & Limitation     | Local, cable-limited                         | Local, cable-limited                          | ocal/Remote, network-limited                    |
 | 🚀 Portability             | Highly portable, easy setup                  | Stationary, bulky                             | Software-based, not applicable                   |
 | 🛠️ Installation Complexity | Plug-and-play, minimal setup                | Moderate setup, peripherals required         | Network and software setup, complex              |
 | 🖥️ Control Interface       | Host software interface                      | Physical switch interface                    | Host software interface                          |
