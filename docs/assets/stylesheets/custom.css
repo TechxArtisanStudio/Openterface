@@ -232,7 +232,7 @@
     color: var(--description-font-light);
 }
 
-.quick-guidelines {
+.connection-demo {
     background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 1'><path d='M0,0 H1123' style='stroke: hsla(0, 0%, 100%, 1); stroke-width: 1'/></svg>") no-repeat bottom, 
     linear-gradient(to top, var(--md-primary-fg-color), #ffffff 99%, var(--md-default-bg-color) 99%);
     padding-top: 1rem;
@@ -240,13 +240,13 @@
     padding-bottom: 3rem;
 }
 
-.quick-guidelines h2 {
+.connection-demo h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
     color: var(--description-font-dark);
 }
 
-.quick-guidelines img {
+.connection-demo img {
     max-width: 100%; /* Limit image width to the container's width */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Block display to enable margin settings */
