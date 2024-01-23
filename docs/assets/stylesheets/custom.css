@@ -232,28 +232,6 @@
     color: var(--description-font-light);
 }
 
-.connection-demo {
-    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 1'><path d='M0,0 H1123' style='stroke: hsla(0, 0%, 100%, 1); stroke-width: 1'/></svg>") no-repeat bottom, 
-    linear-gradient(to top, var(--md-primary-fg-color), #ffffff 99%, var(--md-default-bg-color) 99%);
-    padding-top: 1rem;
-    text-align: center;
-    padding-bottom: 3rem;
-}
-
-.connection-demo h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: var(--description-font-dark);
-}
-
-.connection-demo img {
-    max-width: 100%; /* Limit image width to the container's width */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Block display to enable margin settings */
-    margin-left: auto; /* Center the image horizontally */
-    margin-right: auto;
-}
-
 .use-cases {
     padding: 2rem; /* This will apply to top and bottom */
     padding-left: 1rem; /* Add left padding */
@@ -342,4 +320,63 @@
     .comparison-table th, .comparison-table td {
       padding: 8px;
     }
-  }
+}
+
+
+.connection-demo .container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; /* Vertically center content for larger screens */
+}
+
+.connection-demo .connection-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.connection-demo .connection-block {
+    flex-basis: 33.33%;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center content within each block */
+}
+
+.connection-demo img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 60em) {
+    .connection-demo .container {
+        flex-direction: row; /* Switch to row layout for smaller screens */
+        flex-wrap: wrap;
+    }
+
+    .connection-demo .connection-row {
+        flex-direction: column; /* Stack the rows vertically */
+        width: 50%; /* Each row takes up half the width */
+    }
+
+    .connection-demo .connection-block {
+        width: 100%; /* Full width for each block */
+    }
+
+    .connection-demo .connection-row:first-child {
+        text-align: left; /* Align text to the left for the first row */
+        order: 2; /* Place the text row first */
+    }
+
+    .connection-demo .connection-row:last-child {
+        text-align: right; /* Align images to the right for the second row */
+        order: 1; /* Place the image row second */
+    }
+
+    .connection-demo .connection-op-img {
+        transform: rotate(90deg);
+    }
+}
