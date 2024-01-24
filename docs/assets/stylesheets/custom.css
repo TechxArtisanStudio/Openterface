@@ -322,28 +322,28 @@
     }
 }
 
-
 .connection-demo .container {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center; /* Vertically center content for larger screens */
+    align-items: center;
 }
 
-.connection-demo .connection-row {
+.connection-row {
     display: flex;
+    align-items: center;
     justify-content: center;
-    width: 100%;
 }
 
 .connection-demo .connection-block {
-    flex-basis: 33.33%;
     text-align: center;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Vertically center content within each block */
+    justify-content: center;
 }
 
 .connection-demo img {
@@ -351,32 +351,11 @@
     height: auto;
 }
 
-@media screen and (max-width: 60em) {
-    .connection-demo .container {
-        flex-direction: row; /* Switch to row layout for smaller screens */
-        flex-wrap: wrap;
-    }
+.connection-demo p {
+    font-size: 0.8rem;
+    color: var(--description-font-dark);
+}
 
-    .connection-demo .connection-row {
-        flex-direction: column; /* Stack the rows vertically */
-        width: 50%; /* Each row takes up half the width */
-    }
-
-    .connection-demo .connection-block {
-        width: 100%; /* Full width for each block */
-    }
-
-    .connection-demo .connection-row:first-child {
-        text-align: left; /* Align text to the left for the first row */
-        order: 2; /* Place the text row first */
-    }
-
-    .connection-demo .connection-row:last-child {
-        text-align: right; /* Align images to the right for the second row */
-        order: 1; /* Place the image row second */
-    }
-
-    .connection-demo .connection-op-img {
-        transform: rotate(90deg);
-    }
+.bold-text {
+    font-weight: bold;
 }
