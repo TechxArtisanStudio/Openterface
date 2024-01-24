@@ -21,7 +21,7 @@
             Get Started
           </a>
           <a href="{{ 'https://forms.gle/GhPcVbVpGiL2szSV9' | url }}" title="Buy" class="md-button">
-            Pre-Order NOW
+            Cooming Soon
           </a>
         </div>
       </div>
@@ -58,8 +58,34 @@
 
   <section class="connection-demo" id="connection-demo">
     <div class="container">
-      <h2>Connection</h2>
-      <img src="images/product/connection-light.png" alt="Device Connection" draggable="false" width="1000">
+        <div class="connection-row">
+            <div class="connection-block">
+                <img src="images/product/connection-macos.png" alt="Connection macOS" draggable="false">
+                <p>Host</p>
+            </div>
+            <div class="connection-block">
+                <img src="images/product/connection-op.png" alt="Connection mini-KVM Openterface" draggable="false" class="connection-op-img">
+                <p><span class="bold-text">Mini-KVM Openterface</span></p>
+            </div>
+            <div class="connection-block">
+                <img src="images/product/connection-targets.png" alt="Connection Target Devices" draggable="false">
+                <p>Target Devices</p>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="comparison-solution" id="comparison-solution">
+    <div class="container">
+      <h2>Comparison</h2>
+      <p>
+        The Openterface Mini-KVM features portability, easy installation, and user-friendly app control,
+        without the need for a network or external power.
+        Learn how it compares to traditional KVMs and VNC for simplified use.
+      </p>
+      <a href="{{ 'comparison/' | url }}" title="Read More" class="md-button md-button--primary read-more-btn">
+        Read More
+      </a>
     </div>
   </section>
   
@@ -67,7 +93,6 @@
     <div class="container">
       <h2>Product Features</h2>
       <div class="features-list">
-        <!-- Describe use features here -->
         <div class="feature">
           <h3>Plug-and-Play</h3>
           <p>Enables immediate use without the need for software installations or configurations on the target computer.</p>
@@ -89,127 +114,23 @@
           <p>Ensures a tidy usage experience by not leaving any software remnants on the target computer.</p>
         </div>
       </div>
+      <a href="{{ 'specifications/' | url }}" title="Read More" class="md-button md-button--primary read-more-btn">
+        Read More
+      </a>
     </div>
   </section>
-
-  <section class="comparison-table" id="comparison-table">
-    <div class="container">
-      <h2>Solution Comparison</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Comparison Category</th>
-            <th>Openterface Mini-KVM</th>
-            <th>Traditional KVM</th>
-            <th>Traditional VNC</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>🎮 Method & Limitation</td>
-            <td>Local, cable-limited</td>
-            <td>Local, cable-limited</td>
-            <td>Local/Remote, network-limited</td>
-          </tr>
-          <tr>
-            <td>🚀 Portability</td>
-            <td>Highly portable, easy setup</td>
-            <td>Stationary, bulky</td>
-            <td>Software-based, not applicable</td>
-          </tr>
-          <tr>
-            <td>🛠️ Installation Complexity</td>
-            <td>Plug-and-play, minimal setup</td>
-            <td>Moderate setup, peripherals required</td>
-            <td>Network and software setup, complex</td>
-          </tr>
-          <tr>
-            <td>🖥️ Control Interface</td>
-            <td>Host software interface</td>
-            <td>Physical switch interface</td>
-            <td>Host software interface</td>
-          </tr>
-          <tr>
-            <td>👁️ User Interface</td>
-            <td>Intuitive app-based</td>
-            <td>Physical switching, no software</td>
-            <td>Variable software interface</td>
-          </tr>
-          <tr>
-            <td>🔄 Cross-OS Compatibility</td>
-            <td>Fully compatible with multiple OS</td>
-            <td>Depends on model and connections</td>
-            <td>Compatible software required</td>
-          </tr>
-          <tr>
-            <td>🖼️ Screen Resolution</td>
-            <td>High-quality via HDMI</td>
-            <td>Varies with cable and KVM</td>
-            <td>Varies with software and network</td>
-          </tr>
-          <tr>
-            <td>🔑 Access to BIOS</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>No</td>
-          </tr>
-          <tr>
-            <td>📁 File Transfer</td>
-            <td>Hardware-based via its switchable USB-A</td>
-            <td>Not available</td>
-            <td>Software-based, network-dependent</td>
-          </tr>
-          <tr>
-            <td>💻 Multi-Device Support</td>
-            <td>1-to-1, by one host and hardware-dependent</td>
-            <td>1-to-N, by one physical setup</td>
-            <td>N-to-N, by network and software-dependent</td>
-          </tr>
-          <tr>
-            <td>🔌 Cables & Accessories</td>
-            <td>Fewer cables (HDMI, Type-C to USB-A)</td>
-            <td>Multiple (Video Cable, Keyboard, Mouse, etc.)</td>
-            <td>Network required</td>
-          </tr>
-          <tr>
-            <td>📱 Software</td>
-            <td>macOS host app required</td>
-            <td>No additional software for basic operation</td>
-            <td>Client software on both host and target</td>
-          </tr>
-          <tr>
-            <td>⚡️ Power Supply</td>
-            <td>No external power needed</td>
-            <td>External power often required</td>
-            <td>Not applicable (software-based)</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>  
 
   <section class="use-cases" id="use-cases">
     <div class="container">
       <h2>Use Cases</h2>
-      <div class="cases-list">
-        <!-- Describe use cases here -->
-        <div class="case">
-          <h3>Micro-Computer Setup Made Easy</h3>
-          <p>Ideal for enthusiasts using Raspberry Pi or Jetson Nano, our product simplifies setup, allowing control from a main computer without needing extra peripherals.</p>
-        </div>
-        <div class="case">
-          <h3>Mobile App Integration for Desktops</h3>
-          <p>Seamlessly manage mobile apps like surveillance, stock trading, and social media directly from your computer, bringing convenience to your desktop.</p>
-        </div>
-        <div class="case">
-          <h3>Unified Device Interface</h3>
-          <p>Easily control personal and work computers, along with mobile devices, from one interface. Perfect for managing multiple devices without switching hardware.</p>
-        </div>
-        <div class="case">
-          <h3>Streamlined Server Room Management</h3>
-          <p>Control multiple servers from a single workstation, enhancing efficiency in server operations and maintenance.</p>
-        </div>
-      </div>
+      <p>
+        Our product is designed to be a portable KVM solution for a variety of use cases,
+        from simplifising micro-computer setup to intergrating multiple computers into one interface.
+        Ideal for tech enthusiasts, professionals, and influencers.
+        </p>
+      <a href="{{ 'use-cases/' | url }}" title="Read More" class="md-button md-button--primary read-more-btn">
+        Read More
+      </a>
     </div>
   </section>
   
