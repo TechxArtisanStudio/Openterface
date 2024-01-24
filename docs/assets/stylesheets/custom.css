@@ -2,6 +2,13 @@
     --description-font-dark: #373737;
     --description-font-light: #efefef;
     --button-hover-color: #ffffff;
+    --shared-padding: 2rem 4rem;
+    --shared-padding-mobile: 1rem 1rem;
+    --shared-padding-mobile-bottom: 2rem;
+}
+
+.bold-text {
+    font-weight: bold;
 }
 
 .md-button.md-button:hover {
@@ -28,83 +35,8 @@
 }
 
 .mdx-hero__content {
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
     text-align: left;
-}
-
-@media screen and (max-width:60em) {
-    .mdx-hero {
-        display: block;
-    }
-
-    .mdx-hero__content {
-        margin-top: 1rem;
-        max-width: none;
-        padding-bottom: 2rem;
-        text-align: center;
-    }
-
-    .mdx-hero__content .logo-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-        max-width: 50%;
-        margin: auto; /* Center the container */
-    }
-
-    .mdx-hero__content .logo-container img {
-        max-width: 100%; /* Allow logos to scale down */
-        height: auto; /* Maintain aspect ratio */
-    }
-
-    .mdx-hero__content .logo-container img[src="assets/logo.png"] {
-        width: 26%;
-    }
-
-    .mdx-hero__content img, 
-    .mdx-hero__content p, 
-    .mdx-hero__content a {
-        display: block; /* Stack images, paragraphs, and links */
-        margin: 0 auto; /* Center-align the elements */
-        max-width: 100%; /* Ensure they fit the container */
-        font-size: 0.8rem;
-        color: var(--description-font-light);
-    }
-
-    .mdx-hero__image {
-        order: 0;
-        transform: none;
-        width: auto; /* Adjust the image width */
-        margin-bottom: 1rem; /* Space between the image and content */
-        padding-left: 3rem; /* Added left padding */
-        padding-right: 3rem; /* Added right padding */
-    }
-}
-
-@media screen and (min-width:60em) {
-    .mdx-hero {
-        align-items: stretch;
-        display: flex;
-    }
-
-    .mdx-hero__content {
-        margin-top: 3.5rem;
-        max-width: 19rem;
-        padding-bottom: 14vw;
-    }
-
-    .mdx-hero__image {
-        order: 1;
-        transform: translateX(4rem);
-        width: 38rem;
-    }
-}
-
-@media screen and (min-width:76.25em) {
-    .mdx-hero__image {
-        transform: translateX(8rem);
-    }
 }
 
 .mdx-hero .md-button {
@@ -177,38 +109,70 @@
     color: var(--description-font-dark);
 }
 
-/* For larger screens, use a row layout with images and descriptions side by side */
-@media screen and (min-width:60em) {
-    .product-close-up .product-close-up-content {
-        flex-direction: row; /* Row layout for larger screens */
-        align-items: center;
-        justify-content: space-between;
-    }
+.connection-row {
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-    .product-close-up .product-image, .product-close-up .product-description {
-        flex-basis: 50%;
-    }
+.connection-demo .connection-block {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-    .product-close-up .product-description {
-        padding-left: 2rem;
-        text-align: left;
-    }
+.connection-demo img {
+    max-width: 100%;
+    height: auto;
+}
 
-    .product-close-up .reverse-layout {
-        flex-direction: row-reverse; /* Reverse layout for alternate sections */
-    }
+.connection-demo p {
+    font-size: 0.8rem;
+    color: var(--description-font-dark);
+}
 
-    .product-close-up .reverse-layout .product-description {
-        padding-left: 0;
-        padding-right: 2rem;
-    }
+.comparison-solution {
+    background: var(--md-default-bg-color);
+    padding: var(--shared-padding);
+    text-align: center;
+    color: var(--description-font-dark);
+}
+
+.comparison-solution h2 {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: inherit;
+}
+
+.comparison-solution p {
+    font-size: 1rem;
+    color: inherit;
+    margin-bottom: 1rem;
+}
+
+.comparison-solution .read-more-btn {
+    margin-top: 1rem;
+    float: right;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: var(--md-primary-fg-color);
+    border: 1px solid var(--md-primary-fg-color);
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+}
+
+.comparison-solution .read-more-btn:hover {
+    background-color: var(--md-primary-fg-color);
+    color: var(--description-font-light);
+    border-color: var(--md-primary-fg-color);
 }
 
 .product-features {
     background: var(--md-primary-fg-color);
-    padding: 2rem; /* This will apply to top and bottom */
-    padding-left: 1rem; /* Add left padding */
-    padding-right: 1rem; /* Add right padding */
+    padding: var(--shared-padding);
     text-align: center;
 }
 
@@ -232,114 +196,189 @@
     color: var(--description-font-light);
 }
 
-.connection-demo {
-    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 1'><path d='M0,0 H1123' style='stroke: hsla(0, 0%, 100%, 1); stroke-width: 1'/></svg>") no-repeat bottom, 
-    linear-gradient(to top, var(--md-primary-fg-color), #ffffff 99%, var(--md-default-bg-color) 99%);
-    padding-top: 1rem;
-    text-align: center;
-    padding-bottom: 3rem;
+.product-features .read-more-btn {
+    margin-top: 1rem;
+    float: right;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: 1px solid var(--md-primary-fg-color);
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+    background-color: var(--md-primary-fg-color);
+    color: var(--description-font-light);
+    border: 1px solid var(--description-font-light);
 }
 
-.connection-demo h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: var(--description-font-dark);
-}
-
-.connection-demo img {
-    max-width: 100%; /* Limit image width to the container's width */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Block display to enable margin settings */
-    margin-left: auto; /* Center the image horizontally */
-    margin-right: auto;
+.product-features .read-more-btn:hover {
+    background-color: var(--button-hover-color);
+    color: var(--md-primary-fg-color);
 }
 
 .use-cases {
-    padding: 2rem; /* This will apply to top and bottom */
-    padding-left: 1rem; /* Add left padding */
-    padding-right: 1rem; /* Add right padding */
+    background: var(--md-default-bg-color);
+    padding: var(--shared-padding);
     text-align: center;
+    color: var(--description-font-dark);
 }
 
 .use-cases h2 {
     font-size: 2rem;
+    line-height: 1.6;
     margin-bottom: 1rem;
-    color: var(--description-font-dark);
+    color: inherit;
 }
 
-.use-cases .cases-list .case {
+.use-cases p {
+    font-size: 1rem;
+    color: inherit;
     margin-bottom: 1rem;
 }
 
-.use-cases .cases-list h3 {
-    font-size: 1.2rem;
-    color: var(--description-font-dark);
-}
-
-.use-cases .cases-list p {
-    font-size: 0.8rem;
-    color: var(--description-font-dark);
-}
-
-.comparison-table {
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  .comparison-table .container {
-    max-width: 1200px;
-    margin: auto;
-    overflow-x: auto; /* Ensures table is scrollable on small screens */
-  }
-  
-  .comparison-table h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: var(--description-font-dark);
-  }
-  
-  .comparison-table table {
-    width: 100%;
-    border-collapse: collapse;
+.use-cases .read-more-btn {
     margin-top: 1rem;
-    background-color: #ffffff;
-  }
-  
-  .comparison-table th, .comparison-table td {
-    text-align: left;
-    padding: 12px 15px;
-    border: 1px solid #ddd;
-    color: var(--description-font-dark);
-  }
-  
-  .comparison-table th {
-    background-color: #626262;
+    float: right;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: var(--md-primary-fg-color);
+    border: 1px solid var(--md-primary-fg-color);
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+}
+
+.use-cases .read-more-btn:hover {
+    background-color: var(--md-primary-fg-color);
     color: var(--description-font-light);
-    font-weight: bold; /* Make font bold for headers */
-  }
-  
-  /* Highlighting Openterface Mini-KVM Column */
-  .comparison-table td:nth-child(2) {
-    background-color: #ffe9d5;
-  }
-  
-  /* Hover effect for rows */
-  .comparison-table tr:hover td {
-    background-color: #e8e8e8;
-  }
-  
-  /* Ensuring highlighted column maintains its color on hover */
-  .comparison-table tr:hover td:nth-child(2) {
-    background-color: #ffddb0; /* Slightly darker shade for hover on highlighted column */
-  }
-  
-  /* Responsive Styling */
-  @media screen and (max-width: 768px) {
-    .comparison-table h2 {
-      font-size: 1.5rem;
+    border-color: var(--md-primary-fg-color);
+}
+
+@media screen and (min-width:76.25em) {
+    .mdx-hero__image {
+        transform: translateX(8rem);
     }
-  
-    .comparison-table th, .comparison-table td {
-      padding: 8px;
+}
+
+@media screen and (min-width:60em) {
+    .mdx-hero {
+        align-items: stretch;
+        display: flex;
     }
-  }
+
+    .mdx-hero__content {
+        margin-top: 3.5rem;
+        max-width: 19rem;
+        padding-bottom: 14vw;
+    }
+
+    .mdx-hero__image {
+        order: 1;
+        transform: translateX(4rem);
+        width: 38rem;
+    }
+
+    .product-close-up .product-close-up-content {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .product-close-up .product-image, .product-close-up .product-description {
+        flex-basis: 50%;
+    }
+
+    .product-close-up .product-description {
+        padding-left: 2rem;
+        text-align: left;
+    }
+
+    .product-close-up .reverse-layout {
+        flex-direction: row-reverse; /* Reverse layout for alternate sections */
+    }
+
+    .product-close-up .reverse-layout .product-description {
+        padding-left: 0;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (max-width:60em) {
+    .mdx-hero {
+        display: block;
+    }
+
+    .mdx-hero__content {
+        margin-top: 1rem;
+        max-width: none;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+
+    .mdx-hero__content .logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        max-width: 50%;
+        margin: auto; /* Center the container */
+    }
+
+    .mdx-hero__content .logo-container img {
+        max-width: 100%; /* Allow logos to scale down */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .mdx-hero__content .logo-container img[src="assets/logo.png"] {
+        width: 26%;
+    }
+
+    .mdx-hero__content img, 
+    .mdx-hero__content p, 
+    .mdx-hero__content a {
+        display: block; /* Stack images, paragraphs, and links */
+        margin: 0 auto; /* Center-align the elements */
+        max-width: 100%; /* Ensure they fit the container */
+        font-size: 0.8rem;
+        color: var(--description-font-light);
+    }
+
+    .mdx-hero__image {
+        order: 0;
+        transform: none;
+        width: auto; /* Adjust the image width */
+        margin-bottom: 1rem; /* Space between the image and content */
+        padding-left: 3rem; /* Added left padding */
+        padding-right: 3rem; /* Added right padding */
+    }
+
+    .comparison-solution {
+        padding: var(--shared-padding-mobile);
+        padding-bottom: var(--shared-padding-mobile-bottom);
+    }
+
+    .comparison-solution .read-more-btn {
+        float: none; /* Prevents floating on smaller screens */
+        display: block; /* Makes the button take full width */
+        margin: 1rem auto 0; /* Centers the button */
+    }
+
+    .product-features {
+        padding: var(--shared-padding-mobile);
+        padding-bottom: var(--shared-padding-mobile-bottom);
+    }
+
+    .product-features .read-more-btn {
+        float: none;
+        display: block;
+        margin: 1rem auto 0;
+    }
+
+    .use-cases {
+        padding: var(--shared-padding-mobile);
+        padding-bottom: var(--shared-padding-mobile-bottom);
+    }
+
+    .use-cases .read-more-btn {
+        float: none;
+        display: block;
+        margin: 1rem auto 0;
+    }
+}
