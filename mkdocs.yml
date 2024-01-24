@@ -52,6 +52,8 @@ extra:
       link: https://twitter.com/TechxArtisan
     - icon: fontawesome/brands/facebook-f
       link: https://www.facebook.com/TechxArtisan
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/skfExqDD
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/TechxArtisan
     - icon: fontawesome/brands/threads
@@ -107,7 +109,6 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-
   # Enables emoji shortcodes like :+1: or :sunglasses:
   - attr_list
   - pymdownx.emoji:
@@ -131,5 +132,7 @@ nav:
     # - Concepts: concepts.md
     # - App: software.md
     # - Hardware: hardware.md
-  - Download: download.md
+  - Forum: https://discord.gg/skfExqDD
+  - Contact: contact.md
+  # - Download: download.md
   # - FAQ: faq.md
