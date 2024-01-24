@@ -177,10 +177,9 @@
     color: var(--description-font-dark);
 }
 
-/* For larger screens, use a row layout with images and descriptions side by side */
 @media screen and (min-width:60em) {
     .product-close-up .product-close-up-content {
-        flex-direction: row; /* Row layout for larger screens */
+        flex-direction: row;
         align-items: center;
         justify-content: space-between;
     }
@@ -201,6 +200,55 @@
     .product-close-up .reverse-layout .product-description {
         padding-left: 0;
         padding-right: 2rem;
+    }
+}
+
+.solution-comparison {
+    background: var(--md-default-bg-color);
+    padding: 2rem 6rem;
+    text-align: center;
+    color: var(--description-font-dark);
+}
+
+.solution-comparison h2 {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: inherit; /* Inherits color for consistency */
+}
+
+.solution-comparison p {
+    font-size: 1rem;
+    color: inherit; /* Inherits color for consistency */
+    margin-bottom: 1rem; /* Adds spacing after the paragraph for better readability */
+}
+
+.solution-comparison .read-more-btn {
+    margin-top: 1rem;
+    float: right;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: var(--md-primary-fg-color);
+    border: 1px solid var(--md-primary-fg-color);
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+}
+
+.solution-comparison .read-more-btn:hover {
+    background-color: var(--md-primary-fg-color);
+    color: var(--description-font-light);
+    border-color: var(--md-primary-fg-color);
+}
+
+@media screen and (max-width:60em) {
+    .solution-comparison {
+        padding: 2rem 1rem; /* Adjusts padding for smaller screens */
+    }
+
+    .solution-comparison .read-more-btn {
+        float: none; /* Prevents floating on smaller screens */
+        display: block; /* Makes the button take full width */
+        margin: 1rem auto 0; /* Centers the button */
     }
 }
 
@@ -257,69 +305,6 @@
 .use-cases .cases-list p {
     font-size: 0.8rem;
     color: var(--description-font-dark);
-}
-
-.comparison-table {
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  .comparison-table .container {
-    max-width: 1200px;
-    margin: auto;
-    overflow-x: auto; /* Ensures table is scrollable on small screens */
-  }
-  
-  .comparison-table h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: var(--description-font-dark);
-  }
-  
-  .comparison-table table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 1rem;
-    background-color: #ffffff;
-  }
-  
-  .comparison-table th, .comparison-table td {
-    text-align: left;
-    padding: 12px 15px;
-    border: 1px solid #ddd;
-    color: var(--description-font-dark);
-  }
-  
-  .comparison-table th {
-    background-color: #626262;
-    color: var(--description-font-light);
-    font-weight: bold; /* Make font bold for headers */
-  }
-  
-  /* Highlighting Openterface Mini-KVM Column */
-  .comparison-table td:nth-child(2) {
-    background-color: #ffe9d5;
-  }
-  
-  /* Hover effect for rows */
-  .comparison-table tr:hover td {
-    background-color: #e8e8e8;
-  }
-  
-  /* Ensuring highlighted column maintains its color on hover */
-  .comparison-table tr:hover td:nth-child(2) {
-    background-color: #ffddb0; /* Slightly darker shade for hover on highlighted column */
-  }
-  
-  /* Responsive Styling */
-  @media screen and (max-width: 768px) {
-    .comparison-table h2 {
-      font-size: 1.5rem;
-    }
-  
-    .comparison-table th, .comparison-table td {
-      padding: 8px;
-    }
 }
 
 .connection-demo .container {
