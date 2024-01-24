@@ -2,6 +2,9 @@
     --description-font-dark: #373737;
     --description-font-light: #efefef;
     --button-hover-color: #ffffff;
+    --shared-padding: 2rem 4rem;
+    --shared-padding-mobile: 1rem 1rem;
+    --shared-padding-mobile-bottom: 2rem;
 }
 
 .bold-text {
@@ -32,7 +35,7 @@
 }
 
 .mdx-hero__content {
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
     text-align: left;
 }
 
@@ -106,18 +109,8 @@
     color: var(--description-font-dark);
 }
 
-
-.connection-demo .container {
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
 .connection-row {
+    padding-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,7 +118,6 @@
 
 .connection-demo .connection-block {
     text-align: center;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,27 +133,27 @@
     color: var(--description-font-dark);
 }
 
-.solution-comparison {
+.comparison-solution {
     background: var(--md-default-bg-color);
-    padding: 2rem 6rem;
+    padding: var(--shared-padding);
     text-align: center;
     color: var(--description-font-dark);
 }
 
-.solution-comparison h2 {
+.comparison-solution h2 {
     font-size: 2rem;
     line-height: 1.6;
     margin-bottom: 1rem;
     color: inherit;
 }
 
-.solution-comparison p {
+.comparison-solution p {
     font-size: 1rem;
     color: inherit;
     margin-bottom: 1rem;
 }
 
-.solution-comparison .read-more-btn {
+.comparison-solution .read-more-btn {
     margin-top: 1rem;
     float: right;
     padding: 0.5rem 1rem;
@@ -172,7 +164,7 @@
     font-size: 0.8rem;
 }
 
-.solution-comparison .read-more-btn:hover {
+.comparison-solution .read-more-btn:hover {
     background-color: var(--md-primary-fg-color);
     color: var(--description-font-light);
     border-color: var(--md-primary-fg-color);
@@ -180,7 +172,7 @@
 
 .product-features {
     background: var(--md-primary-fg-color);
-    padding: 2rem 6rem;
+    padding: var(--shared-padding);
     text-align: center;
 }
 
@@ -224,7 +216,7 @@
 
 .use-cases {
     background: var(--md-default-bg-color);
-    padding: 2rem 6rem;
+    padding: var(--shared-padding);
     text-align: center;
     color: var(--description-font-dark);
 }
@@ -357,18 +349,20 @@
         padding-right: 3rem; /* Added right padding */
     }
 
-    .solution-comparison {
-        padding: 2rem 1rem;
+    .comparison-solution {
+        padding: var(--shared-padding-mobile);
+        padding-bottom: var(--shared-padding-mobile-bottom);
     }
 
-    .solution-comparison .read-more-btn {
+    .comparison-solution .read-more-btn {
         float: none; /* Prevents floating on smaller screens */
         display: block; /* Makes the button take full width */
         margin: 1rem auto 0; /* Centers the button */
     }
 
     .product-features {
-        padding: 2rem 1rem;
+        padding: var(--shared-padding-mobile);
+        padding-bottom: var(--shared-padding-mobile-bottom);
     }
 
     .product-features .read-more-btn {
@@ -378,7 +372,8 @@
     }
 
     .use-cases {
-        padding: 2rem 1rem;
+        padding: var(--shared-padding-mobile);
+        padding-bottom: var(--shared-padding-mobile-bottom);
     }
 
     .use-cases .read-more-btn {
