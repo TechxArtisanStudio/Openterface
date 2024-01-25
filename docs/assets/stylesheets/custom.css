@@ -287,6 +287,11 @@
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.35); /* Subtle shadow effect */
     border-radius: 10px; /* Rounded corners */
     transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+    display: none; /* initially hide tweets */
+}
+
+.twitter-tweet-loaded {
+    display: block; /* or 'flex', depending on your layout needs */
 }
 
 
