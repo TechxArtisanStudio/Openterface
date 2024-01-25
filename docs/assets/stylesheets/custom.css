@@ -272,6 +272,7 @@
     padding: var(--shared-padding);
     text-align: center;
     overflow-x: hidden;
+    display: none;
 }
 
 .twitter-feed-section .container {
@@ -422,6 +423,10 @@
         margin-bottom: 1rem; /* Space between the image and content */
         padding-left: 3rem; /* Added left padding */
         padding-right: 3rem; /* Added right padding */
+    }
+
+    .connection-row {
+        padding-bottom: 1rem;
     }
 
     .comparison-solution {
