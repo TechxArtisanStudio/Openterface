@@ -116,6 +116,14 @@
     justify-content: center;
 }
 
+.connection-demo h2 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: inherit;
+}
+
 .connection-demo .connection-block {
     text-align: center;
     display: flex;
