@@ -280,6 +280,12 @@
     margin-bottom: 2rem;
 }
 
+#loadingMessage {
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--description-font-light)
+}
+
 .twitter-feed-section .twitter-tweet {
     flex-basis: 22%;
     margin: 0.5rem;
