@@ -10,8 +10,6 @@ Stay updated and engaged with us through our social media channels:
 - :fontawesome-brands-twitter: [Follow us on Twitter](https://twitter.com/TechxArtisan)
 - :fontawesome-brands-facebook-f: [Like us on Facebook](https://www.facebook.com/TechxArtisan)
 - :fontawesome-brands-discord: [Join our Discord community](https://discord.gg/skfExqDD)
-- :fontawesome-brands-instagram: [See our Instagram](https://www.instagram.com/TechxArtisan)
-- :fontawesome-brands-threads: [Connect with us on Threads](https://www.threads.net/@techxartisan)
 - :fontawesome-brands-youtube: [Subscribe to our YouTube channel](https://youtube.com/@TechxArtisan)
 - :fontawesome-brands-linkedin-in: [Follow us on LinkedIn](https://www.linkedin.com/company/techxartisan/)
 
