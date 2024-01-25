@@ -42,6 +42,7 @@ theme:
    - content.code.copy
   palette:
     primary: deep orange
+    accent: custom
 
 extra:
   # generator: false   # Disable the credit of Mkdocks Material Credits
