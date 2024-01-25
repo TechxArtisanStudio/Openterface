@@ -257,6 +257,7 @@
     linear-gradient(to top, var(--md-primary-fg-color) 30%, #ffffff 100%, var(--md-default-bg-color) 100%);
     padding-top: 1rem;
     text-align: center;
+    overflow-x: hidden;
 }
 
 .twitter-feed-section .container {
@@ -283,14 +284,14 @@
     flex-basis: 22%;
     margin: 0.5rem;
     min-width: 250px;
-    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.35); /* Subtle shadow effect */
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.35); /* Subtle shadow effect */
     border-radius: 10px; /* Rounded corners */
     transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
 }
 
 
 .twitter-feed-section .twitter-tweet:hover {
-    box-shadow: 0 8px 64px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 64px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -442,14 +443,24 @@
         padding-left: 1rem;
         padding-right: 2rem;
         padding-bottom: var(--shared-padding-mobile-bottom);
+        overflow-x: auto;
     }
 
     .twitter-feed-section .twitter-posts {
-        flex-direction: column;
-        align-items: center;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scroll-snap-type: x proximity; /* changed to 'proximity' for more forgiving scrolling */
+        -webkit-overflow-scrolling: touch;
     }
-  
+
     .twitter-feed-section .twitter-tweet {
-        flex-basis: 100%;
+        flex: 0 0 80%;
+        scroll-snap-align: center;
+        margin-left: 10px;
+    }
+
+    .twitter-feed-section .twitter-posts::-webkit-scrollbar {
+        display: none;
     }
 }
