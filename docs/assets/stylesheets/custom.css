@@ -382,3 +382,69 @@
         margin: 1rem auto 0;
     }
 }
+
+.twitter-feed-section {
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 1'><path d='M0,0 H1123' style='stroke: hsla(0, 0%, 100%, 1); stroke-width: 1'/></svg>") no-repeat bottom, 
+    linear-gradient(to top, var(--md-primary-fg-color) 30%, #ffffff 100%, var(--md-default-bg-color) 100%);
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.twitter-feed-section .container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.twitter-feed-section h2 {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: inherit;
+}
+
+.twitter-feed-section .twitter-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.twitter-feed-section .twitter-tweet {
+    flex-basis: 22%;
+    margin: 0.5rem;
+    min-width: 250px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.35); /* Subtle shadow effect */
+    border-radius: 10px; /* Rounded corners */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+}
+
+
+.twitter-feed-section .twitter-tweet:hover {
+    box-shadow: 0 8px 64px rgba(0, 0, 0, 0.2);
+}
+
+
+.twitter-feed-section .md-button--primary {
+    background-color: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+    border-color: var(--md-primary-fg-color);
+    margin-top: 1rem;
+}
+
+.twitter-feed-section .md-button--primary:hover {
+    background-color: var(--button-hover-color);
+    color: var(--md-primary-fg-color);
+}
+
+@media screen and (max-width: 60em) {
+    .twitter-feed-section .twitter-posts {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .twitter-feed-section .twitter-tweet {
+        flex-basis: 100%;
+    }
+}
+  

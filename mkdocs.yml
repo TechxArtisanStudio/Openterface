@@ -54,10 +54,10 @@ extra:
       link: https://www.facebook.com/TechxArtisan
     - icon: fontawesome/brands/discord
       link: https://discord.gg/skfExqDD
-    - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/TechxArtisan
-    - icon: fontawesome/brands/threads
-      link: https://www.threads.net/@techxartisan
+    # - icon: fontawesome/brands/instagram
+    #   link: https://www.instagram.com/TechxArtisan
+    # - icon: fontawesome/brands/threads
+    #   link: https://www.threads.net/@techxartisan
     - icon: fontawesome/brands/youtube
       link: https://youtube.com/@TechxArtisan
     - icon: fontawesome/brands/linkedin-in
