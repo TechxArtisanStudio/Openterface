@@ -6,8 +6,14 @@
 ![Type-C to Host](images/product/lig-front.svg)
 ![Type-C to Host](images/product/lig-back.svg)
 
-## Product Dimensions
-61 x 13.5 x 53 mm (Length x Width x Height)
+## Dimensions
+61 x 13.5 x 53 mm / 2.40 x 0.53 x 2.09 inches (Length x Width x Height)
+
+## Weight
+48g
+
+## Casing
+Aluminium profile casing
 
 ## Interfaces
 ![Type-C to Host](images/type-c-to-host-2.svg)
