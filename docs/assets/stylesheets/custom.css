@@ -458,7 +458,10 @@
     }
 
     .twitter-feed-section {
-        padding: var(--shared-padding-mobile);
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
         overflow-x: auto;
     }
 
