@@ -21,9 +21,17 @@ window.onload = function() {
             tweets.forEach(function(tweet) {
                 tweet.classList.add('twitter-tweet-loaded');
             });
+
+            // Unhide the twitter feed
+            var loadingMessage = document.getElementById('twitter-feed');
+            if (loadingMessage) {
+                loadingMessage.style.display = 'block';
+            }
         });
     } else {
-        // Hide loading message if Twitter script isn't found
-        hideLoadingMessage();
+        var loadingMessage = document.getElementById('twitter-feed');
+        if (loadingMessage) {
+            loadingMessage.style.display = 'none';
+        }
     }
 };
