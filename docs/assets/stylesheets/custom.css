@@ -473,9 +473,9 @@
     .twitter-feed-section .twitter-posts {
         display: flex;
         flex-wrap: nowrap;
+        justify-content: normal;
         overflow-x: auto;
         scroll-snap-type: x proximity; /* changed to 'proximity' for more forgiving scrolling */
-        -webkit-overflow-scrolling: touch;
     }
 
     .twitter-feed-section .twitter-tweet {
