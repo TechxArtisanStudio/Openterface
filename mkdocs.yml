@@ -123,11 +123,15 @@ nav:
     - Specifications: specifications.md
     - Comparison: comparison.md
     - Use Cases: use-cases.md
-    - Privacy Policy: privacy.md
     # - Concepts: concepts.md
     # - App: software.md
     # - Hardware: hardware.md
   - Forum: https://discord.gg/skfExqDD
-  - Contact: contact.md
+  - About Us:
+    - Contact: contact.md
+    - Policies:
+      - Privacy Policy: privacy-policy.md
+      - Terms of Service: terms-of-service.md
+      - Return, Refunds & Warranty: return-refunds-warranty.md
   # - Download: download.md
   # - FAQ: faq.md
