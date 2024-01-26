@@ -15,7 +15,7 @@
 ## Casing
 Aluminium profile casing
 
-## Interfaces
+## Connections
 ![Type-C to Host](images/type-c-to-host-2.svg)
 :   A Type-C port for connecting to the host device.
 
@@ -31,10 +31,13 @@ Aluminium profile casing
 ![Switcher](images/switcher-2.svg)
 :   A switcher to toggle the USB-A port's connection between the host or target device.
 
-## Kit Composition
+## What’s in the Box
 * Core Product: Mini-KVM Openterface Light
 * Accessories:
 	+ One kit storage bag;
 	+ One Type-C male to USB-A male cable, 100cm;
 	+ One Type-C male to USB-A male cable, 15cm;
 	+ One HDMI male to HDMI male cable, 15cm.
+
+## System Requirements on Host
+macOS 12.0 or later

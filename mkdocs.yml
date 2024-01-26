@@ -10,8 +10,10 @@ site_description: One Interface, Stable Fast, Cross-OS
 
 # Copyright
 copyright: >-
-  Copyright &copy; 2023 MiniKVM Openterface, TechxArtisan -
-  <a href="#__consent">Change cookie settings</a>
+  Copyright &copy; 2023 MiniKVM Openterface, TechxArtisan |
+  <a href="#__consent">Cookie Settings</a> | <a href="/privacy">Privacy Policy</a> <br>
+  Both Openterface and TechxArtisan are divisions of Guangzhou Billio Tech. Co., Ltd.
+
 
 extra_css:
   - assets/stylesheets/extra.css
@@ -45,7 +47,6 @@ theme:
     accent: custom
 
 extra:
-  # generator: false   # Disable the credit of Mkdocks Material Credits
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/TechxArtisan
@@ -55,10 +56,6 @@ extra:
       link: https://www.facebook.com/TechxArtisan
     - icon: fontawesome/brands/discord
       link: https://discord.gg/skfExqDD
-    # - icon: fontawesome/brands/instagram
-    #   link: https://www.instagram.com/TechxArtisan
-    # - icon: fontawesome/brands/threads
-    #   link: https://www.threads.net/@techxartisan
     - icon: fontawesome/brands/youtube
       link: https://youtube.com/@TechxArtisan
     - icon: fontawesome/brands/linkedin-in
@@ -121,15 +118,12 @@ plugins:
 
 nav:
   - Home: index.md
-  # - Product: /#product-close-up
-  # - Guidelines: /#quick-guidelines
-  # - Features: /#product-features
-  # - Cases: /#use-cases
   - Documentation:
     - Quick Start: quick-start.md
     - Specifications: specifications.md
     - Comparison: comparison.md
     - Use Cases: use-cases.md
+    - Privacy Policy: privacy.md
     # - Concepts: concepts.md
     # - App: software.md
     # - Hardware: hardware.md
