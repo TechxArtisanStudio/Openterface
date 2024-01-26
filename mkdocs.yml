@@ -10,9 +10,11 @@ site_description: One Interface, Stable Fast, Cross-OS
 
 # Copyright
 copyright: >-
-  Copyright &copy; 2023 MiniKVM Openterface, TechxArtisan |
-  <a href="#__consent">Cookie Settings</a> | <a href="/privacy">Privacy Policy</a> <br>
-  Both Openterface and TechxArtisan are divisions of Guangzhou Billio Tech. Co., Ltd.
+  Copyright &copy; All rights reserved. 2023 <a href="https://www.openterface.com">MiniKVM Openterface</a>, Guangzhou Billio Tech. Co., Ltd. <br>
+  <a href="/terms-of-service">Terms of Service</a> |
+  <a href="/privacy-policy">Privacy Policy</a> | 
+  <a href="#__consent">Cookie Settings</a> | 
+  <a href="/contact">Contact Us</a>
 
 
 extra_css:
