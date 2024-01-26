@@ -120,7 +120,7 @@ nav:
   - Home: index.md
   - Documentation:
     - Quick Start: quick-start.md
-    - Specifications: specifications.md
+    - Product Information: product-information.md
     - Comparison: comparison.md
     - Use Cases: use-cases.md
     # - Concepts: concepts.md
