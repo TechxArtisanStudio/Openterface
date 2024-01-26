@@ -295,6 +295,10 @@
     margin-bottom: 2rem;
 }
 
+article > div:last-child {
+    display: none;
+}
+
 .twitter-feed-section .twitter-tweet {
     flex-basis: 22%;
     margin: 0.5rem;
@@ -326,6 +330,8 @@
     background-color: var(--button-hover-color);
     color: var(--md-primary-fg-color);
 }
+
+
 
 @media screen and (min-width:76.25em) {
     .mdx-hero__image {
