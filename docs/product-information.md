@@ -1,21 +1,17 @@
-# Specifications
-
+# Product Information
 ![Type-C to Host](images/product/lig-side.svg)
-![Type-C to Host](images/product/lig-top.svg)
+
+## Specifications
+
+- Dimensions: 61 x 13.5 x 53 mm / 2.40 x 0.53 x 2.09 inches (Length x Width x Height)
+- Weight: 48g
+- Casing: Aluminium profile casing
 
 ![Type-C to Host](images/product/lig-front.svg)
 ![Type-C to Host](images/product/lig-back.svg)
 
-## Dimensions
-61 x 13.5 x 53 mm / 2.40 x 0.53 x 2.09 inches (Length x Width x Height)
-
-## Weight
-48g
-
-## Casing
-Aluminium profile casing
-
 ## Connections
+
 ![Type-C to Host](images/type-c-to-host-2.svg)
 :   A Type-C port for connecting to the host device.
 
@@ -31,6 +27,8 @@ Aluminium profile casing
 ![Switcher](images/switcher-2.svg)
 :   A switcher to toggle the USB-A port's connection between the host or target device.
 
+![Type-C to Host](images/product/lig-top.svg)
+
 ## What’s in the Box
 * Core Product: Mini-KVM Openterface Light
 * Accessories:
@@ -39,5 +37,5 @@ Aluminium profile casing
 	+ One Type-C male to USB-A male cable, 15cm;
 	+ One HDMI male to HDMI male cable, 15cm.
 
-## System Requirements on Host
-macOS 12.0 or later
+## Requirements
+* System Version of Host Computer: macOS Monterey 12.0 or later
