@@ -303,8 +303,8 @@ article > div:last-child {
     flex-basis: 22%;
     margin: 0.5rem;
     min-width: 250px;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.35); /* Subtle shadow effect */
-    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 12px; /* Rounded corners */
     transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
     display: none; /* initially hide tweets */
 }
@@ -315,7 +315,7 @@ article > div:last-child {
 
 
 .twitter-feed-section .twitter-tweet:hover {
-    box-shadow: 0 6px 64px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
 }
 
 
