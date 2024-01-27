@@ -1,16 +1,16 @@
-# Draft: Return, Refunds and Warranty Policy (Subject to Review & Approval)
+# Return, Refunds and Warranty Policy
 
 ## Returns
 
 Openterface provides options for returns and exchanges in accordance with the following terms and conditions:
 
-### Damage in Transit
+### Damage in Shipment
 
-Should your product arrive with damage incurred during transit, we request you to inform us via email at [techxartisan@gmail.com](mailto:techxartisan@gmail.com) within two business days of receipt. Your email should detail the damages and, where possible, include photographic evidence. This assists us greatly in ensuring our products are properly packaged and transported. We will organize replacements for the damaged products.
+Should your product arrive with damage incurred during shipment, we request you to inform us via email at [techxartisan@gmail.com](mailto:techxartisan@gmail.com) within two business days of receipt. Your email should detail the damages and, where possible, include photographic evidence. This assists us greatly in ensuring our products are properly packaged and transported. We will organize replacements for the damaged products.
 
 ### Exchanges
 
-If you are unsatisfied with your purchase for any reason, we offer the facility to return items in exchange for store credit. For a return to be accepted, items must adhere to the criteria outlined in the section [Important Conditions for Return]. Please initiate exchanges within 15 days following delivery. Note that Openterface does not cover the costs of return postage and customs tax.
+If you are unsatisfied with your purchase for any reason, we offer the facility to return items in exchange for store credit. For a return to be accepted, items must adhere to the criteria outlined in the section [Important Conditions for Return]. Please initiate exchanges within 15 days following delivery. Note that Openterface ==does not cover the costs of return postage and customs tax.==
 
 ### Important Conditions for Return
 

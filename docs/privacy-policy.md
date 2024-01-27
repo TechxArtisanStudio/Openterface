@@ -29,7 +29,7 @@ By agreeing to our Service Usage Agreement, you also agree to this Privacy Polic
 
 ## **Language and Interpretation**
 
-This agreement has been provided in multiple languages for convenience. It is agreed that the working language of the company is English. In the event of any inconsistency between the English and non-English versions of this policy or any related documents, the English version shall prevail. The final interpretation of this policy will be in English.
+This agreement has been provided in multiple languages for convenience. It is agreed that the working language of the company is both English and Chinese. In the event of any inconsistency between the English and non-English versions of this policy or any related documents, the English version shall prevail. The final interpretation of this policy will be in English.
 
 ## **Governing Law and Jurisdiction**
 
