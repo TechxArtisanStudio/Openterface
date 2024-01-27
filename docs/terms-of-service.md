@@ -1,4 +1,4 @@
-# Draft: Terms of Service (Subject to Review & Approval)
+# Terms of Service
 
 ## Overview
 This website is operated by Openterface, part of Guangzhou Billio Tech Co., Ltd. The terms "we", "us", and "our" refer to Openterface. This website, inclusive of all information, tools, and services available from it, is offered to you, the user, subject to your acceptance of all the terms, conditions, policies, and notices outlined here.
@@ -9,7 +9,6 @@ Please read these Terms of Service carefully before using our website. By access
 
 New features or tools added to the current store will also fall under these Terms of Service. You can review the latest version of the Terms of Service on this page at any time. We may update, change, or replace parts of these Terms by posting updates and/or changes on our website. Regularly checking this page for changes is your responsibility. Continued use of or access to the website after changes implies acceptance of these changes.
 
-## Online Store Terms
 By agreeing to these Terms of Service, you confirm that you are at least the age of majority in your state or province of residence. If you are the age of majority, you have also consented to allow your minor dependents to use this site. Our products must not be used for illegal or unauthorized purposes, nor should the Service be used to violate any laws in your jurisdiction, including copyright laws. It is prohibited to transmit harmful code such as worms, viruses, or destructive code. Any breach of these Terms will result in immediate termination of your services.
 
 ## General Conditions
@@ -77,7 +76,7 @@ Our failure to exercise or enforce any right or provision of these Terms of Serv
 
 ## Governing Law
 
-These Terms of Service and any separate agreements whereby we provide you services shall be governed by and construed in accordance with the laws of Hong Kong.
+These Terms of Service and any separate agreements whereby we provide you services shall be governed by and construed in accordance with the laws of People's Republic of China.
 
 ## Changes to Terms of Service
 
