@@ -1,7 +1,7 @@
 :root {
     --md-accent-fg-color: #df4d3f;
     --description-font-dark: #373737;
-    --description-font-light: hsl(0, 0%, 94%);
+    --description-font-light: hsl(0, 0%, 100%);
     --button-hover-color: #ffffff;
     --shared-padding: 2rem 4rem;
     --shared-padding-mobile: 1rem 1rem;
