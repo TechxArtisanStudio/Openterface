@@ -126,9 +126,9 @@ nav:
     # - Concepts: concepts.md
     # - App: software.md
     # - Hardware: hardware.md
-  - Forum: https://discord.gg/skfExqDD
   - FAQs: faq.md
-  - About Us:
+  - Forum: https://discord.gg/skfExqDD
+  - About:
     - Contact: contact.md
     - Policies:
       - Privacy Policy: privacy-policy.md
