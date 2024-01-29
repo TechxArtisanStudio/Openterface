@@ -36,10 +36,11 @@ The Openterface Mini-KVM features ports on both black and orange ends:
 
 ## Advantages
 * **Plug-and-Play**: Enables immediate use without the need for software installations or configurations on the target computer.
-* **Stable & Fast Control**: Control the target computer with a stable and fast connection, without networks required.
+* **Stable & Fast Control**: Rapid Control of the target through HDMI and emulated keyboard/mouse USB connections, eliminating the need for network dependency.
 * **A Switchable USB-A Port**: Seamlessly alternate USB access between the host and target computers, perfect for sharing of devices like USB flash drives.
 * **BIOS-Level Access**: Enables direct access to the target device's BIOS, offering control beyond standard remote solutions.
 * **No Residue**: Ensures a tidy usage experience by not leaving any software remnants on the target computer.
+* **Unmatched Portability**: Compact and lightweight design makes it easy to carry, ideal for professionals who require mobility in their work setup.
 
 ## Install the App
 
