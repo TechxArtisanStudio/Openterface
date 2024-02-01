@@ -514,7 +514,7 @@ article > div:last-child {
     padding: 1rem 2rem;
     position: relative;
     margin: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
 }
 
 .dialogue-bubble p {
@@ -541,23 +541,48 @@ article > div:last-child {
 }
 
 #join-waitlist-button {
+    background-color: var(--button-hover-color);
+    color: var(--md-primary-fg-color);
     margin-top: 1rem;
     padding: 0.5rem 1rem;
     text-decoration: none;
-    border: 1px solid var(--md-primary-fg-color);
-    border-radius: 0.25rem;
-    background-color: var(--md-primary-fg-color);
-    color: var(--description-font-light);
-    border: 1px solid var(--description-font-light);
+    border: 2px solid var(--md-primary-fg-color);
+    border-radius: 1rem;
     font-size: 1.5rem;
+    display: block;
 }
 
 #join-waitlist-button:hover {
-    background-color: var(--button-hover-color);
-    color: var(--md-primary-fg-color);
+    color: var(--button-hover-color);
+    background-color: var(--md-primary-fg-color);
+}
+
+.avatar {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the image round */
+    float: left; /* Aligns the avatar to the left of the text */
+    margin-right: 10px; /* Space between avatar and text */
+}
+
+#op-bubble {
+    position: relative; /* Required for absolute positioning of avatar */
+    align-items: center; /* Centers items vertically within the bubble */
+}
+
+#op-bubble p {
+    margin-top: 0.5rem;
+    align-items: center;
+    margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 60em) {
+    .avatar {
+        width: 30px; /* Smaller size for mobile */
+        height: 30px; /* Smaller size for mobile */
+        margin-right: 5px; /* Less space on mobile */
+    }
+
     .dialogue-bubble {
         padding: .5rem 1rem;
     }
@@ -572,5 +597,11 @@ article > div:last-child {
         display: block;
         margin: 1rem auto 0;
         font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    #op-bubble p {
+        margin-top: 0rem;
+        margin-bottom: 1.2rem;
     }
 }
