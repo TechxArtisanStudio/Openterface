@@ -8,12 +8,6 @@
     --shared-padding-mobile-bottom: 2rem;
 }
 
-.common-section-style {
-    background: var(--md-primary-fg-color);
-    padding: var(--shared-padding);
-    text-align: center;
-}
-
 .bold-text {
     font-weight: bold;
 }
@@ -504,6 +498,8 @@ article > div:last-child {
 
 
 .dialogue-section {
+    background: var(--md-primary-fg-color);
+    padding: var(--shared-padding);
     text-align: center;
 }
 
@@ -527,9 +523,9 @@ article > div:last-child {
 .dialogue-bubble::after {
     content: '';
     position: absolute;
-    bottom: -20px;
+    bottom: -32px;
     left: 50%;
-    border-width: 10px;
+    border-width: 16px;
     border-style: solid;
     border-color: white transparent transparent transparent;
     transform: translateX(-50%);
@@ -558,16 +554,16 @@ article > div:last-child {
 }
 
 .avatar {
-    width: 50px; /* Adjust size as needed */
-    height: 50px; /* Adjust size as needed */
-    border-radius: 50%; /* Makes the image round */
-    float: left; /* Aligns the avatar to the left of the text */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
     margin-right: 10px; /* Space between avatar and text */
 }
 
 #op-bubble {
-    position: relative; /* Required for absolute positioning of avatar */
-    align-items: center; /* Centers items vertically within the bubble */
+    position: relative;
+    align-items: center;
 }
 
 #op-bubble p {
@@ -577,26 +573,36 @@ article > div:last-child {
 }
 
 @media screen and (max-width: 60em) {
+    .dialogue-section {
+        padding: 2rem 0rem;
+    }
+
     .avatar {
-        width: 30px; /* Smaller size for mobile */
-        height: 30px; /* Smaller size for mobile */
-        margin-right: 5px; /* Less space on mobile */
+        width: 32px;
+        height: 32px;
+        margin-right: 6px;
     }
 
     .dialogue-bubble {
-        padding: .5rem 1rem;
+        padding: 1rem 1rem;
+        margin: 1rem;
+    }
+
+    .dialogue-bubble p {
+        padding-top: 6px;
+        font-size: 1rem;
     }
 
     .dialogue-bubble::after {
-        bottom: -10px;
-        border-width: 5px;
+        bottom: -22px;
+        border-width: 12px;
     }
 
     #join-waitlist-button {
         float: none;
         display: block;
         margin: 1rem auto 0;
-        font-size: 1rem;
+        font-size: 0.8rem;
         margin-bottom: 0.5rem;
     }
 
