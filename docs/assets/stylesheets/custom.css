@@ -8,6 +8,12 @@
     --shared-padding-mobile-bottom: 2rem;
 }
 
+.common-section-style {
+    background: var(--md-primary-fg-color);
+    padding: var(--shared-padding);
+    text-align: center;
+}
+
 .bold-text {
     font-weight: bold;
 }
@@ -493,5 +499,78 @@ article > div:last-child {
 
     .twitter-feed-section .twitter-posts::-webkit-scrollbar {
         display: none;
+    }
+}
+
+
+.dialogue-section {
+    text-align: center;
+}
+
+.dialogue-bubble {
+    display: inline-block;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    position: relative;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dialogue-bubble p {
+    font-size: 1.5rem;
+    margin: 0;
+    color: var(--description-font-dark);
+    font-weight: bold;
+}
+
+.dialogue-bubble::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+    transform: translateX(-50%);
+}
+
+.callout-button-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#join-waitlist-button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: 1px solid var(--md-primary-fg-color);
+    border-radius: 0.25rem;
+    background-color: var(--md-primary-fg-color);
+    color: var(--description-font-light);
+    border: 1px solid var(--description-font-light);
+    font-size: 1.5rem;
+}
+
+#join-waitlist-button:hover {
+    background-color: var(--button-hover-color);
+    color: var(--md-primary-fg-color);
+}
+
+@media screen and (max-width: 60em) {
+    .dialogue-bubble {
+        padding: .5rem 1rem;
+    }
+
+    .dialogue-bubble::after {
+        bottom: -10px;
+        border-width: 5px;
+    }
+
+    #join-waitlist-button {
+        float: none;
+        display: block;
+        margin: 1rem auto 0;
+        font-size: 1rem;
     }
 }
