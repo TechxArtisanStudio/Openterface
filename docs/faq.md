@@ -29,7 +29,7 @@
 
 ### **Will there be technical support and documentation available for the Openterface Mini-KVM?**
 
-- Extensive documentation for the Openterface Mini-KVM can be found on our website at [Openterface.com](https://www.openterface.com/). We continuously update these resources to optimize your experience with the device. For technical support, we invite you to join our [Discord forum](https://discord.gg/skfExqDD), a community-driven platform for sharing queries and insights among fellow users and our expert team. If your issue remains unresolved, our team is readily available to provide further technical assistance.
+- Extensive documentation for the Openterface Mini-KVM can be found on our website at [Openterface.com](https://www.openterface.com/). We continuously update these resources to optimize your experience with the device. For technical support, we invite you to join our [Reddit Community](https://www.reddit.com/r/Openterface_miniKVM/), a community-driven platform for sharing queries and insights among fellow users and our expert team. If your issue remains unresolved, our team is readily available to provide further technical assistance.
 
 ### **How does the Openterface Mini-KVM work?**
 

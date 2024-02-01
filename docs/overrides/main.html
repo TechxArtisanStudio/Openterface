@@ -7,6 +7,11 @@
 <!-- Announcement bar -->
 {% block announce %}
   Excited about our upcoming mini-KVM Openterface? Please <a href="https://forms.gle/YnuKHrgPzrSZrqEt9">Join Waitlist</a> now! (We promise to never spam you) For the latest updates, follow us on
+  <a href="https://www.reddit.com/r/Openterface_miniKVM/">
+    <span class="twemoji reddit">
+      {% include ".icons/fontawesome/brands/reddit-alien.svg" %}
+    </span>
+  </a>
   <a href="https://twitter.com/TechxArtisan">
     <span class="twemoji twitter">
       {% include ".icons/fontawesome/brands/twitter.svg" %}
@@ -17,15 +22,8 @@
       {% include ".icons/fontawesome/brands/facebook-f.svg" %}
     </span>
   </a>
-  <a href="https://discord.gg/skfExqDD">
-    <span class="twemoji discord">
-      {% include ".icons/fontawesome/brands/discord.svg" %}
-    </span>
-  </a>
 {% endblock %}
-<!-- End of announcement bar -->
 
-<!-- Theme-related JavaScript -->
 {% block scripts %}
   {{ super() }}
   <script src="{{ 'assets/javascripts/custom.js' | url }}"></script>
