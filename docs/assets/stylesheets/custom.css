@@ -507,7 +507,7 @@ article > div:last-child {
     display: inline-block;
     background-color: white;
     border-radius: 20px;
-    padding: 1rem 2rem;
+    padding: 1rem 1.5rem;
     position: relative;
     margin: 1rem;
     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
@@ -518,6 +518,18 @@ article > div:last-child {
     margin: 0;
     color: var(--description-font-dark);
     font-weight: bold;
+}
+
+#op-bubble {
+    position: relative;
+    align-items: center;
+}
+
+#op-bubble p {
+    margin-top: 0.5rem;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-left: 3rem;
 }
 
 .dialogue-bubble::after {
@@ -544,7 +556,7 @@ article > div:last-child {
     text-decoration: none;
     border: 2px solid var(--md-primary-fg-color);
     border-radius: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     display: block;
 }
 
@@ -561,26 +573,15 @@ article > div:last-child {
     margin-right: 10px; /* Space between avatar and text */
 }
 
-#op-bubble {
-    position: relative;
-    align-items: center;
-}
-
-#op-bubble p {
-    margin-top: 0.5rem;
-    align-items: center;
-    margin-bottom: 2rem;
-}
-
 @media screen and (max-width: 60em) {
     .dialogue-section {
         padding: 2rem 0rem;
     }
 
     .avatar {
+        margin-right: 0px;
         width: 32px;
         height: 32px;
-        margin-right: 6px;
     }
 
     .dialogue-bubble {
@@ -589,8 +590,14 @@ article > div:last-child {
     }
 
     .dialogue-bubble p {
-        padding-top: 6px;
+        padding-left: 0rem;
         font-size: 1rem;
+    }
+
+    #op-bubble p {
+        padding-top: 6px;
+        margin-top: 0rem;
+        margin-bottom: 1rem;
     }
 
     .dialogue-bubble::after {
@@ -604,10 +611,5 @@ article > div:last-child {
         margin: 1rem auto 0;
         font-size: 0.8rem;
         margin-bottom: 0.5rem;
-    }
-
-    #op-bubble p {
-        margin-top: 0rem;
-        margin-bottom: 1.2rem;
     }
 }
