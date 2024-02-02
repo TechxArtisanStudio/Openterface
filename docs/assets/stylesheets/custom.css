@@ -296,9 +296,7 @@
     margin-bottom: 2rem;
 }
 
-article > div:last-child {
-    display: none;
-}
+
 
 .twitter-feed-section .twitter-tweet {
     flex-basis: 22%;
