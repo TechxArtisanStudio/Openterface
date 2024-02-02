@@ -1,5 +1,9 @@
 # Frequently Asked Questions (FAQs) about Openterface Mini-KVM
 
+We're delighted to have you here! ❤️ This section aims to provide answers to commonly asked questions regarding the Openterface Mini-KVM. 
+If you don't find what you're looking for, please join our Openterface [Reddit community](https://www.reddit.com/r/Openterface_miniKVM/) to pose your questions and engage in discussions. Furthermore, feel free to reach out via our [feedback form](https://forms.gle/rwDDsMbs5pFwq7227). 
+
+
 ## Basic
 
 ### **What is the Openterface Mini-KVM?**
