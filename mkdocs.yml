@@ -110,11 +110,13 @@ markdown_extensions:
   - pymdownx.tilde
   # Enables emoji shortcodes like :+1: or :sunglasses:
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
+  - glightbox
   - search
   - tags:
       # tags_file: tags.md
