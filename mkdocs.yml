@@ -141,7 +141,7 @@ nav:
     # - App: software.md
     # - Hardware: hardware.md
   - FAQs: faq.md
-  - Blog:
+  - Posts:
     - blog/index.md
     - Tags: tags.md
   - Discussion: https://www.reddit.com/r/Openterface_miniKVM/

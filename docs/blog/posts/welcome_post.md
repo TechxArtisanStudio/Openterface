@@ -6,12 +6,13 @@ categories:
   - Announcement
 ---
 
-# Welcome to Our Blog!
+# Welcome to Our Website!
 
-👋 Greetings, Fellow Enthusiasts! 🌍 We are thrilled to announce the launch of our official blog space for our **Openterface mini-KVM**. Here, you'll find the latest updates and developments regarding its hardware and software.
+👋 Greetings, Fellow Enthusiasts! 🌍 We are thrilled to announce the launch of our official website for our **Openterface mini-KVM**. Here, you'll find the latest updates and developments regarding its hardware and software.
+
+<!-- more -->
 
 You can check out its docs here: [openterface.com](https://openterface.com)
-
 You can also find & follow our **TechxArtisan** creative studio on
 
 * [Join Reddit community](https://www.reddit.com/r/Openterface_miniKVM/)
@@ -22,3 +23,5 @@ You can also find & follow our **TechxArtisan** creative studio on
 * [Subscribe to our YouTube channel](https://youtube.com/@TechxArtisan)
 
 Stay connected and keep an eye on our posts for exciting news and information!
+
+![txa-banner](https://pbs.twimg.com/media/GD5IwIzaAAAZRwx?format=jpg&name=4096x4096){ style="max-height: 480px; width: auto;" loading="lazy" }
