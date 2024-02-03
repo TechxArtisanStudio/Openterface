@@ -10,14 +10,10 @@ tags:
 ---
 
 # The Beauty in PCB
-🔍Ever noticed the beauty in PCB layouts? I'm often captivated by their art-like complexity – a symphony of logic, precision, and structure. Can't help to stare for long time... It's magic making #miniKVM working✨. Do you find such tech designs fascinating too?💻🔧  -> Join our discussion [here](https://x.com/TechxArtisan/status/1750325082038407570?s=20) in X.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">🔍Ever noticed the beauty in PCB layouts? I&#39;m often captivated by their art-like complexity – a symphony of logic, precision, and structure. Can&#39;t help to stare for long time... It&#39;s magic making <a href="https://twitter.com/hashtag/miniKVM?src=hash&amp;ref_src=twsrc%5Etfw">#miniKVM</a> working✨. Do you find such tech designs fascinating too?💻🔧 <a href="https://twitter.com/hashtag/Openterface?src=hash&amp;ref_src=twsrc%5Etfw">#Openterface</a> <a href="https://t.co/PrHv1CSYZh">pic.twitter.com/PrHv1CSYZh</a></p>&mdash; TechxArtisan (@TechxArtisan) <a href="https://twitter.com/TechxArtisan/status/1750325082038407570?ref_src=twsrc%5Etfw">January 25, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <!-- more -->
-
-![PCB-1](https://res.makeronsite.com/openterface/GEpnUk3bsAA3VfL.png){ style="max-height: 300px; width: auto;" loading="lazy" }
-![PCB-2](https://res.makeronsite.com/openterface/GEpnU3ZacAAJfff.png){ style="max-height: 300px; width: auto;" loading="lazy" }
-
-Here is [the video link](https://x.com/TechxArtisan/status/1752879304382521487?s=20) of the design process using Adobe Illustrator, in case you are interested.
 
 --------
 

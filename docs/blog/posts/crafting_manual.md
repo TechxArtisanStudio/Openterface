@@ -10,15 +10,9 @@ tags:
 
 # Crafting a Foldable Manual
 
-Just stepping into the design world to create a one foldable sheet for our Openterface mini KVM prototype. Filled with trial and error, plenty of 'aha' moments... well, we all start somewhere, right? Still work in progress though. What do you think? Any cool design suggestions? -> Join our discussion [here](https://www.reddit.com/r/Openterface_miniKVM/comments/1ag779e/crafting_a_foldable_manual_for_our_mini_kvm/) in our Reddit community.
-
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">check out another post with the video here: <a href="https://t.co/tMNXGITDRF">https://t.co/tMNXGITDRF</a></p>&mdash; TechxArtisan (@TechxArtisan) <a href="https://twitter.com/TechxArtisan/status/1752879766464827614?ref_src=twsrc%5Etfw">February 1, 2024</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <!-- more -->
-
-![manual-design-1](https://pbs.twimg.com/media/GE2vDC4bYAAwWmS?format=jpg&name=4096x4096){ style="max-height: 300px; width: auto;" loading="lazy" }
-![manual-design-2](https://pbs.twimg.com/media/GE2vDDRacAAtGFQ?format=jpg&name=4096x4096){ style="max-height: 300px; width: auto;" loading="lazy" }
-![manual-design-3](https://pbs.twimg.com/media/GE2vDDtbwAApdAu?format=jpg&name=4096x4096){ style="max-height: 300px; width: auto;" loading="lazy" }
-
-Here is [the video link](https://x.com/TechxArtisan/status/1752879304382521487?s=20) of the design process using Adobe Illustrator, in case you are interested.
 
 --------
 
