@@ -14,6 +14,10 @@ Just stepping into the design world to create a one foldable sheet for our Opent
 
 <!-- more -->
 
+![manual-design-1](https://pbs.twimg.com/media/GE2vDC4bYAAwWmS?format=jpg&name=4096x4096){ style="max-height: 300px; width: auto;" loading="lazy" }
+![manual-design-2](https://pbs.twimg.com/media/GE2vDDRacAAtGFQ?format=jpg&name=4096x4096){ style="max-height: 300px; width: auto;" loading="lazy" }
+![manual-design-3](https://pbs.twimg.com/media/GE2vDDtbwAApdAu?format=jpg&name=4096x4096){ style="max-height: 300px; width: auto;" loading="lazy" }
+
 Here is [the video link](https://x.com/TechxArtisan/status/1752879304382521487?s=20) of the design process using Adobe Illustrator, in case you are interested.
 
 --------
