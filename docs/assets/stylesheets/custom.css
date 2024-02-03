@@ -6,6 +6,7 @@
     --shared-padding: 2rem 4rem;
     --shared-padding-mobile: 1rem 1rem;
     --shared-padding-mobile-bottom: 2rem;
+    --shared-p-width: 680px;
 }
 
 .bold-text {
@@ -161,6 +162,10 @@
     font-size: 1rem;
     color: inherit;
     margin-bottom: 1rem;
+    max-width: var(--shared-p-width);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .comparison-solution .read-more-btn {
@@ -204,6 +209,10 @@
 .product-features .features-list p {
     font-size: 0.8rem;
     color: var(--description-font-light);
+    max-width: var(--shared-p-width);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .product-features .read-more-btn {
@@ -242,6 +251,10 @@
     font-size: 1rem;
     color: inherit;
     margin-bottom: 1rem;
+    max-width: var(--shared-p-width);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .use-cases .read-more-btn {
@@ -317,20 +330,23 @@
     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
 }
 
-
-.twitter-feed-section .md-button--primary {
-    background-color: var(--md-primary-fg-color);
-    color: var(--md-primary-bg-color);
-    border-color: var(--md-primary-fg-color);
+.twitter-feed-section .read-more-btn {
     margin-top: 1rem;
+    float: right;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: 1px solid var(--md-primary-fg-color);
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+    background-color: var(--md-primary-fg-color);
+    color: var(--description-font-light);
+    border: 1px solid var(--description-font-light);
 }
 
-.twitter-feed-section .md-button--primary:hover {
+.twitter-feed-section .read-more-btn:hover {
     background-color: var(--button-hover-color);
     color: var(--md-primary-fg-color);
 }
-
-
 
 @media screen and (min-width:76.25em) {
     .mdx-hero__image {
@@ -492,6 +508,13 @@
     .twitter-feed-section .twitter-posts::-webkit-scrollbar {
         display: none;
     }
+
+    .twitter-feed-section .read-more-btn {
+        float: none;
+        display: block;
+        margin: 1rem 1rem;
+    }
+
 }
 
 
