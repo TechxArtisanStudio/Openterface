@@ -78,7 +78,6 @@ extra:
     actions:
       - accept
       - reject
-      # - manage
   analytics:
     provider: google
     property: G-EKZEH6QYWT
@@ -96,7 +95,6 @@ extra:
           note: >- 
             Thanks for your feedback! Help us improve this page by
             using our <a href="https://forms.gle/7AoXW2YCPMfmpRmr5" target="_blank" rel="noopener">feedback form</a>.
-  generator: false
 
 markdown_extensions:
   # Enables admonitions
@@ -119,7 +117,7 @@ plugins:
   - glightbox
   - search
   - tags:
-      # tags_file: tags.md
+      tags_file: tags.md
   - blog:
       post_url_format: "{slug}"
       authors_file: "{blog}/.authors.yml"
@@ -145,6 +143,7 @@ nav:
   - FAQs: faq.md
   - Blog:
     - blog/index.md
+    - Tags: tags.md
   - Discussion: https://www.reddit.com/r/Openterface_miniKVM/
   - About:
     - Contact: contact.md

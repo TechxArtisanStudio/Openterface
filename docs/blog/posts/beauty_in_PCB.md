@@ -4,7 +4,7 @@ authors:
   - Openterface
 categories:
   - Stage - Prototyping
-tag:
+tags:
   - Design
   - Hardware
 ---
