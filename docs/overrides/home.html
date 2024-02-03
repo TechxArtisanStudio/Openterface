@@ -164,7 +164,7 @@
 
   <section class="twitter-feed-section" id="twitter-feed">
     <div class="container">
-      <h2>Recent Tweets</h2>
+      <h2>Featured Tweets</h2>
       <div class="twitter-posts">
         <p id="loadingMessage">Loading tweets...</p>
         <blockquote class="twitter-tweet">
@@ -183,8 +183,10 @@
 
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
-
     </div>
+    <a href="{{ 'blog' | url }}" title="Read More" class="md-button md-button--primary read-more-btn">
+      Read More Posts
+    </a>
   </section>
   
 {% endblock %}
