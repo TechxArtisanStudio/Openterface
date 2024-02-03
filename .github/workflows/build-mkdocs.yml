@@ -24,5 +24,8 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material 
+      - run: pip install mkdocs-material
+      # install additional dependencies here
+      - name: Install additional dependencies
+        run: pip install glightbox
       - run: mkdocs gh-deploy --force
