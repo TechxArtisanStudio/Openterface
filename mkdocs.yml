@@ -138,6 +138,7 @@ nav:
     - Product Information: product-information.md
     - Comparison: comparison.md
     - Use Cases: use-cases.md
+    - FAQs: faq.md
     # - Concepts: concepts.md
     # - App: software.md
     # - Hardware: hardware.md
@@ -148,9 +149,9 @@ nav:
   - Discussion: https://www.reddit.com/r/Openterface_miniKVM/
   - About:
     - Contact: contact.md
+    - Acknowledgements: acknowledgements.md
     - Policies:
       - Privacy Policy: privacy-policy.md
       - Terms of Service: terms-of-service.md
       - Return, Refunds & Warranty: return-refunds-warranty.md
   # - Download: download.md
-  # - FAQ: faq.md
