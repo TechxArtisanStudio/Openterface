@@ -121,7 +121,7 @@ If you don't find what you're looking for, please join our Openterface [Reddit c
 
    - No, the Openterface Mini-KVM does not support VLC for streaming video. This is because the device is not designed as a network-based solution, which is typically required for streaming applications like VLC. Our focus is on direct USB connectivity for device control and management, rather than network-dependent functionalities.
 
-<section class="dialogue-section-white common-section-style" id="dialogues-section">
+<section class="dialogue-section-white" id="dialogues-section">
     <div class="container">
     <div class="callout-button-container">
         <div class="dialogue-bubble" id="op-bubble">

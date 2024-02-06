@@ -49,7 +49,7 @@ Our comparison table above is designed to provide a clear overview of how each s
 
 In summary, the **Openterface Mini-KVM** stands out for its ^^portability, ease of installation, and the intuitive app-based control interface^^. It excels in providing ==a stable, high-quality connection for a one-to-one host-target interaction without requiring network and external power==. In contrast, traditional KVM solutions offer physical switching between multiple devices, but often at the cost of portability and setup simplicity. VNC, while flexible in allowing multiple hosts to connect to multiple devices over a network, relies heavily on software and network quality.
 
-<section class="dialogue-section-white common-section-style" id="dialogues-section">
+<section class="dialogue-section-white" id="dialogues-section">
     <div class="container">
     <div class="callout-button-container">
         <div class="dialogue-bubble" id="op-bubble">
