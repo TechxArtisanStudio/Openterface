@@ -145,8 +145,7 @@ nav:
   - FAQs: faq.md
   - Posts:
     - blog/index.md
-    - Tags: tags.md
-  - Discussion: https://www.reddit.com/r/Openterface_miniKVM/
+  - Topics: tags.md
   - About:
     - Contact: contact.md
     - Acknowledgements: acknowledgements.md
@@ -155,3 +154,4 @@ nav:
       - Terms of Service: terms-of-service.md
       - Return, Refunds & Warranty: return-refunds-warranty.md
   # - Download: download.md
+  - Join Reddit: https://www.reddit.com/r/Openterface_miniKVM/
