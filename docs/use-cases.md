@@ -5,7 +5,7 @@
 * ***Mobile App Integration for Desktop Use***: Our product is especially useful for users who rely on mobile-specific applications like home surveillance app, stock trading platforms, mobile games, or social media apps like TikTok, which may not offer desktop versions. This feature enables users to seamlessly manage mobile app tasks directly from their computer, enhancing convenience and efficiency.
 * ***Enhanced Live Stream Management for Influencers***: Highly beneficial for influencers who manage live streams across multiple devices. It efficiently integrates all the live streaming apps from different phones into a single interface on the host computer. This integration allows influencers to effortlessly manage their streams and interact with their audience in real time, all from one central location.
 
-<section class="dialogue-section-white common-section-style" id="dialogues-section">
+<section class="dialogue-section-white" id="dialogues-section">
     <div class="container">
     <div class="callout-button-container">
         <div class="dialogue-bubble" id="op-bubble">
