@@ -1,3 +1,14 @@
+---
+tags:
+  - KVM
+  - mini-KVM
+  - KVM-over-IP
+  - KVM-over-USB
+  - VNC
+  - Hardware KVM
+  - Software KVM
+---
+
 # Comparison
 
 ## **How is this Mini-KVM different from KVM-over-IP?**
@@ -18,21 +29,21 @@
 
 ## **Comparison between our Mini-KVM, traditional KVM, and VNC**
 
-| Comparison Category        | Openterface Mini-KVM                            | Traditional KVM                                  | Traditional VNC                                     |
-|----------------------------|-------------------------------------------------|--------------------------------------------------|-----------------------------------------------------|
-| 🎮 Method & Limitation     | Local, cable-limited                         | Local, cable-limited                          | ocal/Remote, network-limited                    |
+| Comparison Category        | Openterface Mini-KVM                         | Traditional KVM Switch                        | Traditional VNC                                  |
+|----------------------------|----------------------------------------------|-----------------------------------------------|--------------------------------------------------|
+| 🎮 Method & Limitation     | Local, cable-limited                         | Local, cable-limited                          | ocal/Remote, network-limited                     |
 | 🚀 Portability             | Highly portable, easy setup                  | Stationary, bulky                             | Software-based, not applicable                   |
-| 🛠️ Installation Complexity | Plug-and-play, minimal setup                | Moderate setup, peripherals required         | Network and software setup, complex              |
-| 🖥️ Control Interface       | Host software interface                      | Physical switch interface                    | Host software interface                          |
-| 👁️ User Interface         | Intuitive app-based                          | Physical switching, no software              | Variable software interface                      |
+| 🛠️ Installation Complexity | Plug-and-play, minimal setup                 | Moderate setup, peripherals required          | Network and software setup, complex              |
+| 🖥️ Control Interface       | Host software interface                      | Physical switch interface                     | Host software interface                          |
+| 👁️ User Interface          | Intuitive app-based                          | Physical switching, no software               | Variable software interface                      |
 | 🔄 Cross-OS Compatibility  | Fully compatible with multiple OS            | Depends on model and connections              | Compatible software required                     |
 | 🖼️ Screen Resolution       | High-quality via HDMI                        | Varies with cable and KVM                     | Varies with software and network                 |
-| 🔑 Access to BIOS          | Yes                                           |  Yes                                           | No                                                |
+| 🔑 Access to BIOS          | Yes                                          |  Yes                                          | No                                               |
 | 📁 File Transfer           | Hardware-based via its switchable USB-A      | Not available                                 | Software-based, network-dependent                |
-| 💻 Multi-Device Support    | 1-to-1, by one host and hardware-dependent      | 1-to-N, by one physical setup                   | N-to-N, by network and software-dependent |
+| 💻 Multi-Device Support    | 1-to-1, by one host and hardware-dependent   | 1-to-N, by one physical setup                 | N-to-N, by network and software-dependent        |
 | 🔌 Cables & Accessories    | Fewer cables (HDMI, Type-C to USB-A)         | Multiple (Video Cable, Keyboard, Mouse, etc.) | Network required                                 |
 | 📱 Software                | macOS host app required                      | No additional software for basic operation    | Client software on both host and target          |
-| ⚡️ Power Supply            | No external power needed                     | External power often required                 | Not applicable (software-based)                  |
+| ⚡️ Power Supply             | No external power needed                     | External power often required                 | Not applicable (software-based)                  |
 
 Our comparison table above is designed to provide a clear overview of how each solution aligns with different user needs, helping you choose the most suitable option for your unique setup.
 

@@ -1,3 +1,11 @@
+---
+tags:
+  - File Transfer
+  - mini-KVM
+  - Switchable USB
+  - BIOS
+---
+
 # Frequently Asked Questions (FAQs) about Openterface Mini-KVM
 
 We're delighted to have you here! ❤️ This section aims to provide answers to commonly asked questions regarding the Openterface Mini-KVM. 
@@ -79,7 +87,7 @@ If you don't find what you're looking for, please join our Openterface [Reddit c
    - If we change our mind on this matter, we will keep [our community](https://www.reddit.com/r/Openterface_miniKVM/) updated 😃
    - Nevertheless, please feel free to [share](https://forms.gle/rwDDsMbs5pFwq7227) your thoughts with us, if you really can not find a satisfying KVM-over-IP out there in the market.
 
-### **How is this different from other KVM solutions like traditional KVMs or KVM-over-IP?**
+### **How is this different from other KVM solutions like traditional KVMs, KVM-over-IP and VNC, etc?**
    - Please go to the page [Comparison](/comparison) for more details there.
 
 
@@ -124,8 +132,13 @@ If you don't find what you're looking for, please join our Openterface [Reddit c
         </div>
       <div class="dialogue-bubble" id="op-bubble">
         <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
-        <p>Join waitlist! ❤️</p>
-        <a href="https://forms.gle/YnuKHrgPzrSZrqEt9" class="md-button md-button--primary" id="join-waitlist-button">Submit</a>
+        <p>Read more 📖</p>
+        <a href="/quick-start" class="md-button md-button--primary" id="join-waitlist-button">Docs</a>
+      </div>
+      <div class="dialogue-bubble" id="op-bubble">
+        <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
+        <p>Waitlist! ❤️</p>
+        <a href="https://forms.gle/YnuKHrgPzrSZrqEt9" class="md-button md-button--primary" id="join-waitlist-button">Join!</a>
       </div>
     </div>
 </section>
