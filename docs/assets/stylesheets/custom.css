@@ -524,6 +524,11 @@
     text-align: center;
 }
 
+.dialogue-section-white {
+    padding: var(--shared-padding);
+    text-align: center;
+}
+
 .dialogue-bubble {
     display: inline-block;
     background-color: white;
@@ -532,6 +537,7 @@
     position: relative;
     margin: 1rem;
     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+    border: 1px solid #e7e7e7;
 }
 
 .dialogue-bubble p {

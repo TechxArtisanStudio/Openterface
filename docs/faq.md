@@ -6,13 +6,16 @@ If you don't find what you're looking for, please join our Openterface [Reddit c
 
 ## Basic
 
-### **What is the Openterface Mini-KVM?**
+### **What is the Openterface mini-KVM?**
 
    - The Openterface Mini-KVM is a portable device that allows control over another computer through [USB and HDMI connection](/quick-start/#connection). This KVM-over-USB solution captures video via HDMI and simulates a keyboard and mouse input. It enables to use your own laptop to display and control the target device directly. This tool is handy for tech enthusiasts and IT professionals for configuring or troubleshooting headless devices without the need for extra monitor, keyboard and mouse, especially in cases where the network connection is unreliable or not available at all.
 
 ### **What are the unique selling points of the Openterface Mini-KVM compared to similar products?**
 
    - The Openterface Mini-KVM stands out for its plug-and-play functionality, direct BIOS-level access, portable design, and a switchable USB-A port shared between host and target. It offers a stable and fast control experience without network dependency, making it ideal for uncertain situations where network access is limited or unreliable. It is about using your own laptop effectivly to do configuring for headless device: plug in, do things, and then move on to next one, without concern of network.
+
+### **What are use cases for this mini-KVM?**
+   - Please check out this page: [Use Cases](/use-cases)
 
 ### **What devices are compatible with the Openterface Mini-KVM?**
 
@@ -33,7 +36,7 @@ If you don't find what you're looking for, please join our Openterface [Reddit c
       
       This method can also be used in the opposite direction.
 
-### Can the switchable USB-A port be toggled at the software level? Could this be achieved through a button instead?
+### **Can the switchable USB-A port be toggled at the software level? Could this be achieved through a button instead?**
    - The current design does not support toggling at the software level; it can only be physically flipped for now.
    - Implementing toggling at the software level would necessitate a new design, incorporating a button and an LED indicator (either green/blue or on/off) to signify whether the USB port is set to the host or target mode. Additionally, this would require the integration of an additional chip, leading to increased costs in both hardware and software development. The existing design represents a compromise, aimed at balancing between cost-efficiency and basic functionality. Despite the potential for increased costs, we are interested in incorporating this feature in a future version for better user experience.
 
@@ -109,3 +112,20 @@ If you don't find what you're looking for, please join our Openterface [Reddit c
 ### **Does the Openterface Mini-KVM support VLC for streaming video?**
 
    - No, the Openterface Mini-KVM does not support VLC for streaming video. This is because the device is not designed as a network-based solution, which is typically required for streaming applications like VLC. Our focus is on direct USB connectivity for device control and management, rather than network-dependent functionalities.
+
+<section class="dialogue-section-white common-section-style" id="dialogues-section">
+    <div class="container">
+    <div class="callout-button-container">
+        <div class="dialogue-bubble" id="op-bubble">
+         <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
+         <p>Question?🤔</p>
+         <a href="https://www.reddit.com/r/Openterface_miniKVM/" class="md-button md-button--primary" id="join-waitlist-button">Join Reddit</a>
+         <a href="https://forms.gle/rwDDsMbs5pFwq7227" class="md-button md-button--primary" id="join-waitlist-button">Ask NOW</a>
+        </div>
+      <div class="dialogue-bubble" id="op-bubble">
+        <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
+        <p>Join waitlist! ❤️</p>
+        <a href="https://forms.gle/YnuKHrgPzrSZrqEt9" class="md-button md-button--primary" id="join-waitlist-button">Submit</a>
+      </div>
+    </div>
+</section>

@@ -4,3 +4,19 @@
 * ***Unified Interface for Multiple Devices***: This product is perfect for users who regularly operate a combination of personal and work computers, along with mobile devices such as iPhones, Android phones, and tablets. It allows for seamless control of a secondary computer, like a laptop, from a primary desktop computer. Users can manage all their devices from a single interface, avoiding the hassle of switching between different keyboards and mice.
 * ***Mobile App Integration for Desktop Use***: Our product is especially useful for users who rely on mobile-specific applications like home surveillance app, stock trading platforms, mobile games, or social media apps like TikTok, which may not offer desktop versions. This feature enables users to seamlessly manage mobile app tasks directly from their computer, enhancing convenience and efficiency.
 * ***Enhanced Live Stream Management for Influencers***: Highly beneficial for influencers who manage live streams across multiple devices. It efficiently integrates all the live streaming apps from different phones into a single interface on the host computer. This integration allows influencers to effortlessly manage their streams and interact with their audience in real time, all from one central location.
+
+<section class="dialogue-section-white common-section-style" id="dialogues-section">
+    <div class="container">
+    <div class="callout-button-container">
+        <div class="dialogue-bubble" id="op-bubble">
+        <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
+        <p>Check out ❤️</p>
+        <a href="/faq" class="md-button md-button--primary" id="join-waitlist-button">FAQs</a>
+        </div>
+        <div class="dialogue-bubble" id="op-bubble">
+        <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
+        <p>Join us! 💬</p>
+        <a href="https://www.reddit.com/r/Openterface_miniKVM/" class="md-button md-button--primary" id="join-waitlist-button">Reddit</a>
+        </div>
+    </div>
+</section>
