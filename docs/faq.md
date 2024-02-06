@@ -24,12 +24,12 @@ If you don't find what you're looking for, please join our Openterface [Reddit c
 
 ### **Can the Openterface Mini-KVM support file transfers between the host and target device?**
 
-   - Yes, the Openterface Mini-KVM includes a switchable USB-A port shared between the host and target devices. With a USB flash disk plugged into this port, files are able to transfer between host and target by following steps:
-      1. Mount a USB flash drive on host, when the small black switch is on the side of host type-c port, then
+   - Yes, the Openterface Mini-KVM includes a switchable USB-A port shared between the host and target devices. With a usb stickdisk plugged into this port, files are able to transfer between host and target by following steps:
+      1. Mount a usb stick drive on host, when the small black switch is on the side of host type-c port, then
       2. Copy the files onto this mounted drive. After copying, 
       3. Unmount the drive without physically unplugging it; Instead, 
       4. Simply flip the small black switch to other side. This action switches the USB-A port's connection to the the target. Next,
-      5. Mount the flash drive on the target device and copy/move files off the drive, completing the transfer process of files from host to target. 
+      5. Mount the usb stick on the target device and copy/move files off the drive, completing the transfer process of files from host to target. 
       
       This method can also be used in the opposite direction.
 
