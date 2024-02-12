@@ -4,8 +4,9 @@ authors:
   - Openterface
 categories:
   - Stage - Prototyping
-tags:
   - Discussion
+tags:
+  - Community
 ---
 
 # Made First Waves on Reddit
