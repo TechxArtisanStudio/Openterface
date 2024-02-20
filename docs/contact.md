@@ -6,7 +6,7 @@ We're delighted you're interested in reaching out to us. Whether you have questi
 
 Stay updated and engaged with us through our social media channels:
 
-- :fontawesome-brands-reddit-alien: [Join our Reddit Community](https://www.reddit.com/r/Openterface_miniKVM/)
+- :fontawesome-brands-reddit-alien: [Join our subreddit](https://www.reddit.com/r/Openterface_miniKVM/)
 - :fontawesome-brands-github-alt: [TechxArtisan on GitHub](https://github.com/TechxArtisan)
 - :fontawesome-brands-twitter: [Follow us on Twitter](https://twitter.com/TechxArtisan)
 - :fontawesome-brands-facebook-f: [Like us on Facebook](https://www.facebook.com/TechxArtisan)
