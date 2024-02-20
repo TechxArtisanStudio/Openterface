@@ -9,7 +9,7 @@ tags:
 # Frequently Asked Questions (FAQs) about Openterface Mini-KVM
 
 We're delighted to have you here! ❤️ This section aims to provide answers to commonly asked questions regarding the Openterface Mini-KVM. 
-If you don't find what you're looking for, please join our Openterface [Reddit community](https://www.reddit.com/r/Openterface_miniKVM/) to pose your questions and engage in discussions. Furthermore, feel free to reach out via this [form](https://forms.gle/rwDDsMbs5pFwq7227). 
+If you don't find what you're looking for, please join our Openterface [subreddit](https://www.reddit.com/r/Openterface_miniKVM/) to pose your questions and engage in discussions. Furthermore, feel free to reach out via this [form](https://forms.gle/rwDDsMbs5pFwq7227). 
 
 
 ## Basic
@@ -51,7 +51,7 @@ If you don't find what you're looking for, please join our Openterface [Reddit c
 ### **Will there be technical support and documentation available for the Openterface Mini-KVM?**
 
    - Extensive documentation for the Openterface Mini-KVM can be found on our website at [Openterface.com](https://www.openterface.com/). We continuously update these resources to optimise your experience with the device.
-   - For technical support, we invite you to join our [Reddit Community](https://www.reddit.com/r/Openterface_miniKVM/), a community-driven platform for sharing queries and insights among fellow users and our expert team.
+   - For technical support, we invite you to join our [subreddit](https://www.reddit.com/r/Openterface_miniKVM/), a community-driven platform for sharing queries and insights among fellow users and our expert team.
    - If your issue remains unresolved, our team is available to provide further technical assistance. You can  reach out via this [form](https://forms.gle/rwDDsMbs5pFwq7227). 
 
 ### **What is the expected price point?**
