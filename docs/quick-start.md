@@ -2,9 +2,11 @@
 
 ## Product Overview
 
-Our **Openterface Mini-KVM** allows to control two computers without the need for extra keyboard, mouse and monitor. 
-It allows a macOS host to control a target device, compatible with Windows, macOS, Linux, Android, iOS.
-It is designed to seamlessly integrate your workflow. It offers an efficient and clutter-free solution for managing multiple computers. 
+Our **OpenInterface Mini-KVM** allows you to control a nearby headless computer (which we refer to as the **Target**) directly from your own laptop or desktop (referred to as the **Host**) without the need for an extra keyboard, mouse, or monitor.
+
+The host computer needs to install our **host application** (currently available for macOS, with versions for Windows and Linux under development) to use this device, while the target device requires no pre-installation. It is compatible with any device that has an HDMI output and can receive USB-emulated HID signals. Therefore, the target device can be Windows, macOS, Linux, Android, iOS.
+
+It is designed to seamlessly integrate into your workflow, offering an efficient and clutter-free solution for managing multiple computers.
 
 ## Connection
 ![Type-C to Host](images/product/connection_demo.png)
