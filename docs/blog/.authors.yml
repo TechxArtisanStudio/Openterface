@@ -2,9 +2,9 @@ authors:
   TechxArtisan:
     name: TechxArtisan Studio
     description: A creative studio and community of tech enthusiasts.
-    avatar: https://github.com/techxartisan.png
+    avatar: /images/txa-avatar.jpg
 
   Openterface:
     name: Openterface
     description: Hi there!
-    avatar: https://res.makeronsite.com/openterface/op-avatar.jpg
+    avatar: /images/op-avatar.jpg
