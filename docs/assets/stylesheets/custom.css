@@ -274,6 +274,47 @@
     border-color: var(--md-primary-fg-color);
 }
 
+.feature-dev-test {
+    background: var(--md-default-bg-color);
+    padding: var(--shared-padding);
+    text-align: center;
+    color: var(--description-font-dark);
+}
+
+.feature-dev-test h2 {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: inherit;
+}
+
+.feature-dev-test p {
+    font-size: 1rem;
+    color: inherit;
+    margin-bottom: 1rem;
+    max-width: var(--shared-p-width);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feature-dev-test .read-more-btn {
+    margin-top: 1rem;
+    float: right;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: var(--md-primary-fg-color);
+    border: 1px solid var(--md-primary-fg-color);
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+}
+
+.feature-dev-test .read-more-btn:hover {
+    background-color: var(--md-primary-fg-color);
+    color: var(--description-font-light);
+    border-color: var(--md-primary-fg-color);
+}
+
 #loadingMessage {
     text-align: center;
     font-size: 0.8rem;
@@ -478,6 +519,17 @@
     }
 
     .use-cases .read-more-btn {
+        float: none;
+        display: block;
+        margin: 1rem auto 0;
+    }
+
+    .feature-dev-test {
+        padding: var(--shared-padding-mobile);
+        padding-bottom: var(--shared-padding-mobile-bottom);
+    }
+
+    .feature-dev-test .read-more-btn {
         float: none;
         display: block;
         margin: 1rem auto 0;
