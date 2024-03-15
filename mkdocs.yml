@@ -82,20 +82,20 @@ extra:
   analytics:
     provider: google
     property: G-EKZEH6QYWT
-    feedback:
-      title: Was this page helpful?
-      ratings:
-        - icon: material/heart
-          name: This page was helpful
-          data: 1
-          note: >-
-            Thanks for your feedback!
-        - icon: material/heart-broken
-          name: This page could be improved
-          data: 0
-          note: >- 
-            Thanks for your feedback! Help us improve this page by
-            using our <a href="https://forms.gle/7AoXW2YCPMfmpRmr5" target="_blank" rel="noopener">feedback form</a>.
+    # feedback:
+    #   title: Was this page helpful?
+    #   ratings:
+    #     - icon: material/heart
+    #       name: This page was helpful
+    #       data: 1
+    #       note: >-
+    #         Thanks for your feedback!
+    #     - icon: material/heart-broken
+    #       name: This page could be improved
+    #       data: 0
+    #       note: >- 
+    #         Thanks for your feedback! Help us improve this page by
+    #         using our <a href="https://forms.gle/7AoXW2YCPMfmpRmr5" target="_blank" rel="noopener">feedback form</a>.
 
 markdown_extensions:
   # Enables admonitions
