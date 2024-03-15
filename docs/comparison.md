@@ -13,7 +13,7 @@ tags:
 
 ## **How is this Mini-KVM different from KVM-over-IP?**
 
-1. **Network Independence**: Our mini-KVM Openterface uses a direct USB connection for control, whereas KVM-over-IP relies on network connectivity, which requires extra effort and time to set up for new target devices.
+1. **Network Independence**: Our Openterface mini-KVM uses a direct USB connection for control, whereas KVM-over-IP relies on network connectivity, which requires extra effort and time to set up for new target devices.
 2. **Stable Performance**: Mini-KVM offers fast and stable performance without being affected by network quality, in contrast to KVM-over-IP, which can be impacted by network speed and stability.
 3. **Portability**: The Mini-KVM is designed for portability and ease of use with nearby headless devices, making it better to deal with uncertain situations where network access is limited or unavailable.
 4. **Direct File Transfer**: The Mini-KVM supports stable file transfers between the host and target devices through a switchable USB-A port with plugging in a usb stick. This is a feature that might not be as straightforward with some KVM-over-IP solutions.
