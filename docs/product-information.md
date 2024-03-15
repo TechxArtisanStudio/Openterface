@@ -30,7 +30,7 @@
 ![Type-C to Host](images/product/lig-top.svg)
 
 ## What’s in the Box
-* Core Product: Mini-KVM Openterface Light
+* Core Product: Openterface mini-KVM
 * Accessories:
 	+ One kit storage bag;
 	+ One Type-C male to USB-A male cable, 100cm;
