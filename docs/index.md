@@ -6,4 +6,4 @@ social:
     title: Portable KVM Solution | One Interface, Stable Fast, Cross-OS
 ---
 
-Welcome to Mini-KVM Openterface.
+Welcome to Openterface mini-KVM.
