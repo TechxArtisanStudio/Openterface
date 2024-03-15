@@ -1,5 +1,5 @@
 # Project information
-site_name: Mini-KVM Openterface | Portable KVM-over-USB Solution
+site_name: Openterface Mini-KVM | Portable | Over USB | Low Latency
 site_url: https://openterface.com/
 site_author: Billy Wang
 site_description: One Interface, Stable Fast, Cross-OS
@@ -10,7 +10,7 @@ site_description: One Interface, Stable Fast, Cross-OS
 
 # Copyright
 copyright: >-
-  Copyright &copy; All rights reserved. 2023 <a href="https://www.openterface.com">MiniKVM Openterface</a>, Guangzhou Billio Tech. Co., Ltd. <br>
+  Copyright &copy; All rights reserved. 2023 <a href="https://www.openterface.com">Openterface MiniKVM</a>, Guangzhou Billio Tech. Co., Ltd. <br>
   <a href="">Home</a> |
   <a href="/terms-of-service">Terms of Service</a> |
   <a href="/privacy-policy">Privacy Policy</a> | 
@@ -52,18 +52,22 @@ theme:
 
 extra:
   social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/TechxArtisan
+    - icon: txa/crowd-supply-icon
+      link: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
+    - icon: fontawesome/brands/reddit-alien
+      link: https://www.reddit.com/r/Openterface_miniKVM/
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@TechxArtisan
     - icon: fontawesome/brands/x-twitter
       link: https://twitter.com/TechxArtisan
     - icon: fontawesome/brands/facebook-f
       link: https://www.facebook.com/TechxArtisan
-    - icon: fontawesome/brands/discord
-      link: https://discord.gg/skfExqDD
-    - icon: fontawesome/brands/youtube
-      link: https://youtube.com/@TechxArtisan
     - icon: fontawesome/brands/linkedin-in
       link: https://www.linkedin.com/company/techxartisan/
+    # - icon: fontawesome/brands/discord
+    #   link: https://discord.gg/skfExqDD
+    # - icon: fontawesome/brands/github-alt
+    #   link: https://github.com/TechxArtisan
   # alternate:
   #   - name: English
   #     link: /
@@ -113,6 +117,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+              custom_icons:
+                - overrides/.icons
 
 plugins:
   - glightbox

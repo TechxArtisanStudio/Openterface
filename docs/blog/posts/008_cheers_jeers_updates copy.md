@@ -9,9 +9,9 @@ tags:
   - Community
 ---
 
-# mini-KVM openterface Buzz: Cheers, Jeers, & Updates!
+# Openterface Mini-KVM Buzz: Cheers, Jeers, & Updates!
 
-<blockquote class="reddit-embed-bq" style="height:500px" data-embed-height="479"><a href="https://www.reddit.com/r/Openterface_miniKVM/comments/1ak4kes/minikvm_openterface_buzz_cheers_jeers_updates/">mini-KVM openterface Buzz: Cheers, Jeers, &amp; Updates!</a><br> by<a href="https://www.reddit.com/user/youyoubilly/">u/youyoubilly</a> in<a href="https://www.reddit.com/r/Openterface_miniKVM/">Openterface_miniKVM</a></blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
+<blockquote class="reddit-embed-bq" style="height:500px" data-embed-height="479"><a href="https://www.reddit.com/r/Openterface_miniKVM/comments/1ak4kes/minikvm_openterface_buzz_cheers_jeers_updates/">Openterface mini-KVM Buzz: Cheers, Jeers, &amp; Updates!</a><br> by<a href="https://www.reddit.com/user/youyoubilly/">u/youyoubilly</a> in<a href="https://www.reddit.com/r/Openterface_miniKVM/">Openterface_miniKVM</a></blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
 
 <!-- more -->
 
