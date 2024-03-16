@@ -5,8 +5,8 @@ site_author: Billy Wang
 site_description: One Interface, Stable Fast, Cross-OS
 
 # Repository
-# repo_name: Openterface
-# repo_url: https://github.com/TechxArtisan/Openterface
+repo_name: Openterface
+repo_url: https://github.com/TechxArtisan/Openterface
 
 # Copyright
 copyright: >-
