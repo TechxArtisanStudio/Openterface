@@ -4,7 +4,7 @@ We've reached a pivotal moment: our [Pre-launch Page](https://www.crowdsupply.co
 
 ---------
 
-![openterface-mini-kvm-product-view-two-sides](/docs/images/product/openterface-mini-kvm-product-view-two-sides.jpg)
+![pre_launch_poster](docs/images/event/pre_launch_poster.jpg)
 
 **Openterface Mini-KVM** allows you to control a headless target device, such as a mini PC, kiosk, or server, directly from your laptop or desktop without the need for an extra keyboard, mouse, and monitor.
 
@@ -18,7 +18,7 @@ Whether you're an IT professional needing to troubleshoot a server, a developer 
 
 ## Features & Specifications  
 
-{openterface-mini-kvm-product-view-two-sides-1 | link}
+![openterface-mini-kvm-product-view-two-sides](/docs/images/product/openterface-mini-kvm-product-view-two-sides.jpg)
 
 - **Host App Compatibility**: Currently supports macOS, with support for Windows and Linux in development.
 
