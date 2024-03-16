@@ -412,6 +412,17 @@
     color: var(--md-primary-fg-color);
 }
 
+.poster-section .container {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.poster-image {
+  max-width: 780px;
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (min-width:76.25em) {
     .mdx-hero__image {
         transform: translateX(8rem);
