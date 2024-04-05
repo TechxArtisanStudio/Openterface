@@ -2,6 +2,19 @@
 
 We're delighted you're interested in reaching out to us. Whether you have questions, feedback, or just want to say hello, here are several ways to connect with us:
 
+## Official Contact Emails
+
+To ensure you're communicating with us securely and directly, please note our official contact email addresses. For any enquiries, support, or feedback, feel free to reach out to us at:
+
+- **Primary Contact Email:** [techxartisan@gmail.com](mailto:techxartisan@gmail.com)
+
+Additionally, any email address ending with the following domains is recognized as an official communication channel for our members and customers:
+
+- **TechxArtisan Domain:** *@techxartisan.com
+- **Openterface Domain:** *@openterface.com
+
+Emails from these addresses are from our team, dedicated to providing you with the support and information you need.
+
 ## Follow Us on Social Media
 
 Stay updated and engaged with us through our social media channels:
