@@ -45,3 +45,38 @@ Openterface Mini-KVM is open hardware and uses open source host software. We wil
 ## Interested in This Project?
 
 You can sign up at our [Pre-launch Page](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) on **Crowd Supply** to be notified when the campaign launches and to receive other updates. We provide useful information only, and you can unsubscribe at any time.
+
+## Contact Us
+
+We're delighted you're interested in reaching out to us. Whether you have questions, feedback, or just want to say hello, here are several ways to connect with us:
+
+### Official Contact Emails
+
+To ensure you're communicating with us securely and directly, please note our official contact email addresses. For any enquiries, support, or feedback, feel free to reach out to us at:
+
+- **Primary Contact Email:** [techxartisan@gmail.com](mailto:techxartisan@gmail.com)
+
+Additionally, any email address ending with the following domains is recognized as an official communication channel for our members and customers:
+
+- **TechxArtisan Domain:** *@techxartisan.com
+- **Openterface Domain:** *@openterface.com
+
+Emails from these addresses are from our team, dedicated to providing you with the support and information you need.
+
+### Follow Us on Social Media
+
+Stay updated and engaged with us through our social media channels:
+
+- [Join our subreddit](https://www.reddit.com/r/Openterface_miniKVM/)
+- [TechxArtisan on GitHub](https://github.com/TechxArtisan)
+- [Follow us on Twitter](https://twitter.com/TechxArtisan)
+- [Like us on Facebook](https://www.facebook.com/TechxArtisan)
+- [Join our Discord community](https://discord.gg/4khsrbGS)
+- [Subscribe to our YouTube channel](https://youtube.com/@TechxArtisan)
+- [Follow us on LinkedIn](https://www.linkedin.com/company/techxartisan/)
+
+### Visit Our Website
+
+For more information about us and our work, please visit our website:
+
+- [TechxArtisan Official Website](https://techxartisan.com/en/)
