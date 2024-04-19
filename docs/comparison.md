@@ -51,16 +51,17 @@ In summary, the **Openterface Mini-KVM** stands out for its ^^portability, ease 
 
 <section class="dialogue-section-white" id="dialogues-section">
     <div class="container">
-    <div class="callout-button-container">
-        <div class="dialogue-bubble" id="op-bubble">
-        <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
-        <p>Check out ❤️</p>
-        <a href="/faq" class="md-button md-button--primary" id="join-waitlist-button">FAQs</a>
-        </div>
-        <div class="dialogue-bubble" id="op-bubble">
-        <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
-        <p>Join us! 💬</p>
-        <a href="https://www.reddit.com/r/Openterface_miniKVM/" class="md-button md-button--primary" id="join-waitlist-button">Subreddit</a>
+        <div class="callout-button-container">
+            <div class="dialogue-bubble" id="op-bubble">
+                <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
+                <p>Read more 📖</p>
+                <a href="/faq" class="md-button md-button--primary" id="join-waitlist-button">FAQs</a>
+            </div>
+            <div class="dialogue-bubble" id="op-bubble">
+                <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
+                <p>Question?🤔</p>
+                <a href="https://www.reddit.com/r/Openterface_miniKVM/" class="md-button md-button--primary" id="join-waitlist-button">Ask in Subreddit</a>
+            </div>
         </div>
     </div>
 </section>

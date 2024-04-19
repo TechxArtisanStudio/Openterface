@@ -1,8 +1,8 @@
 # Project information
-site_name: Openterface Mini-KVM | Portable | Over USB | Low Latency
+site_name: Openterface Mini-KVM | Turn Your Laptop into a KVM Console
 site_url: https://openterface.com/
 site_author: Billy Wang
-site_description: One Interface, Stable Fast, Cross-OS
+site_description: A Feature-rich, Open-source and Community-driven KVM-over-USB Solution
 
 # Repository
 repo_name: Openterface
@@ -142,7 +142,9 @@ nav:
   - Home: index.md
   - Documentation:
     - Quick Start: quick-start.md
-    - Product Information: product-information.md
+    - Why Openterface: why-openterface-minikvm.md
+    - How It Works: how-it-works.md
+    - Specifications: specifications.md
     - Comparison: comparison.md
     - Use Cases: use-cases.md
     - FAQs: faq.md
