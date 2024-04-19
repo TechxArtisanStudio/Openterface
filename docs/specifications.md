@@ -1,7 +1,7 @@
 # Specifications
 <!-- ![Type-C to Host](images/product/lig-side.svg) -->
 
-## Specifications
+## Overview
 
 ![lig-front](images/product/lig-front.svg)
 ![lig-back](images/product/lig-back.svg)
@@ -10,17 +10,35 @@
 - Weight: 48g
 - Casing: Aluminium profile casing
 
-## Connections
+## Interfaces
 
 ![host-side](images/labels/host-side.png)
 ![target-side](images/labels/target-side.png)
 
-① ![Type-C to Host](images/labels/Host.svg) **Host USB-C Port** (Female): A Type-C port for connecting to the host device.
+- ① ![Type-C to Host](images/labels/Host.svg) **Host USB-C Port** (Female): As a USB device port, connecting to the Host computer for data transfer via built-in USB hub
+- ② ![Type-C to Target](images/labels/Target.svg) **Target USB-C Port** (Female): As a USB device port, connecting to the Host computer for emulating keyboard and mouse HID output via built-in USB hub
+- ③ ![HDMI Port](images/labels/HDMI.svg) **HDMI Input Port (Female)**: HDMI source input from the Target computer
+- ④ ![Switchable USB-A Port](images/labels/sw-USB.svg) **Switchable USB-A 2.0 Port (Female)**: As a USB host port, utilized by either the host computer or the target computer at any given time, but not simultaneously
+- ⑤ ![Switcher](images/labels/USB-sw-front.svg) **Toggle Switch**: For toggling the connection of the USB-A 2.0 port between the host and the target computer
 
-② ![Type-C to Target](images/labels/Target.svg) **Target USB-C Port** (Female): A Type-C port to connect to the target device.
+## Power
 
-③ ![HDMI Port](images/labels/HDMI.svg) **HDMI Input Port (Female)**: An HDMI input port to capture screen streaming from the target device.
+- Connection Type: USB-C powered. No external power supply required.
 
-④ ![Switchable USB-A Port](images/labels/sw-USB.svg) **Switchable USB-A 2.0 Port (Female)**: A USB-A 2.0 port, switchable between the host and target device.
+## Video
 
-⑤ ![Switcher](images/labels/USB-sw-front.svg) **Toggle Switch**: A switcher to toggle the USB-A port's connection between the host or target device.
+- Max Video Input: Up to 3840x2160@30Hz, via HDMI (Note: With the use of an adapter, it can also support VGA, Micro HDMI, DVI, and other video input sources)
+- Supported Video Resolutions: Up to 1920x1080@30Hz
+- Video Compression Methods: YUV, MJPEG
+- Latency: Under 140 milliseconds
+
+## Audio
+
+- Audio Capture Mode: HDMI embedded audio
+
+## Environmental
+
+- Operating Temperature: 0°C to 40°C
+- Storage Temperature: -10°C to 50°C
+
+
