@@ -56,7 +56,7 @@ If you don't find what you're looking for, please join our Openterface [subreddi
 
 ### **What is the expected price point?**
 
-   - Pricing is still being determined and will depend on production costs and demand. We're exploring options like crowdfunding. Knowing how many people would like to buy this Openterface mini-KVM in advance will be very helpful for us to plan and control production costs more effectively, leading to a more affordable price. Thus, if you are interested into buying our product, please join this [Join Pre-Launch](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm).
+   - Pricing is still being determined and will depend on production costs and demand. We're exploring options like crowdfunding. Knowing how many people would like to buy this Openterface mini-KVM in advance will be very helpful for us to plan and control production costs more effectively, leading to a more affordable price. Thus, if you are interested into buying our product, please join this [Be Our Backer](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm).
 
 ## Technical
 
@@ -137,7 +137,7 @@ If you don't find what you're looking for, please join our Openterface [subreddi
       </div>
       <div class="dialogue-bubble" id="op-bubble">
         <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
-        <p>Join Pre-Launch! ❤️</p>
+        <p>Be Our Backer! ❤️</p>
         <a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm" class="md-button md-button--primary" id="join-waitlist-button">Go to Crowd Supply</a>
       </div>
     </div>
