@@ -10,7 +10,7 @@
 
 ![use-case-demo-macmini2009](/images/product/use-case-demo-macmini2009-3.jpg)
 
-* ***Secure Operations for Sensitive Tasks***: Professionals managing tasks that require network segregation, such as cryptocurrency transactions, will find this product indispensable for maintaining secure, local operations.
+* ***Secure Operations for Sensitive Tasks***: Professionals managing tasks that require network segregation, such as managing cryptocurrency assets, will find this product indispensable for maintaining secure, local operations.
 
 ![use-case-demo-industrial-pc](images/product/use-case-demo-industrial-pc.jpg)
 
