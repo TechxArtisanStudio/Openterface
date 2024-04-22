@@ -40,5 +40,8 @@
 
 - Operating Temperature: 0°C to 40°C
 - Storage Temperature: -10°C to 50°C
+- Humidity: 80% RH
+
+
 
 
