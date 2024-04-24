@@ -68,13 +68,48 @@ extra:
     #   link: https://discord.gg/skfExqDD
     # - icon: fontawesome/brands/github-alt
     #   link: https://github.com/TechxArtisan
-  # alternate:
-  #   - name: English
-  #     link: /
-  #     lang: en
-    # - name: 中文
-    #   link: /zh/
+  
+  alternate:
+    - name: English 🇺🇸🇬🇧🇨🇦🇦🇺
+      link: /
+      lang: en
+    # - name: 中文简体 🇨🇳
+    #   link: https://zh.openterface.com/
     #   lang: zh
+    # - name: 中文繁體 🇭🇰
+    #   link: https://tw.openterface.com/
+    #   lang: zh-Hant
+    # - name: 日本語 🇯🇵
+    #   link: https://jp.openterface.com/
+    #   lang: ja
+    # - name: 한국어 🇰🇷
+    #   link: https://kr.openterface.com/
+    #   lang: ko
+    # - name: Français 🇫🇷
+    #   link: https://fr.openterface.com/
+    #   lang: fr
+    # - name: Deutsch 🇩🇪
+    #   link: https://de.openterface.com/
+    #   lang: de
+    # - name: Italiano 🇮🇹
+    #   link: https://it.openterface.com/
+    #   lang: it
+    # - name: Español 🇪🇸
+    #   link: https://es.openterface.com/
+    #   lang: es
+    # - name: Português 🇵🇹
+    #   link: https://pt.openterface.com/
+    #   lang: pt
+    # - name: Svenska 🇸🇪
+    #   link: https://sv.openterface.com/
+    #   lang: sv
+    # - name: Polski 🇵🇱
+    #   link: https://pl.openterface.com/
+    #   lang: pl
+    # - name: Nederlands 🇳🇱
+    #   link: https://nl.openterface.com/
+    #   lang: nl
+
   consent:
     title: Cookie Consent
     description: >- 
