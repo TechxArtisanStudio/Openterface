@@ -79,9 +79,9 @@ extra:
     # - name: 中文繁體 🇭🇰
     #   link: https://tw.openterface.com/
     #   lang: zh-Hant
-    # - name: 日本語 🇯🇵
-    #   link: https://jp.openterface.com/
-    #   lang: ja
+    - name: 日本語 🇯🇵
+      link: https://jp.openterface.com/
+      lang: ja
     # - name: 한국어 🇰🇷
     #   link: https://kr.openterface.com/
     #   lang: ko
