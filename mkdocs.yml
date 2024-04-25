@@ -70,43 +70,43 @@ extra:
     #   link: https://github.com/TechxArtisan
   
   alternate:
-    - name: English 🇺🇸🇬🇧🇨🇦🇦🇺
+    - name: English
       link: /
       lang: en
-    # - name: 中文简体 🇨🇳
+    # - name: 中文简体
     #   link: https://zh.openterface.com/
     #   lang: zh
-    # - name: 中文繁體 🇭🇰
+    # - name: 中文繁體
     #   link: https://tw.openterface.com/
     #   lang: zh-Hant
-    - name: 日本語 🇯🇵
+    - name: 日本語
       link: https://jp.openterface.com/
       lang: ja
-    # - name: 한국어 🇰🇷
+    # - name: 한국어
     #   link: https://kr.openterface.com/
     #   lang: ko
-    # - name: Français 🇫🇷
+    # - name: Français
     #   link: https://fr.openterface.com/
     #   lang: fr
-    # - name: Deutsch 🇩🇪
+    # - name: Deutsch
     #   link: https://de.openterface.com/
     #   lang: de
-    # - name: Italiano 🇮🇹
+    # - name: Italiano
     #   link: https://it.openterface.com/
     #   lang: it
-    # - name: Español 🇪🇸
+    # - name: Español
     #   link: https://es.openterface.com/
     #   lang: es
-    # - name: Português 🇵🇹
+    # - name: Português
     #   link: https://pt.openterface.com/
     #   lang: pt
-    # - name: Svenska 🇸🇪
+    # - name: Svenska
     #   link: https://sv.openterface.com/
     #   lang: sv
-    # - name: Polski 🇵🇱
+    # - name: Polski
     #   link: https://pl.openterface.com/
     #   lang: pl
-    # - name: Nederlands 🇳🇱
+    # - name: Nederlands
     #   link: https://nl.openterface.com/
     #   lang: nl
 
