@@ -3,7 +3,7 @@ template: home.html
 title: Home
 social:
   cards_layout_options:
-    title: Portable KVM Solution | One Interface, Stable Fast, Cross-OS
+    title: Openterface Mini-KVM | Turn Your Laptop into a KVM Console
 ---
 
 Welcome to Openterface mini-KVM.
