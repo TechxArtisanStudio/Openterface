@@ -4,32 +4,33 @@
 
 Our **Openterface™ Mini-KVM** allows you to control a nearby headless computer (which we refer to as the **Target**) directly from your own laptop or desktop (referred to as the **Host**), via usb and HDMI connection, without the need for an extra keyboard, mouse, monitor or network.
 
-## Connection Instructions
-
-To set up your Mini-KVM, follow these steps:
-
-- **Host Computer Connection**: Connect the Type-C port located on the orange end of the Mini-KVM to your host computer.
-- **Target Device Connection**:
-    - **Video Output**: Connect the HDMI port on the black end to the video output of the target device. Depending on the available video output ports on the target computer, you may need an appropriate video adapter.
-    - **Type-C Connection**: Attach the Type-C port on the black end to the target device.
-
-![use-case-pc-angled-view](images/product/use-case-pc-angled-view.jpg)
-
-## Set Up Your Host Apps
+## Install Host Application
 
 To use this mini-KVM, the host computer must install one of the below host applications. 
 
-- [Openterface_MacOS](https://github.com/TechxArtisan/Openterface_MacOS): Host Applications for MacOS Support; You can also find the macOS app on Apple's App Store by searching for "Openterface".
-- [Openterface_QT](https://github.com/TechxArtisan/Openterface_QT): Host Applications for Windows and Linux Support
-- [Openterface_Android](https://github.com/TechxArtisan/Openterface_Android): Host Applications for Android Support
+- [Openterface_MacOS](https://github.com/TechxArtisan/Openterface_MacOS): For MacOS Support; The macOS app is also on Apple's App Store, by searching for "Openterface".
+- [Openterface_QT](https://github.com/TechxArtisan/Openterface_QT): For Windows and Linux Support
+- [Openterface_Android](https://github.com/TechxArtisan/Openterface_Android): For Android Support
 - [Openterface_WebExtension](https://github.com/TechxArtisan/Openterface_WebExtension): Web-based App for Chrome/Firefox Extension
 
 The above host applications are **currently under development**. We are actively coding 🛠️ and enhancing them as we go! 💪 If you're interested in contributing and want to be part of an innovative development team, [join us now!](mailto:techxartisan@gmail.com) 🚀
 
-## Target Device Compatibility
+## Connection Procedure
+
+To set up your Mini-KVM, follow these steps:
+
+- **Host Computer Connection**: 
+    - **Type-C Connection**: Connect the master computer to the mini-KVM using a Type-C USB cable, plugging it into the Type-C female port on the orange side of the mini-KVM.
+- **Target Device Connection**:
+    - **Type-C Connection**: Connect the target device to the mini-KVM using a Type-C USB cable, plugging it into the Type-C female port on the black side of the mini-KVM.
+    - **Video Output**: Connect the target device's video output port to the HDMI female port on the black side of the mini-KVM using an HDMI cable, a VGA-to-HDMI cable, or any other appropriate video-source-to-HDMI cable.
+    
+
+![use-case-pc-angled-view](images/product/use-case-pc-angled-view.jpg)
+
+## Target Compatibility
 
 **No pre-installation or configuration** is required on the target device. As long as the target device supports UI operations with video output (HDMI, VGA, e.g.) and has a USB port to receive emulated keyboard and mouse control (HID) signals, it can be used. Thus, Supported target device platforms include Windows, macOS, Linux, Android, and iOS.
-
 
 <section class="dialogue-section-white" id="dialogues-section">
     <div class="container">
