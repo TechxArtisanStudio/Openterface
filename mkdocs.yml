@@ -189,6 +189,7 @@ plugins:
 
 nav:
   - Home: index.md
+  - FAQs: faq.md
   - Documentation:
     - Quick Start: quick-start.md
     - Why Openterface: why-openterface-minikvm.md
@@ -198,13 +199,8 @@ nav:
     - How It Works: how-it-works.md
     - Comparison: comparison.md
     - FAQs: faq.md
-    # - Concepts: concepts.md
-    # - App: software.md
-
-  - FAQs: faq.md
   - Posts:
     - blog/index.md
-  # - Topics: tags.md
   - About:
     - Contact: contact.md
     - Acknowledgements: acknowledgements.md
@@ -212,5 +208,4 @@ nav:
       - Privacy Policy: privacy-policy.md
       - Terms of Service: terms-of-service.md
       - Return, Refunds & Warranty: return-refunds-warranty.md
-  # - Download: download.md
   - Subreddit: https://www.reddit.com/r/Openterface_miniKVM/
