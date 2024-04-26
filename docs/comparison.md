@@ -1,4 +1,5 @@
 ---
+comments: true
 tags:
   - KVM
   - mini-KVM
