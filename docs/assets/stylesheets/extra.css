@@ -1,16 +1,39 @@
 :root {
-    --md-admonition-icon--faq: url(/assets/faq.svg)}
-  .md-typeset .admonition.faq,
-  .md-typeset details.faq {
-    border-color: #FF8D1A;
-  }
-  .md-typeset .faq > .admonition-title,
-  .md-typeset .faq > summary {
-    background-color: rgba(155, 120, 43, 0.1);
-  }
-  .md-typeset .faq > .admonition-title::before,
-  .md-typeset .faq > summary::before {
-    background-color: #FF8D1A;
-    -webkit-mask-image: var(--md-admonition-icon--faq);
-            mask-image: var(--md-admonition-icon--faq);
-  }
+    --admonition-border-color: #FF8D1A;
+    --admonition-bg-color-base: rgba(155, 120, 43, 0.1);
+    --icon-frequent-question: url(/assets/frequent-question.svg);
+    --icon-faq: url(/assets/faq.svg);
+}
+
+.md-typeset {
+    .admonition.frequent-question,
+    details.frequent-question,
+    .admonition.faq,
+    details.faq {
+        border-color: var(--admonition-border-color);
+    }
+
+    .frequent-question, .faq {
+        & > .admonition-title, & > summary {
+            background-color: var(--admonition-bg-color-base);
+        }
+
+        & > .admonition-title::before, & > summary::before {
+            background-color: var(--admonition-border-color);
+        }
+    }
+
+    .frequent-question {
+        & > .admonition-title::before, & > summary::before {
+            -webkit-mask-image: var(--icon-frequent-question);
+            mask-image: var(--icon-frequent-question);
+        }
+    }
+
+    .faq {
+        & > .admonition-title::before, & > summary::before {
+            -webkit-mask-image: var(--icon-faq);
+            mask-image: var(--icon-faq);
+        }
+    }
+}
