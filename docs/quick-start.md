@@ -19,7 +19,7 @@ The above host applications are **currently under development**. We are actively
 
 To set up your Mini-KVM, follow these steps:
 
-- **Host Computer Connection**: 
+- **Host Computer Connection**:
     - **Type-C Connection**: Connect the master computer to the mini-KVM using a Type-C USB cable, plugging it into the Type-C female port on the orange side of the mini-KVM.
 - **Target Device Connection**:
     - **Type-C Connection**: Connect the target device to the mini-KVM using a Type-C USB cable, plugging it into the Type-C female port on the black side of the mini-KVM.
