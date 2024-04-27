@@ -189,7 +189,7 @@ plugins:
 
 nav:
   - Home: index.md
-  - FAQs: faq.md
+  - FAQs: /faq
   - Documentation:
     - Quick Start: quick-start.md
     - Why Openterface: why-openterface-minikvm.md
