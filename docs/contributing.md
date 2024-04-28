@@ -32,15 +32,23 @@ If you have coding skills and experience, consider diving into our repo to ident
 
 ## Reporting A Docs Issue
 
-With your keen eye for detail, you can ensure our docs stay crystal clear and up-to-date, guiding users smoothly through their Openterface Mini-KVM journey.
+If you notice anything that seems off or outdated, we'd love your help to make it better.
 
-If you spot any slip-ups or think something needs a spruce-up, here's how you can help:
-- Identify the Issue: Pinpoint where the problem lies within our documentation.
+Here's how you can help:
+- Spot the Problem: If you see something that doesn't quite look right in our docs, let us know!
 - Provide Details: Let us know what's amiss. Whether it's a typo, outdated information, or a confusing explanation, every detail helps.
 - Suggest Improvements: If you've got ideas on how to make things better, don't hold back! Your insights are invaluable in enhancing the user experience.
 - How to Report: Simply head over to our corresponding GitHub repository and create an issue detailing the problem. Include as much information as possible to help us understand and address the issue swiftly.
 
-Your contributions to improving our documentation are truly appreciated. Together, we can ensure Openterface Mini-KVM users have access to the best possible resources.
+Your contributions to improving our documentation are truly appreciated. Together, we can ensure users have access to the best possible resources.
+
+## Help Translate Our Docs
+
+We believe everyone should have access to our solution, no matter what language they speak. That's why we're calling on bilingual superstars like you to help translate our website and documentation into different languages.
+
+If you're fluent in multiple languages and passionate about making technology accessible to people worldwide, we'd love your help!
+
+Reach out to us to find out how you can become a language ambassador for Openterface Mini-KVM and help us reach even more people with our solution.
 
 ## Help Improve Design
 First impressions matter, and the visual appeal of our product plays a crucial role in capturing users' attention and enhancing their overall experience. If you've got an eye for design and a knack for creating stunning visuals, we'd love your help in sprucing up our product graphics.
@@ -48,6 +56,18 @@ First impressions matter, and the visual appeal of our product plays a crucial r
 Whether it's crafting eye-catching logos, designing sleek user interfaces, or creating engaging marketing materials, your creative touch can take our product aesthetics to the next level.
 
 If you're up for the challenge and eager to make a visual impact, get in touch with us to explore how you can lend your design expertise to elevate our product's appeal!
+
+## Help Mod Our Community
+
+Our community is like a big, friendly family, and we're looking for awesome folks like you to help keep it that way! If you're keen on keeping the peace and spreading good vibes, we'd love to have you as a moderator.
+
+As a moderator, you'll:
+
+- Keep conversations positive and help sort out any squabbles.
+- Make sure everyone follows the rules so our community stays safe and welcoming.
+- Give a hand to users with questions and encourage folks to share their knowledge.
+
+Sound like your cup of tea? Get in touch, and let's chat about how you can join our mod squad!
 
 ## And More Help
 Feeling inspired to contribute but don't quite fit into the categories above? No worries – there are plenty of other ways you can lend a helping hand!
