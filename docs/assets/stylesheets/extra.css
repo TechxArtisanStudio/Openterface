@@ -37,3 +37,7 @@
         }
     }
 }
+/* 
+.md-tabs__item a[href*="contact/"] {
+    display: none;
+} */

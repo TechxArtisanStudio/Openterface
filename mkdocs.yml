@@ -21,8 +21,8 @@ copyright: >-
 extra_css:
   - assets/stylesheets/extra.css
 
-# extra_javascript:
-#   - assets/javascripts/extra.js
+extra_javascript:
+  - assets/javascripts/extra.js
 
 # Configuration
 theme:
@@ -151,6 +151,7 @@ extra:
     #         using our <a href="https://forms.gle/7AoXW2YCPMfmpRmr5" target="_blank" rel="noopener">feedback form</a>.
 
 markdown_extensions:
+  - tables
   # Enables admonitions
   - admonition
   - pymdownx.details
@@ -169,6 +170,9 @@ markdown_extensions:
       options:
               custom_icons:
                 - overrides/.icons
+  - toc:
+      permalink: ¶
+      toc_depth: 3
 
 plugins:
   - glightbox
@@ -201,11 +205,16 @@ nav:
     - FAQs 💬: faq.md
   - Posts:
     - blog/index.md
+  - Community:
+    - Welcome: community.md
+    - Contributing: contributing.md
+    - Basic Testing: basic-testing.md
+    # - Devlopment: 
+    #   - Development: dev/index.md
+    #   - Basic Test: dev/basic-test.md
   - About:
     - Contact: contact.md
-    - Acknowledgements: acknowledgements.md
     - Policies:
       - Privacy Policy: privacy-policy.md
       - Terms of Service: terms-of-service.md
       - Return, Refunds & Warranty: return-refunds-warranty.md
-  - Subreddit: https://www.reddit.com/r/Openterface_miniKVM/
