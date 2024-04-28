@@ -203,15 +203,12 @@ nav:
     - How It Works 💬: how-it-works.md
     - Comparison 💬: comparison.md
     - FAQs 💬: faq.md
+    - Basic Testing 💬: basic-testing.md
   - Posts:
     - blog/index.md
   - Community:
     - Welcome: community.md
     - Contributing: contributing.md
-    - Basic Testing: basic-testing.md
-    # - Devlopment: 
-    #   - Development: dev/index.md
-    #   - Basic Test: dev/basic-test.md
   - About:
     - Contact: contact.md
     - Policies:

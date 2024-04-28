@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Basic Operation Tests
 
 ## Mouse Control
