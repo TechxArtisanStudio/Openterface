@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Contributing
 
 Hey there! So, you're interested in getting involved with Openterface mini-KVM's [community](/community) and contributing? Awesome! 🧡
