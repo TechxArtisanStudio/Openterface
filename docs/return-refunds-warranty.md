@@ -6,7 +6,7 @@ Openterface provides options for returns and exchanges in accordance with the fo
 
 ### Damage in Shipment
 
-Should your product arrive with damage incurred during shipment, we request you to inform us via email at [techxartisan@gmail.com](mailto:techxartisan@gmail.com) within two business days of receipt. Your email should detail the damages and, where possible, include photographic evidence. This assists us greatly in ensuring our products are properly packaged and transported. We will organize replacements for the damaged products.
+Should your product arrive with damage incurred during shipment, we request you to inform us via email at [info@techxartisan.com](mailto:info@techxartisan.com) within two business days of receipt. Your email should detail the damages and, where possible, include photographic evidence. This assists us greatly in ensuring our products are properly packaged and transported. We will organize replacements for the damaged products.
 
 ### Exchanges
 

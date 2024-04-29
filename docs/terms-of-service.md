@@ -84,4 +84,4 @@ You can review the most current version of the Terms of Service at any time on t
 
 ## Contact Information
 
-For any questions regarding the Terms of Service, please contact us at [techxartisan@gmail.com](mailto:techxartisan@gmail.com).
+For any questions regarding the Terms of Service, please contact us at [info@techxartisan.com](mailto:info@techxartisan.com).
