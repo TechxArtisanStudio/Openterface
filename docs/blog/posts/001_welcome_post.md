@@ -16,7 +16,7 @@ You can check out its docs here: [openterface.com](https://openterface.com)
 You can also find & follow our **TechxArtisan** creative studio on
 
 * [Join our subreddit](https://www.reddit.com/r/Openterface_miniKVM/)
-* [TechxArtisan on GitHub](https://github.com/TechxArtisan)
+* [TechxArtisan on GitHub](https://github.com/TechxArtisanStudio/Openterface/discussions)
 * [Follow us on Twitter](https://twitter.com/TechxArtisan)
 * [Like us on Facebook](https://www.facebook.com/TechxArtisan)
 * [Join our Studio Discord](https://discord.gg/skfExqDD)

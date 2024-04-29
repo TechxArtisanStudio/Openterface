@@ -1,6 +1,6 @@
 # Contributing
 
-Hey there! So, you're interested in getting involved with Openterface mini-KVM? Awesome! 🧡
+Hey there! So, you're interested in getting involved with Openterface mini-KVM's [community](/community) and contributing? Awesome! 🧡
 
 ## Spreading the Word 📢
 
@@ -10,7 +10,7 @@ If you've found our Openterface gadget being handy and boosting your workflow, h
 
 We're all about keeping this project fresh and funky for our diverse gang of users. We're constantly jazzing things up and fixing bugs to keep the party going!
 
-Your time is precious, we get it, and diving into bug reports and change requests can feel like wading through treacle. That's why we've rolled up our sleeves and fine-tuned our issue templates and guidelines to make it easier. Yep, we've sweated the small stuff to make sure our issue tracker of its [softwares](/quick-start/#install-host-application) and [hardware](https://github.com/TechxArtisan/Openterface_Mini-KVM_Hardware) and [discussion board](https://github.com/TechxArtisanStudio/Openterface/discussions) run like a well-oiled machine.
+Your time is precious, we get it, and diving into bug reports and change requests can feel like wading through treacle. That's why we've rolled up our sleeves and fine-tuned our issue templates and guidelines to make it easier. Yep, we've sweated the small stuff to make sure our issue tracker of its [softwares](/quick-start/#install-host-application) and [hardware](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware) and [discussion board](https://github.com/TechxArtisanStudio/Openterface/discussions) run like a well-oiled machine.
 
 Ready to dive in? Let's get started! 🏊‍♂️
 
@@ -19,9 +19,9 @@ Ready to dive in? Let's get started! 🏊‍♂️
 Encountered a bug? No worries, it happens! Since we're still in the early stages of development, bugs are to be expected, especially in the following softwares. When you come across one, please check if it falls into these [basic operation tests](/basic-testing). The more details you provide about the conditions when the bug occurred, the better equipped we'll be to address it. Please report any bugs you encounter to the corresponding Github repositories.
 
 - Navigate to: 
-    - [Openterface_MacOS](https://github.com/TechxArtisan/Openterface_MacOS) (Work-in-progress): Host Applications for MacOS Support
-    - [Openterface_QT](https://github.com/TechxArtisan/Openterface_QT) (Work-in-progress): Host Applications for Win & Linux Support
-    - [Openterface_Mini-KVM_Hardware](https://github.com/TechxArtisan/Openterface_Mini-KVM_Hardware
+    - [Openterface_MacOS](https://github.com/TechxArtisanStudio/Openterface_MacOS) (Work-in-progress): Host Applications for MacOS Support
+    - [Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT) (Work-in-progress): Host Applications for Win & Linux Support
+    - [Openterface_Mini-KVM_Hardware](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware
     ) (Work-in-progress): Schematics & Components
 
 - When reporting a bug, please:
