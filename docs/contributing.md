@@ -39,6 +39,7 @@ If you have coding skills and experience, consider diving into our repo to ident
 If you notice anything that seems off or outdated, we'd love your help to make it better.
 
 Here's how you can help:
+
 - Spot the Problem: If you see something that doesn't quite look right in our docs, let us know!
 - Provide Details: Let us know what's amiss. Whether it's a typo, outdated information, or a confusing explanation, every detail helps.
 - Suggest Improvements: If you've got ideas on how to make things better, don't hold back! Your insights are invaluable in enhancing the user experience.
@@ -78,6 +79,6 @@ Feeling inspired to contribute but don't quite fit into the categories above? No
 
 Whether it's testing new features, providing feedback on user experience, or brainstorming innovative ideas, your input is invaluable in driving the success of Openterface Mini-KVM.
 
-Reach out to us and let us know how you'd like to get involved. Together, we can make Openterface Mini-KVM the best it can be!
+Reach out to us via [email](mailto:info@techxartisan.com) or sumbit a [Google form](https://forms.gle/rwDDsMbs5pFwq7227) and let us know how you'd like to get involved. Together, we can make Openterface Mini-KVM the best it can be!
 
 Your support and contributions are what make Openterface Mini-KVM thrive. Thank you for being part of our journey towards excellence! 🚀
