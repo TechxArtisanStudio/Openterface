@@ -8,10 +8,10 @@ Our **Openterface™ Mini-KVM** allows you to control a nearby headless computer
 
 To use this mini-KVM, the host computer must install one of the below host applications. 
 
-- [Openterface_MacOS](https://github.com/TechxArtisan/Openterface_MacOS): For MacOS Support; The macOS app is also on Apple's App Store, by searching for "Openterface".
-- [Openterface_QT](https://github.com/TechxArtisan/Openterface_QT): For Windows and Linux Support
-- [Openterface_Android](https://github.com/TechxArtisan/Openterface_Android): For Android Support
-- [Openterface_WebExtension](https://github.com/TechxArtisan/Openterface_WebExtension): Web-based App for Chrome/Firefox Extension
+- [Openterface_MacOS](https://github.com/TechxArtisanStudio/Openterface_MacOS): For MacOS Support; The macOS app is also on Apple's App Store, by searching for "Openterface".
+- [Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT): For Windows and Linux Support
+- [Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android): For Android Support
+- [Openterface_WebExtension](https://github.com/TechxArtisanStudio/Openterface_WebExtension): Web-based App for Chrome/Firefox Extension
 
 The above host applications are **currently under development**. We are actively coding 🛠️ and enhancing them as we go! 💪 If you're interested in contributing and want to be part of an innovative development team, [join us now!](mailto:info@techxartisan.com) 🚀
 

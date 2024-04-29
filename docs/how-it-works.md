@@ -14,7 +14,7 @@ comments: true
 
 ## Explore Hardware Details
 
-- [Openterface_Mini-KVM_Hardware](https://github.com/TechxArtisan/Openterface_Mini-KVM_Hardware): Explore our comprehensive hardware design, schematics, and components.
+- [Openterface_Mini-KVM_Hardware](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware): Explore our comprehensive hardware design, schematics, and components.
 
 ![openterface-mini-kvm-product-with-PCB](/images/product/openterface-mini-kvm-product-with-PCB.jpg)
 

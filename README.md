@@ -68,7 +68,7 @@ Emails from these addresses are from our team, dedicated to providing you with t
 Stay updated and engaged with us through our social media channels:
 
 - [Join our subreddit](https://www.reddit.com/r/Openterface_miniKVM/)
-- [TechxArtisan on GitHub](https://github.com/TechxArtisan)
+- [TechxArtisan on GitHub](https://github.com/TechxArtisanStudio/Openterface/discussions)
 - [Follow us on Twitter](https://twitter.com/TechxArtisan)
 - [Like us on Facebook](https://www.facebook.com/TechxArtisan)
 - [Join our Discord community](https://discord.gg/4khsrbGS)
