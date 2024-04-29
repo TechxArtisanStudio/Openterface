@@ -6,11 +6,11 @@ comments: true
 
 ## Mouse Control
 
-### Absolute & Relative Mode
-- Movement latency, to ensure smooth and responsive control.
-- Accuracy of mouse position mapping
-- Click test (single click, double clicks)
-- Drag test
+- Absolute & Relative Mode
+    - Movement latency, to ensure smooth and responsive control.
+    - Accuracy of mouse position mapping
+    - Click test (single click, double clicks)
+    - Drag test
 
 ## Keyboard Testing
 - Keyboard mapping test, especially for various special symbols
@@ -42,7 +42,7 @@ comments: true
     The USB port can provide 5V power to an external USB device, but it has a very limited power supply capacity, approximately 10W. Be aware that this may not be sufficient to power certain external devices, such as a Jetson Nano running GPU-intensive tasks.
 
 
-### Text Transfer Testing
+## Text Transfer Testing
 - Text Transfer Functionality: Verify that the host application can successfully transfer text from the host computer to the target device using ASCII codes.
 - Content Integrity: Ensure that the text content transferred from the host to the target device remains intact and is accurately reproduced.
 - Special Characters Handling: Test the text transfer feature with various ASCII characters, including symbols, punctuation marks, and non-alphanumeric characters, to ensure proper handling and reproduction on the target device.
