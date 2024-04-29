@@ -6,7 +6,7 @@ We're delighted you're interested in reaching out to us. Whether you have questi
 
 To ensure you're communicating with us securely and directly, please note our official contact email addresses. For any enquiries, support, or feedback, feel free to reach out to us at:
 
-- **Primary Contact Email:** [techxartisan@gmail.com](mailto:techxartisan@gmail.com)
+- **Primary Contact Email:** [info@techxartisan.com](mailto:info@techxartisan.com)
 
 Additionally, any email address ending with the following domains is recognized as an official communication channel for our members and customers:
 

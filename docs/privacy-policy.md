@@ -37,4 +37,4 @@ This Agreement and any disputes arising from it shall be governed by the laws an
 
 ## **Contact Information**
 
-For any questions or concerns regarding this Privacy Policy, please contact us at [techxartisan@gmail.com](mailto:techxartisan@gmail.com). We encourage feedback and will endeavour to address your concerns promptly.
+For any questions or concerns regarding this Privacy Policy, please contact us at [info@techxartisan.com](mailto:info@techxartisan.com). We encourage feedback and will endeavour to address your concerns promptly.
