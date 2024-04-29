@@ -43,7 +43,7 @@ comments: true
 
 
 ## Text Transfer Testing
-- Text Transfer Functionality: Verify that the host application can successfully transfer text from the host computer to the target device using ASCII codes.
+- Text Transfer Functionality: Verify that the host application can successfully transfer text from the host computer to the target device using [ASCII codes](https://theasciicode.com.ar/).
 - Content Integrity: Ensure that the text content transferred from the host to the target device remains intact and is accurately reproduced.
 - Special Characters Handling: Test the text transfer feature with various ASCII characters, including symbols, punctuation marks, and non-alphanumeric characters, to ensure proper handling and reproduction on the target device.
 - Text Length Testing: Test the text transfer feature with text of varying lengths, ranging from short strings to longer paragraphs, to verify that it can accommodate different text sizes without issues.
