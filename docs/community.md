@@ -26,7 +26,7 @@ Here is a tribute to the 🦸 **HEROES** 🌟 driving the Openterface Mini-KVM f
 
 ### 🌍 Community Contributors
 
-A huge thank you for the valuable comments and feedback from various communities, including:
+A huge thank you to all the Tech enthusiasts for the valuable comments and feedback from various communities, including:
 
 - YouTube product reviews
     - [This USB KVM Console is Awesome! - Openterface by TechxArtisan](https://youtu.be/xAEQpWyfY-c?si=sYXiFBrzTiHyIGna) by Cameron Gray
