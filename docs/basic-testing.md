@@ -21,7 +21,7 @@ comments: true
 
 !!! tip
 
-    You can utilize this [online keyboard testing tool](https://en.key-test.ru/) on both the host and target computers to verify whether their keystrokes are synchronized.
+    You can utilize online keyboard testing tool on both the host and target computers to verify whether their keystrokes are synchronized.
 
 ## Text Transfer 📝
 - Text Transfer Functionality: Verify that the host application can successfully transfer text from the host computer to the target device using [ASCII codes](https://theasciicode.com.ar/).
@@ -35,6 +35,9 @@ comments: true
 !!! note
     The text transfer feature is designed to emulate typing behavior to reproduce text content on the target computer. It does not support clipboard integration, thus, it cannot transfer non-textual content, such as images. This feature exclusively supports transferring text based on ASCII codes. Therefore, it does not support languages that are not based on ASCII codes, such as Chinese, Japanese, Korean characters, etc. Additionally, it is not recommended to transfer too much text at one time.
 
+## BIOS-Level Access ⚙️
+- Whether the app can access to BIOS of different target device.
+
 ## Sound 🔊
 - Whether the sound from the target computer can be played normally on the controlling computer
 
@@ -45,7 +48,7 @@ comments: true
 - Recommended device connection sequence
 - Disrupting the sequence according to the above recommendations, testing different scenarios to ensure normal operation
 
-## USB Port & Toggle Switch 🔄
+## Switchable USB Port & Its Toggle Switch 🔄
 - Toggle Switch Testing: Test the toggle switch under various scenarios to ensure it operates reliably and effectively switches between host and target computer connections.
 - Port Compatibility: Verify that the USB-A 2.0 port supports connection with both the host and target computers as intended for various USB devices, such as a flash drive or webcam.
 
