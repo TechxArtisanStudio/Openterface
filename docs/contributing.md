@@ -35,7 +35,7 @@ Encountered a bug? No worries, it happens! Since we're still in the early stages
     - Explain the expected outcome and the actual outcome.
     - Including screenshots or video snippets would be highly appreciated! 📸🎥
 
-Moreover, you can also join the Development channel #openterface-dev on our Discord server: https://discord.gg/sFCXHrpDcc, or you may try searching for 'TechxArtisan'.
+Moreover, you can also join the Development channel **#openterface-dev** on [our Discord server](https://discord.gg/sFCXHrpDcc), or you may try searching for 'TechxArtisan'.
 
 Feel free to bring up any issues. It’s a great place for all beta testers to discuss and share, which could really help us enhance the product.
 
