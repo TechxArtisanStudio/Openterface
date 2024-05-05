@@ -71,7 +71,7 @@ Stay updated and engaged with us through our social media channels:
 - [TechxArtisan on GitHub](https://github.com/TechxArtisanStudio/Openterface/discussions)
 - [Follow us on Twitter](https://twitter.com/TechxArtisan)
 - [Like us on Facebook](https://www.facebook.com/TechxArtisan)
-- [Join our Discord community](https://discord.gg/4khsrbGS)
+- [Join our Discord community](https://discord.gg/sFTJD6a3R8)
 - [Subscribe to our YouTube channel](https://youtube.com/@TechxArtisan)
 - [Follow us on LinkedIn](https://www.linkedin.com/company/techxartisan/)
 

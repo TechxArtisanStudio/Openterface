@@ -9,7 +9,7 @@ tags:
 
 # Frequently Asked Questions (FAQs)
 
-We're absolutely delighted to have you here! 🌟 This section is designed to address frequently asked questions about the Openterface Mini-KVM, which our team organises periodically. Feel free to drop your comments below. You can ask new questions directly too if you cannot find what you're looking for. 📝 Additionally, why not join our vibrant community on our subreddit at [/r/Openterface_miniKVM/](https://www.reddit.com/r/Openterface_miniKVM/) or our Discord Server [TechxArtisan](https://discord.gg/4khsrbGS), to engage and chat with fellow enthusiasts? If you would like to contact our team directly, please use this [Google form](https://forms.gle/rwDDsMbs5pFwq7227). We'd LOVE to hear from you! ❤️
+We're absolutely delighted to have you here! 🌟 This section is designed to address frequently asked questions about the Openterface Mini-KVM, which our team organises periodically. Feel free to drop your comments below. You can ask new questions directly too if you cannot find what you're looking for. 📝 Additionally, why not join our vibrant community on our subreddit at [/r/Openterface_miniKVM/](https://www.reddit.com/r/Openterface_miniKVM/) or our Discord Server [TechxArtisan](https://discord.gg/sFTJD6a3R8), to engage and chat with fellow enthusiasts? If you would like to contact our team directly, please use this [Google form](https://forms.gle/rwDDsMbs5pFwq7227). We'd LOVE to hear from you! ❤️
 
 ## Basic
 
