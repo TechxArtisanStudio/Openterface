@@ -8,7 +8,7 @@ Hey there! So, you're interested in getting involved with Openterface mini-KVM's
 
 ## Spreading the Word 📢
 
-If you've found our Openterface gadget being handy and boosting your workflow, how about helping to spread the word? Sharing your story of how you use the mini-KVM in daily tasks by pictures or videos will be super appreciated! Whether it's a quick fix event, a cool setup or a unique integration into your workflow, we want to see it all! You could even write a post to share in our vibrant community on our subreddit at [/r/Openterface_miniKVM/](https://www.reddit.com/r/Openterface_miniKVM/) or our Discord Server [TechxArtisan](https://discord.gg/4khsrbGS). Let's create some buzz together! 🚀 Cheers!
+If you've found our Openterface gadget being handy and boosting your workflow, how about helping to spread the word? Sharing your story of how you use the mini-KVM in daily tasks by pictures or videos will be super appreciated! Whether it's a quick fix event, a cool setup or a unique integration into your workflow, we want to see it all! You could even write a post to share in our vibrant community on our subreddit at [/r/Openterface_miniKVM/](https://www.reddit.com/r/Openterface_miniKVM/) or our Discord Server [TechxArtisan](https://discord.gg/sFTJD6a3R8). Let's create some buzz together! 🚀 Cheers!
 
 ## How You Can Contribute 🌟
 
@@ -34,6 +34,10 @@ Encountered a bug? No worries, it happens! Since we're still in the early stages
     - Provide detailed steps to reproduce the issue.
     - Explain the expected outcome and the actual outcome.
     - Including screenshots or video snippets would be highly appreciated! 📸🎥
+
+Moreover, you can also join the Development channel #openterface-dev on our Discord server: https://discord.gg/sFCXHrpDcc, or you may try searching for 'TechxArtisan'.
+
+Feel free to bring up any issues. It’s a great place for all beta testers to discuss and share, which could really help us enhance the product.
 
 ## Fixing A Bug 🛠️
 If you have coding skills and experience, consider diving into our repo to identify, fork, fix, and submit pull requests.

@@ -4,7 +4,7 @@ Hey there! Welcome to our Openterface community! 🎉 We're all about openness, 
 For updates, chats, and connections with folks who share your interests, jump into:
 
 - :fontawesome-brands-reddit-alien: [Join our subreddit](https://www.reddit.com/r/Openterface_miniKVM/)
-- :fontawesome-brands-discord: [Join our Discord community](https://discord.gg/4khsrbGS)
+- :fontawesome-brands-discord: [Join our Discord community](https://discord.gg/sFTJD6a3R8)
 - :fontawesome-brands-github-alt: [GitHub Discussion](https://github.com/TechxArtisanStudio/Openterface/discussions)
 
 If you are passionate about making a difference and wish to [contribute](/contributing), please do not hesitate to [drop us an email](mailto:info@techxartisan.com) ✉️. We are eager to have you aboard! Join us to collaborate, share ideas, and tweak Openterface to enhance our tech experience together ❤️
