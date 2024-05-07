@@ -1,20 +1,25 @@
 # Use Cases
-* ***Streamlined Server Management***: Ideal for IT professionals involved in the maintenance and operation of server rooms, our Mini-KVM enables control of multiple servers from your own laptop as a single workstation, enhancing operational efficiency.
+## ***Streamlined Server Management***
+Ideal for IT professionals involved in the maintenance and operation of server rooms, our Mini-KVM enables control of multiple servers from your own laptop as a single workstation, enhancing operational efficiency.
 ![use-case-demo-pc-bios-1](/images/product/use-case-demo-pc-bios-1.jpg)
 
-* ***Simplified Setup for Tech Enthusiasts***: This product eases the setup process for micro-computer enthusiasts working with devices like Raspberry Pi and Jetson Nano. It allows direct control from a main computer, negating the need for additional peripherals.
+## ***Simplified Setup for Tech Enthusiasts***
+This product eases the setup process for micro-computer enthusiasts working with devices like Raspberry Pi and Jetson Nano. It allows direct control from a main computer, negating the need for additional peripherals.
 
 ![use-case-demo-respberry-pi](/images/product/use-case-demo-respberry-pi.jpg)
 
-* ***Unified Control for Diverse Devices***: Perfect for professionals juggling between personal and work computers, or managing devices such as ATMs, VLTs, and kiosks. The Openterface Mini-KVM offers a unified interface that simplifies the management of multiple devices.
+## ***Unified Control for Diverse Devices***
+Perfect for professionals juggling between personal and work computers, or managing devices such as ATMs, VLTs, and kiosks. The Openterface Mini-KVM offers a unified interface that simplifies the management of multiple devices.
 
 ![use-case-demo-macmini2009](/images/product/use-case-demo-macmini2009-3.jpg)
 
-* ***Secure Operations for Sensitive Tasks***: Professionals managing tasks that require network segregation, such as managing cryptocurrency assets, will find this product indispensable for maintaining secure, local operations.
+## ***Secure Operations for Sensitive Tasks***
+Professionals managing tasks that require network segregation, such as managing cryptocurrency assets, will find this product indispensable for maintaining secure, local operations.
 
 ![use-case-demo-industrial-pc](images/product/use-case-demo-industrial-pc.jpg)
 
-* ***Efficient Integration for Mixed Workflows***: Users who frequently switch between personal and work computers, or those managing edge computing devices, will benefit from the streamlined workflow integration that Openterface Mini-KVM provides.
+## ***Efficient Integration for Mixed Workflows***
+Users who frequently switch between personal and work computers, or those managing edge computing devices, will benefit from the streamlined workflow integration that Openterface Mini-KVM provides.
 
 ![use-case-demo-macbookpro2010](/images/product/use-case-demo-macbookpro2010.jpg)
 
