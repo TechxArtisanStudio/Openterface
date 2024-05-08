@@ -86,7 +86,7 @@ No pre-installation or configuration is required on the target device. As long a
 ### Will there be technical support and documentation available for the Openterface Mini-KVM?
 Extensive documentation for the Openterface Mini-KVM can be found on our website at [Openterface.com](https://www.openterface.com/). We continuously update these resources to optimize your experience with the device.
 For technical support, we invite you to join our [community](/community/) for sharing queries and insights among fellow users and our expert team.
-If your issue remains unresolved, our team is available to provide further technical assistance. You can reach out via this [email](tomail: info@techxartisan.com).
+If your issue remains unresolved, our team is available to provide further technical assistance. You can reach out via this [email](mailto: info@techxartisan.com).
 
 ## Switchable USB Port & File Transfer
 
@@ -112,7 +112,7 @@ We are considering the application of USB 3.0 for the next version, targeting mo
 ## Technical
 
 ### Is the Openterface Mini-KVM open-source?
-Yes! We will open source both hardware and software. Just bear with us a little longer; We need to tidy quite some things up for opening up. If you are interested in [contributing](/contributing/), please do tell us via this [email](tomail: info@techxartisan.com). Stay tuned!
+Yes! We will open source both hardware and software. Just bear with us a little longer; We need to tidy quite some things up for opening up. If you are interested in [contributing](/contributing/), please do tell us via this [email](mailto: info@techxartisan.com). Stay tuned!
 
 ### Can I access a device's BIOS/firmware settings?
 Yes, the direct connection of the Openterface Mini-KVM enables access to low-level BIOS or firmware settings. This feature stands in contrast to software-based KVM solutions or remote control applications like TeamViewer and Zoom, which are typically not able to do BIOS-level interactions.
