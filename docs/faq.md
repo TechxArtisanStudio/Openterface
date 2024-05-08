@@ -92,6 +92,7 @@ If your issue remains unresolved, our team is available to provide further techn
 
 ### Can the Openterface Mini-KVM support file transfers?
 Yes, the Openterface Mini-KVM includes a switchable USB-A port shared between the host and target devices. With a USB stick/disk plugged into this port, files can be transferred between host and target by following these steps:
+
 1. Mount a USB stick drive on the host when the small black switch is on the side of the host's Type-C port.
 2. Copy the files onto this mounted drive.
 3. After copying, unmount the drive without physically unplugging it.
@@ -100,7 +101,11 @@ Yes, the Openterface Mini-KVM includes a switchable USB-A port shared between th
 This method can also be used in the opposite direction.
 
 ### Can the switchable USB-A port be toggled at the software level?
-The current design does not support toggling at the software level; it can only be physically flipped for now. Implementing toggling at the software level would necessitate a new design, incorporating a button and an LED indicator (either green/blue or on/off) to signify whether the USB port is set to the host or target mode. Additionally, this would require the integration of an additional chip, leading to increased costs in both hardware and software development. The existing design represents a compromise, aimed at balancing between cost-efficiency and basic functionality. Despite the potential for increased costs, we are interested in incorporating this feature in a future version for better user experience.
+The current design does not support toggling at the software level; it can only be physically flipped for now. 
+
+Implementing toggling at the software level would necessitate a new design, incorporating a button and an LED indicator (either green/blue or on/off) to signify whether the USB port is set to the host or target mode. 
+
+Additionally, this would require the integration of an additional chip, leading to increased costs in both hardware and software development. The existing design represents a compromise, aimed at balancing between cost-efficiency and basic functionality. Despite the potential for increased costs, we are interested in incorporating this feature in a future version for better user experience.
 
 ### Why USB 2.0 but not USB 3.0 for this switchable usb port?
 USB 2.0 is fully capable of handling video capture at 1080p@30Hz, transmitting HID signals (for keyboard and mouse), and managing standard-speed file transfers between the target and host computers. This makes our product a speedy, lightweight, and portable solution, exactly as designed.
@@ -112,10 +117,12 @@ We are considering the application of USB 3.0 for the next version, targeting mo
 ## Technical
 
 ### Is the Openterface Mini-KVM open-source?
-Yes! We will open source both hardware and software. Just bear with us a little longer; We need to tidy quite some things up for opening up. If you are interested in [contributing](/contributing/), please do tell us via this [email](mailto: info@techxartisan.com). Stay tuned!
+Yes! We will open source both [hardware](/how-it-works/#explore-hardware-details) and [software](/quick-start/#install-host-application). Just bear with us a little longer; We need to tidy quite some things up for opening up. If you are interested in [contributing](/contributing/), please do tell us via this [email](mailto: info@techxartisan.com). Stay tuned!
 
 ### Can I access a device's BIOS/firmware settings?
-Yes, the direct connection of the Openterface Mini-KVM enables access to low-level BIOS or firmware settings. This feature stands in contrast to software-based KVM solutions or remote control applications like TeamViewer and Zoom, which are typically not able to do BIOS-level interactions.
+Yes, the direct connection of the Openterface Mini-KVM enables access to low-level BIOS or firmware settings.
+
+This feature stands in contrast to software-based KVM solutions or remote control applications like TeamViewer and Zoom, which are typically not able to do BIOS-level interactions.
 
 ### Why doesn't the keyboard control work at the BIOS level for some older target computers?
 It seems that some old computers' BIOS can't recognize our device's USB hub, which can cause issues with our emulated keyboard and mouse not working properly at the BIOS level. We're keeping an eye on this problem.
@@ -125,7 +132,7 @@ We've had a report that on one specific HP computer, the HP Engage Flex Pro, the
 If you encounter the same issue, please report it to us via a GitHub issue.
 
 ### How is video/data transmitted between devices?
-Video data is captured via HDMI and transmitted over USB 2.0 to the host computer for display. The switchable USB 2.0 port allows basic peripheral sharing. Future versions may offer higher throughput connections with USB 3.
+Video data is captured via HDMI and transmitted over USB 2.0 to the host computer for display. The switchable USB 2.0 port allows a usb drive or other usb device sharing between the target and the host.
 
 ### How does the Openterface Mini-KVM handle power?
 The device does not require an external power supply, as it is designed to be powered through its Type-C connections from the host, enhancing its portability. In scenarios where the target device is a low-power micro-computer, such as a Raspberry Pi, it could be powered through the host via the Mini-KVM's switchable USB port. However, this is not recommended. The standard method of operation is to have an external power supply to the target device.
@@ -186,7 +193,6 @@ Here’s how:
 3. Scroll down and click the "Shortcuts…" button.
 4. Find Show Desktop and set it to the hyphen (-) at the bottom of the dropdown list.
 5. This change will let the F11 key pass through to your application on the target computer.
-
 
 
 <section class="dialogue-section-white" id="dialogues-section">
