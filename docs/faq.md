@@ -173,10 +173,10 @@ We know a lot of you are looking for top-notch display features. While it’s no
 We've designed the Openterface Mini-KVM to prioritize stable, wired control through HDMI and USB to ensure reliability and top performance without the instabilities or latency that can come with wireless connections and network streaming. But we’re always looking at new tech, and as we evolve, we might include these features in future versions.
 
 ### Can it work with different video outputs like VGA, DVI, DisplayPort, etc.??
-Sort of. The Openterface Mini-KVM currently only captures video through an HDMI port. However, you can use various video adapters like [VGA-to-HDMI](/use-cases/#streamlined-server-management) or [DVI-to-HDMI](http://localhost:8002/use-cases/#unified-control-for-diverse-devices), [miniHDMI-to-HDMI](/use-cases/#simplified-setup-for-tech-enthusiasts), DP-to-HDMI, to connect different video sources.
+Sort of. The Openterface Mini-KVM currently only captures video through an HDMI port. However, you can use various video adapters like [VGA-to-HDMI](/use-cases/#streamlined-server-management) or [DVI-to-HDMI](/use-cases/#unified-control-for-diverse-devices), [miniHDMI-to-HDMI](/use-cases/#simplified-setup-for-tech-enthusiasts), DP-to-HDMI, to connect different video sources.
 
 ### Why can't I add the VGA-to-HDMI cable to my order on Crowd Supply for shipping to the EU/UK?
-We're still working on getting the CE certificate we need to sell and ship this cable to places like the EU and UK. Things are looking up, and we’re hopeful we’ll have it sorted out soon. Keep an eye on our community posts for updates. Thanks for hanging in there with us!
+We're still working on getting the CE certificate we need to sell and ship this cable to places like the EU and UK. As I mentioned in [this post](https://www.reddit.com/r/Openterface_miniKVM/comments/1cjf8zi/working_on_ce_for_vgatohdmi_cable_for_euuk_backers/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button), things are looking up, and we’re hopeful we’ll have it sorted out soon, in a couple of weeks, maybe three, before June. Keep an eye on our community posts for updates. Thanks for hanging in there with us!
 
 ### Does Openterface Mini-KVM support VLC for streaming video?
 Nope, Openterface Mini-KVM isn’t set up for VLC or other streaming applications because it’s all about direct USB connectivity for control and management, not streaming over a network.
