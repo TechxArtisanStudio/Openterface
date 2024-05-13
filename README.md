@@ -1,14 +1,14 @@
-This is Github repo for hosting Openterface Mini-KVM's Website.
+This GitHub repository hosts the website for the [Openterface Mini-KVM](https://openterface.com/), a compact, feature-rich KVM device that is open-source and powered by [a vibrant community](https://openterface.com/community/).
 
-We've reached a pivotal moment: our [Pre-launch Page](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) is now live on **Crowd Supply**! This is a crucial step towards our official crowdfunding campaign, and we're eager to make it a success. By subscribing and considering to be our backer, you'll bring us closer to our goal and, ultimately, to delivering Mini-KVM Openterface to you faster.
-
----------
+We've reached a pivotal moment: our [Crowdfunding Campaign](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) is now live on **Crowd Supply**! We smashed our $12,000 goal in just a couple of hours! You all are amazing! Let’s keep this party rolling! Consider subscribing and backing us to help bring the Mini-KVM Openterface to you faster. Come hang out with us in our [community](https://openterface.com/community/)!
 
 ![pre_launch_poster](docs/images/event/pre_launch_poster.jpg)
 
-**Openterface Mini-KVM** allows you to control a headless target device, such as a mini PC, kiosk, or server, directly from your laptop or desktop without the need for an extra keyboard, mouse, and monitor.
+**[Openterface Mini-KVM](https://openterface.com/)** allows you to control a headless target device, such as a mini PC, kiosk, or server, directly from your laptop or desktop without the need for an extra keyboard, mouse, and monitor.
 
 It's a plug-and-play tool that connects via HDMI for display and USB for emulated keyboard/mouse (HID) signals. It requires minimal setup: install our host application on your host computer, and you're ready to have on-the-go headless control.
+
+Find out more on our [FAQs page](https://openterface.com/faq/).
 
 ## Control Your Devices Whenever and Wherever
 
@@ -16,7 +16,9 @@ It's a plug-and-play tool that connects via HDMI for display and USB for emulate
 
 Whether you're an IT professional needing to troubleshoot a server, a developer managing multiple tests on edge computing machines, a tech enthusiast hacking single-board computers, or simply someone looking to declutter their desk, Openterface Mini-KVM is the solution.
 
-## Features & Specifications  
+Discover more about our [use cases](https://openterface.com/use-cases/).
+
+## Features & Specifications
 
 ![openterface-mini-kvm-product-view-two-sides](/docs/images/product/openterface-mini-kvm-product-view-two-sides.jpg)
 
@@ -38,45 +40,36 @@ Whether you're an IT professional needing to troubleshoot a server, a developer 
 
 - **Clean Setup**: Leaves no software on the target computer.
 
-## Open Source
+Learn more about the [specifications](https://openterface.com/specifications/).
 
-Openterface Mini-KVM is open hardware and uses open source host software. We will make more information available when the campaign begins. We're also working on documentation, which you can [read on our website](https://openterface.com/quick-start/).
+## Install Host Application
 
-## Interested in This Project?
+To use this mini-KVM, the host computer must install one of the below host applications. 
 
-You can sign up at our [Pre-launch Page](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) on **Crowd Supply** to be notified when the campaign launches and to receive other updates. We provide useful information only, and you can unsubscribe at any time.
+- [Openterface_MacOS](https://github.com/TechxArtisanStudio/Openterface_MacOS) (Work-in-progress): For MacOS Support; The macOS app is also on Apple's App Store, by searching for "Openterface".
+- [Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT) (Work-in-progress): For Windows and Linux Support
+- [Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android) (Work-in-progress): For Android Support
+- [Openterface_WebExtension](https://github.com/TechxArtisanStudio/Openterface_WebExtension) (Work-in-progress): Web-based App for Chrome/Firefox Extension
 
-## Contact Us
+## Open Source Commitment
 
-We're delighted you're interested in reaching out to us. Whether you have questions, feedback, or just want to say hello, here are several ways to connect with us:
+The host applications mentioned above are actively being developed. Our team is diligently coding and refining these tools to enhance their performance and functionality. Our commitment to open hardware and open-source software remains firm, and we will disclose further details throughout the campaign.
 
-### Official Contact Emails
+We are currently preparing the code for public release by cleaning and organizing our repositories. 
 
-To ensure you're communicating with us securely and directly, please note our official contact email addresses. For any enquiries, support, or feedback, feel free to reach out to us at:
+If you are eager to contribute and wish to join our development team, [contact us today](mailto:info@techxartisan.com) and help shape the future of technology! 🚀
 
-- **Primary Contact Email:** [info@techxartisan.com](mailto:info@techxartisan.com)
+## Get in Touch & Keep Updated
 
-Additionally, any email address ending with the following domains is recognized as an official communication channel for our members and customers:
+We're thrilled you're thinking about reaching out! If you've got questions, feedback, or just want to drop a hello, head over to our [contact page](https://openterface.com/contact/) for all the ways you can connect with us.
 
-- **TechxArtisan Domain:** *@techxartisan.com
-- **Openterface Domain:** *@openterface.com
+To stay in the loop and engage with our community, follow us on our social media channels:
 
-Emails from these addresses are from our team, dedicated to providing you with the support and information you need.
+- **Reddit**: [Join our subreddit](https://www.reddit.com/r/Openterface_miniKVM/)
+- **Discord**: [Join our Discord community](https://discord.gg/sFTJD6a3R8)
+- **Twitter**: [Follow us on Twitter](https://twitter.com/TechxArtisan)
+- **YouTube**: [Subscribe to our YouTube channel](https://youtube.com/@TechxArtisan)
+- **Facebook**: [Like us on Facebook](https://www.facebook.com/TechxArtisan)
+- **LinkedIn**: [Follow us on LinkedIn](https://www.linkedin.com/company/techxartisan/)
 
-### Follow Us on Social Media
-
-Stay updated and engaged with us through our social media channels:
-
-- [Join our subreddit](https://www.reddit.com/r/Openterface_miniKVM/)
-- [TechxArtisan on GitHub](https://github.com/TechxArtisanStudio/Openterface/discussions)
-- [Follow us on Twitter](https://twitter.com/TechxArtisan)
-- [Like us on Facebook](https://www.facebook.com/TechxArtisan)
-- [Join our Discord community](https://discord.gg/sFTJD6a3R8)
-- [Subscribe to our YouTube channel](https://youtube.com/@TechxArtisan)
-- [Follow us on LinkedIn](https://www.linkedin.com/company/techxartisan/)
-
-### Visit Our Website
-
-For more information about us and our work, please visit our website:
-
-- [TechxArtisan Official Website](https://techxartisan.com/en/)
+Join the conversation and be part of our growing community!
