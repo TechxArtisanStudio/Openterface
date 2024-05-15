@@ -12,7 +12,7 @@ With various KVM solutions available, here's why it still win your heart:
 
 ## Back Our Project!
 
-We’re starting our official crowdfunding campaign on **Crowd Supply** soon for the Openterface mini-KVM, and we're eager to make it a success. By subscribing to the [pre-launch]((https://www.crowdsupply.com/techxartisan/openterface-mini-kvm)) and being our backer, you'll bring us closer to our goal and, ultimately, to delivering Mini-KVM Openterface to you faster. 
+Our official crowdfunding campaign is live on **Crowd Supply** for the Openterface mini-KVM, and we're eager to make it a success. By subscribing to the [campaign]((https://www.crowdsupply.com/techxartisan/openterface-mini-kvm)) and being our backer, you'll bring us closer to our goal and, ultimately, to delivering Mini-KVM Openterface to you faster. 
 
 Stay tuned for updates and [join our community](https://www.reddit.com/r/Openterface_miniKVM/) to be part of this exciting journey! ❤️
 

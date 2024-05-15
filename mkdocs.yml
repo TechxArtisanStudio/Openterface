@@ -70,6 +70,8 @@ extra:
       link: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
     - icon: fontawesome/brands/reddit-alien
       link: https://www.reddit.com/r/Openterface_miniKVM/
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/sFTJD6a3R8
     - icon: fontawesome/brands/youtube
       link: https://youtube.com/@TechxArtisan
     - icon: fontawesome/brands/x-twitter
@@ -78,8 +80,6 @@ extra:
       link: https://www.facebook.com/TechxArtisan
     - icon: fontawesome/brands/linkedin-in
       link: https://www.linkedin.com/company/techxartisan/
-    # - icon: fontawesome/brands/discord
-    #   link: https://discord.gg/skfExqDD
     # - icon: fontawesome/brands/github-alt
     #   link: https://github.com/TechxArtisanStudio/Openterface/discussions
   
