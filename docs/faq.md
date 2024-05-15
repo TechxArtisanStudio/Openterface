@@ -213,9 +213,6 @@ The Openterface Mini-KVM has been engineered to ensure reliable and stable perfo
 #### Can it work with different video outputs like VGA, DVI, DisplayPort, etc.??
 Sort of. The Openterface Mini-KVM captures video through an HDMI port. However, you can use various video adapters like [VGA-to-HDMI](https://openterface.com/use-cases/#streamlined-server-management), [DVI-to-HDMI](https://openterface.com/use-cases/#unified-control-for-diverse-devices), [miniHDMI-to-HDMI](https://openterface.com/use-cases/#simplified-setup-for-tech-enthusiasts), or DP-to-HDMI, to connect different video sources.
 
-#### Why can't I add the VGA-to-HDMI cable to my order on Crowd Supply for shipping to the EU/UK?
-We're still working on getting the CE certificate we need to sell and ship this cable to places like the EU and UK. Things are looking up, and we’re hopeful we’ll have it sorted out in a couple of weeks, maybe three, but definitely before June, so you’ll be able to add it to your orders soon. Keep an eye on [our community posts](https://www.reddit.com/r/Openterface_miniKVM/comments/1cjf8zi/working_on_ce_for_vgatohdmi_cable_for_euuk_backers/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) for updates. Thanks for hanging in there with us!
-
 ### More
 
 #### How can I contribute into this project?
