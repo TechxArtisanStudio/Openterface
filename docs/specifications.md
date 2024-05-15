@@ -1,5 +1,4 @@
 # Specifications
-<!-- ![Type-C to Host](images/product/lig-side.svg) -->
 
 ## Overview
 
