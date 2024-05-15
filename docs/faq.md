@@ -22,6 +22,7 @@ Let's delve into the most frequent questions about the Openterface Mini-KVM.
 - [What host computers are compatible with the Openterface Mini-KVM?](#what-host-computers-are-compatible-with-the-openterface-mini-kvm)
 - [What target devices are compatible with the Openterface Mini-KVM?](#what-target-devices-are-compatible-with-the-openterface-mini-kvm)
 - [Will there be technical support and documentation available for the Openterface Mini-KVM?](#will-there-be-technical-support-and-documentation-available-for-the-openterface-mini-kvm)
+- [Why is your open-source repository empty?](#why-is-your-open-source-repository-empty)
 
 ##### Software  
 
@@ -46,7 +47,8 @@ Let's delve into the most frequent questions about the Openterface Mini-KVM.
 - [Are there plans for a version with wireless or Ethernet connectivity?](#are-there-plans-for-a-version-with-wireless-or-ethernet-connectivity)
 - [How is this different from other KVM solutions like traditional KVMs, KVM-over-IP, VNC, etc?](#how-is-this-different-from-other-kvm-solutions-like-traditional-kvms-kvm-over-ip-and-vnc-etc)
 - [Does it work with a target computer requiring PS/2?](#does-it-work-with-a-target-computer-requiring-ps2)
-- [Can I use multiple Mini-KVMs to control multiple target devices from one master computer?](#can-i-use-multiple-mini-kvms-to-control-multiple-target-devices-from-one-master-computer)  
+- [Can I use multiple Mini-KVMs to control multiple target devices from one master computer?](#can-i-use-multiple-mini-kvms-to-control-multiple-target-devices-from-one-master-computer)
+- [Is it capable of powering off/on the computer it’s connected to?](#is-it-capable-of-powering-offon-the-computer-its-connected-to)
 
 ##### Video Related
 - [What about video latency and resolution?](#what-about-video-latency-and-resolution)
@@ -60,6 +62,8 @@ Let's delve into the most frequent questions about the Openterface Mini-KVM.
 
 - [How can I contribute into this project?](#how-can-i-contribute-into-this-project)
 - [Want to Review Our Handy Gadget?](#want-to-review-our-handy-gadget)
+- [What are the advanced features planned for the mini-KVM?](#what-are-the-advanced-features-planned-for-the-mini-kvm)
+- [How does the Openterface integrate with AI and what are its future possibilities?](#how-does-the-mini-kvm-integrate-with-ai-and-what-are-its-future-possibilities)
 
 ### Basic
 
@@ -85,6 +89,15 @@ No pre-installation or configuration is required on the target device. As long a
 #### Will there be technical support and documentation available for the Openterface Mini-KVM?
 Extensive documentation for the Openterface Mini-KVM can be found on our website at [Openterface.com](https://www.openterface.com/). We continuously update these resources to optimize your experience with the device.  
 For technical support, we invite you to join our [community](https://openterface.com/community/) for sharing queries and insights among fellow users and our expert team. If your issue remains unresolved, our team is available to provide further technical assistance. You can reach out via this email: info@techxartisan.com.
+
+#### Why is your open-source repository empty?
+We apologise for the delay. We have been exceptionally busy with various administrative tasks related to our crowdfunding campaign. Rest assured, we are fully committed to open-sourcing both the hardware and software for our project. Please be patient with us as we finalise preparations. We will start releasing the hardware details and code incrementally over the next two to three weeks, aiming to have everything available before we begin shipments to our backers.
+
+In the meantime, you can learn more about our project here: [How It Works](https://openterface.com/how-it-works/). This resource provides insight into our USB-HDMI capture integration, featuring the **CH9329** chip for keyboard and mouse control. Technical enthusiasts may find the details on the CH9329 chip particularly interesting.
+
+Additionally, our mini-KVM utilises the **CH340** chip, supporting two built-in USB hubs for both the host and target sides. Our mini-KVM is comparable to many video capture cards currently on the market. For further technical details, please refer to this [datasheet](https://docs.google.com/document/d/1UPw5RwGTp0AjKL3wOvQZUS1hp3IPMxkCujtqy5haeP0/edit?usp=sharing).
+
+Thank you for your understanding and patience!
 
 ### Software
 
@@ -180,6 +193,9 @@ No. We are aware that there are still many old headless computers out there that
 #### Can I use multiple Mini-KVMs to control multiple target deives from one master computer?
 Yes, you can! Our Mini-KVM can technically handle this, but we’re still tweaking the code and running tests. We're focusing on making sure that our software can automatically link up the keyboard and mouse with the right video source when you use more than one Mini-KVM at a time. Also, we’re sprucing up the software's UI to make it better for this kind of setup. Stay tuned to our community updates for when we roll out this feature!
 
+#### Is it capable of powering off/on the computer it’s connected to?
+Our device doesn't support ATX (power on/off control for the target computer). We designed it to be portable, quick for troubleshooting, and stable for local control. It's really meant to be used when you're right there with your laptop, managing one or several target computers. We may build a pro version in the future with ATX and more features.
+
 ### Video Related
 
 #### What about video latency and resolution?
@@ -215,6 +231,14 @@ Your support and [contributions](https://openterface.com/contributing/) are what
 
 #### Want to Review Our Handy Gadget?
 Hey, we love making noise and spreading the word about our Mini-KVM! If you're from the press or rocking it on social media and fancy taking our product for a spin, we're all ears. Whether you're into detailed reviews, unboxing videos, or just want to give us a shoutout, we're here for it and let's make some waves together! 🎉 Just drop us an email NOW!
+
+#### What are the advanced features planned for the mini-KVM?
+
+We are excited about the potential of the mini-KVM and are committed to documenting all our current ideas in a comprehensive roadmap. This roadmap will outline advanced features and future developments we envision for the device. We look forward to developing these features in collaboration with our community. Stay tuned for more updates as we continue to grow and innovate together.
+
+#### How does the mini-KVM integrate with AI and what are its future possibilities?
+
+Our ultimate goal is to enable AI to control target computers, and the Openterface plays a crucial role in this vision. Inspired by projects like [OthersideAI's self-operating computer](https://github.com/OthersideAI/self-operating-computer), we aim for the mini-KVM to act as an extension of the 'hands' (providing keyboard and mouse control) and 'eyes' (capturing the video source) for the host computer. If the host computer is powerful enough, it could potentially emulate the capabilities seen in the 2013 movie "Her". While this is a future aspiration, it highlights the exciting possibilities we see for the mini-KVM.
 
 
 --------
