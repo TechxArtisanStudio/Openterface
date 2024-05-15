@@ -108,9 +108,9 @@ extra:
     # - name: Italiano
     #   link: https://it.openterface.com/
     #   lang: it
-    # - name: Español
-    #   link: https://es.openterface.com/
-    #   lang: es
+    - name: Español
+      link: https://es.openterface.com/
+      lang: es
     # - name: Português
     #   link: https://pt.openterface.com/
     #   lang: pt
