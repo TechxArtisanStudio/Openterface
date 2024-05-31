@@ -12,8 +12,10 @@ tags:
 # Casual Chat with David Groom from MAKE: Magazine: The Story of Openterface Mini-KVM 🎙️
 
 Hi everyone!
-s
+
 We just wrapped up an awesome [YouTube livestream](https://www.youtube.com/live/lwitzvmxsgc?si=s9a1t5_Sce5v22e1) with David Groom from MAKE: Magazine! During the session, we delved into the story behind our Openterface Mini-KVM, an innovative open-source hardware solution designed to effortlessly control headless devices and single-board computers like Raspberry Pis using just your laptop. You can check out the YouTube livestream for more details or simply read the story below.
+
+![youtube-with-david-2](029/youtube-with-david.jpg)
 
 <!-- more -->
 
