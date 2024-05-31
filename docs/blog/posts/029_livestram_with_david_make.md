@@ -15,6 +15,8 @@ Hi everyone!
 s
 We just wrapped up an awesome [YouTube livestream](https://www.youtube.com/live/lwitzvmxsgc?si=s9a1t5_Sce5v22e1) with David Groom from MAKE: Magazine! During the session, we delved into the story behind our Openterface Mini-KVM, an innovative open-source hardware solution designed to effortlessly control headless devices and single-board computers like Raspberry Pis using just your laptop. You can check out the YouTube livestream for more details or simply read the story below.
 
+<!-- more -->
+
 ## The Birth of an Idea
 
 The journey of the Mini-KVM began in the bustling city of Guangzhou, China, within our TechxArtisan studio. Over the past five years, we have been deeply involved in numerous tech art projects for local and international artists. Our work includes constructing interactive lighting installations with AI detection, robotic arms for theatre performances, self-driving mini cars that solve random mazes, and even a robot dog designed to explore no man's lands like deserts and forests.
