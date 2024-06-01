@@ -37,7 +37,7 @@ Initially, we resorted to makeshift portable monitor solutions powered by batter
 ### The First Prototype
 Our first DIY prototype was a simple yet effective combination of a capture card to retrieve video from the headless device and a USB keyboard/mouse simulator, all integrated into a single USB cable connecting to our laptops. 
 
-![/early-mini-kvm-pcb](029/early-mini-kvm-pcb.jpg)
+![early-mini-kvm-pcb](029/early-mini-kvm-pcb.jpg)
 *One of the early versions of the mini-KVM PCB*
 
 We showcased our cool tech art projects at the Shenzhen Maker Faire in November 2023, intending to show off the mini-KVM prototype to David. However, we got so excited about the gifts from David and forgot it!
