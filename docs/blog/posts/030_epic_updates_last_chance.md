@@ -4,13 +4,18 @@ authors:
   - Openterface
 categories:
   - Stage - Prototyping
+  - Stage - Production
+tags:
+  - Community
 ---
 
 # Epic Updates & Final Week – Last Chance to Back Mini-KVM!
 
 Hey everyone!
 
-Time flies when you're having fun! We're now in the final week of our crowdfunding campaign for the Openterface Mini-KVM on Crowd Supply. Let's dive into some exciting updates!
+Time flies when you're having fun! We're now in the final week of our crowdfunding campaign for the Openterface Mini-KVM on Crowd Supply. Let's dive into **some exciting updates**!
+
+<!-- more -->
 
 ## Software Updates
 
