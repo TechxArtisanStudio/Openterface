@@ -24,8 +24,8 @@ We've got some fantastic news for you – our mini-KVM now supports macOS, Windo
 🎉 Check out the details for each system below:
 
 ### Openterface_MacOS
-![openterface-macos-app-store](https://openterface.com/blog/030/openterface-macos-app-store.jpeg)
   - **GitHub Repo:** [Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT)
+  ![openterface-macos-app-store](https://openterface.com/blog/030/openterface-macos-app-store.jpeg)
   - **Early Beta Demo Video:** [Mini-KVM: Basic KVM Control Tests](https://www.youtube.com/watch?v=m7OpUem0zqY)
   - **How to Install:**
     - **App Store:** Find our host app by searching "Openterface" or "Mini-KVM".
