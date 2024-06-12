@@ -13,6 +13,8 @@ To use this mini-KVM, the host computer must install one of the below host appli
 - [Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android) (Work in Progress): For Android Support
 - [Openterface_WebExtension](https://github.com/TechxArtisanStudio/Openterface_WebExtension) (Work in Progress): Web-based App for Chrome/Firefox Extension
 
+Check out our demo videos for [basic KVM control](/basic) and [advanced features](/features).
+
 The above host applications are **currently under development**. We are actively coding 🛠️ and enhancing them as we go! 💪 If you're interested in contributing and want to be part of an innovative development team, [join us now!](mailto:info@techxartisan.com) 🚀
 
 ## Connection Procedure

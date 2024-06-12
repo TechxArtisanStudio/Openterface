@@ -20,7 +20,7 @@ Ready to dive in? Let's get started! 🏊‍♂️
 
 ## Reporting A Bug 🐛
 
-Encountered a bug? No worries, it happens! Since we're still in the early stages of development, bugs are to be expected, especially in the following softwares. When you come across one, please check if it falls into these [basic operation tests](/basic-testing). The more details you provide about the conditions when the bug occurred, the better equipped we'll be to address it. Please report any bugs you encounter to the corresponding Github repositories.
+Encountered a bug? No worries, it happens! Since we're still in the early stages of development, bugs are to be expected, especially in the following softwares. When you come across one, please check if it falls into these [basic operation tests](/basic). The more details you provide about the conditions when the bug occurred, the better equipped we'll be to address it. Please report any bugs you encounter to the corresponding Github repositories.
 
 - Navigate to: 
     - [Openterface_MacOS](https://github.com/TechxArtisanStudio/Openterface_MacOS) (Work-in-progress): Host Applications for MacOS Support

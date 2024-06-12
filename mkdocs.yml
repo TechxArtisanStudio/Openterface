@@ -46,6 +46,7 @@ theme:
    - content.tabs
    - content.code.annotation
    - content.code.copy
+   - content.tabs.link
   palette:
     primary: deep orange
     accent: custom
@@ -147,6 +148,8 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true
   # Enables emoji shortcodes like :+1: or :sunglasses:
   - attr_list
   - md_in_html
@@ -163,6 +166,9 @@ markdown_extensions:
 plugins:
   - glightbox
   - search
+  - redirects:
+      redirect_maps:
+        'basic-testing.md': 'basic.md'
   - tags:
       tags_file: tags.md
   - blog:
@@ -182,16 +188,17 @@ nav:
   - FAQs: /faq
   - Documentation:
     - Quick Start: quick-start.md
-    - Why Openterface: why-openterface-minikvm.md
+    - Basic KVM Control 💬: basic.md
+    - Advanced Features 💬: features.md
     - Use Cases: use-cases.md
     - Specifications: specifications.md
     - What's in the Box: whats-in-the-box.md
     - How It Works 💬: how-it-works.md
+    - Why Openterface: why-openterface-minikvm.md
     - Comparison 💬: comparison.md
     - FAQs 💬: faq.md
     - Development:
       - Contributing 💬: contributing.md
-      - Basic Testing 💬: basic-testing.md
   - Community:
     - Welcome: community.md
   - Posts:
