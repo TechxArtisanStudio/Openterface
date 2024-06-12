@@ -27,5 +27,5 @@ jobs:
       - run: pip install mkdocs-material
       # install additional dependencies here
       - name: Install additional dependencies
-        run: pip install mkdocs-glightbox
+        run: pip install -r requirements.txt
       - run: mkdocs gh-deploy --force
