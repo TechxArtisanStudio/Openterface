@@ -71,13 +71,13 @@ Here are updates on our open-source Github repo:
 
 #### **Openterface_MacOS**
 
-Our [Openterface MacOS]((https://github.com/TechxArtisanStudio/Openterface_MacOS)) host app is already officially live on the **Apple App Store**. Just search for 'Openterface' or 'mini-KVM' to find our app page. Even better, we’ve uploaded the full code to our GitHub repo: Openterface_MacOS for the Mini-KVM. You can check out this [basic operation demo](https://openterface.com/basic-testing/) on **MacOS**.
+Our [Openterface MacOS]((https://github.com/TechxArtisanStudio/Openterface_MacOS)) host app is already officially live on the **Apple App Store**. Just search for 'Openterface' or 'mini-KVM' to find our app page. Even better, we’ve uploaded the full code to our GitHub repo: Openterface_MacOS for the Mini-KVM. You can check out this [basic operation demo](https://openterface.com/basic/) on **MacOS**.
 
 ![openterface-macos-app-store](https://pbs.twimg.com/media/GOA0JOUa4AEM1wI?format=jpg&name=small)
 
 #### **Openterface_QT**
 
-QT is a versatile framework that we love, which is why we used it to build [Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT) for the Mini-KVM. For the **Windows version**, check out our early demo video [here](https://openterface.com/basic-testing/). You can see from the demo that it works great with low latency and a stable connection! You can find and download the early beta app from the github repo there.
+QT is a versatile framework that we love, which is why we used it to build [Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT) for the Mini-KVM. For the **Windows version**, check out our early demo video [here](https://openterface.com/basic/). You can see from the demo that it works great with low latency and a stable connection! You can find and download the early beta app from the github repo there.
 
 ![openterface-win-app-demo-1](https://pbs.twimg.com/media/GOVZ43fbIAAyR06?format=jpg&name=small)
 
