@@ -599,7 +599,7 @@
         flex-wrap: nowrap;
         justify-content: normal;
         overflow-x: auto;
-        scroll-snap-type: x proximity; /* changed to 'proximity' for more forgiving scrolling */
+        scroll-snap-type: x proximity;
     }
 
     .twitter-feed-section .twitter-tweet {
@@ -746,4 +746,101 @@
         font-size: 0.8rem;
         margin-bottom: 0.5rem;
     }
+}
+
+#mc_embed_shell {
+    background: var(--md-primary-fg-color);
+    padding: var(--shared-padding);
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#mc_embed_signup {
+    background: var(--md-primary-fg-color);
+    clear: left;
+    width: 100%;
+    padding: var(--shared-padding);
+    margin: auto;
+    text-align: center;
+    max-width: 680px;
+}
+
+#mc_embed_signup h2 {
+    color: var(--description-font-light);
+    font-weight: bold;
+    text-align: center;
+}
+
+#mc_embed_signup .indicates-required {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#mc_embed_signup .mc-field-group {
+    margin-bottom: 1rem;
+}
+
+#mc_embed_signup label {
+    display: block;
+    font-weight: bold;
+    color: var(--description-font-dark);
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+
+#mc_embed_signup input[type="email"],
+#mc_embed_signup input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid var(--md-primary-fg-color);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#mc_embed_signup input[type="email"]:focus,
+#mc_embed_signup input[type="text"]:focus {
+    border-color: var(--md-accent-fg-color);
+    outline: none;
+}
+
+#mc_embed_signup .clear {
+    text-align: center;
+}
+
+#mc_embed_signup .button {
+    background-color: var(--md-primary-fg-color);
+    color: var(--description-font-light);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin: auto;
+    display: block;
+}
+
+#mc_embed_signup .button:hover {
+    background-color: var(--button-hover-color);
+    color: var(--md-primary-fg-color);
+}
+
+#mc_embed_signup .response {
+    display: none;
+}
+
+#mc_embed_signup .response.show {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#mc_embed_signup .dialogue-bubble {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
