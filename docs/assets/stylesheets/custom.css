@@ -750,7 +750,6 @@
 
 #mc_embed_shell {
     background: var(--md-primary-fg-color);
-    padding: var(--shared-padding);
     margin: auto;
     text-align: center;
     width: 100%;
@@ -773,20 +772,16 @@
     text-align: center;
 }
 
-#mc_embed_signup .indicates-required {
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
 #mc_embed_signup .mc-field-group {
-    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 #mc_embed_signup label {
     display: block;
     font-weight: bold;
     color: var(--description-font-dark);
-    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
     font-size: 0.8rem;
 }
 
