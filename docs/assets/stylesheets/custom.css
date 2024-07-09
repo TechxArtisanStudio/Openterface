@@ -760,10 +760,10 @@
     background: var(--md-primary-fg-color);
     clear: left;
     width: 100%;
-    padding: var(--shared-padding);
     margin: auto;
     text-align: center;
-    max-width: 720px;
+    max-width: 580px;
+    padding-bottom: 24px;
 }
 
 #mc_embed_signup h2 {
