@@ -1,7 +1,3 @@
----
-comments: true
----
-
 # Basic KVM Control
 
 ## Host App Demos

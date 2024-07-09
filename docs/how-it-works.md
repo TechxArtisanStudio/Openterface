@@ -1,7 +1,3 @@
----
-comments: true
----
-
 # How It Works
 
 ## Process Breakdown
