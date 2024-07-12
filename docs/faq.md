@@ -279,7 +279,7 @@ Moreover, feel free to reach out directly to our dedicated team by sending an em
       </div>
       <div class="dialogue-bubble" id="op-bubble">
         <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
-        <p>Be Our Backer! ❤️</p>
+        <p>Pre-Order NOW ❤️</p>
         <a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm" class="md-button md-button--primary" id="join-waitlist-button">Go to Crowd Supply</a>
       </div>
     </div>
