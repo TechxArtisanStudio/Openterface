@@ -1,0 +1,127 @@
+{% extends "main.html" %}
+
+{% block tabs %}
+  {{ super() }}
+
+  <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
+
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__image">
+          <img src="images/cover.png" alt="" width="1659" height="1200" draggable="false">
+        </div>
+        <div class="mdx-hero__content">
+          <div class="logo-container">
+            <img src="assets/logo.png" alt="Openterface Logo" width="138" draggable="false">
+            <img src="images/logo-c-eng-white.svg" alt="Openterface Logo-C" draggable="false">
+          </div>
+          <p>Enabling you to transform laptop into a KVM console for controlling any headless device via HDMI & USB.</p>
+
+          <a href="{{ 'https://www.crowdsupply.com/techxartisan/openterface-mini-kvm' | url }}" title="Pre Order" class="md-button md-button--primary">
+            Pre-Order
+          </a>
+          <a href="{{ '#mc_embed_shell' | url }}" title="DIY Challenge" class="md-button">
+            Subscribe ✉️
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="product-close-up" id="product-close-up">
+    <div class="container">
+      <div class="product-close-up-content">
+        <div class="product-image">
+          <img src="/images/product/close-up.png" alt="Product Close-up">
+        </div>
+        <div class="product-description">
+          <p>Elevate your tech toolkit with Openterface Mini-KVM: 
+            A <strong>compact, feature-rich, open-source KVM-over-USB</strong> solution that simplifies your tech life with on-the-fly IT tasks and troubleshooting.
+          </p>
+        </div>
+      </div>
+  
+      <div class="product-close-up-content reverse-layout">
+        <div class="product-image">
+          <img src="/images/product/use-case-demo-industrial-pc.jpg" alt="Pre Launch Poster">
+        </div>
+        <div class="product-description">
+          <p>Say goodbye to an extra monitor, keyboard, and mouse!
+            Turn your laptop into a smart KVM console for controlling any headless device via HDMI and USB.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-dev-test" id="feature-dev-test">
+    <div class="container">
+      <h2>Product Preview</h2>
+      <div class="videos-wrapper">
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ZZ5P6MnBcHw?si=Ny7OUeid4Wnu_YqV" title="Introduction Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/K0EuMSQEwKo?si=MEHPtBsCP5pSerD2" title="Beta App for Windows" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/xAEQpWyfY-c?si=7aMQoJ-1bBI5Hicw" title="Product Review" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  <div id="mc_embed_shell">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+
+    <div id="mc_embed_signup">
+      <form action="https://openterface.us17.list-manage.com/subscribe/post?u=3dd231898c31d7feef0c37771&amp;id=2efd0c0e34&amp;f_id=00fcf9e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+        <div id="mc_embed_signup_scroll">
+          <div class="dialogue-bubble" id="sub-bubble">
+            <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
+            <p>Get the Latest Buzz! ✉️❤️</p>
+            <div class="mc-field-group">
+              <label for="mce-EMAIL">Email Address *</label>
+              <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="">
+              <label for="mce-FNAME">First Name </label>
+              <input type="text" name="FNAME" class=" text" id="mce-FNAME" value="">
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response"></div>
+              <div class="response" id="mce-success-response"></div>
+            </div>
+            <div aria-hidden="true" style="position: absolute; left: -5000px;">
+              <input type="text" name="b_3dd231898c31d7feef0c37771_2efd0c0e34" tabindex="-1" value="">
+            </div>
+            <div class="clear">
+              <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+    <script type="text/javascript">
+      (function($) {
+        window.fnames = new Array(); 
+        window.ftypes = new Array();
+        fnames[0]='EMAIL';ftypes[0]='email';
+        fnames[1]='FNAME';ftypes[1]='text';
+        fnames[2]='LNAME';ftypes[2]='text';
+        fnames[3]='ADDRESS';ftypes[3]='address';
+        fnames[4]='PHONE';ftypes[4]='phone';
+        fnames[5]='BIRTHDAY';ftypes[5]='birthday';
+      }(jQuery));
+      var $mcj = jQuery.noConflict(true);
+    </script>
+  </div>
+  
+{% endblock %}
+
+{% block content %}{% endblock %}
+
+{% block footer %}
+  {{ super() }}
+{% endblock %}
