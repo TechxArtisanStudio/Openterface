@@ -169,6 +169,7 @@ plugins:
   - redirects:
       redirect_maps:
         'basic-testing.md': 'basic.md'
+        'community.md': 'https://www.reddit.com/r/Openterface_miniKVM/'
   - tags:
       tags_file: tags.md
 
