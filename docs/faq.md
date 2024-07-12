@@ -19,7 +19,7 @@ Let's delve into the most frequent questions about the Openterface Mini-KVM.
 
 ##### Basic
 - [What is Openterface Mini-KVM?](#what-is-openterface-mini-kvm)
-- [Why does Openterface Mini-KVM make a difference?](#why-openterface-mini-kvm-make-a-difference)
+- [Why does Openterface Mini-KVM make a difference?](#why-does-the-openterface-mini-kvm-make-a-difference)
 - [What are the use cases for this mini-KVM?](#what-are-use-cases-for-this-mini-kvm)
 - [What host computers are compatible with the Openterface Mini-KVM?](#what-host-computers-are-compatible-with-the-openterface-mini-kvm)
 - [What target devices are compatible with the Openterface Mini-KVM?](#what-target-devices-are-compatible-with-the-openterface-mini-kvm)
@@ -75,21 +75,14 @@ The Openterface Mini-KVM is ==fully open-sourced== in both [hardware](/how-it-wo
 
 #### Why Does the Openterface Mini-KVM Make a Difference?
 
-1. **Portability & Functionality**
+With various KVM solutions available, here’s why the Openterface Mini-KVM stands out:
 
-    Designed with portability in mind, the Openterface Mini-KVM is a compact and lightweight gadget that can easily accompany you on the go. Featuring comprehensive capabilities such as BIOS-level access, audio integration, a switchable USB port, and text transfer, this device provides all the necessary tools to efficiently manage and troubleshoot your headless devices, wherever your work may lead.
+- Portability & Functionality
+- Network-Free & On-the-Fly Troubleshooting
+- Wallet-Friendly Price
+- Fully Open Source & Community
 
-2. **Network-Free & On-the-Fly Troubleshooting**
-
-    Unlike KVM-over-IP or software KVM solutions that rely on network access, the Openterface Mini-KVM offers a plug-and-play, network-independent experience. Our device establishes a direct HDMI and USB connection between the host computer and the target device, enabling you to take control and diagnose issues quickly, especially in environments where network connectivity is unreliable or unavailable. The hardware startup time is less than 1 second, ensuring you can jump right into troubleshooting without delays or disturbances in your workflow.
-
-3. **Wallet-Friendly Price**
-
-    Unlike traditional KVM consoles that often come with a hefty price tag, our Mini-KVM is designed to be accessible and affordable to a broader spectrum of users, from IT professionals to tech enthusiasts.
-
-4. **Fully Open Source & Community**
-
-    The real magic lies in our commitment to open-source development and community engagement. By embracing these principles, we’re building a vibrant ecosystem where users can collaborate, contribute, and customise the device to meet their unique needs, fostering innovation and pushing the boundaries of what’s possible.
+To read more, visit our [Why Openterface Mini-KVM](/why-openterface-minikvm) page.
 
 #### What are use cases for this mini-KVM?
 Openterface Mini-KVM is the perfect companion for a wide range of users and scenarios:

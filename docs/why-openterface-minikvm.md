@@ -4,21 +4,21 @@
 
 With various KVM solutions available, here's why it still win your heart:
 
-- **Compact & Efficient**: Tailored for both IT professionals and enthusiasts, our KVM-over-USB solution shines in environments with limited or no network access, offering a portable, network-independent, and swift troubleshooting tool.
+1. **Portability & Functionality**
 
-- **Affordability**: We've worked hard to make the Openterface Mini-KVM more cost-effective than its counterparts, ensuring it's within reach for everyone who needs this essential tool for work or hobby projects.
+    Designed with portability in mind, the Openterface Mini-KVM is a compact and lightweight gadget that can easily accompany you on the go. Featuring comprehensive capabilities such as BIOS-level access, audio integration, a switchable USB port, and text transfer, this device provides all the necessary tools to efficiently manage and troubleshoot your headless devices, wherever your work may lead.
 
-- **Community-Driven & Open-Source**: At its core, the Openterface Mini-KVM is about fostering a community of innovation and collaboration. By embracing open-source values, we invite users to contribute custom features and enhancements, enriching the tool's capabilities and versatility.👨‍💻🤝👩‍💻
+2. **Network-Free & On-the-Fly Troubleshooting**
 
-## Back Our Project!
+    Unlike KVM-over-IP or software KVM solutions that rely on network access, the Openterface Mini-KVM offers a plug-and-play, network-independent experience. Our device establishes a direct HDMI and USB connection between the host computer and the target device, enabling you to take control and diagnose issues quickly, especially in environments where network connectivity is unreliable or unavailable. The hardware startup time is less than 1 second, ensuring you can jump right into troubleshooting without delays or disturbances in your workflow.
 
-Our official crowdfunding campaign is live on **Crowd Supply** for the Openterface mini-KVM, and we're eager to make it a success. By subscribing to the [campaign]((https://www.crowdsupply.com/techxartisan/openterface-mini-kvm)) and being our backer, you'll bring us closer to our goal and, ultimately, to delivering Mini-KVM Openterface to you faster. 
+3. **Wallet-Friendly Price**
 
-Stay tuned for updates and [join our community](https://www.reddit.com/r/Openterface_miniKVM/) to be part of this exciting journey! ❤️
+    Unlike traditional KVM consoles that often come with a hefty price tag, our Mini-KVM is designed to be accessible and affordable to a broader spectrum of users, from IT professionals to tech enthusiasts.
 
+4. **Fully Open Source & Community**
 
-![crowdfunding-post](/images/crowdfunding-post.png)
-
+    The real magic lies in our commitment to open-source development and community engagement. By embracing these principles, we’re building a vibrant ecosystem where users can collaborate, contribute, and customise the device to meet their unique needs, fostering innovation and pushing the boundaries of what’s possible. 👨‍💻🤝👩‍💻
 
 <section class="dialogue-section-white" id="dialogues-section">
     <div class="container">
