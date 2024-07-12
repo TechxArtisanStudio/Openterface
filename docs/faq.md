@@ -4,6 +4,7 @@ tags:
   - mini-KVM
   - Switchable USB
   - BIOS
+  - USBKVM
 ---
 
 # Frequently Asked Questions (FAQs)
@@ -11,6 +12,8 @@ tags:
 We're absolutely delighted to have you here! 🌟 This section is designed to address frequently asked questions about the Openterface Mini-KVM, which our team organises periodically. 
 
 Let's delve into the most frequent questions about the Openterface Mini-KVM.
+
+*Updated: 12 Jul 2024*
 
 ### List of Questions
 
@@ -21,7 +24,6 @@ Let's delve into the most frequent questions about the Openterface Mini-KVM.
 - [What host computers are compatible with the Openterface Mini-KVM?](#what-host-computers-are-compatible-with-the-openterface-mini-kvm)
 - [What target devices are compatible with the Openterface Mini-KVM?](#what-target-devices-are-compatible-with-the-openterface-mini-kvm)
 - [Will there be technical support and documentation available for the Openterface Mini-KVM?](#will-there-be-technical-support-and-documentation-available-for-the-openterface-mini-kvm)
-- [Why is your open-source repository empty?](#why-is-your-open-source-repository-empty)
 
 ##### Software  
 
@@ -66,18 +68,40 @@ Let's delve into the most frequent questions about the Openterface Mini-KVM.
 
 ### Basic
 
-#### What is Openterface mini-KVM?
-The Openterface Mini-KVM is a compact, feature-rich, and open-source KVM gadget driven by [a vibrant community](https://openterface.com/community/). It allows you to use your own laptop to display and control headless devices directly through a [USB and HDMI connection](https://openterface.com/quick-start/#connection-procedure). This KVM-over-USB solution captures video via HDMI and simulates keyboard and mouse inputs. It is particularly useful for [a wide range of applications](https://openterface.com/use-cases/), catering to tech enthusiasts exploring single-board computers, as well as IT professionals troubleshooting headless devices. It eliminates the need for additional monitors, keyboards, and mice, providing a convenient solution in environments where network connections are unreliable or unavailable.
+#### What is Openterface Mini-KVM?
+The Openterface Mini-KVM allows you to use your laptop or computer to display and control headless devices through a USB and HDMI connection. This KVM-over-USB solution offers a lightweight, speedy, and seamless KVM control. It eliminates the need for extra monitors, keyboards, and mice, providing a convenient solution in places where network connections are unreliable or unavailable. It is particularly useful for [a wide range of applications](https://openterface.com/use-cases/), especially for tech professionals troubleshooting headless devices or single-board computers. With the use of a video adapter, it can also support [VGA](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm#product-3914), Micro HDMI, DVI, and other input sources. 
 
-#### Why Openterface Mini-KVM Make a Difference?
-Our [Openterface Mini-KVM features](https://openterface.com/#product-features) a **portable design, plug-and-play ease, fast response time, and direct BIOS-level access with a switchable USB-A port**, all shared between host and target devices. It ensures a reliable and speedy control experience via HDMI and USB connection, free from the constraints of network dependency, making it suitable for various [use scenarios](https://openterface.com/use-cases/), especially for on-the-fly IT tasks and troubleshooting.
+The Openterface Mini-KVM is ==fully open-sourced== in both [hardware](/how-it-works/#explore-hardware-details) and [software](https://openterface.com/quick-start/#install-host-application), certified by [OSHWA](https://certification.oshwa.org/cn000015.html), and supported by [a vibrant community](https://openterface.com/community/).
 
-Moreover, unlike traditional KVM consoles that often come with a hefty price tag, our mini-KVM is designed to be accessible and **afforadable** to a broader spectrum of users, from IT professionals to tech enthusiasts.
+#### Why Does the Openterface Mini-KVM Make a Difference?
 
-But the real magic lies in our commitment to **open-source development** and **community engagement**. By embracing these principles, we’re building a vibrant ecosystem where users can collaborate, contribute, and customize the device to meet their unique needs, fostering innovation and pushing the boundaries of what’s possible.
+1. **Portability & Functionality**
+
+    Designed with portability in mind, the Openterface Mini-KVM is a compact and lightweight gadget that can easily accompany you on the go. Featuring comprehensive capabilities such as BIOS-level access, audio integration, a switchable USB port, and text transfer, this device provides all the necessary tools to efficiently manage and troubleshoot your headless devices, wherever your work may lead.
+
+2. **Network-Free & On-the-Fly Troubleshooting**
+
+    Unlike KVM-over-IP or software KVM solutions that rely on network access, the Openterface Mini-KVM offers a plug-and-play, network-independent experience. Our device establishes a direct HDMI and USB connection between the host computer and the target device, enabling you to take control and diagnose issues quickly, especially in environments where network connectivity is unreliable or unavailable. The hardware startup time is less than 1 second, ensuring you can jump right into troubleshooting without delays or disturbances in your workflow.
+
+3. **Wallet-Friendly Price**
+
+    Unlike traditional KVM consoles that often come with a hefty price tag, our Mini-KVM is designed to be accessible and affordable to a broader spectrum of users, from IT professionals to tech enthusiasts.
+
+4. **Fully Open Source & Community**
+
+    The real magic lies in our commitment to open-source development and community engagement. By embracing these principles, we’re building a vibrant ecosystem where users can collaborate, contribute, and customise the device to meet their unique needs, fostering innovation and pushing the boundaries of what’s possible.
 
 #### What are use cases for this mini-KVM?
-Please check out this page: [Use Cases](https://openterface.com/use-cases/)
+Openterface Mini-KVM is the perfect companion for a wide range of users and scenarios:
+
+- IT professionals troubleshooting servers
+- Technicians servicing ATMs, VLTs, and kiosks
+- Developers managing edge computing devices
+- Tech enthusiasts experimenting with single-board computers
+- Professionals requiring secure local operations on network segregation, such as those managing crypto assets
+- Anyone in need of frequently integrated workflows between personal and work computers.
+
+Please also check out this page: [Use Cases](https://openterface.com/use-cases/)
 
 #### What host computers are compatible with the Openterface Mini-KVM?
 To use this mini-KVM, the host computer must install one of these [host applications](https://openterface.com/quick-start/#install-host-application) to support MacOS, Windows and Linux. A web-based extension and Android apps are currently under development.
@@ -86,22 +110,16 @@ To use this mini-KVM, the host computer must install one of these [host applicat
 No pre-installation or configuration is required on the target device. As long as the target device supports UI operations with video output (e.g., HDMI, VGA) and has a USB port to receive emulated keyboard and mouse control (HID) signals, it can be used. Thus, supported target device platforms include Windows, MacOS, Linux, Android, and iOS.
 
 #### Will there be technical support and documentation available for the Openterface Mini-KVM?
-Extensive documentation for the Openterface Mini-KVM can be found on our website at [Openterface.com](https://www.openterface.com/). We continuously update these resources to optimize your experience with the device.  
+Extensive documentation for the Openterface Mini-KVM can be found on our website at [Openterface.com](https://www.openterface.com/). We continuously update these resources to optimize your experience with the device.
 For technical support, we invite you to join our [community](https://openterface.com/community/) for sharing queries and insights among fellow users and our expert team. If your issue remains unresolved, our team is available to provide further technical assistance. You can reach out via this email: info@techxartisan.com.
-
-#### Why is your open-source repository empty?
-We apologise for the delay. We have been exceptionally busy with various administrative tasks related to our crowdfunding campaign. Rest assured, we are fully committed to open-sourcing both the hardware and software for our project. Please be patient with us as we finalise preparations. We will start releasing the hardware details and code incrementally over the next two to three weeks, aiming to have everything available before we begin shipments to our backers.
-
-In the meantime, you can learn more about our project here: [How It Works](https://openterface.com/how-it-works/). This resource provides insight into our USB-HDMI capture integration, featuring the **CH9329** chip for keyboard and mouse control. Technical enthusiasts may find the details on the CH9329 chip particularly interesting.
-
-Additionally, our mini-KVM utilises the **CH340** chip, supporting two built-in USB hubs for both the host and target sides. Our mini-KVM is comparable to many video capture cards currently on the market. For further technical details, please refer to this [datasheet](https://docs.google.com/document/d/1UPw5RwGTp0AjKL3wOvQZUS1hp3IPMxkCujtqy5haeP0/edit?usp=sharing).
-
-Thank you for your understanding and patience!
 
 ### Software
 
 #### Where can I download the host applications?
-Visit our [Install Host Application page](https://openterface.com/quick-start/#install-host-application) for official downloads. As our project is open source, you may find alternative versions of host applications compatible with our mini-KVM developed by the community. While these can offer additional features, please ensure you review their security and privacy practices. TechxArtisan Studio cannot guarantee the safety of third-party applications. Thank you!
+Visit our [Install Host Application page](https://openterface.com/quick-start/#install-host-application) for official downloads.
+
+??? warning "Privacy & Security: Be cautious when using third-party host app"
+    As our project is open source, you may find alternative versions of host applications compatible with our Mini-KVM developed by others. While these can offer additional features, please ensure you review their security and privacy practices. **The Openterface Team cannot guarantee or be responsible for the safety of third-party applications**.
 
 #### When will the host app for Android be available?
 We are currently developing the host app for Android, but it is a lower priority compared to versions for mainstream operating systems like macOS, Windows, and Linux. We appreciate your patience and encourage you to stay tuned for updates. If you are interested in assisting with development, feel free to join our community or contact us via email!
@@ -124,22 +142,24 @@ On macOS, pressing F11 shows the macOS desktop instead of passing the F11 key to
 ### Switchable USB Port and File Transfer
 
 #### Can the Openterface Mini-KVM support file transfers?
-Yes, the Openterface Mini-KVM includes a switchable USB-A port shared between the host and target devices. With a USB stick/disk plugged into this port, files can be transferred between host and target by following these steps:
+Yes, the Openterface Mini-KVM includes a switchable USB-A port shared between the host and target devices.
 
-1. Mount a USB stick drive on the host when the small black switch is set to the side of the host's Type-C port.
-2. Copy the files onto this mounted drive.
-3. After copying, unmount the drive without physically unplugging it.
-4. Flip the small black switch to the other side. This action switches the USB-A port's connection to the target.
-5. Mount the USB stick on the target device and copy/move files off the drive, completing the transfer process of files from host to target.
+??? note "How to share a USB stick/disk between the Host and Target devices?"
+    Files can be transferred between the host and target by following these steps:
 
-This method can also be used in the opposite direction.
+    1. Mount a USB stick drive on the host when the small black switch is set to the side of the host's Type-C port.
+    2. Copy the files onto this mounted drive.
+    3. After copying, unmount the drive without physically unplugging it.
+    4. Flip the small black switch to the other side. This action switches the USB-A port's connection to the target.
+    5. Mount the USB stick on the target device and copy/move files off the drive, completing the transfer process of files from host to target.
+
+    This method can also be used in the opposite direction.
+
+??? note "Remember to eject the flash drive before toggling the switch"
+    If the USB port is being used by a flash drive, ensure you eject the flash drive before toggling the switch to transfer the port’s use to another computer.
 
 #### Can the switchable USB-A port be toggled at the software level?
-The current design does not support toggling at the software level; it can only be physically flipped for now. 
-
-Implementing toggling at the software level would necessitate a new design, incorporating a button and an LED indicator (either green/blue or on/off) to signify whether the USB port is set to the host or target mode. 
-
-Additionally, this would require the integration of an additional chip, leading to increased costs in both hardware and software development. The existing design represents a compromise, aimed at balancing cost-efficiency and basic functionality. Despite the potential for increased costs, we are interested in incorporating this feature in a future version for better user experience.
+With the hardware upgrade to v1.9, yes! We’re currently working on coding this feature into our app. Once it’s in place, it will support both physical flipping and toggling at the software level. Check with our dev team on Discord to know more about this progress.
 
 #### Why USB 2.0 but not USB 3.0 for this switchable usb port?
 USB 2.0 is fully capable of handling video capture at 1080p@30Hz, transmitting HID signals (for keyboard and mouse), and managing standard-speed file transfers between the target and host computers. This makes our product a speedy, lightweight, and portable solution, exactly as designed.
@@ -151,7 +171,7 @@ We are considering the application of USB 3.0 for the next version, targeting mo
 ### Technical
 
 #### Is the Openterface Mini-KVM open-source?
-Yes! We will open source both [hardware](/how-it-works/#explore-hardware-details) and [software](https://openterface.com/quick-start/#install-host-application). Just bear with us a little longer; We need to tidy quite some things up for opening up. If you are interested in [contributing](/contributing/), please do tell us via this email: info@techxartisan.com. Stay tuned!
+Yes! The Openterface Mini-KVM is fully open-sourced in both [hardware](/how-it-works/#explore-hardware-details) and [software](https://openterface.com/quick-start/#install-host-application), certified by [OSHWA](https://certification.oshwa.org/cn000015.html), and supported by [a vibrant community](https://openterface.com/community/). If you are interested in [contributing](/contributing/), please contact us at info@techxartisan.com. Stay tuned!
 
 #### Can I access a device's BIOS settings?
 Yes, the direct connection of the Openterface Mini-KVM enables access to low-level BIOS or firmware settings.
@@ -172,7 +192,7 @@ Video data is captured via HDMI and transmitted over USB 2.0 to the host compute
 The device does not require an external power supply, as it is designed to be powered through its USB Type-C connections from the host, enhancing its portability. In scenarios where the target device is a low-power micro-computer, such as a Raspberry Pi, it could be powered through the host via the Mini-KVM's switchable USB port. However, this is not recommended. The standard method of operation is to have an external power supply to the target device.
 
 #### Can I DIY this device?
-Absolutely! We're a bunch of passionate makers who love to DIY, and we are making sure this project is open source, both hardware and software, and updating its docs. You can technically build it from scratch. We’re even thinking about posting a guide on how to DIY a breadboard version of our product that would also be compatible with our software.
+Absolutely! We're a bunch of passionate makers who love to DIY, and we are making sure this project is open source in both hardware and software. You can technically build it from scratch. We’re even thinking about posting a guide on how to DIY a breadboard version of our product that would also be compatible with our software.
 
 Our community is already experimenting with different hardware versions. Check out our community posts to learn more, or share your own DIY experiences! It could really enrich our community. Plus, you might find that with a few tweaks to the code, our software could work seamlessly with your creative DIY setup!
 
