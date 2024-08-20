@@ -13,7 +13,7 @@ We're absolutely delighted to have you here! 🌟 This section is designed to ad
 
 Let's delve into the most frequent questions about the Openterface Mini-KVM.
 
-*Updated: 12 Jul 2024*
+*Updated: 20 Aug 2024*
 
 ### List of Questions
 
@@ -58,6 +58,11 @@ Let's delve into the most frequent questions about the Openterface Mini-KVM.
 - [Why doesn't Openterface Mini-KVM stream video over local IP?](#why-doesnt-openterface-mini-kvm-stream-video-over-local-ip)
 - [Can it work with different video outputs like VGA, DVI, DisplayPort, etc.?](#can-it-work-with-different-video-outputs-like-vga-dvi-displayport-etc)
 - [Why can't I add the VGA-to-HDMI cable to my order on Crowd Supply for shipping to the EU/UK?](#why-cant-i-add-the-vga-to-hdmi-cable-to-my-order-on-crowd-supply-for-shipping-to-the-euuk)
+
+##### Troubleshooting
+- [Why does the Openterface Mini-KVM sometimes experience issues when connected through a USB hub?](#why-does-the-openterface-mini-kvm-sometimes-experience-issues-when-connected-through-a-usb-hub)
+
+- [What should I do if the Openterface Mini-KVM becomes unstable, such as when the app doesn’t display the target’s screen or the mouse and keyboard are unresponsive?](#what-should-i-do-if-the-openterface-mini-kvm-becomes-unstable-such-as-when-the-app-doesnt-display-the-targets-screen-or-the-mouse-and-keyboard-are-unresponsive)
 
 ##### More
 
@@ -224,6 +229,16 @@ The Openterface Mini-KVM has been engineered to ensure reliable and stable perfo
 
 #### Can it work with different video outputs like VGA, DVI, DisplayPort, etc.??
 Sort of. The Openterface Mini-KVM captures video through an HDMI port. However, you can use various video adapters like [VGA-to-HDMI](https://openterface.com/use-cases/#streamlined-server-management), [DVI-to-HDMI](https://openterface.com/use-cases/#unified-control-for-diverse-devices), [miniHDMI-to-HDMI](https://openterface.com/use-cases/#simplified-setup-for-tech-enthusiasts), or DP-to-HDMI, to connect different video sources.
+
+### Troubleshooting
+
+#### Why does the Openterface Mini-KVM sometimes experience issues when connected through a USB hub?
+
+When a USB hub is used on the target side, the Openterface Mini-KVM might become unstable. This is because the Openterface Mini-KVM relies primarily on the target port for power. If the USB hub connected to the target is fully loaded, it may cause a significant voltage drop, leading to instability in the Openterface Mini-KVM due to insufficient power. If you need to use a USB hub on the target side, consider using a powered USB hub with an external power supply to ensure stable operation.
+
+#### What should I do if the Openterface Mini-KVM becomes unstable, such as when the app doesn’t display the target’s screen or the mouse and keyboard are unresponsive?
+
+If you encounter instability with the Openterface Mini-KVM—such as the app not displaying the target's screen or the inability to control the mouse and keyboard—try disconnecting all the cables. After a brief moment, reconnect the cables and try again. This simple reset often resolves connection issues.
 
 ### More
 
