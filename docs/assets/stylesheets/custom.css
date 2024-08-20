@@ -631,6 +631,13 @@
     text-align: center;
 }
 
+.dialogue-section-white h2 {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: inherit;
+}
+
 .dialogue-bubble {
     display: inline-block;
     background-color: white;
@@ -638,7 +645,7 @@
     padding: 1rem 1.5rem;
     position: relative;
     margin: 1rem;
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25);
     border: 1px solid #e7e7e7;
 }
 
@@ -670,6 +677,19 @@
     border-style: solid;
     border-color: white transparent transparent transparent;
     transform: translateX(-50%);
+}
+
+.dialogue-bubble::before {
+    content: '';
+    position: absolute;
+    bottom: -38px;
+    left: 50%;
+    border-width: 16px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.25) transparent transparent transparent; /* Shadow colour */
+    transform: translateX(-50%);
+    z-index: -1;
+    filter: blur(4px);
 }
 
 .callout-button-container {
