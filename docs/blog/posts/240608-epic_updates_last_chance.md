@@ -18,8 +18,6 @@ We've got some fantastic news for you – our mini-KVM now supports macOS, Windo
 
 🎉 Check out the details for each system below:
 
-<!-- more -->
-
 ### Openterface_MacOS
 
   - **GitHub Repo:** [Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT)

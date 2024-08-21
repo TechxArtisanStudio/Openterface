@@ -12,8 +12,6 @@ Hey everyone,
 
 It’s been a while since our crowdfunding campaign ended, and we’ve got some fantastic updates to share with you. We’re excited to dive headfirst into the production phase of our Openterface Mini-KVM and keep you informed on our progress.
 
-<!-- more -->
-
 ## Teardown 2024 Highlights
 
 First of all, last month’s [Teardown 2024](https://x.com/TechxArtisan/status/1810619822948090092) hosted by [**Crowd Supply**](https://www.crowdsupply.com/teardown/portland-2024) in Portland was nothing short of amazing. It was fantastic to meet so many of our tech friends and backers in person at our demo table! Your kind words are a great encouragement and motivation for us. Here are some snaps from the event:

@@ -17,8 +17,6 @@ First off, I can't [thank you all](https://x.com/TechxArtisan/status/18018500682
 
 This success has given us the chance to make the Mini-KVM even better! We couldn’t have done it without you—seriously, thank you from the bottom of our hearts! 🧡 We'll be working full throttle in production to ensure delivery to your hands soon!
 
-<!-- more -->
-
 ### Fun Bet & My Flight to Portland!
 So, here’s a fun story: As I mentioned in [this post](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/last-hours-to-back-and-mini-kvms-at-tech-frontlines), Kevin and I made a bet. If we could get 100 new backers in the final 36 hours, I would **fly to the US** for [Crowd Supply's Teardown 2024](https://www.crowdsupply.com/teardown/portland-2024). Well, guess what? We didn’t just hit 100—we got 165 new backers! So, I’m super excited to announce that I’ll be attending Teardown 2024 in person on this Friday (June 21) and weekend.
 

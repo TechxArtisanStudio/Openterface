@@ -12,8 +12,6 @@ Hey everyone,
 
 We wanted to share some exciting updates from our beta team on our [Discord channel](https://discord.gg/sFTJD6a3R8)! Our Openterface Mini-KVM is performing brilliantly at the tech frontline, and we've got some fantastic images to show you. Check them out and see what all the buzz is about!
 
-<!-- more -->
-
 ![cam-share](https://www.crowdsupply.com/img/bed9/41ac90fd-1074-49e0-a081-f9798610bed9/cam-share_jpg_md-xl.jpg)
 ![catenane-share](https://www.crowdsupply.com/img/b9ed/4144b488-9442-44e2-9bad-f07daa56b9ed/catenane-share_jpg_gallery-lg.jpg)
 ![kashall-share](https://www.crowdsupply.com/img/17f2/d5f31dbb-f51e-4813-ab79-29194ea717f2/kashall-share_jpg_gallery-lg.jpg)

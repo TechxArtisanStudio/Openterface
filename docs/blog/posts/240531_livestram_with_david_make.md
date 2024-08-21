@@ -14,8 +14,6 @@ We just wrapped up an awesome [YouTube livestream](https://www.youtube.com/live/
 
 ![youtube-with-david-2](https://www.crowdsupply.com/img/2b83/081f1376-b266-4e83-b1af-5628dbe62b83/youtube-with-david_jpg_gallery-lg.jpg)
 
-<!-- more -->
-
 ## The Birth of an Idea
 
 The journey of the Mini-KVM began in the bustling city of Guangzhou, China, within our TechxArtisan studio. Over the past five years, we have been deeply involved in numerous tech art projects for local and international artists. Our work includes constructing interactive lighting installations with AI detection, robotic arms for theatre performances, self-driving mini cars that solve random mazes, and even a robot dog designed to explore no man's lands like deserts and forests.

@@ -10,8 +10,6 @@ categories:
 
 We're excited to announce that the crowdfunding campaign for the Openterface Mini-KVM is now live! This feature-rich, open-source, and community-driven device simplifies the way you control and interact with headless computers.
 
-<!-- more -->
-
 It offers a compact, lightweight, and speedy KVM-over-USB solution that eliminates the need for additional keyboards, mice, monitors, or network configuration. You can control a headless computer directly from your laptop or desktop computer, simplifying your setup and enhancing your workflow.
 
 Join us in making your tech life easier!
