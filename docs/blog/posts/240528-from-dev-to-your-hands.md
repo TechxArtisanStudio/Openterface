@@ -12,8 +12,6 @@ Hi everyone!
 
 We’re back with another update on our crowdfunding journey, and we've got some exciting news to share!
 
-<!-- more -->
-
 ### Hitting a Major Milestone
 
 First things first, we’re absolutely over the moon to announce that we’ve hit an astonishing [**1100% of our original funding goal**](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm)! A massive thank you to each and every one of you. Your support has been nothing short of phenomenal!
