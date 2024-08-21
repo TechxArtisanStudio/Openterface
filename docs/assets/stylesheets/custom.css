@@ -185,29 +185,29 @@
     border-color: var(--md-primary-fg-color);
 }
 
-.product-features {
+.blog {
     background: var(--md-primary-fg-color);
     padding: var(--shared-padding);
     text-align: center;
 }
 
-.product-features h2 {
+.blog h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
     color: var(--description-font-light);
 }
 
-.product-features .features-list .feature{
+.blog .blog-list .feature{
     margin-bottom: 1rem;
 }
 
-.product-features .features-list h3 {
+.blog .blog-list h3 {
     font-size: 1.2rem;
     color: var(--description-font-light);
 }
 
-.product-features .features-list p {
-    font-size: 0.8rem;
+.blog .blog-list p {
+    font-size: 1rem;
     color: var(--description-font-light);
     max-width: var(--shared-p-width);
     text-align: center;
@@ -215,7 +215,7 @@
     margin-right: auto;
 }
 
-.product-features .read-more-btn {
+.blog .read-more-btn {
     margin-top: 1rem;
     float: right;
     padding: 0.5rem 1rem;
@@ -228,7 +228,7 @@
     border: 1px solid var(--description-font-light);
 }
 
-.product-features .read-more-btn:hover {
+.blog .read-more-btn:hover {
     background-color: var(--button-hover-color);
     color: var(--md-primary-fg-color);
 }
@@ -561,12 +561,12 @@
         margin: 1rem auto 0; /* Centers the button */
     }
 
-    .product-features {
+    .blog {
         padding: var(--shared-padding-mobile);
         padding-bottom: var(--shared-padding-mobile-bottom);
     }
 
-    .product-features .read-more-btn {
+    .blog .read-more-btn {
         float: none;
         display: block;
         margin: 1rem auto 0;
@@ -628,7 +628,6 @@
 
 }
 
-
 .dialogue-section {
     background: var(--md-primary-fg-color);
     padding: var(--shared-padding);
@@ -642,6 +641,13 @@
 
 .dialogue-section-white h2 {
     font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: inherit;
+}
+
+.dialogue-section-white p {
+    font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 1rem;
     color: inherit;
@@ -793,12 +799,6 @@
     max-width: 580px;
     padding-bottom: 24px;
 }
-
-/* #mc_embed_signup h2 {
-    color: var(--md-primary-fg-color);
-    font-weight: bold;
-    text-align: center;
-} */
 
 #mc_embed_signup .mc-field-group {
     margin-top: 0.5rem;

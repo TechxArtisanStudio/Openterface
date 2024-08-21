@@ -1,5 +1,34 @@
 # Features
 
+## Overview
+
+- **Host App Compatibility**:
+  Supports macOS, Windows, and Linux, with Android support in development.
+
+- **Plug-and-Play Convenience**:
+  Instant control upon connection, with no software installation or configuration on the target device. Leaves no software traces on the target computer.
+
+- **Network Independence**:
+  Stable and fast headless control via HDMI and emulated keyboard/mouse (HID) input.
+
+- **Ultra-Portable Design**:
+  Its compact and lightweight design makes it the perfect tool for professionals on the go.
+
+- **Full HD with Low Latency**:
+  Supported output video up to 1920x1080@30Hz with under 140 milliseconds of latency. Adaptable to VGA, Micro HDMI, DVI, and other inputs with a video adapter.
+
+- **Audio Integration**:
+  Captures and plays the target device's audio directly on the host computer.
+
+- **BIOS-Level Access**:
+  Provides direct access to the target device's BIOS, firmware, or startup management.
+
+- **Switchable USB Type-A Port**:
+  This allows you to toggle USB access between the host and the target, ideal for sharing a USB drive without replugging.
+
+- **Text Transfer**:
+  Allows text to be sent from the host to the target device, ideal for copying usernames, passwords, or code snippets.
+
 ## Text Transfer 📝
 
 === "Users"
