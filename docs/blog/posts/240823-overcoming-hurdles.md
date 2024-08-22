@@ -55,26 +55,26 @@ On the software front, we’re making exciting strides. We’re diving into the 
 
 Our QT version just got a handy update—you can now [transfer text from the host to the target](https://x.com/TechxArtisan/status/1825919721960780131)! So now this feature is supported on macOS, Windows, and Linux host apps.
 
-Moreover, We’re also planning to add a fun feature — [an auto mouse movement to prevent your target computer from sleeping](https://x.com/TechxArtisan/status/1825470086800691459). Should we go with the ping-pong ball bouncing around the screen or the classic DVD screensaver effect? Vote and comment the tweet 😃
+Moreover, We’re also planning to add a fun feature — [an auto mouse movement to prevent your target computer from sleeping](https://x.com/TechxArtisan/status/1825471186668847241). Should we go with the ping-pong ball bouncing around the screen or the classic DVD screensaver effect? Vote and comment the [tweet](https://x.com/TechxArtisan/status/1825470086800691459) 😃
 
 ## Package Design, Labelling, and Manual
 
 We’ve been experimenting with various mock-ups and packaging designs to find the perfect balance among several key factors:
 
-- selecting materials sturdy enough to protect the product and its parts during shipment, 
-- creating informative labelling that helps users understand the product at a glance, 
-- and ensuring compliance with regulations. 
-- We also aim to make the packaging visually appealing
-- and eco-friendly by minimising plastic use wherever possible.
+- Selecting materials sturdy enough to protect the product and its parts during shipment,
+- Creating informative labelling that helps users understand the product at a glance,
+- Ensuring compliance with regulations,
+- Making the packaging visually appealing,
+- And being eco-friendly by minimising plastic use wherever possible.
 
-Additionally, we’ve made several improvements to the old toolkit bag, including
+Additionally, we’ve made several improvements to the old toolkit bag, including:
 
-- larger storage space, 
-- a stylish orange zipper, 
-- upgraded exterior and interior materials, 
-- and a super stretchy mesh pocket. 
+- Larger storage space,
+- A stylish orange zipper,
+- Upgraded exterior and interior materials,
+- And a super stretchy mesh pocket.
 
-We chose this material because it strikes the ideal balance between being budget-friendly, pleasant to the touch, and durable enough to protect the items inside.** We’re confident you’ll love it**.
+We chose this material because it strikes the ideal balance between being budget-friendly, pleasant to the touch, and durable enough to protect the items inside. **We’re confident you’ll love it**.
 
 ![240823-5](pic/240823-5.jpg)
 
