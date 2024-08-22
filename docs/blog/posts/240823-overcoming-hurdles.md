@@ -59,9 +59,22 @@ Moreover, We’re also planning to add a fun feature — [an auto mouse movement
 
 ## Package Design, Labelling, and Manual
 
-We’ve been experimenting with various mock-ups and packaging designs to find the perfect balance among several key factors: selecting materials sturdy enough to protect the product and its parts during shipment, creating informative labelling that helps users understand the product at a glance, and ensuring compliance with regulations. We also aim to make the packaging visually appealing and eco-friendly by minimising plastic use wherever possible.
+We’ve been experimenting with various mock-ups and packaging designs to find the perfect balance among several key factors:
 
-Additionally, we’ve made several improvements to the old toolkit bag, including a stylish orange zipper, upgraded exterior and interior materials, and a super stretchy mesh pocket. We chose this material because it strikes the ideal balance between being budget-friendly, pleasant to the touch, and durable enough to protect the items inside. We’re confident you’ll love it.
+- selecting materials sturdy enough to protect the product and its parts during shipment, 
+- creating informative labelling that helps users understand the product at a glance, 
+- and ensuring compliance with regulations. 
+- We also aim to make the packaging visually appealing
+- and eco-friendly by minimising plastic use wherever possible.
+
+Additionally, we’ve made several improvements to the old toolkit bag, including
+
+- larger storage space, 
+- a stylish orange zipper, 
+- upgraded exterior and interior materials, 
+- and a super stretchy mesh pocket. 
+
+We chose this material because it strikes the ideal balance between being budget-friendly, pleasant to the touch, and durable enough to protect the items inside.** We’re confident you’ll love it**.
 
 ![240823-5](pic/240823-5.jpg)
 
@@ -81,7 +94,8 @@ I’ve been using ChatGPT to assist with translations, but it can sometimes miss
 
 We apologise again for the delays and the change in our product’s ETA. Thank you for your patience and for sticking with us—we’re working hard to get this to you as soon as possible! I’ll update you immediately once our shipment is arranged. More updates are on the way, so please join our Openterface community and stay tuned!
 
-Cheers,  
-Billy Wang
-Product Manager
+Cheers,
+
+Billy Wang  
+Product Manager  
 Openterface Team | TechxArtisan
