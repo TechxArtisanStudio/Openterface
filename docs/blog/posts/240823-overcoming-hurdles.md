@@ -10,7 +10,7 @@ categories:
 
 Hey everyone,
 
-I hope you’re all doing well. It’s been a while since our last update. I wish I could say everything’s been smooth sailing for Openterface, but we’ve hit a couple of speed bumps that will delay our delivery timeline. While this wasn’t what we expected, we’re tackling these challenges head-on and making steady progress with plenty of good news to share. Let’s dive into the details so you know exactly where things stand and what’s coming next.
+I hope you’re all doing well. It’s been a while since our last update. I wish I could say everything’s been smooth sailing for Openterface, but we’ve hit a couple of speed bumps that will delay our delivery timeline. While this wasn’t what we expected, we’re tackling these challenges head-on and making steady progress with plenty of good news to share. This post is about a 7-minute read, so let’s dive into the details so you know exactly where things stand and what’s coming next.
 
 ## Regulation, Production, and Quality
 
@@ -50,30 +50,38 @@ This hardware upgrade required additional testing, but I’m happy to report tha
 
 ## Software Updates
 
-On the software front, we’re making exciting strides. We’re **developing an Android version** of our Openterface Mini-KVM app, and this [tweet](https://x.com/TechxArtisan/status/1825460088922071398) is an early demo showing smooth KVM control, mouse movement, and clicks in action! More features are on the way, and as always, **the Android app will be open-sourced** once we’ve polished the code a bit more.
+On the software front, we’re making exciting strides. We’re diving into the **Openterface Android app** now! Check out this [tweet](https://x.com/TechxArtisan/status/1825460088922071398) for an early demo showing smooth KVM control, mouse movement, and clicks in action. More features are on the way, and as always, once we’ve polished the code a bit more, **this app will also be open-sourced** on our GitHub repo [Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android).
 ![240823-4](pic/240823-4.jpg)
 
 Our QT version just got a handy update—you can now [transfer text from the host to the target](https://x.com/TechxArtisan/status/1825919721960780131)! So now this feature is supported on macOS, Windows, and Linux host apps.
 
 Moreover, We’re also planning to add a fun feature — [an auto mouse movement to prevent your target computer from sleeping](https://x.com/TechxArtisan/status/1825470086800691459). Should we go with the ping-pong ball bouncing around the screen or the classic DVD screensaver effect? Vote and comment the tweet 😃
 
-## Design and Packaging
+## Package Design, Labelling, and Manual
 
-We’ve been working on some mock-up and experimental packages for the toolkit version, and we recently sent out beta kits to our Japanese friends to test the packaging. Unfortunately, it didn’t go well—one of the packages got a bit smashed during shipment. As you can see from the image below [image], we’ll need to roll back our design and opt for something similar to our previous design [image] using cardboard paper.
+We’ve been experimenting with various mock-ups and packaging designs to find the perfect balance among several key factors: selecting materials sturdy enough to protect the product and its parts during shipment, creating informative labelling that helps users understand the product at a glance, and ensuring compliance with regulations. We also aim to make the packaging visually appealing and eco-friendly by minimising plastic use wherever possible.
 
-I know some people might not care much about how the package looks, but for us, as a producer, it’s crucial to balance several factors in packaging design: using materials sturdy enough to protect the product and parts during shipment, ensuring informative labelling that helps users understand the product from the outside, and complying with regulations. We also want the packaging to look good and be eco-friendly by avoiding plastic as much as possible.
+Additionally, we’ve made several improvements to the old toolkit bag, including a stylish orange zipper, upgraded exterior and interior materials, and a super stretchy mesh pocket. We chose this material because it strikes the ideal balance between being budget-friendly, pleasant to the touch, and durable enough to protect the items inside. We’re confident you’ll love it.
 
-We’re also finalising the manual for Openterface, which will be available in English, German, French, Japanese, and Chinese. Sorry if we missed your language—our box isn’t TARDIS-sized (Doctor Who’s police box)! But we’ll do our best to add more on our website.
+![240823-5](pic/240823-5.jpg)
 
-Speaking of printed materials, our website supports several languages, but as English is our primary language, there may be some delays in updating content in other languages. Additionally, I’ve been using ChatGPT to help with translations, but it can sometimes mess up the phrasing and wording. If it’s not too much trouble, I’d appreciate it if anyone could help review the content in other languages, especially for the printed materials we’re about to finalise. I’ve updated all text content for the package on this GitHub repo [link], where you can review it and submit any improvements. You can also DM me. Thanks!
+We’re also updating the labels on the aluminium casing to make them as informative and visually appealing as possible. We hope these enhancements will improve your user experience and make it easier to get started with Openterface.
 
-We’re also updating the labels on the aluminium casing, keeping them as informative and visually appealing as possible. I hope this labelling will enhance the user experience and make it easier to start using Openterface.
+![240823-6](pic/240823-6.jpg)
 
-Finally, we’ve made several improvements over the old bag design, including a stylish orange zipper, better outside and inside materials, and a super stretchy mesh pocket. [images] We chose this material because it offers a good balance of being budget-friendly, having a nice touch, and being sturdy enough to protect the items inside. We’re confident you’ll all like it.
+We’re finalising the Openterface manual, which will be available in English, German, French, Japanese, and Chinese. Apologies if we missed your language—our box isn’t TARDIS-sized (Doctor Who’s police box)! But we’ll do our best to add more translations on our website.
 
-Thanks for your patience and for sticking with us—we’re working hard to get this out to you as soon as possible! More updates are on the way, so please join our Openterface community and stay tuned.
+![240823-7](pic/240823-7.jpg)
+
+## Community Language Review
+
+I’ve been using ChatGPT to assist with translations, but it can sometimes miss the mark with phrasing and wording. If it’s not too much trouble, I’d greatly appreciate any help in reviewing the content in other languages, especially for the printed materials we’re about to finalise. I’ve updated all the text content for the packaging in our GitHub folder [product-printed-materials](https://github.com/TechxArtisanStudio/Openterface/tree/main/product-printed-materials), where you can review and submit any improvements. You can also DM me directly. Thanks!
+
+## Final Remarks and Ongoing Progress
+
+We apologise again for the delays and the change in our product’s ETA. Thank you for your patience and for sticking with us—we’re working hard to get this to you as soon as possible! I’ll update you immediately once our shipment is arranged. More updates are on the way, so please join our Openterface community and stay tuned!
 
 Cheers,  
 Billy Wang
 Product Manager
-Openterface Team
+Openterface Team | TechxArtisan
