@@ -186,8 +186,7 @@ plugins:
 
 nav:
   - Home: index.md
-  - FAQs: /faq
-  - Documentation:
+  - Doc:
     - Quick Start: quick-start.md
     - Basic KVM Control: basic.md
     - Advanced Features: features.md
@@ -200,6 +199,7 @@ nav:
     - FAQs: faq.md
     - Development:
       - Contributing: contributing.md
+  - FAQs: /faq
   - Reddit: https://www.reddit.com/r/Openterface_miniKVM/
   - Discord: https://discord.gg/sFTJD6a3R8
   - Blog:
