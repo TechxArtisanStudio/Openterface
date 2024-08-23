@@ -200,10 +200,10 @@ nav:
     - Development:
       - Contributing: contributing.md
   - FAQs: /faq
-  - Reddit: https://www.reddit.com/r/Openterface_miniKVM/
-  - Discord: https://discord.gg/sFTJD6a3R8
   - Blog:
     - blog/index.md
+  - Reddit: https://www.reddit.com/r/Openterface_miniKVM/
+  - Discord: https://discord.gg/sFTJD6a3R8
   - About:
     - Contact: contact.md
     - Policies:
