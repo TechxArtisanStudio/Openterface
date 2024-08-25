@@ -437,7 +437,7 @@
     height: auto;
   }
 
-@media screen and (min-width: 76.25em) {
+@media screen and (min-width:76.25em) {
     .mdx-hero__image {
         transform: translateX(8rem);
     }
@@ -495,6 +495,170 @@
         padding-left: 0;
         padding-right: 2rem;
     }
+
+    .icon-item img {
+        height: 60px;
+    }
+}
+
+.icon-section {
+    padding: var(--shared-padding);
+    text-align: center;
+}
+
+.icon-section h2 {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: inherit;
+}
+
+.icon-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: inherit;
+}
+
+.icon-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.icon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon-item svg {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0.5rem;
+}
+
+.icon-item p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: inherit;
+}
+
+.dialogue-section {
+    background: var(--md-primary-fg-color);
+    padding: var(--shared-padding);
+    text-align: center;
+}
+
+.dialogue-section-white {
+    padding: var(--shared-padding);
+    text-align: center;
+}
+
+.dialogue-section-white h2 {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: inherit;
+}
+
+.dialogue-section-white p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: inherit;
+}
+
+.dialogue-bubble {
+    display: inline-block;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1rem 1.5rem;
+    position: relative;
+    margin: 1rem;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25);
+    border: 1px solid #e7e7e7;
+}
+
+.dialogue-bubble p {
+    font-size: 1.5rem;
+    margin: 0;
+    color: var(--description-font-dark);
+    font-weight: bold;
+}
+
+#op-bubble {
+    position: relative;
+    align-items: center;
+}
+
+#op-bubble p {
+    margin-top: 0.5rem;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-left: 3rem;
+}
+
+.dialogue-bubble::after {
+    content: '';
+    position: absolute;
+    bottom: -32px;
+    left: 50%;
+    border-width: 16px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+    transform: translateX(-50%);
+}
+
+.dialogue-bubble::before {
+    content: '';
+    position: absolute;
+    bottom: -38px;
+    left: 50%;
+    border-width: 16px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.25) transparent transparent transparent; /* Shadow colour */
+    transform: translateX(-50%);
+    z-index: -1;
+    filter: blur(4px);
+}
+
+.callout-button-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#join-waitlist-button {
+    background-color: var(--button-hover-color);
+    color: var(--md-primary-fg-color);
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: 2px solid var(--md-primary-fg-color);
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    display: block;
+}
+
+#join-waitlist-button:hover {
+    color: var(--button-hover-color);
+    background-color: var(--md-primary-fg-color);
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px; /* Space between avatar and text */
 }
 
 @media screen and (max-width:60em) {
@@ -626,118 +790,10 @@
         margin: 1rem 1rem;
     }
 
-}
+    .icon-section {
+        padding: 2rem 0rem;
+    }
 
-.dialogue-section {
-    background: var(--md-primary-fg-color);
-    padding: var(--shared-padding);
-    text-align: center;
-}
-
-.dialogue-section-white {
-    padding: var(--shared-padding);
-    text-align: center;
-}
-
-.dialogue-section-white h2 {
-    font-size: 2rem;
-    line-height: 1.6;
-    margin-bottom: 1rem;
-    color: inherit;
-}
-
-.dialogue-section-white p {
-    font-size: 1rem;
-    line-height: 1.6;
-    margin-bottom: 1rem;
-    color: inherit;
-}
-
-.dialogue-bubble {
-    display: inline-block;
-    background-color: white;
-    border-radius: 20px;
-    padding: 1rem 1.5rem;
-    position: relative;
-    margin: 1rem;
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25);
-    border: 1px solid #e7e7e7;
-}
-
-.dialogue-bubble p {
-    font-size: 1.5rem;
-    margin: 0;
-    color: var(--description-font-dark);
-    font-weight: bold;
-}
-
-#op-bubble {
-    position: relative;
-    align-items: center;
-}
-
-#op-bubble p {
-    margin-top: 0.5rem;
-    align-items: center;
-    margin-bottom: 1rem;
-    padding-left: 3rem;
-}
-
-.dialogue-bubble::after {
-    content: '';
-    position: absolute;
-    bottom: -32px;
-    left: 50%;
-    border-width: 16px;
-    border-style: solid;
-    border-color: white transparent transparent transparent;
-    transform: translateX(-50%);
-}
-
-.dialogue-bubble::before {
-    content: '';
-    position: absolute;
-    bottom: -38px;
-    left: 50%;
-    border-width: 16px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.25) transparent transparent transparent; /* Shadow colour */
-    transform: translateX(-50%);
-    z-index: -1;
-    filter: blur(4px);
-}
-
-.callout-button-container {
-    text-align: center;
-    margin-top: 2rem;
-}
-
-#join-waitlist-button {
-    background-color: var(--button-hover-color);
-    color: var(--md-primary-fg-color);
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border: 2px solid var(--md-primary-fg-color);
-    border-radius: 1rem;
-    font-size: 1.2rem;
-    display: block;
-}
-
-#join-waitlist-button:hover {
-    color: var(--button-hover-color);
-    background-color: var(--md-primary-fg-color);
-}
-
-.avatar {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    float: left;
-    margin-right: 10px; /* Space between avatar and text */
-}
-
-@media screen and (max-width: 60em) {
     .dialogue-section {
         padding: 2rem 0rem;
     }
@@ -779,6 +835,10 @@
         margin: 1rem auto 0;
         font-size: 0.8rem;
         margin-bottom: 0.5rem;
+    }
+
+    .icon-item img {
+        height: 40px;
     }
 }
 
