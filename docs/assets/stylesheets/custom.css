@@ -197,13 +197,19 @@
     color: var(--description-font-light);
 }
 
-.blog .blog-list .feature{
+.blog .blog-list .post{
     margin-bottom: 1rem;
 }
 
 .blog .blog-list h3 {
     font-size: 1.2rem;
     color: var(--description-font-light);
+}
+
+.blog .blog-list .date {
+    font-size: 0.9rem;
+    color: var(--description-font-light);
+    margin-top: -1rem;
 }
 
 .blog .blog-list p {
