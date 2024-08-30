@@ -35,7 +35,7 @@ We’re expecting the other parts and Mini-KVMs to arrive soon from our manufact
 
 Customs clearance is another potential hurdle that might cause unexpected delays. Once our products arrive at Crowd Supply's warehouse in the US, they’ll take one to two weeks to ship out globally based on each order. For backers outside the US, individual parcels will still need to go through global shipping and customs clearance in the destination country.
 
-Accounting for the current situation and adding some buffer time, I remain cautiously optimistic that we’ll complete delivery before the end of this year, with **a new ETA of mid-December**. I’m truly sorry for the inconvenience and appreciate your support and patience during this change.
+Accounting for the current situation and adding some buffer time, I remain cautiously optimistic that we’ll complete delivery before the end of this year, with **a new ETA of mid-January**. I’m truly sorry for the inconvenience and appreciate your support and patience during this change.
 
 ## Finalised Hardware V1.9
 
