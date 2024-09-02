@@ -27,10 +27,20 @@ Stay updated and engaged with us through our social media channels:
 - :fontawesome-brands-youtube: [Subscribe to our YouTube channel](https://youtube.com/@TechxArtisan)
 - :fontawesome-brands-linkedin-in: [Follow us on LinkedIn](https://www.linkedin.com/company/techxartisan/)
 
-## Visit Our Website
+## Visit Our Studio Website
 
-For more information about us and our work, please visit our website:
+For more information about us, our work and products, please visit our website:
 
 - :fontawesome-solid-globe: [TechxArtisan Official Website](https://techxartisan.com/en/)
 
-We look forward to connecting with you!
+## Trademark and Domain Ownership
+
+Openterface and TechxArtisan are trademarks of **Guangzhou Billio Technology Co., Ltd.** (Billio Tech), which serves as our official commercial entity. Billio Tech holds the final interpretative rights for both Openterface and TechxArtisan. 
+
+The domain Openterface.com is registered under Billio Tech, affirming our ownership and management of all associated official communications and operations.
+
+## About Our Company
+
+- **Company Name:** Guangzhou Billio Technology Co., Ltd.
+- **Address:** Room 11, No. 1, Longjing North Street, Haizhu District, Guangzhou City, Guangdong Province, 510320 China
+- **Contact Information:** [info@techxartisan.com](mailto:info@techxartisan.com)
