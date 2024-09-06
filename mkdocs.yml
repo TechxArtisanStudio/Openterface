@@ -179,7 +179,7 @@ plugins:
         'linux.md': 'https://github.com/TechxArtisanStudio/Openterface_QT'
         'hardware.md': 'https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware'
         'feedback.md': 'https://forms.gle/YJLrCKwro8tbi6ar7'
-        'oshw.md ': 'https://certification.oshwa.org/cn000015.html'
+        'oshw.md': 'https://certification.oshwa.org/cn000015.html'
         'x.md': 'https://x.com/TechxArtisan'
   - tags:
       tags_file: tags.md
