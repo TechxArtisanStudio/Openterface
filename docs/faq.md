@@ -267,7 +267,7 @@ Our ultimate goal is to enable AI to control target computers, and the Openterfa
 
 --------
 
-Your curiosity and support fuel our progress, and we want to ensure that every one of your questions finds an answer. Please note that as time progresses, the content above in our FAQs may become outdated. If your query isn't covered in this FAQ, always check our website [openterface.com](https://openterface.com/) for the most current information. Also please don’t hesitate to join our enthusiastic community. We’re active on our Subreddit at [/r/Openterface_miniKVM/](https://www.reddit.com/r/Openterface_miniKVM/) and our Discord server, [TechxArtisan](https://discord.gg/sFTJD6a3R8), where you can ask questions, share ideas, or just have a chat about all things tech.
+Your curiosity and support fuel our progress, and we want to ensure that every one of your questions finds an answer. Please note that as time progresses, the content above in our FAQs may become outdated. If your query isn't covered in this FAQ, always check our website [openterface.com](https://openterface.com/) for the most current information. Also please don’t hesitate to join our enthusiastic community. We’re active on our Subreddit at [/r/Openterface_miniKVM/](https://www.reddit.com/r/Openterface_miniKVM/) and our Discord server, [TechxArtisan](/discord), where you can ask questions, share ideas, or just have a chat about all things tech.
 
 Moreover, feel free to reach out directly to our dedicated team by sending an email to info@techxartisan.com. We love hearing from you and are always here to help!
 

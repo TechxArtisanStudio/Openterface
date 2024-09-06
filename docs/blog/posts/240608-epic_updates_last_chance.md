@@ -93,7 +93,7 @@ We understand [scepticism](https://openterface.com/blog/from-development-to-your
 
 **Trust Our Team:** We have over six years of experience in IoT, AI, and tech art. Learn more about us on our [TechxArtisan Studio](https://techxartisan.com/en/) website.
 
-**Trust Our Culture:** We focus on technical excellence and user experience, embracing open-source collaboration. Join our community on [Reddit r/Openterface_miniKVM](https://www.reddit.com/r/Openterface_miniKVM/) and [Discord TechxArtisan](https://discord.gg/sFTJD6a3R8) to see our journey from early prototypes to the current pre-production version.
+**Trust Our Culture:** We focus on technical excellence and user experience, embracing open-source collaboration. Join our community on [Reddit r/Openterface_miniKVM](https://www.reddit.com/r/Openterface_miniKVM/) and [Discord TechxArtisan](/discord) to see our journey from early prototypes to the current pre-production version.
 
 If you're still unsure, that's OK! We believe our Openterface Mini-KVM will win you over eventually.
 
