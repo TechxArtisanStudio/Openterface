@@ -34,7 +34,7 @@ So, I’m calling on all our subscribers and new friends of the Openterface Mini
 
 Most importantly, please **help spread the word** about our campaign coming to an end. We're committed to building this handy device and ensuring it’s delivered to you in top-notch quality.
 
-We've poured our hearts into this project over the past 8 months. You can see all our efforts in the updates below and check out our history posts on our subreddit [r/Openterface_miniKVM](https://www.reddit.com/r/Openterface_miniKVM/):
+We've poured our hearts into this project over the past 8 months. You can see all our efforts in the updates below and check out our history posts on our subreddit [r/Openterface_miniKVM](/reddit):
 
 - [Openterface Mini-KVM Crowdfunding Campaign Goes Live NOW!](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm/updates/openterface-mini-kvm-crowdfunding-campaign-goes-live-now) Apr 30, 2024
 
