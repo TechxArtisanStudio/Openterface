@@ -72,7 +72,7 @@ extra:
     - icon: fontawesome/brands/reddit-alien
       link: https://www.reddit.com/r/Openterface_miniKVM/
     - icon: fontawesome/brands/discord
-      link: https://discord.gg/sFTJD6a3R8
+      link: discord.md
     - icon: fontawesome/brands/youtube
       link: https://youtube.com/@TechxArtisan
     - icon: fontawesome/brands/x-twitter
@@ -170,6 +170,12 @@ plugins:
       redirect_maps:
         'basic-testing.md': 'basic.md'
         'community.md': 'https://www.reddit.com/r/Openterface_miniKVM/'
+        'discord.md': 'https://discord.gg/sFTJD6a3R8'
+        'reddit.md': 'https://www.reddit.com/r/Openterface_miniKVM/'
+        'macos.md': 'https://github.com/TechxArtisanStudio/Openterface_MacOS'
+        'qt.md': 'https://github.com/TechxArtisanStudio/Openterface_QT'
+        'android.md': 'https://github.com/TechxArtisanStudio/Openterface_Android'
+        'hardware.md': 'https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware'
   - tags:
       tags_file: tags.md
   - blog:
@@ -203,7 +209,7 @@ nav:
   - Blog:
     - blog/index.md
   - Reddit: https://www.reddit.com/r/Openterface_miniKVM/
-  - Discord: https://discord.gg/sFTJD6a3R8
+  - Discord: discord.md
   - About:
     - Contact: contact.md
     - Policies:

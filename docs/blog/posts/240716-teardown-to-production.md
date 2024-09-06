@@ -39,7 +39,7 @@ We’re thrilled to announce that our Openterface Mini-KVM is now officially **O
 ## Hardware Update V1.9
 
 
-We’ve just launched **hardware V1.9 with extra pins: VCC, GND, Target D+, Target D-, Host D+, Host D-** for even more hackable fun! These data pins are connected to the Target's and Host's USB hub. Now you can DIY extensions for Openterface — think ATX, network bridging, audio bypass, and more. What creative ideas do you have for hacking our Mini-KVM with these pins? Join our [Reddit](https://www.reddit.com/r/Openterface_miniKVM/) or [Discord](https://discord.gg/sFTJD6a3R8), share your thoughts and have a fun coding with us!
+We’ve just launched **hardware V1.9 with extra pins: VCC, GND, Target D+, Target D-, Host D+, Host D-** for even more hackable fun! These data pins are connected to the Target's and Host's USB hub. Now you can DIY extensions for Openterface — think ATX, network bridging, audio bypass, and more. What creative ideas do you have for hacking our Mini-KVM with these pins? Join our [Reddit](https://www.reddit.com/r/Openterface_miniKVM/) or [Discord](/discord), share your thoughts and have a fun coding with us!
 
 ![openterface-v1-9-hackable](https://www.crowdsupply.com/img/caf8/7b5bb696-2342-487a-b0e8-aa137e6dcaf8/openterface-v1-9-hackable_jpg_md-xl.jpg)
 
@@ -51,7 +51,7 @@ We’ve successfully **run our QT host app on a Pi environment**! What’s even 
 
 ## Development & Final Touches
 
-Our dev team, led by Kevin, is working tirelessly to test and refine the code. Join our [Techxartisan's Discord](https://discord.gg/sFTJD6a3R8) to hang out with our dev and beta team and stay updated on our progress. Meanwhile, Billy is handling all the paperwork and finalising the design for our product, packaging, and product manual. 
+Our dev team, led by Kevin, is working tirelessly to test and refine the code. Join our [Techxartisan's Discord](/discord) to hang out with our dev and beta team and stay updated on our progress. Meanwhile, Billy is handling all the paperwork and finalising the design for our product, packaging, and product manual. 
 
 Here’s a sneak peek of our updated prints and labels for the aluminium case, showcased in [Kazubu’s tweet](https://x.com/_kazubu/status/1803442407800971612) when Billy shared it with him in Tokyo, Japan:
 
