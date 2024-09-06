@@ -70,9 +70,9 @@ extra:
     - icon: txa/crowd-supply-icon
       link: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
     - icon: fontawesome/brands/reddit-alien
-      link: https://www.reddit.com/r/Openterface_miniKVM/
+      link: /reddit
     - icon: fontawesome/brands/discord
-      link: discord.md
+      link: /discord
     - icon: fontawesome/brands/youtube
       link: https://youtube.com/@TechxArtisan
     - icon: fontawesome/brands/x-twitter
@@ -208,8 +208,8 @@ nav:
   - FAQs: /faq
   - Blog:
     - blog/index.md
-  - Reddit: https://www.reddit.com/r/Openterface_miniKVM/
-  - Discord: discord.md
+  - Reddit: /reddit
+  - Discord: /discord
   - About:
     - Contact: contact.md
     - Policies:

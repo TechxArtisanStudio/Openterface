@@ -39,7 +39,7 @@ We’re thrilled to announce that our Openterface Mini-KVM is now officially **O
 ## Hardware Update V1.9
 
 
-We’ve just launched **hardware V1.9 with extra pins: VCC, GND, Target D+, Target D-, Host D+, Host D-** for even more hackable fun! These data pins are connected to the Target's and Host's USB hub. Now you can DIY extensions for Openterface — think ATX, network bridging, audio bypass, and more. What creative ideas do you have for hacking our Mini-KVM with these pins? Join our [Reddit](https://www.reddit.com/r/Openterface_miniKVM/) or [Discord](/discord), share your thoughts and have a fun coding with us!
+We’ve just launched **hardware V1.9 with extra pins: VCC, GND, Target D+, Target D-, Host D+, Host D-** for even more hackable fun! These data pins are connected to the Target's and Host's USB hub. Now you can DIY extensions for Openterface — think ATX, network bridging, audio bypass, and more. What creative ideas do you have for hacking our Mini-KVM with these pins? Join our [Reddit](/reddit) or [Discord](/discord), share your thoughts and have a fun coding with us!
 
 ![openterface-v1-9-hackable](https://www.crowdsupply.com/img/caf8/7b5bb696-2342-487a-b0e8-aa137e6dcaf8/openterface-v1-9-hackable_jpg_md-xl.jpg)
 

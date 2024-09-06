@@ -4,7 +4,7 @@ Hey there! So, you're interested in getting involved with Openterface mini-KVM's
 
 ## Spreading the Word 📢
 
-If you've found our Openterface gadget being handy and boosting your workflow, how about helping to spread the word? Sharing your story of how you use the mini-KVM in daily tasks by pictures or videos will be super appreciated! Whether it's a quick fix event, a cool setup or a unique integration into your workflow, we want to see it all! You could even write a post to share in our vibrant community on our subreddit at [/r/Openterface_miniKVM/](https://www.reddit.com/r/Openterface_miniKVM/) or our Discord Server [TechxArtisan](/discord). Let's create some buzz together! 🚀 Cheers!
+If you've found our Openterface gadget being handy and boosting your workflow, how about helping to spread the word? Sharing your story of how you use the mini-KVM in daily tasks by pictures or videos will be super appreciated! Whether it's a quick fix event, a cool setup or a unique integration into your workflow, we want to see it all! You could even write a post to share in our vibrant community on our subreddit at [/r/Openterface_miniKVM/](/reddit) or our Discord Server [TechxArtisan](/discord). Let's create some buzz together! 🚀 Cheers!
 
 ## How You Can Contribute 🌟
 

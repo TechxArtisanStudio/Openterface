@@ -199,7 +199,7 @@ Our community is already experimenting with different hardware versions. Check o
 #### Are there plans for a version with wireless or Ethernet connectivity?
 Currently, we're not planning to add wireless or Ethernet connectivity to our Openterface products. We’re focused on providing fast, stable control over USB directly to your target device, so you don’t have to worry about network issues. 
 
-But hey, we’re always open to feedback! If you think there’s a real need for this feature, or if you’re struggling to find a good KVM-over-IP solution, drop us an email: info@techxartisan.com. And remember, if we decide to expand our connectivity options, our [community](https://www.reddit.com/r/Openterface_miniKVM/) will be the first to know.
+But hey, we’re always open to feedback! If you think there’s a real need for this feature, or if you’re struggling to find a good KVM-over-IP solution, drop us an email: info@techxartisan.com. And remember, if we decide to expand our connectivity options, our [community](/reddit) will be the first to know.
 
 #### How is this different from other KVM solutions like traditional KVMs, KVM-over-IP, and VNC, etc?
 Curious about how the Openterface Mini-KVM stacks up against other solutions? Check out our detailed [Comparison](https://openterface.com/comparison) page.
@@ -267,7 +267,7 @@ Our ultimate goal is to enable AI to control target computers, and the Openterfa
 
 --------
 
-Your curiosity and support fuel our progress, and we want to ensure that every one of your questions finds an answer. Please note that as time progresses, the content above in our FAQs may become outdated. If your query isn't covered in this FAQ, always check our website [openterface.com](https://openterface.com/) for the most current information. Also please don’t hesitate to join our enthusiastic community. We’re active on our Subreddit at [/r/Openterface_miniKVM/](https://www.reddit.com/r/Openterface_miniKVM/) and our Discord server, [TechxArtisan](/discord), where you can ask questions, share ideas, or just have a chat about all things tech.
+Your curiosity and support fuel our progress, and we want to ensure that every one of your questions finds an answer. Please note that as time progresses, the content above in our FAQs may become outdated. If your query isn't covered in this FAQ, always check our website [openterface.com](https://openterface.com/) for the most current information. Also please don’t hesitate to join our enthusiastic community. We’re active on our Subreddit at [/r/Openterface_miniKVM/](/reddit) and our Discord server, [TechxArtisan](/discord), where you can ask questions, share ideas, or just have a chat about all things tech.
 
 Moreover, feel free to reach out directly to our dedicated team by sending an email to info@techxartisan.com. We love hearing from you and are always here to help!
 
@@ -278,7 +278,7 @@ Moreover, feel free to reach out directly to our dedicated team by sending an em
         <div class="dialogue-bubble" id="op-bubble">
          <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
          <p>Question?🤔</p>
-         <a href="https://www.reddit.com/r/Openterface_miniKVM/" class="md-button md-button--primary" id="join-waitlist-button">Ask in Subreddit</a>
+         <a href="/reddit" class="md-button md-button--primary" id="join-waitlist-button">Ask in Subreddit</a>
         </div>
       <div class="dialogue-bubble" id="op-bubble">
         <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
