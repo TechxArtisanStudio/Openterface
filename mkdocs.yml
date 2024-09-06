@@ -173,9 +173,12 @@ plugins:
         'discord.md': 'https://discord.gg/sFTJD6a3R8'
         'reddit.md': 'https://www.reddit.com/r/Openterface_miniKVM/'
         'macos.md': 'https://github.com/TechxArtisanStudio/Openterface_MacOS'
-        'qt.md': 'https://github.com/TechxArtisanStudio/Openterface_QT'
         'android.md': 'https://github.com/TechxArtisanStudio/Openterface_Android'
+        'qt.md': 'https://github.com/TechxArtisanStudio/Openterface_QT'
+        'window.md': 'https://github.com/TechxArtisanStudio/Openterface_QT'
+        'linux.md': 'https://github.com/TechxArtisanStudio/Openterface_QT'
         'hardware.md': 'https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware'
+        'feedback.md': 'https://forms.gle/YJLrCKwro8tbi6ar7'
   - tags:
       tags_file: tags.md
   - blog:
