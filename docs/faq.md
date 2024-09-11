@@ -87,7 +87,7 @@ With various KVM solutions available, here’s why the Openterface Mini-KVM stan
 - Wallet-Friendly Price
 - Fully Open Source & Community
 
-To read more, visit our [Why Openterface Mini-KVM](/why-openterface-minikvm) page.
+To read more, visit our [Why Openterface Mini-KVM](/why-openterface) page.
 
 #### What are use cases for this mini-KVM?
 Openterface Mini-KVM is the perfect companion for a wide range of users and scenarios:
@@ -270,25 +270,3 @@ Our ultimate goal is to enable AI to control target computers, and the Openterfa
 Your curiosity and support fuel our progress, and we want to ensure that every one of your questions finds an answer. Please note that as time progresses, the content above in our FAQs may become outdated. If your query isn't covered in this FAQ, always check our website [openterface.com](https://openterface.com/) for the most current information. Also please don’t hesitate to join our enthusiastic community. We’re active on our Subreddit at [/r/Openterface_miniKVM/](/reddit) and our Discord server, [TechxArtisan](/discord), where you can ask questions, share ideas, or just have a chat about all things tech.
 
 Moreover, feel free to reach out directly to our dedicated team by sending an email to info@techxartisan.com. We love hearing from you and are always here to help!
-
-
-<section class="dialogue-section-white" id="dialogues-section">
-    <div class="container">
-    <div class="callout-button-container">
-        <div class="dialogue-bubble" id="op-bubble">
-         <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
-         <p>Question?🤔</p>
-         <a href="/reddit" class="md-button md-button--primary" id="join-waitlist-button">Ask in Subreddit</a>
-        </div>
-      <div class="dialogue-bubble" id="op-bubble">
-        <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
-        <p>Read more 📖</p>
-        <a href="/quick-start" class="md-button md-button--primary" id="join-waitlist-button">Docs</a>
-      </div>
-      <div class="dialogue-bubble" id="op-bubble">
-        <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
-        <p>Pre-Order NOW ❤️</p>
-        <a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm" class="md-button md-button--primary" id="join-waitlist-button">Go to Crowd Supply</a>
-      </div>
-    </div>
-</section>

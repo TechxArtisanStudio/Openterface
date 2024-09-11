@@ -1,6 +1,4 @@
-# Why Openterface Mini-KVM ?
-
-## Key Benefits
+# Why Openterface ?
 
 With various KVM solutions available, here's why it still win your heart:
 
@@ -20,19 +18,4 @@ With various KVM solutions available, here's why it still win your heart:
 
     The real magic lies in our commitment to open-source development and community engagement. By embracing these principles, we’re building a vibrant ecosystem where users can collaborate, contribute, and customise the device to meet their unique needs, fostering innovation and pushing the boundaries of what’s possible. 👨‍💻🤝👩‍💻
 
-<section class="dialogue-section-white" id="dialogues-section">
-    <div class="container">
-        <div class="callout-button-container">
-            <div class="dialogue-bubble" id="op-bubble">
-                <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
-                <p>Pre-Order NOW ❤️</p>
-                <a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm" class="md-button md-button--primary" id="join-waitlist-button">Go to Crowd Supply</a>
-            </div>
-            <div class="dialogue-bubble" id="op-bubble">
-                <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
-                <p>Question?🤔</p>
-                <a href="/reddit" class="md-button md-button--primary" id="join-waitlist-button">Ask in Subreddit</a>
-            </div>
-        </div>
-    </div>
-</section>
+Learn more by [comparing Openterface to other KVM solutions](/comparison).
