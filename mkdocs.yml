@@ -200,6 +200,7 @@ nav:
   - Home: index.md
   - Doc:
     - Quick Start: quick-start.md
+    - How to Connect: how-to-connect.md
     - Host App: app.md
     - Features: features.md
     - Basic Control: basic.md
@@ -212,6 +213,7 @@ nav:
     - FAQs: faq.md
     - Development:
       - Test & Dev: test.md
+      - Roadmap: roadmap.md
       - Contributing: contributing.md
   - FAQs: /faq
   - Blog:
