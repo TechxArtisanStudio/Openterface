@@ -29,20 +29,3 @@ Professionals managing tasks that require network segregation, such as managing 
 Users who frequently switch between personal and work computers, or those managing edge computing devices, will benefit from the streamlined workflow integration that Openterface Mini-KVM provides.
 
 ![use-case-demo-macbookpro2010](/images/product/use-case-demo-macbookpro2010.jpg)
-
-<section class="dialogue-section-white" id="dialogues-section">
-    <div class="container">
-        <div class="callout-button-container">
-            <div class="dialogue-bubble" id="op-bubble">
-                <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
-                <p>Read more 📖</p>
-                <a href="/faq" class="md-button md-button--primary" id="join-waitlist-button">FAQs</a>
-            </div>
-            <div class="dialogue-bubble" id="op-bubble">
-                <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
-                <p>Join us! 💬</p>
-                <a href="/reddit" class="md-button md-button--primary" id="join-waitlist-button">subreddit</a>
-            </div>
-        </div>
-    </div>
-</section>
