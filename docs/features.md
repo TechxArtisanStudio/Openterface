@@ -1,7 +1,5 @@
 # Features
 
-## Overview
-
 - **Host App Compatibility**:
   Supports macOS, Windows, and Linux, with Android support in development.
 
@@ -27,15 +25,11 @@
   This allows you to toggle USB access between the host and the target, ideal for sharing a USB drive without replugging.
 
 - **Text Transfer**:
-  Allows text to be sent from the host to the target device, ideal for copying usernames, passwords, or code snippets.
+  The text transfer functionality allows you to send text from the host computer to the target device. This feature emulates typing behaviour to reproduce text content on the target computer, ideal for copying usernames, passwords, or code snippets.
+  
+    - **Special Characters**: The text transfer feature supports various ASCII characters, including symbols, punctuation marks, and non-alphanumeric characters.
 
-## Text Transfer
-
-- **Using Text Transfer**: The text transfer functionality allows you to send text from the host computer to the target device. This feature emulates typing behaviour to reproduce text content on the target computer.
-
-- **Special Characters**: The text transfer feature supports various ASCII characters, including symbols, punctuation marks, and non-alphanumeric characters.
-
-- **Limited Text**: It is ideal to transfer a short test like username, long password, code snippets from the host to the target. You can transfer text of varying lengths, but it is not recommended to transfer too much text at one time to avoid potential issues.
+    - **Limited Text**: It is ideal to transfer a short test like username, long password, code snippets from the host to the target. You can transfer text of varying lengths, but it is not recommended to transfer too much text at one time to avoid potential issues.
 
 !!! warning "Limitations of Text Transfer Feature"
 

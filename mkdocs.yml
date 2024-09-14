@@ -200,14 +200,15 @@ nav:
   - Home: index.md
   - Doc:
     - Quick Start: quick-start.md
-    - How to Connect: how-to-connect.md
-    - Host App: app.md
     - Features: features.md
+    - How to Connect: how-to-connect.md
+    - Host Apps: app.md
     - Basic Control: basic.md
     - Use Cases: use-cases.md
     - Specifications: specifications.md
     - What's in the Box: whats-in-the-box.md
     - How It Works: how-it-works.md
+    - Open Hardware: open-hardware.md
     - Why Openterface: why-openterface.md
     - Comparison: comparison.md
     - FAQs: faq.md
