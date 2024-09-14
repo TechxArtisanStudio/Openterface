@@ -59,3 +59,5 @@ Our apps for the Openterface Mini-KVM are licensed under the **AGPL-3.0**, an **
 ## Join Our Development
 
 The above host applications are **currently under development**. We are actively coding 🛠️ and enhancing them as we go! 💪 If you're interested in contributing and want to be part of an innovative development team, [join us now!](mailto:info@techxartisan.com) 🚀
+
+Interested in the hardware side? Check out our [Open Hardware](/open-hardware) page to explore the device's schematics, components, and even contribute to its physical design! 🔧🖥️
