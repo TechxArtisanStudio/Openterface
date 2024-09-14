@@ -2,3 +2,4 @@
 Pipfile
 Pipfile.lock
 site
+.vscode/settings.json
