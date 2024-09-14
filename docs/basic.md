@@ -45,7 +45,3 @@ When the app is focused, you can type anything directly, and these keystrokes wi
 
 ??? warning "Power supply limitation at around 5V2A"
     The USB port provides 5V power to an external USB device but has a limited power supply capacity of approximately 10W. This may not be sufficient to power certain external devices, such as a Jetson Nano running GPU-intensive tasks.
-
-## 🔌 Plug & Un-Plug
-
-- **Connection Sequence**: Follow the recommended device connection sequence for optimal performance. This helps in maintaining a stable connection and ensuring smooth operation.
