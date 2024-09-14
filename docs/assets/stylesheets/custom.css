@@ -13,12 +13,6 @@
     font-weight: bold;
 }
 
-.md-button.md-button:hover {
-    background-color: var(--button-hover-color);
-    border-color: var(--md-primary-fg-color);
-    color: var(--md-primary-fg-color);
-}
-
 .mdx-container {
     background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 1'><path d='M0,0 H1123' style='stroke: hsla(0, 0%, 100%, 1); stroke-width: 1'/></svg>") no-repeat bottom, 
     linear-gradient(to bottom, var(--md-primary-fg-color) 30%, #ffffff 100%, var(--md-default-bg-color) 100%);
@@ -41,8 +35,9 @@
     text-align: left;
 }
 
+
 .mdx-hero .md-button {
-    color: var(--md-primary-fg-color);
+    color: #ffffff;
     border-color: var(--md-accent-bg-color);
     margin-right: .5rem;
     margin-top: .5rem
@@ -400,7 +395,6 @@
     display: block; /* or 'flex', depending on your layout needs */
 }
 
-
 .twitter-feed-section .twitter-tweet:hover {
     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
 }
@@ -441,71 +435,8 @@
     max-width: 780px;
     width: 100%;
     height: auto;
-  }
-
-@media screen and (min-width:76.25em) {
-    .mdx-hero__image {
-        transform: translateX(8rem);
-    }
-    /* Wide screens: place videos side by side */
-    .videos-wrapper {
-      flex-direction: row; /* Align side by side */
-      justify-content: space-around; /* Distribute space evenly */
-    }
-  
-    .video-container {
-      max-width: 45%; /* Adjust max width for side-by-side view */
-      margin-bottom: 0; /* Remove margin between videos when side by side */
-    }
-  }
-
-@media screen and (min-width:60em) {
-
-    .mdx-hero {
-        align-items: stretch;
-        display: flex;
-    }
-
-    .mdx-hero__content {
-        margin-top: 3.5rem;
-        max-width: 19rem;
-        padding-bottom: 14vw;
-    }
-
-    .mdx-hero__image {
-        order: 1;
-        transform: translateX(4rem);
-        width: 38rem;
-    }
-
-    .product-close-up .product-close-up-content {
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .product-close-up .product-image, .product-close-up .product-description {
-        flex-basis: 50%;
-    }
-
-    .product-close-up .product-description {
-        padding-left: 2rem;
-        text-align: left;
-    }
-
-    .product-close-up .reverse-layout {
-        flex-direction: row-reverse; /* Reverse layout for alternate sections */
-    }
-
-    .product-close-up .reverse-layout .product-description {
-        padding-left: 0;
-        padding-right: 2rem;
-    }
-
-    .icon-item img {
-        height: 60px;
-    }
 }
+
 
 .icon-section {
     padding: var(--shared-padding);
@@ -534,9 +465,11 @@
 .icon-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 1.5rem;
+    gap: 1rem;
     justify-content: center;
     align-items: center;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .icon-item {
@@ -667,7 +600,71 @@
     margin-right: 10px; /* Space between avatar and text */
 }
 
-@media screen and (max-width:60em) {
+@media screen and (min-width:76.25em) { /* larger desktops and wide screens. */
+    .mdx-hero__image {
+        transform: translateX(8rem);
+    }
+    /* Wide screens: place videos side by side */
+    .videos-wrapper {
+      flex-direction: row; /* Align side by side */
+      justify-content: space-around; /* Distribute space evenly */
+    }
+  
+    .video-container {
+      max-width: 45%; /* Adjust max width for side-by-side view */
+      margin-bottom: 0; /* Remove margin between videos when side by side */
+    }
+  }
+
+@media screen and (min-width:60em) { /* tablets in landscape, laptops, and desktops. */
+
+    .mdx-hero {
+        align-items: stretch;
+        display: flex;
+    }
+
+    .mdx-hero__content {
+        margin-top: 3.5rem;
+        max-width: 19rem;
+        padding-bottom: 14vw;
+    }
+
+    .mdx-hero__image {
+        order: 1;
+        transform: translateX(4rem);
+        width: 38rem;
+    }
+
+    .product-close-up .product-close-up-content {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .product-close-up .product-image, .product-close-up .product-description {
+        flex-basis: 50%;
+    }
+
+    .product-close-up .product-description {
+        padding-left: 2rem;
+        text-align: left;
+    }
+
+    .product-close-up .reverse-layout {
+        flex-direction: row-reverse; /* Reverse layout for alternate sections */
+    }
+
+    .product-close-up .reverse-layout .product-description {
+        padding-left: 0;
+        padding-right: 2rem;
+    }
+
+    .icon-item img {
+        height: 60px;
+    }
+}
+
+@media screen and (max-width:60em) { /* mobile phones */
     .mdx-hero {
         display: block;
     }
@@ -679,32 +676,23 @@
         text-align: center;
     }
 
-    .mdx-hero__content .logo-container {
+    .mdx-hero__content .image-container {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 1rem;
-        max-width: 50%;
+        max-width: 90%;
         margin: auto; /* Center the container */
-    }
-
-    .mdx-hero__content .logo-container img {
-        max-width: 100%; /* Allow logos to scale down */
-        height: auto; /* Maintain aspect ratio */
-    }
-
-    .mdx-hero__content .logo-container img[src="assets/logo.png"] {
-        width: 26%;
     }
 
     .mdx-hero__content img, 
     .mdx-hero__content p, 
     .mdx-hero__content a {
         display: block; /* Stack images, paragraphs, and links */
-        margin: 0 auto; /* Center-align the elements */
+        margin: 0.2rem auto; /* Center-align the elements and add top margin */
         max-width: 100%; /* Ensure they fit the container */
         font-size: 0.8rem;
-        color: var(--description-font-light);
+        color: var(--description-font-dark);
     }
 
     .mdx-hero__image {
@@ -751,6 +739,11 @@
         float: none;
         display: block;
         margin: 1rem auto 0;
+    }
+
+    .icon-section {
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     .feature-dev-test {
@@ -801,11 +794,13 @@
     }
 
     .dialogue-section {
-        padding: 2rem 0rem;
+        padding: 0rem 0rem;
     }
 
     .dialogue-section-white {
-        padding: 2rem 0rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 0rem 0rem;
     }
 
     .avatar {
@@ -814,14 +809,20 @@
         height: 32px;
     }
 
+    .callout-button-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns for mobile */
+        gap: 0rem;
+        justify-content: center;
+    }
+
     .dialogue-bubble {
-        padding: 1rem 1rem;
+        padding: 0.5rem 1rem;
         margin: 1rem;
     }
 
     .dialogue-bubble p {
-        padding-left: 0rem;
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     #op-bubble p {

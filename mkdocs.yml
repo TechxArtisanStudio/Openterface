@@ -1,5 +1,5 @@
 # Project information
-site_name: Openterface Mini-KVM | Turn Your Laptop into a KVM Console
+site_name: Openterface | Bridging Interfaces to Open Possibilities
 site_url: https://openterface.com/
 site_author: Billy Wang
 site_description: A Feature-rich, Open-source and Community-driven KVM-over-USB Solution
@@ -32,7 +32,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  logo: assets/logo.png
+  logo: assets/app-logo.png
   favicon: images/favicon.png
   features:
    - navigation.tabs
