@@ -8,4 +8,4 @@
 - **HID Signal Conversion**: All keyboard and mouse inputs within the app are converted into Human Interface Device (HID) control signals, which are then sent to the target computer.
 - **Synchronization**: The app ensures that the target computer’s screen and cursor are synchronized with the host computer’s display, facilitating a unified user experience.
 
-You may explore Openterface [Open Hardware](/open-hardware) for more details.
+You may explore Openterface Open-source [Software](/app) and [Hardware](/open-hardware) for more details.
