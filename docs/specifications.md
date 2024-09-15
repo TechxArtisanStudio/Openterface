@@ -3,10 +3,14 @@
 ![lig-front](images/product/minikvm-v1-9-front.svg){:style="max-height:260px"}
 ![lig-back](images/product/minikvm-v1-9-back.svg){:style="max-height:260px"}
 
+## Product Information
+- Product Name: Openterface Mini-KVM Basic / Toolkit
+- Model Name: OP-MINIKVM-BASIC / OP-MINIKVM-TOOLKIT
+
 ## Physical
-- Dimensions (L x H x W): 61 x 53 x 13.5 mm / 2.40 x 2.09 x 0.53 inches
-- Weight: 48g
-- Casing: Aluminum
+- Device Dimensions (L x W x H): 61 x 53 x 13.5 mm / 2.40 x 2.09 x 0.53 inches
+- Device Net Weight: Approximately 48g
+- Casing Material: Aluminum alloy, PLA
 
 ## Compatibility
 - Host: Windows, macOS, Linux, Android (with compatible app)
