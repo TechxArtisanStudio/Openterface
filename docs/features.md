@@ -1,5 +1,7 @@
 # Features
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r3HNUflWGOY?si=84Ek6F9ocHmmGTqW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 - **Host App Compatibility**:
   Supports macOS, Windows, and Linux, with Android support in development.
 

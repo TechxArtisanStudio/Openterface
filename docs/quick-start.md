@@ -1,18 +1,10 @@
 # Quick Start
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/r3HNUflWGOY?si=84Ek6F9ocHmmGTqW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+![basic-two-angled](images/product/basic-two-angled.jpg){:style="max-height:420px"}
 
 Our **Openterface™ Mini-KVM** allows you to control a nearby headless computer (which we refer to as the **Target**) directly from your own laptop or desktop (referred to as the **Host**), via usb and HDMI connection, without the need for an extra keyboard, mouse, monitor or network.
 
 <div class="grid cards" markdown>
-
--   :material-power-plug:{ .lg .middle } __How to Connect__
-
-    ---
-
-    Set up your Openterface™ Mini-KVM and start controlling your Target device
-
-    [:octicons-arrow-right-24: Connection Guide](/how-to-connect)
 
 -   :material-feature-search-outline:{ .lg .middle } __Features__
 
@@ -21,6 +13,14 @@ Our **Openterface™ Mini-KVM** allows you to control a nearby headless computer
     Explore the powerful features of Openterface™ Mini-KVM
 
     [:octicons-arrow-right-24: View Features](/features)
+
+-   :material-power-plug:{ .lg .middle } __How to Connect__
+
+    ---
+
+    Set up your Openterface™ Mini-KVM and start controlling your Target device
+
+    [:octicons-arrow-right-24: Connection Guide](/how-to-connect)
 
 -   :material-open-source-initiative:{ .lg .middle } __Host Apps__
 

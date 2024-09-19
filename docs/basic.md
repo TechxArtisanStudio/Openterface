@@ -1,5 +1,7 @@
 # Basic Control
 
+![use-case-pc-angled-view](images/product/use-case-pc-angled-view.jpg)
+
 ## 💻 Compatibility
 
 - **Host Software**: Install our [host app](/app) for macOS, Windows, and Linux to control your target devices. Ensure your host system is compatible with the corresponding app version.
