@@ -2,7 +2,7 @@
 
 ![basic-two-angled](images/product/basic-two-angled.jpg){:style="max-height:420px"}
 
-Our **Openterface™ Mini-KVM** allows you to control a nearby headless computer (which we refer to as the **Target**) directly from your own laptop or desktop (referred to as the **Host**), via usb and HDMI connection, without the need for an extra keyboard, mouse, monitor or network.
+Our **Openterface™ Mini-KVM** enables you to control a nearby headless computer directly from your own laptop or desktop using USB and HDMI connections, eliminating the need for additional peripherals or network connectivity. Throughout this documentation, we refer to your controlling laptop or desktop as the **Host** ( ![host-computer](images/shell-icons/host-computer.svg){:style="height:18px"} ![Host](images/shell-icons/host.svg){:style="height:15px"} ) and the device being controlled as the **Target** ( ![target-computer](images/shell-icons/target-computer.svg){:style="height:18px"} ![Target](images/shell-icons/target.svg){:style="height:18px"} ).
 
 <div class="grid cards" markdown>
 
