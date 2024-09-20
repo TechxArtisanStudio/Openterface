@@ -116,10 +116,6 @@ Due to the presence of both hardware and software switches, four possible states
 
     - **Hardware Switch Monitoring**: The Hardware Switch, despite being physical, is monitored by software and does not directly control the circuit direction. Instead, the software interprets the switch position and manages the actual circuit switching.
 
-## Future Developments for Software-Controlled USB Switching
-
-A key feature introduced in the v1.9 upgrade of our device is the ability to toggle the USB switch at the software level. This enhancement is crucial for our future development plans, particularly in supporting KVM-over-IP solutions like VNC.
-
 ## Why Software-Controlled USB Switching Matters
 
 The software-controlled USB switching enhancement introduced in v1.9 is a pivotal feature for our future development plans, particularly in supporting KVM-over-IP solutions like VNC (which we have not yet implemented). This capability allows users to remotely toggle and share the USB port between the target and host computers, which is especially crucial for facilitating file transfers in a remote setup.
