@@ -115,3 +115,15 @@ Due to the presence of both hardware and software switches, four possible states
     - **Hardware Switch Sync**: Any manual toggle of the Hardware Switch will align its state with the Software Switch, transitioning to either ==State 1=={.state1} or ==State 2=={.state2} from the out-of-sync ==State 3=={.state3} or ==State 4=={.state4}. However, this synchronization does not necessarily alter the actual circuit connection.
 
     - **Hardware Switch Monitoring**: The Hardware Switch, despite being physical, is monitored by software and does not directly control the circuit direction. Instead, the software interprets the switch position and manages the actual circuit switching.
+
+## Future Developments for Software-Controlled USB Switching
+
+A key feature introduced in the v1.9 upgrade of our device is the ability to toggle the USB switch at the software level. This enhancement is crucial for our future development plans, particularly in supporting KVM-over-IP solutions like VNC.
+
+## Why Software-Controlled USB Switching Matters
+
+The software-controlled USB switching enhancement introduced in v1.9 is a pivotal feature for our future development plans, particularly in supporting KVM-over-IP solutions like VNC (which we have not yet implemented). This capability allows users to remotely toggle and share the USB port between the target and host computers, which is especially crucial for facilitating file transfers in a remote setup.
+
+This feature opens up a world of possibilities for remote management and control. For instance, it enables file transfers between devices without physical intervention, enhancing the efficiency of remote troubleshooting and system management.
+
+Do you have creative ideas on how to leverage this feature? We'd love to chat with you! Join Openterface [community](https://openterface.com/community/) and share your thoughts 😃
