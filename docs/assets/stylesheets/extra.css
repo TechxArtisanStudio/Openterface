@@ -37,7 +37,19 @@
         }
     }
 }
-/* 
-.md-tabs__item a[href*="contact/"] {
-    display: none;
-} */
+
+mark.state1 {
+    background-color: #ffd699; /* A somewhat orange color */
+}
+
+mark.state2 {
+    background-color: #ffcccc;
+}
+  
+mark.state3 {
+    background-color: #ccccff;
+}
+  
+mark.state4 {
+    background-color: #ccffcc;
+}

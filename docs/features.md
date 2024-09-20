@@ -24,7 +24,7 @@
   Provides direct access to the target device's BIOS, firmware, or startup management.
 
 - **Switchable USB Type-A Port**:
-  This allows you to toggle USB access between the host and the target, ideal for sharing a USB drive without replugging.
+  This allows you to toggle USB access between the host and the target, ideal for sharing a USB drive without replugging. Check out our [Switchable USB Port](/usb-switch) page for more information.
 
 - **Text Transfer**:
   The text transfer functionality allows you to send text from the host computer to the target device. This feature emulates typing behaviour to reproduce text content on the target computer, ideal for copying usernames, passwords, or code snippets.

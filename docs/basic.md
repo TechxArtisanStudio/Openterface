@@ -40,10 +40,12 @@ When the app is focused, you can type anything directly, and these keystrokes wi
 
 ## 🔄 Switchable USB Port
 
-- **Using the USB Port**: Only one computer can utilise the USB port at a time. Toggle the switch to change the port's connection to another computer.
+- **Using the USB Port**: The mini-KVM features a switchable USB-A 2.0 port that can be toggled between the host and target computers, but not both simultaneously.
+- **Switching Methods**: 
+    - Hardware Switch: A physical toggle on the device
+    - Software Switch: A button in the host application
+- **Switch Logic**: For more detailed information on the logic of how the switchable USB port operates, including the interaction between hardware and software switches, initial setup, operational states, and state transitions, please refer to the [USB Switch documentation](usb-switch.md).
 
-??? note "Remember to eject the flash drive before toggling the switch"
-    If the USB port is being used by a flash drive, ensure you eject the flash drive before toggling the switch to transfer the port's use to another computer.
-
-??? warning "Power supply limitation at around 5V2A"
-    The USB port provides 5V power to an external USB device but has a limited power supply capacity of approximately 10W. This may not be sufficient to power certain external devices, such as a Jetson Nano running GPU-intensive tasks.
+!!! warning "Important"
+    - Remember to eject any connected USB drives before switching the port's connection.
+    - The USB port has power limitations. Do not connect devices that require a lot of power, as this may result in unstable operation or potential damage.
