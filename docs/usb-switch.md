@@ -89,7 +89,7 @@ Due to the presence of both hardware and software switches, four possible states
       - Update internal state variable to Host ![host-computer](images/shell-icons/host-computer.svg){:style="height:18px"}
       - Hardware switch position remains unchanged (pointing to Target ![target-computer](images/shell-icons/target-computer.svg){:style="height:18px"})
       - Switch actual circuit connection to Host ![host-computer](images/shell-icons/host-computer.svg){:style="height:18px"}
-      - Transition to ==State 1=={.state1}
+      - Transition to ==State 1=={.state1}, sync
 
 ### From ==**State 4**=={.state4} (Out of Sync, USB Connected to Target)
 
