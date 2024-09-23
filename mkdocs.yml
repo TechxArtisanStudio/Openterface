@@ -49,17 +49,9 @@ theme:
    - content.tabs.link
 
   palette:
-    # Auto mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
-      primary: deep orange
-      accent: custom
-
     # Light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: fraunhofer
+      scheme: default
       primary: deep orange
       accent: custom
       toggle:
