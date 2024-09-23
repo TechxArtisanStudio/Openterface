@@ -3,7 +3,7 @@
     "configurations": [
         {
             "name": "Serve Local",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/serve_local.py",
             "console": "integratedTerminal",
@@ -11,7 +11,7 @@
         },
         {
             "name": "Run Local",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/run_local.py",
             "console": "integratedTerminal"
