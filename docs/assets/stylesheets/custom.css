@@ -15,7 +15,7 @@
 
 .mdx-container {
     background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 1'><path d='M0,0 H1123' style='stroke: hsla(0, 0%, 100%, 1); stroke-width: 1'/></svg>") no-repeat bottom, 
-    linear-gradient(to bottom, var(--md-primary-fg-color) 30%, #ffffff 100%, var(--md-default-bg-color) 100%);
+    linear-gradient(to bottom, var(--md-primary-fg-color) 30%, transparent 100%, var(--md-default-bg-color) 100%);
     padding-top: 1rem;
 }
 
@@ -103,7 +103,8 @@
 .product-close-up .product-description p {
     font-size: 1rem;
     line-height: 1.6;
-    color: var(--description-font-dark);
+    color: inherit;
+    /* color: var(--description-font-dark); */
 }
 
 .connection-row {
@@ -277,7 +278,7 @@
 
 .feature-dev-test {
     background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 1'><path d='M0,0 H1123' style='stroke: hsla(0, 0%, 100%, 1); stroke-width: 1'/></svg>") no-repeat bottom, 
-    linear-gradient(to top, var(--md-primary-fg-color) 30%, #ffffff 100%, var(--md-default-bg-color) 100%);
+    linear-gradient(to top, var(--md-primary-fg-color) 30%, transparent 100%, var(--md-default-bg-color) 100%);
     padding: var(--shared-padding);
     text-align: center;
     color: var(--description-font-dark);
