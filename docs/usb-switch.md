@@ -1,6 +1,7 @@
 # Switchable USB Port Mechanics
 
-![switch-graphics](images/product/switch-graphics.jpg)
+![switch-graphics](images/product/switch-graphics.svg#only-light){:style="width:460px"}
+![switch-graphics](images/product/switch-graphics_1.svg#only-dark){:style="width:460px"}
 
 The mini-KVM device features a switchable USB-A 2.0 port that can be toggled between the host and target computers, but not both simultaneously. This functionality is controlled by both a physical toggle switch and a software switch in the host application. This document explains the mechanics and logic behind these switches.
 
@@ -9,7 +10,7 @@ The mini-KVM device features a switchable USB-A 2.0 port that can be toggled bet
 - **Software Switch**: A toggle button in the host application.
       - Toggles the USB port connection between host and target computers
 
-- ![Toggle Switch](images/shell-icons/toggle-h-t.svg){:style="height:20px"} **Hardware Switch**: A physical two-position toggle switch on the device.
+- ![Toggle Switch](images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} **Hardware Switch**: A physical two-position toggle switch on the device.
       - Inward position: Connects to the host computer
       - Outward position: Connects to the target computer
 
@@ -30,77 +31,77 @@ When the mini-KVM is properly connected and the host app is launched:
 Due to the presence of both hardware and software switches, four possible states can occur:
 
 - ==**State 1**=={.state1} (Synchronized, Connected to Host):
-      - Hardware Switch: Points to Host ![host-computer](images/shell-icons/host-computer.svg){:style="height:18px"}
-      - Software Switch: Points to Host ![host-computer](images/shell-icons/host-computer.svg){:style="height:18px"}
-      - USB Port Connection: Connected to Host
+      - Hardware Switch: Points to Host ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - Software Switch: Points to Host ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - USB Port Connection: Connected to Host ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
 
 - ==**State 2**=={.state2} (Synchronized, Connected to Target):
-      - Hardware Switch: Points to Target ![target-computer](images/shell-icons/target-computer.svg){:style="height:18px"}
-      - Software Switch: Points to Target ![target-computer](images/shell-icons/target-computer.svg){:style="height:18px"}
-      - USB Port Connection: Connected to Target
+      - Hardware Switch: Points to Target ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - Software Switch: Points to Target ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - USB Port Connection: Connected to Target ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
 
 - ==**State 3**=={.state3} (Out of Sync, USB Connected to Host):
-      - Hardware Switch: Points to Target ![target-computer](images/shell-icons/target-computer.svg){:style="height:18px"}
-      - Software Switch: Points to Host ![host-computer](images/shell-icons/host-computer.svg){:style="height:18px"}
-      - USB Port Connection: Connected to Host
+      - Hardware Switch: Points to Target ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - Software Switch: Points to Host ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - USB Port Connection: Connected to Host ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
 
 - ==**State 4**=={.state4} (Out of Sync, USB Connected to Target):
-      - Hardware Switch: Points to Host ![host-computer](images/shell-icons/host-computer.svg){:style="height:18px"}
-      - Software Switch: Points to Target ![target-computer](images/shell-icons/target-computer.svg){:style="height:18px"}
-      - USB Port Connection: Connected to Target
+      - Hardware Switch: Points to Host ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - Software Switch: Points to Target ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - USB Port Connection: Connected to Target ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
 
 ## State Transitions and Logic
 
 ### From ==**State 1**=={.state1} (Sync to Host)
 
 - ^^***Scenario 1a***^^: User Moves Hardware Switch to Target
-      - Update internal state variable to Target ![target-computer](images/shell-icons/target-computer.svg){:style="height:18px"}
-      - Update host application display to show Target ![target-computer](images/shell-icons/target-computer.svg){:style="height:18px"}
-      - Switch actual circuit connection to Target ![target-computer](images/shell-icons/target-computer.svg){:style="height:18px"}
+      - Update internal state variable to Target ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - Update host application display to show Target ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - Switch actual circuit connection to Target ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
       - Transition to ==State 2=={.state2}, sync
 
 - ***Scenario 1b***: User Clicks Software Switch to Target
-      - Update internal state variable to Target ![target-computer](images/shell-icons/target-computer.svg){:style="height:18px"}
-      - Hardware switch position remains unchanged (pointing to Host ![host-computer](images/shell-icons/host-computer.svg){:style="height:18px"})
-      - Switch actual circuit connection to Target ![target-computer](images/shell-icons/target-computer.svg){:style="height:18px"}
+      - Update internal state variable to Target ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - Hardware switch position remains unchanged (pointing to Host ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"})
+      - Switch actual circuit connection to Target ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
       - Transition to ==State 3=={.state3}, out of sync
 
 ### From ==**State 2**=={.state2} (Sync to Target)
 
-- ^^***Scenario 2a***^^: User Moves Hardware Switch to Host ![host-computer](images/shell-icons/host-computer.svg){:style="height:18px"}:
-      - Update internal state variable to Host ![host-computer](images/shell-icons/host-computer.svg){:style="height:18px"}
-      - Update software switch display to show Host ![host-computer](images/shell-icons/host-computer.svg){:style="height:18px"}
-      - Switch actual circuit connection to Host ![host-computer](images/shell-icons/host-computer.svg){:style="height:18px"}
+- ^^***Scenario 2a***^^: User Moves Hardware Switch to Host ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}:
+      - Update internal state variable to Host ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - Update software switch display to show Host ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - Switch actual circuit connection to Host ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
       - Transition to ==State 1=={.state1}, sync
 
-- ***Scenario 2b***: User Clicks Software Switch to Host ![host-computer](images/shell-icons/host-computer.svg){:style="height:18px"}:
-      - Update internal state variable to Host ![host-computer](images/shell-icons/host-computer.svg){:style="height:18px"}
-      - Hardware switch position remains unchanged (pointing to Target ![target-computer](images/shell-icons/target-computer.svg){:style="height:18px"})
-      - Switch actual circuit connection to Host ![host-computer](images/shell-icons/host-computer.svg){:style="height:18px"}
+- ***Scenario 2b***: User Clicks Software Switch to Host ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}:
+      - Update internal state variable to Host ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - Hardware switch position remains unchanged (pointing to Target ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"})
+      - Switch actual circuit connection to Host ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
       - Transition to ==State 4=={.state4}, out of sync
 
 ### From ==**State 3**=={.state3} (Out of Sync, USB Connected to Host)
 
-- ^^***Scenario 3a***^^: User Moves Hardware Switch to Target ![target-computer](images/shell-icons/target-computer.svg){:style="height:18px"}:
+- ^^***Scenario 3a***^^: User Moves Hardware Switch to Target ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}:
       - No changes to variables
       - Transition to ==State 2=={.state2}, sync
 
-- ***Scenario 3b***: User Clicks Software Switch to Host ![host-computer](images/shell-icons/host-computer.svg){:style="height:18px"}:
-      - Update internal state variable to Host ![host-computer](images/shell-icons/host-computer.svg){:style="height:18px"}
-      - Hardware switch position remains unchanged (pointing to Target ![target-computer](images/shell-icons/target-computer.svg){:style="height:18px"})
-      - Switch actual circuit connection to Host ![host-computer](images/shell-icons/host-computer.svg){:style="height:18px"}
+- ***Scenario 3b***: User Clicks Software Switch to Host ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}:
+      - Update internal state variable to Host ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
+      - Hardware switch position remains unchanged (pointing to Target ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"})
+      - Switch actual circuit connection to Host ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}
       - Transition to ==State 1=={.state1}, sync
 
 ### From ==**State 4**=={.state4} (Out of Sync, USB Connected to Target)
 
-- ^^***Scenario 4a***^^: User Moves Hardware Switch to Host ![host-computer](images/shell-icons/host-computer.svg){:style="height:18px"}:
+- ^^***Scenario 4a***^^: User Moves Hardware Switch to Host ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"}:
       - No changes to variables
       - Transition to ==State 1=={.state1}, sync
 
-- ***Scenario 4b***: User Clicks Software Switch to Target ![target-computer](images/shell-icons/target-computer.svg){:style="height:18px"}:
-      - Update internal state variable to Target ![target-computer](images/shell-icons/target-computer.svg){:style="height:18px"}
-      - Hardware switch position remains unchanged (pointing to Host ![host-computer](images/shell-icons/host-computer.svg){:style="height:18px"})
-      - Switch actual circuit connection to Target ![target-computer](images/shell-icons/target-computer.svg){:style="height:18px"}
+- ***Scenario 4b***: User Clicks Software Switch to Target ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}:
+      - Update internal state variable to Target ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
+      - Hardware switch position remains unchanged (pointing to Host ![host-computer](images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![host-computer](images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"})
+      - Switch actual circuit connection to Target ![target-computer](images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![target-computer](images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"}
       - Transition to ==State 2=={.state2}, sync
 
 !!! warning "Remember to eject the flash drive before toggling the switch"

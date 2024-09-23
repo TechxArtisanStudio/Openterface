@@ -2,26 +2,30 @@
 
 ## Interfaces
 
-![host-side](images/product/host-htc.svg){:style="width:360px"}
+![host-side](images/product/host-htc.svg#only-light){:style="width:360px"}
 
-![target-side](images/product/target-htc.svg){:style="width:360px"}
+![target-side](images/product/target-htc.svg#only-light){:style="width:360px"}
 
-① ![Type-C to Host](images/shell-icons/host.svg){:style="height:15px"} - **Host USB-C Port** (Female): As a USB device port, connecting to the Host computer for data transfer via built-in USB hub
+![host-side](images/product/host-htc_1.svg#only-dark){:style="width:360px"}
 
-② ![Type-C to Target](images/shell-icons/target.svg){:style="height:18px"} - **Target USB-C Port** (Female): As a USB device port, connecting to the Host computer for emulating keyboard and mouse HID output via built-in USB hub
+![target-side](images/product/target-htc_1.svg#only-dark){:style="width:360px"}
 
-③ ![HDMI Input](images/shell-icons/input.svg){:style="height:18px"} - **HDMI Input Port** (Female): HDMI source input from the Target computer
+① ![Type-C to Host](images/shell-icons/host.svg#only-light){:style="height:15px"} ![Type-C to Host](images/shell-icons/host_1.svg#only-dark){:style="height:15px"} - **Host USB-C Port** (Female): As a USB device port, connecting to the Host computer for data transfer via built-in USB hub
 
-④ ![USB-A Port](images/shell-icons/switchable-usb.svg){:style="height:26px"} - **Switchable USB-A 2.0 Port** (Female): As a USB host port, utilized by either the host computer or the target computer at any given time, but not simultaneously
+② ![Type-C to Target](images/shell-icons/target.svg#only-light){:style="height:18px"} ![Type-C to Target](images/shell-icons/target_1.svg#only-dark){:style="height:18px"} - **Target USB-C Port** (Female): As a USB device port, connecting to the Host computer for emulating keyboard and mouse HID output via built-in USB hub
 
-⑤ ![Toggle Switch](images/shell-icons/toggle-h-t.svg){:style="height:20px"} - **Toggle Switch**: For toggling the connection of the USB-A 2.0 port between the host and the target computer
+③ ![HDMI Input](images/shell-icons/input.svg#only-light){:style="height:18px"} ![HDMI Input](images/shell-icons/input_1.svg#only-dark){:style="height:18px"} - **HDMI Input Port** (Female): HDMI source input from the Target computer
 
-⑥ ![Extension Pins](images/shell-icons/pins.svg){:style="height:15px"} - **Extension Pins**: For more information, please check [Extension Pins](/extension-pin) for developer use.
+④ ![USB-A Port](images/shell-icons/switchable-usb.svg#only-light){:style="height:26px"} ![USB-A Port](images/shell-icons/switchable-usb_1.svg#only-dark){:style="height:26px"} - **Switchable USB-A 2.0 Port** (Female): As a USB host port, utilized by either the host computer or the target computer at any given time, but not simultaneously
+
+⑤ ![Toggle Switch](images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} - **Toggle Switch**: For toggling the connection of the USB-A 2.0 port between the host and the target computer
+
+⑥ ![Extension Pins](images/shell-icons/pins.svg#only-light){:style="height:15px"} ![Extension Pins](images/shell-icons/pins_1.svg#only-dark){:style="height:15px"} - **Extension Pins**: For more information, please check [Extension Pins](/extension-pin) for developer use.
 
 ## Connection Steps
 
-![to-host](images/product/to-host.svg){:style="max-height:260px"}
-![to-target](images/product/to-target.svg){:style="max-height:260px"}
+![to-host](images/product/to-host.svg#only-light){:style="height:260px"} ![to-host](images/product/to-host_1.svg#only-dark){:style="height:260px"}
+![to-target](images/product/to-target.svg#only-light){:style="height:260px"} ![to-target](images/product/to-target_1.svg#only-dark){:style="height:260px"}
 
 To set up your Mini-KVM, follow these steps:
 
@@ -29,7 +33,7 @@ To set up your Mini-KVM, follow these steps:
 
     - **Type-C Connection**: Connect the host computer to the mini-KVM using a Type-C USB cable, plugging it into the Type-C female port on the orange side of the mini-KVM.
     !!! note "Host App Required"
-        The host computer needs to have the host app installed. For more information and download links, please refer to the [App Documentation](app.md).
+        The host computer needs to have the host app installed. For more information and download links, please refer to the [App Documentation](/app).
 
 - **Target Device** (Black Side):
 

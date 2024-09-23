@@ -15,7 +15,8 @@ Our Openterface Mini-KVM is proudly certified by the **Open Source Hardware Asso
 
 ## Extension Pins for Development
 
-![change-cap](images/product/change-cap.svg){:style="max-height:300px"}
+![change-cap](images/product/change-cap.svg#only-light){:style="height:300px"}
+![change-cap](images/product/change-cap_1.svg#only-dark){:style="height:300px"}
 
 The Openterface Mini-KVM features extension pins for advanced development and [Open Software](/app) experimentation. These pins are not exposed in the standard case configuration.
 
@@ -35,8 +36,10 @@ To access the extension pins:
 
 ### Pin Layout
 
-![target-side](images/product/extension-pins-1.svg){:style="max-height:200px"}
-![host-side](images/product/extension-pins-2.svg){:style="max-height:200px"}
+![target-side](images/product/extension-pins-1.svg#only-light){:style="height:200px"}
+![host-side](images/product/extension-pins-2.svg#only-light){:style="height:200px"}
+![target-side](images/product/extension-pins-1_1.svg#only-dark){:style="height:200px"}
+![host-side](images/product/extension-pins-2_1.svg#only-dark){:style="height:200px"}
 
 The extension pins provide the following connections:
 
