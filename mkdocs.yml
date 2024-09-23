@@ -47,9 +47,34 @@ theme:
    - content.code.annotation
    - content.code.copy
    - content.tabs.link
+
   palette:
-    primary: deep orange
-    accent: custom
+    # Auto mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+      primary: deep orange
+      accent: custom
+
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: fraunhofer
+      primary: deep orange
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to auto mode
+
   icon:
     admonition:
       note: fontawesome/solid/note-sticky
