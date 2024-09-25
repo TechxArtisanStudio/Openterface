@@ -1,4 +1,6 @@
-# Host Apps
+# Open Software
+
+## Host Apps
 
 <div class="container">
     <img src="/images/product/win_qt_app.jpg" alt="Poster Image" class="poster-image-shadow">
