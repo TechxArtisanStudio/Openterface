@@ -25,18 +25,6 @@ Watch the demo video by Tech influencer **Cameron Gray** on how to use this cabl
 
 ---
 
-## HDMI Male-to-Male Cable
-
-![HDMI-Cable](images/product/part/OP-03-CABLE30-HDMI.jpg){:style="height:360px"}
-
-This compact HDMI cable is perfect for connecting your target device to capture video output, ensuring seamless integration with your Openterface Mini-KVM.
-
-- **Length**: 0.3m
-- **Colour**: Black
-- **Use**: Ideal for high-definition video transmission from the target device to the Mini-KVM.
-
----
-
 ## Type-C to USB-A Cable with Adapter
 
 ![C2A-30-Cable](images/product/part/OP-04-CABLE30-C2A.jpg){:style="height:360px"}
@@ -54,12 +42,24 @@ This versatile Type-C Male to USB-A Male cable, paired with a USB-A Female to US
 
 ![C2C-150-Cable](images/product/part/OP-05-CABLE150-C2C.jpg){:style="height:360px"}
 
-This stylish and soft-feel Type-C Male-to-Male cable in vibrant orange is designed for host computer connections. It comes with a USB-C Female to USB-A Male adapter for enhanced compatibility, ensuring you can connect to host computers using either Type-C or USB-A ports.
+This stylish and soft-feel Type-C Male-to-Male cable in vibrant orange is designed for host computer connections. It comes with a USB-C Female to USB-A Male adapter for enhanced compatibility, ensuring you can connect to host computers using either Type-C or USB-A ports. Additionally, this cable supports **240W fast charging** (Voltage DC50V, Current 5A, Power 240W), making it perfect not only for our Mini-KVMs but also for charging your mobile phone or laptop.
 
 - **Length**: 1.5m
 - **Colour**: Orange
 - **Adapter**: USB-C Female to USB-A Male
-- **Use**: For high-speed data transfer between the host computer and the Mini-KVM.
+- **Use**: For high-speed data transfer between the host computer and the Mini-KVM, and for fast charging mobile phones or laptops.
+
+---
+
+## HDMI Male-to-Male Cable
+
+![HDMI-Cable](images/product/part/OP-03-CABLE30-HDMI.jpg){:style="height:360px"}
+
+This compact HDMI cable is perfect for connecting your target device to capture video output, ensuring seamless integration with your Openterface Mini-KVM.
+
+- **Length**: 0.3m
+- **Colour**: Black
+- **Use**: Ideal for high-definition video transmission from the target device to the Mini-KVM.
 
 ---
 
