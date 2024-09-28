@@ -46,9 +46,9 @@ Let's delve into the most frequent questions about the Openterface Mini-KVM.
 
 ##### Control Mechanism
 - [Are there plans for a version with wireless or Ethernet connectivity?](#are-there-plans-for-a-version-with-wireless-or-ethernet-connectivity)
-- [How is this different from other KVM solutions like traditional KVMs, KVM-over-IP, VNC, etc?](#how-is-this-different-from-other-kvm-solutions-like-traditional-kvms-kvm-over-ip-and-vnc-etc)
+- [How is this different from other KVM solutions like traditional KVMs, KVM-over-IP, and VNC, etc?](#how-is-this-different-from-other-kvm-solutions-like-traditional-kvms-kvm-over-ip-and-vnc-etc)
 - [Does it work with a target computer requiring PS/2?](#does-it-work-with-a-target-computer-requiring-ps2)
-- [Can I use multiple Mini-KVMs to control multiple target devices from one master computer?](#can-i-use-multiple-mini-kvms-to-control-multiple-target-devices-from-one-master-computer)
+- [Can I use multiple Mini-KVMs to control multiple target deives from one master computer?](#can-i-use-multiple-mini-kvms-to-control-multiple-target-devices-from-one-master-computer)
 - [Is it capable of powering off/on the computer it’s connected to?](#is-it-capable-of-powering-offon-the-computer-its-connected-to)
 
 ##### Video Related
@@ -57,7 +57,6 @@ Let's delve into the most frequent questions about the Openterface Mini-KVM.
 - [Will there be support for high-quality display in future versions of the Openterface Mini-KVM?](#will-there-be-support-for-high-quality-display-in-future-versions-of-the-openterface-mini-kvm)
 - [Why doesn't Openterface Mini-KVM stream video over local IP?](#why-doesnt-openterface-mini-kvm-stream-video-over-local-ip)
 - [Can it work with different video outputs like VGA, DVI, DisplayPort, etc.?](#can-it-work-with-different-video-outputs-like-vga-dvi-displayport-etc)
-- [Why can't I add the VGA-to-HDMI cable to my order on Crowd Supply for shipping to the EU/UK?](#why-cant-i-add-the-vga-to-hdmi-cable-to-my-order-on-crowd-supply-for-shipping-to-the-euuk)
 
 ##### Troubleshooting
 - [Why does the Openterface Mini-KVM sometimes experience issues when connected through a USB hub?](#why-does-the-openterface-mini-kvm-sometimes-experience-issues-when-connected-through-a-usb-hub)
@@ -70,6 +69,7 @@ Let's delve into the most frequent questions about the Openterface Mini-KVM.
 - [Want to Review Our Handy Gadget?](#want-to-review-our-handy-gadget)
 - [What are the advanced features planned for the mini-KVM?](#what-are-the-advanced-features-planned-for-the-mini-kvm)
 - [How does the Openterface integrate with AI and what are its future possibilities?](#how-does-the-mini-kvm-integrate-with-ai-and-what-are-its-future-possibilities)
+- [What accessories are available for the Openterface Mini-KVM?](#what-accessories-are-available-for-the-openterface-mini-kvm)
 
 ### Basic
 
@@ -264,6 +264,8 @@ We are excited about the potential of the mini-KVM and are committed to document
 
 Our ultimate goal is to enable AI to control target computers, and the Openterface plays a crucial role in this vision. Inspired by projects like [OthersideAI's self-operating computer](https://github.com/OthersideAI/self-operating-computer), we aim for the mini-KVM to act as an extension of the 'hands' (providing keyboard and mouse control) and 'eyes' (capturing the video source) for the host computer. If the host computer is powerful enough, it could potentially emulate the capabilities seen in the 2013 movie "Her". While this is a future aspiration, it highlights the exciting possibilities we see for the mini-KVM.
 
+#### What accessories are available for the Openterface Mini-KVM?
+We offer a range of accessories to enhance your experience with the Openterface Mini-KVM. Check out our [Accessories](accessories.md) section for more details on available products, including our VGA to HDMI Converter Cable.
 
 --------
 
