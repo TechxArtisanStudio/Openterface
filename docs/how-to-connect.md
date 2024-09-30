@@ -30,19 +30,23 @@
 ![to-host](images/product/to-host.svg#only-light){:style="height:260px"} ![to-host](images/product/to-host_1.svg#only-dark){:style="height:260px"}
 ![to-target](images/product/to-target.svg#only-light){:style="height:260px"} ![to-target](images/product/to-target_1.svg#only-dark){:style="height:260px"}
 
-To set up your Mini-KVM, follow these steps:
+To set up your Mini-KVM, follow these steps in order:
 
-- **Host Computer** (Orange Side):
+1. **Host Computer Connection** (Orange Side):
+    - Connect the host computer to the mini-KVM using the orange 1.5m Type-C USB cable. Plug it into the Type-C female port on the orange side of the mini-KVM.
 
-    - **Type-C Connection**: Connect the host computer to the mini-KVM using a Type-C USB cable, plugging it into the Type-C female port on the orange side of the mini-KVM.
     !!! note "Host App Required"
         The host computer needs to have the host app installed. For more information and download links, please refer to the [App Documentation](/app).
 
-- **Target Device** (Black Side):
+2. **Target Device Connection** (Black Side):
+    - Connect the target device to the mini-KVM using the black 0.3m Type-C USB cable. Plug it into the Type-C female port on the black side of the mini-KVM.
 
-    - **Type-C Connection**: Connect the target device to the mini-KVM using a Type-C USB cable, plugging it into the Type-C female port on the black side of the mini-KVM.
-    - **Video Output**: Connect the target device's video output port to the HDMI female port on the black side of the mini-KVM using an HDMI cable, a VGA-to-HDMI cable, or any other appropriate video-source-to-HDMI cable.
-    
+3. **Target Video Output Connection** (Black Side):
+    - Connect the target device's video output port to the HDMI female port on the black side of the mini-KVM. Use the black 0.3m HDMI cable, or any other appropriate video-source-to-HDMI cable, such as a VGA-to-HDMI converter cable.
+
     !!! note "No App Required for the Target"
         No pre-installation or configuration is required on the target device. As long as the target device supports UI operations with video output (HDMI, VGA, e.g.) and has a USB port to receive emulated keyboard and mouse control (HID) signals, it can be used. Thus, supported target device platforms include Windows, macOS, Linux, Android, and iOS.
+
+4. **Switchable USB-A 2.0 Port Connection** (Optional):
+    - If you want to connect a usb device to the Switchable USB-A 2.0 Port, it's recommended to do so after completing the above three connections and ensuring the host app is open.
 
