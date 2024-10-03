@@ -281,7 +281,6 @@
     linear-gradient(to top, var(--md-primary-fg-color) 30%, transparent 100%, var(--md-default-bg-color) 100%);
     padding: var(--shared-padding);
     text-align: center;
-    color: var(--description-font-dark);
 }
 
 .feature-dev-test h2 {
@@ -693,7 +692,7 @@
         margin: 0.2rem auto; /* Center-align the elements and add top margin */
         max-width: 100%; /* Ensure they fit the container */
         font-size: 0.8rem;
-        color: var(--description-font-dark);
+        /* color: var(--description-font-dark); */
     }
 
     .mdx-hero__image {
