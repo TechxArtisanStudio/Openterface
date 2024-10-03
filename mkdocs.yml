@@ -17,7 +17,6 @@ copyright: >-
   <a href="#__consent">Cookie Settings</a> | 
   <a href="/contact">Contact Us</a>
 
-
 extra_css:
   - assets/stylesheets/extra.css
 
@@ -65,7 +64,7 @@ theme:
       accent: custom
       toggle:
         icon: material/weather-night
-        name: Switch to auto mode
+        name: Switch to light mode
 
   icon:
     admonition:
@@ -98,8 +97,6 @@ extra:
       link: https://www.facebook.com/TechxArtisan
     - icon: fontawesome/brands/linkedin-in
       link: https://www.linkedin.com/company/techxartisan/
-    # - icon: fontawesome/brands/github-alt
-    #   link: https://github.com/TechxArtisanStudio/Openterface/discussions
   
   alternate:
     - name: English
