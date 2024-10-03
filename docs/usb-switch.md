@@ -123,4 +123,4 @@ The software-controlled USB switching enhancement introduced in v1.9 is a pivota
 
 This feature opens up a world of possibilities for remote management and control. For instance, it enables file transfers between devices without physical intervention, enhancing the efficiency of remote troubleshooting and system management.
 
-Do you have creative ideas on how to leverage this feature? We'd love to chat with you! Join Openterface [community](https://openterface.com/community/) and share your thoughts 😃
+Do you have creative ideas on how to leverage this feature? We'd love to chat with you! Join Openterface [community](/community/) and share your thoughts 😃

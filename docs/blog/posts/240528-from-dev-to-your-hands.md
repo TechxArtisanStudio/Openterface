@@ -61,19 +61,19 @@ As you can see from the above posts, we received an overwhelming number of fanta
 
 Our beta team is an exceptional, truly global collaboration, with members from the US 🇺🇸, UK 🇬🇧, Japan 🇯🇵, Germany 🇩🇪, Czech Republic 🇨🇿, Norway 🇳🇴, Belgium 🇧🇪, France 🇫🇷, Austria 🇦🇹, Australia 🇦🇺, Poland 🇵🇱, Netherlands 🇳🇱, China 🇨🇳, and more joining soon. These testers bring development experience, real-world use cases for the Openterface Mini-KVM, and a passion for supporting open-source projects like ours. Our beta team is already using this handy gadget in their daily tasks, raising issues, and suggesting features for us to improve further.
 
-Although most of you don’t have this early version of mini-KVM, you can still review our code on GitHub and join the conversation with our beta and dev teams in [our community](https://openterface.com/community/)! Let us know what you find so we can make this device awesome together!
+Although most of you don’t have this early version of mini-KVM, you can still review our code on GitHub and join the conversation with our beta and dev teams in [our community](/community/)! Let us know what you find so we can make this device awesome together!
 
 Here are updates on our open-source Github repo:
 
 #### [**Openterface_MacOS**](https://github.com/TechxArtisanStudio/Openterface_MacOS)
 
-Our Openterface MacOS host app is already officially live on the **Apple App Store**. Just search for 'Openterface' or 'mini-KVM' to find our app page. Even better, we’ve uploaded the full code to our GitHub repo: Openterface_MacOS for the Mini-KVM. You can check out this [basic operation demo](https://openterface.com/basic-testing/) on **MacOS**.
+Our Openterface MacOS host app is already officially live on the **Apple App Store**. Just search for 'Openterface' or 'mini-KVM' to find our app page. Even better, we’ve uploaded the full code to our GitHub repo: Openterface_MacOS for the Mini-KVM. You can check out this [basic operation demo](/basic-testing/) on **MacOS**.
 
 ![openterface-macos-app-store](https://www.crowdsupply.com/img/1c9c/f855deb7-a88e-415b-a826-f360e6d41c9c/openterface-macos-app-store_png_md-xl.jpg)
 
 #### [**Openterface_QT**](https://github.com/TechxArtisanStudio/Openterface_QT)
 
-QT is a versatile framework that we love, so we built our mini-KVM based on it. For the **Windows version**, check out our early demo video [here](https://openterface.com/basic-testing/). You can see from the demo that it works great with low latency and a stable connection! You can find and download the early beta app from the github repo there.
+QT is a versatile framework that we love, so we built our mini-KVM based on it. For the **Windows version**, check out our early demo video [here](/basic-testing/). You can see from the demo that it works great with low latency and a stable connection! You can find and download the early beta app from the github repo there.
 
 ![openterface-win-app-demo-1](https://www.crowdsupply.com/img/fff1/6900b965-207d-4d91-8816-9ab73489fff1/openterface-win-app-demo-1_jpg_gallery-lg.jpg)
   
@@ -97,7 +97,7 @@ We’re also exploring compatibility with Apple’s mobile systems, like iPadOS.
 
 We will start releasing the hardware details incrementally over the next two to three weeks. Additionally, to maintain a high standard of open source, we plan to adhere to the Open Source Hardware Association (**OSHWA**) certification requirements.
 
-In the meantime, you can learn more about our hardware here: [datasheet](https://docs.google.com/document/d/1UPw5RwGTp0AjKL3wOvQZUS1hp3IPMxkCujtqy5haeP0/edit?usp=sharing) and [How It Works](https://openterface.com/how-it-works/) for now. This page explains our USB-HDMI capture integration, featuring the **CH9329** chip for keyboard and mouse control. Technical enthusiasts may find the details on this chip particularly interesting. Additionally, our mini-KVM utilises the **CH340** chip, supporting two built-in USB hubs for both the host and target sides. Our mini-KVM is comparable to many video capture cards currently on the market.
+In the meantime, you can learn more about our hardware here: [datasheet](https://docs.google.com/document/d/1UPw5RwGTp0AjKL3wOvQZUS1hp3IPMxkCujtqy5haeP0/edit?usp=sharing) and [How It Works](/how-it-works/) for now. This page explains our USB-HDMI capture integration, featuring the **CH9329** chip for keyboard and mouse control. Technical enthusiasts may find the details on this chip particularly interesting. Additionally, our mini-KVM utilises the **CH340** chip, supporting two built-in USB hubs for both the host and target sides. Our mini-KVM is comparable to many video capture cards currently on the market.
 
 #### Please hang tight!
 
@@ -122,7 +122,7 @@ Finally, we totally understand if you’re still unsure. That’s OK! If your wo
 
 ### What’s Next?
 
-Stay tuned for next week’s update, where we’ll dive into more details about our host application functions, its roadmap, production progress, real use cases shared by our beta team, and more! In the meantime, check out our website [Openterface](https://openterface.com/) and [FAQs](https://openterface.com/faq/), consider [backing us on Crowd Supply](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm), and help spread the word!
+Stay tuned for next week’s update, where we’ll dive into more details about our host application functions, its roadmap, production progress, real use cases shared by our beta team, and more! In the meantime, check out our website [Openterface](/) and [FAQs](/faq/), consider [backing us on Crowd Supply](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm), and help spread the word!
 
 Thank you for reading and being part of this journey with us! Peace!
 

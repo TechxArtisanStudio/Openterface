@@ -16,7 +16,7 @@ This product converts VGA video and integrates audio into HDMI, enabling easy co
 - **Power Supply**: Powered via USB
 
 ### Use Case
-For a detailed use case of this cable, please visit [Streamlined Server Management](https://openterface.com/use-cases/#streamlined-server-management).
+For a detailed use case of this cable, please visit [Streamlined Server Management](/use-cases/#streamlined-server-management).
 
 ### Demo Video
 Watch the demo video by Tech influencer **Cameron Gray** on how to use this cable with the Mini-KVM: [This USB KVM Console is Awesome!](https://youtu.be/xAEQpWyfY-c?si=auB5NtqHVw2C7iIK&t=1693)

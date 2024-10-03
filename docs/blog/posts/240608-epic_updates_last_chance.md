@@ -42,7 +42,7 @@ We've got some fantastic news for you – our mini-KVM now supports macOS, Windo
 
 ### Other Apps
 
-  - As mentioned in our [previous update](https://openterface.com/blog/from-development-to-your-hands--behind-the-scenes-/#openterface_android-and-openterface_webextension), we've completed proofs of concept for Android and WebExtension. While they're lower priorities, they're definitely in the pipeline. We're also exploring ChromeOS support and the possibility of getting the mini-KVM working on iPads with M series chips. Join the discussion in our community if you have any insights!
+  - As mentioned in our [previous update](/blog/from-development-to-your-hands--behind-the-scenes-/#openterface_android-and-openterface_webextension), we've completed proofs of concept for Android and WebExtension. While they're lower priorities, they're definitely in the pipeline. We're also exploring ChromeOS support and the possibility of getting the mini-KVM working on iPads with M series chips. Join the discussion in our community if you have any insights!
 
 ## Hardware Open Source NOW!
 
@@ -62,14 +62,14 @@ Whether you're a seasoned pro or just starting out, we want your feedback and wi
 
 ![type-c-cable-v2-plugged-old-mac](https://www.crowdsupply.com/img/9871/2f6f967e-b9ea-4b48-b5dd-da135fb29871/type-c-cable-v2-plugged-old-mac_jpg_md-xl.jpg)
 
-Remember our [stylish orange Type-C cable](https://openterface.com/blog/from-development-to-your-hands--behind-the-scenes-/#upgrading-toolkit-accessories) with the lovely silicone feel? We've received the first samples, and they look amazing! These cables support **240W fast charging** (Voltage DC50V, Current 5A, Power 240W) and work perfectly with our mini-KVMs. Big thanks to our manufacturer and our backers for making this happen!
+Remember our [stylish orange Type-C cable](/blog/from-development-to-your-hands--behind-the-scenes-/#upgrading-toolkit-accessories) with the lovely silicone feel? We've received the first samples, and they look amazing! These cables support **240W fast charging** (Voltage DC50V, Current 5A, Power 240W) and work perfectly with our mini-KVMs. Big thanks to our manufacturer and our backers for making this happen!
 
 ![type-c-cable-v2-open-2](https://www.crowdsupply.com/img/71b2/b37b66e3-7f2e-4c5e-bb45-8944ee2971b2/type-c-cable-v2-open-2_jpg_gallery-lg.jpg)
 
 
 ### Upgraded Toolkit Bag
 
-With the new handy attached adapter for our 1.5m Type-C cable and [1m long VGA-to-HDMI cable update](https://openterface.com/blog/-upgrade-on-vga-to-hdmi-cable-as-a-free-bonus-/), we believe it is necessary to increase the size of our toolkit bag to 16 cm L x 10 cm W x 3.8 cm H, providing a bit more space!
+With the new handy attached adapter for our 1.5m Type-C cable and [1m long VGA-to-HDMI cable update](/blog/-upgrade-on-vga-to-hdmi-cable-as-a-free-bonus-/), we believe it is necessary to increase the size of our toolkit bag to 16 cm L x 10 cm W x 3.8 cm H, providing a bit more space!
 
 ![beta-round2-toolkit](https://www.crowdsupply.com/img/0f20/4aed395b-dbef-4670-b340-403ee8e30f20/beta-round2-toolkit_jpg_md-xl.jpg)
 
@@ -87,7 +87,7 @@ This is the last week of our campaign. Back us now to get the Openterface Mini-K
 
 ## Addressing Concerns
 
-We understand [scepticism](https://openterface.com/blog/from-development-to-your-hands--behind-the-scenes-/#addressing-concerns) due to scam crowdfunding projects. Here's why you can trust us:
+We understand [scepticism](/blog/from-development-to-your-hands--behind-the-scenes-/#addressing-concerns) due to scam crowdfunding projects. Here's why you can trust us:
 
 **Trust Crowd Supply:** Since 2012, Crowd Supply has been a leading platform for electronic products, [protecting your rights as a backer](https://www.crowdsupply.com/guide/backer-protection), closely overseeing our development, and providing us with professional advice to ensure that what we craft is just right for you.
 
@@ -99,7 +99,7 @@ If you're still unsure, that's OK! We believe our Openterface Mini-KVM will win 
 
 ### More to Come
 
-We're always cooking something exciting, so please hang tight! If you have any questions, hang out with us in our [community](https://openterface.com/community/) or drop us an email: info@techxartisan.com. Stay tuned and thank you for your support! 😄
+We're always cooking something exciting, so please hang tight! If you have any questions, hang out with us in our [community](/community/) or drop us an email: info@techxartisan.com. Stay tuned and thank you for your support! 😄
 
 Cheers,
 
