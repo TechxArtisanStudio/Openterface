@@ -28,7 +28,6 @@ Let's delve into the most frequent questions about the Openterface Mini-KVM.
 ##### Software  
 
 - [Where can I download the host applications?](#where-can-i-download-the-host-applications)
-- [When will the host app for Android be available?](#when-will-the-host-app-for-android-be-available)
 - [Is there a host app supporting ChromeOS?](#is-there-a-host-app-supporting-chromeos)
 - [Is there a host app supporting Apple's mobile devices?](#is-there-a-host-app-supporting-apples-mobile-devices)
 - [What if F11 doesn't work on MacOS applications?](#what-if-f11-doesnt-work-on-macos-applications)
@@ -102,7 +101,7 @@ Openterface Mini-KVM is the perfect companion for a wide range of users and scen
 Please also check out this page: [Use Cases](https://openterface.com/use-cases/)
 
 #### What host computers are compatible with the Openterface Mini-KVM?
-To use this mini-KVM, the host computer must install one of these [host applications](https://openterface.com/quick-start/#install-host-application) to support MacOS, Windows and Linux. A web-based extension and Android apps are currently under development.
+To use this mini-KVM, the host computer must install one of these [host applications](https://openterface.com/quick-start/#install-host-application) to support MacOS, Windows, Linux and Android.
 
 #### What target devices are compatible with the Openterface Mini-KVM?
 No pre-installation or configuration is required on the target device. As long as the target device supports UI operations with video output (e.g., HDMI, VGA) and has a USB port to receive emulated keyboard and mouse control (HID) signals, it can be used. Thus, supported target device platforms include Windows, MacOS, Linux, Android, and iOS.
@@ -118,9 +117,6 @@ Visit our [Install Host Application page](https://openterface.com/quick-start/#i
 
 ??? warning "Privacy & Security: Be cautious when using third-party host app"
     As our project is open source, you may find alternative versions of host applications compatible with our Mini-KVM developed by others. While these can offer additional features, please ensure you review their security and privacy practices. **The Openterface Team cannot guarantee or be responsible for the safety of third-party applications**.
-
-#### When will the host app for Android be available?
-We are currently developing the host app for Android, but it is a lower priority compared to versions for mainstream operating systems like macOS, Windows, and Linux. We appreciate your patience and encourage you to stay tuned for updates. If you are interested in assisting with development, feel free to join our community or contact us via email!
 
 #### Is there a host app supporting ChromeOS?
 Yes, but it is currently under development. We are planning to create a web extension designed to support both Chrome and Firefox browsers. Although its development priority is slightly lower than that for mainstream operating systems such as macOS, Windows, and Linux, we are actively working on it. Please bear with us and stay tuned for updates! If you're keen to help out with our development, come hang out with us in the community or shoot us an email!
@@ -174,7 +170,7 @@ Yes! The Openterface Mini-KVM is fully open-sourced in both [hardware](/how-it-w
 #### Can I access a device's BIOS settings?
 Yes, the direct connection of the Openterface Mini-KVM enables access to low-level BIOS or firmware settings.
 
-This feature stands in contrast to software-based KVM solutions or remote control applications like TeamViewer and Zoom, which are typically not capable of BIOS-level interactions.
+This feature stands in contrast to software-based KVM solutions or remote control applications like TeamViewer and VNC, which are typically not capable of BIOS-level interactions.
 
 #### Why doesn't the keyboard control work at the BIOS level for some older target computers?
 It seems that some old computers' BIOS can't recognize our device's USB hub, which can cause issues with our emulated keyboard and mouse not working properly at the BIOS level. We're keeping an eye on this problem.
