@@ -102,12 +102,6 @@ extra:
     - name: English
       link: /
       lang: en
-    # - name: 中文简体
-    #   link: https://zh.openterface.com/
-    #   lang: zh
-    # - name: 中文繁體
-    #   link: https://tw.openterface.com/
-    #   lang: zh-Hant
     - name: 日本語
       link: https://jp.openterface.com/
       lang: ja
@@ -126,9 +120,15 @@ extra:
     - name: Español
       link: https://es.openterface.com/
       lang: es
+    # - name: 简体中文
+    #   link: https://cn.openterface.com/
+    #   lang: zh
     # - name: Português
     #   link: https://pt.openterface.com/
     #   lang: pt
+    # - name: Română
+    #   link: https://ro.openterface.com/
+    #   lang: ro
     # - name: Svenska
     #   link: https://sv.openterface.com/
     #   lang: sv
@@ -138,6 +138,7 @@ extra:
     # - name: Nederlands
     #   link: https://nl.openterface.com/
     #   lang: nl
+
 
   consent:
     title: Cookie Consent
