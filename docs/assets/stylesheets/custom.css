@@ -1024,16 +1024,16 @@
     left: 100%; /* Start from the right edge */
     white-space: nowrap;
     font-size: 1.2rem;
-    animation: scroll-text-bubble 60s linear infinite;
+    animation: scroll-text-bubble 45s linear infinite;
     box-sizing: content-box;
     color: rgb(60, 60, 60); /* Change font color to dark green */
 }
 
 @keyframes scroll-text-bubble {
     0% {
-        transform: translateX(0);
+        transform: translateX(-26.6%);
     }
     100% {
-        transform: translateX(-200%); /* Move across the entire width */
+        transform: translateX(-70%); /* Move across the entire width of the duplicated content */
     }
 }
