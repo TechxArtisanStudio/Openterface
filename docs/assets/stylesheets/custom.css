@@ -1001,3 +1001,38 @@
         transform: translateX(-100%);
     }
 }
+
+#mc_embed_signup_scroll .scrolling-text {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 1rem;
+    animation: scroll-text 30s linear infinite;
+    padding-left: 100%;
+    box-sizing: content-box;
+    margin-bottom: 1rem; /* Add some space below the scrolling text */
+}
+
+#mc_embed_signup_scroll .dialogue-bubble {
+    position: relative; /* Ensure positioning context for children */
+    overflow: hidden; /* Hide overflow to keep text within bounds */
+    padding-bottom: 2rem; /* Add padding to accommodate scrolling text */
+}
+
+#mc_embed_signup_scroll .scrolling-text {
+    position: absolute; /* Position absolutely within the bubble */
+    bottom: -1rem; /* Move it further down */
+    left: 100%; /* Start from the right edge */
+    white-space: nowrap;
+    font-size: 1.5rem;
+    animation: scroll-text-bubble 60s linear infinite; /* Slowed down to 60s */
+    box-sizing: content-box;
+}
+
+@keyframes scroll-text-bubble {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-200%); /* Move across the entire width */
+    }
+}
