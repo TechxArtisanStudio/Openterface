@@ -953,3 +953,51 @@
     font-size: 0.8rem;
     padding-bottom: 0.3rem;
 }
+
+.scrolling-text-section {
+    background: var(--md-primary-fg-color);
+    padding: var(--shared-padding);
+    text-align: center;
+}
+
+.scrolling-text-bubble {
+    display: inline-block;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1.5rem 1.5rem; /* Increased vertical padding */
+    position: relative;
+    margin: 1rem auto;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25);
+    border: 1px solid #e7e7e7;
+    overflow: hidden;
+    width: 80%;
+    max-width: 600px;
+}
+
+.scrolling-text {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 1.5rem;
+    animation: scroll-text 30s linear infinite; /* Slowed down to 30s */
+    padding-left: 100%; /* Start the text off-screen */
+    box-sizing: content-box; /* Ensure padding doesn't affect the width */
+}
+
+.scrolling-text a {
+    color: inherit;
+    text-decoration: none;
+    margin: 0 1rem; /* Add some spacing between links */
+}
+
+.scrolling-text a:hover {
+    text-decoration: underline;
+}
+
+@keyframes scroll-text {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
