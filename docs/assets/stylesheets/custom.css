@@ -1020,12 +1020,13 @@
 
 #mc_embed_signup_scroll .scrolling-text {
     position: absolute; /* Position absolutely within the bubble */
-    bottom: -1rem; /* Move it further down */
+    bottom: -0.8rem; /* Move it further down */
     left: 100%; /* Start from the right edge */
     white-space: nowrap;
-    font-size: 1.5rem;
-    animation: scroll-text-bubble 60s linear infinite; /* Slowed down to 60s */
+    font-size: 1.2rem;
+    animation: scroll-text-bubble 60s linear infinite;
     box-sizing: content-box;
+    color: rgb(60, 60, 60); /* Change font color to dark green */
 }
 
 @keyframes scroll-text-bubble {
