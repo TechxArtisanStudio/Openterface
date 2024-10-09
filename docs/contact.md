@@ -23,7 +23,7 @@ Stay updated and engaged with us through our social media channels:
 - :fontawesome-brands-x-twitter: [Follow us on Twitter](https://twitter.com/TechxArtisan)
 - :fontawesome-brands-facebook-f: [Like us on Facebook](https://www.facebook.com/TechxArtisan)
 - :fontawesome-brands-discord: [Join our Discord community](/discord)
-- :fontawesome-brands-youtube: [Subscribe to our YouTube channel](https://youtube.com/@TechxArtisan)
+- :fontawesome-brands-youtube: [Subscribe to our YouTube channel](https://www.youtube.com/@TechxArtisanStudio)
 - :fontawesome-brands-linkedin-in: [Follow us on LinkedIn](https://www.linkedin.com/company/techxartisan/)
 
 ## Visit Our Studio Website
