@@ -40,5 +40,5 @@ The domain Openterface.com is registered under Billio Tech, affirming our owners
 ## About Our Company
 
 - **Company Name:** Guangzhou Billio Technology Co., Ltd.
-- **Address:** Room 11, No. 1, Longjing North Street, Haizhu District, Guangzhou City, Guangdong Province, 510320 China
+- **Address:** Rm 11, No. 1, Longjing N. St., Haizhu District, Guangzhou City, Guangdong, 510320 China
 - **Contact Information:** [info@techxartisan.com](mailto:info@techxartisan.com)
