@@ -25,6 +25,7 @@ Attention all tinkerers, makers, and dreamers! We're thrilled to present the USB
 **Categories:** Prizes for top performers include awards for both technical skill and creativityso everyone has a shot!
 
 **Awesome Prizes:**
+
 - A limited-edition Openterface Mini-KVM with a transparent and silver case.
 - The futuristic Pi-Cast KVM by HackerGadgets.
 - The retro-inspired GameShell by Clockwork.
