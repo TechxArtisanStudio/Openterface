@@ -101,7 +101,7 @@ extra:
   
   alternate:
     - name: English
-      link: /
+      link: https://openterface.com/
       lang: en
     - name: 简中文
       link: https://cn.openterface.com/
