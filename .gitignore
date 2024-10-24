@@ -3,3 +3,4 @@ Pipfile
 Pipfile.lock
 site
 .vscode/settings.json
+.ipynb_checkpoints
