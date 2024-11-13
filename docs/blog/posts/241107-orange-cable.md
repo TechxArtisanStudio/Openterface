@@ -82,6 +82,15 @@ Now that shipping is underway, our focus will shift back to refining our host ap
 
 ![App stores](pic/241107-4.png)
 
+## What’s Next: Join Our USB DIY Contest
+
+Why not join our **USB KVM DIY Challenge 2024** once you’ve got your Openterface Mini-KVM in hand? It’s a great opportunity to contribute to our open-source development and even win a prize——including two special editions Openterface Mini-KVM and more! For more details, check out [the Crowd Supply's contest page](https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024).
+
+![alt text](pic/usb-kvm-diy-2024-logo.svg)
+![alt text](pic/openterface-241017-03_jpg_md-xl.jpg)
+
+## Wrapping It Up
+
 Thank you for being an integral part of our journey. Your support and feedback keep us moving forward. If you have any questions or ideas, we’d love to hear from you! Join the conversation in our community on [Reddit](https://openterface.com/reddit) and [Discord](https://openterface.com/discord).
 
 With gratitude,  
