@@ -74,7 +74,7 @@ Take a look and let us know what you think:
 
 ## Support Our Development
 
-If you’d like to support our open-source development further, may also check out our [TechxArtisan Shop](shop.techxartisan.com). You can purchase cables, T-shirts, and hoodies—all while helping us financially continue to innovate. Every purchase counts and supports the open-source community spirit.
+If you’d like to support our open-source development further, may also check out our [TechxArtisan Shop](https://shop.techxartisan.com/). You can purchase cables, T-shirts, and hoodies—all while helping us financially continue to innovate. Every purchase counts and supports the open-source community spirit.
 
 ## What’s Next: Host App Updates
 
