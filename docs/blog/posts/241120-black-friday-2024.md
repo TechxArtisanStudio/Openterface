@@ -46,9 +46,11 @@ To sweeten the deal, we’re offering a <span class="heartbeat-label">🔥 SPECI
 
 Have a browse through our store here: **[https://shop.techxartisan.com](https://shop.techxartisan.com)**. Check out our new apparel and snag a piece at half price—don’t miss this limited-time offer!
 
+### Openterface Merch
 ![openterface merch](pic/241120-txa-shop-op-merch.jpg)
 
-![openterfaceaccessories](pic/241120-txa-shop-op-accessories.jpg)
+### Openterface Accessories
+![openterface accessories](pic/241120-txa-shop-op-accessories.jpg)
 
 Thank you for being with us through this adventure. Your support means the world to us, and we’re grateful for every conversation, every idea, and every interaction we’ve had.
 
