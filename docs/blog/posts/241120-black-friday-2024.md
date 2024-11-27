@@ -17,13 +17,13 @@ categories:
     font-weight: bold;
     padding: 5px 15px;
     border-radius: 25px;
-    animation: heartbeat 1.5s infinite;
+    animation: heartbeat 1.6s infinite;
     text-align: center;
   }
 
   @keyframes heartbeat {
     0% { transform: scale(1); }
-    30% { transform: scale(1.05); }
+    30% { transform: scale(1.01); }
     60% { transform: scale(1); }
   }
 </style>
@@ -42,7 +42,7 @@ And if you’re wondering how these look in real life, check out how our team’
 
 And for this dull winter, why not give our vibrant orange data cable a chance? It’s a perfect way to brighten your workspace while ensuring fast and reliable data transfer.
 
-To sweeten the deal, we’re offering a <span class="heartbeat-label">🔥 SPECIAL 50% DISCOUNT 🔥</span> on all items for the next five days for this **2024 Black Friday**, starting from the moment you see this message until December 1st. It’s our way of saying thanks for being part of our journey.
+To sweeten the deal, we’re offering a <a href="https://shop.techxartisan.com" style="text-decoration: none;"><span class="heartbeat-label">🔥 SPECIAL 50% DISCOUNT 🔥</span></a> on all items for the next five days for this **2024 Black Friday**, starting from the moment you see this message until December 1st. It’s our way of saying thanks for being part of our journey.
 
 Have a browse through our store here: **[https://shop.techxartisan.com](https://shop.techxartisan.com)**. Check out our new apparel and snag a piece at half price—don’t miss this limited-time offer!
 
