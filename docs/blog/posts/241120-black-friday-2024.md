@@ -23,7 +23,7 @@ categories:
 
   @keyframes heartbeat {
     0% { transform: scale(1); }
-    30% { transform: scale(1.2); }
+    30% { transform: scale(1.05); }
     60% { transform: scale(1); }
   }
 </style>
