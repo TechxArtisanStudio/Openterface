@@ -6,6 +6,8 @@ categories:
   - Updates
 ---
 
+# 50% OFF on ALL Merchandise – Only This Black Friday! Show Your Support for Open Source!
+
 <style>
   .heartbeat-label {
     display: inline-block;
@@ -25,8 +27,6 @@ categories:
     60% { transform: scale(1); }
   }
 </style>
-
-# 50% OFF on ALL Merchandise – Only This Black Friday! Show Your Support for Open Source!
 
 ![banner](pic/241120-Black-Firday-poster-50.jpg)
 
