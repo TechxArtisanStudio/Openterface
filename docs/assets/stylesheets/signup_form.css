@@ -1,0 +1,153 @@
+/* Signup Form Styles */
+.signup-form-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 1rem auto;
+}
+
+#google_form_signup {
+    background: transparent;
+    border-radius: 4px;
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#google_form_signup h2 {
+    color: var(--md-footer-fg-color);
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+#google_form_signup .gf-field-group {
+    margin-bottom: 0.5rem;
+}
+
+#google_form_signup input[type="text"],
+#google_form_signup input[type="email"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--md-footer-fg-color);
+}
+
+#google_form_signup input[type="text"]::placeholder,
+#google_form_signup input[type="email"]::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#google_form_signup .button {
+    background-color: var(--md-accent-fg-color);
+    color: var(--md-accent-bg-color);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: 100%;
+}
+
+#google_form_signup .button:hover {
+    background-color: #FAA22B;
+    color: var(--md-accent-bg-color);
+}
+
+#google_form_signup .footnote {
+    text-align: center;
+    font-size: 0.6rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 76.1875em) {
+    .signup-form-container {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 60em) {
+    #google_form_signup h2 {
+        font-size: 1rem;
+    }
+}
+
+
+/* Footer flex container */
+.footer-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer-flex-item {
+    flex: 1 1 auto;
+}
+
+/* Default order for larger screens */
+.signup-form-container {
+    order: 2;
+    max-width: 400px;
+}
+
+.footer-copyright {
+    order: 1;
+}
+
+.footer-social {
+    order: 3;
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 76.25em) {
+    .footer-flex-container {
+        flex-wrap: nowrap;
+    }
+
+    .signup-form-container {
+        flex: 0 1 auto;
+        margin: 0 1rem;
+    }
+
+    .footer-copyright {
+        text-align: left;
+    }
+
+    .footer-social {
+        text-align: right;
+    }
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 76.1875em) {
+    .footer-flex-container {
+        flex-direction: column;
+    }
+
+    .signup-form-container {
+        order: 1;
+        max-width: 100%;
+    }
+
+    .footer-copyright {
+        order: 2;
+        text-align: center;
+    }
+
+    .footer-social {
+        order: 3;
+    }
+
+    /* Center align the content inside the copyright container */
+    .footer-copyright .md-copyright {
+        text-align: center;
+    }
+
+    .footer-copyright .md-copyright__highlight {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+}

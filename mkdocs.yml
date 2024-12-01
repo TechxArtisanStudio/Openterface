@@ -20,6 +20,7 @@ copyright: >-
 
 extra_css:
   - assets/stylesheets/extra.css
+  - assets/stylesheets/signup_form.css
 
 extra_javascript:
   - assets/javascripts/extra.js
