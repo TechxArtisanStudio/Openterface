@@ -21,20 +21,7 @@ For a detailed use case of this cable, please visit [Streamlined Server Manageme
 ### Demo Video
 Watch the demo video by Tech influencer **Cameron Gray** on how to use this cable with the Mini-KVM: [This USB KVM Console is Awesome!](https://youtu.be/xAEQpWyfY-c?si=auB5NtqHVw2C7iIK&t=1693)
 
-<button class="md-button" onclick="window.location.href='https://www.crowdsupply.com/techxartisan/openterface-mini-kvm#products'">Place Order</button>
-
----
-
-## Type-C to USB-A Cable with Adapter
-
-![C2A-30-Cable](images/product/part/OP-04-CABLE30-C2A.jpg){:style="height:360px"}
-
-This versatile Type-C Male to USB-A Male cable, paired with a USB-A Female to USB-C Male adapter, offers flexible connectivity to target devices. It allows for data transfer and transmission of keyboard and mouse control signals, regardless of whether the target device uses a USB-A or Type-C port.
-
-- **Length**: 0.3m
-- **Colour**: Black
-- **Adapter**: USB-A Female to USB-C Male
-- **Use**: Facilitates easy control and data transfer to the target device.
+<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/vga-to-hdmi-converter-cable'"> Place Order <img src="/images/trademark/txa.svg" alt="" style="vertical-align: middle; height: 20px;"></button>
 
 ---
 
@@ -49,6 +36,23 @@ This stylish and soft-feel Type-C Male-to-Male cable in vibrant orange is design
 - **Adapter**: USB-C Female to USB-A Male
 - **Use**: For high-speed data transfer between the host computer and the Mini-KVM, and for fast charging mobile phones or laptops.
 
+<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/type-c-cable-with-usb-a-adapter-1-5m-4-11ft-240w-fast-charging-data-transfer-usb2-0'"> Place Order <img src="/images/trademark/txa.svg" alt="" style="vertical-align: middle; height: 20px;"></button>
+
+---
+
+## Type-C to USB-A Cable with Adapter
+
+![C2A-30-Cable](images/product/part/OP-04-CABLE30-C2A.jpg){:style="height:360px"}
+
+This versatile Type-C Male to USB-A Male cable, paired with a USB-A Female to USB-C Male adapter, offers flexible connectivity to target devices. It allows for data transfer and transmission of keyboard and mouse control signals, regardless of whether the target device uses a USB-A or Type-C port.
+
+- **Length**: 0.3m
+- **Colour**: Black
+- **Adapter**: USB-A Female to USB-C Male
+- **Use**: Facilitates easy control and data transfer to the target device.
+
+<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/type-c-to-usb-a-cable-with-adapter'"> Place Order <img src="/images/trademark/txa.svg" alt="" style="vertical-align: middle; height: 20px;"></button>
+
 ---
 
 ## HDMI Male-to-Male Cable
@@ -61,6 +65,8 @@ This compact HDMI cable is perfect for connecting your target device to capture 
 - **Colour**: Black
 - **Use**: Ideal for high-definition video transmission from the target device to the Mini-KVM.
 
+<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/hdmi-male-to-male-cable'"> Place Order <img src="/images/trademark/txa.svg" alt="" style="vertical-align: middle; height: 20px;"></button>
+
 ---
 
 ## Openterface Toolkit Bag
@@ -72,6 +78,8 @@ Keep your Openterface Mini-KVM and its accessories organised and portable with t
 - **Dimensions**: 180 x 115 x 50mm
 - **Colour**: Black with orange zipper
 - **Use**: Ideal for storing and organising your Mini-KVM and its cables.
+
+<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/openterface-toolkit-bag'"> Place Order <img src="/images/trademark/txa.svg" alt="" style="vertical-align: middle; height: 20px;"></button>
 
 ---
 
