@@ -353,8 +353,7 @@
 }
 
 .twitter-feed-section {
-    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 1'><path d='M0,0 H1123' style='stroke: hsla(0, 0%, 100%, 1); stroke-width: 1'/></svg>") no-repeat bottom, 
-    linear-gradient(to top, var(--md-primary-fg-color) 30%, #ffffff 100%, var(--md-default-bg-color) 100%);
+    background: var(--md-primary-fg-color);
     padding: var(--shared-padding);
     text-align: center;
     overflow-x: hidden;
