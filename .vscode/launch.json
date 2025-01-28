@@ -4,6 +4,13 @@
     "python.terminal.activateEnvironment": true,
     "configurations": [
         {
+            "name": "Run Local",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/run_local.py",
+            "console": "integratedTerminal"
+        },
+        {
             "name": "Serve Local",
             "type": "debugpy",
             "request": "launch",
@@ -11,12 +18,5 @@
             "console": "integratedTerminal",
             "justMyCode": true
         },
-        {
-            "name": "Run Local",
-            "type": "debugpy",
-            "request": "launch",
-            "program": "${workspaceFolder}/run_local.py",
-            "console": "integratedTerminal"
-        }
     ]
 }
