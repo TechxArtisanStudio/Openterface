@@ -5,3 +5,4 @@ site
 .vscode/settings.json
 .ipynb_checkpoints
 mkdocs_env/
+venv
