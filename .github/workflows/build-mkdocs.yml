@@ -28,4 +28,13 @@ jobs:
       # install additional dependencies here
       - name: Install additional dependencies
         run: pip install -r requirements.txt
+      - name: Get latest QT release version
+        id: get_version
+        run: |
+          echo "QT_VERSION=$(curl -sL https://api.github.com/repos/TechxArtisanStudio/Openterface_QT/releases/latest | grep '"tag_name":'| sed -E 's/.*"([^"]+)".*/\1/')" >> $GITHUB_ENV
+          echo "ANDROID_VERSION=$(curl -sL https://api.github.com/repos/TechxArtisanStudio/Openterface_Android/releases/latest | grep '"tag_name":'| sed -E 's/.*"([^"]+)".*/\1/')" >> $GITHUB_ENV
+      - name: Update mkdocs config
+        run: |
+          sed -i "/^extra:/a\  qt_version: ${{ env.QT_VERSION }}" mkdocs.yml
+          sed -i "/^extra:/a\  android_version: ${{ env.ANDROID_VERSION }}" mkdocs.yml
       - run: mkdocs gh-deploy --force
