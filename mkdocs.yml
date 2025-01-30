@@ -184,6 +184,7 @@ markdown_extensions:
 plugins:
   - glightbox
   - search
+  - markdownextradata
   - redirects:
       redirect_maps:
         'basic-testing.md': 'basic.md'
