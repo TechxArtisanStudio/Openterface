@@ -32,7 +32,8 @@ Additionally, we recently shipped another batch of Openterface Mini-KVM units, a
 
 The buzz on our Reddit, Discord, and GitHub has been awesome! Your feedback, questions, and issue reports have been rolling in—and we’re so grateful for it.
 
-Here’s what our dev team is focused on right now:  
+Here’s what our dev team is focused on right now:
+
 - **Fixing Bugs:** Squashing those pesky issues you’ve reported.  
 - **Supporting You:** Updating our docs and FAQs to make your experience smoother.  
 
@@ -41,12 +42,14 @@ We’re reviewing every issue, holding regular check-ins, and squashing bugs one
 Got a bug to report or found a cool way to use your Mini-KVM to save the day? We’d **love** to hear about it! Whether it’s a creative setup, a must-have feature idea, or just pure excitement—we’re all ears.  
 
 To help our dev team track bugs systematically (and keep their sanity intact), we **strongly recommend** reporting them on our GitHub repos first:
+
 - [Openterface QT](https://github.com/TechxArtisanStudio/Openterface_QT) for Windows & Linux
 - [Openterface MacOS](https://github.com/TechxArtisanStudio/Openterface_MacOS)
 - [Openterface Android](https://github.com/TechxArtisanStudio/Openterface_Android)
 - [Openterface Mini-KVM Hardware](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware)
 
-Prefer real-time discussions with the dev team and fellow Openterface fans? Join our awesome community:  
+Prefer real-time discussions with the dev team and fellow Openterface fans? Join our awesome community:
+
 - **Reddit:** [r/Openterface_miniKVM](https://openterface.com/reddit)  
 - **Discord:** [Openterface](https://openterface.com/discord)  
 
