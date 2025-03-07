@@ -1,19 +1,22 @@
-# Contact Us
+# **Contact Us**  
 
-We're delighted you're interested in reaching out to us. Whether you have questions, feedback, or just want to say hello, here are several ways to connect with us:
+![Openterface Logo](images/openterface.png)  
 
-## Official Contact Emails
+**Created with passion by**  
 
-To ensure you're communicating with us securely and directly, please note our official contact email addresses. For any enquiries, support, or feedback, feel free to reach out to us at:
+[![TechxArtisan Logo](https://techxartisan.com/images/techxartisan-company-black.png)](https://techxartisan.com)  
 
-- **Primary Contact Email:** [info@techxartisan.com](mailto:info@techxartisan.com)
+We're delighted that you're interested in reaching out! Whether you have questions, feedback, or just want to say hello, here are several ways to connect with us:  
 
-Additionally, any email address ending with the following domains is recognized as an official communication channel for our members and customers:
+## **📧 Contact Openterface Support**  
+✉️ **Email:** [support@openterface.com](mailto:support@openterface.com)  
 
-- **TechxArtisan Domain:** *@techxartisan.com
-- **Openterface Domain:** *@openterface.com
+📂 **Report Issues on GitHub:**  
+- [Openterface for MacOS](https://github.com/TechxArtisanStudio/Openterface_MacOS/issues)  
+- [Openterface QT](https://github.com/TechxArtisanStudio/Openterface_QT/issues)  
+- [Openterface for Android](https://github.com/TechxArtisanStudio/Openterface_Android/issues)  
 
-Emails from these addresses are from our team, dedicated to providing you with the support and information you need.
+💬 **Join Our Community:** [Openterface Discord](https://openterface.com/discord) & [Reddit](https://openterface.com/reddit)
 
 ## Follow Us on Social Media
 
@@ -25,20 +28,8 @@ Stay updated and engaged with us through our social media channels:
 - :fontawesome-brands-youtube: [@TechxArtisanStudio](https://www.youtube.com/@TechxArtisanStudio)
 - :fontawesome-brands-linkedin-in: [company/techxartisan/](https://www.linkedin.com/company/techxartisan/)
 
-## Visit Our Studio Website
-
-For more information about us, our work and products, please visit our website:
-
-- :fontawesome-solid-globe: [TechxArtisan Official Website](https://techxartisan.com/en/)
-
-## Trademark and Domain Ownership
-
-Openterface and TechxArtisan are trademarks of **Guangzhou Billio Technology Co., Ltd.** (Billio Tech), which serves as our official commercial entity. Billio Tech holds the final interpretative rights for both Openterface and TechxArtisan. 
-
-The domain Openterface.com is registered under Billio Tech, affirming our ownership and management of all associated official communications and operations.
-
 ## About Our Company
 
-- **Company Name:** Guangzhou Billio Technology Co., Ltd.
-- **Address:** Rm 11, No. 1, Longjing N. St., Haizhu District, Guangzhou City, Guangdong, 510320 China
+- **Company Name:** TechxArtisan Limited
+- **Address:** Unit 04-05, 16/F, Broadway Building, 54-62 Lockhart Road, Wanchai, Hong Kong SAR, China
 - **Contact Information:** [info@techxartisan.com](mailto:info@techxartisan.com)
