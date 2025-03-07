@@ -13,12 +13,14 @@ We're delighted that you're interested in reaching out! Whether you have questio
 ## 📧 Contact Openterface Support  
 ✉️ **Email:** [support@openterface.com](mailto:support@openterface.com)  
 
-📂 **Report Issues on GitHub:**  
+📂 **Report Issues on GitHub:**
+
 - [Openterface for MacOS](https://github.com/TechxArtisanStudio/Openterface_MacOS/issues)  
 - [Openterface QT](https://github.com/TechxArtisanStudio/Openterface_QT/issues)  
 - [Openterface for Android](https://github.com/TechxArtisanStudio/Openterface_Android/issues)  
 
-💬 **Join Our Community:**  
+💬 **Join Our Community:**
+
 - :fontawesome-brands-discord: [Openterface Discord](https://openterface.com/discord)  
 - :fontawesome-brands-reddit-alien: [Openterface Reddit](https://openterface.com/reddit)  
 
