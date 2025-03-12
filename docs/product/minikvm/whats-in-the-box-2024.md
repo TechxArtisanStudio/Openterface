@@ -4,14 +4,14 @@ Explore our two purchase options designed to meet your needs, whether you're loo
 
 ## Package 1: Basic Pack
 
-![basic-pack](images/product/basic-with-maunal.jpg){:style="width:680px"}
+![basic-pack](/images/product/basic-with-maunal.jpg){:style="width:680px"}
 
 1. Core Product: Openterface Mini-KVM
 2. Quick Start Guide
 
 ## Package 2: Toolkit Pack
 
-![toolkit-open](images/product/toolkit-open.jpg){:style="width:680px"}
+![toolkit-open](/images/product/toolkit-open-2024.jpg){:style="width:680px"}
 
 1. Core Product: Openterface Mini-KVM
 2. Quick Start Guide
@@ -21,4 +21,4 @@ Explore our two purchase options designed to meet your needs, whether you're loo
 6. Type-C Male to USB-A Male Cable (0.3m) with USB-A Female to USB-C Male Adapter
 7. Type-C Male-to-Male Cable (1.5m) with USB-C Female to USB-A Male Adapte
 
-![toolkit-parts-layout-2-numbers](images/product/toolkit-parts-layout-2-numbers.jpg){:style="width:680px"}
+![toolkit-parts-layout-2-numbers](/images/product/toolkit-parts-layout-2-numbers.jpg){:style="width:680px"}

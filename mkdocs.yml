@@ -36,11 +36,15 @@ theme:
   logo: assets/app-logo.png
   favicon: images/favicon.png
   features:
+   - navigation.instant
+   - navigation.instant.progress
    - navigation.tabs
-   - navigation.sections
+   - navigation.tabs.sticky
    - navigation.top
    - navigation.footer
    - navigation.indexes
+   - navigation.tracking
+   - navigation.expand
    - toc.integrate
    - search.suggest
    - search.highlight
@@ -158,7 +162,10 @@ markdown_extensions:
   # Enables tables
   - tables
   # Enables admonitions
+  - def_list
   - admonition
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.critic
@@ -183,10 +190,14 @@ markdown_extensions:
 
 plugins:
   - glightbox
+  - awesome-nav
+  - pagenav-generator
   - search
   - markdownextradata
   - redirects:
       redirect_maps:
+        'product.md': 'product/minikvm/index.md'
+        'contact.md': 'about.md'
         'basic-testing.md': 'basic.md'
         'community.md': 'https://www.reddit.com/r/Openterface_miniKVM/'
         'discord.md': 'https://discord.gg/sFTJD6a3R8'
@@ -214,40 +225,3 @@ plugins:
       pagination_per_page: 10
       draft: true
       archive: false
-
-nav:
-  - Home: index.md
-  - Doc:
-    - Quick Start: quick-start.md
-    - Features: features.md
-    - How to Connect: how-to-connect.md
-    - Open Software: app.md
-    - Open Hardware: open-hardware.md
-    - Basic Control: basic.md
-    - Switchable USB Port: usb-switch.md
-    - Extension Pins: pin.md
-    - Use Cases: use-cases.md
-    - Specifications: specifications.md
-    - What's in the Box: whats-in-the-box.md
-    - Accessories: accessories.md
-    - How It Works: how-it-works.md
-    - Why Openterface: why-openterface.md
-    - Comparison: comparison.md
-    - FAQs: faq.md
-    - Development:
-      - Test & Dev: test.md
-      - Roadmap: roadmap.md
-      - Contributing: contributing.md
-  - FAQs: /faq
-  - Use Cases: /use-cases
-  - Blog:
-    - blog/index.md
-  - Reddit: /reddit
-  - Discord: /discord
-  - TxA Shop: http://shop.techxartisan.com/
-  - About:
-    - Contact: contact.md
-    - Policies:
-      - Privacy Policy: privacy-policy.md
-      - Terms of Service: terms-of-service.md
-      - Return, Refunds & Warranty: return-refunds-warranty.md
