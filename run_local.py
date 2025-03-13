@@ -3,7 +3,7 @@ import subprocess
 def run_mkdocs():
     try:
         # Path to the Python binary in the virtual environment
-        python_path = "/home/project/openterface/website/mkdocs-venv/bin/python"
+        python_path = "openterface/bin/python"
         
         # Run mkdocs using the Python binary in the virtual environment
         subprocess.run([python_path, "-m", "mkdocs", "serve", "-a", "0.0.0.0:8002"], check=True)

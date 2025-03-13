@@ -1,0 +1,14 @@
+title: Product
+nav:
+    - index.md
+    - Mini-KVM:
+        - minikvm/index.md
+        - minikvm/whats-in-the-box.md
+        - minikvm/features.md
+        - minikvm/specifications.md
+        - minikvm/how-to-connect.md
+        - minikvm/usb-switch.md
+        - minikvm/extension-pins.md
+        - minikvm/how-it-works.md
+    - Accessories:
+        - accessories/index.md

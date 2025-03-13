@@ -1,0 +1,11 @@
+flatten_single_child_sections: true
+nav:
+    - Home: index.md
+    - Product: product
+    - App: app
+    - Use Cases: use-cases.md
+    - FAQs: faq
+    - Blog: blog
+    - Open Source & Compliances: compliance.md
+    - TxA Shop: https://shop.techxartisan.com
+    - About: about.md
