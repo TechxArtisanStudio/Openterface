@@ -10,7 +10,7 @@ tags:
 
 # Software
 
-To get your Openterface KVM gadgets up and running, you'll need to install one of the apps listed below on your host computer. You can grab these apps from different app platforms or just click the links provided. If you're feeling adventurous, you can also build them from source using our GitHub repositories!
+To get your Openterface™ KVM gadgets up and running, you'll need to install one of the apps listed below on your host computer. You can grab these apps from different app platforms or just click the links provided. If you're feeling adventurous, you can also build them from source using our GitHub repositories!
 
 <div class="grid cards" markdown>
 
