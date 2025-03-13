@@ -24,7 +24,7 @@
   Provides direct access to the target device's BIOS, firmware, or startup management.
 
 - **Switchable USB Type-A Port**:
-  This allows you to toggle USB access between the host and the target, ideal for sharing a USB drive without replugging. Check out our [Switchable USB Port](/usb-switch) page for more information.
+  This allows you to toggle USB access between the host and the target, ideal for sharing a USB drive without replugging. Check out our [Switchable USB Port](../usb-switch) page for more information.
 
 - **Text Transfer**:
   The text transfer functionality allows you to send text from the host computer to the target device. This feature emulates typing behaviour to reproduce text content on the target computer, ideal for copying usernames, passwords, or code snippets.
@@ -37,7 +37,3 @@
 
     - **No Clipboard Integration**: The text transfer feature is designed to emulate typing behaviour and cannot transfer non-textual content, such as images or formatted text.
     - **Language Limitations**: This feature exclusively supports transferring text based on ASCII codes and does not support languages that are not ASCII-based, such as Chinese, Japanese, or Korean characters.
-
-## More to Come
-
-We have a [roadmap](/roadmap) page detailing our plans for developing more advanced features. Check it out to stay updated on what's coming next. We also welcome developers to join us and hang out in our [community](/community)!

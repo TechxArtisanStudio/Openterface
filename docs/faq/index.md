@@ -1,4 +1,5 @@
 ---
+title: FAQs
 tags:
   - File Transfer
   - mini-KVM
