@@ -1,39 +1,55 @@
 # Features
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/r3HNUflWGOY?si=84Ek6F9ocHmmGTqW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe 
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/r3HNUflWGOY?si=84Ek6F9ocHmmGTqW" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin" 
+  allowfullscreen>
+</iframe>
 
-- **Host App Compatibility**:
-  Supports macOS, Windows, and Linux, with Android support in development.
-
-- **Plug-and-Play Convenience**:
-  Instant control upon connection, with no software installation or configuration on the target device. Leaves no software traces on the target computer.
-
-- **Network Independence**:
-  Stable and fast headless control via HDMI and emulated keyboard/mouse (HID) input.
-
-- **Ultra-Portable Design**:
-  Its compact and lightweight design makes it the perfect tool for professionals on the go.
-
-- **Full HD with Low Latency**:
-  Supported output video up to 1920x1080@30Hz with under 140 milliseconds of latency. Adaptable to VGA, Micro HDMI, DVI, and other inputs with a video adapter.
-
-- **Audio Integration**:
-  Captures and plays the target device's audio directly on the host computer.
-
-- **BIOS-Level Access**:
+- **BIOS-Level Access**  
   Provides direct access to the target device's BIOS, firmware, or startup management.
 
-- **Switchable USB Type-A Port**:
-  This allows you to toggle USB access between the host and the target, ideal for sharing a USB drive without replugging. Check out our [Switchable USB Port](../usb-switch) page for more information.
+- **Network Independence**  
+  Offers stable and fast, headless control using HDMI video capture and emulated keyboard/mouse (HID) input. No network connection required.
 
-- **Text Transfer**:
-  The text transfer functionality allows you to send text from the host computer to the target device. This feature emulates typing behaviour to reproduce text content on the target computer, ideal for copying usernames, passwords, or code snippets.
-  
-    - **Special Characters**: The text transfer feature supports various ASCII characters, including symbols, punctuation marks, and non-alphanumeric characters.
+- **Full HD Output with Low Latency & 4K Input**  
+  Supports displaying up to 1920×1080 @ 30 Hz on the host app with under 140 ms latency, while capturing target video input at up to 4K. Also compatible with VGA, Micro HDMI, DVI, and other inputs via adapters. For more details, visit our [specifications](specifications) page.
 
-    - **Limited Text**: It is ideal to transfer a short test like username, long password, code snippets from the host to the target. You can transfer text of varying lengths, but it is not recommended to transfer too much text at one time to avoid potential issues.
+- **Switchable USB Type-A Port**  
+  Toggle USB access between the host and target to share a USB drive without replugging. Learn more on the [Switchable USB Port](../usb-switch) page.
 
-!!! warning "Limitations of Text Transfer Feature"
+- **Host App Across All Platforms**  
+  Our [Host apps](/app) are compatible with macOS, Windows, Linux, and Android, ensuring seamless integration and optimal performance.
 
-    - **No Clipboard Integration**: The text transfer feature is designed to emulate typing behaviour and cannot transfer non-textual content, such as images or formatted text.
-    - **Language Limitations**: This feature exclusively supports transferring text based on ASCII codes and does not support languages that are not ASCII-based, such as Chinese, Japanese, or Korean characters.
+- **Text Transfer**  
+  Effortlessly transmit text from the host computer to the target device by simulating keystrokes. This feature is particularly useful for quickly entering usernames, passwords, or snippets of code. It supports a wide range of ASCII characters, including symbols, punctuation, and non-alphanumeric characters, ensuring versatility in text input.
+
+!!! warning "Limitations of the Text Transfer Feature"
+    - **No Clipboard Integration**  
+      This functionality solely emulates typing; it does not facilitate the transfer of non-textual content, such as images or formatted documents.
+
+    - **Language Limitations**  
+      Currently, it is limited to ASCII-based characters, which means it does not support languages that utilize non-ASCII scripts, such as Chinese, Japanese, or Korean.
+
+    - **Text Length Considerations**  
+      While this feature excels at transferring short text entries (like usernames, complex passwords, or code snippets), attempting to send large blocks of text may lead to performance issues or errors.
+
+- **Plug-and-Play Convenience**  
+  No additional software installation or configuration on the target device—control begins immediately upon connection, and no software traces are left behind.
+
+- **Ultra-Portable Design**  
+  Compact and lightweight, perfect for professionals who need to work on various systems while on the move.
+
+- **Audio Integration**  
+  Captures and plays audio from the target device directly on the host computer.
+
+- **Extension Pins for Further Development**  
+  The Openterface Mini-KVM includes [extension pins](../extension-pins) that allow for advanced development and experimentation. These pins enable users to explore new functionalities and customize their device for specific needs.
+
+- **Completely Open-Source**  
+  The Openterface Mini-KVM is [fully open-source](/compliance), with both hardware and software available for study, modification, and distribution. This commitment to open-source principles ensures transparency and encourages [community-driven innovation](/discord).
