@@ -21,7 +21,7 @@ For a detailed use case of this cable, please visit [Streamlined Server Manageme
 ### Demo Video
 Watch the demo video by Tech influencer **Cameron Gray** on how to use this cable with the Mini-KVM: [This USB KVM Console is Awesome!](https://youtu.be/xAEQpWyfY-c?si=auB5NtqHVw2C7iIK&t=1693)
 
-<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/vga-to-hdmi-converter-cable'"> Place Order <img src="//images/trademark/txa.svg" alt="" style="vertical-align: middle; height: 20px;"></button>
+<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/vga-to-hdmi-converter-cable'"> Place Order <img src="/images/trademark/txa.svg" alt="TxA Shop" style="vertical-align: middle; height: 20px;"></button>
 
 ---
 
@@ -38,7 +38,7 @@ Experience superior durability and performance with our newly upgraded USB-C cab
 - **Data Transfer Speed**: Up to 10Gbps
 - **Charging Power**: 240W
 
-<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/upgraded-nylon-usb-c-cable-240w-fast-charging-10gbps-data-transfer-1-5m-with-usb-a-adapter-eye-catching-orange'"> Place Order <img src="//images/trademark/txa.svg" alt="" style="vertical-align: middle; height: 20px;"></button>
+<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/upgraded-nylon-usb-c-cable-240w-fast-charging-10gbps-data-transfer-1-5m-with-usb-a-adapter-eye-catching-orange'"> Place Order <img src="/images/trademark/txa.svg" alt="TxA Shop" style="vertical-align: middle; height: 20px;"></button>
 
 ---
 
@@ -53,7 +53,7 @@ This stylish and soft-feel Type-C Male-to-Male cable in vibrant orange is design
 - **Adapter**: USB-C Female to USB-A Male
 - **Use**: For high-speed data transfer between the host computer and the Mini-KVM, and for fast charging mobile phones or laptops.
 
-<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/type-c-cable-with-usb-a-adapter-1-5m-4-11ft-240w-fast-charging-data-transfer-usb2-0'"> Place Order <img src="//images/trademark/txa.svg" alt="" style="vertical-align: middle; height: 20px;"></button>
+<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/type-c-cable-with-usb-a-adapter-1-5m-4-11ft-240w-fast-charging-data-transfer-usb2-0'"> Place Order <img src="/images/trademark/txa.svg" alt="TxA Shop" style="vertical-align: middle; height: 20px;"></button>
 
 ---
 
@@ -68,7 +68,7 @@ This versatile Type-C Male to USB-A Male cable, paired with a USB-A Female to US
 - **Adapter**: USB-A Female to USB-C Male
 - **Use**: Facilitates easy control and data transfer to the target device.
 
-<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/type-c-to-usb-a-cable-with-adapter'"> Place Order <img src="//images/trademark/txa.svg" alt="" style="vertical-align: middle; height: 20px;"></button>
+<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/type-c-to-usb-a-cable-with-adapter'"> Place Order <img src="/images/trademark/txa.svg" alt="TxA Shop" style="vertical-align: middle; height: 20px;"></button>
 
 ---
 
@@ -82,7 +82,7 @@ This compact HDMI cable is perfect for connecting your target device to capture 
 - **Colour**: Black
 - **Use**: Ideal for high-definition video transmission from the target device to the Mini-KVM.
 
-<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/hdmi-male-to-male-cable'"> Place Order <img src="//images/trademark/txa.svg" alt="" style="vertical-align: middle; height: 20px;"></button>
+<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/hdmi-male-to-male-cable'"> Place Order <img src="/images/trademark/txa.svg" alt="TxA Shop" style="vertical-align: middle; height: 20px;"></button>
 
 ---
 
@@ -96,7 +96,7 @@ Keep your Openterface Mini-KVM and its accessories organised and portable with t
 - **Colour**: Black with orange zipper
 - **Use**: Ideal for storing and organising your Mini-KVM and its cables.
 
-<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/openterface-toolkit-bag'"> Place Order <img src="//images/trademark/txa.svg" alt="" style="vertical-align: middle; height: 20px;"></button>
+<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/openterface-toolkit-bag'"> Place Order <img src="/images/trademark/txa.svg" alt="TxA Shop" style="vertical-align: middle; height: 20px;"></button>
 
 ---
 

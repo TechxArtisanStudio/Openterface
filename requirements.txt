@@ -3,4 +3,3 @@ mkdocs-glightbox
 mkdocs-redirects
 mkdocs-markdownextradata-plugin
 mkdocs-awesome-nav
-git+https://github.com/Andre601/mkdocs-pagenav-generator

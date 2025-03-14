@@ -191,7 +191,6 @@ markdown_extensions:
 plugins:
   - glightbox
   - awesome-nav
-  - pagenav-generator
   - search
   - markdownextradata
   - redirects:
