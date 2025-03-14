@@ -1,0 +1,55 @@
+:root {
+    --admonition-border-color: #FF8D1A;
+    --admonition-bg-color-base: rgba(155, 120, 43, 0.1);
+    --icon-frequent-question: url(/assets/frequent-question.svg);
+    --icon-faq: url(/assets/faq.svg);
+}
+
+.md-typeset {
+    .admonition.frequent-question,
+    details.frequent-question,
+    .admonition.faq,
+    details.faq {
+        border-color: var(--admonition-border-color);
+    }
+
+    .frequent-question, .faq {
+        & > .admonition-title, & > summary {
+            background-color: var(--admonition-bg-color-base);
+        }
+
+        & > .admonition-title::before, & > summary::before {
+            background-color: var(--admonition-border-color);
+        }
+    }
+
+    .frequent-question {
+        & > .admonition-title::before, & > summary::before {
+            -webkit-mask-image: var(--icon-frequent-question);
+            mask-image: var(--icon-frequent-question);
+        }
+    }
+
+    .faq {
+        & > .admonition-title::before, & > summary::before {
+            -webkit-mask-image: var(--icon-faq);
+            mask-image: var(--icon-faq);
+        }
+    }
+}
+
+mark.state1 {
+    background-color: #ffd699; /* A somewhat orange color */
+}
+
+mark.state2 {
+    background-color: #ffcccc;
+}
+  
+mark.state3 {
+    background-color: #ccccff;
+}
+  
+mark.state4 {
+    background-color: #ccffcc;
+}
