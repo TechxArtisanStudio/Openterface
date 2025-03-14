@@ -11,11 +11,11 @@ repo_url: https://github.com/TechxArtisanStudio/Openterface
 # Copyright
 copyright: >-
   Copyright &copy; All rights reserved. 2023 <a href="https://www.openterface.com">Openterface</a> | <a href="https://www.techxartisan.com">TechxArtisan</a><br>
-  <a href="">Home</a> |
-  <a href="/terms-of-service">Terms of Service</a> |
-  <a href="/privacy-policy">Privacy Policy</a> | 
+  <a href="/">Home</a> |
+  <a href="/policy/terms-of-service">Terms of Service</a> |
+  <a href="/policy/privacy">Privacy Policy</a> | 
   <a href="#__consent">Cookie Settings</a> | 
-  <a href="/contact">Contact Us</a>
+  <a href="/about">About</a>
   
 
 extra_css:
@@ -197,8 +197,7 @@ plugins:
       redirect_maps:
         'product.md': 'product/minikvm/index.md'
         'contact.md': 'about.md'
-        'basic-testing.md': 'basic.md'
-        'community.md': 'https://www.reddit.com/r/Openterface_miniKVM/'
+        'community.md': 'https://discord.gg/sFTJD6a3R8'
         'discord.md': 'https://discord.gg/sFTJD6a3R8'
         'reddit.md': 'https://www.reddit.com/r/Openterface_miniKVM/'
         'macos.md': 'https://github.com/TechxArtisanStudio/Openterface_MacOS'
