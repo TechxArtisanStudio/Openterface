@@ -33,7 +33,7 @@ Compared to network-dependent solutions, USB KVMs allow IT professionals and tec
 
 ---
 
-## Comparison: USB KVM, Traditional KVM Switch, and VNC
+## Comparison: USB KVM, IP KVM, KVM Switch, and VNC
 
 | 🤔 **Comparison Category**    | **USB KVM (Openterface Mini-KVM)**                   | **IP KVM (KVM-over-IP)**                                   | **KVM Switch**                                | **Software KVM / VNC**                         |
 |------------------------------|-------------------------------------------------------|------------------------------------------------------------|-----------------------------------------------|-----------------------------------------------|
@@ -52,7 +52,7 @@ Compared to network-dependent solutions, USB KVMs allow IT professionals and tec
 | ⚡️ **Power Supply**           | Often powered via USB (no external adapter)          | Requires external power for hardware unit                  | Typically requires external power             | N/A (purely software-based)                   |
 
 
-## Comparison: Openterface Mini-KVM with Other KVM Solutions
+## Comparison: Mini-KVM with Other KVM Solutions
 
 Below is a brief comparison of the Openterface Mini-KVM and other widely used KVM solutions, highlighting their key features and differences.
 
