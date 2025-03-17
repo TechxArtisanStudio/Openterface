@@ -1,14 +1,3 @@
----
-tags:
-  - KVM
-  - mini-KVM
-  - KVM-over-IP
-  - KVM-over-USB
-  - VNC
-  - Hardware KVM
-  - Software KVM
----
-
 # Comparison
 
 ## **How is this Mini-KVM different from KVM-over-IP?**

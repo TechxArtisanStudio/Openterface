@@ -221,8 +221,6 @@ plugins:
         'oshw.md': 'https://certification.oshwa.org/cn000015.html'
         'x.md': 'https://x.com/TechxArtisan'
         'appstore.md': 'https://apps.apple.com/us/app/openterface-mini-kvm/id6478481082'
-  - tags:
-      tags_file: tags.md
   - blog:
       post_url_format: "{slug}"
       authors_file: "{blog}/.authors.yml"
