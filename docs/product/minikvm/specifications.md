@@ -1,4 +1,10 @@
-# Specifications
+---
+title: "Specifications"
+description: "Detailed technical specifications of Openterface Mini-KVM including video capabilities up to 4K@30Hz input, 1080p@30Hz output, USB connectivity, physical dimensions, and environmental requirements. Complete hardware specifications for both Basic and Toolkit versions."
+keywords: "Mini-KVM specifications, KVM technical details, HDMI KVM specs, 4K KVM switch, USB-C KVM, computer peripherals specs, KVM dimensions, video compression, keyboard mouse emulation, hardware specifications"
+---
+
+# **Technical Specifications** | Openterface Mini-KVM
 
 ![lig-front](/images/product/minikvm-v1-9-front.svg#only-light){:style="max-height:260px"}
 ![lig-back](/images/product/minikvm-v1-9-back.svg#only-light){:style="max-height:260px"}

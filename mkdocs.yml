@@ -192,7 +192,17 @@ plugins:
   - glightbox
   - awesome-nav
   - search
-  - ultralytics
+  - ultralytics:
+      verbose: True
+      enabled: True
+      default_author: "Openterface"
+      add_desc: True
+      add_image: True
+      add_keywords: True
+      add_share_buttons: False
+      add_authors: False
+      add_json_ld: False
+      add_css: True
   - markdownextradata
   - redirects:
       redirect_maps:

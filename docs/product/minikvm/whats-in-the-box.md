@@ -2,29 +2,15 @@
 title: "What's In The Box"
 description: "Discover Openterface Mini-KVM packages - choose between Basic and Toolkit options. Complete KVM solution with HDMI, USB-C connectivity, and accessories for seamless device management."
 keywords: "Mini-KVM, KVM switch, HDMI KVM, USB KVM, headless control, computer peripherals, KVM toolkit, KVM accessories, remote work setup, multi-device control"
-og:title: "Openterface Mini-KVM Packages & Contents"
-og:description: "Explore Mini-KVM packages: Basic version with essential components or comprehensive Toolkit with premium accessories for professional device management."
-og:image: "/images/product/toolkit-open.jpg"
 ---
 
-# Openterface Mini-KVM: Basic & Toolkit Options | What's In The Box
+# **What's In The Box** | Basic & Toolkit Options | Openterface Mini-KVM
 
 Explore our two purchase options designed to meet your needs, whether you're looking for the essentials or a complete set of tools.
 
 ---
 
-## 1. Mini-KVM **Basic**
-
-![basic-pack](/images/product/basic-with-maunal.jpg){:style="width:680px"}
-
-1. Core Product: Openterface Mini-KVM
-2. Quick Start Guide
-
-<button class="md-button" onclick="window.location.href='https://www.crowdsupply.com/techxartisan/openterface-mini-kvm#products'"> Place Order <img src="/images/trademark/crowd-supply.svg" alt="Crowd Supply" style="vertical-align: middle; height: 26px;"></button>
-
----
-
-## 2. Mini-KVM **Toolkit**
+## 1. Mini-KVM **Toolkit**
 
 ![toolkit-open](/images/product/toolkit-open.jpg){:style="width:680px"}
 
@@ -40,3 +26,14 @@ Explore our two purchase options designed to meet your needs, whether you're loo
 <button class="md-button" onclick="window.location.href='https://www.crowdsupply.com/techxartisan/openterface-mini-kvm#products'"> Place Order <img src="/images/trademark/crowd-supply.svg" alt="Crowd Supply" style="vertical-align: middle; height: 26px;"></button>
 
 ![toolkit-parts](/images/product/toolkit-parts.jpg){:style="width:680px"}
+
+---
+
+## 2. Mini-KVM **Basic**
+
+![basic-pack](/images/product/basic-with-maunal.jpg){:style="width:680px"}
+
+1. Core Product: Openterface Mini-KVM
+2. Quick Start Guide
+
+<button class="md-button" onclick="window.location.href='https://www.crowdsupply.com/techxartisan/openterface-mini-kvm#products'"> Place Order <img src="/images/trademark/crowd-supply.svg" alt="Crowd Supply" style="vertical-align: middle; height: 26px;"></button>

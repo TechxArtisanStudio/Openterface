@@ -1,11 +1,17 @@
-# Switchable USB Port
+---
+title: "Switchable USB Port"
+description: "Learn about the dual hardware-software USB switching system in Openterface Mini-KVM. Understand the four operational states, safety guidelines, and future remote access capabilities."
+keywords: "USB switching, KVM switch, hardware switch, software switch, USB port control, KVM over USB, KVM over IP, remote access, USB device management, computer peripherals, USB power management"
+---
+
+# **USB Port Switching Guide** | Openterface Mini-KVM
 
 The mini-KVM device has a single USB-A 2.0 port that can connect to either the host or the target computer, but never both at once. Control comes from two switches:
 
 - **Hardware Switch**: A physical two-position toggle on the device ![Toggle Switch](/images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} (inward = host, outward = target).  
 - **Software Switch**: A toggle button in the host app that instantly redirects the USB port to either host or target.
 
-At startup, the device defaults to the host connection. The software detects the hardware switch’s position and syncs accordingly.
+At startup, the device defaults to the host connection. The software detects the hardware switch's position and syncs accordingly.
 
 ## Operational States
 
@@ -20,7 +26,7 @@ Because both hardware and software can toggle the connection, there are four pos
 4. **State 4 (Out of Sync, Port → Target)**  
    Hardware is set to Host, software is set to Target; port remains with Target.
 
-Switching from these states follows a straightforward logic: any manual toggle of the hardware switch updates the software display and moves the system to a “synced” state. Any click on the software switch changes the connection immediately, potentially leaving the hardware and software out of sync until the hardware switch is moved again.
+Switching from these states follows a straightforward logic: any manual toggle of the hardware switch updates the software display and moves the system to a "synced" state. Any click on the software switch changes the connection immediately, potentially leaving the hardware and software out of sync until the hardware switch is moved again.
 
 !!! warning "Remember to eject the flash drive before toggling the switch"
     If the USB port is being used by a flash drive, ensure you eject the flash drive before toggling the switch to transfer the port's use to another computer.

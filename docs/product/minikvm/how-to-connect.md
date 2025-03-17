@@ -1,4 +1,10 @@
-# How to Connect
+---
+title: "How to Connect"
+description: "Step-by-step guide for setting up Openterface Mini-KVM. Learn how to connect your host computer and target device with detailed instructions for USB-C, HDMI, and peripheral connections. Includes interface descriptions and important setup tips."
+keywords: "Mini-KVM setup, KVM connection guide, USB-C KVM setup, HDMI KVM connection, KVM installation guide, computer peripheral setup, USB device connection, KVM interface guide, headless computer setup, KVM configuration"
+---
+
+# **How to Connect** | Setup Guide | Openterface Mini-KVM
 
 ## Connection Steps
 
