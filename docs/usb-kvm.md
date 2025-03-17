@@ -6,7 +6,7 @@ keywords: "USB KVM, KVM-over-IP, KVM, VNC, Mini-KVM, headless control, BIOS acce
 
 # What is USB KVM?
 
-![USB-KMV-Example](/images/product/use-case-pc-angled-view.jpg){:style="max-height:320px"}
+![USB-KMV-Example](/images/product/use-case-demo-industrial-pc.jpg){:style="max-height:320px"}
 
 ## Portable, Network-Free KVM Control for Headless Devices
 
