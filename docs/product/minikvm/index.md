@@ -38,6 +38,8 @@ Our **Openterface™ Mini-KVM** is a plug-and-play **KVM-over-USB** solution. It
 
     [:octicons-arrow-right-24: How to Connect](/product/minikvm/how-to-connect)
 
+    [:octicons-arrow-right-24: How It Works](/usb-kvm)
+
 -   :material-cogs:{ .lg } __Advanced Features__
 
     ---
@@ -58,12 +60,4 @@ Our **Openterface™ Mini-KVM** is a plug-and-play **KVM-over-USB** solution. It
     
     [:octicons-arrow-right-24: View FAQs](/faq)
     
--   :material-swap-horizontal:{ .lg } __More Information__
-
-    ---
-
-    Learn more about the gadget
-
-    [:octicons-arrow-right-24: How Openterface Works](/product/minikvm/how-it-works)
-
 </div>
