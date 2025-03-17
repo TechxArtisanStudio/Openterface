@@ -1,4 +1,10 @@
-# Features
+---
+title: "Features & Capabilities"
+description: "Explore Openterface Mini-KVM's powerful features: BIOS-level access, 4K video support, cross-platform compatibility, and USB sharing. A comprehensive overview of capabilities for headless computer control with no network required."
+keywords: "Mini-KVM features, KVM switch capabilities, BIOS access, headless control, 4K KVM, USB sharing, cross-platform KVM, text transfer, plug and play KVM, open source KVM"
+---
+
+# **Features & Capabilities** | Openterface Mini-KVM
 
 <iframe 
   width="560" 

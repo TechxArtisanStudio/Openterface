@@ -1,4 +1,11 @@
-# Openterface Mini-KVM
+---
+title: "Openterface Mini-KVM | KVM-over-USB Solution for Headless Computer Control"
+description: "Control your headless computer directly from your laptop using Openterface Mini-KVM. A plug-and-play KVM-over-USB solution with HDMI support, no network required. Perfect for developers, IT professionals, and remote workstations."
+keywords: "Mini-KVM, KVM over USB, KVM over IP, headless control, HDMI KVM, USB KVM, KVM switch, KVM console, usb crash cart adapter, JetKVM, NanoKVM, KiwiKVM, PiKVM, plug and play KVM, VNC, computer peripherals"
+
+---
+
+# **Openterface Mini-KVM**
 
 ![basic-two-angled](/images/product/basic-two-angled.jpg){:style="max-height:420px"}
 

@@ -1,4 +1,11 @@
-# What's In The Box
+---
+title: "What's In The Box | 2024"
+description: "Discover Openterface Mini-KVM packages - choose between Basic and Toolkit options. Complete KVM solution with HDMI, USB-C connectivity, and accessories for seamless device management."
+keywords: "Mini-KVM, KVM switch, HDMI KVM, USB KVM, headless control, computer peripherals, KVM toolkit, KVM accessories, remote work setup, multi-device control"
+---
+
+# **What's In The Box** | Basic & Toolkit Options 2024 | Openterface Mini-KVM
+
 
 Explore our two purchase options designed to meet your needs, whether you're looking for the essentials or a complete set of tools.
 
