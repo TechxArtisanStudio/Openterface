@@ -4,9 +4,9 @@ description: "Discover how USB KVM solutions like the Openterface Mini-KVM provi
 keywords: "USB KVM, KVM-over-IP, KVM, VNC, Mini-KVM, headless control, BIOS access, portable KVM, data center, IT, 4K KVM, network-free KVM, Software KVM, VNC, PiKVM"
 ---
 
-![USB-KMV-Example](/images/product/use-case-pc-angled-view.jpg)
-
 # What is USB KVM?
+
+![USB-KMV-Example](/images/product/use-case-pc-angled-view.jpg){:style="max-height:320px"}
 
 ## Portable, Network-Free KVM Control for Headless Devices
 
