@@ -1,7 +1,7 @@
 flatten_single_child_sections: true
 nav:
     - Home: index.md
-    - USB KVM: usbkvm.md
+    - USB KVM: usb-kvm.md
     - Product: product
     - App: app
     - Use Cases: use-cases.md
