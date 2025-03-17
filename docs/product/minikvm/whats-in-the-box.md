@@ -1,4 +1,13 @@
-# What's In The Box
+---
+title: "What's In The Box"
+description: "Discover Openterface Mini-KVM packages - choose between Basic and Toolkit options. Complete KVM solution with HDMI, USB-C connectivity, and accessories for seamless device management."
+keywords: "Mini-KVM, KVM switch, HDMI KVM, USB KVM, headless control, computer peripherals, KVM toolkit, KVM accessories, remote work setup, multi-device control"
+og:title: "Openterface Mini-KVM Packages & Contents"
+og:description: "Explore Mini-KVM packages: Basic version with essential components or comprehensive Toolkit with premium accessories for professional device management."
+og:image: "/images/product/toolkit-open.jpg"
+---
+
+# Openterface Mini-KVM: Basic & Toolkit Options | What's In The Box
 
 Explore our two purchase options designed to meet your needs, whether you're looking for the essentials or a complete set of tools.
 

@@ -1,7 +1,7 @@
 # Project information
 site_name: Openterface | Bridging Interfaces to Open Possibilities
 site_url: https://openterface.com/
-site_author: Billy Wang
+site_author: Openterface
 site_description: A Feature-rich, Open-source and Community-driven KVM-over-USB Solution
 
 # Repository
@@ -192,6 +192,7 @@ plugins:
   - glightbox
   - awesome-nav
   - search
+  - ultralytics
   - markdownextradata
   - redirects:
       redirect_maps:
