@@ -17,7 +17,7 @@ Explore our two purchase options designed to meet your needs, whether you're loo
 1. Core Product: Openterface Mini-KVM
 2. Quick Start Guide
 3. [Toolkit Bag](/product/accessories/#openterface-toolkit-bag) (165 x 110 x 50mm)
-4. Extension Pin Cap
+4. [Extension Pin Cap](../extension-pins)
 5. [HDMI Male-to-Male Cable](/product/accessories/#hdmi-male-to-male-cable) (30cm)
 6. [Type-C Male to USB-A Male Cable](/product/accessories/#type-c-to-usb-a-cable-with-adapter) (0.3m) with USB-A Female to USB-C Male Adapter
 7. [Type-C Male-to-Male Cable](/product/accessories/#upgraded-nylon-usb-c-cable-240w-fast-charging-10gbps-data-transfer) (1.5m) with USB-C Female to USB-A Male Adapter
