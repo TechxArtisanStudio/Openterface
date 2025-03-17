@@ -9,6 +9,6 @@ nav:
         - minikvm/how-to-connect.md
         - minikvm/usb-switch.md
         - minikvm/extension-pins.md
-        - minikvm/how-it-works.md
+        - How It Works: usb-kvm
     - Accessories:
         - accessories/index.md
