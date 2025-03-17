@@ -51,6 +51,30 @@ Compared to network-dependent solutions, USB KVMs allow IT professionals and tec
 | 💾 **Software**               | Usually includes a simple host app                   | Built-in web servers or proprietary software               | No additional software for basic switching    | VNC server on target + client on host         |
 | ⚡️ **Power Supply**           | Often powered via USB (no external adapter)          | Requires external power for hardware unit                  | Typically requires external power             | N/A (purely software-based)                   |
 
+
+## Comparison: Openterface Mini-KVM with Other KVM Solutions
+
+Below is a brief comparison of the Openterface Mini-KVM and other widely used KVM solutions, highlighting their key features and differences.
+
+|                        | Openterface Mini-KVM Kit + VGA-to-HDMI Cable                                     | [StarTech Crash Cart NOTECONS02](https://www.startech.com/en-us/server-management/notecons02) | [PiKVM V4 Plus](https://cloudfree.shop/product/pikvm-v4-plus/) | [Synergy](https://symless.com/synergy) |
+| ---------------------- | -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------- |
+| **Compatibility**      | MacOS, Windows, Linux, Android, Web App                                         | MacOS, Windows, Linux                                                                         | Web App                                                        | MacOS, Windows, Linux                  |
+| **Control Method**     | KVM-over-USB; Work in Progress: KVM-over-IP                                     | KVM-over-USB                                                                                  | KVM-over-IP                                                    | Software KVM                           |
+| **Embedded OS**        | N/A                                                                             | N/A                                                                                           | Raspberry Pi                                                   | N/A                                    |
+| **Power Type**         | USB-C powered by the host computer                                              | USB-A powered by the host computer                                                            | External DC required                                           | N/A                                    |
+| **Software**           | Host App install required                                                       | Host App install required                                                                      | No local install required                                      | App install required on both sides     |
+| **Video Capture**      | HDMI & VGA (with the add-on VGA-to-HDMI cable)                                  | VGA                                                                                           | HDMI                                                           | Software supported                     |
+| **Audio Capture**      | via HDMI embedded audio                                                         | ❌                                                                                            | via HDMI embedded audio                                        | Software supported                     |
+| **Hardware Reaction**  | Less than 1 sec                                                                 | Less than 1 sec                                                                               | Need to wait for Pi to startup                                | N/A                                    |
+| **Text Transfer**      | Via emulated keyboard output                                                    | Unknown                                                                                       | Via emulated keyboard output                                   | Software-supported clipboard           |
+| **File Transfers**     | Via switchable USB port                                                         | Via virtual drive                                                                             | Via virtual drive                                              | Via software                           |
+| **BIOS-level Access**  | ✅                                                                              | ✅                                                                                            | ✅                                                             | ❌                                     |
+| **ATX Support**        | ❌                                                                              | ❌                                                                                            | ✅                                                             | ❌                                     |
+| **Open Source**        | ✅                                                                              | ❌                                                                                            | ✅                                                             | ❌                                     |
+| **Price**              | Medium                                                                          | High                                                                                          | Medium                                                         | Low                                    |
+| **Device Net Weight**  | 48 g                                                                            | 170 g                                                                                         | 350 g                                                          | N/A                                    |
+| **Device Net Size**    | 61 x 13.5 x 53 mm                                                               | 74 x 15 x 115 mm                                                                              | 120 x 68 x 24 mm                                               | N/A                                    |
+
 **Bottom Line**:  
 
 - **USB KVM** (e.g., [Openterface Mini-KVM](/)): Excels in portability, straightforward setup, and direct cable-based file transfers—great for local, single-target control.  
@@ -76,6 +100,28 @@ Compared to network-dependent solutions, USB KVMs allow IT professionals and tec
 
 5. **Synchronization**  
    The app keeps the target computer’s display and controls perfectly in sync with your host, allowing you to interact with both systems on a single screen.
+
+---
+
+## Why Openterface ?
+
+With various KVM solutions available, here's why it still win your heart:
+
+1. **Portability & Functionality**
+
+    Designed with portability in mind, the Openterface Mini-KVM is a compact and lightweight gadget that can easily accompany you on the go. Featuring comprehensive capabilities such as BIOS-level access, audio integration, a switchable USB port, and text transfer, this device provides all the necessary tools to efficiently manage and troubleshoot your headless devices, wherever your work may lead.
+
+2. **Network-Free & On-the-Fly Troubleshooting**
+
+    Unlike KVM-over-IP or software KVM solutions that rely on network access, the Openterface Mini-KVM offers a plug-and-play, network-independent experience. Our device establishes a direct HDMI and USB connection between the host computer and the target device, enabling you to take control and diagnose issues quickly, especially in environments where network connectivity is unreliable or unavailable. The hardware startup time is less than 1 second, ensuring you can jump right into troubleshooting without delays or disturbances in your workflow.
+
+3. **Wallet-Friendly Price**
+
+    Unlike traditional KVM consoles that often come with a hefty price tag, our Mini-KVM is designed to be accessible and affordable to a broader spectrum of users, from IT professionals to tech enthusiasts.
+
+4. **Fully Open Source & Community**
+
+    The real magic lies in our commitment to open-source development and community engagement. By embracing these principles, we’re building a vibrant ecosystem where users can collaborate, contribute, and customise the device to meet their unique needs, fostering innovation and pushing the boundaries of what’s possible. 👨‍💻🤝👩‍💻
 
 ---
 
