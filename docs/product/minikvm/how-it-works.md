@@ -4,7 +4,7 @@ description: "Understand how Openterface Mini-KVM operates: screen streaming, HI
 keywords: "Mini-KVM operation, KVM screen streaming, HID signal conversion, keyboard mouse control, KVM synchronization, headless control process, KVM technology, remote computer operation, KVM signal processing"
 ---
 
-# **How It Works** | Technical Operation & Process | Openterface Mini-KVM
+# **How It Works** | Mechanism & Process | Openterface Mini-KVM
 
 ## Process Breakdown
 
