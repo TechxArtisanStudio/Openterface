@@ -1,11 +1,11 @@
 flatten_single_child_sections: true
 nav:
     - Home: index.md
-    - USB KVM: usb-kvm
+    - USB KVM: usbkvm.md
     - Product: product
     - App: app
     - Use Cases: use-cases.md
-    - FAQs: faq
+    - FAQs: faq.md
     - Blog: blog
     - Discord: /discord
     - Compliance: compliance.md
