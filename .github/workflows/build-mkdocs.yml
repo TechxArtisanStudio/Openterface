@@ -43,4 +43,8 @@ jobs:
           sed -i "/^extra:/a\  qt_version: ${{ env.QT_VERSION }}" mkdocs.yml
           sed -i "/^extra:/a\  android_version: ${{ env.ANDROID_VERSION }}" mkdocs.yml
           sed -i "/^extra:/a\  macos_version: ${{ env.MACOS_VERSION }}" mkdocs.yml
-      - run: mkdocs gh-deploy --force
+      - name: Deploy Documentation
+        env:
+          MK_SECRET_TOKEN: ${{ secrets.MK_SECRET_TOKEN }}
+        run: |
+          mkdocs gh-deploy --force

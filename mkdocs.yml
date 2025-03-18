@@ -196,11 +196,12 @@ plugins:
   - macros
   - git-committers:
       repository: TechxArtisanStudio/Openterface
+      token: !ENV ['MK_SECRET_TOKEN']
       branch: main
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago  # or date
-  - ultralytics:
+  - ultralytics:  # to enhance SEO by adding metadata
       verbose: True
       enabled: True
       default_author: "Openterface"
