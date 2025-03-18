@@ -198,8 +198,8 @@ plugins:
       repository: TechxArtisanStudio/Openterface
       branch: main
   - git-revision-date-localized:
-      type: date
-      locale: en
+      enable_creation_date: true
+      type: timeago  # or date
   - ultralytics:
       verbose: True
       enabled: True
