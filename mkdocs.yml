@@ -192,6 +192,7 @@ plugins:
   - glightbox
   - awesome-nav
   - search
+  - macros
   - ultralytics:
       verbose: True
       enabled: True
