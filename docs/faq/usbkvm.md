@@ -27,14 +27,14 @@ Welcome to our FAQ hub! This section provides answers to questions about KVM-ove
 
 ---
 
-## KVM-over-USB
+## KVM-over-USB Basics
 
 ### 1.1. What is KVM-over-USB? {: #what-is-kvm-over-usb }
 A **USB KVM**—often referred to as **KVM-over-USB**—is a keyboard, video, and mouse control solution that connects directly to a headless or unattended computer via USB and typically an HDMI (or similar, such as VGA or Micro HDMI) video interface. Its plug-and-play design eliminates the need for complex network configurations, making it ideal for IT professionals, system builders, and enthusiasts who need reliable, portable, and immediate access—even where network connectivity is limited or unavailable.
 
 ### 1.2. How does USB KVM work? {: #how-usb-kvm-works }
-![USB KVM Connection Dark](images/usbkvm/usb-kvm-connect-dark.svg#only-dark)
-![USB KVM Connection Light](images/usbkvm/usb-kvm-connect-light.svg#only-light)
+![USB KVM Connection Dark](/images/usbkvm/usb-kvm-connect-dark.svg#only-dark)
+![USB KVM Connection Light](/images/usbkvm/usb-kvm-connect-light.svg#only-light)
 
 1. **Screen Streaming**  
    It captures the target device's display (via HDMI) and shows it in an application window on your host computer.
@@ -72,6 +72,7 @@ Compared to network-dependent solutions, USB KVMs allow IT professionals and tec
 It's important to understand that KVM-over-USB and KVM-over-IP serve different purposes and use cases, each with its own strengths:
 
 **KVM-over-USB (like Openterface products)**
+
 - **Mobility-Focused**: Designed for technicians who move between different systems
 - **Quick Access**: True plug-and-play functionality without network setup
 - **Troubleshooting-Oriented**: Perfect for quick configurations or repairs where you connect, fix, and move on
@@ -80,6 +81,7 @@ It's important to understand that KVM-over-USB and KVM-over-IP serve different p
 - **Cost-Effective**: Generally more affordable due to simpler hardware requirements
 
 **KVM-over-IP (like PiKVM)**
+
 - **Stationary Setup**: Designed for permanent installation
 - **Remote Access**: Allows control from anywhere with network connectivity
 - **Long-term Monitoring**: Better suited for continuous system observation
@@ -87,12 +89,14 @@ It's important to understand that KVM-over-USB and KVM-over-IP serve different p
 - **Multiple User Access**: Can support multiple operators accessing the same target
 
 **Choose KVM-over-USB when:**
+
 - You need to quickly troubleshoot multiple systems
 - Network setup is unavailable or restricted
 - Portability is crucial
 - Direct, low-latency control is required
 
 **Choose KVM-over-IP when:**
+
 - You need permanent remote access
 - Multiple users need to access the same system
 - The target system requires constant monitoring
@@ -120,7 +124,7 @@ It's important to understand that KVM-over-USB and KVM-over-IP serve different p
 
 ---
 
-## Openterface
+## Openterface Products
 
 ### 2.1. Which Openterface product is right for me? {: #choose-product }
 
@@ -134,12 +138,11 @@ Currently, our flagship product is the **Openterface Mini-KVM**, which offers:
 - Active community support
 
 The Mini-KVM is ideal for:
+
 - IT professionals managing headless servers
 - Developers working with single-board computers
 - Technicians servicing embedded systems
 - Anyone needing portable, network-free device control
-
-For detailed specifications and use cases, check out our [Mini-KVM FAQ](/faq/minikvm_faq).
 
 ### 2.2. How does the Openterface Mini-KVM stack up against other KVM solutions? {: #minikvm-comparison }
 
@@ -201,7 +204,7 @@ We offer multiple support channels:
 - **Direct Support**: Email us at [info@openterface.com](mailto:info@openterface.com)
 - **Product-Specific Help**: Check individual product FAQ pages:
 
-  - [Mini-KVM FAQ](/faq/minikvm_faq)
+    - [Openterface Mini-KVM FAQ](/faq/minikvm)
 
 ---
 
