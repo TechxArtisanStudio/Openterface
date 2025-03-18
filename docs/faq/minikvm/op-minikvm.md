@@ -1,6 +1,7 @@
 ---
 title: FAQs for Openterface Mini-KVM
 description: Detailed FAQ for our flagship Mini-KVM product, covering technical specifications, usage guides, and troubleshooting tips.
+keywords: Mini-KVM, Openterface, KVM switch, technical specifications, usage guide, troubleshooting, open-source hardware, video capture, USB port, file transfer, compatibility, community support
 ---
 
 # FAQs for Openterface Mini-KVM

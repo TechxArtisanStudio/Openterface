@@ -1,3 +1,9 @@
+---
+title: KVM-over-USB Basics | What is USB KVM?
+keywords: KVM-over-USB, USB KVM, keyboard video mouse control, headless computer, plug-and-play, network-independent, IT professionals, system builders, portable KVM, BIOS access
+description: Learn about KVM-over-USB technology, its benefits, and how it compares to other KVM solutions. Ideal for IT professionals and system builders needing portable and network-independent device control.
+---
+
 # KVM-over-USB Basics
 
 ### 1.1. What is KVM-over-USB? {: #what-is-kvm-over-usb }

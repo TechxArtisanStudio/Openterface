@@ -1,4 +1,10 @@
-# Openterface Products
+---
+title: Find the Right Openterface Product for You | Why Openterface
+keywords: Openterface products, Mini-KVM, KVM solutions, USB KVM, portable device control, BIOS-level access, open-source hardware, IT professionals, headless servers, embedded systems
+description: Discover the Openterface Mini-KVM, a portable and open-source KVM solution offering BIOS-level access and cross-platform compatibility for IT professionals and tech enthusiasts.
+---
+
+# Find the Right Openterface Product for You
 
 ### 2.1. Which Openterface product is right for me? {: #choose-product }
 
