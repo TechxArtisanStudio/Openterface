@@ -1,0 +1,158 @@
+{% extends "main.html" %}
+
+{% block tabs %}
+  {{ super() }}
+
+  <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
+
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__image">
+          <img src="images/cover.png" alt="" width="1659" height="1200" draggable="false">
+        </div>
+        <div class="mdx-hero__content">
+          <div class="image-container">
+            <img src="images/openterface-mini-kvm-v1-9-s.png" alt="Openterface Mini-KVM Product" width="460" draggable="false">
+          </div>
+          <a href="{{ 'https://www.crowdsupply.com/techxartisan/openterface-mini-kvm' | url }}" title="Pre Order" class="md-button md-button--primary">
+            Order NOW! <img src="images/trademark/crowd-supply.svg" alt="Crowd Supply" style="vertical-align: middle; height: 26px;">
+          </a>
+          <a href="{{ 'https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024' | url }}" title="Challenge" class="md-button" style="background-color: #ff4500; color: #fff; font-weight: bold; border: 2px solid #ff4500; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); animation: pulse 1.5s infinite;">
+            DIY Challenge
+          </a>
+          <p>Build your own <strong>USB KVM</strong> & win incredible prizes! 🏆</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="dialogue-section-white" id="app">
+    <h2>Install Host App</h2>
+    <div class="container">
+        <img src="/images/product/win_qt_app.jpg" alt="Poster Image" class="poster-image-shadow">
+    </div>
+    <div class="callout-button-container">
+        <div class="dialogue-bubble" id="op-bubble">
+            <img src="/images/trademark/win.svg" alt="Avatar" class="avatar" draggable="false">
+            <p>Windows</p>
+            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.windows.amd64.installer.zip" class="md-button md-button--primary" id="join-waitlist-button">Installer {{ config.extra.qt_version }}</a>
+            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.windows.amd64.portable.zip" class="md-button md-button--primary" id="join-waitlist-button">Portable Exe {{ config.extra.qt_version }}</a>
+            <a href="https://github.com/TechxArtisanStudio/Openterface_QT" class="md-button md-button--primary" id="join-waitlist-button">Source Code</a>
+           </div>
+        <div class="dialogue-bubble" id="op-bubble">
+            <img src="/images/trademark/app-store.svg" alt="Avatar" class="avatar" draggable="false">
+            <p>macOS</p>
+            <a href="/appstore" class="md-button md-button--primary" id="join-waitlist-button">App Store v{{ config.extra.macos_version }}</a>
+        </div>
+        <div class="dialogue-bubble" id="op-bubble">
+            <img src="/images/trademark/linux.svg" alt="Avatar" class="avatar" draggable="false">
+            <p>Linux</p>
+            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.deb" class="md-button md-button--primary" id="join-waitlist-button">AMD64 DEB {{ config.extra.qt_version }}</a>
+            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.rpm" class="md-button md-button--primary" id="join-waitlist-button">AMD64 RPM {{ config.extra.qt_version }}</a>
+            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.arm64.deb" class="md-button md-button--primary" id="join-waitlist-button">ARM64 DEB {{ config.extra.qt_version }}</a>
+            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.arm64.rpm" class="md-button md-button--primary" id="join-waitlist-button">ARM64 RPM {{ config.extra.qt_version }}</a>
+            <a href="https://github.com/TechxArtisanStudio/Openterface_QT" class="md-button md-button--primary" id="join-waitlist-button">Source Code</a>
+        </div>
+        <div class="dialogue-bubble" id="op-bubble">
+            <img src="/images/trademark/android.svg" alt="Avatar" class="avatar" draggable="false">
+            <p>Android</p>
+            <a href="https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{ config.extra.android_version }}/OpenterfaceAndroid.apk" class="md-button md-button--primary" id="join-waitlist-button">apk {{ config.extra.android_version }}</a>
+        </div>
+    </div>
+    <p>and <a href="/app" style="color: var(--md-primary-fg-color);">more</a>.</p>
+  </section>
+
+  <section class="product-close-up" id="product-close-up">
+    
+    <div class="container">
+
+      <div class="product-close-up-content">
+        <div class="product-image">
+          <img src="images/product/use-case-demo-respberry-pi.jpg" alt="Product Close-up">
+        </div>
+        <div class="product-description">
+          <p>Elevate your tech toolkit with Openterface Mini-KVM: 
+            <strong>A compact, feature-rich, open-source KVM-over-USB</strong> solution that simplifies your tech life with on-the-fly IT tasks and troubleshooting.
+          </p>
+        </div>
+      </div>
+  
+      <div class="product-close-up-content reverse-layout">
+        <div class="product-image">
+          <img src="/images/product/use-case-demo-industrial-pc.jpg" alt="Pre Launch Poster">
+        </div>
+        <div class="product-description">
+          <p> <strong>Say goodbye to THAT extra monitor, keyboard, and mouse!</strong>
+            Turn your laptop into a smart KVM console for controlling any headless device via HDMI and USB.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="icon-section" id="icon">
+    <div class="icon-container">
+        <h2>Features</h2>
+        <div class="icon-grid">
+            <div class="icon-item">
+              <img src="images/feature-icons/icon-plug-and-play.svg#only-light" alt="Plug and Play Icon">
+              <img src="images/feature-icons/icon-plug-and-play-d.svg#only-dark" alt="Plug and Play Icon">
+              <p>Plug'n'Play</p>
+            </div>
+            <div class="icon-item">
+                <img src="images/feature-icons/icon-bios-access.svg#only-light" alt="BIOS Access Icon">
+                <img src="images/feature-icons/icon-bios-access-d.svg#only-dark" alt="BIOS Access Icon">
+                <p>BIOS Access</p>
+            </div>
+            <div class="icon-item">
+                <img src="images/feature-icons/icon-network-free.svg#only-light" alt="Network Free Icon">
+                <img src="images/feature-icons/icon-network-free-d.svg#only-dark" alt="Network Free Icon">
+                <p>Network Free</p>
+            </div>
+            <div class="icon-item">
+                <img src="images/feature-icons/icon-text-transfer.svg#only-light" alt="Text Transfer Icon">
+                <img src="images/feature-icons/icon-text-transfer-d.svg#only-dark" alt="Text Transfer Icon">
+                <p>Text Transfer</p>
+            </div>
+            <div class="icon-item">
+                <img src="images/feature-icons/icon-usb-switch.svg#only-light" alt="USB Switch Icon">
+                <img src="images/feature-icons/icon-usb-switch-d.svg#only-dark" alt="USB Switch Icon">
+                <p>USB Switch</p>
+            </div>
+            <div class="icon-item">
+              <img src="images/feature-icons/icon-more.svg#only-light" alt="More Icon">
+              <img src="images/feature-icons/icon-more-d.svg#only-dark" alt="More Icon">
+              <p>and <a href="/features" style="color: var(--md-primary-fg-color);">more</a>.</p>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="feature-dev-test" id="feature-dev-test">
+    <div class="container">
+      <h2>Product Preview</h2>
+      <div class="videos-wrapper">
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ZZ5P6MnBcHw?si=Ny7OUeid4Wnu_YqV" title="Introduction Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/sKDYsKBv90A?si=6Zr71Mabpu1688w6" title=" title="Beta App for Windows" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/xAEQpWyfY-c?si=7aMQoJ-1bBI5Hicw" title="Product Review" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <a rel="me" href="https://mastodon.social/@youyoubilly" style="display:none;">Mastodon</a>
+
+{% endblock %}
+
+{% block content %}{% endblock %}
+
+{% block footer %}
+  {{ super() }}
+{% endblock %}
