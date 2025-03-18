@@ -1,41 +1,45 @@
 ---
-title: FAQs
+title: FAQ for Openterface Mini-KVM
+description: Detailed FAQ for our flagship Mini-KVM product, covering technical specifications, usage guides, and troubleshooting tips.
 ---
 
-# Frequently Asked Questions (FAQs)
+# FAQs for Openterface Mini-KVM
 
-We're absolutely delighted to have you here! 🌟 This section is designed to address frequently asked questions about the Openterface Mini-KVM, which our team organises periodically. 
+Welcome to the dedicated FAQ for our flagship product, the **Openterface Mini-KVM**. For general questions about KVM technology or other Openterface products, please visit our [main FAQ page](/faq/).
 
-Let's delve into the most frequent questions about the Openterface Mini-KVM.
-
-### List of Questions
+## List of Questions
 
 ##### Basic
-- [What is Openterface Mini-KVM?](#mini-kvm-intro)
-- [Why does Openterface Mini-KVM make a difference?](#mini-kvm-benefits)
-- [What are the use cases for this mini-KVM?](#mini-kvm-use-cases)
-- [What host computers are compatible?](#mini-kvm-host-compatibility)
-- [What target devices are compatible?](#mini-kvm-target-compatibility)
-- [Will there be technical support and documentation?](#mini-kvm-support)
+
+- [What makes the Mini-KVM our flagship product?](#flagship-product)
+- [How does it compare to our Lite versions?](#compare-lite)
+- [What are its key features?](#key-features)
+- [Which host computers are compatible?](#mini-kvm-host-compatibility)
+- [What about target device compatibility?](#mini-kvm-target-compatibility)
+- [Are technical support and documentation available?](#mini-kvm-support)
 
 ##### Software  
+
 - [Where can I download the host applications?](#host-app-download)
 - [Is there a host app supporting ChromeOS?](#host-app-chromeos)
 - [Is there a host app supporting Apple's mobile devices?](#host-app-ios)
 - [What if F11 doesn't work on macOS applications?](#f11-macos-issue)
 
 ##### Switchable USB Port & File Transfer
+
 - [Can the Mini-KVM support file transfers?](#file-transfer)
 - [Can the switchable USB-A port be toggled in software?](#usb-port-toggle)
 - [Why USB 2.0 instead of USB 3.0?](#usb-2-vs-3)
 
 ##### Technical
+
 - [Is the Mini-KVM open-source?](#mini-kvm-open-source)
 - [Can I access a device's BIOS settings?](#bios-access)
 - [How is video/data transmitted?](#video-data-transmission)
 - [How does the Mini-KVM handle power?](#mini-kvm-power)
 
 ##### Control Mechanism
+
 - [Will there be a version with wireless or Ethernet connectivity?](#wireless-version)
 - [How is this different from other KVM solutions?](#mini-kvm-vs-other-kvms)
 - [Does it work with a PS/2 computer?](#ps2-compatibility)
@@ -43,6 +47,7 @@ Let's delve into the most frequent questions about the Openterface Mini-KVM.
 - [Can it power on/off the connected computer?](#power-control)
 
 ##### Video Related
+
 - [What about video latency and resolution?](#video-latency-resolution)
 - [Is it suitable for gaming?](#gaming-compatibility)
 - [Will future versions support higher-quality displays?](#future-display-support)
@@ -50,10 +55,12 @@ Let's delve into the most frequent questions about the Openterface Mini-KVM.
 - [Can it work with VGA, DVI, DisplayPort, etc.?](#video-output-support)
 
 ##### Troubleshooting
+
 - [Why does it sometimes have issues with USB hubs?](#usb-hub-issues)
 - [What if the app doesn't display the target screen or input is unresponsive?](#unstable-issues)
 
 ##### More
+
 - [How can I contribute to this project?](#contribute)
 - [Want to review our gadget?](#review-request)
 - [What advanced features are planned?](#future-features)
@@ -62,33 +69,36 @@ Let's delve into the most frequent questions about the Openterface Mini-KVM.
 
 ### Basic
 
-#### What is Openterface Mini-KVM? {: #mini-kvm-intro }
-The Openterface Mini-KVM allows you to use your laptop or computer to display and control headless devices through a USB and HDMI connection. This KVM-over-USB solution offers a lightweight, speedy, and seamless KVM control. It eliminates the need for extra monitors, keyboards, and mice, providing a convenient solution in places where network connections are unreliable or unavailable. It is particularly useful for [a wide range of applications](/use-cases/), especially for tech professionals troubleshooting headless devices or single-board computers. With the use of a video adapter, it can also support [VGA](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm#product-3914), Micro HDMI, DVI, and other input sources. 
+#### What makes the Mini-KVM our flagship product? {: #flagship-product }
+The Openterface Mini-KVM represents our most feature-complete KVM solution, offering:
 
-The Openterface Mini-KVM is ==fully open-sourced== in both [hardware](/how-it-works/#explore-hardware-details) and [software](/quick-start/#install-host-application), certified by [OSHWA](https://certification.oshwa.org/cn000015.html), and supported by [a vibrant community](/community/).
+- Full HD video capture
+- BIOS-level access
+- Switchable USB port for file transfers
+- Broad OS compatibility
+- Open-source hardware and software
+- Active community support
 
-#### Why does Openterface Mini-KVM make a difference? {: #mini-kvm-benefits }
+#### How does it compare to our Lite versions? {: #compare-lite }
+While our Lite versions focus on specific use cases (VGA or HDMI), the flagship Mini-KVM offers:
 
-With various KVM solutions available, here's why the Openterface Mini-KVM stands out:
+- More versatile video input options
+- Advanced file transfer capabilities
+- Enhanced software features
+- Future expandability options
+- Premium build quality
 
-- Portability & Functionality
-- Network-Free & On-the-Fly Troubleshooting
-- Wallet-Friendly Price
-- Fully Open Source & Community
+For simpler needs, consider our [Lite versions](/product/lite/).
 
-To read more, visit our [Why Openterface Mini-KVM](/why-openterface) page.
+#### What are its key features? {: #key-features }
 
-#### What are the use cases for this mini-KVM? {: #mini-kvm-use-cases }
-Openterface Mini-KVM is the perfect companion for a wide range of users and scenarios:
-
-- IT professionals troubleshooting servers
-- Technicians servicing ATMs, VLTs, and kiosks
-- Developers managing edge computing devices
-- Tech enthusiasts experimenting with single-board computers
-- Professionals requiring secure local operations on network segregation, such as those managing crypto assets
-- Anyone in need of frequently integrated workflows between personal and work computers.
-
-Please also check out this page: [Use Cases](/use-cases/)
+- **Video**: Up to 1080p@30Hz capture
+- **Control**: Full keyboard and mouse emulation
+- **File Transfer**: Switchable USB 2.0 port
+- **Power**: USB-powered (no external adapter needed)
+- **Software**: Cross-platform host applications
+- **Compatibility**: Works with most operating systems
+- **Open Source**: Both hardware and software
 
 #### What host computers are compatible? {: #mini-kvm-host-compatibility }
 To use this mini-KVM, the host computer must install one of these [host applications](/quick-start/#install-host-application) to support MacOS, Windows, Linux and Android.
