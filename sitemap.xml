@@ -93,11 +93,19 @@
          <lastmod>2025-03-18</lastmod>
     </url>
     <url>
-         <loc>https://openterface.com/faq/</loc>
+         <loc>https://openterface.com/faq/minikvm/</loc>
          <lastmod>2025-03-18</lastmod>
     </url>
     <url>
-         <loc>https://openterface.com/faq/minikvm/</loc>
+         <loc>https://openterface.com/faq/usbkvm/</loc>
+         <lastmod>2025-03-18</lastmod>
+    </url>
+    <url>
+         <loc>https://openterface.com/faq/usbkvm/kvm-over-usb/</loc>
+         <lastmod>2025-03-18</lastmod>
+    </url>
+    <url>
+         <loc>https://openterface.com/faq/usbkvm/openterface/</loc>
          <lastmod>2025-03-18</lastmod>
     </url>
     <url>
