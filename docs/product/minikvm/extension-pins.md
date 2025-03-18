@@ -1,7 +1,7 @@
 ---
-title: "Extension Pins"
-description: "Explore Openterface Mini-KVM's extension pins for custom development. Learn about pin configuration, hardware modifications, and open-source development opportunities. Includes safety guidelines and community collaboration options."
-keywords: "Mini-KVM extension pins, KVM hardware development, developer mode, open source KVM, hardware customization, USB pin configuration, KVM modifications, DIY KVM projects, hardware hacking, KVM development guide"
+title: "Openterface Mini-KVM Extension Pins for Custom Development"
+description: "Explore the potential of Openterface Mini-KVM's extension pins for custom hardware development and open-source projects."
+keywords: "Mini-KVM extension pins, custom development, hardware modification, open-source KVM"
 ---
 
 # **Extension Pins** | Developer Mode | Openterface Mini-KVM
@@ -45,6 +45,15 @@ The extension pins provide the following connections:
 
 !!! danger "Incorrect Connections Cause Damage"
     Mixing up VCC and GND can cause severe damage to the device and connected components. Always double-check pin connections before powering the device.
+
+## Extension Pin Cap
+
+![pin-cap](/images/product/part/pin-cap.jpg){:style="height:360px"}
+
+This 3D-printed Extension Pin Cap replaces the original cap on the Openterface Mini-KVM, allowing advanced users to expose and access extension pins for custom development. You can download the 3D model files from our GitHub repository and print the cap yourself.
+
+- **Use**: Provides access to extension pins for advanced hardware development.
+- **Download**: [3D Model Files](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware/tree/main/models)
 
 ## Get Involved in Development
 
