@@ -36,6 +36,7 @@ theme:
   logo: assets/app-logo.png
   favicon: images/favicon.png
   features:
+   - toc.integrate
    - navigation.instant
    - navigation.instant.progress
    - navigation.tabs
@@ -45,7 +46,6 @@ theme:
    - navigation.indexes
    - navigation.tracking
    - navigation.expand
-   - toc.integrate
    - search.suggest
    - search.highlight
    - content.tabs
@@ -176,9 +176,17 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.betterem
   # Enables emoji shortcodes like :+1: or :sunglasses:
   - attr_list
   - md_in_html
+  - pymdownx.highlight:
+      pygments_lang_class: true
+      auto_title: true
+      linenums: true
+      linenums_style: pymdownx-inline
+      anchor_linenums: true
+      line_spans: __span
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -215,6 +223,8 @@ plugins:
   - markdownextradata
   - redirects:
       redirect_maps:
+        'faq.md': 'faq/usbkvm.md'
+        'usb-kvm.md': 'faq/usbkvm.md'
         'product.md': 'product/minikvm/index.md'
         'contact.md': 'about.md'
         'community.md': 'https://discord.gg/sFTJD6a3R8'

@@ -1,0 +1,4 @@
+title: FAQs
+nav:
+    - KVM over USB: usbkvm.md
+    - Mini-KVM: minikvm_faq.md
