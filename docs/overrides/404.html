@@ -1,0 +1,15 @@
+{% extends "main.html" %}
+
+{% block content %}
+  <div style="text-align: center; margin-top: 50px;">
+      <h1>404 - Page Not Found</h1>
+      <p>The page does not exist. Redirecting to the homepage...</p>
+      <img src="/images/cover.png" alt="" style="max-width: 600px; height: auto;" draggable="false">
+
+      <script>
+          setTimeout(function() {
+              window.location.href = "/";
+          }, 1000); // Redirect after 1 second
+      </script>
+  </div>
+{% endblock %}
