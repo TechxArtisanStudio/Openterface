@@ -1,8 +1,7 @@
 title: FAQs
 nav:
-    - USB KVM: 
-        - usbkvm/index.md
-        - usbkvm/kvm-over-usb.md
-        - usbkvm/openterface.md
-    - Openterface Mini-KVM: 
-        - minikvm/index.md
+    - KVM-over-USB Solution: 
+        - What is USB KVM? : usbkvm/kvm-over-usb.md
+        - Why Openterface? : usbkvm/openterface.md
+    - Mini-KVM Series: 
+        - Openterface Mini-KVM : minikvm/op-minikvm.md
