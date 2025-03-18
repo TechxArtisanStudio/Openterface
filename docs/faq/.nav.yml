@@ -1,4 +1,8 @@
 title: FAQs
 nav:
-    - index.md
-    - Mini-KVM: minikvm.md
+    - USB KVM: 
+        - usbkvm/index.md
+        - usbkvm/kvm-over-usb.md
+        - usbkvm/openterface.md
+    - Openterface Mini-KVM: 
+        - minikvm/index.md
