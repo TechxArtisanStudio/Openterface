@@ -194,6 +194,9 @@ plugins:
   - awesome-nav
   - search
   - macros
+  - git-committers:
+      repository: TechxArtisanStudio/Openterface
+      branch: main
   - git-revision-date-localized:
       type: date
       locale: en
