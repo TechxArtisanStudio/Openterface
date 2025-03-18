@@ -7,3 +7,6 @@ site
 mkdocs_env/
 venv
 Openterface/
+.venv
+.cache
+.ipynb_checkpoints
