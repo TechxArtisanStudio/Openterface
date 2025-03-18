@@ -26,7 +26,7 @@ This section provides answers to questions about KVM-over-USB technology, our Op
     [:octicons-arrow-right-24: USB KVM vs IP KVM](/faq/usbkvm/kvm-over-usb#usb-vs-ip)  
     [:octicons-arrow-right-24: KVM Solutions Comparison](/faq/usbkvm/kvm-over-usb#kvm-comparison)  
 
--   :material-power-plug:{ .lg } __Openterface Products__
+-   :material-power-plug:{ .lg } __Why Openterface?__
 
     ---
 
@@ -36,5 +36,13 @@ This section provides answers to questions about KVM-over-USB technology, our Op
     [:octicons-arrow-right-24: Openterface Mini-KVM vs Other Solutions](/faq/usbkvm/openterface#minikvm-comparison)  
     [:octicons-arrow-right-24: Why choose Openterface?](/faq/usbkvm/openterface#why-openterface)  
     [:octicons-arrow-right-24: Technical Support](/faq/usbkvm/openterface#technical-support)  
+
+-   :material-usb:{ .lg } __Mini-KVM Series__
+
+    ---
+
+    Discover the features and benefits of our Mini-KVM series
+
+    [:octicons-arrow-right-24: FAQs for Openterface Mini-KVM](/faq/minikvm/op-minikvm)  
 
 </div>
