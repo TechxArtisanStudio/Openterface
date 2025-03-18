@@ -5,26 +5,26 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="A Feature-rich, Open-source and Community-driven KVM-over-USB Solution" name="description"/>
+<meta content="Detailed FAQ for our flagship Mini-KVM product, covering technical specifications, usage guides, and troubleshooting tips." name="description"/>
 <meta content="Openterface" name="author"/>
-<link href="https://openterface.com/basic/" rel="canonical"/>
-<link href="../images/favicon.png" rel="icon"/>
+<link href="https://openterface.com/faq/minikvm/" rel="canonical"/>
+<link href="../../images/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.6.1, mkdocs-material-9.6.9" name="generator"/>
-<title>Basic Control - Openterface | Bridging Interfaces to Open Possibilities</title>
-<link href="../assets/stylesheets/main.4af4bdda.min.css" rel="stylesheet"/>
-<link href="../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<title>FAQ for Openterface Mini-KVM - Openterface | Bridging Interfaces to Open Possibilities</title>
+<link href="../../assets/stylesheets/main.4af4bdda.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
 <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M64%2032C28.7%2032%200%2060.7%200%2096v320c0%2035.3%2028.7%2064%2064%2064h224V368c0-26.5%2021.5-48%2048-48h112V96c0-35.3-28.7-64-64-64zm384%20320H336c-8.8%200-16%207.2-16%2016v112l32-32%2064-64z%22/%3E%3C/svg%3E');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M96%200C43%200%200%2043%200%2096v320c0%2053%2043%2096%2096%2096h320c17.7%200%2032-14.3%2032-32s-14.3-32-32-32v-64c17.7%200%2032-14.3%2032-32V32c0-17.7-14.3-32-32-32H96m0%20384h256v64H96c-17.7%200-32-14.3-32-32s14.3-32%2032-32m32-240c0-8.8%207.2-16%2016-16h192c8.8%200%2016%207.2%2016%2016s-7.2%2016-16%2016H144c-8.8%200-16-7.2-16-16m16%2048h192c8.8%200%2016%207.2%2016%2016s-7.2%2016-16%2016H144c-8.8%200-16-7.2-16-16s7.2-16%2016-16%22/%3E%3C/svg%3E');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M256%20512a256%20256%200%201%200%200-512%20256%20256%200%201%200%200%20512m-40-176h24v-64h-24c-13.3%200-24-10.7-24-24s10.7-24%2024-24h48c13.3%200%2024%2010.7%2024%2024v88h8c13.3%200%2024%2010.7%2024%2024s-10.7%2024-24%2024h-80c-13.3%200-24-10.7-24-24s10.7-24%2024-24m40-208a32%2032%200%201%201%200%2064%2032%2032%200%201%201%200-64%22/%3E%3C/svg%3E');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M480%2032c0-12.9-7.8-24.6-19.8-29.6S434.5.2%20425.3%209.3L381.7%2053c-48%2048-113.1%2075-181%2075H64c-35.3%200-64%2028.7-64%2064v96c0%2035.3%2028.7%2064%2064%2064v128c0%2017.7%2014.3%2032%2032%2032h64c17.7%200%2032-14.3%2032-32V352h8.7c67.9%200%20133%2027%20181%2075l43.6%2043.6c9.2%209.2%2022.9%2011.9%2034.9%206.9s19.8-16.6%2019.8-29.6V300.3c18.6-8.8%2032-32.5%2032-60.4s-13.4-51.6-32-60.4zm-64%2076.7v262.6C357.2%20317.8%20280.5%20288%20200.7%20288H192v-96h8.7c79.8%200%20156.5-29.8%20215.3-83.3%22/%3E%3C/svg%3E');--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M438.6%20105.4c12.5%2012.5%2012.5%2032.8%200%2045.3l-256%20256c-12.5%2012.5-32.8%2012.5-45.3%200l-128-128c-12.5-12.5-12.5-32.8%200-45.3s32.8-12.5%2045.3%200L160%20338.7l233.4-233.3c12.5-12.5%2032.8-12.5%2045.3%200z%22/%3E%3C/svg%3E');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M256%20512a256%20256%200%201%200%200-512%20256%20256%200%201%200%200%20512m-86.2-346.7c7.9-22.3%2029.1-37.3%2052.8-37.3h58.3c34.9%200%2063.1%2028.3%2063.1%2063.1%200%2022.6-12.1%2043.5-31.7%2054.8L280%20264.4c-.2%2013-10.9%2023.6-24%2023.6-13.3%200-24-10.7-24-24v-13.5c0-8.6%204.6-16.5%2012.1-20.8l44.3-25.4c4.7-2.7%207.6-7.7%207.6-13.1%200-8.4-6.8-15.1-15.1-15.1h-58.3c-3.4%200-6.4%202.1-7.5%205.3l-.4%201.2c-4.4%2012.5-18.2%2019-30.6%2014.6s-19-18.2-14.6-30.6l.4-1.2zM224%20352a32%2032%200%201%201%2064%200%2032%2032%200%201%201-64%200%22/%3E%3C/svg%3E');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M256%2032c14.2%200%2027.3%207.5%2034.5%2019.8l216%20368c7.3%2012.4%207.3%2027.7.2%2040.1S486.3%20480%20472%20480H40c-14.3%200-27.6-7.7-34.7-20.1s-7-27.8.2-40.1l216-368C228.7%2039.5%20241.8%2032%20256%2032m0%20128c-13.3%200-24%2010.7-24%2024v112c0%2013.3%2010.7%2024%2024%2024s24-10.7%2024-24V184c0-13.3-10.7-24-24-24m32%20224a32%2032%200%201%200-64%200%2032%2032%200%201%200%2064%200%22/%3E%3C/svg%3E');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M459.1%2052.4%20442.6%206.5c-1.9-3.9-6.1-6.5-10.5-6.5s-8.5%202.6-10.4%206.5l-16.5%2045.9-46%2016.8c-4.3%201.6-7.3%205.9-7.2%2010.4%200%204.5%203%208.7%207.2%2010.2l45.7%2016.8%2016.8%2045.8c1.5%204.4%205.8%207.5%2010.4%207.5s8.9-3.1%2010.4-7.5l16.5-45.8%2045.7-16.8c4.2-1.5%207.2-5.7%207.2-10.2%200-4.6-3-8.9-7.2-10.4zm-132.4%2053c-12.5-12.5-32.8-12.5-45.3%200l-2.9%202.9c-22-8-45.8-12.3-70.5-12.3C93.1%2096%200%20189.1%200%20304s93.1%20208%20208%20208%20208-93.1%20208-208c0-24.7-4.3-48.5-12.2-70.5l2.9-2.9c12.5-12.5%2012.5-32.8%200-45.3l-80-80zM200%20192c-57.4%200-104%2046.6-104%20104v8c0%208.8-7.2%2016-16%2016s-16-7.2-16-16v-8c0-75.1%2060.9-136%20136-136h8c8.8%200%2016%207.2%2016%2016s-7.2%2016-16%2016z%22/%3E%3C/svg%3E');--md-admonition-icon--danger:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M416%20398.9c58.5-41.1%2096-104.1%2096-174.9C512%20100.3%20397.4%200%20256%200S0%20100.3%200%20224c0%2070.7%2037.5%20133.8%2096%20174.9V464c0%2026.5%2021.5%2048%2048%2048h48v-48c0-8.8%207.2-16%2016-16s16%207.2%2016%2016v48h64v-48c0-8.8%207.2-16%2016-16s16%207.2%2016%2016v48h48c26.5%200%2048-21.5%2048-48v-65.1M96%20256a64%2064%200%201%201%20128%200%2064%2064%200%201%201-128%200m256-64a64%2064%200%201%201%200%20128%2064%2064%200%201%201%200-128%22/%3E%3C/svg%3E');--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20640%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M320%200c17.7%200%2032%2014.3%2032%2032v64h120c39.8%200%2072%2032.2%2072%2072v272c0%2039.8-32.2%2072-72%2072H168c-39.8%200-72-32.2-72-72V168c0-39.8%2032.2-72%2072-72h120V32c0-17.7%2014.3-32%2032-32M208%20384c-8.8%200-16%207.2-16%2016s7.2%2016%2016%2016h32c8.8%200%2016-7.2%2016-16s-7.2-16-16-16zm96%200c-8.8%200-16%207.2-16%2016s7.2%2016%2016%2016h32c8.8%200%2016-7.2%2016-16s-7.2-16-16-16zm96%200c-8.8%200-16%207.2-16%2016s7.2%2016%2016%2016h32c8.8%200%2016-7.2%2016-16s-7.2-16-16-16zM264%20256a40%2040%200%201%200-80%200%2040%2040%200%201%200%2080%200m152%2040a40%2040%200%201%200%200-80%2040%2040%200%201%200%200%2080M48%20224h16v192H48c-26.5%200-48-21.5-48-48v-96c0-26.5%2021.5-48%2048-48m544%200c26.5%200%2048%2021.5%2048%2048v96c0%2026.5-21.5%2048-48%2048h-16V224z%22/%3E%3C/svg%3E');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M288%200H128c-17.7%200-32%2014.3-32%2032s14.3%2032%2032%2032v132.8c0%2011.8-3.3%2023.5-9.5%2033.5L10.3%20406.2C3.6%20417.2%200%20429.7%200%20442.6%200%20480.9%2031.1%20512%2069.4%20512h309.2c38.3%200%2069.4-31.1%2069.4-69.4%200-12.8-3.6-25.4-10.3-36.4L329.5%20230.4c-6.2-10.1-9.5-21.7-9.5-33.5V64c17.7%200%2032-14.3%2032-32S337.7%200%20320%200zm-96%20196.8V64h64v132.8c0%2023.7%206.6%2046.9%2019%2067.1l34.5%2056.1h-171l34.5-56.1c12.4-20.2%2019-43.4%2019-67.1%22/%3E%3C/svg%3E');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%206.7.2%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202024%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M0%20216C0%20149.7%2053.7%2096%20120%2096h8c17.7%200%2032%2014.3%2032%2032s-14.3%2032-32%2032h-8c-30.9%200-56%2025.1-56%2056v8h64c35.3%200%2064%2028.7%2064%2064v64c0%2035.3-28.7%2064-64%2064H64c-35.3%200-64-28.7-64-64V216m256%200c0-66.3%2053.7-120%20120-120h8c17.7%200%2032%2014.3%2032%2032s-14.3%2032-32%2032h-8c-30.9%200-56%2025.1-56%2056v8h64c35.3%200%2064%2028.7%2064%2064v64c0%2035.3-28.7%2064-64%2064h-64c-35.3%200-64-28.7-64-64V216%22/%3E%3C/svg%3E');}</style>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-<link href="../css/timeago.css" rel="stylesheet"/>
-<link href="../assets/stylesheets/extra.css" rel="stylesheet"/>
-<link href="../assets/stylesheets/signup_form.css" rel="stylesheet"/>
-<script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../css/timeago.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/extra.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/signup_form.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
 <script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-EKZEH6QYWT"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-EKZEH6QYWT",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-EKZEH6QYWT",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
 <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
-<link href="../assets/stylesheets/custom.css" rel="stylesheet"/>
-<link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><style>
+<link href="../../assets/stylesheets/custom.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><style>
     html.glightbox-open { overflow: initial; height: 100%; }
     .gslide-title { margin-top: 0px; user-select: text; }
     .gslide-desc { color: #666; user-select: text; }
@@ -33,13 +33,13 @@
     .gdesc-inner { font-size: 0.75rem; }
     body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
     body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></link><meta content="Basic Control" name="title"/><meta content="website" property="og:type"/><meta content="https://openterface.com/basic" property="og:url"/><meta content="Basic Control" property="og:title"/><meta content="" property="og:description"/><meta content="../images/product/use-case-pc-angled-view.jpg" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://openterface.com/basic" property="twitter:url"/><meta content="Basic Control" property="twitter:title"/><meta content="" property="twitter:description"/><meta content="../images/product/use-case-pc-angled-view.jpg" property="twitter:image"/></head>
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></link><meta content="FAQ for Openterface Mini-KVM" name="title"/><meta content="website" property="og:type"/><meta content="https://openterface.com/faq/minikvm" property="og:url"/><meta content="FAQ for Openterface Mini-KVM" property="og:title"/><meta content="Detailed FAQ for our flagship Mini-KVM product, covering technical specifications, usage guides, and troubleshooting tips." property="og:description"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://openterface.com/faq/minikvm" property="twitter:url"/><meta content="FAQ for Openterface Mini-KVM" property="twitter:title"/><meta content="Detailed FAQ for our flagship Mini-KVM product, covering technical specifications, usage guides, and troubleshooting tips." property="twitter:description"/></head>
 <body data-md-color-accent="custom" data-md-color-primary="deep-orange" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#basic-control">
+<a class="md-skip" href="#faqs-for-openterface-mini-kvm">
           Skip to content
         </a>
 </div>
@@ -47,8 +47,8 @@
 </div>
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
 <nav aria-label="Header" class="md-header__inner md-grid">
-<a aria-label="Openterface | Bridging Interfaces to Open Possibilities" class="md-header__button md-logo" data-md-component="logo" href=".." title="Openterface | Bridging Interfaces to Open Possibilities">
-<img alt="logo" src="../assets/app-logo.png"/>
+<a aria-label="Openterface | Bridging Interfaces to Open Possibilities" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Openterface | Bridging Interfaces to Open Possibilities">
+<img alt="logo" src="../../assets/app-logo.png"/>
 </a>
 <label class="md-header__button md-icon" for="__drawer">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
@@ -63,7 +63,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Basic Control
+              FAQ for Openterface Mini-KVM
             
           </span>
 </div>
@@ -187,7 +187,7 @@
 <div class="md-grid">
 <ul class="md-tabs__list">
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="..">
+<a class="md-tabs__link" href="../..">
         
   
     
@@ -197,7 +197,7 @@
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../faq/usbkvm/">
+<a class="md-tabs__link" href="../usbkvm/">
         
   
     
@@ -207,7 +207,7 @@
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../product/minikvm/">
+<a class="md-tabs__link" href="../../product/minikvm/">
           
   
     
@@ -217,7 +217,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../app/">
+<a class="md-tabs__link" href="../../app/">
         
   
     
@@ -227,7 +227,7 @@
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../use-cases/">
+<a class="md-tabs__link" href="../../use-cases/">
         
   
     
@@ -237,7 +237,7 @@
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../blog/">
+<a class="md-tabs__link" href="../../blog/">
         
   
     
@@ -257,7 +257,7 @@
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../compliance/">
+<a class="md-tabs__link" href="../../compliance/">
         
   
     
@@ -277,7 +277,7 @@
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../about/">
+<a class="md-tabs__link" href="../../about/">
         
   
     
@@ -298,8 +298,8 @@
 <div class="md-sidebar__inner">
 <nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
-<a aria-label="Openterface | Bridging Interfaces to Open Possibilities" class="md-nav__button md-logo" data-md-component="logo" href=".." title="Openterface | Bridging Interfaces to Open Possibilities">
-<img alt="logo" src="../assets/app-logo.png"/>
+<a aria-label="Openterface | Bridging Interfaces to Open Possibilities" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Openterface | Bridging Interfaces to Open Possibilities">
+<img alt="logo" src="../../assets/app-logo.png"/>
 </a>
     Openterface | Bridging Interfaces to Open Possibilities
   </label>
@@ -315,7 +315,7 @@
 </div>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="..">
+<a class="md-nav__link" href="../..">
 <span class="md-ellipsis">
     Home
     
@@ -323,7 +323,7 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../faq/usbkvm/">
+<a class="md-nav__link" href="../usbkvm/">
 <span class="md-ellipsis">
     FAQs
     
@@ -348,7 +348,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_3_1" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="../product/minikvm/">
+<a class="md-nav__link" href="../../product/minikvm/">
 <span class="md-ellipsis">
     Mini-KVM
     
@@ -365,7 +365,7 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../product/minikvm/whats-in-the-box/">
+<a class="md-nav__link" href="../../product/minikvm/whats-in-the-box/">
 <span class="md-ellipsis">
     What's In The Box
     
@@ -373,7 +373,7 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../product/minikvm/features/">
+<a class="md-nav__link" href="../../product/minikvm/features/">
 <span class="md-ellipsis">
     Features &amp; Capabilities
     
@@ -381,7 +381,7 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../product/minikvm/specifications/">
+<a class="md-nav__link" href="../../product/minikvm/specifications/">
 <span class="md-ellipsis">
     Specifications
     
@@ -389,7 +389,7 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../product/minikvm/how-to-connect/">
+<a class="md-nav__link" href="../../product/minikvm/how-to-connect/">
 <span class="md-ellipsis">
     How to Connect
     
@@ -397,7 +397,7 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../product/minikvm/usb-switch/">
+<a class="md-nav__link" href="../../product/minikvm/usb-switch/">
 <span class="md-ellipsis">
     Switchable USB Port
     
@@ -405,7 +405,7 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../product/minikvm/extension-pins/">
+<a class="md-nav__link" href="../../product/minikvm/extension-pins/">
 <span class="md-ellipsis">
     Extension Pins
     
@@ -413,7 +413,7 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../usb-kvm">
+<a class="md-nav__link" href="../../usb-kvm">
 <span class="md-ellipsis">
     How It Works
     
@@ -426,7 +426,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_3_2" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="../product/accessories/">
+<a class="md-nav__link" href="../../product/accessories/">
 <span class="md-ellipsis">
     Accessories
     
@@ -446,7 +446,7 @@
 </nav>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../app/">
+<a class="md-nav__link" href="../../app/">
 <span class="md-ellipsis">
     Software
     
@@ -454,7 +454,7 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../use-cases/">
+<a class="md-nav__link" href="../../use-cases/">
 <span class="md-ellipsis">
     Use Cases
     
@@ -462,7 +462,7 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../blog/">
+<a class="md-nav__link" href="../../blog/">
 <span class="md-ellipsis">
     Blog
     
@@ -478,7 +478,7 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../compliance/">
+<a class="md-nav__link" href="../../compliance/">
 <span class="md-ellipsis">
     Compliance
     
@@ -494,7 +494,7 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../about/">
+<a class="md-nav__link" href="../../about/">
 <span class="md-ellipsis">
     About
     
@@ -508,76 +508,229 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1 id="basic-control">Basic Control<a class="headerlink" href="#basic-control" title="Permanent link">¶</a></h1>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../images/product/use-case-pc-angled-view.jpg"><img alt="use-case-pc-angled-view" src="../images/product/use-case-pc-angled-view.jpg"/></a></p>
-<h2 id="compatibility">💻 Compatibility<a class="headerlink" href="#compatibility" title="Permanent link">¶</a></h2>
+<h1 id="faqs-for-openterface-mini-kvm">FAQs for Openterface Mini-KVM<a class="headerlink" href="#faqs-for-openterface-mini-kvm" title="Permanent link">¶</a></h1>
+<p>Welcome to the dedicated FAQ for our flagship product, the <strong>Openterface Mini-KVM</strong>. For general questions about KVM technology or other Openterface products, please visit our <a href="/faq/">main FAQ page</a>.</p>
+<h2 id="list-of-questions">List of Questions<a class="headerlink" href="#list-of-questions" title="Permanent link">¶</a></h2>
+<h5 id="basic">Basic<a class="headerlink" href="#basic" title="Permanent link">¶</a></h5>
 <ul>
-<li><strong>Host Software</strong>: Install our <a href="/app">host app</a> for macOS, Windows, and Linux to control your target devices. Ensure your host system is compatible with the corresponding app version.</li>
-<li><strong>Target Device Compatibility</strong>: No pre-installation or configuration is required on the target device. As long as the target device supports UI operations with video output (e.g., HDMI, VGA) and has a USB port to receive emulated keyboard and mouse control (HID) signals, it can be used. Supported target platforms include Windows, macOS, Linux, Android, and iOS.</li>
+<li><a href="#flagship-product">What makes the Mini-KVM our flagship product?</a></li>
+<li><a href="#compare-lite">How does it compare to our Lite versions?</a></li>
+<li><a href="#key-features">What are its key features?</a></li>
+<li><a href="#mini-kvm-host-compatibility">Which host computers are compatible?</a></li>
+<li><a href="#mini-kvm-target-compatibility">What about target device compatibility?</a></li>
+<li><a href="#mini-kvm-support">Are technical support and documentation available?</a></li>
 </ul>
-<h2 id="mouse-control">🖱 Mouse Control<a class="headerlink" href="#mouse-control" title="Permanent link">¶</a></h2>
+<h5 id="software">Software<a class="headerlink" href="#software" title="Permanent link">¶</a></h5>
 <ul>
-<li>
-<p><strong>Absolute Mode</strong>: The target's mouse cursor is mapped directly to a specific position on the host's screen via our app. This means that wherever you move the host's mouse within our app, the target's mouse will follow the same movement. Note that there might be a slight delay in the cursor movements. You can choose to hide or display the host's mouse cursor while it is on our app.</p>
-</li>
-<li>
-<p><strong>Relative Mode</strong>: The target's mouse movement is relative to the current position of the host's mouse. This means that moving the host's mouse will shift the target's cursor by a certain distance in the same direction, without a fixed start or end point. You can exit this relative mode using a specific shortcut.</p>
-</li>
+<li><a href="#host-app-download">Where can I download the host applications?</a></li>
+<li><a href="#host-app-chromeos">Is there a host app supporting ChromeOS?</a></li>
+<li><a href="#host-app-ios">Is there a host app supporting Apple's mobile devices?</a></li>
+<li><a href="#f11-macos-issue">What if F11 doesn't work on macOS applications?</a></li>
 </ul>
-<h2 id="keyboard">⌨️ Keyboard<a class="headerlink" href="#keyboard" title="Permanent link">¶</a></h2>
-<p>When the app is focused, you can type anything directly, and these keystrokes will be passed to the target's computer.</p>
-<h2 id="bios-level-access">⚙️ BIOS-Level Access<a class="headerlink" href="#bios-level-access" title="Permanent link">¶</a></h2>
+<h5 id="switchable-usb-port-file-transfer">Switchable USB Port &amp; File Transfer<a class="headerlink" href="#switchable-usb-port-file-transfer" title="Permanent link">¶</a></h5>
 <ul>
-<li><strong>BIOS Access</strong>: Use our app to access the BIOS of your target devices. This allows you to control and configure settings directly from the BIOS.</li>
+<li><a href="#file-transfer">Can the Mini-KVM support file transfers?</a></li>
+<li><a href="#usb-port-toggle">Can the switchable USB-A port be toggled in software?</a></li>
+<li><a href="#usb-2-vs-3">Why USB 2.0 instead of USB 3.0?</a></li>
 </ul>
-<details class="tip">
-<summary>Key strokes to enter BIOS for different motherboards</summary>
+<h5 id="technical">Technical<a class="headerlink" href="#technical" title="Permanent link">¶</a></h5>
 <ul>
-<li>F2: Dell, Lenovo, ASUS, Acer, Toshiba, Samsung, Sony</li>
-<li>F1: Lenovo</li>
-<li>Del: ASUS, Acer, Gigabyte, MSI</li>
-<li>F10: HP</li>
-<li>Assist button: Sony</li>
-<li>Option (⌥) key: Apple (to access the start manager)</li>
+<li><a href="#mini-kvm-open-source">Is the Mini-KVM open-source?</a></li>
+<li><a href="#bios-access">Can I access a device's BIOS settings?</a></li>
+<li><a href="#video-data-transmission">How is video/data transmitted?</a></li>
+<li><a href="#mini-kvm-power">How does the Mini-KVM handle power?</a></li>
 </ul>
+<h5 id="control-mechanism">Control Mechanism<a class="headerlink" href="#control-mechanism" title="Permanent link">¶</a></h5>
+<ul>
+<li><a href="#wireless-version">Will there be a version with wireless or Ethernet connectivity?</a></li>
+<li><a href="#mini-kvm-vs-other-kvms">How is this different from other KVM solutions?</a></li>
+<li><a href="#ps2-compatibility">Does it work with a PS/2 computer?</a></li>
+<li><a href="#multiple-mini-kvm">Can I use multiple Mini-KVMs with one master computer?</a></li>
+<li><a href="#power-control">Can it power on/off the connected computer?</a></li>
+</ul>
+<h5 id="video-related">Video Related<a class="headerlink" href="#video-related" title="Permanent link">¶</a></h5>
+<ul>
+<li><a href="#video-latency-resolution">What about video latency and resolution?</a></li>
+<li><a href="#gaming-compatibility">Is it suitable for gaming?</a></li>
+<li><a href="#future-display-support">Will future versions support higher-quality displays?</a></li>
+<li><a href="#no-ip-streaming">Why doesn't it stream video over local IP?</a></li>
+<li><a href="#video-output-support">Can it work with VGA, DVI, DisplayPort, etc.?</a></li>
+</ul>
+<h5 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">¶</a></h5>
+<ul>
+<li><a href="#usb-hub-issues">Why does it sometimes have issues with USB hubs?</a></li>
+<li><a href="#unstable-issues">What if the app doesn't display the target screen or input is unresponsive?</a></li>
+</ul>
+<h5 id="more">More<a class="headerlink" href="#more" title="Permanent link">¶</a></h5>
+<ul>
+<li><a href="#contribute">How can I contribute to this project?</a></li>
+<li><a href="#review-request">Want to review our gadget?</a></li>
+<li><a href="#future-features">What advanced features are planned?</a></li>
+<li><a href="#ai-integration">How does it integrate with AI?</a></li>
+<li><a href="#mini-kvm-accessories">What accessories are available?</a></li>
+</ul>
+<h3 id="basic_1">Basic<a class="headerlink" href="#basic_1" title="Permanent link">¶</a></h3>
+<h4 id="flagship-product">What makes the Mini-KVM our flagship product?<a class="headerlink" href="#flagship-product" title="Permanent link">¶</a></h4>
+<p>The Openterface Mini-KVM represents our most feature-complete KVM solution, offering:</p>
+<ul>
+<li>Full HD video capture</li>
+<li>BIOS-level access</li>
+<li>Switchable USB port for file transfers</li>
+<li>Broad OS compatibility</li>
+<li>Open-source hardware and software</li>
+<li>Active community support</li>
+</ul>
+<h4 id="compare-lite">How does it compare to our Lite versions?<a class="headerlink" href="#compare-lite" title="Permanent link">¶</a></h4>
+<p>While our Lite versions focus on specific use cases (VGA or HDMI), the flagship Mini-KVM offers:</p>
+<ul>
+<li>More versatile video input options</li>
+<li>Advanced file transfer capabilities</li>
+<li>Enhanced software features</li>
+<li>Future expandability options</li>
+<li>Premium build quality</li>
+</ul>
+<p>For simpler needs, consider our <a href="/product/lite/">Lite versions</a>.</p>
+<h4 id="key-features">What are its key features?<a class="headerlink" href="#key-features" title="Permanent link">¶</a></h4>
+<ul>
+<li><strong>Video</strong>: Up to 1080p@30Hz capture</li>
+<li><strong>Control</strong>: Full keyboard and mouse emulation</li>
+<li><strong>File Transfer</strong>: Switchable USB 2.0 port</li>
+<li><strong>Power</strong>: USB-powered (no external adapter needed)</li>
+<li><strong>Software</strong>: Cross-platform host applications</li>
+<li><strong>Compatibility</strong>: Works with most operating systems</li>
+<li><strong>Open Source</strong>: Both hardware and software</li>
+</ul>
+<h4 id="mini-kvm-host-compatibility">What host computers are compatible?<a class="headerlink" href="#mini-kvm-host-compatibility" title="Permanent link">¶</a></h4>
+<p>To use this mini-KVM, the host computer must install one of these <a href="/quick-start/#install-host-application">host applications</a> to support MacOS, Windows, Linux and Android.</p>
+<h4 id="mini-kvm-target-compatibility">What target devices are compatible?<a class="headerlink" href="#mini-kvm-target-compatibility" title="Permanent link">¶</a></h4>
+<p>No pre-installation or configuration is required on the target device. As long as the target device supports UI operations with video output (e.g., HDMI, VGA) and has a USB port to receive emulated keyboard and mouse control (HID) signals, it can be used. Thus, supported target device platforms include Windows, MacOS, Linux, Android, and iOS.</p>
+<h4 id="mini-kvm-support">Will there be technical support and documentation?<a class="headerlink" href="#mini-kvm-support" title="Permanent link">¶</a></h4>
+<p>Extensive documentation for the Openterface Mini-KVM can be found on our website at <a href="/">Openterface.com</a>. We continuously update these resources to optimize your experience with the device.
+For technical support, we invite you to join our <a href="/community/">community</a> for sharing queries and insights among fellow users and our expert team. If your issue remains unresolved, our team is available to provide further technical assistance. You can reach out via this email: info@techxartisan.com.</p>
+<h3 id="software_1">Software<a class="headerlink" href="#software_1" title="Permanent link">¶</a></h3>
+<h4 id="host-app-download">Where can I download the host applications?<a class="headerlink" href="#host-app-download" title="Permanent link">¶</a></h4>
+<p>Visit our <a href="/quick-start/#install-host-application">Install Host Application page</a> for official downloads.</p>
+<details class="warning">
+<summary>Privacy &amp; Security: Be cautious when using third-party host app</summary>
+<p>As our project is open source, you may find alternative versions of host applications compatible with our Mini-KVM developed by others. While these can offer additional features, please ensure you review their security and privacy practices. <strong>The Openterface Team cannot guarantee or be responsible for the safety of third-party applications</strong>.</p>
 </details>
-<h2 id="sound">🔊 Sound<a class="headerlink" href="#sound" title="Permanent link">¶</a></h2>
+<h4 id="host-app-chromeos">Is there a host app supporting ChromeOS?<a class="headerlink" href="#host-app-chromeos" title="Permanent link">¶</a></h4>
+<p>Yes, but it is currently under development. We are planning to create a web extension designed to support both Chrome and Firefox browsers. Although its development priority is slightly lower than that for mainstream operating systems such as macOS, Windows, and Linux, we are actively working on it. Please bear with us and stay tuned for updates! If you're keen to help out with our development, come hang out with us in the community or shoot us an email!</p>
+<h4 id="host-app-ios">Is there a host app supporting Apple's mobile devices?<a class="headerlink" href="#host-app-ios" title="Permanent link">¶</a></h4>
+<p>We are currently exploring compatibility with Apple's mobile systems, such as iOS and iPadOS. Due to Apple's stringent controls, these platforms may not support wired connections with third-party devices. However, the situation could change, or there might be potential workarounds. If you have any insights or suggestions, we welcome you to join our community to discuss them with us. We are committed to enhancing the convenience of our device by supporting as many systems as possible. If you're keen to help out with our development, come hang out with us in the community or shoot us an email!</p>
+<h4 id="f11-macos-issue">What if F11 doesn't work on macOS applications?<a class="headerlink" href="#f11-macos-issue" title="Permanent link">¶</a></h4>
+<p>On macOS, pressing F11 shows the macOS desktop instead of passing the F11 key to the app and the target computer. To fix this, you can unbind F11 from the "Show Desktop" function. Here's how:</p>
+<ol>
+<li>Go to System Settings.</li>
+<li>Select Desktop &amp; Dock.</li>
+<li>Scroll down and click the "Shortcuts…" button.</li>
+<li>Find "Show Desktop" and set it to the hyphen (-) at the bottom of the dropdown list.</li>
+<li>This change will let the F11 key pass through to your application on the target computer.</li>
+</ol>
+<h3 id="switchable-usb-port-and-file-transfer">Switchable USB Port and File Transfer<a class="headerlink" href="#switchable-usb-port-and-file-transfer" title="Permanent link">¶</a></h3>
+<h4 id="file-transfer">Can the Mini-KVM support file transfers?<a class="headerlink" href="#file-transfer" title="Permanent link">¶</a></h4>
+<p>Yes, the Openterface Mini-KVM includes a switchable USB-A port shared between the host and target devices.</p>
+<details class="note">
+<summary>How to share a USB stick/disk between the Host and Target devices?</summary>
+<p>Files can be transferred between the host and target by following these steps:</p>
+<ol>
+<li>Mount a USB stick drive on the host when the small black switch is set to the side of the host's Type-C port.</li>
+<li>Copy the files onto this mounted drive.</li>
+<li>After copying, unmount the drive without physically unplugging it.</li>
+<li>Flip the small black switch to the other side. This action switches the USB-A port's connection to the target.</li>
+<li>Mount the USB stick on the target device and copy/move files off the drive, completing the transfer process of files from host to target.</li>
+</ol>
+<p>This method can also be used in the opposite direction.</p>
+</details>
+<details class="note">
+<summary>Remember to eject the flash drive before toggling the switch</summary>
+<p>If the USB port is being used by a flash drive, ensure you eject the flash drive before toggling the switch to transfer the port's use to another computer.</p>
+</details>
+<h4 id="usb-port-toggle">Can the switchable USB-A port be toggled in software?<a class="headerlink" href="#usb-port-toggle" title="Permanent link">¶</a></h4>
+<p>With the hardware upgrade to v1.9, yes! We're currently working on coding this feature into our app. Once it's in place, it will support both physical flipping and toggling at the software level. Check with our dev team on Discord to know more about this progress.</p>
+<h4 id="usb-2-vs-3">Why USB 2.0 instead of USB 3.0?<a class="headerlink" href="#usb-2-vs-3" title="Permanent link">¶</a></h4>
+<p>USB 2.0 is fully capable of handling video capture at 1080p@30Hz, transmitting HID signals (for keyboard and mouse), and managing standard-speed file transfers between the target and host computers. This makes our product a speedy, lightweight, and portable solution, exactly as designed.</p>
+<p>Using USB 3.0 would make the PCB design much more complex and significantly increase production costs. Additionally, while USB 3.0 does offer faster file transfers, it also generates more heat, which could shorten the lifespan of the device.</p>
+<p>We are considering the application of USB 3.0 for the next version, targeting more professional use scenarios and stationary KVM solutions.</p>
+<h3 id="technical_1">Technical<a class="headerlink" href="#technical_1" title="Permanent link">¶</a></h3>
+<h4 id="mini-kvm-open-source">Is the Mini-KVM open-source?<a class="headerlink" href="#mini-kvm-open-source" title="Permanent link">¶</a></h4>
+<p>Yes! The Openterface Mini-KVM is fully open-sourced in both <a href="/how-it-works/#explore-hardware-details">hardware</a> and <a href="/quick-start/#install-host-application">software</a>, certified by <a href="https://certification.oshwa.org/cn000015.html">OSHWA</a>, and supported by <a href="/community/">a vibrant community</a>. If you are interested in <a href="/contributing/">contributing</a>, please contact us at info@techxartisan.com. Stay tuned!</p>
+<h4 id="bios-access">Can I access a device's BIOS settings?<a class="headerlink" href="#bios-access" title="Permanent link">¶</a></h4>
+<p>Yes, the direct connection of the Openterface Mini-KVM enables access to low-level BIOS or firmware settings.</p>
+<p>This feature stands in contrast to software-based KVM solutions or remote control applications like TeamViewer and VNC, which are typically not capable of BIOS-level interactions.</p>
+<h4 id="why-doesnt-the-keyboard-control-work-at-the-bios-level-for-some-older-target-computers">Why doesn't the keyboard control work at the BIOS level for some older target computers?<a class="headerlink" href="#why-doesnt-the-keyboard-control-work-at-the-bios-level-for-some-older-target-computers" title="Permanent link">¶</a></h4>
+<p>It seems that some old computers' BIOS can't recognize our device's USB hub, which can cause issues with our emulated keyboard and mouse not working properly at the BIOS level. We're keeping an eye on this problem.</p>
+<p>We've had a report that on one specific HP computer, the HP Engage Flex Pro, the keyboard doesn't work at the BIOS screen, though it functions normally once the operating system boots up.</p>
+<p>If you encounter the same issue, please report it to us via a GitHub issue.</p>
+<h4 id="video-data-transmission">How is video/data transmitted?<a class="headerlink" href="#video-data-transmission" title="Permanent link">¶</a></h4>
+<p>Video data is captured via HDMI and transmitted over USB 2.0 to the host computer for display. The switchable USB 2.0 port allows USB drive or other USB device sharing between the target and the host.</p>
+<h4 id="mini-kvm-power">How does the Mini-KVM handle power?<a class="headerlink" href="#mini-kvm-power" title="Permanent link">¶</a></h4>
+<p>The device does not require an external power supply, as it is designed to be powered through its USB Type-C connections from the host, enhancing its portability. In scenarios where the target device is a low-power micro-computer, such as a Raspberry Pi, it could be powered through the host via the Mini-KVM's switchable USB port. However, this is not recommended. The standard method of operation is to have an external power supply to the target device.</p>
+<h4 id="can-i-diy-this-device">Can I DIY this device?<a class="headerlink" href="#can-i-diy-this-device" title="Permanent link">¶</a></h4>
+<p>Absolutely! We're a bunch of passionate makers who love to DIY, and we are making sure this project is open source in both hardware and software. You can technically build it from scratch. We're even thinking about posting a guide on how to DIY a breadboard version of our product that would also be compatible with our software.</p>
+<p>Our community is already experimenting with different hardware versions. Check out our community posts to learn more, or share your own DIY experiences! It could really enrich our community. Plus, you might find that with a few tweaks to the code, our software could work seamlessly with your creative DIY setup!</p>
+<h3 id="control-mechanism_1">Control Mechanism<a class="headerlink" href="#control-mechanism_1" title="Permanent link">¶</a></h3>
+<h4 id="wireless-version">Will there be a version with wireless or Ethernet connectivity?<a class="headerlink" href="#wireless-version" title="Permanent link">¶</a></h4>
+<p>Currently, we're not planning to add wireless or Ethernet connectivity to our Openterface products. We're focused on providing fast, stable control over USB directly to your target device, so you don't have to worry about network issues. </p>
+<p>But hey, we're always open to feedback! If you think there's a real need for this feature, or if you're struggling to find a good KVM-over-IP solution, drop us an email: info@techxartisan.com. And remember, if we decide to expand our connectivity options, our <a href="/reddit">community</a> will be the first to know.</p>
+<h4 id="mini-kvm-vs-other-kvms">How is this different from other KVM solutions?<a class="headerlink" href="#mini-kvm-vs-other-kvms" title="Permanent link">¶</a></h4>
+<p>Curious about how the Openterface Mini-KVM stacks up against other solutions? Check out our detailed <a href="/comparison">Comparison</a> page.</p>
+<h4 id="ps2-compatibility">Does it work with a PS/2 computer?<a class="headerlink" href="#ps2-compatibility" title="Permanent link">¶</a></h4>
+<p>No. We are aware that there are still many old headless computers out there that require PS/2 keyboards and mice. As far as we know, there isn't yet an elegant solution for converting USB HID signals to split into PS/2 keyboard and mouse signals. We are still investigating this matter and considering how to support PS/2 in future versions of the Mini-KVM. If you know of any solutions that could elegantly work with our Mini-KVM, please share them with us. Thank you!</p>
+<h4 id="multiple-mini-kvm">Can I use multiple Mini-KVMs with one master computer?<a class="headerlink" href="#multiple-mini-kvm" title="Permanent link">¶</a></h4>
+<p>Yes, you can! Our Mini-KVM can technically handle this, but we're still tweaking the code and running tests. We're focusing on making sure that our software can automatically link up the keyboard and mouse with the right video source when you use more than one Mini-KVM at a time. Also, we're sprucing up the software's UI to make it better for this kind of setup. Stay tuned to our community updates for when we roll out this feature!</p>
+<h4 id="power-control">Can it power on/off the connected computer?<a class="headerlink" href="#power-control" title="Permanent link">¶</a></h4>
+<p>Our device doesn't support ATX (power on/off control for the target computer). We designed it to be portable, quick for troubleshooting, and stable for local control. It's really meant to be used when you're right there with your laptop, managing one or several target computers. We may build a pro version in the future with ATX and more features.</p>
+<h3 id="video-related_1">Video Related<a class="headerlink" href="#video-related_1" title="Permanent link">¶</a></h3>
+<h4 id="video-latency-resolution">What about video latency and resolution?<a class="headerlink" href="#video-latency-resolution" title="Permanent link">¶</a></h4>
+<p>Our device handles 1080p video with under 140 milliseconds of latency, making your control experience smooth and seamless.</p>
+<h4 id="gaming-compatibility">Is it suitable for gaming?<a class="headerlink" href="#gaming-compatibility" title="Permanent link">¶</a></h4>
+<p>The current design focuses on technical and IT operations, providing reliable control for device configuration and troubleshooting rather than high-resolution gaming. While it's great for many tasks, this mini-KVM might not meet the display needs of high-quality gaming.</p>
+<h4 id="future-display-support">Will future versions support higher-quality displays?<a class="headerlink" href="#future-display-support" title="Permanent link">¶</a></h4>
+<p>We know a lot of you are looking for top-notch display features. While it's not our main focus right now, based on your feedback, we're considering adding enhanced display capabilities in a professional version of the Openterface Mini-KVM.</p>
+<h4 id="no-ip-streaming">Why doesn't it stream video over local IP?<a class="headerlink" href="#no-ip-streaming" title="Permanent link">¶</a></h4>
+<p>The Openterface Mini-KVM has been engineered to ensure reliable and stable performance through wired connections, using HDMI and USB. While it is technically feasible to stream video over a network via our host applications, we are considering adding a VLC, and even VNC feature to our host applications in the future.</p>
+<h4 id="video-output-support">Can it work with VGA, DVI, DisplayPort, etc.?<a class="headerlink" href="#video-output-support" title="Permanent link">¶</a></h4>
+<p>Sort of. The Openterface Mini-KVM captures video through an HDMI port. However, you can use various video adapters like <a href="/use-cases/#streamlined-server-management">VGA-to-HDMI</a>, <a href="/use-cases/#unified-control-for-diverse-devices">DVI-to-HDMI</a>, <a href="/use-cases/#simplified-setup-for-tech-enthusiasts">miniHDMI-to-HDMI</a>, or DP-to-HDMI, to connect different video sources.</p>
+<h3 id="troubleshooting_1">Troubleshooting<a class="headerlink" href="#troubleshooting_1" title="Permanent link">¶</a></h3>
+<h4 id="usb-hub-issues">Why does it sometimes have issues with USB hubs?<a class="headerlink" href="#usb-hub-issues" title="Permanent link">¶</a></h4>
+<p>When a USB hub is used on the target side, the Openterface Mini-KVM might become unstable. This is because the Openterface Mini-KVM relies primarily on the target port for power. If the USB hub connected to the target is fully loaded, it may cause a significant voltage drop, leading to instability in the Openterface Mini-KVM due to insufficient power. If you need to use a USB hub on the target side, consider using a powered USB hub with an external power supply to ensure stable operation.</p>
+<h4 id="unstable-issues">What if the app doesn't display the target screen or input is unresponsive?<a class="headerlink" href="#unstable-issues" title="Permanent link">¶</a></h4>
+<p>If you encounter instability with the Openterface Mini-KVM—such as the app not displaying the target's screen or the inability to control the mouse and keyboard—try disconnecting all the cables. After a brief moment, reconnect the cables and try again. This simple reset often resolves connection issues.</p>
+<h3 id="more_1">More<a class="headerlink" href="#more_1" title="Permanent link">¶</a></h3>
+<h4 id="contribute">How can I contribute to this project?<a class="headerlink" href="#contribute" title="Permanent link">¶</a></h4>
+<p>Absolutely! There are loads of ways you can chip in:</p>
 <ul>
-<li><strong>Audio Transmission</strong>: The target computer's audio is transmitted via the HDMI input port of the mini-KVM. When using our app, the sound from the target computer will be played through the host computer, ensuring you hear everything seamlessly.</li>
+<li>If you're into coding, help us out by reporting and fixing bugs. </li>
+<li>Good with words and tech? You could lend a hand with our documentation. </li>
+<li>And if you're a wizard with languages, why not help translate our docs to help more folks get on board?</li>
+<li>If design's your thing, we're always looking for fresh takes on graphic design, app UI, and making our device even more user-friendly. </li>
+<li>Fancy helping to keep our community buzzing? We could use your skills there too.</li>
 </ul>
-<h2 id="video">🎥 Video<a class="headerlink" href="#video" title="Permanent link">¶</a></h2>
-<ul>
-<li><strong>Video Display</strong>: Our app allows you to view the target computer's screen seamlessly. It supports video resolutions up to 1920x1080 at 30Hz for display within the app. The maximum video input supported is up to 3840x2160 at 30Hz via HDMI. Additionally, with the use of an adapter, it can also accommodate VGA, Micro HDMI, DVI, and other video input sources.</li>
-</ul>
-<h2 id="switchable-usb-port">🔄 Switchable USB Port<a class="headerlink" href="#switchable-usb-port" title="Permanent link">¶</a></h2>
-<ul>
-<li><strong>Using the USB Port</strong>: The mini-KVM features a switchable USB-A 2.0 port that can be toggled between the host and target computers, but not both simultaneously.</li>
-<li><strong>Switching Methods</strong>: <ul>
-<li>Hardware Switch: A physical toggle on the device</li>
-<li>Software Switch: A button in the host application</li>
-</ul>
-</li>
-<li><strong>Switch Logic</strong>: For more detailed information on the logic of how the switchable USB port operates, including the interaction between hardware and software switches, initial setup, operational states, and state transitions, please refer to the <a href="usb-switch.md">USB Switch documentation</a>.</li>
-</ul>
-<div class="admonition warning">
-<p class="admonition-title">Important</p>
-<ul>
-<li>Remember to eject any connected USB drives before switching the port's connection.</li>
-<li>The USB port has power limitations. Do not connect devices that require a lot of power, as this may result in unstable operation or potential damage.</li>
-</ul>
-</div>
+<p>Your support and <a href="/contributing/">contributions</a> are what keep Openterface Mini-KVM growing. Thanks for being part of our adventure! 🚀 Got the urge to help but don't see a perfect fit? Just shoot us an email!</p>
+<h4 id="review-request">Want to review our gadget?<a class="headerlink" href="#review-request" title="Permanent link">¶</a></h4>
+<p>Hey, we love making noise and spreading the word about our Mini-KVM! If you're from the press or rocking it on social media and fancy taking our product for a spin, we're all ears. Whether you're into detailed reviews, unboxing videos, or just want to give us a shoutout, we're here for it and let's make some waves together! 🎉 Just drop us an email NOW!</p>
+<h4 id="future-features">What advanced features are planned?<a class="headerlink" href="#future-features" title="Permanent link">¶</a></h4>
+<p>We are excited about the potential of the mini-KVM and are committed to documenting all our current ideas in a comprehensive roadmap. This roadmap will outline advanced features and future developments we envision for the device. We look forward to developing these features in collaboration with our community. Stay tuned for more updates as we continue to grow and innovate together.</p>
+<h4 id="ai-integration">How does it integrate with AI?<a class="headerlink" href="#ai-integration" title="Permanent link">¶</a></h4>
+<p>Our ultimate goal is to enable AI to control target computers, and the Openterface plays a crucial role in this vision. Inspired by projects like <a href="https://github.com/OthersideAI/self-operating-computer">OthersideAI's self-operating computer</a>, we aim for the mini-KVM to act as an extension of the 'hands' (providing keyboard and mouse control) and 'eyes' (capturing the video source) for the host computer. If the host computer is powerful enough, it could potentially emulate the capabilities seen in the 2013 movie "Her". While this is a future aspiration, it highlights the exciting possibilities we see for the mini-KVM.</p>
+<h4 id="mini-kvm-accessories">What accessories are available?<a class="headerlink" href="#mini-kvm-accessories" title="Permanent link">¶</a></h4>
+<p>We offer a range of accessories to enhance your experience with the Openterface Mini-KVM. Check out our <a href="accessories.md">Accessories</a> section for more details on available products, including our VGA to HDMI Converter Cable.</p>
+<hr/>
+<p>Your curiosity and support fuel our progress, and we want to ensure that every one of your questions finds an answer. Please note that as time progresses, the content above in our FAQs may become outdated. If your query isn't covered in this FAQ, always check our website <a href="/">openterface.com</a> for the most current information. Also please don't hesitate to join our enthusiastic community. We're active on our Subreddit at <a href="/reddit">/r/Openterface_miniKVM/</a> and our Discord server, <a href="/discord">TechxArtisan</a>, where you can ask questions, share ideas, or just have a chat about all things tech.</p>
+<p>Moreover, feel free to reach out directly to our dedicated team by sending an email to info@techxartisan.com. We love hearing from you and are always here to help!</p>
 <aside class="md-source-file">
 <span class="md-source-file__fact">
 <span class="md-icon" title="Last update">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
 </span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="September 20, 2024 10:40:57"><span class="timeago" datetime="2024-09-20T10:40:57+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="September 20, 2024 10:40:57">2024-09-20</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="March 18, 2025 08:41:47"><span class="timeago" datetime="2025-03-18T08:41:47+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="March 18, 2025 08:41:47">2025-03-18</span>
 </span>
 <span class="md-source-file__fact">
 <span class="md-icon" title="Created">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"></path></svg>
 </span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="June 12, 2024 06:47:05"><span class="timeago" datetime="2024-06-12T06:47:05+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="June 12, 2024 06:47:05">2024-06-12</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="January 8, 2024 02:21:54"><span class="timeago" datetime="2024-01-08T02:21:54+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="January 8, 2024 02:21:54">2024-01-08</span>
 </span>
 <span class="md-source-file__fact">
 <span class="md-icon" title="Contributors">
@@ -743,12 +896,12 @@
 </aside>
 </div>
 <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
-<script id="__config" type="application/json">{"base": "..", "features": ["toc.integrate", "navigation.instant", "navigation.instant.progress", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer", "navigation.indexes", "navigation.tracking", "navigation.expand", "search.suggest", "search.highlight", "content.tabs", "content.code.annotation", "content.code.copy", "content.tabs.link", "last_updated"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
-<script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
-<script src="../js/timeago.min.js"></script>
-<script src="../js/timeago_mkdocs_material.js"></script>
-<script src="../assets/javascripts/extra.js"></script>
-<script src="../assets/javascripts/custom.js"></script>
+<script id="__config" type="application/json">{"base": "../..", "features": ["toc.integrate", "navigation.instant", "navigation.instant.progress", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer", "navigation.indexes", "navigation.tracking", "navigation.expand", "search.suggest", "search.highlight", "content.tabs", "content.code.annotation", "content.code.copy", "content.tabs.link", "last_updated"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
+<script src="../../js/timeago.min.js"></script>
+<script src="../../js/timeago_mkdocs_material.js"></script>
+<script src="../../assets/javascripts/extra.js"></script>
+<script src="../../assets/javascripts/custom.js"></script>
 <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
 document$.subscribe(() => { lightbox.reload() });
 </script></body>
