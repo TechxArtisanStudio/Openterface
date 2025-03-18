@@ -4,3 +4,4 @@ mkdocs-redirects
 mkdocs-markdownextradata-plugin
 mkdocs-awesome-nav
 mkdocs-ultralytics-plugin
+mkdocs-macros-plugin
