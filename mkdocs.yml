@@ -196,7 +196,7 @@ plugins:
   - macros
   - git-revision-date-localized:
       type: date
-      date_format: '%d %b %Y'
+      locale: en
   - ultralytics:
       verbose: True
       enabled: True
