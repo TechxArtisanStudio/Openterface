@@ -223,8 +223,6 @@ plugins:
   - markdownextradata
   - redirects:
       redirect_maps:
-        'faq.md': 'faq/usbkvm.md'
-        'usb-kvm.md': 'faq/usbkvm.md'
         'product.md': 'product/minikvm/index.md'
         'contact.md': 'about.md'
         'community.md': 'https://discord.gg/sFTJD6a3R8'
