@@ -1,5 +1,5 @@
 ---
-title: FAQ for Openterface Mini-KVM
+title: FAQs for Openterface Mini-KVM
 description: Detailed FAQ for our flagship Mini-KVM product, covering technical specifications, usage guides, and troubleshooting tips.
 ---
 

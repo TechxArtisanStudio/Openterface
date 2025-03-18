@@ -1,4 +1,9 @@
-# Frequently Asked Questions
+---
+title: FAQs for USB KVM & Openterface
+description: Detailed FAQ for our flagship Mini-KVM product, covering technical specifications, usage guides, and troubleshooting tips.
+---
+
+# FAQ for USB KVM & Openterface
 
 Welcome to our FAQ hub! This section provides answers to questions about KVM-over-USB technology, our Openterface brand, and how our products fit into various scenarios. Whether you're a newcomer or a seasoned professional, these FAQs are designed to guide you.
 
