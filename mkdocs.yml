@@ -52,6 +52,7 @@ theme:
    - content.code.annotation
    - content.code.copy
    - content.tabs.link
+   - last_updated
 
   palette:
     # Light mode
@@ -193,6 +194,9 @@ plugins:
   - awesome-nav
   - search
   - macros
+  - git-revision-date-localized:
+      type: date
+      date_format: '%d %b %Y'
   - ultralytics:
       verbose: True
       enabled: True

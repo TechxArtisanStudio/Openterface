@@ -2,7 +2,6 @@
 title: "Extension Pins"
 description: "Explore Openterface Mini-KVM's extension pins for custom development. Learn about pin configuration, hardware modifications, and open-source development opportunities. Includes safety guidelines and community collaboration options."
 keywords: "Mini-KVM extension pins, KVM hardware development, developer mode, open source KVM, hardware customization, USB pin configuration, KVM modifications, DIY KVM projects, hardware hacking, KVM development guide"
-date: 2025-03-18
 ---
 
 # **Extension Pins** | Developer Mode | Openterface Mini-KVM
@@ -56,5 +55,3 @@ As we continue to develop and experiment, we'll be updating this section with mo
 3. **Join the Discussion**: Connect with other developers and enthusiasts to brainstorm and collaborate.
 
 Let's build and innovate together!
-
-*Updated: {{ page.meta.date }}*
