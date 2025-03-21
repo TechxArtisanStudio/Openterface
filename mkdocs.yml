@@ -223,8 +223,13 @@ plugins:
   - markdownextradata
   - redirects:
       redirect_maps:
-        'faq.md': 'faq/usbkvm/index.md'
+        'how-it-works.md': 'faq/usbkvm/kvm-over-usb.md'
         'product.md': 'product/minikvm/index.md'
+        'whats-in-the-box.md': 'product/minikvm/whats-in-the-box.md'
+        'quick-start.md': 'product/minikvm/index.md'
+        'open-hardware.md': 'https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware'
+        'basic/usb-switch.md': 'product/minikvm/usb-switch.md'
+        'acknowledgements.md': 'contributing.md'
         'contact.md': 'about.md'
         'community.md': 'https://discord.gg/sFTJD6a3R8'
         'discord.md': 'https://discord.gg/sFTJD6a3R8'
