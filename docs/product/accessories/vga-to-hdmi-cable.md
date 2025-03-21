@@ -21,12 +21,12 @@ This product converts VGA video and integrates audio into HDMI, enabling easy co
 ![VGA to HDMI Cable Light](vga2hdmi-connect-light.svg#only-light)
 
 !!! warning "Power Required for Operation"
-The USB connector **must be plugged in** to power the internal VGA-to-HDMI converter chip.  
- If the USB is not connected, the cable will not function, and the HDMI display will show a **black screen**.
+    The USB connector **must be plugged in** to power the internal VGA-to-HDMI converter chip.  
+    If the USB is not connected, the cable will not function, and the HDMI display will show a **black screen**.
 
 !!! important "One-Way Conversion Only"
-This cable **only converts from VGA (source) to HDMI (display)**.  
- It does **not** support HDMI to VGA conversion. Connecting HDMI as input and VGA as output will **not work**.
+    This cable **only converts from VGA (source) to HDMI (display)**.  
+    It does **not** support HDMI to VGA conversion. Connecting HDMI as input and VGA as output will **not work**.
 
 For full setup instructions, please refer to the [manual PDF](https://github.com/TechxArtisanStudio/Openterface/blob/main/product-printed-materials/vga2hdmi-manual-300-100-2040928.pdf).
 
