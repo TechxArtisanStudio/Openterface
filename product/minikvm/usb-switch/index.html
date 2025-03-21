@@ -500,13 +500,6 @@
     </span>
 </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#why-it-matters">
-<span class="md-ellipsis">
-      Why It Matters
-    </span>
-</a>
-</li>
 </ul>
 </nav>
 </li>
@@ -704,32 +697,64 @@
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
 <h1 id="usb-port-switching-guide-openterface-mini-kvm"><strong>USB Port Switching Guide</strong> | Openterface Mini-KVM<a class="headerlink" href="#usb-port-switching-guide-openterface-mini-kvm" title="Permanent link">¶</a></h1>
-<p>The mini-KVM device has a single USB-A 2.0 port that can connect to either the host or the target computer, but never both at once. Control comes from two switches:</p>
+<p>The mini-KVM device has a single USB-A 2.0 port that can <strong>connect to either</strong> the host or the target computer, but <strong>never both at once</strong>. </p>
+<p>Control comes from two switches:</p>
 <ul>
 <li><strong>Hardware Switch</strong>: A physical two-position toggle on the device <a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="/images/shell-icons/toggle-h-t.svg#only-light"><img alt="Toggle Switch" src="/images/shell-icons/toggle-h-t.svg#only-light" style="height:20px"/></a> <a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="/images/shell-icons/toggle-h-t_1.svg#only-dark"><img alt="Toggle Switch" src="/images/shell-icons/toggle-h-t_1.svg#only-dark" style="height:20px"/></a> (inward = host, outward = target).  </li>
 <li><strong>Software Switch</strong>: A toggle button in the host app that instantly redirects the USB port to either host or target.</li>
 </ul>
-<p>At startup, the device defaults to the host connection. The software detects the hardware switch's position and syncs accordingly.</p>
 <h2 id="operational-states">Operational States<a class="headerlink" href="#operational-states" title="Permanent link">¶</a></h2>
-<p>Because both hardware and software can toggle the connection, there are four possible states:</p>
-<ol>
-<li><strong>State 1 (Synced to Host)</strong><br/>
-   Hardware and software both set to Host; port is connected to the Host.  </li>
-<li><strong>State 2 (Synced to Target)</strong><br/>
-   Hardware and software both set to Target; port is connected to the Target.  </li>
-<li><strong>State 3 (Out of Sync, Port → Host)</strong><br/>
-   Hardware is set to Target, software is set to Host; port remains with Host.  </li>
-<li><strong>State 4 (Out of Sync, Port → Target)</strong><br/>
-   Hardware is set to Host, software is set to Target; port remains with Target.</li>
-</ol>
-<p>Switching from these states follows a straightforward logic: any manual toggle of the hardware switch updates the software display and moves the system to a "synced" state. Any click on the software switch changes the connection immediately, potentially leaving the hardware and software out of sync until the hardware switch is moved again.</p>
+<p>The USB-A port's connection depends on both the <strong>Hardware Switch</strong> and the <strong>Software Switch</strong> positions. The following table summarizes the four possible states:</p>
+<table>
+<thead>
+<tr>
+<th><strong>State</strong></th>
+<th><strong>Hardware Switch</strong></th>
+<th><strong>Software Switch</strong></th>
+<th><strong>Port Connected To</strong></th>
+<th><strong>Sync Status</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Host</td>
+<td>Host</td>
+<td>Host</td>
+<td>Synced</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Target</td>
+<td>Target</td>
+<td>Target</td>
+<td>Synced</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Target</td>
+<td>Host</td>
+<td>Host</td>
+<td>Out of Sync (→ Host)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Host</td>
+<td>Target</td>
+<td>Target</td>
+<td>Out of Sync (→ Target)</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Synced</strong> means hardware and software settings match.  </li>
+<li><strong>Out of Sync</strong> means software overrides the hardware switch temporarily until the hardware switch is moved again.</li>
+</ul>
+<p>Any manual movement of the hardware switch will update the software display and return to a synced state.</p>
+<p>At startup, the device defaults to the host connection. The software detects the hardware switch's position and syncs accordingly.</p>
 <div class="admonition warning">
 <p class="admonition-title">Remember to eject the flash drive before toggling the switch</p>
 <p>If the USB port is being used by a flash drive, ensure you eject the flash drive before toggling the switch to transfer the port's use to another computer.</p>
-</div>
-<div class="admonition warning">
-<p class="admonition-title">USB power limitations</p>
-<p>The power supplied by the USB port depends on the Host motherboard. It is not recommended to connect USB devices that require a lot of power. Typically, the power consumption should not exceed 1.5W. Connecting high-power devices may result in unstable operation or potential damage.</p>
 </div>
 <div class="admonition note">
 <p class="admonition-title">User Guidance</p>
@@ -745,14 +770,12 @@
 </li>
 </ul>
 </div>
-<h2 id="why-it-matters">Why It Matters<a class="headerlink" href="#why-it-matters" title="Permanent link">¶</a></h2>
-<p>Software-driven USB switching (new in v1.9) lays groundwork for future remote-access features, such as KVM-over-IP, enabling remote users to share the USB port between the target and host—ideal for file transfers without physical intervention.</p>
 <aside class="md-source-file">
 <span class="md-source-file__fact">
 <span class="md-icon" title="Last update">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
 </span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="March 17, 2025 05:53:26"><span class="timeago" datetime="2025-03-17T05:53:26+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="March 17, 2025 05:53:26">2025-03-17</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="March 21, 2025 11:11:36"><span class="timeago" datetime="2025-03-21T11:11:36+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="March 21, 2025 11:11:36">2025-03-21</span>
 </span>
 <span class="md-source-file__fact">
 <span class="md-icon" title="Created">
