@@ -49,38 +49,49 @@ Compared to network-dependent solutions, USB KVMs allow IT professionals and tec
 
 ### Why choose USB KVM over IP KVM? {: #usb-vs-ip }
 
-It's important to understand that KVM-over-USB and KVM-over-IP serve different purposes and use cases, each with its own strengths:
+<div class="grid cards" markdown>
 
-**KVM-over-USB (like Openterface products)**
+-   :material-usb:{ .lg } **KVM-over-USB** (e.g. Openterface Mini-KVM)
 
--   **Mobility-Focused**: Designed for technicians who move between different systems
--   **Quick Access**: True plug-and-play functionality without network setup
--   **Troubleshooting-Oriented**: Perfect for quick configurations or repairs where you connect, fix, and move on
--   **Direct Connection**: Lower latency through USB interface
--   **Network-Free**: Ideal for secure environments or when network infrastructure is unavailable
--   **Cost-Effective**: Generally more affordable due to simpler hardware requirements
+    ***
 
-**KVM-over-IP (like PiKVM)**
+    -   **Mobility-Focused**: Designed for technicians who move between different systems
+    -   **Quick Access**: True plug-and-play functionality without network setup
+    -   **Troubleshooting-Oriented**: Perfect for quick configurations or repairs where you connect, fix, and move on
+    -   **Direct Connection**: Lower latency through USB interface
+    -   **Network-Free**: Ideal for secure environments or when network infrastructure is unavailable
+    -   **Cost-Effective**: Generally more affordable due to simpler hardware requirements
 
--   **Stationary Setup**: Designed for permanent installation
--   **Remote Access**: Allows control from anywhere with network connectivity
--   **Long-term Monitoring**: Better suited for continuous system observation
--   **Infrastructure-Dependent**: Requires stable network configuration
--   **Multiple User Access**: Can support multiple operators accessing the same target
+-   :material-lan:{ .lg } **KVM-over-IP** (e.g. PiKVM, JetKVM)
 
-**Choose KVM-over-USB when:**
+    ***
 
--   You need to quickly troubleshoot multiple systems
--   Network setup is unavailable or restricted
--   Portability is crucial
--   Direct, low-latency control is required
+    -   **Stationary Setup**: Designed for permanent installation
+    -   **Remote Access**: Allows control from anywhere with network connectivity
+    -   **Long-term Monitoring**: Better suited for continuous system observation
+    -   **Infrastructure-Dependent**: Requires stable network configuration
+    -   **Multiple User Access**: Can support multiple operators accessing the same target
 
-**Choose KVM-over-IP when:**
+-   :material-check-circle-outline:{ .lg } **Choose USB KVM when…**
 
--   You need permanent remote access
--   Multiple users need to access the same system
--   The target system requires constant monitoring
--   Network infrastructure is stable and secure
+    ***
+
+    -   Turn your laptop into a KVM console
+    -   You need to quickly troubleshoot multiple systems
+    -   Network setup is unavailable or restricted
+    -   Portability is crucial
+    -   Direct, low-latency control is required
+
+-   :material-cloud-outline:{ .lg } **Choose IP KVM when…**
+
+    ***
+
+    -   You need permanent remote access
+    -   Multiple users need to access the same system
+    -   The target system requires constant monitoring
+    -   Network infrastructure is stable and secure
+
+</div>
 
 ### How do different KVM solutions compare? {: #kvm-comparison }
 
