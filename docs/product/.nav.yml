@@ -10,6 +10,8 @@ nav:
         - minikvm/usb-switch.md
         - minikvm/extension-pins.md
         - How It Works: usb-kvm
+        - Mini-KVM's FAQs: /faq/minikvm/op-minikvm/
+        - Why Openterface: /faq/usbkvm/openterface/
     - Accessories:
         - accessories/index.md
         - VGA to HDMI Cable 1m: accessories/vga-to-hdmi-cable.md
