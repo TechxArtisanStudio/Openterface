@@ -1,1 +1,6 @@
 title: App
+nav:
+  - index.md
+  - qt/index.md
+  - macos/index.md
+  - android/index.md
