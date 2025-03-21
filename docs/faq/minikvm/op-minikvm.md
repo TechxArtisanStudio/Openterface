@@ -13,7 +13,6 @@ Welcome to the dedicated FAQ for our flagship product, the **Openterface Mini-KV
 ##### Basic
 
 - [What makes the Mini-KVM our flagship product?](#flagship-product)
-- [How does it compare to our Lite versions?](#compare-lite)
 - [What are its key features?](#key-features)
 - [Which host computers are compatible?](#mini-kvm-host-compatibility)
 - [What about target device compatibility?](#mini-kvm-target-compatibility)
@@ -53,6 +52,7 @@ Welcome to the dedicated FAQ for our flagship product, the **Openterface Mini-KV
 - [Is it suitable for gaming?](#gaming-compatibility)
 - [Will future versions support higher-quality displays?](#future-display-support)
 - [Why doesn't it stream video over local IP?](#no-ip-streaming)
+- [How about KVM control over the internet?](#no-internet-control)
 - [Can it work with VGA, DVI, DisplayPort, etc.?](#video-output-support)
 
 ##### Troubleshooting
@@ -73,27 +73,18 @@ Welcome to the dedicated FAQ for our flagship product, the **Openterface Mini-KV
 #### What makes the Mini-KVM our flagship product? {: #flagship-product }
 The Openterface Mini-KVM represents our most feature-complete KVM solution, offering:
 
-- Full HD video capture
-- BIOS-level access
-- Switchable USB port for file transfers
-- Broad OS compatibility
-- Open-source hardware and software
-- Active community support
+- Plug-and-play functionality for fast, stable troubleshooting  
+- No dependency on network connectivity  
+- Full BIOS-level access  
+- Switchable USB port for seamless file transfers  
+- Broad compatibility across operating systems  
+- Open-source hardware and software  
+- Backed by an active and supportive community
 
-#### How does it compare to our Lite versions? {: #compare-lite }
-While our Lite versions focus on specific use cases (VGA or HDMI), the flagship Mini-KVM offers:
+#### What are Openterface MiniKVM's key features? {: #key-features }
 
-- More versatile video input options
-- Advanced file transfer capabilities
-- Enhanced software features
-- Future expandability options
-- Premium build quality
-
-For simpler needs, consider our [Lite versions](/product/lite/).
-
-#### What are its key features? {: #key-features }
-
-- **Video**: Up to 1080p@30Hz capture
+- **Video Input**: Up to 3840x2160@30Hz, via HDMI (Note: With the use of an adapter, it can also support VGA, Micro HDMI, DVI, and other video input sources)
+- **Supported Video Resolutions**: Up to 1920x1080@30Hz
 - **Control**: Full keyboard and mouse emulation
 - **File Transfer**: Switchable USB 2.0 port
 - **Power**: USB-powered (no external adapter needed)
@@ -102,7 +93,7 @@ For simpler needs, consider our [Lite versions](/product/lite/).
 - **Open Source**: Both hardware and software
 
 #### What host computers are compatible? {: #mini-kvm-host-compatibility }
-To use this mini-KVM, the host computer must install one of these [host applications](/quick-start/#install-host-application) to support MacOS, Windows, Linux and Android.
+To use this mini-KVM, the host computer must install one of these [host applications](/app) to support **MacOS, Windows, Linux and Android**.
 
 #### What target devices are compatible? {: #mini-kvm-target-compatibility }
 No pre-installation or configuration is required on the target device. As long as the target device supports UI operations with video output (e.g., HDMI, VGA) and has a USB port to receive emulated keyboard and mouse control (HID) signals, it can be used. Thus, supported target device platforms include Windows, MacOS, Linux, Android, and iOS.
@@ -110,20 +101,20 @@ No pre-installation or configuration is required on the target device. As long a
 #### Will there be technical support and documentation? {: #mini-kvm-support }
 
 Extensive documentation for the Openterface Mini-KVM can be found on our website at [Openterface.com](/). We continuously update these resources to optimize your experience with the device.
-For technical support, we invite you to join our [community](/community/) for sharing queries and insights among fellow users and our expert team. If your issue remains unresolved, our team is available to provide further technical assistance. You can reach out via this email: info@techxartisan.com.
+For technical support, we invite you to join our [community](/community/) for sharing queries and insights among fellow users and our expert team. If your issue remains unresolved, our team is available to provide further technical assistance. You can reach out via this email: [info@openterface.com](mailto:info@openterface.com).
 
 ### Software
 
 #### Where can I download the host applications? {: #host-app-download }
 
-Visit our [Install Host Application page](/quick-start/#install-host-application) for official downloads.
+Visit our [Install Host Application page](/quick-start/#install-host-application) for official downloads to support **MacOS, Windows, Linux and Android**. 
 
 ??? warning "Privacy & Security: Be cautious when using third-party host app"
     As our project is open source, you may find alternative versions of host applications compatible with our Mini-KVM developed by others. While these can offer additional features, please ensure you review their security and privacy practices. **The Openterface Team cannot guarantee or be responsible for the safety of third-party applications**.
 
-#### Is there a host app supporting ChromeOS? {: #host-app-chromeos }
+#### Is there a web app I can use on Chrome or other platforms? {: #host-app-chromeos }
 
-Yes, but it is currently under development. We are planning to create a web extension designed to support both Chrome and Firefox browsers. Although its development priority is slightly lower than that for mainstream operating systems such as macOS, Windows, and Linux, we are actively working on it. Please bear with us and stay tuned for updates! If you're keen to help out with our development, come hang out with us in the community or shoot us an email!
+Yes! One of our awesome community members, [Kashall](https://github.com/kashalls/openterface-viewer/), built **a lightweight open-source web app** you can use directly in your browser: [openterface-viewer.pages.dev](openterface-viewer.pages.dev). It’s not yet part of our official documentation, but our dev team gave it a spin and found it solid, easy to use, and super handy — especially on Chrome or when you want something quick and browser-based. Give it a try!
 
 #### Is there a host app supporting Apple's mobile devices? {: #host-app-ios }
 
@@ -143,25 +134,11 @@ On macOS, pressing F11 shows the macOS desktop instead of passing the F11 key to
 
 #### Can the Mini-KVM support file transfers? {: #file-transfer }
 
-Yes, the Openterface Mini-KVM includes a switchable USB-A port shared between the host and target devices.
-
-??? note "How to share a USB stick/disk between the Host and Target devices?"
-    Files can be transferred between the host and target by following these steps:
-
-    1. Mount a USB stick drive on the host when the small black switch is set to the side of the host's Type-C port.
-    2. Copy the files onto this mounted drive.
-    3. After copying, unmount the drive without physically unplugging it.
-    4. Flip the small black switch to the other side. This action switches the USB-A port's connection to the target.
-    5. Mount the USB stick on the target device and copy/move files off the drive, completing the transfer process of files from host to target.
-
-    This method can also be used in the opposite direction.
-
-??? note "Remember to eject the flash drive before toggling the switch"
-    If the USB port is being used by a flash drive, ensure you eject the flash drive before toggling the switch to transfer the port's use to another computer.
+Yes, the Openterface Mini-KVM includes [a switchable USB-A port](/product/minikvm/usb-switch) shared between the host and target devices.
 
 #### Can the switchable USB-A port be toggled in software? {: #usb-port-toggle }
 
-With the hardware upgrade to v1.9, yes! We're currently working on coding this feature into our app. Once it's in place, it will support both physical flipping and toggling at the software level. Check with our dev team on Discord to know more about this progress.
+With the hardware upgrade to v1.9, yes! It supports both physical flipping and toggling at the software level.
 
 #### Why USB 2.0 instead of USB 3.0? {: #usb-2-vs-3 }
 
@@ -198,18 +175,18 @@ The device does not require an external power supply, as it is designed to be po
 #### Can I DIY this device?
 Absolutely! We're a bunch of passionate makers who love to DIY, and we are making sure this project is open source in both hardware and software. You can technically build it from scratch. We're even thinking about posting a guide on how to DIY a breadboard version of our product that would also be compatible with our software.
 
-Our community is already experimenting with different hardware versions. Check out our community posts to learn more, or share your own DIY experiences! It could really enrich our community. Plus, you might find that with a few tweaks to the code, our software could work seamlessly with your creative DIY setup!
+Our community is already experimenting with different hardware versions. Check out our community posts to learn more, share your own DIY experiences, or even join our [USB DIY Contest](https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024), co-hosted with Crowd Supply! Plus, you might find that with a few tweaks to the code, our software could work seamlessly with your creative DIY setup!
 
 ### Control Mechanism
 
 #### Will there be a version with wireless or Ethernet connectivity? {: #wireless-version }
 Currently, we're not planning to add wireless or Ethernet connectivity to our Openterface products. We're focused on providing fast, stable control over USB directly to your target device, so you don't have to worry about network issues. 
 
-But hey, we're always open to feedback! If you think there's a real need for this feature, or if you're struggling to find a good KVM-over-IP solution, drop us an email: info@techxartisan.com. And remember, if we decide to expand our connectivity options, our [community](/reddit) will be the first to know.
+But hey, we're always open to feedback! If you think there's a real need for this feature, or if you're struggling to find a good KVM-over-IP solution, drop us an email: info@openterface.com. And remember, if we decide to expand our connectivity options, our [community](/community) will be the first to know.
 
 #### How is this different from other KVM solutions? {: #mini-kvm-vs-other-kvms }
 
-Curious about how the Openterface Mini-KVM stacks up against other solutions? Check out our detailed [Comparison](/comparison) page.
+Curious about how the Openterface Mini-KVM stacks up against other solutions? Check out our detailed [Comparison](/faq/usbkvm/openterface/#comparison-openterface-mini-kvm-vs-other-kvm-solutions) page.
 
 #### Does it work with a PS/2 computer? {: #ps2-compatibility }
 
@@ -221,17 +198,22 @@ Yes, you can! Our Mini-KVM can technically handle this, but we're still tweaking
 
 #### Can it power on/off the connected computer? {: #power-control }
 
-Our device doesn't support ATX (power on/off control for the target computer). We designed it to be portable, quick for troubleshooting, and stable for local control. It's really meant to be used when you're right there with your laptop, managing one or several target computers. We may build a pro version in the future with ATX and more features.
+Not directly — MiniKVM doesn’t have built-in ATX power control. However, it *does* include [extension pins](/product/minikvm/extension-pins/) that open up the possibility for an add-on module to handle ATX power switching.  
+
+While our dev team hasn’t prioritized this hardware expansion yet, it’s definitely on our radar. If you're into hardware development and would like to contribute or prototype an ATX extension, we’d love to hear from you! Join the community and help shape what’s next.
+
 
 ### Video Related
 
 #### What about video latency and resolution? {: #video-latency-resolution }
 
-Our device handles 1080p video with under 140 milliseconds of latency, making your control experience smooth and seamless.
+Our device handles 1080p video output with under 140 milliseconds of latency, making your control experience smooth and seamless. Check out its [specifications](/product/minikvm/specifications/).
 
 #### Is it suitable for gaming? {: #gaming-compatibility }
 
-The current design focuses on technical and IT operations, providing reliable control for device configuration and troubleshooting rather than high-resolution gaming. While it's great for many tasks, this mini-KVM might not meet the display needs of high-quality gaming.
+The current design is geared toward technical and IT operations — it’s built for reliable device control, configuration, and troubleshooting rather than high-resolution or latency-sensitive gaming.
+
+That said, some of our more playful and curious users have already tested it with lighter games like Minecraft or emulators, and it works just fine for those! So while it’s not designed for AAA gaming, casual or retro-style games are definitely doable.
 
 #### Will future versions support higher-quality displays? {: #future-display-support }
 
@@ -239,7 +221,15 @@ We know a lot of you are looking for top-notch display features. While it's not 
 
 #### Why doesn't it stream video over local IP? {: #no-ip-streaming }
 
-The Openterface Mini-KVM has been engineered to ensure reliable and stable performance through wired connections, using HDMI and USB. While it is technically feasible to stream video over a network via our host applications, we are considering adding a VLC, and even VNC feature to our host applications in the future.
+The Openterface Mini-KVM is designed for stable, low-latency control via direct HDMI and USB connections. While it's technically possible to stream video over a local network, our current focus is on reliability through wired connections. That said, we are exploring features like VLC or even VNC integration in our host apps for future releases.
+
+#### How about KVM control over the internet? {: #no-internet-control }
+
+As for streaming over the internet, that’s a whole different challenge — it involves hosting remote services, handling security, and rethinking parts of our business model. It’s not off the table, but it’s a big step.
+
+That said, since our Mini-KVM relies on your host computer, you can already pair it with existing remote desktop tools to control your target computer remotely.
+
+We’re always open to ideas — if you have thoughts on how you'd like remote streaming to work, feel free to email us or join the conversation in the community!
 
 #### Can it work with VGA, DVI, DisplayPort, etc.? {: #video-output-support }
 
@@ -279,14 +269,18 @@ We are excited about the potential of the mini-KVM and are committed to document
 
 #### How does it integrate with AI? {: #ai-integration }
 
-Our ultimate goal is to enable AI to control target computers, and the Openterface plays a crucial role in this vision. Inspired by projects like [OthersideAI's self-operating computer](https://github.com/OthersideAI/self-operating-computer), we aim for the mini-KVM to act as an extension of the 'hands' (providing keyboard and mouse control) and 'eyes' (capturing the video source) for the host computer. If the host computer is powerful enough, it could potentially emulate the capabilities seen in the 2013 movie "Her". While this is a future aspiration, it highlights the exciting possibilities we see for the mini-KVM.
+Our long-term vision is for Openterface Mini-KVM to serve as the physical interface layer between AI agents and real-world computers. Inspired by early projects like [OthersideAI’s self-operating computer](https://github.com/OthersideAI/self-operating-computer), and now further validated by recent breakthroughs like [Anthropic’s Claude 3.5 models](https://www.anthropic.com/news/3-5-models-and-computer-use), this vision is quickly becoming more tangible.
+
+Mini-KVM acts as the “eyes” and “hands” — capturing real-time video from a target machine and enabling keyboard/mouse input via USB. Combined with a capable host computer running an AI agent, this setup could allow LLMs to observe, interpret, and operate full desktops — even across platforms — without needing any software installed on the target machine.
+
+We’re still in the early stages of this integration, but the possibilities are expanding fast. If you’re experimenting with AI agents and want to explore this space together, we’d love to hear from you!
 
 #### What accessories are available? {: #mini-kvm-accessories }
 
-We offer a range of accessories to enhance your experience with the Openterface Mini-KVM. Check out our [Accessories](accessories.md) section for more details on available products, including our VGA to HDMI Converter Cable.
+We offer a range of [accessories](/product/accessories/) to enhance your experience with the Openterface Mini-KVM. Check out our [TxA Shop](https://shop.techxartisan.com/) for more details on available products, including our VGA to HDMI Converter Cable.
 
 --------
 
-Your curiosity and support fuel our progress, and we want to ensure that every one of your questions finds an answer. Please note that as time progresses, the content above in our FAQs may become outdated. If your query isn't covered in this FAQ, always check our website [openterface.com](/) for the most current information. Also please don't hesitate to join our enthusiastic community. We're active on our Subreddit at [/r/Openterface_miniKVM/](/reddit) and our Discord server, [TechxArtisan](/discord), where you can ask questions, share ideas, or just have a chat about all things tech.
+Your curiosity and support fuel our progress, and we want to ensure that every one of your questions finds an answer. Please note that as time progresses, the content above in our FAQs may become outdated. If your query isn't covered in this FAQ, always check our website [openterface.com](/) for the most current information. Also please don't hesitate to join our enthusiastic community. We're active on our Subreddit at [/r/Openterface_miniKVM/](/reddit) and our [Discord Openterface](/dicord) server, where you can ask questions, share ideas, or just have a chat about all things tech.
 
 Moreover, feel free to reach out directly to our dedicated team by sending an email to info@techxartisan.com. We love hearing from you and are always here to help!

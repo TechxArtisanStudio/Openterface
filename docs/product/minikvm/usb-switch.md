@@ -34,6 +34,17 @@ At startup, the device defaults to the host connection. The software detects the
 !!! warning "Remember to eject the flash drive before toggling the switch"
     If the USB port is being used by a flash drive, ensure you eject the flash drive before toggling the switch to transfer the port's use to another computer.
 
+??? note "How to share a USB stick/disk between the Host and Target devices?"
+    Files can be transferred between the host and target by following these steps:
+
+    1. Mount a USB stick drive on the host when the small black switch is set to the side of the host's Type-C port.
+    2. Copy the files onto this mounted drive.
+    3. After copying, unmount the drive without physically unplugging it.
+    4. Flip the small black switch to the other side. This action switches the USB-A port's connection to the target.
+    5. Mount the USB stick on the target device and copy/move files off the drive, completing the transfer process of files from host to target.
+
+    This method can also be used in the opposite direction.
+
 !!! Note "User Guidance"
     - **Software Switch Priority**: Regardless of the hardware switch position, clicking the software switch will immediately change the circuit direction.
 
