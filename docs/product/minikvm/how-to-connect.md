@@ -48,11 +48,19 @@ To set up your Mini-KVM, follow these steps in order:
 
 ③ ![HDMI Input](/images/shell-icons/input.svg#only-light){:style="height:18px"} ![HDMI Input](/images/shell-icons/input_1.svg#only-dark){:style="height:18px"} - **HDMI Input Port** (Female): HDMI source input from the Target computer
 
-④ ![USB-A Port](/images/shell-icons/switchable-usb.svg#only-light){:style="height:26px"} ![USB-A Port](/images/shell-icons/switchable-usb_1.svg#only-dark){:style="height:26px"} - **Switchable USB-A 2.0 Port** (Female): As a USB host port, utilized by either the host computer or the target computer at any given time, but not simultaneously.
+④ ![USB-A Port](/images/shell-icons/switchable-usb.svg#only-light){:style="height:26px"} ![USB-A Port](/images/shell-icons/switchable-usb_1.svg#only-dark){:style="height:26px"} - **Switchable USB-A 2.0 Port** (Female): As a USB host port, utilized by either the host computer or the target computer at any given time, but not simultaneously. Please check [USB Port Switching Guide](../usb-switch) for more.
 
-!!! warning "Tight Fit"
-    Please note that this USB-A female port is designed with a locking mechanism, which requires a bit more force to plug in and unplug your USB devices. Additionally, avoid inserting small USB sticks, as they may be difficult to remove and could potentially be damaged.
+!!! warning "USB power limitations"
+    The power supplied by the USB port depends on the Host motherboard. It is not recommended to connect USB devices that require a lot of power. Typically, the power consumption should not exceed 1.5W. Connecting high-power devices may result in unstable operation or potential damage.
+
+!!! warning "USB-A Port Has Firm Locking Mechanism"
+    The USB-A port includes a locking mechanism that requires extra force when plugging in or removing devices. This is intentional and ensures a secure connection. **Avoid using very small USB devices** (like ultra-compact USB drives), as they may be difficult to grip and remove, potentially leading to damage.
+
+!!! warning "Extra USB Hub Requires External Power and May Affect Compatibility"
+    The mini-KVM already includes a built-in USB hub that connects to both the host and the target computer. If you connect an additional external USB hub to the USB-A port, any USB devices attached to it will operate at a deeper level in the USB device tree. Some computers may have limitations on USB tree depth, which can cause compatibility issues or prevent certain devices from working correctly.
+
+    Additionally, make sure any connected USB hub is externally powered. Unpowered hubs may cause instability or malfunction of the entire mini-KVM setup.
 
 ⑤ ![Toggle Switch](/images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} - **Toggle Switch**: For toggling the connection of the USB-A 2.0 port between the host and the target computer
 
-⑥ ![Extension Pins](/images/shell-icons/pins.svg#only-light){:style="height:15px"} ![Extension Pins](/images/shell-icons/pins_1.svg#only-dark){:style="height:15px"} - **Extension Pins**: For more information, please check [Extension Pins](../extension-pins) for developer use.
+⑥ ![Extension Pins](/images/shell-icons/pins.svg#only-light){:style="height:15px"} ![Extension Pins](/images/shell-icons/pins_1.svg#only-dark){:style="height:15px"} - **Extension Pins**: Hidden by default and only accessible by replacing the top cover with an alternate cap. For more information, please check [Extension Pins](../extension-pins) for developer use.
