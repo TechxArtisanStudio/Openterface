@@ -202,10 +202,10 @@ plugins:
   - awesome-nav
   - search
   - macros
-  # - git-committers:
-  #     repository: TechxArtisanStudio/Openterface
-  #     token: !ENV ['MK_SECRET_TOKEN']
-  #     branch: main
+  - git-committers:
+      repository: TechxArtisanStudio/Openterface
+      token: !ENV ['MK_SECRET_TOKEN']
+      branch: main
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago  # or date
