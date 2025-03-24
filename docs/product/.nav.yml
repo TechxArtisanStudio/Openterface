@@ -9,7 +9,7 @@ nav:
         - minikvm/how-to-connect.md
         - minikvm/usb-switch.md
         - minikvm/extension-pins.md
-        - How It Works: usb-kvm
+        - How It Works: /faq/usbkvm/kvm-over-usb/
         - Mini-KVM's FAQs: /faq/minikvm/op-minikvm/
         - Why Openterface: /faq/usbkvm/openterface/
     - Accessories:
