@@ -1,7 +1,5 @@
 # Openterface MacOS
 
-**Coming Soon...**
-
 We're currently working on adding detailed documentation for our software. Please check back soon!
 
 In the meantime, feel free to explore our open-source **GitHub repository**: [Openterface_MacOS](https://github.com/TechxArtisanStudio/Openterface_MacOS) for the latest code, updates, examples, and to report issues.
