@@ -202,10 +202,10 @@ plugins:
   - awesome-nav
   - search
   - macros
-  - git-committers:
-      repository: TechxArtisanStudio/Openterface
-      token: !ENV ['MK_SECRET_TOKEN']
-      branch: main
+  # - git-committers:
+  #     repository: TechxArtisanStudio/Openterface
+  #     token: !ENV ['MK_SECRET_TOKEN']
+  #     branch: main
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago  # or date
@@ -223,6 +223,7 @@ plugins:
   - markdownextradata
   - redirects:
       redirect_maps:
+        'product/minikvm/how-it-works.md': 'faq/usbkvm/kvm-over-usb.md'
         'how-it-works.md': 'faq/usbkvm/kvm-over-usb.md'
         'product.md': 'product/minikvm/index.md'
         'whats-in-the-box.md': 'product/minikvm/whats-in-the-box.md'
