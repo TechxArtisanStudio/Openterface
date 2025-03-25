@@ -117,17 +117,17 @@ Visit our [Install Host Application page](/quick-start/#install-host-application
 
 #### Why do features differ across different host apps? {: #host-app-differences }
 
-Our dev team actively maintains host applications for **macOS, Linux, Windows, and Android**, but due to platform-specific challenges and limited resources, **development progress varies**. That means some features might appear first on one platform and take longer to arrive on others.
+Our dev team actively maintains host applications for macOS, Linux, Windows, and Android, but due to platform-specific challenges and limited resources, development progress varies. That means some features might appear first on one platform and take longer to arrive on others.
 
-We're doing our best to **sync feature development across all platforms**, but it’s a work in progress. 
+We're doing our best to sync feature development across all platforms, but it’s a work in progress. 
 
-Your feedback plays a big role in shaping our development roadmap — whether through our [community](/community/) or [GitHub repository](https://github.com/openterface). Every suggestion helps us prioritize what matters most to you!
+Your feedback plays a big role in shaping our development roadmap — whether through our [community](/community/) or [GitHub repository](/app/). Every suggestion helps us prioritize what matters most to you!
 
 If you're a developer, your contributions are incredibly valuable — and we’d love your help in speeding up the process!
 
 #### Which host app currently offers the best experience? {: #best-host-app }
 
-As of **March 2025**, the **Qt-based host apps for Windows and Linux** offer the **most comprehensive feature set** overall. The **macOS version** stands out for its **smoothest and most refined user experience**, thanks to deeper system integration and UI enhancements. The **Android app** is a convenient option on the go, with more features steadily catching up.
+As of March 2025, the Qt-based host apps for Windows and Linux offer the most comprehensive feature set overall. The macOS version stands out for its smoothest and most refined user experience, thanks to deeper system integration and UI enhancements. The Android app is a convenient option on the go, with more features steadily catching up.
 
 #### Is there a web app I can use on Chrome or other platforms? {: #host-app-chromeos }
 
