@@ -21,6 +21,8 @@ Welcome to the dedicated FAQ for our flagship product, the **Openterface Mini-KV
 ##### Software  
 
 - [Where can I download the host applications?](#host-app-download)
+- [Why do features differ across different host apps?](#host-app-differences)
+- [Which host app currently offers the best experience?](#best-host-app)
 - [Is there a host app supporting ChromeOS?](#host-app-chromeos)
 - [Is there a host app supporting Apple's mobile devices?](#host-app-ios)
 - [What if F11 doesn't work on macOS applications?](#f11-macos-issue)
@@ -113,6 +115,20 @@ Visit our [Install Host Application page](/quick-start/#install-host-application
 ??? warning "Privacy & Security: Be cautious when using third-party host app"
     As our project is open source, you may find alternative versions of host applications compatible with our Mini-KVM developed by others. While these can offer additional features, please ensure you review their security and privacy practices. **The Openterface Team cannot guarantee or be responsible for the safety of third-party applications**.
 
+#### Why do features differ across different host apps? {: #host-app-differences }
+
+Our dev team actively maintains host applications for **macOS, Linux, Windows, and Android**, but due to platform-specific challenges and limited resources, **development progress varies**. That means some features might appear first on one platform and take longer to arrive on others.
+
+We're doing our best to **sync feature development across all platforms**, but it’s a work in progress. 
+
+Your feedback plays a big role in shaping our development roadmap — whether through our [community](/community/) or [GitHub repository](https://github.com/openterface). Every suggestion helps us prioritize what matters most to you!
+
+If you're a developer, your contributions are incredibly valuable — and we’d love your help in speeding up the process!
+
+#### Which host app currently offers the best experience? {: #best-host-app }
+
+As of **March 2025**, the **Qt-based host apps for Windows and Linux** offer the **most comprehensive feature set** overall. The **macOS version** stands out for its **smoothest and most refined user experience**, thanks to deeper system integration and UI enhancements. The **Android app** is a convenient option on the go, with more features steadily catching up.
+
 #### Is there a web app I can use on Chrome or other platforms? {: #host-app-chromeos }
 
 Yes! One of our awesome community members, [Kashall](https://github.com/kashalls/openterface-viewer/), built **a lightweight open-source web app** you can use directly in your browser: [openterface-viewer.pages.dev](openterface-viewer.pages.dev). It’s not yet part of our official documentation, but our dev team gave it a spin and found it solid, easy to use, and super handy — especially on Chrome or when you want something quick and browser-based. Give it a try!
@@ -153,7 +169,7 @@ We are considering the application of USB 3.0 for the next version, targeting mo
 
 #### Is the Mini-KVM open-source? {: #mini-kvm-open-source }
 
-Yes! The Openterface Mini-KVM is fully open-sourced in both [hardware](/how-it-works/#explore-hardware-details) and [software](/quick-start/#install-host-application), certified by [OSHWA](https://certification.oshwa.org/cn000015.html), and supported by [a vibrant community](/community/). If you are interested in [contributing](/contributing/), please contact us at info@techxartisan.com. Stay tuned!
+Yes! The Openterface Mini-KVM is fully open-sourced in both [hardware](/how-it-works/#explore-hardware-details) and [software](/quick-start/#install-host-application), certified by [OSHWA](https://certification.oshwa.org/cn000015.html), and supported by [a vibrant community](/community/). If you are interested in [contributing](/contributing/), please contact us at info@openterface.com. Stay tuned!
 
 #### Can I access a device's BIOS settings? {: #bios-access }
 Yes, the direct connection of the Openterface Mini-KVM enables access to low-level BIOS or firmware settings.
@@ -214,7 +230,7 @@ Our device handles 1080p video output with under 140 milliseconds of latency, ma
 
 The Openterface Mini-KVM supports a wide range of video input resolutions, including up to **4K (4096 x 2160 @ 30Hz)**. However, its **effective capture resolution** — the resolution actually processed and displayed on your host computer — is **1920x1080**. Resolutions above that will be downsampled, which may introduce slight visual blur due to pixel merging.
 
-??? info "📘 Key Definitions"
+??? info "Key Definitions"
     - **Input Resolution**: The resolution output by your target computer.
     - **Capture Resolution**: The resolution at which the Mini-KVM captures and transmits video to the host computer.  
     - **Effective Max Capture**: 1920x1080 — for the best clarity and performance.
@@ -239,13 +255,13 @@ The Mini-KVM can accept and process common standard resolutions, including but n
 - 800 x 600 @ 60Hz (Optimized for old CRT monitors resolution with 4:3 aspect ratio)  
 - 640 x 480 @ 60Hz (Optimized for old CRT monitors resolution with 4:3 aspect ratio)  
 
-???+ tip "🎯 Best Practice"
+???+ tip "Best Practice"
     Set both the target output and the Mini-KVM capture resolution to **1920x1080** for optimal sharpness and minimal latency.
 
 ##### What happens with resolutions above 1080p?
 If your target computer outputs at a higher resolution than 1080p, the Mini-KVM will **merge multiple pixels** into one for display on the host. This may make the image appear **blurry**.
 
-???+ info "💡 Improving Blurry Image"
+???+ info "Improving Blurry Image"
     You can improve visual clarity on the host side by **scaling up the display**. While this won’t restore full detail, it smooths the output and enhances visibility.
 
 ##### Troubleshooting Glitches
@@ -341,4 +357,4 @@ We offer a range of [accessories](/product/accessories/) to enhance your experie
 
 Your curiosity and support fuel our progress, and we want to ensure that every one of your questions finds an answer. Please note that as time progresses, the content above in our FAQs may become outdated. If your query isn't covered in this FAQ, always check our website [openterface.com](/) for the most current information. Also please don't hesitate to join our enthusiastic community. We're active on our Subreddit at [/r/Openterface_miniKVM/](/reddit) and our [Discord Openterface](/dicord) server, where you can ask questions, share ideas, or just have a chat about all things tech.
 
-Moreover, feel free to reach out directly to our dedicated team by sending an email to info@techxartisan.com. We love hearing from you and are always here to help!
+Moreover, feel free to reach out directly to our dedicated team by sending an email to info@openterface.com. We love hearing from you and are always here to help!
