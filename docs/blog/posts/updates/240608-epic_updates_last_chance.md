@@ -1,6 +1,8 @@
 ---
 slug: final-week-epic-updates
 date: 2024-06-08
+description: "Final week of Openterface Mini-KVM crowdfunding! Major updates include cross-platform support (macOS, Windows, Linux), open-source hardware release, upgraded accessories with custom Type-C cable, and enhanced toolkit packaging. Last chance to back at special pricing!"
+keywords: "Openterface Mini-KVM, crowdfunding final week, open source hardware, MacOS app, Windows app, Linux support, Type-C cable upgrade, hardware schematics, toolkit accessories, cross-platform compatibility, mini-KVM software, tech gadget, Crowd Supply campaign, hardware development"
 ---
 
 # 2024-06-08 | Epic Updates & Final Week – Last Chance to Back Mini-KVM!
@@ -76,7 +78,7 @@ We're experimenting with different designs for our outer packaging boxes – col
 
 ![toolkit-boxes-showcase.jpg](https://www.crowdsupply.com/img/b54b/a041e188-b6ea-4f49-a550-46bc9565b54b/toolkit-boxes-showcase_jpg_gallery-lg.jpg)
 
-Check out the details of our beta toolkit sent to our beta team [here](https://www.reddit.com/r/Openterface_miniKVM/comments/1d40atr/tactical_reinforcements_round_2_are_on_their_way/). Let us know what you think! Just a heads-up, this packaging design isn’t final. We may still need to adjust the box size and add essential details like the CE mark and other required info.
+Check out the details of our beta toolkit sent to our beta team [here](https://www.reddit.com/r/Openterface_miniKVM/comments/1d40atr/tactical_reinforcements_round_2_are_on_their_way/). Let us know what you think! Just a heads-up, this packaging design isn't final. We may still need to adjust the box size and add essential details like the CE mark and other required info.
 
 ## Last Chance to Back Us!
 

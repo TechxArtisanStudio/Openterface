@@ -1,6 +1,8 @@
 ---
 slug: oshwa-show-diy-challenge
 date: 2024-10-01
+description: "Join us at OSHWA's Show & Tell on October 2nd for the exciting USB KVM DIY Challenge 2024 announcement! Learn how to participate in this open hardware initiative and showcase your DIY skills."
+keywords: "OSHWA Show & Tell, USB KVM DIY Challenge, open source hardware, DIY electronics, hardware hacking, OSHWA event, Openterface Mini-KVM, maker community, hardware development, DIY project, tech challenge 2024"
 ---
 
 # 2024-10-01 | Up for a DIY Challenge? Catch us at OSHWA’s Show & Tell!

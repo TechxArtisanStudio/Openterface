@@ -1,3 +1,8 @@
+---
+description: "Complete guide to Openterface Mini-KVM basic controls: mouse modes, keyboard input, BIOS access, audio/video support, and USB switching. Compatible with multiple operating systems and devices, supporting up to 4K@30Hz video input."
+keywords: "Mini-KVM controls, mouse control modes, keyboard input, BIOS access, audio transmission, video display, USB switching, device compatibility, KVM setup, hardware control, 4K support, HID signals, target device control, host software, HDMI input"
+---
+
 # Basic Control
 
 ![use-case-pc-angled-view](images/product/use-case-pc-angled-view.jpg)

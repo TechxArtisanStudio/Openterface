@@ -1,6 +1,8 @@
 ---
 slug: black-friday-50off
 date: 2024-11-27
+description: "Exclusive Black Friday offer: 50% off all Openterface merchandise! New tech-inspired clothing line featuring Mini-KVM designs, Developer Mode T-shirts, hoodies, and premium orange data cables. Limited time offer until December 1st."
+keywords: "Black Friday sale, Openterface merchandise, tech clothing, Developer Mode hoodie, Mini-KVM design, tech apparel, orange data cable, tech fashion, open source merchandise, TechxArtisan shop, tech community, developer clothing, tech accessories, 50% discount, limited time offer"
 ---
 
 # 2024-11-27 | 50% OFF on ALL Merchandise – Only This Black Friday! Show Your Support for Open Source!
@@ -29,12 +31,13 @@ date: 2024-11-27
 
 Hey dear Openterface folks,
 
-Exciting news—we’ve launched **a new clothing line** at Openterface! Our collection features T-shirts and hoodies that embody the spirit of our community. They’re not just clothes; they’re a celebration of our shared values and the Openterface ethos.
+Exciting news—we've launched **a new clothing line** at Openterface! Our collection features T-shirts and hoodies that embody the spirit of our community. They're not just clothes; they're a celebration of our shared values and the Openterface ethos.
 
-What makes these designs even more special? Both the T-shirt and hoodie proudly feature the **technical line art of our Openterface mini-KVM**, which looks incredibly cool. Plus, we’ve highlighted our mini-KVM’s **“Developer Mode”** text in the design—an idea we think is absolutely brilliant. When you put on our T-shirt or hoodie, it’s not just about staying warm this winter; it’s about stepping into super developer mode for all your coding and hacking sessions.
+What makes these designs even more special? Both the T-shirt and hoodie proudly feature the **technical line art of our Openterface mini-KVM**, which looks incredibly cool. Plus, we've highlighted our mini-KVM's **"Developer Mode"** text in the design—an idea we think is absolutely brilliant. When you put on our T-shirt or hoodie, it's not just about staying warm this winter; it's about stepping into super developer mode for all your coding and hacking sessions.
 
 ![OP-Hoodie-Zip-Up](../pic/241120-OP-Hoodie-Zip-Up.jpg)
 
+And if you're wondering how these look in real life, check out how our team's been wearing them in action! From staying cosy in **Developer Mode** while coding ([see tweet](https://x.com/TechxArtisan/status/1861611266705379346)), to a fun photoshoot with David Groom from **MAKE: Magazine** at the Shenzhen Maker Faire ([view photo](https://pbs.twimg.com/media/Gcp8E32agAAEnl-?format=jpg&name=large)), we've been proudly showcasing our gear. We even got inspired by a talk from the legendary Eric Migicovsky of Pebble fame ([see post](https://www.linkedin.com/posts/billy-wangrb_had-an-incredible-weekend-at-shenzhen-maker-activity-7264123680803233792-l7Mm?utm_source=share&utm_medium=member_desktop)) while demoing the Openterface Mini-KVM and connecting with tech friends ([see more](https://twitter.com/TechxArtisan/status/1858397377196965913), [and here](https://twitter.com/TechxArtisan/status/1858400923325726750)). These aren't just clothes—they're conversation starters and a way to celebrate our community wherever we go!  
 And if you’re wondering how these look in real life, check out how our team’s been wearing them in action! From staying cosy in **Developer Mode** while coding ([see tweet](https://x.com/TechxArtisan/status/1861611266705379346)), to a fun photoshoot with David Groom from **MAKE: Magazine** at the Shenzhen Maker Faire ([view photo](https://pbs.twimg.com/media/Gcp8E32agAAEnl-?format=jpg&name=large)), we’ve been proudly showcasing our gear. We even got inspired by a talk from the legendary Eric Migicovsky of Pebble fame ([see post](https://www.linkedin.com/posts/billy-wangrb_had-an-incredible-weekend-at-shenzhen-maker-activity-7264123680803233792-l7Mm?utm_source=share&utm_medium=member_desktop)) while demoing the Openterface Mini-KVM and connecting with tech friends ([see more](https://twitter.com/TechxArtisan/status/1858397377196965913), [and here](https://twitter.com/TechxArtisan/status/1858400923325726750)). These aren’t just clothes—they’re conversation starters and a way to celebrate our community wherever we go!  
 
 ![david-billy-wearing-hoodie](../pic/241120-david-billy-wearing-hoodie.webp)

@@ -1,6 +1,8 @@
 ---
 slug: shipment-update-extra-cables
 date: 2024-11-13
+description: "Openterface Mini-KVM shipment begins! Free upgrade: additional high-quality USB 3.2 cables added to toolkit. Products en route to US, expected mid-December delivery. Plus: EMI testing results, merch launch, and DIY challenge reminder."
+keywords: "Openterface Mini-KVM, shipping update, USB 3.2 cables, EMI testing, quality control, product delivery, cable upgrade, tech merchandise, USB KVM DIY Challenge, Crowd Supply warehouse, international shipping, cable testing tool, open source development, TechxArtisan shop"
 ---
 
 # 2024-11-13 | The Ship Has Sailed & Extra Cables Added for the Toolkit. What’s Next?

@@ -1,6 +1,8 @@
 ---
 slug: last-hours-mini-kvm
 date: 2024-06-12
+description: "Final hours to back Openterface Mini-KVM at special pricing! See real-world usage from our beta testers, upcoming Teardown 2024 event plans, and our journey to 1050+ backers. Campaign ends June 13, 4:59 PM PDT - don't miss out!"
+keywords: "Openterface Mini-KVM, crowdfunding final hours, beta testing results, Teardown 2024, tech frontline, special pricing, KVM device, hardware development, beta team feedback, Crowd Supply campaign, last chance, early adopter pricing, tech gadget, open hardware"
 ---
 
 # 2024-06-12 | Last Hours to Back & Mini-KVMs at Tech Frontlines
@@ -25,15 +27,15 @@ We wanted to share some exciting updates from our beta team on our [Discord chan
 
 ## Upcoming Teardown 2024 & A Fun Bet
 
-As many of you have seen on the Crowd Supply main page, the upcoming **Teardown 2024 event** is generating a lot of excitement. I’m eager to attend in person and meet our amazing backers there!
+As many of you have seen on the Crowd Supply main page, the upcoming **Teardown 2024 event** is generating a lot of excitement. I'm eager to attend in person and meet our amazing backers there!
 
 Here's **a fun bet** we have going on in our team: 
 
 Currently, we have around 950 backers for our project. Kevin Peng, our technical director, and I have a wager. If we manage to **get 100 more backers** in the final hours, my travel expenses for the trip to Portland will be covered by our studio. If not, I'll have to foot the bill myself, which means a couple of thousand bucks out of my own pocket!
 
-So, I’m calling on all our subscribers and new friends of the Openterface Mini-KVM to help us push through these final hours. Let's hit 1050+ backers and make this trip happen!
+So, I'm calling on all our subscribers and new friends of the Openterface Mini-KVM to help us push through these final hours. Let's hit 1050+ backers and make this trip happen!
 
-Most importantly, please **help spread the word** about our campaign coming to an end. We're committed to building this handy device and ensuring it’s delivered to you in top-notch quality.
+Most importantly, please **help spread the word** about our campaign coming to an end. We're committed to building this handy device and ensuring it's delivered to you in top-notch quality.
 
 We've poured our hearts into this project over the past 8 months. You can see all our efforts in the updates below and check out our history posts on our subreddit [r/Openterface_miniKVM](/reddit):
 
