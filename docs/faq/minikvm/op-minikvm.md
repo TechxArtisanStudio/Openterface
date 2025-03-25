@@ -49,6 +49,7 @@ Welcome to the dedicated FAQ for our flagship product, the **Openterface Mini-KV
 ##### Video Related
 
 - [What about video latency and resolution?](#video-latency-resolution)
+- [What are the supported video resolutions of the Openterface Mini-KVM?](#video-resolution-guide)
 - [Is it suitable for gaming?](#gaming-compatibility)
 - [Will future versions support higher-quality displays?](#future-display-support)
 - [Why doesn't it stream video over local IP?](#no-ip-streaming)
@@ -208,6 +209,63 @@ While our dev team hasn’t prioritized this hardware expansion yet, it’s defi
 #### What about video latency and resolution? {: #video-latency-resolution }
 
 Our device handles 1080p video output with under 140 milliseconds of latency, making your control experience smooth and seamless. Check out its [specifications](/product/minikvm/specifications/).
+
+#### What are the supported video resolutions of the Openterface Mini-KVM? {: #video-resolution-guide }
+
+The Openterface Mini-KVM supports a wide range of video input resolutions, including up to **4K (4096 x 2160 @ 30Hz)**. However, its **effective capture resolution** — the resolution actually processed and displayed on your host computer — is **1920x1080**. Resolutions above that will be downsampled, which may introduce slight visual blur due to pixel merging.
+
+??? info "📘 Key Definitions"
+    - **Input Resolution**: The resolution output by your target computer.
+    - **Capture Resolution**: The resolution at which the Mini-KVM captures and transmits video to the host computer.  
+    - **Effective Max Capture**: 1920x1080 — for the best clarity and performance.
+
+##### Supported Input Resolutions
+The Mini-KVM can accept and process common standard resolutions, including but not limited to:
+
+- 4096 x 2160 @ 30Hz, 29.97Hz (Highest resolution supported by the Openterface Mini-KVM)  
+- 3840 x 2160 @ 30Hz, 29.97Hz (4k resolution with 16:9 aspect ratio)  
+- 2100 x 1050 @ 60Hz (optimized for mobile devices with 16:9 aspect ratio)  
+- 1920 x 1200 @ 60Hz (16:10 aspect ratio) 
+- 1920 x 1080 @ 60Hz (The best display resolution with 16:9 aspect ratio)
+- 1680 x 1050 @ 60Hz (16:9 aspect ratio)  
+- 1600 x 900 @ 60Hz (16:9 aspect ratio)  
+- 1440 x 900 @ 60Hz (16:9 aspect ratio)  
+- 1280 x 1024 @ 60Hz (5:4 aspect ratio)  
+- 1280 x 960 @ 60Hz (4:3 aspect ratio)  
+- 1280 x 800 @ 60Hz (16:10 aspect ratio)  
+- 1280 x 720 @ 60Hz (16:9 aspect ratio)  
+- 1152 x 864 @ 60Hz (4:3 aspect ratio)  
+- 1024 x 768 @ 60Hz (Optimized for old CRT monitors resolution with 4:3 aspect ratio)  
+- 800 x 600 @ 60Hz (Optimized for old CRT monitors resolution with 4:3 aspect ratio)  
+- 640 x 480 @ 60Hz (Optimized for old CRT monitors resolution with 4:3 aspect ratio)  
+
+???+ tip "🎯 Best Practice"
+    Set both the target output and the Mini-KVM capture resolution to **1920x1080** for optimal sharpness and minimal latency.
+
+##### What happens with resolutions above 1080p?
+If your target computer outputs at a higher resolution than 1080p, the Mini-KVM will **merge multiple pixels** into one for display on the host. This may make the image appear **blurry**.
+
+???+ info "💡 Improving Blurry Image"
+    You can improve visual clarity on the host side by **scaling up the display**. While this won’t restore full detail, it smooths the output and enhances visibility.
+
+##### Troubleshooting Glitches
+If you're seeing video glitches or no signal after changing resolution or refresh rate:
+
+1. In the host app, **lower the capture resolution** temporarily to **640x480 @ 30Hz**.
+2. On the target device, **revert to a supported standard resolution** (like 1080p).
+3. Switch back to your desired resolution in the host app once stability returns.
+
+???+ warning "Avoid Non-Standard Settings"
+    Non-standard resolutions or refresh rates above **60Hz** may exceed the Mini-KVM’s stable operating limits and cause glitching or instability.
+
+##### Summary Tips
+
+- **Best clarity**: 1920x1080 input + 1920x1080 capture
+- **Avoid blur**: Try not to exceed the 1080p capture limit
+- **Scaling helps**: Increase display scale on host side if using 4K input
+- **Troubleshoot with low resolution**: Use 640x480 @ 30Hz as a fallback
+
+By understanding how input and capture resolutions interact, you can optimize your setup for smooth, high-quality remote control with the Openterface Mini-KVM.
 
 #### Is it suitable for gaming? {: #gaming-compatibility }
 
