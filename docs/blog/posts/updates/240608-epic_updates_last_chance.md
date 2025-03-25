@@ -1,12 +1,9 @@
 ---
+slug: final-week-epic-updates
 date: 2024-06-08
-authors:
-  - Openterface
-categories:
-  - Updates
 ---
 
-# Epic Updates & Final Week – Last Chance to Back Mini-KVM!
+# 2024-06-08 | Epic Updates & Final Week – Last Chance to Back Mini-KVM!
 
 Hey everyone!
 

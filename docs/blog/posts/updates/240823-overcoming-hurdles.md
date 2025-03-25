@@ -1,12 +1,9 @@
 ---
+slug: progress-update-new-timeline
 date: 2024-08-22
-authors:
-  - Openterface
-categories:
-  - Updates
 ---
 
-# Overcoming Hurdles: Progress Update & New Timeline
+# 2024-08-22 | Overcoming Hurdles: Progress Update & New Timeline
 
 Hey everyone,
 
@@ -16,15 +13,15 @@ I hope you’re all doing well. It’s been a while since our last update. I wis
 
 Before we could kick off production, we had to pass necessary quality tests according to regulations, particularly CE certification. Since our toolkit version includes not just the Mini-KVM but also several accessories, each part needed to undergo CE testing. These tests took longer than expected (turns out cables can be quite picky), but the great news is that **we’ve passed CE for our Mini-KVM and all its components!** Below is an overview of the certifications for all our parts: Mini-KVM, HDMI cable, orange Type-C cable, black short Type-C cable, and VGA2HDMI cable. With certification in hand, our production timeline is now certain, and our manufacturers are **currently producing all parts** as I speak.
 
-![240823-0](pic/240823-0.jpg)
+![240823-0](../pic/240823-0.jpg)
 *UKCA and CE requirements are the same for our electronic products, with CE also covering RoHS compliance.*
 
 Two weeks ago, we visited one of our manufacturers to train their line managers on quality control for the orange cables before they shipped them to us. Now, ALL the orange cables have been produced and are sitting in a corner of our studio.
-![240823-1](pic/240823-1.jpg)
+![240823-1](../pic/240823-1.jpg)
 *Kevin and Shawn were explaining the testing methods to ensure the orange cable works properly with our Openterface Mini-KVM.*
 
 We will do the same task in this week to train QA at the production frontline for other parts as well. Here are samples of additional cables.
-![240823-2](pic/240823-2.jpg)
+![240823-2](../pic/240823-2.jpg)
 *Proudly marked with our TechxArtisan logo, these are samples of the HDMI cable, the short Type-C cable, and the VGA-to-HDMI cable.*
 
 We’re expecting the other parts and Mini-KVMs to arrive soon from our manufacturers, at which point we’ll double-check the quality of every component and pack them properly at our studio before shipment. In other words, **our team will personally ensure the quality** before it reaches your hands.
@@ -41,7 +38,7 @@ Accounting for the current situation and adding some buffer time, I remain cauti
 
 As you may know from our previous [Reddit post](https://www.reddit.com/r/Openterface_miniKVM/comments/1e25pco/openterface_minikvm_v19_with_pins_for_more/), we decided to **upgrade our hardware to V1.9**, including a set of hackable expansion pins. This wasn’t part of the original plan for the crowdfunding campaign, but we believe it significantly enhances the hardware’s **potential for broader use**.
 
-![240823-3](pic/240823-3.jpg)
+![240823-3](../pic/240823-3.jpg)
 *The VCC, GND, Target D+, Target D-, Host D+, and Host D- pins—where ‘D’ stands for USB data.*
 
 One key motivation was to enable **the USB switch to be toggled at the software level**. Why is this important? On our roadmap, we **aim to support a KVM-over-IP solution**, such as VNC, in the future. The idea is to match local KVM control with the VNC protocol, allowing users to remotely control the target computer via the host computer. In such a remote scenario, the ability for users to switch the USB port is essential, especially when file transfers between the host and target are required.
@@ -55,7 +52,7 @@ I’m happy to report that V1.9 has passed our internal basic tests and will be 
 ## More Software Updates
 
 On the software front, we’re making exciting strides. We’re diving into the **Openterface Android app** now! Check out this [tweet](https://x.com/TechxArtisan/status/1825460088922071398) for an early demo showing smooth KVM control, mouse movement, and clicks in action. More features are on the way, and as always, once we’ve polished the code a bit more, **this app will also be open-sourced** on our GitHub repo [Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android).
-![240823-4](pic/240823-4.jpg)
+![240823-4](../pic/240823-4.jpg)
 *Using just our fingertips to KVM control a Linux computer from an Android tablet. Nice!*
 
 Our QT version just got a handy update—you can now [transfer text from the host to the target](https://x.com/TechxArtisan/status/1825919721960780131)! So now this feature is supported on macOS, Windows, and Linux host apps.
@@ -81,15 +78,15 @@ Additionally, we’ve made several improvements to the old toolkit bag, includin
 
 We chose this material because it strikes the ideal balance between being budget-friendly, pleasant to the touch, and durable enough to protect the items inside. **We’re confident you’ll love it**.
 
-![240823-5](pic/240823-5.jpg)
+![240823-5](../pic/240823-5.jpg)
 
 We’re also updating the labels on the aluminium casing to make them as informative and visually appealing as possible. We hope these enhancements will improve your user experience and make it easier to get started with Openterface.
 
-![240823-6](pic/240823-6.jpg)
+![240823-6](../pic/240823-6.jpg)
 
 We’re finalising the Openterface manual, which will be available in English, German, French, Japanese, and Chinese. Apologies if we missed your language—our box isn’t TARDIS-sized (Doctor Who’s police box)! But we’ll do our best to add more translations on our website.
 
-![240823-7](pic/240823-7.jpg)
+![240823-7](../pic/240823-7.jpg)
 
 ## Community Language Review
 

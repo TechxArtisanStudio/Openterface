@@ -1,12 +1,9 @@
 ---
+slug: last-hours-mini-kvm
 date: 2024-06-12
-authors:
-  - Openterface
-categories:
-  - Updates
 ---
 
-# Last Hours to Back & Mini-KVMs at Tech Frontlines
+# 2024-06-12 | Last Hours to Back & Mini-KVMs at Tech Frontlines
 
 Hey everyone,
 

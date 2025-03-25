@@ -1,12 +1,9 @@
 ---
+slug: campaign-live-now
 date: 2024-04-30
-authors:
-  - Openterface
-categories:
-  - Updates
 ---
 
-# Openterface Mini-KVM Crowdfunding Campaign Goes Live NOW!
+# 2024-04-30 | Openterface Mini-KVM Crowdfunding Campaign Goes Live NOW!
 
 We're excited to announce that the crowdfunding campaign for the Openterface Mini-KVM is now live! This feature-rich, open-source, and community-driven device simplifies the way you control and interact with headless computers.
 

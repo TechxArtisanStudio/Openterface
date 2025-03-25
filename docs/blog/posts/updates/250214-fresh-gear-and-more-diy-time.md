@@ -1,12 +1,9 @@
 ---
+slug: clear-backlog-usb-kvm
 date: 2025-02-19
-authors:
-  - Openterface
-categories:
-  - Updates
 ---
 
-# Clear Backlog, Fresh Gear, and More Time to Build USB KVM!
+# 2025-02-19 | Clear Backlog, Fresh Gear, and More Time to Build USB KVM!
 
 **Hey there, Openterface fam!**
 
@@ -16,7 +13,7 @@ It’s been a while, and we’ve got some exciting news to share! Let’s dive i
 
 More and more backers are receiving their kits and sharing their experiences with unboxings, setups, and creative use cases. We’ve seen incredible unboxing posts across popular platforms like Discord, Reddit, Mastodon, Bluesky, Threads, X—you name it!
 
-![alt text](pic/250219-sharing.gif)
+![alt text](../pic/250219-sharing.gif)
 
 Honestly, we know we’ve mentioned this in previous posts, but we can never say it enough—our gratitude runs deep. Seeing your enthusiasm and how our gadget helps you at the tech frontline is exactly what we built this for and fight for, and it’s truly an honor. Your shares and feedback are the greatest validation of our hard work.
 
@@ -61,15 +58,15 @@ Your patience and support mean the world to us as we work through any bumps alon
 
 Since our kits were shipped later than expected, we’re extending the DIY KVM Challenge by **two months**! Plus, we’re upgrading the prizes—stay tuned for details on the Crowd Supply contest page. That means more time to tinker, experiment, and showcase your builds. Join the fun and submit your projects via Crowd Supply’s USB DIY Contest page: [USB KVM DIY Challenge 2024](https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024)
 
-![USB KVM DIY Challenge 2024](pic/250219-usb-kvm-diy-2024.svg)
+![USB KVM DIY Challenge 2024](../pic/250219-usb-kvm-diy-2024.svg)
 
-![contest-parties](pic/250214-contest-parties.png)
+![contest-parties](../pic/250214-contest-parties.png)
 
 ### **New Bright Orange Nylon Cable**
 
 With our latest Mini-KVM batch, we’ve officially upgraded the Type-C cable in our toolkit version to the new bright orange nylon cable. This new cable isn’t just visually striking—it’s built for performance, with superior EMI resistance, stable data transfer, and exceptional durability.
 
-![New Toolkit](pic/250214-toolkit-open.jpg)
+![New Toolkit](../pic/250214-toolkit-open.jpg)
 
 But if you prefer the softer, more flexible feel of the original silicone-like Type-C cable, no worries! You can still grab them from our [TxA Shop](https://shop.techxartisan.com/products/type-c-cable-with-usb-a-adapter-1-5m-4-11ft-240w-fast-charging-data-transfer-usb2-0). Both cables have their strengths, and we’re confident the new nylon version will be a solid addition to your tech toolkit.
 

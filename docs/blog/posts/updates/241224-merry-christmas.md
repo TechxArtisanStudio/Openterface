@@ -1,12 +1,9 @@
 ---
+slug: xmas-newyear-treat
 date: 2024-12-24
-authors:
-  - Openterface
-categories:
-  - Updates
 ---
 
-# Merry Christmas & Happy New Year & A Liitle Treat from Openterface Team!
+# 2024-12-24 | Merry Christmas & Happy New Year & A Liitle Treat from Openterface Team!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wEWAhXCXQ1E?si=RU4QVXxP_Fi6WAu_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

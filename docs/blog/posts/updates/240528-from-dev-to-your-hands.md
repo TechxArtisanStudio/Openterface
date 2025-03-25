@@ -1,12 +1,9 @@
 ---
+slug: behind-the-scenes-dev-to-user
 date: 2024-05-28
-authors:
-  - Openterface
-categories:
-  - Updates
 ---
 
-# From Development to Your Hands: Behind the Scenes
+# 2024-05-28 | From Development to Your Hands: Behind the Scenes
 
 Hi everyone!
 
