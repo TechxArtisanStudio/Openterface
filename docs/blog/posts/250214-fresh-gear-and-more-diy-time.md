@@ -53,7 +53,7 @@ Prefer real-time discussions with the dev team and fellow Openterface fans? Join
 - **Reddit:** [r/Openterface_miniKVM](https://openterface.com/reddit)  
 - **Discord:** [Openterface](https://openterface.com/discord)  
 
-Oh, and if you like keeping things old-school, you can always **email us** at info@techxartisan.com or drop us a message via our **Google Form**: [Submit Feedback](https://forms.gle/enVJYFGn6gghEFaJ9).  
+Oh, and if you like keeping things old-school, you can always **email us** at info@openterface.com or drop us a message via our **Google Form**: [Submit Feedback](https://forms.gle/enVJYFGn6gghEFaJ9).  
 
 Your patience and support mean the world to us as we work through any bumps along the way. Huge thanks to everyone who has reported issues, shared ideas, and even jumped in to contribute code! The Openterface device isn’t perfect (yet!), but trust us—with this community’s energy, it’s getting better every day. 🚀💙  
 

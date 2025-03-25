@@ -116,7 +116,7 @@ We understand that some people may be *sceptical*, given the number of scam crow
 
 4. **Observe What We Have Achieved and Are Doing:** We’ve been working very hard on this project. You can join our community on [Reddit](https://www.reddit.com/r/Openterface_miniKVM/) and [Discord](/discord), see what we have been crafting from the very early prototype to the current pre-production version, and stay informed about our up-to-date progress. We would love to see you in our community and engage with us!
 
-5. **Chat with Us Directly:** If you have any questions or concerns about our Mini-KVM, please don't hesitate to email me at info@techxartisan.com. Additionally, we are planning a livestream, hosted by [**David Groom from MAKE: Magazine**](https://www.youtube.com/@MAKE/streams) on Wednesday, the 29th. We'll be discussing our Openterface Mini-KVM and the story behind it. I will post the video later on our community page.
+5. **Chat with Us Directly:** If you have any questions or concerns about our Mini-KVM, please don't hesitate to email me at info@openterface.com. Additionally, we are planning a livestream, hosted by [**David Groom from MAKE: Magazine**](https://www.youtube.com/@MAKE/streams) on Wednesday, the 29th. We'll be discussing our Openterface Mini-KVM and the story behind it. I will post the video later on our community page.
 
 Finally, we totally understand if you’re still unsure. That’s OK! If your work involves managing headless devices, we’re confident our efforts in crafting the Openterface Mini-KVM will eventually win you over. Wait and see! 😄
 

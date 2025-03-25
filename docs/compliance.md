@@ -6,7 +6,7 @@
 
 Our apps for the Openterface devices are licensed under the **AGPL-3.0**, an **Open Source Initiative®** approved license. The **OSI logo®** is the trademark of the [Open Source Initiative](http://opensource.org), and we proudly comply with the Open Source Definition.
 
-Our [applications](/app) are actively developed and maintained by **TechxArtisan** as we go. If you're interested in contributing and want to be part of an innovative development team, join our Discord community or [email us](mailto:info@techxartisan.com) now!
+Our [applications](/app) are actively developed and maintained by **TechxArtisan** as we go. If you're interested in contributing and want to be part of an innovative development team, join our Discord community or [email us](mailto:info@openterface.com) now!
 
 ## OSHWA Compliance
 
