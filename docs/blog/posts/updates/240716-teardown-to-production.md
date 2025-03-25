@@ -1,6 +1,8 @@
 ---
 slug: teardown-to-production
 date: 2024-07-16
+description: "Openterface Mini-KVM production update: Successful Teardown 2024 showcase, OSHWA certification achieved, hardware V1.9 release with hackable pins, and on track for September delivery. Plus Raspberry Pi compatibility and uConsole integration!"
+keywords: "Openterface Mini-KVM, Teardown 2024, OSHWA certification, hardware V1.9, production update, Raspberry Pi compatibility, uConsole integration, open source hardware, CE certification, RoHS compliance, hackable hardware, USB KVM, tech production, Crowd Supply event"
 ---
 
 # 2024-07-16 | From Teardown to Production: We’re Moving Forward!

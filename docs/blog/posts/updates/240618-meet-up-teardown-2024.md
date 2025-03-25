@@ -1,6 +1,8 @@
 ---
 slug: portland-meetup-mini-kvm-game
 date: 2024-06-18
+description: "Join us at Teardown 2024 in Portland! Celebrate Openterface Mini-KVM's $248K crowdfunding success, play retro games to win a Mini-KVM, and meet our team in person. Live demo and streaming available June 21-23 at Lloyd Center Mall."
+keywords: "Teardown 2024, Openterface Mini-KVM, Portland tech event, crowdfunding success, hardware demo, retro gaming challenge, uConsole, Crowd Supply event, tech conference, hardware development, live demo, gaming competition, Mini-KVM giveaway, tech meetup"
 ---
 
 # 2024-06-18 | Meet Me in Portland This Weekend & Win a Mini-KVM from My Game Challenge!
