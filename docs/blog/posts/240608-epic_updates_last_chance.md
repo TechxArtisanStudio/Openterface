@@ -99,7 +99,7 @@ If you're still unsure, that's OK! We believe our Openterface Mini-KVM will win 
 
 ### More to Come
 
-We're always cooking something exciting, so please hang tight! If you have any questions, hang out with us in our [community](/community/) or drop us an email: info@techxartisan.com. Stay tuned and thank you for your support! 😄
+We're always cooking something exciting, so please hang tight! If you have any questions, hang out with us in our [community](/community/) or drop us an email: info@openterface.com. Stay tuned and thank you for your support! 😄
 
 Cheers,
 

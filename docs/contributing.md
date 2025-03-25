@@ -83,6 +83,6 @@ Feeling inspired to contribute but don't quite fit into the categories above? No
 
 Whether it's testing new features, providing feedback on user experience, or brainstorming innovative ideas, your input is invaluable in driving the success of Openterface Mini-KVM.
 
-Reach out to us via [email](mailto:info@techxartisan.com) and let us know how you'd like to get involved. Together, we can make Openterface Mini-KVM the best it can be!
+Reach out to us via [email](mailto:info@openterface.com) and let us know how you'd like to get involved. Together, we can make Openterface Mini-KVM the best it can be!
 
 Your support and contributions are what make Openterface Mini-KVM thrive. Thank you for being part of our journey towards excellence! 🚀

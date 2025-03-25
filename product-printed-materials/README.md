@@ -14,6 +14,6 @@ If you:
 - Have suggestions for improving legal or operational aspects
 - Want to contribute to the project in any way
 
-Please don't hesitate to reach out to us at info@techxartisan.com. Your feedback is invaluable in helping us provide the best possible support for our users.
+Please don't hesitate to reach out to us at info@openterface.com. Your feedback is invaluable in helping us provide the best possible support for our users.
 
 We appreciate your interest in Openterface products and thank you for your support! Together, we can make our open-source community stronger and more vibrant.

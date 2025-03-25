@@ -19,7 +19,7 @@ But first, we want to take a moment to say a big thank youto everyone who has be
 Here’s the deal:
 Between **December 24, 2024**, and **January 10, 2025**, if you buy two Mini-KVM Toolkitson Crowd Supply, we’ll send you **a $20 store creditfor our TxA shop**.
 
-It’s super easy—just take a screenshot of your order confirmation from Crowd Supply and email it to [info@techxartisan.com](mailto:info@techxartisan.com). We’ll verify your purchase and reply with your $20 store credit code.
+It’s super easy—just take a screenshot of your order confirmation from Crowd Supply and email it to [info@openterface.com](mailto:info@openterface.com). We’ll verify your purchase and reply with your $20 store credit code.
 
 We’ve also got a special holiday surprise for you. Take a moment to relax and enjoy our cozy Christmas video—check out the beautiful lights and listen to [soothing Christmas tunes](https://www.youtube.com/watch?v=wEWAhXCXQ1E). We hope it brings a little joy to your day!
 

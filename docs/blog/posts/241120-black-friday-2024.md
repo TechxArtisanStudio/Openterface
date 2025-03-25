@@ -63,4 +63,4 @@ Warm regards,
 Product Manager  
 Openterface Team | TechxArtisan  
 
-**P.S.** Got any thoughts or feedback? We’re all ears! Join the conversation on [Reddit](https://openterface.com/reddit) or [Discord](https://openterface.com/discord), or feel free to drop us an email at **info@techxartisan.com** ✉️.
+**P.S.** Got any thoughts or feedback? We’re all ears! Join the conversation on [Reddit](https://openterface.com/reddit) or [Discord](https://openterface.com/discord), or feel free to drop us an email at **info@openterface.com** ✉️.
