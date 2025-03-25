@@ -1,12 +1,9 @@
 ---
+slug: teardown-to-production
 date: 2024-07-16
-authors:
-  - Openterface
-categories:
-  - Updates
 ---
 
-# From Teardown to Production: We’re Moving Forward!
+# 2024-07-16 | From Teardown to Production: We’re Moving Forward!
 
 Hey everyone,
 

@@ -1,12 +1,9 @@
 ---
+slug: chat-with-david-make-mag
 date: 2024-05-31
-authors:
-  - Openterface
-categories:
-  - Updates
 ---
 
-# Casual Chat with David Groom from MAKE: Magazine: The Story of Openterface Mini-KVM
+# 2024-05-31 | Casual Chat with David Groom from MAKE: Magazine: The Story of Openterface Mini-KVM
 
 Hi everyone!
 

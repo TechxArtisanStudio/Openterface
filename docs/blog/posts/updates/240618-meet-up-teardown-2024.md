@@ -1,12 +1,9 @@
 ---
+slug: portland-meetup-mini-kvm-game
 date: 2024-06-18
-authors:
-  - Openterface
-categories:
-  - Updates
 ---
 
-# Meet Me in Portland This Weekend & Win a Mini-KVM from My Game Challenge!
+# 2024-06-18 | Meet Me in Portland This Weekend & Win a Mini-KVM from My Game Challenge!
 
 Hey everyone! We’ve got some fantastic news to share!
 

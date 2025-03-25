@@ -1,19 +1,16 @@
 ---
+slug: shipment-update-extra-cables
 date: 2024-11-13
-authors:
-  - Openterface
-categories:
-  - Updates
 ---
 
-# The Ship Has Sailed & Extra Cables Added for the Toolkit. What’s Next?
+# 2024-11-13 | The Ship Has Sailed & Extra Cables Added for the Toolkit. What’s Next?
 
 Hello, Openterface community!
 
 We’re thrilled to announce that our Openterface products have officially shipped. They’re currently at the port in Shenzhen, ready to board a cargo ship bound for the US!
 
-![cardboard boxs to Crowdsupply](pic/241107-s.jpeg)
-![product packing](pic/241107-p.jpg)
+![cardboard boxs to Crowdsupply](../pic/241107-s.jpeg)
+![product packing](../pic/241107-p.jpg)
 
 Here’s what’s new:
 
@@ -29,7 +26,7 @@ Our Mini-KVM transmits video, audio, mouse/keyboard control, and USB data via a 
 
 To simulate real-world interference, we wrapped the orange Type-C cable around an electric fan motor while running multiple computers nearby. This created a high level of electromagnetic interference (EMI), to evaluate our cables’ data transmission stability.
 
-![Testing Setup](pic/241107-0.jpg)
+![Testing Setup](../pic/241107-0.jpg)
 *A budget-friendly yet effective testing method.*
 
 Check out [our video tweet](https://x.com/TechxArtisan/status/1856559677296816347) showcasing one of our performance tests for comparison.
@@ -38,7 +35,7 @@ Under these conditions, some orange cables struggled with signal loss, raising c
 
 To address this, Kevin Peng, our tech director, developed a bespoke testing programme. This tool, allowing you to test the quality of your own USB cables, will soon be open-sourced with more updates later.
 
-![Testing programme interface](pic/241107-1.jpg)
+![Testing programme interface](../pic/241107-1.jpg)
 *Our programme makes cable testing a breeze.*
 
 While our orange cables, with its soft, silicone-like texture and attractive appearance, are great and are perfect for everyday use like fast charging and regular data transmits, they fall short in a heavy transmits work in tough conditions, like high EMI.
@@ -47,11 +44,11 @@ While our orange cables, with its soft, silicone-like texture and attractive app
 
 We’ve immediately sourced high-quality nylon USB 3.2 cables to include as an extra in the Toolkit version—**at no additional cost** to you. These durable cables come in three lengths in grey color: *1M (3.2 ft)*, *1.5M (4.9 ft)*, and *2M (6.5 ft)*. You’ll receive one randomly selected cable from these length options in your Toolkit version, ensuring you have a robust and reliable connection for your Mini-KVM.
 
-![New Grey Nylon Type-C cables](pic/241107-2.jpg)
+![New Grey Nylon Type-C cables](../pic/241107-2.jpg)
 
 In future Mini-KVM Toolkit versions, our orange cable for connecting to the host side of Mini-KVM will be upgraded to the nylon Type-C 3.2 cable, combining functionality, stability, and style.
 
-![Custom Nylon Type-C cables](pic/241107-3.jpg)
+![Custom Nylon Type-C cables](../pic/241107-3.jpg)
 
 We hope you appreciate this decision and continue to rely on Openterface during critical moments on your tech frontlines.
 
@@ -70,7 +67,7 @@ Here’s hoping for a smooth journey for our Openterface products—no seasickne
 We’ll be at the Shenzhen Maker Fair this weekend (16–17 Nov). To gear up, we’ve designed team apparel, including T-shirt, zip-up and pullover hoodie.
 
 Take a look and let us know what you think:
-![Openterface T-shirt and Hoodie](pic/241107-c.jpg)
+![Openterface T-shirt and Hoodie](../pic/241107-c.jpg)
 
 ## Support Our Development
 
@@ -80,14 +77,14 @@ If you’d like to support our open-source development further, may also check o
 
 Now that shipping is underway, our focus will shift back to refining our host apps. We’re working on getting them verified across various app stores to ensure a seamless experience as you get started with Openterface.
 
-![App stores](pic/241107-4.png)
+![App stores](../pic/241107-4.png)
 
 ## What’s Next: Join Our USB DIY Contest
 
 Why not join our **USB KVM DIY Challenge 2024** once you’ve got your Openterface Mini-KVM in hand? It’s a great opportunity to contribute to our open-source development and even win a prize——including two special editions Openterface Mini-KVM and more! For more details, check out [the Crowd Supply's contest page](https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024).
 
-![alt text](pic/usb-kvm-diy-2024-logo.svg)
-![alt text](pic/openterface-241017-03_jpg_md-xl.jpg)
+![alt text](../pic/usb-kvm-diy-2024-logo.svg)
+![alt text](../pic/openterface-241017-03_jpg_md-xl.jpg)
 
 ## Wrapping It Up
 
