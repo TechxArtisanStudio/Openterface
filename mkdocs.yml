@@ -226,6 +226,12 @@ plugins:
   - markdownextradata
   - redirects:
       redirect_maps:
+        'webapp.md': 'https://openterface-viewer.pages.dev/'
+        'faq/minikvm.md': 'faq/usbkvm/kvm-over-usb.md'
+        'basic-testing.md': 'faq/usbkvm/kvm-over-usb.md'
+        'dicord.md': 'https://discord.gg/sFTJD6a3R8'
+        'usb-kvm.md': 'faq/usbkvm/kvm-over-usb.md'
+        'usb-switch.md': 'product/minikvm/usb-switch.md'
         'product/minikvm/how-it-works.md': 'faq/usbkvm/kvm-over-usb.md'
         'how-it-works.md': 'faq/usbkvm/kvm-over-usb.md'
         'product.md': 'product/minikvm/index.md'
