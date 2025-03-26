@@ -12,6 +12,7 @@ nav:
         - How It Works: /faq/usbkvm/kvm-over-usb/
         - Mini-KVM's FAQs: /faq/minikvm/op-minikvm/
         - Why Openterface: /faq/usbkvm/openterface/
+        - Reviews: minikvm/reviews.md
     - Accessories:
         - accessories/index.md
         - VGA to HDMI Cable 1m: accessories/vga-to-hdmi-cable.md
