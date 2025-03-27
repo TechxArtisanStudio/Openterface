@@ -6,7 +6,7 @@ description: Discover the Openterface Mini-KVM, a portable and open-source KVM s
 
 # Find the Right Openterface Product for You
 
-### 2.1. Which Openterface product is right for me? {: #choose-product }
+### :material-chat-question:{ .faq } 2.1. Which Openterface product is right for me? {: #choose-product }
 
 Currently, our flagship product is the **Openterface Mini-KVM**, which offers:
 
@@ -24,7 +24,7 @@ The Mini-KVM is ideal for:
 - Technicians servicing embedded systems
 - Anyone needing portable, network-free device control
 
-### 2.2. How does the Openterface Mini-KVM stack up against other KVM solutions? {: #minikvm-comparison }
+### :material-chat-question:{ .faq } 2.2. How does the Openterface Mini-KVM stack up against other KVM solutions? {: #minikvm-comparison }
 
 #### Comparison: Openterface Mini-KVM vs. Other KVM Solutions 
 
@@ -56,7 +56,7 @@ Below is a brief comparison of the Openterface Mini-KVM and other widely used KV
 - **KVM Switch**: Suited for multi-device control in a single physical location but generally bulkier and more complex than a USB KVM.  
 - **Software KVM / VNC**: Network-based and OS-dependent, providing flexible remote access but relying heavily on software installation and network quality.
 
-### 2.3. Why choose Openterface? {: #why-openterface }
+### :material-chat-question:{ .faq } 2.3. Why choose Openterface? {: #why-openterface }
 
 With various KVM solutions available, here's why it still win your heart:
 
@@ -76,7 +76,7 @@ With various KVM solutions available, here's why it still win your heart:
 
     The real magic lies in our commitment to open-source development and community engagement. By embracing these principles, we're building a vibrant ecosystem where users can collaborate, contribute, and customise the device to meet their unique needs, fostering innovation and pushing the boundaries of what's possible. 👨‍💻🤝👩‍💻
 
-### 2.4. How can I get technical support? {: #technical-support }
+### :material-chat-question:{ .faq } 2.4. How can I get technical support? {: #technical-support }
 We offer multiple support channels:
 
 - **Documentation**: Browse our comprehensive [Documentation Portal](/)
