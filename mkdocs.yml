@@ -35,6 +35,8 @@ theme:
     code: Roboto Mono
   logo: assets/app-logo.png
   favicon: images/favicon.png
+  icon:
+    annotation: material/arrow-right-circle-outline
   features:
    - toc.integrate
    - toc.follow
@@ -169,7 +171,6 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.details
-  - pymdownx.superfences
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
@@ -181,6 +182,7 @@ markdown_extensions:
   # Enables emoji shortcodes like :+1: or :sunglasses:
   - attr_list
   - md_in_html
+  - pymdownx.superfences
   - pymdownx.highlight:
       pygments_lang_class: true
       auto_title: true
