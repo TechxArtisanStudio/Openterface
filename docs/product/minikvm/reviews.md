@@ -81,11 +81,7 @@ slug: /openterface-mini-kvm-reviews
 
 - **[apalrd](https://www.youtube.com/watch?v=ZZ5P6MnBcHw)** | Beta Tester: *“A simple gadget concept that has a permanent home on my test bench, turning my laptop into my display, keyboard, and mouse.”*
 
-- **[matsuu](https://x.com/matsuu/status/1789322019315892318)** | Beta Tester: *“ノートパソコンに繋げるタイプのKVMコソール。似たような製品でUSB+VGAはあるがこれはUSB+HDMI構成。オープンソース実装になっているそうで安価になるっぽい。いいねこれ。”*
-
 - **[Florian Bernd](https://blog.flobernd.de/2024/06/openterface-beta-test/)** | Beta Tester: *“All in all, the Openterface KVM is an extremely useful tool that I will certainly be using a lot in the future. The hardware is more than solid and the toolbox also contains all the accessories you need.”*
-
-- **[Kazubu](https://x.com/_kazubu/status/1828454779875701044)** | Beta Tester: *“この安価でコンパクトなMini-KVMを持ち運ぶことによって、急にサーバやミニPCを操作する必要がある際に迅速に対応することができました。”*
 
 - **Vincent Cox** | Beta Tester: *“Klein formaat maakt het makkelijk om mee te nemen tijdens field-work. Je kan onmiddellijk met een headless device verbinden, geen gedoe met extra monitor en keyboard. Best of all: Opensource <3”*
 
@@ -100,6 +96,10 @@ slug: /openterface-mini-kvm-reviews
 - **[Billy Kan](https://www.linkedin.com/posts/billykan_so-happy-to-get-my-old-headless-macmini-back-activity-7251885312509902848-EHpb)** | Beta Tester: *"The package is beautiful and I can control the MacMini on my Macbook Pro in 5 minutes by just plugging in a couple of HDMI and USB-C cables, with crisp graphics and sounds (I am enjoying 70's oldies now as I type this)."* 
 
 - **[samw](https://tinytoolk.it/tools/openterface-kvm/)** | Backer: _"In datacenters, where you typically see a monitor, mouse, and keyboard on wheels (a 'crash cart'), it's cool that this device totally replaces that using the laptop you'd already have with you!"_
+
+- **[matsuu](https://x.com/matsuu/status/1789322019315892318)** | Beta Tester: *“ノートパソコンに繋げるタイプのKVMコソール。似たような製品でUSB+VGAはあるがこれはUSB+HDMI構成。オープンソース実装になっているそうで安価になるっぽい。いいねこれ。”*
+
+- **[Kazubu](https://x.com/_kazubu/status/1828454779875701044)** | Beta Tester: *“この安価でコンパクトなMini-KVMを持ち運ぶことによって、急にサーバやミニPCを操作する必要がある際に迅速に対応することができました。”*
 
 - **[Yukito KATO, ITmedia](https://www.itmedia.co.jp/pcuser/articles/2503/13/news174.html)** | Reviewer: _"Mini-KVMは小さな本体とケーブル3本で構成されており、一般的なKVMスイッチと比較すると、非常にコンパクトで持ち運びも楽ちんだ."_
 
