@@ -62,6 +62,8 @@ Welcome to the dedicated FAQ for our flagship product, the **Openterface Mini-KV
 
 - [Why does it sometimes have issues with USB hubs?](#usb-hub-issues)
 - [What if the app doesn't display the target screen or input is unresponsive?](#unstable-issues)
+- [I re-flashed the capture firmware, but I still can’t get normal video capture. What else can I try?](#firmware-reflash-issue)
+- [Why is my screen completely black when using a VGA-to-HDMI cable or adapter?](#vga-black-screen)
 
 ##### More
 
@@ -318,6 +320,36 @@ When a USB hub is used on the target side, the Openterface Mini-KVM might become
 #### What if the app doesn't display the target screen or input is unresponsive? {: #unstable-issues }
 
 If you encounter instability with the Openterface Mini-KVM—such as the app not displaying the target's screen or the inability to control the mouse and keyboard—try disconnecting all the cables. After a brief moment, reconnect the cables and try again. This simple reset often resolves connection issues.
+
+#### My host app or system shows absurd resolutions like 43184x24228@44Hz, and there's no video. What should I do?
+
+This symptom often points to a firmware issue on the capture chip. On Windows, open “USB Tree Viewer” and confirm you see “**MACROSILION Openterface USB Composite Device**” instead of just “MACROSILION USB Composite Device.” On Linux/macOS, check `lsusb -v` output for “Openterface.” If the capture firmware has reverted to factory default, **re-flash** the Openterface firmware (available on our [GitHub releases page](https://github.com/TechxArtisanStudio/Openterface_QT/releases)). If that doesn’t fix the issue, please reach out to our support team.
+
+#### I re-flashed the capture firmware, but I still can’t get normal video capture. What else can I try?  {: #firmware-reflash-issue }
+
+1. Double-check that your device enumerates correctly in a Windows environment with “USB Tree Viewer” or via `lsusb -v` on Linux.
+2. Confirm that your host app is the latest official release.
+3. If you continue to see no improvement—or bizarre resolutions and no display—contact our support. We’ll work with you on additional diagnostics and, if needed, arrange a replacement.
+
+#### Why is my screen completely black when using a VGA-to-HDMI cable or adapter?  {: #vga-black-screen }
+Our [VGA-to-HDMI converter cable](/product/accessories/vga-to-hdmi-cable/) **needs extra power** to function. If you see only a black screen, you might be missing a power connection (1).
+{ .annotate }
+
+1. <img src="https://pbs.twimg.com/media/GnCqHVlWgAAVGqY?format=jpg&name=small" alt="" style="max-width: 120px; vertical-align: middle;" onerror="this.style.display='none'"><img src="https://pbs.twimg.com/media/GnCqGa8WQAAOr6m?format=jpg&name=small" alt="" style="max-width: 120px; vertical-align: middle;" onerror="this.style.display='none'"><br> This is an example of a setup where the USB cable was left unplugged_
+
+???+ info "Steps to make the VGA-to-HDMI cable work"
+
+1. **Connect the USB Power**  
+   - Our VGA-to-HDMI cables include a USB plug that must be connected to a powered USB port (either on the Mini-KVM’s [switchable USB port](/product/minikvm/usb-switch/) or the target computer). This powers the VGA-to-HDMI conversion chip.
+
+2. **Confirm Resolution**  
+   - Make sure the target computer is using a supported resolution, such as 1280x1024 or 1024x768 at 60Hz.  
+   - Resolutions outside the supported range can produce a black or distorted screen.
+
+3. **Try Another Adapter**  
+   - If possible, test with a different VGA-to-HDMI adapter or cable. Some converters lack proper power draw and can cause blank screens.
+
+Still no luck? Snap a photo of your setup (including cables) and send it to our support team. We’ll help you troubleshoot or arrange a replacement if necessary.
 
 ### More
 
