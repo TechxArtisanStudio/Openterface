@@ -228,6 +228,7 @@ plugins:
   - markdownextradata
   - redirects:
       redirect_maps:
+        'why-openterface.md': 'faq/usbkvm/openterface.md'
         'webapp.md': 'https://openterface-viewer.pages.dev/'
         'faq/minikvm.md': 'faq/usbkvm/kvm-over-usb.md'
         'basic-testing.md': 'faq/usbkvm/kvm-over-usb.md'
