@@ -10,3 +10,4 @@ Openterface/
 .venv
 .cache
 .ipynb_checkpoints
+mkdocs-venv
