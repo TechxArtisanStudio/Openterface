@@ -6,11 +6,11 @@ description: Learn about KVM-over-USB technology, its benefits, and how it compa
 
 # KVM-over-USB Basics
 
-### What is KVM-over-USB? {: #what-is-kvm-over-usb }
+### :material-chat-question:{ .faq } What is KVM-over-USB? {: #what-is-kvm-over-usb }
 
 A **USB KVM**—often referred to as **KVM-over-USB**—is a keyboard, video, and mouse control solution that connects directly to a headless or unattended computer via USB and typically an HDMI (or similar, such as VGA or Micro HDMI) video interface. Its plug-and-play design eliminates the need for complex network configurations, making it ideal for IT professionals, system builders, and enthusiasts who need reliable, portable, and immediate access—even where network connectivity is limited or unavailable.
 
-### How does USB KVM work? {: #how-usb-kvm-works }
+### :material-chat-question:{ .faq } How does USB KVM work? {: #how-usb-kvm-works }
 
 ![USB KVM Connection Dark](/images/usbkvm/usb-kvm-connect-dark.svg#only-dark)
 ![USB KVM Connection Light](/images/usbkvm/usb-kvm-connect-light.svg#only-light)
@@ -30,7 +30,7 @@ A **USB KVM**—often referred to as **KVM-over-USB**—is a keyboard, video, an
 5. **Synchronization**  
    The app keeps the target computer's display and controls perfectly in sync with your host, allowing you to interact with both systems on a single screen.
 
-### What are the benefits of USB KVM? {: #why-usb-kvm }
+### :material-chat-question:{ .faq } What are the benefits of USB KVM? {: #why-usb-kvm }
 
 USB KVMs are designed for:
 
@@ -47,7 +47,7 @@ Compared to network-dependent solutions, USB KVMs allow IT professionals and tec
 
 ---
 
-### Why choose USB KVM over IP KVM? {: #usb-vs-ip }
+### :material-chat-question:{ .faq } Why choose USB KVM over IP KVM? {: #usb-vs-ip }
 
 <div class="grid cards" markdown>
 
@@ -93,7 +93,7 @@ Compared to network-dependent solutions, USB KVMs allow IT professionals and tec
 
 </div>
 
-### How do different KVM solutions compare? {: #kvm-comparison }
+### :material-chat-question:{ .faq } How do different KVM solutions compare? {: #kvm-comparison }
 
 #### Comparison: USB KVM, IP KVM, KVM Switch, and VNC
 
