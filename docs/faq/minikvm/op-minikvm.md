@@ -332,10 +332,10 @@ This symptom often points to a firmware issue on the capture chip. On Windows, o
 3. If you continue to see no improvement—or bizarre resolutions and no display—contact our support. We’ll work with you on additional diagnostics and, if needed, arrange a replacement.
 
 #### Why is my screen completely black when using a VGA-to-HDMI cable or adapter?  {: #vga-black-screen }
-Our [VGA-to-HDMI converter cable](/product/accessories/vga-to-hdmi-cable/) **needs extra power** to function. If you see only a black screen, you might be missing a power connection (1).
+Our [VGA-to-HDMI converter cable](/product/accessories/vga-to-hdmi-cable/) **needs extra power** to function. If you see only a black screen, you might be missing a power connection. (1)
 { .annotate }
 
-1. <img src="https://pbs.twimg.com/media/GnCqHVlWgAAVGqY?format=jpg&name=small" alt="" style="max-width: 120px; vertical-align: middle;" onerror="this.style.display='none'"><img src="https://pbs.twimg.com/media/GnCqGa8WQAAOr6m?format=jpg&name=small" alt="" style="max-width: 120px; vertical-align: middle;" onerror="this.style.display='none'"><br> This is an example of a setup where the USB cable was left unplugged_
+1. <img src="https://pbs.twimg.com/media/GnCqHVlWgAAVGqY?format=jpg&name=small" alt="" style="max-width: 180px; vertical-align: middle;" onerror="this.style.display='none'"><img src="https://pbs.twimg.com/media/GnCqGa8WQAAOr6m?format=jpg&name=small" alt="" style="max-width: 180px; vertical-align: middle;" onerror="this.style.display='none'"><br> *This is an example of a setup where the USB cable was left unplugged*
 
 ???+ info "Steps to make the VGA-to-HDMI cable work"
 
