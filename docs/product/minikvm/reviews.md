@@ -74,3 +74,51 @@ slug: /openterface-mini-kvm-reviews
 
 1. <img src="https://i.ytimg.com/vi_webp/XTbpzx91Qbs/maxresdefault.webp" alt="thumbnail" style="max-width: 120px; vertical-align: middle;" onerror="this.style.display='none'"><br> [**Openterface Mini-KVM ¡Controla Todo desde un Solo Lugar!**](https://www.youtube.com/watch?v=XTbpzx91Qbs) | **2024-12-09**
    _Spanish-language overview emphasizing centralised tech management. Friendly tone, includes Amazon links and community promo._
+
+## :fontawesome-solid-users:{ .testimonials } Testimonials
+
+- **[Cameron Gray](https://www.youtube.com/watch?v=xAEQpWyfY-c)** | Beta Tester: *“\[Openterface Mini-KVM\] promises to be a low cost, feature packed way to use a laptop as a monitor, keyboard and mouse for accessing servers and other computers.”*
+
+- **[apalrd](https://www.youtube.com/watch?v=ZZ5P6MnBcHw)** | Beta Tester: *“A simple gadget concept that has a permanent home on my test bench, turning my laptop into my display, keyboard, and mouse.”*
+
+- **[matsuu](https://x.com/matsuu/status/1789322019315892318)** | Beta Tester: *“ノートパソコンに繋げるタイプのKVMコソール。似たような製品でUSB+VGAはあるがこれはUSB+HDMI構成。オープンソース実装になっているそうで安価になるっぽい。いいねこれ。”*
+
+- **[Florian Bernd](https://blog.flobernd.de/2024/06/openterface-beta-test/)** | Beta Tester: *“All in all, the Openterface KVM is an extremely useful tool that I will certainly be using a lot in the future. The hardware is more than solid and the toolbox also contains all the accessories you need.”*
+
+- **[Kazubu](https://x.com/_kazubu/status/1828454779875701044)** | Beta Tester: *“この安価でコンパクトなMini-KVMを持ち運ぶことによって、急にサーバやミニPCを操作する必要がある際に迅速に対応することができました。”*
+
+- **Vincent Cox** | Beta Tester: *“Klein formaat maakt het makkelijk om mee te nemen tijdens field-work. Je kan onmiddellijk met een headless device verbinden, geen gedoe met extra monitor en keyboard. Best of all: Opensource <3”*
+
+- **Vegard Hagen** | Beta Tester: *“Fantastisk liten dings som gjør oppsett og vedlikehold av hjemmelabben så mye enklere!”*
+
+- **nkahoang** | Beta Tester: *“This makes recovery from the CrowdStrike incident much less painful. Highly recommended!”*
+
+- **Jordan Jones** | Beta Tester: *“Openterface provides an all-in-one box for interfacing with pretty much any device using hdmi and usb. It's small kit has become extremely handy where ever I need it.”*
+
+- **ctjameson** | Beta Tester: *“So tiny! So this thing is honestly the most amazing thing ever for so many use cases. Even just as a keyboard! But the video/ capture is so good I’ll be using it for all testing/setup of any device ever again.”*
+
+- **[Billy Kan](https://www.linkedin.com/posts/billykan_so-happy-to-get-my-old-headless-macmini-back-activity-7251885312509902848-EHpb)** | Beta Tester: *"The package is beautiful and I can control the MacMini on my Macbook Pro in 5 minutes by just plugging in a couple of HDMI and USB-C cables, with crisp graphics and sounds (I am enjoying 70's oldies now as I type this)."* 
+
+- **[samw](https://tinytoolk.it/tools/openterface-kvm/)** | Backer: _"In datacenters, where you typically see a monitor, mouse, and keyboard on wheels (a 'crash cart'), it's cool that this device totally replaces that using the laptop you'd already have with you!"_
+
+- **[Yukito KATO, ITmedia](https://www.itmedia.co.jp/pcuser/articles/2503/13/news174.html)** | Reviewer: _"Mini-KVMは小さな本体とケーブル3本で構成されており、一般的なKVMスイッチと比較すると、非常にコンパクトで持ち運びも楽ちんだ."_
+
+## :fontawesome-solid-newspaper:{ .media } Media Coverage
+
+- **[Jean-Luc Aufranc (CNXSoft):](https://www.cnx-software.com/2024/05/09/openterface-mini-kvm-affordable-kvm-over-usb-device/)** *“Openterface Mini-KVM is quite different (and cheaper) as a plug-and-play and network-independent KVM-over-USB device that establishes a direct HDMI and USB connection between the host computer and the target device.”*
+
+- **[Helen Leigh, Crowd Supply:](https://x.com/TechxArtisan/status/1800563644046188896)** *“This has gone GANGBUSTER!”*
+
+- **[Electronics-Lab.com:](https://www.electronics-lab.com/experience-effortless-device-control-with-openterface-mini-kvm/)** *“Openterface Mini-KVM offers a simple solution for managing headless devices like mini PCs, kiosks, or servers directly from your laptop or desktop.”*
+
+- **[MAKE: Magazine:](https://www.youtube.com/watch?v=lwitzvmxsgc)** *“Join us a #livestream with TechxArtisan, as we dive into their #Openterface Mini-KVM open-source #KVM gadget and @crowd_supply campaign.”*
+
+- **[Electromaker:](https://www.electromaker.io/project/view/openterface-mini-kvm-portable-kvm-over-usb?srsltid=AfmBOorLBpyuDUbfmEG_xvOr4CPNl49p_Y7sM_qaxXe-l46pxonZL7TW)** *“The @TechxArtisan MiniKVM turns your laptop into a #KVM, with high resolution screen share, HDMI audio, and an extra USB port. We chatted with Billy, the MiniKVM creator, at @Crowd_Supply Teardown 2024.”*
+
+- **[Hackster News:](https://www.hackster.io/news/techxartisan-s-openterface-mini-kvm-promises-an-open-source-approach-to-handling-headless-systems-5b81d9b7a451)** *“Low-latency pocket-sized gadget delivers keyboard, HDMI video, and mouse control over a single USB cable to a host machine.”*
+
+---
+
+:fontawesome-solid-envelope:  **Note to Media & Influencers:**
+
+If you're a media professional or influencer passionate about cutting-edge technology, we invite you to explore and support our **open-source** KVM solution! For review opportunities, exclusive previews, or to request a review unit, please contact us at [info@openterface.com](mailto:info@openterface.com). Let’s collaborate to showcase how **open source** is transforming device management!
