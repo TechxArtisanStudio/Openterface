@@ -6,19 +6,21 @@ keywords: Mini-KVM, Openterface, KVM switch, technical specifications, usage gui
 
 # FAQs for Openterface Mini-KVM
 
-Welcome to the dedicated FAQ for our flagship product, the **Openterface Mini-KVM**. For general questions about KVM technology or other Openterface products, please visit our [main FAQ page](/faq/).
+Welcome to the dedicated FAQ for our flagship product, the **Openterface Mini-KVM**. If you can’t find the answer you’re looking for, feel free to **email us at [info@openterface.com](mailto:info@openterface.com)** or **join our community** such as [Discord](/discord) and Reddit(/reddit), where you can connect with our dev team and an amazing group of users!
 
 ## List of Questions
 
 ##### Basic
 
 - [What makes the Mini-KVM our flagship product?](#flagship-product)
+- [What’s the difference between the Basic Pack and the Toolkit Pack?](#package-differences)
 - [What are its key features?](#key-features)
 - [Which host computers are compatible?](#mini-kvm-host-compatibility)
 - [What about target device compatibility?](#mini-kvm-target-compatibility)
 - [Are technical support and documentation available?](#mini-kvm-support)
+- [Can I order accessories like VGA-to-HDMI converter cable separately?](#accessories)
 
-##### Software  
+##### Software
 
 - [Where can I download the host applications?](#host-app-download)
 - [Why do features differ across different host apps?](#host-app-differences)
@@ -51,12 +53,13 @@ Welcome to the dedicated FAQ for our flagship product, the **Openterface Mini-KV
 ##### Video Related
 
 - [What about video latency and resolution?](#video-latency-resolution)
-- [What are the supported video resolutions of the Openterface Mini-KVM?](#video-resolution-guide)
+- [What are the supported input & output video resolutions of the Openterface Mini-KVM?](#video-resolution-guide)
 - [Is it suitable for gaming?](#gaming-compatibility)
 - [Will future versions support higher-quality displays?](#future-display-support)
 - [Why doesn't it stream video over local IP?](#no-ip-streaming)
 - [How about KVM control over the internet?](#no-internet-control)
 - [Can it work with VGA, DVI, DisplayPort, etc.?](#video-output-support)
+-   [Will there be a video recording feature for troubleshooting?](#video-recording-feature)
 
 ##### Troubleshooting
 
@@ -64,7 +67,6 @@ Welcome to the dedicated FAQ for our flagship product, the **Openterface Mini-KV
 - [What if the app doesn't display the target screen or input is unresponsive?](#unstable-issues)
 - [I re-flashed the capture firmware, but I still can’t get normal video capture. What else can I try?](#firmware-reflash-issue)
 - [Why is my screen completely black when using a VGA-to-HDMI cable or adapter?](#vga-black-screen)
-
 ##### More
 
 - [How can I contribute to this project?](#contribute)
@@ -76,15 +78,25 @@ Welcome to the dedicated FAQ for our flagship product, the **Openterface Mini-KV
 ### Basic
 
 #### What makes the Mini-KVM our flagship product? {: #flagship-product }
+
 The Openterface Mini-KVM represents our most feature-complete KVM solution, offering:
 
-- Plug-and-play functionality for fast, stable troubleshooting  
-- No dependency on network connectivity  
-- Full BIOS-level access  
-- Switchable USB port for seamless file transfers  
-- Broad compatibility across operating systems  
-- Open-source hardware and software  
+- Plug-and-play functionality for fast, stable troubleshooting
+- No dependency on network connectivity
+- Full BIOS-level access
+- Switchable USB port for seamless file transfers
+- Broad compatibility across operating systems
+- Open-source hardware and software
 - Backed by an active and supportive community
+
+#### **What’s the difference between the Basic Pack and the Toolkit Pack?** {: #package-differences }
+
+We offer two purchase options:
+
+-   **Basic Pack**: Includes the **Openterface Mini-KVM** and a **Quick Start Guide**.
+-   **Toolkit Pack**: Includes everything in the Basic Pack **plus** a **Toolkit Bag, HDMI & USB cables, an Extension Pin Cap, and a Mascot Sticker** for added convenience.
+
+For a detailed breakdown, visit: [Openterface Mini-KVM Product Page](/product/minikvm/whats-in-the-box/)
 
 #### What are Openterface MiniKVM's key features? {: #key-features }
 
@@ -98,15 +110,23 @@ The Openterface Mini-KVM represents our most feature-complete KVM solution, offe
 - **Open Source**: Both hardware and software
 
 #### What host computers are compatible? {: #mini-kvm-host-compatibility }
+
 To use this mini-KVM, the host computer must install one of these [host applications](/app) to support **MacOS, Windows, Linux and Android**.
 
 #### What target devices are compatible? {: #mini-kvm-target-compatibility }
+
 No pre-installation or configuration is required on the target device. As long as the target device supports UI operations with video output (e.g., HDMI, VGA) and has a USB port to receive emulated keyboard and mouse control (HID) signals, it can be used. Thus, supported target device platforms include Windows, MacOS, Linux, Android, and iOS.
 
 #### Will there be technical support and documentation? {: #mini-kvm-support }
 
 Extensive documentation for the Openterface Mini-KVM can be found on our website at [Openterface.com](/). We continuously update these resources to optimize your experience with the device.
 For technical support, we invite you to join our [community](/community/) for sharing queries and insights among fellow users and our expert team. If your issue remains unresolved, our team is available to provide further technical assistance. You can reach out via this email: [info@openterface.com](mailto:info@openterface.com).
+
+#### **Can I order accessories like VGA-to-HDMI converter cable separately?** {: #accessories }
+
+Yes! You can find all available **accessories** [here](product/accessories/) and purchase them separately through our **[TechxArtisan Shop](http://shop.techxartisan.com/)**.
+
+---
 
 ### Software
 
@@ -149,6 +169,8 @@ On macOS, pressing F11 shows the macOS desktop instead of passing the F11 key to
 4. Find "Show Desktop" and set it to the hyphen (-) at the bottom of the dropdown list.
 5. This change will let the F11 key pass through to your application on the target computer.
 
+---
+
 ### Switchable USB Port and File Transfer
 
 #### Can the Mini-KVM support file transfers? {: #file-transfer }
@@ -167,6 +189,8 @@ Using USB 3.0 would make the PCB design much more complex and significantly incr
 
 We are considering the application of USB 3.0 for the next version, targeting more professional use scenarios and stationary KVM solutions.
 
+---
+
 ### Technical
 
 #### Is the Mini-KVM open-source? {: #mini-kvm-open-source }
@@ -174,11 +198,13 @@ We are considering the application of USB 3.0 for the next version, targeting mo
 Yes! The Openterface Mini-KVM is fully open-sourced in both [hardware](/how-it-works/#explore-hardware-details) and [software](/quick-start/#install-host-application), certified by [OSHWA](https://certification.oshwa.org/cn000015.html), and supported by [a vibrant community](/community/). If you are interested in [contributing](/contributing/), please contact us at info@openterface.com. Stay tuned!
 
 #### Can I access a device's BIOS settings? {: #bios-access }
+
 Yes, the direct connection of the Openterface Mini-KVM enables access to low-level BIOS or firmware settings.
 
 This feature stands in contrast to software-based KVM solutions or remote control applications like TeamViewer and VNC, which are typically not capable of BIOS-level interactions.
 
 #### Why doesn't the keyboard control work at the BIOS level for some older target computers?
+
 It seems that some old computers' BIOS can't recognize our device's USB hub, which can cause issues with our emulated keyboard and mouse not working properly at the BIOS level. We're keeping an eye on this problem.
 
 We've had a report that on one specific HP computer, the HP Engage Flex Pro, the keyboard doesn't work at the BIOS screen, though it functions normally once the operating system boots up.
@@ -186,20 +212,26 @@ We've had a report that on one specific HP computer, the HP Engage Flex Pro, the
 If you encounter the same issue, please report it to us via a GitHub issue.
 
 #### How is video/data transmitted? {: #video-data-transmission }
+
 Video data is captured via HDMI and transmitted over USB 2.0 to the host computer for display. The switchable USB 2.0 port allows USB drive or other USB device sharing between the target and the host.
 
 #### How does the Mini-KVM handle power? {: #mini-kvm-power }
+
 The device does not require an external power supply, as it is designed to be powered through its USB Type-C connections from the host, enhancing its portability. In scenarios where the target device is a low-power micro-computer, such as a Raspberry Pi, it could be powered through the host via the Mini-KVM's switchable USB port. However, this is not recommended. The standard method of operation is to have an external power supply to the target device.
 
 #### Can I DIY this device?
+
 Absolutely! We're a bunch of passionate makers who love to DIY, and we are making sure this project is open source in both hardware and software. You can technically build it from scratch. We're even thinking about posting a guide on how to DIY a breadboard version of our product that would also be compatible with our software.
 
 Our community is already experimenting with different hardware versions. Check out our community posts to learn more, share your own DIY experiences, or even join our [USB DIY Contest](https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024), co-hosted with Crowd Supply! Plus, you might find that with a few tweaks to the code, our software could work seamlessly with your creative DIY setup!
 
+---
+
 ### Control Mechanism
 
 #### Will there be a version with wireless or Ethernet connectivity? {: #wireless-version }
-Currently, we're not planning to add wireless or Ethernet connectivity to our Openterface products. We're focused on providing fast, stable control over USB directly to your target device, so you don't have to worry about network issues. 
+
+Currently, we're not planning to add wireless or Ethernet connectivity to our Openterface products. We're focused on providing fast, stable control over USB directly to your target device, so you don't have to worry about network issues.
 
 But hey, we're always open to feedback! If you think there's a real need for this feature, or if you're struggling to find a good KVM-over-IP solution, drop us an email: info@openterface.com. And remember, if we decide to expand our connectivity options, our [community](/community) will be the first to know.
 
@@ -221,6 +253,7 @@ Not directly — MiniKVM doesn’t have built-in ATX power control. However, it 
 
 While our dev team hasn’t prioritized this hardware expansion yet, it’s definitely on our radar. If you're into hardware development and would like to contribute or prototype an ATX extension, we’d love to hear from you! Join the community and help shape what’s next.
 
+---
 
 ### Video Related
 
@@ -228,45 +261,47 @@ While our dev team hasn’t prioritized this hardware expansion yet, it’s defi
 
 Our device handles 1080p video output with under 140 milliseconds of latency, making your control experience smooth and seamless. Check out its [specifications](/product/minikvm/specifications/).
 
-#### What are the supported video resolutions of the Openterface Mini-KVM? {: #video-resolution-guide }
+#### What are the supported input and output video resolutions of the Openterface Mini-KVM? {: #video-resolution-guide }
 
 The Openterface Mini-KVM supports a wide range of video input resolutions, including up to **4K (4096 x 2160 @ 30Hz)**. However, its **effective capture resolution** — the resolution actually processed and displayed on your host computer — is **1920x1080**. Resolutions above that will be downsampled, which may introduce slight visual blur due to pixel merging.
 
-??? info "Key Definitions"
+??? info "Key Definitions: Input Resolution & Effective Max Capture"
     - **Input Resolution**: The resolution output by your target computer.
     - **Capture Resolution**: The resolution at which the Mini-KVM captures and transmits video to the host computer.  
     - **Effective Max Capture**: 1920x1080 — for the best clarity and performance.
 
-##### Supported Input Resolutions
-The Mini-KVM can accept and process common standard resolutions, including but not limited to:
+??? info "Supported Input Resolutions"
+    The Mini-KVM can accept and process common standard resolutions, including but not limited to:
 
-- 4096 x 2160 @ 30Hz, 29.97Hz (Highest resolution supported by the Openterface Mini-KVM)  
-- 3840 x 2160 @ 30Hz, 29.97Hz (4k resolution with 16:9 aspect ratio)  
-- 2100 x 1050 @ 60Hz (optimized for mobile devices with 16:9 aspect ratio)  
-- 1920 x 1200 @ 60Hz (16:10 aspect ratio) 
-- 1920 x 1080 @ 60Hz (The best display resolution with 16:9 aspect ratio)
-- 1680 x 1050 @ 60Hz (16:9 aspect ratio)  
-- 1600 x 900 @ 60Hz (16:9 aspect ratio)  
-- 1440 x 900 @ 60Hz (16:9 aspect ratio)  
-- 1280 x 1024 @ 60Hz (5:4 aspect ratio)  
-- 1280 x 960 @ 60Hz (4:3 aspect ratio)  
-- 1280 x 800 @ 60Hz (16:10 aspect ratio)  
-- 1280 x 720 @ 60Hz (16:9 aspect ratio)  
-- 1152 x 864 @ 60Hz (4:3 aspect ratio)  
-- 1024 x 768 @ 60Hz (Optimized for old CRT monitors resolution with 4:3 aspect ratio)  
-- 800 x 600 @ 60Hz (Optimized for old CRT monitors resolution with 4:3 aspect ratio)  
-- 640 x 480 @ 60Hz (Optimized for old CRT monitors resolution with 4:3 aspect ratio)  
+    -   4096 x 2160 @ 30Hz, 29.97Hz (Highest resolution supported by the Openterface Mini-KVM)
+    -   3840 x 2160 @ 30Hz, 29.97Hz (4k resolution with 16:9 aspect ratio)
+    -   2100 x 1050 @ 60Hz (optimized for mobile devices with 16:9 aspect ratio)
+    -   1920 x 1200 @ 60Hz (16:10 aspect ratio)
+    -   1920 x 1080 @ 60Hz (The best display resolution with 16:9 aspect ratio)
+    -   1680 x 1050 @ 60Hz (16:9 aspect ratio)
+    -   1600 x 900 @ 60Hz (16:9 aspect ratio)
+    -   1440 x 900 @ 60Hz (16:9 aspect ratio)
+    -   1280 x 1024 @ 60Hz (5:4 aspect ratio)
+    -   1280 x 960 @ 60Hz (4:3 aspect ratio)
+    -   1280 x 800 @ 60Hz (16:10 aspect ratio)
+    -   1280 x 720 @ 60Hz (16:9 aspect ratio)
+    -   1152 x 864 @ 60Hz (4:3 aspect ratio)
+    -   1024 x 768 @ 60Hz (Optimized for old CRT monitors resolution with 4:3 aspect ratio)
+    -   800 x 600 @ 60Hz (Optimized for old CRT monitors resolution with 4:3 aspect ratio)
+    -   640 x 480 @ 60Hz (Optimized for old CRT monitors resolution with 4:3 aspect ratio)
 
 ???+ tip "Best Practice"
     Set both the target output and the Mini-KVM capture resolution to **1920x1080** for optimal sharpness and minimal latency.
 
-##### What happens with resolutions above 1080p?
+**What happens with target output resolutions above 1080p?**
+
 If your target computer outputs at a higher resolution than 1080p, the Mini-KVM will **merge multiple pixels** into one for display on the host. This may make the image appear **blurry**.
 
 ???+ info "Improving Blurry Image"
     You can improve visual clarity on the host side by **scaling up the display**. While this won’t restore full detail, it smooths the output and enhances visibility.
 
-##### Troubleshooting Glitches
+**Troubleshooting Glitches**
+
 If you're seeing video glitches or no signal after changing resolution or refresh rate:
 
 1. In the host app, **lower the capture resolution** temporarily to **640x480 @ 30Hz**.
@@ -311,6 +346,24 @@ We’re always open to ideas — if you have thoughts on how you'd like remote s
 
 Sort of. The Openterface Mini-KVM captures video through an HDMI port. However, you can use various video adapters like [VGA-to-HDMI](/use-cases/#streamlined-server-management), [DVI-to-HDMI](/use-cases/#unified-control-for-diverse-devices), [miniHDMI-to-HDMI](/use-cases/#simplified-setup-for-tech-enthusiasts), or DP-to-HDMI, to connect different video sources.
 
+#### Will there be a video recording feature for troubleshooting? {: #video-recording-feature }
+
+Yes! We're developing a "dashcam-style" continuous recording feature that will:
+
+-   Capture short video segments of the target computer
+-   Allow frame-by-frame review of critical moments (like fast-disappearing error messages)
+-   Support at least 30fps for clear analysis of rapid events (e.g., kernel panics during boot)
+
+This will be particularly valuable for debugging scenarios where:
+
+-   Error messages flash too quickly to read
+-   Systems crash during early boot sequences
+-   You need forensic analysis of console output
+
+The feature is currently on our development roadmap - stay tuned for updates!
+
+---
+
 ### Troubleshooting
 
 #### Why does it sometimes have issues with USB hubs? {: #usb-hub-issues }
@@ -320,6 +373,8 @@ When a USB hub is used on the target side, the Openterface Mini-KVM might become
 #### What if the app doesn't display the target screen or input is unresponsive? {: #unstable-issues }
 
 If you encounter instability with the Openterface Mini-KVM—such as the app not displaying the target's screen or the inability to control the mouse and keyboard—try disconnecting all the cables. After a brief moment, reconnect the cables and try again. This simple reset often resolves connection issues.
+
+---
 
 #### My host app or system shows absurd resolutions like 43184x24228@44Hz, and there's no video. What should I do?
 
@@ -337,19 +392,19 @@ Our [VGA-to-HDMI converter cable](/product/accessories/vga-to-hdmi-cable/) **nee
 
 1. <img src="https://pbs.twimg.com/media/GnCqHVlWgAAVGqY?format=jpg&name=small" alt="" style="max-width: 180px; vertical-align: middle;" onerror="this.style.display='none'"><img src="https://pbs.twimg.com/media/GnCqGa8WQAAOr6m?format=jpg&name=small" alt="" style="max-width: 180px; vertical-align: middle;" onerror="this.style.display='none'"><br> *This is an example of a setup where the USB cable was left unplugged*
 
-???+ info "Steps to make the VGA-to-HDMI cable work"
+??? info "Steps to make the VGA-to-HDMI cable work"
 
-1. **Connect the USB Power**  
-   - Our VGA-to-HDMI cables include a USB plug that must be connected to a powered USB port (either on the Mini-KVM’s [switchable USB port](/product/minikvm/usb-switch/) or the target computer). This powers the VGA-to-HDMI conversion chip.
+    1. **Connect the USB Power**  
+    - Our VGA-to-HDMI cables include a USB plug that must be connected to a powered USB port (either on the Mini-KVM’s [switchable USB port](/product/minikvm/usb-switch/) or the target computer). This powers the VGA-to-HDMI conversion chip.
 
-2. **Confirm Resolution**  
-   - Make sure the target computer is using a supported resolution, such as 1280x1024 or 1024x768 at 60Hz.  
-   - Resolutions outside the supported range can produce a black or distorted screen.
+    2. **Confirm Resolution**  
+    - Make sure the target computer is using a supported resolution, such as 1280x1024 or 1024x768 at 60Hz.  
+    - Resolutions outside the supported range can produce a black or distorted screen.
 
-3. **Try Another Adapter**  
-   - If possible, test with a different VGA-to-HDMI adapter or cable. Some converters lack proper power draw and can cause blank screens.
+    3. **Try Another Adapter**  
+    - If possible, test with a different VGA-to-HDMI adapter or cable. Some converters lack proper power draw and can cause blank screens.
 
-Still no luck? Snap a photo of your setup (including cables) and send it to our support team. We’ll help you troubleshoot or arrange a replacement if necessary.
+    Still no luck? Snap a photo of your setup (including cables) and send it to our support team. We’ll help you troubleshoot or arrange a replacement if necessary.
 
 ### More
 
@@ -385,7 +440,7 @@ We’re still in the early stages of this integration, but the possibilities are
 
 We offer a range of [accessories](/product/accessories/) to enhance your experience with the Openterface Mini-KVM. Check out our [TxA Shop](https://shop.techxartisan.com/) for more details on available products, including our VGA to HDMI Converter Cable.
 
---------
+---
 
 Your curiosity and support fuel our progress, and we want to ensure that every one of your questions finds an answer. Please note that as time progresses, the content above in our FAQs may become outdated. If your query isn't covered in this FAQ, always check our website [openterface.com](/) for the most current information. Also please don't hesitate to join our enthusiastic community. We're active on our Subreddit at [/r/Openterface_miniKVM/](/reddit) and our [Discord Openterface](/dicord) server, where you can ask questions, share ideas, or just have a chat about all things tech.
 

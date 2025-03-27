@@ -121,4 +121,4 @@ slug: /openterface-mini-kvm-reviews
 
 :fontawesome-solid-envelope:  **Note to Media & Influencers:**
 
-If you're a media professional or influencer passionate about cutting-edge technology, we invite you to explore and support our **open-source** KVM solution! For review opportunities, exclusive previews, or to request a review unit, please contact us at [info@openterface.com](mailto:info@openterface.com). Let’s collaborate to showcase how **open source** is transforming device management!
+If you're a media professional or influencer passionate about cutting-edge technology, we invite you to explore and support our **open-source KVM solution**! For review opportunities, exclusive previews, or to request a review unit, please contact us at [info@openterface.com](mailto:info@openterface.com). Let’s collaborate to showcase how open source is transforming device management!
