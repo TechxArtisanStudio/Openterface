@@ -35,7 +35,7 @@
     .gdesc-inner { font-size: 0.75rem; }
     body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
     body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></link><meta content="Openterface Mini-KVM" name="title"/><meta content="Mini-KVM, Openterface, KVM switch, technical specifications, usage guide, troubleshooting, open-source hardware, video capture, USB port, file transfer, compatibility, community support" name="keywords"/><meta content="website" property="og:type"/><meta content="https://openterface.com/faq/minikvm/op-minikvm" property="og:url"/><meta content="Openterface Mini-KVM" property="og:title"/><meta content="Detailed FAQ for our flagship Mini-KVM product, covering technical specifications, usage guides, and troubleshooting tips." property="og:description"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://openterface.com/faq/minikvm/op-minikvm" property="twitter:url"/><meta content="Openterface Mini-KVM" property="twitter:title"/><meta content="Detailed FAQ for our flagship Mini-KVM product, covering technical specifications, usage guides, and troubleshooting tips." property="twitter:description"/></head>
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></link><meta content="Openterface Mini-KVM" name="title"/><meta content="Mini-KVM, Openterface, KVM switch, technical specifications, usage guide, troubleshooting, open-source hardware, video capture, USB port, file transfer, compatibility, community support" name="keywords"/><meta content="website" property="og:type"/><meta content="https://openterface.com/faq/minikvm/op-minikvm" property="og:url"/><meta content="Openterface Mini-KVM" property="og:title"/><meta content="Detailed FAQ for our flagship Mini-KVM product, covering technical specifications, usage guides, and troubleshooting tips." property="og:description"/><meta content="https://pbs.twimg.com/media/GnCqHVlWgAAVGqY?format=jpg&amp;name=small" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://openterface.com/faq/minikvm/op-minikvm" property="twitter:url"/><meta content="Openterface Mini-KVM" property="twitter:title"/><meta content="Detailed FAQ for our flagship Mini-KVM product, covering technical specifications, usage guides, and troubleshooting tips." property="twitter:description"/><meta content="https://pbs.twimg.com/media/GnCqHVlWgAAVGqY?format=jpg&amp;name=small" property="twitter:image"/></head>
 <body data-md-color-accent="custom" data-md-color-primary="deep-orange" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
@@ -886,6 +886,8 @@
 <ul>
 <li><a href="#usb-hub-issues">Why does it sometimes have issues with USB hubs?</a></li>
 <li><a href="#unstable-issues">What if the app doesn't display the target screen or input is unresponsive?</a></li>
+<li><a href="#firmware-reflash-issue">I re-flashed the capture firmware, but I still can’t get normal video capture. What else can I try?</a></li>
+<li><a href="#vga-black-screen">Why is my screen completely black when using a VGA-to-HDMI cable or adapter?</a></li>
 </ul>
 <h5 id="more">More<a class="headerlink" href="#more" title="Permanent link">¶</a></h5>
 <ul>
@@ -1071,6 +1073,40 @@ For technical support, we invite you to join our <a href="/community/">community
 <p>When a USB hub is used on the target side, the Openterface Mini-KVM might become unstable. This is because the Openterface Mini-KVM relies primarily on the target port for power. If the USB hub connected to the target is fully loaded, it may cause a significant voltage drop, leading to instability in the Openterface Mini-KVM due to insufficient power. If you need to use a USB hub on the target side, consider using a powered USB hub with an external power supply to ensure stable operation.</p>
 <h4 id="unstable-issues">What if the app doesn't display the target screen or input is unresponsive?<a class="headerlink" href="#unstable-issues" title="Permanent link">¶</a></h4>
 <p>If you encounter instability with the Openterface Mini-KVM—such as the app not displaying the target's screen or the inability to control the mouse and keyboard—try disconnecting all the cables. After a brief moment, reconnect the cables and try again. This simple reset often resolves connection issues.</p>
+<h4 id="my-host-app-or-system-shows-absurd-resolutions-like-43184x2422844hz-and-theres-no-video-what-should-i-do">My host app or system shows absurd resolutions like 43184x24228@44Hz, and there's no video. What should I do?<a class="headerlink" href="#my-host-app-or-system-shows-absurd-resolutions-like-43184x2422844hz-and-theres-no-video-what-should-i-do" title="Permanent link">¶</a></h4>
+<p>This symptom often points to a firmware issue on the capture chip. On Windows, open “USB Tree Viewer” and confirm you see “<strong>MACROSILION Openterface USB Composite Device</strong>” instead of just “MACROSILION USB Composite Device.” On Linux/macOS, check <code>lsusb -v</code> output for “Openterface.” If the capture firmware has reverted to factory default, <strong>re-flash</strong> the Openterface firmware (available on our <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases">GitHub releases page</a>). If that doesn’t fix the issue, please reach out to our support team.</p>
+<h4 id="firmware-reflash-issue">I re-flashed the capture firmware, but I still can’t get normal video capture. What else can I try?<a class="headerlink" href="#firmware-reflash-issue" title="Permanent link">¶</a></h4>
+<ol>
+<li>Double-check that your device enumerates correctly in a Windows environment with “USB Tree Viewer” or via <code>lsusb -v</code> on Linux.</li>
+<li>Confirm that your host app is the latest official release.</li>
+<li>If you continue to see no improvement—or bizarre resolutions and no display—contact our support. We’ll work with you on additional diagnostics and, if needed, arrange a replacement.</li>
+</ol>
+<h4 id="vga-black-screen">Why is my screen completely black when using a VGA-to-HDMI cable or adapter?<a class="headerlink" href="#vga-black-screen" title="Permanent link">¶</a></h4>
+<p class="annotate">Our <a href="/product/accessories/vga-to-hdmi-cable/">VGA-to-HDMI converter cable</a> <strong>needs extra power</strong> to function. If you see only a black screen, you might be missing a power connection (1).</p>
+<ol>
+<li><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://pbs.twimg.com/media/GnCqHVlWgAAVGqY?format=jpg&amp;name=small"><img alt="" onerror="this.style.display='none'" src="https://pbs.twimg.com/media/GnCqHVlWgAAVGqY?format=jpg&amp;name=small" style="max-width: 120px; vertical-align: middle;"/></a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://pbs.twimg.com/media/GnCqGa8WQAAOr6m?format=jpg&amp;name=small"><img alt="" onerror="this.style.display='none'" src="https://pbs.twimg.com/media/GnCqGa8WQAAOr6m?format=jpg&amp;name=small" style="max-width: 120px; vertical-align: middle;"/></a><br/> This is an example of a setup where the USB cable was left unplugged_</li>
+</ol>
+<details class="info" open="open">
+<summary>Steps to make the VGA-to-HDMI cable work</summary>
+</details>
+<ol>
+<li><strong>Connect the USB Power</strong> </li>
+<li>
+<p>Our VGA-to-HDMI cables include a USB plug that must be connected to a powered USB port (either on the Mini-KVM’s <a href="/product/minikvm/usb-switch/">switchable USB port</a> or the target computer). This powers the VGA-to-HDMI conversion chip.</p>
+</li>
+<li>
+<p><strong>Confirm Resolution</strong> </p>
+</li>
+<li>Make sure the target computer is using a supported resolution, such as 1280x1024 or 1024x768 at 60Hz.  </li>
+<li>
+<p>Resolutions outside the supported range can produce a black or distorted screen.</p>
+</li>
+<li>
+<p><strong>Try Another Adapter</strong> </p>
+</li>
+<li>If possible, test with a different VGA-to-HDMI adapter or cable. Some converters lack proper power draw and can cause blank screens.</li>
+</ol>
+<p>Still no luck? Snap a photo of your setup (including cables) and send it to our support team. We’ll help you troubleshoot or arrange a replacement if necessary.</p>
 <h3 id="more_1">More<a class="headerlink" href="#more_1" title="Permanent link">¶</a></h3>
 <h4 id="contribute">How can I contribute to this project?<a class="headerlink" href="#contribute" title="Permanent link">¶</a></h4>
 <p>Absolutely! There are loads of ways you can chip in:</p>
@@ -1100,7 +1136,7 @@ For technical support, we invite you to join our <a href="/community/">community
 <span class="md-icon" title="Last update">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
 </span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="March 25, 2025 03:17:02"><span class="timeago" datetime="2025-03-25T03:17:02+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="March 25, 2025 03:17:02">2025-03-25</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="March 27, 2025 11:02:10"><span class="timeago" datetime="2025-03-27T11:02:10+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="March 27, 2025 11:02:10">2025-03-27</span>
 </span>
 <span class="md-source-file__fact">
 <span class="md-icon" title="Created">
