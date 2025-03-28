@@ -847,3 +847,100 @@
         height: 40px;
     }
 }
+
+/* Update the Twitter Feed Styles for Markdown Pages */
+.twitter-feed-md {
+    width: 100%;
+    padding: 0 0 0 0;
+    overflow-x: hidden;
+    position: relative;
+    margin-bottom: -4rem !important;
+}
+
+.twitter-feed-md .container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0 2rem 0rem 2rem;
+}
+
+.twitter-feed-md .twitter-posts {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0rem;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 0;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 0 !important;
+}
+
+.twitter-feed-md .twitter-tweet {
+    flex: 0 0 auto;
+    width: 340px !important;
+    min-width: 340px !important;
+    transform: scale(0.85) !important;
+    transform-origin: 0 0;
+    margin: 0 !important;
+    scroll-snap-align: start;
+    margin-bottom: 0 !important;
+}
+
+/* Navigation Buttons */
+.twitter-nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1; /* Changed from 10 to 1 to stay below header */
+    transition: all 0.3s ease;
+}
+
+.twitter-nav-button:hover {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.twitter-nav-prev {
+    left: 0;
+}
+
+.twitter-nav-next {
+    right: 0;
+}
+
+/* Arrow icons */
+.twitter-nav-button::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #666;
+    border-right: 2px solid #666;
+    display: inline-block;
+}
+
+.twitter-nav-prev::before {
+    transform: rotate(-135deg);
+}
+
+.twitter-nav-next::before {
+    transform: rotate(45deg);
+}
+
+/* Hide scrollbar */
+.twitter-feed-md .twitter-posts::-webkit-scrollbar {
+    display: none;
+}
+
+.twitter-feed-md .twitter-posts {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
