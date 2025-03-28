@@ -34,4 +34,33 @@ window.onload = function() {
             loadingMessage.style.display = 'none';
         }
     }
+
+    // New Twitter navigation code
+    const initTwitterNavigation = () => {
+        const twitterPosts = document.querySelector('.twitter-posts');
+        const prevButton = document.querySelector('.twitter-nav-prev');
+        const nextButton = document.querySelector('.twitter-nav-next');
+        
+        if (twitterPosts && prevButton && nextButton) {
+            const tweetWidth = 300; // Width of each tweet
+            const scrollAmount = tweetWidth + 16; // Width + gap
+            
+            prevButton.addEventListener('click', () => {
+                twitterPosts.scrollBy({
+                    left: -scrollAmount,
+                    behavior: 'smooth'
+                });
+            });
+            
+            nextButton.addEventListener('click', () => {
+                twitterPosts.scrollBy({
+                    left: scrollAmount,
+                    behavior: 'smooth'
+                });
+            });
+        }
+    };
+
+    // Initialize after a short delay to ensure tweets are loaded
+    setTimeout(initTwitterNavigation, 200);
 };
