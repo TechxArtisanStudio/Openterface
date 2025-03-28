@@ -56,7 +56,7 @@ Our **Openterface™ Mini-KVM** is a plug-and-play **KVM-over-USB** solution. It
 
     Find assistance, answers to common questions, and user reviews
 
-    [:octicons-arrow-right-24: Reviews Videos, Posts & Testimonials](/openterface-mini-kvm-reviews)
+    [:octicons-arrow-right-24: Reviews Videos, Posts & Testimonials](reviews)
 
     [:octicons-arrow-right-24: View FAQs](/faq)
 
