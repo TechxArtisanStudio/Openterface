@@ -51,3 +51,7 @@ keywords: "Mini-KVM specifications, KVM technical details, HDMI KVM specs, 4K KV
 - Operating Temperature: 0°C to 40°C
 - Storage Temperature: -10°C to 50°C
 - Humidity: 80% RH
+
+---
+
+For a PDF version of the specifications, [download here](https://raw.githubusercontent.com/TechxArtisanStudio/Openterface/main/product-printed-materials/minikvm_quick_start_guide_20240928.pdf).
