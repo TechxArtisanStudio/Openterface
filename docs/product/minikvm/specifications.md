@@ -54,4 +54,4 @@ keywords: "Mini-KVM specifications, KVM technical details, HDMI KVM specs, 4K KV
 
 ---
 
-For a PDF version of the specifications, [download here](https://raw.githubusercontent.com/TechxArtisanStudio/Openterface/main/product-printed-materials/minikvm_quick_start_guide_20240928.pdf).
+For a PDF version of the specifications, download here: [Openterface Mini-KVM Basic and Toolkit Datasheet (English)](https://raw.githubusercontent.com/TechxArtisanStudio/Openterface/main/product-printed-materials/Openterface-Mini-KVM-Basic-and-Toolkit-Datasheet-Eng-20250313.pdf)
