@@ -52,6 +52,9 @@ keywords: "Mini-KVM specifications, KVM technical details, HDMI KVM specs, 4K KV
 - Storage Temperature: -10°C to 50°C
 - Humidity: 80% RH
 
----
+## Downloads
 
-For a PDF version of the specifications, download here: [Openterface Mini-KVM Basic and Toolkit Datasheet (English)](https://raw.githubusercontent.com/TechxArtisanStudio/Openterface/main/product-printed-materials/Openterface-Mini-KVM-Basic-and-Toolkit-Datasheet-Eng-20250313.pdf)
+You can download the relevant documentation for the Openterface Mini-KVM below:
+
+- **[Mini-KVM Quick Start Guide](https://raw.githubusercontent.com/TechxArtisanStudio/Openterface/main/product-printed-materials/minikvm_quick_start_guide_20240928.pdf)** (PDF)
+- **[Openterface Mini-KVM Basic and Toolkit Datasheet (English)](https://raw.githubusercontent.com/TechxArtisanStudio/Openterface/main/product-printed-materials/Openterface-Mini-KVM-Basic-and-Toolkit-Datasheet-Eng-20250313.pdf)** (PDF)
