@@ -227,6 +227,8 @@ plugins:
   - markdownextradata
   - redirects:
       redirect_maps:
+        'reviews.md': 'product/minikvm/reviews.md'
+        'features.md': 'product/minikvm/features.md'
         'why-openterface.md': 'faq/usbkvm/openterface.md'
         'webapp.md': 'https://openterface-viewer.pages.dev/'
         'faq/minikvm.md': 'faq/usbkvm/kvm-over-usb.md'
