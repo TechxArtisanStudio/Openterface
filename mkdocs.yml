@@ -197,7 +197,6 @@ markdown_extensions:
               custom_icons:
                 - overrides/.icons
   - toc:
-      permalink: ¶
       toc_depth: 3
 
 plugins:

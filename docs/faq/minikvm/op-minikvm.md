@@ -19,6 +19,7 @@ Welcome to the dedicated FAQ for our flagship product, the **Openterface Mini-KV
 - [What about target device compatibility?](#mini-kvm-target-compatibility)
 - [Are technical support and documentation available?](#mini-kvm-support)
 - [Can I order accessories like VGA-to-HDMI converter cable separately?](#accessories)
+- [Can I use the Mini-KVM to control a target device that only has a USB-C port (e.g., certain phones, tablets, or newer MacBooks)?](#typec-target)
 
 ##### Software
 
@@ -115,7 +116,7 @@ To use this mini-KVM, the host computer must install one of these [host applicat
 
 #### :material-chat-question:{ .faq } What target devices are compatible? {: #mini-kvm-target-compatibility }
 
-No pre-installation or configuration is required on the target device. As long as the target device supports UI operations with video output (e.g., HDMI, VGA) and has a USB port to receive emulated keyboard and mouse control (HID) signals, it can be used. Thus, supported target device platforms include Windows, MacOS, Linux, Android, and iOS.
+No pre-installation or configuration is required on the target device. As long as the target device supports UI operations with **video output (e.g., HDMI, VGA)** and has a USB port to receive **emulated keyboard and mouse control (HID) signals**, it can be used. Thus, supported target device platforms include Windows, MacOS, Linux, Android, and iOS.
 
 #### :material-chat-question:{ .faq } Will there be technical support and documentation? {: #mini-kvm-support }
 
@@ -125,6 +126,12 @@ For technical support, we invite you to join our [community](/community/) for sh
 #### :material-chat-question:{ .faq } Can I order accessories like VGA-to-HDMI converter cable separately? {: #accessories }
 
 Yes! You can find all available **accessories** [here](product/accessories/) and purchase them separately through our **[TechxArtisan Shop](http://shop.techxartisan.com/)**.
+
+#### :material-chat-question:{ .faq } Can I use the Mini-KVM to control a target device that only has a USB-C port (e.g., certain phones, tablets, or newer MacBooks)? {: #typec-target }
+Yes. To output the target device’s screen via HDMI and receive keyboard/mouse signals (HID) via USB-A, you’ll need a **USB-C to HDMI + USB-A** adapter. Once you plug that adapter in, connect it to the Mini-KVM as normal. [Here’s an example scenario](https://www.reddit.com/r/macbookpro/comments/1hwkh64/uh_a_way_to_save_the_day_of_this_pink_screen/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) showing a MacBook Pro controlled by another MacBook Pro via the Mini-KVM.
+
+??? warning "Some devices may not support HDMI output"
+    Not all phones and tablets with USB-C ports can send a video signal over HDMI. Check your device’s specs or test by connecting it to a standard monitor to confirm it works before using the Mini-KVM.
 
 ---
 
