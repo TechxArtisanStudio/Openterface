@@ -6,12 +6,6 @@ keywords: USB KVM, Openterface, KVM-over-USB, portable KVM, plug-and-play KVM, n
 
 # FAQ for USB KVM & Openterface
 
-This section provides answers to questions about KVM-over-USB technology, our Openterface brand, and how our products fit into various scenarios. Whether you're a newcomer or a seasoned professional, these FAQs are designed to guide you.
-
-![USB-KMV-Example](/images/product/use-case-demo-industrial-pc.jpg){:style="max-height:320px"}
-
-*USB KVM: Portable, Plug-and-Play, Network-Free KVM Control for Headless Devices*
-
 <div class="grid cards" markdown>
 
 -   :material-feature-search-outline:{ .lg } __KVM-over-USB Basics__
@@ -41,8 +35,26 @@ This section provides answers to questions about KVM-over-USB technology, our Op
 
     ---
 
-    Discover the features and benefits of our Mini-KVM series
+    Discover the features and benefits of our Mini-KVM series  
 
-    [:octicons-arrow-right-24: FAQs for Openterface Mini-KVM](/faq/minikvm/op-minikvm)  
+    [:octicons-arrow-right-24: What makes the Mini-KVM our flagship product?](/faq/minikvm/op-minikvm#flagship-product)  
+    [:octicons-arrow-right-24: Which host computers are compatible?](/faq/minikvm/op-minikvm#mini-kvm-host-compatibility)  
+    [:octicons-arrow-right-24: How is this different from other KVM solutions?](/faq/minikvm/op-minikvm#mini-kvm-vs-other-kvms)
+
+-   :material-domain:{ .lg } __Enterprise Solutions & Media__
+
+    ---
+
+    Learn about bulk orders, reseller opportunities, and custom enterprise KVM solutions  
+
+    [:octicons-arrow-right-24: Bulk Orders & Reseller Program](/faq/business#bulk-order-reseller)  
+    [:octicons-arrow-right-24: Media & Influencer Collaborations](/faq/business#media-collaboration)  
+    [:octicons-arrow-right-24: Custom KVM Solutions for Enterprise](/faq/business#enterprise-kvm)  
 
 </div>
+
+This section provides answers to questions about KVM-over-USB technology, our Openterface brand, and how our products fit into various scenarios. Whether you're a newcomer or a seasoned professional, these FAQs are designed to guide you.
+
+![USB-KMV-Example](/images/product/use-case-demo-industrial-pc.jpg){:style="max-height:320px"}
+
+*USB KVM: Portable, Plug-and-Play, Network-Free KVM Control for Headless Devices*

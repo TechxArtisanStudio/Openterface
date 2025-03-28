@@ -168,13 +168,14 @@ We are currently exploring compatibility with Apple's mobile systems, such as iO
 
 #### :material-chat-question:{ .faq } What if F11 doesn't work on macOS applications? {: #f11-macos-issue }
 
-On macOS, pressing F11 shows the macOS desktop instead of passing the F11 key to the app and the target computer. To fix this, you can unbind F11 from the "Show Desktop" function. Here's how:
+On macOS, pressing F11 shows the macOS desktop instead of passing the F11 key to the app and the target computer. To fix this, you can unbind F11 from the "Show Desktop" function.
 
-1. Go to System Settings.
-2. Select Desktop & Dock.
-3. Scroll down and click the "Shortcuts…" button.
-4. Find "Show Desktop" and set it to the hyphen (-) at the bottom of the dropdown list.
-5. This change will let the F11 key pass through to your application on the target computer.
+???+ info "Fixing F11 Key Issue on macOS"
+    1. Go to **System Settings**.  
+    2. Select **Desktop & Dock**.  
+    3. Scroll down and click the **"Shortcuts…"** button.  
+    4. Find **"Show Desktop"** and set it to the hyphen **(-)** at the bottom of the dropdown list.  
+    5. This change will allow the F11 key to pass through to your application on the target computer.  
 
 ---
 
