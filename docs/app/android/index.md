@@ -57,21 +57,25 @@ We are committed to open hardware and open-source software, licensed under the [
 
 ### 3. Keyboard Input
 #### Main Functionality
-- Allows text input to the target device via an on-screen keyboard.
+- Type into the device by clicking keyboard keys.
 
 #### User Interface Description
-- A keyboard icon in the FAB toggles the on-screen keyboard overlay.
-- The keyboard includes standard keys and function keys (F1-F12).
+- The keyboard icon is in the lower right corner.
+- The keyboard includes shortcut keys, system keys, standard keys and function keys (F1-F12).
 
 #### Operation Flow
-1. Tap the keyboard FAB to bring up the on-screen keyboard.
+1. Click the keyboard icon in the lower right corner to bring up the keyboard.
 2. Type text or press function keys as needed.
 
 #### Special Features or Shortcuts
-- **F1-F12 Keys**: Accessible via a dedicated row on the keyboard.
-- **Ctrl+Alt+Del**: Tap a shortcut button on the keyboard overlay.
+- **Shortcuts Keys**: Ctrl+C、Ctrl+V、Ctrl+Z、Ctrl+X、Ctrl+A、Ctrl+S、
+Win+Tab、Win+S、Win+E、Win+R、Win+D、Win+L、Alt+F4、Ctrl+Alt+Del、Alt+PrtScr.
+- **Function Keys**: F1-F12、Symbol Keys.
+- **Standard keys**: 0-9、A-Z、Enter、Space、delete.
 
 ![image](../../images/android/enlargeAndKeyBoard.jpg)
+![image](../../images/android/keyBoardFunction.jpg)
+![image](../../images/android/keyBoardSystem.jpg)
 
 ---
 
