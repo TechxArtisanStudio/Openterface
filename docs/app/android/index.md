@@ -12,7 +12,7 @@ We are committed to open hardware and open-source software, licensed under the [
 - Streams video output from the connected target device to the Android screen in real-time.
 - Supports image adjustments for optimal viewing.
 
-![image](docs/images/android/videoConnect.jpg)
+![image](../../images/android/videoConnect.jpg)
 
 #### User Interface Description
 - The main screen displays the target device's video feed, occupying most of the interface.
@@ -24,12 +24,12 @@ We are committed to open hardware and open-source software, licensed under the [
 3. Launch the app; the video feed appears automatically.
 4. Use the toolbar sliders to adjust brightness, contrast, or hue as needed.
 
-![image](docs/images/android/colorSetting.jpg)
+![image](../../images/android/colorSetting.jpg)
 
 #### Special Features
 - Pair-finger zooming makes the display look better
 
-![image](docs/images/android/enlargeAndSideBar.jpg)
+![image](../../images/android/enlargeAndSideBar.jpg)
 
 ---
 
@@ -52,7 +52,7 @@ We are committed to open hardware and open-source software, licensed under the [
 #### Special Features
 - Relative mouse control (in development, toggle via settings when available).
 
-![image](docs/images/android/mouseThouchMode.jpg)
+![image](../../images/android/mouseThouchMode.jpg)
 ---
 
 ### 3. Keyboard Input
@@ -71,7 +71,7 @@ We are committed to open hardware and open-source software, licensed under the [
 - **F1-F12 Keys**: Accessible via a dedicated row on the keyboard.
 - **Ctrl+Alt+Del**: Tap a shortcut button on the keyboard overlay.
 
-![image](docs/images/android/enlargeAndKeyBoard.jpg)
+![image](../../images/android/enlargeAndKeyBoard.jpg)
 
 ---
 
