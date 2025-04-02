@@ -6,23 +6,23 @@ This document provides an overview of a cross-platform KVM (Keyboard, Video, Mou
 
 ### Preferences
 
-The Preferences menu allows users to customize settings via a dialog with four pages:
-
+The Preferences menu allows users to customize settings via a dialog with four pages:<br>
+![Preferences Gernal](/docs//images/qt/preferenceGernal.png)
 - **General** This page configures debugging logs filter. Log categories include:
   - Core
   - Serial
   - UserInterface
   - host
 
-  Users can choose to save logs to a .txt file.
-
+  Users can choose to save logs to a .txt file.<br>
+![Preferences Video](/docs//images/qt/preferenceVideo.png)
 - **Video** This page enables users to:
   - Select which camera's data to capture.
   - Set the resolution.
   - Choose the video stream format.
 
-- **Audio** This page is currently under development.
-
+- **Audio** This page is currently under development.<br>
+![Preferences TargetControl](/docs//images/qt/preferenceTargetControl.png)
 - **Target Control** This page provides options to configure control modes for the target device:
   - **Control modes:**
     - **Keyboard + Mouse + USB HID device**
@@ -37,19 +37,23 @@ The Preferences menu allows users to customize settings via a dialog with four p
 - **Paste:** Both the Paste option in the Edit menu and the paste button in the top-left corner allow users to paste text from the host clipboard to the target device.
 
 ### Control
-This menu provides options to:
-  - Set mouse movement modes: Absolute or Relative.
-  - Toggle visibility of the host's mouse cursor.
-  - Switch a USB port on the hardware between target and host usage.
-  - Adjust the baud rate for chip transmission.
+This menu provides options to:<br>
+  
+  - Set mouse movement modes: Absolute or Relative.  **Control >> MouseMode >> Absolute or Relative.**
+  - Toggle visibility of the host's mouse cursor. **Control >> Mouse Visibility >> Auto Hide or Always Show.**
+  - Switch a USB port on the hardware between target and host usage. **Control >> Switchable USB >> TO Target or To Host.**
+  - Adjust the baud rate for chip transmission. **Control >> Baudrate >> 9600, 115200.**
 
-### Advanced
-The Advanced menu includes the following options:
+### Advance
+The Advance menu includes the following options:<br>
+  ![Advance menu](/docs//images/qt/menuAdvance.png)
   - **Environment Checking:** Verifies if required drivers for the software are installed.
   - **Reset Serial Port:** Restarts the serial port.
   - **Reset Keyboard and Mouse:** Resets the keyboard and mouse settings.
-  - **Factory Reset HID Chip:** Restores the HID chip to its factory settings.
-  - **Serial Console:** Opens a new window to monitor all messages sent to the serial port, with filters for sent/received messages.
+  - **Factory Reset HID Chip:** Restores the HID chip to its factory settings.<br>
+  ![Advance SerialConsole](/docs//images/qt/advanceSerialConsole.png)
+  - **Serial Console:** Opens a new window to monitor all messages sent to the serial port, with filters for sent/received messages.<br>
+  ![Advance ScriptTool](/docs//images/qt/advanceScriptTool.png)
   - **Script Tool:** Runs AutoHotkey (AHK) scripts. This feature mimics AutoHotkey but supports only a subset of mouse/keyboard functions and screenshot capabilities. Scripts affect the target device.
   - **TCP Server:** Receives AutoHotkey commands via TCP to execute them on the target device.
   - **Firmware Update:** Pulls the latest firmware from a remote server, allowing users to choose whether to flash it to the device.
@@ -64,8 +68,8 @@ The interface language can be set to:
 - Swedish
 
 ### Help
-The Help menu provides:
-![Help menu](../../images/qt/menuHelp.png)
+The Help menu provides: <br>
+![Help menu](/docs//images/qt/menuHelp.png)
 - Links to the official website and feedback forms for software/hardware issues.
 - Information on purchasing hardware.
 - A description of the software’s environment.
@@ -74,8 +78,9 @@ The Help menu provides:
 
 
 ## Menu Bar Functions (Left to Right)
-The menu bar, from left to right, includes the following functionalities:
+The menu bar, from left to right, includes the following functionalities:<br>
 
+![MenuBar](/docs//images/qt/menubar.png)
 - Keyboard Layout Selection: Choose the keyboard layout.
 - Zoom Controls: Zoom in, zoom out, or reset the display of the captured video stream.
 - Virtual Keyboard: Includes function keys and preset shortcut combinations.
