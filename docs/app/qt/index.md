@@ -8,13 +8,14 @@ This document provides an overview of a cross-platform KVM (Keyboard, Video, Mou
 
 The Preferences menu allows users to customize settings via a dialog with four pages:<br>
 ![Preferences Gernal](/docs//images/qt/preferenceGernal.png)
-- **General** This page configures debugging logs filter. Log categories include:
+- **General** This page configures debugging logs filter and the screen saver inhibit or not when the application is running. Log categories include:
   - Core
   - Serial
   - UserInterface
   - host
 
-  Users can choose to save logs to a .txt file.<br>
+  Users can choose to save logs to a .txt file and the screen saver inhibit or not.<br>
+
 ![Preferences Video](/docs//images/qt/preferenceVideo.png)
 - **Video** This page enables users to:
   - Select which camera's data to capture.
