@@ -5,7 +5,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="We're currently working on adding detailed documentation for our software. Please check back soon!" name="description"/>
+<meta content="Openterface Mini-KVM is an open-source hardware and software solution designed to provide basic KVM (Keyboard, Video, Mouse) functionality for controlling devices via an Android-based interface. This repository contains the Android application source code, build configurations, and supporting scripts to set up and deploy the project." name="description"/>
 <meta content="Openterface" name="author"/>
 <link href="https://openterface.com/app/android/" rel="canonical"/>
 <link href="../macos/" rel="prev"/>
@@ -35,7 +35,7 @@
     .gdesc-inner { font-size: 0.75rem; }
     body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
     body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></link><meta content="Openterface Android" name="title"/><meta content="website" property="og:type"/><meta content="https://openterface.com/app/android" property="og:url"/><meta content="Openterface Android" property="og:title"/><meta content="We're currently working on adding detailed documentation for our software. Please check back soon!" property="og:description"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://openterface.com/app/android" property="twitter:url"/><meta content="Openterface Android" property="twitter:title"/><meta content="We're currently working on adding detailed documentation for our software. Please check back soon!" property="twitter:description"/></head>
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></link><meta content="Openterface Android" name="title"/><meta content="website" property="og:type"/><meta content="https://openterface.com/app/android" property="og:url"/><meta content="Openterface Android" property="og:title"/><meta content="Openterface Mini-KVM is an open-source hardware and software solution designed to provide basic KVM (Keyboard, Video, Mouse) functionality for controlling devices via an Android-based interface. This repository contains the Android application source code, build configurations, and supporting scripts to set up and deploy the project." property="og:description"/><meta content="../../images/android/videoConnect.jpg" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://openterface.com/app/android" property="twitter:url"/><meta content="Openterface Android" property="twitter:title"/><meta content="Openterface Mini-KVM is an open-source hardware and software solution designed to provide basic KVM (Keyboard, Video, Mouse) functionality for controlling devices via an Android-based interface. This repository contains the Android application source code, build configurations, and supporting scripts to set up and deploy the project." property="twitter:description"/><meta content="../../images/android/videoConnect.jpg" property="twitter:image"/></head>
 <body data-md-color-accent="custom" data-md-color-primary="deep-orange" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
@@ -662,12 +662,76 @@
 </li>
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    Openterface Android
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
 <a class="md-nav__link md-nav__link--active" href="./">
 <span class="md-ellipsis">
     Openterface Android
     
   </span>
 </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#overview">
+<span class="md-ellipsis">
+      Overview
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#feature-modules">
+<span class="md-ellipsis">
+      Feature Modules
+    </span>
+</a>
+<nav aria-label="Feature Modules" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#1-video-display">
+<span class="md-ellipsis">
+      1. Video Display
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#2-mouse-control">
+<span class="md-ellipsis">
+      2. Mouse Control
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_1">
+<span class="md-ellipsis">
+</span>
+</a>
+<nav aria-label="" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#3-keyboard-input">
+<span class="md-ellipsis">
+      3. Keyboard Input
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -784,7 +848,86 @@
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
 <h1 id="openterface-android">Openterface Android</h1>
-<p>We're currently working on adding detailed documentation for our software. Please check back soon!</p>
+<h2 id="overview">Overview</h2>
+<p>Openterface Mini-KVM is an open-source hardware and software solution designed to provide basic KVM (Keyboard, Video, Mouse) functionality for controlling devices via an Android-based interface. This repository contains the Android application source code, build configurations, and supporting scripts to set up and deploy the project.</p>
+<p>We are committed to open hardware and open-source software, licensed under the <a href="LICENSE">GNU Affero General Public License v3</a>.</p>
+<h2 id="feature-modules">Feature Modules</h2>
+<h3 id="1-video-display">1. Video Display</h3>
+<h4 id="main-functionality">Main Functionality</h4>
+<ul>
+<li>Streams video output from the connected target device to the Android screen in real-time.</li>
+<li>Supports image adjustments for optimal viewing.</li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../images/android/videoConnect.jpg"><img alt="image" src="../../images/android/videoConnect.jpg"/></a></p>
+<h4 id="user-interface-description">User Interface Description</h4>
+<ul>
+<li>The main screen displays the target device's video feed, occupying most of the interface.</li>
+<li>A toolbar at the side provides adjustment controls (brightness, contrast, hue).</li>
+</ul>
+<h4 id="operation-flow">Operation Flow</h4>
+<ol>
+<li>Connect the Mini-KVM hardware to the target device via HDMI and USB.</li>
+<li>Plug the Mini-KVM into your Android device via USB-C.</li>
+<li>Launch the app; the video feed appears automatically.</li>
+<li>Use the toolbar sliders to adjust brightness, contrast, or hue as needed.</li>
+</ol>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../images/android/colorSetting.jpg"><img alt="image" src="../../images/android/colorSetting.jpg"/></a></p>
+<h4 id="special-features">Special Features</h4>
+<ul>
+<li>Pair-finger zooming makes the display look better</li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../images/android/enlargeAndSideBar.jpg"><img alt="image" src="../../images/android/enlargeAndSideBar.jpg"/></a></p>
+<hr/>
+<h3 id="2-mouse-control">2. Mouse Control</h3>
+<h4 id="main-functionality_1">Main Functionality</h4>
+<ul>
+<li>Provides absolute and relative mouse control to interact with the target device’s interface.</li>
+<li>Supports left and right clicks.</li>
+<li>Select mode from the right menu.</li>
+</ul>
+<h4 id="user-interface-description_1">User Interface Description</h4>
+<ul>
+<li>The video feed doubles as a touchpad for mouse input.</li>
+<li>A floating action button (FAB) toggles between mouse and keyboard modes.</li>
+</ul>
+<h4 id="operation-flow_1">Operation Flow</h4>
+<ol>
+<li>Make sure the device is connected successfully.</li>
+<li>Tap the screen to move the mouse cursor to that position (absolute control).</li>
+<li>Double-click with one finger for left click, Two-finger click for right click.</li>
+<li>The drag mode is to hold down the left button without releasing it.</li>
+</ol>
+<h4 id="special-features_1">Special Features</h4>
+<ul>
+<li>Relative mouse control (in development, toggle via settings when available).</li>
+</ul>
+<h2 id="_1"><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../images/android/mouseThouchMode.jpg"><img alt="image" src="../../images/android/mouseThouchMode.jpg"/></a></h2>
+<h3 id="3-keyboard-input">3. Keyboard Input</h3>
+<h4 id="main-functionality_2">Main Functionality</h4>
+<ul>
+<li>Type into the device by clicking keyboard keys.</li>
+</ul>
+<h4 id="user-interface-description_2">User Interface Description</h4>
+<ul>
+<li>The keyboard icon is in the lower right corner.</li>
+<li>The keyboard includes shortcut keys, system keys, standard keys and function keys (F1-F12).</li>
+</ul>
+<h4 id="operation-flow_2">Operation Flow</h4>
+<ol>
+<li>Click the keyboard icon in the lower right corner to bring up the keyboard.</li>
+<li>Type text or press function keys as needed.</li>
+</ol>
+<h4 id="special-features-or-shortcuts">Special Features or Shortcuts</h4>
+<ul>
+<li><strong>Shortcuts Keys</strong>: Ctrl+C、Ctrl+V、Ctrl+Z、Ctrl+X、Ctrl+A、Ctrl+S、
+Win+Tab、Win+S、Win+E、Win+R、Win+D、Win+L、Alt+F4、Ctrl+Alt+Del、Alt+PrtScr.</li>
+<li><strong>Function Keys</strong>: F1-F12、Symbol Keys.</li>
+<li><strong>Standard keys</strong>: 0-9、A-Z、Enter、Space、delete.</li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../images/android/enlargeAndKeyBoard.jpg"><img alt="image" src="../../images/android/enlargeAndKeyBoard.jpg"/></a>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../images/android/keyBoardFunction.jpg"><img alt="image" src="../../images/android/keyBoardFunction.jpg"/></a>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../../images/android/keyBoardSystem.jpg"><img alt="image" src="../../images/android/keyBoardSystem.jpg"/></a></p>
+<hr/>
 <p>In the meantime, feel free to explore our open-source <strong>GitHub repository</strong>: <a href="https://github.com/TechxArtisanStudio/Openterface_Android">Openterface_Android</a> for the latest code, updates, examples, and to report issues.</p>
 <p>You can also join our <a href="/discord">Discord community</a> to connect with our dev team and other awesome users to discuss any KVM-related topics.</p>
 <p>For direct support, feel free to email us at <a href="mailto:support@openterface.com">support@openterface.com</a>.</p>
@@ -793,7 +936,7 @@
 <span class="md-icon" title="Last update">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
 </span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="March 21, 2025 09:38:56"><span class="timeago" datetime="2025-03-21T09:38:56+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="March 21, 2025 09:38:56">2025-03-21</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="April 2, 2025 06:30:57"><span class="timeago" datetime="2025-04-02T06:30:57+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="April 2, 2025 06:30:57">2025-04-02</span>
 </span>
 <span class="md-source-file__fact">
 <span class="md-icon" title="Created">
