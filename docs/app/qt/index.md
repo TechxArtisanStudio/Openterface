@@ -7,7 +7,7 @@ This document provides an overview of a cross-platform KVM (Keyboard, Video, Mou
 ### Preferences
 
 The Preferences menu allows users to customize settings via a dialog with four pages:<br>
-![Preferences Gernal](/docs//images/qt/preferenceGernal.png)
+![Preferences Gernal](/images/qt/preferenceGernal.png)
 - **General** This page configures debugging logs filter and the screen saver inhibit or not when the application is running. Log categories include:
   - Core
   - Serial
@@ -16,14 +16,14 @@ The Preferences menu allows users to customize settings via a dialog with four p
 
   Users can choose to save logs to a .txt file and the screen saver inhibit or not.<br>
 
-![Preferences Video](/docs//images/qt/preferenceVideo.png)
+![Preferences Video](/images/qt/preferenceVideo.png)
 - **Video** This page enables users to:
   - Select which camera's data to capture.
   - Set the resolution.
   - Choose the video stream format.
 
 - **Audio** This page is currently under development.<br>
-![Preferences TargetControl](/docs//images/qt/preferenceTargetControl.png)
+![Preferences TargetControl](/images/qt/preferenceTargetControl.png)
 - **Target Control** This page provides options to configure control modes for the target device:
   - **Control modes:**
     - **Keyboard + Mouse + USB HID device**
@@ -47,14 +47,14 @@ This menu provides options to:<br>
 
 ### Advance
 The Advance menu includes the following options:<br>
-  ![Advance menu](/docs//images/qt/menuAdvance.png)
+  ![Advance menu](/images/qt/menuAdvance.png)
   - **Environment Checking:** Verifies if required drivers for the software are installed.
   - **Reset Serial Port:** Restarts the serial port.
   - **Reset Keyboard and Mouse:** Resets the keyboard and mouse settings.
   - **Factory Reset HID Chip:** Restores the HID chip to its factory settings.<br>
-  ![Advance SerialConsole](/docs//images/qt/advanceSerialConsole.png)
+  ![Advance SerialConsole](/images/qt/advanceSerialConsole.png)
   - **Serial Console:** Opens a new window to monitor all messages sent to the serial port, with filters for sent/received messages.<br>
-  ![Advance ScriptTool](/docs//images/qt/advanceScriptTool.png)
+  ![Advance ScriptTool](/images/qt/advanceScriptTool.png)
   - **Script Tool:** Runs AutoHotkey (AHK) scripts. This feature mimics AutoHotkey but supports only a subset of mouse/keyboard functions and screenshot capabilities. Scripts affect the target device.
   - **TCP Server:** Receives AutoHotkey commands via TCP to execute them on the target device.
   - **Firmware Update:** Pulls the latest firmware from a remote server, allowing users to choose whether to flash it to the device.
@@ -70,7 +70,7 @@ The interface language can be set to:
 
 ### Help
 The Help menu provides: <br>
-![Help menu](/docs//images/qt/menuHelp.png)
+![Help menu](/images/qt/menuHelp.png)
 - Links to the official website and feedback forms for software/hardware issues.
 - Information on purchasing hardware.
 - A description of the software’s environment.
@@ -81,7 +81,7 @@ The Help menu provides: <br>
 ## Menu Bar Functions (Left to Right)
 The menu bar, from left to right, includes the following functionalities:<br>
 
-![MenuBar](/docs//images/qt/menubar.png)
+![MenuBar](/images/qt/menubar.png)
 - Keyboard Layout Selection: Choose the keyboard layout.
 - Zoom Controls: Zoom in, zoom out, or reset the display of the captured video stream.
 - Virtual Keyboard: Includes function keys and preset shortcut combinations.
