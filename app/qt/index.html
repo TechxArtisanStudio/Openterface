@@ -863,22 +863,38 @@
 <h2 id="main-menu-bar-features">Main Menu Bar Features</h2>
 <h3 id="preferences">Preferences</h3>
 <p>The Preferences menu allows users to customize settings via a dialog with four pages:<br/>
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="/images/qt/preferenceGernal.png"><img alt="Preferences Gernal" src="/images/qt/preferenceGernal.png"/></a>
-- <strong>General</strong> This page configures debugging logs filter and the screen saver inhibit or not when the application is running. Log categories include:
-  - Core
-  - Serial
-  - UserInterface
-  - host</p>
-<p>Users can choose to save logs to a .txt file and the screen saver inhibit or not.<br/></p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="/images/qt/preferenceVideo.png"><img alt="Preferences Video" src="/images/qt/preferenceVideo.png"/></a>
-- <strong>Video</strong> This page enables users to:
-  - Select which camera's data to capture.
-  - Set the resolution.
-  - Choose the video stream format.</p>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="/images/qt/preferenceGernal.png"><img alt="Preferences Gernal" src="/images/qt/preferenceGernal.png"/></a></p>
 <ul>
-<li><strong>Audio</strong> This page is currently under development.<br/>
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="/images/qt/preferenceTargetControl.png"><img alt="Preferences TargetControl" src="/images/qt/preferenceTargetControl.png"/></a></li>
-<li><strong>Target Control</strong> This page provides options to configure control modes for the target device:</li>
+<li>
+<p><strong>General</strong> This page configures debugging logs filter and the screen saver inhibit or not when the application is running. Log categories include:</p>
+<ul>
+<li>Core</li>
+<li>Serial</li>
+<li>UserInterface</li>
+<li>host</li>
+</ul>
+<p>Users can choose to save logs to a .txt file and the screen saver inhibit or not.<br/></p>
+</li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="/images/qt/preferenceVideo.png"><img alt="Preferences Video" src="/images/qt/preferenceVideo.png"/></a></p>
+<ul>
+<li>
+<p><strong>Video</strong> This page enables users to:</p>
+<ul>
+<li>Select which camera's data to capture.</li>
+<li>Set the resolution.</li>
+<li>Choose the video stream format.</li>
+</ul>
+</li>
+<li>
+<p><strong>Audio</strong> This page is currently under development.<br/></p>
+</li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="/images/qt/preferenceTargetControl.png"><img alt="Preferences TargetControl" src="/images/qt/preferenceTargetControl.png"/></a></p>
+<ul>
+<li>
+<p><strong>Target Control</strong> This page provides options to configure control modes for the target device:</p>
+<ul>
 <li>
 <p><strong>Control modes:</strong></p>
 <ul>
@@ -893,6 +909,8 @@
 </li>
 <li><strong>Define the USB descriptor for the target.</strong></li>
 </ul>
+</li>
+</ul>
 <h3 id="edit">Edit</h3>
 <ul>
 <li><strong>Paste:</strong> Both the Paste option in the Edit menu and the paste button in the top-left corner allow users to paste text from the host clipboard to the target device.</li>
@@ -900,51 +918,59 @@
 <h3 id="control">Control</h3>
 <p>This menu provides options to:<br/></p>
 <ul>
-<li>Set mouse movement modes: Absolute or Relative.  <strong>Control &gt;&gt; MouseMode &gt;&gt; Absolute or Relative.</strong></li>
+<li>Set mouse movement modes: Absolute or Relative. <strong>Control &gt;&gt; MouseMode &gt;&gt; Absolute or Relative.</strong></li>
 <li>Toggle visibility of the host's mouse cursor. <strong>Control &gt;&gt; Mouse Visibility &gt;&gt; Auto Hide or Always Show.</strong></li>
 <li>Switch a USB port on the hardware between target and host usage. <strong>Control &gt;&gt; Switchable USB &gt;&gt; TO Target or To Host.</strong></li>
 <li>Adjust the baud rate for chip transmission. <strong>Control &gt;&gt; Baudrate &gt;&gt; 9600, 115200.</strong></li>
 </ul>
 <h3 id="advance">Advance</h3>
 <p>The Advance menu includes the following options:<br/>
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="/images/qt/menuAdvance.png"><img alt="Advance menu" src="/images/qt/menuAdvance.png"/></a>
-  - <strong>Environment Checking:</strong> Verifies if required drivers for the software are installed.
-  - <strong>Reset Serial Port:</strong> Restarts the serial port.
-  - <strong>Reset Keyboard and Mouse:</strong> Resets the keyboard and mouse settings.
-  - <strong>Factory Reset HID Chip:</strong> Restores the HID chip to its factory settings.<br/>
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="/images/qt/advanceSerialConsole.png"><img alt="Advance SerialConsole" src="/images/qt/advanceSerialConsole.png"/></a>
-  - <strong>Serial Console:</strong> Opens a new window to monitor all messages sent to the serial port, with filters for sent/received messages.<br/>
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="/images/qt/advanceScriptTool.png"><img alt="Advance ScriptTool" src="/images/qt/advanceScriptTool.png"/></a>
-  - <strong>Script Tool:</strong> Runs AutoHotkey (AHK) scripts. This feature mimics AutoHotkey but supports only a subset of mouse/keyboard functions and screenshot capabilities. Scripts affect the target device.
-  - <strong>TCP Server:</strong> Receives AutoHotkey commands via TCP to execute them on the target device.
-  - <strong>Firmware Update:</strong> Pulls the latest firmware from a remote server, allowing users to choose whether to flash it to the device.</p>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="/images/qt/menuAdvance.png"><img alt="Advance menu" src="/images/qt/menuAdvance.png"/></a></p>
+<ul>
+<li><strong>Environment Checking:</strong> Verifies if required drivers for the software are installed.</li>
+<li><strong>Reset Serial Port:</strong> Restarts the serial port.</li>
+<li><strong>Reset Keyboard and Mouse:</strong> Resets the keyboard and mouse settings.</li>
+<li><strong>Factory Reset HID Chip:</strong> Restores the HID chip to its factory settings.<br/>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="/images/qt/advanceSerialConsole.png"><img alt="Advance SerialConsole" src="/images/qt/advanceSerialConsole.png"/></a></li>
+<li><strong>Serial Console:</strong> Opens a new window to monitor all messages sent to the serial port, with filters for sent/received messages.<br/>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="/images/qt/advanceScriptTool.png"><img alt="Advance ScriptTool" src="/images/qt/advanceScriptTool.png"/></a></li>
+<li><strong>Script Tool:</strong> Runs AutoHotkey (AHK) scripts. This feature mimics AutoHotkey but supports only a subset of mouse/keyboard functions and screenshot capabilities. Scripts affect the target device.</li>
+<li><strong>TCP Server:</strong> Receives AutoHotkey commands via TCP to execute them on the target device.</li>
+<li><strong>Firmware Update:</strong> Pulls the latest firmware from a remote server, allowing users to choose whether to flash it to the device.</li>
+</ul>
 <h3 id="languages">Languages</h3>
-<p>The interface language can be set to:
-- Danish
-- English
-- German
-- French
-- Japanese
-- Swedish</p>
+<p>The interface language can be set to:</p>
+<ul>
+<li>Danish</li>
+<li>English</li>
+<li>German</li>
+<li>French</li>
+<li>Japanese</li>
+<li>Swedish</li>
+</ul>
 <h3 id="help">Help</h3>
 <p>The Help menu provides: <br/>
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="/images/qt/menuHelp.png"><img alt="Help menu" src="/images/qt/menuHelp.png"/></a>
-- Links to the official website and feedback forms for software/hardware issues.
-- Information on purchasing hardware.
-- A description of the software’s environment.
-- About: Details about the organization.
-- Update: Checks for software updates.</p>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="/images/qt/menuHelp.png"><img alt="Help menu" src="/images/qt/menuHelp.png"/></a></p>
+<ul>
+<li>Links to the official website and feedback forms for software/hardware issues.</li>
+<li>Information on purchasing hardware.</li>
+<li>A description of the software’s environment.</li>
+<li>About: Details about the organization.</li>
+<li>Update: Checks for software updates.</li>
+</ul>
 <h2 id="menu-bar-functions-left-to-right">Menu Bar Functions (Left to Right)</h2>
 <p>The menu bar, from left to right, includes the following functionalities:<br/></p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="/images/qt/menubar.png"><img alt="MenuBar" src="/images/qt/menubar.png"/></a>
-- Keyboard Layout Selection: Choose the keyboard layout.
-- Zoom Controls: Zoom in, zoom out, or reset the display of the captured video stream.
-- Virtual Keyboard: Includes function keys and preset shortcut combinations.
-- Screenshot: Captures the entire target screen and saves it to a default folder.
-- Full-Screen Mode: Toggles full-screen display.
-- Paste: Pastes text from the host clipboard to the target.
-- Mouse Dance: Triggers the mouse to perform preset movements.
-- USB Device Indicator: Displays whether a USB device is assigned to the target or host.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="/images/qt/menubar.png"><img alt="MenuBar" src="/images/qt/menubar.png"/></a></p>
+<ul>
+<li>Keyboard Layout Selection: Choose the keyboard layout.</li>
+<li>Zoom Controls: Zoom in, zoom out, or reset the display of the captured video stream.</li>
+<li>Virtual Keyboard: Includes function keys and preset shortcut combinations.</li>
+<li>Screenshot: Captures the entire target screen and saves it to a default folder.</li>
+<li>Full-Screen Mode: Toggles full-screen display.</li>
+<li>Paste: Pastes text from the host clipboard to the target.</li>
+<li>Mouse Dance: Triggers the mouse to perform preset movements.</li>
+<li>USB Device Indicator: Displays whether a USB device is assigned to the target or host.</li>
+</ul>
 <p>In the meantime, feel free to explore our open-source <strong>GitHub repository</strong>: <a href="https://github.com/TechxArtisanStudio/Openterface_QT">Openterface_QT</a> for the latest code, updates, examples, and to report issues.</p>
 <p>You can also join our <a href="/discord">Discord community</a> to connect with our dev team and other awesome users to discuss any KVM-related topics.</p>
 <p>For direct support, feel free to email us at <a href="mailto:support@openterface.com">support@openterface.com</a>.</p>
@@ -953,7 +979,7 @@
 <span class="md-icon" title="Last update">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
 </span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="April 3, 2025 02:21:47"><span class="timeago" datetime="2025-04-03T02:21:47+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="April 3, 2025 02:21:47">2025-04-03</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="April 3, 2025 02:25:38"><span class="timeago" datetime="2025-04-03T02:25:38+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="April 3, 2025 02:25:38">2025-04-03</span>
 </span>
 <span class="md-source-file__fact">
 <span class="md-icon" title="Created">
