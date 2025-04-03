@@ -91,3 +91,7 @@ We offer multiple support channels:
 We continuously update our FAQ sections based on user feedback and product developments. For product-specific questions, please visit the respective product's FAQ page. Stay tuned for updates as we expand our product line!
 
 Want to contribute to our documentation? Join our [Community](/community/) or check our [Contributing Guidelines](/contributing/).
+
+---
+
+**Have feedback about this page?** [Let us know here.](https://forms.gle/wmxoR2C1VdG36mT69)
