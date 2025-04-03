@@ -112,3 +112,7 @@ Compared to network-dependent solutions, USB KVMs allow IT professionals and tec
 | 🔌 **Cables & Accessories**    | Minimal: USB and HDMI/adapter                         | USB, HDMI/adapter, LAN cable, plus power adapter        | Multiple video and peripheral cables       | Network connection required                  |
 | 💾 **Software**                | Usually includes a simple host app                    | Built-in web servers or proprietary software            | No additional software for basic switching | VNC server on target + client on host        |
 | ⚡️ **Power Supply**           | Often powered via USB (no external adapter)           | Requires external power for hardware unit               | Typically requires external power          | N/A (purely software-based)                  |
+
+---
+
+**Have feedback about this page?** [Let us know here.](https://forms.gle/wmxoR2C1VdG36mT69)

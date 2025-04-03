@@ -60,3 +60,7 @@ To get your Openterface™ KVM gadgets up and running, you'll need to install on
 ## Join Our Development
 
 We proudly ensure that all of the above software meets the [Open Source Definition](/compliance). It is actively developed and maintained by our Openterface team, TechxArtisan, along with an awesome open-source community. If you’re interested in [contributing](/contributing) and want to be part of an innovative development adventure, join our [Discord](/discord) or [email us now!](mailto:info@openterface.com)
+
+---
+
+**Have feedback about this page?** [Let us know here.](https://forms.gle/wmxoR2C1VdG36mT69)

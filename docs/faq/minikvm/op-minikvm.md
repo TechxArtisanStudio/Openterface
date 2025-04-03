@@ -68,6 +68,7 @@ Welcome to the dedicated FAQ for our flagship product, the **Openterface Mini-KV
 - [What if the app doesn't display the target screen or input is unresponsive?](#unstable-issues)
 - [I re-flashed the capture firmware, but I still can’t get normal video capture. What else can I try?](#firmware-reflash-issue)
 - [Why is my screen completely black when using a VGA-to-HDMI cable or adapter?](#vga-black-screen)
+
 ##### More
 
 - [How can I contribute to this project?](#contribute)
@@ -453,3 +454,7 @@ We offer a range of [accessories](/product/accessories/) to enhance your experie
 Your curiosity and support fuel our progress, and we want to ensure that every one of your questions finds an answer. Please note that as time progresses, the content above in our FAQs may become outdated. If your query isn't covered in this FAQ, always check our website [openterface.com](/) for the most current information. Also please don't hesitate to join our enthusiastic community. We're active on our Subreddit at [/r/Openterface_miniKVM/](/reddit) and our [Discord Openterface](/dicord) server, where you can ask questions, share ideas, or just have a chat about all things tech.
 
 Moreover, feel free to reach out directly to our dedicated team by sending an email to info@openterface.com. We love hearing from you and are always here to help!
+
+---
+
+**Have feedback about this page?** [Let us know here.](https://forms.gle/wmxoR2C1VdG36mT69)

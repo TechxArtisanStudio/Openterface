@@ -7,3 +7,7 @@ In the meantime, feel free to explore our open-source **GitHub repository**: [Op
 You can also join our [Discord community](/discord) to connect with our dev team and other awesome users to discuss any KVM-related topics.
 
 For direct support, feel free to email us at [support@openterface.com](mailto:support@openterface.com).
+
+---
+
+**Have feedback about this page?** [Let us know here.](https://forms.gle/wmxoR2C1VdG36mT69)
