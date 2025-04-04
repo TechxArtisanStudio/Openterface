@@ -10,8 +10,8 @@ To get your Openterface™ KVM gadgets up and running, you'll need to install on
 
     Download or build from source for **Openterface QT Win**:
 
-    [:octicons-download-24: Download {{qt_version}} Installer](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.windows.amd64.installer.zip)  <br>
-    [:octicons-download-24: Download {{qt_version}} Portable EXE](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.windows.amd64.portable.zip)  <br>
+    [:octicons-download-24: Download {{qt_version}} Installer](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.windows.amd64.installer.exe)  <br>
+    [:octicons-download-24: Download {{qt_version}} Portable EXE](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT-portable.exe)  <br>
     [:octicons-mark-github-16: Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT)  <br>
     [:octicons-play-24: Watch Demo](https://youtu.be/ERzpGtRvP2o?si=e9k402f0nxsD8o2j)
 
@@ -23,6 +23,7 @@ To get your Openterface™ KVM gadgets up and running, you'll need to install on
 
     [:octicons-download-24: Download {{qt_version}} AMD64 DEB](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.linux.amd64.deb)  <br>
     [:octicons-download-24: Download {{qt_version}} AMD64 RPM](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.linux.amd64.rpm)  <br>
+    [:octicons-download-24: Download {{qt_version}} AMD64 AppImage](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.linux.amd64.AppImage)  <br>
     [:octicons-download-24: Download {{qt_version}} ARM64 DEB](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.linux.arm64.deb)  <br>
     [:octicons-download-24: Download {{qt_version}} ARM64 RPM](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.linux.arm64.rpm)  <br>
     [:octicons-mark-github-16: Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT)  <br>
