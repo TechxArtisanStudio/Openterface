@@ -19,10 +19,11 @@ Ready to dive in? Let's get started! 🏊‍♂️
 Encountered a bug? No worries, it happens! Since we're still in the early stages of development, bugs are to be expected, especially in the following softwares. When you come across one, please check if it falls into these [basic operation tests](/basic). The more details you provide about the conditions when the bug occurred, the better equipped we'll be to address it. Please report any bugs you encounter to the corresponding Github repositories.
 
 - Navigate to: 
-    - [Openterface_MacOS](https://github.com/TechxArtisanStudio/Openterface_MacOS) (Work-in-progress): Host Applications for MacOS Support
-    - [Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT) (Work-in-progress): Host Applications for Win & Linux Support
+    - [Openterface_MacOS](https://github.com/TechxArtisanStudio/Openterface_MacOS): Host Applications for MacOS Support
+    - [Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT): Host Applications for Win & Linux Support
+    - [Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android): Host Applications for Android Support
     - [Openterface_Mini-KVM_Hardware](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware
-    ) (Work-in-progress): Schematics & Components
+    ): Schematics & Components
 
 - When reporting a bug, please:
     - Specify the app version.

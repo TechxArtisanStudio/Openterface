@@ -27,3 +27,21 @@ Our Openterface devices, such as Openterface Mini-KVM, are proudly certified by 
 ![RoSH-Mark](/images/trademark/rohs.svg){:style="height:60px"}
 
 Our Openterface devices are also compliant with **CE**, **UKCA**, **WEEE** and **RoHS** standards. This ensures they meet all relevant safety, health, and environmental requirements for distribution and use.
+
+---
+
+## Open Hardware Need YOU!!!
+
+Developing truly open-source hardware and software isn't easy — but with your support, we can keep pushing the boundaries.
+
+If you love what we're building and want to see more of it in the world, here's how you can help:
+
+- **Buy our hardware**: The most direct way to support us is to [purchase an Openterface device](/buy-mini-kvm). Every sale helps us keep innovating.
+- **Grab some gear**: Show your support in style with our **Openterface T-shirts and hoodies**, available now in the [TxA shop](/shop).
+- **Join the mission**: Head over to our [contributing guide](/contributing) to become part of our dev crew. Coders, makers, documenters — all are welcome!
+- **Spread the word**: Share Openterface with your friends, your tech team, or your community. Let others know there *is* an open alternative.
+- **Give feedback**: We love [hearing](/feedback) what works, what doesn’t, and what you want to see next.
+
+Together, we can make open-source the standard — not the exception.
+
+_Thanks for being part of the journey. We couldn’t do it without you._

@@ -3,9 +3,9 @@ description: "Complete guide to Openterface Mini-KVM basic controls: mouse modes
 keywords: "Mini-KVM controls, mouse control modes, keyboard input, BIOS access, audio transmission, video display, USB switching, device compatibility, KVM setup, hardware control, 4K support, HID signals, target device control, host software, HDMI input"
 ---
 
-# Basic Control
+# Basic Control for Host Apps
 
-![use-case-pc-angled-view](images/product/use-case-pc-angled-view.jpg)
+![use-case-pc-angled-view](/images/product/use-case-pc-angled-view.jpg){ width=600 }
 
 ## 💻 Compatibility
 
@@ -49,7 +49,7 @@ When the app is focused, you can type anything directly, and these keystrokes wi
 - **Switching Methods**: 
     - Hardware Switch: A physical toggle on the device
     - Software Switch: A button in the host application
-- **Switch Logic**: For more detailed information on the logic of how the switchable USB port operates, including the interaction between hardware and software switches, initial setup, operational states, and state transitions, please refer to the [USB Switch documentation](usb-switch.md).
+- **Switch Logic**: For more detailed information on the logic of how the switchable USB port operates, including the interaction between hardware and software switches, initial setup, operational states, and state transitions, please refer to the [USB Switch documentation](/usb-switch).
 
 !!! warning "Important"
     - Remember to eject any connected USB drives before switching the port's connection.
