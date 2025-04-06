@@ -227,6 +227,8 @@ plugins:
   - markdownextradata
   - redirects:
       redirect_maps:
+        'buy-mini-kvm.md': 'https://www.crowdsupply.com/techxartisan/openterface-mini-kvm'
+        'shop.md': 'https://shop.techxartisan.com'
         'reviews.md': 'product/minikvm/reviews.md'
         'features.md': 'product/minikvm/features.md'
         'why-openterface.md': 'faq/usbkvm/openterface.md'

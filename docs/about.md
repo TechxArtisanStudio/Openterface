@@ -27,6 +27,11 @@ issues)
 
 ---
 
+## Contributing
+If you’d like to help improve Openterface, check out our [Contributing Guidelines](contributing.md) to learn how you can get involved!
+
+---
+
 ## Follow Us
 
 Stay updated and engaged with us through our social media channels:  
@@ -42,4 +47,3 @@ Stay updated and engaged with us through our social media channels:
 - **Company Name:** **TechxArtisan Limited**  
 - **Address:** Unit 04-05, 16/F, Broadway Building, 54-62 Lockhart Road, Wanchai, Hong Kong SAR, China  
 - **Contact Information:** ✉️ [info@techxartisan.com](mailto:info@techxartisan.com)  
-
