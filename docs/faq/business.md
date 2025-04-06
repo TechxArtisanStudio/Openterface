@@ -7,9 +7,40 @@ description: Explore enterprise and media FAQs for Openterface KVM solutions, in
 # Enterprise & Media FAQs
 
 ## :material-clipboard-list: List of Questions
-- [How can I request a quote for a bulk order or become a reseller/distributor?](#bulk-order-reseller)  
+- [Which industries benefit the most from using Openterface?](#industry-use-cases)
+- [Who typically uses Openterface devices within an organisation?](#typical-users)
+- [How does Openterface scale for enterprise deployments?](#scalable-enterprise)
+- [How can I request a quote for a bulk order or become a reseller/distributor?](#bulk-order-reseller)
 - [Does Openterface offer review units or collaborations for media/influencers?](#media-collaboration)  
 - [Does Openterface offer customized KVM control solutions for enterprise clients?](#enterprise-kvm)
+
+### :material-chat-question:{ .faq } **Which industries benefit the most from using Openterface?** {: #industry-use-cases }
+
+- Openterface devices are designed for a wide range of professional environments. Key industries benefiting from our solutions include:
+
+    - **Technology & IT Services** – Ideal for managing physical servers, lab systems, or performing firmware-level tasks like OS installations and BIOS configurations.
+    - **Engineering & Industrial** – Perfect for configuring embedded systems and managing multiple control setups requiring direct hardware access.
+    - **Creative Studios & Media** – Supports multi-OS editing workflows, rendering setups, and makes peripheral switching seamless.
+    - **Healthcare & Biotech** – Enables secure local device control in compliance-heavy settings or with specialised equipment.
+    - **Professional Services & Education** – Suitable for managing sensitive workstations, lab PCs, or teaching environments.
+    - **Retail & Consumer Goods** – Excellent for quick interventions across distributed or regional IT setups.
+
+### :material-chat-question:{ .faq } **Who typically uses Openterface devices within an organisation?** {: #typical-users }
+
+- Our solutions are used by a variety of professional profiles, including:
+
+    1. **IT Security Professionals** – Who require offline control for secure hardware environments.
+    2. **Field Engineers & Deployment Teams** – Who need a portable solution for on-site troubleshooting and setup.
+    3. **Systems Administrators in Growing Enterprises** – Who manage multiple workstations or servers across locations and need a standardised control solution.
+
+### :material-chat-question:{ .faq } **How does Openterface scale for enterprise deployments?** {: #scalable-enterprise }
+
+- Enterprises often deploy multiple Openterface units across departments or sites. Common [use cases](/use-cases) include:
+
+    1. **Data Centres** – For BIOS-level diagnostics across large server arrays.
+    - **Distributed Teams** – Providing remote staff and travelling engineers with a unified control tool.
+    - **Custom Hardware/Software Integrations** – Leveraging the open-source ecosystem to develop bespoke KVM management workflows.
+
 
 ### :material-chat-question:{ .faq } **How can I request a quote for a bulk order or become a reseller/distributor?** {: #bulk-order-reseller }
 
