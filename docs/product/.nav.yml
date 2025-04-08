@@ -5,14 +5,15 @@ nav:
         - minikvm/index.md
         - minikvm/whats-in-the-box.md
         - minikvm/features.md
-        - minikvm/specifications.md
+        - ../app/basic.md
         - minikvm/how-to-connect.md
+        - How It Works: /faq/usbkvm/kvm-over-usb/
+        - Reviews & Press: minikvm/reviews.md
+        - minikvm/specifications.md
         - minikvm/usb-switch.md
         - minikvm/extension-pins.md
-        - How It Works: /faq/usbkvm/kvm-over-usb/
         - FAQs & Troubleshoot: /faq/minikvm/op-minikvm/
         - Why Openterface: /faq/usbkvm/openterface/
-        - Reviews & Press: minikvm/reviews.md
     - Accessories:
         - accessories/index.md
         - VGA to HDMI Cable 1m: accessories/vga-to-hdmi-cable.md
