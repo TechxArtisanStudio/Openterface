@@ -10,8 +10,8 @@ To get your Openterface™ KVM gadgets up and running, you'll need to install on
 
     Download or build from source for **Openterface QT Win**:
 
-    [:octicons-download-24: Download {{qt_version}} Installer](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.windows.amd64.installer.zip)  <br>
-    [:octicons-download-24: Download {{qt_version}} Portable EXE](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.windows.amd64.portable.zip)  <br>
+    [:octicons-download-24: Download {{qt_version}} Installer](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.windows.amd64.installer.exe)  <br>
+    [:octicons-download-24: Download {{qt_version}} Portable EXE](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT-portable.exe)  <br>
     [:octicons-mark-github-16: Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT)  <br>
     [:octicons-play-24: Watch Demo](https://youtu.be/ERzpGtRvP2o?si=e9k402f0nxsD8o2j)
 
@@ -23,6 +23,7 @@ To get your Openterface™ KVM gadgets up and running, you'll need to install on
 
     [:octicons-download-24: Download {{qt_version}} AMD64 DEB](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.linux.amd64.deb)  <br>
     [:octicons-download-24: Download {{qt_version}} AMD64 RPM](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.linux.amd64.rpm)  <br>
+    [:octicons-download-24: Download {{qt_version}} AMD64 AppImage](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.linux.amd64.AppImage)  <br>
     [:octicons-download-24: Download {{qt_version}} ARM64 DEB](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.linux.arm64.deb)  <br>
     [:octicons-download-24: Download {{qt_version}} ARM64 RPM](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.linux.arm64.rpm)  <br>
     [:octicons-mark-github-16: Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT)  <br>
@@ -44,7 +45,7 @@ To get your Openterface™ KVM gadgets up and running, you'll need to install on
 
     Download or build from source for **Android APK**:
 
-    [:octicons-download-24: Download {{android_version}}](https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{android_version}}/OpenterfaceAndroid.apk)  <br>
+    [:octicons-download-24: Download {{android_version}}](https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{android_version}}/OpenterfaceAndroid-release.apk)  <br>
     [:octicons-mark-github-16: Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android)  <br>
     [:octicons-play-24: Watch Demo](https://x.com/TechxArtisan/status/1825460088922071398)
 
@@ -60,3 +61,7 @@ To get your Openterface™ KVM gadgets up and running, you'll need to install on
 ## Join Our Development
 
 We proudly ensure that all of the above software meets the [Open Source Definition](/compliance). It is actively developed and maintained by our Openterface team, TechxArtisan, along with an awesome open-source community. If you’re interested in [contributing](/contributing) and want to be part of an innovative development adventure, join our [Discord](/discord) or [email us now!](mailto:info@openterface.com)
+
+---
+
+**Have feedback about this page?** [Let us know here.](https://forms.gle/wmxoR2C1VdG36mT69)

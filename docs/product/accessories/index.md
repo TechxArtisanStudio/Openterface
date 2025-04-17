@@ -17,7 +17,7 @@ Discover a variety of products that complement and enhance the functionality of 
 
     Find the perfect cable for your setup
 
-    [:octicons-arrow-right-24: VGA to HDMI Converter Cable](/product/accessories/vga-to-hdmi-converter-cable)
+    [:octicons-arrow-right-24: VGA to HDMI Converter Cable](/product/accessories/vga-to-hdmi-cable)
 
     [:octicons-arrow-right-24: Upgraded Nylon USB-C Cable](/product/accessories/nylong-c-to-c-150)
 

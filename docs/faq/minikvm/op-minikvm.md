@@ -42,6 +42,7 @@ Welcome to the dedicated FAQ for our flagship product, the **Openterface Mini-KV
 - [Can I access a device's BIOS settings?](#bios-access)
 - [How is video/data transmitted?](#video-data-transmission)
 - [How does the Mini-KVM handle power?](#mini-kvm-power)
+- [Can I use a longer orange USB-C cable for the host connection?](#orange-cable-length)
 
 ##### Control Mechanism
 
@@ -68,6 +69,7 @@ Welcome to the dedicated FAQ for our flagship product, the **Openterface Mini-KV
 - [What if the app doesn't display the target screen or input is unresponsive?](#unstable-issues)
 - [I re-flashed the capture firmware, but I still can’t get normal video capture. What else can I try?](#firmware-reflash-issue)
 - [Why is my screen completely black when using a VGA-to-HDMI cable or adapter?](#vga-black-screen)
+
 ##### More
 
 - [How can I contribute to this project?](#contribute)
@@ -232,6 +234,28 @@ The device does not require an external power supply, as it is designed to be po
 Absolutely! We're a bunch of passionate makers who love to DIY, and we are making sure this project is open source in both hardware and software. You can technically build it from scratch. We're even thinking about posting a guide on how to DIY a breadboard version of our product that would also be compatible with our software.
 
 Our community is already experimenting with different hardware versions. Check out our community posts to learn more, share your own DIY experiences, or even join our [USB DIY Contest](https://www.crowdsupply.com/techxartisan/usb-kvm-diy-challenge-2024), co-hosted with Crowd Supply! Plus, you might find that with a few tweaks to the code, our software could work seamlessly with your creative DIY setup!
+
+#### :material-chat-question:{ .faq } Can I use a longer orange USB-C cable for the host connection? {: #orange-cable-length }
+
+We don’t recommend using a **USB-C host cable longer than 1.5 meters** (the orange one) due to signal and power stability issues.
+
+If you **must** use a longer host cable, you'll need to **inject additional power** to maintain reliable performance. Here are three supported methods:
+
+1. **USB-A Power Injection**  
+   Plug a **USB-A male to male cable** into the Mini-KVM’s [**Switchable USB-A port**](/product/minikvm/usb-switch/) to provide 5V power.
+
+2. **Power via Extension Pin**  
+   Use the hidden [extension pin](/product/minikvm/extension-pins/) (under the protective cap) to directly supply power.
+
+3. **Type-C Power Splitter**  
+   Use a **USB-C Y-splitter** (1 male to 2 female) between the cable and the Mini-KVM. One leg connects to your host computer, the other to a power source.
+
+Why does this matter?
+
+From our testing, longer host-side cables (over 1.5m) can cause voltage drop and signal degradation, especially with high data rates like video transmission. That’s why our included orange cable is short and power-efficient by design.
+
+✅ **Target side note**: The same applies to the **black USB cable** (target side). Try to keep it under 1.5 meters too — the Mini-KVM can draw power from either side, and stability depends on cable quality and length.
+
 
 ---
 
@@ -453,3 +477,7 @@ We offer a range of [accessories](/product/accessories/) to enhance your experie
 Your curiosity and support fuel our progress, and we want to ensure that every one of your questions finds an answer. Please note that as time progresses, the content above in our FAQs may become outdated. If your query isn't covered in this FAQ, always check our website [openterface.com](/) for the most current information. Also please don't hesitate to join our enthusiastic community. We're active on our Subreddit at [/r/Openterface_miniKVM/](/reddit) and our [Discord Openterface](/dicord) server, where you can ask questions, share ideas, or just have a chat about all things tech.
 
 Moreover, feel free to reach out directly to our dedicated team by sending an email to info@openterface.com. We love hearing from you and are always here to help!
+
+---
+
+**Have feedback about this page?** [Let us know here.](https://forms.gle/wmxoR2C1VdG36mT69)
