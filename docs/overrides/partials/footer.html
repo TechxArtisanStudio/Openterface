@@ -1,108 +1,105 @@
 <!-- Footer -->
 <footer class="md-footer">
 
-    <!-- Link to previous and/or next page -->
-    {% if "navigation.footer" in features %}
-      {% if page.previous_page or page.next_page %}
-        {% if page.meta and page.meta.hide %}
-          {% set hidden = "hidden" if "footer" in page.meta.hide %}
-        {% endif %}
-        <nav
-          class="md-footer__inner md-grid"
-          aria-label="{{ lang.t('footer') }}"
-          {{ hidden }}
-        >
-  
-          <!-- Link to previous page -->
-          {% if page.previous_page %}
-            {% set direction = lang.t("footer.previous") %}
-            <a
-              href="{{ page.previous_page.url | url }}"
-              class="md-footer__link md-footer__link--prev"
-              aria-label="{{ direction }}: {{ page.previous_page.title | e }}"
-            >
-              <div class="md-footer__button md-icon">
-                {% set icon = config.theme.icon.previous or "material/arrow-left" %}
-                {% include ".icons/" ~ icon ~ ".svg" %}
-              </div>
-              <div class="md-footer__title">
-                <span class="md-footer__direction">
-                  {{ direction }}
-                </span>
-                <div class="md-ellipsis">
-                  {{ page.previous_page.title }}
-                </div>
-              </div>
-            </a>
-          {% endif %}
-  
-          <!-- Link to next page -->
-          {% if page.next_page %}
-            {% set direction = lang.t("footer.next") %}
-            <a
-              href="{{ page.next_page.url | url }}"
-              class="md-footer__link md-footer__link--next"
-              aria-label="{{ direction }}: {{ page.next_page.title | e }}"
-            >
-              <div class="md-footer__title">
-                <span class="md-footer__direction">
-                  {{ direction }}
-                </span>
-                <div class="md-ellipsis">
-                  {{ page.next_page.title }}
-                </div>
-              </div>
-              <div class="md-footer__button md-icon">
-                {% set icon = config.theme.icon.next or "material/arrow-right" %}
-                {% include ".icons/" ~ icon ~ ".svg" %}
-              </div>
-            </a>
-          {% endif %}
-        </nav>
+  <!-- Link to previous and/or next page -->
+  {% if "navigation.footer" in features %}
+    {% if page.previous_page or page.next_page %}
+      {% if page.meta and page.meta.hide %}
+        {% set hidden = "hidden" if "footer" in page.meta.hide %}
       {% endif %}
-    {% endif %}
-  
-    <!-- Further information -->
-    <div class="md-footer-meta md-typeset">
-      <div class="md-footer-meta__inner md-grid footer-flex-container">
+      <nav
+        class="md-footer__inner md-grid"
+        aria-label="{{ lang.t('footer') }}"
+        {{ hidden }}
+      >
 
-        <!-- Signup form -->
-        <div class="signup-form-container footer-flex-item">
-          <div id="google_form_signup">
-            <!-- Modified form to submit to Google Form -->
-            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdFc5YUQN74mQpFj6U4NkpNH4TGZGgxur7wVADWSWEsmNezdg/formResponse" 
-                  method="post" 
-                  id="google-form-subscribe-form" 
-                  name="google-form-subscribe-form" 
-                  target="_blank">
-              <div id="google_form_signup_scroll">
-                <div class="gf-field-group">
-                  <input type="text" name="entry.1988135673" class="required" id="google-form-first-name" required="" placeholder="Your Name">
-                </div>
-                <div class="gf-field-group">
-                  <input type="email" name="emailAddress" class="required email" id="google-form-email" required="" placeholder="Your Email Address *">
-                  <input type="hidden" name="entry.22394832" value="Openterface-eng">
-                </div>
-                <div class="clear">
-                  <input type="submit" name="submit" id="google-form-submit" class="button" value="✉️ Subscribe to the Latest Buzz! 🐝">
-                  <p class="footnote">No more than one email a month. Unsubscribe anytime.</p>
-                </div>
+        <!-- Link to previous page -->
+        {% if page.previous_page %}
+          {% set direction = lang.t("footer.previous") %}
+          <a
+            href="{{ page.previous_page.url | url }}"
+            class="md-footer__link md-footer__link--prev"
+            aria-label="{{ direction }}: {{ page.previous_page.title | e }}"
+          >
+            <div class="md-footer__button md-icon">
+              {% set icon = config.theme.icon.previous or "material/arrow-left" %}
+              {% include ".icons/" ~ icon ~ ".svg" %}
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                {{ direction }}
+              </span>
+              <div class="md-ellipsis">
+                {{ page.previous_page.title }}
               </div>
-            </form>
-          </div>
-        </div>
-
-        <!-- Copyright info -->
-        <div class="footer-flex-item footer-copyright">
-          {% include "partials/copyright.html" %}
-        </div>
-
-        <!-- Social links -->
-        {% if config.extra.social %}
-          <div class="footer-flex-item footer-social">
-            {% include "partials/social.html" %}
-          </div>
+            </div>
+          </a>
         {% endif %}
+
+        <!-- Link to next page -->
+        {% if page.next_page %}
+          {% set direction = lang.t("footer.next") %}
+          <a
+            href="{{ page.next_page.url | url }}"
+            class="md-footer__link md-footer__link--next"
+            aria-label="{{ direction }}: {{ page.next_page.title | e }}"
+          >
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                {{ direction }}
+              </span>
+              <div class="md-ellipsis">
+                {{ page.next_page.title }}
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              {% set icon = config.theme.icon.next or "material/arrow-right" %}
+              {% include ".icons/" ~ icon ~ ".svg" %}
+            </div>
+          </a>
+        {% endif %}
+      </nav>
+    {% endif %}
+  {% endif %}
+
+  <!-- Further information -->
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid footer-flex-container">
+
+      <!-- Signup form -->
+      <div class="signup-form-container footer-flex-item">
+        <div id="google_form_signup">
+          <!-- Modified form to submit via AJAX -->
+          <form id="subscribe-form" name="subscribe-form">
+            <div id="google_form_signup_scroll">
+              <div class="gf-field-group">
+                <input type="text" name="name" class="required" id="form-name" required placeholder="Your Name">
+              </div>
+              <div class="gf-field-group">
+                <input type="email" name="email" class="required email" id="form-email" required placeholder="Your Email Address *">
+                <input type="hidden" name="source" value="Openterface-eng">
+              </div>
+              <div class="clear">
+                <input type="submit" name="submit" id="form-submit" class="button" value="✉️ Subscribe to the Latest Buzz! 🐝">
+                <p class="footnote">No more than one email a month. Unsubscribe anytime.</p>
+                <p id="form-message" style="display: none; text-align: center; color: var(--md-footer-fg-color);"></p>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
+
+      <!-- Copyright info -->
+      <div class="footer-flex-item footer-copyright">
+        {% include "partials/copyright.html" %}
+      </div>
+
+      <!-- Social links -->
+      {% if config.extra.social %}
+        <div class="footer-flex-item footer-social">
+          {% include "partials/social.html" %}
+        </div>
+      {% endif %}
     </div>
+  </div>
 </footer>
