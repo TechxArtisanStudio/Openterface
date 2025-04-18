@@ -937,15 +937,15 @@
     scrollbar-width: none;
 }
 
-/* Gibble Avatar and Dialogue Box */
-.gibble-container {
+/* Gibby Avatar and Dialogue Box */
+.gibby-container {
     position: fixed;
     bottom: 30px;
     left: 30px;
     z-index: 1000;
 }
 
-.gibble-avatar {
+.gibby-avatar {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -954,11 +954,11 @@
     transition: transform 0.3s ease;
 }
 
-.gibble-avatar:hover {
+.gibby-avatar:hover {
     transform: scale(1.1);
 }
 
-.gibble-dialogue {
+.gibby-dialogue {
     display: none;
     position: absolute;
     bottom: 75px;
@@ -973,18 +973,18 @@
     animation: fadeIn 0.5s ease-in-out;
 }
 
-.gibble-dialogue p {
+.gibby-dialogue p {
     margin: 0;
     font-size: 0.9rem;
 }
 
-.gibble-link {
+.gibby-link {
     color: var(--md-primary-fg-color);
     text-decoration: none;
     font-weight: 600;
 }
 
-.gibble-link:hover {
+.gibby-link:hover {
     text-decoration: underline;
     color: var(--md-accent-fg-color);
 }
@@ -997,39 +997,39 @@
 
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
-    .gibble-container {
+    .gibby-container {
         bottom: 20px;
         left: 20px;
     }
-    .gibble-avatar {
+    .gibby-avatar {
         width: 50px;
         height: 50px;
     }
-    .gibble-dialogue {
+    .gibby-dialogue {
         max-width: 240px;
         bottom: 65px;
         padding: 14px;
     }
-    .gibble-dialogue p {
+    .gibby-dialogue p {
         font-size: 0.85rem;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .gibble-container {
+    .gibby-container {
         bottom: 15px;
         left: 15px;
     }
-    .gibble-avatar {
+    .gibby-avatar {
         width: 40px;
         height: 40px;
     }
-    .gibble-dialogue {
+    .gibby-dialogue {
         max-width: 200px;
         bottom: 60px;
         padding: 12px;
     }
-    .gibble-dialogue p {
+    .gibby-dialogue p {
         font-size: 0.8rem;
     }
 }

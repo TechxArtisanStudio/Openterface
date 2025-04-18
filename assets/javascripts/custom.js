@@ -66,7 +66,7 @@ window.onload = function() {
 };
 
 document.addEventListener('DOMContentLoaded', function() {
-    const dialogue = document.querySelector('.gibble-dialogue');
+    const dialogue = document.querySelector('.gibby-dialogue');
 
     function toggleDialogue() {
         dialogue.style.display = 'block';
