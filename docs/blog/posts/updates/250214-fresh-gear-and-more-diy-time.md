@@ -68,7 +68,7 @@ Since our kits were shipped later than expected, we’re extending the DIY KVM C
 
 With our latest Mini-KVM batch, we’ve officially upgraded the Type-C cable in our toolkit version to the new bright orange nylon cable. This new cable isn’t just visually striking—it’s built for performance, with superior EMI resistance, stable data transfer, and exceptional durability.
 
-![New Toolkit](../pic/250214-toolkit-open.jpg)
+![New Toolkit](../pic/250214-toolkit-open.webp)
 
 But if you prefer the softer, more flexible feel of the original silicone-like Type-C cable, no worries! You can still grab them from our [TxA Shop](https://shop.techxartisan.com/products/type-c-cable-with-usb-a-adapter-1-5m-4-11ft-240w-fast-charging-data-transfer-usb2-0). Both cables have their strengths, and we’re confident the new nylon version will be a solid addition to your tech toolkit.
 

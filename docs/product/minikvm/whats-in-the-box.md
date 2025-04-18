@@ -12,7 +12,7 @@ Explore our two purchase options designed to meet your needs, whether you're loo
 
 ## 1. Mini-KVM **Toolkit**
 
-![toolkit-open](/images/product/toolkit-open.jpg){:style="width:680px"}
+![toolkit-open](/images/product/toolkit-open.webp){:style="width:680px"}
 
 1. Core Product: Openterface Mini-KVM
 2. Quick Start Guide
