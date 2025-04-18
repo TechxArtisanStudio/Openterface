@@ -23,6 +23,7 @@ extra_css:
 
 extra_javascript:
   - assets/javascripts/extra.js
+  - assets/javascripts/subscribe.js
 
 # Configuration
 theme:
