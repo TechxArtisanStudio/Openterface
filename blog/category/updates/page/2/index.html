@@ -22,7 +22,7 @@
       
       
       <link rel="icon" href="../../../../../images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
     
     
       
@@ -30,7 +30,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.4af4bdda.min.css">
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.2afb09e1.min.css">
       
         
         <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.06af60db.min.css">
@@ -2488,98 +2488,95 @@
         <!-- Footer -->
 <footer class="md-footer">
 
-    <!-- Link to previous and/or next page -->
+  <!-- Link to previous and/or next page -->
+  
     
       
+      <nav
+        class="md-footer__inner md-grid"
+        aria-label="Footer"
         
-        <nav
-          class="md-footer__inner md-grid"
-          aria-label="Footer"
+      >
+
+        <!-- Link to previous page -->
+        
           
-        >
-  
-          <!-- Link to previous page -->
-          
-            
-            <a
-              href="../../../../../tags/"
-              class="md-footer__link md-footer__link--prev"
-              aria-label="Previous: Tag"
-            >
-              <div class="md-footer__button md-icon">
-                
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+          <a
+            href="../../../../../tags/"
+            class="md-footer__link md-footer__link--prev"
+            aria-label="Previous: Tag"
+          >
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Tag
               </div>
-              <div class="md-footer__title">
-                <span class="md-footer__direction">
-                  Previous
-                </span>
-                <div class="md-ellipsis">
-                  Tag
-                </div>
-              </div>
-            </a>
+            </div>
+          </a>
+        
+
+        <!-- Link to next page -->
+        
           
-  
-          <!-- Link to next page -->
-          
-            
-            <a
-              href="../../../../../about/"
-              class="md-footer__link md-footer__link--next"
-              aria-label="Next: About"
-            >
-              <div class="md-footer__title">
-                <span class="md-footer__direction">
-                  Next
-                </span>
-                <div class="md-ellipsis">
-                  About
-                </div>
+          <a
+            href="../../../../../about/"
+            class="md-footer__link md-footer__link--next"
+            aria-label="Next: About"
+          >
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                About
               </div>
-              <div class="md-footer__button md-icon">
-                
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
-              </div>
-            </a>
-          
-        </nav>
-      
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
-    <!-- Further information -->
-    <div class="md-footer-meta md-typeset">
-      <div class="md-footer-meta__inner md-grid footer-flex-container">
 
-        <!-- Signup form -->
-        <div class="signup-form-container footer-flex-item">
-          <div id="google_form_signup">
-            <!-- Modified form to submit to Google Form -->
-            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdFc5YUQN74mQpFj6U4NkpNH4TGZGgxur7wVADWSWEsmNezdg/formResponse" 
-                  method="post" 
-                  id="google-form-subscribe-form" 
-                  name="google-form-subscribe-form" 
-                  target="_blank">
-              <div id="google_form_signup_scroll">
-                <div class="gf-field-group">
-                  <input type="text" name="entry.1988135673" class="required" id="google-form-first-name" required="" placeholder="Your Name">
-                </div>
-                <div class="gf-field-group">
-                  <input type="email" name="emailAddress" class="required email" id="google-form-email" required="" placeholder="Your Email Address *">
-                  <input type="hidden" name="entry.22394832" value="Openterface-eng">
-                </div>
-                <div class="clear">
-                  <input type="submit" name="submit" id="google-form-submit" class="button" value="✉️ Subscribe to the Latest Buzz! 🐝">
-                  <p class="footnote">No more than one email a month. Unsubscribe anytime.</p>
-                </div>
+  <!-- Further information -->
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid footer-flex-container">
+
+      <!-- Signup form -->
+      <div class="signup-form-container footer-flex-item">
+        <div id="google_form_signup">
+          <!-- Modified form to submit via AJAX -->
+          <form id="subscribe-form" name="subscribe-form">
+            <div id="google_form_signup_scroll">
+              <div class="gf-field-group">
+                <input type="text" name="name" class="required" id="form-name" required placeholder="Your Name">
               </div>
-            </form>
-          </div>
+              <div class="gf-field-group">
+                <input type="email" name="email" class="required email" id="form-email" required placeholder="Your Email Address *">
+                <input type="hidden" name="source" value="Openterface-eng">
+              </div>
+              <div class="clear">
+                <input type="submit" name="submit" id="form-submit" class="button" value="✉️ Subscribe to the Latest Buzz! 🐝">
+                <p class="footnote">No more than one email a month. Unsubscribe anytime.</p>
+                <p id="form-message" style="display: none; text-align: center; color: var(--md-footer-fg-color);"></p>
+              </div>
+            </div>
+          </form>
         </div>
+      </div>
 
-        <!-- Copyright info -->
-        <div class="footer-flex-item footer-copyright">
-          <div class="md-copyright">
+      <!-- Copyright info -->
+      <div class="footer-flex-item footer-copyright">
+        <div class="md-copyright">
   
     <div class="md-copyright__highlight">
       Copyright &copy; All rights reserved. 2023 <a href="https://www.openterface.com">Openterface</a> | <a href="https://www.techxartisan.com">TechxArtisan</a><br> <a href="/">Home</a> | <a href="/policy/terms-of-service">Terms of Service</a> | <a href="/policy/privacy">Privacy Policy</a> |  <a href="#__consent">Cookie Settings</a> |  <a href="/about">About</a>
@@ -2592,12 +2589,12 @@
     </a>
   
 </div>
-        </div>
+      </div>
 
-        <!-- Social links -->
-        
-          <div class="footer-flex-item footer-social">
-            <div class="md-social">
+      <!-- Social links -->
+      
+        <div class="footer-flex-item footer-social">
+          <div class="md-social">
   
     
     
@@ -2672,10 +2669,10 @@
     </a>
   
 </div>
-          </div>
-        
-      </div>
+        </div>
+      
     </div>
+  </div>
 </footer>
       
     </div>
@@ -2823,6 +2820,8 @@
         <script src="../../../../../js/timeago_mkdocs_material.js"></script>
       
         <script src="../../../../../assets/javascripts/extra.js"></script>
+      
+        <script src="../../../../../assets/javascripts/subscribe.js"></script>
       
     
   <script src="../../../../../assets/javascripts/custom.js"></script>
