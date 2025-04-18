@@ -35,7 +35,6 @@
     text-align: left;
 }
 
-
 .mdx-hero .md-button {
     color: #ffffff;
     border-color: var(--md-accent-bg-color);
@@ -70,14 +69,14 @@
 }
 
 .product-close-up .product-video {
-    width: 100%;    /* Makes the video width responsive */
-    height: auto;   /* Maintains the aspect ratio */
-    max-width: 640px; /* Maximum width of the video */
+    width: 100%;
+    height: auto;
+    max-width: 640px;
 }
 
 .product-close-up .product-close-up-content {
     display: flex;
-    flex-direction: column-reverse; /* Reverse the order on smaller screens */
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     max-width: 1200px;
@@ -104,7 +103,6 @@
     font-size: 1rem;
     line-height: 1.6;
     color: inherit;
-    /* color: var(--description-font-dark); */
 }
 
 .connection-row {
@@ -318,21 +316,21 @@
 
 .videos-wrapper {
     display: flex;
-    flex-direction: column; /* Stack vertically by default */
-    align-items: center; /* Center-align the items */
+    flex-direction: column;
+    align-items: center;
 }
 
 .video-container {
     position: relative;
     width: 100%;
-    max-width: 560px; /* Maximum video width */
-    margin-bottom: 20px; /* Margin between videos when stacked */
+    max-width: 560px;
+    margin-bottom: 20px;
 }
 
 .video-container:before {
   content: "";
   display: block;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  padding-top: 56.25%;
 }
 
 .video-container iframe {
@@ -341,9 +339,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  max-height: 315px; /* Maximum video height */
+  max-height: 315px;
 }
-
 
 #loadingMessage {
     text-align: center;
@@ -384,13 +381,13 @@
     margin: 0.5rem;
     min-width: 250px;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-    border-radius: 12px; /* Rounded corners */
-    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
-    display: none; /* initially hide tweets */
+    border-radius: 12px;
+    transition: box-shadow 0.3s ease;
+    display: none;
 }
 
 .twitter-tweet-loaded {
-    display: block; /* or 'flex', depending on your layout needs */
+    display: block;
 }
 
 .twitter-feed-section .twitter-tweet:hover {
@@ -434,7 +431,6 @@
     width: 100%;
     height: auto;
 }
-
 
 .icon-section {
     padding: var(--shared-padding);
@@ -562,7 +558,7 @@
     left: 50%;
     border-width: 16px;
     border-style: solid;
-    border-color: rgba(0, 0, 0, 0.25) transparent transparent transparent; /* Shadow colour */
+    border-color: rgba(0, 0, 0, 0.25) transparent transparent transparent;
     transform: translateX(-50%);
     z-index: -1;
     filter: blur(4px);
@@ -595,27 +591,25 @@
     height: 50px;
     border-radius: 50%;
     float: left;
-    margin-right: 10px; /* Space between avatar and text */
+    margin-right: 10px;
 }
 
-@media screen and (min-width:76.25em) { /* larger desktops and wide screens. */
+@media screen and (min-width:76.25em) {
     .mdx-hero__image {
         transform: translateX(8rem);
     }
-    /* Wide screens: place videos side by side */
     .videos-wrapper {
-      flex-direction: row; /* Align side by side */
-      justify-content: space-around; /* Distribute space evenly */
+      flex-direction: row;
+      justify-content: space-around;
     }
   
     .video-container {
-      max-width: 45%; /* Adjust max width for side-by-side view */
-      margin-bottom: 0; /* Remove margin between videos when side by side */
+      max-width: 45%;
+      margin-bottom: 0;
     }
-  }
+}
 
-@media screen and (min-width:60em) { /* tablets in landscape, laptops, and desktops. */
-
+@media screen and (min-width:60em) {
     .mdx-hero {
         align-items: stretch;
         display: flex;
@@ -649,7 +643,7 @@
     }
 
     .product-close-up .reverse-layout {
-        flex-direction: row-reverse; /* Reverse layout for alternate sections */
+        flex-direction: row-reverse;
     }
 
     .product-close-up .reverse-layout .product-description {
@@ -662,7 +656,7 @@
     }
 }
 
-@media screen and (max-width:60em) { /* mobile phones */
+@media screen and (max-width:60em) {
     .mdx-hero {
         display: block;
     }
@@ -680,26 +674,25 @@
         align-items: center;
         gap: 1rem;
         max-width: 90%;
-        margin: auto; /* Center the container */
+        margin: auto;
     }
 
     .mdx-hero__content img, 
     .mdx-hero__content p, 
     .mdx-hero__content a {
-        display: block; /* Stack images, paragraphs, and links */
-        margin: 0.2rem auto; /* Center-align the elements and add top margin */
-        max-width: 100%; /* Ensure they fit the container */
+        display: block;
+        margin: 0.2rem auto;
+        max-width: 100%;
         font-size: 0.8rem;
-        /* color: var(--description-font-dark); */
     }
 
     .mdx-hero__image {
         order: 0;
         transform: none;
-        width: auto; /* Adjust the image width */
-        margin-bottom: 1rem; /* Space between the image and content */
-        padding-left: 3rem; /* Added left padding */
-        padding-right: 3rem; /* Added right padding */
+        width: auto;
+        margin-bottom: 1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
 
     .connection-row {
@@ -712,9 +705,9 @@
     }
 
     .comparison-solution .read-more-btn {
-        float: none; /* Prevents floating on smaller screens */
-        display: block; /* Makes the button take full width */
-        margin: 1rem auto 0; /* Centers the button */
+        float: none;
+        display: block;
+        margin: 1rem auto 0;
     }
 
     .blog {
@@ -809,7 +802,7 @@
 
     .callout-button-container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Two columns for mobile */
+        grid-template-columns: repeat(2, 1fr);
         gap: 0rem;
         justify-content: center;
     }
@@ -823,15 +816,15 @@
         font-size: 0.9rem;
     }
 
+    .dialogue-bubble::after {
+        bottom: -22px;
+        border-width: 12px;
+    }
+
     #op-bubble p {
         padding-top: 6px;
         margin-top: 0rem;
         margin-bottom: 1rem;
-    }
-
-    .dialogue-bubble::after {
-        bottom: -22px;
-        border-width: 12px;
     }
 
     #join-waitlist-button {
@@ -899,7 +892,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    z-index: 1; /* Changed from 10 to 1 to stay below header */
+    z-index: 1;
     transition: all 0.3s ease;
 }
 
@@ -942,4 +935,101 @@
 .twitter-feed-md .twitter-posts {
     -ms-overflow-style: none;
     scrollbar-width: none;
+}
+
+/* Gibble Avatar and Dialogue Box */
+.gibble-container {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    z-index: 1000;
+}
+
+.gibble-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.gibble-avatar:hover {
+    transform: scale(1.1);
+}
+
+.gibble-dialogue {
+    display: none;
+    position: absolute;
+    bottom: 75px;
+    left: 20px;
+    background-color: var(--md-default-bg-color);
+    color: var(--md-default-fg-color);
+    padding: 16px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    max-width: 280px;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.gibble-dialogue p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.gibble-link {
+    color: var(--md-primary-fg-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.gibble-link:hover {
+    text-decoration: underline;
+    color: var(--md-accent-fg-color);
+}
+
+/* Animation for dialogue box appearance */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .gibble-container {
+        bottom: 20px;
+        left: 20px;
+    }
+    .gibble-avatar {
+        width: 50px;
+        height: 50px;
+    }
+    .gibble-dialogue {
+        max-width: 240px;
+        bottom: 65px;
+        padding: 14px;
+    }
+    .gibble-dialogue p {
+        font-size: 0.85rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .gibble-container {
+        bottom: 15px;
+        left: 15px;
+    }
+    .gibble-avatar {
+        width: 40px;
+        height: 40px;
+    }
+    .gibble-dialogue {
+        max-width: 200px;
+        bottom: 60px;
+        padding: 12px;
+    }
+    .gibble-dialogue p {
+        font-size: 0.8rem;
+    }
 }
