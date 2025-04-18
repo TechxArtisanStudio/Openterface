@@ -1,37 +1,38 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const form = document.getElementById('subscribe-form');
-    const message = document.getElementById('form-message');
-  
-    form.addEventListener('submit', function(event) {
-      event.preventDefault(); // Prevent default form submission
-  
-      // Collect form data
+  const form = document.getElementById('subscribe-form');
+  const message = document.getElementById('form-message');
+
+  form.addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      // Set the source input to the current page's domain (protocol + domain + port)
+      const sourceInput = form.querySelector('input[name="source"]');
+      sourceInput.value = window.location.origin;
+
       const formData = new FormData(form);
       const data = {};
       formData.forEach((value, key) => { data[key] = value; });
-  
-      // Send AJAX request
-      fetch('https://script.google.com/macros/s/AKfycbwBqXSVZWT5GBsq5bPyz6xqF_RR7JZhK9PyszpvcztgZf3HbXhB4bUFALgkNq-DBpp2/exec', {
-        method: 'POST',
-        mode: 'no-cors', // Required for Google Apps Script
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-        },
-        body: new URLSearchParams(data).toString(),
+
+        fetch('https://script.google.com/macros/s/AKfycbwBqXSVZWT5GBsq5bPyz6xqF_RR7JZhK9PyszpvcztgZf3HbXhB4bUFALgkNq-DBpp2/exec', {
+          method: 'POST',
+          mode: 'no-cors',
+          headers: {
+              'Content-Type': 'application/x-www-form-urlencoded',
+          },
+          body: new URLSearchParams(data).toString(),
       })
       .then(response => {
-        // Since 'no-cors' mode doesn't return response body, assume success
-        message.style.display = 'block';
+          message.style.display = 'block';
         message.style.color = '#df4d3f';
-        message.textContent = 'Thank you for subscribing!';
-        form.reset(); // Clear the form
-        setTimeout(() => { message.style.display = 'none'; }, 5000); // Hide message after 5 seconds
+          message.textContent = 'Thank you for subscribing!';
+          form.reset();
+          setTimeout(() => { message.style.display = 'none'; }, 5000);
       })
       .catch(error => {
-        message.style.display = 'block';
-        message.style.color = 'red';
-        message.textContent = 'Error subscribing. Please try again.';
-        console.error('Error:', error);
+          message.style.display = 'block';
+          message.style.color = 'red';
+          message.textContent = 'Error subscribing. Please try again.';
+          console.error('Error:', error);
       });
-    });
   });
+});

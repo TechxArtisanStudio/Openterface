@@ -64,3 +64,18 @@ window.onload = function() {
     // Initialize after a short delay to ensure tweets are loaded
     setTimeout(initTwitterNavigation, 200);
 };
+
+document.addEventListener('DOMContentLoaded', function() {
+    const dialogue = document.querySelector('.gibble-dialogue');
+
+    function toggleDialogue() {
+        dialogue.style.display = 'block';
+        setTimeout(() => {
+            dialogue.style.display = 'none';
+            setTimeout(toggleDialogue, 2000); // Wait 2 seconds before showing again
+        }, 20000); // Show for 20 seconds
+    }
+
+    // Start the cycle after 1 second
+    setTimeout(toggleDialogue, 1000);
+});
