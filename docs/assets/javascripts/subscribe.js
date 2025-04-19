@@ -10,9 +10,18 @@ document.addEventListener('DOMContentLoaded', function() {
       submitButton.value = 'Processing... ⏳';
       submitButton.style.backgroundColor = '#FAA22B';
 
-      // Set the source input to the current page's domain (protocol + domain + port)
-      const sourceInput = form.querySelector('input[name="source"]');
-      sourceInput.value = window.location.origin;
+      // Create a hidden input for source if it doesn't exist
+      let sourceInput = form.querySelector('input[name="source"]');
+      if (!sourceInput) {
+          sourceInput = document.createElement('input');
+          sourceInput.type = 'hidden';
+          sourceInput.name = 'source';
+          form.appendChild(sourceInput);
+      }
+
+      // Set the source input to the clean URL (protocol + domain + path, without query parameters or hash)
+      const url = new URL(window.location.href);
+      sourceInput.value = url.origin + url.pathname;
 
       const formData = new FormData(form);
       const data = {};
