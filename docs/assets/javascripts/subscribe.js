@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
       })
       .then(response => {
           submitButton.value = 'Thank you for subscribing! 🎉';
-          submitButton.style.backgroundColor = '#df4d3f';
+          submitButton.style.backgroundColor = '#2e4e1f';
           form.reset();
           setTimeout(() => {
               submitButton.value = originalButtonText;
