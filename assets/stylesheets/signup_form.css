@@ -56,10 +56,26 @@
     color: var(--md-accent-bg-color);
 }
 
+#form_signup .button:disabled {
+    opacity: 0.7;
+    cursor: wait;
+    background-color: #666;
+}
+
 #form_signup .footnote {
     text-align: center;
     font-size: 0.6rem;
     color: rgba(255, 255, 255, 0.6);
+}
+
+/* Loading state styles */
+#form_signup.js-loading {
+    opacity: 0.9;
+}
+
+#form_signup.js-loading .button {
+    background-color: #666;
+    cursor: wait;
 }
 
 /* Media Queries for Responsive Design */
