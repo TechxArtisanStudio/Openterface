@@ -3,6 +3,10 @@ document.addEventListener('DOMContentLoaded', function() {
   const submitButton = document.getElementById('form-submit');
   const originalButtonText = submitButton.value;
 
+  // Enable the form and remove loading class when JavaScript is ready
+  form.classList.remove('js-loading');
+  submitButton.disabled = false;
+
   form.addEventListener('submit', function(event) {
       event.preventDefault();
 
