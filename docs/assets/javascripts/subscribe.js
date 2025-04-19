@@ -5,6 +5,11 @@ document.addEventListener('DOMContentLoaded', function() {
   form.addEventListener('submit', function(event) {
       event.preventDefault();
 
+      // Show loading message immediately
+      message.style.display = 'block';
+      message.style.color = '#FAA22B';
+      message.textContent = 'Processing your subscription...';
+
       // Set the source input to the current page's domain (protocol + domain + port)
       const sourceInput = form.querySelector('input[name="source"]');
       sourceInput.value = window.location.origin;
@@ -23,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
       })
       .then(response => {
           message.style.display = 'block';
-        message.style.color = '#df4d3f';
+          message.style.color = '#df4d3f';
           message.textContent = 'Thank you for subscribing!';
           form.reset();
           setTimeout(() => { message.style.display = 'none'; }, 5000);
