@@ -37,7 +37,7 @@ jobs:
         run: |
           echo "QT_VERSION=$(curl -sL https://api.github.com/repos/TechxArtisanStudio/Openterface_QT/releases/latest | grep '"tag_name":'| sed -E 's/.*"([^"]+)".*/\1/')" >> $GITHUB_ENV
           echo "ANDROID_VERSION=$(curl -sL https://api.github.com/repos/TechxArtisanStudio/Openterface_Android/releases/latest | grep '"tag_name":'| sed -E 's/.*"([^"]+)".*/\1/')" >> $GITHUB_ENV
-          echo "MACOS_VERSION=$(curl -sL https://apps.apple.com/us/app/openterface-mini-kvm/id6478481082 | grep -o 'Version [0-9]*\.[0-9]*' | head -1 | awk '{print $2}')" >> $GITHUB_ENV
+          echo "MACOS_VERSION=$(curl -sL https://apps.apple.com/us/app/openterface-mini-kvm/id6478481082 | grep -o 'Version v*[0-9]*\.[0-9]*' | head -1 | awk '{print $2}')" >> $GITHUB_ENV
       - name: Update mkdocs config
         run: |
           sed -i "/^extra:/a\  qt_version: ${{ env.QT_VERSION }}" mkdocs.yml
