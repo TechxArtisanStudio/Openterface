@@ -998,8 +998,8 @@
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
     .gibby-container {
-        bottom: 20px;
-        left: 20px;
+        bottom: 30px;
+        left: 30px;
     }
     .gibby-avatar {
         width: 50px;
@@ -1017,7 +1017,7 @@
 
 @media screen and (max-width: 480px) {
     .gibby-container {
-        bottom: 15px;
+        bottom: 35px;
         left: 15px;
     }
     .gibby-avatar {
