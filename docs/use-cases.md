@@ -40,7 +40,7 @@ The **Openterface Mini-KVM** elevates IT workflows and transforms device managem
     ---
 
     Perfect for projects needing network isolation (e.g., cryptocurrency management). Leverage secure, local operations without internet dependency.
-    <img src="/images/product/use-case-demo-industrial-pc.webp" alt="Secure operations with industrial PC" style="max-width: 100%;"/>
+    <img src="https://assets.openterface.com/images/product/use-case-demo-industrial-pc.webp" alt="Secure operations with industrial PC" style="max-width: 100%;"/>
 
 -   :material-school:{ .lg } __Efficient Integration for Mixed Workflows__
 
