@@ -15,4 +15,4 @@ This versatile Type-C Male to USB-A Male cable, paired with a USB-A Female to US
 - **Adapter**: USB-A Female to USB-C Male
 - **Use**: Facilitates easy control and data transfer to the target device.
 
-<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/type-c-to-usb-a-cable-with-adapter'"> Place Order <img src="/images/trademark/txa.svg" alt="TxA Shop" style="vertical-align: middle; height: 20px;"></button>
+<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/type-c-to-usb-a-cable-with-adapter'"> Place Order <img src="https://assets.openterface.com/images/trademark/txa.svg" alt="TxA Shop" style="vertical-align: middle; height: 20px;"></button>

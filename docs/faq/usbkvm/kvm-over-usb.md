@@ -12,8 +12,8 @@ A **USB KVM**—often referred to as **KVM-over-USB**—is a keyboard, video, an
 
 ### :material-chat-question:{ .faq } How does USB KVM work? {: #how-usb-kvm-works }
 
-![USB KVM Connection Dark](/images/usbkvm/usb-kvm-connect-dark.svg#only-dark)
-![USB KVM Connection Light](/images/usbkvm/usb-kvm-connect-light.svg#only-light)
+![USB KVM Connection Dark](https://assets.openterface.com/images/usbkvm/usb-kvm-connect-dark.svg#only-dark)
+![USB KVM Connection Light](https://assets.openterface.com/images/usbkvm/usb-kvm-connect-light.svg#only-light)
 
 1. **Screen Streaming**  
    It captures the target device's display (via HDMI) and shows it in an application window on your host computer.
