@@ -5,7 +5,7 @@ keywords: "Mini-KVM controls, mouse control modes, keyboard input, BIOS access, 
 
 # Basic Control for Host Apps
 
-![use-case-pc-angled-view](/images/product/use-case-pc-angled-view.jpg){ width=600 }
+![use-case-pc-angled-view](https://assets.openterface.com/images/product/use-case-pc-angled-view.jpg){ width=600 }
 
 ## 💻 Compatibility
 
