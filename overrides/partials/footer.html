@@ -100,4 +100,15 @@
       {% endif %}
     </div>
   </div>
+
+  <!-- Load subscribe.js directly in footer -->
+  <script>
+    // Load subscribe.js and ensure it works with navigation
+    (function() {
+      var script = document.createElement('script');
+      script.src = "{{ 'assets/javascripts/subscribe.js' | url }}";
+      script.async = false; // Load synchronously to ensure it's available
+      document.body.appendChild(script);
+    })();
+  </script>
 </footer>

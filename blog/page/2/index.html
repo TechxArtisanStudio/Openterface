@@ -2600,6 +2600,17 @@
       
     </div>
   </div>
+
+  <!-- Load subscribe.js directly in footer -->
+  <script>
+    // Load subscribe.js and ensure it works with navigation
+    (function() {
+      var script = document.createElement('script');
+      script.src = "../../../assets/javascripts/subscribe.js";
+      script.async = false; // Load synchronously to ensure it's available
+      document.body.appendChild(script);
+    })();
+  </script>
 </footer>
       
     </div>
@@ -2745,10 +2756,6 @@
         <script src="../../../js/timeago.min.js"></script>
       
         <script src="../../../js/timeago_mkdocs_material.js"></script>
-      
-        <script src="../../../assets/javascripts/extra.js"></script>
-      
-        <script src="../../../assets/javascripts/subscribe.js"></script>
       
     
   <script src="../../../assets/javascripts/custom.js"></script>
