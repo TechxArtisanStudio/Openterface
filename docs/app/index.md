@@ -55,7 +55,7 @@ To get your Openterface™ KVM gadgets up and running, you'll need to install on
     Since all our apps are open source, you might come across alternative versions of host applications for Openterface devices created by others. They can be quite cool and may offer extra features, but here’s a friendly reminder: review their security and privacy practices carefully—especially because KVM control involves events from your screen, keyboard, and mouse. The Openterface Team cannot vouch for the safety of these third-party apps, so proceed with caution!
 
 <div class="container">
-    <img src="/images/product/win_qt_app.webp" alt="Poster Image" class="poster-image-shadow" loading="lazy">
+    <img src="https://assets.openterface.com/images/product/win_qt_app.webp" alt="Poster Image" class="poster-image-shadow" loading="lazy">
 </div>
 
 ## Join Our Development
