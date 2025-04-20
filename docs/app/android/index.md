@@ -15,7 +15,7 @@ We are committed to open hardware and open-source software, licensed under the [
 -   Streams video output from the connected target device to the Android screen in real-time.
 -   Supports image adjustments for optimal viewing.
 
-![image](https://assets.openterface.com/images/android/videoConnect.jpg)
+![image](https://assets.openterface.com/images/android/videoConnect.webp)
 
 #### User Interface Description
 
@@ -63,7 +63,7 @@ We are committed to open hardware and open-source software, licensed under the [
 
 -   Relative mouse control (in development, toggle via settings when available).
 
-## ![image](https://assets.openterface.com/images/android/mouseThouchMode.jpg)
+## ![image](https://assets.openterface.com/images/android/mouseThouchMode.webp)
 
 ### 3. Keyboard Input
 
@@ -89,8 +89,8 @@ We are committed to open hardware and open-source software, licensed under the [
 -   **Standard keys**: 0-9、A-Z、Enter、Space、delete.
 
 ![image](https://assets.openterface.com/images/android/enlargeAndKeyBoard.webp)
-![image](https://assets.openterface.com/images/android/keyBoardFunction.jpg)
-![image](https://assets.openterface.com/images/android/keyBoardSystem.jpg)
+![image](https://assets.openterface.com/images/android/keyBoardFunction.webp)
+![image](https://assets.openterface.com/images/android/keyBoardSystem.webp)
 
 ---
 
