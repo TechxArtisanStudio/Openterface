@@ -21,16 +21,6 @@ extra_css:
   - assets/stylesheets/extra.css
   - assets/stylesheets/signup_form.css
 
-extra_javascript:
-  - assets/javascripts/extra.js
-  - assets/javascripts/subscribe.js
-
-extra_js:
-  - assets/javascripts/extra.js:
-      defer: true
-  - assets/javascripts/subscribe.js:
-      defer: true
-
 # Configuration
 theme:
   name: material
