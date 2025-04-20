@@ -15,4 +15,4 @@ This stylish and soft-feel Type-C Male-to-Male cable in vibrant orange is design
 - **Adapter**: USB-C Female to USB-A Male
 - **Use**: For high-speed data transfer between the host computer and the Mini-KVM, and for fast charging mobile phones or laptops.
 
-<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/type-c-cable-with-usb-a-adapter-1-5m-4-11ft-240w-fast-charging-data-transfer-usb2-0'"> Place Order <img src="/images/trademark/txa.svg" alt="TxA Shop" style="vertical-align: middle; height: 20px;"></button>
+<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/type-c-cable-with-usb-a-adapter-1-5m-4-11ft-240w-fast-charging-data-transfer-usb2-0'"> Place Order <img src="https://assets.openterface.com/images/trademark/txa.svg" alt="TxA Shop" style="vertical-align: middle; height: 20px;"></button>

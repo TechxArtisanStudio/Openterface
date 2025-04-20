@@ -23,7 +23,7 @@ Explore our two purchase options designed to meet your needs, whether you're loo
 7. [Type-C Male-to-Male Cable](/product/accessories/#upgraded-nylon-usb-c-cable-240w-fast-charging-10gbps-data-transfer) (1.5m) with USB-C Female to USB-A Male Adapter
 8. Sticker of Gibby, the Openterface mascot.
 
-<button class="md-button" onclick="window.location.href='https://www.crowdsupply.com/techxartisan/openterface-mini-kvm#products'"> Place Order <img src="/images/trademark/crowd-supply.svg" alt="Crowd Supply" style="vertical-align: middle; height: 26px;"></button>
+<button class="md-button" onclick="window.location.href='https://www.crowdsupply.com/techxartisan/openterface-mini-kvm#products'"> Place Order <img src="https://assets.openterface.com/images/trademark/crowd-supply.svg" alt="Crowd Supply" style="vertical-align: middle; height: 26px;"></button>
 
 ![toolkit-parts](https://assets.openterface.com/images/product/toolkit-parts.jpg){:style="width:680px"}
 
@@ -36,4 +36,4 @@ Explore our two purchase options designed to meet your needs, whether you're loo
 1. Core Product: Openterface Mini-KVM
 2. Quick Start Guide
 
-<button class="md-button" onclick="window.location.href='https://www.crowdsupply.com/techxartisan/openterface-mini-kvm#products'"> Place Order <img src="/images/trademark/crowd-supply.svg" alt="Crowd Supply" style="vertical-align: middle; height: 26px;"></button>
+<button class="md-button" onclick="window.location.href='https://www.crowdsupply.com/techxartisan/openterface-mini-kvm#products'"> Place Order <img src="https://assets.openterface.com/images/trademark/crowd-supply.svg" alt="Crowd Supply" style="vertical-align: middle; height: 26px;"></button>

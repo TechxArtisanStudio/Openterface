@@ -11,8 +11,8 @@ keywords: "Mini-KVM, KVM over USB, KVM over IP, headless control, HDMI KVM, USB 
 
 Our **Openterface™ Mini-KVM** is a plug-and-play **KVM-over-USB** solution. It allows you to control a nearby headless computer directly from your laptop or desktop using USB and HDMI connections, eliminating the need for additional peripherals or network connectivity. Throughout this documentation, we refer to
 
-- Your controlling laptop or PC as ![host-computer](/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![Host](/images/shell-icons/host.svg#only-light){:style="height:15px"} ![host-computer](/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"} ![Host](/images/shell-icons/host_1.svg#only-dark){:style="height:15px"}
-- The device being controlled as ![target-computer](/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![Target](/images/shell-icons/target.svg#only-light){:style="height:18px"} ![target-computer](/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"} ![Target](/images/shell-icons/target_1.svg#only-dark){:style="height:18px"}
+- Your controlling laptop or PC as ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![Host](https://assets.openterface.com/images/shell-icons/host.svg#only-light){:style="height:15px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"} ![Host](https://assets.openterface.com/images/shell-icons/host_1.svg#only-dark){:style="height:15px"}
+- The device being controlled as ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![Target](https://assets.openterface.com/images/shell-icons/target.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"} ![Target](https://assets.openterface.com/images/shell-icons/target_1.svg#only-dark){:style="height:18px"}
 
 <div class="grid cards" markdown>
 
