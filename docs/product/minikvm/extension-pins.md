@@ -6,7 +6,7 @@ keywords: "Mini-KVM extension pins, custom development, hardware modification, o
 
 # **Extension Pins** | Developer Mode | Openterface Mini-KVM
 
-![mini-kvm-pins-port](/images/product/mini-kvm-pins-port.png){:style="height:360px"}
+![mini-kvm-pins-port](https://assets.openterface.com/images/product/mini-kvm-pins-port.png){:style="height:360px"}
 ![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.jpg){:style="height:300px"}
 
 The Openterface Mini-KVM features extension pins for advanced development and [Open Software](/app) experimentation. These pins are not exposed in the standard case configuration. 
@@ -18,8 +18,8 @@ The Openterface Mini-KVM features extension pins for advanced development and [O
 3. Download the [3D model](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware/tree/main/models) for the Extension Pin Cap.
 4. Check out our [Hardware GitHub repository](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware).
 
-![change-cap](/images/product/change-cap.svg#only-light){:style="height:300px"}
-![change-cap](/images/product/change-cap_1.svg#only-dark){:style="height:300px"}
+![change-cap](https://assets.openterface.com/images/product/change-cap.svg#only-light){:style="height:300px"}
+![change-cap](https://assets.openterface.com/images/product/change-cap_1.svg#only-dark){:style="height:300px"}
 
 !!! warning "Warranty Void"
     Removing the original case may void the product warranty. All modifications or disassembly are undertaken at the user's own risk.
@@ -29,10 +29,10 @@ The Openterface Mini-KVM features extension pins for advanced development and [O
 
 ## Pin Configuration
 
-![target-side](/images/product/extension-pins-1.svg#only-light){:style="height:200px"}
-![host-side](/images/product/extension-pins-2.svg#only-light){:style="height:200px"}
-![target-side](/images/product/extension-pins-1_1.svg#only-dark){:style="height:200px"}
-![host-side](/images/product/extension-pins-2_1.svg#only-dark){:style="height:200px"}
+![target-side](https://assets.openterface.com/images/product/extension-pins-1.svg#only-light){:style="height:200px"}
+![host-side](https://assets.openterface.com/images/product/extension-pins-2.svg#only-light){:style="height:200px"}
+![target-side](https://assets.openterface.com/images/product/extension-pins-1_1.svg#only-dark){:style="height:200px"}
+![host-side](https://assets.openterface.com/images/product/extension-pins-2_1.svg#only-dark){:style="height:200px"}
 
 The extension pins provide the following connections:
 
