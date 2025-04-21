@@ -17,9 +17,12 @@ copyright: >-
   <a href="#__consent">Cookie Settings</a> | 
   <a href="/about">About</a>
 
-extra_css:
-  - assets/stylesheets/extra.css
-  - assets/stylesheets/signup_form.css
+# extra_css:
+#   - assets/stylesheets/extra.css
+#   - assets/stylesheets/signup_form.css
+
+# extra_javascript:
+#   - assets/javascripts/extra.js
 
 # Configuration
 theme:
