@@ -6,7 +6,7 @@ keywords: "USB-C cable, nylon USB-C, fast charging cable, 240W charging, high-sp
 
 # Nylon Type-C Cable with Adapter 240W Fast Charging & 10Gbps
 
-![Nylon-USB-C-Cable](https://assets.openterface.com/images/product/part/nylon-usb-c-cable.jpg){:style="height:360px"}
+![Nylon-USB-C-Cable](https://assets.openterface.com/images/product/part/nylon-usb-c-cable.webp){:style="height:360px"}
 
 Experience superior durability and performance with our newly upgraded USB-C cable, now crafted with premium nylon material. This versatile cable delivers fast charging and high-speed data transfer, making it an essential companion for your tech setup.
 
