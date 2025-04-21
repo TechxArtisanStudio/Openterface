@@ -54,8 +54,7 @@ The **Openterface Mini-KVM** elevates IT workflows and transforms device managem
     ---
 
     Use your Android tablet and pencil to navigate or sketch on Windows/macOS machines. Perfect for design, markups, and app control with precision.
-    <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Here&#39;s a quick demo video of our Qt host app running on the Pi within this uConsole. <a href="https://t.co/xwrOE9pCcF">pic.twitter.com/xwrOE9pCcF</a></p>&mdash; TechxArtisan (@TechxArtisan) <a href="https://twitter.com/TechxArtisan/status/1872660955768946823?ref_src=twsrc%5Etfw">July 1, 2024</a></blockquote>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <img src="https://assets.openterface.com/images/product/android_plus_pen.webp" alt="Android pencil control" style="max-width: 100%;"/>
 
 -   :material-laptop:{ .lg } __Versatile Portability for On-the-Go Troubleshooting__
 

@@ -5,6 +5,8 @@ keywords: "Openterface Mini-KVM, USB KVM switch, open source KVM, headless devic
 slug: /openterface-mini-kvm-reviews
 ---
 
+<script src="https://assets.openterface.com/js/custom.min.js"></script>
+
 # Openterface Mini-KVM Reviews, Media & Testimonials
 
 ## :fontawesome-brands-youtube:{ .youtube } **YouTube Unboxing Reviews**
