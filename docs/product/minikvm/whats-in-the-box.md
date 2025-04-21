@@ -25,13 +25,13 @@ Explore our two purchase options designed to meet your needs, whether you're loo
 
 <button class="md-button" onclick="window.location.href='https://www.crowdsupply.com/techxartisan/openterface-mini-kvm#products'"> Place Order <img src="https://assets.openterface.com/images/trademark/crowd-supply.svg" alt="Crowd Supply" style="vertical-align: middle; height: 26px;"></button>
 
-![toolkit-parts](https://assets.openterface.com/images/product/toolkit-parts.jpg){:style="width:680px"}
+![toolkit-parts](https://assets.openterface.com/images/product/toolkit-parts.webp){:style="width:680px"}
 
 ---
 
 ## 2. Mini-KVM **Basic**
 
-![basic-pack](https://assets.openterface.com/images/product/basic-with-maunal.jpg){:style="width:680px"}
+![basic-pack](https://assets.openterface.com/images/product/basic-with-maunal.webp){:style="width:680px"}
 
 1. Core Product: Openterface Mini-KVM
 2. Quick Start Guide
