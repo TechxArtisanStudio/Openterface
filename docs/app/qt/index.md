@@ -7,7 +7,7 @@ This document provides an overview of a cross-platform KVM (Keyboard, Video, Mou
 ### Preferences
 
 The Preferences menu allows users to customize settings via a dialog with four pages:<br>
-![Preferences Gernal](https://assets.openterface.com/images/qt/preferenceGernal.png)
+![Preferences Gernal](https://assets.openterface.com/images/qt/preferenceGernal.webp)
 
 -   **General** This page configures debugging logs filter and the screen saver inhibit or not when the application is running. Log categories include:
 
@@ -18,7 +18,7 @@ The Preferences menu allows users to customize settings via a dialog with four p
 
     Users can choose to save logs to a .txt file and the screen saver inhibit or not.<br>
 
-![Preferences Video](https://assets.openterface.com/images/qt/preferenceVideo.png)
+![Preferences Video](https://assets.openterface.com/images/qt/preferenceVideo.webp)
 
 -   **Video** This page enables users to:
 
@@ -28,7 +28,7 @@ The Preferences menu allows users to customize settings via a dialog with four p
 
 -   **Audio** This page is currently under development.<br>
 
-![Preferences TargetControl](https://assets.openterface.com/images/qt/preferenceTargetControl.png)
+![Preferences TargetControl](https://assets.openterface.com/images/qt/preferenceTargetControl.webp)
 
 -   **Target Control** This page provides options to configure control modes for the target device:
 
@@ -58,15 +58,15 @@ This menu provides options to:<br>
 ### Advance
 
 The Advance menu includes the following options:<br>
-![Advance menu](https://assets.openterface.com/images/qt/menuAdvance.png)
+![Advance menu](https://assets.openterface.com/images/qt/menuAdvance.webp)
 
 -   **Environment Checking:** Verifies if required drivers for the software are installed.
 -   **Reset Serial Port:** Restarts the serial port.
 -   **Reset Keyboard and Mouse:** Resets the keyboard and mouse settings.
 -   **Factory Reset HID Chip:** Restores the HID chip to its factory settings.<br>
-    ![Advance SerialConsole](https://assets.openterface.com/images/qt/advanceSerialConsole.png)
+    ![Advance SerialConsole](https://assets.openterface.com/images/qt/advanceSerialConsole.webp)
 -   **Serial Console:** Opens a new window to monitor all messages sent to the serial port, with filters for sent/received messages.<br>
-    ![Advance ScriptTool](https://assets.openterface.com/images/qt/advanceScriptTool.png)
+    ![Advance ScriptTool](https://assets.openterface.com/images/qt/advanceScriptTool.webp)
 -   **Script Tool:** Runs AutoHotkey (AHK) scripts. This feature mimics AutoHotkey but supports only a subset of mouse/keyboard functions and screenshot capabilities. Scripts affect the target device.
 -   **TCP Server:** Receives AutoHotkey commands via TCP to execute them on the target device.
 -   **Firmware Update:** Pulls the latest firmware from a remote server, allowing users to choose whether to flash it to the device.
@@ -85,7 +85,7 @@ The interface language can be set to:
 ### Help
 
 The Help menu provides: <br>
-![Help menu](https://assets.openterface.com/images/qt/menuHelp.png)
+![Help menu](https://assets.openterface.com/images/qt/menuHelp.webp)
 
 -   Links to the official website and feedback forms for software/hardware issues.
 -   Information on purchasing hardware.
@@ -97,7 +97,7 @@ The Help menu provides: <br>
 
 The menu bar, from left to right, includes the following functionalities:<br>
 
-![MenuBar](https://assets.openterface.com/images/qt/menubar.png)
+![MenuBar](https://assets.openterface.com/images/qt/menubar.webp)
 
 -   Keyboard Layout Selection: Choose the keyboard layout.
 -   Zoom Controls: Zoom in, zoom out, or reset the display of the captured video stream.

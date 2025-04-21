@@ -6,7 +6,7 @@ keywords: "Mini-KVM extension pins, custom development, hardware modification, o
 
 # **Extension Pins** | Developer Mode | Openterface Mini-KVM
 
-![mini-kvm-pins-port](https://assets.openterface.com/images/product/mini-kvm-pins-port.png){:style="height:360px"}
+![mini-kvm-pins-port](https://assets.openterface.com/images/product/mini-kvm-pins-port.webp){:style="height:360px"}
 ![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.webp){:style="height:300px"}
 
 The Openterface Mini-KVM features extension pins for advanced development and [Open Software](/app) experimentation. These pins are not exposed in the standard case configuration. 
