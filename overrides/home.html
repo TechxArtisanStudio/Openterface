@@ -41,9 +41,12 @@
             <a href="https://github.com/TechxArtisanStudio/Openterface_QT" class="md-button md-button--primary" id="join-waitlist-button">Source Code</a>
            </div>
         <div class="dialogue-bubble" id="op-bubble">
-            <img src="https://assets.openterface.com/images/trademark/app-store.svg" alt="Avatar" class="avatar" draggable="false">
-            <p>macOS</p>
-            <a href="/appstore" class="md-button md-button--primary" id="join-waitlist-button">App Store {{ config.extra.macos_version }}</a>
+            <div>
+              <img src="https://assets.openterface.com/images/trademark/app-store.svg" alt="Avatar" class="avatar" draggable="false" style="margin-bottom: 8px;">
+              <p>macOS</p>
+            </div>
+            <h4>{{ config.extra.macos_version }}</h4>
+            <a class="btnappstore" href="/appstore"></a>
         </div>
         <div class="dialogue-bubble" id="op-bubble">
             <img src="https://assets.openterface.com/images/trademark/linux.svg" alt="Avatar" class="avatar" draggable="false">
@@ -56,10 +59,13 @@
             <a href="https://github.com/TechxArtisanStudio/Openterface_QT" class="md-button md-button--primary" id="join-waitlist-button">Source Code</a>
         </div>
         <div class="dialogue-bubble" id="op-bubble">
-            <img src="https://assets.openterface.com/images/trademark/android.svg" alt="Avatar" class="avatar" draggable="false">
-            <p>Android</p>
-            <a class="btngogoleplay" href="https://play.google.com/store/apps/details?id=com.openterface.AOS"></a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{ config.extra.android_version }}/OpenterfaceAndroid-release.apk" class="md-button md-button--primary" id="join-waitlist-button">apk {{ config.extra.android_version }}</a>
+            <div>
+              <img src="https://assets.openterface.com/images/trademark/android.svg" alt="Avatar" class="avatar" draggable="false">
+              <p>Android</p>
+            </div>
+            <h4>{{ config.extra.android_version }}</h4>
+            <a class="btngogoleplay" href="/playstore"></a>
+            <a href="https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{ config.extra.android_version }}/OpenterfaceAndroid-release.apk" class="md-button md-button--primary" id="join-waitlist-button">apk</a>
         </div>
     </div>
     <p>and <a href="/app" style="color: var(--md-primary-fg-color);">more</a>.</p>
