@@ -2,7 +2,7 @@
 
 Hey there, tech enthusiasts!
 
-Time flies, right? Over the past half year, we've been deep in the trenches refining our host apps for Windows, Linux, macOS, and Android. We thought it would be a smooth ride, but oh boy... software development had other ideas. One feature turned into another, then came the endless testing loops. But hey, we’re still in the game and making steady progress.
+Time flies, right? Over the past half year, we've been deep in the trenches refining our [host apps](/app) for Windows, Linux, macOS, and Android. We thought it would be a smooth ride, but oh boy... software development had other ideas. One feature turned into another, then came the endless testing loops. But hey, we’re still in the game and making steady progress.
 
 Now let’s switch gears and talk about something new. While we’ve been busy with the apps, we took a moment to zoom out and look at the bigger picture. Our goal is still the same: to help IT pros, makers, and tech lovers like you get the job done fast, especially when you're working with headless devices in unpredictable setups, where time is tight and network access might be shaky.
 
