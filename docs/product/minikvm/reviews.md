@@ -13,6 +13,7 @@ slug: /openterface-mini-kvm-reviews
 
 <div class="annotate" markdown>
 
+- <a href="https://www.youtube.com/@FamilyGeekery"><img src="https://yt3.ggpht.com/E0GurViIbPH1skzVN5g7rjvyGnwAGHyjmuBgfjPDn3LyoWApDl4KAXKCt5bEya93aDGL7inhwg=s88-c-k-c0x00ffffff-no-rj" alt="" width="28" style="border-radius: 50%; vertical-align: middle;" onerror="this.style.display='none'"></a> **FamilyGeekery**: [Open Interface Mini KVM Toolkit Review](https://www.youtube.com/watch?v=l5e1wHwZ__c) | English (13)
 - <a href="https://www.youtube.com/channel/UCvdHQkQv8KpwMnKkitmUVTQ"><img src="https://yt3.googleusercontent.com/wmQPGuau8ThNtsGR0Kc6m78_55P0_hH6fB4p2dPwHlIXyZ61SGk7yl9ogIMxaWhb8Q0f8zAn=s160-c-k-c0x00ffffff-no-rj" alt="" width="28" style="border-radius: 50%; vertical-align: middle;" onerror="this.style.display='none'"></a> **Home Network Guy**: [Openterface: A KVM over USB Device](https://www.youtube.com/watch?v=sKDYsKBv90A) | English (1)
 - <a href="https://www.youtube.com/channel/UCIgNWXsJcFwvFptmUic6wSw"><img src="https://yt3.googleusercontent.com/qencJ8YC4SCPbV_ylp47d-yNIAMTzt6QlncVrJ8FfwRDYeB4m7St7MZNSCDOVx3Qw_9CJxHR5A=s160-c-k-c0x00ffffff-no-rj" alt="" width="28" style="border-radius: 50%; vertical-align: middle;" onerror="this.style.display='none'"></a> **apalrd's adventures**: [A USB KVM for your IT Tool Bag](https://www.youtube.com/watch?v=ZZ5P6MnBcHw) | English (2)
 - <a href="https://www.youtube.com/channel/UChtY6O8Ahw2cz05PS2GhUbg"><img src="https://yt3.googleusercontent.com/ytc/AIdro_mbT6bPBRqaz5fH4ZhPL1KzEDJ1y1-ZgA8Bt1OATJ9omHvR=s160-c-k-c0x00ffffff-no-rj" alt="" width="28" style="border-radius: 50%; vertical-align: middle;" onerror="this.style.display='none'"></a> **Make:**: [Openterface Mini-KVM open-source KVM gadget](https://www.youtube.com/watch?v=lwitzvmxsgc) | English (3)
@@ -63,6 +64,9 @@ slug: /openterface-mini-kvm-reviews
 
 12. <img src="https://i.ytimg.com/vi_webp/RF3QApnsGW8/maxresdefault.webp" alt="thumbnail" style="max-width: 120px; vertical-align: middle;" onerror="this.style.display='none'"><br> [**Festa do Software Livre - Pista Principal - 2024**](https://www.youtube.com/live/RF3QApnsGW8?si=mCwxIuxNc1B5vuy9&t=32416) | **2024-10-12**  
    _Openterface Mini-KVM was showcased at [Festa do Software Livre 2024](https://festa2024.softwarelivre.eu/), a major event celebrating and promoting Free Software. The event, held at the University of Aveiro, featured talks on technology, politics, business, and society, along with workshops, roundtables, and live demonstrations. Openterface Mini-KVM was presented as an open-source innovation for device management, aligning with the festival's emphasis on technological freedom and community-driven development._
+
+13. <img src="https://i.ytimg.com/vi_webp/l5e1wHwZ__c/maxresdefault.webp" alt="thumbnail" style="max-width: 120px; vertical-align: middle;" onerror="this.style.display='none'"><br> [**Open Interface Mini KVM Toolkit Review**](https://www.youtube.com/watch?v=l5e1wHwZ__c) | **2025-05-01**  
+   _Covers detailed unboxing, setup, and real use cases of Openterface Mini-KVM. Shows Mac, Windows, and Android host compatibility, USB file transfer, clipboard sharing, and praises portability and design. Suggests adding USB extension for fat flash drives._
 
 ## :fontawesome-solid-share-nodes:{ .social-media } **Social Media**
 
