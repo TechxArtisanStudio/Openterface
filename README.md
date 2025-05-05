@@ -1,6 +1,6 @@
 # Openterface Mini-KVM: Docs & Product Site
 
-![use-case-demo-industrial-pc](docs/images/product/use-case-demo-industrial-pc.webp)
+![use-case-demo-industrial-pc](https://assets.openterface.com/images/product/use-case-demo-industrial-pc.webp)
 
 Welcome to the official repository for the **Openterface Mini-KVM** — a portable, plug-and-play USB KVM gadget for BIOS-level control, local troubleshooting, and file-sharing, all without the need for a network connection.
 
