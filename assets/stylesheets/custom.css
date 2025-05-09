@@ -14,8 +14,7 @@
 }
 
 .mdx-container {
-    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 1'><path d='M0,0 H1123' style='stroke: hsla(0, 0%, 100%, 1); stroke-width: 1'/></svg>") no-repeat bottom, 
-    linear-gradient(to bottom, var(--md-primary-fg-color) 30%, transparent 100%, var(--md-default-bg-color) 100%);
+    background: linear-gradient(to bottom, var(--md-primary-fg-color) 30%, transparent 100%, var(--md-default-bg-color) 100%);
     padding-top: 1rem;
 }
 
@@ -473,7 +472,7 @@
     text-align: center;
 }
 
-.icon-item svg {
+.icon-item img {
     width: 50px;
     height: 50px;
     margin-bottom: 0.5rem;
@@ -1032,27 +1031,34 @@
 .btngogoleplay {
     color: white;
     border-radius: 5px;
-    padding: 0; /* Remove padding to maintain aspect ratio */
+    padding: 0;
     text-decoration: none;
     background-image: url('https://assets.openterface.com/images/appstore/GetItOnGooglePlay_Badge_Web_color_English.png');
     background-size: cover;
     background-position: center;
     display: inline-block;
-    width: 100%; /* Set a base width */
-    aspect-ratio: 3 / 1; /* Maintain the aspect ratio */
+    width: 100%;
+    aspect-ratio: 3 / 1;
+}
+
+.version-text {
+    color: #4a4a4a;
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    font-weight: 500;
 }
 
 .btnappstore {
     color: white;
     border-radius: 5px;
-    padding: 0; /* Remove padding to maintain aspect ratio */
+    padding: 0;
     text-decoration: none;
     background-image: url('https://assets.openterface.com/images/appstore/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg');
     background-size: cover;
     background-position: center;
     display: inline-block;
-    width: 100%; /* Set a base width */
-    aspect-ratio: 4 / 1; /* Maintain the aspect ratio */
+    width: 100%;
+    aspect-ratio: 4 / 1;
 }
 
 /* Slideshow styles */
@@ -1074,15 +1080,6 @@
     width: 100%;
 }
 
-.slides img {
-    width: 100%;
-    height: auto;
-    display: block;
-    max-height: 500px;
-    object-fit: contain;
-}
-
-/* Update to fix slideshow image sizing */
 .slides img {
     width: auto;
     max-width: 100%;
