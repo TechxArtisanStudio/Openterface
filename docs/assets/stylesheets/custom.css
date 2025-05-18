@@ -1032,12 +1032,27 @@
     color: white;
     border-radius: 5px;
     padding: 0;
+    margin-bottom: 0.75em;
     text-decoration: none;
     background-image: url('https://assets.openterface.com/images/appstore/GetItOnGooglePlay_Badge_Web_color_English.png');
     background-size: cover;
     background-position: center;
     display: inline-block;
-    width: 100%;
+    width: 70%;
+    aspect-ratio: 3 / 1;
+}
+
+.btnflathub {
+    color: white;
+    border-radius: 5px;
+    padding: 0;
+    margin-bottom: 0.75em;
+    text-decoration: none;
+    background-image: url('https://assets.openterface.com/images/appstore/GetItOn_flathub.webp');
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    width: 50%;
     aspect-ratio: 3 / 1;
 }
 
@@ -1052,6 +1067,7 @@
     color: white;
     border-radius: 5px;
     padding: 0;
+    margin-bottom: 0.75em;
     text-decoration: none;
     background-image: url('https://assets.openterface.com/images/appstore/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg');
     background-size: cover;
@@ -1136,4 +1152,106 @@
     .slideshow-text {
         color: var(--description-font-light);
     }
+}
+
+.big-download-btn {
+  display: block;
+  width: 100%;
+  font-size: 1.25em;
+  padding: 1em;
+  margin-bottom: 0.75em;
+  text-align: center;
+  background: #e47a50;
+  color: #fff !important;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+.big-download-btn:hover {
+  background: #25663a;
+}
+.format-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  justify-content: center;
+}
+.format-option {
+  cursor: pointer;
+  padding: 0.4em 1em;
+  border: 1px solid #c0b4a6;
+  border-radius: 6px;
+  background: #fff;
+  color: #e47a50;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+  user-select: none;
+}
+.format-option.selected, .format-option:hover {
+  background: #e47a50;
+  color: #fff;
+}linux-download-columns {
+  display: flex;
+  gap: 1.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.linux-download-columns > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+@media (max-width: 600px) {
+  .linux-download-columns {
+    flex-direction: column;
+    gap: 0.5em;
+  }
+}
+.linux-format-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  align-items: stretch;
+}
+.linux-format-selector > div {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  justify-content: center;
+}
+
+/* Platform-specific download button styles */
+.big-download-btn.windows {
+  background: #0078D6;
+  color: #fff !important;
+}
+.big-download-btn.windows:hover {
+  background: #005fa3;
+}
+
+.big-download-btn.linux {
+  background: #fff;
+  color: #111 !important;
+  border: 2px solid #111;
+}
+.big-download-btn.linux:hover {
+  background: #f3f3f3;
+  color: #0078D6 !important;
+  border-color: #0078D6;
+}
+
+.big-download-btn.macos {
+  background: #111;
+  color: #fff !important;
+}
+.big-download-btn.macos:hover {
+  background: #333;
+}
+
+.big-download-btn.android {
+  background: #e47a50;
+  color: #fff !important;
+}
+.big-download-btn.android:hover {
+  background: #b36022;
 }
