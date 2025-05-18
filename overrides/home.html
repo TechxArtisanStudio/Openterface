@@ -106,46 +106,115 @@
     </section>
     
     <div class="callout-button-container">
-        <div class="dialogue-bubble" id="op-bubble">
-            <div>
-              <img src="https://assets.openterface.com/images/trademark/win.svg" alt="Avatar" class="avatar" draggable="false">
-              <p>Windows</p>
-            </div>
-            <h3 class="version-text">{{ config.extra.qt_version }}</h3>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.windows.amd64.installer.exe" class="md-button md-button--primary" id="join-waitlist-button">Installer</a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT-portable.exe" class="md-button md-button--primary" id="join-waitlist-button">Portable Exe</a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT" class="md-button md-button--primary" id="join-waitlist-button">Source Code</a>
-           </div>
-        <div class="dialogue-bubble" id="op-bubble">
-            <div>
-              <img src="https://assets.openterface.com/images/trademark/app-store.svg" alt="Avatar" class="avatar" draggable="false" style="margin-bottom: 8px;">
-              <p>macOS</p>
-            </div>
-            <h3 class="version-text">{{ config.extra.macos_version }}</h3>
-            <a class="btnappstore" href="/appstore"></a>
+      <!-- Windows -->
+      <div class="dialogue-bubble" id="op-bubble">
+        <div>
+          <img src="https://assets.openterface.com/images/trademark/win.svg" alt="Avatar" class="avatar" draggable="false">
+          <p>Windows</p>
         </div>
-        <div class="dialogue-bubble" id="op-bubble">
-            <div>
-              <img src="https://assets.openterface.com/images/trademark/linux.svg" alt="Avatar" class="avatar" draggable="false">
-              <p>Linux</p>
-            </div>
-            <h3 class="version-text">{{ config.extra.qt_version }}</h3>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.deb" class="md-button md-button--primary" id="join-waitlist-button">AMD64 DEB</a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.rpm" class="md-button md-button--primary" id="join-waitlist-button">AMD64 RPM</a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.AppImage" class="md-button md-button--primary" id="join-waitlist-button">AMD64 AppImage</a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.arm64.deb" class="md-button md-button--primary" id="join-waitlist-button">ARM64 DEB</a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.arm64.rpm" class="md-button md-button--primary" id="join-waitlist-button">ARM64 RPM</a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_QT" class="md-button md-button--primary" id="join-waitlist-button">Source Code</a>
+        <h3 class="version-text">{{ config.extra.qt_version }}</h3>
+        <div class="platform-download" data-platform="windows">
+          <a id="windows-main-download" href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.windows.amd64.installer.exe" class="big-download-btn windows md-button md-button--primary">
+            Download Installer
+          </a>
+          <div class="format-selector">
+            <span class="format-option selected"
+              data-href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.windows.amd64.installer.exe"
+              data-label="Installer">Installer</span>
+            <span class="format-option"
+              data-href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT-portable.exe"
+              data-label="Portable EXE">Portable EXE</span>
+            <span class="format-option"
+              data-href="https://github.com/TechxArtisanStudio/Openterface_QT"
+              data-label="Source Code">Source Code</span>
+          </div>
         </div>
-        <div class="dialogue-bubble" id="op-bubble">
-            <div>
-              <img src="https://assets.openterface.com/images/trademark/android.svg" alt="Avatar" class="avatar" draggable="false">
-              <p>Android</p>
-            </div>
-            <h3 class="version-text">{{ config.extra.android_version }}</h3>
-            <a class="btngogoleplay" href="/playstore"></a>
-            <a href="https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{ config.extra.android_version }}/OpenterfaceAndroid-release.apk" class="md-button md-button--primary" id="join-waitlist-button">apk</a>
+      </div>
+      <!-- macOS -->
+      <div class="dialogue-bubble" id="op-bubble">
+        <div>
+          <img src="https://assets.openterface.com/images/trademark/app-store.svg" alt="Avatar" class="avatar" draggable="false" style="margin-bottom: 8px;">
+          <p>macOS</p>
         </div>
+        <h3 class="version-text">{{ config.extra.macos_version }}</h3>
+        <div class="platform-download" data-platform="macos">
+          <a id="macos-main-download" href="/appstore" class="btnappstore md-button md-button--primary">
+            Download from App Store
+          </a>
+          <div class="format-selector">
+            <span class="format-option selected"
+              data-href="/appstore"
+              data-label="App Store">App Store</span>
+            <span class="format-option"
+              data-href="https://github.com/TechxArtisanStudio/Openterface_QT"
+              data-label="Source Code">Source Code</span>
+          </div>
+        </div>
+      </div>
+      <!-- Linux -->
+      <div class="dialogue-bubble" id="op-bubble">
+        <div>
+          <img src="https://assets.openterface.com/images/trademark/linux.svg" alt="Avatar" class="avatar" draggable="false">
+          <p>Linux</p>
+        </div>
+        <h3 class="version-text">{{ config.extra.qt_version }}</h3>
+        <div class="platform-download" data-platform="linux">
+          <a id="linux-main-download" href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.deb" class="big-download-btn linux md-button md-button--primary">
+            Download AMD64 DEB
+          </a>
+          <div class="format-selector linux-format-selector">
+            <div>
+              <span class="format-option selected"
+                data-href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.deb"
+                data-label="AMD64 DEB">AMD64 DEB</span>
+              <span class="format-option"
+                data-href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.rpm"
+                data-label="AMD64 RPM">AMD64 RPM</span>
+              <span class="format-option"
+                data-href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.amd64.AppImage"
+                data-label="AMD64 AppImage">AMD64 AppImage</span>
+            </div>
+            <div>
+              <span class="format-option"
+                data-href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.arm64.deb"
+                data-label="ARM64 DEB">ARM64 DEB</span>
+              <span class="format-option"
+                data-href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT.linux.arm64.rpm"
+                data-label="ARM64 RPM">ARM64 RPM</span>
+              <span class="format-option"
+                data-href="/flathub"
+                data-label="FlatHub">FlatHub</span>
+            </div>
+            <div>
+              <span class="format-option"
+                data-href="https://github.com/TechxArtisanStudio/Openterface_QT"
+                data-label="Source Code">Source Code</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Android -->
+      <div class="dialogue-bubble" id="op-bubble">
+        <div>
+          <img src="https://assets.openterface.com/images/trademark/android.svg" alt="Avatar" class="avatar" draggable="false">
+          <p>Android</p>
+        </div>
+        <h3 class="version-text">{{ config.extra.android_version }}</h3>
+        <div class="platform-download" data-platform="android">
+          <a id="android-main-download" href="/playstore" class="btngogoleplay md-button md-button--primary"></a>
+          <div class="format-selector">
+            <span class="format-option selected"
+              data-href="/playstore"
+              data-label="Play Store">Play Store</span>
+            <span class="format-option"
+              data-href="https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{ config.extra.android_version }}/OpenterfaceAndroid-release.apk"
+              data-label="APK">APK</span>
+            <span class="format-option"
+              data-href="https://github.com/TechxArtisanStudio/Openterface_Android"
+              data-label="Source Code">Source Code</span>
+          </div>
+        </div>
+      </div>
     </div>
     <p>and <a href="/app" style="color: var(--md-primary-fg-color);">more</a>.</p>
   </section>
@@ -177,7 +246,6 @@
   </div>
 
   <a rel="me" href="https://mastodon.social/@youyoubilly" style="display:none;">Mastodon</a>
-
 {% endblock %}
 
 {% block content %}{% endblock %}
