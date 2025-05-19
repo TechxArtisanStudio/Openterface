@@ -1407,7 +1407,13 @@ For technical support, we invite you to join our <a href="/community/">community
       script.src = "../../../assets/javascripts/subscribe.js";
       script.async = false; // Load synchronously to ensure it's available
       document.body.appendChild(script);
+
+      var langselect = document.createElement('script');
+      langselect.src = "../../../assets/javascripts/language-select.js";
+      langselect.async = false; // Load synchronously to ensure it's available
+      document.body.appendChild(langselect);
     })();
+
   </script>
 </footer>
 </div>
