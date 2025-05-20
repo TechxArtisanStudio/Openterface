@@ -1,4 +1,9 @@
 (function() {
+  // Only run on the homepage
+  if (window.location.pathname !== '/' && window.location.pathname !== '') {
+    return;
+  }
+
   const langMap = {
     'en': 'https://openterface.com/',
     'de': 'https://de.openterface.com/',
