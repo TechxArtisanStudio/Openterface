@@ -1,6 +1,6 @@
 (function() {
   const langMap = {
-    'en': 'https://www.openterface.com/',
+    'en': 'https://openterface.com/',
     'de': 'https://de.openterface.com/',
     'fr': 'https://fr.openterface.com/',
     'es': 'https://es.openterface.com/',
