@@ -10,6 +10,43 @@ docs/overrides/home.html:
     pt: Mini-KVM
     ro: Mini-KVM
     zh: 迷你KVM
+  home.uconsole-preorder:
+    en: uConsole KVM Ext.
+    de: uConsole KVM-Erweiterung
+    es: Extensión KVM de uConsole
+    fr: Extension KVM de uConsole
+    it: Estensione KVM di uConsole
+    jp: uConsole KVM拡張'
+    ko: uConsole KVM 확장'
+    pt: Extensão KVM de uConsole
+    ro: Extensie KVM de uConsole
+    zh: uConsole KVM扩展'
+  home.uconsole-comingsoon:
+    en: Now taking pre-orders:|||– turn your uConsole into a portable KVM console!
+    de: Jetzt Vorbestellungen annehmen:|||– verwandeln Sie Ihre uConsole in eine tragbare
+      KVM-Konsole!
+    es: Ahora aceptando pedidos anticipados:|||– convierte tu uConsole en una consola
+      KVM portátil!
+    fr: Maintenant en précommande :|||– transformez votre uConsole en une console
+      KVM portable !
+    it: Ora in preordine:|||– trasforma la tua uConsole in una console KVM portatile!
+    jp: 現在予約受付中：|||– uConsoleをポータブルKVMコンソールに変身させましょう！
+    ko: 지금 예약 주문 가능:|||– uConsole을 휴대용 KVM 콘솔로 변환하세요!
+    pt: Agora aceitando pré-encomendas:|||– transforme sua uConsole em um console
+      KVM portátil!
+    ro: Acum acceptăm precomenzi:|||– transformă-ți uConsole într-o consolă KVM portabilă!
+    zh: 现在接受预订：|||– 将您的uConsole变成一个便携式KVM控制台！
+  home.openterfacekvmext:
+    en: Openterface KVM Ext. for uConsole
+    de: Openterface KVM-Erweiterung für uConsole
+    es: Extensión KVM de Openterface para uConsole
+    fr: Extension KVM Openterface pour uConsole
+    it: Estensione KVM Openterface per uConsole
+    jp: uConsole用Openterface KVM拡張
+    ko: uConsole용 Openterface KVM 확장
+    pt: Extensão KVM Openterface para uConsole
+    ro: Extensie KVM Openterface pentru uConsole
+    zh: uConsole的Openterface KVM扩展
   home.lite-prelaunch-btn:
     en: Lite Pre-Launch
     de: Lite Vorabversion
