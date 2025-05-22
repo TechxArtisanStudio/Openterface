@@ -11,3 +11,4 @@ Openterface/
 .cache
 .ipynb_checkpoints
 mkdocs-venv
+*.pyc

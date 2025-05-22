@@ -1,0 +1,555 @@
+docs/overrides/home.html:
+  home.mini-kvm-btn:
+    en: Mini-KVM
+    de: Mini-KVM
+    es: Mini-KVM
+    fr: Mini-KVM
+    it: Mini-KVM
+    jp: ミニKVM
+    ko: 미니-KVM
+    pt: Mini-KVM
+    ro: Mini-KVM
+    zh: 迷你KVM
+  home.lite-prelaunch-btn:
+    en: Lite Pre-Launch
+    de: Lite Vorabversion
+    es: Lanzamiento previo Lite
+    fr: Pré-lancement Lite
+    it: Lite Pre-Lancio
+    jp: Liteプレローンチ
+    ko: 라이트 프리런치
+    pt: Pré-lançamento Lite
+    ro: Lansare Lite în curând
+    zh: Lite预发布
+  home.comingsoon:
+    en: 'Coming soon:'
+    de: 'Demnächst verfügbar:'
+    es: 'Próximamente:'
+    fr: 'Bientôt disponible :'
+    it: 'Prossimamente:'
+    jp: 近日公開：
+    ko: '곧 출시:'
+    pt: 'Em breve:'
+    ro: 'În curând:'
+    zh: 即将推出：
+  home.comingsoon-compact:
+    en: Super compact
+    de: Super kompakt
+    es: Súper compacto
+    fr: Ultra compact
+    it: Super compatto
+    jp: 超コンパクト
+    ko: 초소형
+    pt: Super compacto
+    ro: Super compact
+    zh: 超级紧凑
+  home.kvmstick:
+    en: KVM Stick
+    de: KVM-Stick
+    es: KVM Stick
+    fr: Clé KVM
+    it: KVM Stick
+    jp: KVMスティック
+    ko: KVM 스틱
+    pt: KVM Stick
+    ro: Stick KVM
+    zh: KVM棒
+  home.comingsoon-built-in:
+    en: with built-in video connector!
+    de: mit integriertem Videoanschluss!
+    es: ¡con conector de video integrado!
+    fr: avec connecteur vidéo intégré !
+    it: con connettore video integrato!
+    jp: 内蔵ビデオコネクタ付き！
+    ko: 내장 비디오 커넥터 포함!
+    pt: com conector de vídeo integrado!
+    ro: cu conector video integrat!
+    zh: 内置视频接口！
+  home.pnp:
+    en: Plug'n'Play
+    de: Plug'n'Play
+    es: Plug'n'Play
+    fr: Plug'n'Play
+    it: Plug'n'Play
+    jp: プラグアンドプレイ
+    ko: 플러그 앤 플레이
+    pt: Plug'n'Play
+    ro: Plug'n'Play
+    zh: 即插即用
+  home.biosaccess:
+    en: BIOS Access
+    de: BIOS-Zugriff
+    es: Acceso a la BIOS
+    fr: Accès BIOS
+    it: Accesso BIOS
+    jp: BIOSアクセス
+    ko: BIOS 접근
+    pt: Acesso à BIOS
+    ro: Acces BIOS
+    zh: BIOS访问
+  home.networkfree:
+    en: Network Free
+    de: Netzwerkfrei
+    es: Sin red
+    fr: Sans réseau
+    it: Senza rete
+    jp: ネットワーク不要
+    ko: 네트워크 불필요
+    pt: Sem rede
+    ro: Fără rețea
+    zh: 无需网络
+  home.texttransfer:
+    en: Text Transfer
+    de: Textübertragung
+    es: Transferencia de texto
+    fr: Transfert de texte
+    it: Trasferimento testo
+    jp: テキスト転送
+    ko: 텍스트 전송
+    pt: Transferência de texto
+    ro: Transfer de text
+    zh: 文本传输
+  home.usbswitch:
+    en: USB Switch
+    de: USB-Umschalter
+    es: Conmutador USB
+    fr: Commutateur USB
+    it: Switch USB
+    jp: USB切替
+    ko: USB 스위치
+    pt: Chave USB
+    ro: Comutator USB
+    zh: USB切换
+  home.and:
+    en: and|||.
+    de: und|||.
+    es: y|||.
+    fr: et|||.
+    it: e|||
+    jp: と|||
+    ko: 그리고|||
+    pt: e|||
+    ro: și|||
+    zh: 和|||
+  home.more:
+    en: more
+    de: mehr
+    es: más
+    fr: plus
+    it: altro
+    jp: さらに
+    ko: 더보기
+    pt: mais
+    ro: mai mult
+    zh: 更多
+  home.elevateyourtech:
+    en: Elevate your tech toolkit with Openterface Mini-KVM:|||solution that simplifies
+      your tech life with on-the-fly IT tasks and troubleshooting.
+    de: Erweitern Sie Ihr Technik-Toolkit mit dem Openterface Mini-KVM:|||Eine Lösung,
+      die Ihr Technikleben mit spontanen IT-Aufgaben und Fehlerbehebung vereinfacht.
+    es: Eleva tu kit de herramientas tecnológicas con Openterface Mini-KVM:|||una
+      solución que simplifica tu vida tecnológica con tareas de TI and resolución
+      de problemas al instante.
+    fr: Améliorez votre boîte à outils technologique avec Openterface Mini-KVM :|||une
+      solution qui simplifie votre vie tech avec des tâches IT et du dépannage à la
+      volée.
+    it: Migliora il tuo kit tecnologico con Openterface Mini-KVM:|||una soluzione
+      che semplifica la tua vita tech con attività IT e risoluzione problemi al volo.
+    jp: Openterface Mini-KVMでテックツールキットを強化：|||その場でIT作業やトラブルシューティングを簡単にするソリューションです。
+    ko: Openterface Mini-KVM으로 기술 도구를 업그레이드하세요:|||즉석 IT 작업과 문제 해결을 간편하게 해주는 솔루션입니다.
+    pt: Eleve seu kit tecnológico com o Openterface Mini-KVM:|||uma solução que simplifica
+      sua vida tecnológica com tarefas de TI e solução de problemas instantâneas.
+    ro: Îmbunătățește-ți trusa tehnologică cu Openterface Mini-KVM:|||o soluție care
+      îți simplifică viața IT cu sarcini și depanare pe loc.
+    zh: 用Openterface Mini-KVM提升你的技术工具箱：|||让你的技术生活更简单，轻松应对IT任务和故障排查。
+  home.compact-featurerich:
+    en: A compact, feature-rich, open-source KVM-over-USB
+    de: Ein kompaktes, funktionsreiches, quelloffenes KVM-over-USB
+    es: Un KVM-over-USB compacto, rico en funciones e de código aberto
+    fr: Un KVM-over-USB compact, riche en fonctionnalités et open source
+    it: Un KVM-over-USB compatto, ricco di funzionalità e open-source
+    jp: コンパクトで多機能なオープンソースKVM-over-USB
+    ko: 작고 다양한 기능의 오픈소스 KVM-over-USB
+    pt: Um KVM-over-USB compacto, rico em recursos e open-source
+    ro: Un KVM-over-USB compact, bogat în funcții și open-source
+    zh: 紧凑、功能丰富、开源的KVM-over-USB
+  home.turnyourlaptop:
+    en: Turn your laptop into a smart KVM console for controlling any headless device
+      via HDMI and USB.
+    de: Machen Sie Ihr Laptop zu einer smarten KVM-Konsole zur Steuerung beliebiger
+      Headless-Geräte über HDMI und USB.
+    es: Convierte tu portátil en una consola KVM inteligente para controlar cualquier
+      dispositivo sin pantalla mediante HDMI e USB.
+    fr: Transformez votre ordinateur portable en une console KVM intelligente pour
+      contrôler tout appareil sans écran via HDMI et USB.
+    it: Trasforma il tuo laptop in una console KVM intelligente per controllare qualsiasi
+      dispositivo senza schermo tramite HDMI e USB.
+    jp: ノートパソコンをHDMIとUSBであらゆるヘッドレスデバイスを操作できるスマートKVMコンソールに変身させましょう。
+    ko: 노트북을 HDMI와 USB로 어떤 헤드리스 기기도 제어할 수 있는 스마트 KVM 콘솔로 바꿔보세요.
+    pt: Transforme seu laptop em um console KVM inteligente para controlar qualquer
+      dispositivo sem tela via HDMI e USB.
+    ro: Transformă-ți laptopul într-o consolă KVM inteligentă pentru a controla orice
+      dispozitiv fără ecran prin HDMI și USB.
+    zh: 将你的笔记本变成智能KVM控制台，通过HDMI和USB控制任何无显示设备。
+  home.saygoodby:
+    en: Say goodbye to THAT extra monitor, keyboard, and mouse!
+    de: Verabschieden Sie sich von DEM zusätzlichen Monitor, der Tastatur und der
+      Maus!
+    es: ¡Despídete de ESE monitor, teclado y ratón extra!
+    fr: Dites adieu à CET écran, clavier et souris supplémentaires !
+    it: Dì addio a QUEL monitor, tastiera e mouse extra!
+    jp: 余分なモニター、キーボード、マウスにさようなら！
+    ko: 추가 모니터, 키보드, 마우스와 이젠 작별하세요!
+    pt: Diga adeus àquele monitor, teclado e mouse extras!
+    ro: Spune adio monitorului, tastaturii și mouse-ului suplimentar!
+    zh: 告别那台多余的显示器、键盘和鼠标！
+  home.exploremore:
+    en: Explore more use cases →
+    de: Weitere Anwendungsfälle entdecken →
+    es: Explora más casos de uso →
+    fr: Découvrez plus de cas d'utilisation →
+    it: Scopri altri casi d'uso →
+    jp: 他のユースケースを見る →
+    ko: 더 많은 사용 사례 보기 →
+    pt: Explore mais casos de uso →
+    ro: Descoperă mai multe cazuri de utilizare →
+    zh: ''
+  home.windows:
+    en: Windows
+    de: Windows
+    es: Windows
+    fr: Windows
+    it: Windows
+    jp: Windows
+    ko: 윈도우
+    pt: Windows
+    ro: Windows
+    zh: Windows
+  home.downloadinstaller-btn:
+    en: Download Installer
+    de: Installer herunterladen
+    es: Descargar instalador
+    fr: Télécharger l'installateur
+    it: Scarica Installer
+    jp: インストーラーをダウンロード
+    ko: 인스톨러 다운로드
+    pt: Baixar Instalador
+    ro: Descarcă Installer
+    zh: 下载安装包
+  home.installer:
+    en: Installer
+    de: Installer
+    es: Instalador
+    fr: Installateur
+    it: Installer
+    jp: インストーラー
+    ko: 인스톨러
+    pt: Instalador
+    ro: Installer
+    zh: 安装包
+  home.portableexe:
+    en: Portable EXE
+    de: Portable EXE
+    es: EXE portátil
+    fr: EXE portable
+    it: EXE portatile
+    jp: ポータブルEXE
+    ko: 포터블 EXE
+    pt: EXE portátil
+    ro: EXE portabil
+    zh: 便携版EXE
+  home.sourcecode:
+    en: Source Code
+    de: Quellcode
+    es: Código fuente
+    fr: Code source
+    it: Codice sorgente
+    jp: ソースコード
+    ko: 소스 코드
+    pt: Código-fonte
+    ro: Cod sursă
+    zh: 源代码
+  home.macos:
+    en: macOS
+    de: macOS
+    es: macOS
+    fr: macOS
+    it: macOS
+    jp: macOS
+    ko: 맥OS
+    pt: macOS
+    ro: macOS
+    zh: macOS
+  home.macos_version:
+    en: '{{ config.extra.macos_version }}'
+    de: '{{ config.extra.macos_version }}'
+    es: '{{ config.extra.macos_version }}'
+    fr: '{{ config.extra.macos_version }}'
+    it: '{{ config.extra.macos_version }}'
+    jp: '{{ config.extra.macos_version }}'
+    ko: '{{ config.extra.macos_version }}'
+    pt: '{{ config.extra.macos_version }}'
+    ro: '{{ config.extra.macos_version }}'
+    zh: '{{ config.extra.macos_version }}'
+  home.downloadappstore-btn:
+    en: Download from App Store
+    de: Aus dem App Store herunterladen
+    es: Descargar desde App Store
+    fr: Télécharger depuis l'App Store
+    it: Scarica da App Store
+    jp: App Storeからダウンロード
+    ko: 앱스토어에서 다운로드
+    pt: Baixar da App Store
+    ro: Descarcă din App Store
+    zh: 从App Store下载
+  home.appstore:
+    en: App Store
+    de: App Store
+    es: App Store
+    fr: App Store
+    it: App Store
+    jp: App Store
+    ko: 앱스토어
+    pt: App Store
+    ro: App Store
+    zh: App Store
+  home.linux:
+    en: Linux
+    de: Linux
+    es: Linux
+    fr: Linux
+    it: Linux
+    jp: Linux
+    ko: 리눅스
+    pt: Linux
+    ro: Linux
+    zh: Linux
+  home.downloadamd64deb-btn:
+    en: Download AMD64 DEB
+    de: AMD64 DEB herunterladen
+    es: Descargar AMD64 DEB
+    fr: Télécharger AMD64 DEB
+    it: Scarica AMD64 DEB
+    jp: AMD64 DEBをダウンロード
+    ko: AMD64 DEB 다운로드
+    pt: Baixar AMD64 DEB
+    ro: Descarcă AMD64 DEB
+    zh: 下载AMD64 DEB
+  home.amd64deb:
+    en: AMD64 DEB
+    de: AMD64 DEB
+    es: AMD64 DEB
+    fr: AMD64 DEB
+    it: AMD64 DEB
+    jp: AMD64 DEB
+    ko: AMD64 DEB
+    pt: AMD64 DEB
+    ro: AMD64 DEB
+    zh: AMD64 DEB
+  home.amd64rpm:
+    en: AMD64 RPM
+    de: AMD64 RPM
+    es: AMD64 RPM
+    fr: AMD64 RPM
+    it: AMD64 RPM
+    jp: AMD64 RPM
+    ko: AMD64 RPM
+    pt: AMD64 RPM
+    ro: AMD64 RPM
+    zh: AMD64 RPM
+  home.amd64appimage:
+    en: AMD64 AppImage
+    de: AMD64 AppImage
+    es: AMD64 AppImage
+    fr: AMD64 AppImage
+    it: AMD64 AppImage
+    jp: AMD64 AppImage
+    ko: AMD64 AppImage
+    pt: AMD64 AppImage
+    ro: AMD64 AppImage
+    zh: AMD64 AppImage
+  home.arm64deb:
+    en: ARM64 DEB
+    de: ARM64 DEB
+    es: ARM64 DEB
+    fr: ARM64 DEB
+    it: ARM64 DEB
+    jp: ARM64 DEB
+    ko: ARM64 DEB
+    pt: ARM64 DEB
+    ro: ARM64 DEB
+    zh: ARM64 DEB
+  home.arm64rpm:
+    en: ARM64 RPM
+    de: ARM64 RPM
+    es: ARM64 RPM
+    fr: ARM64 RPM
+    it: ARM64 RPM
+    jp: ARM64 RPM
+    ko: ARM64 RPM
+    pt: ARM64 RPM
+    ro: ARM64 RPM
+    zh: ARM64 RPM
+  home.flathub:
+    en: FlatHub
+    de: FlatHub
+    es: FlatHub
+    fr: FlatHub
+    it: FlatHub
+    jp: FlatHub
+    ko: 플랫허브
+    pt: FlatHub
+    ro: FlatHub
+    zh: FlatHub
+  home.android:
+    en: Android
+    de: Android
+    es: Android
+    fr: Android
+    it: Android
+    jp: Android
+    ko: 안드로이드
+    pt: Android
+    ro: Android
+    zh: 安卓
+  home.playstore:
+    en: Play Store
+    de: Play Store
+    es: Play Store
+    fr: Play Store
+    it: Play Store
+    jp: Playストア
+    ko: 플레이스토어
+    pt: Play Store
+    ro: Play Store
+    zh: Play商店
+  home.apk:
+    en: APK
+    de: APK
+    es: APK
+    fr: APK
+    it: APK
+    jp: APK
+    ko: APK
+    pt: APK
+    ro: APK
+    zh: APK
+  home.andmore:
+    en: and|||.
+    de: und|||.
+    es: y|||.
+    fr: et|||.
+    it: e|||
+    jp: と|||
+    ko: 그리고|||
+    pt: e|||
+    ro: și|||
+    zh: 和|||
+  home.productreview:
+    en: Product Review
+    de: Produktbewertung
+    es: Reseña de producto
+    fr: Avis produit
+    it: Recensione prodotto
+    jp: 製品レビュー
+    ko: 제품 리뷰
+    pt: Avaliação do Produto
+    ro: Recenzie produs
+    zh: 产品评测
+  home.andmore-reviews:
+    en: and|||.
+    de: und|||.
+    es: y|||.
+    fr: et|||.
+    it: e|||
+    jp: と|||
+    ko: 그리고|||
+    pt: e|||
+    ro: și|||
+    zh: 和|||
+  home.subscribenow-link:
+    en: Subscribe NOW!
+    de: Jetzt abonnieren!
+    es: ¡Suscríbete YA!
+    fr: Abonnez-vous MAINTENANT !
+    it: Iscriviti ORA!
+    jp: 今すぐ登録！
+    ko: 지금 구독하세요!
+    pt: Inscreva-se AGORA!
+    ro: Abonează-te ACUM!
+    zh: 立即订阅！
+  home.mastodon:
+    en: Mastodon
+    de: Mastodon
+    es: Mastodon
+    fr: Mastodon
+    it: Mastodon
+    jp: Mastodon
+    ko: 마스토돈
+    pt: Mastodon
+    ro: Mastodon
+    zh: Mastodon
+docs/overrides/404.html:
+  error.404-title:
+    en: 404 - Page Not Found
+    de: 404 - Seite nicht gefunden
+    es: 404 - Página no encontrada
+    fr: 404 - Page non trouvée
+    it: 404 - Pagina non trovata
+    jp: 404 - ページが見つかりません
+    ko: 404 - 페이지를 찾을 수 없습니다
+    pt: 404 - Página não encontrada
+    ro: 404 - Pagină negăsită
+    zh: 404 - 页面未找到
+  error.404-desc:
+    en: The page does not exist. Redirecting to the homepage...
+    de: Die Seite existiert nicht. Weiterleitung zur Startseite...
+    es: La página no existe. Redirigiendo a la página principal...
+    fr: La page n'existe pas. Redirection vers la page d'accueil...
+    it: La pagina non esiste. Reindirizzamento alla homepage...
+    jp: ページが存在しません。ホームページにリダイレクトします...
+    ko: 페이지가 존재하지 않습니다. 홈페이지로 이동합니다...
+    pt: A página não existe. Redirecionando para a página inicial...
+    ro: Pagina nu există. Redirecționare către pagina principală...
+    zh: 页面不存在。正在跳转到首页...
+docs/overrides/main.html:
+  main.subscribenow-link:
+    en: Subscribe NOW!
+    de: Jetzt abonnieren!
+    es: ¡Suscríbete YA!
+    fr: Abonnez-vous MAINTENANT !
+    it: Iscriviti ORA!
+    jp: 今すぐ登録！
+    ko: 지금 구독하세요!
+    pt: Inscreva-se AGORA!
+    ro: Abonează-te ACUM!
+    zh: 立即订阅！
+  footer.next:
+    en: '{{ direction }}'
+    de: '{{ direction }}'
+    es: '{{ direction }}'
+    fr: '{{ direction }}'
+    it: '{{ direction }}'
+    jp: '{{ direction }}'
+    ko: '{{ direction }}'
+    pt: '{{ direction }}'
+    ro: '{{ direction }}'
+    zh: '{{ direction }}'
+  footer.footnote:
+    en: No more than one email a month. Unsubscribe anytime.|||For inquiries, email
+      us at|||.
+    de: Nicht mehr als eine E-Mail pro Monat. Jederzeit abbestellbar.|||Für Anfragen
+      schreiben Sie uns an|||.
+    es: No más de un correo electrónico al mes. Cancela la suscripción en cualquier
+      momento.|||Para consultas, escríbenos a|||.
+    fr: Pas plus d’un email par mois. Désabonnement à tout moment.|||Pour toute question,
+      écrivez-nous à|||.
+    it: Non più di una email al mese. Disiscriviti in qualsiasi momento.|||Per richieste,
+      scrivici a|||.
+    jp: 月1回以下のメール配信。いつでも配信停止可能。|||お問い合わせは|||までご連絡ください。
+    ko: 한 달에 한 번 이하로 이메일을 보냅니다. 언제든지 구독 해지 가능.|||문의는|||로 이메일 주세요.
+    pt: No máximo um e-mail por mês. Cancele a inscrição a qualquer momento.|||Para
+      dúvidas, envie um e-mail para|||.
+    ro: Nu mai mult de un email pe lună. Dezabonare oricând.|||Pentru întrebări, scrie-ne
+      la|||.
+    zh: 每月不超过一封邮件。随时可退订。|||如有疑问，请发送邮件至|||。
