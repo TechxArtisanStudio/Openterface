@@ -11,15 +11,14 @@ def find_html_files(folder):
     return html_files
 
 if __name__ == "__main__":
-    if len(sys.argv) < 3:
-        print("Usage: python extract_all_text.py <html_folder> <lang>")
+    if len(sys.argv) < 2:
+        print("Usage: python extract_all_text.py <html_folder>")
         sys.exit(1)
     html_folder = sys.argv[1]
-    lang = sys.argv[2]
     script_dir = os.path.dirname(os.path.abspath(__file__))
     extract_script = os.path.join(script_dir, "extract_visible_text.py")
 
     html_files = find_html_files(html_folder)
     for html_file in html_files:
         print(f"Processing: {html_file}")
-        subprocess.run([sys.executable, extract_script, html_file, lang])
+        subprocess.run([sys.executable, extract_script, html_file])
