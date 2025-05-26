@@ -19,8 +19,10 @@
   const langNames = { de: "Deutsch", en: "English", zh: "中文", fr: "Français", es: "Español", it: "Italiano", ja: "日本語", ko: "한국어", pt: "Português", ru: "Русский" };
   const userLang = (navigator.language || navigator.userLanguage || '').toLowerCase().slice(0,2);
   const currentBase = window.location.origin + '/';
+  const currentLang = Object.keys(langMap).find(key => langMap[key] === currentBase);
 
-  if (langMap[userLang] && currentBase !== langMap[userLang]) {
+  // Only show the prompt if the user's language is different from the current site language
+  if (langMap[userLang] && currentBase !== langMap[userLang] && currentLang !== userLang) {
     // Create overlay
     const overlay = document.createElement('div');
     overlay.style.position = 'fixed';
@@ -45,11 +47,12 @@
     modal.style.fontFamily = 'inherit';
 
     const targetLang = langNames[userLang] || userLang;
+    const currentLangName = langNames[currentLang] || currentLang;
     modal.innerHTML = `
       <div style="font-size:2em; margin-bottom:0.5em;">🌐</div>
       <div style="font-size:1.2em; margin-bottom:1em; color:#222;">
-        We detected your browser language is <b>${targetLang}</b>.<br>
-        Do you want to switch to the <b>${targetLang}</b> site?
+        You're currently viewing the <b>${currentLangName}</b> site.<br>
+        Would you like to switch to the <b>${targetLang}</b> version?
       </div>
       <div style="margin-top:1.5em;">
         <button id="lang-switch-yes" style="background:#eb8025fa;color:#fff;border:none;padding:0.7em 2em;border-radius:6px;font-size:1em;cursor:pointer;margin-right:1em;">Switch</button>
