@@ -1034,7 +1034,7 @@
     padding: 0;
     margin-bottom: 0.75em;
     text-decoration: none;
-    background-image: url('https://assets.openterface.com/images/appstore/GetItOnGooglePlay_Badge_Web_color_English.png');
+    background-image: url('https://assets.openterface.com/images/appstore/Google_Play_Store.svg');
     background-size: cover;
     background-position: center;
     display: inline-block;
@@ -1048,7 +1048,7 @@
     padding: 0;
     margin-bottom: 0.75em;
     text-decoration: none;
-    background-image: url('https://assets.openterface.com/images/appstore/GetItOn_flathub.webp');
+    background-image: url('https://assets.openterface.com/images/appstore/GetItOn_Flathub.svg');
     background-size: cover;
     background-position: center;
     display: inline-block;
@@ -1069,7 +1069,7 @@
     padding: 0;
     margin-bottom: 0.75em;
     text-decoration: none;
-    background-image: url('https://assets.openterface.com/images/appstore/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg');
+    background-image: url('https://assets.openterface.com/images/appstore/Download_on_the_Mac_App_Store.svg');
     background-size: cover;
     background-position: center;
     display: inline-block;
@@ -1222,11 +1222,11 @@
 
 /* Platform-specific download button styles */
 .big-download-btn.windows {
-  background: #0078D6;
+  background: #e47a50;
   color: #fff !important;
 }
 .big-download-btn.windows:hover {
-  background: #005fa3;
+  background: #d06a40;
 }
 
 .big-download-btn.linux {
@@ -1236,8 +1236,8 @@
 }
 .big-download-btn.linux:hover {
   background: #f3f3f3;
-  color: #0078D6 !important;
-  border-color: #0078D6;
+  color: #e47a50 !important;
+  border-color: #e47a50;
 }
 
 .big-download-btn.macos {
