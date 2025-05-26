@@ -1179,7 +1179,7 @@
 .format-option {
   cursor: pointer;
   padding: 0.4em 1em;
-  border: 1px solid #c0b4a6;
+  border: 1px solid #e47a50;
   border-radius: 6px;
   background: #fff;
   color: #e47a50;
@@ -1190,7 +1190,8 @@
 .format-option.selected, .format-option:hover {
   background: #e47a50;
   color: #fff;
-}linux-download-columns {
+}
+linux-download-columns {
   display: flex;
   gap: 1.5em;
   margin-top: 0.5em;
