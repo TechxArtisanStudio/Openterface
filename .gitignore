@@ -12,3 +12,5 @@ Openterface/
 .ipynb_checkpoints
 mkdocs-venv
 *.pyc
+.envrc
+.python-version
