@@ -2,6 +2,10 @@ title: App
 nav:
   - index.md
   - basic.md
-  - qt/index.md
-  - macos/index.md
-  - android/index.md
+  - Win & Linux: 
+    - qt/index.md
+  - MacOS:
+    - macos/index.md
+    - macos/dmg-installation.md
+  - Android:
+    - android/index.md
