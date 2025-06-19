@@ -16,6 +16,8 @@ nav:
         - Why Openterface: /faq/usbkvm/openterface/
     - Mini-KVM Lite (Pre-Launch):
         - minikvm-lite/pre-launch.md
+    - KVM Extension (Pre-Order):
+        - uconsole-kvm-extension/index.md
     - Accessories:
         - accessories/index.md
         - VGA to HDMI Cable 1m: accessories/vga-to-hdmi-cable.md
