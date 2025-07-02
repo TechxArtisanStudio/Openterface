@@ -14,9 +14,9 @@ nav:
         - minikvm/extension-pins.md
         - FAQs & Troubleshoot: /faq/minikvm/op-minikvm/
         - Why Openterface: /faq/usbkvm/openterface/
-    - Mini-KVM Lite (Pre-Launch):
-        - minikvm-lite/pre-launch.md
-    - KVM Extension Add-on (Pre-Order):
+    - KVM Stick Series (Pre-Launch):
+        - kvm-stick/pre-launch.md
+    - KVM Extension Add-on:
         - uconsole-kvm-extension/index.md
     - Accessories:
         - accessories/index.md
