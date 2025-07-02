@@ -73,7 +73,7 @@ To use the KVM Extension, install the **Openterface App** on your uConsole.
 It captures HDMI output from a target device and displays it on the uConsole. At the same time, the uConsole’s keyboard and trackball are used to control the target device via USB HID emulation.
 
 **Q: Can I use this with the 4G/LTE module installed?**  
-No – this board occupies the same expansion slot. You’ll need to choose between cellular connectivity or KVM functionality.
+No. This board occupies the same expansion slot. You’ll need to choose between cellular connectivity or KVM functionality.
 
 **Q: Is the software open source?**  
-Yes! Firmware, drivers, and installation tools are fully open-source and available on our [GitHub repository](https://github.com/openterface).
+Yes! Our **Openterface Connect** Apps are fully open-source and available on our [GitHub repository](https://github.com/TechxArtisanStudio/Openterface_QT).
