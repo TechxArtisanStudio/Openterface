@@ -47,17 +47,17 @@ docs/overrides/home.html:
     pt: Extensão KVM Openterface para uConsole
     ro: Extensie KVM Openterface pentru uConsole
     zh: uConsole的Openterface KVM扩展
-  home.lite-prelaunch-btn:
-    en: Lite Pre-Launch
-    de: Lite Vorabversion
-    es: Lanzamiento previo Lite
-    fr: Pré-lancement Lite
-    it: Lite Pre-Lancio
-    jp: Liteプレローンチ
-    ko: 라이트 프리런치
-    pt: Pré-lançamento Lite
-    ro: Lansare Lite în curând
-    zh: Lite预发布
+  home.kvm-stick-prelaunch-btn:
+    en: KVM Stick Pre-Launch
+    de: KVM-Stick Vorabversion
+    es: Pre-lanzamiento del KVM Stick
+    fr: Pré-lancement de la Clé KVM
+    it: Pre-lancio KVM Stick
+    jp: KVMスティック プレローンチ
+    ko: KVM 스틱 프리런치
+    pt: Pré-lançamento do KVM Stick
+    ro: Pre-lansare KVM Stick
+    zh: KVM棒预发布
   home.comingsoon:
     en: 'Coming soon:'
     de: 'Demnächst verfügbar:'

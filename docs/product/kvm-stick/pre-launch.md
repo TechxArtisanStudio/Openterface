@@ -1,4 +1,4 @@
-# Lite Series Pre-Launch & Waiting List
+# KVM Stick Series Pre-Launch & Waiting List
 
 Hey there, tech enthusiasts!
 
@@ -8,11 +8,11 @@ Now let’s switch gears and talk about something new. While we’ve been busy w
 
 So, what’s next?
 
-## Meet the Openterface Lite Series
+## Meet the Openterface KVM Stick Series
 
-<img src="https://assets.openterface.com/images/kvm-stick/hdmi-p1.webp" loading="lazy" alt="Openterface Lite HDMI Image 1" style="max-width: 100%; height: auto; max-height: 260px;">
-<img src="https://assets.openterface.com/images/kvm-stick/hdmi-p5.webp" loading="lazy" alt="Openterface Lite HDMI Image 5" style="max-width: 100%; height: auto; max-height: 260px;">
-<img src="https://assets.openterface.com/images/kvm-stick/hdmi-p4.webp" loading="lazy" alt="Openterface Lite HDMI Image 4" style="max-width: 100%; height: auto; max-height: 260px;">
+<img src="https://assets.openterface.com/images/kvm-stick/hdmi-p1.webp" loading="lazy" alt="Openterface KVM Stick HDMI Image 1" style="max-width: 100%; height: auto; max-height: 260px;">
+<img src="https://assets.openterface.com/images/kvm-stick/hdmi-p5.webp" loading="lazy" alt="Openterface KVM Stick HDMI Image 5" style="max-width: 100%; height: auto; max-height: 260px;">
+<img src="https://assets.openterface.com/images/kvm-stick/hdmi-p4.webp" loading="lazy" alt="Openterface KVM Stick HDMI Image 4" style="max-width: 100%; height: auto; max-height: 260px;">
 
 **Just drop your email in this** [Google Form](https://forms.gle/yaS1F5E5MSo8DWNZ6) and you’ll get updates, sneak peeks, and early access of this new gadget.
 
@@ -20,21 +20,21 @@ The Openterface Mini-KVM is already a handy, portable KVM-over-USB tool. But we 
 
 Simple answer: **drop the extra video cable.**
 
-Let’s be real. When you're in a fire-fighting situation and can't find the right cable, it's annoying. That’s why we decided to trade a bit of flexibility for even more portability. And boom, the **Openterface Lite Series** was born. It’s all about saving space and getting you connected faster.
+Let’s be real. When you're in a fire-fighting situation and can't find the right cable, it's annoying. That’s why we decided to trade a bit of flexibility for even more portability. And boom, the **Openterface KVM Stick Series** was born. It’s all about saving space and getting you connected faster.
 
 ## What We’re Cooking Up
 
-<img src="https://assets.openterface.com/images/kvm-stick/hdmi-p6.webp" loading="lazy" alt="Openterface Lite HDMI Image 6" style="max-width: 100%; height: auto; max-height: 260px;">
-<img src="https://assets.openterface.com/images/kvm-stick/hdmi-p7.webp" loading="lazy" alt="Openterface Lite HDMI Image 7" style="max-width: 100%; height: auto; max-height: 260px;">
-<img src="https://assets.openterface.com/images/kvm-stick/hdmi-p8.webp" loading="lazy" alt="Openterface Lite HDMI Image 8" style="max-width: 100%; height: auto; max-height: 260px;">
+<img src="https://assets.openterface.com/images/kvm-stick/hdmi-p6.webp" loading="lazy" alt="Openterface KVM Stick HDMI Image 6" style="max-width: 100%; height: auto; max-height: 260px;">
+<img src="https://assets.openterface.com/images/kvm-stick/hdmi-p7.webp" loading="lazy" alt="Openterface KVM Stick HDMI Image 7" style="max-width: 100%; height: auto; max-height: 260px;">
+<img src="https://assets.openterface.com/images/kvm-stick/hdmi-p8.webp" loading="lazy" alt="Openterface KVM Stick HDMI Image 8" style="max-width: 100%; height: auto; max-height: 260px;">
 
-We’re super excited to show you the first member of the Lite family:
+We’re super excited to show you the first member of the KVM Stick family:
 
-- **Openterface Lite HDMI Male** — A compact, all-in-one HDMI solution you can plug straight in.
+- **Openterface KVM Stick HDMI Male** — A compact, all-in-one HDMI solution you can plug straight in.
 
 And we're not stopping there. Coming up next:
 
-- **Openterface Lite VGA Male** — For those of you still dealing with trusty old legacy systems.
+- **Openterface KVM Stick VGA Male** — For those of you still dealing with trusty old legacy systems.
 
 We might also explore micro-HDMI, mini-HDMI, and even DisplayPort versions. Not top priority right now, but if you need a specific version, let us know. Seriously, we’re listening.
 
