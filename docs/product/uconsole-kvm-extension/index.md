@@ -54,7 +54,7 @@ To use the KVM Extension, install the **Openterface App** on your uConsole.
 ## Pre-Launch Status
 
 - 📦 First batch currently in preparation  
-- ⏳ Estimated shipping begins in **~2 months**  
+- ⏳ Estimated shipping begins in **early August 2024**  
 - 🛒 Limited quantity – [Pre-order now](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole) to reserve your unit
 
 > **Pre-Order Notice**  
