@@ -16,8 +16,9 @@ nav:
         - Why Openterface: /faq/usbkvm/openterface/
     - KVM Stick Series (Pre-Launch):
         - kvm-stick/pre-launch.md
-    - KVM Extension Add-on:
+    - uConsole KVM Extension:
         - uconsole-kvm-extension/index.md
+        - Installation Guide: https://github.com/TechxArtisanStudio/Openterface_QT/blob/main/doc/flatpak_installation.md
     - Accessories:
         - accessories/index.md
         - VGA to HDMI Cable 1m: accessories/vga-to-hdmi-cable.md
