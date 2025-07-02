@@ -10,9 +10,9 @@ So, what’s next?
 
 ## Meet the Openterface Lite Series
 
-<img src="https://assets.openterface.com/images/minikvm-lite/hdmi-p1.webp" loading="lazy" alt="Openterface Lite HDMI Image 1" style="max-width: 100%; height: auto; max-height: 260px;">
-<img src="https://assets.openterface.com/images/minikvm-lite/hdmi-p5.webp" loading="lazy" alt="Openterface Lite HDMI Image 5" style="max-width: 100%; height: auto; max-height: 260px;">
-<img src="https://assets.openterface.com/images/minikvm-lite/hdmi-p4.webp" loading="lazy" alt="Openterface Lite HDMI Image 4" style="max-width: 100%; height: auto; max-height: 260px;">
+<img src="https://assets.openterface.com/images/kvm-stick/hdmi-p1.webp" loading="lazy" alt="Openterface Lite HDMI Image 1" style="max-width: 100%; height: auto; max-height: 260px;">
+<img src="https://assets.openterface.com/images/kvm-stick/hdmi-p5.webp" loading="lazy" alt="Openterface Lite HDMI Image 5" style="max-width: 100%; height: auto; max-height: 260px;">
+<img src="https://assets.openterface.com/images/kvm-stick/hdmi-p4.webp" loading="lazy" alt="Openterface Lite HDMI Image 4" style="max-width: 100%; height: auto; max-height: 260px;">
 
 **Just drop your email in this** [Google Form](https://forms.gle/yaS1F5E5MSo8DWNZ6) and you’ll get updates, sneak peeks, and early access of this new gadget.
 
@@ -24,9 +24,9 @@ Let’s be real. When you're in a fire-fighting situation and can't find the rig
 
 ## What We’re Cooking Up
 
-<img src="https://assets.openterface.com/images/minikvm-lite/hdmi-p6.webp" loading="lazy" alt="Openterface Lite HDMI Image 6" style="max-width: 100%; height: auto; max-height: 260px;">
-<img src="https://assets.openterface.com/images/minikvm-lite/hdmi-p7.webp" loading="lazy" alt="Openterface Lite HDMI Image 7" style="max-width: 100%; height: auto; max-height: 260px;">
-<img src="https://assets.openterface.com/images/minikvm-lite/hdmi-p8.webp" loading="lazy" alt="Openterface Lite HDMI Image 8" style="max-width: 100%; height: auto; max-height: 260px;">
+<img src="https://assets.openterface.com/images/kvm-stick/hdmi-p6.webp" loading="lazy" alt="Openterface Lite HDMI Image 6" style="max-width: 100%; height: auto; max-height: 260px;">
+<img src="https://assets.openterface.com/images/kvm-stick/hdmi-p7.webp" loading="lazy" alt="Openterface Lite HDMI Image 7" style="max-width: 100%; height: auto; max-height: 260px;">
+<img src="https://assets.openterface.com/images/kvm-stick/hdmi-p8.webp" loading="lazy" alt="Openterface Lite HDMI Image 8" style="max-width: 100%; height: auto; max-height: 260px;">
 
 We’re super excited to show you the first member of the Lite family:
 
