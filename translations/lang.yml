@@ -47,16 +47,16 @@ docs/overrides/home.html:
     pt: Extensão KVM Openterface para uConsole
     ro: Extensie KVM Openterface pentru uConsole
     zh: uConsole的Openterface KVM扩展
-  home.kvm-stick-prelaunch-btn:
-    en: KVM Stick Pre-Launch
+  home.kvm-go-prelaunch-btn:
+    en: KVM-Go Pre-Launch
     de: KVM-Stick Vorabversion
-    es: Pre-lanzamiento del KVM Stick
+    es: Pre-lanzamiento del KVM-Go
     fr: Pré-lancement de la Clé KVM
-    it: Pre-lancio KVM Stick
+    it: Pre-lancio KVM-Go
     jp: KVMスティック プレローンチ
     ko: KVM 스틱 프리런치
-    pt: Pré-lançamento do KVM Stick
-    ro: Pre-lansare KVM Stick
+    pt: Pré-lançamento do KVM-Go
+    ro: Pre-lansare KVM-Go
     zh: KVM棒预发布
   home.comingsoon:
     en: 'Coming soon:'
@@ -80,15 +80,15 @@ docs/overrides/home.html:
     pt: Super compacto
     ro: Super compact
     zh: 超级紧凑
-  home.kvmstick:
-    en: KVM Stick
+  home.kvmgo:
+    en: KVM-Go
     de: KVM-Stick
-    es: KVM Stick
+    es: KVM-Go
     fr: Clé KVM
-    it: KVM Stick
+    it: KVM-Go
     jp: KVMスティック
     ko: KVM 스틱
-    pt: KVM Stick
+    pt: KVM-Go
     ro: Stick KVM
     zh: KVM棒
   home.comingsoon-built-in:

@@ -15,8 +15,8 @@ nav:
         - minikvm/extension-pins.md
         - FAQs & Troubleshoot: /faq/minikvm/op-minikvm/
         - Why Openterface: /faq/usbkvm/openterface/
-    - KVM Stick Series ⏳:
-        - kvm-stick/pre-launch.md
+    - KVM Go Series ⏳:
+        - kvm-go/pre-launch.md
     - uConsole KVM Extension 🛠️:
         - uconsole-kvm-extension/index.md
         - Installation Guide: https://github.com/TechxArtisanStudio/Openterface_QT/blob/main/doc/flatpak_installation.md
