@@ -27,7 +27,7 @@ The **Openterface KVM Extension** replaces the original 4G/LTE modem in your uCo
     Makes the uConsole a mobile tool for developers, engineers, and technicians.
 
 - **Open-Source Friendly**  
-    Built on the [Openterface KVM](https://github.com/openterface) platform. Community contributions welcome.
+    Built on the [Openterface KVM](https://github.com/techxArtisanStudio/openterface_qt) platform. Community contributions welcome.
 
 
 ## Use Cases
