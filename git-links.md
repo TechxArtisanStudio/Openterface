@@ -1,9 +1,0 @@
-git@github.com:TechxArtisanStudio/Openterface.git
-git@github.com:TechxArtisanStudio/Openterface_jp.git
-git@github.com:TechxArtisanStudio/Openterface_zh.git
-git@github.com:TechxArtisanStudio/Openterface_es.git
-git@github.com:TechxArtisanStudio/Openterface_fr.git
-git@github.com:TechxArtisanStudio/Openterface_it.git
-git@github.com:TechxArtisanStudio/Openterface_ko.git
-git@github.com:TechxArtisanStudio/Openterface_pt.git
-git@github.com:TechxArtisanStudio/Openterface_ro.git
