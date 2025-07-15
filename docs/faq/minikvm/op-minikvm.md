@@ -162,7 +162,7 @@ As of March 2025, the Qt-based host apps for Windows and Linux offer the most co
 
 #### :material-chat-question:{ .faq } Is there a web app I can use on Chrome or other platforms? {: #host-app-chromeos }
 
-Yes! One of our awesome community members, [Kashall](https://github.com/kashalls/openterface-viewer/), built **a lightweight open-source web app** you can use directly in your browser: [openterface-viewer.pages.dev](openterface-viewer.pages.dev). It’s not yet part of our official documentation, but our dev team gave it a spin and found it solid, easy to use, and super handy — especially on Chrome or when you want something quick and browser-based. Give it a try!
+Yes! One of our awesome community members, [Kashall](https://github.com/kashalls/openterface-viewer/), built **a lightweight open-source web app** you can use directly in your browser: [openterface-viewer.pages.dev](https://openterface-viewer.pages.dev). It’s not yet part of our official documentation, but our dev team gave it a spin and found it solid, easy to use, and super handy — especially on Chrome or when you want something quick and browser-based. Give it a try!
 
 #### :material-chat-question:{ .faq } Is there a host app supporting Apple's mobile devices? {: #host-app-ios }
 
