@@ -24,7 +24,7 @@ keywords: "Mini-KVM features, KVM switch capabilities, BIOS access, headless con
   Offers stable and fast, headless control using HDMI video capture and emulated keyboard/mouse (HID) input. No network connection required.
 
 - **Full HD Output with Low Latency & 4K Input**  
-  Supports displaying up to 1920×1080 @ 30 Hz on the host app with under 140 ms latency, while capturing target video input at up to 4K. Also compatible with VGA, Micro HDMI, DVI, and other inputs via adapters. For more details, visit our [specifications](specifications) page.
+  Supports displaying up to 1920×1080 @ 30 Hz on the host app with under 140 ms latency, while capturing target video input at up to 4K. Also compatible with VGA, Micro HDMI, DVI, and other inputs via adapters. For more details, visit our [specifications](/product/minikvm/specifications/) page.
 
 - **Switchable USB Type-A Port**  
   Toggle USB access between the host and target to share a USB drive without replugging. Learn more on the [Switchable USB Port](../usb-switch) page.
