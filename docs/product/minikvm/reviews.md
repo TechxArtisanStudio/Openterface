@@ -142,6 +142,8 @@ slug: /openterface-mini-kvm-reviews
 
 - **[65Diamond](https://www.reddit.com/r/msp/comments/1j2dlde/comment/mju6uru/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)** | User: *"...Absolutely love it. Latency is definitely better than using VNC, though still in the same ballpark. The only display input on it is HDMI, but any standard to-male hdmi adapters will work. Overall a very solid device, it has been a very worthy addition to my daily carry toolkit."*
 
+* **[samw](https://tinyrack.net/openterface-mini-kvm/)** | Reviewer: *"In datacenters, where you typically see a monitor, mouse, and keyboard on wheels (a 'crash cart'), it's cool that this totally replaces that using the laptop you'd already have with you!"*
+
 - **[matsuu](https://x.com/matsuu/status/1789322019315892318)** | Beta Tester: *"ノートパソコンに繋げるタイプのKVMコソール。似たような製品でUSB+VGAはあるがこれはUSB+HDMI構成。オープンソース実装になっているそうで安価になるっぽい。いいねこれ。"*
 
 - **[Kazubu](https://x.com/_kazubu/status/1828454779875701044)** | Beta Tester: *"この安価でコンパクトなMini-KVMを持ち運ぶことによって、急にサーバやミニPCを操作する必要がある際に迅速に対応することができました。"*
@@ -149,6 +151,11 @@ slug: /openterface-mini-kvm-reviews
 - **[Yukito KATO, ITmedia](https://www.itmedia.co.jp/pcuser/articles/2503/13/news174.html)** | Reviewer: _"Mini-KVMは小さな本体とケーブル3本で構成されており、一般的なKVMスイッチと比較すると、非常にコンパクトで持ち運びも楽ちんだ."_
 
 - **[tsunokawa](https://tsunokawa.hatenablog.com/entry/2025/02/26/060000)** | User: *"本体も小型で配線も少なく、すぐに使い始められるためものすごく使い勝手が良いと感じました。データセンターでのトラブル対応時にも便利に利用可能と思います。Mini-KVMを使えばノートPCさえあれば、最小限のケーブルだけで作業できるためとても作業しやすいと思います。"* 
+
+* **[Yukito KATO](https://www.itmedia.co.jp/pcuser/articles/2503/13/news174.html)** | Reviewer: *"Mini-KVMのサイズは非常にコンパクトに仕上がっており、非常に使い勝手が良いと感じました。データセンターでのトラブル対応時にも便利に利用可能と思います。"*
+
+* **[tinyrack](https://tinyrack.net/openterface-mini-kvm/)** | Reviewer: *"Openterface 의 경우 제 테스트 상황에서는 모두 잘 동작했어요. 그래서 적어도 윈도우에서 만큼은 확실히 제대로 된 소프트웨어를 제공한다고 생각해요."*
+
 
 ---
 
