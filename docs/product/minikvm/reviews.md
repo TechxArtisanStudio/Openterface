@@ -159,7 +159,7 @@ slug: /openterface-mini-kvm-reviews
 
     - **[65Diamond](https://www.reddit.com/r/msp/comments/1j2dlde/comment/mju6uru/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)** | User: *"...Absolutely love it. Latency is definitely better than using VNC, though still in the same ballpark. The only display input on it is HDMI, but any standard to-male hdmi adapters will work. Overall a very solid device, it has been a very worthy addition to my daily carry toolkit."*
 
-    - **[samw](https://tinyrack.net/openterface-mini-kvm/)** | Reviewer: *"In datacenters, where you typically see a monitor, mouse, and keyboard on wheels (a 'crash cart'), it's cool that this totally replaces that using the laptop you'd already have with you!"*
+    - **[samw](https://tinytoolk.it/tools/openterface-kvm/)** | Reviewer: *"In datacenters, where you typically see a monitor, mouse, and keyboard on wheels (a 'crash cart'), it's cool that this totally replaces that using the laptop you'd already have with you!"*
 
 === "Japanese"
 
