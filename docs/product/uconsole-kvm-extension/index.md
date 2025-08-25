@@ -70,9 +70,14 @@ Follow these hardware installation steps to replace the 4G/LTE module in your uC
     - The Openterface KVM Extension board is 1.0 mm thick (thinner than the original 4G/LTE 1.2 mm). Because of this, we recommend placing the provided gasket on the screw posts (between the PCB and the mounting standoffs) so the gasket sits under the screw posts before seating the board. This compensates for the thinner PCB and helps ensure proper spring contactor pressure.
     - If you prefer to check first, seat the board without the gasket and verify even spring contact; if contact is uneven or the board sits loosely, add the gasket and reseat the board.
 
-![Installing KVM Extension gasket](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-gasket.webp){:style="height:300px"}
-
-![Installing KVM Extension into uConsole](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-install-1.webp){:style="height:300px"}
+<div style="display:flex;gap:1rem;align-items:flex-start;flex-wrap:wrap">
+    <div style="flex:1;min-width:200px">
+        <img src="https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-gasket.webp" alt="Installing KVM Extension gasket" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
+    </div>
+    <div style="flex:1;min-width:200px">
+        <img src="https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-install-1.webp" alt="Installing KVM Extension into uConsole" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
+    </div>
+</div>
 
 4. Reinsert Screws
 
