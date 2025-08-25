@@ -8,7 +8,7 @@ Transform your uConsole into a **portable KVM (Keyboard, Video, Mouse) console**
 
 The **Openterface KVM Extension** replaces the original 4G/LTE modem in your uConsole’s expansion slot and provides direct **HDMI input and USB HID control**, allowing you to manage headless devices on the go—without the need for external monitors, keyboards, or network configuration.
 
-![KVM Extension Board Front Side](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension.webp){:style="height:300px"}
+![KVM Extension Board Front Side](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-1.webp){:style="height:300px"}
 ![KVM Extension Board Backm Side](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-back.webp){:style="height:300px"}
 
 
