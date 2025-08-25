@@ -70,7 +70,7 @@ Follow these hardware installation steps to replace the 4G/LTE module in your uC
     - The Openterface KVM Extension board is 1.0 mm thick (thinner than the original 4G/LTE 1.2 mm). Because of this, we recommend placing the provided gasket on the screw posts (between the PCB and the mounting standoffs) so the gasket sits under the screw posts before seating the board. This compensates for the thinner PCB and helps ensure proper spring contactor pressure.
     - If you prefer to check first, seat the board without the gasket and verify even spring contact; if contact is uneven or the board sits loosely, add the gasket and reseat the board.
 
-![Installing KVM Extension into uConsole](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-install-1.webp){:style="height:300px"}
+![Installing KVM Extension into uConsole](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-install-1.webp)
 
 4. Reinsert Screws
 
@@ -91,7 +91,7 @@ To use the KVM Extension, install the **Openterface App** on your uConsole.
 Option 1 - Use Flatpak version Openterface
 - 📖 Follow our [Flatpak Installation Guide](https://github.com/TechxArtisanStudio/Openterface_QT/blob/main/doc/flatpak_installation.md) for detailed setup steps.
 
-![KVM Extension Connected to Target Device](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-use-case-1c.webp){:style="height:300px"}
+![KVM Extension Connected to Target Device](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-use-case-1c.webp)
 
 Option 2 - Install community version from Rex
 
