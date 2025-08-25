@@ -42,14 +42,76 @@ The **Openterface KVM Extension** replaces the original 4G/LTE modem in your uCo
     Perform maintenance or configuration in data centres or remote locations.
 
 
-## Setup Guide
+## Hardware Installation
+
+Follow these hardware installation steps to replace the 4G/LTE module in your uConsole with the Openterface KVM Extension board and ensure a secure fit.
+
+### What You’ll Need
+
+- Your Openterface KVM extension board
+- The provided gasket (plastic shim) 
+- A Hex screwdriver (for the board’s mounting screws)
+- ESD precautions (wrist strap or grounded surface) — recommended
+
+### Installing the Extension Board
+
+1. Power Off and Disconnect
+
+    Shut down the uConsole and disconnect all power and cables.
+
+2. Remove the Existing Module
+
+    Use a hex screwdriver to remove the two screws holding the 4G/LTE module or existing extension board.
+
+    Carefully lift the board straight up to avoid bending the spring contactors.
+
+3. Install the KVM Extension Board
+
+    - The Openterface KVM Extension board is 1.0 mm thick (thinner than the original 4G/LTE 1.2 mm). Because of this, we recommend placing the provided gasket on the screw posts (between the PCB and the mounting standoffs) so the gasket sits under the screw posts before seating the board. This compensates for the thinner PCB and helps ensure proper spring contactor pressure.
+    - If you prefer to check first, seat the board without the gasket and verify even spring contact; if contact is uneven or the board sits loosely, add the gasket and reseat the board.
+
+![Installing KVM Extension into uConsole](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-install-1.webp){:style="height:300px"}
+
+4. Reinsert Screws
+
+    Reinsert the two screws and tighten with the hex screwdriver. Snug is sufficient — do not overtighten.
+
+5. Verify Fit
+
+    The board should sit flat with no noticeable movement. Verify spring contactors are making even contact across the pads.
+
+6. Test the Hardware
+
+    Reconnect power, boot the system, and test HDMI, audio, and USB HID devices to confirm proper operation.
+
+## Software Setup Guide
 
 To use the KVM Extension, install the **Openterface App** on your uConsole.
 
+Option 1 - Use Flatpak version Openterface
 - 📖 Follow our [Flatpak Installation Guide](https://github.com/TechxArtisanStudio/Openterface_QT/blob/main/doc/flatpak_installation.md) for detailed setup steps.
 
-![Installing KVM Extension into uConsole](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-install-1.webp){:style="height:300px"}
-![KVM Extension Connected to Target Device 1c](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-use-case-1c.webp){:style="height:300px"}
+![KVM Extension Connected to Target Device](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-use-case-1c.webp){:style="height:300px"}
+
+Option 2 - Install community version from Rex
+
+If you want the community build maintained by Rex, add his repository and install the package with the commands below.
+
+1. Add the repository GPG key and repository
+
+```bash
+wget -q -O- https://raw.githubusercontent.com/ak-rex/ClockworkPi-apt/main/bookworm/KEY.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/ak-rex.gpg
+sudo add-apt-repository -y "deb [arch=arm64] https://raw.githubusercontent.com/ak-rex/ClockworkPi-apt/main/bookworm stable main"
+```
+
+2. Update and install
+
+```bash
+sudo apt update
+sudo apt install openterfaceqt
+```
+
+Notes: these commands require sudo. The repository targets arm64 Bookworm packages; verify compatibility with your device before installing.
 
 ## Pre-Launch Status
 
