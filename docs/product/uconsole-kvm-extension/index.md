@@ -72,7 +72,7 @@ Follow these hardware installation steps to replace the 4G/LTE module in your uC
 
 <div style="display:flex;gap:1rem;align-items:flex-start;flex-wrap:wrap">
     <div style="flex:1;min-width:200px">
-        <img src="https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-gasket.webp" alt="Installing KVM Extension gasket" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
+        <img src="https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-gasket-1.webp" alt="Installing KVM Extension gasket" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
     </div>
     <div style="flex:1;min-width:200px">
         <img src="https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-install-1.webp" alt="Installing KVM Extension into uConsole" style="max-height:300px;width:100%;height:auto;object-fit:contain" />
