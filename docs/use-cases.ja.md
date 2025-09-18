@@ -14,54 +14,54 @@ keywords: "Openterface Mini-KVM, エンタープライズKVMソリューショ�
 
 <div class="grid cards" markdown>
 
-- :material-server-network-outline:{ .lg } **効率化されたサーバー管理**
+-   :material-server-network-outline:{ .lg } **効率化されたサーバー管理**
 
-  ***
+    ***
 
-  データセンターの IT プロフェッショナルに最適。Mini-KVM は単一のラップトップから複数のサーバーを制御し、効率を向上させ、ダウンタイムを削減します。
-  <img src="https://assets.openterface.com/images/product/use-case-demo-pc-bios-1.webp" alt="サーバー管理BIOSデモ" style="max-width: 100%;"/>
+    データセンターの IT プロフェッショナルに最適。Mini-KVM は単一のラップトップから複数のサーバーを制御し、効率を向上させ、ダウンタイムを削減します。
+    <img src="https://assets.openterface.com/images/product/use-case-demo-pc-bios-1.webp" alt="サーバー管理BIOSデモ" style="max-width: 100%;"/>
 
-- :material-tools:{ .lg } **テック愛好家向けの簡素化されたセットアップ**
+-   :material-tools:{ .lg } **テック愛好家向けの簡素化されたセットアップ**
 
-  ***
+    ***
 
-  Raspberry Pi や Jetson Nano を使用する組み込み開発者にとって、Mini-KVM は追加のモニターや周辺機器なしで直接制御を可能にします。
-  <img src="https://assets.openterface.com/images/product/use-case-demo-respberry-pi.webp" alt="Raspberry Piセットアップデモ" style="max-width: 100%;"/>
+    Raspberry Pi や Jetson Nano を使用する組み込み開発者にとって、Mini-KVM は追加のモニターや周辺機器なしで直接制御を可能にします。
+    <img src="https://assets.openterface.com/images/product/use-case-demo-respberry-pi.webp" alt="Raspberry Piセットアップデモ" style="max-width: 100%;"/>
 
-- :material-devices:{ .lg } **多様なデバイスの統一制御**
+-   :material-devices:{ .lg } **多様なデバイスの統一制御**
 
-  ***
+    ***
 
-  個人/業務用マシンや専用ハードウェア（ATM、キオスク、VLT）を単一のインターフェースから管理—ケーブルやキーボードの交換はもう不要です。
-  <img src="https://assets.openterface.com/images/product/use-case-demo-macmini2009-3.webp" alt="複数デバイスの統一制御" style="max-width: 100%;"/>
+    個人/業務用マシンや専用ハードウェア（ATM、キオスク、VLT）を単一のインターフェースから管理—ケーブルやキーボードの交換はもう不要です。
+    <img src="https://assets.openterface.com/images/product/use-case-demo-macmini2009-3.webp" alt="複数デバイスの統一制御" style="max-width: 100%;"/>
 
-- :material-hospital-building:{ .lg } **機密タスクのセキュアな操作**
+-   :material-hospital-building:{ .lg } **機密タスクのセキュアな操作**
 
-  ***
+    ***
 
-  ネットワーク分離が必要なプロジェクト（例：暗号通貨管理）に最適。インターネット依存なしでセキュアなローカル操作を活用します。
-  <img src="https://assets.openterface.com/images/product/use-case-demo-industrial-pc.webp" alt="産業用PCでのセキュアな操作" style="max-width: 100%;"/>
+    ネットワーク分離が必要なプロジェクト（例：暗号通貨管理）に最適。インターネット依存なしでセキュアなローカル操作を活用します。
+    <img src="https://assets.openterface.com/images/product/use-case-demo-industrial-pc.webp" alt="産業用PCでのセキュアな操作" style="max-width: 100%;"/>
 
-- :material-school:{ .lg } **混合ワークフローの効率的な統合**
+-   :material-school:{ .lg } **混合ワークフローの効率的な統合**
 
-  ***
+    ***
 
-  単一の合理化された制御フローを通じて、個人、業務、エッジコンピューティング設定間をシームレスに切り替えます。
-  <img src="https://assets.openterface.com/images/product/use-case-demo-macbookpro2010.webp" alt="混合ワークフロー統合" style="max-width: 100%;"/>
+    単一の合理化された制御フローを通じて、個人、業務、エッジコンピューティング設定間をシームレスに切り替えます。
+    <img src="https://assets.openterface.com/images/product/use-case-demo-macbookpro2010.webp" alt="混合ワークフロー統合" style="max-width: 100%;"/>
 
-- :material-pencil:{ .lg } **シームレスな制御：Mini-KVM + Android ペンシル**
+-   :material-pencil:{ .lg } **シームレスな制御：Mini-KVM + Android ペンシル**
 
-  ***
+    ***
 
-  Android タブレットとペンシルを使用して Windows/macOS マシンでナビゲートやスケッチを行います。デザイン、マークアップ、精密なアプリ制御に最適です。
-  <img src="https://assets.openterface.com/images/product/android_plus_pen.webp" alt="Androidペンシル制御" style="max-width: 100%;"/>
+    Android タブレットとペンシルを使用して Windows/macOS マシンでナビゲートやスケッチを行います。デザイン、マークアップ、精密なアプリ制御に最適です。
+    <img src="https://assets.openterface.com/images/product/android_plus_pen.webp" alt="Androidペンシル制御" style="max-width: 100%;"/>
 
-- :material-laptop:{ .lg } **移動中のトラブルシューティングのための多機能ポータビリティ**
+-   :material-laptop:{ .lg } **移動中のトラブルシューティングのための多機能ポータビリティ**
 
-  ***
+    ***
 
-  Mini-KVM を**Clockwork の uConsole**などのデバイスとペアリングして、[移動 KVM ソリューション](https://x.com/TechxArtisan/status/1807824199152722019)を実現。ヘッドレスシステムを扱う現場エンジニアやテック愛好家に最適です。
-  <img src="https://pbs.twimg.com/media/GRaeGqHa0AA_GMv?format=jpg&name=4096x4096" alt="uConsoleポータビリティ" width="560" height="560" style="max-width: 100%;"/>
+    Mini-KVM を**Clockwork の uConsole**などのデバイスとペアリングして、[移動 KVM ソリューション](https://x.com/TechxArtisan/status/1807824199152722019)を実現。ヘッドレスシステムを扱う現場エンジニアやテック愛好家に最適です。
+    <img src="https://pbs.twimg.com/media/GRaeGqHa0AA_GMv?format=jpg&name=4096x4096" alt="uConsoleポータビリティ" width="560" height="560" style="max-width: 100%;"/>
 
 </div>
 
@@ -73,46 +73,46 @@ keywords: "Openterface Mini-KVM, エンタープライズKVMソリューショ�
 
 <div class="grid cards" markdown>
 
-- :material-server-network-outline:{ .lg } **テクノロジーと IT サービス**
+-   :material-server-network-outline:{ .lg } **テクノロジーと IT サービス**
 
-  ***
+    ***
 
-  物理サーバーやラボマシンの迅速なトラブルシューティング。
-  OS インストールやヘッドレスデバイス保守などのファームウェアレベルタスク。
+    物理サーバーやラボマシンの迅速なトラブルシューティング。
+    OS インストールやヘッドレスデバイス保守などのファームウェアレベルタスク。
 
-- :material-tools:{ .lg } **エンジニアリングと産業**
+-   :material-tools:{ .lg } **エンジニアリングと産業**
 
-  ***
+    ***
 
-  組み込みハードウェアの現場設定。
-  直接 BIOS アクセスが不可欠な複数の制御システムの管理。
+    組み込みハードウェアの現場設定。
+    直接 BIOS アクセスが不可欠な複数の制御システムの管理。
 
-- :material-video:{ .lg } **クリエイティブスタジオとメディア**
+-   :material-video:{ .lg } **クリエイティブスタジオとメディア**
 
-  ***
+    ***
 
-  編集、レンダリング、カラーグレーディングのためのマルチ OS ワークフロー。
-  切り替え可能な USB ポートがファイル転送や周辺機器共有を簡素化。
+    編集、レンダリング、カラーグレーディングのためのマルチ OS ワークフロー。
+    切り替え可能な USB ポートがファイル転送や周辺機器共有を簡素化。
 
-- :material-hospital-building:{ .lg } **ヘルスケアとバイオテクノロジー**
+-   :material-hospital-building:{ .lg } **ヘルスケアとバイオテクノロジー**
 
-  ***
+    ***
 
-  厳格なコンプライアンス環境のためのオフラインデバイス管理。
-  ローカルハードウェア制御が必要な専用機器。
+    厳格なコンプライアンス環境のためのオフラインデバイス管理。
+    ローカルハードウェア制御が必要な専用機器。
 
-- :material-school:{ .lg } **プロフェッショナルサービスと教育**
+-   :material-school:{ .lg } **プロフェッショナルサービスと教育**
 
-  ***
+    ***
 
-  機密データのローカル制御ワークフロー。
-  ワークステーションやラボコンピューターの簡単な再設定。
+    機密データのローカル制御ワークフロー。
+    ワークステーションやラボコンピューターの簡単な再設定。
 
-- :material-store:{ .lg } **小売と消費財**
+-   :material-store:{ .lg } **小売と消費財**
 
-  ***
+    ***
 
-  分散システムのポータブルで即座のトラブルシューティング。
-  地域分散設定の迅速な現場介入。
+    分散システムのポータブルで即座のトラブルシューティング。
+    地域分散設定の迅速な現場介入。
 
 </div>
