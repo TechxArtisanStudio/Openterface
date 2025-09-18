@@ -36,11 +36,11 @@ Openterface™ KVM ガジェットを起動して実行するには、ホスト�
 
     **Openterface QT Linux**をダウンロードまたはソースからビルド：
 
-    [:octicons-download-24: {{qt_stable}} AMD64 DEB をダウンロード](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_stable}}/openterfaceQT.linux.amd64.deb) <br>
-    [:octicons-download-24: {{qt_stable}} AMD64 RPM をダウンロード](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_stable}}/openterfaceQT.linux.amd64.rpm) <br>
-    [:octicons-download-24: {{qt_stable}} AMD64 AppImage をダウンロード](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_stable}}/openterfaceQT.linux.amd64.AppImage) <br>
-    [:octicons-download-24: {{qt_stable}} ARM64 DEB をダウンロード](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_stable}}/openterfaceQT.linux.arm64.deb) <br>
-    [:octicons-download-24: {{qt_stable}} ARM64 RPM をダウンロード](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_stable}}/openterfaceQT.linux.arm64.rpm) <br>
+    [:octicons-download-24: {{qt_linux_stable}} AMD64 DEB をダウンロード](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_linux_stable}}/openterfaceQT.linux.amd64.deb) <br>
+    [:octicons-download-24: {{qt_linux_stable}} AMD64 RPM をダウンロード](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_linux_stable}}/openterfaceQT.linux.amd64.rpm) <br>
+    [:octicons-download-24: {{qt_linux_stable}} AMD64 AppImage をダウンロード](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_linux_stable}}/openterfaceQT.linux.amd64.AppImage) <br>
+    [:octicons-download-24: {{qt_linux_stable}} ARM64 DEB をダウンロード](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_linux_stable}}/openterfaceQT.linux.arm64.deb) <br>
+    [:octicons-download-24: {{qt_linux_stable}} ARM64 RPM をダウンロード](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_linux_stable}}/openterfaceQT.linux.arm64.rpm) <br>
     [:octicons-mark-github-16: Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT) <br>
     [:octicons-play-24: デモを見る](https://youtu.be/_ScpI6TC0Pk?si=FSg7A2zmST8QbFec)
 

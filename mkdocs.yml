@@ -66,8 +66,8 @@ extra:
   copyright_year: 2025
   qt_version: 0.4.3
   android_version: v1.1.2
-  macos_version: 1.0.0
-  qt_stable: 0.3.19
+  macos_version: 1.16
+  qt_linux_stable: 0.3.19
   minikvm_purchase_link: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
   social:
     - icon: txa/crowd-supply-icon
