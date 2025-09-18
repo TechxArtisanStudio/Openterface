@@ -15,7 +15,7 @@
           <div class="image-container">
             <img src="https://assets.openterface.com/images/openterface-mini-kvm-v1-9-s.webp" alt="Openterface Mini-KVM Product" width="460" draggable="false">
           </div>
-          <a href="{{ 'https://www.crowdsupply.com/techxartisan/openterface-mini-kvm' | url }}" title="Order Now!" class="md-button md-button--primary" data-i18n="home.mini-kvm">
+          <a href="{{ config.extra.minikvm_purchase_link | url }}" title="Order Now!" class="md-button md-button--primary" data-i18n="home.mini-kvm">
             <span data-i18n="home.mini-kvm-btn">Mini-KVM</span><img src="https://assets.openterface.com/images/trademark/crowd-supply.svg" alt="Crowd Supply" style="vertical-align: middle; height: 26px;">
           </a>
           <a href="https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole" 
@@ -34,23 +34,36 @@
   </section>
 
   <section class="dialogue-section-white" id="app">
-    <div class="slideshow-container">
+    <div class="slideshow-container" id="slideshow-minikvm" data-auto-slide="true" data-auto-slide-interval="3000">
       <div class="slideshow-wrapper">
-        <div class="slides fade">
+        <div class="slide active">
           <img src="https://assets.openterface.com/images/product/use-case-demo-industrial-pc.webp" alt="Industrial PC" loading="lazy" draggable="false">
         </div>
-        <div class="slides fade">
+        <div class="slide">
           <img src="https://assets.openterface.com/images/product/use-case-demo-respberry-pi.webp" alt="Raspberry Pi" loading="lazy" draggable="false" data-i18n="home.slide-raspberry-pi-alt">
         </div>
-        <div class="slides fade">
+        <div class="slide">
           <img src="https://assets.openterface.com/images/product/use-case-demo-pc-bios-1.webp" alt="PC BIOS" loading="lazy" draggable="false" data-i18n="home.slide-pc-bios-alt">
         </div>
-        <div class="slides fade">
+        <div class="slide">
           <img src="https://assets.openterface.com/images/product/use-case-demo-macbookpro2010.webp" alt="MacBook Pro 2010" loading="lazy" draggable="false">
         </div>
-        <div class="slides fade">
+        <div class="slide">
           <img src="https://assets.openterface.com/images/product/use-case-demo-macmini2009-3.webp" alt="Mac Mini 2009" loading="lazy" draggable="false">
         </div>
+      </div>
+      
+      <!-- Navigation with dots (hidden) -->
+      <div class="slideshow-navigation" style="display: none;">
+        <button class="nav-arrow left" onclick="changeSlide('slideshow-minikvm', -1)">❮</button>
+        <div class="slideshow-dots">
+          <span class="dot active" onclick="currentSlide('slideshow-minikvm', 1)"></span>
+          <span class="dot" onclick="currentSlide('slideshow-minikvm', 2)"></span>
+          <span class="dot" onclick="currentSlide('slideshow-minikvm', 3)"></span>
+          <span class="dot" onclick="currentSlide('slideshow-minikvm', 4)"></span>
+          <span class="dot" onclick="currentSlide('slideshow-minikvm', 5)"></span>
+        </div>
+        <button class="nav-arrow right" onclick="changeSlide('slideshow-minikvm', 1)">❯</button>
       </div>
     </div>
 
@@ -246,9 +259,9 @@
 
   <!-- Gibby Avatar and Dialogue Box -->
   <div class="gibby-container">
-    <a href="#form_signup" class="gibby-link"><img src="https://assets.openterface.com/images/op-avatar.webp" alt="Gibby Mascot" class="gibby-avatar" draggable="false" aria-label="Gibby Mascot"></a>
+    <a href="#" class="gibby-link" id="gibby-avatar-link"><img src="https://assets.openterface.com/images/op-avatar.webp" alt="Gibby Mascot" class="gibby-avatar" draggable="false" aria-label="Gibby Mascot"></a>
     <div class="gibby-dialogue">
-      <p data-i18n="home.subscribenow"><a href="#form_signup" class="gibby-link" data-i18n="home.subscribenow-link">Subscribe NOW!</a></p>
+      <p data-i18n="home.subscribenow"><a href="#" class="gibby-link" id="gibby-text-link" data-i18n="home.subscribenow-link">Subscribe NOW!</a></p>
     </div>
   </div>
 

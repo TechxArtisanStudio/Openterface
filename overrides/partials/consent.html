@@ -20,6 +20,9 @@
   IN THE SOFTWARE.
 -->
 
+<!-- Determine current locale -->
+{% set current_locale = page.locale or config.theme.language or (page.url.split('/')[1] if page.url and page.url.split('/')[1] in ['de', 'es', 'fr', 'it', 'ja', 'ko', 'pt', 'ro', 'zh'] else 'en') %}
+
 <!-- Determine cookies -->
 {% set cookies = config.extra.consent.cookies | d({}) %}
 {% if config.extra.analytics %}
@@ -44,9 +47,38 @@
   {% set checked = "checked" %}
 {% endif %}
 
-<!-- Consent title -->
-<h4>{{ config.extra.consent.title }}</h4>
-<p>{{ config.extra.consent.description }}</p>
+<!-- Consent title and description with language-specific content -->
+{% if current_locale == 'de' %}
+  <h4>Cookie-Einwilligung</h4>
+  <p>Wir verwenden Cookies, um die Qualität des Dokumentationsinhalts zu verbessern, die Website-Effektivität zu analysieren und Bedürfnisse zu ermitteln. Durch Ihre Zustimmung helfen Sie uns, unsere Website zu verbessern. Vielen Dank!</p>
+{% elif current_locale == 'es' %}
+  <h4>Consentimiento de Cookies</h4>
+  <p>Utilizamos cookies para mejorar la calidad del contenido de la documentación, analizar la efectividad del sitio y las necesidades. Al dar su consentimiento, nos ayuda a mejorar nuestro sitio web. ¡Gracias!</p>
+{% elif current_locale == 'fr' %}
+  <h4>Consentement aux Cookies</h4>
+  <p>Nous utilisons des cookies pour améliorer la qualité du contenu de la documentation, analyser l'efficacité du site et les besoins. En donnant votre consentement, vous nous aidez à améliorer notre site web. Merci !</p>
+{% elif current_locale == 'it' %}
+  <h4>Consenso sui Cookie</h4>
+  <p>Utilizziamo i cookie per migliorare la qualità del contenuto della documentazione, analizzare l'efficacia del sito e le esigenze. Dando il tuo consenso, ci aiuti a migliorare il nostro sito web. Grazie!</p>
+{% elif current_locale == 'ja' %}
+  <h4>クッキー同意</h4>
+  <p>ドキュメントコンテンツの品質向上、サイトの効果性とニーズの分析にクッキーを使用しています。同意することで、私たちのウェブサイトの改善にご協力いただいています。ありがとうございます！</p>
+{% elif current_locale == 'ko' %}
+  <h4>쿠키 동의</h4>
+  <p>문서 콘텐츠의 품질 향상, 사이트 효과성 및 요구사항 분석을 위해 쿠키를 사용합니다. 동의해 주시면 웹사이트 개선에 도움이 됩니다. 감사합니다!</p>
+{% elif current_locale == 'pt' %}
+  <h4>Consentimento de Cookies</h4>
+  <p>Usamos cookies para melhorar a qualidade do conteúdo da documentação, analisar a eficácia do site e as necessidades. Ao dar seu consentimento, você nos ajuda a melhorar nosso site. Obrigado!</p>
+{% elif current_locale == 'ro' %}
+  <h4>Consimțământ Cookie</h4>
+  <p>Folosim cookie-uri pentru a îmbunătăți calitatea conținutului documentației, pentru a analiza eficacitatea site-ului și nevoile. Prin consimțământul dumneavoastră, ne ajutați să îmbunătățim site-ul nostru. Mulțumim!</p>
+{% elif current_locale == 'zh' %}
+  <h4>Cookie 同意</h4>
+  <p>我们使用 cookie 来提升文档内容质量，分析网站效果和需求。通过同意，您帮助我们改善网站。谢谢！</p>
+{% else %}
+  <h4>Cookie Consent</h4>
+  <p>We use cookies to enhance quality of docs content, analyse site effectiveness and needs. By consenting, you help us improve our website. Thanks!</p>
+{% endif %}
 
 <!-- Consent settings -->
 <input

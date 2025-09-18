@@ -2,14 +2,96 @@
 
 {% block content %}
   <div style="text-align: center; margin-top: 50px;">
-      <h1 data-i18n="error.404-title">404 - Page Not Found</h1>
-      <p data-i18n="error.404-desc">The page does not exist. Redirecting to the homepage...</p>
-      <img src="https://assets.openterface.com/images/cover.webp" alt="" style="max-width: 600px; height: auto;" draggable="false">
+    <!-- Default English content (fallback) -->
+    <h1 id="error-title" data-i18n="error.404-title">404 - Page Not Found</h1>
+    <p id="error-desc" data-i18n="error.404-desc">The page does not exist. Redirecting to the homepage...</p>
+    
+    <img src="https://assets.openterface.com/images/cover.webp" alt="" style="max-width: 600px; height: auto;" draggable="false">
 
-      <script>
-          setTimeout(function() {
-              window.location.href = "/";
-          }, 1000); // Redirect after 1 second
-      </script>
+    <script>
+        // Language-specific 404 messages
+        const messages = {
+            'en': {
+                title: '404 - Page Not Found',
+                desc: 'The page does not exist. Redirecting to the homepage...'
+            },
+            'de': {
+                title: '404 - Seite nicht gefunden',
+                desc: 'Diese Seite existiert nicht. Sie werden zur Startseite weitergeleitet...'
+            },
+            'es': {
+                title: '404 - Página No Encontrada',
+                desc: 'La página no existe. Redirigiendo a la página principal...'
+            },
+            'fr': {
+                title: '404 - Page Non Trouvée',
+                desc: 'Cette page n\'existe pas. Redirection vers la page d\'accueil...'
+            },
+            'it': {
+                title: '404 - Pagina Non Trovata',
+                desc: 'La pagina non esiste. Reindirizzamento alla homepage...'
+            },
+            'ja': {
+                title: '404 - ページが見つかりません',
+                desc: 'ページが存在しません。ホームページにリダイレクトします...'
+            },
+            'ko': {
+                title: '404 - 페이지를 찾을 수 없습니다',
+                desc: '페이지가 존재하지 않습니다. 홈페이지로 이동합니다...'
+            },
+            'pt': {
+                title: '404 - Página não encontrada',
+                desc: 'A página não existe. Redirecionando para a página inicial...'
+            },
+            'ro': {
+                title: '404 - Pagină Negăsită',
+                desc: 'Pagina nu există. Redirecționare către pagina principală...'
+            },
+            'zh': {
+                title: '404 - 页面未找到',
+                desc: '页面不存在。正在跳转到首页...'
+            }
+        };
+
+        // Detect language from URL path
+        function detectLanguage() {
+            const path = window.location.pathname;
+            const segments = path.split('/').filter(segment => segment);
+            
+            // Check if first segment is a language code
+            if (segments.length > 0 && messages[segments[0]]) {
+                return segments[0];
+            }
+            
+            // Check if we're in a language subdirectory
+            const hostname = window.location.hostname;
+            if (hostname.includes('.') && hostname.split('.').length > 2) {
+                const subdomain = hostname.split('.')[0];
+                if (messages[subdomain]) {
+                    return subdomain;
+                }
+            }
+            
+            // Default to English
+            return 'en';
+        }
+
+        // Update content based on detected language
+        function updateContent() {
+            const lang = detectLanguage();
+            const message = messages[lang] || messages['en'];
+            
+            document.getElementById('error-title').textContent = message.title;
+            document.getElementById('error-desc').textContent = message.desc;
+        }
+
+        // Update content immediately
+        updateContent();
+
+        // Redirect after 1 second
+        setTimeout(function() {
+            window.location.href = "/";
+        }, 1000);
+    </script>
   </div>
 {% endblock %}

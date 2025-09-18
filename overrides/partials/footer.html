@@ -61,19 +61,103 @@
 
       <!-- Signup form -->
       <div class="signup-form-container footer-flex-item">
+        {% set current_locale = page.locale or config.theme.language or (page.url.split('/')[1] if page.url and page.url.split('/')[1] in ['de', 'es', 'fr', 'it', 'ja', 'ko', 'pt', 'ro', 'zh'] else 'en') %}
+        <!-- All languages submit directly to Google Form -->
         <div id="form_signup">
-          <!-- Modified form to submit via AJAX -->
-          <form id="subscribe-form" name="subscribe-form" class="js-loading">
+          <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdFc5YUQN74mQpFj6U4NkpNH4TGZGgxur7wVADWSWEsmNezdg/formResponse" 
+                method="post" 
+                id="subscribe-form" 
+                name="subscribe-form" 
+                target="_blank">
             <div id="form_signup_scroll">
               <div class="gf-field-group">
-                <input type="text" name="name" class="required" id="form-name" required placeholder="Your Name">
+                {% if current_locale == 'de' %}
+                  <input type="text" name="entry.1988135673" class="required" id="form-name" required placeholder="Ihr Name">
+                {% elif current_locale == 'es' %}
+                  <input type="text" name="entry.1988135673" class="required" id="form-name" required placeholder="Tu Nombre">
+                {% elif current_locale == 'fr' %}
+                  <input type="text" name="entry.1988135673" class="required" id="form-name" required placeholder="Votre Nom">
+                {% elif current_locale == 'it' %}
+                  <input type="text" name="entry.1988135673" class="required" id="form-name" required placeholder="Il Tuo Nome">
+                {% elif current_locale == 'ja' %}
+                  <input type="text" name="entry.1988135673" class="required" id="form-name" required placeholder="お名前">
+                {% elif current_locale == 'ko' %}
+                  <input type="text" name="entry.1988135673" class="required" id="form-name" required placeholder="이름">
+                {% elif current_locale == 'pt' %}
+                  <input type="text" name="entry.1988135673" class="required" id="form-name" required placeholder="Seu Nome">
+                {% elif current_locale == 'ro' %}
+                  <input type="text" name="entry.1988135673" class="required" id="form-name" required placeholder="Numele tău">
+                {% elif current_locale == 'zh' %}
+                  <input type="text" name="entry.1988135673" class="required" id="form-name" required placeholder="您的姓名">
+                {% else %}
+                  <input type="text" name="entry.1988135673" class="required" id="form-name" required placeholder="Your Name">
+                {% endif %}
               </div>
               <div class="gf-field-group">
-                <input type="email" name="email" class="required email" id="form-email" required placeholder="Your Email Address *">
+                {% if current_locale == 'de' %}
+                  <input type="email" name="emailAddress" class="required email" id="form-email" required placeholder="Ihre E-Mail-Adresse *">
+                  <input type="hidden" name="entry.22394832" value="Openterface-de">
+                {% elif current_locale == 'es' %}
+                  <input type="email" name="emailAddress" class="required email" id="form-email" required placeholder="Tu Correo Electrónico *">
+                  <input type="hidden" name="entry.22394832" value="Openterface-es">
+                {% elif current_locale == 'fr' %}
+                  <input type="email" name="emailAddress" class="required email" id="form-email" required placeholder="Votre Adresse Email *">
+                  <input type="hidden" name="entry.22394832" value="Openterface-fr">
+                {% elif current_locale == 'it' %}
+                  <input type="email" name="emailAddress" class="required email" id="form-email" required placeholder="Il Tuo Indirizzo Email *">
+                  <input type="hidden" name="entry.22394832" value="Openterface-it">
+                {% elif current_locale == 'ja' %}
+                  <input type="email" name="emailAddress" class="required email" id="form-email" required placeholder="メールアドレス *">
+                  <input type="hidden" name="entry.22394832" value="Openterface-ja">
+                {% elif current_locale == 'ko' %}
+                  <input type="email" name="emailAddress" class="required email" id="form-email" required placeholder="이메일 주소 *">
+                  <input type="hidden" name="entry.22394832" value="Openterface-ko">
+                {% elif current_locale == 'pt' %}
+                  <input type="email" name="emailAddress" class="required email" id="form-email" required placeholder="Seu Endereço de Email *">
+                  <input type="hidden" name="entry.22394832" value="Openterface-pt">
+                {% elif current_locale == 'ro' %}
+                  <input type="email" name="emailAddress" class="required email" id="form-email" required placeholder="Adresa ta de email *">
+                  <input type="hidden" name="entry.22394832" value="Openterface-ro">
+                {% elif current_locale == 'zh' %}
+                  <input type="email" name="emailAddress" class="required email" id="form-email" required placeholder="您的电子邮箱地址 *">
+                  <input type="hidden" name="entry.22394832" value="Openterface-zh">
+                {% else %}
+                  <input type="email" name="emailAddress" class="required email" id="form-email" required placeholder="Your Email Address *">
+                  <input type="hidden" name="entry.22394832" value="Openterface-en">
+                {% endif %}
               </div>
               <div class="clear">
-                <input type="submit" name="submit" id="form-submit" class="button" value="✉️ Subscribe to the Latest Buzz! 🐝" disabled>
-                <p class="footnote">No more than one email a month. Unsubscribe anytime. <br> For inquiries, email us at <a href="mailto:info@openterface.com">info@openterface.com</a>.</p>
+                {% if current_locale == 'de' %}
+                  <input type="submit" name="submit" id="form-submit" class="button" value="✉️ Abonnieren Sie die neuesten Updates! 🐝">
+                  <p class="footnote">Nicht mehr als eine E-Mail pro Monat. Jederzeit kündbar. <br> Bei Fragen schreiben Sie uns an <a href="mailto:info@openterface.com">info@openterface.com</a>.</p>
+                {% elif current_locale == 'es' %}
+                  <input type="submit" name="submit" id="form-submit" class="button" value="✉️ ¡Suscríbete a las Últimas Novedades! 🐝">
+                  <p class="footnote">No más de un correo al mes. Cancela cuando quieras. <br> Para consultas, envíanos un correo a <a href="mailto:info@openterface.com">info@openterface.com</a>.</p>
+                {% elif current_locale == 'fr' %}
+                  <input type="submit" name="submit" id="form-submit" class="button" value="✉️ Abonnez-vous aux Dernières Actualités ! 🐝">
+                  <p class="footnote">Pas plus d'un email par mois. Désabonnez-vous à tout moment. <br> Pour toute demande, écrivez-nous à <a href="mailto:info@openterface.com">info@openterface.com</a>.</p>
+                {% elif current_locale == 'it' %}
+                  <input type="submit" name="submit" id="form-submit" class="button" value="✉️ Iscriviti per le Ultime Novità! 🐝">
+                  <p class="footnote">Non più di una email al mese. Cancellati quando vuoi. <br> Per informazioni, scrivici a <a href="mailto:info@openterface.com">info@openterface.com</a>.</p>
+                {% elif current_locale == 'ja' %}
+                  <input type="submit" name="submit" id="form-submit" class="button" value="✉️ 最新情報を受け取る！ 🐝">
+                  <p class="footnote">月に1回程度の配信です。いつでも配信解除可能です。<br>お問い合わせは <a href="mailto:info@openterface.com">info@openterface.com</a> まで。</p>
+                {% elif current_locale == 'ko' %}
+                  <input type="submit" name="submit" id="form-submit" class="button" value="✉️ 최신 소식 구독하기! 🐝">
+                  <p class="footnote">월 1회 이하로 이메일을 보내드립니다. 언제든지 구독 취소가 가능합니다. <br> 문의사항은 <a href="mailto:info@openterface.com">info@openterface.com</a>으로 이메일 주세요.</p>
+                {% elif current_locale == 'pt' %}
+                  <input type="submit" name="submit" id="form-submit" class="button" value="✉️ Inscreva-se para as Últimas Novidades! 🐝">
+                  <p class="footnote">Não mais do que um e-mail por mês. Cancele a inscrição a qualquer momento.</p>
+                {% elif current_locale == 'ro' %}
+                  <input type="submit" name="submit" id="form-submit" class="button" value="✉️ Abonează-te la cele mai noi știri! 🐝">
+                  <p class="footnote">Nu mai mult de un email pe lună. Dezabonare oricând. <br> Pentru întrebări, trimite-ne un email la <a href="mailto:info@openterface.com">info@openterface.com</a>.</p>
+                {% elif current_locale == 'zh' %}
+                  <input type="submit" name="submit" id="form-submit" class="button" value="✉️ 订阅最新动态！🐝">
+                  <p class="footnote">每月最多一封邮件。随时可以取消订阅。<br> 如有疑问，请发送邮件至 <a href="mailto:info@openterface.com">info@openterface.com</a>。</p>
+                {% else %}
+                  <input type="submit" name="submit" id="form-submit" class="button" value="✉️ Subscribe to the Latest Buzz! 🐝">
+                  <p class="footnote">No more than one email a month. Unsubscribe anytime. <br> For inquiries, email us at <a href="mailto:info@openterface.com">info@openterface.com</a>.</p>
+                {% endif %}
               </div>
             </div>
           </form>
@@ -94,20 +178,13 @@
     </div>
   </div>
 
-  <!-- Load subscribe.js directly in footer -->
+  <!-- Load language-select.js -->
   <script>
-    // Load subscribe.js and ensure it works with navigation
     (function() {
-      var script = document.createElement('script');
-      script.src = "{{ 'assets/javascripts/subscribe.js' | url }}";
-      script.async = false; // Load synchronously to ensure it's available
-      document.body.appendChild(script);
-
       var langselect = document.createElement('script');
       langselect.src = "{{ 'assets/javascripts/language-select.js' | url }}";
       langselect.async = false; // Load synchronously to ensure it's available
       document.body.appendChild(langselect);
     })();
-
   </script>
 </footer>

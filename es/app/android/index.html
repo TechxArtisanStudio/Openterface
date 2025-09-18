@@ -1,0 +1,2958 @@
+<!DOCTYPE html><html lang="es" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A Feature-rich, Open-source and Community-driven KVM-over-USB Solution">
+      
+      
+        <meta name="author" content="Openterface">
+      
+      
+        <link rel="canonical" href="https://openterface.com/es/app/android/">
+      
+      
+        <link rel="prev" href="../macos/dmg-installation/">
+      
+      
+        <link rel="next" href="../faq/">
+      
+      
+      <link rel="icon" href="../../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>Descripción general - Openterface | Bridging Interfaces to Open Possibilities</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+  
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.0.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M64%20480c-35.3%200-64-28.7-64-64V96c0-35.3%2028.7-64%2064-64h320c35.3%200%2064%2028.7%2064%2064v213.5c0%2017-6.7%2033.3-18.7%2045.3L322.7%20461.3c-12%2012-28.3%2018.7-45.3%2018.7zm325.5-176H296c-13.3%200-24%2010.7-24%2024v93.5z%22/%3E%3C/svg%3E');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.0.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M384%20512H96c-53%200-96-43-96-96V96C0%2043%2043%200%2096%200h304c26.5%200%2048%2021.5%2048%2048v288c0%2020.9-13.4%2038.7-32%2045.3V448c17.7%200%2032%2014.3%2032%2032s-14.3%2032-32%2032zM96%20384c-17.7%200-32%2014.3-32%2032s14.3%2032%2032%2032h256v-64zm32-232c0%2013.3%2010.7%2024%2024%2024h176c13.3%200%2024-10.7%2024-24s-10.7-24-24-24H152c-13.3%200-24%2010.7-24%2024m24%2072c-13.3%200-24%2010.7-24%2024s10.7%2024%2024%2024h176c13.3%200%2024-10.7%2024-24s-10.7-24-24-24z%22/%3E%3C/svg%3E');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.0.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M256%20512a256%20256%200%201%200%200-512%20256%20256%200%201%200%200%20512m-32-352a32%2032%200%201%201%2064%200%2032%2032%200%201%201-64%200m-8%2064h48c13.3%200%2024%2010.7%2024%2024v88h8c13.3%200%2024%2010.7%2024%2024s-10.7%2024-24%2024h-80c-13.3%200-24-10.7-24-24s10.7-24%2024-24h24v-64h-24c-13.3%200-24-10.7-24-24s10.7-24%2024-24%22/%3E%3C/svg%3E');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.0.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M461.2%2018.9C472.7%2024%20480%2035.4%20480%2048v416c0%2012.6-7.3%2024-18.8%2029.1s-24.8%203.2-34.3-5.1l-46.6-40.7c-43.6-38.1-98.7-60.3-156.4-63V480c0%2017.7-14.3%2032-32%2032h-32c-17.7%200-32-14.3-32-32v-96C57.3%20384%200%20326.7%200%20256s57.3-128%20128-128h84.5c61.8-.2%20121.4-22.7%20167.9-63.3L427%2024c9.4-8.3%2022.9-10.2%2034.3-5.1zM224%20320v.2c70.3%202.7%20137.8%2028.5%20192%2073.4V118.3c-54.2%2044.9-121.7%2070.7-192%2073.4z%22/%3E%3C/svg%3E');--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.0.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M434.8%2070.1c14.3%2010.4%2017.5%2030.4%207.1%2044.7l-256%20352c-5.5%207.6-14%2012.3-23.4%2013.1s-18.5-2.7-25.1-9.3l-128-128c-12.5-12.5-12.5-32.8%200-45.3s32.8-12.5%2045.3%200l101.5%20101.5%20234-321.7c10.4-14.3%2030.4-17.5%2044.7-7.1z%22/%3E%3C/svg%3E');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.0.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M256%20512a256%20256%200%201%200%200-512%20256%20256%200%201%200%200%20512m0-336c-17.7%200-32%2014.3-32%2032%200%2013.3-10.7%2024-24%2024s-24-10.7-24-24c0-44.2%2035.8-80%2080-80s80%2035.8%2080%2080c0%2047.2-36%2067.2-56%2074.5v3.8c0%2013.3-10.7%2024-24%2024s-24-10.7-24-24v-8.1c0-20.5%2014.8-35.2%2030.1-40.2%206.4-2.1%2013.2-5.5%2018.2-10.3%204.3-4.2%207.7-10%207.7-19.6%200-17.7-14.3-32-32-32zm-32%20192a32%2032%200%201%201%2064%200%2032%2032%200%201%201-64%200%22/%3E%3C/svg%3E');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.0.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M256%200c14.7%200%2028.2%208.1%2035.2%2021l216%20400c6.7%2012.4%206.4%2027.4-.8%2039.5S486.1%20480%20472%20480H40c-14.1%200-27.1-7.4-34.4-19.5s-7.5-27.1-.8-39.5l216-400c7-12.9%2020.5-21%2035.2-21m0%20168c-13.3%200-24%2010.7-24%2024v112c0%2013.3%2010.7%2024%2024%2024s24-10.7%2024-24V192c0-13.3-10.7-24-24-24m26.7%20216a26.7%2026.7%200%201%200-53.3%200%2026.7%2026.7%200%201%200%2053.3%200%22/%3E%3C/svg%3E');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20576%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.0.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M480-16c6.9%200%2013%204.4%2015.2%2010.9l13.5%2040.4%2040.4%2013.5C555.6%2051%20560%2057.1%20560%2064s-4.4%2013-10.9%2015.2l-40.4%2013.5-13.5%2040.4c-2.2%206.5-8.3%2010.9-15.2%2010.9s-13-4.4-15.2-10.9l-13.5-40.4-40.4-13.5C404.4%2077%20400%2070.9%20400%2064s4.4-13%2010.9-15.2l40.4-13.5%2013.5-40.4C467-11.6%20473.1-16%20480-16M321.4%2097.4c12.5-12.5%2032.8-12.5%2045.3%200l80%2080c12.5%2012.5%2012.5%2032.8%200%2045.3l-10.9%2010.9c7.9%2022%2012.2%2045.7%2012.2%2070.5%200%20114.9-93.1%20208-208%20208S32%20418.9%2032%20304%20125.1%2096%20240%2096c24.7%200%2048.5%204.3%2070.5%2012.3zM144%20304c0-53%2043-96%2096-96%2013.3%200%2024-10.7%2024-24s-10.7-24-24-24c-79.5%200-144%2064.5-144%20144%200%2013.3%2010.7%2024%2024%2024s24-10.7%2024-24%22/%3E%3C/svg%3E');--md-admonition-icon--danger:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.0.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M416%20427.4c58.5-44%2096-111.6%2096-187.4C512%20107.5%20397.4%200%20256%200S0%20107.5%200%20240c0%2075.8%2037.5%20143.4%2096%20187.4V464c0%2026.5%2021.5%2048%2048%2048h32v-40c0-13.3%2010.7-24%2024-24s24%2010.7%2024%2024v40h64v-40c0-13.3%2010.7-24%2024-24s24%2010.7%2024%2024v40h32c26.5%200%2048-21.5%2048-48zM96%20256a64%2064%200%201%201%20128%200%2064%2064%200%201%201-128%200m256-64a64%2064%200%201%201%200%20128%2064%2064%200%201%201%200-128%22/%3E%3C/svg%3E');--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20640%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.0.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M352%200c0-17.7-14.3-32-32-32s-32%2014.3-32%2032v64h-96c-53%200-96%2043-96%2096v224c0%2053%2043%2096%2096%2096h256c53%200%2096-43%2096-96V160c0-53-43-96-96-96h-96zM160%20368c0-13.3%2010.7-24%2024-24h32c13.3%200%2024%2010.7%2024%2024s-10.7%2024-24%2024h-32c-13.3%200-24-10.7-24-24m120%200c0-13.3%2010.7-24%2024-24h32c13.3%200%2024%2010.7%2024%2024s-10.7%2024-24%2024h-32c-13.3%200-24-10.7-24-24m120%200c0-13.3%2010.7-24%2024-24h32c13.3%200%2024%2010.7%2024%2024s-10.7%2024-24%2024h-32c-13.3%200-24-10.7-24-24M224%20176a48%2048%200%201%201%200%2096%2048%2048%200%201%201%200-96m144%2048a48%2048%200%201%201%2096%200%2048%2048%200%201%201-96%200m-304%200c0-17.7-14.3-32-32-32S0%20206.3%200%20224v96c0%2017.7%2014.3%2032%2032%2032s32-14.3%2032-32zm544-32c-17.7%200-32%2014.3-32%2032v96c0%2017.7%2014.3%2032%2032%2032s32-14.3%2032-32v-96c0-17.7-14.3-32-32-32%22/%3E%3C/svg%3E');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.0.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M288%200H128c-17.7%200-32%2014.3-32%2032s14.3%2032%2032%2032v151.5L7.5%20426.3C2.6%20435%200%20444.7%200%20454.7%200%20486.4%2025.6%20512%2057.3%20512h333.4c31.6%200%2057.3-25.6%2057.3-57.3%200-10-2.6-19.8-7.5-28.4L320%20215.5V64c17.7%200%2032-14.3%2032-32S337.7%200%20320%200zm-96%20215.5V64h64v151.5c0%2011.1%202.9%2022.1%208.4%2031.8L306%20320H142l41.6-72.7c5.5-9.7%208.4-20.6%208.4-31.8%22/%3E%3C/svg%3E');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.0.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M0%20216C0%20149.7%2053.7%2096%20120%2096h8c17.7%200%2032%2014.3%2032%2032s-14.3%2032-32%2032h-8c-30.9%200-56%2025.1-56%2056v8h64c35.3%200%2064%2028.7%2064%2064v64c0%2035.3-28.7%2064-64%2064H64c-35.3%200-64-28.7-64-64zm256%200c0-66.3%2053.7-120%20120-120h8c17.7%200%2032%2014.3%2032%2032s-14.3%2032-32%2032h-8c-30.9%200-56%2025.1-56%2056v8h64c35.3%200%2064%2028.7%2064%2064v64c0%2035.3-28.7%2064-64%2064h-64c-35.3%200-64-28.7-64-64z%22/%3E%3C/svg%3E');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/timeago.css">
+    
+      <link rel="stylesheet" href="../../../css/timeago.css">
+    
+      <link rel="stylesheet" href="../../../css/timeago.css">
+    
+      <link rel="stylesheet" href="../../../css/timeago.css">
+    
+      <link rel="stylesheet" href="../../../css/timeago.css">
+    
+      <link rel="stylesheet" href="../../../css/timeago.css">
+    
+      <link rel="stylesheet" href="../../../css/timeago.css">
+    
+      <link rel="stylesheet" href="../../../css/timeago.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  <link rel="stylesheet" href="../../../assets/stylesheets/custom.css">
+  <link rel="stylesheet" href="../../../assets/stylesheets/signup_form.css">
+  <link rel="stylesheet" href="../../../assets/stylesheets/slideshow.css">
+  
+  <!-- Determine current locale -->
+  
+  
+  <!-- Gibby Avatar and Dialogue Box -->
+  <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head><body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="custom"><div class="gibby-container">
+    <!-- Default English content (fallback) -->
+    <a href="#" class="gibby-link" id="gibby-avatar-link"><img src="https://assets.openterface.com/images/op-avatar.webp" alt="Gibby Mascot" class="gibby-avatar" draggable="false" aria-label="Gibby Mascot"></a>
+    <div class="gibby-dialogue">
+      <p>
+        <a href="#" class="gibby-link" id="gibby-text-link" data-i18n="main.subscribenow-link">Subscribe NOW!</a>
+      </p>
+    </div>
+  </div>
+
+  <script>
+    // Language-specific Gibby content
+    const gibbyContent = {
+      'en': {
+        alt: 'Gibby Mascot',
+        ariaLabel: 'Gibby Mascot',
+        text: 'Subscribe NOW!'
+      },
+      'de': {
+        alt: 'Gibby Maskottchen',
+        ariaLabel: 'Gibby Maskottchen',
+        text: 'JETZT abonnieren!'
+      },
+      'es': {
+        alt: 'Mascota Gibby',
+        ariaLabel: 'Mascota Gibby',
+        text: '¡Suscríbete AHORA!'
+      },
+      'fr': {
+        alt: 'Mascotte Gibby',
+        ariaLabel: 'Mascotte Gibby',
+        text: 'Abonnez-vous MAINTENANT !'
+      },
+      'it': {
+        alt: 'Mascotte Gibby',
+        ariaLabel: 'Mascotte Gibby',
+        text: 'Iscriviti ORA!'
+      },
+      'ja': {
+        alt: 'ギビー マスコット',
+        ariaLabel: 'ギビー マスコット',
+        text: '今すぐ登録！'
+      },
+      'ko': {
+        alt: '기비 마스코트',
+        ariaLabel: '기비 마스코트',
+        text: '지금 구독하세요!'
+      },
+      'pt': {
+        alt: 'Gibby Mascot',
+        ariaLabel: 'Gibby Mascot',
+        text: 'Inscreva-se AGORA!'
+      },
+      'ro': {
+        alt: 'Mascota Gibby',
+        ariaLabel: 'Mascota Gibby',
+        text: 'Abonează-te ACUM!'
+      },
+      'zh': {
+        alt: 'Gibby吉祥物',
+        ariaLabel: 'Gibby 吉祥物',
+        text: '订阅吧!'
+      }
+    };
+
+    // Detect current language from URL or page
+    function detectCurrentLanguage() {
+      const path = window.location.pathname;
+      const segments = path.split('/').filter(segment => segment);
+      
+      // Check if first segment is a language code
+      if (segments.length > 0 && gibbyContent[segments[0]]) {
+        return segments[0];
+      }
+      
+      // Check if we're in a language subdirectory
+      const hostname = window.location.hostname;
+      if (hostname.includes('.') && hostname.split('.').length > 2) {
+        const subdomain = hostname.split('.')[0];
+        if (gibbyContent[subdomain]) {
+          return subdomain;
+        }
+      }
+      
+      // Default to English
+      return 'en';
+    }
+
+    // Update Gibby content based on detected language
+    function updateGibbyContent() {
+      const lang = detectCurrentLanguage();
+      const content = gibbyContent[lang] || gibbyContent['en'];
+      
+      const avatar = document.querySelector('.gibby-avatar');
+      const avatarLink = document.getElementById('gibby-avatar-link');
+      const textLink = document.getElementById('gibby-text-link');
+      
+      if (avatar) {
+        avatar.alt = content.alt;
+        avatar.setAttribute('aria-label', content.ariaLabel);
+      }
+      
+      if (textLink) {
+        textLink.textContent = content.text;
+      }
+      
+      // Set the correct href to preserve current language path
+      const currentPath = window.location.pathname;
+      const formSignupHref = currentPath + '#form_signup';
+      
+      if (avatarLink) {
+        avatarLink.href = formSignupHref;
+      }
+      
+      if (textLink) {
+        textLink.href = formSignupHref;
+      }
+    }
+
+    // Update content immediately
+    updateGibbyContent();
+
+    // Listen for language changes (if MkDocs language selector triggers events)
+    document.addEventListener('DOMContentLoaded', function() {
+      // Update when page loads
+      updateGibbyContent();
+      
+      // Listen for URL changes (for SPA-like behavior)
+      let currentPath = window.location.pathname;
+      setInterval(function() {
+        if (window.location.pathname !== currentPath) {
+          currentPath = window.location.pathname;
+          updateGibbyContent();
+        }
+      }, 100);
+    });
+
+    // Also update when the page becomes visible (for back/forward navigation)
+    document.addEventListener('visibilitychange', function() {
+      if (!document.hidden) {
+        updateGibbyContent();
+      }
+    });
+  </script>
+
+  
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#openterface-android" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <!-- Determine classes -->
+
+
+  
+
+
+<!-- Header -->
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+
+    <!-- Link to home -->
+    <a href="../../" title="Openterface | Bridging Interfaces to Open Possibilities" class="md-header__button md-logo" aria-label="Openterface | Bridging Interfaces to Open Possibilities" data-md-component="logo">
+      
+  <img src="../../../assets/app-logo.png" alt="logo">
+
+    </a>
+
+    <!-- Button to open drawer -->
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+
+    <!-- Header title -->
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Openterface | Bridging Interfaces to Open Possibilities
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Descripción general
+            
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Color palette toggle -->
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="custom" aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="custom" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+
+    <!-- User preference: color palette -->
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+
+    <!-- Site language selector -->
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Seleccionar idioma">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../../app/android/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../zh/app/android/" hreflang="zh" class="md-select__link">
+              简体中文
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../ja/app/android/" hreflang="ja" class="md-select__link">
+              日本語
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../ko/app/android/" hreflang="ko" class="md-select__link">
+              한국어
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../fr/app/android/" hreflang="fr" class="md-select__link">
+              Français
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../de/app/android/" hreflang="de" class="md-select__link">
+              Deutsch
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../it/app/android/" hreflang="it" class="md-select__link">
+              Italiano
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../pt/app/android/" hreflang="pt" class="md-select__link">
+              Português
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../ro/app/android/" hreflang="ro" class="md-select__link">
+              Română
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+
+    <!-- Button to open search modal -->
+    
+      
+
+      <!-- Check if search is actually enabled - see https://t.ly/DT_0V -->
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+
+        <!-- Search interface -->
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+
+    <!-- Repository information -->
+    
+      <div class="md-header__source">
+        <a href="https://github.com/TechxArtisanStudio/Openterface" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    Openterface
+  </div>
+</a>
+      </div>
+    
+  </nav>
+
+  <!-- Custom Navigation Tabs -->
+  
+    
+      <!-- Custom Navigation Tabs -->
+<nav class="md-tabs" aria-label="Pestañas" data-md-component="tabs">
+  <div class="custom-nav-container">
+    
+      
+        <!-- Simple link item -->
+        
+          <a href="../../" class="nav-item">
+            Inicio
+          </a>
+        
+      
+    
+      
+        <!-- Dropdown item -->
+        <div class="custom-nav-dropdown">
+          
+          
+            <a href="../../faq/" class="nav-item">
+              Preguntas frecuentes
+              <span class="dropdown-arrow">▼</span>
+            </a>
+          
+          
+          <div class="dropdown-content">
+            
+              
+                <!-- Direct child with URL -->
+                <a href="../../faq/" class="dropdown-item">
+                  Descripción general
+                </a>
+              
+            
+              
+                <!-- Direct child with URL -->
+                <a href="../../faq/kvm-over-usb/" class="dropdown-item">
+                  Conceptos básicos de KVM-over-USB
+                </a>
+              
+            
+              
+                <!-- Child with children - show the child title and link to its first child -->
+                
+                
+                  <a href="../../product/minikvm/faq/" class="dropdown-item">
+                    Preguntas sobre productos
+                  </a>
+                
+              
+            
+              
+                <!-- Direct child with URL -->
+                <a href="../faq/" class="dropdown-item">
+                  Preguntas sobre aplicaciones
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    
+      
+        <!-- Dropdown item -->
+        <div class="custom-nav-dropdown">
+          
+          
+            <span class="nav-item">
+              Producto
+              <span class="dropdown-arrow">▼</span>
+            </span>
+          
+          
+          <div class="dropdown-content">
+            
+              
+                <!-- Child with children - show the child title and link to its first child -->
+                
+                
+                  <a href="../../product/minikvm/" class="dropdown-item">
+                    Mini‑KVM 👑
+                  </a>
+                
+              
+            
+              
+                <!-- Child with children - show the child title and link to its first child -->
+                
+                
+                  <a href="../../product/kvm-go/pre-launch/" class="dropdown-item">
+                    Serie KVM Go ⏳
+                  </a>
+                
+              
+            
+              
+                <!-- Child with children - show the child title and link to its first child -->
+                
+                
+                  <a href="../../product/uconsole-kvm-extension/" class="dropdown-item">
+                    Extensión KVM para uConsole 🛠️
+                  </a>
+                
+              
+            
+              
+                <!-- Child with children - show the child title and link to its first child -->
+                
+                
+                  <a href="../../product/accessories/" class="dropdown-item">
+                    Accesorios
+                  </a>
+                
+              
+            
+          </div>
+        </div>
+      
+    
+      
+        <!-- Dropdown item -->
+        <div class="custom-nav-dropdown">
+          
+          
+            <a href="../overview/" class="nav-item">
+              Aplicación
+              <span class="dropdown-arrow">▼</span>
+            </a>
+          
+          
+          <div class="dropdown-content">
+            
+              
+                <!-- Direct child with URL -->
+                <a href="../overview/" class="dropdown-item">
+                  Descripción general
+                </a>
+              
+            
+              
+                <!-- Child with children - show the child title and link to its first child -->
+                
+                
+                  <a href="../qt/" class="dropdown-item">
+                    Windows y Linux
+                  </a>
+                
+              
+            
+              
+                <!-- Child with children - show the child title and link to its first child -->
+                
+                
+                  <a href="../macos/" class="dropdown-item">
+                    macOS
+                  </a>
+                
+              
+            
+              
+                <!-- Child with children - show the child title and link to its first child -->
+                
+                
+                  <a href="./" class="dropdown-item active">
+                    Android
+                  </a>
+                
+              
+            
+              
+                <!-- Direct child with URL -->
+                <a href="../faq/" class="dropdown-item">
+                  Preguntas sobre aplicaciones
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    
+      
+        <!-- Simple link item -->
+        
+          <a href="../../use-cases/" class="nav-item">
+            Casos de uso
+          </a>
+        
+      
+    
+      
+        <!-- Simple link item -->
+        
+          <a href="https://shop.techxartisan.com" class="nav-item">
+            Tienda
+          </a>
+        
+      
+    
+      
+        <!-- Dropdown item -->
+        <div class="custom-nav-dropdown">
+          
+          
+            <a href="../../about/community/" class="nav-item">
+              Acerca de
+              <span class="dropdown-arrow">▼</span>
+            </a>
+          
+          
+          <div class="dropdown-content">
+            
+              
+                <!-- Direct child with URL -->
+                <a href="../../about/community/" class="dropdown-item">
+                  Comunidad
+                </a>
+              
+            
+              
+                <!-- Direct child with URL -->
+                <a href="../../about/multi-languages/" class="dropdown-item">
+                  Multilingüe
+                </a>
+              
+            
+              
+                <!-- Direct child with URL -->
+                <a href="../../about/tech-support/" class="dropdown-item">
+                  Soporte Técnico
+                </a>
+              
+            
+              
+                <!-- Direct child with URL -->
+                <a href="../../about/compliance/" class="dropdown-item">
+                  Cumplimiento
+                </a>
+              
+            
+              
+                <!-- Direct child with URL -->
+                <a href="../../about/contribute-support/" class="dropdown-item">
+                  Contribuir y Apoyar
+                </a>
+              
+            
+              
+                <!-- Direct child with URL -->
+                <a href="../../about/media/" class="dropdown-item">
+                  Reseñas y medios
+                </a>
+              
+            
+              
+                <!-- Direct child with URL -->
+                <a href="../../about/bulk_orders/" class="dropdown-item">
+                  Pedidos al por mayor
+                </a>
+              
+            
+              
+                <!-- Direct child with URL -->
+                <a href="../../about/enterprise/" class="dropdown-item">
+                  Empresa
+                </a>
+              
+            
+              
+                <!-- Direct child with URL -->
+                <a href="../../about/about-us/" class="dropdown-item">
+                  Acerca de Nosotros
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../" title="Openterface | Bridging Interfaces to Open Possibilities" class="md-nav__button md-logo" aria-label="Openterface | Bridging Interfaces to Open Possibilities" data-md-component="logo">
+      
+  <img src="../../../assets/app-logo.png" alt="logo">
+
+    </a>
+    Openterface | Bridging Interfaces to Open Possibilities
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/TechxArtisanStudio/Openterface" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    Openterface
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Inicio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../faq/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Preguntas frecuentes
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Preguntas frecuentes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/kvm-over-usb/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Conceptos básicos de KVM-over-USB
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3">
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Preguntas sobre productos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Preguntas sobre productos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/minikvm/faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Preguntas sobre Mini‑KVM
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Preguntas sobre aplicaciones
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3">
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Producto
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Producto
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_1">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../product/minikvm/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Mini‑KVM 👑
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Mini‑KVM 👑
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/minikvm/features/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Características y especificaciones
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/minikvm/whats-in-the-box/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contenido de la caja
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/minikvm/how-to-connect/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cómo conectar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/minikvm/reviews/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reseñas y prensa
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/minikvm/usb-switch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Conmutador USB
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/minikvm/extension-pins/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pines de extensión
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/minikvm/faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Preguntas sobre Mini‑KVM
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2">
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Serie KVM Go ⏳
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Serie KVM Go ⏳
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/kvm-go/pre-launch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Prelanzamiento
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_3">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../product/uconsole-kvm-extension/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Extensión KVM para uConsole 🛠️
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Extensión KVM para uConsole 🛠️
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/TechxArtisanStudio/Openterface_QT/blob/main/doc/flatpak_installation.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Guía de instalación
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_4">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../product/accessories/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Accesorios
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Accesorios
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/accessories/vga-to-hdmi-cable/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cable VGA a HDMI 1 m
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/accessories/nylong-c-to-c-150/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cable Type‑C a C de nailon 1,5 m
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/accessories/type-c-to-c-cable-with-adapter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cable Type‑C a C naranja 1,5 m
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/accessories/black-c-to-a-30/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cable Type‑C a A negro 30 cm
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/accessories/hdmi-male-to-male-cable/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cable HDMI 30 cm
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/accessories/openterface-toolkit-bag/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bolsa de herramientas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Aplicación
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Aplicación
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Descripción general
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../qt/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Windows y Linux
+    
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Windows y Linux
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_3">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../macos/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    macOS
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            macOS
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../macos/dmg-installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Instalación DMG
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
+  
+  
+  <span class="md-ellipsis">
+    Android
+    
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            Android
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Preguntas sobre aplicaciones
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use-cases/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Casos de uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://shop.techxartisan.com" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tienda
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7">
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Acerca de
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Acerca de
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Comunidad
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/multi-languages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Multilingüe
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/tech-support/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Soporte Técnico
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/compliance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cumplimiento
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/contribute-support/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contribuir y Apoyar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/media/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reseñas y medios
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/bulk_orders/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pedidos al por mayor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/enterprise/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Empresa
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/about-us/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Acerca de Nosotros
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="openterface-android">Openterface Android</h1>
+<h2 id="descripcion-general">Descripción General</h2>
+<p>Openterface Mini-KVM es una solución de hardware y software de código abierto diseñada para proporcionar funcionalidad básica de KVM (Teclado, Video, Ratón) para controlar dispositivos a través de una interfaz basada en Android. Este repositorio contiene el código fuente de la aplicación Android, configuraciones de compilación y scripts de soporte para configurar y desplegar el proyecto.</p>
+<p>Estamos comprometidos con el hardware abierto y el software de código abierto, bajo la licencia <a href="LICENSE">GNU Affero General Public License v3</a>.</p>
+<h2 id="modulos-de-funciones">Módulos de Funciones</h2>
+<h3 id="1-visualizacion-de-video">1. Visualización de Video</h3>
+<h4 id="funcionalidad-principal">Funcionalidad Principal</h4>
+<ul>
+<li>Transmite la salida de video del dispositivo objetivo conectado a la pantalla de Android en tiempo real.</li>
+<li>Soporta ajustes de imagen para una visualización óptima.</li>
+</ul>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/android/videoConnect.webp" data-desc-position="bottom"><img alt="image" src="https://assets.openterface.com/images/android/videoConnect.webp"></a></p>
+<h4 id="descripcion-de-la-interfaz-de-usuario">Descripción de la Interfaz de Usuario</h4>
+<ul>
+<li>La pantalla principal muestra la transmisión de video del dispositivo objetivo, ocupando la mayor parte de la interfaz.</li>
+<li>Una barra de herramientas en el lado proporciona controles de ajuste (brillo, contraste, matiz).</li>
+</ul>
+<h4 id="flujo-de-operacion">Flujo de Operación</h4>
+<ol>
+<li>Conecta el hardware Mini-KVM al dispositivo objetivo a través de HDMI y USB.</li>
+<li>Conecta el Mini-KVM a tu dispositivo Android a través de USB-C.</li>
+<li>Inicia la aplicación; la transmisión de video aparece automáticamente.</li>
+<li>Usa los deslizadores de la barra de herramientas para ajustar el brillo, el contraste o el matiz según sea necesario.</li>
+</ol>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/android/colorSetting.webp" data-desc-position="bottom"><img alt="image" src="https://assets.openterface.com/images/android/colorSetting.webp"></a></p>
+<h4 id="caracteristicas-especiales">Características Especiales</h4>
+<ul>
+<li>El zoom con dos dedos mejora la visualización</li>
+</ul>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/android/enlargeAndSideBar.webp" data-desc-position="bottom"><img alt="image" src="https://assets.openterface.com/images/android/enlargeAndSideBar.webp"></a></p>
+<hr>
+<h3 id="2-control-del-raton">2. Control del Ratón</h3>
+<h4 id="funcionalidad-principal_1">Funcionalidad Principal</h4>
+<ul>
+<li>Proporciona control absoluto y relativo del ratón para interactuar con la interfaz del dispositivo objetivo.</li>
+<li>Soporta clics izquierdo y derecho.</li>
+<li>Selecciona el modo desde el menú de la derecha.</li>
+</ul>
+<h4 id="descripcion-de-la-interfaz-de-usuario_1">Descripción de la Interfaz de Usuario</h4>
+<ul>
+<li>La transmisión de video también funciona como un panel táctil para la entrada del ratón.</li>
+<li>Un botón de acción flotante (FAB) alterna entre los modos de ratón y teclado.</li>
+</ul>
+<h4 id="flujo-de-operacion_1">Flujo de Operación</h4>
+<ol>
+<li>Asegúrate de que el dispositivo esté conectado correctamente.</li>
+<li>Toca la pantalla para mover el cursor del ratón a esa posición (control absoluto).</li>
+<li>Haz doble clic con un dedo para el clic izquierdo, clic con dos dedos para el clic derecho.</li>
+<li>El modo de arrastre consiste en mantener presionado el botón izquierdo sin soltarlo.</li>
+</ol>
+<h4 id="caracteristicas-especiales_1">Características Especiales</h4>
+<ul>
+<li>Control del ratón relativo (en desarrollo, alternar a través de la configuración cuando esté disponible).</li>
+</ul>
+<h2 id="_1"><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/android/mouseThouchMode.webp" data-desc-position="bottom"><img alt="image" src="https://assets.openterface.com/images/android/mouseThouchMode.webp"></a></h2>
+<h3 id="3-entrada-de-teclado">3. Entrada de Teclado</h3>
+<h4 id="funcionalidad-principal_2">Funcionalidad Principal</h4>
+<ul>
+<li>Escribe en el dispositivo haciendo clic en las teclas del teclado.</li>
+</ul>
+<h4 id="descripcion-de-la-interfaz-de-usuario_2">Descripción de la Interfaz de Usuario</h4>
+<ul>
+<li>El ícono del teclado está en la esquina inferior derecha.</li>
+<li>El teclado incluye teclas de acceso rápido, teclas del sistema, teclas estándar y teclas de función (F1-F12).</li>
+</ul>
+<h4 id="flujo-de-operacion_2">Flujo de Operación</h4>
+<ol>
+<li>Haz clic en el ícono del teclado en la esquina inferior derecha para mostrar el teclado.</li>
+<li>Escribe texto o presiona las teclas de función según sea necesario.</li>
+</ol>
+<h4 id="caracteristicas-especiales-o-atajos">Características Especiales o Atajos</h4>
+<ul>
+<li><strong>Teclas de Atajo</strong>: Ctrl+C, Ctrl+V, Ctrl+Z, Ctrl+X, Ctrl+A, Ctrl+S,
+    Win+Tab, Win+S, Win+E, Win+R, Win+D, Win+L, Alt+F4, Ctrl+Alt+Del, Alt+PrtScr.</li>
+<li><strong>Teclas de Función</strong>: F1-F12, Teclas de Símbolo.</li>
+<li><strong>Teclas Estándar</strong>: 0-9, A-Z, Enter, Espacio, Suprimir.</li>
+</ul>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/android/enlargeAndKeyBoard.webp" data-desc-position="bottom"><img alt="image" src="https://assets.openterface.com/images/android/enlargeAndKeyBoard.webp"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/android/keyBoardFunction.webp" data-desc-position="bottom"><img alt="image" src="https://assets.openterface.com/images/android/keyBoardFunction.webp"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/android/keyBoardSystem.webp" data-desc-position="bottom"><img alt="image" src="https://assets.openterface.com/images/android/keyBoardSystem.webp"></a></p>
+<hr>
+<p>Mientras tanto, siéntete libre de explorar nuestro <strong>repositorio de GitHub</strong> de código abierto: <a href="https://github.com/TechxArtisanStudio/Openterface_Android">Openterface_Android</a> para el código más reciente, actualizaciones, ejemplos y para comunicar problemas.</p>
+<p>También puedes unirte a nuestra <a href="/discord">comunidad de Discord</a> para contactar con nuestro equipo de desarrollo y otros usuarios increíbles para discutir cualquier tema relacionado con KVM.</p>
+<p>Para soporte directo, no dudes en enviarnos un correo electrónico a <a href="mailto:support@openterface.com">support@openterface.com</a>.</p>
+<hr>
+<p><strong>¿Tienes comentarios sobre esta página?</strong> <a href="https://forms.gle/wmxoR2C1VdG36mT69">Háznoslo saber aquí.</a></p>
+
+
+
+
+
+
+
+  
+    
+  
+  
+    
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Última actualización">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="18 de septiembre de 2025 08:39:21 UTC"><span class="timeago" datetime="2025-09-18T08:39:21+00:00" locale="es"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="18 de septiembre de 2025 08:39:21 UTC">2025-09-18</span>
+  </span>
+
+    
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Creado">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"></path></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="18 de septiembre de 2025 08:39:21 UTC"><span class="timeago" datetime="2025-09-18T08:39:21+00:00" locale="es"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="18 de septiembre de 2025 08:39:21 UTC">2025-09-18</span>
+  </span>
+
+    
+    
+    
+  </aside>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <!-- Footer -->
+<footer class="md-footer">
+
+  <!-- Link to previous and/or next page -->
+  
+    
+      
+        <nav class="md-footer__inner md-grid" aria-label="Pie">
+      
+
+        <!-- Link to previous page -->
+        
+          
+          <a href="../macos/dmg-installation/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Instalación DMG">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">Anterior</span>
+              <div class="md-ellipsis">
+                Instalación DMG
+              </div>
+            </div>
+          </a>
+        
+
+        <!-- Link to next page -->
+        
+          
+          <a href="../faq/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Preguntas sobre aplicaciones">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              <div class="md-ellipsis">
+                Preguntas sobre aplicaciones
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+
+  <!-- Further information -->
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid footer-flex-container">
+
+      <!-- Signup form -->
+      <div class="signup-form-container footer-flex-item">
+        
+        <!-- All languages submit directly to Google Form -->
+        <div id="form_signup">
+          <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdFc5YUQN74mQpFj6U4NkpNH4TGZGgxur7wVADWSWEsmNezdg/formResponse" method="post" id="subscribe-form" name="subscribe-form" target="_blank">
+            <div id="form_signup_scroll">
+              <div class="gf-field-group">
+                
+                  <input type="text" name="entry.1988135673" class="required" id="form-name" required placeholder="Tu Nombre">
+                
+              </div>
+              <div class="gf-field-group">
+                
+                  <input type="email" name="emailAddress" class="required email" id="form-email" required placeholder="Tu Correo Electrónico *">
+                  <input type="hidden" name="entry.22394832" value="Openterface-es">
+                
+              </div>
+              <div class="clear">
+                
+                  <input type="submit" name="submit" id="form-submit" class="button" value="✉️ ¡Suscríbete a las Últimas Novedades! 🐝">
+                  <p class="footnote">No más de un correo al mes. Cancela cuando quieras. <br> Para consultas, envíanos un correo a <a href="mailto:info@openterface.com">info@openterface.com</a>.</p>
+                
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Copyright info -->
+      <div class="footer-flex-item footer-copyright">
+        <!-- Copyright and theme information -->
+<div class="md-copyright">
+  
+  
+  
+  <!-- Always use our localized copyright, ignore config.copyright -->
+  <div class="md-copyright__highlight">
+    
+      Copyright © Todos los derechos reservados. 2025 <a href="https://www.openterface.com">Openterface</a> | <a href="https://www.techxartisan.com">TechxArtisan</a><br>
+      <a href="/es/">Inicio</a> | <a href="/es/policy/terms-of-service">Términos de Servicio</a> | <a href="/es/policy/privacy">Política de Privacidad</a> | <a href="#__consent">Cookie</a> | <a href="/es/about/about-us">Acerca de</a> | <a href="/es/about/multi-languages">Idiomas</a>
+    
+  </div>
+  
+  
+    
+      Hecho con
+      <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+        Material for MkDocs
+      </a>
+    
+  
+</div>
+      </div>
+
+      <!-- Social links -->
+      
+        <div class="footer-flex-item footer-social">
+          
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm" target="_blank" rel="noopener" title="www.crowdsupply.com" class="md-social__link">
+      <!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 140 140"><path d="M 68.3,9.7 8,70 68.3,130.3 Z" fill="#555"></path><path d="M 71.7,9.7 V 130.3 L 132,70 Z" fill="#099"></path><path d="m 90.7,91 c -6.6,0 -11.8,-3.6 -14,-12 l 8,-1.7 c 0.9,5.1 3.9,7 6.3,7 2.8,0 5,-1.9 5,-5.1 0,-8 -18.2,-8.2 -18.2,-20.1 0,-7.3 4.4,-12 12.8,-12 7.3,0 11.7,4.3 13.1,10.4 l -7.3,2.1 c -1.4,-4 -3.1,-5.7 -6,-5.7 -2.9,0 -4.5,1.8 -4.5,4.7 0,6.4 18.2,6.9 18.2,20.3 0.2,7.2 -4.9,12.1 -13.4,12.1 z" fill="#FFF"></path><path d="m 60.7,63.9 h -8.2 v -3.6 c 0,-4.7 -2.1,-6 -5.3,-6 -3.2,0 -5.3,1.3 -5.3,6 v 17.4 c 0,4.7 2.1,6 5.3,6 3.2,0 5.3,-1.3 5.3,-6 v -3.8 h 8.2 v 2.7 c 0,10.5 -5.6,14.3 -13.5,14.3 -7.9,0 -13.5,-3.8 -13.5,-14.3 V 61.4 c 0,-10.5 5.6,-14.3 13.5,-14.3 7.9,0 13.5,3.8 13.5,14.3 z" fill="#FFF"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="/reddit" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M373 138.6c-25.2 0-46.3-17.5-51.9-41-30.6 4.3-54.2 30.7-54.2 62.4v.2c47.4 1.8 90.6 15.1 124.9 36.3 12.6-9.7 28.4-15.5 45.5-15.5 41.3 0 74.7 33.4 74.7 74.7 0 29.8-17.4 55.5-42.7 67.5-2.4 86.8-97 156.6-213.2 156.6S45.5 410.1 43 323.4c-25.4-11.9-43-37.7-43-67.7C0 214.4 33.4 181 74.7 181c17.2 0 33 5.8 45.7 15.6 34-21.1 76.8-34.4 123.7-36.4v-.3c0-44.3 33.7-80.9 76.8-85.5C325.8 50.2 347.2 32 373 32c29.4 0 53.3 23.9 53.3 53.3s-23.9 53.3-53.3 53.3M157.5 255.3c-20.9 0-38.9 20.8-40.2 47.9s17.1 38.1 38 38.1 36.6-9.8 37.8-36.9-14.7-49.1-35.7-49.1zM395 303.1c-1.2-27.1-19.2-47.9-40.2-47.9s-36.9 22-35.7 49.1 16.9 36.9 37.8 36.9 39.3-11 38-38.1zm-60.1 70.8c1.5-3.6-1-7.7-4.9-8.1-23-2.3-47.9-3.6-73.8-3.6s-50.8 1.3-73.8 3.6c-3.9.4-6.4 4.5-4.9 8.1 12.9 30.8 43.3 52.4 78.7 52.4s65.8-21.6 78.7-52.4"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="/discord" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M492.5 69.8c-.2-.3-.4-.6-.8-.7-38.1-17.5-78.4-30-119.7-37.1-.4-.1-.8 0-1.1.1s-.6.4-.8.8c-5.5 9.9-10.5 20.2-14.9 30.6-44.6-6.8-89.9-6.8-134.4 0-4.5-10.5-9.5-20.7-15.1-30.6-.2-.3-.5-.6-.8-.8s-.7-.2-1.1-.2C162.5 39 122.2 51.5 84.1 69c-.3.1-.6.4-.8.7C7.1 183.5-13.8 294.6-3.6 404.2c0 .3.1.5.2.8s.3.4.5.6c44.4 32.9 94 58 146.8 74.2.4.1.8.1 1.1 0s.7-.4.9-.7c11.3-15.4 21.4-31.8 30-48.8.1-.2.2-.5.2-.8s0-.5-.1-.8-.2-.5-.4-.6-.4-.3-.7-.4c-15.8-6.1-31.2-13.4-45.9-21.9-.3-.2-.5-.4-.7-.6s-.3-.6-.3-.9 0-.6.2-.9.3-.5.6-.7c3.1-2.3 6.2-4.7 9.1-7.1.3-.2.6-.4.9-.4s.7 0 1 .1c96.2 43.9 200.4 43.9 295.5 0 .3-.1.7-.2 1-.2s.7.2.9.4c2.9 2.4 6 4.9 9.1 7.2.2.2.4.4.6.7s.2.6.2.9-.1.6-.3.9-.4.5-.6.6c-14.7 8.6-30 15.9-45.9 21.8-.2.1-.5.2-.7.4s-.3.4-.4.7-.1.5-.1.8.1.5.2.8c8.8 17 18.8 33.3 30 48.8.2.3.6.6.9.7s.8.1 1.1 0c52.9-16.2 102.6-41.3 147.1-74.2.2-.2.4-.4.5-.6s.2-.5.2-.8c12.3-126.8-20.5-236.9-86.9-334.5zm-302 267.7c-29 0-52.8-26.6-52.8-59.2s23.4-59.2 52.8-59.2c29.7 0 53.3 26.8 52.8 59.2 0 32.7-23.4 59.2-52.8 59.2m195.4 0c-29 0-52.8-26.6-52.8-59.2s23.4-59.2 52.8-59.2c29.7 0 53.3 26.8 52.8 59.2 0 32.7-23.2 59.2-52.8 59.2"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://youtube.com/@TechxArtisan" target="_blank" rel="noopener" title="youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M549.7 124.1c-6.2-23.7-24.8-42.3-48.3-48.6C458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5c-23.5 6.3-42 24.9-48.3 48.6C15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.3 448 288.1 448 288.1 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2z"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/TechxArtisan" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M357.2 48h70.6L273.6 224.2 455 464H313L201.7 318.6 74.5 464H3.8l164.9-188.5L-5.2 48h145.6l100.5 132.9zm-24.8 373.8h39.1L119.1 88h-42z"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.facebook.com/TechxArtisan" target="_blank" rel="noopener" title="www.facebook.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M80 299.3V512h116V299.3h86.5l18-97.8H196v-34.6c0-51.7 20.3-71.5 72.7-71.5 16.3 0 29.4.4 37 1.2V7.9C291.4 4 256.4 0 236.2 0 129.3 0 80 50.5 80 159.4v42.1H14v97.8z"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/company/techxartisan/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8c0-14.3 5.7-27.9 15.8-38S39.6 0 53.8 0s27.9 5.7 38 15.8 15.8 23.8 15.8 38c0 29.7-24.1 54.3-53.8 54.3M447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"></path></svg>
+    </a>
+  
+</div>
+        </div>
+      
+    </div>
+  </div>
+
+  <!-- Load language-select.js -->
+  <script>
+    (function() {
+      var langselect = document.createElement('script');
+      langselect.src = "../../../assets/javascripts/language-select.js";
+      langselect.async = false; // Load synchronously to ensure it's available
+      document.body.appendChild(langselect);
+    })();
+  </script>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            <!--
+  Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Determine current locale -->
+
+
+<!-- Determine cookies -->
+
+
+
+  
+    
+  
+
+
+<!-- Determine actions -->
+
+
+
+<!-- Determine initial settings state -->
+
+  
+
+
+<!-- Consent title and description with language-specific content -->
+
+  <h4>Consentimiento de Cookies</h4>
+  <p>Utilizamos cookies para mejorar la calidad del contenido de la documentación, analizar la efectividad del sitio y las necesidades. Al dar su consentimiento, nos ayuda a mejorar nuestro sitio web. ¡Gracias!</p>
+
+
+<!-- Consent settings -->
+<input class="md-toggle" type="checkbox" id="__settings" checked>
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+      
+      
+        
+        
+      
+      <li class="task-list-item">
+        <label class="task-list-control">
+          <input type="checkbox" name="github" checked>
+          <span class="task-list-indicator"></span>
+          GitHub
+        </label>
+      </li>
+    
+  </ul>
+</div>
+
+<!-- Consent controls -->
+<div class="md-consent__controls">
+  
+
+    <!-- Button to accept cookies -->
+    
+      <button class="md-button md-button--primary">Aceptar</button>
+    
+
+    <!-- Button to reject cookies -->
+    
+
+    <!-- Button to manage settings -->
+    
+  
+
+    <!-- Button to accept cookies -->
+    
+
+    <!-- Button to reject cookies -->
+    
+      <button type="reset" class="md-button">Rechazar</button>
+    
+
+    <!-- Button to manage settings -->
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["toc.integrate", "toc.follow", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer", "navigation.indexes", "navigation.tracking", "navigation.expand", "search.suggest", "search.highlight", "content.tabs", "content.code.annotation", "content.code.copy", "content.tabs.link", "last_updated"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+  
+      <script src="../../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+        <script src="../../../js/timeago.min.js"></script>
+      
+        <script src="../../../js/timeago_mkdocs_material.js"></script>
+      
+        <script src="../../../js/timeago.min.js"></script>
+      
+        <script src="../../../js/timeago_mkdocs_material.js"></script>
+      
+        <script src="../../../js/timeago.min.js"></script>
+      
+        <script src="../../../js/timeago_mkdocs_material.js"></script>
+      
+        <script src="../../../js/timeago.min.js"></script>
+      
+        <script src="../../../js/timeago_mkdocs_material.js"></script>
+      
+        <script src="../../../js/timeago.min.js"></script>
+      
+        <script src="../../../js/timeago_mkdocs_material.js"></script>
+      
+        <script src="../../../js/timeago.min.js"></script>
+      
+        <script src="../../../js/timeago_mkdocs_material.js"></script>
+      
+        <script src="../../../js/timeago.min.js"></script>
+      
+        <script src="../../../js/timeago_mkdocs_material.js"></script>
+      
+        <script src="../../../js/timeago.min.js"></script>
+      
+        <script src="../../../js/timeago_mkdocs_material.js"></script>
+      
+    
+  <script src="https://assets.openterface.com/js/custom.min.js"></script>
+  <script src="../../../assets/javascripts/slideshow.js"></script>
+
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
