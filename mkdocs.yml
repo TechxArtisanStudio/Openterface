@@ -92,6 +92,10 @@ extra:
     actions:
       - accept
       - reject
+  analytics:
+    provider: google
+    property: G-EKZEH6QYWT
+
 markdown_extensions:
   - tables
   - def_list
