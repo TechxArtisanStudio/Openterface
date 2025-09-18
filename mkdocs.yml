@@ -85,6 +85,9 @@ extra:
     - icon: fontawesome/brands/linkedin-in
       link: https://www.linkedin.com/company/techxartisan/
   consent:
+    analytics:
+      provider: google
+      property: G-EKZEH6QYWT
     title: Cookie Consent
     description:
       We use cookies to enhance quality of docs content, analyse site effectiveness
@@ -92,9 +95,6 @@ extra:
     actions:
       - accept
       - reject
-  analytics:
-    provider: google
-    property: G-EKZEH6QYWT
 
 markdown_extensions:
   - tables
