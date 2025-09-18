@@ -1,6 +1,22 @@
 {
-    "tabWidth": 4,
-    "useTabs": false,
-    "trailingComma": "none"
+    "overrides": [
+      {
+        "files": ["*.yml", "*.yaml"],
+        "options": {
+          "tabWidth": 2,
+          "useTabs": false,
+          "singleQuote": false,
+          "proseWrap": "preserve"
+        }
+      },
+      {
+        "files": ["*.md"],
+        "options": {
+          "tabWidth": 4,
+          "printWidth": 80,
+          "proseWrap": "preserve"
+        }
+      }
+    ]
   }
   

@@ -116,26 +116,3 @@ For insights from experienced IT professionals and enterprises, see our [Openter
     Quick on-site intervention for regionally dispersed setups.
 
 </div>
-
----
-
-## Bulk Orders or Custom Solutions
-
-If you need multiple units or have specialized KVM control requirements, explore our [Enterprise & Media FAQs](/faq/business) or contact us at [info@openterface.com](mailto:info@openterface.com) for:
-
-- **Bulk Orders & Reseller Partnerships**  
-- **Industry-Specific / Customized KVM Integrations**  
-
-We welcome enterprises seeking unique solutions to optimize their entire IT ecosystem.
-
----
-
-## Power Your IT Workflow NOW!
-
-From **headless server troubleshooting** to **cross-platform device management**, the **Openterface Mini-KVM** is your key to streamlining daily IT challenges:
-
-- Check out our [Openterface Mini-KVM FAQ](/faq/minikvm/op-minikvm).  
-- Reach out at [info@openterface.com](mailto:info@openterface.com) for partnership or OEM discussions.  
-- Join our [community](/community/) to connect with fellow users and discover open-source innovation in action.
-
-Elevate your organization’s efficiency, security, and control with **Openterface**—your partner in seamless device management.

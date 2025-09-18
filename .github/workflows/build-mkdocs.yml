@@ -1,4 +1,4 @@
-name: ci 
+name: ci
 on:
   push:
     branches:
@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Fetch all history for all branches and tags
+          fetch-depth: 0 # Fetch all history for all branches and tags
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
@@ -21,7 +21,7 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
       - uses: actions/cache@v3
         with:
           key: mkdocs-material-${{ env.cache_id }}
@@ -32,17 +32,12 @@ jobs:
       # install additional dependencies here
       - name: Install additional dependencies
         run: pip install -r requirements.txt
-      - name: Get latest package release version
-        id: get_version
+      - name: Update mkdocs config with dynamic values
         run: |
-          echo "QT_VERSION=$(curl -sL https://api.github.com/repos/TechxArtisanStudio/Openterface_QT/releases/latest | grep '"tag_name":'| sed -E 's/.*"([^"]+)".*/\1/')" >> $GITHUB_ENV
-          echo "ANDROID_VERSION=$(curl -sL https://api.github.com/repos/TechxArtisanStudio/Openterface_Android/releases/latest | grep '"tag_name":'| sed -E 's/.*"([^"]+)".*/\1/')" >> $GITHUB_ENV
-          echo "MACOS_VERSION=$(curl -sL https://apps.apple.com/us/app/openterface-mini-kvm/id6478481082 | grep -o 'Version v*[0-9]*\.[0-9]*' | head -1 | awk '{print $2}')" >> $GITHUB_ENV
-      - name: Update mkdocs config
+          python scripts/update_config.py
+      - name: Add all languages to mkdocs config
         run: |
-          sed -i "/^extra:/a\  qt_version: ${{ env.QT_VERSION }}" mkdocs.yml
-          sed -i "/^extra:/a\  android_version: ${{ env.ANDROID_VERSION }}" mkdocs.yml
-          sed -i "/^extra:/a\  macos_version: ${{ env.MACOS_VERSION }}" mkdocs.yml
+          python scripts/manage_i18n.py add
       - name: Copy .well-known directory
         run: |
           mkdir -p site/.well-known

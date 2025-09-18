@@ -4,17 +4,18 @@
     return;
   }
 
+  const baseUrl = window.location.origin;
   const langMap = {
-    'en': 'https://openterface.com/',
-    'de': 'https://de.openterface.com/',
-    'fr': 'https://fr.openterface.com/',
-    'es': 'https://es.openterface.com/',
-    'it': 'https://it.openterface.com/',
-    'ja': 'https://jp.openterface.com/',
-    'ko': 'https://kr.openterface.com/',
-    'pt': 'https://pt.openterface.com/',
-    'ru': 'https://ru.openterface.com/',
-    'zh': 'https://cn.openterface.com/',
+    'en': baseUrl + '/',
+    'de': baseUrl + '/de/',
+    'fr': baseUrl + '/fr/',
+    'es': baseUrl + '/es/',
+    'it': baseUrl + '/it/',
+    'ja': baseUrl + '/ja/',
+    'ko': baseUrl + '/ko/',
+    'pt': baseUrl + '/pt/',
+    'ru': baseUrl + '/ru/',
+    'zh': baseUrl + '/zh/',
   };
   const langNames = { de: "Deutsch", en: "English", zh: "中文", fr: "Français", es: "Español", it: "Italiano", ja: "日本語", ko: "한국어", pt: "Português", ru: "Русский" };
   const userLang = (navigator.language || navigator.userLanguage || '').toLowerCase().slice(0,2);

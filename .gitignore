@@ -9,8 +9,11 @@ venv
 Openterface/
 .venv
 .cache
-.ipynb_checkpoints
 mkdocs-venv
 *.pyc
 .envrc
 .python-version
+.vscode
+i18n_audit.csv
+prompts/
+site/

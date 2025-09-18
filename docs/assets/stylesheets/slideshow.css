@@ -1,0 +1,162 @@
+/* Reusable Slideshow Styles */
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 320px; /* Prevent height jumping */
+}
+
+.slideshow-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  height: 320px; /* Fixed height to prevent jumping */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.slide img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.slideshow-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+  gap: 16px;
+}
+
+.slideshow-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  gap: 8px;
+}
+
+.slideshow-dots {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-arrow {
+  background: none;
+  border: none;
+  color: #ccc;
+  padding: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.3s;
+}
+
+.nav-arrow:hover {
+  color: #999;
+}
+
+.nav-arrow:active {
+  color: #666;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #ddd;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.active, .dot:hover {
+  background-color: #999;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .slideshow-container {
+    /* Optimize for mobile touch */
+    touch-action: pan-x;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  
+  .slideshow-wrapper {
+    /* Prevent image drag on mobile */
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+  }
+  
+  .slide img {
+    /* Prevent image selection and drag on mobile */
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+    pointer-events: none;
+  }
+  
+  .slideshow-navigation {
+    gap: 12px;
+  }
+  
+  .nav-arrow {
+    padding: 6px;
+    font-size: 16px;
+    /* Larger touch targets on mobile */
+    min-width: 44px;
+    min-height: 44px;
+  }
+  
+  .slideshow-dots {
+    gap: 6px;
+  }
+  
+  .dot {
+    height: 6px;
+    width: 6px;
+    /* Smaller touch targets for dots */
+    min-width: 12px;
+    min-height: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .dot::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: inherit;
+    border-radius: 50%;
+  }
+}

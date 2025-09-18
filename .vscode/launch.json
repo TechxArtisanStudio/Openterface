@@ -2,19 +2,53 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Run Local",
-            "type": "debugpy",
+            "name": "Python: Current File",
+            "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/run_local.py",
-            "console": "integratedTerminal"
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "python": "./.venv/bin/python"
         },
         {
-            "name": "Serve Local",
-            "type": "debugpy",
+            "name": "Python: Run MkDocs Server",
+            "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/serve_local.py",
+            "program": "${workspaceFolder}/run.py",
             "console": "integratedTerminal",
-            "justMyCode": true
+            "cwd": "${workspaceFolder}",
+            "args": ["--port", "8002"],
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "python": "./.venv/bin/python"
         },
+        {
+            "name": "Python: Update Config Script",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/update_config.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "python": "./.venv/bin/python"
+        },
+        {
+            "name": "Python: I18n Workflow",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/i18n-tools/i18n_workflow.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "python": "./.venv/bin/python"
+        }
     ]
 }
