@@ -8,51 +8,51 @@ Pentru a face funcționale gadget-urile Openterface™ KVM, va trebui să instal
 
 <div class="grid cards" markdown>
 
-- ### :fontawesome-brands-windows:{ .lg } **Windows**
+-   ### :fontawesome-brands-windows:{ .lg } **Windows**
 
-  ***
+    ***
 
-  Descărcați sau construiți din codul sursă pentru **Openterface QT Win**:
+    Descărcați sau construiți din codul sursă pentru **Openterface QT Win**:
 
-  [:octicons-download-24: Descărcați Instalatorul {{qt_version}}](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.windows.amd64.installer.exe) <br>
-  [:octicons-download-24: Descărcați EXE Portabil {{qt_version}}](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT-portable.exe) <br>
-  [:octicons-mark-github-16: Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT) <br>
-  [:octicons-play-24: Urmăriți Demo](https://youtu.be/ERzpGtRvP2o?si=e9k402f0nxsD8o2j)
+    [:octicons-download-24: Descărcați Instalatorul {{qt_version}}](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.windows.amd64.installer.exe) <br>
+    [:octicons-download-24: Descărcați EXE Portabil {{qt_version}}](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT-portable.exe) <br>
+    [:octicons-mark-github-16: Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT) <br>
+    [:octicons-play-24: Urmăriți Demo](https://youtu.be/ERzpGtRvP2o?si=e9k402f0nxsD8o2j)
 
-- ### :fontawesome-brands-apple:{ .lg } **macOS**
+-   ### :fontawesome-brands-apple:{ .lg } **macOS**
 
-  ***
+    ***
 
-  Descărcați sau construiți din codul sursă pentru **Openterface MacOS**:
+    Descărcați sau construiți din codul sursă pentru **Openterface MacOS**:
 
-  [:octicons-arrow-right-24: Instalați din App Store](/appstore) <br>
-  [:octicons-download-24: Descărcați DMG Portabil](macos/dmg-installation.md) <br>
-  [:octicons-mark-github-16: Openterface_MacOS](https://github.com/TechxArtisanStudio/Openterface_MacOS) <br>
-  [:octicons-play-24: Urmăriți Demo](https://youtu.be/m7OpUem0zqY?si=tclfl0Jl77tmE6_e)
+    [:octicons-arrow-right-24: Instalați din App Store](/appstore) <br>
+    [:octicons-download-24: Descărcați DMG Portabil](macos/dmg-installation.md) <br>
+    [:octicons-mark-github-16: Openterface_MacOS](https://github.com/TechxArtisanStudio/Openterface_MacOS) <br>
+    [:octicons-play-24: Urmăriți Demo](https://youtu.be/m7OpUem0zqY?si=tclfl0Jl77tmE6_e)
 
-- ### :fontawesome-brands-linux:{ .lg } **Linux**
+-   ### :fontawesome-brands-linux:{ .lg } **Linux**
 
-  ***
+    ***
 
-  Descărcați sau construiți din codul sursă pentru **Openterface QT Linux**:
+    Descărcați sau construiți din codul sursă pentru **Openterface QT Linux**:
 
-  [:octicons-download-24: Descărcați {{qt_version}} AMD64 DEB](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.linux.amd64.deb) <br>
-  [:octicons-download-24: Descărcați {{qt_version}} AMD64 RPM](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.linux.amd64.rpm) <br>
-  [:octicons-download-24: Descărcați {{qt_version}} AMD64 AppImage](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.linux.amd64.AppImage) <br>
-  [:octicons-download-24: Descărcați {{qt_version}} ARM64 DEB](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.linux.arm64.deb) <br>
-  [:octicons-download-24: Descărcați {{qt_version}} ARM64 RPM](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.linux.arm64.rpm) <br>
-  [:octicons-mark-github-16: Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT) <br>
-  [:octicons-play-24: Urmăriți Demo](https://youtu.be/_ScpI6TC0Pk?si=FSg7A2zmST8QbFec)
+    [:octicons-download-24: Descărcați {{qt_stable}} AMD64 DEB](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_stable}}/openterfaceQT.linux.amd64.deb) <br>
+    [:octicons-download-24: Descărcați {{qt_stable}} AMD64 RPM](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_stable}}/openterfaceQT.linux.amd64.rpm) <br>
+    [:octicons-download-24: Descărcați {{qt_stable}} AMD64 AppImage](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_stable}}/openterfaceQT.linux.amd64.AppImage) <br>
+    [:octicons-download-24: Descărcați {{qt_stable}} ARM64 DEB](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_stable}}/openterfaceQT.linux.arm64.deb) <br>
+    [:octicons-download-24: Descărcați {{qt_stable}} ARM64 RPM](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_stable}}/openterfaceQT.linux.arm64.rpm) <br>
+    [:octicons-mark-github-16: Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT) <br>
+    [:octicons-play-24: Urmăriți Demo](https://youtu.be/_ScpI6TC0Pk?si=FSg7A2zmST8QbFec)
 
-- ### :fontawesome-brands-android:{ .lg } **Android**
+-   ### :fontawesome-brands-android:{ .lg } **Android**
 
-  ***
+    ***
 
-  Descărcați sau construiți din codul sursă pentru **Android APK**:
+    Descărcați sau construiți din codul sursă pentru **Android APK**:
 
-  [:octicons-download-24: Descărcați {{android_version}}](https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{android_version}}/OpenterfaceAndroid-release.apk) <br>
-  [:octicons-mark-github-16: Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android) <br>
-  [:octicons-play-24: Urmăriți Demo](https://x.com/TechxArtisan/status/1825460088922071398)
+    [:octicons-download-24: Descărcați {{android_version}}](https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{android_version}}/OpenterfaceAndroid-release.apk) <br>
+    [:octicons-mark-github-16: Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android) <br>
+    [:octicons-play-24: Urmăriți Demo](https://x.com/TechxArtisan/status/1825460088922071398)
 
 </div>
 
@@ -63,13 +63,13 @@ Deoarece toate aplicațiile noastre sunt open source, s-ar putea să întâlniț
 
 ### 💻 Compatibilitate
 
-- **Software Gazdă**: Instalați aplicația noastră gazdă pentru macOS, Windows sau Linux.
-- **Dispozitive Țintă**: Nu este necesară nicio configurare—doar conectați orice dispozitiv cu ieșire video (HDMI, VGA, etc.) și o portă USB pentru controlul tastaturii/mouse-ului. Funcționează cu Windows, macOS, Linux, Android și iOS.
+-   **Software Gazdă**: Instalați aplicația noastră gazdă pentru macOS, Windows sau Linux.
+-   **Dispozitive Țintă**: Nu este necesară nicio configurare—doar conectați orice dispozitiv cu ieșire video (HDMI, VGA, etc.) și o portă USB pentru controlul tastaturii/mouse-ului. Funcționează cu Windows, macOS, Linux, Android și iOS.
 
 ### 🖱 Moduri Mouse
 
-- **Modul Absolut**: Mouse-ul gazdă mapează direct la poziția ecranului țintă.
-- **Modul Relativ**: Mișcă cursorul țintă relativ la poziția curentă. Ieșiți cu o comandă rapidă.
+-   **Modul Absolut**: Mouse-ul gazdă mapează direct la poziția ecranului țintă.
+-   **Modul Relativ**: Mișcă cursorul țintă relativ la poziția curentă. Ieșiți cu o comandă rapidă.
 
 ### ⌨️ Tastatură
 
@@ -88,19 +88,19 @@ Audio-ul țintă se transmite prin HDMI și se redă pe computerul dvs. gazdă.
 
 Vizualizați ecranul dvs. țintă direct în aplicație.
 
-- **Modele Actuale**: Afișare de până la **1080p 30Hz** în aplicație, cu suport pentru intrare **4K 30Hz** prin HDMI.
-- **Alte Intrări**: Compatibil cu VGA, DVI, Micro HDMI și mai multe când folosiți adaptoare potrivite.
-- **Modele Viitoare**: Rezoluții și rate de cadre mai mari vor fi suportate pe măsură ce vor fi lansate noi versiuni de hardware.
+-   **Modele Actuale**: Afișare de până la **1080p 30Hz** în aplicație, cu suport pentru intrare **4K 30Hz** prin HDMI.
+-   **Alte Intrări**: Compatibil cu VGA, DVI, Micro HDMI și mai multe când folosiți adaptoare potrivite.
+-   **Modele Viitoare**: Rezoluții și rate de cadre mai mari vor fi suportate pe măsură ce vor fi lansate noi versiuni de hardware.
 
 ### 🔄 Porturi Comutabile
 
 Unele dispozitive Openterface includ porturi care pot fi **comutate între gazdă și țintă**, cum ar fi porturile USB 2.0 sau sloturile pentru carduri micro-SD (pe modelele viitoare).
 
-- **Folosirea Unul câte Unul**: Doar o parte (gazdă sau țintă) poate accesa portul la un moment dat.
-- **Metode de Comutare**:
-  - **Comutator Hardware** — comutator fizic pe dispozitiv
-  - **Buton Software** — control prin aplicația gazdă
-- **Important**:
-  - Ejectați în siguranță dispozitivele de stocare (drive-uri USB sau carduri micro-SD) înainte de comutare.
-  - Evitați conectarea dispozitivelor de înaltă putere pentru a preveni instabilitatea sau deteriorarea.
-  - Vedeți [Ghidul pentru Porturi Comutabile](/usb-switch) pentru detalii și diagrame logice.
+-   **Folosirea Unul câte Unul**: Doar o parte (gazdă sau țintă) poate accesa portul la un moment dat.
+-   **Metode de Comutare**:
+    -   **Comutator Hardware** — comutator fizic pe dispozitiv
+    -   **Buton Software** — control prin aplicația gazdă
+-   **Important**:
+    -   Ejectați în siguranță dispozitivele de stocare (drive-uri USB sau carduri micro-SD) înainte de comutare.
+    -   Evitați conectarea dispozitivelor de înaltă putere pentru a preveni instabilitatea sau deteriorarea.
+    -   Vedeți [Ghidul pentru Porturi Comutabile](/usb-switch) pentru detalii și diagrame logice.

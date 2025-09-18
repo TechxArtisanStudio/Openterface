@@ -29,215 +29,217 @@ theme:
       quote: fontawesome/solid/quote-left
   custom:
     js:
-    - assets/javascripts/custom-nav.js
+      - assets/javascripts/custom-nav.js
   features:
-  - toc.integrate
-  - toc.follow
-  - navigation.tabs
-  - navigation.tabs.sticky
-  - navigation.top
-  - navigation.footer
-  - navigation.indexes
-  - navigation.tracking
-  - navigation.expand
-  - search.suggest
-  - search.highlight
-  - content.tabs
-  - content.code.annotation
-  - content.code.copy
-  - content.tabs.link
-  - last_updated
+    - toc.integrate
+    - toc.follow
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - navigation.tracking
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.tabs
+    - content.code.annotation
+    - content.code.copy
+    - content.tabs.link
+    - last_updated
   palette:
-  - media: '(prefers-color-scheme: light)'
-    scheme: default
-    primary: deep orange
-    accent: custom
-    toggle:
-      icon: material/weather-sunny
-      name: Switch to dark mode
-  - media: '(prefers-color-scheme: dark)'
-    scheme: slate
-    primary: deep orange
-    accent: custom
-    toggle:
-      icon: material/weather-night
-      name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
 extra:
   copyright_year: 2025
   qt_version: 0.4.3
   android_version: v1.1.2
   macos_version: 1.0.0
+  qt_stable: 0.3.19
   minikvm_purchase_link: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
   social:
-  - icon: txa/crowd-supply-icon
-    link: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
-  - icon: fontawesome/brands/reddit-alien
-    link: /reddit
-  - icon: fontawesome/brands/discord
-    link: /discord
-  - icon: fontawesome/brands/youtube
-    link: https://youtube.com/@TechxArtisan
-  - icon: fontawesome/brands/x-twitter
-    link: https://twitter.com/TechxArtisan
-  - icon: fontawesome/brands/facebook-f
-    link: https://www.facebook.com/TechxArtisan
-  - icon: fontawesome/brands/linkedin-in
-    link: https://www.linkedin.com/company/techxartisan/
+    - icon: txa/crowd-supply-icon
+      link: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
+    - icon: fontawesome/brands/reddit-alien
+      link: /reddit
+    - icon: fontawesome/brands/discord
+      link: /discord
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@TechxArtisan
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/TechxArtisan
+    - icon: fontawesome/brands/facebook-f
+      link: https://www.facebook.com/TechxArtisan
+    - icon: fontawesome/brands/linkedin-in
+      link: https://www.linkedin.com/company/techxartisan/
   consent:
     title: Cookie Consent
-    description: We use cookies to enhance quality of docs content, analyse site effectiveness
+    description:
+      We use cookies to enhance quality of docs content, analyse site effectiveness
       and needs.  By consenting, you help us improve our website. Thanks!
     actions:
-    - accept
-    - reject
+      - accept
+      - reject
 markdown_extensions:
-- tables
-- def_list
-- admonition
-- pymdownx.tasklist:
-    custom_checkbox: true
-- pymdownx.details
-- pymdownx.critic
-- pymdownx.caret
-- pymdownx.keys
-- pymdownx.mark
-- pymdownx.tilde
-- pymdownx.tabbed:
-    alternate_style: true
-- pymdownx.betterem
-- attr_list
-- md_in_html
-- pymdownx.superfences
-- pymdownx.highlight:
-    pygments_lang_class: true
-    auto_title: true
-    linenums: true
-    linenums_style: pymdownx-inline
-    anchor_linenums: true
-    line_spans: __span
-- pymdownx.emoji:
-    emoji_index: !!python/name:material.extensions.emoji.twemoji
-    emoji_generator: !!python/name:material.extensions.emoji.to_svg
-    options:
-      custom_icons:
-      - overrides/.icons
-- toc:
-    toc_depth: 2
+  - tables
+  - def_list
+  - admonition
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.betterem
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      pygments_lang_class: true
+      auto_title: true
+      linenums: true
+      linenums_style: pymdownx-inline
+      anchor_linenums: true
+      line_spans: __span
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - toc:
+      toc_depth: 2
 nav:
-- Home: index.md
-- FAQs:
-  - Overview: faq/index.md
-  - KVM-over-USB: faq/kvm-over-usb.md
-  - FAQs for Products:
-    - FAQs for Mini-KVM: product/minikvm/faq.md
-  - FAQs for Apps: app/faq.md
-- Product:
-  - Mini-KVM 👑:
-    - Overview: product/minikvm/index.md
-    - Features: product/minikvm/features.md
-    - What's In The Box: product/minikvm/whats-in-the-box.md
-    - How To Connect: product/minikvm/how-to-connect.md
-    - Reviews & Press: product/minikvm/reviews.md
-    - USB Switch: product/minikvm/usb-switch.md
-    - Extension Pins: product/minikvm/extension-pins.md
-    - FAQs & Troubleshoot: product/minikvm/faq.md
-  - KVM Go Series ⏳:
-    - Pre-Launch: product/kvm-go/pre-launch.md
-  - uConsole KVM Extension 🛠️:
-    - Overview: product/uconsole-kvm-extension/index.md
-    - Installation Guide: https://github.com/TechxArtisanStudio/Openterface_QT/blob/main/doc/flatpak_installation.md
-  - Accessories:
-    - Overview: product/accessories/index.md
-    - VGA to HDMI Cable 1m: product/accessories/vga-to-hdmi-cable.md
-    - Type-C to C Cable Nylon 1.5m: product/accessories/nylong-c-to-c-150.md
-    - Type-C to C Cable Orange 1.5m: product/accessories/type-c-to-c-cable-with-adapter.md
-    - Type-C to A Cable Black 30cm: product/accessories/black-c-to-a-30.md
-    - HDMI Cable 30cm: product/accessories/hdmi-male-to-male-cable.md
-    - Toolkit Bag: product/accessories/openterface-toolkit-bag.md
-- App:
-  - Overview: app/overview.md
-  - Win & Linux:
-    - Overview: app/qt/index.md
-  - MacOS:
-    - Overview: app/macos/index.md
-    - DMG Installation: app/macos/dmg-installation.md
-  - Android:
-    - Overview: app/android/index.md
-  - FAQs: app/faq.md
-- Use Cases: use-cases.md
-- Shop: https://shop.techxartisan.com
-- About:
-  - Community: about/community.md
-  - Multi-Languages: about/multi-languages.md
-  - Tech Support: about/tech-support.md
-  - Compliance: about/compliance.md
-  - Contribute & Support: about/contribute-support.md
-  - Reviews & Media: about/media.md
-  - Bulk Orders: about/bulk_orders.md
-  - Enterprise: about/enterprise.md
-  - About Us: about/about-us.md
+  - Home: index.md
+  - FAQs:
+      - Overview: faq/index.md
+      - KVM-over-USB: faq/kvm-over-usb.md
+      - FAQs for Products:
+          - FAQs for Mini-KVM: product/minikvm/faq.md
+      - FAQs for Apps: app/faq.md
+  - Product:
+      - Mini-KVM 👑:
+          - Overview: product/minikvm/index.md
+          - Features: product/minikvm/features.md
+          - What's In The Box: product/minikvm/whats-in-the-box.md
+          - How To Connect: product/minikvm/how-to-connect.md
+          - Reviews & Press: product/minikvm/reviews.md
+          - USB Switch: product/minikvm/usb-switch.md
+          - Extension Pins: product/minikvm/extension-pins.md
+          - FAQs & Troubleshoot: product/minikvm/faq.md
+      - KVM Go Series ⏳:
+          - Pre-Launch: product/kvm-go/pre-launch.md
+      - uConsole KVM Extension 🛠️:
+          - Overview: product/uconsole-kvm-extension/index.md
+          - Installation Guide: https://github.com/TechxArtisanStudio/Openterface_QT/blob/main/doc/flatpak_installation.md
+      - Accessories:
+          - Overview: product/accessories/index.md
+          - VGA to HDMI Cable 1m: product/accessories/vga-to-hdmi-cable.md
+          - Type-C to C Cable Nylon 1.5m: product/accessories/nylong-c-to-c-150.md
+          - Type-C to C Cable Orange 1.5m: product/accessories/type-c-to-c-cable-with-adapter.md
+          - Type-C to A Cable Black 30cm: product/accessories/black-c-to-a-30.md
+          - HDMI Cable 30cm: product/accessories/hdmi-male-to-male-cable.md
+          - Toolkit Bag: product/accessories/openterface-toolkit-bag.md
+  - App:
+      - Overview: app/overview.md
+      - Win & Linux:
+          - Overview: app/qt/index.md
+      - MacOS:
+          - Overview: app/macos/index.md
+          - DMG Installation: app/macos/dmg-installation.md
+      - Android:
+          - Overview: app/android/index.md
+      - FAQs: app/faq.md
+  - Use Cases: use-cases.md
+  - Shop: https://shop.techxartisan.com
+  - About:
+      - Community: about/community.md
+      - Multi-Languages: about/multi-languages.md
+      - Tech Support: about/tech-support.md
+      - Compliance: about/compliance.md
+      - Contribute & Support: about/contribute-support.md
+      - Reviews & Media: about/media.md
+      - Bulk Orders: about/bulk_orders.md
+      - Enterprise: about/enterprise.md
+      - About Us: about/about-us.md
 plugins:
-- i18n:
-    fallback_to_default: true
-    use_directory_urls: true
-    languages:
-    - locale: en
-      name: English
-      default: true
-      build: true
-- glightbox
-- search
-- macros
-- tags
-- meta
-- markdownextradata
-- git-revision-date-localized:
-    enable_creation_date: true
-    type: timeago
-- redirects:
-    redirect_maps:
-      about.md: about/about-us.md
-      contact.md: about/about-us.md
-      about/contributing.md: about/contribute-support.md
-      about/support-us.md: about/contribute-support.md
-      acknowledgements.md: contributing.md
-      compliance.md: about/compliance.md
-      community.md: about/community.md
-      reviews.md: product/minikvm/reviews.md
-      features.md: product/minikvm/features.md
-      usb-switch.md: product/minikvm/usb-switch.md
-      product.md: product/minikvm/index.md
-      whats-in-the-box.md: product/minikvm/whats-in-the-box.md
-      quick-start.md: product/minikvm/index.md
-      basic/usb-switch.md: product/minikvm/usb-switch.md
-      product/minikvm-lite/pre-launch.md: product/kvm-go/pre-launch.md
-      support.md: about/tech-support.md
-      why-openterface.md: faq/usbkvm/openterface.md
-      buy-mini-kvm.md: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
-      order.md: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
-      shop.md: https://shop.techxartisan.com
-      discord.md: https://discord.gg/sFTJD6a3R8
-      reddit.md: https://www.reddit.com/r/Openterface_miniKVM/
-      feedback.md: https://forms.gle/YJLrCKwro8tbi6ar7
-      youtube.md: https://www.youtube.com/@TechxArtisan
-      linkedin.md: https://www.linkedin.com/company/techxartisan/
-      x.md: https://x.com/TechxArtisan
-      twitter.md: https://x.com/TechxArtisan
-      instagram.md: https://www.instagram.com/techxartisan/
-      facebook.md: https://www.facebook.com/techxartisan
-      threads.md: https://www.threads.net/@techxartisan
-      tiktok.md: https://www.tiktok.com/@techxartisan
-      bluesky.md: https://bsky.app/profile/youyoubilly.bsky.social
-      mastodon.md: https://mastodon.social/@youyoubilly
-      webapp.md: https://openterface-viewer.pages.dev/
-      macos.md: https://github.com/TechxArtisanStudio/Openterface_MacOS
-      android.md: https://github.com/TechxArtisanStudio/Openterface_Android
-      qt.md: https://github.com/TechxArtisanStudio/Openterface_QT
-      window.md: https://github.com/TechxArtisanStudio/Openterface_QT
-      linux.md: https://github.com/TechxArtisanStudio/Openterface_QT
-      appstore.md: https://apps.apple.com/us/app/openterface-mini-kvm/id6478481082
-      playstore.md: https://play.google.com/store/apps/details?id=com.openterface.AOS
-      flathub.md: https://flathub.org/apps/com.openterface.openterfaceQT
-      hardware.md: https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware
-      open-hardware.md: https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware
-      oshw.md: https://certification.oshwa.org/cn000015.html
+  - i18n:
+      fallback_to_default: true
+      use_directory_urls: true
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+  - glightbox
+  - search
+  - macros
+  - tags
+  - meta
+  - markdownextradata
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - redirects:
+      redirect_maps:
+        about.md: about/about-us.md
+        contact.md: about/about-us.md
+        about/contributing.md: about/contribute-support.md
+        about/support-us.md: about/contribute-support.md
+        acknowledgements.md: contributing.md
+        compliance.md: about/compliance.md
+        community.md: about/community.md
+        reviews.md: product/minikvm/reviews.md
+        features.md: product/minikvm/features.md
+        usb-switch.md: product/minikvm/usb-switch.md
+        product.md: product/minikvm/index.md
+        whats-in-the-box.md: product/minikvm/whats-in-the-box.md
+        quick-start.md: product/minikvm/index.md
+        basic/usb-switch.md: product/minikvm/usb-switch.md
+        product/minikvm-lite/pre-launch.md: product/kvm-go/pre-launch.md
+        support.md: about/tech-support.md
+        why-openterface.md: faq/usbkvm/openterface.md
+        buy-mini-kvm.md: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
+        order.md: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
+        shop.md: https://shop.techxartisan.com
+        discord.md: https://discord.gg/sFTJD6a3R8
+        reddit.md: https://www.reddit.com/r/Openterface_miniKVM/
+        feedback.md: https://forms.gle/YJLrCKwro8tbi6ar7
+        youtube.md: https://www.youtube.com/@TechxArtisan
+        linkedin.md: https://www.linkedin.com/company/techxartisan/
+        x.md: https://x.com/TechxArtisan
+        twitter.md: https://x.com/TechxArtisan
+        instagram.md: https://www.instagram.com/techxartisan/
+        facebook.md: https://www.facebook.com/techxartisan
+        threads.md: https://www.threads.net/@techxartisan
+        tiktok.md: https://www.tiktok.com/@techxartisan
+        bluesky.md: https://bsky.app/profile/youyoubilly.bsky.social
+        mastodon.md: https://mastodon.social/@youyoubilly
+        webapp.md: https://openterface-viewer.pages.dev/
+        macos.md: https://github.com/TechxArtisanStudio/Openterface_MacOS
+        android.md: https://github.com/TechxArtisanStudio/Openterface_Android
+        qt.md: https://github.com/TechxArtisanStudio/Openterface_QT
+        window.md: https://github.com/TechxArtisanStudio/Openterface_QT
+        linux.md: https://github.com/TechxArtisanStudio/Openterface_QT
+        appstore.md: https://apps.apple.com/us/app/openterface-mini-kvm/id6478481082
+        playstore.md: https://play.google.com/store/apps/details?id=com.openterface.AOS
+        flathub.md: https://flathub.org/apps/com.openterface.openterfaceQT
+        hardware.md: https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware
+        open-hardware.md: https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware
+        oshw.md: https://certification.oshwa.org/cn000015.html
