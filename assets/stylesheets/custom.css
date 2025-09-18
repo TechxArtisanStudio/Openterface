@@ -1256,3 +1256,218 @@ linux-download-columns {
 .big-download-btn.android:hover {
   background: #6abd43;
 }
+
+/* Custom Dropdown Navigation Styles */
+.custom-nav-dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 10;
+}
+
+.custom-nav-dropdown .nav-item {
+  display: flex;
+  align-items: center;
+  padding: 0.6rem 1.2rem;
+  color: var(--md-primary-bg-color);
+  text-decoration: none;
+  transition: color 0.25s, background-color 0.25s;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 0.8rem;
+  font-family: inherit;
+  font-weight: 500;
+  border-radius: 0;
+  position: relative;
+}
+
+.custom-nav-dropdown .nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--md-primary-bg-color);
+}
+
+.custom-nav-dropdown .nav-item.active {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: var(--md-primary-bg-color);
+}
+
+.custom-nav-dropdown .nav-item .dropdown-arrow {
+  margin-left: 0.5rem;
+  transition: transform 0.25s ease;
+  font-size: 0.8em;
+}
+
+.custom-nav-dropdown:hover .nav-item .dropdown-arrow {
+  transform: rotate(180deg);
+}
+
+.custom-nav-dropdown .dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--md-default-bg-color);
+  min-width: 220px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 0 0 6px 6px;
+  z-index: 40;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.25s ease, visibility 0.25s ease, transform 0.25s ease;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-top: none;
+  padding: 0.5rem 0;
+}
+
+.custom-nav-dropdown:hover .dropdown-content {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.custom-nav-dropdown .dropdown-content .dropdown-item {
+  display: block;
+  padding: 0.75rem 1rem;
+  color: var(--md-default-fg-color);
+  text-decoration: none;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.custom-nav-dropdown .dropdown-content .dropdown-item:last-child {
+  border-bottom: none;
+}
+
+.custom-nav-dropdown .dropdown-content .dropdown-item:hover {
+  background-color: var(--md-default-fg-color--lightest);
+  color: var(--md-accent-fg-color);
+}
+
+.custom-nav-dropdown .dropdown-content .dropdown-item.active {
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+.custom-nav-container .nav-item {
+  white-space: nowrap;
+}
+
+/* Simple nav items (non-dropdown) */
+.custom-nav-container > .nav-item {
+  display: flex;
+  align-items: center;
+  padding: 0.6rem 1.2rem;
+  color: var(--md-primary-bg-color);
+  text-decoration: none;
+  transition: color 0.25s, background-color 0.25s;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 0.8rem;
+  font-family: inherit;
+  font-weight: 500;
+  border-radius: 0;
+  position: relative;
+}
+
+.custom-nav-container > .nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--md-primary-bg-color);
+}
+
+.custom-nav-container > .nav-item.active {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: var(--md-primary-bg-color);
+}
+
+/* Ensure header has higher z-index than navigation tabs */
+.md-header {
+  z-index: 200 !important;
+}
+
+/* Ensure language selector dropdown appears above navigation tabs */
+.md-header__inner,
+.md-header__inner *,
+[data-md-component="language"],
+[data-md-component="language"] * {
+  z-index: 300 !important;
+}
+
+/* Prevent any parent containers from clipping dropdowns */
+.md-header,
+.md-header__inner,
+.md-grid,
+.md-container,
+.md-main__inner {
+  overflow: visible !important;
+}
+
+/* Ensure body doesn't clip dropdowns */
+body {
+  overflow-x: visible !important;
+}
+
+/* Custom tabs styling */
+.md-tabs {
+  background-color: var(--md-primary-fg-color);
+  overflow: visible !important;
+  position: relative;
+  z-index: 50;
+  height: auto !important;
+  max-height: none !important;
+}
+
+.md-tabs .custom-nav-container {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  width: 100%;
+  background-color: transparent;
+  padding: 0 1.2rem;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+  overflow: visible;
+  height: auto;
+  max-height: none;
+  justify-content: flex-start;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 76.25em) {
+  .md-tabs .custom-nav-container {
+    display: none;
+  }
+  
+  .md-tabs {
+    display: block !important;
+  }
+}
+
+/* Additional mobile adjustments */
+@media screen and (max-width: 59.9375em) {
+  .md-tabs .custom-nav-container {
+    display: none !important;
+  }
+  
+  .md-tabs {
+    display: block !important;
+  }
+}
+
+/* Dark mode adjustments */
+[data-md-color-scheme="slate"] .custom-nav-dropdown .dropdown-content {
+  background-color: var(--md-default-bg-color);
+  border-color: var(--md-default-fg-color--lighter);
+}
+
+[data-md-color-scheme="slate"] .custom-nav-dropdown .dropdown-content .dropdown-item {
+  color: var(--md-default-fg-color);
+  border-bottom-color: var(--md-default-fg-color--lightest);
+}
+
+[data-md-color-scheme="slate"] .custom-nav-dropdown .dropdown-content .dropdown-item:hover {
+  background-color: var(--md-default-fg-color--lightest);
+}

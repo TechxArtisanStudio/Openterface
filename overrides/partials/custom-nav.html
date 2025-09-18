@@ -1,0 +1,59 @@
+<!-- Custom Navigation Tabs -->
+<nav class="md-tabs" aria-label="{{ lang.t('tabs') }}" data-md-component="tabs">
+  <div class="custom-nav-container">
+    {% for nav_item in nav.items %}
+      {% if nav_item.children %}
+        <!-- Dropdown item -->
+        <div class="custom-nav-dropdown">
+          {% set first_child = nav_item.children[0] %}
+          {% if first_child.url %}
+            <a href="{{ first_child.url | url }}" class="nav-item">
+              {{ nav_item.title }}
+              <span class="dropdown-arrow">▼</span>
+            </a>
+          {% else %}
+            <span class="nav-item">
+              {{ nav_item.title }}
+              <span class="dropdown-arrow">▼</span>
+            </span>
+          {% endif %}
+          
+          <div class="dropdown-content">
+            {% for child in nav_item.children %}
+              {% if child.url %}
+                <!-- Direct child with URL -->
+                <a href="{{ child.url | url }}" class="dropdown-item{% if page and page.url and page.url == child.url %} active{% endif %}">
+                  {{ child.title }}
+                </a>
+              {% elif child.children %}
+                <!-- Child with children - show the child title and link to its first child -->
+                {% set first_grandchild = child.children[0] %}
+                {% if first_grandchild.url %}
+                  <a href="{{ first_grandchild.url | url }}" class="dropdown-item{% if page and page.url and page.url == first_grandchild.url %} active{% endif %}">
+                    {{ child.title }}
+                  </a>
+                {% else %}
+                  <span class="dropdown-item">
+                    {{ child.title }}
+                  </span>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      {% else %}
+        <!-- Simple link item -->
+        {% if nav_item.url %}
+          <a href="{{ nav_item.url | url }}" class="nav-item{% if page and page.url and page.url == nav_item.url %} active{% endif %}">
+            {{ nav_item.title }}
+          </a>
+        {% elif nav_item.title == nav.homepage.title %}
+          <!-- Special handling for Home page - uses homepage title for any language -->
+          <a href="{{ nav.homepage.url | url }}" class="nav-item{% if page and page.url and page.url == nav.homepage.url %} active{% endif %}">
+            {{ nav_item.title }}
+          </a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</nav>

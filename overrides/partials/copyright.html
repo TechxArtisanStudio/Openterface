@@ -1,0 +1,94 @@
+<!-- Copyright and theme information -->
+<div class="md-copyright">
+  {% set current_locale = page.locale or config.theme.language or (page.url.split('/')[1] if page.url and page.url.split('/')[1] in ['de', 'es', 'fr', 'it', 'ja', 'ko', 'pt', 'ro', 'zh'] else 'en') %}
+  {% set current_year = config.extra.copyright_year or "2025" %}
+  
+  <!-- Always use our localized copyright, ignore config.copyright -->
+  <div class="md-copyright__highlight">
+    {% if current_locale == 'de' %}
+      Copyright © Alle Rechte vorbehalten. {{ current_year }} <a href="https://www.openterface.com">Openterface</a> | <a href="https://www.techxartisan.com">TechxArtisan</a><br>
+      <a href="/de/">Startseite</a> | <a href="/de/policy/terms-of-service">Nutzungsbedingungen</a> | <a href="/de/policy/privacy">Datenschutz</a> | <a href="#__consent">Cookie</a> | <a href="/de/about/about-us">Über uns</a> | <a href="/de/about/multi-languages">Sprachen</a>
+    {% elif current_locale == 'es' %}
+      Copyright © Todos los derechos reservados. {{ current_year }} <a href="https://www.openterface.com">Openterface</a> | <a href="https://www.techxartisan.com">TechxArtisan</a><br>
+      <a href="/es/">Inicio</a> | <a href="/es/policy/terms-of-service">Términos de Servicio</a> | <a href="/es/policy/privacy">Política de Privacidad</a> | <a href="#__consent">Cookie</a> | <a href="/es/about/about-us">Acerca de</a> | <a href="/es/about/multi-languages">Idiomas</a>
+    {% elif current_locale == 'fr' %}
+      Copyright © Tous droits réservés. {{ current_year }} <a href="https://www.openterface.com">Openterface</a> | <a href="https://www.techxartisan.com">TechxArtisan</a><br>
+      <a href="/fr/">Accueil</a> | <a href="/fr/policy/terms-of-service">Conditions d'Utilisation</a> | <a href="/fr/policy/privacy">Politique de Confidentialité</a> | <a href="#__consent">Cookie</a> | <a href="/fr/about/about-us">À Propos</a> | <a href="/fr/about/multi-languages">Langues</a>
+    {% elif current_locale == 'it' %}
+      Copyright © Tutti i diritti riservati. {{ current_year }} <a href="https://www.openterface.com">Openterface</a> | <a href="https://www.techxartisan.com">TechxArtisan</a><br>
+      <a href="/it/">Home</a> | <a href="/it/policy/terms-of-service">Termini di Servizio</a> | <a href="/it/policy/privacy">Informativa sulla Privacy</a> | <a href="#__consent">Cookie</a> | <a href="/it/about/about-us">Chi Siamo</a> | <a href="/it/about/multi-languages">Lingue</a>
+    {% elif current_locale == 'ja' %}
+      Copyright © 全著作権所有。{{ current_year }} <a href="https://www.openterface.com">Openterface</a> | <a href="https://www.techxartisan.com">TechxArtisan</a><br>
+      <a href="/ja/">ホーム</a> | <a href="/ja/policy/terms-of-service">利用規約</a> | <a href="/ja/policy/privacy">プライバシーポリシー</a> | <a href="#__consent">Cookie</a> | <a href="/ja/about/about-us">会社概要</a> | <a href="/ja/about/multi-languages">言語</a>
+    {% elif current_locale == 'ko' %}
+      Copyright © 모든 권리 보유. {{ current_year }} <a href="https://www.openterface.com">Openterface</a> | <a href="https://www.techxartisan.com">TechxArtisan</a><br>
+      <a href="/ko/">홈</a> | <a href="/ko/policy/terms-of-service">서비스 약관</a> | <a href="/ko/policy/privacy">개인정보 보호정책</a> | <a href="#__consent">Cookie</a> | <a href="/ko/about/about-us">회사 소개</a> | <a href="/ko/about/multi-languages">언어</a>
+    {% elif current_locale == 'pt' %}
+      Copyright © Todos os direitos reservados. {{ current_year }} <a href="https://www.openterface.com">Openterface</a> | <a href="https://www.techxartisan.com">TechxArtisan</a><br>
+      <a href="/pt/">Início</a> | <a href="/pt/policy/terms-of-service">Termos de Serviço</a> | <a href="/pt/policy/privacy">Política de Privacidade</a> | <a href="#__consent">Cookie</a> | <a href="/pt/about/about-us">Sobre</a> | <a href="/pt/about/multi-languages">Idiomas</a>
+    {% elif current_locale == 'ro' %}
+      Copyright © Toate drepturile rezervate. {{ current_year }} <a href="https://www.openterface.com">Openterface</a> | <a href="https://www.techxartisan.com">TechxArtisan</a><br>
+      <a href="/ro/">Acasă</a> | <a href="/ro/policy/terms-of-service">Termeni de Serviciu</a> | <a href="/ro/policy/privacy">Politica de Confidențialitate</a> | <a href="#__consent">Cookie</a> | <a href="/ro/about/about-us">Despre</a> | <a href="/ro/about/multi-languages">Limbi</a>
+    {% elif current_locale == 'zh' %}
+      Copyright © 版权所有。{{ current_year }} <a href="https://www.openterface.com">Openterface</a> | <a href="https://www.techxartisan.com">TechxArtisan</a><br>
+      <a href="/zh/">首页</a> | <a href="/zh/policy/terms-of-service">服务条款</a> | <a href="/zh/policy/privacy">隐私政策</a> | <a href="#__consent">Cookie</a> | <a href="/zh/about/about-us">关于我们</a> | <a href="/zh/about/multi-languages">语言</a>
+    {% else %}
+      <!-- Default English -->
+      Copyright © All rights reserved. {{ current_year }} <a href="https://www.openterface.com">Openterface</a> | <a href="https://www.techxartisan.com">TechxArtisan</a><br>
+      <a href="/">Home</a> | <a href="/policy/terms-of-service">Terms of Service</a> | <a href="/policy/privacy">Privacy Policy</a> | <a href="#__consent">Cookie</a> | <a href="/about/about-us">About</a> | <a href="/about/multi-languages">Languages</a>
+    {% endif %}
+  </div>
+  
+  {% if not config.extra.generator == false %}
+    {% if current_locale == 'de' %}
+      Erstellt mit
+      <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+        Material for MkDocs
+      </a>
+    {% elif current_locale == 'es' %}
+      Hecho con
+      <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+        Material for MkDocs
+      </a>
+    {% elif current_locale == 'fr' %}
+      Fait avec
+      <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+        Material for MkDocs
+      </a>
+    {% elif current_locale == 'it' %}
+      Creato con
+      <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+        Material for MkDocs
+      </a>
+    {% elif current_locale == 'ja' %}
+      <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+        Material for MkDocs
+      </a>で作成
+    {% elif current_locale == 'ko' %}
+      <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+        Material for MkDocs
+      </a>로 제작
+    {% elif current_locale == 'pt' %}
+      Feito com
+      <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+        Material for MkDocs
+      </a>
+    {% elif current_locale == 'ro' %}
+      Creat cu
+      <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+        Material for MkDocs
+      </a>
+    {% elif current_locale == 'zh' %}
+      使用
+      <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+        Material for MkDocs
+      </a>制作
+    {% else %}
+      <!-- Default English -->
+      Made with
+      <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+        Material for MkDocs
+      </a>
+    {% endif %}
+  {% endif %}
+</div>
