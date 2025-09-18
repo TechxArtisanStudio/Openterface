@@ -14,54 +14,54 @@ Das **Openterface Mini-KVM** verbessert IT-Workflows und transformiert Gerätema
 
 <div class="grid cards" markdown>
 
-- :material-server-network-outline:{ .lg } **Optimiertes Server-Management**
+-   :material-server-network-outline:{ .lg } **Optimiertes Server-Management**
 
-  ***
+    ***
 
-  Ideal für IT-Profis in Rechenzentren. Mini-KVM steuert mehrere Server von einem einzigen Laptop aus, steigert die Effizienz und reduziert Ausfallzeiten.
-  <img src="https://assets.openterface.com/images/product/use-case-demo-pc-bios-1.webp" alt="Server-Management BIOS-Demo" style="max-width: 100%;"/>
+    Ideal für IT-Profis in Rechenzentren. Mini-KVM steuert mehrere Server von einem einzigen Laptop aus, steigert die Effizienz und reduziert Ausfallzeiten.
+    <img src="https://assets.openterface.com/images/product/use-case-demo-pc-bios-1.webp" alt="Server-Management BIOS-Demo" style="max-width: 100%;"/>
 
-- :material-tools:{ .lg } **Vereinfachte Einrichtung für Tech-Enthusiasten**
+-   :material-tools:{ .lg } **Vereinfachte Einrichtung für Tech-Enthusiasten**
 
-  ***
+    ***
 
-  Für eingebettete Entwickler, die Raspberry Pi oder Jetson Nano verwenden, ermöglicht Mini-KVM direkte Steuerung ohne zusätzliche Monitore oder Peripheriegeräte.
-  <img src="https://assets.openterface.com/images/product/use-case-demo-respberry-pi.webp" alt="Raspberry Pi-Einrichtungsdemo" style="max-width: 100%;"/>
+    Für eingebettete Entwickler, die Raspberry Pi oder Jetson Nano verwenden, ermöglicht Mini-KVM direkte Steuerung ohne zusätzliche Monitore oder Peripheriegeräte.
+    <img src="https://assets.openterface.com/images/product/use-case-demo-respberry-pi.webp" alt="Raspberry Pi-Einrichtungsdemo" style="max-width: 100%;"/>
 
-- :material-devices:{ .lg } **Einheitliche Steuerung für vielfältige Geräte**
+-   :material-devices:{ .lg } **Einheitliche Steuerung für vielfältige Geräte**
 
-  ***
+    ***
 
-  Verwalten Sie persönliche/Arbeitsmaschinen oder spezialisierte Hardware (ATMs, Kioske, VLTs) von einer einzigen Schnittstelle aus—kein Austauschen von Kabeln oder Tastaturen mehr.
-  <img src="https://assets.openterface.com/images/product/use-case-demo-macmini2009-3.webp" alt="Einheitliche Steuerung mehrerer Geräte" style="max-width: 100%;"/>
+    Verwalten Sie persönliche/Arbeitsmaschinen oder spezialisierte Hardware (ATMs, Kioske, VLTs) von einer einzigen Schnittstelle aus—kein Austauschen von Kabeln oder Tastaturen mehr.
+    <img src="https://assets.openterface.com/images/product/use-case-demo-macmini2009-3.webp" alt="Einheitliche Steuerung mehrerer Geräte" style="max-width: 100%;"/>
 
-- :material-hospital-building:{ .lg } **Sichere Operationen für sensible Aufgaben**
+-   :material-hospital-building:{ .lg } **Sichere Operationen für sensible Aufgaben**
 
-  ***
+    ***
 
-  Perfekt für Projekte, die Netzwerkisolation benötigen (z.B. Kryptowährungs-Management). Nutzen Sie sichere, lokale Operationen ohne Internetabhängigkeit.
-  <img src="https://assets.openterface.com/images/product/use-case-demo-industrial-pc.webp" alt="Sichere Operationen mit Industrie-PC" style="max-width: 100%;"/>
+    Perfekt für Projekte, die Netzwerkisolation benötigen (z.B. Kryptowährungs-Management). Nutzen Sie sichere, lokale Operationen ohne Internetabhängigkeit.
+    <img src="https://assets.openterface.com/images/product/use-case-demo-industrial-pc.webp" alt="Sichere Operationen mit Industrie-PC" style="max-width: 100%;"/>
 
-- :material-school:{ .lg } **Effiziente Integration für gemischte Workflows**
+-   :material-school:{ .lg } **Effiziente Integration für gemischte Workflows**
 
-  ***
+    ***
 
-  Wechseln Sie nahtlos zwischen persönlichen, Arbeits- oder Edge-Computing-Einstellungen durch einen einzigen optimierten Steuerungsfluss.
-  <img src="https://assets.openterface.com/images/product/use-case-demo-macbookpro2010.webp" alt="Gemischte Workflow-Integration" style="max-width: 100%;"/>
+    Wechseln Sie nahtlos zwischen persönlichen, Arbeits- oder Edge-Computing-Einstellungen durch einen einzigen optimierten Steuerungsfluss.
+    <img src="https://assets.openterface.com/images/product/use-case-demo-macbookpro2010.webp" alt="Gemischte Workflow-Integration" style="max-width: 100%;"/>
 
-- :material-pencil:{ .lg } **Nahtlose Steuerung: Mini-KVM + Android-Stift**
+-   :material-pencil:{ .lg } **Nahtlose Steuerung: Mini-KVM + Android-Stift**
 
-  ***
+    ***
 
-  Verwenden Sie Ihr Android-Tablet und Stift, um auf Windows/macOS-Maschinen zu navigieren oder zu zeichnen. Perfekt für Design, Markups und App-Steuerung mit Präzision.
-  <img src="https://assets.openterface.com/images/product/android_plus_pen.webp" alt="Android-Stift-Steuerung" style="max-width: 100%;"/>
+    Verwenden Sie Ihr Android-Tablet und Stift, um auf Windows/macOS-Maschinen zu navigieren oder zu zeichnen. Perfekt für Design, Markups und App-Steuerung mit Präzision.
+    <img src="https://assets.openterface.com/images/product/android_plus_pen.webp" alt="Android-Stift-Steuerung" style="max-width: 100%;"/>
 
-- :material-laptop:{ .lg } **Vielseitige Portabilität für unterwegs Troubleshooting**
+-   :material-laptop:{ .lg } **Vielseitige Portabilität für unterwegs Troubleshooting**
 
-  ***
+    ***
 
-  Kombinieren Sie Mini-KVM mit Geräten wie **Clockwork's uConsole** für [eine mobile KVM-Lösung](https://x.com/TechxArtisan/status/1807824199152722019), großartig für Feldingenieure und Tech-Enthusiasten, die mit Headless-Systemen arbeiten.
-  <img src="https://pbs.twimg.com/media/GRaeGqHa0AA_GMv?format=jpg&name=4096x4096" alt="uConsole-Portabilität" width="560" height="560" style="max-width: 100%;"/>
+    Kombinieren Sie Mini-KVM mit Geräten wie **Clockwork's uConsole** für [eine mobile KVM-Lösung](https://x.com/TechxArtisan/status/1807824199152722019), großartig für Feldingenieure und Tech-Enthusiasten, die mit Headless-Systemen arbeiten.
+    <img src="https://pbs.twimg.com/media/GRaeGqHa0AA_GMv?format=jpg&name=4096x4096" alt="uConsole-Portabilität" width="560" height="560" style="max-width: 100%;"/>
 
 </div>
 
@@ -73,46 +73,46 @@ Für Einblicke von erfahrenen IT-Profis und Unternehmen siehe unsere [Openterfac
 
 <div class="grid cards" markdown>
 
-- :material-server-network-outline:{ .lg } **Technologie & IT-Services**
+-   :material-server-network-outline:{ .lg } **Technologie & IT-Services**
 
-  ***
+    ***
 
-  Schnelle Fehlerbehebung bei physischen Servern oder Lab-Maschinen.
-  Firmware-Level-Aufgaben wie OS-Installationen und Headless-Geräte-Wartung.
+    Schnelle Fehlerbehebung bei physischen Servern oder Lab-Maschinen.
+    Firmware-Level-Aufgaben wie OS-Installationen und Headless-Geräte-Wartung.
 
-- :material-tools:{ .lg } **Engineering & Industrie**
+-   :material-tools:{ .lg } **Engineering & Industrie**
 
-  ***
+    ***
 
-  Vor-Ort-Konfiguration für eingebettete Hardware.
-  Verwalten mehrerer Steuerungssysteme, wo direkter BIOS-Zugriff essentiell ist.
+    Vor-Ort-Konfiguration für eingebettete Hardware.
+    Verwalten mehrerer Steuerungssysteme, wo direkter BIOS-Zugriff essentiell ist.
 
-- :material-video:{ .lg } **Kreative Studios & Medien**
+-   :material-video:{ .lg } **Kreative Studios & Medien**
 
-  ***
+    ***
 
-  Multi-OS-Workflows für Bearbeitung, Rendering oder Farbkorrektur.
-  Umschaltbarer USB-Port vereinfacht Dateiübertragungen oder Peripherie-Sharing.
+    Multi-OS-Workflows für Bearbeitung, Rendering oder Farbkorrektur.
+    Umschaltbarer USB-Port vereinfacht Dateiübertragungen oder Peripherie-Sharing.
 
-- :material-hospital-building:{ .lg } **Gesundheitswesen & Biotech**
+-   :material-hospital-building:{ .lg } **Gesundheitswesen & Biotech**
 
-  ***
+    ***
 
-  Offline-Gerätemanagement für strenge Compliance-Umgebungen.
-  Spezialisierte Ausrüstung, die lokale Hardware-Steuerung erfordert.
+    Offline-Gerätemanagement für strenge Compliance-Umgebungen.
+    Spezialisierte Ausrüstung, die lokale Hardware-Steuerung erfordert.
 
-- :material-school:{ .lg } **Professionelle Services & Bildung**
+-   :material-school:{ .lg } **Professionelle Services & Bildung**
 
-  ***
+    ***
 
-  Lokale Steuerungs-Workflows für sensible Daten.
-  Einfache Neukonfiguration von Arbeitsstationen oder Lab-Computern.
+    Lokale Steuerungs-Workflows für sensible Daten.
+    Einfache Neukonfiguration von Arbeitsstationen oder Lab-Computern.
 
-- :material-store:{ .lg } **Einzelhandel & Konsumgüter**
+-   :material-store:{ .lg } **Einzelhandel & Konsumgüter**
 
-  ***
+    ***
 
-  Tragbare, sofortige Fehlerbehebung für verteilte Systeme.
-  Schnelle Vor-Ort-Intervention für regional verteilte Einstellungen.
+    Tragbare, sofortige Fehlerbehebung für verteilte Systeme.
+    Schnelle Vor-Ort-Intervention für regional verteilte Einstellungen.
 
 </div>
