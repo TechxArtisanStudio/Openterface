@@ -6,34 +6,55 @@ keywords: "Mini-KVM, KVM switch, HDMI KVM, USB KVM, headless control, computer p
 
 # **What's In The Box** | Basic & Toolkit Options | Openterface Mini-KVM
 
-Explore our two purchase options designed to meet your needs, whether you're looking for the essentials or a complete set of tools.
+## Option 1: **Toolkit Package**
+
+![toolkit-open](https://assets.openterface.com/images/product/toolkit-open.webp){:style="width:480px"}
+
+🎯 **Complete Solution** - Best value and guaranteed compatibility:
+
+- **💰 Better Value**: More cost-effective than buying accessories separately
+- **✅ Quality Assured**: All accessories are tested and approved by Openterface
+- **🔧 Guaranteed Compatibility**: Cables specifically designed to work optimally with Mini-KVM
+- **📦 Complete Solution**: Everything you need to get started immediately
+- **🎒 Professional Storage**: Organized toolkit bag for all components
+- **🎁 Exclusive Bonus**: Includes special Gibby mascot sticker
+
+<button class="md-button" onclick="window.location.href='{{ config.extra.minikvm_purchase_link }}'"> Place Order <img src="https://assets.openterface.com/images/trademark/crowd-supply.svg" alt="Crowd Supply" style="vertical-align: middle; height: 26px;"></button>
+
+!!! tip "Our Recommendation"
+    **Choose the Toolkit Package** for the best experience! Not only is it more cost-effective, but all accessories are quality-tested and guaranteed to work perfectly with our Mini-KVM device.
 
 ---
 
-## 1. Mini-KVM **Toolkit**
+## Option 2: **Basic Package**
 
-![toolkit-open](https://assets.openterface.com/images/product/toolkit-open.webp){:style="width:680px"}
+![basic-pack](https://assets.openterface.com/images/product/basic-with-maunal.webp){:style="width:480px"}
 
-1. Core Product: Openterface Mini-KVM
-2. Quick Start Guide
-3. [Toolkit Bag](/product/accessories/#openterface-toolkit-bag) (165 x 110 x 50mm)
-4. [Extension Pin Cap](../extension-pins)
-5. [HDMI Male-to-Male Cable](/product/accessories/#hdmi-male-to-male-cable) (30cm)
-6. [Type-C Male to USB-A Male Cable](/product/accessories/#type-c-to-usb-a-cable-with-adapter) (0.3m) with USB-A Female to USB-C Male Adapter
-7. [Type-C Male-to-Male Cable](/product/accessories/#upgraded-nylon-usb-c-cable-240w-fast-charging-10gbps-data-transfer) (1.5m) with USB-C Female to USB-A Male Adapter
-8. Sticker of Gibby, the Openterface mascot.
+**Essential Solution** - For users who already have high-quality cables and prefer minimal packaging:
 
-<button class="md-button" onclick="window.location.href='https://www.crowdsupply.com/techxartisan/openterface-mini-kvm#products'"> Place Order <img src="https://assets.openterface.com/images/trademark/crowd-supply.svg" alt="Crowd Supply" style="vertical-align: middle; height: 26px;"></button>
+- **Core KVM Device**: The essential Mini-KVM unit
+- **Quick Start Guide**: Get up and running immediately
+- **Lower Initial Cost**: Reduced upfront investment
+- **Flexible Setup**: Use your existing compatible accessories
 
-![toolkit-parts](https://assets.openterface.com/images/product/toolkit-parts.webp){:style="width:680px"}
+<button class="md-button" onclick="window.location.href='{{ config.extra.minikvm_purchase_link }}'"> Place Order <img src="https://assets.openterface.com/images/trademark/crowd-supply.svg" alt="Crowd Supply" style="vertical-align: middle; height: 26px;"></button>
+
+!!! warning "Cable Quality Requirements"
+    **Important**: Using poor quality or incompatible USB-C cables may result in:
+    
+    - Connection failures or intermittent connectivity
+    - Reduced power delivery affecting device performance
+    - Data transfer issues or slow response times
+    - Potential damage to connected devices
+    
+    **We strongly recommend the Toolkit Package** for guaranteed compatibility and optimal performance.
 
 ---
 
-## 2. Mini-KVM **Basic**
+## Package Comparison
 
-![basic-pack](https://assets.openterface.com/images/product/basic-with-maunal.webp){:style="width:680px"}
-
-1. Core Product: Openterface Mini-KVM
-2. Quick Start Guide
-
-<button class="md-button" onclick="window.location.href='https://www.crowdsupply.com/techxartisan/openterface-mini-kvm#products'"> Place Order <img src="https://assets.openterface.com/images/trademark/crowd-supply.svg" alt="Crowd Supply" style="vertical-align: middle; height: 26px;"></button>
+| Item | Basic Package | Toolkit Package |
+|------|---------------|-----------------|
+| **Core Product** | ✅ Openterface Mini-KVM | ✅ Openterface Mini-KVM |
+| **Quick Start Guide** | ✅ Included | ✅ Included |
+| **Accessories** | ❌ Not included | ✅ [Complete Accessory Set](/product/accessories/) (Toolkit Bag, Extension Pin Cap, HDMI Cable, USB-C Cables) |

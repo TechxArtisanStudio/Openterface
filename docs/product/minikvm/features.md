@@ -1,10 +1,10 @@
 ---
-title: "Features & Capabilities"
-description: "Explore Openterface Mini-KVM's powerful features: BIOS-level access, 4K video support, cross-platform compatibility, and USB sharing. A comprehensive overview of capabilities for headless computer control with no network required."
-keywords: "Mini-KVM features, KVM switch capabilities, BIOS access, headless control, 4K KVM, USB sharing, cross-platform KVM, text transfer, plug and play KVM, open source KVM"
+title: "Features & Specifications"
+description: "Complete overview of Openterface Mini-KVM: powerful features including BIOS-level access, 4K video support, cross-platform compatibility, USB sharing, and detailed technical specifications. Everything you need to know about this headless computer control solution."
+keywords: "Mini-KVM features, KVM specifications, BIOS access, headless control, 4K KVM, USB sharing, cross-platform KVM, text transfer, plug and play KVM, open source KVM, technical specs"
 ---
 
-# **Features & Capabilities** | Openterface Mini-KVM
+# **Features & Specifications** | Openterface Mini-KVM
 
 <iframe 
   width="560" 
@@ -17,45 +17,85 @@ keywords: "Mini-KVM features, KVM switch capabilities, BIOS access, headless con
   allowfullscreen>
 </iframe>
 
-- **BIOS-Level Access**  
-  Provides direct access to the target device's BIOS, firmware, or startup management.
+## Core Features
 
-- **Network Independence**  
-  Offers stable and fast, headless control using HDMI video capture and emulated keyboard/mouse (HID) input. No network connection required.
+### **BIOS-Level Access**
+Direct access to target device BIOS, firmware, and startup management without network dependencies.
 
-- **Full HD Output with Low Latency & 4K Input**  
-  Supports displaying up to 1920×1080 @ 30 Hz on the host app with under 140 ms latency, while capturing target video input at up to 4K. Also compatible with VGA, Micro HDMI, DVI, and other inputs via adapters. For more details, visit our [specifications](/product/minikvm/specifications/) page.
+### **Network Independence**
+Stable headless control using HDMI video capture and emulated keyboard/mouse (HID) input. No network connection required.
 
-- **Switchable USB Type-A Port**  
-  Toggle USB access between the host and target to share a USB drive without replugging. Learn more on the [Switchable USB Port](../usb-switch) page.
+### **High-Performance Video**
+- **Input**: Up to 4K (3840×2160) @ 30Hz via HDMI
+- **Output**: Full HD (1920×1080) @ 30Hz with under 140ms latency
+- **Compression**: YUV and MJPEG support
+- **Compatibility**: VGA, DVI, Micro HDMI via adapters
 
-- **Host App Across All Platforms**  
-  Our [Host apps](/app) are compatible with macOS, Windows, Linux, and Android, ensuring seamless integration and optimal performance.
+### **Switchable USB Port**
+Toggle USB access between host and target devices for seamless USB drive sharing. Learn more on the [Switchable USB Port](../usb-switch) page.
 
-- **Text Transfer**  
-  Effortlessly transmit text from the host computer to the target device by simulating keystrokes. This feature is particularly useful for quickly entering usernames, passwords, or snippets of code. It supports a wide range of ASCII characters, including symbols, punctuation, and non-alphanumeric characters, ensuring versatility in text input.
+### **Cross-Platform Support**
+[Host apps](/app) compatible with macOS, Windows, Linux, and Android for universal integration.
 
-!!! warning "Limitations of the Text Transfer Feature"
-    - **No Clipboard Integration**  
-      This functionality solely emulates typing; it does not facilitate the transfer of non-textual content, such as images or formatted documents.
+### **Text Transfer**
+Effortlessly transmit text by simulating keystrokes—perfect for usernames, passwords, and code snippets. Supports ASCII characters including symbols and punctuation.
 
-    - **Language Limitations**  
-      Currently, it is limited to ASCII-based characters, which means it does not support languages that utilize non-ASCII scripts, such as Chinese, Japanese, or Korean.
+!!! warning "Text Transfer Limitations"
+    - **No Clipboard Integration**: Only emulates typing, no image or document transfer
+    - **ASCII Only**: Limited to ASCII characters (no Chinese, Japanese, Korean support)
+    - **Length Considerations**: Best for short text; large blocks may cause performance issues
 
-    - **Text Length Considerations**  
-      While this feature excels at transferring short text entries (like usernames, complex passwords, or code snippets), attempting to send large blocks of text may lead to performance issues or errors.
+### **Plug-and-Play Convenience**
+No software installation required on target device. Control begins immediately upon connection with no software traces left behind.
 
-- **Plug-and-Play Convenience**  
-  No additional software installation or configuration on the target device—control begins immediately upon connection, and no software traces are left behind.
+### **Audio Integration**
+HDMI embedded audio passthrough for complete multimedia experience.
 
-- **Ultra-Portable Design**  
-  Compact and lightweight, perfect for professionals who need to work on various systems while on the move.
+### **Extension Pins**
+[Extension pins](../extension-pins) enable advanced development and customization for specific needs.
 
-- **Audio Integration**  
-  Captures and plays audio from the target device directly on the host computer.
+### **Open-Source**
+[Fully open-source](/compliance) hardware and software for transparency and [community innovation](/discord).
 
-- **Extension Pins for Further Development**  
-  The Openterface Mini-KVM includes [extension pins](../extension-pins) that allow for advanced development and experimentation. These pins enable users to explore new functionalities and customize their device for specific needs.
+## Technical Specifications
 
-- **Completely Open-Source**  
-  The Openterface Mini-KVM is [fully open-source](/compliance), with both hardware and software available for study, modification, and distribution. This commitment to open-source principles ensures transparency and encourages [community-driven innovation](/discord).
+### **Physical Dimensions**
+- **Size**: 61 × 53 × 13.5 mm (2.40 × 2.09 × 0.53 inches)
+- **Weight**: ~48g
+- **Material**: Aluminum alloy, PLA casing
+
+### **Connectivity & Power**
+- **Power**: USB-C powered (no external supply needed)
+- **USB Speed**: 12Mbps full-speed transmission
+- **Host Compatibility**: Windows, macOS, Linux, Android
+- **Target**: No software installation required
+
+### **Video & Audio**
+- **Max Input**: 3840×2160@30Hz (HDMI)
+- **Max Output**: 1920×1080@30Hz
+- **Latency**: Under 140ms
+- **Audio**: HDMI embedded audio passthrough
+
+### **Input Features**
+- Full keyboard and mouse emulation (absolute & relative)
+- Multimedia key support
+- Custom HID functionality
+- Computer wake-up function
+
+### **Environmental**
+- **Operating**: 0°C to 40°C
+- **Storage**: -10°C to 50°C
+- **Humidity**: 80% RH
+
+## Product Models
+- **Basic**: OP-MINIKVM-BASIC
+- **Toolkit**: OP-MINIKVM-TOOLKIT
+
+## Docs Downloads
+- **[Quick Start Guide](https://raw.githubusercontent.com/TechxArtisanStudio/Openterface/main/product-printed-materials/minikvm_quick_start_guide_20240928.pdf)** (PDF)
+- **[Datasheet (English)](https://raw.githubusercontent.com/TechxArtisanStudio/Openterface/main/product-printed-materials/Openterface-Mini-KVM-Basic-and-Toolkit-Datasheet-Eng-20250313.pdf)** (PDF)
+
+![lig-front](https://assets.openterface.com/images/product/minikvm-v1-9-front.svg#only-light){:style="max-height:260px"}
+![lig-back](https://assets.openterface.com/images/product/minikvm-v1-9-back.svg#only-light){:style="max-height:260px"}
+![lig-front](https://assets.openterface.com/images/product/minikvm-v1-9-front_1.svg#only-dark){:style="max-height:260px"}
+![lig-back](https://assets.openterface.com/images/product/minikvm-v1-9-back_1.svg#only-dark){:style="max-height:260px"}

@@ -6,61 +6,40 @@ keywords: "Mini-KVM setup, KVM connection guide, USB-C KVM setup, HDMI KVM conne
 
 # **How to Connect** | Setup Guide | Openterface Mini-KVM
 
-## Connection Steps
+## Quick Setup
 
-![to-host](https://assets.openterface.com/images/product/to-host.svg#only-light){:style="height:260px"} ![to-host](https://assets.openterface.com/images/product/to-host_1.svg#only-dark){:style="height:260px"}
-![to-target](https://assets.openterface.com/images/product/to-target.svg#only-light){:style="height:260px"} ![to-target](https://assets.openterface.com/images/product/to-target_1.svg#only-dark){:style="height:260px"}
+![to-host](https://assets.openterface.com/images/product/to-host.svg#only-light){:style="height:200px"} ![to-host](https://assets.openterface.com/images/product/to-host_1.svg#only-dark){:style="height:200px"}
+![to-target](https://assets.openterface.com/images/product/to-target.svg#only-light){:style="height:200px"} ![to-target](https://assets.openterface.com/images/product/to-target_1.svg#only-dark){:style="height:200px"}
 
-To set up your Mini-KVM, follow these steps in order:
+**Setup in 4 simple steps:**
 
-1. **Host Computer Connection** (Orange Side):
-    - Connect the host computer to the mini-KVM using the orange 1.5m Type-C USB cable. Plug it into the Type-C female port on the orange side of the mini-KVM.
+1. **Host Connection** (Orange side): Connect host computer using 1.5m Type-C cable
+2. **Target Connection** (Black side): Connect target device using 0.3m Type-C cable  
+3. **Video Connection** (Black side): Connect target's video output to HDMI port
+4. **USB Device** (Optional): Connect to USB-A port after completing steps 1-3
 
-    !!! note "Host App Required"
-        The host computer needs to have the host app installed. For more information and download links, please refer to the [App](/app) page.
-
-2. **Target Device Connection** (Black Side):
-    - Connect the target device to the mini-KVM using the black 0.3m Type-C USB cable. Plug it into the Type-C female port on the black side of the mini-KVM.
-
-3. **Target Video Output Connection** (Black Side):
-    - Connect the target device's video output port to the HDMI female port on the black side of the mini-KVM. Use the black 0.3m HDMI cable, or any other appropriate video-source-to-HDMI cable, such as a VGA-to-HDMI converter cable.
-
-    !!! note "No App Required for the Target"
-        No pre-installation or configuration is required on the target device. As long as the target device supports UI operations with video output (HDMI, VGA, e.g.) and has a USB port to receive emulated keyboard and mouse control (HID) signals, it can be used. Thus, supported target device platforms include Windows, macOS, Linux, Android, and iOS.
-
-4. **Switchable USB-A 2.0 Port Connection** (Optional):
-    - If you want to connect a usb device to the Switchable USB-A 2.0 Port, it's recommended to do so after completing the above three connections and ensuring the host app is open.
+!!! note "Requirements"
+    - **Host**: Requires [Openterface App](/app) installed
+    - **Target**: No app needed - supports Windows, macOS, Linux, Android, iOS
+    - **Video**: Use provided HDMI cable or VGA-to-HDMI converter
 
 
-## Interfaces
+## Port Guide
 
-![host-side](https://assets.openterface.com/images/product/host-htc.svg#only-light){:style="width:360px"}
+![host-side](https://assets.openterface.com/images/product/host-htc.svg#only-light){:style="width:300px"} ![target-side](https://assets.openterface.com/images/product/target-htc.svg#only-light){:style="width:300px"}
+![host-side](https://assets.openterface.com/images/product/host-htc_1.svg#only-dark){:style="width:300px"} ![target-side](https://assets.openterface.com/images/product/target-htc_1.svg#only-dark){:style="width:300px"}
 
-![target-side](https://assets.openterface.com/images/product/target-htc.svg#only-light){:style="width:360px"}
+- ① **Host USB-C**: Data transfer to host computer
+- ② **Target USB-C**: Keyboard/mouse control output
+- ③ **HDMI Input**: Video input from target device
+- ④ **USB-A Port**: Switchable between host/target
 
-![host-side](https://assets.openterface.com/images/product/host-htc_1.svg#only-dark){:style="width:360px"}
+!!! warning "Important Notes"
+    - **Power**: USB devices should not exceed 1.5W consumption
+    - **USB-A Lock**: Requires extra force to insert/remove (avoid tiny devices)
+    - **USB Hub**: Use externally powered hubs only; avoid deep USB trees
+    - **Switching**: See [USB Port Switching Guide](../usb-switch) for details
 
-![target-side](https://assets.openterface.com/images/product/target-htc_1.svg#only-dark){:style="width:360px"}
+⑤ ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} **Toggle Switch**: Switch USB-A port between host/target
 
-① ![Type-C to Host](https://assets.openterface.com/images/shell-icons/host.svg#only-light){:style="height:15px"} ![Type-C to Host](https://assets.openterface.com/images/shell-icons/host_1.svg#only-dark){:style="height:15px"} - **Host USB-C Port** (Female): As a USB device port, connecting to the Host computer for data transfer via built-in USB hub
-
-② ![Type-C to Target](https://assets.openterface.com/images/shell-icons/target.svg#only-light){:style="height:18px"} ![Type-C to Target](https://assets.openterface.com/images/shell-icons/target_1.svg#only-dark){:style="height:18px"} - **Target USB-C Port** (Female): As a USB device port, connecting to the Host computer for emulating keyboard and mouse HID output via built-in USB hub
-
-③ ![HDMI Input](https://assets.openterface.com/images/shell-icons/input.svg#only-light){:style="height:18px"} ![HDMI Input](https://assets.openterface.com/images/shell-icons/input_1.svg#only-dark){:style="height:18px"} - **HDMI Input Port** (Female): HDMI source input from the Target computer
-
-④ ![USB-A Port](https://assets.openterface.com/images/shell-icons/switchable-usb.svg#only-light){:style="height:26px"} ![USB-A Port](https://assets.openterface.com/images/shell-icons/switchable-usb_1.svg#only-dark){:style="height:26px"} - **Switchable USB-A 2.0 Port** (Female): As a USB host port, utilized by either the host computer or the target computer at any given time, but not simultaneously. Please check [USB Port Switching Guide](../usb-switch) for more.
-
-!!! warning "USB power limitations"
-    The power supplied by the USB port depends on the Host motherboard. It is not recommended to connect USB devices that require a lot of power. Typically, the power consumption should not exceed 1.5W. Connecting high-power devices may result in unstable operation or potential damage.
-
-!!! warning "USB-A Port Has Firm Locking Mechanism"
-    The USB-A port includes a locking mechanism that requires extra force when plugging in or removing devices. This is intentional and ensures a secure connection. **Avoid using very small USB devices** (like ultra-compact USB drives), as they may be difficult to grip and remove, potentially leading to damage.
-
-!!! warning "Extra USB Hub Requires External Power and May Affect Compatibility"
-    The mini-KVM already includes a built-in USB hub that connects to both the host and the target computer. If you connect an additional external USB hub to the USB-A port, any USB devices attached to it will operate at a deeper level in the USB device tree. Some computers may have limitations on USB tree depth, which can cause compatibility issues or prevent certain devices from working correctly.
-
-    Additionally, make sure any connected USB hub is externally powered. Unpowered hubs may cause instability or malfunction of the entire mini-KVM setup.
-
-⑤ ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} - **Toggle Switch**: For toggling the connection of the USB-A 2.0 port between the host and the target computer
-
-⑥ ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins.svg#only-light){:style="height:15px"} ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins_1.svg#only-dark){:style="height:15px"} - **Extension Pins**: Hidden by default and only accessible by replacing the top cover with an alternate cap. For more information, please check [Extension Pins](../extension-pins) for developer use.
+⑥ ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins.svg#only-light){:style="height:15px"} ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins_1.svg#only-dark){:style="height:15px"} **Extension Pins**: Developer access (see [Extension Pins](../extension-pins))

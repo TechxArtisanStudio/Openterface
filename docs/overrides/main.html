@@ -3,18 +3,160 @@
 {% block extrahead %}
   <link rel="stylesheet" href="{{ 'assets/stylesheets/custom.css' | url }}">
   <link rel="stylesheet" href="{{ 'assets/stylesheets/signup_form.css' | url }}">
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/slideshow.css' | url }}">
+  
+  <!-- Determine current locale -->
+  {% set current_locale = page.locale or config.theme.language or (page.url.split('/')[1] if page.url and page.url.split('/')[1] in ['de', 'es', 'fr', 'it', 'ja', 'ko', 'pt', 'ro', 'zh'] else 'en') %}
+  
   <!-- Gibby Avatar and Dialogue Box -->
   <div class="gibby-container">
-    <a href="#form_signup" class="gibby-link"><img src="https://assets.openterface.com/images/op-avatar.webp" alt="Gibby Mascot" class="gibby-avatar" draggable="false" aria-label="Gibby Mascot"></a>
+    <!-- Default English content (fallback) -->
+    <a href="#" class="gibby-link" id="gibby-avatar-link"><img src="https://assets.openterface.com/images/op-avatar.webp" alt="Gibby Mascot" class="gibby-avatar" draggable="false" aria-label="Gibby Mascot"></a>
     <div class="gibby-dialogue">
       <p>
-        <a href="#form_signup" class="gibby-link" data-i18n="main.subscribenow-link">Subscribe NOW!</a>
+        <a href="#" class="gibby-link" id="gibby-text-link" data-i18n="main.subscribenow-link">Subscribe NOW!</a>
       </p>
     </div>
   </div>
+
+  <script>
+    // Language-specific Gibby content
+    const gibbyContent = {
+      'en': {
+        alt: 'Gibby Mascot',
+        ariaLabel: 'Gibby Mascot',
+        text: 'Subscribe NOW!'
+      },
+      'de': {
+        alt: 'Gibby Maskottchen',
+        ariaLabel: 'Gibby Maskottchen',
+        text: 'JETZT abonnieren!'
+      },
+      'es': {
+        alt: 'Mascota Gibby',
+        ariaLabel: 'Mascota Gibby',
+        text: '¡Suscríbete AHORA!'
+      },
+      'fr': {
+        alt: 'Mascotte Gibby',
+        ariaLabel: 'Mascotte Gibby',
+        text: 'Abonnez-vous MAINTENANT !'
+      },
+      'it': {
+        alt: 'Mascotte Gibby',
+        ariaLabel: 'Mascotte Gibby',
+        text: 'Iscriviti ORA!'
+      },
+      'ja': {
+        alt: 'ギビー マスコット',
+        ariaLabel: 'ギビー マスコット',
+        text: '今すぐ登録！'
+      },
+      'ko': {
+        alt: '기비 마스코트',
+        ariaLabel: '기비 마스코트',
+        text: '지금 구독하세요!'
+      },
+      'pt': {
+        alt: 'Gibby Mascot',
+        ariaLabel: 'Gibby Mascot',
+        text: 'Inscreva-se AGORA!'
+      },
+      'ro': {
+        alt: 'Mascota Gibby',
+        ariaLabel: 'Mascota Gibby',
+        text: 'Abonează-te ACUM!'
+      },
+      'zh': {
+        alt: 'Gibby吉祥物',
+        ariaLabel: 'Gibby 吉祥物',
+        text: '订阅吧!'
+      }
+    };
+
+    // Detect current language from URL or page
+    function detectCurrentLanguage() {
+      const path = window.location.pathname;
+      const segments = path.split('/').filter(segment => segment);
+      
+      // Check if first segment is a language code
+      if (segments.length > 0 && gibbyContent[segments[0]]) {
+        return segments[0];
+      }
+      
+      // Check if we're in a language subdirectory
+      const hostname = window.location.hostname;
+      if (hostname.includes('.') && hostname.split('.').length > 2) {
+        const subdomain = hostname.split('.')[0];
+        if (gibbyContent[subdomain]) {
+          return subdomain;
+        }
+      }
+      
+      // Default to English
+      return 'en';
+    }
+
+    // Update Gibby content based on detected language
+    function updateGibbyContent() {
+      const lang = detectCurrentLanguage();
+      const content = gibbyContent[lang] || gibbyContent['en'];
+      
+      const avatar = document.querySelector('.gibby-avatar');
+      const avatarLink = document.getElementById('gibby-avatar-link');
+      const textLink = document.getElementById('gibby-text-link');
+      
+      if (avatar) {
+        avatar.alt = content.alt;
+        avatar.setAttribute('aria-label', content.ariaLabel);
+      }
+      
+      if (textLink) {
+        textLink.textContent = content.text;
+      }
+      
+      // Set the correct href to preserve current language path
+      const currentPath = window.location.pathname;
+      const formSignupHref = currentPath + '#form_signup';
+      
+      if (avatarLink) {
+        avatarLink.href = formSignupHref;
+      }
+      
+      if (textLink) {
+        textLink.href = formSignupHref;
+      }
+    }
+
+    // Update content immediately
+    updateGibbyContent();
+
+    // Listen for language changes (if MkDocs language selector triggers events)
+    document.addEventListener('DOMContentLoaded', function() {
+      // Update when page loads
+      updateGibbyContent();
+      
+      // Listen for URL changes (for SPA-like behavior)
+      let currentPath = window.location.pathname;
+      setInterval(function() {
+        if (window.location.pathname !== currentPath) {
+          currentPath = window.location.pathname;
+          updateGibbyContent();
+        }
+      }, 100);
+    });
+
+    // Also update when the page becomes visible (for back/forward navigation)
+    document.addEventListener('visibilitychange', function() {
+      if (!document.hidden) {
+        updateGibbyContent();
+      }
+    });
+  </script>
 {% endblock %}
 
 {% block scripts %}
   {{ super() }}
   <script src="https://assets.openterface.com/js/custom.min.js"></script>
+  <script src="{{ 'assets/javascripts/slideshow.js' | url }}"></script>
 {% endblock %}

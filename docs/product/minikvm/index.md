@@ -7,12 +7,47 @@ keywords: "Mini-KVM, KVM over USB, KVM over IP, headless control, HDMI KVM, USB 
 
 # **Openterface Mini-KVM**
 
-![basic-two-angled](https://assets.openterface.com/images/product/basic-two-angled.webp){:style="max-height:320px"}
+<div class="slideshow-container" id="slideshow-minikvm" data-auto-slide="true" data-auto-slide-interval="3000">
+  <div class="slideshow-wrapper">
+    <div class="slide active">
+      <img src="https://assets.openterface.com/images/product/basic-two-angled.webp" alt="Openterface Mini-KVM Product" style="max-height:320px;" loading="lazy">
+    </div>
+    <div class="slide">
+      <img src="https://assets.openterface.com/images/product/use-case-demo-pc-bios-1.webp" alt="PC BIOS Demo" style="max-height:320px;" loading="lazy">
+    </div>
+    <div class="slide">
+      <img src="https://assets.openterface.com/images/product/use-case-demo-respberry-pi.webp" alt="Raspberry Pi Demo" style="max-height:320px;" loading="lazy">
+    </div>
+    <div class="slide">
+      <img src="https://assets.openterface.com/images/product/use-case-demo-macmini2009-3.webp" alt="Mac Mini 2009 Demo" style="max-height:320px;" loading="lazy">
+    </div>
+    <div class="slide">
+      <img src="https://assets.openterface.com/images/product/use-case-demo-industrial-pc.webp" alt="Industrial PC Demo" style="max-height:320px;" loading="lazy">
+    </div>
+    <div class="slide">
+      <img src="https://assets.openterface.com/images/product/use-case-demo-macbookpro2010.webp" alt="MacBook Pro 2010 Demo" style="max-height:320px;" loading="lazy">
+    </div>
+  </div>
+  
+  <!-- Navigation with dots -->
+  <div class="slideshow-navigation">
+    <button class="nav-arrow left" onclick="changeSlide('slideshow-minikvm', -1)">❮</button>
+    <div class="slideshow-dots">
+      <span class="dot active" onclick="currentSlide('slideshow-minikvm', 1)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-minikvm', 2)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-minikvm', 3)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-minikvm', 4)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-minikvm', 5)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-minikvm', 6)"></span>
+    </div>
+    <button class="nav-arrow right" onclick="changeSlide('slideshow-minikvm', 1)">❯</button>
+  </div>
+</div>
 
-Our **Openterface™ Mini-KVM** is a plug-and-play **KVM-over-USB** solution. It allows you to control a nearby headless computer directly from your laptop or desktop using USB and HDMI connections, eliminating the need for additional peripherals or network connectivity. Throughout this documentation, we refer to
 
-- Your controlling laptop or PC as ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![Host](https://assets.openterface.com/images/shell-icons/host.svg#only-light){:style="height:15px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"} ![Host](https://assets.openterface.com/images/shell-icons/host_1.svg#only-dark){:style="height:15px"}
-- The device being controlled as ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![Target](https://assets.openterface.com/images/shell-icons/target.svg#only-light){:style="height:18px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"} ![Target](https://assets.openterface.com/images/shell-icons/target_1.svg#only-dark){:style="height:18px"}
+Our **Openterface™ Mini-KVM** is a plug-and-play [**KVM-over-USB**](faq/kvm-over-usb.md) solution. It allows you to control a nearby headless computer directly from your laptop or desktop using USB and HDMI connections, eliminating the need for additional peripherals or network connectivity.
+
+<button class="md-button" onclick="window.location.href='{{ config.extra.minikvm_purchase_link }}'"> Order NOW <img src="https://assets.openterface.com/images/trademark/crowd-supply.svg" alt="Crowd Supply" style="vertical-align: middle; height: 26px;"></button>
 
 <div class="grid cards" markdown>
 

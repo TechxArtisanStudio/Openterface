@@ -36,6 +36,21 @@ function initializeForm() {
     const url = new URL(window.location.href);
     sourceInput.value = url.origin + url.pathname;
 
+    // Create a hidden input for language identifier if it doesn't exist
+    let langInput = form.querySelector('input[name="entry.22394832"]');
+    if (!langInput) {
+      langInput = document.createElement('input');
+      langInput.type = 'hidden';
+      langInput.name = 'entry.22394832';
+      form.appendChild(langInput);
+    }
+
+    // Determine language from URL path and set the language identifier
+    const pathSegments = url.pathname.split('/').filter(segment => segment);
+    const supportedLangs = ['de', 'es', 'fr', 'it', 'ja', 'ko', 'pt', 'ro', 'zh'];
+    const currentLang = pathSegments.length > 0 && supportedLangs.includes(pathSegments[0]) ? pathSegments[0] : 'en';
+    langInput.value = `Openterface-${currentLang}`;
+
     const formData = new FormData(form);
     const data = {};
     formData.forEach((value, key) => { data[key] = value; });
