@@ -204,15 +204,6 @@ plugins:
 - redirects:
     redirect_maps:
       app.md: app/overview.md
-      fr/app.md: /fr/app/overview.md
-      ja/app.md: ja/app/overview.md
-      pt/app.md: pt/app/overview.md
-      zh/app.md: zh/app/overview.md
-      es/app.md: es/app/overview.md
-      it/app.md: it/app/overview.md
-      ru/app.md: ru/app/overview.md
-      de/app.md: de/app/overview.md
-      ko/app.md: ko/app/overview.md
       about.md: about/about-us.md
       contact.md: about/about-us.md
       about/contributing.md: about/contribute-support.md
