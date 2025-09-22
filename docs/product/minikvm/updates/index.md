@@ -2,6 +2,8 @@
 
 Welcome to the comprehensive updates archive for the Openterface Mini-KVM project. This page contains all the major announcements, progress reports, and milestones from our crowdfunding campaign through production and delivery.
 
+**Total Updates: {{ config.extra.minikvm_updates }}**
+
 - [2025-08-30 | Say hello to KVM-Go – the next ultra portable chapter in your Openterface KVM adventure](250830-kvm-go-pre-launch.md)
 - [2025-07-18 | Open Sauce 2025](250718-open-sauce.md)
 - [2025-06-17 | Teardown 2025: We're Coming Back to Portland!](250617-teardown-2025-promote.md)
