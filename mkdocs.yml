@@ -202,6 +202,7 @@ plugins:
       type: timeago
   - redirects:
       redirect_maps:
+        app.md: app/overview.md
         about.md: about/about-us.md
         contact.md: about/about-us.md
         about/contributing.md: about/contribute-support.md
