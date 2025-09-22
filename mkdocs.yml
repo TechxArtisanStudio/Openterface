@@ -63,10 +63,14 @@ theme:
       icon: material/weather-night
       name: Switch to light mode
 extra:
-  copyright_year: 2025
   qt_version: 0.4.3
   android_version: v1.1.2
   macos_version: 1.16
+  copyright_year: 2025
+  uconsole-kvm-extension_updates: 0
+  minikvm_updates: 21
+  kvm-go_updates: 0
+  accessories_updates: 0
   qt_linux_stable: 0.3.19
   minikvm_purchase_link: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
   social:

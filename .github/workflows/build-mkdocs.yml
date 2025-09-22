@@ -35,6 +35,9 @@ jobs:
       - name: Update mkdocs config with dynamic values
         run: |
           python scripts/update_config.py
+      - name: Count update posts and update mkdocs config
+        run: |
+          python scripts/count_updates.py
       - name: Add all languages to mkdocs config
         run: |
           python scripts/manage_i18n.py add
