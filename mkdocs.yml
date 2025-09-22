@@ -63,10 +63,10 @@ theme:
       icon: material/weather-night
       name: Switch to light mode
 extra:
+  copyright_year: 2025
   qt_version: 0.4.3
   android_version: v1.1.2
   macos_version: 1.16
-  copyright_year: 2025
   uconsole-kvm-extension_updates: 0
   minikvm_updates: 21
   kvm-go_updates: 0
