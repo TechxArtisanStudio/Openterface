@@ -1,4 +1,11 @@
-# Teardown 2025: We’re Coming Back to Portland!
+---
+slug: teardown-2025-portland-announcement
+date: 2025-06-17
+description: "Openterface announces their return to Teardown 2025 in Portland, showcasing new developments and QT app improvements for hackers and makers."
+keywords: "teardown 2025, portland, openterface, kvm, hackers, makers, qt app, techxartisan"
+---
+
+# 2025-06-17 | Teardown 2025: We're Coming Back to Portland!
 
 Hi, everyone! While our tech wizard Kevin Peng has been pulling late nights, jumper wires in his hair and heat-shrink tubing scattered across his desk, he’s been preparing something seriously cool. Why? Because our man with the megaphone, Billy Wang, is getting ready to show it all off at Teardown 2025! We can't wait to share what we’ve been cooking up, and we think you’ll love it too.
 
