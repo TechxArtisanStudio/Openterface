@@ -1,4 +1,11 @@
-# We're Going Live!
+---
+slug: openterface-teardown-session-live-announcement
+date: 2025-05-15
+description: "Openterface team announces live YouTube session with Crowd Supply Teardown, featuring Mini-KVM deep dive, Lite version sneak peek, and USB KVM DIY Challenge 2024 winners announcement."
+keywords: "teardown session, live youtube, openterface, mini-kvm, lite version, usb kvm, diy challenge, crowd supply, billy wang, kevin peng, helen leigh"
+---
+
+# 2025-05-15 | We're Going Live!
 
 Hey everyone!
 

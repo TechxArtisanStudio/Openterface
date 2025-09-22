@@ -1,3 +1,12 @@
+---
+slug: openterface-open-sauce-2025-booth-f9
+date: 2025-07-18
+description: "Openterface announces their presence at Open Sauce 2025 in San Mateo with Booth F.9, featuring a game challenge where winners can earn a Mini-KVM prize."
+keywords: "open sauce 2025, san mateo, openterface, mini-kvm, kvm-go, uconsole, game challenge, booth f9, techxartisan"
+---
+
+# 2025-07-18 | Openterface at Open Sauce 2025 - Booth F.9!
+
 Hey folks!
 
 We're getting all our Openterface gear set up at Open Sauce 2025 in the Bay area. Come find us in Booth F.9 at the San Mateo County Event Center!
