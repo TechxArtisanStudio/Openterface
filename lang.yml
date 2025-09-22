@@ -1,3 +1,13 @@
+# IMPORTANT: This file contains i18n translations for all languages
+# DO NOT manually add these translations to mkdocs.yml!
+# Use scripts/manage_i18n.py to manage language configurations:
+#   - Add languages: python scripts/manage_i18n.py add
+#   - Remove languages: python scripts/manage_i18n.py remove
+#   - List current: python scripts/manage_i18n.py list
+#
+# This separation allows for better management and prevents
+# accidental duplication of translations in mkdocs.yml
+
 - locale: zh
   name: 简体中文
   build: true
