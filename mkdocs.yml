@@ -144,7 +144,8 @@ nav:
     - Reviews & Press: product/minikvm/reviews.md
     - USB Switch: product/minikvm/usb-switch.md
     - Extension Pins: product/minikvm/extension-pins.md
-    - FAQs & Troubleshoot: product/minikvm/faq.md
+    - FAQs for Mini-KVM: product/minikvm/faq.md
+    - Updates for Mini-KVM: product/minikvm/updates/index.md
   - KVM Go Series ⏳:
     - Pre-Launch: product/kvm-go/pre-launch.md
   - uConsole KVM Extension 🛠️:
