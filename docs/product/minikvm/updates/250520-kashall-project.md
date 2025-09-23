@@ -1,6 +1,6 @@
 ---
 draft: false
-category: "USB KVM Constest 2024"
+category: "USB KVM DIY Contest 2024"
 date: 2025-05-20
 description: "Explore Kashall's innovative Openterface Viewer, a browser-based KVM solution that enables direct control of headless devices without installation. This open-source project leverages WebUSB, WebSerial, and WebHID APIs to deliver a lightweight, portable alternative to traditional KVM software, perfect for IT professionals and developers."
 keywords: "Openterface Viewer, browser-based KVM, WebUSB, WebSerial, WebHID, headless device management, client-side KVM, Chromium browser, Cloudflare Pages, TypeScript, Vite, USB gadget mode, remote desktop, Web API, static web app, USB-KVM DIY Challenge, open-source KVM, lightweight KVM solution, browser automation, Web API integration, device control, video streaming, mouse capture, keyboard input, Cloudflare deployment, GitHub project, DIY electronics, computer science project, hardware control, USB interface, HDMI video"
