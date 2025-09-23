@@ -3,7 +3,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Openterface Mini-KVMを使用して、ヘッドレスコンピュータをラップトップから直接制御。HDMIサポート付きのプラグアンドプレイKVM-over-USBソリューションで、ネットワーク不要。開発者、IT専門家、リモートワークステーションに最適。">
+        <meta name="description" content="Openterface Mini-KVMを使用して、ヘッドレスコンピューターを直接ノートパソコンから制御。HDMI対応のプラグアンドプレイKVM-over-USBソリューションで、ネットワーク接続は不要。開発者、IT専門家、リモートワークステーションに最適。">
       
       
         <meta name="author" content="Openterface">
@@ -23,7 +23,7 @@
     
     
       
-        <title>Openterface Mini-KVM | ヘッドレスコンピュータ制御のためのKVM-over-USBソリューション - Openterface | Bridging Interfaces to Open Possibilities</title>
+        <title>Openterface Mini-KVM | ヘッドレスコンピューター制御のためのKVM-over-USBソリューション - Openterface | Bridging Interfaces to Open Possibilities</title>
       
     
     
@@ -288,6 +288,46 @@
         updateGibbyContent();
       }
     });
+
+    // YouTube Lazy Loading
+    function initYouTubeLazyLoading() {
+      const videoItems = document.querySelectorAll('.youtube-video-item[data-video-id]');
+      
+      videoItems.forEach(item => {
+        const videoId = item.getAttribute('data-video-id');
+        const placeholder = item.querySelector('.youtube-placeholder');
+        
+        if (placeholder) {
+          // Set the thumbnail background
+          placeholder.style.backgroundImage = `url('https://img.youtube.com/vi/${videoId}/maxresdefault.jpg')`;
+          
+          // Add click handler to load video
+          placeholder.addEventListener('click', function() {
+            loadYouTubeVideo(item, videoId);
+          });
+        }
+      });
+    }
+    
+    function loadYouTubeVideo(container, videoId) {
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+      iframe.title = container.querySelector('.youtube-placeholder').getAttribute('data-title') || 'YouTube Video';
+      iframe.allowFullscreen = true;
+      iframe.style.width = '100%';
+      iframe.style.height = '200px';
+      iframe.style.border = 'none';
+      iframe.style.display = 'block';
+      
+      // Replace placeholder with iframe
+      container.innerHTML = '';
+      container.appendChild(iframe);
+    }
+    
+    // Initialize when DOM is ready
+    document.addEventListener('DOMContentLoaded', function() {
+      initYouTubeLazyLoading();
+    });
   </script>
 
   
@@ -353,7 +393,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Openterface Mini-KVM | ヘッドレスコンピュータ制御のためのKVM-over-USBソリューション
+              Openterface Mini-KVM | ヘッドレスコンピューター制御のためのKVM-over-USBソリューション
             
           </span>
         </div>
@@ -1169,6 +1209,8 @@
       
         
       
+        
+      
     
     
     
@@ -1363,6 +1405,29 @@
   
   <span class="md-ellipsis">
     Mini‑KVM FAQ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="updates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Updates for Mini-KVM
     
   </span>
   
@@ -2472,40 +2537,152 @@
   </div>
 </div>
 
-<p><strong>Openterface™ Mini-KVM</strong>は、プラグアンドプレイの<a href="faq/kvm-over-usb.md"><strong>KVM-over-USB</strong></a>ソリューションです。USB と HDMI 接続を使用して、ラップトップまたはデスクトップから近くのヘッドレスコンピュータを直接制御でき、追加の周辺機器やネットワーク接続は不要です。</p>
-<p><button class="md-button" onclick="window.location.href='https://www.crowdsupply.com/techxartisan/openterface-mini-kvm'"> 今すぐ注文 <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/trademark/crowd-supply.svg" data-desc-position="bottom"><img src="https://assets.openterface.com/images/trademark/crowd-supply.svg" alt="Crowd Supply" style="vertical-align: middle; height: 26px;"></a></button></p>
+<p>私たちの <strong>Openterface™ Mini-KVM</strong> は、プラグアンドプレイの <a href="/faq/kvm-over-usb/"><strong>KVM-over-USB</strong></a> ソリューションです。USBとHDMI接続を使用して、ノートパソコンやデスクトップから近くのヘッドレスコンピューターを直接制御でき、追加の周辺機器やネットワーク接続は不要です。</p>
+<div style="text-align: center; margin: 20px 0;">
+<button class="md-button" onclick="window.location.href='https://www.crowdsupply.com/techxartisan/openterface-mini-kvm'"> 今すぐ注文 <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/trademark/crowd-supply.svg" data-desc-position="bottom"><img src="https://assets.openterface.com/images/trademark/crowd-supply.svg" alt="Crowd Supply" style="vertical-align: middle; height: 26px;"></a></button>
+</div>
+
 <div class="grid cards">
 <ul>
-<li><span class="twemoji lg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 2C13 2 11 4 11 6.5s2 4.5 4.5 4.5c.9 0 1.7-.3 2.4-.7l3.1 3.1 1.4-1.4-3.1-3.1c.4-.7.7-1.5.7-2.4C20 4 18 2 15.5 2M4 4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5l-2-2v7H4V6h5.03c.06-.7.23-1.35.47-2zm11.5 0C16.9 4 18 5.1 18 6.5S16.9 9 15.5 9 13 7.9 13 6.5 14.1 4 15.5 4"></path></svg></span> <strong>仕様と機能</strong></li>
-</ul>
+<li>
+<p><span class="twemoji lg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 2C13 2 11 4 11 6.5s2 4.5 4.5 4.5c.9 0 1.7-.3 2.4-.7l3.1 3.1 1.4-1.4-3.1-3.1c.4-.7.7-1.5.7-2.4C20 4 18 2 15.5 2M4 4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5l-2-2v7H4V6h5.03c.06-.7.23-1.35.47-2zm11.5 0C16.9 4 18 5.1 18 6.5S16.9 9 15.5 9 13 7.9 13 6.5 14.1 4 15.5 4"></path></svg></span> <strong>仕様と機能</strong></p>
 <hr>
-<p>Mini-KVM の強力な機能を発見</p>
+<p>Mini-KVMの強力な機能を発見</p>
 <p><a href="/product/minikvm/whats-in-the-box/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"></path></svg></span> パッケージ内容</a></p>
 <p><a href="/product/minikvm/features"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"></path></svg></span> 機能を表示</a></p>
-<p><a href="/product/minikvm/specifications"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"></path></svg></span> 仕様</a></p>
-<ul>
-<li><span class="twemoji lg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 7V3h-2v4h-4V3H8v4C7 7 6 8 6 9v5.5L9.5 18v3h5v-3l3.5-3.5V9c0-1-1-2-2-2"></path></svg></span> <strong>使用方法</strong></li>
-</ul>
+<p><a href="/faq/kvm-over-usb/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"></path></svg></span> 動作原理</a></p>
+</li>
+<li>
+<p><span class="twemoji lg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 7V3h-2v4h-4V3H8v4C7 7 6 8 6 9v5.5L9.5 18v3h5v-3l3.5-3.5V9c0-1-1-2-2-2"></path></svg></span> <strong>使用方法</strong></p>
 <hr>
-<p>セットアップ方法を学び、ターゲットデバイスの制御を開始</p>
-<p><a href="/app"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"></path></svg></span> ホストアプリのダウンロードとインストール</a></p>
+<p>ターゲットデバイスの設定と制御開始方法を学習</p>
+<p><a href="/app"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"></path></svg></span> Host Appをダウンロード・インストール</a></p>
 <p><a href="/product/minikvm/how-to-connect"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"></path></svg></span> 接続方法</a></p>
-<p><a href="/usb-kvm"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"></path></svg></span> 動作原理</a></p>
-<ul>
-<li><span class="twemoji lg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.9 18.45c1.35 0 2.45-1.1 2.45-2.45s-1.1-2.45-2.45-2.45c-1.36 0-2.45 1.1-2.45 2.45s1.09 2.45 2.45 2.45m5.2-1.77 1.48 1.16c.13.11.17.29.08.45l-1.4 2.42a.35.35 0 0 1-.43.15l-1.74-.7c-.36.28-.76.51-1.18.69l-.27 1.85c-.02.17-.17.3-.34.3h-2.8c-.18 0-.32-.13-.35-.3l-.26-1.85c-.43-.18-.82-.41-1.18-.69l-1.75.7c-.15.06-.34 0-.42-.15l-1.4-2.42a.35.35 0 0 1 .08-.45l1.48-1.16-.05-.68.05-.69-1.48-1.15a.35.35 0 0 1-.08-.45l1.4-2.42c.08-.16.27-.22.42-.16l1.75.71c.36-.28.75-.52 1.18-.69l.26-1.86c.03-.16.17-.29.35-.29h2.8c.17 0 .32.13.34.29l.27 1.86c.42.17.82.41 1.18.69l1.74-.71c.17-.06.34 0 .43.16l1.4 2.42c.09.15.05.34-.08.45l-1.48 1.15.05.69zM6.69 8.07c.87 0 1.57-.7 1.57-1.57s-.7-1.58-1.57-1.58A1.58 1.58 0 0 0 5.11 6.5c0 .87.71 1.57 1.58 1.57m3.34-1.13.97.74c.07.07.09.19.03.29l-.9 1.56c-.05.1-.17.14-.27.1l-1.12-.45-.74.44-.19 1.19c-.02.11-.11.19-.22.19h-1.8c-.12 0-.21-.08-.23-.19L5.4 9.62l-.76-.44-1.14.45c-.09.04-.2 0-.26-.1l-.9-1.56c-.06-.1-.03-.22.05-.29l.95-.74-.03-.44.03-.44-.95-.74a.23.23 0 0 1-.05-.29l.9-1.56c.06-.1.17-.14.26-.1l1.13.45.77-.44.16-1.19c.02-.11.11-.19.23-.19h1.8c.11 0 .2.08.22.19L8 3.38l.74.44 1.12-.45c.1-.04.22 0 .27.1l.9 1.56c.06.1.04.22-.03.29l-.97.74.03.44z"></path></svg></span> <strong>高度な機能</strong></li>
+<p><a href="/faq"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"></path></svg></span> FAQを表示</a></p>
+</li>
 </ul>
-<hr>
-<p>Openterface の高度な機能を探索</p>
-<p><a href="/product/minikvm/usb-switch"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"></path></svg></span> 切り替え可能 USB ポート</a></p>
-<p><a href="/product/minikvm/extension-pins"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"></path></svg></span> 拡張ピン</a></p>
+</div>
+<div class="grid cards">
 <ul>
-<li><span class="twemoji lg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 18h2v-2h-2zm1-16A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-14a4 4 0 0 0-4 4h2a2 2 0 0 1 2-2 2 2 0 0 1 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5a4 4 0 0 0-4-4"></path></svg></span> <strong>サポートとレビュー</strong></li>
-</ul>
+<li>
+<p><span class="twemoji lg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.1 0-2 .9-2 2v14a2 2 0 0 0 2 2h14c1.11 0 2-.89 2-2V5a2 2 0 0 0-2-2h-1V1m-7.12 11H7.27l2.92 2.11-1.11 3.45L12 15.43l2.92 2.13-1.12-3.44L16.72 12h-3.6L12 8.56z"></path></svg></span> <strong>アップデートとイベント</strong></p>
 <hr>
-<p>サポート、よくある質問の回答、ユーザーレビューを見つける</p>
-<p><a href="reviews"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"></path></svg></span> レビュー動画、投稿、お客様の声</a></p>
-<p><a href="/faq"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"></path></svg></span> FAQ を表示</a></p>
-<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"></path></svg></span> コミュニティに参加：<a href="/discord">Discord</a> と <a href="reddit">Reddit</a></p>
+<p><a href="/product/minikvm/reviews"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12 15.39-3.76 2.27.99-4.28-3.32-2.88 4.38-.37L12 6.09l1.71 4.04 4.38.37-3.32 2.88.99 4.28M22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.45 4.73L5.82 21 12 17.27 18.18 21l-1.64-7.03z"></path></svg></span> レビュー</a> / <a href="/product/minikvm/updates"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5v14H4V5zm0-2H4c-1.11 0-2 .89-2 2v14c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V5c0-1.11-.89-2-2-2m-2 12H6v2h12zm-8-8H6v6h4zm2 2h6V7h-6zm6 2h-6v2h6z"></path></svg></span> 合計アップデート 21</a> / <a href="/product/minikvm/updates"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 2c-.9 0-2 1-2 2H8c0-1-1.1-2-2-2H2v9c0 1 1 2 2 2h2.2c.4 2 1.7 3.7 4.8 4v2.08C8 19.54 8 22 8 22h8s0-2.46-3-2.92V17c3.1-.3 4.4-2 4.8-4H20c1 0 2-1 2-2V2zM6 11H4V4h2zm10 .5c0 1.93-.58 3.5-4 3.5-3.41 0-4-1.57-4-3.5V6h8zm4-.5h-2V4h2z"></path></svg></span> USB KVM DIYコンテスト2024</a> / <a href="/product/minikvm/updates"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 5a3.5 3.5 0 0 0-3.5 3.5A3.5 3.5 0 0 0 12 12a3.5 3.5 0 0 0 3.5-3.5A3.5 3.5 0 0 0 12 5m0 2a1.5 1.5 0 0 1 1.5 1.5A1.5 1.5 0 0 1 12 10a1.5 1.5 0 0 1-1.5-1.5A1.5 1.5 0 0 1 12 7M5.5 8A2.5 2.5 0 0 0 3 10.5c0 .94.53 1.75 1.29 2.18.36.2.77.32 1.21.32s.85-.12 1.21-.32c.37-.21.68-.51.91-.87A5.42 5.42 0 0 1 6.5 8.5v-.28c-.3-.14-.64-.22-1-.22m13 0c-.36 0-.7.08-1 .22v.28c0 1.2-.39 2.36-1.12 3.31.12.19.25.34.4.49a2.482 2.482 0 0 0 1.72.7c.44 0 .85-.12 1.21-.32.76-.43 1.29-1.24 1.29-2.18A2.5 2.5 0 0 0 18.5 8M12 14c-2.34 0-7 1.17-7 3.5V19h14v-1.5c0-2.33-4.66-3.5-7-3.5m-7.29.55C2.78 14.78 0 15.76 0 17.5V19h3v-1.93c0-1.01.69-1.85 1.71-2.52m14.58 0c1.02.67 1.71 1.51 1.71 2.52V19h3v-1.5c0-1.74-2.78-2.72-4.71-2.95M12 16c1.53 0 3.24.5 4.23 1H7.77c.99-.5 2.7-1 4.23-1"></path></svg></span> 展示会</a></p>
+</li>
+</ul>
+</div>
+<div class="what-others-say">
+    <h2>他の人の声</h2>
+
+    <div class="youtube-videos-grid">
+        <div class="youtube-video-item" data-video-id="ZZ5P6MnBcHw">
+            <div class="youtube-placeholder" data-title="Openterface Mini-KVM Review">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+
+        <div class="youtube-video-item" data-video-id="sKDYsKBv90A">
+            <div class="youtube-placeholder" data-title="Mini-KVM Setup Tutorial">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+
+        <div class="youtube-video-item" data-video-id="l5e1wHwZ__c">
+            <div class="youtube-placeholder" data-title="KVM-over-USB Demo">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+
+        <div class="youtube-video-item" data-video-id="FaAFCHHQeQg">
+            <div class="youtube-placeholder" data-title="Mini-KVM vs Traditional KVM">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+
+        <div class="youtube-video-item" data-video-id="K0EuMSQEwKo">
+            <div class="youtube-placeholder" data-title="Real-world Use Cases">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+
+        <div class="youtube-video-item" data-video-id="xAEQpWyfY-c">
+            <div class="youtube-placeholder" data-title="Mini-KVM Troubleshooting">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+
+        <div class="youtube-video-item" data-video-id="lwitzvmxsgc">
+            <div class="youtube-placeholder" data-title="Openterface Mini-KVM open-source KVM gadget">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+
+        <div class="youtube-video-item" data-video-id="B7GHj7mPei4">
+            <div class="youtube-placeholder" data-title="M4 MacMini 2024 を外に持ち出す方法がロマンすぎた！！！！">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+
+        <div class="youtube-video-item" data-video-id="1iTaDp24PBI">
+            <div class="youtube-placeholder" data-title="M4 MacMini 2024 を外に持ち出して使えた wwww">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+
+        <div class="youtube-video-item" data-video-id="hOSP7je8zSk">
+            <div class="youtube-placeholder" data-title="1 社に 1 個あると良い！TechxArtisan 社の Mini KVM">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+
+        <div class="youtube-video-item" data-video-id="U8kvzWnOWWc">
+            <div class="youtube-placeholder" data-title="ノート PC をサーバーなどのコンソールとして利用する機器のご紹介">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+
+        <div class="youtube-video-item" data-video-id="XTbpzx91Qbs">
+            <div class="youtube-placeholder" data-title="Openterface Mini-KVM ¡Controla Todo desde un Solo Lugar!">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+
+        <div class="youtube-video-item" data-video-id="VjH0H8Nt68k">
+            <div class="youtube-placeholder" data-title="Festa do Software Livre - Pista principal - 2024">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+
+        <div class="youtube-video-item" data-video-id="Lf45H4Hkt1o">
+            <div class="youtube-placeholder" data-title="YouTube Video Review">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+
+        <div class="youtube-video-item" data-video-id="Tp4f_uxEo6E">
+            <div class="youtube-placeholder" data-title="YouTube Video Review">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+
+        <div class="youtube-video-item" data-video-id="MNp8AifZ8_Q">
+            <div class="youtube-placeholder" data-title="YouTube Video Review">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+
+        <div class="youtube-video-item" data-video-id="xQev3upcoKo">
+            <div class="youtube-placeholder" data-title="YouTube Video Review">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+
+        <div class="youtube-video-item" data-video-id="VfVGD2bQswQ">
+            <div class="youtube-placeholder" data-title="YouTube Video Review">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+    </div>
 </div>
 
 
@@ -2529,7 +2706,7 @@
     <span class="md-icon" title="最終更新日">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2025年9月18日 08:39:21 UTC"><span class="timeago" datetime="2025-09-18T08:39:21+00:00" locale="ja"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2025年9月18日 08:39:21 UTC">2025-09-18</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2025年9月23日 05:52:32 UTC"><span class="timeago" datetime="2025-09-23T05:52:32+00:00" locale="ja"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2025年9月23日 05:52:32 UTC">2025-09-23</span>
   </span>
 
     

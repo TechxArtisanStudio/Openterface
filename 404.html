@@ -289,6 +289,46 @@
         updateGibbyContent();
       }
     });
+
+    // YouTube Lazy Loading
+    function initYouTubeLazyLoading() {
+      const videoItems = document.querySelectorAll('.youtube-video-item[data-video-id]');
+      
+      videoItems.forEach(item => {
+        const videoId = item.getAttribute('data-video-id');
+        const placeholder = item.querySelector('.youtube-placeholder');
+        
+        if (placeholder) {
+          // Set the thumbnail background
+          placeholder.style.backgroundImage = `url('https://img.youtube.com/vi/${videoId}/maxresdefault.jpg')`;
+          
+          // Add click handler to load video
+          placeholder.addEventListener('click', function() {
+            loadYouTubeVideo(item, videoId);
+          });
+        }
+      });
+    }
+    
+    function loadYouTubeVideo(container, videoId) {
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+      iframe.title = container.querySelector('.youtube-placeholder').getAttribute('data-title') || 'YouTube Video';
+      iframe.allowFullscreen = true;
+      iframe.style.width = '100%';
+      iframe.style.height = '200px';
+      iframe.style.border = 'none';
+      iframe.style.display = 'block';
+      
+      // Replace placeholder with iframe
+      container.innerHTML = '';
+      container.appendChild(iframe);
+    }
+    
+    // Initialize when DOM is ready
+    document.addEventListener('DOMContentLoaded', function() {
+      initYouTubeLazyLoading();
+    });
   </script>
 
   </head>
@@ -411,61 +451,61 @@
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="/product/uconsole-kvm-extension/" hreflang="en" class="md-select__link">
+            <a href="/product/uconsole-kvm-extension/updates/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="/zh/product/uconsole-kvm-extension/" hreflang="zh" class="md-select__link">
+            <a href="/zh/product/uconsole-kvm-extension/updates/" hreflang="zh" class="md-select__link">
               简体中文
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="/ja/product/uconsole-kvm-extension/" hreflang="ja" class="md-select__link">
+            <a href="/ja/product/uconsole-kvm-extension/updates/" hreflang="ja" class="md-select__link">
               日本語
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="/ko/product/uconsole-kvm-extension/" hreflang="ko" class="md-select__link">
+            <a href="/ko/product/uconsole-kvm-extension/updates/" hreflang="ko" class="md-select__link">
               한국어
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="/fr/product/uconsole-kvm-extension/" hreflang="fr" class="md-select__link">
+            <a href="/fr/product/uconsole-kvm-extension/updates/" hreflang="fr" class="md-select__link">
               Français
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="/de/product/uconsole-kvm-extension/" hreflang="de" class="md-select__link">
+            <a href="/de/product/uconsole-kvm-extension/updates/" hreflang="de" class="md-select__link">
               Deutsch
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="/it/product/uconsole-kvm-extension/" hreflang="it" class="md-select__link">
+            <a href="/it/product/uconsole-kvm-extension/updates/" hreflang="it" class="md-select__link">
               Italiano
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="/es/product/uconsole-kvm-extension/" hreflang="es" class="md-select__link">
+            <a href="/es/product/uconsole-kvm-extension/updates/" hreflang="es" class="md-select__link">
               Español
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="/pt/product/uconsole-kvm-extension/" hreflang="pt" class="md-select__link">
+            <a href="/pt/product/uconsole-kvm-extension/updates/" hreflang="pt" class="md-select__link">
               Português
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="/ro/product/uconsole-kvm-extension/" hreflang="ro" class="md-select__link">
+            <a href="/ro/product/uconsole-kvm-extension/updates/" hreflang="ro" class="md-select__link">
               Română
             </a>
           </li>
@@ -1169,6 +1209,8 @@
       
         
       
+        
+      
     
     
     
@@ -1365,6 +1407,29 @@
   
   <span class="md-ellipsis">
     Întrebări despre Mini‑KVM
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/ro/product/minikvm/updates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Updates for Mini-KVM
     
   </span>
   

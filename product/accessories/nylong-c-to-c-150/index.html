@@ -284,6 +284,46 @@
         updateGibbyContent();
       }
     });
+
+    // YouTube Lazy Loading
+    function initYouTubeLazyLoading() {
+      const videoItems = document.querySelectorAll('.youtube-video-item[data-video-id]');
+      
+      videoItems.forEach(item => {
+        const videoId = item.getAttribute('data-video-id');
+        const placeholder = item.querySelector('.youtube-placeholder');
+        
+        if (placeholder) {
+          // Set the thumbnail background
+          placeholder.style.backgroundImage = `url('https://img.youtube.com/vi/${videoId}/maxresdefault.jpg')`;
+          
+          // Add click handler to load video
+          placeholder.addEventListener('click', function() {
+            loadYouTubeVideo(item, videoId);
+          });
+        }
+      });
+    }
+    
+    function loadYouTubeVideo(container, videoId) {
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+      iframe.title = container.querySelector('.youtube-placeholder').getAttribute('data-title') || 'YouTube Video';
+      iframe.allowFullscreen = true;
+      iframe.style.width = '100%';
+      iframe.style.height = '200px';
+      iframe.style.border = 'none';
+      iframe.style.display = 'block';
+      
+      // Replace placeholder with iframe
+      container.innerHTML = '';
+      container.appendChild(iframe);
+    }
+    
+    // Initialize when DOM is ready
+    document.addEventListener('DOMContentLoaded', function() {
+      initYouTubeLazyLoading();
+    });
   </script>
 
   
@@ -1164,6 +1204,8 @@
       
         
       
+        
+      
     
     
     
@@ -1360,6 +1402,29 @@
   
   <span class="md-ellipsis">
     FAQs for Mini-KVM
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../minikvm/updates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Updates for Mini-KVM
     
   </span>
   

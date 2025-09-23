@@ -15,7 +15,7 @@
         <link rel="prev" href="../extension-pins/">
       
       
-        <link rel="next" href="../../kvm-go/pre-launch/">
+        <link rel="next" href="../updates/">
       
       
       <link rel="icon" href="../../../../assets/favicon.png">
@@ -297,6 +297,46 @@
       if (!document.hidden) {
         updateGibbyContent();
       }
+    });
+
+    // YouTube Lazy Loading
+    function initYouTubeLazyLoading() {
+      const videoItems = document.querySelectorAll('.youtube-video-item[data-video-id]');
+      
+      videoItems.forEach(item => {
+        const videoId = item.getAttribute('data-video-id');
+        const placeholder = item.querySelector('.youtube-placeholder');
+        
+        if (placeholder) {
+          // Set the thumbnail background
+          placeholder.style.backgroundImage = `url('https://img.youtube.com/vi/${videoId}/maxresdefault.jpg')`;
+          
+          // Add click handler to load video
+          placeholder.addEventListener('click', function() {
+            loadYouTubeVideo(item, videoId);
+          });
+        }
+      });
+    }
+    
+    function loadYouTubeVideo(container, videoId) {
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+      iframe.title = container.querySelector('.youtube-placeholder').getAttribute('data-title') || 'YouTube Video';
+      iframe.allowFullscreen = true;
+      iframe.style.width = '100%';
+      iframe.style.height = '200px';
+      iframe.style.border = 'none';
+      iframe.style.display = 'block';
+      
+      // Replace placeholder with iframe
+      container.innerHTML = '';
+      container.appendChild(iframe);
+    }
+    
+    // Initialize when DOM is ready
+    document.addEventListener('DOMContentLoaded', function() {
+      initYouTubeLazyLoading();
     });
   </script>
 
@@ -1275,6 +1315,8 @@
       
         
       
+        
+      
     
     
     
@@ -1570,6 +1612,29 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../updates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Updates for Mini-KVM
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -2820,13 +2885,13 @@ Re-flashee el firmware vía <a href="https://github.com/TechxArtisanStudio/Opent
         <!-- Link to next page -->
         
           
-          <a href="../../kvm-go/pre-launch/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Prelanzamiento">
+          <a href="../updates/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Updates for Mini-KVM">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Siguiente
               </span>
               <div class="md-ellipsis">
-                Prelanzamiento
+                Updates for Mini-KVM
               </div>
             </div>
             <div class="md-footer__button md-icon">
