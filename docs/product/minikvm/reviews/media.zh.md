@@ -1,0 +1,13 @@
+# 媒体报道
+
+- <a href="https://www.cnx-software.com/"><img src="https://www.cnx-software.com/wp-content/uploads/2021/04/cropped-CNX-Software-Square-Logo-Light-Grey-100x100.png.webp" alt="" width="28" style="border-radius: 50%; vertical-align: middle;" onerror="this.style.display='none'"></a> **[Jean-Luc Aufranc (CNXSoft):](https://www.cnx-software.com/2024/05/09/openterface-mini-kvm-affordable-kvm-over-usb-device/)** *"Openterface Mini-KVM 作为一个即插即用且独立于网络的 KVM-over-USB 设备，在主机和目标设备之间建立直接的 HDMI 和 USB 连接，这与众不同（且更便宜）。"*
+
+- <a href="https://www.crowdsupply.com/"><img src="https://assets.openterface.com/images/trademark/crowd-supply.svg" alt="" width="28" style="border-radius: 50%; vertical-align: middle;" onerror="this.style.display='none'"></a> **[Helen Leigh, Crowd Supply:](https://x.com/TechxArtisan/status/1800563644046188896)** *"这个产品非常成功！"*
+
+- <a href="https://www.electronics-lab.com/"><img src="https://pbs.twimg.com/profile_images/1721615885071261696/kpS5kOzE_200x200.jpg" alt="" width="28" style="border-radius: 50%; vertical-align: middle;" onerror="this.style.display='none'"></a> **[Electronics-Lab.com:](https://www.electronics-lab.com/experience-effortless-device-control-with-openterface-mini-kvm/)** *"Openterface Mini-KVM 为管理无头设备（如迷你电脑、信息亭或服务器）提供了简单的解决方案，可直接从您的笔记本电脑或台式机进行控制。"*
+
+- <a href="https://makezine.com/"><img src="https://pbs.twimg.com/profile_images/783080298665775108/LESsgngz_200x200.jpg" alt="" width="28" style="border-radius: 50%; vertical-align: middle;" onerror="this.style.display='none'"></a> **[MAKE: Magazine:](https://www.youtube.com/watch?v=lwitzvmxsgc)** *"加入我们的 #直播 活动，与 TechxArtisan 一起深入了解他们的 #Openterface Mini-KVM 开源 #KVM 设备和 @crowd_supply 活动。"*
+
+- <a href="https://www.electromaker.io/"><img src="https://pbs.twimg.com/profile_images/1722628898222174208/vWPr2Av5_200x200.jpg" alt="" width="28" style="border-radius: 50%; vertical-align: middle;" onerror="this.style.display='none'"></a> **[Electromaker:](https://www.electromaker.io/project/view/openterface-mini-kvm-portable-kvm-over-usb?srsltid=AfmBOorLBpyuDUbfmEG_xvOr4CPNl49p_Y7sM_qaxXe-l46pxonZL7TW)** *"@TechxArtisan MiniKVM 将您的笔记本电脑变成 #KVM，具有高分辨率屏幕共享、HDMI 音频和额外的 USB 端口。我们在 @Crowd_Supply Teardown 2024 上与 MiniKVM 的创造者 Billy 进行了交谈。"*
+
+- <a href="https://www.hackster.io/"><img src="https://pbs.twimg.com/profile_images/1637085399511179266/wR1jSJJ5_200x200.jpg" alt="" width="28" style="border-radius: 50%; vertical-align: middle;" onerror="this.style.display='none'"></a> **[Hackster News:](https://www.hackster.io/news/techxartisan-s-openterface-mini-kvm-promises-an-open-source-approach-to-handling-headless-systems-5b81d9b7a451)** *"低延迟的袖珍设备通过单根 USB 电缆为主机提供键盘、HDMI 视频和鼠标控制。"*
