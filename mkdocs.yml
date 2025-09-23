@@ -189,9 +189,6 @@ plugins:
 - i18n:
     fallback_to_default: true
     use_directory_urls: true
-    # IMPORTANT: i18n language configurations are managed by scripts/manage_i18n.py
-    # DO NOT manually add nav_translations here - edit lang.yml instead
-    # Run: python scripts/manage_i18n.py add/remove/list
     languages:
     - locale: en
       name: English
