@@ -556,21 +556,6 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/how-to-connect/"/>
     </url>
     <url>
-        <loc>https://openterface.com/product/minikvm/reviews/</loc>
-        <lastmod>2025-09-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/"/>
-    </url>
-    <url>
         <loc>https://openterface.com/product/minikvm/usb-switch/</loc>
         <lastmod>2025-09-23</lastmod>
         <changefreq>daily</changefreq>
@@ -599,6 +584,51 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/whats-in-the-box/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/whats-in-the-box/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/whats-in-the-box/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/product/minikvm/reviews/media/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/media/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/product/minikvm/reviews/testimonials/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/testimonials/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/product/minikvm/reviews/youtube/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/youtube/"/>
     </url>
     <url>
         <loc>https://openterface.com/product/minikvm/updates/</loc>
@@ -1516,21 +1546,6 @@
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/how-to-connect/"/>
     </url>
     <url>
-        <loc>https://openterface.com/zh/product/minikvm/reviews/</loc>
-        <lastmod>2025-09-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/"/>
-    </url>
-    <url>
         <loc>https://openterface.com/zh/product/minikvm/usb-switch/</loc>
         <lastmod>2025-09-23</lastmod>
         <changefreq>daily</changefreq>
@@ -1559,6 +1574,51 @@
         <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/whats-in-the-box/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/whats-in-the-box/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/whats-in-the-box/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/zh/product/minikvm/reviews/media/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/media/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/zh/product/minikvm/reviews/testimonials/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/testimonials/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/zh/product/minikvm/reviews/youtube/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/youtube/"/>
     </url>
     <url>
         <loc>https://openterface.com/zh/product/minikvm/updates/</loc>
@@ -2476,21 +2536,6 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/how-to-connect/"/>
     </url>
     <url>
-        <loc>https://openterface.com/ja/product/minikvm/reviews/</loc>
-        <lastmod>2025-09-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/"/>
-    </url>
-    <url>
         <loc>https://openterface.com/ja/product/minikvm/usb-switch/</loc>
         <lastmod>2025-09-23</lastmod>
         <changefreq>daily</changefreq>
@@ -2519,6 +2564,51 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/whats-in-the-box/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/whats-in-the-box/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/whats-in-the-box/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ja/product/minikvm/reviews/media/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/media/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ja/product/minikvm/reviews/testimonials/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/testimonials/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ja/product/minikvm/reviews/youtube/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/youtube/"/>
     </url>
     <url>
         <loc>https://openterface.com/ja/product/minikvm/updates/</loc>
@@ -3436,21 +3526,6 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/how-to-connect/"/>
     </url>
     <url>
-        <loc>https://openterface.com/ko/product/minikvm/reviews/</loc>
-        <lastmod>2025-09-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/"/>
-    </url>
-    <url>
         <loc>https://openterface.com/ko/product/minikvm/usb-switch/</loc>
         <lastmod>2025-09-23</lastmod>
         <changefreq>daily</changefreq>
@@ -3479,6 +3554,51 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/whats-in-the-box/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/whats-in-the-box/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/whats-in-the-box/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ko/product/minikvm/reviews/media/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/media/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ko/product/minikvm/reviews/testimonials/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/testimonials/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ko/product/minikvm/reviews/youtube/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/youtube/"/>
     </url>
     <url>
         <loc>https://openterface.com/ko/product/minikvm/updates/</loc>
@@ -4396,21 +4516,6 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/how-to-connect/"/>
     </url>
     <url>
-        <loc>https://openterface.com/fr/product/minikvm/reviews/</loc>
-        <lastmod>2025-09-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/"/>
-    </url>
-    <url>
         <loc>https://openterface.com/fr/product/minikvm/usb-switch/</loc>
         <lastmod>2025-09-23</lastmod>
         <changefreq>daily</changefreq>
@@ -4439,6 +4544,51 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/whats-in-the-box/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/whats-in-the-box/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/whats-in-the-box/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/fr/product/minikvm/reviews/media/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/media/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/fr/product/minikvm/reviews/testimonials/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/testimonials/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/fr/product/minikvm/reviews/youtube/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/youtube/"/>
     </url>
     <url>
         <loc>https://openterface.com/fr/product/minikvm/updates/</loc>
@@ -5356,21 +5506,6 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/how-to-connect/"/>
     </url>
     <url>
-        <loc>https://openterface.com/de/product/minikvm/reviews/</loc>
-        <lastmod>2025-09-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/"/>
-    </url>
-    <url>
         <loc>https://openterface.com/de/product/minikvm/usb-switch/</loc>
         <lastmod>2025-09-23</lastmod>
         <changefreq>daily</changefreq>
@@ -5399,6 +5534,51 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/whats-in-the-box/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/whats-in-the-box/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/whats-in-the-box/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/de/product/minikvm/reviews/media/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/media/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/de/product/minikvm/reviews/testimonials/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/testimonials/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/de/product/minikvm/reviews/youtube/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/youtube/"/>
     </url>
     <url>
         <loc>https://openterface.com/de/product/minikvm/updates/</loc>
@@ -6316,21 +6496,6 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/how-to-connect/"/>
     </url>
     <url>
-        <loc>https://openterface.com/it/product/minikvm/reviews/</loc>
-        <lastmod>2025-09-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/"/>
-    </url>
-    <url>
         <loc>https://openterface.com/it/product/minikvm/usb-switch/</loc>
         <lastmod>2025-09-23</lastmod>
         <changefreq>daily</changefreq>
@@ -6359,6 +6524,51 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/whats-in-the-box/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/whats-in-the-box/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/whats-in-the-box/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/it/product/minikvm/reviews/media/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/media/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/it/product/minikvm/reviews/testimonials/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/testimonials/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/it/product/minikvm/reviews/youtube/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/youtube/"/>
     </url>
     <url>
         <loc>https://openterface.com/it/product/minikvm/updates/</loc>
@@ -7276,21 +7486,6 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/how-to-connect/"/>
     </url>
     <url>
-        <loc>https://openterface.com/es/product/minikvm/reviews/</loc>
-        <lastmod>2025-09-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/"/>
-    </url>
-    <url>
         <loc>https://openterface.com/es/product/minikvm/usb-switch/</loc>
         <lastmod>2025-09-23</lastmod>
         <changefreq>daily</changefreq>
@@ -7319,6 +7514,51 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/whats-in-the-box/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/whats-in-the-box/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/whats-in-the-box/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/es/product/minikvm/reviews/media/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/media/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/es/product/minikvm/reviews/testimonials/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/testimonials/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/es/product/minikvm/reviews/youtube/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/youtube/"/>
     </url>
     <url>
         <loc>https://openterface.com/es/product/minikvm/updates/</loc>
@@ -8236,21 +8476,6 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/how-to-connect/"/>
     </url>
     <url>
-        <loc>https://openterface.com/pt/product/minikvm/reviews/</loc>
-        <lastmod>2025-09-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/"/>
-    </url>
-    <url>
         <loc>https://openterface.com/pt/product/minikvm/usb-switch/</loc>
         <lastmod>2025-09-23</lastmod>
         <changefreq>daily</changefreq>
@@ -8279,6 +8504,51 @@
         <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/whats-in-the-box/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/whats-in-the-box/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/whats-in-the-box/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/pt/product/minikvm/reviews/media/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/media/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/pt/product/minikvm/reviews/testimonials/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/testimonials/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/pt/product/minikvm/reviews/youtube/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/youtube/"/>
     </url>
     <url>
         <loc>https://openterface.com/pt/product/minikvm/updates/</loc>
@@ -9196,21 +9466,6 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/how-to-connect/"/>
     </url>
     <url>
-        <loc>https://openterface.com/ro/product/minikvm/reviews/</loc>
-        <lastmod>2025-09-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/"/>
-    </url>
-    <url>
         <loc>https://openterface.com/ro/product/minikvm/usb-switch/</loc>
         <lastmod>2025-09-23</lastmod>
         <changefreq>daily</changefreq>
@@ -9239,6 +9494,51 @@
         <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/whats-in-the-box/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/whats-in-the-box/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/whats-in-the-box/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ro/product/minikvm/reviews/media/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/media/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/media/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ro/product/minikvm/reviews/testimonials/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/testimonials/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/testimonials/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ro/product/minikvm/reviews/youtube/</loc>
+        <lastmod>2025-09-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/reviews/youtube/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/reviews/youtube/"/>
     </url>
     <url>
         <loc>https://openterface.com/ro/product/minikvm/updates/</loc>

@@ -1,0 +1,93 @@
+/* Social Media Posts Container Styles */
+.social-posts-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    margin: 2rem 0;
+    padding: 0;
+    grid-auto-rows: max-content;
+}
+
+.social-post-item {
+    margin: 0;
+    padding: 0;
+    min-height: auto;
+    display: block;
+    overflow: visible;
+    break-inside: avoid;
+}
+
+.social-post-item blockquote {
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    overflow: visible;
+}
+
+/* Tablet and small desktop */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .social-posts-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+        grid-auto-rows: max-content;
+    }
+    
+    .social-post-item {
+        display: block;
+        margin-bottom: 0;
+        break-inside: auto;
+        page-break-inside: auto;
+    }
+}
+
+/* Large desktop - Masonry layout */
+@media (min-width: 1200px) {
+    .social-posts-container {
+        display: block;
+        column-count: 3;
+        column-gap: 1rem;
+        column-fill: balance;
+    }
+    
+    .social-post-item {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 1rem;
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+}
+
+/* Lazy loading styles */
+.social-post-item.loading {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+    min-height: 200px;
+    border-radius: 8px;
+}
+
+@keyframes loading {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+.social-post-item.loaded {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
