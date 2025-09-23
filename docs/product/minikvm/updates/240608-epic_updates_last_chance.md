@@ -1,11 +1,11 @@
 ---
-slug: final-week-epic-updates
+draft: false
 date: 2024-06-08
 description: "Final week of Openterface Mini-KVM crowdfunding! Major updates include cross-platform support (macOS, Windows, Linux), open-source hardware release, upgraded accessories with custom Type-C cable, and enhanced toolkit packaging. Last chance to back at special pricing!"
 keywords: "Openterface Mini-KVM, crowdfunding final week, open source hardware, MacOS app, Windows app, Linux support, Type-C cable upgrade, hardware schematics, toolkit accessories, cross-platform compatibility, mini-KVM software, tech gadget, Crowd Supply campaign, hardware development"
 ---
 
-# 2024-06-08 | Epic Updates & Final Week – Last Chance to Back Mini-KVM!
+# Epic Updates & Final Week – Last Chance to Back Mini-KVM!
 
 Hey everyone!
 

@@ -1,11 +1,11 @@
 ---
-slug: behind-the-scenes-dev-to-user
+draft: false
 date: 2024-05-28
 description: "Behind-the-scenes update on Openterface Mini-KVM's development: 1100% funding achieved, factory visits in Shenzhen, upgraded accessories, open-source progress across multiple platforms, and beta testing with a global team. Join our journey from development to delivery!"
 keywords: "Openterface Mini-KVM, crowdfunding success, production updates, open source development, MacOS app, Windows app, Linux support, beta testing, hardware development, Type-C cable upgrade, VGA-HDMI cable, tech manufacturing, Shenzhen factory, global beta team"
 ---
 
-# 2024-05-28 | From Development to Your Hands: Behind the Scenes
+# From Development to Your Hands: Behind the Scenes
 
 Hi everyone!
 

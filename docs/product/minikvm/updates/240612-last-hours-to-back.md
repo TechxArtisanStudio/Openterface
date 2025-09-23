@@ -1,11 +1,11 @@
 ---
-slug: last-hours-mini-kvm
+draft: false
 date: 2024-06-12
 description: "Final hours to back Openterface Mini-KVM at special pricing! See real-world usage from our beta testers, upcoming Teardown 2024 event plans, and our journey to 1050+ backers. Campaign ends June 13, 4:59 PM PDT - don't miss out!"
 keywords: "Openterface Mini-KVM, crowdfunding final hours, beta testing results, Teardown 2024, tech frontline, special pricing, KVM device, hardware development, beta team feedback, Crowd Supply campaign, last chance, early adopter pricing, tech gadget, open hardware"
 ---
 
-# 2024-06-12 | Last Hours to Back & Mini-KVMs at Tech Frontlines
+# Last Hours to Back & Mini-KVMs at Tech Frontlines
 
 Hey everyone,
 

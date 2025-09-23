@@ -9,6 +9,26 @@ import re
 import sys
 from pathlib import Path
 
+def is_draft_post(file_path):
+    """Check if a markdown file is marked as draft in its frontmatter."""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        # Extract frontmatter (between --- and ---)
+        frontmatter_match = re.search(r'^---\s*\n(.*?)\n---', content, re.DOTALL)
+        if frontmatter_match:
+            frontmatter = frontmatter_match.group(1)
+            # Extract draft status from frontmatter
+            draft_match = re.search(r'^draft:\s*(true|false)', frontmatter, re.MULTILINE)
+            if draft_match:
+                return draft_match.group(1).lower() == 'true'
+        
+        return False  # Not a draft if no draft field is found
+    except Exception as e:
+        print(f"Error reading {file_path}: {e}")
+        return False
+
 def count_update_posts_for_product(product_name):
     """Count the number of update markdown files in a product's updates directory."""
     # Get the project root directory (assuming script is in scripts/)
@@ -21,11 +41,13 @@ def count_update_posts_for_product(product_name):
     if not updates_dir.exists():
         return 0, []
     
-    # Count markdown files, excluding index.md
+    # Count markdown files, excluding index.md and draft posts
     update_files = []
     for file_path in updates_dir.glob("*.md"):
         if file_path.name != "index.md":
-            update_files.append(file_path.name)
+            # Skip draft posts
+            if not is_draft_post(file_path):
+                update_files.append(file_path.name)
     
     return len(update_files), update_files
 

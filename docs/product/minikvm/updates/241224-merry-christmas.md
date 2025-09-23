@@ -1,11 +1,11 @@
 ---
-slug: xmas-newyear-treat
+draft: false
 date: 2024-12-24
 description: "Holiday special: Get $20 store credit when buying two Mini-KVM Toolkits! Celebrate Christmas and New Year with Openterface's special offer, running Dec 24 - Jan 10. Plus: enjoy our festive Christmas video and year-end message."
 keywords: "Openterface holiday offer, Mini-KVM Toolkit promotion, Christmas special, tech holiday deals, $20 store credit, New Year tech offer, Crowd Supply promotion, TxA shop credit, holiday tech sale, Christmas 2024, tech gifts, Mini-KVM bundle, year-end offer"
 ---
 
-# 2024-12-24 | Merry Christmas & Happy New Year & A Liitle Treat from Openterface Team!
+# Merry Christmas & Happy New Year & A Liitle Treat from Openterface Team!
 
 <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/wEWAhXCXQ1E?si=RU4QVXxP_Fi6WAu_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

@@ -7,8 +7,82 @@ This script extracts H1 titles from all update markdown files and generates mark
 import os
 import re
 import sys
+import yaml
 from pathlib import Path
 from datetime import datetime
+
+def load_category_config(updates_dir):
+    """Load category configuration from categories.yml file."""
+    config_file = updates_dir / 'categories.yml'
+    category_ratings = {}
+    
+    if config_file.exists():
+        try:
+            with open(config_file, 'r', encoding='utf-8') as f:
+                data = yaml.safe_load(f)
+            
+            if data and 'categories' in data:
+                for category_name, category_data in data['categories'].items():
+                    if isinstance(category_data, dict) and 'rating' in category_data:
+                        category_ratings[category_name] = category_data['rating']
+                    elif isinstance(category_data, (int, float)):
+                        # Handle simple format: category_name: rating
+                        category_ratings[category_name] = int(category_data)
+        except yaml.YAMLError as e:
+            print(f"Error parsing categories.yml: {e}")
+        except Exception as e:
+            print(f"Error reading categories.yml: {e}")
+    
+    return category_ratings
+
+def update_categories_file(updates_dir, discovered_categories, default_rating=10):
+    """Update categories.yml file with newly discovered categories."""
+    config_file = updates_dir / 'categories.yml'
+    
+    # Load existing categories
+    existing_categories = load_category_config(updates_dir)
+    
+    # Find new categories that aren't in the config
+    new_categories = []
+    for category in discovered_categories:
+        if category and category not in existing_categories:
+            new_categories.append(category)
+    
+    if not new_categories:
+        return False  # No updates needed
+    
+    # Load existing YAML data
+    data = {'categories': {}}
+    if config_file.exists():
+        try:
+            with open(config_file, 'r', encoding='utf-8') as f:
+                data = yaml.safe_load(f) or {'categories': {}}
+        except Exception as e:
+            print(f"Warning: Could not load existing categories.yml: {e}")
+            data = {'categories': {}}
+    
+    # Ensure categories key exists
+    if 'categories' not in data:
+        data['categories'] = {}
+    
+    # Add new categories
+    for category in sorted(new_categories):
+        data['categories'][category] = {
+            'rating': default_rating,
+            'description': f"Auto-added category"
+        }
+    
+    # Write updated YAML
+    try:
+        with open(config_file, 'w', encoding='utf-8') as f:
+            yaml.dump(data, f, default_flow_style=False, sort_keys=False, 
+                     allow_unicode=True, width=1000)
+        
+        print(f"✅ Added {len(new_categories)} new categories to categories.yml: {', '.join(new_categories)}")
+        return True
+    except Exception as e:
+        print(f"Error writing categories.yml: {e}")
+        return False
 
 def extract_h1_title(file_path):
     """Extract H1 title from a markdown file."""
@@ -29,8 +103,63 @@ def extract_h1_title(file_path):
         print(f"Error reading {file_path}: {e}")
         return None
 
+def extract_date_title_and_category(file_path):
+    """Extract date and category from frontmatter and H1 title from a markdown file."""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        # Extract frontmatter (between --- and ---)
+        frontmatter_match = re.search(r'^---\s*\n(.*?)\n---', content, re.DOTALL)
+        date = None
+        category = None
+        draft = False
+        if frontmatter_match:
+            frontmatter = frontmatter_match.group(1)
+            # Extract date from frontmatter
+            date_match = re.search(r'^date:\s*(\d{4}-\d{2}-\d{2})', frontmatter, re.MULTILINE)
+            if date_match:
+                date = date_match.group(1)
+            
+            # Extract category from frontmatter
+            category_match = re.search(r'^category:\s*"([^"]*)"', frontmatter, re.MULTILINE)
+            if category_match:
+                category = category_match.group(1)
+            
+            # Extract draft status from frontmatter
+            draft_match = re.search(r'^draft:\s*(true|false)', frontmatter, re.MULTILINE)
+            if draft_match:
+                draft = draft_match.group(1).lower() == 'true'
+        
+        # Skip if draft is true
+        if draft:
+            return None, None, None, True  # Return None for date/title/category and True for is_draft
+        
+        # Find the first H1 title (line starting with # followed by space)
+        lines = content.split('\n')
+        title = None
+        for line in lines:
+            line = line.strip()
+            if line.startswith('# '):
+                # Remove the # and leading space, return the title
+                title = line[2:].strip()
+                break
+        
+        return date, title, category, False  # Return False for is_draft
+    except Exception as e:
+        print(f"Error reading {file_path}: {e}")
+        return None, None, None, False
+
+def format_date(date_str):
+    """Format date string from YYYY-MM-DD to 'MMM DD, YYYY' format."""
+    try:
+        date_obj = datetime.strptime(date_str, '%Y-%m-%d')
+        return date_obj.strftime('%b %d, %Y')
+    except ValueError:
+        return date_str
+
 def get_update_files_info(updates_dir):
-    """Get information about all update files including H1 titles."""
+    """Get information about all update files including dates, titles, and categories."""
     if not updates_dir.exists():
         return []
     
@@ -39,18 +168,25 @@ def get_update_files_info(updates_dir):
         if file_path.name == "index.md":
             continue  # Skip index.md
         
-        h1_title = extract_h1_title(file_path)
-        if h1_title:
+        date, title, category, is_draft = extract_date_title_and_category(file_path)
+        if is_draft:
+            # Skip draft files
+            continue
+        if title:
+            formatted_date = format_date(date) if date else "Unknown Date"
             update_files.append({
                 'filename': file_path.name,
-                'title': h1_title,
+                'title': title,
+                'date': formatted_date,
+                'raw_date': date,
+                'category': category,
                 'path': file_path
             })
     
     return update_files
 
 def generate_updates_list_for_product(product_name):
-    """Generate updates list for a specific product."""
+    """Generate updates list for a specific product, grouped by categories and sorted by centralized rating."""
     # Get the project root directory
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
@@ -67,18 +203,53 @@ def generate_updates_list_for_product(product_name):
         # Return empty list if no update files found
         return "", f"No update files found for {product_name}, created empty index"
     
-    # Sort by filename (which contains dates) in descending order
-    update_files.sort(key=lambda x: x['filename'], reverse=True)
-    
-    # Generate markdown list
-    markdown_lines = []
+    # Collect all discovered categories
+    discovered_categories = set()
     for update in update_files:
-        filename = update['filename']
-        title = update['title']
-        # Create clickable link: [title](filename)
-        markdown_lines.append(f"- [{title}]({filename})")
+        if update['category']:
+            discovered_categories.add(update['category'])
     
-    return '\n'.join(markdown_lines), f"Generated list for {product_name} with {len(update_files)} updates"
+    # Update .categories file with new categories
+    update_categories_file(updates_dir, discovered_categories)
+    
+    # Load centralized category configuration (after potential update)
+    category_ratings = load_category_config(updates_dir)
+    
+    # Sort by raw date in descending order (newest first)
+    update_files.sort(key=lambda x: x['raw_date'] or '', reverse=True)
+    
+    # Group updates by category (posts without category default to "Updates")
+    categorized_updates = {}
+    
+    for update in update_files:
+        category = update['category'] or "Updates"  # Default to "Updates" if no category
+        
+        if category not in categorized_updates:
+            categorized_updates[category] = []
+        categorized_updates[category].append(update)
+    
+    # Generate markdown list grouped by categories, sorted by centralized rating (highest first)
+    markdown_sections = []
+    
+    # Sort categories by centralized rating in descending order (highest rating first)
+    sorted_categories = sorted(categorized_updates.keys(), 
+                              key=lambda cat: category_ratings.get(cat, 0), 
+                              reverse=True)
+    
+    # Add categorized sections (sorted by centralized rating)
+    for category in sorted_categories:
+        markdown_sections.append(f"## {category}")
+        markdown_sections.append("")  # Empty line after section header
+        
+        for update in categorized_updates[category]:
+            filename = update['filename']
+            title = update['title']
+            raw_date = update['raw_date'] or "Unknown Date"
+            markdown_sections.append(f"- {raw_date}: [{title}]({filename})")
+        
+        markdown_sections.append("")  # Empty line after section
+    
+    return '\n'.join(markdown_sections), f"Generated list for {product_name} with {len(update_files)} updates"
 
 def generate_all_products_updates_list():
     """Generate updates lists for all products."""
@@ -123,9 +294,9 @@ def create_or_update_index_file(product_name, markdown_list):
     # Create the updates directory if it doesn't exist
     updates_dir.mkdir(parents=True, exist_ok=True)
     
-    # Create the standardized content
+    # Create the standardized content with category support
     variable_name = f"{product_name}_updates"
-    content = f"""# Updates
+    content = f"""# Updates & Events
 
 **Total Updates: {{{{ config.extra.{variable_name} }}}}**
 
@@ -150,7 +321,7 @@ def create_empty_updates_index(product_name):
     
     # Create the standardized content with empty list
     variable_name = f"{product_name}_updates"
-    content = f"""# Updates
+    content = f"""# Updates & Events
 
 **Total Updates: {{{{ config.extra.{variable_name} }}}}**
 

@@ -1,11 +1,11 @@
 ---
-slug: black-friday-50off
+draft: false
 date: 2024-11-27
 description: "Exclusive Black Friday offer: 50% off all Openterface merchandise! New tech-inspired clothing line featuring Mini-KVM designs, Developer Mode T-shirts, hoodies, and premium orange data cables. Limited time offer until December 1st."
 keywords: "Black Friday sale, Openterface merchandise, tech clothing, Developer Mode hoodie, Mini-KVM design, tech apparel, orange data cable, tech fashion, open source merchandise, TechxArtisan shop, tech community, developer clothing, tech accessories, 50% discount, limited time offer"
 ---
 
-# 2024-11-27 | 50% OFF on ALL Merchandise – Only This Black Friday! Show Your Support for Open Source!
+# 50% OFF on ALL Merchandise – Only This Black Friday! Show Your Support for Open Source!
 
 <style>
   .heartbeat-label {

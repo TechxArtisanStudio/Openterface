@@ -1,11 +1,11 @@
 ---
-slug: progress-update-new-timeline
+draft: false
 date: 2024-08-22
 description: "Important Openterface Mini-KVM update: CE certification complete, production underway, new ETA mid-January. Hardware V1.9 finalized with expansion pins, Android app development, improved packaging, and multilingual manual in progress."
 keywords: "Openterface Mini-KVM, CE certification, hardware V1.9, production update, shipping timeline, Android app development, expansion pins, KVM-over-IP, quality control, product packaging, multilingual manual, USB KVM, tech manufacturing, open source hardware, delivery update"
 ---
 
-# 2024-08-22 | Overcoming Hurdles: Progress Update & New Timeline
+# Overcoming Hurdles: Progress Update & New Timeline
 
 Hey everyone,
 

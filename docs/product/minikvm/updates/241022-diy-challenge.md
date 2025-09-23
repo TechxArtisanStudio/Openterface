@@ -1,11 +1,11 @@
 ---
-slug: diy-challenge-production-update
+draft: false
 date: 2024-10-22
 description: "Announcing USB KVM DIY Challenge 2024 with Make Magazine, OSHWA, and Crowd Supply! Win exclusive prizes including limited-edition Mini-KVMs. Plus: 800 units assembled, enhanced Android app release, and production progress update."
 keywords: "USB KVM DIY Challenge, Openterface Mini-KVM, Make Magazine, OSHWA, Crowd Supply, hardware contest, Android app update, production progress, tech competition, DIY electronics, hardware hacking, limited edition KVM, Pi-Cast KVM, GameShell, open source hardware"
 ---
 
-# 2024-10-22 | DIY Challenge, Cool Prizes, and Production Nears the Finish Line!
+# DIY Challenge, Cool Prizes, and Production Nears the Finish Line!
 
 Hey there, Openterface enthusiasts!
 
