@@ -1,11 +1,11 @@
 ---
-slug: campaign-live-now
+draft: false
 date: 2024-04-30
 description: "Announcing the launch of Openterface Mini-KVM's crowdfunding campaign - an affordable, open-source KVM-over-USB solution for controlling headless computers. Perfect for IT professionals, developers, and tech enthusiasts seeking efficient device management."
 keywords: "Openterface Mini-KVM, KVM-over-USB, crowdfunding campaign, open source KVM, headless computer control, IT troubleshooting tool, device management, portable KVM solution, TechxArtisan, affordable KVM"
 ---
 
-# 2024-04-30 | Openterface Mini-KVM Crowdfunding Campaign Goes Live NOW!
+# Openterface Mini-KVM Crowdfunding Campaign Goes Live NOW!
 
 We're excited to announce that the crowdfunding campaign for the Openterface Mini-KVM is now live! This feature-rich, open-source, and community-driven device simplifies the way you control and interact with headless computers.
 

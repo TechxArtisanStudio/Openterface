@@ -1,11 +1,11 @@
 ---
-slug: Korean-tinyrack-review
+draft: false
 date: 2025-05-19
 description: "A deeply thoughtful and technically sharp review of the Openterface Mini-KVM from South Korea’s TinyRack community, followed by a transparent and heartfelt response from our team. This exchange highlights real-world usage feedback, our open-source commitment, and the shared journey of improving tools through community collaboration."
 keywords: "Openterface, Mini-KVM, TinyRack, South Korea, open source hardware, USB KVM, Linux support, community review, honest feedback, tech review, Windows KVM, open hardware response, Crowd Supply, GitHub, development roadmap"
 ---
 
-# 2025-06-14 | A highly insightful and valuable review from South Korea.
+# A highly insightful and valuable review from South Korea.
 
 ### A Thoughtful Review from Korea And Our Thoughts in Return
 

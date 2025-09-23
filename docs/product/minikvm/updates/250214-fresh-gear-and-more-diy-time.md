@@ -1,11 +1,11 @@
 ---
-slug: clear-backlog-usb-kvm
+draft: false
 date: 2025-02-19
 description: "Major Openterface updates: Backlog cleared, warehouse fully stocked, DIY Challenge extended with better prizes! Plus: new orange nylon cables, Android pencil integration, bug fixes, and amazing community use cases shared."
 keywords: "Openterface Mini-KVM, backlog cleared, DIY Challenge extension, orange nylon cable, Android integration, bug fixes, tech community, USB KVM, headless device control, open source development, hardware updates, community feedback, tech support, DIY electronics, Crowd Supply warehouse"
 ---
 
-# 2025-02-19 | Clear Backlog, Fresh Gear, and More Time to Build USB KVM!
+# Clear Backlog, Fresh Gear, and More Time to Build USB KVM!
 
 **Hey there, Openterface fam!**
 

@@ -1,11 +1,12 @@
 ---
-slug: kvm-go-pre-launch-announcement
+draft: false
 date: 2025-08-30
 description: "Openterface announces KVM-Go pre-launch signups - an ultra-portable KVM-over-USB device with built-in video connectors, 4K support, and keychain-ready design."
 keywords: "kvm-go, openterface, kvm-over-usb, ultra-portable, 4k, hdmi, displayport, vga, keychain, pre-launch, beta testing, open source"
+
 ---
 
-# 2025-08-30 | Say hello to KVM-Go – the next ultra portable chapter in your Openterface KVM adventure
+# Say Hello to KVM-Go – the Next Ultra Portable Chapter in Your KVM adventure
 
 We’re thrilled to announce the next evolution in your KVM-over-USB experience: **Openterface KVM-Go**, now available for [pre-launch signups](https://www.crowdsupply.com/techxartisan/openterface-kvm-go)!
 

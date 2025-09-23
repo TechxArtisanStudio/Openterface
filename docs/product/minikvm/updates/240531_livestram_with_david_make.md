@@ -1,11 +1,11 @@
 ---
-slug: chat-with-david-make-mag
+draft: false
 date: 2024-05-31
 description: "Watch our livestream with MAKE: Magazine's David Groom as we discuss the origin story of Openterface Mini-KVM, from tech art projects to community-driven development, and our journey creating an open-source solution for headless device management."
 keywords: "Openterface Mini-KVM, MAKE Magazine, David Groom, tech art projects, open source hardware, headless computer control, Raspberry Pi management, TechxArtisan studio, maker community, crowdfunding campaign, DIY electronics, hardware development, livestream interview"
 ---
 
-# 2024-05-31 | Casual Chat with David Groom from MAKE: Magazine: The Story of Openterface Mini-KVM
+# Casual Chat with David Groom from MAKE: Magazine: The Story of Openterface Mini-KVM
 
 Hi everyone!
 
