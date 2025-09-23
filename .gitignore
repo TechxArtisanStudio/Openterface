@@ -17,3 +17,4 @@ mkdocs-venv
 i18n_audit.csv
 prompts/
 site/
+__pycache__/

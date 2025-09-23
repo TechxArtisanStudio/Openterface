@@ -19,6 +19,32 @@ def update_config(skip_versions=False):
     return result.returncode == 0
 
 
+def count_updates():
+    """Count update posts and update mkdocs.yml with product update variables"""
+    script_path = os.path.join(os.path.dirname(__file__), "scripts", "count_updates.py")
+    
+    cmd = [sys.executable, script_path]
+    
+    print("Counting update posts...")
+    result = subprocess.run(cmd)
+    if result.returncode != 0:
+        print("Warning: Update count failed, continuing with existing config")
+    return result.returncode == 0
+
+
+def generate_updates_lists():
+    """Generate automatic updates lists from H1 titles"""
+    script_path = os.path.join(os.path.dirname(__file__), "scripts", "generate_updates_list.py")
+    
+    cmd = [sys.executable, script_path, "--update-files"]
+    
+    print("Generating updates lists...")
+    result = subprocess.run(cmd)
+    if result.returncode != 0:
+        print("Warning: Updates list generation failed, continuing with existing lists")
+    return result.returncode == 0
+
+
 def manage_i18n(action, languages=None):
     """Manage i18n configuration in mkdocs.yml"""
     script_path = os.path.join(os.path.dirname(__file__), "scripts", "manage_i18n.py")
@@ -62,6 +88,8 @@ def main():
     if not args.no_update_config:
         skip_versions = not args.fetch_versions  # Skip versions unless explicitly requested
         update_config(skip_versions=skip_versions)
+        count_updates()  # Always count updates when config is updated
+        generate_updates_lists()  # Always generate updates lists when config is updated
     
     # Run mkdocs serve
     cmd = [
