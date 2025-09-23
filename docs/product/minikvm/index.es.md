@@ -1,7 +1,8 @@
 ---
-title: "Openterface Mini-KVM | Solución KVM-over-USB para Control de Ordenadores Headless"
-description: "Controla tu ordenador headless directamente desde tu portátil usando Openterface Mini-KVM. Una solución KVM-over-USB plug-and-play con soporte HDMI, sin red requerida. Perfecto para desarrolladores, profesionales IT y estaciones de trabajo remotas."
+title: "Openterface Mini-KVM | Solución KVM-over-USB para el control de ordenadores headless"
+description: "Controla tu ordenador headless directamente desde tu portátil con Openterface Mini-KVM. Una solución KVM-over-USB plug-and-play con soporte HDMI, sin red requerida. Perfecto para desarrolladores, profesionales IT y estaciones de trabajo remotas."
 keywords: "Mini-KVM, KVM over USB, KVM over IP, headless control, HDMI KVM, USB KVM, KVM switch, KVM console, usb crash cart adapter, JetKVM, NanoKVM, KiwiKVM, PiKVM, plug and play KVM, VNC, computer peripherals"
+
 ---
 
 # **Openterface Mini-KVM**
@@ -43,56 +44,163 @@ keywords: "Mini-KVM, KVM over USB, KVM over IP, headless control, HDMI KVM, USB 
   </div>
 </div>
 
-Nuestro **Openterface™ Mini-KVM** es una solución [**KVM-over-USB**](faq/kvm-over-usb.md) plug-and-play. Te permite controlar un ordenador headless cercano directamente desde tu portátil o ordenador de sobremesa usando conexiones USB y HDMI, eliminando la necesidad de periféricos adicionales o conectividad de red.
 
+Nuestro **Openterface™ Mini-KVM** es una solución [**KVM-over-USB**](/faq/kvm-over-usb/) plug-and-play. Te permite controlar un ordenador headless cercano directamente desde tu portátil o ordenador de sobremesa utilizando conexiones USB y HDMI, eliminando la necesidad de periféricos adicionales o conectividad de red.
+
+<div style="text-align: center; margin: 20px 0;">
 <button class="md-button" onclick="window.location.href='{{ config.extra.minikvm_purchase_link }}'"> Pedir AHORA <img src="https://assets.openterface.com/images/trademark/crowd-supply.svg" alt="Crowd Supply" style="vertical-align: middle; height: 26px;"></button>
+</div>
 
 <div class="grid cards" markdown>
 
-- :material-feature-search-outline:{ .lg } **Especificaciones y Funcionalidades**
+-   :material-feature-search-outline:{ .lg } __Especificaciones y Características__
 
-  ***
+    ---
 
-  Descubre las potentes funcionalidades del Mini-KVM
+    Descubre las potentes características del Mini-KVM
 
-  [:octicons-arrow-right-24: Qué hay en la Caja](/product/minikvm/whats-in-the-box/)
+    [:octicons-arrow-right-24: Qué hay en la Caja](/product/minikvm/whats-in-the-box/)
 
-  [:octicons-arrow-right-24: Ver Funcionalidades](/product/minikvm/features)
+    [:octicons-arrow-right-24: Ver Características](/product/minikvm/features)
 
-  [:octicons-arrow-right-24: Especificaciones](/product/minikvm/specifications)
+    [:octicons-arrow-right-24: Cómo Funciona](/faq/kvm-over-usb/)
 
-- :material-power-plug:{ .lg } **Cómo Usar**
 
-  ***
+-   :material-power-plug:{ .lg } __Cómo Usar__
 
-  Aprende cómo configurar y empezar a controlar tu dispositivo objetivo
+    ---
 
-  [:octicons-arrow-right-24: Descargar e Instalar App Anfitrión](/app)
+    Aprende cómo configurar y empezar a controlar tu dispositivo objetivo
 
-  [:octicons-arrow-right-24: Cómo Conectar](/product/minikvm/how-to-connect)
+    [:octicons-arrow-right-24: Descargar e Instalar Host App](/app)
 
-  [:octicons-arrow-right-24: Cómo Funciona](/usb-kvm)
+    [:octicons-arrow-right-24: Cómo Conectar](/product/minikvm/how-to-connect)
 
-- :material-cogs:{ .lg } **Funcionalidades Avanzadas**
+    [:octicons-arrow-right-24: Ver FAQ](/faq)
 
-  ***
+</div>
 
-  Explora las funcionalidades avanzadas del Openterface
 
-  [:octicons-arrow-right-24: Puerto USB Conmutable](/product/minikvm/usb-switch)
+<div class="grid cards" markdown>
 
-  [:octicons-arrow-right-24: Pines de Extensión](/product/minikvm/extension-pins)
+-   :material-calendar-star:{ .lg } __Actualizaciones y Eventos__
 
-- :material-help-circle-outline:{ .lg } **Soporte y Reseñas**
+    ---
 
-  ***
+    [:material-star-outline: Reseñas](/product/minikvm/reviews) / [:material-newspaper-variant-outline: Total Actualizaciones {{ config.extra.minikvm_updates }}](/product/minikvm/updates) / [:material-trophy-outline: Concurso USB KVM DIY 2024](/product/minikvm/updates) / [:material-account-group-outline: Exposición](/product/minikvm/updates)
 
-  Encuentra ayuda, respuestas a preguntas comunes y reseñas de usuarios
+</div>
 
-  [:octicons-arrow-right-24: Videos de Reseñas, Posts y Testimonios](reviews)
-
-  [:octicons-arrow-right-24: Ver Preguntas Frecuentes](/faq)
-
-  :octicons-arrow-right-24: Únete a Nuestra Comunidad: [Discord](/discord) y [Reddit](reddit)
-
+<div class="what-others-say">
+    <h2>Lo Que Dicen Otros</h2>
+    
+    <div class="youtube-videos-grid">
+        <div class="youtube-video-item" data-video-id="ZZ5P6MnBcHw">
+            <div class="youtube-placeholder" data-title="Openterface Mini-KVM Review">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="sKDYsKBv90A">
+            <div class="youtube-placeholder" data-title="Mini-KVM Setup Tutorial">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="l5e1wHwZ__c">
+            <div class="youtube-placeholder" data-title="KVM-over-USB Demo">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="FaAFCHHQeQg">
+            <div class="youtube-placeholder" data-title="Mini-KVM vs Traditional KVM">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="K0EuMSQEwKo">
+            <div class="youtube-placeholder" data-title="Real-world Use Cases">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="xAEQpWyfY-c">
+            <div class="youtube-placeholder" data-title="Mini-KVM Troubleshooting">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="lwitzvmxsgc">
+            <div class="youtube-placeholder" data-title="Openterface Mini-KVM open-source KVM gadget">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="B7GHj7mPei4">
+            <div class="youtube-placeholder" data-title="M4 MacMini 2024 を外に持ち出す方法がロマンすぎた！！！！">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="1iTaDp24PBI">
+            <div class="youtube-placeholder" data-title="M4 MacMini 2024 を外に持ち出して使えた wwww">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="hOSP7je8zSk">
+            <div class="youtube-placeholder" data-title="1 社に 1 個あると良い！TechxArtisan 社の Mini KVM">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="U8kvzWnOWWc">
+            <div class="youtube-placeholder" data-title="ノート PC をサーバーなどのコンソールとして利用する機器のご紹介">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="XTbpzx91Qbs">
+            <div class="youtube-placeholder" data-title="Openterface Mini-KVM ¡Controla Todo desde un Solo Lugar!">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="VjH0H8Nt68k">
+            <div class="youtube-placeholder" data-title="Festa do Software Livre - Pista principal - 2024">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="Lf45H4Hkt1o">
+            <div class="youtube-placeholder" data-title="YouTube Video Review">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="Tp4f_uxEo6E">
+            <div class="youtube-placeholder" data-title="YouTube Video Review">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="MNp8AifZ8_Q">
+            <div class="youtube-placeholder" data-title="YouTube Video Review">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="xQev3upcoKo">
+            <div class="youtube-placeholder" data-title="YouTube Video Review">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="VfVGD2bQswQ">
+            <div class="youtube-placeholder" data-title="YouTube Video Review">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+    </div>
 </div>

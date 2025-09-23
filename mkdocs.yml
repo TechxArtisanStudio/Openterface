@@ -67,6 +67,10 @@ extra:
   qt_version: 0.4.3
   android_version: v1.1.2
   macos_version: 1.16
+  uconsole-kvm-extension_updates: 0
+  minikvm_updates: 21
+  kvm-go_updates: 0
+  accessories_updates: 0
   qt_linux_stable: 0.3.19
   minikvm_purchase_link: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
   social:
@@ -144,7 +148,8 @@ nav:
     - Reviews & Press: product/minikvm/reviews.md
     - USB Switch: product/minikvm/usb-switch.md
     - Extension Pins: product/minikvm/extension-pins.md
-    - FAQs & Troubleshoot: product/minikvm/faq.md
+    - FAQs for Mini-KVM: product/minikvm/faq.md
+    - Updates for Mini-KVM: product/minikvm/updates/index.md
   - KVM Go Series ⏳:
     - Pre-Launch: product/kvm-go/pre-launch.md
   - uConsole KVM Extension 🛠️:
@@ -184,9 +189,6 @@ plugins:
 - i18n:
     fallback_to_default: true
     use_directory_urls: true
-    # IMPORTANT: i18n language configurations are managed by scripts/manage_i18n.py
-    # DO NOT manually add nav_translations here - edit lang.yml instead
-    # Run: python scripts/manage_i18n.py add/remove/list
     languages:
     - locale: en
       name: English
