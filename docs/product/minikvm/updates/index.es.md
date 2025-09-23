@@ -2,13 +2,13 @@
 
 **Total Updates: {{ config.extra.minikvm_updates }}**
 
-## Exhibition
+## Exposición
 
 - 2025-07-18: [Openterface at Open Sauce 2025 - Booth F.9!](250718-open-sauce-2025.md)
 - 2025-06-17: [Teardown 2025: We're Coming Back to Portland!](250617-teardown-2025-promote.md)
 - 2024-06-18: [Meet Me in Portland This Weekend & Win a Mini-KVM from My Game Challenge!](240618-meet-up-teardown-2024.md)
 
-## Updates
+## Actualizaciones
 
 - 2025-08-30: [Say Hello to KVM-Go – the Next Ultra Portable Chapter in Your KVM adventure](250830-kvm-go-pre-launch.md)
 - 2025-05-19: [A highly insightful and valuable review from South Korea.](250614-tinyrack-review.md)

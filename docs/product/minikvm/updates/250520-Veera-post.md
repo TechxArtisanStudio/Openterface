@@ -1,6 +1,6 @@
 ---
 draft: false
-category: "USB KVM Constest 2024"
+category: "USB KVM DIY Contest 2024"
 date: 2025-05-20
 description: "Discover Veera Pendyala's innovative Audio Bridge concept for Openterface Mini-KVM, enabling bidirectional audio communication and AI workflows. This NVIDIA engineer's vision combines USB audio dongles, Jetson Nano, and KVM technology to create a zero-infrastructure solution for conversational AI and home automation."
 keywords: "Audio Bridge, bidirectional audio, USB KVM, Jetson Nano, NVIDIA engineer, conversational AI, home automation, USB audio dongle, ALSA, PulseAudio, headless device, remote control, AI workflows, USB sound adapter, audio routing, Mini-KVM, USB-KVM DIY Challenge, zero-infrastructure, audio streaming, device control, USB interface, HDMI audio, remote assistance, home monitoring, AI inference, software engineering, hardware integration, audio capture, microphone routing, Jetson-powered AI, USB gadget mode"
