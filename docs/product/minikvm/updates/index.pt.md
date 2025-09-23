@@ -2,6 +2,12 @@
 
 **Total Updates: {{ config.extra.minikvm_updates }}**
 
+## Concurso USB KVM DIY 2024
+
+- 2025-05-20: [Openterface Viewer: Kashall's Lightweight, Browser-Based KVM Solution](250520-kashall-project.md)
+- 2025-05-20: [Audio Bridge Concept: Inspiring Bidirectional Sound & AI Workflows](250520-Veera-post.md)
+- 2025-05-20: [iPad KVM: Creative Bridge Between iOS and Low-Level Devices](250520-Casey.md)
+
 ## Exposição
 
 - 2025-07-18: [Openterface at Open Sauce 2025 - Booth F.9!](250718-open-sauce-2025.md)
@@ -23,12 +29,6 @@
 - 2024-06-12: [Last Hours to Back & Mini-KVMs at Tech Frontlines](240612-last-hours-to-back.md)
 - 2024-06-08: [Epic Updates & Final Week – Last Chance to Back Mini-KVM!](240608-epic_updates_last_chance.md)
 - 2024-05-31: [Casual Chat with David Groom from MAKE: Magazine: The Story of Openterface Mini-KVM](240531_livestram_with_david_make.md)
-- 2024-05-28: [From Development to Your Hands: Behind the Scenes](240528-from-dev-to-your-hands.md)
+- 2024-05-28: [Do desenvolvimento às suas mãos: Nos bastidores](240528-from-dev-to-your-hands.pt.md)
 - 2024-04-30: [A campanha de crowdfunding do Openterface Mini-KVM está ativa agora!](240430-launch-announcement.pt.md)
-
-## USB KVM DIY Contest 2024
-
-- 2025-05-20: [Openterface Viewer: Kashall's Lightweight, Browser-Based KVM Solution](250520-kashall-project.md)
-- 2025-05-20: [Audio Bridge Concept: Inspiring Bidirectional Sound & AI Workflows](250520-Veera-post.md)
-- 2025-05-20: [iPad KVM: Creative Bridge Between iOS and Low-Level Devices](250520-Casey.md)
 

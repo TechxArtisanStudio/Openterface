@@ -1,7 +1,8 @@
 ---
-title: "Openterface Mini-KVM | ヘッドレスコンピュータ制御のためのKVM-over-USBソリューション"
-description: "Openterface Mini-KVMを使用して、ヘッドレスコンピュータをラップトップから直接制御。HDMIサポート付きのプラグアンドプレイKVM-over-USBソリューションで、ネットワーク不要。開発者、IT専門家、リモートワークステーションに最適。"
+title: "Openterface Mini-KVM | ヘッドレスコンピューター制御のためのKVM-over-USBソリューション"
+description: "Openterface Mini-KVMを使用して、ヘッドレスコンピューターを直接ノートパソコンから制御。HDMI対応のプラグアンドプレイKVM-over-USBソリューションで、ネットワーク接続は不要。開発者、IT専門家、リモートワークステーションに最適。"
 keywords: "Mini-KVM, KVM over USB, KVM over IP, headless control, HDMI KVM, USB KVM, KVM switch, KVM console, usb crash cart adapter, JetKVM, NanoKVM, KiwiKVM, PiKVM, plug and play KVM, VNC, computer peripherals"
+
 ---
 
 # **Openterface Mini-KVM**
@@ -43,56 +44,163 @@ keywords: "Mini-KVM, KVM over USB, KVM over IP, headless control, HDMI KVM, USB 
   </div>
 </div>
 
-**Openterface™ Mini-KVM**は、プラグアンドプレイの[**KVM-over-USB**](faq/kvm-over-usb.md)ソリューションです。USB と HDMI 接続を使用して、ラップトップまたはデスクトップから近くのヘッドレスコンピュータを直接制御でき、追加の周辺機器やネットワーク接続は不要です。
 
+私たちの **Openterface™ Mini-KVM** は、プラグアンドプレイの [**KVM-over-USB**](/faq/kvm-over-usb/) ソリューションです。USBとHDMI接続を使用して、ノートパソコンやデスクトップから近くのヘッドレスコンピューターを直接制御でき、追加の周辺機器やネットワーク接続は不要です。
+
+<div style="text-align: center; margin: 20px 0;">
 <button class="md-button" onclick="window.location.href='{{ config.extra.minikvm_purchase_link }}'"> 今すぐ注文 <img src="https://assets.openterface.com/images/trademark/crowd-supply.svg" alt="Crowd Supply" style="vertical-align: middle; height: 26px;"></button>
+</div>
 
 <div class="grid cards" markdown>
 
-- :material-feature-search-outline:{ .lg } **仕様と機能**
+-   :material-feature-search-outline:{ .lg } __仕様と機能__
 
-  ***
+    ---
 
-  Mini-KVM の強力な機能を発見
+    Mini-KVMの強力な機能を発見
 
-  [:octicons-arrow-right-24: パッケージ内容](/product/minikvm/whats-in-the-box/)
+    [:octicons-arrow-right-24: パッケージ内容](/product/minikvm/whats-in-the-box/)
 
-  [:octicons-arrow-right-24: 機能を表示](/product/minikvm/features)
+    [:octicons-arrow-right-24: 機能を表示](/product/minikvm/features)
 
-  [:octicons-arrow-right-24: 仕様](/product/minikvm/specifications)
+    [:octicons-arrow-right-24: 動作原理](/faq/kvm-over-usb/)
 
-- :material-power-plug:{ .lg } **使用方法**
 
-  ***
+-   :material-power-plug:{ .lg } __使用方法__
 
-  セットアップ方法を学び、ターゲットデバイスの制御を開始
+    ---
 
-  [:octicons-arrow-right-24: ホストアプリのダウンロードとインストール](/app)
+    ターゲットデバイスの設定と制御開始方法を学習
 
-  [:octicons-arrow-right-24: 接続方法](/product/minikvm/how-to-connect)
+    [:octicons-arrow-right-24: Host Appをダウンロード・インストール](/app)
 
-  [:octicons-arrow-right-24: 動作原理](/usb-kvm)
+    [:octicons-arrow-right-24: 接続方法](/product/minikvm/how-to-connect)
 
-- :material-cogs:{ .lg } **高度な機能**
+    [:octicons-arrow-right-24: FAQを表示](/faq)
 
-  ***
+</div>
 
-  Openterface の高度な機能を探索
 
-  [:octicons-arrow-right-24: 切り替え可能 USB ポート](/product/minikvm/usb-switch)
+<div class="grid cards" markdown>
 
-  [:octicons-arrow-right-24: 拡張ピン](/product/minikvm/extension-pins)
+-   :material-calendar-star:{ .lg } __アップデートとイベント__
 
-- :material-help-circle-outline:{ .lg } **サポートとレビュー**
+    ---
 
-  ***
+    [:material-star-outline: レビュー](/product/minikvm/reviews) / [:material-newspaper-variant-outline: 合計アップデート {{ config.extra.minikvm_updates }}](/product/minikvm/updates) / [:material-trophy-outline: USB KVM DIYコンテスト2024](/product/minikvm/updates) / [:material-account-group-outline: 展示会](/product/minikvm/updates)
 
-  サポート、よくある質問の回答、ユーザーレビューを見つける
+</div>
 
-  [:octicons-arrow-right-24: レビュー動画、投稿、お客様の声](reviews)
-
-  [:octicons-arrow-right-24: FAQ を表示](/faq)
-
-  :octicons-arrow-right-24: コミュニティに参加：[Discord](/discord) と [Reddit](reddit)
-
+<div class="what-others-say">
+    <h2>他の人の声</h2>
+    
+    <div class="youtube-videos-grid">
+        <div class="youtube-video-item" data-video-id="ZZ5P6MnBcHw">
+            <div class="youtube-placeholder" data-title="Openterface Mini-KVM Review">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="sKDYsKBv90A">
+            <div class="youtube-placeholder" data-title="Mini-KVM Setup Tutorial">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="l5e1wHwZ__c">
+            <div class="youtube-placeholder" data-title="KVM-over-USB Demo">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="FaAFCHHQeQg">
+            <div class="youtube-placeholder" data-title="Mini-KVM vs Traditional KVM">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="K0EuMSQEwKo">
+            <div class="youtube-placeholder" data-title="Real-world Use Cases">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="xAEQpWyfY-c">
+            <div class="youtube-placeholder" data-title="Mini-KVM Troubleshooting">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="lwitzvmxsgc">
+            <div class="youtube-placeholder" data-title="Openterface Mini-KVM open-source KVM gadget">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="B7GHj7mPei4">
+            <div class="youtube-placeholder" data-title="M4 MacMini 2024 を外に持ち出す方法がロマンすぎた！！！！">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="1iTaDp24PBI">
+            <div class="youtube-placeholder" data-title="M4 MacMini 2024 を外に持ち出して使えた wwww">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="hOSP7je8zSk">
+            <div class="youtube-placeholder" data-title="1 社に 1 個あると良い！TechxArtisan 社の Mini KVM">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="U8kvzWnOWWc">
+            <div class="youtube-placeholder" data-title="ノート PC をサーバーなどのコンソールとして利用する機器のご紹介">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="XTbpzx91Qbs">
+            <div class="youtube-placeholder" data-title="Openterface Mini-KVM ¡Controla Todo desde un Solo Lugar!">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="VjH0H8Nt68k">
+            <div class="youtube-placeholder" data-title="Festa do Software Livre - Pista principal - 2024">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="Lf45H4Hkt1o">
+            <div class="youtube-placeholder" data-title="YouTube Video Review">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="Tp4f_uxEo6E">
+            <div class="youtube-placeholder" data-title="YouTube Video Review">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="MNp8AifZ8_Q">
+            <div class="youtube-placeholder" data-title="YouTube Video Review">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="xQev3upcoKo">
+            <div class="youtube-placeholder" data-title="YouTube Video Review">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+        
+        <div class="youtube-video-item" data-video-id="VfVGD2bQswQ">
+            <div class="youtube-placeholder" data-title="YouTube Video Review">
+                <div class="youtube-play-button"></div>
+            </div>
+        </div>
+    </div>
 </div>
