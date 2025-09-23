@@ -30,7 +30,7 @@ def is_draft_post(file_path):
         return False
 
 def count_update_posts_for_product(product_name):
-    """Count the number of update markdown files in a product's updates directory."""
+    """Count the number of update markdown files in a product's updates directory (English only)."""
     # Get the project root directory (assuming script is in scripts/)
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
@@ -41,13 +41,20 @@ def count_update_posts_for_product(product_name):
     if not updates_dir.exists():
         return 0, []
     
-    # Count markdown files, excluding index.md and draft posts
+    # Count markdown files, excluding index files, translated files, and draft posts
     update_files = []
     for file_path in updates_dir.glob("*.md"):
-        if file_path.name != "index.md":
-            # Skip draft posts
-            if not is_draft_post(file_path):
-                update_files.append(file_path.name)
+        # Skip index files (both index.md and index.lang.md)
+        if file_path.name == "index.md" or file_path.name.startswith("index."):
+            continue
+        
+        # Skip translated files (files ending with .lang.md)
+        if any(file_path.name.endswith(f".{lang}.md") for lang in ["zh", "ja", "ko", "fr", "de", "it", "es", "pt", "ro"]):
+            continue
+        
+        # Skip draft posts
+        if not is_draft_post(file_path):
+            update_files.append(file_path.name)
     
     return len(update_files), update_files
 
