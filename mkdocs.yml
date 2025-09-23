@@ -64,6 +64,10 @@ theme:
       name: Switch to light mode
 extra:
   copyright_year: 2025
+  uconsole-kvm-extension_youtube: 0
+  minikvm_youtube: 18
+  kvm-go_youtube: 0
+  accessories_youtube: 0
   qt_version: 0.4.3
   android_version: v1.1.2
   macos_version: 1.16
@@ -145,9 +149,12 @@ nav:
     - Features: product/minikvm/features.md
     - What's In The Box: product/minikvm/whats-in-the-box.md
     - How To Connect: product/minikvm/how-to-connect.md
-    - Reviews & Press: product/minikvm/reviews.md
     - USB Switch: product/minikvm/usb-switch.md
     - Extension Pins: product/minikvm/extension-pins.md
+    - Reviews & Press:
+      - YouTube Reviews: product/minikvm/reviews/youtube.md
+      - Testimonials: product/minikvm/reviews/testimonials.md
+      - Media Coverage: product/minikvm/reviews/media.md
     - FAQs for Mini-KVM: product/minikvm/faq.md
     - Updates for Mini-KVM: product/minikvm/updates/index.md
   - KVM Go Series ⏳:
