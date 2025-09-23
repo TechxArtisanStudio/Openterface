@@ -39,7 +39,7 @@ theme:
   - navigation.footer
   - navigation.indexes
   - navigation.tracking
-  - navigation.expand
+  # - navigation.expand
   - search.suggest
   - search.highlight
   - content.tabs
@@ -151,15 +151,15 @@ nav:
     - How To Connect: product/minikvm/how-to-connect.md
     - USB Switch: product/minikvm/usb-switch.md
     - Extension Pins: product/minikvm/extension-pins.md
+    - FAQs for Mini-KVM: product/minikvm/faq.md
     - Reviews & Press:
       - YouTube Reviews: product/minikvm/reviews/youtube.md
       - Testimonials: product/minikvm/reviews/testimonials.md
       - Media Coverage: product/minikvm/reviews/media.md
-    - FAQs for Mini-KVM: product/minikvm/faq.md
     - Updates for Mini-KVM: product/minikvm/updates/index.md
   - KVM Go Series ⏳:
     - Pre-Launch: product/kvm-go/pre-launch.md
-  - uConsole KVM Extension 🛠️:
+  - uConsole KVM Extension:
     - Overview: product/uconsole-kvm-extension/index.md
     - Installation Guide: https://github.com/TechxArtisanStudio/Openterface_QT/blob/main/doc/flatpak_installation.md
   - Accessories:
