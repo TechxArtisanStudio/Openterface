@@ -56,45 +56,45 @@ Im Vergleich zu netzwerkabhängigen Lösungen ermöglichen USB KVMs IT-Profis un
 
 <div class="grid cards" markdown>
 
-- :material-usb:{ .lg } **KVM-over-USB** (z.B. Openterface Mini-KVM)
+-   :material-usb:{ .lg } **KVM-over-USB** (z.B. Openterface Mini-KVM)
 
-  ***
+    ***
 
-  - **Mobilitätsfokussiert**: Entwickelt für Techniker, die zwischen verschiedenen Systemen wechseln
-  - **Schneller Zugang**: Echte Plug-and-Play-Funktionalität ohne Netzwerkeinrichtung
-  - **Fehlerbehebungsorientiert**: Perfekt für schnelle Konfigurationen oder Reparaturen, bei denen Sie verbinden, reparieren und weitergehen
-  - **Direkte Verbindung**: Niedrigere Latenz über USB-Schnittstelle
-  - **Netzwerkfrei**: Ideal für sichere Umgebungen oder wenn Netzwerkinfrastruktur nicht verfügbar ist
-  - **Kosteneffektiv**: Allgemein erschwinglicher aufgrund einfacherer Hardware-Anforderungen
+    -   **Mobilitätsfokussiert**: Entwickelt für Techniker, die zwischen verschiedenen Systemen wechseln
+    -   **Schneller Zugang**: Echte Plug-and-Play-Funktionalität ohne Netzwerkeinrichtung
+    -   **Fehlerbehebungsorientiert**: Perfekt für schnelle Konfigurationen oder Reparaturen, bei denen Sie verbinden, reparieren und weitergehen
+    -   **Direkte Verbindung**: Niedrigere Latenz über USB-Schnittstelle
+    -   **Netzwerkfrei**: Ideal für sichere Umgebungen oder wenn Netzwerkinfrastruktur nicht verfügbar ist
+    -   **Kosteneffektiv**: Allgemein erschwinglicher aufgrund einfacherer Hardware-Anforderungen
 
-- :material-lan:{ .lg } **KVM-over-IP** (z.B. PiKVM, JetKVM)
+-   :material-lan:{ .lg } **KVM-over-IP** (z.B. PiKVM, JetKVM)
 
-  ***
+    ***
 
-  - **Stationäre Einrichtung**: Entwickelt für permanente Installation
-  - **Fernzugang**: Ermöglicht Steuerung von überall mit Netzwerkkonnektivität
-  - **Langzeitüberwachung**: Besser geeignet für kontinuierliche Systembeobachtung
-  - **Infrastrukturabhängig**: Erfordert stabile Netzwerkkonfiguration
-  - **Mehrbenutzerzugang**: Kann mehrere Operatoren unterstützen, die auf dasselbe Ziel zugreifen
+    -   **Stationäre Einrichtung**: Entwickelt für permanente Installation
+    -   **Fernzugang**: Ermöglicht Steuerung von überall mit Netzwerkkonnektivität
+    -   **Langzeitüberwachung**: Besser geeignet für kontinuierliche Systembeobachtung
+    -   **Infrastrukturabhängig**: Erfordert stabile Netzwerkkonfiguration
+    -   **Mehrbenutzerzugang**: Kann mehrere Operatoren unterstützen, die auf dasselbe Ziel zugreifen
 
-- :material-check-circle-outline:{ .lg } **USB KVM wählen, wenn…**
+-   :material-check-circle-outline:{ .lg } **USB KVM wählen, wenn…**
 
-  ***
+    ***
 
-  - Sie Ihren Laptop in eine KVM-Konsole verwandeln möchten
-  - Sie mehrere Systeme schnell beheben müssen
-  - Netzwerkeinrichtung nicht verfügbar oder eingeschränkt ist
-  - Portabilität entscheidend ist
-  - Direkte, niedrige Latenz-Steuerung erforderlich ist
+    -   Sie Ihren Laptop in eine KVM-Konsole verwandeln möchten
+    -   Sie mehrere Systeme schnell beheben müssen
+    -   Netzwerkeinrichtung nicht verfügbar oder eingeschränkt ist
+    -   Portabilität entscheidend ist
+    -   Direkte, niedrige Latenz-Steuerung erforderlich ist
 
-- :material-cloud-outline:{ .lg } **IP KVM wählen, wenn…**
+-   :material-cloud-outline:{ .lg } **IP KVM wählen, wenn…**
 
-  ***
+    ***
 
-  - Sie permanenten Fernzugang benötigen
-  - Mehrere Benutzer auf dasselbe System zugreifen müssen
-  - Das Zielsystem kontinuierliche Überwachung erfordert
-  - Netzwerkinfrastruktur stabil und sicher ist
+    -   Sie permanenten Fernzugang benötigen
+    -   Mehrere Benutzer auf dasselbe System zugreifen müssen
+    -   Das Zielsystem kontinuierliche Überwachung erfordert
+    -   Netzwerkinfrastruktur stabil und sicher ist
 
 </div>
 

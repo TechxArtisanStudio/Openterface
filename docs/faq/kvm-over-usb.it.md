@@ -56,45 +56,45 @@ Rispetto alle soluzioni dipendenti dalla rete, gli USB KVM permettono ai profess
 
 <div class="grid cards" markdown>
 
-- :material-usb:{ .lg } **KVM-over-USB** (es. Openterface Mini-KVM)
+-   :material-usb:{ .lg } **KVM-over-USB** (es. Openterface Mini-KVM)
 
-  ***
+    ***
 
-  - **Focalizzato sulla mobilità**: Progettato per tecnici che si spostano tra diversi sistemi
-  - **Accesso rapido**: Funzionalità plug-and-play vera senza configurazione di rete
-  - **Orientato alla risoluzione problemi**: Perfetto per configurazioni o riparazioni rapide dove connetti, sistemi e vai avanti
-  - **Connessione diretta**: Latenza più bassa tramite interfaccia USB
-  - **Senza rete**: Ideale per ambienti sicuri o quando l'infrastruttura di rete non è disponibile
-  - **Conveniente**: Generalmente più economico a causa di requisiti hardware più semplici
+    -   **Focalizzato sulla mobilità**: Progettato per tecnici che si spostano tra diversi sistemi
+    -   **Accesso rapido**: Funzionalità plug-and-play vera senza configurazione di rete
+    -   **Orientato alla risoluzione problemi**: Perfetto per configurazioni o riparazioni rapide dove connetti, sistemi e vai avanti
+    -   **Connessione diretta**: Latenza più bassa tramite interfaccia USB
+    -   **Senza rete**: Ideale per ambienti sicuri o quando l'infrastruttura di rete non è disponibile
+    -   **Conveniente**: Generalmente più economico a causa di requisiti hardware più semplici
 
-- :material-lan:{ .lg } **KVM-over-IP** (es. PiKVM, JetKVM)
+-   :material-lan:{ .lg } **KVM-over-IP** (es. PiKVM, JetKVM)
 
-  ***
+    ***
 
-  - **Setup stazionario**: Progettato per installazione permanente
-  - **Accesso remoto**: Permette controllo da ovunque con connettività di rete
-  - **Monitoraggio a lungo termine**: Meglio adatto per osservazione continua del sistema
-  - **Dipendente dall'infrastruttura**: Richiede configurazione di rete stabile
-  - **Accesso multi-utente**: Può supportare più operatori che accedono allo stesso target
+    -   **Setup stazionario**: Progettato per installazione permanente
+    -   **Accesso remoto**: Permette controllo da ovunque con connettività di rete
+    -   **Monitoraggio a lungo termine**: Meglio adatto per osservazione continua del sistema
+    -   **Dipendente dall'infrastruttura**: Richiede configurazione di rete stabile
+    -   **Accesso multi-utente**: Può supportare più operatori che accedono allo stesso target
 
-- :material-check-circle-outline:{ .lg } **Scegli USB KVM quando…**
+-   :material-check-circle-outline:{ .lg } **Scegli USB KVM quando…**
 
-  ***
+    ***
 
-  - Trasformi il tuo laptop in una console KVM
-  - Devi risolvere problemi rapidamente a più sistemi
-  - La configurazione di rete non è disponibile o è limitata
-  - La portabilità è cruciale
-  - È richiesto controllo diretto e a bassa latenza
+    -   Trasformi il tuo laptop in una console KVM
+    -   Devi risolvere problemi rapidamente a più sistemi
+    -   La configurazione di rete non è disponibile o è limitata
+    -   La portabilità è cruciale
+    -   È richiesto controllo diretto e a bassa latenza
 
-- :material-cloud-outline:{ .lg } **Scegli IP KVM quando…**
+-   :material-cloud-outline:{ .lg } **Scegli IP KVM quando…**
 
-  ***
+    ***
 
-  - Hai bisogno di accesso remoto permanente
-  - Più utenti devono accedere allo stesso sistema
-  - Il sistema target richiede monitoraggio costante
-  - L'infrastruttura di rete è stabile e sicura
+    -   Hai bisogno di accesso remoto permanente
+    -   Più utenti devono accedere allo stesso sistema
+    -   Il sistema target richiede monitoraggio costante
+    -   L'infrastruttura di rete è stabile e sicura
 
 </div>
 

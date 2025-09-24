@@ -56,45 +56,45 @@ Comparat cu soluțiile dependente de rețea, USB KVMs permit profesioniștilor I
 
 <div class="grid cards" markdown>
 
-- :material-usb:{ .lg } **KVM-over-USB** (ex. Openterface Mini-KVM)
+-   :material-usb:{ .lg } **KVM-over-USB** (ex. Openterface Mini-KVM)
 
-  ***
+    ***
 
-  - **Focalizat pe mobilitate**: Proiectat pentru tehnicieni care se mișcă între diferite sisteme
-  - **Acces rapid**: Funcționalitate plug-and-play adevărată fără configurare de rețea
-  - **Orientat spre depanare**: Perfect pentru configurații sau reparații rapide unde conectați, reparați și continuați
-  - **Conexiune directă**: Latență mai mică prin interfața USB
-  - **Fără rețea**: Ideal pentru medii sigure sau când infrastructura de rețea nu este disponibilă
-  - **Cost-eficient**: General mai accesibil din cauza cerințelor de hardware mai simple
+    -   **Focalizat pe mobilitate**: Proiectat pentru tehnicieni care se mișcă între diferite sisteme
+    -   **Acces rapid**: Funcționalitate plug-and-play adevărată fără configurare de rețea
+    -   **Orientat spre depanare**: Perfect pentru configurații sau reparații rapide unde conectați, reparați și continuați
+    -   **Conexiune directă**: Latență mai mică prin interfața USB
+    -   **Fără rețea**: Ideal pentru medii sigure sau când infrastructura de rețea nu este disponibilă
+    -   **Cost-eficient**: General mai accesibil din cauza cerințelor de hardware mai simple
 
-- :material-lan:{ .lg } **KVM-over-IP** (ex. PiKVM, JetKVM)
+-   :material-lan:{ .lg } **KVM-over-IP** (ex. PiKVM, JetKVM)
 
-  ***
+    ***
 
-  - **Configurare staționară**: Proiectat pentru instalare permanentă
-  - **Acces la distanță**: Permite control de oriunde cu conectivitate de rețea
-  - **Monitorizare pe termen lung**: Mai potrivit pentru observarea continuă a sistemului
-  - **Dependent de infrastructură**: Necesită configurare de rețea stabilă
-  - **Acces multi-utilizator**: Poate suporta mai mulți operatori accesând același țintă
+    -   **Configurare staționară**: Proiectat pentru instalare permanentă
+    -   **Acces la distanță**: Permite control de oriunde cu conectivitate de rețea
+    -   **Monitorizare pe termen lung**: Mai potrivit pentru observarea continuă a sistemului
+    -   **Dependent de infrastructură**: Necesită configurare de rețea stabilă
+    -   **Acces multi-utilizator**: Poate suporta mai mulți operatori accesând același țintă
 
-- :material-check-circle-outline:{ .lg } **Alegeți USB KVM când…**
+-   :material-check-circle-outline:{ .lg } **Alegeți USB KVM când…**
 
-  ***
+    ***
 
-  - Transformați laptopul în consolă KVM
-  - Trebuie să depanați rapid mai multe sisteme
-  - Configurarea de rețea nu este disponibilă sau este restricționată
-  - Portabilitatea este crucială
-  - Este necesar control direct și cu latență mică
+    -   Transformați laptopul în consolă KVM
+    -   Trebuie să depanați rapid mai multe sisteme
+    -   Configurarea de rețea nu este disponibilă sau este restricționată
+    -   Portabilitatea este crucială
+    -   Este necesar control direct și cu latență mică
 
-- :material-cloud-outline:{ .lg } **Alegeți IP KVM când…**
+-   :material-cloud-outline:{ .lg } **Alegeți IP KVM când…**
 
-  ***
+    ***
 
-  - Aveți nevoie de acces la distanță permanent
-  - Mai mulți utilizatori trebuie să acceseze același sistem
-  - Sistemul țintă necesită monitorizare constantă
-  - Infrastructura de rețea este stabilă și sigură
+    -   Aveți nevoie de acces la distanță permanent
+    -   Mai mulți utilizatori trebuie să acceseze același sistem
+    -   Sistemul țintă necesită monitorizare constantă
+    -   Infrastructura de rețea este stabilă și sigură
 
 </div>
 

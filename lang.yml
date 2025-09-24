@@ -76,6 +76,7 @@
     "Testimonials": 用户评价
     "Updates for KVM Ext.": "KVM 扩展更新"
     "YouTube Reviews": YouTube 评测
+    "Reviews Videos": 评测视频
     "Updates for Mini-KVM": Mini-KVM 更新
 - locale: ja
   name: 日本語
@@ -145,6 +146,7 @@
     "Testimonials": お客様の声
     "Updates for KVM Ext.": "KVM 拡張アップデート"
     "YouTube Reviews": YouTube レビュー
+    "Reviews Videos": レビュー動画
     "Updates for Mini-KVM": Mini-KVM アップデート
 - locale: ko
   name: 한국어
@@ -214,6 +216,7 @@
     "Testimonials": 사용자 후기
     "Updates for KVM Ext.": "KVM 확장 업데이트"
     "YouTube Reviews": YouTube 리뷰
+    "Reviews Videos": 리뷰 영상
     "Updates for Mini-KVM": Mini-KVM 업데이트
 - locale: fr
   name: Français
@@ -283,6 +286,7 @@
     "Testimonials": Témoignages
     "Updates for KVM Ext.": "Mises à jour Extension KVM"
     "YouTube Reviews": "Avis YouTube"
+    "Reviews Videos": "Vidéos d'avis"
     "Updates for Mini-KVM": "Mises à jour Mini-KVM"
 - locale: de
   name: Deutsch
@@ -352,6 +356,7 @@
     "Testimonials": "Kundenbewertungen"
     "Updates for KVM Ext.": "KVM-Erweiterung Updates"
     "YouTube Reviews": "YouTube-Bewertungen"
+    "Reviews Videos": "Bewertungsvideos"
     "Updates for Mini-KVM": "Mini-KVM Updates"
 - locale: it
   name: Italiano
@@ -421,6 +426,7 @@
     "Testimonials": Testimonianze
     "Updates for KVM Ext.": "Aggiornamenti Estensione KVM"
     "YouTube Reviews": "Recensioni YouTube"
+    "Reviews Videos": "Video recensioni"
     "Updates for Mini-KVM": "Aggiornamenti Mini-KVM"
 - locale: es
   name: Español
@@ -490,6 +496,7 @@
     "Testimonials": Testimonios
     "Updates for KVM Ext.": "Actualizaciones Extensión KVM"
     "YouTube Reviews": "Reseñas de YouTube"
+    "Reviews Videos": "Videos de reseñas"
     "Updates for Mini-KVM": "Actualizaciones Mini-KVM"
 - locale: pt
   name: Português
@@ -559,6 +566,7 @@
     "Testimonials": Depoimentos
     "Updates for KVM Ext.": "Atualizações Extensão KVM"
     "YouTube Reviews": "Avaliações do YouTube"
+    "Reviews Videos": "Vídeos de avaliações"
     "Updates for Mini-KVM": "Atualizações Mini-KVM"
 - locale: ro
   name: Română
@@ -628,4 +636,5 @@
     "Testimonials": Mărturii
     "Updates for KVM Ext.": "Actualizări Extensie KVM"
     "YouTube Reviews": "Recenzii YouTube"
+    "Reviews Videos": "Videoclipuri recenzii"
     "Updates for Mini-KVM": "Actualizări Mini-KVM"
