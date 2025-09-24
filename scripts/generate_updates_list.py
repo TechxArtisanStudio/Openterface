@@ -547,21 +547,21 @@ def create_empty_updates_index(product_name, language="en"):
 def main():
     """Main function to generate and optionally update update lists."""
     parser = argparse.ArgumentParser(
-        description="Generate automatic updates list from H1 titles"
+        description="Generate automatic updates list from H1 titles (default: all products, all languages, update files)"
     )
-    parser.add_argument("--product", help="Generate list for specific product only")
+    parser.add_argument("--product", help="Generate list for specific product only (default: all products)")
     parser.add_argument(
-        "--language", help="Generate list for specific language only (default: en)"
+        "--language", help="Generate list for specific language only (default: all languages)"
     )
     parser.add_argument(
-        "--all-languages",
+        "--no-update-files",
         action="store_true",
-        help="Generate lists for all supported languages",
+        help="Don't update the index files (default: update files)",
     )
     parser.add_argument(
-        "--update-files",
+        "--no-all-languages",
         action="store_true",
-        help="Update the index files with generated lists",
+        help="Don't generate for all languages (default: all languages)",
     )
     parser.add_argument("--output", help="Output file to save generated lists")
 
@@ -569,83 +569,32 @@ def main():
 
     # Load language configuration
     default_language, supported_languages = load_language_config()
+    
+    # Set defaults: update files and all languages are now default
+    update_files = not args.no_update_files
+    all_languages = not args.no_all_languages
 
-    if args.all_languages:
-        # Generate for all languages
-        for language in supported_languages:
-            print(f"\n🌍 Generating updates lists for language: {language}")
-
-            if args.product:
-                # Generate for specific product and language
-                markdown_list, message = generate_updates_list_for_product_and_language(
-                    args.product, language
-                )
-                print(f"✅ {message}")
-                if markdown_list:
-                    print(f"\nGenerated markdown list for {language}:")
-                    print(markdown_list)
-
-                if args.update_files:
-                    if create_or_update_index_file(
-                        args.product, markdown_list, language
-                    ):
-                        if language == "en":
-                            print(f"✅ Updated {args.product}/updates/index.md")
-                        else:
-                            print(
-                                f"✅ Updated {args.product}/updates/index.{language}.md"
-                            )
-                    else:
-                        if language == "en":
-                            print(
-                                f"❌ Failed to update {args.product}/updates/index.md"
-                            )
-                        else:
-                            print(
-                                f"❌ Failed to update {args.product}/updates/index.{language}.md"
-                            )
-            else:
-                # Generate for all products and language
-                results = generate_all_products_updates_list_for_language(language)
-
-                if not results:
-                    print(f"No products with updates found for {language}.")
-                    continue
-
-                print(f"Generated updates lists for all products in {language}:")
-                for product_name, result in results.items():
-                    print(f"\n✅ {result['message']}")
-                    print(f"📝 {product_name} updates list ({language}):")
-                    print(result["markdown"])
-
-                    if args.update_files:
-                        if create_or_update_index_file(
-                            product_name, result["markdown"], language
-                        ):
-                            if language == "en":
-                                print(f"✅ Updated {product_name}/updates/index.md")
-                            else:
-                                print(
-                                    f"✅ Updated {product_name}/updates/index.{language}.md"
-                                )
-                        else:
-                            if language == "en":
-                                print(
-                                    f"❌ Failed to update {product_name}/updates/index.md"
-                                )
-                            else:
-                                print(
-                                    f"❌ Failed to update {product_name}/updates/index.{language}.md"
-                                )
-
-    elif args.language:
-        # Generate for specific language
-        language = args.language
-        if language not in supported_languages:
+    # Determine which languages to process
+    if args.language:
+        # Single language specified
+        if args.language not in supported_languages:
             print(
-                f"❌ Language '{language}' not supported. Supported languages: {', '.join(supported_languages)}"
+                f"❌ Language '{args.language}' not supported. Supported languages: {', '.join(supported_languages)}"
             )
             return
+        languages_to_process = [args.language]
+    elif all_languages:
+        # All languages (default)
+        languages_to_process = supported_languages
+    else:
+        # English only (when --no-all-languages is used)
+        languages_to_process = ["en"]
+
+    # Process each language
+    all_results = {}  # Store results for output file if needed
+    
+    for language in languages_to_process:
+        print(f"\n🌍 Generating updates lists for language: {language}")
 
         if args.product:
             # Generate for specific product and language
@@ -657,15 +606,21 @@ def main():
                 print(f"\nGenerated markdown list for {language}:")
                 print(markdown_list)
 
-            if args.update_files:
-                if create_or_update_index_file(args.product, markdown_list, language):
+            if update_files:
+                if create_or_update_index_file(
+                    args.product, markdown_list, language
+                ):
                     if language == "en":
                         print(f"✅ Updated {args.product}/updates/index.md")
                     else:
-                        print(f"✅ Updated {args.product}/updates/index.{language}.md")
+                        print(
+                            f"✅ Updated {args.product}/updates/index.{language}.md"
+                        )
                 else:
                     if language == "en":
-                        print(f"❌ Failed to update {args.product}/updates/index.md")
+                        print(
+                            f"❌ Failed to update {args.product}/updates/index.md"
+                        )
                     else:
                         print(
                             f"❌ Failed to update {args.product}/updates/index.{language}.md"
@@ -676,7 +631,7 @@ def main():
 
             if not results:
                 print(f"No products with updates found for {language}.")
-                return
+                continue
 
             print(f"Generated updates lists for all products in {language}:")
             for product_name, result in results.items():
@@ -684,7 +639,7 @@ def main():
                 print(f"📝 {product_name} updates list ({language}):")
                 print(result["markdown"])
 
-                if args.update_files:
+                if update_files:
                     if create_or_update_index_file(
                         product_name, result["markdown"], language
                     ):
@@ -703,53 +658,21 @@ def main():
                             print(
                                 f"❌ Failed to update {product_name}/updates/index.{language}.md"
                             )
+            
+            # Store results for output file
+            all_results[language] = results
 
-    else:
-        # Original behavior - generate for English only
-        if args.product:
-            # Generate for specific product
-            markdown_list, message = generate_updates_list_for_product(args.product)
-            if markdown_list:
-                print(f"✅ {message}")
-                print("\nGenerated markdown list:")
-                print(markdown_list)
-
-                if args.update_files:
-                    if create_or_update_index_file(args.product, markdown_list):
-                        print(f"✅ Updated {args.product}/updates/index.md")
-                    else:
-                        print(f"❌ Failed to update {args.product}/updates/index.md")
-            else:
-                print(f"❌ {message}")
-        else:
-            # Generate for all products
-            results = generate_all_products_updates_list()
-
-            if not results:
-                print("No products with updates found.")
-                return
-
-            print("Generated updates lists for all products:")
-            for product_name, result in results.items():
-                print(f"\n✅ {result['message']}")
-                print(f"📝 {product_name} updates list:")
-                print(result["markdown"])
-
-                if args.update_files:
-                    if create_or_update_index_file(product_name, result["markdown"]):
-                        print(f"✅ Updated {product_name}/updates/index.md")
-                    else:
-                        print(f"❌ Failed to update {product_name}/updates/index.md")
-
-        # Save to output file if specified
-        if args.output:
-            with open(args.output, "w", encoding="utf-8") as f:
-                f.write("# Auto-generated Updates Lists\n\n")
+    # Save to output file if specified
+    if args.output and all_results:
+        with open(args.output, "w", encoding="utf-8") as f:
+            f.write("# Auto-generated Updates Lists\n\n")
+            for language, results in all_results.items():
+                f.write(f"## Language: {language}\n\n")
                 for product_name, result in results.items():
-                    f.write(f"## {product_name}\n\n")
+                    f.write(f"### {product_name}\n\n")
                     f.write(result["markdown"])
                     f.write("\n\n")
-            print(f"\n💾 Saved all lists to {args.output}")
+        print(f"\n💾 Saved all lists to {args.output}")
 
 
 if __name__ == "__main__":

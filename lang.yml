@@ -73,6 +73,7 @@
     "Testimonials": 用户评价
     "Updates for KVM Ext.": "KVM 扩展更新"
     "YouTube Reviews": YouTube 评测
+    "Updates for Mini-KVM": Mini-KVM 更新
 - locale: ja
   name: 日本語
   build: true
@@ -138,6 +139,7 @@
     "Testimonials": お客様の声
     "Updates for KVM Ext.": "KVM 拡張アップデート"
     "YouTube Reviews": YouTube レビュー
+    "Updates for Mini-KVM": Mini-KVM アップデート
 - locale: ko
   name: 한국어
   build: true
@@ -203,6 +205,7 @@
     "Testimonials": 사용자 후기
     "Updates for KVM Ext.": "KVM 확장 업데이트"
     "YouTube Reviews": YouTube 리뷰
+    "Updates for Mini-KVM": Mini-KVM 업데이트
 - locale: fr
   name: Français
   build: true
@@ -268,6 +271,7 @@
     "Testimonials": Témoignages
     "Updates for KVM Ext.": "Mises à jour Extension KVM"
     "YouTube Reviews": "Avis YouTube"
+    "Updates for Mini-KVM": "Mises à jour Mini-KVM"
 - locale: de
   name: Deutsch
   build: true
@@ -333,6 +337,7 @@
     "Testimonials": "Kundenbewertungen"
     "Updates for KVM Ext.": "KVM-Erweiterung Updates"
     "YouTube Reviews": "YouTube-Bewertungen"
+    "Updates for Mini-KVM": "Mini-KVM Updates"
 - locale: it
   name: Italiano
   build: true
@@ -398,6 +403,7 @@
     "Testimonials": Testimonianze
     "Updates for KVM Ext.": "Aggiornamenti Estensione KVM"
     "YouTube Reviews": "Recensioni YouTube"
+    "Updates for Mini-KVM": "Aggiornamenti Mini-KVM"
 - locale: es
   name: Español
   build: true
@@ -463,6 +469,7 @@
     "Testimonials": Testimonios
     "Updates for KVM Ext.": "Actualizaciones Extensión KVM"
     "YouTube Reviews": "Reseñas de YouTube"
+    "Updates for Mini-KVM": "Actualizaciones Mini-KVM"
 - locale: pt
   name: Português
   build: true
@@ -528,6 +535,7 @@
     "Testimonials": Depoimentos
     "Updates for KVM Ext.": "Atualizações Extensão KVM"
     "YouTube Reviews": "Avaliações do YouTube"
+    "Updates for Mini-KVM": "Atualizações Mini-KVM"
 - locale: ro
   name: Română
   build: true
@@ -593,3 +601,4 @@
     "Testimonials": Mărturii
     "Updates for KVM Ext.": "Actualizări Extensie KVM"
     "YouTube Reviews": "Recenzii YouTube"
+    "Updates for Mini-KVM": "Actualizări Mini-KVM"
