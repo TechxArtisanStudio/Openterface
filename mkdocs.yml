@@ -64,14 +64,14 @@ theme:
       name: Switch to light mode
 extra:
   copyright_year: 2025
-  uconsole-kvm-extension_youtube: 0
+  uconsole-kvm-extension_updates: 2
+  uconsole-kvm-extension_youtube: 5
   minikvm_youtube: 18
   kvm-go_youtube: 0
   accessories_youtube: 0
   qt_version: 0.4.3
   android_version: v1.1.2
   macos_version: 1.16
-  uconsole-kvm-extension_updates: 0
   minikvm_updates: 21
   kvm-go_updates: 0
   accessories_updates: 0
@@ -142,6 +142,7 @@ nav:
   - KVM-over-USB: faq/kvm-over-usb.md
   - FAQs for Products:
     - FAQs for Mini-KVM: product/minikvm/faq.md
+    - FAQs for KVM Ext.: product/uconsole-kvm-extension/faq.md
   - FAQs for Apps: app/faq.md
 - Product:
   - Mini-KVM 👑:
@@ -161,7 +162,11 @@ nav:
     - Pre-Launch: product/kvm-go/pre-launch.md
   - uConsole KVM Extension:
     - Overview: product/uconsole-kvm-extension/index.md
-    - Installation Guide: https://github.com/TechxArtisanStudio/Openterface_QT/blob/main/doc/flatpak_installation.md
+    - Features: product/uconsole-kvm-extension/features.md
+    - What's In The Box: product/uconsole-kvm-extension/whats-in-the-box.md
+    - How To Connect: product/uconsole-kvm-extension/how-to-connect.md
+    - FAQs for KVM Ext.: product/uconsole-kvm-extension/faq.md
+    - Updates for KVM Ext.: product/uconsole-kvm-extension/updates/index.md
   - Accessories:
     - Overview: product/accessories/index.md
     - VGA to HDMI Cable 1m: product/accessories/vga-to-hdmi-cable.md
