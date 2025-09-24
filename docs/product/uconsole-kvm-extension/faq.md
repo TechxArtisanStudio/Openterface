@@ -7,7 +7,7 @@ keywords: KVM extension, uConsole KVM, troubleshooting, video capture, USB HID, 
 # FAQs for Openterface KVM Extension for uConsole
 
 Welcome to the FAQ for our **Openterface KVM Extension for uConsole**.  
-If you don't find what you need, **email us at [info@openterface.com](mailto:info@openterface.com)** or **join our community** on [Discord](/discord).
+If you don't find what you need, **email us at [support@openterface.com](mailto:support@openterface.com)** or **join our community** on [Discord](/discord).
 
 ⚠️ _FAQs may be outdated — please let us know if you see anything that needs updating._
 
@@ -17,10 +17,10 @@ If you don't find what you need, **email us at [info@openterface.com](mailto:inf
 
 - [FAQs for Openterface KVM Extension for uConsole](#faqs-for-openterface-kvm-extension-for-uconsole)
   - [:material-clipboard-list: Quick Navigation](#material-clipboard-list-quick-navigation)
-  - [Installation \& Hardware](#installation--hardware)
+  - [Installation & Hardware](#installation--hardware)
   - [Compatibility](#compatibility)
-  - [Control \& Features](#control--features)
-  - [Video \& Audio](#video--audio)
+  - [Control & Features](#control--features)
+  - [Video & Audio](#video--audio)
   - [Troubleshooting](#troubleshooting)
   - [More](#more)
 
@@ -36,9 +36,9 @@ It captures HDMI output from a target device and displays it on the uConsole. At
 
 No. This board occupies the same expansion slot. You'll need to choose between cellular connectivity or KVM functionality.
 
-**:material-chat-question:{ .faq } Why do I need the gasket?**
+**:material-chat-question:{ .faq } Why do I need the washers?**
 
-The KVM Extension board is 1.0mm thick (thinner than the original 4G/LTE 1.2mm). The gasket compensates for this difference and ensures proper spring contactor pressure for reliable connections.
+The KVM Extension board is 1.0mm thick (thinner than the original 4G/LTE 1.2mm). The washers compensates for this difference and ensures proper spring contactor pressure for reliable connections.
 
 **:material-chat-question:{ .faq } What tools do I need for installation?**
 
@@ -59,6 +59,7 @@ Compatible with uConsole devices that feature the standard 4G/LTE expansion slot
 **:material-chat-question:{ .faq } What target devices can I control?**
 
 Any device with HDMI output, including:
+
 - Desktop computers and servers
 - Single-board computers (Raspberry Pi, etc.)
 - Embedded systems
@@ -137,7 +138,7 @@ Yes, you can use HDMI adapters for devices with VGA, DVI, or DisplayPort outputs
 
 **:material-chat-question:{ .faq } Board doesn't fit properly**
 
-- Ensure the gasket is properly positioned
+- Ensure the washers is properly positioned
 - Check that screws are not overtightened
 - Verify the board sits flat without movement
 - Make sure you're using the correct mounting screws
@@ -159,6 +160,6 @@ Yes! Our **Openterface Connect** Apps are fully open-source and available on our
 
 **:material-chat-question:{ .faq } Where can I get support?**
 
-- **Email**: [info@openterface.com](mailto:info@openterface.com)
+- **Email**: [support@openterface.com](mailto:support@openterface.com)
 - **Discord**: [Join our community](https://discord.gg/ruAD9kcYbq)
 - **GitHub**: [Report issues](https://github.com/TechxArtisanStudio/Openterface_QT/issues)
