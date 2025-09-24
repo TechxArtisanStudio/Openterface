@@ -6,37 +6,12 @@ keywords: "KVM extension, uConsole KVM, portable KVM, HDMI KVM, USB HID control,
 
 # **Openterface KVM Extension for uConsole**
 
-<div class="slideshow-container" id="slideshow-uconsole-kvm" data-auto-slide="true" data-auto-slide-interval="3000">
-  <div class="slideshow-wrapper">
-    <div class="slide active">
-      <img src="https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-box-2.webp" alt="KVM Extension Box" style="max-height:320px;" loading="lazy">
-    </div>
-    <div class="slide">
-      <img src="https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-use-case-1b.webp" alt="KVM Extension Use Case Demo" style="max-height:320px;" loading="lazy">
-    </div>
-    <div class="slide">
-      <img src="https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-use-case-2.webp" alt="KVM Extension Connected to Target Device" style="max-height:320px;" loading="lazy">
-    </div>
-    <div class="slide">
-      <img src="https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-install-1.webp" alt="KVM Extension Installation" style="max-height:320px;" loading="lazy">
-    </div>
-  </div>
-  
-  <!-- Navigation with dots -->
-  <div class="slideshow-navigation">
-    <button class="nav-arrow left" onclick="changeSlide('slideshow-uconsole-kvm', -1)">❮</button>
-    <div class="slideshow-dots">
-      <span class="dot active" onclick="currentSlide('slideshow-uconsole-kvm', 1)"></span>
-      <span class="dot" onclick="currentSlide('slideshow-uconsole-kvm', 2)"></span>
-      <span class="dot" onclick="currentSlide('slideshow-uconsole-kvm', 3)"></span>
-      <span class="dot" onclick="currentSlide('slideshow-uconsole-kvm', 4)"></span>
-      <span class="dot" onclick="currentSlide('slideshow-uconsole-kvm', 5)"></span>
-    </div>
-    <button class="nav-arrow right" onclick="changeSlide('slideshow-uconsole-kvm', 1)">❯</button>
-  </div>
-</div>
+{% include "partials/uconsole-kvm-slideshow.html" %}
 
-Transform your uConsole into a **portable KVM (Keyboard, Video, Mouse) console** with this plug-and-play extension board.
+<div class="slogan-highlight">
+  <h2 class="slogan-text">Transform Your uConsole into a Portable KVM Console</h2>
+  <div class="slogan-subtitle">Plug in. Take Control. Anywhere.</div>
+</div>
 
 The **Openterface KVM Extension** replaces the original 4G/LTE modem in your uConsole's expansion slot and provides direct **HDMI input and USB HID control**, allowing you to manage headless devices on the go—without the need for external monitors, keyboards, or network configuration.
 
@@ -85,6 +60,8 @@ The **Openterface KVM Extension** replaces the original 4G/LTE modem in your uCo
 
 </div>
 
+{% include "partials/product-signup.html" %}
+
 ## Availability Status
 
 - ✅ **Now Available** - In stock and ready to ship
@@ -95,42 +72,7 @@ The **Openterface KVM Extension** replaces the original 4G/LTE modem in your uCo
 > Orders are processed and shipped within 1-2 business days.  
 > Standard shipping times apply based on your location.
 
-<div class="what-others-say">
-    <h2>What Others Say</h2>
-    
-    <div class="youtube-videos-grid">
-        <div class="youtube-video-item" data-video-id="OyVeDDlDbN0">
-            <div class="youtube-placeholder" data-title="Openterface KVM Extension Review">
-                <div class="youtube-play-button"></div>
-            </div>
-        </div>
-
-        <div class="youtube-video-item" data-video-id="gy-auzoEs-4">
-            <div class="youtube-placeholder" data-title="uConsole KVM Extension Demo">
-                <div class="youtube-play-button"></div>
-            </div>
-        </div>
-        
-        <div class="youtube-video-item" data-video-id="3NKIu-kDpQg">
-            <div class="youtube-placeholder" data-title="KVM Extension Setup Tutorial">
-                <div class="youtube-play-button"></div>
-            </div>
-        </div>
-        
-        <div class="youtube-video-item" data-video-id="UaHBOCbXk1Y">
-            <div class="youtube-placeholder" data-title="uConsole KVM Extension Review">
-                <div class="youtube-play-button"></div>
-            </div>
-        </div>
-
-        <div class="youtube-video-item" data-video-id="Yav62fERPTE">
-            <div class="youtube-placeholder" data-title="Portable KVM Console Demo">
-                <div class="youtube-play-button"></div>
-            </div>
-        </div>
-        
-    </div>
-</div>
+{% include "partials/uconsole-kvm-youtube-reviews.html" %}
 
 ## Community & Support
 
