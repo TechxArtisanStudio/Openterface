@@ -11,6 +11,7 @@
 - locale: zh
   name: 简体中文
   build: true
+  site_name: "Openterface | 连接接口，开启无限可能"
   nav_translations:
     Home: 首页
     FAQs: 常见问题
@@ -53,6 +54,9 @@
     Overview: 概览
     Features: 特性与规格
     "How To Connect": 如何连接
+    "Hardware Installation": 硬件安装
+    "Software Setup": 软件设置
+    "Connect to Target": 连接目标设备
     "What's In The Box": 包装清单
     "USB Switch": USB 切换器
     "Extension Pins": 扩展引脚
@@ -66,10 +70,17 @@
     "Support Us": "支持我们"
     "Bulk Orders": 批量订单
     "Reviews & Media": 评测与媒体
-    Enterprise: 企业
+    For Enterprise: 企业
+    "FAQs for KVM Ext.": "KVM 扩展常见问题"
+    "Media Coverage": 媒体报道
+    "Testimonials": 用户评价
+    "Updates for KVM Ext.": "KVM 扩展更新"
+    "YouTube Reviews": YouTube 评测
+    "Updates for Mini-KVM": Mini-KVM 更新
 - locale: ja
   name: 日本語
   build: true
+  site_name: "Openterface | インターフェースを橋渡し、無限の可能性を開く"
   nav_translations:
     Home: ホーム
     FAQs: よくある質問
@@ -112,6 +123,9 @@
     Overview: 概要
     Features: 機能と仕様
     "How To Connect": "接続方法"
+    "Hardware Installation": "ハードウェアインストール"
+    "Software Setup": "ソフトウェアセットアップ"
+    "Connect to Target": "ターゲットデバイスに接続"
     "What's In The Box": "同梱物"
     "USB Switch": "USB スイッチ"
     "Extension Pins": "拡張ピン"
@@ -125,10 +139,17 @@
     "Support Us": "私たちをサポート"
     "Bulk Orders": バルク注文
     "Reviews & Media": レビューとメディア
-    Enterprise: エンタープライズ
+    For Enterprise: エンタープライズ
+    "FAQs for KVM Ext.": "KVM 拡張 FAQ"
+    "Media Coverage": メディア掲載
+    "Testimonials": お客様の声
+    "Updates for KVM Ext.": "KVM 拡張アップデート"
+    "YouTube Reviews": YouTube レビュー
+    "Updates for Mini-KVM": Mini-KVM アップデート
 - locale: ko
   name: 한국어
   build: true
+  site_name: "Openterface | 인터페이스를 연결하여 무한한 가능성을 열다"
   nav_translations:
     Home: 홈
     FAQs: 자주 묻는 질문
@@ -171,6 +192,9 @@
     Overview: 개요
     Features: 기능 및 사양
     "How To Connect": "연결 방법"
+    "Hardware Installation": "하드웨어 설치"
+    "Software Setup": "소프트웨어 설정"
+    "Connect to Target": "대상 장치 연결"
     "What's In The Box": "구성품"
     "USB Switch": "USB 스위치"
     "Extension Pins": "확장 핀"
@@ -184,10 +208,17 @@
     "Support Us": "우리를 지원하세요"
     "Bulk Orders": 대량 주문
     "Reviews & Media": 리뷰와 미디어
-    Enterprise: 기업
+    For Enterprise: 기업
+    "FAQs for KVM Ext.": "KVM 확장 FAQ"
+    "Media Coverage": 미디어 보도
+    "Testimonials": 사용자 후기
+    "Updates for KVM Ext.": "KVM 확장 업데이트"
+    "YouTube Reviews": YouTube 리뷰
+    "Updates for Mini-KVM": Mini-KVM 업데이트
 - locale: fr
   name: Français
   build: true
+  site_name: "Openterface | Relier les interfaces pour ouvrir des possibilités infinies"
   nav_translations:
     Home: Accueil
     FAQs: FAQ
@@ -230,6 +261,9 @@
     Overview: "Vue d'ensemble"
     Features: Fonctionnalités et spécifications
     "How To Connect": "Comment connecter"
+    "Hardware Installation": "Installation du matériel"
+    "Software Setup": "Configuration du logiciel"
+    "Connect to Target": "Connexion à l'appareil cible"
     "What's In The Box": "Contenu de la boîte"
     "USB Switch": "Commutateur USB"
     "Extension Pins": "Broches d'extension"
@@ -243,10 +277,17 @@
     "Support Us": "Soutenez-nous"
     "Bulk Orders": "Commandes en gros"
     "Reviews & Media": "Avis et médias"
-    Enterprise: Entreprise
+    For Enterprise: Entreprise
+    "FAQs for KVM Ext.": "FAQ Extension KVM"
+    "Media Coverage": "Couverture médiatique"
+    "Testimonials": Témoignages
+    "Updates for KVM Ext.": "Mises à jour Extension KVM"
+    "YouTube Reviews": "Avis YouTube"
+    "Updates for Mini-KVM": "Mises à jour Mini-KVM"
 - locale: de
   name: Deutsch
   build: true
+  site_name: "Openterface | Schnittstellen verbinden, unendliche Möglichkeiten eröffnen"
   nav_translations:
     Home: Startseite
     FAQs: "Häufige Fragen"
@@ -289,6 +330,9 @@
     Overview: Übersicht
     Features: Funktionen und Spezifikationen
     "How To Connect": "Verbindung herstellen"
+    "Hardware Installation": "Hardware-Installation"
+    "Software Setup": "Software-Einrichtung"
+    "Connect to Target": "Zielgerät verbinden"
     "What's In The Box": Lieferumfang
     "USB Switch": "USB‑Umschalter"
     "Extension Pins": Erweiterungspins
@@ -302,10 +346,17 @@
     "Support Us": "Unterstützen Sie uns"
     "Bulk Orders": "Mengenbestellungen"
     "Reviews & Media": "Bewertungen & Medien"
-    Enterprise: Unternehmen
+    For Enterprise: Unternehmen
+    "FAQs for KVM Ext.": "KVM-Erweiterung FAQs"
+    "Media Coverage": "Medienberichterstattung"
+    "Testimonials": "Kundenbewertungen"
+    "Updates for KVM Ext.": "KVM-Erweiterung Updates"
+    "YouTube Reviews": "YouTube-Bewertungen"
+    "Updates for Mini-KVM": "Mini-KVM Updates"
 - locale: it
   name: Italiano
   build: true
+  site_name: "Openterface | Collegare le interfacce per aprire possibilità infinite"
   nav_translations:
     Home: Home
     FAQs: Domande frequenti
@@ -348,6 +399,9 @@
     Overview: Panoramica
     Features: Caratteristiche e specifiche
     "How To Connect": "Come collegare"
+    "Hardware Installation": "Installazione hardware"
+    "Software Setup": "Configurazione software"
+    "Connect to Target": "Connessione al dispositivo target"
     "What's In The Box": "Contenuto della confezione"
     "USB Switch": "Switch USB"
     "Extension Pins": "Pin di estensione"
@@ -361,10 +415,17 @@
     "Support Us": "Supportaci"
     "Bulk Orders": "Ordini all'ingrosso"
     "Reviews & Media": "Recensioni e media"
-    Enterprise: Azienda
+    For Enterprise: Azienda
+    "FAQs for KVM Ext.": "FAQ Estensione KVM"
+    "Media Coverage": "Copertura mediatica"
+    "Testimonials": Testimonianze
+    "Updates for KVM Ext.": "Aggiornamenti Estensione KVM"
+    "YouTube Reviews": "Recensioni YouTube"
+    "Updates for Mini-KVM": "Aggiornamenti Mini-KVM"
 - locale: es
   name: Español
   build: true
+  site_name: "Openterface | Conectando interfaces para abrir posibilidades infinitas"
   nav_translations:
     Home: Inicio
     FAQs: Preguntas frecuentes
@@ -407,6 +468,9 @@
     Overview: "Descripción general"
     Features: "Características y especificaciones"
     "How To Connect": "Cómo conectar"
+    "Hardware Installation": "Instalación de hardware"
+    "Software Setup": "Configuración de software"
+    "Connect to Target": "Conectar al dispositivo objetivo"
     "What's In The Box": "Contenido de la caja"
     "USB Switch": "Conmutador USB"
     "Extension Pins": "Pines de extensión"
@@ -420,10 +484,17 @@
     "Support Us": "Apóyanos"
     "Bulk Orders": "Pedidos al por mayor"
     "Reviews & Media": "Reseñas y medios"
-    Enterprise: Empresa
+    For Enterprise: Empresa
+    "FAQs for KVM Ext.": "Preguntas sobre Extensión KVM"
+    "Media Coverage": "Cobertura mediática"
+    "Testimonials": Testimonios
+    "Updates for KVM Ext.": "Actualizaciones Extensión KVM"
+    "YouTube Reviews": "Reseñas de YouTube"
+    "Updates for Mini-KVM": "Actualizaciones Mini-KVM"
 - locale: pt
   name: Português
   build: true
+  site_name: "Openterface | Conectando interfaces para abrir possibilidades infinitas"
   nav_translations:
     Home: Início
     FAQs: Perguntas frequentes
@@ -466,6 +537,9 @@
     Overview: "Visão geral"
     Features: Recursos e especificações
     "How To Connect": "Como conectar"
+    "Hardware Installation": "Instalação de hardware"
+    "Software Setup": "Configuração de software"
+    "Connect to Target": "Conectar ao dispositivo de destino"
     "What's In The Box": "Conteúdo da caixa"
     "USB Switch": "Comutador USB"
     "Extension Pins": "Pinos de extensão"
@@ -479,10 +553,17 @@
     "Support Us": "Apoie-nos"
     "Bulk Orders": "Pedidos em massa"
     "Reviews & Media": "Avaliações e mídia"
-    Enterprise: Empresa
+    For Enterprise: Empresa
+    "FAQs for KVM Ext.": "Perguntas sobre Extensão KVM"
+    "Media Coverage": "Cobertura da mídia"
+    "Testimonials": Depoimentos
+    "Updates for KVM Ext.": "Atualizações Extensão KVM"
+    "YouTube Reviews": "Avaliações do YouTube"
+    "Updates for Mini-KVM": "Atualizações Mini-KVM"
 - locale: ro
   name: Română
   build: true
+  site_name: "Openterface | Conectând interfețele pentru a deschide posibilități infinite"
   nav_translations:
     Home: Acasă
     FAQs: Întrebări frecvente
@@ -525,6 +606,9 @@
     Overview: "Prezentare generală"
     Features: Funcționalități și specificații
     "How To Connect": "Cum se conectează"
+    "Hardware Installation": "Instalare hardware"
+    "Software Setup": "Configurare software"
+    "Connect to Target": "Conectare la dispozitivul țintă"
     "What's In The Box": "Conținutul cutiei"
     "USB Switch": "Comutator USB"
     "Extension Pins": "Pini de extindere"
@@ -538,4 +622,10 @@
     "Support Us": "Susține-ne"
     "Bulk Orders": "Comenzi în vrac"
     "Reviews & Media": "Recenzii și media"
-    Enterprise: Întreprindere
+    For Enterprise: Întreprindere
+    "FAQs for KVM Ext.": "Întrebări despre Extensia KVM"
+    "Media Coverage": "Acoperirea media"
+    "Testimonials": Mărturii
+    "Updates for KVM Ext.": "Actualizări Extensie KVM"
+    "YouTube Reviews": "Recenzii YouTube"
+    "Updates for Mini-KVM": "Actualizări Mini-KVM"

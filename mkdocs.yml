@@ -39,7 +39,6 @@ theme:
   - navigation.footer
   - navigation.indexes
   - navigation.tracking
-  - navigation.expand
   - search.suggest
   - search.highlight
   - content.tabs
@@ -64,14 +63,14 @@ theme:
       name: Switch to light mode
 extra:
   copyright_year: 2025
-  uconsole-kvm-extension_youtube: 0
+  uconsole-kvm-extension_updates: 2
+  uconsole-kvm-extension_youtube: 5
   minikvm_youtube: 18
   kvm-go_youtube: 0
   accessories_youtube: 0
   qt_version: 0.4.3
   android_version: v1.1.2
   macos_version: 1.16
-  uconsole-kvm-extension_updates: 0
   minikvm_updates: 21
   kvm-go_updates: 0
   accessories_updates: 0
@@ -92,10 +91,10 @@ extra:
     link: https://www.facebook.com/TechxArtisan
   - icon: fontawesome/brands/linkedin-in
     link: https://www.linkedin.com/company/techxartisan/
+  analytics:
+    provider: google
+    property: G-EKZEH6QYWT
   consent:
-    analytics:
-      provider: google
-      property: G-EKZEH6QYWT
     title: Cookie Consent
     description: We use cookies to enhance quality of docs content, analyse site effectiveness
       and needs.  By consenting, you help us improve our website. Thanks!
@@ -140,9 +139,6 @@ nav:
 - FAQs:
   - Overview: faq/index.md
   - KVM-over-USB: faq/kvm-over-usb.md
-  - FAQs for Products:
-    - FAQs for Mini-KVM: product/minikvm/faq.md
-  - FAQs for Apps: app/faq.md
 - Product:
   - Mini-KVM 👑:
     - Overview: product/minikvm/index.md
@@ -151,17 +147,24 @@ nav:
     - How To Connect: product/minikvm/how-to-connect.md
     - USB Switch: product/minikvm/usb-switch.md
     - Extension Pins: product/minikvm/extension-pins.md
+    - FAQs for Mini-KVM: product/minikvm/faq.md
     - Reviews & Press:
       - YouTube Reviews: product/minikvm/reviews/youtube.md
       - Testimonials: product/minikvm/reviews/testimonials.md
       - Media Coverage: product/minikvm/reviews/media.md
-    - FAQs for Mini-KVM: product/minikvm/faq.md
     - Updates for Mini-KVM: product/minikvm/updates/index.md
   - KVM Go Series ⏳:
     - Pre-Launch: product/kvm-go/pre-launch.md
-  - uConsole KVM Extension 🛠️:
+  - uConsole KVM Extension:
     - Overview: product/uconsole-kvm-extension/index.md
-    - Installation Guide: https://github.com/TechxArtisanStudio/Openterface_QT/blob/main/doc/flatpak_installation.md
+    - Features: product/uconsole-kvm-extension/features.md
+    - What's In The Box: product/uconsole-kvm-extension/whats-in-the-box.md
+    - Hardware Installation: product/uconsole-kvm-extension/hardware-installation.md
+    - Software Setup: product/uconsole-kvm-extension/software-setup.md
+    - Connect to Target: product/uconsole-kvm-extension/connect-to-target.md
+    - FAQs for KVM Ext.: product/uconsole-kvm-extension/faq.md
+    - Reviews Videos: product/uconsole-kvm-extension/reviews/youtube.md
+    - Updates for KVM Ext.: product/uconsole-kvm-extension/updates/index.md
   - Accessories:
     - Overview: product/accessories/index.md
     - VGA to HDMI Cable 1m: product/accessories/vga-to-hdmi-cable.md
@@ -190,7 +193,7 @@ nav:
   - Contribute & Support: about/contribute-support.md
   - Reviews & Media: about/media.md
   - Bulk Orders: about/bulk_orders.md
-  - Enterprise: about/enterprise.md
+  - For Enterprise: about/enterprise.md
   - About Us: about/about-us.md
 plugins:
 - i18n:
@@ -201,7 +204,9 @@ plugins:
       name: English
       default: true
       build: true
-- glightbox
+- glightbox:
+    skip_classes:
+      - skip-lightbox
 - search
 - macros
 - tags
