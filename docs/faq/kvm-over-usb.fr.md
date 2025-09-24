@@ -56,45 +56,45 @@ Comparé aux solutions dépendantes du réseau, les USB KVM permettent aux profe
 
 <div class="grid cards" markdown>
 
-- :material-usb:{ .lg } **KVM-over-USB** (ex. Openterface Mini-KVM)
+-   :material-usb:{ .lg } **KVM-over-USB** (ex. Openterface Mini-KVM)
 
-  ***
+    ***
 
-  - **Axé sur la mobilité** : Conçu pour les techniciens qui se déplacent entre différents systèmes
-  - **Accès rapide** : Fonctionnalité plug-and-play véritable sans configuration réseau
-  - **Orienté dépannage** : Parfait pour les configurations ou réparations rapides où vous connectez, réparez et passez à autre chose
-  - **Connexion directe** : Latence plus faible via l'interface USB
-  - **Sans réseau** : Idéal pour les environnements sécurisés ou quand l'infrastructure réseau est indisponible
-  - **Rentable** : Généralement plus abordable en raison d'exigences matérielles plus simples
+    -   **Axé sur la mobilité** : Conçu pour les techniciens qui se déplacent entre différents systèmes
+    -   **Accès rapide** : Fonctionnalité plug-and-play véritable sans configuration réseau
+    -   **Orienté dépannage** : Parfait pour les configurations ou réparations rapides où vous connectez, réparez et passez à autre chose
+    -   **Connexion directe** : Latence plus faible via l'interface USB
+    -   **Sans réseau** : Idéal pour les environnements sécurisés ou quand l'infrastructure réseau est indisponible
+    -   **Rentable** : Généralement plus abordable en raison d'exigences matérielles plus simples
 
-- :material-lan:{ .lg } **KVM-over-IP** (ex. PiKVM, JetKVM)
+-   :material-lan:{ .lg } **KVM-over-IP** (ex. PiKVM, JetKVM)
 
-  ***
+    ***
 
-  - **Configuration stationnaire** : Conçu pour l'installation permanente
-  - **Accès distant** : Permet le contrôle depuis n'importe où avec connectivité réseau
-  - **Surveillance à long terme** : Mieux adapté pour l'observation continue du système
-  - **Dépendant de l'infrastructure** : Nécessite une configuration réseau stable
-  - **Accès multi-utilisateurs** : Peut supporter plusieurs opérateurs accédant à la même cible
+    -   **Configuration stationnaire** : Conçu pour l'installation permanente
+    -   **Accès distant** : Permet le contrôle depuis n'importe où avec connectivité réseau
+    -   **Surveillance à long terme** : Mieux adapté pour l'observation continue du système
+    -   **Dépendant de l'infrastructure** : Nécessite une configuration réseau stable
+    -   **Accès multi-utilisateurs** : Peut supporter plusieurs opérateurs accédant à la même cible
 
-- :material-check-circle-outline:{ .lg } **Choisissez USB KVM quand…**
+-   :material-check-circle-outline:{ .lg } **Choisissez USB KVM quand…**
 
-  ***
+    ***
 
-  - Transformer votre ordinateur portable en console KVM
-  - Vous devez dépanner rapidement plusieurs systèmes
-  - La configuration réseau est indisponible ou restreinte
-  - La portabilité est cruciale
-  - Un contrôle direct et à faible latence est requis
+    -   Transformer votre ordinateur portable en console KVM
+    -   Vous devez dépanner rapidement plusieurs systèmes
+    -   La configuration réseau est indisponible ou restreinte
+    -   La portabilité est cruciale
+    -   Un contrôle direct et à faible latence est requis
 
-- :material-cloud-outline:{ .lg } **Choisissez IP KVM quand…**
+-   :material-cloud-outline:{ .lg } **Choisissez IP KVM quand…**
 
-  ***
+    ***
 
-  - Vous avez besoin d'un accès distant permanent
-  - Plusieurs utilisateurs doivent accéder au même système
-  - Le système cible nécessite une surveillance constante
-  - L'infrastructure réseau est stable et sécurisée
+    -   Vous avez besoin d'un accès distant permanent
+    -   Plusieurs utilisateurs doivent accéder au même système
+    -   Le système cible nécessite une surveillance constante
+    -   L'infrastructure réseau est stable et sécurisée
 
 </div>
 
