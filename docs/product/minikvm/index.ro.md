@@ -89,7 +89,7 @@ keywords: "Mini-KVM, KVM over USB, KVM over IP, headless control, HDMI KVM, USB 
 
     [:material-star-outline: Recenzii](/product/minikvm/reviews) / [:material-newspaper-variant-outline: Total Actualizări {{ config.extra.minikvm_updates }}](/product/minikvm/updates) / [:material-trophy-outline: Concurs USB KVM DIY 2024](/product/minikvm/updates) / [:material-account-group-outline: Expoziție](/product/minikvm/updates)
 
-</div>
+{% include "partials/product-signup.html" %}
 
 <div class="what-others-say">
     <h2>Ce Spun Alții</h2>
