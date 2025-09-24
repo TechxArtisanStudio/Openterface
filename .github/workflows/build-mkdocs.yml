@@ -40,7 +40,7 @@ jobs:
           python scripts/count_updates.py
       - name: Generate automatic updates lists
         run: |
-          python scripts/generate_updates_list.py --update-files
+          python scripts/generate_updates_list.py
       - name: Add all languages to mkdocs config
         run: |
           python scripts/manage_i18n.py add
