@@ -91,10 +91,10 @@ extra:
     link: https://www.facebook.com/TechxArtisan
   - icon: fontawesome/brands/linkedin-in
     link: https://www.linkedin.com/company/techxartisan/
+  analytics:
+    provider: google
+    property: G-EKZEH6QYWT
   consent:
-    analytics:
-      provider: google
-      property: G-EKZEH6QYWT
     title: Cookie Consent
     description: We use cookies to enhance quality of docs content, analyse site effectiveness
       and needs.  By consenting, you help us improve our website. Thanks!
