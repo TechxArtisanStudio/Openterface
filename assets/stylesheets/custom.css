@@ -1257,6 +1257,74 @@ linux-download-columns {
   background: #6abd43;
 }
 
+/* Slogan Highlight Block */
+.slogan-highlight {
+    background: transparent;
+    margin: 1rem 0;
+    padding: 0.25rem 2rem 0.5rem 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.slogan-text {
+    color: var(--md-primary-fg-color);
+    font-size: 2.8rem;
+    font-weight: 900;
+    margin: 0 0 0.25rem 0;
+    line-height: 1.1;
+    white-space: nowrap;
+    background: linear-gradient(45deg, var(--md-primary-fg-color), var(--md-accent-fg-color));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    -webkit-text-stroke: 0.5px var(--md-primary-fg-color);
+    font-family: 'Inter', 'Roboto', sans-serif;
+}
+
+.slogan-subtitle {
+    color: var(--md-default-fg-color);
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0;
+    opacity: 0.8;
+    letter-spacing: 0.5px;
+}
+
+/* Responsive Design for Slogan Block */
+@media (max-width: 768px) {
+    .slogan-highlight {
+        margin: 0.75rem 0;
+        padding: 0.15rem 1rem 0.25rem 1rem;
+    }
+    
+    .slogan-text {
+        font-size: 2rem;
+        white-space: normal;
+        line-height: 1.2;
+    }
+    
+    .slogan-subtitle {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .slogan-highlight {
+        margin: 0.5rem 0;
+        padding: 0.15rem 0.75rem 0.25rem 0.75rem;
+    }
+    
+    .slogan-text {
+        font-size: 1.6rem;
+        line-height: 1.3;
+    }
+    
+    .slogan-subtitle {
+        font-size: 0.7rem;
+    }
+}
+
 /* Custom Dropdown Navigation Styles */
 .custom-nav-dropdown {
   position: relative;

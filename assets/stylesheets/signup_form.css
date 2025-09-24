@@ -156,3 +156,137 @@
     font-size: 0.8rem;
     margin-top: 0.5rem;
 }
+
+/* Product Signup Block Styles */
+.product-signup-container {
+    background: var(--md-code-bg-color);
+    border: 1px solid var(--md-code-hl-border-color);
+    border-radius: 6px;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-signup-container p {
+    color: var(--md-default-fg-color--light);
+    font-size: 0.8rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.3;
+}
+
+#product-signup-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Inline form layout for large screens */
+.product-signup-form-row {
+    display: flex;
+    gap: 0.5rem;
+    align-items: stretch;
+}
+
+.product-signup-email-field {
+    flex: 1;
+}
+
+.product-signup-button-field {
+    flex: 0 0 auto;
+}
+
+#product-signup-form input[type="email"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid var(--md-code-hl-border-color);
+    border-radius: 4px;
+    background-color: var(--md-default-bg-color);
+    color: var(--md-default-fg-color);
+    font-size: 0.9rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#product-signup-form input[type="email"]:focus {
+    outline: none;
+    border-color: var(--md-accent-fg-color);
+    box-shadow: 0 0 0 2px rgba(var(--md-accent-fg-color--rgb), 0.2);
+}
+
+#product-signup-form input[type="email"]::placeholder {
+    color: var(--md-default-fg-color--light);
+}
+
+#product-signup-form .button {
+    background-color: var(--md-accent-fg-color);
+    color: var(--md-accent-bg-color);
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    white-space: nowrap;
+    min-width: 120px;
+}
+
+#product-signup-form .button:hover {
+    background-color: #FAA22B;
+    transform: translateY(-1px);
+}
+
+#product-signup-form .button:active {
+    transform: translateY(0);
+}
+
+/* Dark mode adjustments */
+[data-md-color-scheme="slate"] .product-signup-container {
+    background: var(--md-code-bg-color);
+    border-color: var(--md-code-hl-border-color);
+}
+
+[data-md-color-scheme="slate"] #product-signup-form input[type="email"] {
+    background-color: var(--md-default-bg-color);
+    border-color: var(--md-code-hl-border-color);
+    color: var(--md-default-fg-color);
+}
+
+/* Responsive design for product signup */
+@media screen and (max-width: 76.1875em) {
+    .product-signup-container {
+        padding: 0.75rem;
+        margin: 1rem 0;
+    }
+    
+    /* Stack fields vertically on medium screens */
+    .product-signup-form-row {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    #product-signup-form .button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 60em) {
+    .product-signup-container {
+        padding: 0.75rem;
+        margin: 0.75rem 0;
+    }
+    
+    .product-signup-container p {
+        font-size: 0.75rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    #product-signup-form input[type="email"] {
+        padding: 0.5rem;
+        font-size: 0.85rem;
+    }
+    
+    #product-signup-form .button {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.85rem;
+    }
+}
