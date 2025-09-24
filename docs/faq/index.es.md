@@ -17,3 +17,7 @@ keywords: USB KVM, Openterface, KVM-over-USB, portable KVM, plug-and-play KVM, n
 
 - [¿Qué hace que el Mini-KVM sea nuestro producto insignia?](/product/minikvm/faq#flagship-product)
 - [¿Qué ordenadores anfitrión son compatibles?](/product/minikvm/faq#mini-kvm-host-compatibility)
+
+#### **Openterface KVM Extension para uConsole**
+
+- [Preguntas Frecuentes para Openterface KVM Extension para uConsole](/product/uconsole-kvm-extension/faq)
