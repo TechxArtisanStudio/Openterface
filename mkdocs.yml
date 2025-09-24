@@ -222,10 +222,9 @@ plugins:
       contact.md: about/about-us.md
       about/contributing.md: about/contribute-support.md
       about/support-us.md: about/contribute-support.md
-      acknowledgements.md: contributing.md
       compliance.md: about/compliance.md
       community.md: about/community.md
-      reviews.md: product/minikvm/reviews.md
+      reviews.md: product/minikvm/reviews/youtube.md
       features.md: product/minikvm/features.md
       usb-switch.md: product/minikvm/usb-switch.md
       product.md: product/minikvm/index.md
@@ -234,7 +233,6 @@ plugins:
       basic/usb-switch.md: product/minikvm/usb-switch.md
       product/minikvm-lite/pre-launch.md: product/kvm-go/pre-launch.md
       support.md: about/tech-support.md
-      why-openterface.md: faq/usbkvm/openterface.md
       buy-mini-kvm.md: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
       order.md: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
       shop.md: https://shop.techxartisan.com

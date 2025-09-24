@@ -27,7 +27,7 @@ keywords: "Black Friday sale, Openterface merchandise, tech clothing, Developer 
   }
 </style>
 
-![banner](../pic/241120-Black-Firday-poster-50.jpg)
+
 
 Salut dragi prieteni Openterface,
 
@@ -35,11 +35,11 @@ Salut dragi prieteni Openterface,
 
 Ce face aceste designuri și mai speciale? Atât tricoul cât și hanoracul prezintă cu mândrie **arta tehnică liniară a Openterface mini-KVM-ului nostru**, care arată incredibil de cool. În plus, am evidențiat textul **"Developer Mode"** al mini-KVM-ului nostru în design—o idee pe care o considerăm absolut strălucită. Când porți tricoul sau hanoracul nostru, nu este vorba doar despre a rămâne cald în această iarnă; este vorba despre a intra în modul super dezvoltator pentru toate sesiunile tale de codare și hacking.
 
-![OP-Hoodie-Zip-Up](../pic/241120-OP-Hoodie-Zip-Up.jpg)
+
 
 Și dacă te întrebi cum arată în viața reală, uită-te cum echipa noastră le-a purtat în acțiune! De la a rămâne confortabil în **Developer Mode** în timp ce programează ([vezi tweet](https://x.com/TechxArtisan/status/1861611266705379346)), la o sesiune foto distractivă cu David Groom de la **MAKE: Magazine** la Shenzhen Maker Faire ([vezi foto](https://pbs.twimg.com/media/Gcp8E32agAAEnl-?format=jpg&name=large)), am prezentat cu mândrie echipamentul nostru. Chiar ne-am inspirat dintr-o prezentare a legendarului Eric Migicovsky de la Pebble ([vezi post](https://www.linkedin.com/posts/billy-wangrb_had-an-incredible-weekend-at-shenzhen-maker-activity-7264123680803233792-l7Mm?utm_source=share&utm_medium=member_desktop)) în timp ce demonstrăm Openterface Mini-KVM și ne conectăm cu prieteni tech ([vezi mai mult](https://twitter.com/TechxArtisan/status/1858397377196965913), [și aici](https://twitter.com/TechxArtisan/status/1858400923325726750)). Acestea nu sunt doar haine—sunt inițiatori de conversație și o modalitate de a sărbători comunitatea noastră oriunde mergem!
 
-![david-billy-wearing-hoodie](../pic/241120-david-billy-wearing-hoodie.webp)
+
 *David și eu nu ne putem sătura de hanoracele noastre—practic trăim în ele!😉 Un uriaș mulțumesc lui David pentru că a împărtășit o fotografie atât de minunată—cu adevărat apreciat!🎉*
 
 Și pentru această iarnă plictisitoare, de ce să nu dai o șansă cablului nostru de date portocaliu vibrant? Este o modalitate perfectă de a lumina spațiul tău de lucru în timp ce asiguri transferul rapid și de încredere al datelor.
@@ -49,10 +49,10 @@ Pentru a îndulci afacerea, oferim o <a href="https://shop.techxartisan.com" sty
 Răsfoiește magazinul nostru aici: **[https://shop.techxartisan.com](https://shop.techxartisan.com)**. Aruncă o privire la noua noastră îmbrăcăminte și prinde o bucată la jumătate de preț—nu rata această ofertă limitată!
 
 ### Produse Openterface
-![openterface merch](../pic/241120-txa-shop-op-merch.jpg)
+
 
 ### Accesorii Openterface
-![openterface accessories](../pic/241120-txa-shop-op-accessories.jpg)
+
 
 Mulțumim că ai fost cu noi în această aventură. Sprijinul tău înseamnă lumea pentru noi, și suntem recunoscători pentru fiecare conversație, fiecare idee și fiecare interacțiune pe care am avut-o.
 

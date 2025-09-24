@@ -27,7 +27,7 @@ keywords: "Black Friday sale, Openterface merchandise, tech clothing, Developer 
   }
 </style>
 
-![banner](../pic/241120-Black-Firday-poster-50.jpg)
+
 
 안녕하세요, 사랑하는 Openterface 여러분,
 
@@ -35,11 +35,11 @@ keywords: "Black Friday sale, Openterface merchandise, tech clothing, Developer 
 
 이 디자인들을 더욱 특별하게 만드는 것은 무엇일까요? 티셔츠와 후드 모두 **Openterface mini-KVM의 기술적인 라인 아트**를 자랑스럽게 특징으로 하며, 믿을 수 없을 정도로 멋져 보입니다. 게다가 디자인에서 mini-KVM의 **"Developer Mode"** 텍스트를 강조했습니다—우리는 이것이 절대적으로 훌륭한 아이디어라고 생각합니다. 티셔츠나 후드를 입을 때, 그것은 단순히 이번 겨울을 따뜻하게 지내는 것이 아닙니다; 그것은 모든 코딩과 해킹 세션을 위해 슈퍼 개발자 모드에 들어가는 것입니다.
 
-![OP-Hoodie-Zip-Up](../pic/241120-OP-Hoodie-Zip-Up.jpg)
+
 
 그리고 이것들이 실제 생활에서 어떻게 보이는지 궁금하다면, 우리 팀이 실제로 착용하고 있는 모습을 확인해보세요! 코딩 중에 **Developer Mode**에서 편안하게 지내는 것부터（[트윗 보기](https://x.com/TechxArtisan/status/1861611266705379346)），심천 메이커 페어에서 **MAKE: Magazine**의 David Groom과의 재미있는 사진 촬영까지（[사진 보기](https://pbs.twimg.com/media/Gcp8E32agAAEnl-?format=jpg&name=large)），우리는 자랑스럽게 우리의 기어를 쇼케이스해왔습니다. Openterface Mini-KVM을 데모하고 테크 친구들과 연결하면서 전설적인 Pebble의 Eric Migicovsky의 강연에서 영감을 받았습니다（[포스트 보기](https://www.linkedin.com/posts/billy-wangrb_had-an-incredible-weekend-at-shenzhen-maker-activity-7264123680803233792-l7Mm?utm_source=share&utm_medium=member_desktop)）（[더 보기](https://twitter.com/TechxArtisan/status/1858397377196965913)，[그리고 여기](https://twitter.com/TechxArtisan/status/1858400923325726750)）. 이것들은 단순한 옷이 아닙니다—이것들은 대화의 시작점이며, 어디를 가든 우리 커뮤니티를 축하하는 방법입니다！
 
-![david-billy-wearing-hoodie](../pic/241120-david-billy-wearing-hoodie.webp)
+
 *David과 저는 후드에 질리지 않습니다—우리는 실질적으로 그 안에서 살고 있습니다！😉 멋진 사진을 공유해준 David에게 큰 감사를 드립니다—정말 감사합니다！🎉*
 
 그리고 이 지루한 겨울을 위해, 우리의 생생한 오렌지 데이터 케이블에 기회를 주는 것은 어떨까요? 빠르고 신뢰할 수 있는 데이터 전송을 보장하면서 작업 공간을 밝게 만드는 완벽한 방법입니다.
@@ -49,10 +49,10 @@ keywords: "Black Friday sale, Openterface merchandise, tech clothing, Developer 
 여기서 우리의 스토어를 둘러보세요：**[https://shop.techxartisan.com](https://shop.techxartisan.com)**. 새로운 의류를 확인하고 반값으로 하나를 구매하세요—이 한정 시간 오퍼를 놓치지 마세요！
 
 ### Openterface 상품
-![openterface merch](../pic/241120-txa-shop-op-merch.jpg)
+
 
 ### Openterface 액세서리
-![openterface accessories](../pic/241120-txa-shop-op-accessories.jpg)
+
 
 이 모험을 통해 우리와 함께해주셔서 감사합니다. 여러분의 지원은 우리에게 세상을 의미하며, 우리가 가진 모든 대화, 모든 아이디어, 모든 상호작용에 감사합니다.
 

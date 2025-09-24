@@ -27,7 +27,7 @@ keywords: "Black Friday sale, Openterface merchandise, tech clothing, Developer 
   }
 </style>
 
-![banner](../pic/241120-Black-Firday-poster-50.jpg)
+
 
 Olá queridos amigos do Openterface,
 
@@ -35,11 +35,11 @@ Notícias emocionantes—lançamos **uma nova linha de roupas** na Openterface! 
 
 O que torna esses designs ainda mais especiais? Tanto a camiseta quanto o moletom apresentam orgulhosamente **a arte técnica linear do nosso Openterface mini-KVM**, que parece incrivelmente legal. Além disso, destacamos o texto **"Developer Mode"** do nosso mini-KVM no design—uma ideia que achamos absolutamente brilhante. Quando você veste nossa camiseta ou moletom, não se trata apenas de se manter aquecido neste inverno; trata-se de entrar no modo super desenvolvedor para todas as suas sessões de codificação e hacking.
 
-![OP-Hoodie-Zip-Up](../pic/241120-OP-Hoodie-Zip-Up.jpg)
+
 
 E se você está se perguntando como eles ficam na vida real, veja como nossa equipe tem usado eles em ação! Desde ficar confortável no **Developer Mode** enquanto programa ([ver tweet](https://x.com/TechxArtisan/status/1861611266705379346)), até uma sessão de fotos divertida com David Groom da **MAKE: Magazine** na Shenzhen Maker Faire ([ver foto](https://pbs.twimg.com/media/Gcp8E32agAAEnl-?format=jpg&name=large)), temos orgulhosamente mostrado nosso equipamento. Até nos inspiramos em uma palestra do lendário Eric Migicovsky da Pebble ([ver post](https://www.linkedin.com/posts/billy-wangrb_had-an-incredible-weekend-at-shenzhen-maker-activity-7264123680803233792-l7Mm?utm_source=share&utm_medium=member_desktop)) enquanto demonstramos o Openterface Mini-KVM e nos conectamos com amigos tech ([ver mais](https://twitter.com/TechxArtisan/status/1858397377196965913), [e aqui](https://twitter.com/TechxArtisan/status/1858400923325726750)). Estes não são apenas roupas—são iniciadores de conversa e uma forma de celebrar nossa comunidade onde quer que vamos!
 
-![david-billy-wearing-hoodie](../pic/241120-david-billy-wearing-hoodie.webp)
+
 *David e eu não conseguimos ter o suficiente dos nossos moletons—praticamente vivemos neles!😉 Um enorme obrigado ao David por compartilhar uma foto tão incrível—realmente apreciado!🎉*
 
 E para este inverno monótono, por que não dar uma chance ao nosso vibrante cabo de dados laranja? É uma forma perfeita de iluminar seu espaço de trabalho enquanto garante transferência de dados rápida e confiável.
@@ -49,10 +49,10 @@ Para adoçar o negócio, estamos oferecendo um <a href="https://shop.techxartisa
 Navegue pela nossa loja aqui: **[https://shop.techxartisan.com](https://shop.techxartisan.com)**. Confira nossa nova coleção de roupas e pegue uma peça pela metade do preço—não perca esta oferta limitada!
 
 ### Produtos Openterface
-![openterface merch](../pic/241120-txa-shop-op-merch.jpg)
+
 
 ### Acessórios Openterface
-![openterface accessories](../pic/241120-txa-shop-op-accessories.jpg)
+
 
 Obrigado por estar conosco nesta aventura. Seu apoio significa o mundo para nós, e somos gratos por cada conversa, cada ideia e cada interação que tivemos.
 
