@@ -87,7 +87,9 @@ keywords: "Mini-KVM, KVM over USB, KVM over IP, headless control, HDMI KVM, USB 
 
     ---
 
-    [:material-star-outline: Recenzii](/product/minikvm/reviews) / [:material-newspaper-variant-outline: Total Actualizări {{ config.extra.minikvm_updates }}](/product/minikvm/updates) / [:material-trophy-outline: Concurs USB KVM DIY 2024](/product/minikvm/updates) / [:material-account-group-outline: Expoziție](/product/minikvm/updates)
+    [:material-star-outline: Recenzii](/product/minikvm/reviews/testimonials) / [:material-newspaper-variant-outline: Media](/product/minikvm/reviews/media) / [:material-play-circle-outline: YouTube {{ config.extra.minikvm_youtube }} Videoclipuri](/product/minikvm/reviews/youtube) / [:material-newspaper-variant-outline: Total Actualizări {{ config.extra.minikvm_updates }}](/product/minikvm/updates) / [:material-trophy-outline: Concurs USB KVM DIY 2024](/product/minikvm/updates) / [:material-account-group-outline: Expoziție](/product/minikvm/updates)
+
+</div>
 
 {% include "partials/product-signup.html" %}
 
