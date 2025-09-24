@@ -6,96 +6,48 @@ keywords: "KVM extension features, uConsole KVM, HDMI KVM, USB HID control, port
 
 # **Features & Specifications** | Openterface KVM Extension for uConsole
 
-> **✅ Now Available** - The KVM Extension is in stock and ready to ship from [TechxArtisan Shop](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole)
+![PCB-front](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension.webp){:style="height:320px"}
+![PCB-Back](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-back.webp){:style="height:320px"}
 
 ## Core Features
 
-### **Perfect Form Factor**
-Matches the 37×77 mm size of the 4G/LTE module for seamless hardware integration in your uConsole's expansion slot.
-
-### **Direct HDMI + USB HID**
-Enables responsive control of connected devices using uConsole's built-in input and screen with direct HDMI input and USB HID emulation.
-
-### **Low Latency**
-Suitable for BIOS-level troubleshooting and real-time interaction with minimal delay.
-
-### **Truly Portable**
-Makes the uConsole a mobile tool for developers, engineers, and technicians without the need for external monitors, keyboards, or network configuration.
-
-### **Network Independence**
-Stable headless control using HDMI video capture and emulated keyboard/mouse (HID) input. No network connection required.
-
-### **Plug-and-Play Convenience**
-No software installation required on target device. Control begins immediately upon connection with no software traces left behind.
-
-### **Open-Source Friendly**
-Built on the [Openterface KVM](https://github.com/techxArtisanStudio/openterface_qt) platform. Community contributions welcome.
+- **Direct HDMI + USB HID**: Leverage uConsole’s built-in screen and controls with direct HDMI input and USB HID emulation.
+- **Plug-and-Play**: Instant control with no software installation or leftover traces on the target device.
+- **Low Latency**: Optimized for BIOS-level troubleshooting and real-time interactions.
+- **Portable**: All-in-one mobile tool—no need for extra monitors, keyboards, or network setup.
+- **Network-Free**: Stable, headless control via HDMI capture and HID input, no network required.
+- **Text Transfer**: Quickly transmit text by simulating keystrokes—ideal for usernames, passwords, and code snippets. Supports full ASCII, including symbols and punctuation. [Check our app](/app) for details.
+- **Open Source**: Built on [Openterface KVM QT](https://github.com/techxArtisanStudio/openterface_qt) with active community support.
 
 ## Technical Specifications
 
-### **Physical Dimensions**
-- **Size**: 37 × 77 mm (matches 4G/LTE module)
-- **Thickness**: 1.0 mm (thinner than original 4G/LTE 1.2 mm)
-- **Material**: High-quality PCB with spring contactors
+### Physical Dimensions
 
-### **Connectivity & Power**
-- **Power**: Powered through uConsole's expansion slot
-- **HDMI Input**: Direct video input from target devices
-- **USB HID**: Keyboard and mouse emulation output
-- **Target Compatibility**: Windows, macOS, Linux, Android, iOS
+- **Size:** 37 × 77 mm (matches 4G/LTE module)
+- **Thickness:** 1.0 mm (slimmer than original 4G/LTE module at 1.2 mm)
+- **Material:** High-quality PCB with spring contactors
 
-### **Video & Audio**
-- **HDMI Input**: Standard HDMI video input
-- **Audio**: HDMI embedded audio passthrough
-- **Display**: Uses uConsole's built-in screen
+### Full Keyboard & Mouse Emulation
 
-### **Input Features**
-- Full keyboard and mouse emulation
-- Absolute and relative mouse positioning
-- Multimedia key support
-- Computer wake-up function
+- **USB HID:** Absolute and relative mouse positioning, full keyboard support, multimedia keys.
+- **Connection:** USB link to the target via the extension board's Type-C female port.
 
-### **Installation Requirements**
-- **Tools**: Hex screwdriver for mounting screws
-- **Accessories**: Provided gasket (plastic shim) for proper fit
-- **ESD Precautions**: Recommended wrist strap or grounded surface
+### Video & Audio
 
-## Use Cases
+- **Input:** Up to 4K (3840×2160) @ 30Hz via HDMI
+- **Output:** Full HD (1920×1080) @ 30Hz with under 140ms latency
+- **Display:** Uses uConsole’s built-in screen
+- **Compression:** YUV and MJPEG support
+- **Compatibility:** VGA, DVI, Micro HDMI (via adapters)
+- **Audio:** HDMI embedded audio passthrough
 
-### **System Administration**
-Access and troubleshoot servers or embedded devices without a bulky KVM switch.
+### Switchable USB 2.0 Port
 
-### **Hardware Development**
-Test and debug Raspberry Pi, SBCs, or microcontrollers directly.
+- **Shared Port**: Easily switch USB access between the uConsole and the target device (e.g., flash drives) using the host app.
+- **USB Speed:** 12Mbps full-speed transmission
 
-### **Field Deployment**
-Perform maintenance or configuration in data centres or remote locations.
+### Connectivity & Power
 
-## Compatibility
-
-### **uConsole Models**
-Compatible with uConsole devices that feature the standard 4G/LTE expansion slot.
-
-### **Target Devices**
-- Desktop computers and servers
-- Single-board computers (Raspberry Pi, etc.)
-- Embedded systems
-- Industrial PCs
-- Any device with HDMI output
-
-### **Software Requirements**
-- **uConsole**: Requires [Openterface App](/app) installation
-- **Target Device**: No software installation required
-
-## Package Contents
-
-- Openterface KVM Extension board
-- Installation gasket (plastic shim)
-- Quick start guide
-- Mounting screws (reuses existing from 4G/LTE module)
-
-## Installation Notes
-
-- **Gasket Required**: Due to thinner PCB (1.0mm vs 1.2mm), the provided gasket ensures proper spring contactor pressure
-- **Replacement Only**: This board occupies the same expansion slot as the 4G/LTE module - choose between cellular connectivity or KVM functionality
-- **Professional Installation**: Follow hardware installation guide for proper setup
+- **Power:** Draws power directly from uConsole's expansion slot (no external supply needed)
+- **Target Compatibility:** Windows, macOS, Linux, Android, iOS
+- **Target Software:** No installation required
