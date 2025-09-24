@@ -89,7 +89,7 @@ Nuestro **Openterface™ Mini-KVM** es una solución [**KVM-over-USB**](/faq/kvm
 
     [:material-star-outline: Reseñas](/product/minikvm/reviews) / [:material-newspaper-variant-outline: Total Actualizaciones {{ config.extra.minikvm_updates }}](/product/minikvm/updates) / [:material-trophy-outline: Concurso USB KVM DIY 2024](/product/minikvm/updates) / [:material-account-group-outline: Exposición](/product/minikvm/updates)
 
-</div>
+{% include "partials/product-signup.html" %}
 
 <div class="what-others-say">
     <h2>Lo Que Dicen Otros</h2>

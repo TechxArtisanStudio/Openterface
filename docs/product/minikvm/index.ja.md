@@ -89,7 +89,7 @@ keywords: "Mini-KVM, KVM over USB, KVM over IP, headless control, HDMI KVM, USB 
 
     [:material-star-outline: レビュー](/product/minikvm/reviews) / [:material-newspaper-variant-outline: 合計アップデート {{ config.extra.minikvm_updates }}](/product/minikvm/updates) / [:material-trophy-outline: USB KVM DIYコンテスト2024](/product/minikvm/updates) / [:material-account-group-outline: 展示会](/product/minikvm/updates)
 
-</div>
+{% include "partials/product-signup.html" %}
 
 <div class="what-others-say">
     <h2>他の人の声</h2>
