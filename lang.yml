@@ -11,6 +11,7 @@
 - locale: zh
   name: 简体中文
   build: true
+  site_name: "Openterface | 连接接口，开启无限可能"
   nav_translations:
     Home: 首页
     FAQs: 常见问题
@@ -75,6 +76,7 @@
 - locale: ja
   name: 日本語
   build: true
+  site_name: "Openterface | インターフェースを橋渡し、無限の可能性を開く"
   nav_translations:
     Home: ホーム
     FAQs: よくある質問
@@ -139,6 +141,7 @@
 - locale: ko
   name: 한국어
   build: true
+  site_name: "Openterface | 인터페이스를 연결하여 무한한 가능성을 열다"
   nav_translations:
     Home: 홈
     FAQs: 자주 묻는 질문
@@ -203,6 +206,7 @@
 - locale: fr
   name: Français
   build: true
+  site_name: "Openterface | Relier les interfaces pour ouvrir des possibilités infinies"
   nav_translations:
     Home: Accueil
     FAQs: FAQ
@@ -267,6 +271,7 @@
 - locale: de
   name: Deutsch
   build: true
+  site_name: "Openterface | Schnittstellen verbinden, unendliche Möglichkeiten eröffnen"
   nav_translations:
     Home: Startseite
     FAQs: "Häufige Fragen"
@@ -331,6 +336,7 @@
 - locale: it
   name: Italiano
   build: true
+  site_name: "Openterface | Collegare le interfacce per aprire possibilità infinite"
   nav_translations:
     Home: Home
     FAQs: Domande frequenti
@@ -395,6 +401,7 @@
 - locale: es
   name: Español
   build: true
+  site_name: "Openterface | Conectando interfaces para abrir posibilidades infinitas"
   nav_translations:
     Home: Inicio
     FAQs: Preguntas frecuentes
@@ -459,6 +466,7 @@
 - locale: pt
   name: Português
   build: true
+  site_name: "Openterface | Conectando interfaces para abrir possibilidades infinitas"
   nav_translations:
     Home: Início
     FAQs: Perguntas frequentes
@@ -523,6 +531,7 @@
 - locale: ro
   name: Română
   build: true
+  site_name: "Openterface | Conectând interfețele pentru a deschide posibilități infinite"
   nav_translations:
     Home: Acasă
     FAQs: Întrebări frecvente
