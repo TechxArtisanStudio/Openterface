@@ -4,31 +4,31 @@
 
 ## USB KVM DIY コンテスト 2024
 
-- 2025-05-20: [Openterface Viewer: Kashall's Lightweight, Browser-Based KVM Solution](250520-kashall-project.md)
-- 2025-05-20: [Audio Bridge Concept: Inspiring Bidirectional Sound & AI Workflows](250520-Veera-post.md)
-- 2025-05-20: [iPad KVM: Creative Bridge Between iOS and Low-Level Devices](250520-Casey.md)
+- 2025-05-20: [Audio Bridgeコンセプト：双方向サウンドとAIワークフローのインスピレーション](250520-Veera-post.ja.md)
+- 2025-05-20: [Openterface Viewer：Kashallの軽量、ブラウザベースKVMソリューション](250520-kashall-project.ja.md)
+- 2025-05-20: [iPad KVM：iOSと低レベルデバイス間の創造的ブリッジ](250520-Casey.ja.md)
 
 ## 展示会
 
-- 2025-07-18: [Openterface at Open Sauce 2025 - Booth F.9!](250718-open-sauce-2025.md)
-- 2025-06-17: [Teardown 2025: We're Coming Back to Portland!](250617-teardown-2025-promote.md)
-- 2024-06-18: [Meet Me in Portland This Weekend & Win a Mini-KVM from My Game Challenge!](240618-meet-up-teardown-2024.md)
+- 2025-07-18: [Openterfaceが2025年Open Sauceに参加 - F.9ブース！](250718-open-sauce-2025.ja.md)
+- 2025-06-17: [Teardown 2025：ポートランドに戻ります！](250617-teardown-2025-promote.ja.md)
+- 2024-06-18: [今週末ポートランドでお会いし、ゲームチャレンジで Mini-KVM を勝ち取りましょう！](240618-meet-up-teardown-2024.ja.md)
 
 ## アップデート
 
-- 2025-08-30: [Say Hello to KVM-Go – the Next Ultra Portable Chapter in Your KVM adventure](250830-kvm-go-pre-launch.md)
-- 2025-05-19: [A highly insightful and valuable review from South Korea.](250614-tinyrack-review.md)
-- 2025-05-15: [We're Going Live!](250515-openterface-tds-annc.md)
-- 2025-02-19: [Clear Backlog, Fresh Gear, and More Time to Build USB KVM!](250214-fresh-gear-and-more-diy-time.md)
-- 2024-12-24: [Merry Christmas & Happy New Year & A Liitle Treat from Openterface Team!](241224-merry-christmas.md)
-- 2024-11-27: [50% OFF on ALL Merchandise – Only This Black Friday! Show Your Support for Open Source!](241120-black-friday-2024.md)
-- 2024-11-13: [The Ship Has Sailed & Extra Cables Added for the Toolkit. What’s Next?](241107-orange-cable.md)
-- 2024-10-22: [DIY Challenge, Cool Prizes, and Production Nears the Finish Line!](241022-diy-challenge.md)
-- 2024-08-22: [Overcoming Hurdles: Progress Update & New Timeline](240823-overcoming-hurdles.md)
-- 2024-07-16: [From Teardown to Production: We’re Moving Forward!](240716-teardown-to-production.md)
-- 2024-06-12: [Last Hours to Back & Mini-KVMs at Tech Frontlines](240612-last-hours-to-back.md)
-- 2024-06-08: [Epic Updates & Final Week – Last Chance to Back Mini-KVM!](240608-epic_updates_last_chance.md)
-- 2024-05-31: [Casual Chat with David Groom from MAKE: Magazine: The Story of Openterface Mini-KVM](240531_livestram_with_david_make.md)
+- 2025-08-30: [KVM-Go にこんにちは – あなたの KVM アドベンチャーの次の超ポータブル章](250830-kvm-go-pre-launch.ja.md)
+- 2025-05-19: [韓国からの非常に洞察に富んだ価値のあるレビュー。](250614-tinyrack-review.ja.md)
+- 2025-05-15: [ライブ配信します！](250515-openterface-tds-annc.ja.md)
+- 2025-02-19: [バックログクリア、フレッシュギア、そしてUSB KVMを構築する時間がもっと！](250214-fresh-gear-and-more-diy-time.ja.md)
+- 2024-12-24: [メリークリスマス&ハッピーニューイヤー&Openterfaceチームからの小さなおもてなし！](241224-merry-christmas.ja.md)
+- 2024-11-27: [全商品50%オフ – このブラックフライデーだけ！オープンソースへのサポートを示そう！](241120-black-friday-2024.ja.md)
+- 2024-11-13: [船が出航し、ツールキットに追加ケーブルが加わりました。次は何？](241107-orange-cable.ja.md)
+- 2024-10-22: [DIYチャレンジ、クールな賞品、そして生産がゴールに近づいています！](241022-diy-challenge.ja.md)
+- 2024-08-22: [障害を克服：進捗アップデートと新しいタイムライン](240823-overcoming-hurdles.ja.md)
+- 2024-07-16: [Teardownから生産へ：前進中です！](240716-teardown-to-production.ja.md)
+- 2024-06-12: [最終時間のバック & テックフロントラインでの Mini-KVM](240612-last-hours-to-back.ja.md)
+- 2024-06-08: [エピックアップデート＆最終週 – Mini-KVMをバックする最後のチャンス！](240608-epic_updates_last_chance.ja.md)
+- 2024-05-31: [MAKE: MagazineのDavid Groomとのカジュアルチャット：Openterface Mini-KVMのストーリー](240531_livestram_with_david_make.ja.md)
 - 2024-05-28: [開発からあなたの手へ：舞台裏のストーリー](240528-from-dev-to-your-hands.ja.md)
 - 2024-04-30: [Openterface Mini-KVMクラウドファンディングキャンペーンが今開始！](240430-launch-announcement.ja.md)
 
