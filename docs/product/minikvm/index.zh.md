@@ -9,7 +9,10 @@ keywords: "Mini-KVM, KVM over USB, KVM over IP, headless control, HDMI KVM, USB 
 
 {% include "partials/minikvm-slideshow.html" %}
 
-{% include "partials/minikvm-slogan.html" %}
+<div class="slogan-highlight">
+  <h2 class="slogan-text">将您的笔记本电脑变成KVM控制台</h2>
+  <div class="slogan-subtitle">简化您的科技生活。</div>
+</div>
 
 我们的 **Openterface™ Mini-KVM** 是一个即插即用的 [**KVM-over-USB**](/faq/kvm-over-usb/) 解决方案。它允许您使用USB和HDMI连接直接从您的笔记本电脑或台式机控制附近的无头计算机，无需额外的外设或网络连接。
 

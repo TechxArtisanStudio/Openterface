@@ -10,7 +10,10 @@ keywords: "Mini-KVM, KVM over USB, KVM over IP, headless control, HDMI KVM, USB 
 {% include "partials/minikvm-slideshow.html" %}
 
 
-{% include "partials/minikvm-slogan.html" %}
+<div class="slogan-highlight">
+  <h2 class="slogan-text">あなたのラップトップをKVMコンソールに変える</h2>
+  <div class="slogan-subtitle">あなたのテクノロジーライフを簡素化。</div>
+</div>
 
 私たちの **Openterface™ Mini-KVM** は、プラグアンドプレイの [**KVM-over-USB**](/faq/kvm-over-usb/) ソリューションです。USBとHDMI接続を使用して、ノートパソコンやデスクトップから近くのヘッドレスコンピューターを直接制御でき、追加の周辺機器やネットワーク接続は不要です。
 

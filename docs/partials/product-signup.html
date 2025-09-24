@@ -31,36 +31,71 @@
         target="_blank">
     <div class="product-signup-form-row">
       <div class="product-signup-email-field">
-        {% if current_locale == 'de' %}
-          <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="Ihre E-Mail-Adresse *">
-          <input type="hidden" name="entry.22394832" value="minikvm-de">
-        {% elif current_locale == 'es' %}
-          <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="Tu Correo Electrónico *">
-          <input type="hidden" name="entry.22394832" value="minikvm-es">
-        {% elif current_locale == 'fr' %}
-          <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="Votre Adresse Email *">
-          <input type="hidden" name="entry.22394832" value="minikvm-fr">
-        {% elif current_locale == 'it' %}
-          <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="Il Tuo Indirizzo Email *">
-          <input type="hidden" name="entry.22394832" value="minikvm-it">
-        {% elif current_locale == 'ja' %}
-          <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="メールアドレス *">
-          <input type="hidden" name="entry.22394832" value="minikvm-ja">
-        {% elif current_locale == 'ko' %}
-          <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="이메일 주소 *">
-          <input type="hidden" name="entry.22394832" value="minikvm-ko">
-        {% elif current_locale == 'pt' %}
-          <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="Seu Endereço de Email *">
-          <input type="hidden" name="entry.22394832" value="minikvm-pt">
-        {% elif current_locale == 'ro' %}
-          <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="Adresa ta de email *">
-          <input type="hidden" name="entry.22394832" value="minikvm-ro">
-        {% elif current_locale == 'zh' %}
-          <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="您的电子邮箱地址 *">
-          <input type="hidden" name="entry.22394832" value="minikvm-zh">
+        {% set product_type = page.url.split('/')[2] if page.url and page.url.split('/')[2] else 'minikvm' %}
+        {% if product_type == 'uconsole-kvm-extension' %}
+          {% if current_locale == 'de' %}
+            <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="Ihre E-Mail-Adresse *">
+            <input type="hidden" name="entry.22394832" value="kvmext-de">
+          {% elif current_locale == 'es' %}
+            <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="Tu Correo Electrónico *">
+            <input type="hidden" name="entry.22394832" value="kvmext-es">
+          {% elif current_locale == 'fr' %}
+            <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="Votre Adresse Email *">
+            <input type="hidden" name="entry.22394832" value="kvmext-fr">
+          {% elif current_locale == 'it' %}
+            <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="Il Tuo Indirizzo Email *">
+            <input type="hidden" name="entry.22394832" value="kvmext-it">
+          {% elif current_locale == 'ja' %}
+            <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="メールアドレス *">
+            <input type="hidden" name="entry.22394832" value="kvmext-ja">
+          {% elif current_locale == 'ko' %}
+            <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="이메일 주소 *">
+            <input type="hidden" name="entry.22394832" value="kvmext-ko">
+          {% elif current_locale == 'pt' %}
+            <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="Seu Endereço de Email *">
+            <input type="hidden" name="entry.22394832" value="kvmext-pt">
+          {% elif current_locale == 'ro' %}
+            <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="Adresa ta de email *">
+            <input type="hidden" name="entry.22394832" value="kvmext-ro">
+          {% elif current_locale == 'zh' %}
+            <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="您的电子邮箱地址 *">
+            <input type="hidden" name="entry.22394832" value="kvmext-zh">
+          {% else %}
+            <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="Your Email Address *">
+            <input type="hidden" name="entry.22394832" value="kvmext-en">
+          {% endif %}
         {% else %}
-          <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="Your Email Address *">
-          <input type="hidden" name="entry.22394832" value="minikvm-en">
+          {% if current_locale == 'de' %}
+            <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="Ihre E-Mail-Adresse *">
+            <input type="hidden" name="entry.22394832" value="minikvm-de">
+          {% elif current_locale == 'es' %}
+            <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="Tu Correo Electrónico *">
+            <input type="hidden" name="entry.22394832" value="minikvm-es">
+          {% elif current_locale == 'fr' %}
+            <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="Votre Adresse Email *">
+            <input type="hidden" name="entry.22394832" value="minikvm-fr">
+          {% elif current_locale == 'it' %}
+            <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="Il Tuo Indirizzo Email *">
+            <input type="hidden" name="entry.22394832" value="minikvm-it">
+          {% elif current_locale == 'ja' %}
+            <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="メールアドレス *">
+            <input type="hidden" name="entry.22394832" value="minikvm-ja">
+          {% elif current_locale == 'ko' %}
+            <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="이메일 주소 *">
+            <input type="hidden" name="entry.22394832" value="minikvm-ko">
+          {% elif current_locale == 'pt' %}
+            <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="Seu Endereço de Email *">
+            <input type="hidden" name="entry.22394832" value="minikvm-pt">
+          {% elif current_locale == 'ro' %}
+            <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="Adresa ta de email *">
+            <input type="hidden" name="entry.22394832" value="minikvm-ro">
+          {% elif current_locale == 'zh' %}
+            <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="您的电子邮箱地址 *">
+            <input type="hidden" name="entry.22394832" value="minikvm-zh">
+          {% else %}
+            <input type="email" name="emailAddress" class="required email" id="product-form-email" required placeholder="Your Email Address *">
+            <input type="hidden" name="entry.22394832" value="minikvm-en">
+          {% endif %}
         {% endif %}
       </div>
       <div class="product-signup-button-field">
