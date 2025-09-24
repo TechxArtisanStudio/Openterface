@@ -27,7 +27,7 @@ keywords: "Black Friday sale, Openterface merchandise, tech clothing, Developer 
   }
 </style>
 
-![banner](../pic/241120-Black-Firday-poster-50.jpg)
+
 
 こんにちは、親愛なるOpenterfaceの皆さん、
 
@@ -35,11 +35,11 @@ keywords: "Black Friday sale, Openterface merchandise, tech clothing, Developer 
 
 これらのデザインをさらに特別にするものは何でしょうか？Tシャツとフーディーの両方が、**Openterface mini-KVMの技術的なラインアート**を誇らしげに特徴としており、信じられないほどクールに見えます。さらに、デザインでmini-KVMの**「Developer Mode」**テキストをハイライトしました—これは絶対に素晴らしいアイデアだと思います。Tシャツやフーディーを着るとき、それは単にこの冬を暖かく過ごすことではありません；それはすべてのコーディングとハッキングセッションでスーパーデベロッパーモードに入ることです。
 
-![OP-Hoodie-Zip-Up](../pic/241120-OP-Hoodie-Zip-Up.jpg)
+
 
 そして、これらが実際の生活でどのように見えるか疑問に思っているなら、私たちのチームが実際に着用している様子をチェックしてください！コーディング中に**Developer Mode**で快適に過ごすことから（[ツイートを見る](https://x.com/TechxArtisan/status/1861611266705379346)）、深圳メーカーフェアで**MAKE: Magazine**のDavid Groomとの楽しい撮影まで（[写真を見る](https://pbs.twimg.com/media/Gcp8E32agAAEnl-?format=jpg&name=large)）、私たちは誇らしげにギアをショーケースしてきました。Openterface Mini-KVMをデモし、テックフレンドとつながりながら、伝説的なPebbleのEric Migicovskyのトークにインスパイアされました（[投稿を見る](https://www.linkedin.com/posts/billy-wangrb_had-an-incredible-weekend-at-shenzhen-maker-activity-7264123680803233792-l7Mm?utm_source=share&utm_medium=member_desktop)）（[もっと見る](https://twitter.com/TechxArtisan/status/1858397377196965913)、[そしてここ](https://twitter.com/TechxArtisan/status/1858400923325726750)）。これらは単なる服ではありません—これらは会話のきっかけであり、どこに行ってもコミュニティを祝う方法です！
 
-![david-billy-wearing-hoodie](../pic/241120-david-billy-wearing-hoodie.webp)
+
 *Davidと私はフーディーに飽きることがありません—私たちは実質的にその中で生活しています！😉素晴らしい写真を共有してくれたDavidに心から感謝します—本当に感謝しています！🎉*
 
 そして、この退屈な冬のために、私たちの鮮やかなオレンジデータケーブルにチャンスを与えてみませんか？これは、ワークスペースを明るくしながら、高速で信頼性の高いデータ転送を確保する完璧な方法です。
@@ -49,10 +49,10 @@ keywords: "Black Friday sale, Openterface merchandise, tech clothing, Developer 
 ここで私たちのストアをブラウズしてください：**[https://shop.techxartisan.com](https://shop.techxartisan.com)**。新しいアパレルをチェックして、半額で1つを手に入れてください—この期間限定オファーを見逃さないでください！
 
 ### Openterface商品
-![openterface merch](../pic/241120-txa-shop-op-merch.jpg)
+
 
 ### Openterfaceアクセサリー
-![openterface accessories](../pic/241120-txa-shop-op-accessories.jpg)
+
 
 この冒険を通して私たちと一緒にいてくれてありがとう。あなたのサポートは私たちにとって世界を意味し、私たちが持ったすべての会話、すべてのアイデア、すべての相互作用に感謝しています。
 
