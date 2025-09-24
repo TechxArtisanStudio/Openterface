@@ -16,9 +16,16 @@ keywords: "KVM extension, uConsole KVM, portable KVM, HDMI KVM, USB HID control,
 The **Openterface KVM Extension** replaces the original 4G/LTE modem in your uConsole's expansion slot and provides direct **HDMI input and USB HID control**, allowing you to manage headless devices on the go—without the need for external monitors, keyboards, or network configuration.
 
 <div style="text-align: center; margin: 20px 0;">
-<button class="md-button" onclick="window.location.href='https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole'"> Order NOW</button>
+  <button class="md-button" onclick="window.open('https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole', '_blank')">
+    Order NOW
+    <img
+      class="skip-lightbox"
+      src="https://assets.openterface.com/images/trademark/txa.svg"
+      alt="TxA Shop"
+      style="vertical-align: middle; height: 22px;"
+    >
+  </button>
 </div>
-
 
 <div class="grid cards" markdown>
 
@@ -62,19 +69,4 @@ The **Openterface KVM Extension** replaces the original 4G/LTE modem in your uCo
 
 {% include "partials/product-signup.html" %}
 
-## Availability Status
-
-- ✅ **Now Available** - In stock and ready to ship
-- 🚚 **Fast Shipping** - Orders ship within 1-2 business days
-- 🛒 **Limited Stock** - [Order now](https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole) while supplies last
-
-> **Shipping Information**  
-> Orders are processed and shipped within 1-2 business days.  
-> Standard shipping times apply based on your location.
-
 {% include "partials/uconsole-kvm-youtube-reviews.html" %}
-
-## Community & Support
-
-- 🗨️ Join the discussion: [Discord Server](https://discord.gg/ruAD9kcYbq)  
-- 📧 Email support: [info@openterface.com](mailto:info@openterface.com)
