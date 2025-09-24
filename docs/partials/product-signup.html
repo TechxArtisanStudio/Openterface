@@ -3,23 +3,23 @@
   {% set current_locale = page.locale or config.theme.language or (page.url.split('/')[1] if page.url and page.url.split('/')[1] in ['de', 'es', 'fr', 'it', 'ja', 'ko', 'pt', 'ro', 'zh'] else 'en') %}
   
   {% if current_locale == 'de' %}
-    <p>Melden Sie sich an, um Updates zu diesem Produkt zu erhalten</p>
+    <p>Melden Sie sich an, um Updates zu diesem Produkt zu erhalten. Jederzeit abbestellen.</p>
   {% elif current_locale == 'es' %}
-    <p>Suscríbete para recibir actualizaciones de este producto</p>
+    <p>Suscríbete para recibir actualizaciones de este producto. Cancelar suscripción en cualquier momento.</p>
   {% elif current_locale == 'fr' %}
-    <p>Inscrivez-vous pour recevoir les mises à jour de ce produit</p>
+    <p>Inscrivez-vous pour recevoir les mises à jour de ce produit. Désabonnement à tout moment.</p>
   {% elif current_locale == 'it' %}
-    <p>Iscriviti per ricevere aggiornamenti su questo prodotto</p>
+    <p>Iscriviti per ricevere aggiornamenti su questo prodotto. Disiscriviti in qualsiasi momento.</p>
   {% elif current_locale == 'ja' %}
-    <p>この製品のアップデートを受け取るためにサインアップしてください</p>
+    <p>この製品のアップデートを受け取るためにサインアップしてください。いつでも配信停止できます。</p>
   {% elif current_locale == 'ko' %}
-    <p>이 제품의 업데이트를 받기 위해 가입하세요</p>
+    <p>이 제품의 업데이트를 받기 위해 가입하세요. 언제든지 구독을 취소할 수 있습니다.</p>
   {% elif current_locale == 'pt' %}
-    <p>Inscreva-se para receber atualizações deste produto</p>
+    <p>Inscreva-se para receber atualizações deste produto. Cancele a inscrição a qualquer momento.</p>
   {% elif current_locale == 'ro' %}
-    <p>Înregistrează-te pentru a primi actualizări despre acest produs</p>
+    <p>Înregistrează-te pentru a primi actualizări despre acest produs. Dezabonează-te oricând.</p>
   {% elif current_locale == 'zh' %}
-    <p>注册以接收此产品的更新</p>
+    <p>注册以接收此产品的更新。随时可以取消订阅。</p>
   {% else %}
     <p>Sign up to receive updates of this product. Unsubscribe anytime.</p>
   {% endif %}
