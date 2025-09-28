@@ -2,7 +2,6 @@
 Configuration settings for URL Audit Tool
 """
 
-import os
 from pathlib import Path
 
 # Project paths
@@ -15,38 +14,26 @@ BASE_URL = "https://openterface.com"
 
 # Supported languages (from mkdocs.yml i18n configuration)
 SUPPORTED_LANGUAGES = {
-    'en': 'English',
-    'zh': 'Chinese', 
-    'ja': 'Japanese',
-    'ko': 'Korean',
-    'fr': 'French',
-    'de': 'German',
-    'es': 'Spanish',
-    'it': 'Italian',
-    'pt': 'Portuguese',
-    'ro': 'Romanian'
+    "en": "English",
+    "zh": "Chinese",
+    "ja": "Japanese",
+    "ko": "Korean",
+    "fr": "French",
+    "de": "German",
+    "es": "Spanish",
+    "it": "Italian",
+    "pt": "Portuguese",
+    "ro": "Romanian",
 }
 
 # File patterns to scan
-FILE_PATTERNS = {
-    'markdown': ['**/*.md'],
-    'html': ['**/*.html']
-}
+FILE_PATTERNS = {"markdown": ["**/*.md"], "html": ["**/*.html"]}
 
 # Directories to scan
-SCAN_DIRECTORIES = [
-    DOCS_DIR / "docs",
-    DOCS_DIR / "overrides"
-]
+SCAN_DIRECTORIES = [DOCS_DIR / "docs", DOCS_DIR / "overrides"]
 
 # Directories to exclude
-EXCLUDE_DIRECTORIES = [
-    'i18n-tools',
-    'scripts',
-    '.git',
-    '__pycache__',
-    'node_modules'
-]
+EXCLUDE_DIRECTORIES = ["i18n-tools", "scripts", ".git", "__pycache__", "node_modules"]
 
 # Output directories
 OUTPUT_DIR = Path(__file__).parent / "data"
@@ -63,40 +50,61 @@ for lang in SUPPORTED_LANGUAGES.keys():
 
 # Link validation settings
 VALIDATION_CONFIG = {
-    'timeout': 10,
-    'max_retries': 3,
-    'delay_between_requests': 0.5,
-    'user_agent': 'Openterface-URL-Audit-Tool/1.0',
-    'skip_validation_domains': [
-        'localhost',
-        '127.0.0.1',
-        '0.0.0.0'
-    ]
+    "timeout": 10,
+    "max_retries": 3,
+    "delay_between_requests": 0.5,
+    "user_agent": "Openterface-URL-Audit-Tool/1.0",
+    "skip_validation_domains": ["localhost", "127.0.0.1", "0.0.0.0"],
 }
 
 # Regex patterns for different link types
 LINK_PATTERNS = {
-    'markdown_image': r'!\[([^\]]*)\]\(([^)]+)\)',
-    'markdown_link': r'\[([^\]]*)\]\(([^)]+)\)',
-    'html_img_src': r'<img[^>]+src=["\']([^"\']+)["\'][^>]*>',
-    'html_href': r'href=["\']([^"\']+)["\']',
-    'url': r'https?://[^\s\)]+'
+    "markdown_image": r"!\[([^\]]*)\]\(([^)]+)\)",
+    "markdown_link": r"\[([^\]]*)\]\(([^)]+)\)",
+    "html_img_src": r'<img[^>]+src=["\']([^"\']+)["\'][^>]*>',
+    "html_href": r'href=["\']([^"\']+)["\']',
+    "url": r"https?://[^\s\)]+",
 }
 
 # CSV column definitions
 CSV_COLUMNS = {
-    'extracted': [
-        'file_path', 'line_number', 'link_type', 'link_text', 
-        'raw_url', 'is_external', 'is_image', 'context'
+    "extracted": [
+        "file_path",
+        "line_number",
+        "link_type",
+        "link_text",
+        "raw_url",
+        "is_external",
+        "is_image",
+        "context",
     ],
-    'resolved': [
-        'file_path', 'line_number', 'link_type', 'link_text',
-        'raw_url', 'resolved_url', 'full_url', 'domain', 'path',
-        'language', 'is_external', 'is_image', 'context'
+    "resolved": [
+        "file_path",
+        "line_number",
+        "link_type",
+        "link_text",
+        "raw_url",
+        "resolved_url",
+        "full_url",
+        "domain",
+        "path",
+        "language",
+        "is_external",
+        "is_image",
+        "context",
     ],
-    'validated': [
-        'url', 'status_code', 'response_time', 'error_message',
-        'is_valid', 'redirect_url', 'content_type', 'file_size',
-        'language', 'usage_count', 'file_locations'
-    ]
+    "validated": [
+        "url",
+        "status_code",
+        "response_time",
+        "error_message",
+        "is_valid",
+        "redirect_url",
+        "content_type",
+        "file_size",
+        "js_redirect_detected",
+        "language",
+        "usage_count",
+        "file_locations",
+    ],
 }
