@@ -451,19 +451,94 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/accessories/updates/"/>
     </url>
     <url>
-        <loc>https://openterface.com/product/kvm-go/pre-launch/</loc>
+        <loc>https://openterface.com/product/kvm-go/</loc>
         <lastmod>2025-09-28</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/product/kvm-go/faq/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/faq/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/product/kvm-go/features/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/features/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/product/kvm-go/how-to-connect/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/how-to-connect/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/product/kvm-go/microsd-switch/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/microsd-switch/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/product/kvm-go/whats-in-the-box/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/whats-in-the-box/"/>
     </url>
     <url>
         <loc>https://openterface.com/product/kvm-go/updates/</loc>
@@ -479,6 +554,36 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/product/kvm-go/updates/250830-kvm-go-pre-launch/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
     </url>
     <url>
         <loc>https://openterface.com/product/minikvm/</loc>
@@ -1576,19 +1681,94 @@
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/accessories/updates/"/>
     </url>
     <url>
-        <loc>https://openterface.com/zh/product/kvm-go/pre-launch/</loc>
+        <loc>https://openterface.com/zh/product/kvm-go/</loc>
         <lastmod>2025-09-28</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/zh/product/kvm-go/faq/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/faq/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/zh/product/kvm-go/features/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/features/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/zh/product/kvm-go/how-to-connect/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/how-to-connect/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/zh/product/kvm-go/microsd-switch/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/microsd-switch/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/zh/product/kvm-go/whats-in-the-box/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/whats-in-the-box/"/>
     </url>
     <url>
         <loc>https://openterface.com/zh/product/kvm-go/updates/</loc>
@@ -1604,6 +1784,36 @@
         <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/updates/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/zh/product/kvm-go/updates/250830-kvm-go-pre-launch/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/zh/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
     </url>
     <url>
         <loc>https://openterface.com/zh/product/minikvm/</loc>
@@ -2701,19 +2911,94 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/accessories/updates/"/>
     </url>
     <url>
-        <loc>https://openterface.com/ja/product/kvm-go/pre-launch/</loc>
+        <loc>https://openterface.com/ja/product/kvm-go/</loc>
         <lastmod>2025-09-28</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ja/product/kvm-go/faq/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/faq/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ja/product/kvm-go/features/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/features/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ja/product/kvm-go/how-to-connect/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/how-to-connect/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ja/product/kvm-go/microsd-switch/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/microsd-switch/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ja/product/kvm-go/whats-in-the-box/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/whats-in-the-box/"/>
     </url>
     <url>
         <loc>https://openterface.com/ja/product/kvm-go/updates/</loc>
@@ -2729,6 +3014,36 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ja/product/kvm-go/updates/250830-kvm-go-pre-launch/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ja/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
     </url>
     <url>
         <loc>https://openterface.com/ja/product/minikvm/</loc>
@@ -3826,19 +4141,94 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/accessories/updates/"/>
     </url>
     <url>
-        <loc>https://openterface.com/ko/product/kvm-go/pre-launch/</loc>
+        <loc>https://openterface.com/ko/product/kvm-go/</loc>
         <lastmod>2025-09-28</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ko/product/kvm-go/faq/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/faq/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ko/product/kvm-go/features/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/features/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ko/product/kvm-go/how-to-connect/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/how-to-connect/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ko/product/kvm-go/microsd-switch/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/microsd-switch/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ko/product/kvm-go/whats-in-the-box/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/whats-in-the-box/"/>
     </url>
     <url>
         <loc>https://openterface.com/ko/product/kvm-go/updates/</loc>
@@ -3854,6 +4244,36 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ko/product/kvm-go/updates/250830-kvm-go-pre-launch/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ko/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
     </url>
     <url>
         <loc>https://openterface.com/ko/product/minikvm/</loc>
@@ -4951,19 +5371,94 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/accessories/updates/"/>
     </url>
     <url>
-        <loc>https://openterface.com/fr/product/kvm-go/pre-launch/</loc>
+        <loc>https://openterface.com/fr/product/kvm-go/</loc>
         <lastmod>2025-09-28</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/fr/product/kvm-go/faq/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/faq/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/fr/product/kvm-go/features/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/features/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/fr/product/kvm-go/how-to-connect/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/how-to-connect/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/fr/product/kvm-go/microsd-switch/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/microsd-switch/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/fr/product/kvm-go/whats-in-the-box/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/whats-in-the-box/"/>
     </url>
     <url>
         <loc>https://openterface.com/fr/product/kvm-go/updates/</loc>
@@ -4979,6 +5474,36 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/fr/product/kvm-go/updates/250830-kvm-go-pre-launch/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/fr/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
     </url>
     <url>
         <loc>https://openterface.com/fr/product/minikvm/</loc>
@@ -6076,19 +6601,94 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/accessories/updates/"/>
     </url>
     <url>
-        <loc>https://openterface.com/de/product/kvm-go/pre-launch/</loc>
+        <loc>https://openterface.com/de/product/kvm-go/</loc>
         <lastmod>2025-09-28</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/de/product/kvm-go/faq/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/faq/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/de/product/kvm-go/features/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/features/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/de/product/kvm-go/how-to-connect/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/how-to-connect/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/de/product/kvm-go/microsd-switch/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/microsd-switch/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/de/product/kvm-go/whats-in-the-box/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/whats-in-the-box/"/>
     </url>
     <url>
         <loc>https://openterface.com/de/product/kvm-go/updates/</loc>
@@ -6104,6 +6704,36 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/de/product/kvm-go/updates/250830-kvm-go-pre-launch/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/de/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
     </url>
     <url>
         <loc>https://openterface.com/de/product/minikvm/</loc>
@@ -7201,19 +7831,94 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/accessories/updates/"/>
     </url>
     <url>
-        <loc>https://openterface.com/it/product/kvm-go/pre-launch/</loc>
+        <loc>https://openterface.com/it/product/kvm-go/</loc>
         <lastmod>2025-09-28</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/it/product/kvm-go/faq/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/faq/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/it/product/kvm-go/features/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/features/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/it/product/kvm-go/how-to-connect/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/how-to-connect/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/it/product/kvm-go/microsd-switch/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/microsd-switch/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/it/product/kvm-go/whats-in-the-box/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/whats-in-the-box/"/>
     </url>
     <url>
         <loc>https://openterface.com/it/product/kvm-go/updates/</loc>
@@ -7229,6 +7934,36 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/it/product/kvm-go/updates/250830-kvm-go-pre-launch/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/it/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
     </url>
     <url>
         <loc>https://openterface.com/it/product/minikvm/</loc>
@@ -8326,19 +9061,94 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/accessories/updates/"/>
     </url>
     <url>
-        <loc>https://openterface.com/es/product/kvm-go/pre-launch/</loc>
+        <loc>https://openterface.com/es/product/kvm-go/</loc>
         <lastmod>2025-09-28</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/es/product/kvm-go/faq/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/faq/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/es/product/kvm-go/features/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/features/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/es/product/kvm-go/how-to-connect/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/how-to-connect/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/es/product/kvm-go/microsd-switch/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/microsd-switch/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/es/product/kvm-go/whats-in-the-box/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/whats-in-the-box/"/>
     </url>
     <url>
         <loc>https://openterface.com/es/product/kvm-go/updates/</loc>
@@ -8354,6 +9164,36 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/es/product/kvm-go/updates/250830-kvm-go-pre-launch/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/es/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
     </url>
     <url>
         <loc>https://openterface.com/es/product/minikvm/</loc>
@@ -9451,19 +10291,94 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/accessories/updates/"/>
     </url>
     <url>
-        <loc>https://openterface.com/pt/product/kvm-go/pre-launch/</loc>
+        <loc>https://openterface.com/pt/product/kvm-go/</loc>
         <lastmod>2025-09-28</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/pt/product/kvm-go/faq/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/faq/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/pt/product/kvm-go/features/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/features/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/pt/product/kvm-go/how-to-connect/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/how-to-connect/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/pt/product/kvm-go/microsd-switch/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/microsd-switch/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/pt/product/kvm-go/whats-in-the-box/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/whats-in-the-box/"/>
     </url>
     <url>
         <loc>https://openterface.com/pt/product/kvm-go/updates/</loc>
@@ -9479,6 +10394,36 @@
         <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/updates/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/pt/product/kvm-go/updates/250830-kvm-go-pre-launch/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/pt/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
     </url>
     <url>
         <loc>https://openterface.com/pt/product/minikvm/</loc>
@@ -10576,19 +11521,94 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/accessories/updates/"/>
     </url>
     <url>
-        <loc>https://openterface.com/ro/product/kvm-go/pre-launch/</loc>
+        <loc>https://openterface.com/ro/product/kvm-go/</loc>
         <lastmod>2025-09-28</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/pre-launch/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ro/product/kvm-go/faq/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/faq/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/faq/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ro/product/kvm-go/features/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/features/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/features/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ro/product/kvm-go/how-to-connect/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/how-to-connect/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/how-to-connect/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ro/product/kvm-go/microsd-switch/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/microsd-switch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/microsd-switch/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ro/product/kvm-go/whats-in-the-box/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/whats-in-the-box/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/whats-in-the-box/"/>
     </url>
     <url>
         <loc>https://openterface.com/ro/product/kvm-go/updates/</loc>
@@ -10604,6 +11624,36 @@
         <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/updates/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ro/product/kvm-go/updates/250830-kvm-go-pre-launch/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/250830-kvm-go-pre-launch/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ro/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/kvm-go/updates/250912-kvm-go-beta-testing-invitation/"/>
     </url>
     <url>
         <loc>https://openterface.com/ro/product/minikvm/</loc>
