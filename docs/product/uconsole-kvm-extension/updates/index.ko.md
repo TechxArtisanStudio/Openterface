@@ -4,6 +4,6 @@
 
 ## Updates
 
-- 2025-08-28: [OSHWA Certification Achieved! 🎉](2025-08-28-oshwa-certification.md)
-- 2025-08-13: [First Batch Shipping Now! 🚚](2025-08-13-first-batch-shipping.md)
+- 2025-08-28: [OSHWA 인증 획득! 🎉](2025-08-28-oshwa-certification.ko.md)
+- 2025-08-13: [첫 번째 배치 지금 배송 중! 🚚](2025-08-13-first-batch-shipping.ko.md)
 

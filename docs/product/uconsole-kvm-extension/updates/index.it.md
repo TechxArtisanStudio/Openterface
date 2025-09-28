@@ -4,6 +4,6 @@
 
 ## Updates
 
-- 2025-08-28: [OSHWA Certification Achieved! 🎉](2025-08-28-oshwa-certification.md)
-- 2025-08-13: [First Batch Shipping Now! 🚚](2025-08-13-first-batch-shipping.md)
+- 2025-08-28: [Certificazione OSHWA Raggiunta! 🎉](2025-08-28-oshwa-certification.it.md)
+- 2025-08-13: [Primo lotto in spedizione ora! 🚚](2025-08-13-first-batch-shipping.it.md)
 
