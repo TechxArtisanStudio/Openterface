@@ -217,6 +217,7 @@ plugins:
     type: timeago
 - redirects:
     redirect_maps:
+      product/minikvm/reviews.md: product/minikvm/reviews/youtube.md
       app.md: app/overview.md
       about.md: about/about-us.md
       contact.md: about/about-us.md
