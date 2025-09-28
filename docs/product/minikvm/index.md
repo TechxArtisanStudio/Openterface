@@ -35,8 +35,6 @@ Our **Openterface™ Mini-KVM** is a plug-and-play [**KVM-over-USB**](/faq/kvm-o
 
     Discover the powerful features of the Mini-KVM
 
-    [:octicons-arrow-right-24: What's in the Box](/product/minikvm/whats-in-the-box/)
-
     [:octicons-arrow-right-24: View Features](/product/minikvm/features)
 
     [:octicons-arrow-right-24: How It Works](/faq/kvm-over-usb/)
