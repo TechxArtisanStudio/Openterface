@@ -72,10 +72,11 @@ extra:
   android_version: v1.1.2
   macos_version: 1.16
   minikvm_updates: 21
-  kvm-go_updates: 0
+  kvm-go_updates: 2
   accessories_updates: 0
   qt_linux_stable: 0.3.19
   minikvm_purchase_link: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
+  kvmgo_purchase_link: https://www.crowdsupply.com/techxartisan/openterface-kvm-go
   social:
   - icon: txa/crowd-supply-icon
     link: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
@@ -154,7 +155,13 @@ nav:
       - Media Coverage: product/minikvm/reviews/media.md
     - Updates for Mini-KVM: product/minikvm/updates/index.md
   - KVM Go Series ⏳:
-    - Pre-Launch: product/kvm-go/pre-launch.md
+    - Overview: product/kvm-go/index.md
+    - Features: product/kvm-go/features.md
+    - What's In The Box: product/kvm-go/whats-in-the-box.md
+    - How To Connect: product/kvm-go/how-to-connect.md
+    - MicroSD Switch: product/kvm-go/microsd-switch.md
+    - FAQs for KVM-Go: product/kvm-go/faq.md
+    - Updates for KVM-Go: product/kvm-go/updates/index.md
   - uConsole KVM Extension:
     - Overview: product/uconsole-kvm-extension/index.md
     - Features: product/uconsole-kvm-extension/features.md
@@ -217,6 +224,7 @@ plugins:
     type: timeago
 - redirects:
     redirect_maps:
+      product/kvm-go/pre-launch.md: product/kvm-go/index.md
       product/minikvm/reviews.md: product/minikvm/reviews/youtube.md
       app.md: app/overview.md
       about.md: about/about-us.md
