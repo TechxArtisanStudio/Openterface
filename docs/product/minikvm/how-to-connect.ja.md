@@ -8,8 +8,8 @@ keywords: "Mini-KVM セットアップ, KVM 接続ガイド, USB-C KVM セット
 
 ## クイックセットアップ
 
-![to-host](https://assets.openterface.com/images/product/to-host.svg#only-light){:style="height:200px"} ![to-host](https://assets.openterface.com/images/product/to-host_1.svg#only-dark){:style="height:200px"}
-![to-target](https://assets.openterface.com/images/product/to-target.svg#only-light){:style="height:200px"} ![to-target](https://assets.openterface.com/images/product/to-target_1.svg#only-dark){:style="height:200px"}
+![to-host](https://assets.openterface.com/images/product/to-host.svg#only-light){:style="max-height:200px"} ![to-host](https://assets.openterface.com/images/product/to-host_1.svg#only-dark){:style="max-height:200px"}
+![to-target](https://assets.openterface.com/images/product/to-target.svg#only-light){:style="max-height:200px"} ![to-target](https://assets.openterface.com/images/product/to-target_1.svg#only-dark){:style="max-height:200px"}
 
 **4 つの簡単なステップでセットアップ：**
 
@@ -22,8 +22,8 @@ keywords: "Mini-KVM セットアップ, KVM 接続ガイド, USB-C KVM セット
 
 ## ポートガイド
 
-![host-side](https://assets.openterface.com/images/product/host-htc.svg#only-light){:style="width:300px"} ![target-side](https://assets.openterface.com/images/product/target-htc.svg#only-light){:style="width:300px"}
-![host-side](https://assets.openterface.com/images/product/host-htc_1.svg#only-dark){:style="width:300px"} ![target-side](https://assets.openterface.com/images/product/target-htc_1.svg#only-dark){:style="width:300px"}
+![host-side](https://assets.openterface.com/images/product/host-htc.svg#only-light){:style="max-width:300px"} ![target-side](https://assets.openterface.com/images/product/target-htc.svg#only-light){:style="max-width:300px"}
+![host-side](https://assets.openterface.com/images/product/host-htc_1.svg#only-dark){:style="max-width:300px"} ![target-side](https://assets.openterface.com/images/product/target-htc_1.svg#only-dark){:style="max-width:300px"}
 
 - ① **ホスト USB-C**：ホストコンピューターへのデータ転送
 - ② **ターゲット USB-C**：キーボード/マウス制御出力
@@ -32,6 +32,6 @@ keywords: "Mini-KVM セットアップ, KVM 接続ガイド, USB-C KVM セット
 
 !!! warning "重要な注意事項" - **電源**：USB デバイスの消費電力は 1.5W を超えないでください - **USB-A ロック**：挿入/取り外しに余分な力が必要（小さなデバイスは避ける） - **USB ハブ**：外部電源付きハブのみ使用；深い USB ツリーは避ける - **切り替え**：詳細は [USB ポート切り替えガイド](../usb-switch) を参照
 
-⑤ ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} **トグルスイッチ**：USB-A ポートをホスト/ターゲット間で切り替え
+⑤ ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="max-height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="max-height:20px"} **トグルスイッチ**：USB-A ポートをホスト/ターゲット間で切り替え
 
-⑥ ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins.svg#only-light){:style="height:15px"} ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins_1.svg#only-dark){:style="height:15px"} **拡張ピン**：開発者アクセス（[拡張ピン](../extension-pins) を参照）
+⑥ ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins.svg#only-light){:style="max-height:15px"} ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins_1.svg#only-dark){:style="max-height:15px"} **拡張ピン**：開発者アクセス（[拡張ピン](../extension-pins) を参照）

@@ -6,7 +6,7 @@ keywords: "pacchetto estensione KVM, uConsole KVM, contenuto incluso, contenuto 
 
 # **Contenuto della Scatola** | Openterface KVM Extension for uConsole
 
-![KVM Extension Box](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-pcb-front.webp){:style="width:480px"}
+![KVM Extension Box](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-pcb-front.webp){:style="max-width:480px"}
 
 **Componenti Principali**
 

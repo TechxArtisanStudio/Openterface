@@ -11,15 +11,15 @@ Hey everyone,
 
 We wanted to share some exciting updates from our beta team on our [Discord channel](/discord)! Our Openterface Mini-KVM is performing brilliantly at the tech frontline, and we've got some fantastic images to show you. Check them out and see what all the buzz is about!
 
-![cam-share](https://www.crowdsupply.com/img/bed9/41ac90fd-1074-49e0-a081-f9798610bed9/cam-share_jpg_md-xl.jpg){:style="width:420px"}
+![cam-share](https://www.crowdsupply.com/img/bed9/41ac90fd-1074-49e0-a081-f9798610bed9/cam-share_jpg_md-xl.jpg){:style="max-width:420px"}
 
-![catenane-share](https://www.crowdsupply.com/img/b9ed/4144b488-9442-44e2-9bad-f07daa56b9ed/catenane-share_jpg_gallery-lg.jpg){:style="width:420px"}
+![catenane-share](https://www.crowdsupply.com/img/b9ed/4144b488-9442-44e2-9bad-f07daa56b9ed/catenane-share_jpg_gallery-lg.jpg){:style="max-width:420px"}
 
-![kashall-share](https://www.crowdsupply.com/img/17f2/d5f31dbb-f51e-4813-ab79-29194ea717f2/kashall-share_jpg_gallery-lg.jpg){:style="width:420px"}
+![kashall-share](https://www.crowdsupply.com/img/17f2/d5f31dbb-f51e-4813-ab79-29194ea717f2/kashall-share_jpg_gallery-lg.jpg){:style="max-width:420px"}
 
-![kazubu-share](https://www.crowdsupply.com/img/23e5/6aadfd66-756d-4f42-944d-dc2e95dd23e5/kazubu-share_jpg_gallery-lg.jpg){:style="width:420px"}
+![kazubu-share](https://www.crowdsupply.com/img/23e5/6aadfd66-756d-4f42-944d-dc2e95dd23e5/kazubu-share_jpg_gallery-lg.jpg){:style="max-width:420px"}
 
-![nkahoang-share](https://www.crowdsupply.com/img/50bc/6318ed70-11f6-4640-b73b-f435267950bc/nkahoang-share_jpg_gallery-lg.jpg){:style="width:420px"}
+![nkahoang-share](https://www.crowdsupply.com/img/50bc/6318ed70-11f6-4640-b73b-f435267950bc/nkahoang-share_jpg_gallery-lg.jpg){:style="max-width:420px"}
 
 ## 🚨 Last Chance Alert! 🚨
 

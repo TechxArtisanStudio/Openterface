@@ -8,7 +8,7 @@ keywords: "configurare conexiune KVM, conexiune dispozitiv țintă, configurare 
 
 ## Prezentare Generală a Conexiunii
 
-![extension-use-case-1a](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-use-case-1a.webp){:style="height:480px"}
+![extension-use-case-1a](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-use-case-1a.webp){:style="max-height:480px"}
 
 ## Cerințe Preliminare
 

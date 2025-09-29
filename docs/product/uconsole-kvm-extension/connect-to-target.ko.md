@@ -8,7 +8,7 @@ keywords: "KVM 연결 설정, 대상 디바이스 연결, USB 제어 설정, HDM
 
 ## 연결 개요
 
-![extension-use-case-1a](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-use-case-1a.webp){:style="height:480px"}
+![extension-use-case-1a](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-use-case-1a.webp){:style="max-height:480px"}
 
 ## 사전 요구사항
 

@@ -6,8 +6,8 @@ keywords: "Mini-KVM 확장 핀, 커스텀 개발, 하드웨어 개조, 오픈 �
 
 # **확장 핀** | 개발자 모드 | Openterface Mini-KVM
 
-![mini-kvm-pins-port](https://assets.openterface.com/images/product/mini-kvm-pins-port.webp){:style="height:360px"}
-![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.webp){:style="height:300px"}
+![mini-kvm-pins-port](https://assets.openterface.com/images/product/mini-kvm-pins-port.webp){:style="max-height:360px"}
+![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.webp){:style="max-height:300px"}
 
 Openterface Mini-KVM에는 고급 개발 및 [Open Software](/app) 실험을 위한 확장 핀이 제공됩니다. 이러한 핀은 기본 케이스 구성에서는 노출되지 않습니다.
 
@@ -18,8 +18,8 @@ Openterface Mini-KVM에는 고급 개발 및 [Open Software](/app) 실험을 위
 3. 확장 핀 캡용 [3D 모델](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware/tree/main/models)을 다운로드합니다.
 4. 우리의 [Hardware GitHub 저장소](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware)를 확인하세요.
 
-![change-cap](https://assets.openterface.com/images/product/change-cap.svg#only-light){:style="height:300px"}
-![change-cap](https://assets.openterface.com/images/product/change-cap_1.svg#only-dark){:style="height:300px"}
+![change-cap](https://assets.openterface.com/images/product/change-cap.svg#only-light){:style="max-height:300px"}
+![change-cap](https://assets.openterface.com/images/product/change-cap_1.svg#only-dark){:style="max-height:300px"}
 
 !!! warning "보증 무효"
     기본 케이스를 제거하면 제품 보증이 무효가 될 수 있습니다. 모든 개조나 분해는 사용자 본인의 책임하에 진행됩니다.
@@ -29,10 +29,10 @@ Openterface Mini-KVM에는 고급 개발 및 [Open Software](/app) 실험을 위
 
 ## 핀 구성
 
-![target-side](https://assets.openterface.com/images/product/extension-pins-1.svg#only-light){:style="height:200px"}
-![host-side](https://assets.openterface.com/images/product/extension-pins-2.svg#only-light){:style="height:200px"}
-![target-side](https://assets.openterface.com/images/product/extension-pins-1_1.svg#only-dark){:style="height:200px"}
-![host-side](https://assets.openterface.com/images/product/extension-pins-2_1.svg#only-dark){:style="height:200px"}
+![target-side](https://assets.openterface.com/images/product/extension-pins-1.svg#only-light){:style="max-height:200px"}
+![host-side](https://assets.openterface.com/images/product/extension-pins-2.svg#only-light){:style="max-height:200px"}
+![target-side](https://assets.openterface.com/images/product/extension-pins-1_1.svg#only-dark){:style="max-height:200px"}
+![host-side](https://assets.openterface.com/images/product/extension-pins-2_1.svg#only-dark){:style="max-height:200px"}
 
 확장 핀은 다음 연결을 제공합니다:
 
@@ -48,7 +48,7 @@ Openterface Mini-KVM에는 고급 개발 및 [Open Software](/app) 실험을 위
 
 ## 확장 핀 캡(Extension Pin Cap)
 
-![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.webp){:style="height:360px"}
+![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.webp){:style="max-height:360px"}
 
 이 3D 프린트된 확장 핀 캡은 Openterface Mini-KVM의 기본 캡을 대체하여, 고급 사용자가 커스텀 개발을 위해 확장 핀을 노출하고 액세스할 수 있게 해줍니다. GitHub 저장소에서 3D 모델 파일을 다운로드하여 직접 인쇄할 수 있습니다.
 

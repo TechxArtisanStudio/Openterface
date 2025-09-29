@@ -6,8 +6,8 @@ keywords: "Mini-KVM broches d’extension, développement personnalisé, modific
 
 # **Broches d’extension** | Mode développeur | Openterface Mini-KVM
 
-![mini-kvm-pins-port](https://assets.openterface.com/images/product/mini-kvm-pins-port.webp){:style="height:360px"}
-![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.webp){:style="height:300px"}
+![mini-kvm-pins-port](https://assets.openterface.com/images/product/mini-kvm-pins-port.webp){:style="max-height:360px"}
+![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.webp){:style="max-height:300px"}
 
 Openterface Mini-KVM intègre des broches d’extension pour le développement avancé et l’expérimentation avec [Open Software](/app). Ces broches ne sont pas exposées dans la configuration de boîtier standard.
 
@@ -18,8 +18,8 @@ Openterface Mini-KVM intègre des broches d’extension pour le développement a
 3. Téléchargez le [modèle 3D](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware/tree/main/models) du capot d’extension.
 4. Consultez notre [dépôt GitHub matériel](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware).
 
-![change-cap](https://assets.openterface.com/images/product/change-cap.svg#only-light){:style="height:300px"}
-![change-cap](https://assets.openterface.com/images/product/change-cap_1.svg#only-dark){:style="height:300px"}
+![change-cap](https://assets.openterface.com/images/product/change-cap.svg#only-light){:style="max-height:300px"}
+![change-cap](https://assets.openterface.com/images/product/change-cap_1.svg#only-dark){:style="max-height:300px"}
 
 !!! warning "Annulation de la garantie"
     Le retrait du boîtier d’origine peut annuler la garantie du produit. Toute modification ou tout démontage est effectué aux risques et périls de l’utilisateur.
@@ -29,10 +29,10 @@ Openterface Mini-KVM intègre des broches d’extension pour le développement a
 
 ## Configuration des broches
 
-![target-side](https://assets.openterface.com/images/product/extension-pins-1.svg#only-light){:style="height:200px"}
-![host-side](https://assets.openterface.com/images/product/extension-pins-2.svg#only-light){:style="height:200px"}
-![target-side](https://assets.openterface.com/images/product/extension-pins-1_1.svg#only-dark){:style="height:200px"}
-![host-side](https://assets.openterface.com/images/product/extension-pins-2_1.svg#only-dark){:style="height:200px"}
+![target-side](https://assets.openterface.com/images/product/extension-pins-1.svg#only-light){:style="max-height:200px"}
+![host-side](https://assets.openterface.com/images/product/extension-pins-2.svg#only-light){:style="max-height:200px"}
+![target-side](https://assets.openterface.com/images/product/extension-pins-1_1.svg#only-dark){:style="max-height:200px"}
+![host-side](https://assets.openterface.com/images/product/extension-pins-2_1.svg#only-dark){:style="max-height:200px"}
 
 Les broches d’extension offrent les connexions suivantes :
 
@@ -48,7 +48,7 @@ Les broches d’extension offrent les connexions suivantes :
 
 ## Capot de broches d’extension
 
-![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.webp){:style="height:360px"}
+![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.webp){:style="max-height:360px"}
 
 Ce capot de broches d’extension imprimé en 3D remplace le capot d’origine de l’Openterface Mini-KVM, permettant aux utilisateurs avancés d’exposer et d’accéder aux broches d’extension pour un développement personnalisé. Vous pouvez télécharger les fichiers du modèle 3D depuis notre dépôt GitHub et imprimer le capot vous‑même.
 

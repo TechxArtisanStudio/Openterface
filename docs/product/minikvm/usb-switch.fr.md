@@ -10,7 +10,7 @@ Le dispositif mini-KVM possède un seul port USB-A 2.0 qui peut **se connecter s
 
 Le contrôle provient de deux commutateurs :
 
-- **Commutateur Matériel** : Un commutateur physique à deux positions sur l'appareil ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} (vers l'intérieur = hôte, vers l'extérieur = cible).
+- **Commutateur Matériel** : Un commutateur physique à deux positions sur l'appareil ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="max-height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="max-height:20px"} (vers l'intérieur = hôte, vers l'extérieur = cible).
 - **Commutateur Logiciel** : Un bouton de basculement dans l'application hôte qui redirige instantanément le port USB vers l'hôte ou la cible.
 
 ## États Opérationnels

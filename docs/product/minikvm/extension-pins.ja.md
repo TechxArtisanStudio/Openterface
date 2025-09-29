@@ -6,8 +6,8 @@ keywords: "Mini-KVM 拡張ピン, カスタム開発, ハードウェア改造, 
 
 # **拡張ピン** | 開発者モード | Openterface Mini-KVM
 
-![mini-kvm-pins-port](https://assets.openterface.com/images/product/mini-kvm-pins-port.webp){:style="height:360px"}
-![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.webp){:style="height:300px"}
+![mini-kvm-pins-port](https://assets.openterface.com/images/product/mini-kvm-pins-port.webp){:style="max-height:360px"}
+![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.webp){:style="max-height:300px"}
 
 Openterface Mini-KVM には高度な開発や [Open Software](/app) の実験のための拡張ピンが搭載されています。これらのピンは標準のケース構成では露出していません。
 
@@ -18,8 +18,8 @@ Openterface Mini-KVM には高度な開発や [Open Software](/app) の実験の
 3. 拡張ピンキャップ用の [3D モデル](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware/tree/main/models) をダウンロードします。
 4. 当社の [Hardware GitHub リポジトリ](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware) を確認してください。
 
-![change-cap](https://assets.openterface.com/images/product/change-cap.svg#only-light){:style="height:300px"}
-![change-cap](https://assets.openterface.com/images/product/change-cap_1.svg#only-dark){:style="height:300px"}
+![change-cap](https://assets.openterface.com/images/product/change-cap.svg#only-light){:style="max-height:300px"}
+![change-cap](https://assets.openterface.com/images/product/change-cap_1.svg#only-dark){:style="max-height:300px"}
 
 !!! warning "保証無効"
     元のケースを取り外すと製品保証が無効になる場合があります。あらゆる改造や分解は、ユーザー自身の責任で行ってください。
@@ -29,10 +29,10 @@ Openterface Mini-KVM には高度な開発や [Open Software](/app) の実験の
 
 ## ピンの構成
 
-![target-side](https://assets.openterface.com/images/product/extension-pins-1.svg#only-light){:style="height:200px"}
-![host-side](https://assets.openterface.com/images/product/extension-pins-2.svg#only-light){:style="height:200px"}
-![target-side](https://assets.openterface.com/images/product/extension-pins-1_1.svg#only-dark){:style="height:200px"}
-![host-side](https://assets.openterface.com/images/product/extension-pins-2_1.svg#only-dark){:style="height:200px"}
+![target-side](https://assets.openterface.com/images/product/extension-pins-1.svg#only-light){:style="max-height:200px"}
+![host-side](https://assets.openterface.com/images/product/extension-pins-2.svg#only-light){:style="max-height:200px"}
+![target-side](https://assets.openterface.com/images/product/extension-pins-1_1.svg#only-dark){:style="max-height:200px"}
+![host-side](https://assets.openterface.com/images/product/extension-pins-2_1.svg#only-dark){:style="max-height:200px"}
 
 拡張ピンは次の接続を提供します：
 
@@ -48,7 +48,7 @@ Openterface Mini-KVM には高度な開発や [Open Software](/app) の実験の
 
 ## 拡張ピンキャップ（Extension Pin Cap）
 
-![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.webp){:style="height:360px"}
+![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.webp){:style="max-height:360px"}
 
 この 3D プリントの拡張ピンキャップは、Openterface Mini-KVM の元のキャップを置き換え、上級ユーザーがカスタム開発のために拡張ピンを露出・アクセスできるようにします。GitHub リポジトリから 3D モデルファイルをダウンロードし、自分で印刷できます。
 

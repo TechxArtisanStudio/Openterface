@@ -6,7 +6,7 @@ keywords: "Cablu Type-C, adaptor USB-A, transfer date rapid, încărcare rapidă
 
 # Cablu Type-C la Type-C cu Adaptor
 
-![C2C-150-Cable](https://assets.openterface.com/images/product/part/OP-05-CABLE150-C2C.webp){:style="height:360px"}
+![C2C-150-Cable](https://assets.openterface.com/images/product/part/OP-05-CABLE150-C2C.webp){:style="max-height:360px"}
 
 Acest cablu Type-C Tată-la-Tată elegant și plăcut la atingere, în portocaliu vibrant, este proiectat pentru conexiuni cu computerul gazdă. Vine cu un adaptor USB-C Mamă la USB-A Tată pentru compatibilitate îmbunătățită, asigurând că te poți conecta la computerele gazdă folosind fie porturi Type-C, fie USB-A. În plus, acest cablu suportă **încărcare rapidă de 240W** (Tensiune DC50V, Curent 5A, Putere 240W), făcându-l perfect nu doar pentru Mini-KVM-urile noastre, ci și pentru încărcarea telefonului mobil sau a laptopului.
 

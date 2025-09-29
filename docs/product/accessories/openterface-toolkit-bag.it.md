@@ -6,7 +6,7 @@ keywords: "toolkit bag, cable management bag, portable storage, Openterface bag"
 
 # Borsa per Attrezzi Openterface
 
-![Toolkit-bag](https://assets.openterface.com/images/product/part/OP-06-BAG-TOOLKIT.webp){:style="height:360px"}
+![Toolkit-bag](https://assets.openterface.com/images/product/part/OP-06-BAG-TOOLKIT.webp){:style="max-height:360px"}
 
 Mantieni il tuo Mini-KVM Openterface e i suoi accessori organizzati e portatili con questa compatta borsa per attrezzi. Dotata di una cerniera arancione elegante e tasche in rete elastiche, questa borsa assicura un'eccellente gestione dei cavi e facilità di trasporto, perfetta per i professionisti IT in movimento.
 

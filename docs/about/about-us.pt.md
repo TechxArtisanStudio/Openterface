@@ -2,8 +2,8 @@
 
 ## Nossa marca e slogan
 
-![Openterface Logo](https://assets.openterface.com/images/openterface.svg#only-light){:style="height:46px"}
-![Openterface Logo](https://assets.openterface.com/images/openterface_w.svg#only-dark){:style="height:46px"}
+![Openterface Logo](https://assets.openterface.com/images/openterface.svg#only-light){:style="max-height:46px"}
+![Openterface Logo](https://assets.openterface.com/images/openterface_w.svg#only-dark){:style="max-height:46px"}
 
 nascemos de uma ideia simples, porém poderosa:
 
@@ -21,8 +21,8 @@ Nosso objetivo é simples: **transformar complexidade em oportunidade e potencia
 
 ## Nossa empresa
 
-[![TechxArtisan Logo](https://assets.openterface.com/images/logo_txa_b.svg#only-light){:style="height:28px"}](https://techxartisan.com)
-[![TechxArtisan Logo](https://assets.openterface.com/images/logo_txa_w.svg#only-dark){:style="height:28px"}](https://techxartisan.com)
+[![TechxArtisan Logo](https://assets.openterface.com/images/logo_txa_b.svg#only-light){:style="max-height:28px"}](https://techxartisan.com)
+[![TechxArtisan Logo](https://assets.openterface.com/images/logo_txa_w.svg#only-dark){:style="max-height:28px"}](https://techxartisan.com)
 
 - **Nome da empresa:** **TechxArtisan Limited**  
 - **Endereço:** Unit 04-05, 16/F, Broadway Building, 54-62 Lockhart Road, Wanchai, Hong Kong SAR, China

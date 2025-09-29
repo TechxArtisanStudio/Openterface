@@ -12,12 +12,12 @@ This design allows you to quickly switch between devices for **file transfer**, 
 
 ## **Install the MicroSD Card**
 
-![kvm-go-install-sd](https://assets.openterface.com/images/kvm-go/install-sd.webp){:style="height:260px"}
+![kvm-go-install-sd](https://assets.openterface.com/images/kvm-go/install-sd.webp){:style="max-height:260px;width:auto"}
 
 !!! note "Proper MicroSD Card Installation"
     Insert the MicroSD card firmly until you feel a **click**, indicating it is securely seated and locked in place.
 
-![kvm-go-led-indicator](https://assets.openterface.com/images/kvm-go/led-indicator.webp){:style="height:260px"}
+![kvm-go-led-indicator](https://assets.openterface.com/images/kvm-go/led-indicator.webp){:style="max-height:260px;width:auto"}
 
 ## **Control Methods**
 
@@ -27,7 +27,7 @@ KVM-Go provides two ways to switch the MicroSD card between host and target:
 - **Software Switch** – A toggle button within the host app for instant switching.
 
 
-## **Switch Button & LED Indicators**
+## **Switch Button & LED Indicators** *(Under Development / Subject to Change)*
 
 The **dual-color LED indicators** display the current MicroSD connection state:
 

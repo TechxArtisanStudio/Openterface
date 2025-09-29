@@ -6,7 +6,7 @@ keywords: "Type-C数据线, USB-A适配器, 快速数据传输, 高速充电"
 
 # Type-C转Type-C数据线带适配器
 
-![C2C-150-Cable](https://assets.openterface.com/images/product/part/OP-05-CABLE150-C2C.webp){:style="height:360px"}
+![C2C-150-Cable](https://assets.openterface.com/images/product/part/OP-05-CABLE150-C2C.webp){:style="max-height:360px"}
 
 这款时尚且触感柔软的Type-C公对公数据线采用鲜艳的橙色设计，专为主机连接而设计。它配备USB-C母头转USB-A公头适配器，增强兼容性，确保您可以使用Type-C或USB-A端口连接到主机。此外，这款数据线支持**240W快充**（电压DC50V，电流5A，功率240W），不仅完美适用于我们的Mini-KVM，也适用于为您的手机或笔记本电脑充电。
 

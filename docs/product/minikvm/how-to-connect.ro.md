@@ -8,8 +8,8 @@ keywords: "Configurare Mini-KVM, ghid conexiune KVM, configurare KVM USB-C, cone
 
 ## Configurare rapidă
 
-![to-host](https://assets.openterface.com/images/product/to-host.svg#only-light){:style="height:200px"} ![to-host](https://assets.openterface.com/images/product/to-host_1.svg#only-dark){:style="height:200px"}
-![to-target](https://assets.openterface.com/images/product/to-target.svg#only-light){:style="height:200px"} ![to-target](https://assets.openterface.com/images/product/to-target_1.svg#only-dark){:style="height:200px"}
+![to-host](https://assets.openterface.com/images/product/to-host.svg#only-light){:style="max-height:200px"} ![to-host](https://assets.openterface.com/images/product/to-host_1.svg#only-dark){:style="max-height:200px"}
+![to-target](https://assets.openterface.com/images/product/to-target.svg#only-light){:style="max-height:200px"} ![to-target](https://assets.openterface.com/images/product/to-target_1.svg#only-dark){:style="max-height:200px"}
 
 **Configurare în 4 pași simpli:**
 
@@ -22,8 +22,8 @@ keywords: "Configurare Mini-KVM, ghid conexiune KVM, configurare KVM USB-C, cone
 
 ## Ghidul porturilor
 
-![host-side](https://assets.openterface.com/images/product/host-htc.svg#only-light){:style="width:300px"} ![target-side](https://assets.openterface.com/images/product/target-htc.svg#only-light){:style="width:300px"}
-![host-side](https://assets.openterface.com/images/product/host-htc_1.svg#only-dark){:style="width:300px"} ![target-side](https://assets.openterface.com/images/product/target-htc_1.svg#only-dark){:style="width:300px"}
+![host-side](https://assets.openterface.com/images/product/host-htc.svg#only-light){:style="max-width:300px"} ![target-side](https://assets.openterface.com/images/product/target-htc.svg#only-light){:style="max-width:300px"}
+![host-side](https://assets.openterface.com/images/product/host-htc_1.svg#only-dark){:style="max-width:300px"} ![target-side](https://assets.openterface.com/images/product/target-htc_1.svg#only-dark){:style="max-width:300px"}
 
 - ① **USB-C host**: Transfer de date către computerul host
 - ② **USB-C țintă**: Ieșire control tastatură/mouse
@@ -32,6 +32,6 @@ keywords: "Configurare Mini-KVM, ghid conexiune KVM, configurare KVM USB-C, cone
 
 !!! warning "Note importante" - **Alimentare**: Dispozitivele USB nu ar trebui să depășească 1,5W consum - **Blocare USB-A**: Necesită forță suplimentară pentru inserare/îndepărtare (evită dispozitive mici) - **Hub USB**: Folosește doar hub-uri alimentate extern; evită arbori USB adânci - **Comutare**: Vezi [Ghidul de comutare port USB](../usb-switch) pentru detalii
 
-⑤ ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} **Comutator**: Comută portul USB-A între host/țintă
+⑤ ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="max-height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="max-height:20px"} **Comutator**: Comută portul USB-A între host/țintă
 
-⑥ ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins.svg#only-light){:style="height:15px"} ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins_1.svg#only-dark){:style="height:15px"} **Pinuri de extensie**: Acces dezvoltator (vezi [Pinuri de extensie](../extension-pins))
+⑥ ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins.svg#only-light){:style="max-height:15px"} ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins_1.svg#only-dark){:style="max-height:15px"} **Pinuri de extensie**: Acces dezvoltator (vezi [Pinuri de extensie](../extension-pins))

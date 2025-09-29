@@ -10,7 +10,7 @@ mini-KVM 장치는 **호스트 또는 대상 컴퓨터 중 하나에** 연결할
 
 제어는 두 개의 스위치에서 나옵니다:
 
-- **하드웨어 스위치**: 장치의 물리적 2위치 토글 ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} (안쪽 = 호스트, 바깥쪽 = 대상).
+- **하드웨어 스위치**: 장치의 물리적 2위치 토글 ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="max-height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="max-height:20px"} (안쪽 = 호스트, 바깥쪽 = 대상).
 - **소프트웨어 스위치**: 호스트 앱의 토글 버튼으로 USB 포트를 즉시 호스트 또는 대상으로 리디렉션합니다.
 
 ## 작동 상태

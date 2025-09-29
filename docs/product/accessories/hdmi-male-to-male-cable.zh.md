@@ -6,7 +6,7 @@ keywords: "HDMI数据线, 公对公HDMI, 高清视频数据线, 紧凑型HDMI"
 
 # HDMI公对公数据线
 
-![HDMI-Cable](https://assets.openterface.com/images/product/part/OP-03-CABLE30-HDMI.webp){:style="height:360px"}
+![HDMI-Cable](https://assets.openterface.com/images/product/part/OP-03-CABLE30-HDMI.webp){:style="max-height:360px"}
 
 这款紧凑型HDMI数据线完美适用于将您的目标设备连接到视频输出捕获，确保与Openterface Mini-KVM的无缝集成。
 

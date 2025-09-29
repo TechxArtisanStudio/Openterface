@@ -6,7 +6,7 @@ keywords: "Type-C zu USB-A Kabel, USB-Adapter, Datentransferkabel, Steuersignal-
 
 # Type-C zu USB-A Kabel mit Adapter 30cm
 
-![C2A-30-Cable](https://assets.openterface.com/images/product/part/OP-04-CABLE30-C2A.webp){:style="height:360px"}
+![C2A-30-Cable](https://assets.openterface.com/images/product/part/OP-04-CABLE30-C2A.webp){:style="max-height:360px"}
 
 Dieses vielseitige Type-C Stecker zu USB-A Stecker Kabel, kombiniert mit einem USB-A Buchse zu USB-C Stecker Adapter, bietet flexible Konnektivität zu Zielgeräten. Es ermöglicht den Datentransfer und die Übertragung von Tastatur- und Maussteuersignalen, unabhängig davon, ob das Zielgerät einen USB-A oder Type-C Anschluss verwendet.
 

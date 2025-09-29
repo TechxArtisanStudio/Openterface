@@ -6,7 +6,7 @@ keywords: "VGA to HDMI、変換ケーブル、VGAオーディオ to HDMI、レ�
 
 # VGA to HDMI 変換ケーブル
 
-![CABLE100-VGA2HDMI](https://assets.openterface.com/images/product/part/CABLE100-VGA2HDMI-1.webp){:style="height:360px"}
+![CABLE100-VGA2HDMI](https://assets.openterface.com/images/product/part/CABLE100-VGA2HDMI-1.webp){:style="max-height:360px"}
 
 従来の VGA デバイスを現代の HDMI モニターやテレビに簡単に接続。  
 このケーブルは**VGA ビデオ**と**3.5mm オーディオ**を単一の HDMI 出力に統合し、1 つの接続で映像と音声の両方を提供します。

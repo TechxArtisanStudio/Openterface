@@ -10,7 +10,7 @@ Das mini-KVM-Gerät hat einen einzelnen USB-A 2.0-Port, der **sowohl** mit dem H
 
 Die Steuerung erfolgt über zwei Schalter:
 
-- **Hardware-Schalter**: Ein physischer Zwei-Positionen-Umschalter am Gerät ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} (nach innen = Host, nach außen = Ziel).
+- **Hardware-Schalter**: Ein physischer Zwei-Positionen-Umschalter am Gerät ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="max-height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="max-height:20px"} (nach innen = Host, nach außen = Ziel).
 - **Software-Schalter**: Ein Umschaltknopf in der Host-App, der den USB-Port sofort entweder zum Host oder zum Ziel umleitet.
 
 ## Betriebszustände

@@ -6,7 +6,7 @@ keywords: "USB-C Kabel, Nylon USB-C, Schnellladekabel, 240W Laden, Hochgeschwind
 
 # Nylon Type-C Kabel mit Adapter 240W Schnellladung & 10Gbps
 
-![Nylon-USB-C-Cable](https://assets.openterface.com/images/product/part/nylon-usb-c-cable.webp){:style="height:360px"}
+![Nylon-USB-C-Cable](https://assets.openterface.com/images/product/part/nylon-usb-c-cable.webp){:style="max-height:360px"}
 
 Erleben Sie überlegene Haltbarkeit und Leistung mit unserem neu verbesserten USB-C Kabel, das jetzt aus hochwertigem Nylonmaterial gefertigt ist. Dieses vielseitige Kabel bietet Schnellladung und Hochgeschwindigkeits-Datenübertragung und ist ein unverzichtbarer Begleiter für Ihr Technik-Setup.
 

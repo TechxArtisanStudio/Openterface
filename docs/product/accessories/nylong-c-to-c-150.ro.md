@@ -6,7 +6,7 @@ keywords: "Cablu USB-C, USB-C nylon, cablu încărcare rapidă, încărcare 240W
 
 # Cablu Type-C din Nylon cu Adaptor, Încărcare Rapidă 240W & 10Gbps
 
-![Nylon-USB-C-Cable](https://assets.openterface.com/images/product/part/nylon-usb-c-cable.webp){:style="height:360px"}
+![Nylon-USB-C-Cable](https://assets.openterface.com/images/product/part/nylon-usb-c-cable.webp){:style="max-height:360px"}
 
 Experimentează durabilitate și performanță superioare cu cablul nostru USB-C recent îmbunătățit, acum fabricat din material nylon premium. Acest cablu versatil oferă încărcare rapidă și transfer de date de mare viteză, făcându-l un companion esențial pentru configurația ta tehnică.
 

@@ -17,8 +17,8 @@ description: KVM-over-USB テクノロジー、その利点、および他の KV
 
 このドキュメント全体を通して、以下を指します：
 
-- 制御するラップトップまたは PC を ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![Host](https://assets.openterface.com/images/shell-icons/host.svg#only-light){:style="height:15px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"} ![Host](https://assets.openterface.com/images/shell-icons/host_1.svg#only-dark){:style="height:15px"}
-- 制御されるデバイスを ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![Target](https://assets.openterface.com/images/shell-icons/target.svg#only-light){:style="height:15px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"} ![Target](https://assets.openterface.com/images/shell-icons/target_1.svg#only-dark){:style="height:15px"}
+- 制御するラップトップまたは PC を ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="max-height:18px"} ![Host](https://assets.openterface.com/images/shell-icons/host.svg#only-light){:style="max-height:15px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="max-height:18px"} ![Host](https://assets.openterface.com/images/shell-icons/host_1.svg#only-dark){:style="max-height:15px"}
+- 制御されるデバイスを ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="max-height:18px"} ![Target](https://assets.openterface.com/images/shell-icons/target.svg#only-light){:style="max-height:15px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="max-height:18px"} ![Target](https://assets.openterface.com/images/shell-icons/target_1.svg#only-dark){:style="max-height:15px"}
 
 1. **画面ストリーミング**  
    ターゲットデバイスのディスプレイ（HDMI 経由）をキャプチャし、ホストコンピューター上のアプリケーションウィンドウに表示します。
