@@ -8,8 +8,8 @@ keywords: "Mini-KVM 设置, KVM 连接指南, USB-C KVM 设置, HDMI KVM 连接,
 
 ## 快速设置
 
-![to-host](https://assets.openterface.com/images/product/to-host.svg#only-light){:style="height:200px"} ![to-host](https://assets.openterface.com/images/product/to-host_1.svg#only-dark){:style="height:200px"}
-![to-target](https://assets.openterface.com/images/product/to-target.svg#only-light){:style="height:200px"} ![to-target](https://assets.openterface.com/images/product/to-target_1.svg#only-dark){:style="height:200px"}
+![to-host](https://assets.openterface.com/images/product/to-host.svg#only-light){:style="max-height:200px"} ![to-host](https://assets.openterface.com/images/product/to-host_1.svg#only-dark){:style="max-height:200px"}
+![to-target](https://assets.openterface.com/images/product/to-target.svg#only-light){:style="max-height:200px"} ![to-target](https://assets.openterface.com/images/product/to-target_1.svg#only-dark){:style="max-height:200px"}
 
 **4 个简单步骤完成设置：**
 
@@ -22,8 +22,8 @@ keywords: "Mini-KVM 设置, KVM 连接指南, USB-C KVM 设置, HDMI KVM 连接,
 
 ## 端口指南
 
-![host-side](https://assets.openterface.com/images/product/host-htc.svg#only-light){:style="width:300px"} ![target-side](https://assets.openterface.com/images/product/target-htc.svg#only-light){:style="width:300px"}
-![host-side](https://assets.openterface.com/images/product/host-htc_1.svg#only-dark){:style="width:300px"} ![target-side](https://assets.openterface.com/images/product/target-htc_1.svg#only-dark){:style="width:300px"}
+![host-side](https://assets.openterface.com/images/product/host-htc.svg#only-light){:style="max-width:300px"} ![target-side](https://assets.openterface.com/images/product/target-htc.svg#only-light){:style="max-width:300px"}
+![host-side](https://assets.openterface.com/images/product/host-htc_1.svg#only-dark){:style="max-width:300px"} ![target-side](https://assets.openterface.com/images/product/target-htc_1.svg#only-dark){:style="max-width:300px"}
 
 - ① **主机 USB-C**：数据传输到主机电脑
 - ② **目标 USB-C**：键盘/鼠标控制输出
@@ -32,6 +32,6 @@ keywords: "Mini-KVM 设置, KVM 连接指南, USB-C KVM 设置, HDMI KVM 连接,
 
 !!! warning "重要提示" - **电源**：USB 设备功耗不应超过 1.5W - **USB-A 锁定**：插入/拔出需要额外用力（避免使用小型设备） - **USB 集线器**：仅使用外部供电的集线器；避免深层 USB 树 - **切换**：详见 [USB 端口切换指南](../usb-switch)
 
-⑤ ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} **切换开关**：在主机/目标之间切换 USB-A 端口
+⑤ ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="max-height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="max-height:20px"} **切换开关**：在主机/目标之间切换 USB-A 端口
 
-⑥ ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins.svg#only-light){:style="height:15px"} ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins_1.svg#only-dark){:style="height:15px"} **扩展引脚**：开发者访问（参见 [扩展引脚](../extension-pins)）
+⑥ ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins.svg#only-light){:style="max-height:15px"} ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins_1.svg#only-dark){:style="max-height:15px"} **扩展引脚**：开发者访问（参见 [扩展引脚](../extension-pins)）

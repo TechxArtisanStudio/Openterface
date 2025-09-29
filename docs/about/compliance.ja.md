@@ -7,7 +7,7 @@ keywords: "オープンソースハードウェア, OSHWA認証, OSIコンプラ
 
 ## OSIコンプライアンス
 
-![Open Source Initiative®](https://assets.openterface.com/images/trademark/open-source-initiative.svg){:style="height:120px"}
+![Open Source Initiative®](https://assets.openterface.com/images/trademark/open-source-initiative.svg){:style="max-height:120px"}
 
 私たちのOpenterfaceデバイス用アプリは、**AGPL-3.0**という**Open Source Initiative®**承認のライセンスの下で提供されています。**OSIロゴ®**は[Open Source Initiative](http://opensource.org)の商標であり、私たちはオープンソースの定義に誇りを持って従っています。
 
@@ -15,15 +15,15 @@ keywords: "オープンソースハードウェア, OSHWA認証, OSIコンプラ
 
 ## OSHWAコンプライアンス
 
-![UID-CN000015](https://assets.openterface.com/images/trademark/oshw-cn000015.svg){:style="height:120px"}
-![Open Source Hardware Association](https://assets.openterface.com/images/trademark/open-source-hardware.svg){:style="height:100px"}
+![UID-CN000015](https://assets.openterface.com/images/trademark/oshw-cn000015.svg){:style="max-height:120px"}
+![Open Source Hardware Association](https://assets.openterface.com/images/trademark/open-source-hardware.svg){:style="max-height:100px"}
 
 私たちのOpenterfaceデバイス、例えばOpenterface Mini-KVMは、**Open Source Hardware Association**（OSHWA）によって誇りを持って認証されています。このOSHWA認証（[**UID CN000015**](https://certification.oshwa.org/cn000015.html)）は、オープンハードウェアの原則への私たちのコミットメントを確認し、すべての設計ファイル、ドキュメント、ソースコードが自由に学習、変更、配布、製造できることを保証します。デバイスの回路図や部品を探求したり、自分で一から作成したりするには、私たちのハードウェアGitHubリポジトリをチェックしてください：[Openterface_Mini-KVM_Hardware](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware)。
 
 ## その他のコンプライアンス
-![CE-Mark](https://assets.openterface.com/images/trademark/ce.svg){:style="height:60px"}
-![UKCA-Mark](https://assets.openterface.com/images/trademark/ukca.svg){:style="height:60px"}
-![WEEE-Mark](https://assets.openterface.com/images/trademark/weee.svg){:style="height:60px"}
-![RoSH-Mark](https://assets.openterface.com/images/trademark/rohs.svg){:style="height:60px"}
+![CE-Mark](https://assets.openterface.com/images/trademark/ce.svg){:style="max-height:60px"}
+![UKCA-Mark](https://assets.openterface.com/images/trademark/ukca.svg){:style="max-height:60px"}
+![WEEE-Mark](https://assets.openterface.com/images/trademark/weee.svg){:style="max-height:60px"}
+![RoSH-Mark](https://assets.openterface.com/images/trademark/rohs.svg){:style="max-height:60px"}
 
 私たちのOpenterfaceデバイスは、**CE**、**UKCA**、**WEEE**、および**RoHS**基準にも準拠しています。これにより、流通と使用に関するすべての安全、健康、環境要件を満たしていることが保証されます。

@@ -10,7 +10,7 @@ O dispositivo mini-KVM tem uma única porta USB-A 2.0 que pode **conectar-se tan
 
 O controle vem de dois comutadores:
 
-- **Comutador Hardware**: Um interruptor físico de duas posições no dispositivo ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} (para dentro = host, para fora = alvo).
+- **Comutador Hardware**: Um interruptor físico de duas posições no dispositivo ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="max-height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="max-height:20px"} (para dentro = host, para fora = alvo).
 - **Comutador Software**: Um botão de alternância no aplicativo host que redireciona instantaneamente a porta USB para o host ou alvo.
 
 ## Estados Operacionais

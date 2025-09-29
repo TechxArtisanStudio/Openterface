@@ -6,7 +6,7 @@ keywords: "cavo Type-C a USB-A, adattatore USB, cavo di trasferimento dati, cavo
 
 # Cavo Type-C a USB-A con Adattatore 30cm
 
-![C2A-30-Cable](https://assets.openterface.com/images/product/part/OP-04-CABLE30-C2A.webp){:style="height:360px"}
+![C2A-30-Cable](https://assets.openterface.com/images/product/part/OP-04-CABLE30-C2A.webp){:style="max-height:360px"}
 
 Questo versatile cavo Type-C Maschio a USB-A Maschio, abbinato a un adattatore USB-A Femmina a USB-C Maschio, offre una connettività flessibile ai dispositivi di destinazione. Consente il trasferimento dati e la trasmissione di segnali di controllo di tastiera e mouse, indipendentemente dal fatto che il dispositivo di destinazione utilizzi una porta USB-A o Type-C.
 

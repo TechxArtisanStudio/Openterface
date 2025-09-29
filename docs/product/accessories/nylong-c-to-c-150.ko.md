@@ -6,7 +6,7 @@ keywords: "USB-C 케이블, 나일론 USB-C, 고속 충전 케이블, 240W 충�
 
 # 어댑터 포함 나일론 USB-C 케이블 (240W 고속 충전 & 10Gbps)
 
-![Nylon-USB-C-Cable](https://assets.openterface.com/images/product/part/nylon-usb-c-cable.webp){:style="height:360px"}
+![Nylon-USB-C-Cable](https://assets.openterface.com/images/product/part/nylon-usb-c-cable.webp){:style="max-height:360px"}
 
 프리미엄 나일론 소재로 업그레이드된 USB-C 케이블로 탁월한 내구성과 성능을 경험해 보세요. 이 다용도 케이블은 빠른 충전과 고속 데이터 전송을 지원하여 기술 환경에 필수적인 동반자가 되어줍니다.
 

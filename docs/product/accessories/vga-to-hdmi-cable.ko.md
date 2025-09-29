@@ -6,7 +6,7 @@ keywords: "VGA to HDMI, 변환 케이블, VGA 오디오 to HDMI, 레거시 장�
 
 # VGA to HDMI 변환 케이블
 
-![CABLE100-VGA2HDMI](https://assets.openterface.com/images/product/part/CABLE100-VGA2HDMI-1.webp){:style="height:360px"}
+![CABLE100-VGA2HDMI](https://assets.openterface.com/images/product/part/CABLE100-VGA2HDMI-1.webp){:style="max-height:360px"}
 
 구형 VGA 장치를 현대적인 HDMI 모니터나 TV에 쉽게 연결하세요.  
 이 케이블은 **VGA 비디오**와 **3.5mm 오디오**를 단일 HDMI 출력으로 결합하여 하나의 연결로 화면과 소리를 모두 전달합니다.

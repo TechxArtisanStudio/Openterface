@@ -6,7 +6,7 @@ keywords: "VGA zu HDMI, Konverter-Kabel, VGA Audio zu HDMI, Legacy-Geräte-Verbi
 
 # VGA zu HDMI Konverter-Kabel
 
-![CABLE100-VGA2HDMI](https://assets.openterface.com/images/product/part/CABLE100-VGA2HDMI-1.webp){:style="height:360px"}
+![CABLE100-VGA2HDMI](https://assets.openterface.com/images/product/part/CABLE100-VGA2HDMI-1.webp){:style="max-height:360px"}
 
 Verbinden Sie einfach ältere VGA-Geräte mit modernen HDMI-Monitoren oder TVs.  
 Dieses Kabel kombiniert **VGA-Video** und **3.5mm Audio** in einen einzelnen HDMI-Ausgang und liefert sowohl Bild als auch Ton über eine Verbindung.

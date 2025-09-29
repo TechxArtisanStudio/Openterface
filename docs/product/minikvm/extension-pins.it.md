@@ -6,8 +6,8 @@ keywords: "Mini-KVM pin di estensione, sviluppo personalizzato, modifica hardwar
 
 # **Pin di estensione** | Modalità sviluppatore | Openterface Mini-KVM
 
-![mini-kvm-pins-port](https://assets.openterface.com/images/product/mini-kvm-pins-port.webp){:style="height:360px"}
-![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.webp){:style="height:300px"}
+![mini-kvm-pins-port](https://assets.openterface.com/images/product/mini-kvm-pins-port.webp){:style="max-height:360px"}
+![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.webp){:style="max-height:300px"}
 
 Openterface Mini-KVM dispone di pin di estensione per lo sviluppo avanzato e la sperimentazione con [Open Software](/app). Questi pin non sono esposti nella configurazione standard del case.
 
@@ -18,8 +18,8 @@ Openterface Mini-KVM dispone di pin di estensione per lo sviluppo avanzato e la 
 3. Scarica il [modello 3D](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware/tree/main/models) per l’Extension Pin Cap.
 4. Consulta il nostro [repository GitHub hardware](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware).
 
-![change-cap](https://assets.openterface.com/images/product/change-cap.svg#only-light){:style="height:300px"}
-![change-cap](https://assets.openterface.com/images/product/change-cap_1.svg#only-dark){:style="height:300px"}
+![change-cap](https://assets.openterface.com/images/product/change-cap.svg#only-light){:style="max-height:300px"}
+![change-cap](https://assets.openterface.com/images/product/change-cap_1.svg#only-dark){:style="max-height:300px"}
 
 !!! warning "Garanzia nulla"
     La rimozione del case originale può invalidare la garanzia del prodotto. Qualsiasi modifica o smontaggio è a rischio e pericolo dell’utente.
@@ -29,10 +29,10 @@ Openterface Mini-KVM dispone di pin di estensione per lo sviluppo avanzato e la 
 
 ## Configurazione dei pin
 
-![target-side](https://assets.openterface.com/images/product/extension-pins-1.svg#only-light){:style="height:200px"}
-![host-side](https://assets.openterface.com/images/product/extension-pins-2.svg#only-light){:style="height:200px"}
-![target-side](https://assets.openterface.com/images/product/extension-pins-1_1.svg#only-dark){:style="height:200px"}
-![host-side](https://assets.openterface.com/images/product/extension-pins-2_1.svg#only-dark){:style="height:200px"}
+![target-side](https://assets.openterface.com/images/product/extension-pins-1.svg#only-light){:style="max-height:200px"}
+![host-side](https://assets.openterface.com/images/product/extension-pins-2.svg#only-light){:style="max-height:200px"}
+![target-side](https://assets.openterface.com/images/product/extension-pins-1_1.svg#only-dark){:style="max-height:200px"}
+![host-side](https://assets.openterface.com/images/product/extension-pins-2_1.svg#only-dark){:style="max-height:200px"}
 
 I pin di estensione forniscono le seguenti connessioni:
 
@@ -48,7 +48,7 @@ I pin di estensione forniscono le seguenti connessioni:
 
 ## Extension Pin Cap
 
-![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.webp){:style="height:360px"}
+![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.webp){:style="max-height:360px"}
 
 Questo cappuccio dei pin di estensione stampato in 3D sostituisce il cappuccio originale dell’Openterface Mini-KVM e consente agli utenti avanzati di esporre e accedere ai pin di estensione per lo sviluppo personalizzato. Puoi scaricare i file del modello 3D dal nostro repository GitHub e stampare il cappuccio autonomamente.
 

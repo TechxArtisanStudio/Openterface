@@ -8,7 +8,7 @@ keywords: "Mini-KVM, KVM 스위치, HDMI KVM, USB KVM, headless 제어, 컴퓨�
 
 ## 옵션 1: **툴킷 패키지**
 
-![toolkit-open](https://assets.openterface.com/images/product/toolkit-open.webp){:style="width:480px"}
+![toolkit-open](https://assets.openterface.com/images/product/toolkit-open.webp){:style="max-width:480px"}
 
 🎯 **완전 솔루션** - 최고의 가치와 보장된 호환성:
 
@@ -28,7 +28,7 @@ keywords: "Mini-KVM, KVM 스위치, HDMI KVM, USB KVM, headless 제어, 컴퓨�
 
 ## 옵션 2: **기본 패키지**
 
-![basic-pack](https://assets.openterface.com/images/product/basic-with-maunal.webp){:style="width:480px"}
+![basic-pack](https://assets.openterface.com/images/product/basic-with-maunal.webp){:style="max-width:480px"}
 
 **필수 솔루션** - 이미 고품질 케이블을 보유하고 있고 최소한의 패키징을 선호하는 사용자를 위한:
 

@@ -6,7 +6,7 @@ keywords: "工具包袋, 线缆管理袋, 便携式存储, Openterface包"
 
 # Openterface工具包袋
 
-![Toolkit-bag](https://assets.openterface.com/images/product/part/OP-06-BAG-TOOLKIT.webp){:style="height:360px"}
+![Toolkit-bag](https://assets.openterface.com/images/product/part/OP-06-BAG-TOOLKIT.webp){:style="max-height:360px"}
 
 使用这款紧凑型工具包袋让您的Openterface Mini-KVM及其配件井然有序且便于携带。采用时尚的橙色拉链和弹性网眼口袋，这款包确保出色的线缆管理和便于运输，非常适合移动中的IT专业人士。
 

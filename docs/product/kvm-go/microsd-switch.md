@@ -1,26 +1,41 @@
 ---
 title: "MicroSD Card Switching Guide"
-description: "Learn about the dual hardware-software MicroSD switching system in Openterface KVM-Go. Understand the four operational states, LED indicators, safety guidelines, and file transfer capabilities."
+description: "Learn how to use the dual hardware-software MicroSD switching system in Openterface KVM-Go. Understand the four operational states, LED indicators, safety guidelines, and file transfer capabilities."
 keywords: "MicroSD switching, KVM switch, hardware switch, software switch, MicroSD card control, KVM over USB, file transfer, USB device management, computer peripherals, MicroSD power management, LED indicators"
 ---
 
 # **MicroSD Card Switching Guide** | Openterface KVM-Go
 
-The KVM-Go device features a single MicroSD card slot that can **connect to either** the host or the target computer, but **never both at once**. 
+The **Openterface KVM-Go** includes a single MicroSD card slot that can be shared between the host computer and the target device, but never both at the same time.
 
-Control comes from two switches:
+This design allows you to quickly switch between devices for **file transfer**, without physically removing the card, making your workflow faster and more efficient. It can also just serve as your **regular MicroSD card reader**.
 
-- **Hardware Button**: A physical button on the device that toggles between host and target connections.  
-- **Software Switch**: A toggle button in the host app that instantly redirects the MicroSD slot to either host or target.
+## **Install the MicroSD Card**
 
-## LED Status Indicators
+![kvm-go-install-sd](https://assets.openterface.com/images/kvm-go/install-sd.webp){:style="max-height:260px;width:auto"}
 
-The device includes **dual-color LED indicators** to show the current connection state:
+!!! note "Proper MicroSD Card Installation"
+    Insert the MicroSD card firmly until you feel a **click**, indicating it is securely seated and locked in place.
 
-- **🔵 Blue LED ON**: MicroSD card is mounted to the **target device**
-- **🟢 Green LED ON**: MicroSD card is mounted to the **host device**  
-- **LED OFF**: No MicroSD card inserted or device powered off
-- **LED FLASHING**: MicroSD card is being read from or written to (data transfer in progress)
+## **Control Methods**
+
+KVM-Go provides two ways to switch the MicroSD card between host and target:
+
+- **Hardware Button** – A physical button on the device for manual control.  
+- **Software Switch** – A toggle button within the host app for instant switching.
+
+
+## **Switch Button & LED Indicators** 
+
+![kvm-go-led-indicator](https://assets.openterface.com/images/kvm-go/led-indicator.webp){:style="max-height:260px;width:auto"}
+
+The **dual-color LED indicators** display the current MicroSD connection state *(Note: Under Development / Subject to Change)*:
+
+- **🔵 Blue LED ON** – MicroSD card is mounted to the **target device**  
+- **🟢 Green LED ON** – MicroSD card is mounted to the **host computer**  
+- **LED OFF** – No MicroSD card inserted or device powered off  
+- **LED FLASHING** – Data transfer in progress (read/write activity)
 
 !!! note "Auto-Mounting Feature (Experimental)"
-    Currently, the device defaults to mounting the MicroSD card to the **host** when first connected. However, we're developing an experimental feature where the MicroSD card will automatically mount to whichever port (host or target) connects first. This will make the device even more user-friendly.
+    By default, the MicroSD card mounts to the **host** when the device is first powered on.  
+    An upcoming experimental feature will allow **auto-mounting** to whichever side (host or target) connects first, making the experience even more seamless.

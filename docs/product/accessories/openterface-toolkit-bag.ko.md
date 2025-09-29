@@ -6,7 +6,7 @@ keywords: "툴킷 가방, 케이블 관리 가방, 휴대용 보관함, Openterf
 
 # Openterface 툴킷 가방
 
-![Toolkit-bag](https://assets.openterface.com/images/product/part/OP-06-BAG-TOOLKIT.webp){:style="height:360px"}
+![Toolkit-bag](https://assets.openterface.com/images/product/part/OP-06-BAG-TOOLKIT.webp){:style="max-height:360px"}
 
 Openterface Mini-KVM 및 액세서리를 깔끔하게 정리하고 휴대할 수 있는 컴팩트 툴킷 가방입니다. 스타일리시한 오렌지 지퍼와 신축성 있는 메쉬 포켓을 갖춰 우수한 케이블 관리와 휴대 편의성을 제공합니다. 이동이 잦은 IT 전문가에게 적합합니다.
 

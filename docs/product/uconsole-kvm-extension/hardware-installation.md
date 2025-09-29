@@ -32,14 +32,14 @@ Lift the board **straight up** to avoid bending the spring contactors.
 
 ??? note "Check fit before final installation"
     You can first seat the board **without the washer** to test the fit. If the board feels loose or contacts are uneven, add the washer and reseat the board. The Openterface KVM Extension is 1.0 mm thick, slightly thinner than the original LTE module (1.2 mm). Using the provided washer ensures stable mounting and reliable spring contact.  
-    ![extension-slot-loose](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-slot-loose.webp){:style="height:220px"}
+    ![extension-slot-loose](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-slot-loose.webp){:style="max-height:220px"}
 
 ### **4. Secure the Board**
 Reinsert screws and tighten **gently** — **do not overtighten**, as this may damage the board or strip the threads.
 
-![extension-screw-washer-installed](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-screw-washer-installed.jpg){:style="height:220px"}
-![extension-screw-washer-installing](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-screw-washer-installing.jpg){:style="height:220px"}
-![extension-install-1](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-install-1.webp){:style="height:220px"}
+![extension-screw-washer-installed](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-screw-washer-installed.jpg){:style="max-height:220px"}
+![extension-screw-washer-installing](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-screw-washer-installing.jpg){:style="max-height:220px"}
+![extension-install-1](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-install-1.webp){:style="max-height:220px"}
 
 ### **5. Verify Installation**
 The board should sit **flat and stable**, with even spring contact across all pads. There should be no noticeable wobble or movement.
@@ -49,7 +49,7 @@ Reinstall the expansion slot cover to protect the KVM Extension board and mainta
 
 ??? note "Text Orientation on Expansion Slot Cover"
     The text on the expansion slot cover may appear "upside down" when viewed from certain angles. This is intentional design - the text is oriented to be readable when you're holding the uConsole and looking at the ports from top to bottom, which is the natural viewing position when using the device.
-    ![expansion-slot-text-orientation](https://assets.openterface.com/images/product/openterface-kvm-uconsole-expansion-slot-text-orientation.webp){:style="height:220px"}
+    ![expansion-slot-text-orientation](https://assets.openterface.com/images/product/openterface-kvm-uconsole-expansion-slot-text-orientation.webp){:style="max-height:220px"}
 
 ---
 

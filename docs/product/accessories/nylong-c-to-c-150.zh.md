@@ -6,7 +6,7 @@ keywords: "USB-C数据线, 尼龙USB-C, 快充数据线, 240W充电, 高速数�
 
 # 尼龙Type-C数据线带适配器240W快充和10Gbps
 
-![Nylon-USB-C-Cable](https://assets.openterface.com/images/product/part/nylon-usb-c-cable.webp){:style="height:360px"}
+![Nylon-USB-C-Cable](https://assets.openterface.com/images/product/part/nylon-usb-c-cable.webp){:style="max-height:360px"}
 
 体验我们全新升级的USB-C数据线的卓越耐用性和性能，现采用优质尼龙材料制作。这款多功能数据线提供快充和高速数据传输，是您技术设置的重要伴侣。
 

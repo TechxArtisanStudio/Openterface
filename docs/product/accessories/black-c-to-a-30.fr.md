@@ -6,7 +6,7 @@ keywords: "Câble Type-C vers USB-A, adaptateur USB, câble de transfert de donn
 
 # Câble Type-C vers USB-A avec Adaptateur 30cm
 
-![C2A-30-Cable](https://assets.openterface.com/images/product/part/OP-04-CABLE30-C2A.webp){:style="height:360px"}
+![C2A-30-Cable](https://assets.openterface.com/images/product/part/OP-04-CABLE30-C2A.webp){:style="max-height:360px"}
 
 Ce câble polyvalent Type-C Mâle vers USB-A Mâle, accompagné d'un adaptateur USB-A Femelle vers USB-C Mâle, offre une connectivité flexible aux appareils cibles. Il permet le transfert de données et la transmission des signaux de contrôle du clavier et de la souris, que l'appareil cible utilise un port USB-A ou Type-C.
 

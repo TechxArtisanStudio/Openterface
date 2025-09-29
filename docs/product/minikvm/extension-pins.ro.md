@@ -6,8 +6,8 @@ keywords: "Mini-KVM pini de extensie, dezvoltare personalizată, modificare hard
 
 # **Pini de extensie** | Mod dezvoltator | Openterface Mini-KVM
 
-![mini-kvm-pins-port](https://assets.openterface.com/images/product/mini-kvm-pins-port.webp){:style="height:360px"}
-![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.webp){:style="height:300px"}
+![mini-kvm-pins-port](https://assets.openterface.com/images/product/mini-kvm-pins-port.webp){:style="max-height:360px"}
+![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.webp){:style="max-height:300px"}
 
 Openterface Mini-KVM dispune de pini de extensie pentru dezvoltare avansată și experimente cu [Open Software](/app). Acești pini nu sunt expuși în configurația standard a carcasei.
 
@@ -18,8 +18,8 @@ Openterface Mini-KVM dispune de pini de extensie pentru dezvoltare avansată și
 3. Descărcați [modelul 3D](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware/tree/main/models) pentru Extension Pin Cap.
 4. Consultați [repository-ul nostru Hardware pe GitHub](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware).
 
-![change-cap](https://assets.openterface.com/images/product/change-cap.svg#only-light){:style="height:300px"}
-![change-cap](https://assets.openterface.com/images/product/change-cap_1.svg#only-dark){:style="height:300px"}
+![change-cap](https://assets.openterface.com/images/product/change-cap.svg#only-light){:style="max-height:300px"}
+![change-cap](https://assets.openterface.com/images/product/change-cap_1.svg#only-dark){:style="max-height:300px"}
 
 !!! warning "Garanție anulată"
     Îndepărtarea carcasei originale poate anula garanția produsului. Orice modificare sau dezasamblare se efectuează pe propria răspundere a utilizatorului.
@@ -29,10 +29,10 @@ Openterface Mini-KVM dispune de pini de extensie pentru dezvoltare avansată și
 
 ## Configurația pinilor
 
-![target-side](https://assets.openterface.com/images/product/extension-pins-1.svg#only-light){:style="height:200px"}
-![host-side](https://assets.openterface.com/images/product/extension-pins-2.svg#only-light){:style="height:200px"}
-![target-side](https://assets.openterface.com/images/product/extension-pins-1_1.svg#only-dark){:style="height:200px"}
-![host-side](https://assets.openterface.com/images/product/extension-pins-2_1.svg#only-dark){:style="height:200px"}
+![target-side](https://assets.openterface.com/images/product/extension-pins-1.svg#only-light){:style="max-height:200px"}
+![host-side](https://assets.openterface.com/images/product/extension-pins-2.svg#only-light){:style="max-height:200px"}
+![target-side](https://assets.openterface.com/images/product/extension-pins-1_1.svg#only-dark){:style="max-height:200px"}
+![host-side](https://assets.openterface.com/images/product/extension-pins-2_1.svg#only-dark){:style="max-height:200px"}
 
 Pinii de extensie oferă următoarele conexiuni:
 
@@ -48,7 +48,7 @@ Pinii de extensie oferă următoarele conexiuni:
 
 ## Capac pentru pini de extensie
 
-![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.webp){:style="height:360px"}
+![pin-cap](https://assets.openterface.com/images/product/part/pin-cap.webp){:style="max-height:360px"}
 
 Acest capac pentru pini de extensie imprimat 3D înlocuiește capacul original al Openterface Mini-KVM, permițând utilizatorilor avansați să expună și să acceseze pinilor de extensie pentru dezvoltare personalizată. Puteți descărca fișierele modelului 3D din repository-ul nostru GitHub și să tipăriți singuri capacul.
 

@@ -6,7 +6,7 @@ keywords: "USB-Cケーブル, ナイロンUSB-C, 急速充電ケーブル, 240W�
 
 # ナイロンType-Cケーブル（アダプター付き）240W急速充電 & 10Gbps
 
-![Nylon-USB-C-Cable](https://assets.openterface.com/images/product/part/nylon-usb-c-cable.webp){:style="height:360px"}
+![Nylon-USB-C-Cable](https://assets.openterface.com/images/product/part/nylon-usb-c-cable.webp){:style="max-height:360px"}
 
 新しくアップグレードされたUSB-Cケーブルは、プレミアムナイロン素材で作られており、優れた耐久性とパフォーマンスを提供します。この多用途のケーブルは、急速充電と高速データ転送を実現し、あなたのテックセットアップに欠かせない存在です。
 

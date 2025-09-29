@@ -10,7 +10,7 @@ mini-KVM 设备有一个 USB-A 2.0 端口，可以**连接到**主机或目标�
 
 控制来自两个开关：
 
-- **硬件开关**：设备上的物理双位拨动开关 ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"}（向内=主机，向外=目标）。
+- **硬件开关**：设备上的物理双位拨动开关 ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="max-height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="max-height:20px"}（向内=主机，向外=目标）。
 - **软件开关**：主机应用程序中的拨动按钮，可立即将 USB 端口重定向到主机或目标。
 
 ## 操作状态

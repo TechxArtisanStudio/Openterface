@@ -6,7 +6,7 @@ keywords: "Type-C to USB-Aケーブル, USBアダプター, データ転送ケ�
 
 # Type-C to USB-Aケーブル（アダプター付き）30cm
 
-![C2A-30-Cable](https://assets.openterface.com/images/product/part/OP-04-CABLE30-C2A.webp){:style="height:360px"}
+![C2A-30-Cable](https://assets.openterface.com/images/product/part/OP-04-CABLE30-C2A.webp){:style="max-height:360px"}
 
 この多用途のType-CオスからUSB-Aオスケーブルは、USB-AメスからUSB-Cオスアダプターと組み合わせて、ターゲットデバイスへの柔軟な接続を提供します。USB-AまたはType-Cポートを使用するターゲットデバイスに関係なく、データ転送とキーボードおよびマウスの制御信号の伝送を可能にします。
 

@@ -56,20 +56,26 @@ Major improvements:
 
 **:material-chat-question:{ .faq } Can it transfer files?**
 
-Yes — via the switchable MicroSD slot shared between host and target devices.
+Yes — via the **switchable MicroSD slot** that can be shared between host and target devices, allowing for quick file transfers without physically removing the card.
 
 **:material-chat-question:{ .faq } How do I switch the MicroSD direction?**
 
-Two ways:
-1. **Hardware**: Press the physical button on the device
-2. **Software**: Use the toggle in the host app
+Two convenient methods:
+1. **Hardware Button** – Physical button on the device for manual control
+2. **Software Switch** – Toggle button within the host app for instant switching
 
 **:material-chat-question:{ .faq } What do the LED indicators mean?**
 
-- **🔵 Blue LED**: MicroSD card is mounted to the target device
-- **🟢 Green LED**: MicroSD card is mounted to the host device
-- **LED OFF**: No MicroSD card inserted or device powered off
-- **LED FLASHING**: MicroSD card is being read from or written to
+The **dual-color LED indicators** show the current MicroSD connection state:
+
+- **🔵 Blue LED ON** – MicroSD card is mounted to the **target device**  
+- **🟢 Green LED ON** – MicroSD card is mounted to the **host computer**  
+- **LED OFF** – No MicroSD card inserted or device powered off  
+- **LED FLASHING** – Data transfer in progress (read/write activity)
+
+**:material-chat-question:{ .faq } How do I properly install the MicroSD card?**
+
+Insert the MicroSD card firmly until you feel a **click**, indicating it is securely seated and locked in place. This tactile feedback confirms proper connection.
 
 ---
 

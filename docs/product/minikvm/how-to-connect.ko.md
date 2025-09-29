@@ -8,8 +8,8 @@ keywords: "Mini-KVM 설정, KVM 연결 가이드, USB-C KVM 설정, HDMI KVM 연
 
 ## 빠른 설정
 
-![to-host](https://assets.openterface.com/images/product/to-host.svg#only-light){:style="height:200px"} ![to-host](https://assets.openterface.com/images/product/to-host_1.svg#only-dark){:style="height:200px"}
-![to-target](https://assets.openterface.com/images/product/to-target.svg#only-light){:style="height:200px"} ![to-target](https://assets.openterface.com/images/product/to-target_1.svg#only-dark){:style="height:200px"}
+![to-host](https://assets.openterface.com/images/product/to-host.svg#only-light){:style="max-height:200px"} ![to-host](https://assets.openterface.com/images/product/to-host_1.svg#only-dark){:style="max-height:200px"}
+![to-target](https://assets.openterface.com/images/product/to-target.svg#only-light){:style="max-height:200px"} ![to-target](https://assets.openterface.com/images/product/to-target_1.svg#only-dark){:style="max-height:200px"}
 
 **4단계로 간단하게 설정:**
 
@@ -22,8 +22,8 @@ keywords: "Mini-KVM 설정, KVM 연결 가이드, USB-C KVM 설정, HDMI KVM 연
 
 ## 포트 가이드
 
-![host-side](https://assets.openterface.com/images/product/host-htc.svg#only-light){:style="width:300px"} ![target-side](https://assets.openterface.com/images/product/target-htc.svg#only-light){:style="width:300px"}
-![host-side](https://assets.openterface.com/images/product/host-htc_1.svg#only-dark){:style="width:300px"} ![target-side](https://assets.openterface.com/images/product/target-htc_1.svg#only-dark){:style="width:300px"}
+![host-side](https://assets.openterface.com/images/product/host-htc.svg#only-light){:style="max-width:300px"} ![target-side](https://assets.openterface.com/images/product/target-htc.svg#only-light){:style="max-width:300px"}
+![host-side](https://assets.openterface.com/images/product/host-htc_1.svg#only-dark){:style="max-width:300px"} ![target-side](https://assets.openterface.com/images/product/target-htc_1.svg#only-dark){:style="max-width:300px"}
 
 - ① **호스트 USB-C**: 호스트 컴퓨터로의 데이터 전송
 - ② **대상 USB-C**: 키보드/마우스 제어 출력
@@ -32,6 +32,6 @@ keywords: "Mini-KVM 설정, KVM 연결 가이드, USB-C KVM 설정, HDMI KVM 연
 
 !!! warning "중요 사항" - **전원**: USB 장치는 1.5W 소비를 초과하지 않아야 함 - **USB-A 잠금**: 삽입/제거에 추가 힘이 필요 (작은 장치 피하기) - **USB 허브**: 외부 전원 공급 허브만 사용; 깊은 USB 트리 피하기 - **전환**: 자세한 내용은 [USB 포트 전환 가이드](../usb-switch) 참조
 
-⑤ ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} **토글 스위치**: USB-A 포트를 호스트/대상 간 전환
+⑤ ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="max-height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="max-height:20px"} **토글 스위치**: USB-A 포트를 호스트/대상 간 전환
 
-⑥ ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins.svg#only-light){:style="height:15px"} ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins_1.svg#only-dark){:style="height:15px"} **확장 핀**: 개발자 액세스 ([확장 핀](../extension-pins) 참조)
+⑥ ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins.svg#only-light){:style="max-height:15px"} ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins_1.svg#only-dark){:style="max-height:15px"} **확장 핀**: 개발자 액세스 ([확장 핀](../extension-pins) 참조)
