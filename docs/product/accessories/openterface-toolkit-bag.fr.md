@@ -6,7 +6,7 @@ keywords: "sac à outils, sac de gestion des câbles, rangement portable, sac Op
 
 # Sac à Outils Openterface
 
-![Toolkit-bag](https://assets.openterface.com/images/product/part/OP-06-BAG-TOOLKIT.webp){:style="height:360px"}
+![Toolkit-bag](https://assets.openterface.com/images/product/part/OP-06-BAG-TOOLKIT.webp){:style="max-height:360px"}
 
 Gardez votre Mini-KVM Openterface et ses accessoires organisés et portables avec ce sac à outils compact. Doté d'une fermeture éclair orange élégante et de poches en maille extensible, ce sac assure une excellente gestion des câbles et une facilité de transport, parfait pour les professionnels de l'informatique en déplacement.
 

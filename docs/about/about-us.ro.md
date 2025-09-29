@@ -2,8 +2,8 @@
 
 ## Marca și sloganul nostru
 
-![Openterface Logo](https://assets.openterface.com/images/openterface.svg#only-light){:style="height:46px"}
-![Openterface Logo](https://assets.openterface.com/images/openterface_w.svg#only-dark){:style="height:46px"}
+![Openterface Logo](https://assets.openterface.com/images/openterface.svg#only-light){:style="max-height:46px"}
+![Openterface Logo](https://assets.openterface.com/images/openterface_w.svg#only-dark){:style="max-height:46px"}
 
 s-a născut dintr-o idee simplă, dar puternică:
 
@@ -21,8 +21,8 @@ Scopul nostru este simplu: **să transformăm complexitatea în oportunitate și
 
 ## Compania noastră
 
-[![TechxArtisan Logo](https://assets.openterface.com/images/logo_txa_b.svg#only-light){:style="height:28px"}](https://techxartisan.com)
-[![TechxArtisan Logo](https://assets.openterface.com/images/logo_txa_w.svg#only-dark){:style="height:28px"}](https://techxartisan.com)
+[![TechxArtisan Logo](https://assets.openterface.com/images/logo_txa_b.svg#only-light){:style="max-height:28px"}](https://techxartisan.com)
+[![TechxArtisan Logo](https://assets.openterface.com/images/logo_txa_w.svg#only-dark){:style="max-height:28px"}](https://techxartisan.com)
 
 - **Numele companiei:** **TechxArtisan Limited**  
 - **Adresă:** Unit 04-05, 16/F, Broadway Building, 54-62 Lockhart Road, Wanchai, Hong Kong SAR, China

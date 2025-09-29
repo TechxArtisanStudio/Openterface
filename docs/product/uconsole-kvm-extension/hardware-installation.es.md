@@ -32,14 +32,14 @@ Levanta la placa **directamente hacia arriba** para evitar doblar los contactos 
 
 ??? note "Verificar ajuste antes de la instalación final"
     Puedes primero asentar la placa **sin la arandela** para probar el ajuste. Si la placa se siente suelta o los contactos son desiguales, añade la arandela y vuelve a asentar la placa. La Openterface KVM Extension tiene 1,0 mm de grosor, ligeramente más delgada que el módulo LTE original (1,2 mm). Usar la arandela proporcionada asegura un montaje estable y contacto de resorte confiable.  
-    ![extension-slot-loose](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-slot-loose.webp){:style="height:220px"}
+    ![extension-slot-loose](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-slot-loose.webp){:style="max-height:220px"}
 
 ### **4. Asegurar la placa**
 Vuelve a insertar los tornillos y aprieta **suavemente** — **no aprietes demasiado**, ya que esto puede dañar la placa o desgastar las roscas.
 
-![extension-screw-washer-installed](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-screw-washer-installed.jpg){:style="height:220px"}
-![extension-screw-washer-installing](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-screw-washer-installing.jpg){:style="height:220px"}
-![extension-install-1](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-install-1.webp){:style="height:220px"}
+![extension-screw-washer-installed](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-screw-washer-installed.jpg){:style="max-height:220px"}
+![extension-screw-washer-installing](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-screw-washer-installing.jpg){:style="max-height:220px"}
+![extension-install-1](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-install-1.webp){:style="max-height:220px"}
 
 ### **5. Verificar instalación**
 La placa debe estar **plana y estable**, con contacto de resorte uniforme en todas las almohadillas. No debe haber movimiento o balanceo notable.
@@ -49,7 +49,7 @@ Reinstala la tapa de la ranura de expansión para proteger la placa Extensión K
 
 ??? note "Orientación del texto en la tapa de ranura de expansión"
     El texto en la tapa de la ranura de expansión puede aparecer "al revés" cuando se ve desde ciertos ángulos. Este es un diseño intencional - el texto está orientado para ser legible cuando sostienes el uConsole y miras los puertos de arriba hacia abajo, que es la posición de visualización natural cuando usas el dispositivo.
-    ![expansion-slot-text-orientation](https://assets.openterface.com/images/product/openterface-kvm-uconsole-expansion-slot-text-orientation.webp){:style="height:220px"}
+    ![expansion-slot-text-orientation](https://assets.openterface.com/images/product/openterface-kvm-uconsole-expansion-slot-text-orientation.webp){:style="max-height:220px"}
 
 ---
 

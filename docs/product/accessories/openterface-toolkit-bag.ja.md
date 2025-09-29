@@ -6,7 +6,7 @@ keywords: "ツールキットバッグ, ケーブル管理バッグ, ポータ�
 
 # Openterfaceツールキットバッグ
 
-![Toolkit-bag](https://assets.openterface.com/images/product/part/OP-06-BAG-TOOLKIT.webp){:style="height:360px"}
+![Toolkit-bag](https://assets.openterface.com/images/product/part/OP-06-BAG-TOOLKIT.webp){:style="max-height:360px"}
 
 このコンパクトなツールキットバッグを使って、Openterface Mini-KVMとそのアクセサリーを整理し、持ち運びやすく保ちましょう。スタイリッシュなオレンジのジッパーと伸縮性のあるメッシュポケットを備えたこのバッグは、優れたケーブル管理と運搬のしやすさを提供し、外出先のITプロフェッショナルに最適です。
 

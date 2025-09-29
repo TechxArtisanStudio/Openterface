@@ -10,7 +10,7 @@ The mini-KVM device has a single USB-A 2.0 port that can **connect to either** t
 
 Control comes from two switches:
 
-- **Hardware Switch**: A physical two-position toggle on the device ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} (inward = host, outward = target).  
+- **Hardware Switch**: A physical two-position toggle on the device ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="max-height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="max-height:20px"} (inward = host, outward = target).  
 - **Software Switch**: A toggle button in the host app that instantly redirects the USB port to either host or target.
 
 ## Operational States

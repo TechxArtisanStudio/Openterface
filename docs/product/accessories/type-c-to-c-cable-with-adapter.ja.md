@@ -6,7 +6,7 @@ keywords: "Type-Cケーブル, USB-Aアダプター, 高速データ転送, ハ�
 
 # Type-C to Type-Cケーブル（アダプター付き）
 
-![C2C-150-Cable](https://assets.openterface.com/images/product/part/OP-05-CABLE150-C2C.webp){:style="height:360px"}
+![C2C-150-Cable](https://assets.openterface.com/images/product/part/OP-05-CABLE150-C2C.webp){:style="max-height:360px"}
 
 このスタイリッシュで柔らかな手触りのオレンジ色のType-Cオスからオスのケーブルは、ホストコンピュータ接続用に設計されています。USB-CメスからUSB-Aオスのアダプターが付属しており、互換性が向上し、Type-CまたはUSB-Aポートを使用してホストコンピュータに接続できます。さらに、このケーブルは**240Wの高速充電**（電圧DC50V、電流5A、出力240W）をサポートしており、Mini-KVMだけでなく、携帯電話やノートパソコンの充電にも最適です。
 

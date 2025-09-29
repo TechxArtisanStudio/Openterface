@@ -10,7 +10,7 @@ mini-KVM デバイスには、**ホストまたはターゲットコンピュー
 
 制御は 2 つのスイッチから来ます：
 
-- **ハードウェアスイッチ**：デバイス上の物理的な 2 位置トグル ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"}（内側=ホスト、外側=ターゲット）。
+- **ハードウェアスイッチ**：デバイス上の物理的な 2 位置トグル ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="max-height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="max-height:20px"}（内側=ホスト、外側=ターゲット）。
 - **ソフトウェアスイッチ**：ホストアプリ内のトグルボタンで、USB ポートをホストまたはターゲットに即座にリダイレクトします。
 
 ## 操作状態

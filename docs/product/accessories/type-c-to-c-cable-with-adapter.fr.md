@@ -6,7 +6,7 @@ keywords: "Câble Type-C, adaptateur USB-A, transfert de données rapide, charge
 
 # Câble Type-C vers Type-C avec Adaptateur
 
-![C2C-150-Cable](https://assets.openterface.com/images/product/part/OP-05-CABLE150-C2C.webp){:style="height:360px"}
+![C2C-150-Cable](https://assets.openterface.com/images/product/part/OP-05-CABLE150-C2C.webp){:style="max-height:360px"}
 
 Ce câble Type-C Mâle vers Mâle élégant et doux au toucher, de couleur orange vif, est conçu pour les connexions d'ordinateurs hôtes. Il est livré avec un adaptateur USB-C Femelle vers USB-A Mâle pour une compatibilité accrue, vous permettant de vous connecter aux ordinateurs hôtes utilisant des ports Type-C ou USB-A. De plus, ce câble prend en charge la **charge rapide 240W** (Tension DC50V, Courant 5A, Puissance 240W), ce qui le rend parfait non seulement pour nos Mini-KVM mais aussi pour charger votre téléphone portable ou ordinateur portable.
 

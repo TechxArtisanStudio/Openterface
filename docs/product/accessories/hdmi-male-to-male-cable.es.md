@@ -6,7 +6,7 @@ keywords: "cable HDMI, HDMI macho a macho, cable de video de alta definición, H
 
 # Cable HDMI Macho a Macho
 
-![HDMI-Cable](https://assets.openterface.com/images/product/part/OP-03-CABLE30-HDMI.webp){:style="height:360px"}
+![HDMI-Cable](https://assets.openterface.com/images/product/part/OP-03-CABLE30-HDMI.webp){:style="max-height:360px"}
 
 Este cable HDMI compacto es perfecto para conectar su dispositivo de destino para capturar la salida de video, asegurando una integración sin problemas con su Mini-KVM Openterface.
 

@@ -17,8 +17,8 @@ description: 了解 KVM-over-USB 技术、其优势以及与其他 KVM 解决方
 
 在整个文档中，我们将：
 
-- 您的控制笔记本电脑或 PC 称为 ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="height:18px"} ![Host](https://assets.openterface.com/images/shell-icons/host.svg#only-light){:style="height:15px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="height:18px"} ![Host](https://assets.openterface.com/images/shell-icons/host_1.svg#only-dark){:style="height:15px"}
-- 被控制的设备称为 ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="height:18px"} ![Target](https://assets.openterface.com/images/shell-icons/target.svg#only-light){:style="height:15px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="height:18px"} ![Target](https://assets.openterface.com/images/shell-icons/target_1.svg#only-dark){:style="height:15px"}
+- 您的控制笔记本电脑或 PC 称为 ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer.svg#only-light){:style="max-height:18px"} ![Host](https://assets.openterface.com/images/shell-icons/host.svg#only-light){:style="max-height:15px"} ![host-computer](https://assets.openterface.com/images/shell-icons/host-computer_1.svg#only-dark){:style="max-height:18px"} ![Host](https://assets.openterface.com/images/shell-icons/host_1.svg#only-dark){:style="max-height:15px"}
+- 被控制的设备称为 ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer.svg#only-light){:style="max-height:18px"} ![Target](https://assets.openterface.com/images/shell-icons/target.svg#only-light){:style="max-height:15px"} ![target-computer](https://assets.openterface.com/images/shell-icons/target-computer_1.svg#only-dark){:style="max-height:18px"} ![Target](https://assets.openterface.com/images/shell-icons/target_1.svg#only-dark){:style="max-height:15px"}
 
 1. **屏幕流传输**  
    它捕获目标设备的显示（通过 HDMI）并在您的主机计算机上的应用程序窗口中显示。

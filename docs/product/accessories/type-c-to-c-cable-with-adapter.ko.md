@@ -6,7 +6,7 @@ keywords: "타입-C 케이블, USB-A 어댑터, 고속 데이터 전송, 고속 
 
 # 어댑터 포함 타입-C to 타입-C 케이블
 
-![C2C-150-Cable](https://assets.openterface.com/images/product/part/OP-05-CABLE150-C2C.webp){:style="height:360px"}
+![C2C-150-Cable](https://assets.openterface.com/images/product/part/OP-05-CABLE150-C2C.webp){:style="max-height:360px"}
 
 생동감 넘치는 오렌지 색상의 스타일리시하고 부드러운 타입-C(M) to 타입-C(M) 케이블로 호스트 컴퓨터 연결에 최적화되어 있습니다. USB-C(F) to USB-A(M) 어댑터가 포함되어 있어 타입-C 또는 USB-A 포트를 사용하는 호스트 컴퓨터에 모두 연결할 수 있습니다. 또한 이 케이블은 **240W 고속 충전**(전압 DC50V, 전류 5A, 전력 240W)을 지원하여 Mini-KVM뿐만 아니라 휴대폰 및 노트북 충전에도 이상적입니다.
 

@@ -6,7 +6,7 @@ keywords: "Cablu HDMI, HDMI tată-la-tată, cablu video înaltă definiție, HDM
 
 # Cablu HDMI Tată-la-Tată
 
-![HDMI-Cable](https://assets.openterface.com/images/product/part/OP-03-CABLE30-HDMI.webp){:style="height:360px"}
+![HDMI-Cable](https://assets.openterface.com/images/product/part/OP-03-CABLE30-HDMI.webp){:style="max-height:360px"}
 
 Acest cablu HDMI compact este perfect pentru conectarea dispozitivului țintă pentru a capta ieșirea video, asigurând o integrare fără probleme cu Openterface Mini-KVM.
 
