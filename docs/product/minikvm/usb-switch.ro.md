@@ -10,7 +10,7 @@ Dispozitivul mini-KVM are un singur port USB-A 2.0 care se poate **conecta fie**
 
 Controlul vine de la două comutatoare:
 
-- **Comutator Hardware**: Un comutator fizic cu două poziții pe dispozitiv ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} (spre interior = gazdă, spre exterior = țintă).
+- **Comutator Hardware**: Un comutator fizic cu două poziții pe dispozitiv ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="max-height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="max-height:20px"} (spre interior = gazdă, spre exterior = țintă).
 - **Comutator Software**: Un buton de comutare în aplicația gazdă care redirecționează instant portul USB către gazdă sau țintă.
 
 ## Stări Operaționale

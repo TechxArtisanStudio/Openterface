@@ -2,8 +2,8 @@
 
 ## 우리의 브랜드와 슬로건
 
-![Openterface Logo](https://assets.openterface.com/images/openterface.svg#only-light){:style="height:46px"}
-![Openterface Logo](https://assets.openterface.com/images/openterface_w.svg#only-dark){:style="height:46px"}
+![Openterface Logo](https://assets.openterface.com/images/openterface.svg#only-light){:style="max-height:46px"}
+![Openterface Logo](https://assets.openterface.com/images/openterface_w.svg#only-dark){:style="max-height:46px"}
 
 는 단순하지만 강력한 아이디어에서 시작되었습니다.
 
@@ -21,8 +21,8 @@
 
 ## 회사 소개
 
-[![TechxArtisan Logo](https://assets.openterface.com/images/logo_txa_b.svg#only-light){:style="height:28px"}](https://techxartisan.com)
-[![TechxArtisan Logo](https://assets.openterface.com/images/logo_txa_w.svg#only-dark){:style="height:28px"}](https://techxartisan.com)
+[![TechxArtisan Logo](https://assets.openterface.com/images/logo_txa_b.svg#only-light){:style="max-height:28px"}](https://techxartisan.com)
+[![TechxArtisan Logo](https://assets.openterface.com/images/logo_txa_w.svg#only-dark){:style="max-height:28px"}](https://techxartisan.com)
 
 - **회사명:** **TechxArtisan Limited**  
 - **주소:** Unit 04-05, 16/F, Broadway Building, 54-62 Lockhart Road, Wanchai, Hong Kong SAR, China

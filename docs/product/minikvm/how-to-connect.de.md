@@ -8,8 +8,8 @@ keywords: "Mini-KVM Einrichtung, KVM Verbindungsanleitung, USB-C KVM Einrichtung
 
 ## Schnelleinrichtung
 
-![to-host](https://assets.openterface.com/images/product/to-host.svg#only-light){:style="height:200px"} ![to-host](https://assets.openterface.com/images/product/to-host_1.svg#only-dark){:style="height:200px"}
-![to-target](https://assets.openterface.com/images/product/to-target.svg#only-light){:style="height:200px"} ![to-target](https://assets.openterface.com/images/product/to-target_1.svg#only-dark){:style="height:200px"}
+![to-host](https://assets.openterface.com/images/product/to-host.svg#only-light){:style="max-height:200px"} ![to-host](https://assets.openterface.com/images/product/to-host_1.svg#only-dark){:style="max-height:200px"}
+![to-target](https://assets.openterface.com/images/product/to-target.svg#only-light){:style="max-height:200px"} ![to-target](https://assets.openterface.com/images/product/to-target_1.svg#only-dark){:style="max-height:200px"}
 
 **Einrichtung in 4 einfachen Schritten:**
 
@@ -22,8 +22,8 @@ keywords: "Mini-KVM Einrichtung, KVM Verbindungsanleitung, USB-C KVM Einrichtung
 
 ## Port-Anleitung
 
-![host-side](https://assets.openterface.com/images/product/host-htc.svg#only-light){:style="width:300px"} ![target-side](https://assets.openterface.com/images/product/target-htc.svg#only-light){:style="width:300px"}
-![host-side](https://assets.openterface.com/images/product/host-htc_1.svg#only-dark){:style="width:300px"} ![target-side](https://assets.openterface.com/images/product/target-htc_1.svg#only-dark){:style="width:300px"}
+![host-side](https://assets.openterface.com/images/product/host-htc.svg#only-light){:style="max-width:300px"} ![target-side](https://assets.openterface.com/images/product/target-htc.svg#only-light){:style="max-width:300px"}
+![host-side](https://assets.openterface.com/images/product/host-htc_1.svg#only-dark){:style="max-width:300px"} ![target-side](https://assets.openterface.com/images/product/target-htc_1.svg#only-dark){:style="max-width:300px"}
 
 - ① **Host USB-C**: Datenübertragung zum Host-Computer
 - ② **Ziel USB-C**: Tastatur/Maus-Steuerungsausgabe
@@ -32,6 +32,6 @@ keywords: "Mini-KVM Einrichtung, KVM Verbindungsanleitung, USB-C KVM Einrichtung
 
 !!! warning "Wichtige Hinweise" - **Stromversorgung**: USB-Geräte sollten 1,5W Verbrauch nicht überschreiten - **USB-A-Verriegelung**: Erfordert zusätzliche Kraft zum Ein-/Ausschieben (kleine Geräte vermeiden) - **USB-Hub**: Nur extern versorgte Hubs verwenden; tiefe USB-Bäume vermeiden - **Umschaltung**: Siehe [USB-Port-Umschaltungsanleitung](../usb-switch) für Details
 
-⑤ ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="height:20px"} **Umschalter**: USB-A-Port zwischen Host/Ziel umschalten
+⑤ ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t.svg#only-light){:style="max-height:20px"} ![Toggle Switch](https://assets.openterface.com/images/shell-icons/toggle-h-t_1.svg#only-dark){:style="max-height:20px"} **Umschalter**: USB-A-Port zwischen Host/Ziel umschalten
 
-⑥ ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins.svg#only-light){:style="height:15px"} ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins_1.svg#only-dark){:style="height:15px"} **Erweiterungsstifte**: Entwicklerzugang (siehe [Erweiterungsstifte](../extension-pins))
+⑥ ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins.svg#only-light){:style="max-height:15px"} ![Extension Pins](https://assets.openterface.com/images/shell-icons/pins_1.svg#only-dark){:style="max-height:15px"} **Erweiterungsstifte**: Entwicklerzugang (siehe [Erweiterungsstifte](../extension-pins))

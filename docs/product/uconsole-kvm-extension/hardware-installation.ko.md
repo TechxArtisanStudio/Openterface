@@ -32,14 +32,14 @@ uConsole을 종료하고 모든 전원과 케이블을 분리합니다.
 
 ??? note "최종 설치 전에 맞춤 확인"
     먼저 **와셔 없이** 보드를 장착하여 맞춤을 테스트할 수 있습니다. 보드가 느슨하게 느껴지거나 접촉이 고르지 않다면, 와셔를 추가하고 보드를 다시 장착하세요. Openterface KVM Extension은 1.0 mm 두께로 원래 LTE 모듈(1.2 mm)보다 약간 얇습니다. 제공된 와셔를 사용하면 안정적인 마운팅과 신뢰할 수 있는 스프링 접촉을 보장합니다.  
-    ![extension-slot-loose](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-slot-loose.webp){:style="height:220px"}
+    ![extension-slot-loose](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-slot-loose.webp){:style="max-height:220px"}
 
 ### **4. 보드 고정**
 스크류를 다시 삽입하고 **부드럽게** 조입니다 — **과도하게 조이지 마세요**. 이는 보드를 손상시키거나 나사산을 망가뜨릴 수 있습니다.
 
-![extension-screw-washer-installed](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-screw-washer-installed.jpg){:style="height:220px"}
-![extension-screw-washer-installing](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-screw-washer-installing.jpg){:style="height:220px"}
-![extension-install-1](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-install-1.webp){:style="height:220px"}
+![extension-screw-washer-installed](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-screw-washer-installed.jpg){:style="max-height:220px"}
+![extension-screw-washer-installing](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-screw-washer-installing.jpg){:style="max-height:220px"}
+![extension-install-1](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-install-1.webp){:style="max-height:220px"}
 
 ### **5. 설치 확인**
 보드는 **평평하고 안정적**이어야 하며, 모든 패드에서 균등한 스프링 접촉이 있어야 합니다. 눈에 띄는 흔들림이나 움직임이 없어야 합니다.
@@ -49,7 +49,7 @@ KVM Extension 보드를 보호하고 uConsole의 원래 외관을 유지하기 �
 
 ??? note "확장 슬롯 커버의 텍스트 방향"
     특정 각도에서 볼 때 확장 슬롯 커버의 텍스트가 "거꾸로" 보일 수 있습니다. 이는 의도적인 디자인입니다 - 텍스트는 uConsole을 들고 포트를 위에서 아래로 볼 때 읽을 수 있도록 방향이 설정되어 있으며, 이는 기기를 사용할 때의 자연스러운 시야 위치입니다.
-    ![expansion-slot-text-orientation](https://assets.openterface.com/images/product/openterface-kvm-uconsole-expansion-slot-text-orientation.webp){:style="height:220px"}
+    ![expansion-slot-text-orientation](https://assets.openterface.com/images/product/openterface-kvm-uconsole-expansion-slot-text-orientation.webp){:style="max-height:220px"}
 
 ---
 

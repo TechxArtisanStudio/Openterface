@@ -7,7 +7,7 @@ keywords: "hardware open source, certificazione OSHWA, conformità OSI, licenza 
 
 ## Conformità OSI
 
-![Open Source Initiative®](https://assets.openterface.com/images/trademark/open-source-initiative.svg){:style="height:120px"}
+![Open Source Initiative®](https://assets.openterface.com/images/trademark/open-source-initiative.svg){:style="max-height:120px"}
 
 Le nostre app per i dispositivi Openterface sono concesse in licenza sotto la **AGPL-3.0**, una licenza approvata dall'**Open Source Initiative®**. Il **logo OSI®** è il marchio della [Open Source Initiative](http://opensource.org), e noi rispettiamo con orgoglio la Definizione di Open Source.
 
@@ -15,15 +15,15 @@ Le nostre [applicazioni](/app) sono sviluppate e mantenute attivamente da **Tech
 
 ## Conformità OSHWA
 
-![UID-CN000015](https://assets.openterface.com/images/trademark/oshw-cn000015.svg){:style="height:120px"}
-![Open Source Hardware Association](https://assets.openterface.com/images/trademark/open-source-hardware.svg){:style="height:100px"}
+![UID-CN000015](https://assets.openterface.com/images/trademark/oshw-cn000015.svg){:style="max-height:120px"}
+![Open Source Hardware Association](https://assets.openterface.com/images/trademark/open-source-hardware.svg){:style="max-height:100px"}
 
 I nostri dispositivi Openterface, come l'Openterface Mini-KVM, sono orgogliosamente certificati dalla **Open Source Hardware Association** (OSHWA). Questa certificazione OSHWA ([**UID CN000015**](https://certification.oshwa.org/cn000015.html)) conferma il nostro impegno verso i principi dell'hardware open, garantendo che tutti i file di progettazione, la documentazione e il codice sorgente siano liberamente disponibili per lo studio, la modifica, la distribuzione e la produzione. Per esplorare gli schemi e i componenti del dispositivo o persino costruirlo da zero, dai un'occhiata al nostro repository hardware su GitHub: [Openterface_Mini-KVM_Hardware](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware).
 
 ## Conformità Aggiuntive
-![CE-Mark](https://assets.openterface.com/images/trademark/ce.svg){:style="height:60px"}
-![UKCA-Mark](https://assets.openterface.com/images/trademark/ukca.svg){:style="height:60px"}
-![WEEE-Mark](https://assets.openterface.com/images/trademark/weee.svg){:style="height:60px"}
-![RoSH-Mark](https://assets.openterface.com/images/trademark/rohs.svg){:style="height:60px"}
+![CE-Mark](https://assets.openterface.com/images/trademark/ce.svg){:style="max-height:60px"}
+![UKCA-Mark](https://assets.openterface.com/images/trademark/ukca.svg){:style="max-height:60px"}
+![WEEE-Mark](https://assets.openterface.com/images/trademark/weee.svg){:style="max-height:60px"}
+![RoSH-Mark](https://assets.openterface.com/images/trademark/rohs.svg){:style="max-height:60px"}
 
 I nostri dispositivi Openterface sono anche conformi agli standard **CE**, **UKCA**, **WEEE** e **RoHS**. Questo assicura che soddisfino tutti i requisiti di sicurezza, salute e ambiente pertinenti per la distribuzione e l'uso.

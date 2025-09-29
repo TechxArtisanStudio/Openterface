@@ -32,14 +32,14 @@ Heben Sie das Board **gerade nach oben**, um die Federkontakte nicht zu verbiege
 
 ??? note "Passung vor der finalen Installation prüfen"
     Sie können das Board zunächst **ohne die Unterlegscheibe** einsetzen, um die Passung zu testen. Wenn das Board lose wirkt oder die Kontakte ungleichmäßig sind, fügen Sie die Unterlegscheibe hinzu und setzen Sie das Board erneut ein. Die Openterface KVM Extension ist 1,0 mm dick, etwas dünner als das ursprüngliche LTE-Modul (1,2 mm). Die Verwendung der mitgelieferten Unterlegscheibe gewährleistet eine stabile Montage und zuverlässigen Federkontakt.  
-    ![extension-slot-loose](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-slot-loose.webp){:style="height:220px"}
+    ![extension-slot-loose](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-slot-loose.webp){:style="max-height:220px"}
 
 ### **4. Board befestigen**
 Setzen Sie die Schrauben wieder ein und ziehen Sie sie **sanft** an — **nicht überdrehen**, da dies das Board beschädigen oder die Gewinde beschädigen könnte.
 
-![extension-screw-washer-installed](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-screw-washer-installed.jpg){:style="height:220px"}
-![extension-screw-washer-installing](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-screw-washer-installing.jpg){:style="height:220px"}
-![extension-install-1](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-install-1.webp){:style="height:220px"}
+![extension-screw-washer-installed](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-screw-washer-installed.jpg){:style="max-height:220px"}
+![extension-screw-washer-installing](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-screw-washer-installing.jpg){:style="max-height:220px"}
+![extension-install-1](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-install-1.webp){:style="max-height:220px"}
 
 ### **5. Installation überprüfen**
 Das Board sollte **flach und stabil** sitzen, mit gleichmäßigem Federkontakt über alle Pads. Es sollte keine merkliche Wackelbewegung oder Bewegung geben.
@@ -49,7 +49,7 @@ Installieren Sie die Erweiterungsslot-Abdeckung wieder, um das KVM Extension Boa
 
 ??? note "Textausrichtung auf der Erweiterungsslot-Abdeckung"
     Der Text auf der Erweiterungsslot-Abdeckung kann aus bestimmten Blickwinkeln "auf dem Kopf" erscheinen. Dies ist ein absichtliches Design - der Text ist so ausgerichtet, dass er lesbar ist, wenn Sie den uConsole halten und die Ports von oben nach unten betrachten, was die natürliche Betrachtungsposition bei der Verwendung des Geräts ist.
-    ![expansion-slot-text-orientation](https://assets.openterface.com/images/product/openterface-kvm-uconsole-expansion-slot-text-orientation.webp){:style="height:220px"}
+    ![expansion-slot-text-orientation](https://assets.openterface.com/images/product/openterface-kvm-uconsole-expansion-slot-text-orientation.webp){:style="max-height:220px"}
 
 ---
 

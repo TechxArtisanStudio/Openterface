@@ -11,15 +11,15 @@ keywords: "Openterface Mini-KVM, 크라우드펀딩 마지막 시간, 베타 테
 
 [Discord 채널](/discord)에서 베타 팀의 흥미로운 업데이트를 공유하고 싶습니다! Openterface Mini-KVM이 기술 최전선에서 훌륭한 성능을 보여주고 있으며, 여러분께 보여드릴 멋진 이미지들이 있습니다. 확인해보시고 모든 화제의 이유를 알아보세요!
 
-![cam-share](https://www.crowdsupply.com/img/bed9/41ac90fd-1074-49e0-a081-f9798610bed9/cam-share_jpg_md-xl.jpg){:style="width:420px"}
+![cam-share](https://www.crowdsupply.com/img/bed9/41ac90fd-1074-49e0-a081-f9798610bed9/cam-share_jpg_md-xl.jpg){:style="max-width:420px"}
 
-![catenane-share](https://www.crowdsupply.com/img/b9ed/4144b488-9442-44e2-9bad-f07daa56b9ed/catenane-share_jpg_gallery-lg.jpg){:style="width:420px"}
+![catenane-share](https://www.crowdsupply.com/img/b9ed/4144b488-9442-44e2-9bad-f07daa56b9ed/catenane-share_jpg_gallery-lg.jpg){:style="max-width:420px"}
 
-![kashall-share](https://www.crowdsupply.com/img/17f2/d5f31dbb-f51e-4813-ab79-29194ea717f2/kashall-share_jpg_gallery-lg.jpg){:style="width:420px"}
+![kashall-share](https://www.crowdsupply.com/img/17f2/d5f31dbb-f51e-4813-ab79-29194ea717f2/kashall-share_jpg_gallery-lg.jpg){:style="max-width:420px"}
 
-![kazubu-share](https://www.crowdsupply.com/img/23e5/6aadfd66-756d-4f42-944d-dc2e95dd23e5/kazubu-share_jpg_gallery-lg.jpg){:style="width:420px"}
+![kazubu-share](https://www.crowdsupply.com/img/23e5/6aadfd66-756d-4f42-944d-dc2e95dd23e5/kazubu-share_jpg_gallery-lg.jpg){:style="max-width:420px"}
 
-![nkahoang-share](https://www.crowdsupply.com/img/50bc/6318ed70-11f6-4640-b73b-f435267950bc/nkahoang-share_jpg_gallery-lg.jpg){:style="width:420px"}
+![nkahoang-share](https://www.crowdsupply.com/img/50bc/6318ed70-11f6-4640-b73b-f435267950bc/nkahoang-share_jpg_gallery-lg.jpg){:style="max-width:420px"}
 
 ## 🚨 마지막 기회 알림! 🚨
 

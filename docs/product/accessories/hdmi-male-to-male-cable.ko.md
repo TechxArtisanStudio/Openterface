@@ -6,7 +6,7 @@ keywords: "HDMI 케이블, 수컷–수컷 HDMI, 고화질 비디오 케이블, 
 
 # HDMI 수컷-수컷 케이블
 
-![HDMI-Cable](https://assets.openterface.com/images/product/part/OP-03-CABLE30-HDMI.webp){:style="height:360px"}
+![HDMI-Cable](https://assets.openterface.com/images/product/part/OP-03-CABLE30-HDMI.webp){:style="max-height:360px"}
 
 이 컴팩트 HDMI 케이블은 대상 장치의 비디오 출력을 캡처하기 위해 연결하기에 적합하며 Openterface 미니‑KVM과 완벽하게 통합됩니다.
 

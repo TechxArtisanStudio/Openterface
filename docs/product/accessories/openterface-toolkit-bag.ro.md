@@ -6,7 +6,7 @@ keywords: "geantă unelte, geantă gestionare cabluri, depozitare portabilă, ge
 
 # Geantă pentru Unelte Openterface
 
-![Toolkit-bag](https://assets.openterface.com/images/product/part/OP-06-BAG-TOOLKIT.webp){:style="height:360px"}
+![Toolkit-bag](https://assets.openterface.com/images/product/part/OP-06-BAG-TOOLKIT.webp){:style="max-height:360px"}
 
 Păstrează-ți Openterface Mini-KVM-ul și accesoriile sale organizate și portabile cu această geantă compactă pentru unelte. Cu un fermoar portocaliu elegant și buzunare din plasă elastică, această geantă asigură o gestionare excelentă a cablurilor și ușurință în transport, perfectă pentru profesioniștii IT în deplasare.
 

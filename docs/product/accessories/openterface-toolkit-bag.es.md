@@ -6,7 +6,7 @@ keywords: "bolsa de herramientas, bolsa de gestión de cables, almacenamiento po
 
 # Bolsa de Herramientas Openterface
 
-![Toolkit-bag](https://assets.openterface.com/images/product/part/OP-06-BAG-TOOLKIT.webp){:style="height:360px"}
+![Toolkit-bag](https://assets.openterface.com/images/product/part/OP-06-BAG-TOOLKIT.webp){:style="max-height:360px"}
 
 Mantén tu Mini-KVM Openterface y sus accesorios organizados y portátiles con esta compacta bolsa de herramientas. Con una elegante cremallera naranja y bolsillos de malla elástica, esta bolsa asegura una excelente gestión de cables y facilidad de transporte, perfecta para profesionales de IT en movimiento.
 

@@ -6,7 +6,7 @@ keywords: "HDMIケーブル, オス-オスHDMI, 高解像度ビデオケーブ�
 
 # HDMIオス-オスケーブル
 
-![HDMI-Cable](https://assets.openterface.com/images/product/part/OP-03-CABLE30-HDMI.webp){:style="height:360px"}
+![HDMI-Cable](https://assets.openterface.com/images/product/part/OP-03-CABLE30-HDMI.webp){:style="max-height:360px"}
 
 このコンパクトなHDMIケーブルは、ターゲットデバイスを接続してビデオ出力をキャプチャするのに最適で、Openterface Mini-KVMとのシームレスな統合を保証します。
 

@@ -2,8 +2,8 @@
 
 ## 我们的品牌与口号
 
-![Openterface Logo](https://assets.openterface.com/images/openterface.svg#only-light){:style="height:46px"}
-![Openterface Logo](https://assets.openterface.com/images/openterface_w.svg#only-dark){:style="height:46px"}
+![Openterface Logo](https://assets.openterface.com/images/openterface.svg#only-light){:style="max-height:46px"}
+![Openterface Logo](https://assets.openterface.com/images/openterface_w.svg#only-dark){:style="max-height:46px"}
 
 源于一个简单却强大的理念：
 
@@ -21,8 +21,8 @@
 
 ## 我们的公司
 
-[![TechxArtisan Logo](https://assets.openterface.com/images/logo_txa_b.svg#only-light){:style="height:28px"}](https://techxartisan.com)
-[![TechxArtisan Logo](https://assets.openterface.com/images/logo_txa_w.svg#only-dark){:style="height:28px"}](https://techxartisan.com)
+[![TechxArtisan Logo](https://assets.openterface.com/images/logo_txa_b.svg#only-light){:style="max-height:28px"}](https://techxartisan.com)
+[![TechxArtisan Logo](https://assets.openterface.com/images/logo_txa_w.svg#only-dark){:style="max-height:28px"}](https://techxartisan.com)
 
 - **公司名称：** **TechxArtisan Limited**  
 - **地址：** Unit 04-05, 16/F, Broadway Building, 54-62 Lockhart Road, Wanchai, Hong Kong SAR, China

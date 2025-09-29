@@ -6,8 +6,8 @@ keywords: "fonctionnalités extension KVM, uConsole KVM, HDMI KVM, contrôle USB
 
 # **Fonctionnalités et spécifications** | Openterface KVM Extension for uConsole
 
-![PCB-front](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension.webp){:style="height:320px"}
-![PCB-Back](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-back.webp){:style="height:320px"}
+![PCB-front](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension.webp){:style="max-height:320px"}
+![PCB-Back](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-back.webp){:style="max-height:320px"}
 
 ## Fonctionnalités principales
 

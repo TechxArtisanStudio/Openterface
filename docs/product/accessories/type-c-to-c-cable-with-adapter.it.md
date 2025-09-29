@@ -6,7 +6,7 @@ keywords: "cavo Type-C, adattatore USB-A, trasferimento dati veloce, ricarica ad
 
 # Cavo Type-C a Type-C con Adattatore
 
-![C2C-150-Cable](https://assets.openterface.com/images/product/part/OP-05-CABLE150-C2C.webp){:style="height:360px"}
+![C2C-150-Cable](https://assets.openterface.com/images/product/part/OP-05-CABLE150-C2C.webp){:style="max-height:360px"}
 
 Questo elegante cavo Type-C Maschio-Maschio dal tocco morbido in arancione vivace è progettato per le connessioni ai computer host. Viene fornito con un adattatore USB-C Femmina a USB-A Maschio per una compatibilità migliorata, garantendo la possibilità di connettersi ai computer host utilizzando porte Type-C o USB-A. Inoltre, questo cavo supporta la **ricarica rapida da 240W** (Tensione DC50V, Corrente 5A, Potenza 240W), rendendolo perfetto non solo per i nostri Mini-KVM ma anche per ricaricare il tuo telefono cellulare o laptop.
 

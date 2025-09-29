@@ -8,7 +8,7 @@ keywords: "KVM接続設定, ターゲットデバイス接続, USB制御設定, 
 
 ## 接続概要
 
-![extension-use-case-1a](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-use-case-1a.webp){:style="height:480px"}
+![extension-use-case-1a](https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension-use-case-1a.webp){:style="max-height:480px"}
 
 ## 前提条件
 

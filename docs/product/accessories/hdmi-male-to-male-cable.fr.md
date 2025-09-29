@@ -6,7 +6,7 @@ keywords: "Câble HDMI, HDMI mâle-mâle, câble vidéo haute définition, HDMI 
 
 # Câble HDMI Mâle-Mâle
 
-![HDMI-Cable](https://assets.openterface.com/images/product/part/OP-03-CABLE30-HDMI.webp){:style="height:360px"}
+![HDMI-Cable](https://assets.openterface.com/images/product/part/OP-03-CABLE30-HDMI.webp){:style="max-height:360px"}
 
 Ce câble HDMI compact est parfait pour connecter votre appareil cible et capturer la sortie vidéo, assurant une intégration transparente avec votre Openterface Mini-KVM.
 

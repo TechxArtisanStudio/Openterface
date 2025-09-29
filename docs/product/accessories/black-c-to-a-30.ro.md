@@ -6,7 +6,7 @@ keywords: "Cablu Type-C la USB-A, adaptor USB, cablu transfer date, cablu semnal
 
 # Cablu Type-C la USB-A cu Adaptor 30cm
 
-![C2A-30-Cable](https://assets.openterface.com/images/product/part/OP-04-CABLE30-C2A.webp){:style="height:360px"}
+![C2A-30-Cable](https://assets.openterface.com/images/product/part/OP-04-CABLE30-C2A.webp){:style="max-height:360px"}
 
 Acest cablu versatil Type-C Tată la USB-A Tată, împreună cu un adaptor USB-A Mamă la USB-C Tată, oferă conectivitate flexibilă pentru dispozitivele țintă. Permite transferul de date și transmisia semnalelor de control pentru tastatură și mouse, indiferent dacă dispozitivul țintă folosește un port USB-A sau Type-C.
 
