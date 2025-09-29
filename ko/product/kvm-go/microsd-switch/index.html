@@ -3,7 +3,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Learn about the dual hardware-software MicroSD switching system in Openterface KVM-Go. Understand the four operational states, LED indicators, safety guidelines, and file transfer capabilities.">
+        <meta name="description" content="Learn how to use the dual hardware-software MicroSD switching system in Openterface KVM-Go. Understand the four operational states, LED indicators, safety guidelines, and file transfer capabilities.">
       
       
         <meta name="author" content="Openterface">
@@ -1631,9 +1631,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#led-status-indicators" class="md-nav__link">
+  <a href="#install-the-microsd-card" class="md-nav__link">
     <span class="md-ellipsis">
-      LED Status Indicators
+      Install the MicroSD Card
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#control-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Control Methods
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#switch-button-led-indicators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Switch Button &amp; LED Indicators
     </span>
   </a>
   
@@ -2839,23 +2857,33 @@
 
 
 <h1 id="microsd-card-switching-guide-openterface-kvm-go"><strong>MicroSD Card Switching Guide</strong> | Openterface KVM-Go</h1>
-<p>The KVM-Go device features a single MicroSD card slot that can <strong>connect to either</strong> the host or the target computer, but <strong>never both at once</strong>. </p>
-<p>Control comes from two switches:</p>
+<p>The <strong>Openterface KVM-Go</strong> includes a single MicroSD card slot that can be shared between the host computer and the target device, but never both at the same time.</p>
+<p>This design allows you to quickly switch between devices for <strong>file transfer</strong>, without physically removing the card, making your workflow faster and more efficient. It can also just serve as your <strong>regular MicroSD card reader</strong>.</p>
+<h2 id="install-the-microsd-card"><strong>Install the MicroSD Card</strong></h2>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/kvm-go/install-sd.webp" data-desc-position="bottom"><img alt="kvm-go-install-sd" src="https://assets.openterface.com/images/kvm-go/install-sd.webp" style="max-height:260px;width:auto"></a></p>
+<div class="admonition note">
+<p class="admonition-title">Proper MicroSD Card Installation</p>
+<p>Insert the MicroSD card firmly until you feel a <strong>click</strong>, indicating it is securely seated and locked in place.</p>
+</div>
+<h2 id="control-methods"><strong>Control Methods</strong></h2>
+<p>KVM-Go provides two ways to switch the MicroSD card between host and target:</p>
 <ul>
-<li><strong>Hardware Button</strong>: A physical button on the device that toggles between host and target connections.  </li>
-<li><strong>Software Switch</strong>: A toggle button in the host app that instantly redirects the MicroSD slot to either host or target.</li>
+<li><strong>Hardware Button</strong> – A physical button on the device for manual control.  </li>
+<li><strong>Software Switch</strong> – A toggle button within the host app for instant switching.</li>
 </ul>
-<h2 id="led-status-indicators">LED Status Indicators</h2>
-<p>The device includes <strong>dual-color LED indicators</strong> to show the current connection state:</p>
+<h2 id="switch-button-led-indicators"><strong>Switch Button &amp; LED Indicators</strong></h2>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/kvm-go/led-indicator.webp" data-desc-position="bottom"><img alt="kvm-go-led-indicator" src="https://assets.openterface.com/images/kvm-go/led-indicator.webp" style="max-height:260px;width:auto"></a></p>
+<p>The <strong>dual-color LED indicators</strong> display the current MicroSD connection state <em>(Note: Under Development / Subject to Change)</em>:</p>
 <ul>
-<li><strong>🔵 Blue LED ON</strong>: MicroSD card is mounted to the <strong>target device</strong></li>
-<li><strong>🟢 Green LED ON</strong>: MicroSD card is mounted to the <strong>host device</strong>  </li>
-<li><strong>LED OFF</strong>: No MicroSD card inserted or device powered off</li>
-<li><strong>LED FLASHING</strong>: MicroSD card is being read from or written to (data transfer in progress)</li>
+<li><strong>🔵 Blue LED ON</strong> – MicroSD card is mounted to the <strong>target device</strong>  </li>
+<li><strong>🟢 Green LED ON</strong> – MicroSD card is mounted to the <strong>host computer</strong>  </li>
+<li><strong>LED OFF</strong> – No MicroSD card inserted or device powered off  </li>
+<li><strong>LED FLASHING</strong> – Data transfer in progress (read/write activity)</li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Auto-Mounting Feature (Experimental)</p>
-<p>Currently, the device defaults to mounting the MicroSD card to the <strong>host</strong> when first connected. However, we're developing an experimental feature where the MicroSD card will automatically mount to whichever port (host or target) connects first. This will make the device even more user-friendly.</p>
+<p>By default, the MicroSD card mounts to the <strong>host</strong> when the device is first powered on.<br>
+An upcoming experimental feature will allow <strong>auto-mounting</strong> to whichever side (host or target) connects first, making the experience even more seamless.</p>
 </div>
 
 
@@ -2879,7 +2907,7 @@
     <span class="md-icon" title="마지막 업데이트">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="September 28, 2025 04:54:41 UTC"><span class="timeago" datetime="2025-09-28T04:54:41+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="September 28, 2025 04:54:41 UTC">2025-09-28</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="September 29, 2025 06:27:30 UTC"><span class="timeago" datetime="2025-09-29T06:27:30+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="September 29, 2025 06:27:30 UTC">2025-09-29</span>
   </span>
 
     
