@@ -35,9 +35,9 @@ The **Openterface™ KVM-Go Series** is the next-generation [**KVM-over-USB**](/
 
     Discover the powerful features of the KVM-Go Series
 
-    [:octicons-arrow-right-24: What's in the Box](/product/kvm-go/whats-in-the-box/)
-
     [:octicons-arrow-right-24: View Features](/product/kvm-go/features)
+
+    [:octicons-arrow-right-24: What's in the Box](/product/kvm-go/whats-in-the-box/)
 
     [:octicons-arrow-right-24: How It Works](/faq/kvm-over-usb/)
 
@@ -52,7 +52,9 @@ The **Openterface™ KVM-Go Series** is the next-generation [**KVM-over-USB**](/
 
     [:octicons-arrow-right-24: How to Connect](/product/kvm-go/how-to-connect)
 
-    [:octicons-arrow-right-24: View FAQs](/faq)
+    [:octicons-arrow-right-24: MicroSD Card Switching](/product/kvm-go/microsd-switch)
+
+    [:octicons-arrow-right-24: View FAQs](/product/kvm-go/faq)
 
 </div>
 
@@ -63,7 +65,7 @@ The **Openterface™ KVM-Go Series** is the next-generation [**KVM-over-USB**](/
 
     ---
 
-    [:material-newspaper-variant-outline: Pre-Launch Information](/product/kvm-go/pre-launch) / [:material-account-group-outline: Join Waiting List](https://forms.gle/yaS1F5E5MSo8DWNZ6) / [:material-trophy-outline: Beta Testing Program](/product/kvm-go/pre-launch) / [:material-newspaper-variant-outline: Product Updates](/product/kvm-go/updates)
+    [:material-account-group-outline: Join Waiting List](https://forms.gle/yaS1F5E5MSo8DWNZ6) / [:material-trophy-outline: Beta Testing Program](https://forms.gle/yaS1F5E5MSo8DWNZ6) / [:material-newspaper-variant-outline: Product Updates](/product/kvm-go/updates)
 
 </div>
 
