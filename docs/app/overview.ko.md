@@ -14,8 +14,8 @@ Openterface™ KVM 가젯을 실행하려면 호스트 컴퓨터에 아래 나�
 
     **Openterface QT Win**용 다운로드 또는 소스에서 빌드:
 
-    [:octicons-download-24: {{qt_version}} 설치 프로그램 다운로드](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.windows.amd64.installer.exe) <br>
-    [:octicons-download-24: {{qt_version}} 포터블 EXE 다운로드](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT-portable.exe) <br>
+    [:octicons-download-24: {{qt_version}} 설치 프로그램 다운로드](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT_windows_amd64_installer.exe) <br>
+    [:octicons-download-24: {{qt_version}} 포터블 EXE 다운로드](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT_windows_amd64_portable.exe) <br>
     [:octicons-mark-github-16: Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT) <br>
     [:octicons-play-24: 데모 보기](https://youtu.be/ERzpGtRvP2o?si=e9k402f0nxsD8o2j)
 
@@ -36,11 +36,11 @@ Openterface™ KVM 가젯을 실행하려면 호스트 컴퓨터에 아래 나�
 
     **Openterface QT Linux**용 다운로드 또는 소스에서 빌드:
 
-    [:octicons-download-24: {{qt_linux_stable}} AMD64 DEB 다운로드](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_linux_stable}}/openterfaceQT.linux.amd64.deb) <br>
-    [:octicons-download-24: {{qt_linux_stable}} AMD64 RPM 다운로드](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_linux_stable}}/openterfaceQT.linux.amd64.rpm) <br>
-    [:octicons-download-24: {{qt_linux_stable}} AMD64 AppImage 다운로드](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_linux_stable}}/openterfaceQT.linux.amd64.AppImage) <br>
-    [:octicons-download-24: {{qt_linux_stable}} ARM64 DEB 다운로드](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_linux_stable}}/openterfaceQT.linux.arm64.deb) <br>
-    [:octicons-download-24: {{qt_linux_stable}} ARM64 RPM 다운로드](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_linux_stable}}/openterfaceQT.linux.arm64.rpm) <br>
+    [:octicons-download-24: {{qt_version}} AMD64 DEB 다운로드](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT_linux_amd64.deb) <br>
+    [:octicons-download-24: {{qt_version}} AMD64 RPM 다운로드](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT_linux_amd64.rpm) <br>
+    [:octicons-download-24: {{qt_version}} AMD64 AppImage 다운로드](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT_linux_amd64.AppImage) <br>
+    [:octicons-download-24: {{qt_version}} ARM64 DEB 다운로드](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT_linux_aarch64.deb) <br>
+    [:octicons-download-24: {{qt_version}} ARM64 AppImage 다운로드](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT_linux_aarch64.AppImage) <br>
     [:octicons-mark-github-16: Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT) <br>
     [:octicons-play-24: 데모 보기](https://youtu.be/_ScpI6TC0Pk?si=FSg7A2zmST8QbFec)
 
