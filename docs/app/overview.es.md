@@ -14,8 +14,8 @@ Para poner en marcha tus gadgets Openterface™ KVM, necesitarás instalar una d
 
     Descarga o construye desde el código fuente para **Openterface QT Win**:
 
-    [:octicons-download-24: Descargar {{qt_version}} Instalador](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT.windows.amd64.installer.exe) <br>
-    [:octicons-download-24: Descargar {{qt_version}} EXE Portable](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT-portable.exe) <br>
+    [:octicons-download-24: Descargar {{qt_version}} Instalador](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT_windows_amd64_installer.exe) <br>
+    [:octicons-download-24: Descargar {{qt_version}} EXE Portable](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT_windows_amd64_portable.exe) <br>
     [:octicons-mark-github-16: Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT) <br>
     [:octicons-play-24: Ver Demo](https://youtu.be/ERzpGtRvP2o?si=e9k402f0nxsD8o2j)
 
@@ -36,11 +36,11 @@ Para poner en marcha tus gadgets Openterface™ KVM, necesitarás instalar una d
 
     Descarga o construye desde el código fuente para **Openterface QT Linux**:
 
-    [:octicons-download-24: Descargar {{qt_linux_stable}} AMD64 DEB](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_linux_stable}}/openterfaceQT.linux.amd64.deb) <br>
-    [:octicons-download-24: Descargar {{qt_linux_stable}} AMD64 RPM](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_linux_stable}}/openterfaceQT.linux.amd64.rpm) <br>
-    [:octicons-download-24: Descargar {{qt_linux_stable}} AMD64 AppImage](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_linux_stable}}/openterfaceQT.linux.amd64.AppImage) <br>
-    [:octicons-download-24: Descargar {{qt_linux_stable}} ARM64 DEB](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_linux_stable}}/openterfaceQT.linux.arm64.deb) <br>
-    [:octicons-download-24: Descargar {{qt_linux_stable}} ARM64 RPM](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_linux_stable}}/openterfaceQT.linux.arm64.rpm) <br>
+    [:octicons-download-24: Descargar {{qt_version}} AMD64 DEB](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT_linux_amd64.deb) <br>
+    [:octicons-download-24: Descargar {{qt_version}} AMD64 RPM](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT_linux_amd64.rpm) <br>
+    [:octicons-download-24: Descargar {{qt_version}} AMD64 AppImage](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT_linux_amd64.AppImage) <br>
+    [:octicons-download-24: Descargar {{qt_version}} ARM64 DEB](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT_linux_aarch64.deb) <br>
+    [:octicons-download-24: Descargar {{qt_version}} ARM64 AppImage](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT_linux_aarch64.AppImage) <br>
     [:octicons-mark-github-16: Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT) <br>
     [:octicons-play-24: Ver Demo](https://youtu.be/_ScpI6TC0Pk?si=FSg7A2zmST8QbFec)
 
