@@ -161,6 +161,10 @@ nav:
     - How To Connect: product/kvm-go/how-to-connect.md
     - MicroSD Switch: product/kvm-go/microsd-switch.md
     - FAQs for KVM-Go: product/kvm-go/faq.md
+    - Reviews & Press:
+      - YouTube Reviews: product/kvm-go/reviews/youtube.md
+      - Testimonials: product/kvm-go/reviews/testimonials.md
+      - Media Coverage: product/kvm-go/reviews/media.md
     - Updates for KVM-Go: product/kvm-go/updates/index.md
   - uConsole KVM Extension:
     - Overview: product/uconsole-kvm-extension/index.md
@@ -213,7 +217,7 @@ plugins:
       build: true
 - glightbox:
     skip_classes:
-      - skip-lightbox
+    - skip-lightbox
 - search
 - macros
 - tags
