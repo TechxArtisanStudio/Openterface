@@ -19,7 +19,7 @@
       
       
       <link rel="icon" href="../../../../assets/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
     
     
       
@@ -1589,7 +1589,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_13" class="md-nav__link">
+  <a href="#_14" class="md-nav__link">
     <span class="md-ellipsis">
       기술 사양
     </span>
@@ -2889,63 +2889,73 @@
 </ul>
 <h3 id="bios"><strong>BIOS 수준 액세스</strong></h3>
 <p>네트워크 종속성 없이 대상 장치 BIOS, 펌웨어 및 시작 관리에 직접 액세스.</p>
-<h3 id="_6"><strong>네트워크 독립성</strong></h3>
-<p>내장 비디오 캡처 및 에뮬레이션된 키보드/마우스(HID) 입력을 사용한 안정적인 헤드리스 제어. 네트워크 연결이 필요하지 않습니다.</p>
+<h3 id="_6"><strong>네트워크 독립성 및 초고속 응답</strong></h3>
+<p>내장 비디오 캡처 및 에뮬레이션된 키보드/마우스(HID) 입력을 사용한 안정적인 헤드리스 제어. 네트워크 연결이 필요하지 않습니다. 하드웨어 시작 시간이 1초 미만으로 워크플로우 지연 없이 즉각적인 문제 해결을 보장합니다.</p>
 <h3 id="_7"><strong>업그레이드된 비디오 성능</strong></h3>
 <p>Mini-KVM의 1080p@30Hz에서 대폭 업그레이드:</p>
 <ul>
 <li><strong>입력</strong>: 4096×2160 @ 60 Hz (YUV420), 4096×2160 @ 30 Hz (YUV444)</li>
 <li><strong>출력</strong>: 4096×2160 @ 60 Hz (MJPEG), 3840×2160 @ 30 Hz (YUV420)</li>
+<li><strong>기본값</strong>: 최적의 안정성과 성능을 위한 1080p@60Hz</li>
+<li><strong>4K 모드</strong>: 실험적 기능으로 사용 가능*</li>
 <li><strong>압축</strong>: YUV420, YUV444 및 MJPEG 지원</li>
 </ul>
+<p>*참고: 4K 모드는 추가 열을 발생시킵니다. 장시간 작동 중 장치 표면이 매우 뜨거워질 수 있습니다</p>
 <h3 id="microsd"><strong>MicroSD 슬롯</strong></h3>
 <p>호스트와 대상 장치 간 파일 전송</p>
 <h3 id="_8"><strong>크로스 플랫폼 지원</strong></h3>
 <p><a href="/app">호스트 앱</a>은 macOS, Windows, Linux, Android 및 Chrome 웹 앱과 호환되어 범용 통합을 제공합니다.</p>
 <h3 id="_9"><strong>텍스트 전송</strong></h3>
 <p>키 입력을 시뮬레이션하여 텍스트를 쉽게 전송 — 사용자 이름, 비밀번호 및 코드 스니펫에 완벽합니다. 기호 및 구두점을 포함한 ASCII 문자를 지원합니다.</p>
+<ul>
+<li><strong>호스트 → 대상</strong>: 에뮬레이션된 키 입력을 통해 텍스트 전송</li>
+<li><strong>대상 → 호스트</strong>: OCR을 통해 대상 화면에서 호스트로 텍스트 복사 (macOS 전용)</li>
+</ul>
 <div class="admonition warning">
 <p class="admonition-title">텍스트 전송 제한 사항</p>
 <ul>
 <li><strong>클립보드 통합 없음</strong>: 타이핑만 에뮬레이션하며 이미지 또는 문서 전송 불가</li>
 <li><strong>ASCII만 해당</strong>: ASCII 문자로 제한 (중국어, 일본어, 한국어 등 미지원)</li>
 <li><strong>길이 고려 사항</strong>: 짧은 텍스트에 가장 적합; 큰 블록은 성능 문제를 일으킬 수 있습니다</li>
+<li><strong>OCR 기능</strong>: 대상 → 호스트 텍스트 전송은 현재 macOS에서만 사용 가능합니다</li>
 </ul>
 </div>
 <h3 id="_10"><strong>플러그 앤 플레이 편의성</strong></h3>
 <p>대상 장치에 소프트웨어 설치가 필요하지 않습니다. 연결 즉시 제어가 시작되며 소프트웨어 흔적이 남지 않습니다.</p>
 <h3 id="_11"><strong>오디오 통합</strong></h3>
 <p>완전한 멀티미디어 경험을 위한 HDMI 임베디드 오디오 패스스루. (KVM-Go VGA에서는 지원되지 않음; KVM-Go DP는 확인 대기 중.)</p>
-<h3 id="_12"><strong>오픈 소스</strong></h3>
+<h3 id="_12"><strong>블루투스 기능</strong></h3>
+<p>내장 블루투스 지원으로 네이티브 iPadOS 앱 기능을 활성화하여(곧 출시) KVM-GO를 iPad와 네이티브로 작동하는 몇 안 되는 KVM 중 하나로 만듭니다.</p>
+<h3 id="_13"><strong>오픈 소스</strong></h3>
 <p>투명성과 <a href="/discord">커뮤니티 혁신</a>을 위한 <a href="/compliance">완전 오픈 소스</a> 하드웨어 및 소프트웨어.</p>
-<h2 id="_13">기술 사양</h2>
-<h3 id="_14"><strong>물리적 치수</strong> <em>(배송 전 변경될 수 있음)</em></h3>
+<h2 id="_14">기술 사양</h2>
+<h3 id="_15"><strong>물리적 치수</strong> <em>(배송 전 변경될 수 있음)</em></h3>
 <ul>
 <li><strong>크기</strong>: 18 × 18 × 55 mm (0.71 × 0.71 × 2.17 인치)</li>
 <li><strong>무게</strong>: 약 25 g (0.9 온스)</li>
 <li><strong>재질</strong>: 알루미늄 합금 케이싱 및 3D 프린팅 캡</li>
 </ul>
-<h3 id="_15"><strong>연결성 및 전원</strong></h3>
+<h3 id="_16"><strong>연결성 및 전원</strong></h3>
 <ul>
 <li><strong>전원</strong>: USB-C 전원 공급 (외부 전원 공급 장치 불필요)</li>
 <li><strong>USB 속도</strong>: HDMI/DP 버전은 USB 3.0; VGA 버전은 USB 2.0</li>
 <li><strong>호스트 호환성</strong>: Windows, macOS, Linux, Android, Chrome</li>
 <li><strong>대상</strong>: 소프트웨어 설치 불필요</li>
 </ul>
-<h3 id="_16"><strong>비디오 및 오디오</strong></h3>
+<h3 id="_17"><strong>비디오 및 오디오</strong></h3>
 <ul>
 <li><strong>최대 입력</strong>: 4096×2160@60Hz (YUV420), 4096×2160@30Hz (YUV444)</li>
 <li><strong>최대 출력</strong>: 4096×2160@60Hz (MJPEG), 3840×2160@30Hz (YUV420)</li>
 <li><strong>오디오</strong>: HDMI 임베디드 오디오 패스스루</li>
 </ul>
-<h3 id="_17"><strong>입력 기능</strong></h3>
+<h3 id="_18"><strong>입력 기능</strong></h3>
 <ul>
 <li>전체 키보드 및 마우스 에뮬레이션 (절대 및 상대)</li>
 <li>멀티미디어 키 지원</li>
 <li>사용자 정의 HID 기능</li>
 <li>컴퓨터 절전 모드 해제 기능</li>
 </ul>
-<h3 id="_18"><strong>저장소</strong></h3>
+<h3 id="_19"><strong>저장소</strong></h3>
 <ul>
 <li><strong>MicroSD 슬롯</strong>: MicroSD를 통한 호스트와 대상 간 파일 전송</li>
 </ul>
@@ -2971,7 +2981,7 @@
     <span class="md-icon" title="마지막 업데이트">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2025년 10월 28일 06:14:27 UTC"><span class="timeago" datetime="2025-10-28T06:14:27+00:00" locale="ko"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2025년 10월 28일 06:14:27 UTC">2025-10-28</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2025년 11월 3일 12:18:40 UTC"><span class="timeago" datetime="2025-11-03T12:18:40+00:00" locale="ko"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2025년 11월 3일 12:18:40 UTC">2025-11-03</span>
   </span>
 
     
