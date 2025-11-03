@@ -14,7 +14,7 @@ keywords: "KVM-Go, KVM over USB, KVM ultra-compact, HDMI intégré, KVM porte-cl
   <div class="slogan-subtitle">Pour Les Moments Tech Critiques — Branchez. Contrôlez. Allez.</div>
 </div>
 
-La **Série Openterface™ KVM-Go** est la solution [**KVM-over-USB**](/faq/kvm-over-usb/) de nouvelle génération. Ultra-compacte et conçue pour tenir sur votre porte-clés, elle dispose de connecteurs vidéo intégrés (HDMI, DisplayPort ou VGA) qui éliminent le besoin de câbles vidéo séparés. Parfaite pour les opérations rapides dans les centres de données, les salles de serveurs distantes et le dépannage de dispositifs headless.
+Suite au succès d'**Openterface Mini-KVM**, avec plus de 5 000 utilisateurs dans notre communauté open source, la **Série Openterface™ KVM-Go** est la solution [**KVM-over-USB**](/faq/kvm-over-usb/) de nouvelle génération. Ultra-compacte et conçue pour tenir sur votre porte-clés, elle dispose de connecteurs vidéo intégrés (HDMI, DisplayPort ou VGA) qui éliminent le besoin de câbles vidéo séparés. Parfaite pour les opérations rapides dans les centres de données, les salles de serveurs distantes et le dépannage de dispositifs headless.
 
 <div style="text-align: center; margin: 20px 0;">
   <button class="md-button" onclick="window.open('{{ config.extra.kvmgo_purchase_link }}', '_blank')">

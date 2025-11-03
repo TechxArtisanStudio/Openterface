@@ -50,6 +50,10 @@ Major improvements:
 - **USB**: USB 3.0 vs USB 2.0 (faster)
 - **Setup**: Built-in connectors vs separate cables (easier)
 
+**:material-chat-question:{ .faq } How fast does it start up?**
+
+The hardware startup time is less than 1 second, allowing immediate troubleshooting without delays or disturbances in your workflow.
+
 ---
 
 ## MicroSD & File Transfer
@@ -85,7 +89,12 @@ Insert the MicroSD card firmly until you feel a **click**, indicating it is secu
 
 - **Input**: Up to 4096×2160 @ 60 Hz (YUV420), 4096×2160 @ 30 Hz (YUV444)
 - **Output**: 4096×2160 @ 60 Hz (MJPEG), 3840×2160 @ 30 Hz (YUV420)
+- **Default**: 1080p@60Hz for optimal stability and performance
 - **Latency**: Under 140ms for smooth control
+
+**:material-chat-question:{ .faq } Does 4K mode have any limitations?**
+
+Yes — 4K mode is experimental and generates additional heat. The device surface may become quite hot during extended 4K operation. For optimal stability and performance, the default 1080p@60Hz mode is recommended.
 
 **:material-chat-question:{ .faq } Open-source?**
 
@@ -99,6 +108,14 @@ Direct USB connection allows full BIOS-level control, unlike remote-only tools (
 
 [Host apps](/app) compatible with macOS, Windows, Linux, Android, and Chrome web app for universal integration.
 
+**:material-chat-question:{ .faq } Can I use it with an iPad?**
+
+Yes — iPadOS support is coming soon via a native app available on the Apple App Store. This is made possible by KVM-GO's built-in Bluetooth capability, making it one of the few KVMs that works natively with iPads.
+
+**:material-chat-question:{ .faq } Is there a web-based app?**
+
+Yes — visit [Openterface Viewer](https://openterface-viewer.pages.dev/) for a zero-installation browser-based app (works in Chrome, Edge, Safari). Perfect for quick access or when you can't install software on the host computer. Thanks to our amazing community, particularly [@kashalls](https://github.com/kashalls) who started this project.
+
 **:material-chat-question:{ .faq } Which video connector should I choose?**
 
 - **HDMI**: Best for modern devices, servers, workstations
@@ -111,7 +128,16 @@ Direct USB connection allows full BIOS-level control, unlike remote-only tools (
 
 **:material-chat-question:{ .faq } When will KVM-Go be available?**
 
-KVM-Go is currently in pre-launch development. We're refining the PCB and case designs. Join our [waiting list]({{ config.extra.kvmgo_purchase_link }}) to stay updated on progress and get early access.
+KVM-Go is currently in small-batch production testing with units sent to beta testers for real-world validation.
+
+**Production Timeline**:
+
+- **November 2025**: Campaign launch
+- **December 2025**: Finalize production setup and component sourcing
+- **January-March 2026**: Mass production & quality control
+- **April 2026**: First shipments to backers
+
+Join our [waiting list]({{ config.extra.kvmgo_purchase_link }}) to stay updated on progress and get early access.
 
 **:material-chat-question:{ .faq } How much will it cost?**
 
