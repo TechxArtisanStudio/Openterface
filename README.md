@@ -1,39 +1,55 @@
-# Openterface Mini-KVM: Docs & Product Site
+# Openterface: Open-Source KVM Solutions
 
 ![use-case-demo-industrial-pc](https://assets.openterface.com/images/product/use-case-demo-industrial-pc.webp)
 
-Welcome to the official repository for the **Openterface Mini-KVM** — a portable, plug-and-play USB KVM gadget for BIOS-level control, local troubleshooting, and file-sharing, all without the need for a network connection.
+Welcome to the official repository for **Openterface** — a family of open-source, portable KVM solutions for BIOS-level control, local troubleshooting, and seamless device management, all without the need for a network connection.
 
-> 💡 This repository powers the **official Openterface Mini-KVM product website** via GitHub Pages. It is *not* intended as a template for self-hosting. Instead, it's the home of our documentation, compliance info, software download links, and other product resources.
+> 💡 This repository powers the **official Openterface product website** via GitHub Pages. It is *not* intended as a template for self-hosting. Instead, it's the home of our documentation, compliance info, software download links, and other product resources.
 
 ---
 
-## 🌟 What Is Openterface Mini-KVM?
+## 🌟 The Openterface Product Family
 
-The **Openterface Mini-KVM** is a compact open-source USB-based KVM solution that lets you control a target computer (e.g. a headless server or embedded system) using your host machine — just plug in USB and HDMI cables, no network or drivers required.
+We offer multiple KVM solutions designed for different use cases:
 
-🔧 Designed for:
-- IT professionals managing headless setups
-- Developers using SBCs like Raspberry Pi
-- Embedded system engineers
-- Anyone needing **portable, BIOS-level access**
+### 🖥️ [Openterface Mini-KVM](https://openterface.com/product/minikvm/)
+A compact USB-based KVM gadget for BIOS-level control of headless computers. Perfect for IT pros, developers, and system administrators.
 
-📦 Features:
+**Key Features:**
 - HDMI + USB capture for video, keyboard & mouse input
 - Direct USB port file sharing
 - Less than 1s startup time
-- Cross-platform host app (macOS, Windows, Linux, Android)
-- Fully open-source hardware & software
-- CE, UKCA, RoHS, WEEE certified
+- Cross-platform support (macOS, Windows, Linux, Android)
 - OSHWA certified: [UID CN000015](https://certification.oshwa.org/cn000015.html)
 
-📖 Learn more: [KVM-over-USB Basics](https://openterface.com/faq/usbkvm/kvm-over-usb/), [Openterface Mini-KVM](https://openterface.com/faq/minikvm/op-minikvm/)
+### 🚀 [Openterface KVM-Go Series](https://openterface.com/product/kvm-go/)
+A new line of versatile KVM solutions with enhanced portability and connectivity options for professionals on the go.
+
+### 🎮 [uConsole KVM Extension](https://openterface.com/product/uconsole-kvm-extension/)
+A specialized extension board that transforms the Clockwork uConsole into a portable KVM device for field work and embedded system debugging.
+
+---
+
+🔧 **Designed for:**
+- IT professionals managing headless setups
+- Developers working with SBCs like Raspberry Pi
+- Embedded system engineers
+- Tech enthusiasts needing **portable, BIOS-level access**
+
+📦 **Common Features Across Products:**
+- Network-free operation
+- Open-source hardware & software
+- CE, UKCA, RoHS, WEEE certified
+- Plug-and-play design
+- Cross-platform compatibility
+
+📖 Learn more: [KVM-over-USB Basics](https://openterface.com/faq/usbkvm/kvm-over-usb/)
 
 ---
 
 ## 📲 Download the Host App
 
-To use the Mini-KVM, install the corresponding **host-side app** on your computer or mobile:
+To use any Openterface KVM device, install the corresponding **host-side app** on your computer or mobile:
 
 - 💻 [Windows, macOS, Linux, Android builds & source](https://openterface.com/app/)
 - 📺 [Watch Demos on YouTube](https://youtube.com/@TechxArtisan)
@@ -54,7 +70,7 @@ We take openness seriously. Both our hardware and software are fully transparent
 
 ## ❓ FAQs & Use Cases
 
-Learn how the Mini-KVM compares to IP-based and software-based KVMs:
+Learn how Openterface KVM solutions compare to IP-based and software-based alternatives:
 
 - ⚙️ [Use Cases & Comparison Charts](https://openterface.com/faq/usbkvm/kvm-over-usb/)
 - 🤔 [Why Openterface?](https://openterface.com/faq/usbkvm/openterface/)
@@ -66,9 +82,9 @@ Learn how the Mini-KVM compares to IP-based and software-based KVMs:
 
 This repo is:
 
-- The **source of the Openterface Mini-KVM website** (hosted via GitHub Pages)
-- A hub for product docs, software links, and compliance references
-- Maintained by [TechxArtisan](https://techxartisan.com), the creators of the Openterface family
+- The **source of the Openterface product website** (hosted via GitHub Pages)
+- A hub for documentation, software links, and compliance info for all Openterface products
+- Maintained by [TechxArtisan](https://techxartisan.com), the creators of the Openterface product family
 
 💌 Questions or ideas? Email us at [info@openterface.com](mailto:info@openterface.com) or [join our Discord](/discord)
 
