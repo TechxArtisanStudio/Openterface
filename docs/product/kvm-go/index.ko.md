@@ -14,7 +14,7 @@ keywords: "KVM-Go, KVM over USB, 초소형 KVM, 내장 HDMI, 키체인 KVM, 4K K
   <div class="slogan-subtitle">중요한 기술 순간을 위해 — 연결. 제어. 시작.</div>
 </div>
 
-**Openterface™ KVM-Go 시리즈**는 차세대 [**KVM-over-USB**](/faq/kvm-over-usb/) 솔루션입니다. 키체인에 맞는 초소형으로 설계되었으며, 내장 비디오 커넥터(HDMI, DisplayPort 또는 VGA)를 특징으로 하여 별도의 비디오 케이블이 필요 없습니다. 데이터 센터, 원격 서버실, 헤드리스 장치 문제 해결에서의 신속한 작업에 완벽합니다.
+**Openterface Mini-KVM**의 성공에 이어 오픈 소스 커뮤니티에 5,000명 이상의 사용자를 보유한 **Openterface™ KVM-Go 시리즈**는 차세대 [**KVM-over-USB**](/faq/kvm-over-usb/) 솔루션입니다. 키체인에 맞는 초소형으로 설계되었으며, 내장 비디오 커넥터(HDMI, DisplayPort 또는 VGA)를 특징으로 하여 별도의 비디오 케이블이 필요 없습니다. 데이터 센터, 원격 서버실, 헤드리스 장치 문제 해결에서의 신속한 작업에 완벽합니다.
 
 <div style="text-align: center; margin: 20px 0;">
   <button class="md-button" onclick="window.open('{{ config.extra.kvmgo_purchase_link }}', '_blank')">

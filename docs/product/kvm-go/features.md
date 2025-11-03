@@ -32,15 +32,19 @@ Direct plug-in capability with built-in male connectors:
 ### **BIOS-Level Access**
 Direct access to target device BIOS, firmware, and startup management without network dependencies.
 
-### **Network Independence**
-Stable headless control using built-in video capture and emulated keyboard/mouse (HID) input. No network connection required.
+### **Network Independence & Lightning-Fast Response**
+Stable headless control using built-in video capture and emulated keyboard/mouse (HID) input. No network connection required. Hardware startup time is less than 1 second, ensuring immediate troubleshooting without workflow delays.
 
 ### **Upgraded Video Performance**
 Massive upgrade from Mini-KVM's 1080p@30Hz:
 
 - **Input**: 4096×2160 @ 60 Hz (YUV420), 4096×2160 @ 30 Hz (YUV444)
 - **Output**: 4096×2160 @ 60 Hz (MJPEG), 3840×2160 @ 30 Hz (YUV420)
+- **Default**: 1080p@60Hz for optimal stability and performance
+- **4K Mode**: Available as experimental feature*
 - **Compression**: YUV420, YUV444, and MJPEG support
+
+*Note: 4K mode generates additional heat; device surface may become quite hot during extended operation
 
 ### **MicroSD Slot**
 File transfer between host and target devices
@@ -51,16 +55,23 @@ File transfer between host and target devices
 ### **Text Transfer**
 Effortlessly transmit text by simulating keystrokes—perfect for usernames, passwords, and code snippets. Supports ASCII characters including symbols and punctuation.
 
+- **Host → Target**: Send text via emulated keyboard strokes
+- **Target → Host**: Copy text from target's screen to host via OCR (macOS only)
+
 !!! warning "Text Transfer Limitations"
     - **No Clipboard Integration**: Only emulates typing, no image or document transfer
     - **ASCII Only**: Limited to ASCII characters (no Chinese, Japanese, Korean, etc. support)
     - **Length Considerations**: Best for short text; large blocks may cause performance issues
+    - **OCR Feature**: Target → Host text transfer currently only available on macOS
 
 ### **Plug-and-Play Convenience**
 No software installation required on target device. Control begins immediately upon connection with no software traces left behind.
 
 ### **Audio Integration**
 HDMI embedded audio passthrough for complete multimedia experience. (Not supported on KVM-Go VGA; pending confirmation for KVM-Go DP.)
+
+### **Bluetooth Capability**
+Built-in Bluetooth support enables native iPadOS app functionality (coming soon), making KVM-GO one of the few KVMs that works natively with iPads.
 
 ### **Open-Source**
 [Fully open-source](/compliance) hardware and software for transparency and [community innovation](/discord).
