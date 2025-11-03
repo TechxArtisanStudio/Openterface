@@ -14,7 +14,7 @@ keywords: "KVM-Go, KVM over USB, KVM ultra-compact, HDMI integrat, KVM portcheie
   <div class="slogan-subtitle">Pentru Momente Tech Critice — Conectează. Controlează. Du-te.</div>
 </div>
 
-**Seria Openterface™ KVM-Go** este soluția [**KVM-over-USB**](/faq/kvm-over-usb/) de generația următoare. Ultra-compactă și proiectată să încapă pe portcheia ta, prezintă conectoare video integrate (HDMI, DisplayPort sau VGA) care elimină necesitatea cablurilor video separate. Perfectă pentru operațiuni rapide în centrele de date, sălile de servere remote și rezolvarea problemelor dispozitivelor headless.
+După succesul **Openterface Mini-KVM**, cu peste 5.000 de utilizatori în comunitatea noastră open-source, **Seria Openterface™ KVM-Go** este soluția [**KVM-over-USB**](/faq/kvm-over-usb/) de generația următoare. Ultra-compactă și proiectată să încapă pe portcheia ta, prezintă conectoare video integrate (HDMI, DisplayPort sau VGA) care elimină necesitatea cablurilor video separate. Perfectă pentru operațiuni rapide în centrele de date, sălile de servere remote și rezolvarea problemelor dispozitivelor headless.
 
 <div style="text-align: center; margin: 20px 0;">
   <button class="md-button" onclick="window.open('{{ config.extra.kvmgo_purchase_link }}', '_blank')">

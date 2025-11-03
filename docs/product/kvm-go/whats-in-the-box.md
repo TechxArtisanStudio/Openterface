@@ -6,16 +6,18 @@ keywords: "KVM-Go, ultra-compact KVM, built-in HDMI, keychain KVM, KVM toolkit, 
 
 # **What's In The Box** | Pre-Launch Packages | Openterface KVM-Go Series
 
-![KVM-Go Parts](https://assets.openterface.com/images/kvm-go/step-0-all-parts-h.webp){:style="max-height:360px"}
+We offer three complete toolkit options—**HDMI**, **DP**, or **VGA** version. The only difference between them is the core product itself. All other contents are identical across all three options.
 
-Each KVM-GO includes:
+Each toolkit includes:
 
-1. **Core Product**: Openterface KVM-GO (HDMI, DP, or VGA version)
+1. **Core Product**: Openterface KVM-GO (choose HDMI, DP, or VGA version)
 2. **Toolkit Bag**: Compact carrying case
 3. **USB Cables**: 
    - 0.5m black Type-C to USB-A cable with Type-C adapter
    - 2.5m orange Type-C to Type-C cable with USB-A adapter
-4. **3D-Printed Cap**: Custom cap with microSD storage (where applicable)
+4. **3D-Printed Cap**: Custom cap with microSD storage
 5. **Quick Start Guide**
+
+![KVM-Go Parts](https://assets.openterface.com/images/kvm-go/step-0-all-parts-h.webp){:style="max-height:360px"}
 
 *Note: The final version you receive may differ slightly, as we're still improving the packaging design.*

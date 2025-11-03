@@ -32,15 +32,19 @@ Capacitate de conectare directă cu conectori masculi încorporați:
 ### **Acces la nivel BIOS**
 Acces direct la BIOS, firmware și gestionarea pornirii dispozitivului țintă fără dependențe de rețea.
 
-### **Independență de rețea**
-Control headless stabil folosind captura video încorporată și intrarea de tastatură/mouse emulată (HID). Nu necesită conexiune la rețea.
+### **Independență de rețea și răspuns ultra-rapid**
+Control headless stabil folosind captura video încorporată și intrarea de tastatură/mouse emulată (HID). Nu necesită conexiune la rețea. Timpul de pornire al hardware-ului este mai mic de 1 secundă, asigurând depanare imediată fără întârzieri în fluxul de lucru.
 
 ### **Performanță video îmbunătățită**
 Îmbunătățire masivă față de 1080p@30Hz al Mini-KVM:
 
 - **Intrare**: 4096×2160 @ 60 Hz (YUV420), 4096×2160 @ 30 Hz (YUV444)
 - **Ieșire**: 4096×2160 @ 60 Hz (MJPEG), 3840×2160 @ 30 Hz (YUV420)
+- **Implicit**: 1080p@60Hz pentru stabilitate și performanță optimă
+- **Mod 4K**: Disponibil ca funcție experimentală*
 - **Compresie**: Suport YUV420, YUV444 și MJPEG
+
+*Notă: Modul 4K generează căldură suplimentară; suprafața dispozitivului poate deveni destul de fierbinte în timpul funcționării prelungite
 
 ### **Slot MicroSD**
 Transfer de fișiere între dispozitivele gazdă și țintă
@@ -51,16 +55,23 @@ Transfer de fișiere între dispozitivele gazdă și țintă
 ### **Transfer de text**
 Transmiteți text fără efort simulând apăsări de taste — perfect pentru nume de utilizator, parole și fragmente de cod. Suportă caractere ASCII incluzând simboluri și punctuație.
 
+- **Gazdă → Țintă**: Trimiteți text prin apăsări de taste emulate
+- **Țintă → Gazdă**: Copiați text de pe ecranul țintă pe gazdă prin OCR (doar macOS)
+
 !!! warning "Limitări transfer de text"
     - **Fără integrare clipboard**: Doar emulează tastarea, fără transfer de imagini sau documente
     - **Doar ASCII**: Limitat la caractere ASCII (fără suport pentru chineză, japoneză, coreeană, etc.)
     - **Considerații de lungime**: Ideal pentru text scurt; blocuri mari pot cauza probleme de performanță
+    - **Funcție OCR**: Transferul de text Țintă → Gazdă este disponibil în prezent doar pe macOS
 
 ### **Conveniență plug-and-play**
 Nu necesită instalare de software pe dispozitivul țintă. Controlul începe imediat după conectare fără a lăsa urme de software.
 
 ### **Integrare audio**
 Audio HDMI încorporat pentru experiență multimedia completă. (Nu este suportat pe KVM-Go VGA; confirmare în așteptare pentru KVM-Go DP.)
+
+### **Capacitate Bluetooth**
+Suportul Bluetooth integrat permite funcționalitatea aplicației native iPadOS (în curând), făcând KVM-GO unul dintre puținele KVM-uri care funcționează nativ cu iPad-urile.
 
 ### **Open-source**
 Hardware și software [complet open-source](/compliance) pentru transparență și [inovație comunitară](/discord).

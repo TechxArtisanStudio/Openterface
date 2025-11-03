@@ -32,15 +32,19 @@ Capacità di connessione diretta con connettori maschio integrati:
 ### **Accesso a livello BIOS**
 Accesso diretto a BIOS, firmware e gestione dell'avvio del dispositivo di destinazione senza dipendenze di rete.
 
-### **Indipendenza dalla rete**
-Controllo headless stabile utilizzando la cattura video integrata e l'input tastiera/mouse emulato (HID). Nessuna connessione di rete richiesta.
+### **Indipendenza dalla rete e risposta fulminea**
+Controllo headless stabile utilizzando la cattura video integrata e l'input tastiera/mouse emulato (HID). Nessuna connessione di rete richiesta. Il tempo di avvio dell'hardware è inferiore a 1 secondo, garantendo una risoluzione immediata dei problemi senza ritardi nel flusso di lavoro.
 
 ### **Prestazioni video migliorate**
 Enorme miglioramento rispetto al 1080p@30Hz di Mini-KVM:
 
 - **Input**: 4096×2160 @ 60 Hz (YUV420), 4096×2160 @ 30 Hz (YUV444)
 - **Output**: 4096×2160 @ 60 Hz (MJPEG), 3840×2160 @ 30 Hz (YUV420)
+- **Predefinito**: 1080p@60Hz per stabilità e prestazioni ottimali
+- **Modalità 4K**: Disponibile come funzionalità sperimentale*
 - **Compressione**: Supporto YUV420, YUV444 e MJPEG
+
+*Nota: La modalità 4K genera calore aggiuntivo; la superficie del dispositivo può diventare molto calda durante il funzionamento prolungato
 
 ### **Slot MicroSD**
 Trasferimento file tra dispositivi host e destinazione
@@ -51,16 +55,23 @@ Trasferimento file tra dispositivi host e destinazione
 ### **Trasferimento testo**
 Trasmetti facilmente il testo simulando i tasti — perfetto per nomi utente, password e frammenti di codice. Supporta caratteri ASCII inclusi simboli e punteggiatura.
 
+- **Host → Target**: Inviare testo tramite simulazione di tasti
+- **Target → Host**: Copiare testo dallo schermo del target all'host tramite OCR (solo macOS)
+
 !!! warning "Limitazioni del trasferimento testo"
     - **Nessuna integrazione degli appunti**: Emula solo la digitazione, nessun trasferimento di immagini o documenti
     - **Solo ASCII**: Limitato ai caratteri ASCII (nessun supporto per cinese, giapponese, coreano, ecc.)
     - **Considerazioni sulla lunghezza**: Ideale per testi brevi; blocchi grandi possono causare problemi di prestazioni
+    - **Funzione OCR**: Il trasferimento testo Target → Host è attualmente disponibile solo su macOS
 
 ### **Convenienza plug-and-play**
 Nessuna installazione software richiesta sul dispositivo di destinazione. Il controllo inizia immediatamente dopo la connessione senza lasciare tracce software.
 
 ### **Integrazione audio**
 Passthrough audio HDMI integrato per un'esperienza multimediale completa. (Non supportato su KVM-Go VGA; conferma in sospeso per KVM-Go DP.)
+
+### **Capacità Bluetooth**
+Il supporto Bluetooth integrato abilita la funzionalità dell'app nativa iPadOS (in arrivo), rendendo KVM-GO uno dei pochi KVM che funzionano nativamente con gli iPad.
 
 ### **Open-source**
 Hardware e software [completamente open-source](/compliance) per trasparenza e [innovazione della comunità](/discord).
