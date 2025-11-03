@@ -19,7 +19,7 @@
       
       
       <link rel="icon" href="../../../../assets/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
     
     
       
@@ -2901,33 +2901,43 @@
 </ul>
 <h3 id="acces-la-nivel-bios"><strong>Acces la nivel BIOS</strong></h3>
 <p>Acces direct la BIOS, firmware și gestionarea pornirii dispozitivului țintă fără dependențe de rețea.</p>
-<h3 id="independenta-de-retea"><strong>Independență de rețea</strong></h3>
-<p>Control headless stabil folosind captura video încorporată și intrarea de tastatură/mouse emulată (HID). Nu necesită conexiune la rețea.</p>
+<h3 id="independenta-de-retea-si-raspuns-ultra-rapid"><strong>Independență de rețea și răspuns ultra-rapid</strong></h3>
+<p>Control headless stabil folosind captura video încorporată și intrarea de tastatură/mouse emulată (HID). Nu necesită conexiune la rețea. Timpul de pornire al hardware-ului este mai mic de 1 secundă, asigurând depanare imediată fără întârzieri în fluxul de lucru.</p>
 <h3 id="performanta-video-imbunatatita"><strong>Performanță video îmbunătățită</strong></h3>
 <p>Îmbunătățire masivă față de 1080p@30Hz al Mini-KVM:</p>
 <ul>
 <li><strong>Intrare</strong>: 4096×2160 @ 60 Hz (YUV420), 4096×2160 @ 30 Hz (YUV444)</li>
 <li><strong>Ieșire</strong>: 4096×2160 @ 60 Hz (MJPEG), 3840×2160 @ 30 Hz (YUV420)</li>
+<li><strong>Implicit</strong>: 1080p@60Hz pentru stabilitate și performanță optimă</li>
+<li><strong>Mod 4K</strong>: Disponibil ca funcție experimentală*</li>
 <li><strong>Compresie</strong>: Suport YUV420, YUV444 și MJPEG</li>
 </ul>
+<p>*Notă: Modul 4K generează căldură suplimentară; suprafața dispozitivului poate deveni destul de fierbinte în timpul funcționării prelungite</p>
 <h3 id="slot-microsd"><strong>Slot MicroSD</strong></h3>
 <p>Transfer de fișiere între dispozitivele gazdă și țintă</p>
 <h3 id="suport-multi-platforma"><strong>Suport multi-platformă</strong></h3>
 <p><a href="/app">Aplicații gazdă</a> compatibile cu macOS, Windows, Linux, Android și aplicația web Chrome pentru integrare universală.</p>
 <h3 id="transfer-de-text"><strong>Transfer de text</strong></h3>
 <p>Transmiteți text fără efort simulând apăsări de taste — perfect pentru nume de utilizator, parole și fragmente de cod. Suportă caractere ASCII incluzând simboluri și punctuație.</p>
+<ul>
+<li><strong>Gazdă → Țintă</strong>: Trimiteți text prin apăsări de taste emulate</li>
+<li><strong>Țintă → Gazdă</strong>: Copiați text de pe ecranul țintă pe gazdă prin OCR (doar macOS)</li>
+</ul>
 <div class="admonition warning">
 <p class="admonition-title">Limitări transfer de text</p>
 <ul>
 <li><strong>Fără integrare clipboard</strong>: Doar emulează tastarea, fără transfer de imagini sau documente</li>
 <li><strong>Doar ASCII</strong>: Limitat la caractere ASCII (fără suport pentru chineză, japoneză, coreeană, etc.)</li>
 <li><strong>Considerații de lungime</strong>: Ideal pentru text scurt; blocuri mari pot cauza probleme de performanță</li>
+<li><strong>Funcție OCR</strong>: Transferul de text Țintă → Gazdă este disponibil în prezent doar pe macOS</li>
 </ul>
 </div>
 <h3 id="convenienta-plug-and-play"><strong>Conveniență plug-and-play</strong></h3>
 <p>Nu necesită instalare de software pe dispozitivul țintă. Controlul începe imediat după conectare fără a lăsa urme de software.</p>
 <h3 id="integrare-audio"><strong>Integrare audio</strong></h3>
 <p>Audio HDMI încorporat pentru experiență multimedia completă. (Nu este suportat pe KVM-Go VGA; confirmare în așteptare pentru KVM-Go DP.)</p>
+<h3 id="capacitate-bluetooth"><strong>Capacitate Bluetooth</strong></h3>
+<p>Suportul Bluetooth integrat permite funcționalitatea aplicației native iPadOS (în curând), făcând KVM-GO unul dintre puținele KVM-uri care funcționează nativ cu iPad-urile.</p>
 <h3 id="open-source"><strong>Open-source</strong></h3>
 <p>Hardware și software <a href="/compliance">complet open-source</a> pentru transparență și <a href="/discord">inovație comunitară</a>.</p>
 <h2 id="specificatii-tehnice">Specificații tehnice</h2>
@@ -2983,7 +2993,7 @@
     <span class="md-icon" title="Ultima actualizare">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="28 octombrie 2025 06:14:27 UTC"><span class="timeago" datetime="2025-10-28T06:14:27+00:00" locale="ro"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="28 octombrie 2025 06:14:27 UTC">2025-10-28</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="3 noiembrie 2025 12:18:40 UTC"><span class="timeago" datetime="2025-11-03T12:18:40+00:00" locale="ro"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="3 noiembrie 2025 12:18:40 UTC">2025-11-03</span>
   </span>
 
     

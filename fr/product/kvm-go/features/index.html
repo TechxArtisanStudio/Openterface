@@ -19,7 +19,7 @@
       
       
       <link rel="icon" href="../../../../assets/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
     
     
       
@@ -2891,33 +2891,43 @@
 </ul>
 <h3 id="acces-au-niveau-bios"><strong>Accès au niveau BIOS</strong></h3>
 <p>Accès direct au BIOS, firmware et gestion de démarrage de l'appareil cible sans dépendance réseau.</p>
-<h3 id="independance-reseau"><strong>Indépendance réseau</strong></h3>
-<p>Contrôle headless stable utilisant la capture vidéo intégrée et l'entrée clavier/souris émulée (HID). Aucune connexion réseau requise.</p>
+<h3 id="independance-reseau-et-reponse-ultra-rapide"><strong>Indépendance réseau et réponse ultra-rapide</strong></h3>
+<p>Contrôle headless stable utilisant la capture vidéo intégrée et l'entrée clavier/souris émulée (HID). Aucune connexion réseau requise. Le temps de démarrage du matériel est inférieur à 1 seconde, garantissant un dépannage immédiat sans délais dans votre flux de travail.</p>
 <h3 id="performance-video-amelioree"><strong>Performance vidéo améliorée</strong></h3>
 <p>Amélioration massive par rapport au 1080p@30Hz du Mini-KVM :</p>
 <ul>
 <li><strong>Entrée</strong> : 4096×2160 @ 60 Hz (YUV420), 4096×2160 @ 30 Hz (YUV444)</li>
 <li><strong>Sortie</strong> : 4096×2160 @ 60 Hz (MJPEG), 3840×2160 @ 30 Hz (YUV420)</li>
+<li><strong>Par défaut</strong> : 1080p@60Hz pour une stabilité et des performances optimales</li>
+<li><strong>Mode 4K</strong> : Disponible en tant que fonctionnalité expérimentale*</li>
 <li><strong>Compression</strong> : Support YUV420, YUV444 et MJPEG</li>
 </ul>
+<p>*Remarque : Le mode 4K génère de la chaleur supplémentaire ; la surface de l'appareil peut devenir très chaude pendant un fonctionnement prolongé</p>
 <h3 id="slot-microsd"><strong>Slot MicroSD</strong></h3>
 <p>Transfert de fichiers entre appareils hôte et cible</p>
 <h3 id="support-multiplateforme"><strong>Support multiplateforme</strong></h3>
 <p><a href="/app">Applications hôtes</a> compatibles avec macOS, Windows, Linux, Android et application web Chrome pour une intégration universelle.</p>
 <h3 id="transfert-de-texte"><strong>Transfert de texte</strong></h3>
 <p>Transmettez facilement du texte en simulant des frappes au clavier — parfait pour les noms d'utilisateur, mots de passe et extraits de code. Prend en charge les caractères ASCII y compris symboles et ponctuation.</p>
+<ul>
+<li><strong>Hôte → Cible</strong> : Envoyer du texte via des frappes clavier émulées</li>
+<li><strong>Cible → Hôte</strong> : Copier du texte de l'écran de la cible vers l'hôte via OCR (macOS uniquement)</li>
+</ul>
 <div class="admonition warning">
 <p class="admonition-title">Limitations du transfert de texte</p>
 <ul>
 <li><strong>Pas d'intégration du presse-papiers</strong> : Émule uniquement la saisie, pas de transfert d'image ou de document</li>
 <li><strong>ASCII uniquement</strong> : Limité aux caractères ASCII (pas de support chinois, japonais, coréen, etc.)</li>
 <li><strong>Considérations de longueur</strong> : Idéal pour les textes courts ; les gros blocs peuvent causer des problèmes de performance</li>
+<li><strong>Fonction OCR</strong> : Le transfert de texte Cible → Hôte est actuellement disponible uniquement sur macOS</li>
 </ul>
 </div>
 <h3 id="commodite-plug-and-play"><strong>Commodité plug-and-play</strong></h3>
 <p>Aucune installation logicielle requise sur l'appareil cible. Le contrôle commence immédiatement après la connexion sans laisser de traces logicielles.</p>
 <h3 id="integration-audio"><strong>Intégration audio</strong></h3>
 <p>Audio intégré HDMI pour une expérience multimédia complète. (Non pris en charge sur KVM-Go VGA ; confirmation en attente pour KVM-Go DP.)</p>
+<h3 id="capacite-bluetooth"><strong>Capacité Bluetooth</strong></h3>
+<p>Le support Bluetooth intégré permet la fonctionnalité de l'application native iPadOS (à venir), faisant du KVM-GO l'un des rares KVM fonctionnant nativement avec les iPads.</p>
 <h3 id="open-source"><strong>Open-source</strong></h3>
 <p>Matériel et logiciel <a href="/compliance">entièrement open-source</a> pour la transparence et <a href="/discord">l'innovation communautaire</a>.</p>
 <h2 id="specifications-techniques">Spécifications techniques</h2>
@@ -2973,7 +2983,7 @@
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="28 octobre 2025 06:14:27 UTC"><span class="timeago" datetime="2025-10-28T06:14:27+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="28 octobre 2025 06:14:27 UTC">2025-10-28</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="3 novembre 2025 12:18:40 UTC"><span class="timeago" datetime="2025-11-03T12:18:40+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="3 novembre 2025 12:18:40 UTC">2025-11-03</span>
   </span>
 
     
