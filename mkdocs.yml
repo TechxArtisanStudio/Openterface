@@ -228,6 +228,8 @@ plugins:
     type: timeago
 - redirects:
     redirect_maps:
+      support/minikvm/r.md: https://docs.google.com/spreadsheets/d/1apfEJuWz5ZhlLR7PW7Rpv6devQ2IqeSq_ZCEtD98nZw/edit?resourcekey=&gid=1205342311#gid=1205342311
+      support.md: https://docs.google.com/forms/d/e/1FAIpQLSd4NiKDb-BRIJxuo5m08sC03nkhsioE-4KZj6e_uMZ6oDg5Bw/viewform?usp=header
       support/minikvm.md: https://docs.google.com/forms/d/e/1FAIpQLSd4NiKDb-BRIJxuo5m08sC03nkhsioE-4KZj6e_uMZ6oDg5Bw/viewform?usp=header
       product/kvm-go/pre-launch.md: product/kvm-go/index.md
       product/minikvm/reviews.md: product/minikvm/reviews/youtube.md
