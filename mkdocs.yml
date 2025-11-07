@@ -234,6 +234,7 @@ plugins:
       product/minikvm/reviews.md: product/minikvm/reviews/youtube.md
       product/kvm-go/pre-launch.md: product/kvm-go/index.md
       product/kvm-go/beta-questions.md: https://docs.google.com/forms/d/e/1FAIpQLSf1WGwGSN-4ZPVav0CwdepNsBQj9iLmtR7AF_c2GETPwnfHCQ/viewform?usp=header
+      product/kvm-go/beta-questions/r.md: https://docs.google.com/spreadsheets/d/1kA4Ss1JugniiaEdR_FSC_V9LroV_S6SgrwpdA0aFAcM/edit?resourcekey=&gid=1732436299#gid=1732436299
       app.md: app/overview.md
       about.md: about/about-us.md
       contact.md: about/about-us.md
