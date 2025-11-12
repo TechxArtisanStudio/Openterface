@@ -11,24 +11,27 @@ Il test è flessibile, ma ci farebbe piacere che concentrassi l’attenzione su 
 Il tuo feedback è estremamente prezioso. Sei libero/a di esplorare altri aspetti del dispositivo, ma questi sono gli ambiti principali su cui vorremmo focalizzarci:
 
 1. **Test di inattività prolungata**
-   1. Avvia il software e connettilo a un target
-   2. Lascia il software in esecuzione senza interazione per un periodo esteso (diverse ore)
-   3. Ritorna e prova a utilizzare i controlli di mouse e tastiera
-   - Dopo il periodo di inattività, mouse e tastiera hanno funzionato normalmente al tuo ritorno?
+
+    1. Avvia il software e connettilo a un target
+    2. Lascia il software in esecuzione senza interazione per un periodo esteso (diverse ore)
+    3. Ritorna e prova a utilizzare i controlli di mouse e tastiera
+    - Dopo il periodo di inattività, mouse e tastiera hanno funzionato normalmente al tuo ritorno?
 
 2. **Test di hot-plug**
-   - Prova a scollegare e ricollegare il dispositivo mentre il software è in esecuzione.
+
+    - Prova a scollegare e ricollegare il dispositivo mentre il software è in esecuzione.
 
 3. **Accesso al BIOS e a basso livello**
 
 4. **Copia e incolla (testi brevi e lunghi)**
 
 5. **Impostazioni di simulazione del dispositivo (Windows/Linux)**
-   - 5.1. Configurazione EDID del display
-   - 5.2. Identificazione del dispositivo USB (VID/PID)
-   - 5.3. Funzionalità della scheda SD
-     - 5.3.1. Caso d’uso 1 - Installazione del sistema: consigliamo di provare Ventoy, uno strumento che permette di inserire più file ISO su una sola scheda SD e scegliere quale avviare. Hai provato a scrivere un’immagine di sistema su HOST e poi a passare a TARGET per l’installazione (senza rimuovere la scheda)?
-     - Caso d’uso 2 - Trasferimento file: hai utilizzato la scheda SD per trasferire file tra HOST e TARGET?
+
+    - 5.1. Configurazione EDID del display
+    - 5.2. Identificazione del dispositivo USB (VID/PID)
+    - 5.3. Funzionalità della scheda SD
+        - Caso d’uso 1 - Installazione del sistema: consigliamo di provare Ventoy, uno strumento che permette di inserire più file ISO su una sola scheda SD e scegliere quale avviare. Hai provato a scrivere un’immagine di sistema su HOST e poi a passare a TARGET per l’installazione (senza rimuovere la scheda)?
+        - Caso d’uso 2 - Trasferimento file: hai utilizzato la scheda SD per trasferire file tra HOST e TARGET?
 
 Questi esempi corrispondono ad alcune domande contenute nel modulo di feedback beta e sono accompagnati da richieste di informazioni generali sulla coerenza di audio/video/tastiera/mouse o sulla gestione del calore.
 
