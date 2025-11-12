@@ -11,24 +11,27 @@ Este teste oferece flexibilidade, mas gostaríamos que você se concentrasse em 
 Seu feedback é extremamente valioso para nós. Você pode testar outros aspectos do dispositivo, mas estes são os principais pontos que queremos explorar:
 
 1. **Teste de inatividade prolongada**
-   1. Inicie o software e conecte-o a um alvo
-   2. Deixe o software em execução sem interação por um período prolongado (algumas horas)
-   3. Retorne e tente usar os controles de mouse e teclado
-   - Depois de deixar o software inativo, o mouse e o teclado funcionaram normalmente quando você voltou?
+
+    1. Inicie o software e conecte-o a um alvo
+    2. Deixe o software em execução sem interação por um período prolongado (algumas horas)
+    3. Retorne e tente usar os controles de mouse e teclado
+    - Depois de deixar o software inativo, o mouse e o teclado funcionaram normalmente quando você voltou?
 
 2. **Teste de hot-plug**
-   - Teste desconectar e reconectar o dispositivo enquanto o software estiver em execução.
+
+    - Teste desconectar e reconectar o dispositivo enquanto o software estiver em execução.
 
 3. **Acesso ao BIOS e a baixo nível**
 
 4. **Copiar e colar (texto curto e longo)**
 
 5. **Configurações de simulação de dispositivo (Windows/Linux)**
-   - 5.1. Configuração de EDID do display
-   - 5.2. Identificação do dispositivo USB (VID/PID)
-   - 5.3. Funcionalidade do cartão SD
-     - 5.3.1. Caso de uso 1 - Instalação do sistema: recomendamos experimentar o Ventoy, uma ferramenta que permite colocar vários arquivos ISO em um único cartão SD e escolher qual inicializar. Você tentou gravar uma imagem do sistema no HOST e, em seguida, mudar para o TARGET para a instalação (sem remover o cartão)?
-     - Caso de uso 2 - Transferência de arquivos: você usou o cartão SD para transferir arquivos entre o HOST e o TARGET?
+
+    - 5.1. Configuração de EDID do display
+    - 5.2. Identificação do dispositivo USB (VID/PID)
+    - 5.3. Funcionalidade do cartão SD
+        - Caso de uso 1 - Instalação do sistema: recomendamos experimentar o Ventoy, uma ferramenta que permite colocar vários arquivos ISO em um único cartão SD e escolher qual inicializar. Você tentou gravar uma imagem do sistema no HOST e, em seguida, mudar para o TARGET para a instalação (sem remover o cartão)?
+        - Caso de uso 2 - Transferência de arquivos: você usou o cartão SD para transferir arquivos entre o HOST e o TARGET?
 
 Esses exemplos correspondem a algumas das perguntas presentes no formulário de feedback da beta, juntamente com informações gerais sobre consistência de áudio/vídeo/teclado/mouse e gerenciamento térmico.
 
