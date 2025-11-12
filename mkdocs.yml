@@ -141,6 +141,19 @@ nav:
   - Overview: faq/index.md
   - KVM-over-USB: faq/kvm-over-usb.md
 - Product:
+  - KVM-Go Series 🚀:
+    - Overview: product/kvm-go/index.md
+    - Features: product/kvm-go/features.md
+    - What's In The Box: product/kvm-go/whats-in-the-box.md
+    - How To Connect: product/kvm-go/how-to-connect.md
+    - Beta Quick Start: product/kvm-go/beta-quick-start.md
+    - MicroSD Switch: product/kvm-go/microsd-switch.md
+    - FAQs for KVM-Go: product/kvm-go/faq.md
+    - Reviews & Press:
+      - YouTube Reviews: product/kvm-go/reviews/youtube.md
+      - Testimonials: product/kvm-go/reviews/testimonials.md
+      - Media Coverage: product/kvm-go/reviews/media.md
+    - Updates for KVM-Go: product/kvm-go/updates/index.md
   - Mini-KVM 👑:
     - Overview: product/minikvm/index.md
     - Features: product/minikvm/features.md
@@ -154,18 +167,6 @@ nav:
       - Testimonials: product/minikvm/reviews/testimonials.md
       - Media Coverage: product/minikvm/reviews/media.md
     - Updates for Mini-KVM: product/minikvm/updates/index.md
-  - KVM Go Series ⏳:
-    - Overview: product/kvm-go/index.md
-    - Features: product/kvm-go/features.md
-    - What's In The Box: product/kvm-go/whats-in-the-box.md
-    - How To Connect: product/kvm-go/how-to-connect.md
-    - MicroSD Switch: product/kvm-go/microsd-switch.md
-    - FAQs for KVM-Go: product/kvm-go/faq.md
-    - Reviews & Press:
-      - YouTube Reviews: product/kvm-go/reviews/youtube.md
-      - Testimonials: product/kvm-go/reviews/testimonials.md
-      - Media Coverage: product/kvm-go/reviews/media.md
-    - Updates for KVM-Go: product/kvm-go/updates/index.md
   - uConsole KVM Extension:
     - Overview: product/uconsole-kvm-extension/index.md
     - Features: product/uconsole-kvm-extension/features.md
@@ -228,7 +229,7 @@ plugins:
     type: timeago
 - redirects:
     redirect_maps:
-      support.md: https://docs.google.com/forms/d/e/1FAIpQLSd4NiKDb-BRIJxuo5m08sC03nkhsioE-4KZj6e_uMZ6oDg5Bw/viewform?usp=header
+      support.md: about/tech-support.md
       support/minikvm.md: https://docs.google.com/forms/d/e/1FAIpQLSd4NiKDb-BRIJxuo5m08sC03nkhsioE-4KZj6e_uMZ6oDg5Bw/viewform?usp=header
       support/minikvm/r.md: https://docs.google.com/spreadsheets/d/1apfEJuWz5ZhlLR7PW7Rpv6devQ2IqeSq_ZCEtD98nZw/edit?resourcekey=&gid=1205342311#gid=1205342311
       product/minikvm/reviews.md: product/minikvm/reviews/youtube.md
@@ -250,7 +251,6 @@ plugins:
       quick-start.md: product/minikvm/index.md
       basic/usb-switch.md: product/minikvm/usb-switch.md
       product/minikvm-lite/pre-launch.md: product/kvm-go/pre-launch.md
-      support.md: about/tech-support.md
       buy-mini-kvm.md: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
       order.md: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
       shop.md: https://shop.techxartisan.com
