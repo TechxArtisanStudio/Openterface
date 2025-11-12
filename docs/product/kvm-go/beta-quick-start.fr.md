@@ -11,24 +11,27 @@ Ce test reste flexible, mais nous aimerions que vous concentriez vos efforts sur
 Votre retour nous est extrêmement précieux. Vous pouvez explorer d’autres aspects de l’appareil, mais voici les domaines clés qui nous intéressent particulièrement :
 
 1. **Test d’inactivité prolongée**
-   1. Lancez le logiciel et connectez-vous à une cible
-   2. Laissez le logiciel tourner sans interaction pendant une longue période (plusieurs heures)
-   3. Revenez et tentez d’utiliser les contrôles clavier et souris
-   - Après cette période d’inactivité, la souris et le clavier fonctionnaient-ils normalement à votre retour ?
+
+    1. Lancez le logiciel et connectez-vous à une cible
+    2. Laissez le logiciel tourner sans interaction pendant une longue période (plusieurs heures)
+    3. Revenez et tentez d’utiliser les contrôles clavier et souris
+    - Après cette période d’inactivité, la souris et le clavier fonctionnaient-ils normalement à votre retour ?
 
 2. **Test de connexion à chaud**
-   - Veuillez tester la déconnexion puis la reconnexion de l’appareil pendant que le logiciel est en marche.
+
+    - Veuillez tester la déconnexion puis la reconnexion de l’appareil pendant que le logiciel est en marche.
 
 3. **Accès au BIOS et bas niveau**
 
 4. **Copier-coller (textes courts et longs)**
 
 5. **Paramètres de simulation de périphériques (Windows/Linux)**
-   - 5.1. Configuration EDID de l’affichage
-   - 5.2. Identification du périphérique USB (VID/PID)
-   - 5.3. Fonctionnalité de la carte SD
-     - 5.3.1. Cas d’usage 1 - Installation système : nous recommandons d’essayer Ventoy, un outil qui permet de placer plusieurs fichiers ISO sur une seule carte SD et de choisir lequel démarrer. Avez-vous essayé d’écrire une image système sur HOST, puis de passer sur TARGET pour l’installation (sans retirer la carte) ?
-     - Cas d’usage 2 - Transfert de fichiers : avez-vous utilisé la carte SD pour transférer des fichiers entre HOST et TARGET ?
+
+    - 5.1. Configuration EDID de l’affichage
+    - 5.2. Identification du périphérique USB (VID/PID)
+    - 5.3. Fonctionnalité de la carte SD
+        - Cas d’usage 1 - Installation système : nous recommandons d’essayer Ventoy, un outil qui permet de placer plusieurs fichiers ISO sur une seule carte SD et de choisir lequel démarrer. Avez-vous essayé d’écrire une image système sur HOST, puis de passer sur TARGET pour l’installation (sans retirer la carte) ?
+        - Cas d’usage 2 - Transfert de fichiers : avez-vous utilisé la carte SD pour transférer des fichiers entre HOST et TARGET ?
 
 Ces exemples reflètent une partie des questions qui figurent dans le formulaire de retour bêta ; nous collectons également des informations générales sur la cohérence audio/vidéo/clavier/souris et la gestion thermique.
 
