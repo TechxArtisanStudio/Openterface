@@ -4,7 +4,11 @@
 
 ## Product Updates
 
-- 2025-10-07: [🚀 KVM-Go HDMI Beta Batch Rolling Out!](251007-kvm-go-beta-test-kits-sent-1.md)
-- 2025-09-12: [Introducing the Openterface KVM-Go Series - Pre-Launch Announcement!](250912-kvm-go-beta-testing-invitation.md)
-- 2025-08-30: [Join the KVM-Go Beta Test Team – Freebit & Limited Spots Available!](250830-kvm-go-pre-launch.md)
+- 2025-11-14: [🚀 Aufregende Neuigkeiten: KVM-GO ist jetzt live!](251114-kvm-go-launch-mini-kvm-update.de.md)
+- 2025-08-30: [Treten Sie dem KVM-Go Beta-Testteam bei – Kostenloser Test, begrenzte Plätze!](250830-kvm-go-pre-launch.de.md)
+
+## Produktupdates
+
+- 2025-10-07: [🚀 KVM-Go HDMI Beta-Charge wird ausgeliefert!](251007-kvm-go-beta-test-kits-sent-1.de.md)
+- 2025-09-12: [Vorstellung der Openterface KVM-Go-Serie - Pre-Launch-Ankündigung!](250912-kvm-go-beta-testing-invitation.de.md)
 
