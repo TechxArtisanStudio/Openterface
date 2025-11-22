@@ -1,115 +1,143 @@
 /* Version and Format Selector Styles */
 
+.platform-download {
+  margin-top: 1rem;
+}
+
 .version-selector {
   display: flex;
   gap: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .version-option {
-  padding: 0.5rem 1rem;
-  border: 2px solid #ccc;
-  border-radius: 4px;
+  padding: 0.6rem 1.2rem;
+  border: 2px solid #ddd;
+  border-radius: 6px;
   cursor: pointer;
-  background-color: #f5f5f5;
+  background-color: #7e7c7c;
   transition: all 0.3s ease;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 0.95rem;
   user-select: none;
+  color: #666;
 }
 
 .version-option:hover {
-  border-color: #ff4500;
-  background-color: #fff;
+  border-color: #ff7043;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(255, 112, 67, 0.2);
 }
 
 .version-option.selected {
-  background-color: #ff4500;
+  background-color: #ff6b35;
   color: white;
-  border-color: #ff4500;
+  border-color: #ff6b35;
+  box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
 }
 
 /* Dark mode support */
 [data-md-color-scheme="dark"] .version-option {
-  background-color: #2b2b2b;
+  background-color: #3a3a3a;
   border-color: #555;
   color: #e0e0e0;
 }
 
 [data-md-color-scheme="dark"] .version-option:hover {
-  border-color: #ff4500;
-  background-color: #333;
+  border-color: #ff7043;
+  background-color: #444;
+  box-shadow: 0 2px 8px rgba(255, 112, 67, 0.3);
 }
 
 [data-md-color-scheme="dark"] .version-option.selected {
-  background-color: #ff4500;
+  background-color: #ff6b35;
   color: white;
-  border-color: #ff4500;
+  border-color: #ff6b35;
+  box-shadow: 0 4px 12px rgba(255, 107, 53, 0.4);
 }
 
 /* Format selector styling */
 .format-selector {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.75rem;
+  gap: 0.6rem;
   justify-content: center;
   margin-top: 1rem;
 }
 
 .format-option {
-  padding: 0.5rem 0.75rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
   cursor: pointer;
-  background-color: transparent;
+  background-color: #fff;
   transition: all 0.3s ease;
-  font-size: 0.9rem;
+  font-weight: 500;
   user-select: none;
+  color: #ff6b35;
 }
 
 .format-option:hover {
-  border-color: #ff4500;
-  background-color: #ffe6d5;
+  border-color: #ff6b35;
+  background-color: #fff5f0;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(255, 107, 53, 0.15);
 }
 
 .format-option.selected {
-  background-color: #ff4500;
+  background-color: #ff6b35;
   color: white;
-  border-color: #ff4500;
+  border-color: #ff6b35;
+  box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
 }
 
 /* Dark mode format selector */
 [data-md-color-scheme="dark"] .format-option {
+  background-color: #3a3a3a;
   border-color: #555;
+  color: #ffb399;
 }
 
 [data-md-color-scheme="dark"] .format-option:hover {
-  border-color: #ff4500;
-  background-color: #3a2419;
+  border-color: #ff7043;
+  background-color: #4a3a30;
+  box-shadow: 0 2px 8px rgba(255, 112, 67, 0.2);
 }
 
 [data-md-color-scheme="dark"] .format-option.selected {
-  background-color: #ff4500;
+  background-color: #ff6b35;
   color: white;
-  border-color: #ff4500;
+  border-color: #ff6b35;
+  box-shadow: 0 4px 12px rgba(255, 107, 53, 0.4);
 }
 
 /* Linux format selector grid layout */
 .linux-format-selector {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 0.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.6rem;
+}
+
+.big-download-btn {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+  font-size: 1rem !important;
+  padding: 0.75rem 1.5rem !important;
+  font-weight: 600 !important;
+  border-radius: 6px !important;
 }
 
 @media (max-width: 768px) {
   .version-selector {
-    gap: 0.5rem;
+    gap: 0.7rem;
+    margin-bottom: 1rem;
   }
 
   .version-option {
-    padding: 0.4rem 0.8rem;
-    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
   }
 
   .format-selector {
@@ -117,11 +145,16 @@
   }
 
   .format-option {
-    padding: 0.4rem 0.6rem;
-    font-size: 0.85rem;
+    padding: 0.5rem 0.8rem;
+    font-size: 0.8rem;
   }
 
   .linux-format-selector {
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  }
+
+  .big-download-btn {
+    font-size: 0.9rem !important;
+    padding: 0.6rem 1.2rem !important;
   }
 }
