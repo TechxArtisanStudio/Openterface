@@ -127,7 +127,7 @@
           <img src="https://assets.openterface.com/images/trademark/win.svg" alt="Avatar" class="avatar" draggable="false">
           <p data-i18n="home.windows">Windows</p>
         </div>
-        <h3 class="version-text">{{ config.extra.qt_version }}</h3>
+        <h3 class="version-text">Latest: {{ config.extra.qt_version }} | Stable: {{ config.extra.qt_linux_stable }}</h3>
         <div class="platform-download" data-platform="windows">
           <a id="windows-main-download" href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT_windows_amd64_installer.exe" class="big-download-btn windows md-button md-button--primary" data-i18n="home.downloadinstaller">
             <span data-i18n="home.downloadinstaller-btn">Download Installer</span>
@@ -139,6 +139,9 @@
             <span class="format-option"
               data-href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT_windows_amd64_portable.exe"
               data-label="Portable EXE" data-i18n="home.portableexe">Portable EXE</span>
+            <span class="format-option"
+              data-href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_linux_stable }}/openterfaceQT_windows_amd64_installer.exe"
+              data-label="Stable" data-i18n="home.stable">Stable</span>
             <span class="format-option"
               data-href="https://github.com/TechxArtisanStudio/Openterface_QT"
               data-label="Source Code" data-i18n="home.sourcecode">Source Code</span>
@@ -174,7 +177,7 @@
           <img src="https://assets.openterface.com/images/trademark/linux.svg" alt="Avatar" class="avatar" draggable="false">
           <p data-i18n="home.linux">Linux</p>
         </div>
-        <h3 class="version-text">{{ config.extra.qt_version }}</h3>
+        <h3 class="version-text">Latest: {{ config.extra.qt_version }} | Stable: {{ config.extra.qt_linux_stable }}</h3>
         <div class="platform-download" data-platform="linux">
           <a id="linux-main-download" href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT_linux_amd64.deb" class="big-download-btn linux md-button md-button--primary" data-i18n="home.downloadamd64deb">
             <span data-i18n="home.downloadamd64deb-btn">Download AMD64 DEB</span>
@@ -203,6 +206,9 @@
                 data-label="FlatHub" data-i18n="home.flathub">FlatHub</span>
             </div>
             <div>
+              <span class="format-option"
+                data-href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_linux_stable }}/openterfaceQT_linux_amd64.deb"
+                data-label="Stable AMD64 DEB" data-i18n="home.stable">Stable</span>
               <span class="format-option"
                 data-href="https://github.com/TechxArtisanStudio/Openterface_QT"
                 data-label="Source Code" data-i18n="home.sourcecode">Source Code</span>
