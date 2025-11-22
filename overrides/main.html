@@ -4,6 +4,7 @@
   <link rel="stylesheet" href="{{ 'assets/stylesheets/custom.css' | url }}">
   <link rel="stylesheet" href="{{ 'assets/stylesheets/signup_form.css' | url }}">
   <link rel="stylesheet" href="{{ 'assets/stylesheets/slideshow.css' | url }}">
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/version-selector.css' | url }}">
   
   <!-- Determine current locale -->
   {% set current_locale = page.locale or config.theme.language or (page.url.split('/')[1] if page.url and page.url.split('/')[1] in ['de', 'es', 'fr', 'it', 'ja', 'ko', 'pt', 'ro', 'zh'] else 'en') %}
@@ -199,4 +200,5 @@
   {{ super() }}
   <script src="https://assets.openterface.com/js/custom.min.js"></script>
   <script src="{{ 'assets/javascripts/slideshow.js' | url }}"></script>
+  <script src="{{ 'assets/javascripts/download-selector.js' | url }}"></script>
 {% endblock %}
