@@ -4,51 +4,47 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function initializeDownloadSelectors() {
-  // Get all version selectors
-  const versionSelectors = document.querySelectorAll('.version-selector');
+  // Get all version dropdowns
+  const versionDropdowns = document.querySelectorAll('.version-dropdown');
   
-  versionSelectors.forEach(selector => {
-    const versionOptions = selector.querySelectorAll('.version-option');
-    const platformDownload = selector.closest('.platform-download');
+  versionDropdowns.forEach(dropdown => {
+    const platformDownload = dropdown.closest('.platform-download');
     
     if (!platformDownload) return;
     
-    versionOptions.forEach(option => {
-      option.addEventListener('click', function(e) {
-        e.preventDefault();
-        
-        const selectedVersion = this.dataset.version;
-        
-        // Update version selector UI
-        versionOptions.forEach(opt => opt.classList.remove('selected'));
-        this.classList.add('selected');
-        
-        // Update format selector links based on selected version
-        updateFormatSelectorLinks(platformDownload, selectedVersion);
-        
-        // Update main download button
-        updateMainDownloadButton(platformDownload, selectedVersion);
-      });
+    // Initialize with stable version selected
+    dropdown.value = 'stable';
+    updateFormatSelectorLinks(platformDownload, 'stable');
+    updateMainDownloadButton(platformDownload, 'stable');
+    
+    // Handle dropdown change
+    dropdown.addEventListener('change', function(e) {
+      const selectedVersion = this.value;
+      updateFormatSelectorLinks(platformDownload, selectedVersion);
+      updateMainDownloadButton(platformDownload, selectedVersion);
+    });
+  });
+  
+  // Add click handlers to format options
+  const formatOptions = document.querySelectorAll('.format-option');
+  formatOptions.forEach(option => {
+    option.addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      const platformDownload = this.closest('.platform-download');
+      const dropdown = platformDownload.querySelector('.version-dropdown');
+      const selectedVersion = dropdown ? dropdown.value : 'stable';
+      
+      const href = this.getAttribute(`data-href-${selectedVersion}`);
+      if (href) {
+        window.location.href = href;
+      }
     });
   });
 }
 
 function updateFormatSelectorLinks(platformDownload, version) {
   const formatOptions = platformDownload.querySelectorAll('.format-option');
-  
-  formatOptions.forEach(option => {
-    const hrefKey = `data-href-${version}`;
-    const href = option.getAttribute(hrefKey);
-    
-    if (href) {
-      option.dataset.href = href;
-      
-      // Update onclick if exists
-      option.onclick = function() {
-        window.location.href = this.dataset.href;
-      };
-    }
-  });
   
   // Make sure first format option is selected
   if (formatOptions.length > 0) {
@@ -72,3 +68,4 @@ function updateMainDownloadButton(platformDownload, version) {
     }
   }
 }
+
