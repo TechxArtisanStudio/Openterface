@@ -39,8 +39,8 @@ Um Ihre Openterface™ KVM-Gadgets zum Laufen zu bringen, müssen Sie eine der u
     [:octicons-download-24: {{qt_version}} AMD64 DEB herunterladen](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT_linux_amd64.deb) <br>
     [:octicons-download-24: {{qt_version}} AMD64 RPM herunterladen](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT_linux_amd64.rpm) <br>
     [:octicons-download-24: {{qt_version}} AMD64 AppImage herunterladen](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT_linux_amd64.AppImage) <br>
-    [:octicons-download-24: {{qt_version}} ARM64 DEB herunterladen](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT_linux_aarch64.deb) <br>
-    [:octicons-download-24: {{qt_version}} ARM64 AppImage herunterladen](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT_linux_aarch64.AppImage) <br>
+    [:octicons-download-24: {{qt_version}} ARM64 DEB herunterladen](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT_linux_arm64.deb) <br>
+    [:octicons-download-24: {{qt_version}} ARM64 AppImage herunterladen](https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{qt_version}}/openterfaceQT_linux_arm64.AppImage) <br>
     [:octicons-mark-github-16: Openterface_QT](https://github.com/TechxArtisanStudio/Openterface_QT) <br>
     [:octicons-play-24: Demo ansehen](https://youtu.be/_ScpI6TC0Pk?si=FSg7A2zmST8QbFec)
 
