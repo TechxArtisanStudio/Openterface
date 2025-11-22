@@ -126,7 +126,6 @@
 
 /* Linux format selector grid layout */
 .linux-format-selector {
-  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 0.6rem;
 }
