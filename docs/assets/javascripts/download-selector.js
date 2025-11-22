@@ -35,6 +35,14 @@ function initializeDownloadSelectors() {
       const dropdown = platformDownload.querySelector('.version-dropdown');
       const selectedVersion = dropdown ? dropdown.value : 'stable';
       
+      // Update the selected format option styling
+      const formatOptions = platformDownload.querySelectorAll('.format-option');
+      formatOptions.forEach(opt => opt.classList.remove('selected'));
+      this.classList.add('selected');
+      
+      // Update main button with the selected format and version
+      updateMainDownloadButton(platformDownload, selectedVersion);
+      
       const href = this.getAttribute(`data-href-${selectedVersion}`);
       if (href) {
         window.location.href = href;
@@ -45,18 +53,10 @@ function initializeDownloadSelectors() {
 
 function updateFormatSelectorLinks(platformDownload, version) {
   const formatOptions = platformDownload.querySelectorAll('.format-option');
-  
-  // Make sure first format option is selected
-  if (formatOptions.length > 0) {
-    formatOptions.forEach(opt => opt.classList.remove('selected'));
-    formatOptions[0].classList.add('selected');
-  }
-}
-
-function updateMainDownloadButton(platformDownload, version) {
   const mainButton = platformDownload.querySelector('.big-download-btn');
   const selectedFormat = platformDownload.querySelector('.format-option.selected');
   
+  // Update the main button link based on the currently selected format and version
   if (mainButton && selectedFormat) {
     const href = selectedFormat.getAttribute(`data-href-${version}`);
     if (href) {
@@ -67,5 +67,9 @@ function updateMainDownloadButton(platformDownload, version) {
       };
     }
   }
+}
+
+function updateMainDownloadButton(platformDownload, version) {
+  updateFormatSelectorLinks(platformDownload, version);
 }
 
