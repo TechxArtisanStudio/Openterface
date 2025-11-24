@@ -83,6 +83,7 @@ The crowdfunding campaign is live on Crowd Supply until **December 30, 2025**. Y
 That’s everything for now. We’re honestly thrilled to have you onboard and can’t wait to hear what you think. Thanks for helping us make the KVM-GO better. Cheers!
 
 **Billy Wang** – Project Manager
+
 **Kevin Peng** – Technical Manager
 
 [![TechxArtisan Logo](https://assets.openterface.com/images/logo_txa_b.svg#only-light){:style="max-height:28px"}](https://techxartisan.com)
