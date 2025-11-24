@@ -8,7 +8,7 @@ Thanks again for joining our beta program. We’re genuinely excited to have you
 
 ## **What Makes KVM-GO Cool**
 
-So here’s the simple version: the **KVM-GO** (HDMI, DP, and VGA versions) is tiny enough to carry on a keychain, but way more capable than our previous Mini-KVM. You don’t need monitors, networks, or complicated setup steps. Just plug it in and it works. Super handy for IT folks, server admins, and anyone who deals with headless devices.
+The **KVM-GO** (HDMI, DP, and VGA versions) is tiny enough to carry on a keychain, but way more capable than our previous Mini-KVM. You don’t need monitors, networks, or complicated setup steps. Just plug it in and it works. Super handy for IT folks, server admins, and anyone who deals with headless devices.
 
 **Your audience will probably appreciate that it:**
 
@@ -24,11 +24,10 @@ We want your honest take. Really. If something feels off, let us know. If you lo
 
 **For your content, feel free to:**
 
-* Use whatever format fits your style—video, written review, social posts
+* Use whatever format fits your style: video, written review, social posts
 * Test it in the kinds of situations your audience would relate to
-* Try it with different devices and operating systems
-* Pay attention to video quality and portability
-* Compare it to similar tools if that’s something you usually do
+* Try it with different host/target devices and operating systems
+* Pay attention to our new features, such as its new design from, 4K and portability
 
 **About the schedule:**
 
@@ -42,12 +41,13 @@ We want your honest take. Really. If something feels off, let us know. If you lo
 * Include our Crowd Supply link: [https://www.crowdsupply.com/techxartisan/openterface-kvm-go](https://www.crowdsupply.com/techxartisan/openterface-kvm-go)
 * Tag us if you feel like it:
 
+  * **Youtube**: @TechxArtisan
   * **TikTok/Instagram/Threads**: @TechxArtisan
   * **LinkedIn/Facebook**: @TechxArtisan
   * **X/Twitter (English)**: @TechxArtisan
   * **X/Twitter (Japanese)**: @Openterface
   * **Reddit**: r/Openterface_miniKVM
-* Hashtags are totally optional, but #KVMGO #Openterface #TechReview work well if you want them
+* Hashtags are totally optional, but #KVMGO #Openterface #USBKVM work well if you want them
 
 ## **Helpful Links**
 
@@ -61,13 +61,15 @@ We want your honest take. Really. If something feels off, let us know. If you lo
 
 **Need help?**
 
+> **Email → support@openterface.com**
+
 > **Discord → openterface.com/discord**
 
-Feel free to drop by our Discord. You can ask for help, talk to other reviewers, share ideas, or just hang out and follow updates.
+Feel free to drop by our Discord, where our dev team and a bunch of awesome users are there. You can ask for help, chat with other reviewers, share ideas, or simply keep up with the updates.
 
 ## **About the Campaign**
 
-The crowdfunding campaign is live on Crowd Supply until December 30, 2024. Your review will really help more people understand what this device can do, and we truly appreciate you being part of this journey.
+The crowdfunding campaign is live on Crowd Supply until **December 30, 2025**. Your review will really help more people understand what this device can do, and we truly appreciate you being part of this journey.
 
 ## **So, What’s Next?**
 
@@ -75,11 +77,9 @@ The crowdfunding campaign is live on Crowd Supply until December 30, 2024. Your 
 2. **Set it up** using the guide (should be quick)
 3. **Play with it** for a few weeks and explore different use cases
 4. **Create your content** when you’re ready
-5. **Stay in touch**—Discord is always open if you need help or just want to chat
+5. **Stay in touch** Email / Discord is always open if you need help or just want to chat
 
----
-
-That’s everything for now. We’re honestly thrilled to have you onboard and can’t wait to hear what you think. Thanks for helping us make the KVM-GO better.
+That’s everything for now. We’re honestly thrilled to have you onboard and can’t wait to hear what you think. Thanks for helping us make the KVM-GO better. Cheers!
 
 **Billy Wang** – Project Manager
 **Kevin Peng** – Technical Manager
