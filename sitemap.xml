@@ -286,6 +286,36 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/faq/kvm-over-usb/"/>
     </url>
     <url>
+        <loc>https://openterface.com/letter/kvm-go-beta-invit/</loc>
+        <lastmod>2025-11-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/letter/kvm-go-beta-invit/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/letter/kvm-go-influencer-invit/</loc>
+        <lastmod>2025-11-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/letter/kvm-go-influencer-invit/"/>
+    </url>
+    <url>
         <loc>https://openterface.com/policy/privacy/</loc>
         <lastmod>2025-11-24</lastmod>
         <changefreq>daily</changefreq>
@@ -1604,6 +1634,36 @@
         <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/faq/kvm-over-usb/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/faq/kvm-over-usb/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/faq/kvm-over-usb/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/zh/letter/kvm-go-beta-invit/</loc>
+        <lastmod>2025-11-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/letter/kvm-go-beta-invit/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/zh/letter/kvm-go-influencer-invit/</loc>
+        <lastmod>2025-11-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/letter/kvm-go-influencer-invit/"/>
     </url>
     <url>
         <loc>https://openterface.com/zh/policy/privacy/</loc>
@@ -2926,6 +2986,36 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/faq/kvm-over-usb/"/>
     </url>
     <url>
+        <loc>https://openterface.com/ja/letter/kvm-go-beta-invit/</loc>
+        <lastmod>2025-11-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/letter/kvm-go-beta-invit/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ja/letter/kvm-go-influencer-invit/</loc>
+        <lastmod>2025-11-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/letter/kvm-go-influencer-invit/"/>
+    </url>
+    <url>
         <loc>https://openterface.com/ja/policy/privacy/</loc>
         <lastmod>2025-11-24</lastmod>
         <changefreq>daily</changefreq>
@@ -4244,6 +4334,36 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/faq/kvm-over-usb/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/faq/kvm-over-usb/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/faq/kvm-over-usb/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ko/letter/kvm-go-beta-invit/</loc>
+        <lastmod>2025-11-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/letter/kvm-go-beta-invit/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ko/letter/kvm-go-influencer-invit/</loc>
+        <lastmod>2025-11-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/letter/kvm-go-influencer-invit/"/>
     </url>
     <url>
         <loc>https://openterface.com/ko/policy/privacy/</loc>
@@ -5566,6 +5686,36 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/faq/kvm-over-usb/"/>
     </url>
     <url>
+        <loc>https://openterface.com/fr/letter/kvm-go-beta-invit/</loc>
+        <lastmod>2025-11-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/letter/kvm-go-beta-invit/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/fr/letter/kvm-go-influencer-invit/</loc>
+        <lastmod>2025-11-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/letter/kvm-go-influencer-invit/"/>
+    </url>
+    <url>
         <loc>https://openterface.com/fr/policy/privacy/</loc>
         <lastmod>2025-11-24</lastmod>
         <changefreq>daily</changefreq>
@@ -6884,6 +7034,36 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/faq/kvm-over-usb/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/faq/kvm-over-usb/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/faq/kvm-over-usb/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/de/letter/kvm-go-beta-invit/</loc>
+        <lastmod>2025-11-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/letter/kvm-go-beta-invit/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/de/letter/kvm-go-influencer-invit/</loc>
+        <lastmod>2025-11-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/letter/kvm-go-influencer-invit/"/>
     </url>
     <url>
         <loc>https://openterface.com/de/policy/privacy/</loc>
@@ -8206,6 +8386,36 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/faq/kvm-over-usb/"/>
     </url>
     <url>
+        <loc>https://openterface.com/it/letter/kvm-go-beta-invit/</loc>
+        <lastmod>2025-11-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/letter/kvm-go-beta-invit/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/it/letter/kvm-go-influencer-invit/</loc>
+        <lastmod>2025-11-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/letter/kvm-go-influencer-invit/"/>
+    </url>
+    <url>
         <loc>https://openterface.com/it/policy/privacy/</loc>
         <lastmod>2025-11-24</lastmod>
         <changefreq>daily</changefreq>
@@ -9524,6 +9734,36 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/faq/kvm-over-usb/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/faq/kvm-over-usb/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/faq/kvm-over-usb/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/es/letter/kvm-go-beta-invit/</loc>
+        <lastmod>2025-11-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/letter/kvm-go-beta-invit/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/es/letter/kvm-go-influencer-invit/</loc>
+        <lastmod>2025-11-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/letter/kvm-go-influencer-invit/"/>
     </url>
     <url>
         <loc>https://openterface.com/es/policy/privacy/</loc>
@@ -10846,6 +11086,36 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/faq/kvm-over-usb/"/>
     </url>
     <url>
+        <loc>https://openterface.com/pt/letter/kvm-go-beta-invit/</loc>
+        <lastmod>2025-11-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/letter/kvm-go-beta-invit/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/pt/letter/kvm-go-influencer-invit/</loc>
+        <lastmod>2025-11-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/letter/kvm-go-influencer-invit/"/>
+    </url>
+    <url>
         <loc>https://openterface.com/pt/policy/privacy/</loc>
         <lastmod>2025-11-24</lastmod>
         <changefreq>daily</changefreq>
@@ -12164,6 +12434,36 @@
         <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/faq/kvm-over-usb/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/faq/kvm-over-usb/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/faq/kvm-over-usb/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ro/letter/kvm-go-beta-invit/</loc>
+        <lastmod>2025-11-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/letter/kvm-go-beta-invit/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/letter/kvm-go-beta-invit/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ro/letter/kvm-go-influencer-invit/</loc>
+        <lastmod>2025-11-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/letter/kvm-go-influencer-invit/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/letter/kvm-go-influencer-invit/"/>
     </url>
     <url>
         <loc>https://openterface.com/ro/policy/privacy/</loc>
