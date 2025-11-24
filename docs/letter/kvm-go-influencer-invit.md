@@ -41,12 +41,13 @@ We want your honest take. Really. If something feels off, let us know. If you lo
 * Include our Crowd Supply link: [https://www.crowdsupply.com/techxartisan/openterface-kvm-go](https://www.crowdsupply.com/techxartisan/openterface-kvm-go)
 * Tag us if you feel like it:
 
-  * **Youtube**: @TechxArtisan
-  * **TikTok/Instagram/Threads**: @TechxArtisan
-  * **LinkedIn/Facebook**: @TechxArtisan
-  * **X/Twitter (English)**: @TechxArtisan
-  * **X/Twitter (Japanese)**: @Openterface
-  * **Reddit**: r/Openterface_miniKVM
+   * **Youtube**: @TechxArtisan
+   * **TikTok/Instagram/Threads**: @TechxArtisan
+   * **LinkedIn/Facebook**: @TechxArtisan
+   * **X/Twitter (English)**: @TechxArtisan
+   * **X/Twitter (Japanese)**: @Openterface
+   * **Reddit**: r/Openterface_miniKVM
+
 * Hashtags are totally optional, but #KVMGO #Openterface #USBKVM work well if you want them
 
 ## **Helpful Links**
