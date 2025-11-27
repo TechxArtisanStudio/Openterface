@@ -1,59 +1,55 @@
-<!DOCTYPE html><html lang="zh" class="no-js"><head>
+<!DOCTYPE html><html lang="ro" class="no-js"><head>
     
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="A Feature-rich, Open-source and Community-driven KVM-over-USB Solution">
+        <meta name="description" content="A behind-the-scenes story of KVM-GO's design journey. Learn about the prototypes, community polls, trade-offs, and real-world scenarios that shaped our ultra-compact, plug-and-go KVM-over-USB device. Discover why we chose speed and portability over maximum flexibility.">
       
       
-        <meta name="author" content="Openterface">
+        <meta name="author" content="TechxArtisan Studio">
       
       
-        <link rel="canonical" href="https://openterface.com/zh/product/kvm-go/updates/">
+        <link rel="canonical" href="https://openterface.com/ro/product/kvm-go/updates/20251127-why-kvm-go/">
       
       
-        <link rel="prev" href="../reviews/media/">
-      
-      
-        <link rel="next" href="../../minikvm/">
       
       
         
-          <link rel="alternate" href="../../../../product/kvm-go/updates/" hreflang="en">
+          <link rel="alternate" href="../../../../../product/kvm-go/updates/20251127-why-kvm-go/" hreflang="en">
         
-          <link rel="alternate" href="./" hreflang="zh">
+          <link rel="alternate" href="../../../../../zh/product/kvm-go/updates/20251127-why-kvm-go/" hreflang="zh">
         
-          <link rel="alternate" href="../../../../ja/product/kvm-go/updates/" hreflang="ja">
+          <link rel="alternate" href="../../../../../ja/product/kvm-go/updates/20251127-why-kvm-go/" hreflang="ja">
         
-          <link rel="alternate" href="../../../../ko/product/kvm-go/updates/" hreflang="ko">
+          <link rel="alternate" href="../../../../../ko/product/kvm-go/updates/20251127-why-kvm-go/" hreflang="ko">
         
-          <link rel="alternate" href="../../../../fr/product/kvm-go/updates/" hreflang="fr">
+          <link rel="alternate" href="../../../../../fr/product/kvm-go/updates/20251127-why-kvm-go/" hreflang="fr">
         
-          <link rel="alternate" href="../../../../de/product/kvm-go/updates/" hreflang="de">
+          <link rel="alternate" href="../../../../../de/product/kvm-go/updates/20251127-why-kvm-go/" hreflang="de">
         
-          <link rel="alternate" href="../../../../it/product/kvm-go/updates/" hreflang="it">
+          <link rel="alternate" href="../../../../../it/product/kvm-go/updates/20251127-why-kvm-go/" hreflang="it">
         
-          <link rel="alternate" href="../../../../es/product/kvm-go/updates/" hreflang="es">
+          <link rel="alternate" href="../../../../../es/product/kvm-go/updates/20251127-why-kvm-go/" hreflang="es">
         
-          <link rel="alternate" href="../../../../pt/product/kvm-go/updates/" hreflang="pt">
+          <link rel="alternate" href="../../../../../pt/product/kvm-go/updates/20251127-why-kvm-go/" hreflang="pt">
         
-          <link rel="alternate" href="../../../../ro/product/kvm-go/updates/" hreflang="ro">
+          <link rel="alternate" href="./" hreflang="ro">
         
       
       
-      <link rel="icon" href="../../../../assets/favicon.png">
+      <link rel="icon" href="../../../../../assets/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
     
     
       
-        <title>Updates for KVM-Go - Openterface | Bridging Interfaces to Open Possibilities</title>
+        <title>Why the Physical Format of KVM-GO Looks the Way It Does - Openterface | Bridging Interfaces to Open Possibilities</title>
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/main.618322db.min.css">
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.618322db.min.css">
       
         
-        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
   
@@ -137,11 +133,27 @@
       
     
     
-      <link rel="stylesheet" href="../../../../css/timeago.css">
+      <link rel="stylesheet" href="../../../../../css/timeago.css">
     
-      <link rel="stylesheet" href="../../../../css/timeago.css">
+      <link rel="stylesheet" href="../../../../../css/timeago.css">
     
-    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+      <link rel="stylesheet" href="../../../../../css/timeago.css">
+    
+      <link rel="stylesheet" href="../../../../../css/timeago.css">
+    
+      <link rel="stylesheet" href="../../../../../css/timeago.css">
+    
+      <link rel="stylesheet" href="../../../../../css/timeago.css">
+    
+      <link rel="stylesheet" href="../../../../../css/timeago.css">
+    
+      <link rel="stylesheet" href="../../../../../css/timeago.css">
+    
+      <link rel="stylesheet" href="../../../../../css/timeago.css">
+    
+      <link rel="stylesheet" href="../../../../../css/timeago.css">
+    
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -157,16 +169,16 @@
 
     
     
-  <link rel="stylesheet" href="../../../../assets/stylesheets/custom.css">
-  <link rel="stylesheet" href="../../../../assets/stylesheets/signup_form.css">
-  <link rel="stylesheet" href="../../../../assets/stylesheets/slideshow.css">
-  <link rel="stylesheet" href="../../../../assets/stylesheets/version-selector.css">
+  <link rel="stylesheet" href="../../../../../assets/stylesheets/custom.css">
+  <link rel="stylesheet" href="../../../../../assets/stylesheets/signup_form.css">
+  <link rel="stylesheet" href="../../../../../assets/stylesheets/slideshow.css">
+  <link rel="stylesheet" href="../../../../../assets/stylesheets/version-selector.css">
   
   <!-- Determine current locale -->
   
   
   <!-- Gibby Avatar and Dialogue Box -->
-  <link href="../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+  <link href="../../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
@@ -380,8 +392,8 @@
     <div data-md-component="skip">
       
         
-        <a href="#updates-events" class="md-skip">
-          跳转至
+        <a href="#why-the-physical-format-of-kvm-go-looks-the-way-it-does" class="md-skip">
+          Sari la conținut
         </a>
       
     </div>
@@ -398,12 +410,12 @@
 
 <!-- Header -->
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="页眉">
+  <nav class="md-header__inner md-grid" aria-label="Antet">
 
     <!-- Link to home -->
-    <a href="../../../" title="Openterface | Bridging Interfaces to Open Possibilities" class="md-header__button md-logo" aria-label="Openterface | Bridging Interfaces to Open Possibilities" data-md-component="logo">
+    <a href="../../../../" title="Openterface | Bridging Interfaces to Open Possibilities" class="md-header__button md-logo" aria-label="Openterface | Bridging Interfaces to Open Possibilities" data-md-component="logo">
       
-  <img src="../../../../assets/app-logo.png" alt="logo">
+  <img src="../../../../../assets/app-logo.png" alt="logo">
 
     </a>
 
@@ -424,7 +436,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Updates for KVM-Go
+              Why the Physical Format of KVM-GO Looks the Way It Does
             
           </span>
         </div>
@@ -470,68 +482,68 @@
       <div class="md-header__option">
   <div class="md-select">
     
-    <button class="md-header__button md-icon" aria-label="选择当前语言">
+    <button class="md-header__button md-icon" aria-label="Selectează limba">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
     </button>
     <div class="md-select__inner">
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../../../../product/kvm-go/updates/" hreflang="en" class="md-select__link">
+            <a href="../../../../../product/kvm-go/updates/20251127-why-kvm-go/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="./" hreflang="zh" class="md-select__link">
+            <a href="../../../../../zh/product/kvm-go/updates/20251127-why-kvm-go/" hreflang="zh" class="md-select__link">
               简体中文
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../ja/product/kvm-go/updates/" hreflang="ja" class="md-select__link">
+            <a href="../../../../../ja/product/kvm-go/updates/20251127-why-kvm-go/" hreflang="ja" class="md-select__link">
               日本語
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../ko/product/kvm-go/updates/" hreflang="ko" class="md-select__link">
+            <a href="../../../../../ko/product/kvm-go/updates/20251127-why-kvm-go/" hreflang="ko" class="md-select__link">
               한국어
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../fr/product/kvm-go/updates/" hreflang="fr" class="md-select__link">
+            <a href="../../../../../fr/product/kvm-go/updates/20251127-why-kvm-go/" hreflang="fr" class="md-select__link">
               Français
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../de/product/kvm-go/updates/" hreflang="de" class="md-select__link">
+            <a href="../../../../../de/product/kvm-go/updates/20251127-why-kvm-go/" hreflang="de" class="md-select__link">
               Deutsch
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../it/product/kvm-go/updates/" hreflang="it" class="md-select__link">
+            <a href="../../../../../it/product/kvm-go/updates/20251127-why-kvm-go/" hreflang="it" class="md-select__link">
               Italiano
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../es/product/kvm-go/updates/" hreflang="es" class="md-select__link">
+            <a href="../../../../../es/product/kvm-go/updates/20251127-why-kvm-go/" hreflang="es" class="md-select__link">
               Español
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../pt/product/kvm-go/updates/" hreflang="pt" class="md-select__link">
+            <a href="../../../../../pt/product/kvm-go/updates/20251127-why-kvm-go/" hreflang="pt" class="md-select__link">
               Português
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../ro/product/kvm-go/updates/" hreflang="ro" class="md-select__link">
+            <a href="./" hreflang="ro" class="md-select__link">
               Română
             </a>
           </li>
@@ -558,16 +570,16 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Căutare" placeholder="Căutare" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
       </label>
-      <nav class="md-search__options" aria-label="查找">
+      <nav class="md-search__options" aria-label="Caută">
         
-        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="Resetează" aria-label="Resetează" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
         </button>
@@ -580,7 +592,7 @@
       <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            正在初始化搜索引擎
+            Inițializare căutare
           </div>
           <ol class="md-search-result__list" role="presentation"></ol>
         </div>
@@ -594,7 +606,7 @@
     <!-- Repository information -->
     
       <div class="md-header__source">
-        <a href="https://github.com/TechxArtisanStudio/Openterface" title="前往仓库" class="md-source" data-md-component="source">
+        <a href="https://github.com/TechxArtisanStudio/Openterface" title="Accesează repository-ul" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
@@ -611,14 +623,14 @@
   
     
       <!-- Custom Navigation Tabs -->
-<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+<nav class="md-tabs" aria-label="File" data-md-component="tabs">
   <div class="custom-nav-container">
     
       
         <!-- Simple link item -->
         
-          <a href="../../../" class="nav-item">
-            首页
+          <a href="../../../../" class="nav-item">
+            Acasă
           </a>
         
       
@@ -628,8 +640,8 @@
         <div class="custom-nav-dropdown">
           
           
-            <a href="../../../faq/" class="nav-item">
-              常见问题
+            <a href="../../../../faq/" class="nav-item">
+              Întrebări frecvente
               <span class="dropdown-arrow">▼</span>
             </a>
           
@@ -638,15 +650,15 @@
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../faq/" class="dropdown-item">
-                  概览
+                <a href="../../../../faq/" class="dropdown-item">
+                  Prezentare generală
                 </a>
               
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../faq/kvm-over-usb/" class="dropdown-item">
-                  KVM-over-USB 基础
+                <a href="../../../../faq/kvm-over-usb/" class="dropdown-item">
+                  Noțiuni de bază KVM-over-USB
                 </a>
               
             
@@ -660,7 +672,7 @@
           
           
             <span class="nav-item">
-              产品
+              Produse
               <span class="dropdown-arrow">▼</span>
             </span>
           
@@ -671,7 +683,7 @@
                 <!-- Child with children - show the child title and link to its first child -->
                 
                 
-                  <a href="../" class="dropdown-item">
+                  <a href="../../" class="dropdown-item">
                     KVM-Go Series 🚀
                   </a>
                 
@@ -681,7 +693,7 @@
                 <!-- Child with children - show the child title and link to its first child -->
                 
                 
-                  <a href="../../minikvm/" class="dropdown-item">
+                  <a href="../../../minikvm/" class="dropdown-item">
                     Mini‑KVM 👑
                   </a>
                 
@@ -691,7 +703,7 @@
                 <!-- Child with children - show the child title and link to its first child -->
                 
                 
-                  <a href="../../uconsole-kvm-extension/" class="dropdown-item">
+                  <a href="../../../uconsole-kvm-extension/" class="dropdown-item">
                     uConsole KVM Extension
                   </a>
                 
@@ -701,8 +713,8 @@
                 <!-- Child with children - show the child title and link to its first child -->
                 
                 
-                  <a href="../../accessories/" class="dropdown-item">
-                    配件
+                  <a href="../../../accessories/" class="dropdown-item">
+                    Accesorii
                   </a>
                 
               
@@ -716,8 +728,8 @@
         <div class="custom-nav-dropdown">
           
           
-            <a href="../../../app/overview/" class="nav-item">
-              应用
+            <a href="../../../../app/overview/" class="nav-item">
+              Aplicație
               <span class="dropdown-arrow">▼</span>
             </a>
           
@@ -726,8 +738,8 @@
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../app/overview/" class="dropdown-item">
-                  概览
+                <a href="../../../../app/overview/" class="dropdown-item">
+                  Prezentare generală
                 </a>
               
             
@@ -735,8 +747,8 @@
                 <!-- Child with children - show the child title and link to its first child -->
                 
                 
-                  <a href="../../../app/qt/" class="dropdown-item">
-                    Windows 与 Linux
+                  <a href="../../../../app/qt/" class="dropdown-item">
+                    Windows și Linux
                   </a>
                 
               
@@ -745,7 +757,7 @@
                 <!-- Child with children - show the child title and link to its first child -->
                 
                 
-                  <a href="../../../app/macos/" class="dropdown-item">
+                  <a href="../../../../app/macos/" class="dropdown-item">
                     macOS
                   </a>
                 
@@ -755,7 +767,7 @@
                 <!-- Child with children - show the child title and link to its first child -->
                 
                 
-                  <a href="../../../app/android/" class="dropdown-item">
+                  <a href="../../../../app/android/" class="dropdown-item">
                     Android
                   </a>
                 
@@ -763,8 +775,8 @@
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../app/faq/" class="dropdown-item">
-                  常见问题
+                <a href="../../../../app/faq/" class="dropdown-item">
+                  Întrebări frecvente
                 </a>
               
             
@@ -775,8 +787,8 @@
       
         <!-- Simple link item -->
         
-          <a href="../../../use-cases/" class="nav-item">
-            使用场景
+          <a href="../../../../use-cases/" class="nav-item">
+            Cazuri de utilizare
           </a>
         
       
@@ -785,7 +797,7 @@
         <!-- Simple link item -->
         
           <a href="https://shop.techxartisan.com" class="nav-item">
-            商店
+            Magazin
           </a>
         
       
@@ -795,8 +807,8 @@
         <div class="custom-nav-dropdown">
           
           
-            <a href="../../../about/community/" class="nav-item">
-              关于
+            <a href="../../../../about/community/" class="nav-item">
+              Despre
               <span class="dropdown-arrow">▼</span>
             </a>
           
@@ -805,64 +817,64 @@
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../about/community/" class="dropdown-item">
-                  社区
+                <a href="../../../../about/community/" class="dropdown-item">
+                  Comunitate
                 </a>
               
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../about/multi-languages/" class="dropdown-item">
-                  多语言
+                <a href="../../../../about/multi-languages/" class="dropdown-item">
+                  Multilingv
                 </a>
               
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../about/tech-support/" class="dropdown-item">
-                  技术支持
+                <a href="../../../../about/tech-support/" class="dropdown-item">
+                  Suport Tehnic
                 </a>
               
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../about/compliance/" class="dropdown-item">
-                  合规
+                <a href="../../../../about/compliance/" class="dropdown-item">
+                  Conformitate
                 </a>
               
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../about/contribute-support/" class="dropdown-item">
-                  贡献与支持
+                <a href="../../../../about/contribute-support/" class="dropdown-item">
+                  Contribuie și Susține
                 </a>
               
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../about/media/" class="dropdown-item">
-                  评测与媒体
+                <a href="../../../../about/media/" class="dropdown-item">
+                  Recenzii și media
                 </a>
               
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../about/bulk_orders/" class="dropdown-item">
-                  批量订单
+                <a href="../../../../about/bulk_orders/" class="dropdown-item">
+                  Comenzi în vrac
                 </a>
               
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../about/enterprise/" class="dropdown-item">
-                  企业
+                <a href="../../../../about/enterprise/" class="dropdown-item">
+                  Întreprindere
                 </a>
               
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../about/about-us/" class="dropdown-item">
-                  关于我们
+                <a href="../../../../about/about-us/" class="dropdown-item">
+                  Despre Noi
                 </a>
               
             
@@ -897,18 +909,18 @@
 
   
 
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="导航栏" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigație" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../../" title="Openterface | Bridging Interfaces to Open Possibilities" class="md-nav__button md-logo" aria-label="Openterface | Bridging Interfaces to Open Possibilities" data-md-component="logo">
+    <a href="../../../../" title="Openterface | Bridging Interfaces to Open Possibilities" class="md-nav__button md-logo" aria-label="Openterface | Bridging Interfaces to Open Possibilities" data-md-component="logo">
       
-  <img src="../../../../assets/app-logo.png" alt="logo">
+  <img src="../../../../../assets/app-logo.png" alt="logo">
 
     </a>
     Openterface | Bridging Interfaces to Open Possibilities
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/TechxArtisanStudio/Openterface" title="前往仓库" class="md-source" data-md-component="source">
+      <a href="https://github.com/TechxArtisanStudio/Openterface" title="Accesează repository-ul" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
@@ -928,14 +940,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../" class="md-nav__link">
+      <a href="../../../../" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    首页
+    Acasă
   
 
     
@@ -978,14 +990,14 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../faq/" class="md-nav__link ">
+            <a href="../../../../faq/" class="md-nav__link ">
               
   
   
   <span class="md-ellipsis">
     
   
-    常见问题
+    Întrebări frecvente
   
 
     
@@ -1007,7 +1019,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    常见问题
+    Întrebări frecvente
   
 
           </label>
@@ -1022,14 +1034,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../faq/kvm-over-usb/" class="md-nav__link">
+      <a href="../../../../faq/kvm-over-usb/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    KVM-over-USB 基础
+    Noțiuni de bază KVM-over-USB
   
 
     
@@ -1054,10 +1066,8 @@
       
   
   
-    
   
   
-  
     
     
       
@@ -1073,27 +1083,24 @@
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3">
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    产品
+    Produse
   
 
     
@@ -1104,12 +1111,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
   
-    产品
+    Produse
   
 
           </label>
@@ -1119,8 +1126,6 @@
                 
   
   
-    
-  
   
   
     
@@ -1153,15 +1158,15 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1">
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../../" class="md-nav__link ">
               
   
   
@@ -1185,7 +1190,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_1">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1205,14 +1210,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../features/" class="md-nav__link">
+      <a href="../../features/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    特性与规格
+    Funcționalități și specificații
   
 
     
@@ -1233,14 +1238,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../whats-in-the-box/" class="md-nav__link">
+      <a href="../../whats-in-the-box/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    包装清单
+    Conținutul cutiei
   
 
     
@@ -1261,14 +1266,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../how-to-connect/" class="md-nav__link">
+      <a href="../../how-to-connect/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    如何连接
+    Cum se conectează
   
 
     
@@ -1289,7 +1294,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../beta-quick-start/" class="md-nav__link">
+      <a href="../../beta-quick-start/" class="md-nav__link">
         
   
   
@@ -1317,7 +1322,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../microsd-switch/" class="md-nav__link">
+      <a href="../../microsd-switch/" class="md-nav__link">
         
   
   
@@ -1345,7 +1350,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../faq/" class="md-nav__link">
+      <a href="../../faq/" class="md-nav__link">
         
   
   
@@ -1402,7 +1407,7 @@
   <span class="md-ellipsis">
     
   
-    评测与媒体报道
+    Recenzii și presă
   
 
     
@@ -1418,7 +1423,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    评测与媒体报道
+    Recenzii și presă
   
 
           </label>
@@ -1431,14 +1436,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../reviews/youtube/" class="md-nav__link">
+      <a href="../../reviews/youtube/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    YouTube 评测
+    Recenzii YouTube
   
 
     
@@ -1459,14 +1464,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../reviews/testimonials/" class="md-nav__link">
+      <a href="../../reviews/testimonials/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    用户评价
+    Mărturii
   
 
     
@@ -1487,14 +1492,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../reviews/media/" class="md-nav__link">
+      <a href="../../reviews/media/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    媒体报道
+    Acoperirea media
   
 
     
@@ -1520,37 +1525,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Updates for KVM-Go
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -1566,48 +1544,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#product-updates" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Product Updates
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        产品更新
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1665,7 +1601,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../minikvm/" class="md-nav__link ">
+            <a href="../../../minikvm/" class="md-nav__link ">
               
   
   
@@ -1709,14 +1645,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../minikvm/features/" class="md-nav__link">
+      <a href="../../../minikvm/features/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    特性与规格
+    Funcționalități și specificații
   
 
     
@@ -1737,14 +1673,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../minikvm/whats-in-the-box/" class="md-nav__link">
+      <a href="../../../minikvm/whats-in-the-box/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    包装清单
+    Conținutul cutiei
   
 
     
@@ -1765,14 +1701,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../minikvm/how-to-connect/" class="md-nav__link">
+      <a href="../../../minikvm/how-to-connect/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    如何连接
+    Cum se conectează
   
 
     
@@ -1793,14 +1729,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../minikvm/usb-switch/" class="md-nav__link">
+      <a href="../../../minikvm/usb-switch/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    USB 切换器
+    Comutator USB
   
 
     
@@ -1821,14 +1757,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../minikvm/extension-pins/" class="md-nav__link">
+      <a href="../../../minikvm/extension-pins/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    扩展引脚
+    Pini de extindere
   
 
     
@@ -1849,14 +1785,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../minikvm/faq/" class="md-nav__link">
+      <a href="../../../minikvm/faq/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Mini‑KVM 常见问题
+    Întrebări despre Mini‑KVM
   
 
     
@@ -1906,7 +1842,7 @@
   <span class="md-ellipsis">
     
   
-    评测与媒体报道
+    Recenzii și presă
   
 
     
@@ -1922,7 +1858,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    评测与媒体报道
+    Recenzii și presă
   
 
           </label>
@@ -1935,14 +1871,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../minikvm/reviews/youtube/" class="md-nav__link">
+      <a href="../../../minikvm/reviews/youtube/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    YouTube 评测
+    Recenzii YouTube
   
 
     
@@ -1963,14 +1899,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../minikvm/reviews/testimonials/" class="md-nav__link">
+      <a href="../../../minikvm/reviews/testimonials/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    用户评价
+    Mărturii
   
 
     
@@ -1991,14 +1927,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../minikvm/reviews/media/" class="md-nav__link">
+      <a href="../../../minikvm/reviews/media/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    媒体报道
+    Acoperirea media
   
 
     
@@ -2027,14 +1963,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../minikvm/updates/" class="md-nav__link">
+      <a href="../../../minikvm/updates/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Mini-KVM 更新
+    Actualizări Mini-KVM
   
 
     
@@ -2100,7 +2036,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../uconsole-kvm-extension/" class="md-nav__link ">
+            <a href="../../../uconsole-kvm-extension/" class="md-nav__link ">
               
   
   
@@ -2144,14 +2080,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../uconsole-kvm-extension/features/" class="md-nav__link">
+      <a href="../../../uconsole-kvm-extension/features/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    特性与规格
+    Funcționalități și specificații
   
 
     
@@ -2172,14 +2108,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../uconsole-kvm-extension/whats-in-the-box/" class="md-nav__link">
+      <a href="../../../uconsole-kvm-extension/whats-in-the-box/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    包装清单
+    Conținutul cutiei
   
 
     
@@ -2200,14 +2136,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../uconsole-kvm-extension/hardware-installation/" class="md-nav__link">
+      <a href="../../../uconsole-kvm-extension/hardware-installation/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    硬件安装
+    Instalare hardware
   
 
     
@@ -2228,14 +2164,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../uconsole-kvm-extension/software-setup/" class="md-nav__link">
+      <a href="../../../uconsole-kvm-extension/software-setup/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    软件设置
+    Configurare software
   
 
     
@@ -2256,14 +2192,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../uconsole-kvm-extension/connect-to-target/" class="md-nav__link">
+      <a href="../../../uconsole-kvm-extension/connect-to-target/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    连接目标设备
+    Conectare la dispozitivul țintă
   
 
     
@@ -2284,14 +2220,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../uconsole-kvm-extension/faq/" class="md-nav__link">
+      <a href="../../../uconsole-kvm-extension/faq/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    KVM 扩展常见问题
+    Întrebări despre Extensia KVM
   
 
     
@@ -2312,14 +2248,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../uconsole-kvm-extension/reviews/youtube/" class="md-nav__link">
+      <a href="../../../uconsole-kvm-extension/reviews/youtube/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    评测视频
+    Videoclipuri recenzii
   
 
     
@@ -2340,14 +2276,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../uconsole-kvm-extension/updates/" class="md-nav__link">
+      <a href="../../../uconsole-kvm-extension/updates/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    KVM 扩展更新
+    Actualizări Extensie KVM
   
 
     
@@ -2409,14 +2345,14 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../accessories/" class="md-nav__link ">
+            <a href="../../../accessories/" class="md-nav__link ">
               
   
   
   <span class="md-ellipsis">
     
   
-    配件
+    Accesorii
   
 
     
@@ -2438,7 +2374,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    配件
+    Accesorii
   
 
           </label>
@@ -2453,14 +2389,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../accessories/vga-to-hdmi-cable/" class="md-nav__link">
+      <a href="../../../accessories/vga-to-hdmi-cable/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    VGA 转 HDMI 线 1m
+    Cablu VGA la HDMI 1 m
   
 
     
@@ -2481,14 +2417,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../accessories/nylong-c-to-c-150/" class="md-nav__link">
+      <a href="../../../accessories/nylong-c-to-c-150/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Type‑C to C 尼龙线 1.5m
+    Cablu Type‑C la C din nailon 1,5 m
   
 
     
@@ -2509,14 +2445,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../accessories/type-c-to-c-cable-with-adapter/" class="md-nav__link">
+      <a href="../../../accessories/type-c-to-c-cable-with-adapter/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Type‑C to C 橙色线 1.5m
+    Cablu Type‑C la C portocaliu 1,5 m
   
 
     
@@ -2537,14 +2473,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../accessories/black-c-to-a-30/" class="md-nav__link">
+      <a href="../../../accessories/black-c-to-a-30/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Type‑C to A 黑色线 30cm
+    Cablu Type‑C la A negru 30 cm
   
 
     
@@ -2565,14 +2501,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../accessories/hdmi-male-to-male-cable/" class="md-nav__link">
+      <a href="../../../accessories/hdmi-male-to-male-cable/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    HDMI 线 30cm
+    Cablu HDMI 30 cm
   
 
     
@@ -2593,14 +2529,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../accessories/openterface-toolkit-bag/" class="md-nav__link">
+      <a href="../../../accessories/openterface-toolkit-bag/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    工具包
+    Geantă cu unelte
   
 
     
@@ -2669,7 +2605,7 @@
   <span class="md-ellipsis">
     
   
-    应用
+    Aplicație
   
 
     
@@ -2685,7 +2621,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    应用
+    Aplicație
   
 
           </label>
@@ -2698,14 +2634,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../app/overview/" class="md-nav__link">
+      <a href="../../../../app/overview/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    概览
+    Prezentare generală
   
 
     
@@ -2747,14 +2683,14 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../app/qt/" class="md-nav__link ">
+            <a href="../../../../app/qt/" class="md-nav__link ">
               
   
   
   <span class="md-ellipsis">
     
   
-    Windows 与 Linux
+    Windows și Linux
   
 
     
@@ -2771,7 +2707,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Windows 与 Linux
+    Windows și Linux
   
 
           </label>
@@ -2817,7 +2753,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../app/macos/" class="md-nav__link ">
+            <a href="../../../../app/macos/" class="md-nav__link ">
               
   
   
@@ -2861,14 +2797,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../app/macos/dmg-installation/" class="md-nav__link">
+      <a href="../../../../app/macos/dmg-installation/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    DMG 安装
+    Instalare DMG
   
 
     
@@ -2918,7 +2854,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../app/android/" class="md-nav__link ">
+            <a href="../../../../app/android/" class="md-nav__link ">
               
   
   
@@ -2965,14 +2901,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../app/faq/" class="md-nav__link">
+      <a href="../../../../app/faq/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    常见问题
+    Întrebări frecvente
   
 
     
@@ -3000,14 +2936,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../use-cases/" class="md-nav__link">
+      <a href="../../../../use-cases/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    使用场景
+    Cazuri de utilizare
   
 
     
@@ -3034,7 +2970,7 @@
   <span class="md-ellipsis">
     
   
-    商店
+    Magazin
   
 
     
@@ -3095,7 +3031,7 @@
   <span class="md-ellipsis">
     
   
-    关于
+    Despre
   
 
     
@@ -3111,7 +3047,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    关于
+    Despre
   
 
           </label>
@@ -3124,14 +3060,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../about/community/" class="md-nav__link">
+      <a href="../../../../about/community/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    社区
+    Comunitate
   
 
     
@@ -3152,14 +3088,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../about/multi-languages/" class="md-nav__link">
+      <a href="../../../../about/multi-languages/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    多语言
+    Multilingv
   
 
     
@@ -3180,14 +3116,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../about/tech-support/" class="md-nav__link">
+      <a href="../../../../about/tech-support/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    技术支持
+    Suport Tehnic
   
 
     
@@ -3208,14 +3144,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../about/compliance/" class="md-nav__link">
+      <a href="../../../../about/compliance/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    合规
+    Conformitate
   
 
     
@@ -3236,14 +3172,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../about/contribute-support/" class="md-nav__link">
+      <a href="../../../../about/contribute-support/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    贡献与支持
+    Contribuie și Susține
   
 
     
@@ -3264,14 +3200,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../about/media/" class="md-nav__link">
+      <a href="../../../../about/media/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    评测与媒体
+    Recenzii și media
   
 
     
@@ -3292,14 +3228,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../about/bulk_orders/" class="md-nav__link">
+      <a href="../../../../about/bulk_orders/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    批量订单
+    Comenzi în vrac
   
 
     
@@ -3320,14 +3256,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../about/enterprise/" class="md-nav__link">
+      <a href="../../../../about/enterprise/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    企业
+    Întreprindere
   
 
     
@@ -3348,14 +3284,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../about/about-us/" class="md-nav__link">
+      <a href="../../../../about/about-us/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    关于我们
+    Despre Noi
   
 
     
@@ -3391,24 +3327,123 @@
                 
                   
 
+  <nav class="md-tags">
+    
+      
+      
+      
+      
+        <span class="md-tag">Behind the Scenes</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">Design Story</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">KVM-GO</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">Product Design</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">Product Development</span>
+      
+    
+  </nav>
+
 
   
   
 
 
-<h1 id="updates-events">Updates &amp; Events</h1>
-<p><strong>Total Updates: 5</strong></p>
-<h2 id="product-updates">Product Updates</h2>
+<h1 id="why-the-physical-format-of-kvm-go-looks-the-way-it-does">Why the Physical Format of KVM-GO Looks the Way It Does</h1>
+<h3 id="a-behind-the-scenes-story">A Behind-the-Scenes Story</h3>
+<p>From the beginning, <a href="https://openterface.com/">Openterface</a> has always been about creating <em>real-world tools</em>. Not showpieces. Not gimmicks. Just small, reliable devices that work instantly when you need them most.</p>
+<p>When we first explored the idea of making a more portable version of the <a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm">Mini-KVM</a>, we quickly realised that this was not only a hardware challenge. It was also about solving real pain points for people who move between servers, laptops, edge devices, rack gear and all kinds of setups. Many users need to switch control quickly and on the go, sometimes under pressure.</p>
+<p>This kicked off a brand-new design journey. One that eventually evolved into KVM-GO, a device that pushes even further in compactness, speed and convenience. We tried multiple concepts, compared pros and cons, debated like mad, and listened closely to what early adopters and homelab friends shared with us. We want to share that story because transparency and trust have always been core to this project.</p>
+<h2 id="what-we-tried-prototypes-polls-and-real-trade-offs">What We Tried: Prototypes, Polls and Real Trade-Offs</h2>
+<p>We explored several possible “formats,” which we labelled Option A, B, C and so on. Each represented a different philosophy regarding video input, host connection, cable flexibility and ease of use.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/kvm-go/post/kvm-stick-options-all.webp" data-desc-position="bottom"><img alt="kvm-go-post-kvm-stick-options-all" src="https://assets.openterface.com/images/kvm-go/post/kvm-stick-options-all.webp"></a></p>
+<h3 id="the-two-main-directions-were">The two main directions were:</h3>
+<p><strong>1. Cable-based, modular design</strong>
+Using an HDMI socket port and standard cables that users already own.</p>
 <ul>
-<li>2025-11-27: <a href="20251127-why-kvm-go/">Why the Physical Format of KVM-GO Looks the Way It Does</a></li>
-<li>2025-11-14: <a href="251114-kvm-go-launch-mini-kvm-update/">🚀 激动人心的消息：KVM-GO 现已上线！</a></li>
-<li>2025-08-30: <a href="250830-kvm-go-pre-launch/">加入 KVM-Go Beta 测试团队 – 免费测试，名额有限！</a></li>
+<li><strong>Pros:</strong> maximum flexibility, easy cable replacement, adapts to almost anything</li>
+<li><strong>Cons:</strong> users must find or carry the correct video cable, which slows down urgent tasks</li>
 </ul>
-<h2 id="_1">产品更新</h2>
+<p><strong>2. Plug-in style with built-in plug connectors</strong>
+A dongle-like tool that plugs directly into the target without a separate video cable.</p>
 <ul>
-<li>2025-10-07: <a href="251007-kvm-go-beta-test-kits-sent-1/">🚀 KVM-Go HDMI Beta批次正在发货！</a></li>
-<li>2025-09-12: <a href="250912-kvm-go-beta-testing-invitation/">介绍Openterface KVM-Go系列 - 预发布公告！</a></li>
+<li><strong>Pros:</strong> “plug and go” speed, ultra-fast setup, fewer items to carry, ideal for crash-cart and emergency use</li>
+<li><strong>Cons:</strong> less flexible, fixed connector type, not suitable for every scenario</li>
 </ul>
+<p>We also ran <a href="https://www.reddit.com/r/homelab/comments/1hcmvsb/brainpower_needed_which_kvm_stick_is_cooler_might/">a community poll</a> on Reddit. Here were the results from the homelab community:</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/kvm-go/post/KVM-lite-dev-analysis-2.webp" data-desc-position="bottom"><img alt="kvm-go-post-KVM-lite-dev-analysis" src="https://assets.openterface.com/images/kvm-go/post/KVM-lite-dev-analysis-2.webp"></a></p>
+<p>Most people preferred the highly flexible, modular “Option B” layout. That matched perfectly with the Mini-KVM design, which had already proven itself with real users. Many Mini-KVM owners love its flexibility, and this poll confirmed again that we got that format right.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/kvm-go/post/KVM-lite-dev-analysis.webp" data-desc-position="bottom"><img alt="kvm-go-post-KVM-lite-dev-analysis" src="https://assets.openterface.com/images/kvm-go/post/KVM-lite-dev-analysis.webp"></a>
+<em>We compiled these options in a detailed comparison sheet with pros/cons, cable scenarios and trade-offs.</em></p>
+<h2 id="why-kvm-go-is-different">Why KVM-GO Is Different</h2>
+<h3 id="choosing-speed-portability-and-simplicity">Choosing Speed, Portability and Simplicity</h3>
+<p>When we began working on what we first called “Mini-KVM Lite,” the plan was simple: a minimal KVM-over-USB device that was compact and functional. As development progressed, we realised we could push this idea much further. Not only could we shrink the design, we could also integrate a real 4K chip, Bluetooth, and a microSD reader/writer.</p>
+<p>The project quickly grew beyond “Lite,” and the name <strong>KVM-GO</strong> captured the spirit of what we wanted to build for people solving problems in critical moments.</p>
+<p>Instead of maximising flexibility like the Mini-KVM, we prioritised:</p>
+<ul>
+<li>portability</li>
+<li>plug-and-play speed</li>
+<li>instant usability</li>
+</ul>
+<p>We know this format will not be everyone’s favourite, and that is completely OK. This is not a one-size-fits-all solution.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/kvm-go/post/design-chat-20241218b.webp" data-desc-position="bottom"><img alt="kvm-go-post-design-chat-20241218b" src="https://assets.openterface.com/images/kvm-go/post/design-chat-20241218b.webp"></a></p>
+<p><em>Back in late 2024, this was also one of the early design explorations that helped shape the keychain-sized direction of KVM-GO and pushed us to rethink modularity, durability, usability and real-world constraints.</em></p>
+<h3 id="what-drove-the-decision">What drove the decision:</h3>
+<ul>
+<li>In many real-world situations such as crash-cart work, datacenter racks, field repairs, emergency access or mobile engineering, people do not want to search for a video cable. They want to <em>plug in and take control immediately</em>.</li>
+<li>A built-in plug video connector removes that friction. Users still need two USB-C cables (one for host and one for keyboard/mouse injection), but USB-C cables are everywhere today. Eliminating the need for a video cable significantly reduces setup time.</li>
+<li>This choice sacrifices flexibility. There are fewer adapter and cable options. Even so, many users working under time pressure prefer the instant “ready-to-go” convenience.</li>
+<li>Some of our users operate in unusual or extreme environments such as repairing telecom towers, working with public safety equipment, or debugging racing-car edge computers. They repeatedly tell us that speed matters more than configurability.</li>
+<li>For users who want maximum flexibility or support for rare video setups, <strong>Mini-KVM remains our main solution</strong>. KVM-GO does not replace it. These two devices complement each other.</li>
+</ul>
+<p>Even though the poll strongly leaned toward modularity, we chose a different direction for KVM-GO after studying the niche scenarios where speed is more valuable than configurability. The world needed a second format, not just a repeat of Mini-KVM.</p>
+<h2 id="kvm-go-is-more-than-just-a-stick">KVM-GO Is More Than Just a Stick</h2>
+<h3 id="upgrades-beyond-the-form-factor">Upgrades Beyond the Form Factor</h3>
+<p>The physical layout is only one part of the story. Throughout development, we upgraded almost everything inside the device.</p>
+<ul>
+<li>Software support now extends far beyond macOS and Windows. KVM-GO works with multiple Linux distros, Android, iPadOS and Bluetooth keyboard/mouse on iPad. There is active community interest in a web-app version as well.</li>
+<li>The old switchable USB port was replaced with a <strong>switchable microSD slot</strong> that mounts to either host or target. KVM-GO can now replace the microSD reader in your bag, and also removes the need to carry a separate USB video capture device for basic tasks.</li>
+<li>We added a <strong>much more powerful video-processor chip</strong> that outputs true 4K. Many competing devices advertise “4K” but only support 4K input while outputting 1080p. KVM-GO provides real 4K output.</li>
+<li>High performance in a compact body created a new challenge: heat. The density is high, and we are fine-tuning the cooling system through active stress testing.</li>
+</ul>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/kvm-go/post/heat-challenge-202509.webp" data-desc-position="bottom"><img alt="heat-challenge-202509" src="https://assets.openterface.com/images/kvm-go/post/heat-challenge-202509.webp"></a></p>
+<p><em>Kevin reviewing thermal tactic with <a href="https://www.linkedin.com/in/ryandunwoody/">Ryan Dunwoody</a> from Powerhouse Engineering. Ryan’s experience has been invaluable. Packing real 4K performance into such a tiny body introduced unexpected heat-density issues, and he helped us rethink airflow, copper layout, heat spreading and long-term reliability. Thank you, Ryan, for the early guidance.</em></p>
+<p>Together, these upgrades turn KVM-GO into a portable, future-ready, always-ready tool.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/kvm-go/post/prototype-first.webp" data-desc-position="bottom"><img alt="prototype-first" src="https://assets.openterface.com/images/kvm-go/post/prototype-first.webp"></a></p>
+<p><em>Here is one of the earliest KVM-GO prototypes, just a bare PCB in hand. Rough and tiny, but it proved the idea had real potential.</em></p>
+<h2 id="what-this-all-means">What This All Means</h2>
+<p>Our goal with KVM-GO was to create a tool that feels almost invisible when you need it. You take it out, plug it in, and instantly take control. No video cable scavenger hunt. No “I forgot the HDMI adapter at home.” Just instant access.</p>
+<p>KVM-GO is a <strong>portable, 4K-capable, multi-OS, crash-cart-friendly</strong> KVM-over-USB solution, built for real users and real scenarios.</p>
+<p>Some people will continue to prefer maximum modularity. That is exactly why <a href="https://openterface.com/product/minikvm/">Mini-KVM</a> exists. (And yes, you can still buy it now… wink wink :D)</p>
+<p>But for travel, datacenter work, maintenance on the road, or emergency debugging, KVM-GO might be the format that hits the sweet spot.</p>
+<h2 id="thank-you">Thank You</h2>
+<h3 id="and-whats-next">And What’s Next</h3>
+<p>Thank you to everyone who joined the Reddit discussion, filled in the poll, shared feedback and asked tough questions. Without your input, we might have kept chasing perfect modularity rather than focusing on what many users genuinely need.</p>
+<p>We are continuing to refine both hardware and software. More updates will follow. If you have thoughts or suggestions, feel free to email us at <strong><a href="mailto:support@openterface.com">support@openterface.com</a></strong> or join our <strong>Openterface Discord</strong>. We read every message.</p>
+<p>If you like what we are building, please consider backing KVM-GO and helping us <strong>spread the word</strong>. Sharing the campaign with a friend or community makes a huge difference for a tiny team like ours. <strong>We are building this for you, and because of you.</strong></p>
+<p><strong>Openterface / TechxArtisan Team</strong></p>
 
 
 
@@ -3428,20 +3463,20 @@
     
       
   <span class="md-source-file__fact">
-    <span class="md-icon" title="最后更新">
+    <span class="md-icon" title="Ultima actualizare">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2025年11月27日 10:48:05 UTC"><span class="timeago" datetime="2025-11-27T10:48:05+00:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2025年11月27日 10:48:05 UTC">2025-11-27</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="November 27, 2025 10:48:05 UTC"><span class="timeago" datetime="2025-11-27T10:48:05+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="November 27, 2025 10:48:05 UTC">2025-11-27</span>
   </span>
 
     
     
       
   <span class="md-source-file__fact">
-    <span class="md-icon" title="创建日期">
+    <span class="md-icon" title="Creată">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2025年9月22日 15:43:04 UTC"><span class="timeago" datetime="2025-09-22T15:43:04+00:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2025年9月22日 15:43:04 UTC">2025-09-22</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="November 27, 2025 10:48:05 UTC"><span class="timeago" datetime="2025-11-27T10:48:05+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="November 27, 2025 10:48:05 UTC">2025-11-27</span>
   </span>
 
     
@@ -3468,7 +3503,7 @@
           <button type="button" class="md-top md-icon" data-md-component="top" hidden>
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
-  回到页面顶部
+  Înapoi sus
 </button>
         
       </main>
@@ -3478,47 +3513,6 @@
 
   <!-- Link to previous and/or next page -->
   
-    
-      
-        <nav class="md-footer__inner md-grid" aria-label="页脚">
-      
-
-        <!-- Link to previous page -->
-        
-          
-          <a href="../reviews/media/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 媒体报道">
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
-            </div>
-            <div class="md-footer__title">
-              <span class="md-footer__direction">上一页</span>
-              <div class="md-ellipsis">
-                媒体报道
-              </div>
-            </div>
-          </a>
-        
-
-        <!-- Link to next page -->
-        
-          
-          <a href="../../minikvm/" class="md-footer__link md-footer__link--next" aria-label="下一页: 概览">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                下一页
-              </span>
-              <div class="md-ellipsis">
-                概览
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
-            </div>
-          </a>
-        
-      </nav>
     
   
 
@@ -3535,19 +3529,19 @@
             <div id="form_signup_scroll">
               <div class="gf-field-group">
                 
-                  <input type="text" name="entry.1988135673" class="required" id="form-name" required placeholder="您的姓名">
+                  <input type="text" name="entry.1988135673" class="required" id="form-name" required placeholder="Numele tău">
                 
               </div>
               <div class="gf-field-group">
                 
-                  <input type="email" name="emailAddress" class="required email" id="form-email" required placeholder="您的电子邮箱地址 *">
-                  <input type="hidden" name="entry.22394832" value="Openterface-zh">
+                  <input type="email" name="emailAddress" class="required email" id="form-email" required placeholder="Adresa ta de email *">
+                  <input type="hidden" name="entry.22394832" value="Openterface-ro">
                 
               </div>
               <div class="clear">
                 
-                  <input type="submit" name="submit" id="form-submit" class="button" value="✉️ 订阅最新动态！🐝">
-                  <p class="footnote">每月最多一封邮件。随时可以取消订阅。<br> 如有疑问，请发送邮件至 <a href="mailto:info@openterface.com">info@openterface.com</a>。</p>
+                  <input type="submit" name="submit" id="form-submit" class="button" value="✉️ Abonează-te la cele mai noi știri! 🐝">
+                  <p class="footnote">Nu mai mult de un email pe lună. Dezabonare oricând. <br> Pentru întrebări, trimite-ne un email la <a href="mailto:info@openterface.com">info@openterface.com</a>.</p>
                 
               </div>
             </div>
@@ -3565,17 +3559,17 @@
   <!-- Always use our localized copyright, ignore config.copyright -->
   <div class="md-copyright__highlight">
     
-      Copyright © 版权所有。2025 <a href="https://www.openterface.com">Openterface</a> | <a href="https://www.techxartisan.com">TechxArtisan</a><br>
-      <a href="/zh/">首页</a> | <a href="/zh/policy/terms-of-service">服务条款</a> | <a href="/zh/policy/privacy">隐私政策</a> | <a href="#__consent">Cookie</a> | <a href="/zh/about/about-us">关于我们</a> | <a href="/zh/about/multi-languages">语言</a>
+      Copyright © Toate drepturile rezervate. 2025 <a href="https://www.openterface.com">Openterface</a> | <a href="https://www.techxartisan.com">TechxArtisan</a><br>
+      <a href="/ro/">Acasă</a> | <a href="/ro/policy/terms-of-service">Termeni de Serviciu</a> | <a href="/ro/policy/privacy">Politica de Confidențialitate</a> | <a href="#__consent">Cookie</a> | <a href="/ro/about/about-us">Despre</a> | <a href="/ro/about/multi-languages">Limbi</a>
     
   </div>
   
   
     
-      使用
+      Creat cu
       <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
         Material for MkDocs
-      </a>制作
+      </a>
     
   
 </div>
@@ -3669,7 +3663,7 @@
   <script>
     (function() {
       var langselect = document.createElement('script');
-      langselect.src = "../../../../assets/javascripts/language-select.js";
+      langselect.src = "../../../../../assets/javascripts/language-select.js";
       langselect.async = false; // Load synchronously to ensure it's available
       document.body.appendChild(langselect);
     })();
@@ -3735,8 +3729,8 @@
 
 <!-- Consent title and description with language-specific content -->
 
-  <h4>Cookie 同意</h4>
-  <p>我们使用 cookie 来提升文档内容质量，分析网站效果和需求。通过同意，您帮助我们改善网站。谢谢！</p>
+  <h4>Consimțământ Cookie</h4>
+  <p>Folosim cookie-uri pentru a îmbunătăți calitatea conținutului documentației, pentru a analiza eficacitatea site-ului și nevoile. Prin consimțământul dumneavoastră, ne ajutați să îmbunătățim site-ul nostru. Mulțumim!</p>
 
 
 <!-- Consent settings -->
@@ -3779,7 +3773,7 @@
 
     <!-- Button to accept cookies -->
     
-      <button class="md-button md-button--primary">同意</button>
+      <button class="md-button md-button--primary">Accept</button>
     
 
     <!-- Button to reject cookies -->
@@ -3794,7 +3788,7 @@
 
     <!-- Button to reject cookies -->
     
-      <button type="reset" class="md-button">拒绝</button>
+      <button type="reset" class="md-button">Refuz</button>
     
 
     <!-- Button to manage settings -->
@@ -3809,24 +3803,56 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["toc.integrate", "toc.follow", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer", "navigation.indexes", "navigation.tracking", "search.suggest", "search.highlight", "content.tabs", "content.code.annotation", "content.code.copy", "content.tabs.link", "last_updated"], "search": "../../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["toc.integrate", "toc.follow", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer", "navigation.indexes", "navigation.tracking", "search.suggest", "search.highlight", "content.tabs", "content.code.annotation", "content.code.copy", "content.tabs.link", "last_updated"], "search": "../../../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copiat \u00een clipboard", "clipboard.copy": "Copiaz\u0103 \u00een clipboard", "search.result.more.one": "\u00cenc\u0103 1 pe aceast\u0103 pagin\u0103", "search.result.more.other": "\u00cenc\u0103 # pe aceast\u0103 pagin\u0103", "search.result.none": "Nu a fost g\u0103sit niciun document", "search.result.one": "1 document g\u0103sit", "search.result.other": "# documente g\u0103site", "search.result.placeholder": "Tasteaz\u0103 pentru a \u00eencepe c\u0103utarea", "search.result.term.missing": "Lips\u0103", "select.version": "Selecteaz\u0103 versuine"}, "version": null}</script>
     
     
   
-      <script src="../../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      <script src="../../../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
       
-        <script src="../../../../js/timeago.min.js"></script>
+        <script src="../../../../../js/timeago.min.js"></script>
       
-        <script src="../../../../js/timeago_mkdocs_material.js"></script>
+        <script src="../../../../../js/timeago_mkdocs_material.js"></script>
       
-        <script src="../../../../js/timeago.min.js"></script>
+        <script src="../../../../../js/timeago.min.js"></script>
       
-        <script src="../../../../js/timeago_mkdocs_material.js"></script>
+        <script src="../../../../../js/timeago_mkdocs_material.js"></script>
+      
+        <script src="../../../../../js/timeago.min.js"></script>
+      
+        <script src="../../../../../js/timeago_mkdocs_material.js"></script>
+      
+        <script src="../../../../../js/timeago.min.js"></script>
+      
+        <script src="../../../../../js/timeago_mkdocs_material.js"></script>
+      
+        <script src="../../../../../js/timeago.min.js"></script>
+      
+        <script src="../../../../../js/timeago_mkdocs_material.js"></script>
+      
+        <script src="../../../../../js/timeago.min.js"></script>
+      
+        <script src="../../../../../js/timeago_mkdocs_material.js"></script>
+      
+        <script src="../../../../../js/timeago.min.js"></script>
+      
+        <script src="../../../../../js/timeago_mkdocs_material.js"></script>
+      
+        <script src="../../../../../js/timeago.min.js"></script>
+      
+        <script src="../../../../../js/timeago_mkdocs_material.js"></script>
+      
+        <script src="../../../../../js/timeago.min.js"></script>
+      
+        <script src="../../../../../js/timeago_mkdocs_material.js"></script>
+      
+        <script src="../../../../../js/timeago.min.js"></script>
+      
+        <script src="../../../../../js/timeago_mkdocs_material.js"></script>
       
     
   <script src="https://assets.openterface.com/js/custom.min.js"></script>
-  <script src="../../../../assets/javascripts/slideshow.js"></script>
-  <script src="../../../../assets/javascripts/download-selector.js"></script>
+  <script src="../../../../../assets/javascripts/slideshow.js"></script>
+  <script src="../../../../../assets/javascripts/download-selector.js"></script>
 
   
 <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
