@@ -4,6 +4,7 @@
 
 ## Product Updates
 
+- 2025-11-27: [Why the Physical Format of KVM-GO Looks the Way It Does](20251127-why-kvm-go.md)
 - 2025-11-14: [🚀 Știri captivante: KVM-GO este acum disponibil!](251114-kvm-go-launch-mini-kvm-update.ro.md)
 - 2025-08-30: [Alăturați-vă echipei de testare beta KVM-Go – Test gratuit, locuri limitate!](250830-kvm-go-pre-launch.ro.md)
 
