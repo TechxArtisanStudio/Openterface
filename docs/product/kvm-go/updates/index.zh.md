@@ -4,6 +4,7 @@
 
 ## Product Updates
 
+- 2025-11-27: [Why the Physical Format of KVM-GO Looks the Way It Does](20251127-why-kvm-go.md)
 - 2025-11-14: [🚀 激动人心的消息：KVM-GO 现已上线！](251114-kvm-go-launch-mini-kvm-update.zh.md)
 - 2025-08-30: [加入 KVM-Go Beta 测试团队 – 免费测试，名额有限！](250830-kvm-go-pre-launch.zh.md)
 
