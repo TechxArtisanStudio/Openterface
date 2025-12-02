@@ -42,7 +42,7 @@
     
     
       
-        <title>**Troubleshooting Keyboard and Mouse cannot control target computer Issues** - Openterface | Bridging Interfaces to Open Possibilities</title>
+        <title>**Resolução de problemas de teclado e mouse que não conseguem controlar o computador de destino** - Openterface | Bridging Interfaces to Open Possibilities</title>
       
     
     
@@ -390,7 +390,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#troubleshooting-keyboard-and-mouse-cannot-control-target-computer-issues" class="md-skip">
+        <a href="#resolucao-de-problemas-de-teclado-e-mouse-que-nao-conseguem-controlar-o-computador-de-destino" class="md-skip">
           Ir para o conteúdo
         </a>
       
@@ -434,7 +434,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              **Troubleshooting Keyboard and Mouse cannot control target computer Issues**
+              **Resolução de problemas de teclado e mouse que não conseguem controlar o computador de destino**
             
           </span>
         </div>
@@ -3330,89 +3330,89 @@
   
 
 
-<h1 id="troubleshooting-keyboard-and-mouse-cannot-control-target-computer-issues"><strong>Troubleshooting Keyboard and Mouse cannot control target computer Issues</strong></h1>
-<p>Occasionally, users may experience situations where the keyboard and mouse functions of the Openterface device do not work as expected. This document outlines the most common causes and how to resolve or prevent them.</p>
-<p><strong>Software feedback:</strong> When Openterface cannot establish HID communication because of a missing or wrong Target connection, the UI highlights the status so you can act quickly.</p>
+<h1 id="resolucao-de-problemas-de-teclado-e-mouse-que-nao-conseguem-controlar-o-computador-de-destino"><strong>Resolução de problemas de teclado e mouse que não conseguem controlar o computador de destino</strong></h1>
+<p>Ocasionalmente, os usuários podem experimentar situações em que as funções de teclado e mouse do dispositivo Openterface não funcionam como esperado. Este documento descreve as causas mais comuns e como resolvê-las ou evitá-las.</p>
+<p><strong>Feedback do software:</strong> Quando o Openterface não consegue estabelecer comunicação HID devido a uma conexão de destino ausente ou incorreta, a interface destaca o status para que você possa agir rapidamente.</p>
 <ul>
 <li>
-<p>On <strong>macOS</strong>, the keyboard and mouse icon in the top‑right corner of the Openterface utility turns <strong>orange</strong>.  </p>
+<p>No <strong>macOS</strong>, o ícone de teclado e mouse no canto superior direito do utilitário Openterface fica <strong>laranja</strong>.  </p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/software/inactive_keyboardmoue_macos.webp" data-desc-position="bottom"><img src="https://assets.openterface.com/images/software/inactive_keyboardmoue_macos.webp" alt="Inactive keyboard and mouse (macOS)" width="200"></a></p>
 </li>
 <li>
-<p>On <strong>Windows/Linux</strong>, the corresponding icon at the bottom of the window turns <strong>red</strong>.  </p>
+<p>No <strong>Windows/Linux</strong>, o ícone correspondente na parte inferior da janela fica <strong>vermelho</strong>.  </p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/software/inactive_keyboardmoue_windows.webp" data-desc-position="bottom"><img src="https://assets.openterface.com/images/software/inactive_keyboardmoue_windows.webp" alt="Inactive keyboard and mouse (Windows)" width="200"></a></p>
 </li>
 </ul>
-<p>Video still appears in Openterface but keyboard and mouse are unresponsive — you can see the target desktop but not control it. This usually means HID communication isn’t established (e.g., wrong Target cable, unpowered hub, or faulty HID chip); check the checklist and sections below. The software also blocks further keyboard/mouse connections until the wiring/issue is resolved.</p>
+<p>O vídeo ainda aparece no Openterface, mas o teclado e o mouse não respondem — você consegue ver a área de trabalho de destino, mas não consegue controlá-la. Isso geralmente significa que a comunicação HID não foi estabelecida (por exemplo, cabo de destino errado, hub sem alimentação ou chip HID com defeito); verifique a lista de verificação e as seções abaixo. O software também bloqueia conexões de teclado/mouse adicionais até que o cabeamento/problema seja resolvido.</p>
 <hr>
-<h2 id="1-incorrect-cable-connection"><strong>1. Incorrect Cable Connection</strong></h2>
-<p><strong>Issue:</strong><br>
-Surprisingly common: users forget to connect the Openterface Target Type‑C port to the target computer.</p>
-<p><strong>Solution:</strong><br>
-✅ Always verify:
-- The <strong>Target Type-C cable</strong> is securely connected from the Openterface <strong>Target port</strong> to the <strong>target computer</strong> you wish to control.
-- The <strong>Host USB-A/USB-C cable</strong> is connected to your <strong>host/controller computer</strong> (where OpenterfaceQt or the control software runs).</p>
+<h2 id="1-conexao-de-cabo-incorreta"><strong>1. Conexão de cabo incorreta</strong></h2>
+<p><strong>Problema:</strong><br>
+Surpreendentemente comum: os usuários esquecem de conectar a porta Openterface Target Type-C ao computador de destino.</p>
+<p><strong>Solução:</strong><br>
+✅ Sempre verifique:
+- O <strong>cabo Type-C de destino</strong> está conectado com segurança da <strong>porta de destino</strong> Openterface ao <strong>computador de destino</strong> que você deseja controlar.
+- O <strong>cabo USB-A/USB-C do host</strong> está conectado ao seu <strong>computador host/controlador</strong> (onde OpenterfaceQt ou o software de controle é executado).</p>
 <blockquote>
-<p><strong>Tip:</strong> Label cables to avoid confusion in complex setups.
-- Connect the black cable to the black side of the Target connector.
-- Connect the orange cable to the orange‑covered side of the Target connector.</p>
+<p><strong>Dica:</strong> Rotule os cabos para evitar confusão em configurações complexas.
+- Conecte o cabo preto ao lado preto do conector de destino.
+- Conecte o cabo laranja ao lado coberto de laranja do conector de destino.</p>
 </blockquote>
-<h2 id="2-use-of-unpowered-usb-hubs"><strong>2. Use of Unpowered USB Hubs</strong></h2>
-<p><strong>Issue:</strong><br>
-Connecting Openterface through an unpowered USB hub can lead to <strong>insufficient power delivery</strong> (VBUS voltage drop). This may cause the device to behave erratically or fail to initialize HID (keyboard/mouse) functions.</p>
-<p><strong>Solution:</strong><br>
-✅ <strong>Avoid unpowered USB hubs</strong> between Openterface and the target computer.<br>
-✅ If a hub is necessary, use a <strong>high-quality, externally powered USB hub</strong> that can deliver stable 5V power.</p>
+<h2 id="2-uso-de-hubs-usb-sem-alimentacao"><strong>2. Uso de hubs USB sem alimentação</strong></h2>
+<p><strong>Problema:</strong><br>
+Conectar o Openterface através de um hub USB sem alimentação pode levar a <strong>fornecimento de energia insuficiente</strong> (queda de tensão VBUS). Isso pode fazer com que o dispositivo se comporte de forma errática ou não inicialize as funções HID (teclado/mouse).</p>
+<p><strong>Solução:</strong><br>
+✅ <strong>Evite hubs USB sem alimentação</strong> entre o Openterface e o computador de destino.<br>
+✅ Se um hub for necessário, use um <strong>hub USB de alta qualidade com alimentação externa</strong> que possa fornecer alimentação estável de 5V.</p>
 <blockquote>
-<p><strong>Note:</strong> USB power delivery is critical for the HID chip to function reliably. Voltage dips can trigger internal faults.</p>
+<p><strong>Nota:</strong> O fornecimento de energia USB é crítico para o funcionamento confiável do chip HID. Quedas de tensão podem desencadear falhas internas.</p>
 </blockquote>
 <hr>
-<h2 id="3-hid-chip-entering-zombie-state"><strong>3. HID Chip Entering "Zombie State"</strong></h2>
-<p><strong>Issue:</strong><br>
-Under certain conditions—such as rapid command bursts combined with marginal power—the internal HID chip (e.g., CH9329) may enter a <strong>"zombie state."</strong> In this state:
-- The HID chip locks up and stops serial response data to the host computer.
-- It retains an internal error state that prevents normal reinitialization by the host software.
-- The device may appear connected (video present) while inputs remain unresponsive.
-- The host software (e.g., OpenterfaceQt) cannot reinitialize the device properly.
-- Replugging all cables or power-cycling the USB connection typically will not clear this internal error; a factory reset of the HID chip is required.</p>
-<p><strong>Solution:</strong><br>
-Perform a <strong>factory reset of the HID chip</strong>:</p>
+<h2 id="3-chip-hid-entra-em-estado-zumbi"><strong>3. Chip HID entra em "estado zumbi"</strong></h2>
+<p><strong>Problema:</strong><br>
+Em certas condições — como rajadas de comandos rápidos combinadas com alimentação marginal — o chip HID interno (por exemplo, CH9329) pode entrar em um <strong>"estado zumbi".</strong> Neste estado:
+- O chip HID se trava e interrompe o envio de dados de resposta em série para o computador host.
+- Mantém um estado de erro interno que impede a reinicialização normal pelo software host.
+- O dispositivo pode parecer conectado (vídeo presente) enquanto as entradas permanecem sem resposta.
+- O software host (por exemplo, OpenterfaceQt) não consegue reinicializar o dispositivo corretamente.
+- A reconexão de todos os cabos ou o ciclo de energia da conexão USB normalmente não limpam esse erro interno; é necessária uma redefinição de fábrica do chip HID.</p>
+<p><strong>Solução:</strong><br>
+Execute uma <strong>redefinição de fábrica do chip HID</strong>:</p>
 <ul>
 <li>
-<p>In <strong>macOS</strong>: Use the <strong>Serial Reset Tool</strong> available in the <strong>Advanced Menu</strong> of the macOS utility.  </p>
+<p>No <strong>macOS</strong>: Use a <strong>Ferramenta de reinicialização serial</strong> disponível no <strong>Menu avançado</strong> do utilitário macOS.  </p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/software/MacOS_FactoryResetHID.webp" data-desc-position="bottom"><img src="https://assets.openterface.com/images/software/MacOS_FactoryResetHID.webp" alt="Serial Reset Tool (macOS)" width="150"></a></p>
 </li>
 <li>
-<p>In <strong>OpenterfaceQt</strong> (desktop app): Go to <strong>Advanced Menu → Factory Reset HID Chip</strong>.</p>
+<p>No <strong>OpenterfaceQt</strong> (aplicativo desktop): Vá para <strong>Menu avançado → Redefinição de fábrica do chip HID</strong>.</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/software/OpenterfaceQT_FactoryResetHID.webp" data-desc-position="bottom"><img src="https://assets.openterface.com/images/software/OpenterfaceQT_FactoryResetHID.webp" alt="Factory Reset HID Chip (OpenterfaceQt)" width="150"></a></p>
 </li>
 </ul>
 <blockquote>
-<p>This clears the chip’s internal state and restores normal operation.</p>
+<p>Isto limpa o estado interno do chip e restaura o funcionamento normal.</p>
 </blockquote>
 <hr>
-<h2 id="4-baud-rate-sensitivity-in-noisy-environments"><strong>4. Baud Rate Sensitivity in Noisy Environments</strong></h2>
-<p><strong>Issue:</strong><br>
-Openterface defaults to <strong>115200 bps</strong> baud rate for faster mouse data transmission. However, in electrically noisy environments (e.g. switching power supplies, or long/unshielded cables), this high baud rate can lead to <strong>serial communication errors</strong>, causing dropped or corrupted HID commands.</p>
-<p><strong>Solution:</strong><br>
-Switch to <strong>9600 bps</strong> baud rate:
-- This significantly improves <strong>communication reliability</strong> in noisy setups.
-- The impact on latency is <strong>negligible</strong> under typical usage (e.g., 30 FPS video capture and control).</p>
+<h2 id="4-sensibilidade-da-taxa-de-transmissao-em-ambientes-ruidosos"><strong>4. Sensibilidade da taxa de transmissão em ambientes ruidosos</strong></h2>
+<p><strong>Problema:</strong><br>
+O Openterface usa por padrão uma taxa de transmissão de <strong>115200 bps</strong> para transmissão de dados de mouse mais rápida. No entanto, em ambientes eletricamente ruidosos (por exemplo, fontes de alimentação comutadas ou cabos longos/mal blindados), essa taxa de transmissão alta pode levar a <strong>erros de comunicação serial</strong>, causando perda ou corrupção de comandos HID.</p>
+<p><strong>Solução:</strong><br>
+Mude para uma taxa de transmissão de <strong>9600 bps</strong>:
+- Isto melhora significativamente a <strong>confiabilidade da comunicação</strong> em configurações ruidosas.
+- O impacto na latência é <strong>negligenciável</strong> sob uso típico (por exemplo, captura de vídeo de 30 fps e controle).</p>
 <blockquote>
-<p><strong>Recommendation:</strong> If you experience intermittent input glitches without power or connection issues, try lowering the baud rate in the Openterface configuration.</p>
+<p><strong>Recomendação:</strong> Se você experimentar problemas intermitentes de entrada sem problemas de alimentação ou conexão, tente reduzir a taxa de transmissão na configuração do Openterface.</p>
 </blockquote>
 <hr>
-<h2 id="summary-checklist"><strong>Summary Checklist</strong></h2>
-<p>If keyboard/mouse isn’t working:</p>
+<h2 id="lista-de-verificacao-de-resumo"><strong>Lista de verificação de resumo</strong></h2>
+<p>Se o teclado/mouse não estiver funcionando:</p>
 <ol>
-<li>✅ Confirm correct <strong>Target Type-C cable</strong> is connected to the <strong>target computer</strong>.</li>
-<li>✅ Avoid unpowered USB hubs—use direct connection or a <strong>powered hub</strong>.</li>
-<li>✅ If the device seems "frozen," <strong>reset the HID chip</strong> via software.</li>
-<li>✅ In unstable environments, <strong>reduce baud rate to 9600</strong> for more robust communication.</li>
-<li>✅ If the above trials don't help, try a different USB port on the host or restart the host computer — the OS may disable a port or the hub after receiving too many USB error packets. Switching ports or rebooting the host often restores the connection.</li>
+<li>✅ Confirme que o <strong>cabo Type-C de destino</strong> correto está conectado ao <strong>computador de destino</strong>.</li>
+<li>✅ Evite hubs USB sem alimentação — use conexão direta ou um <strong>hub com alimentação</strong>.</li>
+<li>✅ Se o dispositivo parecer "congelado", <strong>reinicie o chip HID</strong> via software.</li>
+<li>✅ Em ambientes instáveis, <strong>reduza a taxa de transmissão para 9600</strong> para comunicação mais robusta.</li>
+<li>✅ Se as tentativas acima não ajudarem, tente uma porta USB diferente no host ou reinicie o computador host — o SO pode desabilitar uma porta ou o hub após receber muitos pacotes de erro USB. Trocar de porta ou reiniciar o host geralmente restaura a conexão.</li>
 </ol>
 <hr>
-<p>By addressing these four areas, most intermittent HID issues can be prevented or quickly resolved. For persistent problems, please contact support(support@openterface.com) with your setup details and logs.</p>
+<p>Ao abordar essas quatro áreas, a maioria dos problemas intermitentes de HID pode ser evitada ou resolvida rapidamente. Para problemas persistentes, entre em contato com o suporte (support@openterface.com) com os detalhes de sua configuração e logs.</p>
 
 
 
@@ -3435,7 +3435,7 @@ Switch to <strong>9600 bps</strong> baud rate:
     <span class="md-icon" title="Última atualização">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="December 2, 2025 09:50:59 UTC"><span class="timeago" datetime="2025-12-02T09:50:59+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 2, 2025 09:50:59 UTC">2025-12-02</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2 de dezembro de 2025 10:04:24 UTC"><span class="timeago" datetime="2025-12-02T10:04:24+00:00" locale="pt"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2 de dezembro de 2025 10:04:24 UTC">2025-12-02</span>
   </span>
 
     
@@ -3445,7 +3445,7 @@ Switch to <strong>9600 bps</strong> baud rate:
     <span class="md-icon" title="Criada">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="December 2, 2025 09:03:10 UTC"><span class="timeago" datetime="2025-12-02T09:03:10+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 2, 2025 09:03:10 UTC">2025-12-02</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2 de dezembro de 2025 10:04:24 UTC"><span class="timeago" datetime="2025-12-02T10:04:24+00:00" locale="pt"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2 de dezembro de 2025 10:04:24 UTC">2025-12-02</span>
   </span>
 
     
