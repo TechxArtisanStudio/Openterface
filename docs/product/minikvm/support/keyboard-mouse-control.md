@@ -62,8 +62,9 @@ Perform a **factory reset of the HID chip**:
     <img src="https://assets.openterface.com/images/software/MacOS_FactoryResetHID.webp" alt="Serial Reset Tool (macOS)" width="150" />
 
 - In **OpenterfaceQt** (desktop app): Go to **Advanced Menu → Factory Reset HID Chip**.
+
     <img src="https://assets.openterface.com/images/software/OpenterfaceQT_FactoryResetHID.webp" alt="Factory Reset HID Chip (OpenterfaceQt)" width="150" />
-    
+
 > This clears the chip’s internal state and restores normal operation.
 
 ---
