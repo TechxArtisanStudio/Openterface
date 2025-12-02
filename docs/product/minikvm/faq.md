@@ -75,6 +75,10 @@ For low-power targets (e.g., Raspberry Pi), use a dedicated power supply instead
 
 ## Control
 
+**:material-chat-question:{ .faq } Keyboard and mouse cannot control the target computer
+
+If you can see the target desktop but keyboard and mouse inputs are unresponsive, check cables/hubs, try the HID reset or another USB port/reboot — see `support/keyboard-mouse-control.md` for details.
+
 **:material-chat-question:{ .faq } Wireless or Ethernet version?**
 
 Not built-in. Use a headless computer (e.g., Raspberry Pi) + remote desktop for remote control.
