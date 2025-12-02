@@ -52,6 +52,7 @@ Under certain conditions—such as rapid command bursts combined with marginal p
 **Solution:**  
 Perform a **factory reset of the HID chip**:
 - In **OpenterfaceQt** (desktop app): Go to **Advanced Menu → Factory Reset HID Chip**.
+
 - On **macOS**: Use the **Serial Reset Tool** available in the **Advanced Menu** of the macOS utility.
 
 > This clears the chip’s internal state and restores normal operation.
@@ -75,6 +76,7 @@ Switch to **9600 bps** baud rate:
 ## **Summary Checklist**
 
 If keyboard/mouse isn’t working:
+
 1. ✅ Confirm correct **Target Type-C cable** is connected to the **target computer**.
 2. ✅ Avoid unpowered USB hubs—use direct connection or a **powered hub**.
 3. ✅ If the device seems "frozen," **reset the HID chip** via software.
