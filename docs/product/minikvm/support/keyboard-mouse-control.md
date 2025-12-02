@@ -4,8 +4,13 @@ Occasionally, users may experience situations where the keyboard and mouse funct
 
 **Software feedback:** When Openterface cannot establish HID communication because of a missing or wrong Target connection, the UI highlights the status so you can act quickly.
 
-- On **macOS**, the keyboard and mouse icon in the top-right corner of the Openterface utility turns **orange**.
-- On **Windows/Linux**, the similar icon at the bottom of the window goes **red**.
+- On **macOS**, the keyboard and mouse icon in the top‑right corner of the Openterface utility turns **orange**.  
+
+    <img src="https://assets.openterface.com/images/software/inactive_keyboardmoue_macos.webp" alt="Inactive keyboard and mouse (macOS)" width="200" />
+
+- On **Windows/Linux**, the corresponding icon at the bottom of the window turns **red**.  
+
+    <img src="https://assets.openterface.com/images/software/inactive_keyboardmoue_windows.webp" alt="Inactive keyboard and mouse (Windows)" width="200" />
 
 Video still appears in Openterface but keyboard and mouse are unresponsive — you can see the target desktop but not control it. This usually means HID communication isn’t established (e.g., wrong Target cable, unpowered hub, or faulty HID chip); check the checklist and sections below. The software also blocks further keyboard/mouse connections until the wiring/issue is resolved.
 
@@ -51,10 +56,14 @@ Under certain conditions—such as rapid command bursts combined with marginal p
 
 **Solution:**  
 Perform a **factory reset of the HID chip**:
+
+- In **macOS**: Use the **Serial Reset Tool** available in the **Advanced Menu** of the macOS utility.  
+
+    <img src="https://assets.openterface.com/images/software/MacOS_FactoryResetHID.webp" alt="Serial Reset Tool (macOS)" width="150" />
+
 - In **OpenterfaceQt** (desktop app): Go to **Advanced Menu → Factory Reset HID Chip**.
-
-- On **macOS**: Use the **Serial Reset Tool** available in the **Advanced Menu** of the macOS utility.
-
+    <img src="https://assets.openterface.com/images/software/OpenterfaceQT_FactoryResetHID.webp" alt="Factory Reset HID Chip (OpenterfaceQt)" width="150" />
+    
 > This clears the chip’s internal state and restores normal operation.
 
 ---
