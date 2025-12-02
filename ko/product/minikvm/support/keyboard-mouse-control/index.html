@@ -42,7 +42,7 @@
     
     
       
-        <title>**Troubleshooting Keyboard and Mouse cannot control target computer Issues** - Openterface | Bridging Interfaces to Open Possibilities</title>
+        <title>**키보드 및 마우스가 대상 컴퓨터를 제어할 수 없는 문제 해결** - Openterface | Bridging Interfaces to Open Possibilities</title>
       
     
     
@@ -380,7 +380,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#troubleshooting-keyboard-and-mouse-cannot-control-target-computer-issues" class="md-skip">
+        <a href="#_1" class="md-skip">
           콘텐츠로 이동
         </a>
       
@@ -424,7 +424,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              **Troubleshooting Keyboard and Mouse cannot control target computer Issues**
+              **키보드 및 마우스가 대상 컴퓨터를 제어할 수 없는 문제 해결**
             
           </span>
         </div>
@@ -3320,89 +3320,89 @@
   
 
 
-<h1 id="troubleshooting-keyboard-and-mouse-cannot-control-target-computer-issues"><strong>Troubleshooting Keyboard and Mouse cannot control target computer Issues</strong></h1>
-<p>Occasionally, users may experience situations where the keyboard and mouse functions of the Openterface device do not work as expected. This document outlines the most common causes and how to resolve or prevent them.</p>
-<p><strong>Software feedback:</strong> When Openterface cannot establish HID communication because of a missing or wrong Target connection, the UI highlights the status so you can act quickly.</p>
+<h1 id="_1"><strong>키보드 및 마우스가 대상 컴퓨터를 제어할 수 없는 문제 해결</strong></h1>
+<p>때때로 사용자는 Openterface 장치의 키보드 및 마우스 기능이 예상대로 작동하지 않는 상황을 경험할 수 있습니다. 이 문서는 가장 일반적인 원인과 이를 해결하거나 예방하는 방법을 설명합니다.</p>
+<p><strong>소프트웨어 피드백:</strong> Openterface가 누락되거나 잘못된 대상 연결로 인해 HID 통신을 설정할 수 없을 때, UI는 상태를 강조 표시하여 빠르게 조치할 수 있습니다.</p>
 <ul>
 <li>
-<p>On <strong>macOS</strong>, the keyboard and mouse icon in the top‑right corner of the Openterface utility turns <strong>orange</strong>.  </p>
+<p><strong>macOS</strong>에서는 Openterface 유틸리티의 오른쪽 상단 모서리에 있는 키보드 및 마우스 아이콘이 <strong>주황색</strong>으로 바뀝니다.  </p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/software/inactive_keyboardmoue_macos.webp" data-desc-position="bottom"><img src="https://assets.openterface.com/images/software/inactive_keyboardmoue_macos.webp" alt="Inactive keyboard and mouse (macOS)" width="200"></a></p>
 </li>
 <li>
-<p>On <strong>Windows/Linux</strong>, the corresponding icon at the bottom of the window turns <strong>red</strong>.  </p>
+<p><strong>Windows/Linux</strong>에서는 창 하단의 해당 아이콘이 <strong>빨간색</strong>으로 바뀝니다.  </p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/software/inactive_keyboardmoue_windows.webp" data-desc-position="bottom"><img src="https://assets.openterface.com/images/software/inactive_keyboardmoue_windows.webp" alt="Inactive keyboard and mouse (Windows)" width="200"></a></p>
 </li>
 </ul>
-<p>Video still appears in Openterface but keyboard and mouse are unresponsive — you can see the target desktop but not control it. This usually means HID communication isn’t established (e.g., wrong Target cable, unpowered hub, or faulty HID chip); check the checklist and sections below. The software also blocks further keyboard/mouse connections until the wiring/issue is resolved.</p>
+<p>Openterface에는 여전히 비디오가 표시되지만 키보드 및 마우스가 응답하지 않습니다. 대상 데스크톱은 볼 수 있지만 제어할 수 없습니다. 이는 일반적으로 HID 통신이 설정되지 않았음을 의미합니다(예: 잘못된 대상 케이블, 전원이 없는 허브 또는 결함이 있는 HID 칩). 아래의 체크리스트와 섹션을 확인하십시오. 소프트웨어는 배선/문제가 해결될 때까지 추가 키보드/마우스 연결을 차단합니다.</p>
 <hr>
-<h2 id="1-incorrect-cable-connection"><strong>1. Incorrect Cable Connection</strong></h2>
-<p><strong>Issue:</strong><br>
-Surprisingly common: users forget to connect the Openterface Target Type‑C port to the target computer.</p>
-<p><strong>Solution:</strong><br>
-✅ Always verify:
-- The <strong>Target Type-C cable</strong> is securely connected from the Openterface <strong>Target port</strong> to the <strong>target computer</strong> you wish to control.
-- The <strong>Host USB-A/USB-C cable</strong> is connected to your <strong>host/controller computer</strong> (where OpenterfaceQt or the control software runs).</p>
+<h2 id="1"><strong>1. 잘못된 케이블 연결</strong></h2>
+<p><strong>문제:</strong><br>
+놀랍도록 일반적입니다: 사용자가 Openterface 대상 Type-C 포트를 대상 컴퓨터에 연결하는 것을 잊습니다.</p>
+<p><strong>해결책:</strong><br>
+✅ 항상 확인하세요:
+- <strong>대상 Type-C 케이블</strong>이 Openterface <strong>대상 포트</strong>에서 제어하려는 <strong>대상 컴퓨터</strong>에 안전하게 연결되어 있습니다.
+- <strong>호스트 USB-A/USB-C 케이블</strong>이 <strong>호스트/제어 컴퓨터</strong>(OpenterfaceQt 또는 제어 소프트웨어가 실행되는 위치)에 연결되어 있습니다.</p>
 <blockquote>
-<p><strong>Tip:</strong> Label cables to avoid confusion in complex setups.
-- Connect the black cable to the black side of the Target connector.
-- Connect the orange cable to the orange‑covered side of the Target connector.</p>
+<p><strong>팁:</strong> 복잡한 설정에서 혼동을 피하기 위해 케이블에 레이블을 지정하십시오.
+- 검은색 케이블을 대상 커넥터의 검은색 쪽에 연결합니다.
+- 주황색 케이블을 대상 커넥터의 주황색으로 덮인 쪽에 연결합니다.</p>
 </blockquote>
-<h2 id="2-use-of-unpowered-usb-hubs"><strong>2. Use of Unpowered USB Hubs</strong></h2>
-<p><strong>Issue:</strong><br>
-Connecting Openterface through an unpowered USB hub can lead to <strong>insufficient power delivery</strong> (VBUS voltage drop). This may cause the device to behave erratically or fail to initialize HID (keyboard/mouse) functions.</p>
-<p><strong>Solution:</strong><br>
-✅ <strong>Avoid unpowered USB hubs</strong> between Openterface and the target computer.<br>
-✅ If a hub is necessary, use a <strong>high-quality, externally powered USB hub</strong> that can deliver stable 5V power.</p>
+<h2 id="2-usb"><strong>2. 전원이 없는 USB 허브 사용</strong></h2>
+<p><strong>문제:</strong><br>
+전원이 없는 USB 허브를 통해 Openterface를 연결하면 <strong>불충분한 전원 공급</strong>(VBUS 전압 저하)이 발생할 수 있습니다. 이로 인해 장치가 잘못 동작하거나 HID(키보드/마우스) 기능을 초기화하지 못할 수 있습니다.</p>
+<p><strong>해결책:</strong><br>
+✅ <strong>전원이 없는 USB 허브를 피하세요</strong> Openterface와 대상 컴퓨터 사이에서.<br>
+✅ 허브가 필요한 경우 <strong>안정적인 5V 전원을 공급할 수 있는 고품질 외부 전원 USB 허브</strong>를 사용하세요.</p>
 <blockquote>
-<p><strong>Note:</strong> USB power delivery is critical for the HID chip to function reliably. Voltage dips can trigger internal faults.</p>
+<p><strong>참고:</strong> USB 전원 공급은 HID 칩이 안정적으로 작동하는 데 중요합니다. 전압 저하는 내부 결함을 트리거할 수 있습니다.</p>
 </blockquote>
 <hr>
-<h2 id="3-hid-chip-entering-zombie-state"><strong>3. HID Chip Entering "Zombie State"</strong></h2>
-<p><strong>Issue:</strong><br>
-Under certain conditions—such as rapid command bursts combined with marginal power—the internal HID chip (e.g., CH9329) may enter a <strong>"zombie state."</strong> In this state:
-- The HID chip locks up and stops serial response data to the host computer.
-- It retains an internal error state that prevents normal reinitialization by the host software.
-- The device may appear connected (video present) while inputs remain unresponsive.
-- The host software (e.g., OpenterfaceQt) cannot reinitialize the device properly.
-- Replugging all cables or power-cycling the USB connection typically will not clear this internal error; a factory reset of the HID chip is required.</p>
-<p><strong>Solution:</strong><br>
-Perform a <strong>factory reset of the HID chip</strong>:</p>
+<h2 id="3-hid"><strong>3. HID 칩이 "좀비 상태"에 진입</strong></h2>
+<p><strong>문제:</strong><br>
+특정 조건 하에서(예: 빠른 명령 버스트와 한계 전력의 조합) 내부 HID 칩(예: CH9329)이 <strong>"좀비 상태"에 진입할 수 있습니다.</strong> 이 상태에서:
+- HID 칩이 잠기고 호스트 컴퓨터로의 직렬 응답 데이터 전송이 중지됩니다.
+- 호스트 소프트웨어의 정상적인 재초기화를 방지하는 내부 오류 상태를 유지합니다.
+- 장치가 연결된(비디오 표시) 것처럼 보이지만 입력은 응답하지 않습니다.
+- 호스트 소프트웨어(예: OpenterfaceQt)가 장치를 올바르게 재초기화할 수 없습니다.
+- 모든 케이블을 다시 연결하거나 USB 연결을 전원 사이클링해도 일반적으로 이 내부 오류는 지워지지 않습니다. HID 칩을 공장 초기화해야 합니다.</p>
+<p><strong>해결책:</strong><br>
+<strong>HID 칩 공장 초기화</strong> 수행:</p>
 <ul>
 <li>
-<p>In <strong>macOS</strong>: Use the <strong>Serial Reset Tool</strong> available in the <strong>Advanced Menu</strong> of the macOS utility.  </p>
+<p><strong>macOS</strong>에서: macOS 유틸리티의 <strong>고급 메뉴</strong>에서 제공하는 <strong>직렬 리셋 도구</strong>를 사용하세요.  </p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/software/MacOS_FactoryResetHID.webp" data-desc-position="bottom"><img src="https://assets.openterface.com/images/software/MacOS_FactoryResetHID.webp" alt="Serial Reset Tool (macOS)" width="150"></a></p>
 </li>
 <li>
-<p>In <strong>OpenterfaceQt</strong> (desktop app): Go to <strong>Advanced Menu → Factory Reset HID Chip</strong>.</p>
+<p><strong>OpenterfaceQt</strong>(데스크톱 앱)에서: <strong>고급 메뉴 → HID 칩 공장 초기화</strong>로 이동하세요.</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/software/OpenterfaceQT_FactoryResetHID.webp" data-desc-position="bottom"><img src="https://assets.openterface.com/images/software/OpenterfaceQT_FactoryResetHID.webp" alt="Factory Reset HID Chip (OpenterfaceQt)" width="150"></a></p>
 </li>
 </ul>
 <blockquote>
-<p>This clears the chip’s internal state and restores normal operation.</p>
+<p>이렇게 하면 칩의 내부 상태가 지워지고 정상 작동이 복구됩니다.</p>
 </blockquote>
 <hr>
-<h2 id="4-baud-rate-sensitivity-in-noisy-environments"><strong>4. Baud Rate Sensitivity in Noisy Environments</strong></h2>
-<p><strong>Issue:</strong><br>
-Openterface defaults to <strong>115200 bps</strong> baud rate for faster mouse data transmission. However, in electrically noisy environments (e.g. switching power supplies, or long/unshielded cables), this high baud rate can lead to <strong>serial communication errors</strong>, causing dropped or corrupted HID commands.</p>
-<p><strong>Solution:</strong><br>
-Switch to <strong>9600 bps</strong> baud rate:
-- This significantly improves <strong>communication reliability</strong> in noisy setups.
-- The impact on latency is <strong>negligible</strong> under typical usage (e.g., 30 FPS video capture and control).</p>
+<h2 id="4"><strong>4. 소음이 많은 환경에서의 보드레이트 민감성</strong></h2>
+<p><strong>문제:</strong><br>
+Openterface는 더 빠른 마우스 데이터 전송을 위해 기본적으로 <strong>115200 bps</strong> 보드레이트로 설정됩니다. 그러나 전기적으로 소음이 많은 환경(예: 스위칭 전원 공급 또는 길거나 차폐되지 않은 케이블)에서는 이 높은 보드레이트가 <strong>직렬 통신 오류</strong>를 초래할 수 있으며, HID 명령이 손실되거나 손상될 수 있습니다.</p>
+<p><strong>해결책:</strong><br>
+<strong>9600 bps</strong> 보드레이트로 전환:
+- 이것은 소음이 많은 설정에서 <strong>통신 신뢰성</strong>을 크게 향상시킵니다.
+- 일반적인 사용(예: 30 FPS 비디오 캡처 및 제어) 하에서 지연에 대한 영향은 <strong>무시할 수 있습니다</strong>.</p>
 <blockquote>
-<p><strong>Recommendation:</strong> If you experience intermittent input glitches without power or connection issues, try lowering the baud rate in the Openterface configuration.</p>
+<p><strong>권장 사항:</strong> 전력 또는 연결 문제 없이 간헐적인 입력 문제가 발생하면 Openterface 구성에서 보드레이트를 낮춰보세요.</p>
 </blockquote>
 <hr>
-<h2 id="summary-checklist"><strong>Summary Checklist</strong></h2>
-<p>If keyboard/mouse isn’t working:</p>
+<h2 id="_2"><strong>요약 체크리스트</strong></h2>
+<p>키보드/마우스가 작동하지 않는 경우:</p>
 <ol>
-<li>✅ Confirm correct <strong>Target Type-C cable</strong> is connected to the <strong>target computer</strong>.</li>
-<li>✅ Avoid unpowered USB hubs—use direct connection or a <strong>powered hub</strong>.</li>
-<li>✅ If the device seems "frozen," <strong>reset the HID chip</strong> via software.</li>
-<li>✅ In unstable environments, <strong>reduce baud rate to 9600</strong> for more robust communication.</li>
-<li>✅ If the above trials don't help, try a different USB port on the host or restart the host computer — the OS may disable a port or the hub after receiving too many USB error packets. Switching ports or rebooting the host often restores the connection.</li>
+<li>✅ 올바른 <strong>대상 Type-C 케이블</strong>이 <strong>대상 컴퓨터</strong>에 연결되어 있는지 확인합니다.</li>
+<li>✅ 전원이 없는 USB 허브를 피하세요—직접 연결 또는 <strong>전원 공급 허브</strong>를 사용하세요.</li>
+<li>✅ 장치가 "고정"된 것처럼 보이면 소프트웨어를 통해 <strong>HID 칩을 리셋</strong>하세요.</li>
+<li>✅ 불안정한 환경에서는 <strong>보드레이트를 9600으로 낮추세요</strong> 더 강력한 통신을 위해.</li>
+<li>✅ 위의 시도가 도움이 되지 않으면 호스트의 다른 USB 포트를 시도하거나 호스트 컴퓨터를 재시작하세요. OS는 많은 USB 오류 패킷을 수신한 후 포트 또는 허브를 비활성화할 수 있습니다. 포트를 전환하거나 호스트를 재부팅하면 일반적으로 연결이 복구됩니다.</li>
 </ol>
 <hr>
-<p>By addressing these four areas, most intermittent HID issues can be prevented or quickly resolved. For persistent problems, please contact support(support@openterface.com) with your setup details and logs.</p>
+<p>이 4가지 영역을 해결함으로써 대부분의 간헐적인 HID 문제를 예방하거나 빠르게 해결할 수 있습니다. 지속적인 문제가 있으신 경우, 설정 세부 정보 및 로그를 포함하여 지원(support@openterface.com)에 문의하세요.</p>
 
 
 
@@ -3425,7 +3425,7 @@ Switch to <strong>9600 bps</strong> baud rate:
     <span class="md-icon" title="마지막 업데이트">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="December 2, 2025 09:50:59 UTC"><span class="timeago" datetime="2025-12-02T09:50:59+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 2, 2025 09:50:59 UTC">2025-12-02</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2025년 12월 2일 10:04:24 UTC"><span class="timeago" datetime="2025-12-02T10:04:24+00:00" locale="ko"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2025년 12월 2일 10:04:24 UTC">2025-12-02</span>
   </span>
 
     
@@ -3435,7 +3435,7 @@ Switch to <strong>9600 bps</strong> baud rate:
     <span class="md-icon" title="작성일">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="December 2, 2025 09:03:10 UTC"><span class="timeago" datetime="2025-12-02T09:03:10+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 2, 2025 09:03:10 UTC">2025-12-02</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2025년 12월 2일 10:04:24 UTC"><span class="timeago" datetime="2025-12-02T10:04:24+00:00" locale="ko"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2025년 12월 2일 10:04:24 UTC">2025-12-02</span>
   </span>
 
     
