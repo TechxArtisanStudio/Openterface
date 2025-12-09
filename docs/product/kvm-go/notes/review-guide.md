@@ -71,7 +71,7 @@ Inside the prototype you received, we are using:
 - **WCH CH32V208** — USB keyboard & mouse emulation MCU
 - **Standard silicone thermal paste** — used on your prototype
 
-We are currently testing an upgrade to **aluminum thermal components** with **higher-performance thermal grease (导热硅脂)**. These improved materials have passed internal testing, but because of limited prototype quantity, they are **not included** in the review units yet.
+We are currently testing an upgrade to **aluminum thermal components** with **higher-performance thermal grease**. These improved materials have passed internal testing, but because of limited prototype quantity, they are **not included** in the review units yet.
 
 Your version still uses **silicone paste**, but thermal performance remains within safe limits.
 
