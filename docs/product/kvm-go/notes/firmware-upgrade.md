@@ -16,6 +16,14 @@ Before proceeding, ensure you have:
 - The WCH ISP Tool installed
 - The firmware file (`.hex` format) ready for flashing
 
+### Download Firmware
+
+Download the latest KVM-Go firmware file:
+
+- [BLE_USB.hex](https://download.openterface.com/BLE_USB.hex) — Latest firmware for KVM-Go keyboard and mouse emulation (CH32V208 chip)
+
+Save the firmware file to an easily accessible location on your Windows computer before proceeding with the upgrade process.
+
 ### Download WCH ISP Tool
 
 Download and install the [WCHISPTool](https://www.wch.cn/downloads/WCHISPTool_Setup_exe.html?spm=a2ty_o01.29997173.0.0.697cc921DiYWE0 "WCHISPTool") (Windows only).
