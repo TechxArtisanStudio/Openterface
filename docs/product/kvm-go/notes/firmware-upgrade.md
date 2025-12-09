@@ -20,7 +20,7 @@ Before proceeding, ensure you have:
 
 Download the latest KVM-Go firmware file:
 
-- [BLE_USB.hex](https://download.openterface.com/BLE_USB.hex) — Latest firmware for KVM-Go keyboard and mouse emulation (CH32V208 chip)
+- [BLE_USB.hex](https://download.openterface.com/BLE_USB_20251209.hex) — Latest firmware for KVM-Go keyboard and mouse emulation (CH32V208 chip)
 
 Save the firmware file to an easily accessible location on your Windows computer before proceeding with the upgrade process.
 
