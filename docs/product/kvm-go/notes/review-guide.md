@@ -101,5 +101,5 @@ Yes — KVM-Go will remain fully open-source.
 
 ## Further Reading
 
-- [KVM GO Firmware Upgrade](firmware-upgrade.md) — Step-by-step guide for upgrading firmware on your KVM GO device
+- [KVM-Go Firmware Upgrade](firmware-upgrade.md) — Step-by-step guide for upgrading firmware on your KVM-Go device
 
