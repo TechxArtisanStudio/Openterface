@@ -15,6 +15,7 @@
   nav_translations:
     Home: 首页
     FAQs: 常见问题
+    Support: 支持
     Product: 产品
     App: 应用
     Use Cases: 使用场景
@@ -85,6 +86,7 @@
   nav_translations:
     Home: ホーム
     FAQs: よくある質問
+    Support: サポート
     Product: 製品
     App: アプリ
     Use Cases: 活用事例
@@ -155,6 +157,7 @@
   nav_translations:
     Home: 홈
     FAQs: 자주 묻는 질문
+    Support: 지원
     Product: 제품
     App: 앱
     Use Cases: 활용 사례
@@ -225,6 +228,7 @@
   nav_translations:
     Home: Accueil
     FAQs: FAQ
+    Support: Support
     Product: Produits
     App: Application
     Use Cases: "Cas d'utilisation"
@@ -295,6 +299,7 @@
   nav_translations:
     Home: Startseite
     FAQs: "Häufige Fragen"
+    Support: Support
     Product: Produkte
     App: App
     Use Cases: Anwendungsfälle
@@ -365,6 +370,7 @@
   nav_translations:
     Home: Home
     FAQs: Domande frequenti
+    Support: Supporto
     Product: Prodotti
     App: App
     Use Cases: Casi d'uso
@@ -435,6 +441,7 @@
   nav_translations:
     Home: Inicio
     FAQs: Preguntas frecuentes
+    Support: Soporte
     Product: Producto
     App: Aplicación
     Use Cases: Casos de uso
@@ -505,6 +512,7 @@
   nav_translations:
     Home: Início
     FAQs: Perguntas frequentes
+    Support: Suporte
     Product: Produtos
     App: Aplicativo
     Use Cases: Casos de uso
@@ -575,6 +583,7 @@
   nav_translations:
     Home: Acasă
     FAQs: Întrebări frecvente
+    Support: Suport
     Product: Produse
     App: Aplicație
     Use Cases: Cazuri de utilizare

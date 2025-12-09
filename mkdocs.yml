@@ -72,7 +72,7 @@ extra:
   android_version: v1.1.2
   macos_version: 1.16
   minikvm_updates: 21
-  kvm-go_updates: 4
+  kvm-go_updates: 5
   accessories_updates: 0
   qt_linux_stable: 0.3.19
   minikvm_purchase_link: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
@@ -140,6 +140,7 @@ nav:
 - FAQs:
   - Overview: faq/index.md
   - KVM-over-USB: faq/kvm-over-usb.md
+- Support: support/index.md
 - Product:
   - KVM-Go Series 🚀:
     - Overview: product/kvm-go/index.md
@@ -167,6 +168,7 @@ nav:
       - Testimonials: product/minikvm/reviews/testimonials.md
       - Media Coverage: product/minikvm/reviews/media.md
     - Updates for Mini-KVM: product/minikvm/updates/index.md
+    - Support: product/minikvm/support.md
   - uConsole KVM Extension:
     - Overview: product/uconsole-kvm-extension/index.md
     - Features: product/uconsole-kvm-extension/features.md
@@ -200,7 +202,6 @@ nav:
 - About:
   - Community: about/community.md
   - Multi-Languages: about/multi-languages.md
-  - Tech Support: about/tech-support.md
   - Compliance: about/compliance.md
   - Contribute & Support: about/contribute-support.md
   - Reviews & Media: about/media.md
