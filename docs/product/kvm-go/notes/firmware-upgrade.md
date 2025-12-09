@@ -1,8 +1,8 @@
-# KVM GO Firmware Upgrade
+# KVM-Go Firmware Upgrade
 
 ## Overview
 
-KVM GO uses the CH32V208 chip from WCH for keyboard and mouse emulation. Currently, firmware flashing requires WCH's official programming tool, which is only available for Windows. Therefore, firmware updates must be performed on a Windows system at this time.
+KVM-Go uses the CH32V208 chip from WCH for keyboard and mouse emulation. Currently, firmware flashing requires WCH's official programming tool, which is only available for Windows. Therefore, firmware updates must be performed on a Windows system at this time.
 
 We're actively working on a cross-platform, self-developed firmware upgrade solution that will be integrated directly into the device. Once ready, it will support firmware updates across all major operating systems—without requiring third-party tools.
 
@@ -30,16 +30,16 @@ Launch the WCH ISP Tool on your Windows computer.
 
 ![WCH ISP Tool interface](https://assets.openterface.com/images/post/kvmgo-firmware/image-1763953443609.webp)
 
-### Step 2: Prepare the KVM GO for Flashing
+### Step 2: Prepare the KVM-Go for Flashing
 
-To flash firmware on the KVM GO:
+To flash firmware on the KVM-Go:
 
 1. Ensure the device is powered off
 2. Press and hold the button while connecting it to a USB Type-C port
 
 **Tip:** You can flash the firmware using either port, but the "target" port tends to be more stable during flash.
 
-![KVM GO wiring and connection setup](https://assets.openterface.com/images/post/kvmgo-firmware/image-1763982667349.webp)
+![KVM-Go wiring and connection setup](https://assets.openterface.com/images/post/kvmgo-firmware/image-1763982667349.webp)
 
 ### Step 3: Select the Firmware File
 
@@ -60,12 +60,12 @@ If the connection is successful, the tool will automatically detect the chip mod
 Before flashing new firmware, you need to remove write protection from the current firmware:
 
 1. Click the "Deprotect" option in the tool
-2. Briefly press the physical button on the KVM GO to enter flashing mode
+2. Briefly press the physical button on the KVM-Go to enter flashing mode
 3. Wait for the deprotection process to complete
 
 ![Deprotect firmware option in tool](https://assets.openterface.com/images/post/kvmgo-firmware/image-1763955617253.webp)
 
-![Press button on KVM GO to enter flashing mode](https://assets.openterface.com/images/post/kvmgo-firmware/image-1763955858115.webp)
+![Press button on KVM-Go to enter flashing mode](https://assets.openterface.com/images/post/kvmgo-firmware/image-1763955858115.webp)
 
 ### Step 5: Download and Flash the Firmware
 

@@ -12,7 +12,7 @@ Congratulations on being selected as a beta tester! We are really excited to get
 Before you begin testing, please review these essential guides:
 
 - [Openterface KVM-Go Review Guide](notes/review-guide.md) — Important notes, known issues, and explanations for engineering prototype units
-- [KVM GO Firmware Upgrade](notes/firmware-upgrade.md) — Step-by-step instructions for upgrading firmware if needed
+- [KVM-Go Firmware Upgrade](notes/firmware-upgrade.md) — Step-by-step instructions for upgrading firmware if needed
 
 > **Note:** These guides contain critical information about prototype limitations, known issues, and firmware upgrade procedures that may be helpful during your testing.
 
