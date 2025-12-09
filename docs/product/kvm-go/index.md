@@ -18,7 +18,7 @@ Following the success of **Openterface Mini-KVM**, with over 5,000 users in our 
 
 <div style="text-align: center; margin: 20px 0;">
   <button class="md-button" onclick="window.open('{{ config.extra.kvmgo_purchase_link }}', '_blank')">
-    Join Waiting List
+    Crowdfunding NOW
     <img 
       class="skip-lightbox"
       src="https://assets.openterface.com/images/trademark/crowd-supply.svg" 
@@ -65,7 +65,7 @@ Following the success of **Openterface Mini-KVM**, with over 5,000 users in our 
 
     ---
 
-    [:material-account-group-outline: Join Waiting List](https://forms.gle/yaS1F5E5MSo8DWNZ6) / [:material-trophy-outline: Beta Testing Program](https://forms.gle/yaS1F5E5MSo8DWNZ6) / [:material-newspaper-variant-outline: Product Updates](/product/kvm-go/updates)
+    [:material-account-group-outline: Crowdfunding NOW](https://forms.gle/yaS1F5E5MSo8DWNZ6) / [:material-trophy-outline: Beta Testing Program](https://forms.gle/yaS1F5E5MSo8DWNZ6) / [:material-newspaper-variant-outline: Product Updates](/product/kvm-go/updates)
 
 </div>
 
