@@ -42,7 +42,7 @@
     
     
       
-        <title>KVM GO Firmware Upgrade - Openterface | Bridging Interfaces to Open Possibilities</title>
+        <title>KVM-Go Firmware Upgrade - Openterface | Bridging Interfaces to Open Possibilities</title>
       
     
     
@@ -434,7 +434,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              KVM GO Firmware Upgrade
+              KVM-Go Firmware Upgrade
             
           </span>
         </div>
@@ -3359,9 +3359,9 @@
   
 
 
-<h1 id="kvm-go-firmware-upgrade">KVM GO Firmware Upgrade</h1>
+<h1 id="kvm-go-firmware-upgrade">KVM-Go Firmware Upgrade</h1>
 <h2 id="overview">Overview</h2>
-<p>KVM GO uses the CH32V208 chip from WCH for keyboard and mouse emulation. Currently, firmware flashing requires WCH's official programming tool, which is only available for Windows. Therefore, firmware updates must be performed on a Windows system at this time.</p>
+<p>KVM-Go uses the CH32V208 chip from WCH for keyboard and mouse emulation. Currently, firmware flashing requires WCH's official programming tool, which is only available for Windows. Therefore, firmware updates must be performed on a Windows system at this time.</p>
 <p>We're actively working on a cross-platform, self-developed firmware upgrade solution that will be integrated directly into the device. Once ready, it will support firmware updates across all major operating systems—without requiring third-party tools.</p>
 <blockquote>
 <p><strong>Note:</strong> This manual firmware upgrade procedure is a temporary solution for early development units. For official production products, firmware updates will be seamlessly integrated into our software, allowing you to update firmware directly through the application without requiring any third-party tools or manual procedures.</p>
@@ -3380,14 +3380,14 @@
 <h3 id="step-1-download-and-open-the-tool-in-windows">Step 1: Download and Open the Tool in Windows</h3>
 <p>Launch the WCH ISP Tool on your Windows computer.</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/post/kvmgo-firmware/image-1763953443609.webp" data-desc-position="bottom"><img alt="WCH ISP Tool interface" src="https://assets.openterface.com/images/post/kvmgo-firmware/image-1763953443609.webp"></a></p>
-<h3 id="step-2-prepare-the-kvm-go-for-flashing">Step 2: Prepare the KVM GO for Flashing</h3>
-<p>To flash firmware on the KVM GO:</p>
+<h3 id="step-2-prepare-the-kvm-go-for-flashing">Step 2: Prepare the KVM-Go for Flashing</h3>
+<p>To flash firmware on the KVM-Go:</p>
 <ol>
 <li>Ensure the device is powered off</li>
 <li>Press and hold the button while connecting it to a USB Type-C port</li>
 </ol>
 <p><strong>Tip:</strong> You can flash the firmware using either port, but the "target" port tends to be more stable during flash.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/post/kvmgo-firmware/image-1763982667349.webp" data-desc-position="bottom"><img alt="KVM GO wiring and connection setup" src="https://assets.openterface.com/images/post/kvmgo-firmware/image-1763982667349.webp"></a></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/post/kvmgo-firmware/image-1763982667349.webp" data-desc-position="bottom"><img alt="KVM-Go wiring and connection setup" src="https://assets.openterface.com/images/post/kvmgo-firmware/image-1763982667349.webp"></a></p>
 <h3 id="step-3-select-the-firmware-file">Step 3: Select the Firmware File</h3>
 <p>If the connection is successful, the tool will automatically detect the chip model (CH32V20X series). </p>
 <ol>
@@ -3402,11 +3402,11 @@
 <p>Before flashing new firmware, you need to remove write protection from the current firmware:</p>
 <ol>
 <li>Click the "Deprotect" option in the tool</li>
-<li>Briefly press the physical button on the KVM GO to enter flashing mode</li>
+<li>Briefly press the physical button on the KVM-Go to enter flashing mode</li>
 <li>Wait for the deprotection process to complete</li>
 </ol>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/post/kvmgo-firmware/image-1763955617253.webp" data-desc-position="bottom"><img alt="Deprotect firmware option in tool" src="https://assets.openterface.com/images/post/kvmgo-firmware/image-1763955617253.webp"></a></p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/post/kvmgo-firmware/image-1763955858115.webp" data-desc-position="bottom"><img alt="Press button on KVM GO to enter flashing mode" src="https://assets.openterface.com/images/post/kvmgo-firmware/image-1763955858115.webp"></a></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/post/kvmgo-firmware/image-1763955858115.webp" data-desc-position="bottom"><img alt="Press button on KVM-Go to enter flashing mode" src="https://assets.openterface.com/images/post/kvmgo-firmware/image-1763955858115.webp"></a></p>
 <h3 id="step-5-download-and-flash-the-firmware">Step 5: Download and Flash the Firmware</h3>
 <p>Once the firmware is deprotected and selected:</p>
 <ol>
@@ -3441,7 +3441,7 @@
     <span class="md-icon" title="Última atualização">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="December 9, 2025 08:39:41 UTC"><span class="timeago" datetime="2025-12-09T08:39:41+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 9, 2025 08:39:41 UTC">2025-12-09</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="December 9, 2025 08:42:45 UTC"><span class="timeago" datetime="2025-12-09T08:42:45+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 9, 2025 08:42:45 UTC">2025-12-09</span>
   </span>
 
     
