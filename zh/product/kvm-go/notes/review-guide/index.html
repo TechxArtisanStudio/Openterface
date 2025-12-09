@@ -3347,99 +3347,82 @@
 
 <h1 id="openterface-kvm-go-review-guide-engineering-prototype">Openterface KVM-Go — Review Guide (Engineering Prototype)</h1>
 <h2 id="overview">Overview</h2>
-<p>Thank you for taking the time to test our upcoming product <strong>Openterface KVM-Go</strong>.</p>
-<p>This unit is an <strong>engineering prototype</strong>, and both our firmware and software are still evolving rapidly. Your feedback will directly help us improve the product before mass production.</p>
-<p>If you encounter any issues during testing, please contact us directly — <strong>we will provide immediate support to help you resolve them before you record your video</strong>.</p>
+<p>Thank you for taking the time to test our upcoming product <strong><a href="https://openterface.com/product/kvm-go/">Openterface KVM-Go</a></strong>.</p>
+<p>This unit is an <strong>engineering prototype</strong>, and both our firmware and software are evolving quickly. Your feedback will directly help us improve the product before mass production.</p>
+<p>If you run into any issues during testing, please contact us directly. <strong>We will provide immediate support to help you resolve them before you record your video.</strong></p>
 <h2 id="important-notes">Important Notes</h2>
 <h3 id="prototype-disclaimer">Prototype Disclaimer</h3>
-<p>This device is an <strong>engineering prototype</strong>. Firmware and software may contain bugs or incomplete features. If you experience instability or anything that blocks your workflow, please notify us — we will fix issues before shipping the production version.</p>
+<p>This device is an <strong>engineering prototype</strong>. The firmware and software may still contain bugs or incomplete features. If you encounter instability or anything that blocks your workflow, please let us know. We will fix issues before the production version ships.</p>
 <h3 id="use-the-latest-software">Use the Latest Software</h3>
-<p>For best performance and compatibility, please use the <strong>latest version</strong> of the Openterface software from our GitHub Releases page. We update frequently, and older versions may not match your firmware.</p>
-<h2 id="known-issues-explanations">Known Issues &amp; Explanations</h2>
+<p>For the best performance and compatibility, please use the <strong>latest version</strong> of the <a href="https://openterface.com/app/overview/">Openterface software</a> from our GitHub Releases page. We update frequently, and older versions may not match your prototype’s firmware.</p>
+<h2 id="known-issues-and-explanations">Known Issues and Explanations</h2>
 <blockquote>
-<p><strong>Note:</strong> All issues listed below will be addressed before production release.</p>
+<p><strong>Note:</strong> All issues listed below will be addressed before the production release.</p>
 </blockquote>
 <h3 id="surface-temperature">Surface Temperature</h3>
-<p>The device may feel warm or hot during use. This is expected because we are using higher-performance chips.</p>
+<p>The device may feel warm or even hot during use. This is expected because the prototype uses higher-performance chips.</p>
 <p>Please note:</p>
 <ul>
-<li>All temperatures are within the safe operating range</li>
-<li>Built-in <strong>temperature sensors</strong> monitor real-time thermal status in software</li>
-<li>Multi-day stress tests show no stability issues</li>
+<li>All temperatures remain within the safe operating range</li>
+<li>Built-in <strong>temperature sensors</strong> report real-time thermal status in the software</li>
+<li>Multi-day stress tests show no stability problems</li>
 </ul>
-<p>We will continue adjusting thermal performance before mass production.</p>
+<p>We will continue to refine thermal performance before mass production.</p>
 <h3 id="software-distribution">Software Distribution</h3>
 <p>We currently support multiple platforms:</p>
 <ul>
 <li>
-<p><strong>macOS &amp; Windows</strong></p>
-<ul>
-<li>These are the most stable and recommended for full-feature testing</li>
-</ul>
+<p><strong>macOS and Windows</strong>
+  These are the most stable platforms and recommended for full-feature testing.</p>
 </li>
 <li>
-<p><strong>Linux</strong></p>
-<ul>
-<li>Please use the <strong>AppImage</strong> version</li>
-<li><code>.deb</code> and <code>.rpm</code> packages may cause dependency issues depending on the distribution, and we are actively improving this</li>
-</ul>
+<p><strong>Linux</strong>
+  Please use the <strong>AppImage</strong> version.
+  The <code>.deb</code> and <code>.rpm</code> packages may have dependency issues depending on the distribution. We are improving these installers.</p>
 </li>
 <li>
-<p><strong>Android</strong></p>
-<ul>
-<li>A working version is available on <strong>Google Play</strong> for basic control and monitoring</li>
-<li>You can try it if you want to explore mobile workflows</li>
-</ul>
+<p><strong>Android</strong>
+  A working version is available on <strong>Google Play</strong> for basic control and monitoring.
+  You are welcome to try it if you want to explore mobile workflows.</p>
 </li>
 <li>
-<p><strong>iPadOS</strong></p>
-<ul>
-<li>Available through <strong>TestFlight</strong></li>
-<li>If you want to test it, please send me your <strong>Apple ID</strong>, and I will add you to the tester list</li>
-</ul>
+<p><strong>iPadOS</strong>
+  Available through <strong>TestFlight</strong>.
+  If you would like to test it, please send me your <strong>Apple ID</strong>, and I will add you to the tester list.</p>
 </li>
 </ul>
-<h3 id="copy-paste-functionality">Copy &amp; Paste Functionality</h3>
-<p>The firmware on your unit may not include our latest clipboard fixes. We have resolved these issues in the newest firmware. See the <a href="../firmware-upgrade/">Firmware Upgrade Guide</a> if you would like to test the updated version.</p>
+<h3 id="copy-and-paste-functionality">Copy and Paste Functionality</h3>
+<p>The firmware on your unit may not include our latest clipboard fixes. These issues have already been resolved in the newest firmware. You can update using the <a href="../firmware-upgrade/">Firmware Upgrade Guide</a> if you would like to test the latest version.</p>
 <h3 id="teardown-optional">Teardown (Optional)</h3>
 <p>If you enjoy teardowns, you are welcome to take the unit apart.</p>
-<p>Inside the prototype you received, we are using:</p>
+<p>Your prototype includes the following components:</p>
 <ul>
 <li><strong>MS2130S</strong> — Video capture chip</li>
-<li><strong>WCH CH32V208</strong> — USB keyboard &amp; mouse emulation MCU</li>
-<li><strong>Standard silicone thermal paste</strong> — used on your prototype</li>
+<li><strong>WCH CH32V208</strong> — USB keyboard and mouse emulation MCU</li>
+<li><strong>Standard silicone thermal paste</strong> — applied on this prototype</li>
 </ul>
-<p>We are currently testing an upgrade to <strong>aluminum thermal components</strong> with <strong>higher-performance thermal grease</strong>. These improved materials have passed internal testing, but because of limited prototype quantity, they are <strong>not included</strong> in the review units yet.</p>
-<p>Your version still uses <strong>silicone paste</strong>, but thermal performance remains within safe limits.</p>
+<p>We are currently testing an upgraded thermal solution using <strong>aluminum components</strong> and <strong>higher-performance thermal grease</strong>. These improvements have passed internal testing, but because of limited prototype stock, they are <strong>not included</strong> in the review units yet.</p>
+<p>Your unit still uses <strong>silicone paste</strong>, but thermal performance remains within safe limits.</p>
 <h3 id="advanced-features-supported-in-mini-kvm-coming-soon-to-kvm-go">Advanced Features (Supported in Mini-KVM, Coming Soon to KVM-Go)</h3>
-<p>KVM-Go shares the same design philosophy as Openterface Mini-KVM, and several advanced features are in active development but <strong>not ready yet</strong> on your prototype:</p>
+<p>KVM-Go follows the same design philosophy as Openterface Mini-KVM. Several advanced features are under active development but <strong>not available yet</strong> in the current prototype:</p>
 <ul>
 <li>
-<p><strong>Custom EDID</strong></p>
-<ul>
-<li>In Mini-KVM you can load or modify EDID to solve compatibility issues</li>
-<li>We are adding this capability to KVM-Go</li>
-</ul>
+<p><strong>Custom EDID</strong>
+  Mini-KVM allows loading or modifying EDID through our QT application to solve compatibility issues.
+  We are bringing this feature to KVM-Go as well.</p>
 </li>
 <li>
-<p><strong>Software-based SD Card Switching</strong></p>
-<ul>
-<li>Mini-KVM supports switching the SD card between host and PC through software</li>
-<li>This feature is under development for KVM-Go but not yet enabled</li>
-</ul>
+<p><strong>Software-based SD Card Switching</strong>
+  Mini-KVM supports switching its USB-A port between the host and PC through software.
+  For KVM-Go, we are developing similar software-based switching for the micro-SD slot, but it is not enabled in your firmware yet.</p>
 </li>
 </ul>
-<p>We want you to be aware of these upcoming features, even though they are unavailable in the current prototype firmware.</p>
+<p>We want you to be aware of these upcoming features even though they are not yet active on your unit.</p>
 <h3 id="open-source-commitment">Open-Source Commitment</h3>
-<p>Yes — KVM-Go will remain fully open-source.</p>
-<ul>
-<li><strong>Software</strong> is already on GitHub</li>
-<li><strong>Hardware design</strong> will be released once the production version is finalized</li>
-<li><strong>3D-printable case files</strong> are already online, and you can print or customize your own cover</li>
-</ul>
+<p>Yes, KVM-Go will remain fully open-source. Once the hardware design is finalized for mass production, we will apply for OSHWA certification (Open Source Hardware Association). All hardware design files and STL models will be uploaded to our GitHub repository at <a href="https://github.com/TechxArtisanStudio/Openterface_KVM-GO_Hardware">https://github.com/TechxArtisanStudio/Openterface_KVM-GO_Hardware</a>.</p>
 <h2 id="further-reading">Further Reading</h2>
 <ul>
-<li><a href="../firmware-upgrade/">KVM-Go Firmware Upgrade</a> — Step-by-step guide for upgrading firmware on your KVM-Go device</li>
+<li><a href="../firmware-upgrade/">KVM-Go Firmware Upgrade</a> — Step-by-step guide for updating your device</li>
 </ul>
 
 
@@ -3463,7 +3446,7 @@
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="December 9, 2025 13:25:14 UTC"><span class="timeago" datetime="2025-12-09T13:25:14+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 9, 2025 13:25:14 UTC">2025-12-09</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="December 9, 2025 13:40:44 UTC"><span class="timeago" datetime="2025-12-09T13:40:44+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 9, 2025 13:40:44 UTC">2025-12-09</span>
   </span>
 
     
