@@ -2756,10 +2756,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#basic-host-app-controls" class="md-nav__link">
+  <a href="#basic-kvm-controls" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Basic Host App Controls
+        Basic KVM Controls
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advanced-app-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced App Features
       
     </span>
   </a>
@@ -3424,7 +3435,7 @@
 
 <h1 id="software">Software</h1>
 <p>To get your Openterface™ KVM gadgets up and running, you'll need to install one of the apps listed below on your host computer. You can grab these apps from different app platforms or just click the links provided. If you're feeling adventurous, you can also build them from source using our GitHub repositories!</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/product/use-case-pc-angled-view.webp" data-desc-position="bottom"><img alt="use-case-pc-angled-view" src="https://assets.openterface.com/images/product/use-case-pc-angled-view.webp" width="600"></a></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/product/use-case-pc-angled-view.webp" data-desc-position="bottom"><img src="https://assets.openterface.com/images/product/use-case-pc-angled-view.webp" alt="use-case-pc-angled-view" width="600" draggable="false" style="pointer-events: none; user-select: none;"></a></p>
 <h2 id="download-installation">Download &amp; Installation</h2>
 <div class="grid cards">
 <ul>
@@ -3470,49 +3481,66 @@
 </div>
 <details class="warning" open="open">
 <summary>Heads Up: Check Privacy &amp; Security with Third-Party Apps</summary>
-</details>
 <p>Since all our apps are open source, you might come across alternative versions of host applications for Openterface devices created by others. They can be quite cool and may offer extra features, but here’s a friendly reminder: review their security and privacy practices carefully—especially because KVM control involves events from your screen, keyboard, and mouse. The Openterface Team cannot vouch for the safety of these third-party apps, so proceed with caution!</p>
-<h2 id="basic-host-app-controls">Basic Host App Controls</h2>
+</details>
+<h2 id="basic-kvm-controls">Basic KVM Controls</h2>
 <h3 id="compatibility">💻 Compatibility</h3>
 <ul>
-<li><strong>Host Software</strong>: Install our host app for macOS, Windows, or Linux.</li>
-<li><strong>Target Devices</strong>: No setup needed—just connect any device with video output (HDMI, VGA, etc.) and a USB port for keyboard/mouse control. Works with Windows, macOS, Linux, Android, and iOS.</li>
+<li><strong>Host Side</strong>: Install any official Openterface host application (Windows, macOS, Linux, Android and more).</li>
+<li><strong>Target Side</strong>: No software required. Simply connect a device with video output and a USB port for keyboard/mouse control. Works with virtually all systems including Windows, macOS, Linux, Android, iOS, and BIOS/UEFI screens.</li>
 </ul>
-<h3 id="mouse-modes">🖱 Mouse Modes</h3>
+<h3 id="mouse-control">🖱 Mouse Control</h3>
 <ul>
-<li><strong>Absolute Mode</strong>: Host mouse directly maps to target screen position.</li>
-<li><strong>Relative Mode</strong>: Moves target cursor relative to current position. Exit with a shortcut.</li>
+<li><strong>Absolute Mode</strong>: Mouse position on the host maps directly to the target’s screen.</li>
+<li><strong>Relative Mode</strong>: Mouse movements are sent relative to the cursor’s current position. You can exit relative mode with a keyboard shortcut.</li>
 </ul>
-<h3 id="keyboard">⌨️ Keyboard</h3>
-<p>Keystrokes from the host are sent directly to the target when the app is focused.</p>
-<h3 id="bios-access">⚙️ BIOS Access</h3>
-<p>Control target BIOS directly.<br>
-Common keys: F2 (Dell/Lenovo/ASUS), F10 (HP), Del (ASUS/Gigabyte/MSI), ⌥ (Apple).</p>
+<h3 id="keyboard-input">⌨️ Keyboard Input</h3>
+<p>All keystrokes typed on the host are forwarded to the target whenever the host app window is active and in focus.</p>
+<h3 id="bios-pre-boot-access">⚙️ BIOS / Pre-Boot Access</h3>
+<p>You can control BIOS or other pre-boot environments just like a physical keyboard and monitor.</p>
+<p>Common keys include:
+F2 (Dell/Lenovo/ASUS), F10 (HP), Del (ASUS/Gigabyte/MSI), Option (Apple).</p>
 <h3 id="audio">🔊 Audio</h3>
-<p>Target audio streams through HDMI and plays on your host computer.</p>
-<h3 id="video">🎥 Video</h3>
-<p>View your target screen directly inside the app.</p>
+<p>If supported by your Openterface device and cable setup, audio sent through the target’s HDMI output will play directly on the host.</p>
+<h3 id="video-display">🎥 Video Display</h3>
+<p>If supported by your Openterface device and cable setup, audio embedded in the target’s video signal will be routed to your host computer and played directly in the app.
+(Devices using video formats without audio, such as VGA, will naturally not provide sound.)</p>
+<h3 id="switchable-ports-if-your-device-includes-them">🔄 Switchable Ports (If Your Device Includes Them)</h3>
+<p>Some models feature ports that can be assigned to either the host or the target, such as USB data ports or storage slots.</p>
 <ul>
-<li><strong>Current Models:</strong> Up to <strong>1080p 30Hz</strong> display in-app, with support for <strong>4K 30Hz input</strong> via HDMI.</li>
-<li><strong>Other Inputs:</strong> Compatible with VGA, DVI, Micro HDMI, and more when using appropriate adapters.</li>
-<li><strong>Future Models:</strong> Higher resolutions and frame rates will be supported as new hardware versions are released.</li>
+<li><strong>Access is exclusive</strong> — only one side can use the port at a time.</li>
+<li>
+<p><strong>Switch using</strong>:</p>
+</li>
+<li>
+<p>physical hardware controls, or</p>
+</li>
+<li>software buttons inside the host app (depending on device model).</li>
 </ul>
-<h3 id="switchable-ports">🔄 Switchable Ports</h3>
-<p>Some Openterface devices include ports that can be <strong>switched between the host and target</strong>, such as USB 2.0 ports or micro-SD card slots (on upcoming models).</p>
+<p><strong>Important:</strong></p>
 <ul>
-<li><strong>One-at-a-time Use:</strong> Only one side (host or target) can access the port at a time.</li>
-<li><strong>Switch Methods:</strong><ul>
-<li><strong>Hardware toggle</strong> — physical switch on the device</li>
-<li><strong>Software button</strong> — control via the host app</li>
+<li>Always eject storage devices before switching.</li>
+<li>Avoid powering high-draw peripherals from switchable ports.</li>
 </ul>
+<p>For more details, see the <a href="/usb-switch">Switchable Ports Guide</a>.</p>
+<h2 id="advanced-app-features">Advanced App Features</h2>
+<p>Some Openterface host applications offer additional tools on top of basic KVM control. These features are <strong>implemented in software on the host side</strong>, so availability and behavior can vary between apps and platforms. Please refer to each app’s documentation for exact details.</p>
+<p>Common advanced capabilities include:</p>
+<ul>
+<li>
+<p><strong>Copy Text from Host to Target</strong>: Some apps let you paste text to the target, but the app is simply <strong>typing it automatically</strong> by sending a stream of emulated keystrokes. This is <em>not</em> real clipboard syncing. Only ASCII characters are supported, long text may lose formatting or characters, and older or busy target systems may drop keystrokes if they cannot keep up. Best used for short text like usernames, passwords, commands, or URLs.</p>
 </li>
-<li><strong>Important:</strong><ul>
-<li>Safely eject storage devices (USB drives or micro-SD cards) before switching.</li>
-<li>Avoid connecting high-power devices to prevent instability or damage.</li>
-<li>See the <a href="/usb-switch">Switchable Ports Guide</a> for details and logic diagrams.</li>
-</ul>
+<li>
+<p><strong>OCR &amp; Text Extraction</strong>: Select an area of the target screen, let the host app run <strong>optical character recognition (OCR)</strong>, and then copy the recognized text to your host clipboard for editing or search.</p>
+</li>
+<li>
+<p><strong>Screen Capture &amp; Recording</strong>: Capture still images or record video of the target screen as displayed in the host app, useful for debugging, documentation, or demos.</p>
+</li>
+<li>
+<p><strong>and more...</strong>: Features such as zooming in and out of the target display, viewing USB device information, triggering serial resets, updating firmware, or customizing EDID profiles.</p>
 </li>
 </ul>
+<p>Because these functions depend on the specific host application, their availability, performance, and user experience may differ across operating systems and versions. For the latest information, check the feature list and release notes of the app you are using.</p>
 
 
 
@@ -3535,7 +3563,7 @@ Common keys: F2 (Dell/Lenovo/ASUS), F10 (HP), Del (ASUS/Gigabyte/MSI), ⌥ (Appl
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="November 22, 2025 08:29:46 UTC"><span class="timeago" datetime="2025-11-22T08:29:46+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="November 22, 2025 08:29:46 UTC">2025-11-22</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="December 10, 2025 04:56:40 UTC"><span class="timeago" datetime="2025-12-10T04:56:40+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 10, 2025 04:56:40 UTC">2025-12-10</span>
   </span>
 
     
