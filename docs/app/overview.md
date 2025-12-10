@@ -2,7 +2,7 @@
 
 To get your Openterface™ KVM gadgets up and running, you'll need to install one of the apps listed below on your host computer. You can grab these apps from different app platforms or just click the links provided. If you're feeling adventurous, you can also build them from source using our GitHub repositories!
 
-![use-case-pc-angled-view](https://assets.openterface.com/images/product/use-case-pc-angled-view.webp){ width=600 }
+<img src="https://assets.openterface.com/images/product/use-case-pc-angled-view.webp" alt="use-case-pc-angled-view" width="600" draggable="false" style="pointer-events: none; user-select: none;">
 
 ## Download & Installation
 
@@ -57,50 +57,70 @@ To get your Openterface™ KVM gadgets up and running, you'll need to install on
 </div>
 
 ???+ warning "Heads Up: Check Privacy & Security with Third-Party Apps"
-Since all our apps are open source, you might come across alternative versions of host applications for Openterface devices created by others. They can be quite cool and may offer extra features, but here’s a friendly reminder: review their security and privacy practices carefully—especially because KVM control involves events from your screen, keyboard, and mouse. The Openterface Team cannot vouch for the safety of these third-party apps, so proceed with caution!
+    Since all our apps are open source, you might come across alternative versions of host applications for Openterface devices created by others. They can be quite cool and may offer extra features, but here’s a friendly reminder: review their security and privacy practices carefully—especially because KVM control involves events from your screen, keyboard, and mouse. The Openterface Team cannot vouch for the safety of these third-party apps, so proceed with caution!
 
-## Basic Host App Controls
+## Basic KVM Controls
 
 ### 💻 Compatibility
 
--   **Host Software**: Install our host app for macOS, Windows, or Linux.
--   **Target Devices**: No setup needed—just connect any device with video output (HDMI, VGA, etc.) and a USB port for keyboard/mouse control. Works with Windows, macOS, Linux, Android, and iOS.
+* **Host Side**: Install any official Openterface host application (Windows, macOS, Linux, Android and more).
+* **Target Side**: No software required. Simply connect a device with video output and a USB port for keyboard/mouse control. Works with virtually all systems including Windows, macOS, Linux, Android, iOS, and BIOS/UEFI screens.
 
-### 🖱 Mouse Modes
+### 🖱 Mouse Control
 
--   **Absolute Mode**: Host mouse directly maps to target screen position.
--   **Relative Mode**: Moves target cursor relative to current position. Exit with a shortcut.
+* **Absolute Mode**: Mouse position on the host maps directly to the target’s screen.
+* **Relative Mode**: Mouse movements are sent relative to the cursor’s current position. You can exit relative mode with a keyboard shortcut.
 
-### ⌨️ Keyboard
+### ⌨️ Keyboard Input
 
-Keystrokes from the host are sent directly to the target when the app is focused.
+All keystrokes typed on the host are forwarded to the target whenever the host app window is active and in focus.
 
-### ⚙️ BIOS Access
+### ⚙️ BIOS / Pre-Boot Access
 
-Control target BIOS directly.  
-Common keys: F2 (Dell/Lenovo/ASUS), F10 (HP), Del (ASUS/Gigabyte/MSI), ⌥ (Apple).
+You can control BIOS or other pre-boot environments just like a physical keyboard and monitor.
+
+Common keys include:
+F2 (Dell/Lenovo/ASUS), F10 (HP), Del (ASUS/Gigabyte/MSI), Option (Apple).
 
 ### 🔊 Audio
 
-Target audio streams through HDMI and plays on your host computer.
+If supported by your Openterface device and cable setup, audio sent through the target’s HDMI output will play directly on the host.
 
-### 🎥 Video
+### 🎥 Video Display
 
-View your target screen directly inside the app.
+If supported by your Openterface device and cable setup, audio embedded in the target’s video signal will be routed to your host computer and played directly in the app.
+(Devices using video formats without audio, such as VGA, will naturally not provide sound.)
 
--   **Current Models:** Up to **1080p 30Hz** display in-app, with support for **4K 30Hz input** via HDMI.
--   **Other Inputs:** Compatible with VGA, DVI, Micro HDMI, and more when using appropriate adapters.
--   **Future Models:** Higher resolutions and frame rates will be supported as new hardware versions are released.
+### 🔄 Switchable Ports (If Your Device Includes Them)
 
-### 🔄 Switchable Ports
+Some models feature ports that can be assigned to either the host or the target, such as USB data ports or storage slots.
 
-Some Openterface devices include ports that can be **switched between the host and target**, such as USB 2.0 ports or micro-SD card slots (on upcoming models).
+* **Access is exclusive** — only one side can use the port at a time.
+* **Switch using**:
 
--   **One-at-a-time Use:** Only one side (host or target) can access the port at a time.
--   **Switch Methods:**
-    -   **Hardware toggle** — physical switch on the device
-    -   **Software button** — control via the host app
--   **Important:**
-    -   Safely eject storage devices (USB drives or micro-SD cards) before switching.
-    -   Avoid connecting high-power devices to prevent instability or damage.
-    -   See the [Switchable Ports Guide](/usb-switch) for details and logic diagrams.
+  * physical hardware controls, or
+  * software buttons inside the host app (depending on device model).
+
+**Important:**
+
+* Always eject storage devices before switching.
+* Avoid powering high-draw peripherals from switchable ports.
+
+For more details, see the [Switchable Ports Guide](/usb-switch).
+
+
+## Advanced App Features
+
+Some Openterface host applications offer additional tools on top of basic KVM control. These features are **implemented in software on the host side**, so availability and behavior can vary between apps and platforms. Please refer to each app’s documentation for exact details.
+
+Common advanced capabilities include:
+
+* **Copy Text from Host to Target**: Some apps let you paste text to the target, but the app is simply **typing it automatically** by sending a stream of emulated keystrokes. This is *not* real clipboard syncing. Only ASCII characters are supported, long text may lose formatting or characters, and older or busy target systems may drop keystrokes if they cannot keep up. Best used for short text like usernames, passwords, commands, or URLs.
+
+* **OCR & Text Extraction**: Select an area of the target screen, let the host app run **optical character recognition (OCR)**, and then copy the recognized text to your host clipboard for editing or search.
+
+* **Screen Capture & Recording**: Capture still images or record video of the target screen as displayed in the host app, useful for debugging, documentation, or demos.
+
+* **and more...**: Features such as zooming in and out of the target display, viewing USB device information, triggering serial resets, updating firmware, or customizing EDID profiles.
+
+Because these functions depend on the specific host application, their availability, performance, and user experience may differ across operating systems and versions. For the latest information, check the feature list and release notes of the app you are using.
