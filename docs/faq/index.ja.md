@@ -21,3 +21,7 @@ keywords: USB KVM, Openterface, KVM-over-USB, portable KVM, plug-and-play KVM, n
 #### **Openterface KVM Extension for uConsole**
 
 - [Openterface KVM Extension for uConsole のよくある質問](/product/uconsole-kvm-extension/faq)
+
+#### **Openterface ホストアプリ**
+
+- [アプリのよくある質問](/app/faq)
