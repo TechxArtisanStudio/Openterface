@@ -8,17 +8,6 @@
   
   <!-- Determine current locale -->
   {% set current_locale = page.locale or config.theme.language or (page.url.split('/')[1] if page.url and page.url.split('/')[1] in ['de', 'es', 'fr', 'it', 'ja', 'ko', 'pt', 'ro', 'zh'] else 'en') %}
-  
-  <!-- Gibby Avatar and Dialogue Box -->
-  <div class="gibby-container">
-    <!-- Default English content (fallback) -->
-    <a href="#" class="gibby-link" id="gibby-avatar-link"><img src="https://assets.openterface.com/images/op-avatar.webp" alt="Gibby Mascot" class="gibby-avatar" draggable="false" aria-label="Gibby Mascot"></a>
-    <div class="gibby-dialogue">
-      <p>
-        <a href="#" class="gibby-link" id="gibby-text-link" data-i18n="main.subscribenow-link">Subscribe NOW!</a>
-      </p>
-    </div>
-  </div>
 
   <script>
     // Language-specific Gibby content
@@ -201,4 +190,5 @@
   <script src="https://assets.openterface.com/js/custom.min.js"></script>
   <script src="{{ 'assets/javascripts/slideshow.js' | url }}"></script>
   <script src="{{ 'assets/javascripts/download-selector.js' | url }}"></script>
+  <script src="{{ 'assets/javascripts/extra.js' | url }}"></script>
 {% endblock %}
