@@ -59,7 +59,7 @@ function initCarousel(carouselId) {
   const slides = carousel.querySelectorAll('.carousel-slide');
   
   carouselState[carouselId] = {
-    currentSlide: 1,
+    currentSlide: 0, // Start at 0 to ensure goToSlide(1) actually runs
     totalSlides: slides.length,
     autoplayInterval: null,
     autoplay: autoplay,
@@ -79,8 +79,31 @@ function initCarousel(carouselId) {
   // Setup event listeners
   setupCarouselEvents(carouselId);
   
-  // Initialize first slide
+  // Initialize first slide (currentSlide starts at 0, so this will run)
   goToSlide(carouselId, 1, false);
+  
+  // Ensure progress bars are initialized after DOM is ready
+  // Use requestAnimationFrame to ensure DOM updates are complete
+  requestAnimationFrame(() => {
+    setTimeout(() => {
+      if (typeof updateProgressBars === 'function' && typeof initProgressBarClickHandlers === 'function') {
+        const state = carouselState[carouselId];
+        if (state) {
+          // Double-check progress bars are initialized
+          const firstBar = document.querySelector('#progress-1');
+          if (firstBar) {
+            const hasAnimation = firstBar.style.animation && 
+                                firstBar.style.animation !== 'none' &&
+                                firstBar.style.animation.includes('fillProgress');
+            if (!hasAnimation) {
+              updateProgressBars(state.currentSlide, state.totalSlides, state.interval);
+            }
+          }
+          initProgressBarClickHandlers();
+        }
+      }
+    }, 50);
+  });
   
   // Start autoplay if enabled
   if (autoplay) {
