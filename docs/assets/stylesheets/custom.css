@@ -63,36 +63,46 @@ body.homepage .md-content {
   min-height: 500px;
   display: flex;
   align-items: stretch;
+  justify-content: center;
   background: var(--md-default-bg-color);
   padding: 3rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .carousel-slide {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  visibility: hidden;
+  transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), visibility 0.6s;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 4rem;
+  padding: 0;
+  pointer-events: none;
 }
 
 .carousel-slide--active {
   opacity: 1;
+  visibility: visible;
   z-index: 10;
-  position: relative;
+  pointer-events: auto;
 }
 
 /* Left Content Area */
 .carousel-content-left {
-  flex: 1;
+  flex: 0 1 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   animation: slideInLeft 0.6s cubic-bezier(0.4, 0, 0.2, 1);
   max-width: 550px;
+  min-width: 0;
 }
 
 @keyframes slideInLeft {
@@ -174,12 +184,14 @@ body.homepage .md-content {
 
 /* Right Image Area */
 .carousel-content-right {
-  flex: 1;
+  flex: 0 1 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   animation: slideInRight 0.6s cubic-bezier(0.4, 0, 0.2, 1);
   min-height: 400px;
+  max-width: 600px;
+  min-width: 0;
 }
 
 @keyframes slideInRight {
@@ -219,6 +231,8 @@ body.homepage .md-content {
   width: 100%;
   background: var(--md-default-bg-color);
   padding: 3rem 2rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .carousel-progress-wrapper {
@@ -305,15 +319,15 @@ body.homepage .md-content {
   }
 
   .carousel-slide {
-    position: relative;
+    position: absolute;
     flex-direction: column;
-    width: auto;
+    width: 100%;
     height: auto;
     gap: 2rem;
   }
 
   .carousel-slide--active {
-    position: relative;
+    position: absolute;
   }
 
   .carousel-content-left {
@@ -384,8 +398,8 @@ body.homepage .md-content {
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .mdx-carousel {
     min-height: 450px;
-    padding: 2rem;
-    gap: 2rem;
+    padding: 2rem 3rem;
+    gap: 3rem;
   }
 
   .carousel-headline {
@@ -407,18 +421,37 @@ body.homepage .md-content {
   .carousel-progress-wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
+  
+  .carousel-progress-container {
+    padding: 2rem 3rem 1.5rem;
+  }
 }
 
 /* Carousel Desktop Responsiveness */
 @media screen and (min-width: 1025px) {
   .mdx-carousel {
     min-height: 550px;
-    padding: 4rem 3rem;
+    padding: 4rem 4rem;
     gap: 4rem;
   }
 
   .carousel-progress-wrapper {
     grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .carousel-content-left {
+    max-width: 600px;
+  }
+  
+  .carousel-content-right {
+    max-width: 650px;
+  }
+}
+
+/* Large Desktop - Ensure balanced padding */
+@media screen and (min-width: 1400px) {
+  .mdx-carousel {
+    padding: 4rem 6rem;
   }
 }
 
