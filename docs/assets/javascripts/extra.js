@@ -422,6 +422,45 @@ function initializeProgressBars() {
 }
 
 // ============================================================================
+// Countdown Timer
+// ============================================================================
+
+function initCountdown() {
+  const countdownElement = document.getElementById('kvm-go-countdown');
+  if (!countdownElement) return;
+  
+  const targetDate = new Date('2025-12-30T23:59:59').getTime();
+  
+  function updateCountdown() {
+    const now = new Date().getTime();
+    const distance = targetDate - now;
+    
+    if (distance < 0) {
+      countdownElement.textContent = 'Crowdfunding has ended';
+      return;
+    }
+    
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    
+    if (days > 0) {
+      countdownElement.textContent = `${days} day${days !== 1 ? 's' : ''} left until Dec 30, 2025`;
+    } else if (hours > 0) {
+      countdownElement.textContent = `${hours} hour${hours !== 1 ? 's' : ''} left until Dec 30, 2025`;
+    } else {
+      countdownElement.textContent = `${minutes} minute${minutes !== 1 ? 's' : ''} left until Dec 30, 2025`;
+    }
+  }
+  
+  // Update immediately
+  updateCountdown();
+  
+  // Update every minute
+  setInterval(updateCountdown, 60000);
+}
+
+// ============================================================================
 // DOM Ready Initialization
 // ============================================================================
 
@@ -433,6 +472,9 @@ document.addEventListener('DOMContentLoaded', () => {
   if (typeof initSlideshow === 'function') {
     initSlideshow();
   }
+  
+  // Initialize countdown
+  initCountdown();
   
   // Initialize progress bars with retry logic
   let attempts = 0;

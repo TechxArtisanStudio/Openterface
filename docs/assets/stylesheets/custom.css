@@ -46,7 +46,6 @@ body.homepage .md-content {
   width: 100%;
   background: var(--md-default-bg-color);
   overflow: hidden;
-  margin: 0;
   padding: 0;
 }
 
@@ -65,9 +64,8 @@ body.homepage .md-content {
   display: flex;
   align-items: stretch;
   background: var(--md-default-bg-color);
-  padding: 3rem 2rem 2rem 2rem;
   max-width: 1400px;
-  margin: 0 auto;
+  margin: auto;
   overflow: hidden;
 }
 
@@ -125,30 +123,31 @@ body.homepage .md-content {
   text-transform: uppercase;
   letter-spacing: 1.5px;
   color: var(--md-primary-fg-color);
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.25rem;
   opacity: 0.9;
 }
 
 .carousel-headline {
   font-size: 2.5rem;
   font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 1.5rem;
+  line-height: 1;
+  margin: 0.5rem 0;
   color: var(--md-typeset-color);
 }
 
 .carousel-description {
   font-size: 1.125rem;
-  line-height: 1.7;
-  margin-bottom: 2rem;
+  line-height: 1.2;
+  margin: 1rem 0 2rem;
   color: var(--md-typeset-color);
   opacity: 0.85;
 }
 
 .carousel-actions {
   display: flex;
-  gap: 1rem;
-  align-items: center;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
@@ -157,6 +156,9 @@ body.homepage .md-content {
   font-weight: 600;
   font-size: 1.125rem;
   transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .carousel-actions .md-button--primary {
@@ -169,20 +171,60 @@ body.homepage .md-content {
 }
 
 .carousel-btn-preorder {
-  background-color: #ff4500 !important;
-  border: 2px solid #ff4500 !important;
+  background: linear-gradient(90deg, #ff6b35, #ffa657, #ff6b35, #ffa657, #ff6b35) !important;
+  background-size: 400% 100% !important;
+  border: 2px solid #ff6b35 !important;
   color: #fff !important;
   font-weight: 700;
+  animation: gradientShift 2s linear infinite;
 }
 
 .carousel-btn-preorder:hover {
-  background-color: #e63d00 !important;
-  border-color: #e63d00 !important;
+  animation-duration: 1s;
+  border-color: #ff5722 !important;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 300% 50%;
+  }
+}
+
+.carousel-btn-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  flex-shrink: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.carousel-btn-secondary {
+  background-color: #9ca3af !important;
+  border: 2px solid #9ca3af !important;
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.carousel-btn-secondary:hover {
+  background-color: #6b7280 !important;
+  border-color: #6b7280 !important;
+  color: #fff !important;
 }
 
 .carousel-btn-comingsoon {
   opacity: 0.6;
   cursor: not-allowed;
+}
+
+.carousel-countdown {
+  font-size: 0.875rem;
+  color: var(--md-typeset-color);
+  opacity: 0.7;
+  margin-top: 0.25rem;
+  font-weight: 500;
 }
 
 /* Right Image Area */
@@ -233,7 +275,7 @@ body.homepage .md-content {
 .carousel-progress-container {
   width: 100%;
   background: var(--md-default-bg-color);
-  padding: 3rem 2rem 2rem;
+  padding: 3rem 0 2rem;
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -307,7 +349,7 @@ body.homepage .md-content {
 .progress-label-large {
   font-size: 0.95rem;
   font-weight: 600;
-  line-height: 1.4;
+  line-height: 1.2;
   color: var(--md-typeset-color);
   opacity: 0.85;
 }
@@ -320,7 +362,7 @@ body.homepage .md-content {
     flex-direction: column;
     padding: 2rem 1rem 1.5rem 1rem;
     gap: 2rem;
-    margin-bottom: 0;
+    margin: auto;
     overflow: hidden;
   }
 
@@ -403,7 +445,7 @@ body.homepage .md-content {
   }
 
   .carousel-progress-container {
-    padding: 2rem 1rem 1.5rem;
+    padding: 2rem 3rem 1.5rem;
   }
 }
 
@@ -436,7 +478,7 @@ body.homepage .md-content {
   }
   
   .carousel-progress-container {
-    padding: 2rem 3rem 1.5rem;
+    padding: 2rem 0 1.5rem;
   }
 }
 
@@ -444,7 +486,6 @@ body.homepage .md-content {
 @media screen and (min-width: 1025px) {
   .mdx-carousel {
     min-height: 550px;
-    padding: 4rem 2rem 2rem 2rem;
     gap: 4rem;
   }
 
@@ -453,7 +494,7 @@ body.homepage .md-content {
   }
   
   .carousel-progress-container {
-    padding: 3rem 2rem 2rem;
+    padding: 3rem 0 2rem;
   }
   
   .carousel-content-left {
@@ -467,12 +508,8 @@ body.homepage .md-content {
 
 /* Large Desktop - Ensure balanced padding */
 @media screen and (min-width: 1400px) {
-  .mdx-carousel {
-    padding: 4rem 2rem 2rem 2rem;
-  }
-  
   .carousel-progress-container {
-    padding: 3rem 2rem 2rem;
+    padding: 3rem 0 2rem;
   }
 }
 
@@ -867,7 +904,7 @@ linux-download-columns {
     font-size: 2.8rem;
     font-weight: 900;
     margin: 0 0 0.25rem 0;
-    line-height: 1.1;
+    line-height: 1;
     white-space: nowrap;
     background: linear-gradient(45deg, var(--md-primary-fg-color), var(--md-accent-fg-color));
     background-clip: text;
@@ -897,7 +934,7 @@ linux-download-columns {
     .slogan-text {
         font-size: 2rem;
         white-space: normal;
-        line-height: 1.2;
+        line-height: 1;
     }
     
     .slogan-subtitle {
@@ -913,7 +950,7 @@ linux-download-columns {
     
     .slogan-text {
         font-size: 1.6rem;
-        line-height: 1.3;
+        line-height: 1;
     }
     
     .slogan-subtitle {
