@@ -1,273 +1,320 @@
-// Carousel state management
 const carouselState = {};
 
-// Lazy load carousel images
+// ============================================================================
+// Image Loading System
+// ============================================================================
+
 function loadCarouselImage(img) {
-  if (img.dataset.src && !img.src) {
-    img.src = img.dataset.src;
-    img.classList.remove('carousel-lazy-image');
-    img.removeAttribute('data-src');
+  if (!img || !img.dataset.src) return;
+  
+  const currentSrc = img.getAttribute('src') || '';
+  const isEmptyOrInvalid = !currentSrc || 
+                           currentSrc === window.location.href || 
+                           currentSrc === window.location.origin + '/' ||
+                           img.classList.contains('carousel-lazy-image');
+  
+  if (isEmptyOrInvalid) {
+    // Create new image to preload
+    const preloadImg = new Image();
+    preloadImg.onload = function() {
+      img.src = this.src;
+      img.classList.remove('carousel-lazy-image');
+      img.removeAttribute('data-src');
+    };
+    preloadImg.onerror = function() {
+      console.error('Failed to load carousel image:', img.dataset.src);
+    };
+    preloadImg.src = img.dataset.src;
   }
 }
 
-// Preload next slide image
-function preloadNextSlide(carouselId, currentSlideIndex) {
+function preloadSlideImages(carouselId, slideIndex) {
   const carousel = document.getElementById(carouselId);
   if (!carousel) return;
   
-  const slides = carousel.querySelectorAll('.carousel-slide');
-  const nextIndex = (currentSlideIndex % slides.length);
-  const nextSlide = slides[nextIndex];
-  
-  if (nextSlide) {
-    const nextImg = nextSlide.querySelector('img[data-src]');
-    if (nextImg) {
-      loadCarouselImage(nextImg);
+  const slide = carousel.querySelector(`.carousel-slide[data-slide-index="${slideIndex}"]`);
+  if (slide) {
+    const img = slide.querySelector('img[data-src]');
+    if (img) {
+      loadCarouselImage(img);
     }
   }
 }
+
+// ============================================================================
+// Carousel Core Functions
+// ============================================================================
 
 function initCarousel(carouselId) {
   const carousel = document.getElementById(carouselId);
   if (!carousel) return;
+  
+  // Prevent double initialization
+  if (carouselState[carouselId] && carouselState[carouselId].initialized) {
+    return;
+  }
 
   const autoplay = carousel.getAttribute('data-autoplay') === 'true';
-  const interval = parseInt(carousel.getAttribute('data-interval')) || 5000;
+  const interval = parseInt(carousel.getAttribute('data-interval')) || 6000;
+  const slides = carousel.querySelectorAll('.carousel-slide');
   
   carouselState[carouselId] = {
     currentSlide: 1,
-    totalSlides: carousel.querySelectorAll('.carousel-slide').length,
+    totalSlides: slides.length,
     autoplayInterval: null,
     autoplay: autoplay,
-    interval: interval
+    interval: interval,
+    isTransitioning: false,
+    initialized: true
   };
 
-  // Load first slide image immediately (already loaded with eager)
-  // Preload second slide image
-  preloadNextSlide(carouselId, 1);
+  // Preload all images immediately for smooth transitions
+  slides.forEach((slide, index) => {
+    const img = slide.querySelector('img[data-src]');
+    if (img) {
+      loadCarouselImage(img);
+    }
+  });
 
-  // Initialize progress bars for first slide - ensure function is available
-  // Don't initialize here - let it be handled by the main initialization
-  // This prevents multiple calls
-
+  // Setup event listeners
+  setupCarouselEvents(carouselId);
+  
+  // Initialize first slide
+  goToSlide(carouselId, 1, false);
+  
+  // Start autoplay if enabled
   if (autoplay) {
     startAutoplay(carouselId);
   }
+}
 
-  // Add keyboard navigation
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'ArrowLeft') carouselPrev(carouselId);
-    if (e.key === 'ArrowRight') carouselNext(carouselId);
+function setupCarouselEvents(carouselId) {
+  const carousel = document.getElementById(carouselId);
+  if (!carousel) return;
+  
+  const state = carouselState[carouselId];
+  
+  // Keyboard navigation (only add once)
+  if (!state.keyboardListener) {
+    const keyboardHandler = (e) => {
+      if (state.isTransitioning) return;
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        carouselPrev(carouselId);
+      }
+      if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        carouselNext(carouselId);
+      }
+    };
+    document.addEventListener('keydown', keyboardHandler);
+    state.keyboardListener = keyboardHandler;
+  }
+
+  // Only pause on hover over interactive elements (buttons, progress bars)
+  // Not on the entire carousel to allow progress bar to continue when hovering over images
+  const interactiveElements = carousel.querySelectorAll('.carousel-actions, .carousel-progress-container');
+  
+  interactiveElements.forEach(element => {
+    element.addEventListener('mouseenter', () => {
+      pauseAutoplay(carouselId);
+    });
+    
+    element.addEventListener('mouseleave', () => {
+      if (state.autoplay) {
+        resumeAutoplay(carouselId);
+      }
+    });
   });
+}
 
-  // Pause autoplay on hover
-  carousel.addEventListener('mouseenter', () => {
-    const state = carouselState[carouselId];
-    if (state.autoplayInterval) {
-      clearInterval(state.autoplayInterval);
-      state.autoplayInterval = null;
-      // Pause progress bar animations
-      document.querySelectorAll('.progress-bar--active').forEach(bar => {
-        const animation = bar.style.animation;
-        if (animation && animation !== 'none') {
-          bar.style.animationPlayState = 'paused';
-        }
-      });
+function goToSlide(carouselId, slideIndex, animate = true) {
+  const carousel = document.getElementById(carouselId);
+  if (!carousel) return;
+  
+  const state = carouselState[carouselId];
+  if (!state) return;
+  
+  // Prevent rapid successive calls
+  if (state.isTransitioning) return;
+  if (state.currentSlide === slideIndex) return;
+  
+  // Validate slide index
+  if (slideIndex < 1 || slideIndex > state.totalSlides) return;
+  
+  state.isTransitioning = true;
+  const previousSlide = state.currentSlide;
+  state.currentSlide = slideIndex;
+  
+  const slides = carousel.querySelectorAll('.carousel-slide');
+  const currentSlideEl = carousel.querySelector(`.carousel-slide[data-slide-index="${slideIndex}"]`);
+  const previousSlideEl = carousel.querySelector(`.carousel-slide[data-slide-index="${previousSlide}"]`);
+  
+  if (!currentSlideEl) {
+    state.isTransitioning = false;
+    return;
+  }
+  
+  // Ensure image is loaded before transition
+  const img = currentSlideEl.querySelector('img');
+  if (img && img.dataset.src) {
+    loadCarouselImage(img);
+  }
+  
+  // Use requestAnimationFrame for smooth transition
+  requestAnimationFrame(() => {
+    // Remove active class from all slides
+    slides.forEach(slide => {
+      slide.classList.remove('carousel-slide--active');
+    });
+    
+    // Add active class to current slide
+    currentSlideEl.classList.add('carousel-slide--active');
+    
+    // Preload next slide for smooth transition
+    const nextSlideIndex = slideIndex % state.totalSlides + 1;
+    preloadSlideImages(carouselId, nextSlideIndex);
+    
+    // Update progress bars
+    if (typeof updateProgressBars === 'function') {
+      updateProgressBars(slideIndex, state.totalSlides, state.interval);
     }
-  });
-
-  carousel.addEventListener('mouseleave', () => {
-    const state = carouselState[carouselId];
-    if (state.autoplay) {
-      // Resume progress bar animations
-      document.querySelectorAll('.progress-bar--active').forEach(bar => {
-        if (bar.style.animationPlayState === 'paused') {
-          bar.style.animationPlayState = 'running';
-        }
-      });
-      startAutoplay(carouselId);
-    }
+    
+    // Mark transition as complete after animation duration
+    setTimeout(() => {
+      state.isTransitioning = false;
+    }, animate ? 600 : 0); // Match CSS transition duration
   });
 }
 
 function carouselNext(carouselId) {
   const state = carouselState[carouselId];
-  let nextSlide = state.currentSlide + 1;
-  if (nextSlide > state.totalSlides) {
-    nextSlide = 1;
-  }
-  carouselGoto(carouselId, nextSlide);
+  if (!state || state.isTransitioning) return;
+  
+  const nextSlide = state.currentSlide >= state.totalSlides ? 1 : state.currentSlide + 1;
+  goToSlide(carouselId, nextSlide);
 }
 
 function carouselPrev(carouselId) {
   const state = carouselState[carouselId];
-  let prevSlide = state.currentSlide - 1;
-  if (prevSlide < 1) {
-    prevSlide = state.totalSlides;
-  }
-  carouselGoto(carouselId, prevSlide);
+  if (!state || state.isTransitioning) return;
+  
+  const prevSlide = state.currentSlide <= 1 ? state.totalSlides : state.currentSlide - 1;
+  goToSlide(carouselId, prevSlide);
 }
 
-function carouselGoto(carouselId, slideIndex) {
-  const carousel = document.getElementById(carouselId);
-  if (!carousel) return;
+// ============================================================================
+// Autoplay Management
+// ============================================================================
 
+function startAutoplay(carouselId) {
   const state = carouselState[carouselId];
-  state.currentSlide = slideIndex;
-
-  // Update slides visibility
-  const slides = carousel.querySelectorAll('.carousel-slide');
-  slides.forEach((slide, index) => {
-    if (index + 1 === slideIndex) {
-      slide.classList.add('carousel-slide--active');
-      // Load image for active slide if not already loaded
-      const img = slide.querySelector('img[data-src]');
-      if (img) {
-        loadCarouselImage(img);
-      }
-    } else {
-      slide.classList.remove('carousel-slide--active');
-    }
-  });
-
-  // Preload next slide image for smooth transition
-  preloadNextSlide(carouselId, slideIndex);
-
-  // Update progress bars if updateProgressBars function exists
-  if (typeof updateProgressBars === 'function') {
-    updateProgressBars(slideIndex, state.totalSlides, state.interval);
+  if (!state || !state.autoplay) return;
+  
+  // Clear any existing interval
+  if (state.autoplayInterval) {
+    clearInterval(state.autoplayInterval);
   }
-
-  // Update dots
-  const dots = carousel.querySelectorAll('.carousel-dot');
-  dots.forEach((dot, index) => {
-    if (index + 1 === slideIndex) {
-      dot.classList.add('carousel-dot--active');
-    } else {
-      dot.classList.remove('carousel-dot--active');
+  
+  state.autoplayInterval = setInterval(() => {
+    if (!state.isTransitioning) {
+      carouselNext(carouselId);
     }
-  });
+  }, state.interval);
+}
 
-  // Restart autoplay timer - clear existing first
+function pauseAutoplay(carouselId) {
+  const state = carouselState[carouselId];
+  if (!state) return;
+  
   if (state.autoplayInterval) {
     clearInterval(state.autoplayInterval);
     state.autoplayInterval = null;
   }
-  if (state.autoplay) {
-    // Start autoplay after progress bar animation has started
-    setTimeout(() => {
-      startAutoplay(carouselId);
-    }, 100);
-  }
+  
+  // Pause progress bar animations
+  document.querySelectorAll('.progress-bar--active').forEach(bar => {
+    if (bar.style.animation && bar.style.animation !== 'none') {
+      bar.style.animationPlayState = 'paused';
+    }
+  });
 }
 
-function startAutoplay(carouselId) {
+function resumeAutoplay(carouselId) {
   const state = carouselState[carouselId];
-  state.autoplayInterval = setInterval(() => {
-    carouselNext(carouselId);
-  }, state.interval);
+  if (!state || !state.autoplay) return;
+  
+  // Resume progress bar animations
+  document.querySelectorAll('.progress-bar--active').forEach(bar => {
+    if (bar.style.animationPlayState === 'paused') {
+      bar.style.animationPlayState = 'running';
+    }
+  });
+  
+  startAutoplay(carouselId);
 }
 
-// Lazy initialize carousel when it enters viewport
-function lazyInitCarousel() {
-  const carouselContainer = document.querySelector('.mdx-carousel-container');
-  if (!carouselContainer) return;
+// ============================================================================
+// Progress Bars System
+// ============================================================================
 
-  // Check if Intersection Observer is supported
-  if ('IntersectionObserver' in window) {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          // Initialize carousel when it enters viewport
-          initCarousel('mdx-carousel');
-          observer.unobserve(entry.target);
-        }
-      });
-    }, {
-      rootMargin: '50px' // Start loading 50px before entering viewport
-    });
-
-    observer.observe(carouselContainer);
-  } else {
-    // Fallback for browsers without Intersection Observer
-    document.addEventListener('DOMContentLoaded', () => {
-      initCarousel('mdx-carousel');
-    });
-  }
-}
-
-// Enhanced Carousel with Progress Bars
-// Make updateProgressBars globally available
 let isUpdatingProgressBars = false;
 
 function updateProgressBars(currentSlide, totalSlides, duration) {
-  // Prevent multiple simultaneous updates
   if (isUpdatingProgressBars) return;
   isUpdatingProgressBars = true;
   
   const progressBars = document.querySelectorAll('.progress-bar');
   
-  progressBars.forEach((bar, index) => {
-    const slideNum = index + 1;
-    
-    // Stop any running animations first
-    if (bar.style.animation && bar.style.animation !== 'none') {
-      bar.style.animation = 'none';
-    }
-    
-    // Completely reset bar state - clear all animations and transitions
-    bar.classList.remove('progress-bar--active');
-    bar.style.animation = 'none';
-    bar.style.animationName = '';
-    bar.style.animationDuration = '';
-    bar.style.animationTimingFunction = '';
-    bar.style.animationFillMode = '';
-    bar.style.transition = 'none';
-    
-    // Force reflow to ensure all styles are cleared
-    void bar.offsetWidth;
-
-    if (slideNum < currentSlide) {
-      // Past slides - fully filled grey (no animation, no transition)
-      bar.style.width = '100%';
-      bar.style.background = '#9a9a9a';
-      bar.style.animation = 'none';
-    } else if (slideNum === currentSlide) {
-      // Current slide - start empty then animate to full
-      bar.style.width = '0%';
-      bar.style.background = 'linear-gradient(90deg, #ff6b35, #ff8c42, #ffa657)';
-      bar.classList.add('progress-bar--active');
+  requestAnimationFrame(() => {
+    progressBars.forEach((bar, index) => {
+      const slideNum = index + 1;
       
-      // Force reflow to ensure width reset is applied
+      // Reset animation state
+      bar.classList.remove('progress-bar--active');
+      bar.style.animation = 'none';
+      bar.style.transition = 'none';
+      
+      // Force reflow
       void bar.offsetWidth;
       
-      // Start animation after a brief delay to ensure reset is complete
-      setTimeout(() => {
-        bar.style.animation = `fillProgress ${duration}ms linear forwards`;
-      }, 10);
-    } else {
-      // Future slides - empty (no animation, no transition)
-      bar.style.width = '0%';
-      bar.style.background = '#9a9a9a';
-      bar.style.animation = 'none';
-    }
+      if (slideNum < currentSlide) {
+        // Past slides - fully filled
+        bar.style.width = '100%';
+        bar.style.background = '#9a9a9a';
+      } else if (slideNum === currentSlide) {
+        // Current slide - animate from empty to full
+        bar.style.width = '0%';
+        bar.style.background = 'linear-gradient(90deg, #ff6b35, #ff8c42, #ffa657)';
+        bar.classList.add('progress-bar--active');
+        
+        // Force reflow before starting animation
+        void bar.offsetWidth;
+        
+        requestAnimationFrame(() => {
+          bar.style.animation = `fillProgress ${duration}ms linear forwards`;
+        });
+      } else {
+        // Future slides - empty
+        bar.style.width = '0%';
+        bar.style.background = '#9a9a9a';
+      }
+    });
+    
+    setTimeout(() => {
+      isUpdatingProgressBars = false;
+    }, 50);
   });
-  
-  // Reset flag after a short delay
-  setTimeout(() => {
-    isUpdatingProgressBars = false;
-  }, 50);
 }
 
-// Add click handlers to progress items
 function initProgressBarClickHandlers() {
   const progressItems = document.querySelectorAll('.progress-item');
+  
   progressItems.forEach((item) => {
-    // Remove any existing click listeners by cloning
+    // Remove existing listeners by cloning
     const newItem = item.cloneNode(true);
     item.parentNode.replaceChild(newItem, item);
     
-    // Add click handler to the new item
     newItem.addEventListener('click', (e) => {
       e.preventDefault();
       e.stopPropagation();
@@ -276,30 +323,59 @@ function initProgressBarClickHandlers() {
       const slideIndex = parseInt(newItem.getAttribute('data-slide'));
       const state = carouselState[carouselId];
       
-      if (state && slideIndex >= 1 && slideIndex <= state.totalSlides) {
-        // Stop current autoplay
-        if (state.autoplayInterval) {
-          clearInterval(state.autoplayInterval);
-          state.autoplayInterval = null;
-        }
+      if (state && slideIndex >= 1 && slideIndex <= state.totalSlides && !state.isTransitioning) {
+        pauseAutoplay(carouselId);
+        goToSlide(carouselId, slideIndex);
         
-        // Go to the selected slide
-        carouselGoto(carouselId, slideIndex);
-        
-        // Restart autoplay after a brief delay
         if (state.autoplay) {
           setTimeout(() => {
-            startAutoplay(carouselId);
-          }, 100);
+            resumeAutoplay(carouselId);
+          }, 700); // Wait for transition + buffer
         }
       }
     });
   });
 }
 
-// Ensure progress bars are initialized after DOM and scripts are ready
-// This ensures the first slide's progress bar starts animating
-function ensureProgressBarsInitialized() {
+// ============================================================================
+// Initialization
+// ============================================================================
+
+function lazyInitCarousel() {
+  const carouselContainer = document.querySelector('.mdx-carousel-container');
+  if (!carouselContainer) return;
+  
+  // Check if already initialized
+  if (carouselState['mdx-carousel'] && carouselState['mdx-carousel'].initialized) {
+    return;
+  }
+  
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          initCarousel('mdx-carousel');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      rootMargin: '100px'
+    });
+    
+    observer.observe(carouselContainer);
+  } else {
+    // Fallback: initialize immediately
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', () => {
+        initCarousel('mdx-carousel');
+      });
+    } else {
+      initCarousel('mdx-carousel');
+    }
+  }
+}
+
+function initializeProgressBars() {
   const carousel = document.getElementById('mdx-carousel');
   if (!carousel) return false;
   
@@ -309,61 +385,75 @@ function ensureProgressBarsInitialized() {
   const firstBar = document.querySelector('#progress-1');
   if (!firstBar) return false;
   
-  // Check if progress bar is already animating
+  // Check if already initialized
   const hasAnimation = firstBar.style.animation && 
                       firstBar.style.animation !== 'none' &&
                       firstBar.style.animation.includes('fillProgress');
   
   if (!hasAnimation) {
-    // Initialize progress bars
     updateProgressBars(state.currentSlide || 1, state.totalSlides, state.interval);
-    // Initialize click handlers only once
-    if (typeof initProgressBarClickHandlers === 'function') {
-      initProgressBarClickHandlers();
-    }
+    initProgressBarClickHandlers();
     return true;
   }
   return false;
 }
 
-// Try to initialize progress bars when DOM is ready
-// Use multiple attempts to ensure initialization
-function tryInitializeProgressBars(attempts = 0) {
-  if (attempts > 5) return; // Max 5 attempts
-  
-  if (typeof updateProgressBars === 'function' && typeof initProgressBarClickHandlers === 'function') {
-    const initialized = ensureProgressBarsInitialized();
-    if (!initialized && attempts < 3) {
-      setTimeout(() => tryInitializeProgressBars(attempts + 1), 300);
-    }
-  } else {
-    setTimeout(() => tryInitializeProgressBars(attempts + 1), 100);
-  }
-}
+// ============================================================================
+// DOM Ready Initialization
+// ============================================================================
 
-// Initialize all carousels on page load
 document.addEventListener('DOMContentLoaded', () => {
-  // Lazy initialize primary carousel
+  // Initialize carousel
   lazyInitCarousel();
-
-  // Initialize existing slideshow carousels
+  
+  // Initialize slideshow carousels if available
   if (typeof initSlideshow === 'function') {
     initSlideshow();
   }
   
-  // Try to initialize progress bars
-  setTimeout(() => tryInitializeProgressBars(), 200);
+  // Initialize progress bars with retry logic
+  let attempts = 0;
+  const maxAttempts = 5;
+  
+  const tryInitProgressBars = () => {
+    if (attempts >= maxAttempts) return;
+    
+    if (typeof updateProgressBars === 'function' && typeof initProgressBarClickHandlers === 'function') {
+      const initialized = initializeProgressBars();
+      if (!initialized && attempts < 3) {
+        attempts++;
+        setTimeout(tryInitProgressBars, 300);
+      }
+    } else {
+      attempts++;
+      setTimeout(tryInitProgressBars, 100);
+    }
+  };
+  
+  setTimeout(tryInitProgressBars, 200);
 });
 
-// Fallback for old slideshow code
+// ============================================================================
+// Fallback Functions for Compatibility
+// ============================================================================
+
 if (typeof changeSlide === 'undefined') {
   window.changeSlide = function(carouselId, n) {
-    carouselGoto(carouselId, carouselState[carouselId].currentSlide + n);
+    const state = carouselState[carouselId];
+    if (state) {
+      const newSlide = state.currentSlide + n;
+      goToSlide(carouselId, newSlide);
+    }
   };
 }
 
 if (typeof currentSlide === 'undefined') {
   window.currentSlide = function(carouselId, n) {
-    carouselGoto(carouselId, n);
+    goToSlide(carouselId, n);
   };
 }
+
+// Export for potential external use
+window.carouselGoto = goToSlide;
+window.carouselNext = carouselNext;
+window.carouselPrev = carouselPrev;
