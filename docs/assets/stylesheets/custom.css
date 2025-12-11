@@ -55,6 +55,7 @@ body.homepage .md-content {
   flex-direction: column;
   width: 100%;
   background: var(--md-default-bg-color);
+  gap: 0;
 }
 
 .mdx-carousel {
@@ -63,11 +64,11 @@ body.homepage .md-content {
   min-height: 500px;
   display: flex;
   align-items: stretch;
-  justify-content: center;
   background: var(--md-default-bg-color);
-  padding: 3rem 2rem;
+  padding: 3rem 2rem 2rem 2rem;
   max-width: 1400px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .carousel-slide {
@@ -76,6 +77,7 @@ body.homepage .md-content {
   left: 0;
   width: 100%;
   height: 100%;
+  max-height: 100%;
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), visibility 0.6s;
@@ -85,6 +87,7 @@ body.homepage .md-content {
   gap: 4rem;
   padding: 0;
   pointer-events: none;
+  overflow: hidden;
 }
 
 .carousel-slide--active {
@@ -313,21 +316,31 @@ body.homepage .md-content {
 @media screen and (max-width: 768px) {
   .mdx-carousel {
     min-height: auto;
+    height: auto;
     flex-direction: column;
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 1.5rem 1rem;
     gap: 2rem;
+    margin-bottom: 0;
+    overflow: hidden;
   }
 
   .carousel-slide {
     position: absolute;
+    top: 0;
+    left: 0;
     flex-direction: column;
     width: 100%;
     height: auto;
+    min-height: auto;
+    max-height: none;
     gap: 2rem;
+    overflow: visible;
+    display: none;
   }
 
   .carousel-slide--active {
-    position: absolute;
+    position: relative;
+    display: flex;
   }
 
   .carousel-content-left {
@@ -398,7 +411,7 @@ body.homepage .md-content {
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .mdx-carousel {
     min-height: 450px;
-    padding: 2rem 3rem;
+    padding: 2rem 2rem;
     gap: 3rem;
   }
 
@@ -431,12 +444,16 @@ body.homepage .md-content {
 @media screen and (min-width: 1025px) {
   .mdx-carousel {
     min-height: 550px;
-    padding: 4rem 4rem;
+    padding: 4rem 2rem 2rem 2rem;
     gap: 4rem;
   }
 
   .carousel-progress-wrapper {
     grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .carousel-progress-container {
+    padding: 3rem 2rem 2rem;
   }
   
   .carousel-content-left {
@@ -451,7 +468,11 @@ body.homepage .md-content {
 /* Large Desktop - Ensure balanced padding */
 @media screen and (min-width: 1400px) {
   .mdx-carousel {
-    padding: 4rem 6rem;
+    padding: 4rem 2rem 2rem 2rem;
+  }
+  
+  .carousel-progress-container {
+    padding: 3rem 2rem 2rem;
   }
 }
 
