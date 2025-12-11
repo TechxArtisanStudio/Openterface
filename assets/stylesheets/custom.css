@@ -13,826 +13,508 @@
     font-weight: bold;
 }
 
-.mdx-container {
-    background: linear-gradient(to bottom, var(--md-primary-fg-color) 30%, transparent 100%, var(--md-default-bg-color) 100%);
-    padding-top: 1rem;
+
+/* Home Page Specific Styles - Header and Content Visibility */
+/* Only apply these styles on the homepage (when body has 'homepage' class) */
+body.homepage .md-header {
+  position: initial;
 }
 
-.mdx-hero {
-    color: var(--md-primary-bg-color);
-    margin: 0.8rem;
+body.homepage .md-main__inner {
+  margin: 0;
 }
 
-.mdx-hero h1 {
-    color: currentcolor;
-    font-weight: 700;
-    margin-bottom: 1rem;
+body.homepage .md-content {
+  display: none;
 }
 
-.mdx-hero__content {
-    padding-bottom: 4rem;
-    text-align: left;
+@media screen and (min-width:60em){
+  body.homepage .md-sidebar--secondary {
+    display: none;
+  }
 }
 
-.mdx-hero .md-button {
-    color: #ffffff;
-    border-color: var(--md-accent-bg-color);
-    margin-right: .5rem;
-    margin-top: .5rem
+@media screen and (min-width:76.25em){
+  body.homepage .md-sidebar--primary {
+    display: none;
+  }
 }
 
-.mdx-hero .md-button:focus, .mdx-hero .md-button:hover {
-    background-color: var(--md-accent-fg-color);
-    border-color: var(--md-accent-fg-color);
-    color: var(--md-accent-bg-color);
+/* Carousel Styles */
+.mdx-carousel-container {
+  position: relative;
+  width: 100%;
+  background: var(--md-default-bg-color);
+  overflow: hidden;
+  padding: 0;
 }
 
-.mdx-hero .md-button--primary {
-    background-color: var(--md-primary-bg-color);
-    border-color: var(--md-primary-bg-color);
-    color: var(--md-primary-fg-color);
+.mdx-carousel-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: var(--md-default-bg-color);
+  gap: 0;
 }
 
-.mdx-hero .md-button:focus, .mdx-hero .md-button:hover {
-    background-color: var(--md-primary-fg-color);
-    border-color: var(--md-primary-fg-color);
-    color: var(--md-accent-bg-color);
+.mdx-carousel {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: stretch;
+  background: var(--md-default-bg-color);
+  max-width: 1400px;
+  margin: auto;
+  overflow: hidden;
 }
 
-.product-close-up {
-    padding-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.product-close-up .product-video {
-    width: 100%;
-    height: auto;
-    max-width: 640px;
-}
-
-.product-close-up .product-close-up-content {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
-    max-width: 1200px;
-    width: 100%;
-    margin-bottom: 2rem;
-}
-
-.product-close-up .product-image, .product-close-up .product-description {
-    flex-basis: 100%;
-    max-width: 100%;
-}
-
-.product-close-up .product-image img {
-    max-width: 100%;
-    height: auto;
-}
-
-.product-close-up .product-description {
-    padding: 1rem;
-    text-align: center;
-}
-
-.product-close-up .product-description p {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: inherit;
-}
-
-.connection-row {
-    padding-top: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 1rem;
-}
-
-.connection-demo h2 {
-    text-align: center;
-    font-size: 2rem;
-    line-height: 1.6;
-    margin-bottom: 1rem;
-    color: inherit;
-}
-
-.connection-demo .connection-block {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.connection-demo img {
-    max-width: 100%;
-    height: auto;
-}
-
-.connection-demo p {
-    font-size: 0.8rem;
-    color: var(--description-font-dark);
-}
-
-.comparison-solution {
-    background: var(--md-default-bg-color);
-    padding: var(--shared-padding);
-    text-align: center;
-    color: var(--description-font-dark);
-}
-
-.comparison-solution h2 {
-    font-size: 2rem;
-    line-height: 1.6;
-    margin-bottom: 1rem;
-    color: inherit;
-}
-
-.comparison-solution p {
-    font-size: 1rem;
-    color: inherit;
-    margin-bottom: 1rem;
-    max-width: var(--shared-p-width);
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.comparison-solution .read-more-btn {
-    margin-top: 1rem;
-    float: right;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    color: var(--md-primary-fg-color);
-    border: 1px solid var(--md-primary-fg-color);
-    border-radius: 0.25rem;
-    font-size: 0.8rem;
-}
-
-.comparison-solution .read-more-btn:hover {
-    background-color: var(--md-primary-fg-color);
-    color: var(--description-font-light);
-    border-color: var(--md-primary-fg-color);
-}
-
-.blog {
-    background: var(--md-primary-fg-color);
-    padding: var(--shared-padding);
-    text-align: center;
-}
-
-.blog h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: var(--description-font-light);
-}
-
-.blog .blog-list .post{
-    margin-bottom: 1rem;
-}
-
-.blog .blog-list h3 {
-    font-size: 1.2rem;
-    color: var(--description-font-light);
-}
-
-.blog .blog-list .date {
-    font-size: 0.9rem;
-    color: var(--description-font-light);
-    margin-top: -1rem;
-}
-
-.blog .blog-list p {
-    font-size: 1rem;
-    color: var(--description-font-light);
-    max-width: var(--shared-p-width);
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.blog .read-more-btn {
-    margin-top: 1rem;
-    float: right;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border: 1px solid var(--md-primary-fg-color);
-    border-radius: 0.25rem;
-    font-size: 0.8rem;
-    background-color: var(--md-primary-fg-color);
-    color: var(--description-font-light);
-    border: 1px solid var(--description-font-light);
-}
-
-.blog .read-more-btn:hover {
-    background-color: var(--button-hover-color);
-    color: var(--md-primary-fg-color);
-}
-
-.use-cases {
-    background: var(--md-default-bg-color);
-    padding: var(--shared-padding);
-    text-align: center;
-    color: var(--description-font-dark);
-}
-
-.use-cases h2 {
-    font-size: 2rem;
-    line-height: 1.6;
-    margin-bottom: 1rem;
-    color: inherit;
-}
-
-.use-cases p {
-    font-size: 1rem;
-    color: inherit;
-    margin-bottom: 1rem;
-    max-width: var(--shared-p-width);
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.use-cases .read-more-btn {
-    margin-top: 1rem;
-    float: right;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    color: var(--md-primary-fg-color);
-    border: 1px solid var(--md-primary-fg-color);
-    border-radius: 0.25rem;
-    font-size: 0.8rem;
-}
-
-.use-cases .read-more-btn:hover {
-    background-color: var(--md-primary-fg-color);
-    color: var(--description-font-light);
-    border-color: var(--md-primary-fg-color);
-}
-
-.feature-dev-test {
-    background: linear-gradient(to top, var(--md-primary-fg-color) 30%, transparent 100%, var(--md-default-bg-color) 100%);
-    padding: var(--shared-padding);
-    text-align: center;
-}
-
-.feature-dev-test h2 {
-    font-size: 2rem;
-    line-height: 1.6;
-    margin-bottom: 1rem;
-    color: inherit;
-}
-
-.feature-dev-test p {
-    font-size: 1rem;
-    color: inherit;
-    margin-bottom: 1rem;
-    max-width: var(--shared-p-width);
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.feature-dev-test .read-more-btn {
-    margin-top: 1rem;
-    float: right;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    color: var(--md-primary-fg-color);
-    border: 1px solid var(--md-primary-fg-color);
-    border-radius: 0.25rem;
-    font-size: 0.8rem;
-}
-
-.feature-dev-test .read-more-btn:hover {
-    background-color: var(--md-primary-fg-color);
-    color: var(--description-font-light);
-    border-color: var(--md-primary-fg-color);
-}
-
-.videos-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.video-container {
-    position: relative;
-    width: 100%;
-    max-width: 560px;
-    margin-bottom: 20px;
-}
-
-.video-container:before {
-  content: "";
-  display: block;
-  padding-top: 56.25%;
-}
-
-.video-container iframe {
+.carousel-slide {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  max-height: 315px;
+  max-height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), visibility 0.6s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+  padding: 0;
+  pointer-events: none;
+  overflow: hidden;
 }
 
-#loadingMessage {
-    text-align: center;
-    font-size: 0.8rem;
-    color: var(--description-font-light)
+.carousel-slide--active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
+  pointer-events: auto;
 }
 
-.twitter-feed-section {
-    background: var(--md-primary-fg-color);
-    padding: var(--shared-padding);
-    text-align: center;
-    overflow-x: hidden;
-    display: none;
+/* Left Content Area */
+.carousel-content-left {
+  flex: 0 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation: slideInLeft 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  max-width: 550px;
+  min-width: 0;
 }
 
-.twitter-feed-section .container {
-    max-width: 1200px;
-    margin: auto;
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
-.twitter-feed-section h2 {
-    font-size: 2rem;
-    line-height: 1.6;
-    margin-bottom: 1rem;
-    color: inherit;
+.carousel-category {
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--md-primary-fg-color);
+  margin-bottom: 0.25rem;
+  opacity: 0.9;
 }
 
-.twitter-feed-section .twitter-posts {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    margin-bottom: 2rem;
+.carousel-headline {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0.5rem 0;
+  color: var(--md-typeset-color);
 }
 
-.twitter-feed-section .twitter-tweet {
-    flex-basis: 22%;
-    margin: 0.5rem;
-    min-width: 250px;
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-    border-radius: 12px;
-    transition: box-shadow 0.3s ease;
-    display: none;
+.carousel-description {
+  font-size: 1.125rem;
+  line-height: 1.2;
+  margin: 1rem 0 2rem;
+  color: var(--md-typeset-color);
+  opacity: 0.85;
 }
 
-.twitter-tweet-loaded {
-    display: block;
+.carousel-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
-.twitter-feed-section .twitter-tweet:hover {
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+.carousel-actions .md-button {
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  font-size: 1.125rem;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.2rem;
 }
 
-.twitter-feed-section .read-more-btn {
-    margin-top: 1rem;
-    float: right;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border: 1px solid var(--md-primary-fg-color);
-    border-radius: 0.25rem;
-    font-size: 0.8rem;
-    background-color: var(--md-primary-fg-color);
-    color: var(--description-font-light);
-    border: 1px solid var(--description-font-light);
+.carousel-actions .md-button--primary {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.twitter-feed-section .read-more-btn:hover {
-    background-color: var(--button-hover-color);
-    color: var(--md-primary-fg-color);
+.carousel-actions .md-button--primary:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
 }
 
-.poster-section .container {
-  text-align: center;
-  padding: 20px 0;
+.carousel-btn-preorder {
+  background: linear-gradient(90deg, #ff6b35, #ffa657, #ff6b35, #ffa657, #ff6b35) !important;
+  background-size: 400% 100% !important;
+  border: 2px solid #ff6b35 !important;
+  color: #fff !important;
+  font-weight: 700;
+  animation: gradientShift 2s linear infinite;
 }
 
-.poster-image-shadow {
-  max-width: 780px;
-  width: 100%;
+.carousel-btn-preorder:hover {
+  animation-duration: 1s;
+  border-color: #ff5722 !important;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 300% 50%;
+  }
+}
+
+.carousel-btn-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  flex-shrink: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.carousel-btn-secondary {
+  background-color: #9ca3af !important;
+  border: 2px solid #9ca3af !important;
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.carousel-btn-secondary:hover {
+  background-color: #6b7280 !important;
+  border-color: #6b7280 !important;
+  color: #fff !important;
+}
+
+.carousel-btn-comingsoon {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.carousel-countdown {
+  font-size: 0.875rem;
+  color: var(--md-typeset-color);
+  opacity: 0.7;
+  margin-top: 0.25rem;
+  font-weight: 500;
+}
+
+/* Right Image Area */
+.carousel-content-right {
+  flex: 0 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: slideInRight 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  min-height: 400px;
+  max-width: 600px;
+  min-width: 0;
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.carousel-content-right img {
+  max-width: 100%;
   height: auto;
-  box-shadow: -5px 5px 25px rgba(0, 0, 0, 0.25);
-  border-radius: 5px;
-  margin-bottom: 20px;
+  object-fit: contain;
+  max-height: 400px;
+  transition: opacity 0.3s ease;
 }
 
-.poster-image {
-    max-width: 780px;
+/* Lazy loading styles for carousel images */
+.carousel-lazy-image {
+  opacity: 0;
+  background: var(--md-default-bg-color);
+  min-height: 300px;
+}
+
+.carousel-lazy-image[src] {
+  opacity: 1;
+  background: transparent;
+  min-height: auto;
+}
+
+/* Progress Bar Section */
+.carousel-progress-container {
+  width: 100%;
+  background: var(--md-default-bg-color);
+  padding: 3rem 0 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.carousel-progress-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.progress-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.progress-item:hover {
+  opacity: 0.8;
+}
+
+.progress-bar-wrapper {
+  width: 100%;
+  height: 8px;
+  background: var(--md-footer-bg-color);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #9a9a9a;
+  border-radius: 10px;
+  width: 0%;
+  /* No transition - animations are handled via JavaScript */
+}
+
+.progress-bar--active {
+  background: linear-gradient(90deg, #ff6b35, #ff8c42, #ffa657);
+  /* Animation is applied via inline style, not CSS class */
+}
+
+@keyframes fillProgress {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.progress-labels {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.progress-label-small {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--md-primary-fg-color);
+  opacity: 0.75;
+}
+
+.progress-label-large {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--md-typeset-color);
+  opacity: 0.85;
+}
+
+/* Carousel Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+  .mdx-carousel {
+    min-height: auto;
+    height: auto;
+    flex-direction: column;
+    padding: 2rem 1rem 1.5rem 1rem;
+    gap: 2rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .carousel-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: column;
     width: 100%;
     height: auto;
-}
+    min-height: auto;
+    max-height: none;
+    gap: 2rem;
+    overflow: visible;
+    display: none;
+  }
 
-.icon-section {
-    padding: var(--shared-padding);
-    text-align: center;
-}
-
-.icon-section h2 {
-    font-size: 2rem;
-    line-height: 1.6;
-    margin-bottom: 1rem;
-    color: inherit;
-}
-
-.icon-section p {
-    font-size: 1rem;
-    line-height: 1.6;
-    margin-bottom: 1rem;
-    color: inherit;
-}
-
-.icon-container {
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.icon-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
-    max-width: 1000px;
-    margin: auto;
-}
-
-.icon-item {
+  .carousel-slide--active {
+    position: relative;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
+  }
 
-.icon-item img {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 0.5rem;
-}
+  .carousel-content-left {
+    max-width: none;
+    animation: slideInUp 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
-.icon-item p {
-    margin-top: 0.5rem;
+  @keyframes slideInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .carousel-content-right {
+    animation: slideInDown 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    min-height: 300px;
+  }
+
+  @keyframes slideInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .carousel-headline {
+    font-size: 1.75rem;
+  }
+
+  .carousel-description {
     font-size: 1rem;
-    color: inherit;
+  }
+
+  .carousel-actions .md-button {
+    font-size: 1rem;
+    padding: 0.65rem 1.25rem;
+  }
+
+  .carousel-progress-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 0;
+  }
+
+  .progress-label-small {
+    font-size: 0.7rem;
+  }
+
+  .progress-label-large {
+    font-size: 0.85rem;
+  }
+
+  .carousel-progress-container {
+    padding: 2rem 3rem 1.5rem;
+  }
 }
 
-.dialogue-section {
-    background: var(--md-primary-fg-color);
-    padding: var(--shared-padding);
-    text-align: center;
-}
+/* Carousel Tablet Responsiveness */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .mdx-carousel {
+    min-height: 450px;
+    padding: 2rem 2rem;
+    gap: 3rem;
+  }
 
-.dialogue-section-white {
-    padding: var(--shared-padding);
-    text-align: center;
-}
-
-.dialogue-section-white h2 {
+  .carousel-headline {
     font-size: 2rem;
-    line-height: 1.6;
-    margin-bottom: 1rem;
-    color: inherit;
-}
+  }
 
-.dialogue-section-white p {
+  .carousel-description {
     font-size: 1rem;
-    line-height: 1.6;
-    margin-bottom: 1rem;
-    color: inherit;
-}
+  }
 
-.dialogue-bubble {
-    display: inline-block;
-    background-color: white;
-    border-radius: 20px;
-    padding: 1rem 1.5rem;
-    position: relative;
-    margin: 1rem;
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25);
-    border: 1px solid #e7e7e7;
-}
+  .carousel-actions .md-button {
+    font-size: 1.05rem;
+  }
 
-.dialogue-bubble p {
-    font-size: 1.5rem;
-    margin: 0;
-    color: var(--description-font-dark);
-    font-weight: bold;
-}
+  .carousel-content-right {
+    min-height: 350px;
+  }
 
-#op-bubble {
-    position: relative;
-    align-items: center;
-}
-
-#op-bubble p {
-    align-items: center;
-    padding-left: 3rem;
-    padding-top: 6px;
-    margin-top: 0rem;
-    margin-bottom: 0;
-}
-
-.dialogue-bubble::after {
-    content: '';
-    position: absolute;
-    bottom: -32px;
-    left: 50%;
-    border-width: 16px;
-    border-style: solid;
-    border-color: white transparent transparent transparent;
-    transform: translateX(-50%);
-}
-
-.dialogue-bubble::before {
-    content: '';
-    position: absolute;
-    bottom: -38px;
-    left: 50%;
-    border-width: 16px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.25) transparent transparent transparent;
-    transform: translateX(-50%);
-    z-index: -1;
-    filter: blur(4px);
-}
-
-.callout-button-container {
-    text-align: center;
-    margin-top: 2rem;
-}
-
-#join-waitlist-button {
-    background-color: var(--button-hover-color);
-    color: var(--md-primary-fg-color);
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border: 2px solid var(--md-primary-fg-color);
-    border-radius: 1rem;
-    font-size: 1.2rem;
-    display: block;
-}
-
-#join-waitlist-button:hover {
-    color: var(--button-hover-color);
-    background-color: var(--md-primary-fg-color);
-}
-
-.avatar {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    float: left;
-    margin-right: 10px;
-}
-
-@media screen and (min-width:76.25em) {
-    .mdx-hero__image {
-        transform: translateX(8rem);
-    }
-    .videos-wrapper {
-      flex-direction: row;
-      justify-content: space-around;
-    }
+  .carousel-progress-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
   
-    .video-container {
-      max-width: 45%;
-      margin-bottom: 0;
-    }
+  .carousel-progress-container {
+    padding: 2rem 0 1.5rem;
+  }
 }
 
-@media screen and (min-width:60em) {
-    .mdx-hero {
-        align-items: stretch;
-        display: flex;
-    }
+/* Carousel Desktop Responsiveness */
+@media screen and (min-width: 1025px) {
+  .mdx-carousel {
+    min-height: 550px;
+    gap: 4rem;
+  }
 
-    .mdx-hero__content {
-        margin-top: 3.5rem;
-        max-width: 19rem;
-        padding-bottom: 14vw;
-    }
-
-    .mdx-hero__image {
-        order: 1;
-        transform: translateX(4rem);
-        width: 38rem;
-    }
-
-    .product-close-up .product-close-up-content {
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .product-close-up .product-image, .product-close-up .product-description {
-        flex-basis: 50%;
-    }
-
-    .product-close-up .product-description {
-        padding-left: 2rem;
-        text-align: left;
-    }
-
-    .product-close-up .reverse-layout {
-        flex-direction: row-reverse;
-    }
-
-    .product-close-up .reverse-layout .product-description {
-        padding-left: 0;
-        padding-right: 2rem;
-    }
-
-    .icon-item img {
-        height: 60px;
-    }
+  .carousel-progress-wrapper {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .carousel-progress-container {
+    padding: 3rem 0 2rem;
+  }
+  
+  .carousel-content-left {
+    max-width: 600px;
+  }
+  
+  .carousel-content-right {
+    max-width: 650px;
+  }
 }
 
-@media screen and (max-width:60em) {
-    .mdx-hero {
-        display: block;
-    }
-
-    .mdx-hero__content {
-        margin-top: 1rem;
-        max-width: none;
-        padding-bottom: 2rem;
-        text-align: center;
-    }
-
-    .mdx-hero__content .image-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-        max-width: 90%;
-        margin: auto;
-    }
-
-    .mdx-hero__content img, 
-    .mdx-hero__content p, 
-    .mdx-hero__content a {
-        display: block;
-        margin: 0.2rem auto;
-        max-width: 100%;
-        font-size: 0.8rem;
-    }
-
-    .mdx-hero__image {
-        order: 0;
-        transform: none;
-        width: auto;
-        margin-bottom: 1rem;
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
-
-    .connection-row {
-        padding-bottom: 1rem;
-    }
-
-    .comparison-solution {
-        padding: var(--shared-padding-mobile);
-        padding-bottom: var(--shared-padding-mobile-bottom);
-    }
-
-    .comparison-solution .read-more-btn {
-        float: none;
-        display: block;
-        margin: 1rem auto 0;
-    }
-
-    .blog {
-        padding: var(--shared-padding-mobile);
-        padding-bottom: var(--shared-padding-mobile-bottom);
-    }
-
-    .blog .read-more-btn {
-        float: none;
-        display: block;
-        margin: 1rem auto 0;
-    }
-
-    .use-cases {
-        padding: var(--shared-padding-mobile);
-        padding-bottom: var(--shared-padding-mobile-bottom);
-    }
-
-    .use-cases .read-more-btn {
-        float: none;
-        display: block;
-        margin: 1rem auto 0;
-    }
-
-    .icon-section {
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-
-    .feature-dev-test {
-        padding: var(--shared-padding-mobile);
-        padding-bottom: var(--shared-padding-mobile-bottom);
-    }
-
-    .feature-dev-test .read-more-btn {
-        float: none;
-        display: block;
-        margin: 1rem auto 0;
-    }
-
-    .twitter-feed-section {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        padding-left: 0rem;
-        padding-right: 0rem;
-        overflow-x: auto;
-    }
-
-    .twitter-feed-section .twitter-posts {
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: normal;
-        overflow-x: auto;
-        scroll-snap-type: x proximity;
-    }
-
-    .twitter-feed-section .twitter-tweet {
-        flex: 0 0 80%;
-        scroll-snap-align: center;
-        margin-left: 10px;
-    }
-
-    .twitter-feed-section .twitter-posts::-webkit-scrollbar {
-        display: none;
-    }
-
-    .twitter-feed-section .read-more-btn {
-        float: none;
-        display: block;
-        margin: 1rem 1rem;
-    }
-
-    .icon-section {
-        padding: 2rem 0rem;
-    }
-
-    .dialogue-section {
-        padding: 0rem 0rem;
-    }
-
-    .dialogue-section-white {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        padding: 0rem 0rem;
-    }
-
-    .avatar {
-        margin-right: 0px;
-        width: 32px;
-        height: 32px;
-    }
-
-    .callout-button-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0rem;
-        justify-content: center;
-    }
-
-    .dialogue-bubble {
-        padding: 0.5rem 1rem;
-        margin: 1rem;
-    }
-
-    .dialogue-bubble p {
-        font-size: 0.9rem;
-    }
-
-    .dialogue-bubble::after {
-        bottom: -22px;
-        border-width: 12px;
-    }
-
-    #join-waitlist-button {
-        float: none;
-        display: block;
-        margin: 1rem auto 0;
-        font-size: 0.8rem;
-        margin-bottom: 0.5rem;
-    }
-
-    .icon-item img {
-        height: 40px;
-    }
+/* Large Desktop - Ensure balanced padding */
+@media screen and (min-width: 1400px) {
+  .carousel-progress-container {
+    padding: 3rem 0 2rem;
+  }
 }
+
+
 
 /* Update the Twitter Feed Styles for Markdown Pages */
 .twitter-feed-md {
@@ -1028,54 +710,6 @@
     }
 }
 
-.btngogoleplay {
-    color: white;
-    border-radius: 5px;
-    padding: 0;
-    margin-bottom: 0.75em;
-    text-decoration: none;
-    background-image: url('https://assets.openterface.com/images/appstore/Google_Play_Store.svg');
-    background-size: cover;
-    background-position: center;
-    display: inline-block;
-    width: 100%;
-    aspect-ratio: 4 / 1;
-}
-
-.btnappstore {
-    color: white;
-    border-radius: 5px;
-    padding: 0;
-    margin-bottom: 0.75em;
-    text-decoration: none;
-    background-image: url('https://assets.openterface.com/images/appstore/Download_on_the_Mac_App_Store.svg');
-    background-size: cover;
-    background-position: center;
-    display: inline-block;
-    width: 100%;
-    aspect-ratio: 4 / 1;
-}
-
-.btnflathub {
-    color: white;
-    border-radius: 5px;
-    padding: 0;
-    margin-bottom: 0.75em;
-    text-decoration: none;
-    background-image: url('https://assets.openterface.com/images/appstore/GetItOn_Flathub.svg');
-    background-size: cover;
-    background-position: center;
-    display: inline-block;
-    width: 100%;
-    aspect-ratio: 4 / 1;
-}
-
-.version-text {
-    color: #4a4a4a;
-    font-size: 1.1rem;
-    margin: 0.5rem 0;
-    font-weight: 500;
-}
 
 /* Slideshow styles */
 .slideshow-container {
@@ -1271,7 +905,7 @@ linux-download-columns {
     font-size: 2.8rem;
     font-weight: 900;
     margin: 0 0 0.25rem 0;
-    line-height: 1.1;
+    line-height: 1;
     white-space: nowrap;
     background: linear-gradient(45deg, var(--md-primary-fg-color), var(--md-accent-fg-color));
     background-clip: text;
@@ -1301,7 +935,7 @@ linux-download-columns {
     .slogan-text {
         font-size: 2rem;
         white-space: normal;
-        line-height: 1.2;
+        line-height: 1;
     }
     
     .slogan-subtitle {
@@ -1317,7 +951,7 @@ linux-download-columns {
     
     .slogan-text {
         font-size: 1.6rem;
-        line-height: 1.3;
+        line-height: 1;
     }
     
     .slogan-subtitle {

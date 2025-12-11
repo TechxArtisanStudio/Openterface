@@ -1,294 +1,183 @@
 {% extends "main.html" %}
 
+{% block extrahead %}
+  {{ super() }}
+  <script>
+    // Add class to body to identify homepage (run immediately)
+    (function() {
+      if (document.body) {
+        document.body.classList.add('homepage');
+      } else {
+        // Fallback if body doesn't exist yet
+        document.addEventListener('DOMContentLoaded', function() {
+          document.body.classList.add('homepage');
+        });
+      }
+    })();
+  </script>
+{% endblock %}
+
 {% block tabs %}
   {{ super() }}
 
-  <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
-
-  <section class="mdx-container">
-    <div class="md-grid md-typeset">
-      <div class="mdx-hero">
-        <div class="mdx-hero__image">
-          <img src="https://assets.openterface.com/images/cover.webp" alt="" width="1659" height="1200" draggable="false">
-        </div>
-        <div class="mdx-hero__content">
-          <div class="image-container">
-            <img src="https://assets.openterface.com/images/openterface-mini-kvm-v1-9-s.webp" alt="Openterface Mini-KVM 产品" width="460" draggable="false">
+  <section class="mdx-carousel-container">
+    <div class="mdx-carousel-wrapper">
+      <!-- Main Carousel Content -->
+      <div class="mdx-carousel" id="mdx-carousel" role="region" aria-label="Featured highlights carousel" data-autoplay="true" data-interval="6000">
+        
+        <!-- Slide 1: KVM-GO 系列 -->
+        <div class="carousel-slide carousel-slide--active" data-slide-index="1">
+          <div class="carousel-content-left">
+            <div class="carousel-category" data-i18n="home.series-kvm-go">KVM-GO 系列</div>
+            <h1 class="carousel-headline" data-i18n="home.kvm-go-headline">超迷你便携式 KVM，可随身挂在钥匙扣上</h1>
+            <p class="carousel-description" data-i18n="home.kvm-go-description">
+              专为随身携带而设计，让你在关键时刻迅速完成 IT 操作。这是一款面向现场运维的下一代 USB-KVM 小工具。
+            </p>
+            <div class="carousel-actions">
+              <a href="https://www.crowdsupply.com/techxartisan/openterface-kvm-go" class="md-button md-button--primary carousel-btn-preorder" data-i18n="home.crowdfunding-now" target="_blank" rel="noopener noreferrer">
+                参与众筹
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 140 140" class="carousel-btn-icon">
+                  <path d="M 68.3,9.7 8,70 68.3,130.3 Z" fill="#555" />
+                  <path d="M 71.7,9.7 V 130.3 L 132,70 Z" fill="#099" />
+                  <path d="m 90.7,91 c -6.6,0 -11.8,-3.6 -14,-12 l 8,-1.7 c 0.9,5.1 3.9,7 6.3,7 2.8,0 5,-1.9 5,-5.1 0,-8 -18.2,-8.2 -18.2,-20.1 0,-7.3 4.4,-12 12.8,-12 7.3,0 11.7,4.3 13.1,10.4 l -7.3,2.1 c -1.4,-4 -3.1,-5.7 -6,-5.7 -2.9,0 -4.5,1.8 -4.5,4.7 0,6.4 18.2,6.9 18.2,20.3 0.2,7.2 -4.9,12.1 -13.4,12.1 z" fill="#FFF" />
+                  <path d="m 60.7,63.9 h -8.2 v -3.6 c 0,-4.7 -2.1,-6 -5.3,-6 -3.2,0 -5.3,1.3 -5.3,6 v 17.4 c 0,4.7 2.1,6 5.3,6 3.2,0 5.3,-1.3 5.3,-6 v -3.8 h 8.2 v 2.7 c 0,10.5 -5.6,14.3 -13.5,14.3 -7.9,0 -13.5,-3.8 -13.5,-14.3 V 61.4 c 0,-10.5 5.6,-14.3 13.5,-14.3 7.9,0 13.5,3.8 13.5,14.3 z" fill="#FFF" />
+                </svg>
+              </a>
+              <div class="carousel-countdown" id="kvm-go-countdown"></div>
+            </div>
           </div>
-          <a href="{{ config.extra.minikvm_purchase_link | url }}" title="现在购买！" class="md-button md-button--primary" data-i18n="home.mini-kvm">
-            <span data-i18n="home.mini-kvm-btn">Mini-KVM</span><img src="https://assets.openterface.com/images/trademark/crowd-supply.svg" alt="Crowd Supply" style="vertical-align: middle; height: 26px;">
-          </a>
-          <a href="/zh/product/uconsole-kvm-extension/" 
-            title="预购" 
-            class="md-button" 
-            style="background-color: #ff4500; color: #fff; font-weight: bold; border: 2px solid #ff4500; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); animation: pulse 1.5s infinite;" 
-            data-i18n="home.uconsole-preorder">
-            uConsole KVM 扩展
-          </a>
-          <p data-i18n="home.uconsole-comingsoon">
-            现已开放预购：<strong data-i18n="home.openterfacekvmext">Openterface KVM 扩展 for uConsole</strong> – 将您的 uConsole 变成便携式 KVM 控制台！
-          </p>
+          <div class="carousel-content-right">
+            <img src="{{ 'assets/images/kvm-go-triple.png' | url }}" alt="KVM-GO 系列" loading="eager" draggable="false" fetchpriority="high">
+          </div>
+        </div>
+
+        <!-- Slide 2: Mini-KVM -->
+        <div class="carousel-slide" data-slide-index="2">
+          <div class="carousel-content-left">
+            <div class="carousel-category" data-i18n="home.series-mini-kvm">Mini-KVM 系列</div>
+            <h1 class="carousel-headline" data-i18n="home.mini-kvm-headline">为专业人士打造的紧凑型 KVM 方案</h1>
+            <p class="carousel-description" data-i18n="home.mini-kvm-description">
+              一款紧凑、功能丰富、开源的 USB-KVM 解决方案，帮助你轻松处理各种临时 IT 任务与故障排查。
+            </p>
+            <div class="carousel-actions">
+              <a href="{{ config.extra.minikvm_purchase_link | url }}" class="md-button md-button--primary carousel-btn-secondary" data-i18n="home.order-now" target="_blank" rel="noopener noreferrer">
+                立即购买
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 140 140" class="carousel-btn-icon">
+                  <path d="M 68.3,9.7 8,70 68.3,130.3 Z" fill="#555" />
+                  <path d="M 71.7,9.7 V 130.3 L 132,70 Z" fill="#099" />
+                  <path d="m 90.7,91 c -6.6,0 -11.8,-3.6 -14,-12 l 8,-1.7 c 0.9,5.1 3.9,7 6.3,7 2.8,0 5,-1.9 5,-5.1 0,-8 -18.2,-8.2 -18.2,-20.1 0,-7.3 4.4,-12 12.8,-12 7.3,0 11.7,4.3 13.1,10.4 l -7.3,2.1 c -1.4,-4 -3.1,-5.7 -6,-5.7 -2.9,0 -4.5,1.8 -4.5,4.7 0,6.4 18.2,6.9 18.2,20.3 0.2,7.2 -4.9,12.1 -13.4,12.1 z" fill="#FFF" />
+                  <path d="m 60.7,63.9 h -8.2 v -3.6 c 0,-4.7 -2.1,-6 -5.3,-6 -3.2,0 -5.3,1.3 -5.3,6 v 17.4 c 0,4.7 2.1,6 5.3,6 3.2,0 5.3,-1.3 5.3,-6 v -3.8 h 8.2 v 2.7 c 0,10.5 -5.6,14.3 -13.5,14.3 -7.9,0 -13.5,-3.8 -13.5,-14.3 V 61.4 c 0,-10.5 5.6,-14.3 13.5,-14.3 7.9,0 13.5,3.8 13.5,14.3 z" fill="#FFF" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="carousel-content-right">
+            <img data-src="{{ 'assets/images/mini-kvm-toolkit.png' | url }}" alt="Openterface Mini-KVM" loading="lazy" draggable="false" class="carousel-lazy-image">
+          </div>
+        </div>
+
+        <!-- Slide 3: uConsole KVM Extension -->
+        <div class="carousel-slide" data-slide-index="3">
+          <div class="carousel-content-left">
+            <div class="carousel-category" data-i18n="home.series-uconsole">uConsole 扩展系列</div>
+            <h1 class="carousel-headline" data-i18n="home.uconsole-headline">让你的 uConsole 变身便携式 KVM 控制台</h1>
+            <p class="carousel-description" data-i18n="home.uconsole-description">
+              让 uConsole 直接成为便携式 KVM 控制台——现已开放 Openterface KVM uConsole 扩展板的预售，一体化便携方案。
+            </p>
+            <div class="carousel-actions">
+              <a href="https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole" class="md-button md-button--primary carousel-btn-secondary" data-i18n="home.order-now" target="_blank" rel="noopener noreferrer">
+                立即购买
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" class="carousel-btn-icon">
+                  <path fill="#faa22c" d="M166.32,10H33.68A23.68,23.68,0,0,0,10,33.68V166.32A23.68,23.68,0,0,0,33.68,190H166.32A23.68,23.68,0,0,0,190,166.32V33.68A23.68,23.68,0,0,0,166.32,10ZM150.21,79H134.55l-21.4,21.4L133.82,121h16.39v29.18H121V134.56l-21-21-21,21v15.66H49.79V121H66.17l20.67-20.66L65.44,79H49.79V49.79H79V66.18l21,21,21-21V49.79h29.18Z"/>
+                  <path fill="#211e1f" d="M150.21,79V49.79H121V66.17l-21,21-21-21V49.79H49.79V79H65.44l21.4,21.4L66.17,121H49.79v29.18H79V134.55l21-21,21,21v15.65h29.18V121H133.82l-20.67-20.66L134.55,79ZM100,106.21h0L73.73,132.48a9.79,9.79,0,0,1,.5,3.08,9.92,9.92,0,1,1-9.92-9.91,9.81,9.81,0,0,1,3.27.56L93.79,100,67.05,73.26a9.91,9.91,0,1,1,7.18-9.53,9.73,9.73,0,0,1-.69,3.6L106.21,100Z"/>
+                  <path fill="#f9f9fa" d="M100,106.21l6.21-6.21L73.54,67.33a9.73,9.73,0,0,0,.69-3.6,9.94,9.94,0,1,0-7.18,9.53L93.79,100,67.58,126.21a9.81,9.81,0,0,0-3.27-.56,9.91,9.91,0,1,0,9.92,9.91,9.79,9.79,0,0,0-.5-3.08L100,106.21Z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="carousel-content-right">
+            <img data-src="{{ 'assets/images/uconsole.webp' | url }}" alt="uConsole KVM Extension" loading="lazy" draggable="false" class="carousel-lazy-image">
+          </div>
+        </div>
+
+        <!-- Slide 4: TxA 商店 - Accessories -->
+        <div class="carousel-slide" data-slide-index="4">
+          <div class="carousel-content-left">
+            <div class="carousel-category" data-i18n="home.series-txa-shop">TxA 商店</div>
+            <h1 class="carousel-headline" data-i18n="home.txa-shop-headline">用高品质配件完善你的整套方案</h1>
+            <p class="carousel-description" data-i18n="home.txa-shop-description">
+              探索我们精选的专业配件，包括视频适配器、高速线材及存储方案。用高品质配件全面提升你的 Openterface 体验。
+            </p>
+            <div class="carousel-actions">
+              <a href="/product/accessories/" class="md-button md-button--primary carousel-btn-secondary" data-i18n="home.shop-now">
+                立即选购
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" class="carousel-btn-icon">
+                  <path fill="#faa22c" d="M166.32,10H33.68A23.68,23.68,0,0,0,10,33.68V166.32A23.68,23.68,0,0,0,33.68,190H166.32A23.68,23.68,0,0,0,190,166.32V33.68A23.68,23.68,0,0,0,166.32,10ZM150.21,79H134.55l-21.4,21.4L133.82,121h16.39v29.18H121V134.56l-21-21-21,21v15.66H49.79V121H66.17l20.67-20.66L65.44,79H49.79V49.79H79V66.18l21,21,21-21V49.79h29.18Z"/>
+                  <path fill="#211e1f" d="M150.21,79V49.79H121V66.17l-21,21-21-21V49.79H49.79V79H65.44l21.4,21.4L66.17,121H49.79v29.18H79V134.55l21-21,21,21v15.65h29.18V121H133.82l-20.67-20.66L134.55,79ZM100,106.21h0L73.73,132.48a9.79,9.79,0,0,1,.5,3.08,9.92,9.92,0,1,1-9.92-9.91,9.81,9.81,0,0,1,3.27.56L93.79,100,67.05,73.26a9.91,9.91,0,1,1,7.18-9.53,9.73,9.73,0,0,1-.69,3.6L106.21,100Z"/>
+                  <path fill="#f9f9fa" d="M100,106.21l6.21-6.21L73.54,67.33a9.73,9.73,0,0,0,.69-3.6,9.94,9.94,0,1,0-7.18,9.53L93.79,100,67.58,126.21a9.81,9.81,0,0,0-3.27-.56,9.91,9.91,0,1,0,9.92,9.91,9.79,9.79,0,0,0-.5-3.08L100,106.21Z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="carousel-content-right">
+            <img data-src="https://assets.openterface.com/images/cover.webp" alt="TxA 商店 Accessories" loading="lazy" draggable="false" class="carousel-lazy-image">
+          </div>
+        </div>
+      </div>
+
+      <!-- Progress Bars Indicator -->
+      <div class="carousel-progress-container">
+        <div class="carousel-progress-wrapper">
+          <!-- Slide 1 Progress -->
+          <div class="progress-item" data-slide="1">
+            <div class="progress-bar-wrapper">
+              <div class="progress-bar progress-bar--active" id="progress-1"></div>
+            </div>
+            <div class="progress-labels">
+              <div class="progress-label-small" id="label-small-1" data-i18n="home.series-kvm-go">KVM-GO 系列</div>
+              <div class="progress-label-large" id="label-large-1" data-i18n="home.kvm-go-headline">超迷你便携式 KVM，可随身挂在钥匙扣上</div>
+            </div>
+          </div>
+
+          <!-- Slide 2 Progress -->
+          <div class="progress-item" data-slide="2">
+            <div class="progress-bar-wrapper">
+              <div class="progress-bar" id="progress-2"></div>
+            </div>
+            <div class="progress-labels">
+              <div class="progress-label-small" id="label-small-2" data-i18n="home.series-mini-kvm">Mini-KVM 系列</div>
+              <div class="progress-label-large" id="label-large-2" data-i18n="home.mini-kvm-headline">为专业人士打造的紧凑型 KVM 方案</div>
+            </div>
+          </div>
+
+          <!-- Slide 3 Progress -->
+          <div class="progress-item" data-slide="3">
+            <div class="progress-bar-wrapper">
+              <div class="progress-bar" id="progress-3"></div>
+            </div>
+            <div class="progress-labels">
+              <div class="progress-label-small" id="label-small-3" data-i18n="home.series-uconsole">uConsole 扩展系列</div>
+              <div class="progress-label-large" id="label-large-3" data-i18n="home.uconsole-headline">让你的 uConsole 变身便携式 KVM 控制台</div>
+            </div>
+          </div>
+
+          <!-- Slide 4 Progress -->
+          <div class="progress-item" data-slide="4">
+            <div class="progress-bar-wrapper">
+              <div class="progress-bar" id="progress-4"></div>
+            </div>
+            <div class="progress-labels">
+              <div class="progress-label-small" id="label-small-4" data-i18n="home.series-txa-shop">TxA 商店</div>
+              <div class="progress-label-large" id="label-large-4" data-i18n="home.txa-shop-headline">用高品质配件完善你的整套方案</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
-
-  <section class="dialogue-section-white" id="app">
-    <div class="slideshow-container" id="slideshow-minikvm" data-auto-slide="true" data-auto-slide-interval="3000">
-      <div class="slideshow-wrapper">
-        <div class="slide active">
-          <img src="https://assets.openterface.com/images/product/use-case-demo-industrial-pc.webp" alt="Industrie-PC" loading="lazy" draggable="false">
-        </div>
-        <div class="slide">
-          <img src="https://assets.openterface.com/images/product/use-case-demo-respberry-pi.webp" alt="Raspberry Pi" loading="lazy" draggable="false" data-i18n="home.slide-raspberry-pi-alt">
-        </div>
-        <div class="slide">
-          <img src="https://assets.openterface.com/images/product/use-case-demo-pc-bios-1.webp" alt="PC BIOS" loading="lazy" draggable="false" data-i18n="home.slide-pc-bios-alt">
-        </div>
-        <div class="slide">
-          <img src="https://assets.openterface.com/images/product/use-case-demo-macbookpro2010.webp" alt="MacBook Pro 2010" loading="lazy" draggable="false">
-        </div>
-        <div class="slide">
-          <img src="https://assets.openterface.com/images/product/use-case-demo-macmini2009-3.webp" alt="Mac Mini 2009" loading="lazy" draggable="false">
-        </div>
-      </div>
-      
-      <!-- Navigation with dots (hidden) -->
-      <div class="slideshow-navigation" style="display: none;">
-        <button class="nav-arrow left" onclick="changeSlide('slideshow-minikvm', -1)">❮</button>
-        <div class="slideshow-dots">
-          <span class="dot active" onclick="currentSlide('slideshow-minikvm', 1)"></span>
-          <span class="dot" onclick="currentSlide('slideshow-minikvm', 2)"></span>
-          <span class="dot" onclick="currentSlide('slideshow-minikvm', 3)"></span>
-          <span class="dot" onclick="currentSlide('slideshow-minikvm', 4)"></span>
-          <span class="dot" onclick="currentSlide('slideshow-minikvm', 5)"></span>
-        </div>
-        <button class="nav-arrow right" onclick="changeSlide('slideshow-minikvm', 1)">❯</button>
-      </div>
-    </div>
-
-    <section class="icon-section" id="icon">
-      <div class="icon-container">
-          <div class="icon-grid">
-              <div class="icon-item">
-                <img src="https://assets.openterface.com/images/feature-icons/icon-plug-and-play.svg#only-light" alt="即插即用图标">
-                <img src="https://assets.openterface.com/images/feature-icons/icon-plug-and-play-d.svg#only-dark" alt="即插即用图标">
-                <p data-i18n="home.pnp">即插即用</p>
-              </div>
-              <div class="icon-item">
-                  <img src="https://assets.openterface.com/images/feature-icons/icon-bios-access.svg#only-light" alt="BIOS 访问图标">
-                  <img src="https://assets.openterface.com/images/feature-icons/icon-bios-access-d.svg#only-dark" alt="BIOS 访问图标">
-                  <p data-i18n="home.biosaccess">BIOS 访问</p>
-              </div>
-              <div class="icon-item">
-                  <img src="https://assets.openterface.com/images/feature-icons/icon-network-free.svg#only-light" alt="无需网络图标">
-                  <img src="https://assets.openterface.com/images/feature-icons/icon-network-free-d.svg#only-dark" alt="无需网络图标">
-                  <p data-i18n="home.networkfree">无需网络</p>
-              </div>
-              <div class="icon-item">
-                  <img src="https://assets.openterface.com/images/feature-icons/icon-text-transfer.svg#only-light" alt="文本传输图标">
-                  <img src="https://assets.openterface.com/images/feature-icons/icon-text-transfer-d.svg#only-dark" alt="文本传输图标">
-                  <p data-i18n="home.texttransfer">文本传输</p>
-              </div>
-              <div class="icon-item">
-                  <img src="https://assets.openterface.com/images/feature-icons/icon-usb-switch.svg#only-light" alt="USB 切换图标">
-                  <img src="https://assets.openterface.com/images/feature-icons/icon-usb-switch-d.svg#only-dark" alt="USB 切换图标">
-                  <p data-i18n="home.usbswitch">USB 切换</p>
-              </div>
-              <div class="icon-item">
-                <img src="https://assets.openterface.com/images/feature-icons/icon-more.svg#only-light" alt="更多图标">
-                <img src="https://assets.openterface.com/images/feature-icons/icon-more-d.svg#only-dark" alt="更多图标">
-                <p data-i18n="home.and"><a href="/zh/product/minikvm/features" style="color: var(--md-primary-fg-color);" data-i18n="home.more">更多</a>功能。</p>
-            </div>
-          </div>
-      </div>
-    </section>
-
-    <section class="product-close-up" id="product-close-up">
-      <div class="container">
-        <div class="product-close-up-content reverse-layout">
-          <div class="product-image">
-            <img src="https://assets.openterface.com/images/product/toolkit-open.webp" alt="预发布海报" loading="lazy">
-          </div>
-          <div class="product-description">
-            <p data-i18n="home.elevateyourtech">用 Openterface Mini-KVM 提升您的技术工具包：<br> <strong data-i18n="home.compact-featurerich">一款紧凑、功能丰富的开源 KVM-over-USB</strong> 解决方案，让您的技术生活更简单，轻松处理 IT 任务和故障排除。</p>
-            <p data-i18n="home.turnyourlaptop"> <strong data-i18n="home.saygoodby">告别额外的显示器、键盘和鼠标！</strong> 将您的笔记本电脑变成智能 KVM 控制台，通过 HDMI 和 USB 控制任何无头设备。</p>
-            <p class="more-link"><a href="/zh/use-cases/" style="color: var(--md-primary-fg-color);" data-i18n="home.exploremore">探索更多使用场景 →</a></p>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <div class="callout-button-container">
-      <!-- Windows -->
-      <div class="dialogue-bubble" id="op-bubble">
-        <div>
-          <img src="https://assets.openterface.com/images/trademark/win.svg" alt="头像" class="avatar" draggable="false">
-          <p data-i18n="home.windows">Windows</p>
-        </div>
-        <h3 class="version-text">Latest: {{ config.extra.qt_version }} | Stable: {{ config.extra.qt_linux_stable }}</h3>
-        <div class="platform-download" data-platform="windows">
-          <div class="download-controls">
-            <div class="version-selector">
-              <select id="windows-version-select" class="version-dropdown">
-                <option value="latest">Latest ({{ config.extra.qt_version }})</option>
-                <option value="stable" selected>Stable ({{ config.extra.qt_linux_stable }})</option>
-              </select>
-            </div>
-            <a id="windows-main-download" href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_linux_stable }}/openterfaceQT_windows_amd64_installer.exe" class="big-download-btn windows md-button md-button--primary" data-i18n="home.downloadinstaller">
-            <span data-i18n="home.downloadinstaller-btn">下载安装程序</span>
-            </a>
-          </div>
-          <div class="format-selector">
-            <span class="format-option selected"
-              data-href-latest="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT_windows_amd64_installer.exe"
-              data-href-stable="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_linux_stable }}/openterfaceQT_windows_amd64_installer.exe"
-              data-label="安装程序" data-i18n="home.installer">安装程序</span>
-            <span class="format-option"
-              data-href-latest="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT_windows_amd64_portable.exe"
-              data-href-stable="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_linux_stable }}/openterfaceQT_windows_amd64_portable.exe"
-              data-label="便携版 EXE" data-i18n="home.portableexe">便携版 EXE</span>
-            <span class="format-option"
-              data-href="https://github.com/TechxArtisanStudio/Openterface_QT"
-              data-label="源代码" data-i18n="home.sourcecode">源代码</span>
-          </div>
-        </div>
-      </div>
-      <!-- macOS -->
-      <div class="dialogue-bubble" id="op-bubble">
-        <div>
-          <img src="https://assets.openterface.com/images/trademark/app-store.svg" alt="头像" class="avatar" draggable="false" style="margin-bottom: 8px;">
-          <p data-i18n="home.macos">macOS</p>
-        </div>
-        <h3 class="version-text" data-i18n="home.macos_version">{{ config.extra.macos_version }}</h3>
-        <div class="platform-download" data-platform="macos">
-          <a id="macos-main-download" href="/appstore" class="btnappstore md-button md-button--primary" data-i18n="home.downloadappstore">
-            <span data-i18n="home.downloadappstore-btn">从 App Store 下载</span>
-          </a>
-          <div class="format-selector">
-            <span class="format-option selected"
-              data-href="/appstore"
-              data-label="App Store"
-              data-i18n="home.appstore">App Store</span>
-            <span class="format-option"
-              data-href="https://github.com/TechxArtisanStudio/Openterface_QT"
-              data-label="源代码"
-              data-i18n="home.sourcecode">源代码</span>
-          </div>
-        </div>
-      </div>
-      <!-- Linux -->
-      <div class="dialogue-bubble" id="op-bubble">
-        <div>
-          <img src="https://assets.openterface.com/images/trademark/linux.svg" alt="头像" class="avatar" draggable="false">
-          <p data-i18n="home.linux">Linux</p>
-        </div>
-        <h3 class="version-text">Latest: {{ config.extra.qt_version }} | Stable: {{ config.extra.qt_linux_stable }}</h3>
-        <div class="platform-download" data-platform="linux">
-          <div class="download-controls">
-            <div class="version-selector">
-              <select id="linux-version-select" class="version-dropdown">
-                <option value="latest">Latest ({{ config.extra.qt_version }})</option>
-                <option value="stable" selected>Stable ({{ config.extra.qt_linux_stable }})</option>
-              </select>
-            </div>
-            <a id="linux-main-download" href="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_linux_stable }}/openterfaceQT_linux_amd64.deb" class="big-download-btn linux md-button md-button--primary" data-i18n="home.downloadamd64deb">
-            <span data-i18n="home.downloadamd64deb-btn">下载 AMD64 DEB</span>
-          </a>
-          </div>
-          <div class="format-selector linux-format-selector">
-            <div>
-              <span class="format-option selected"
-                data-href-latest="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT_linux_amd64.deb"
-                data-href-stable="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_linux_stable }}/openterfaceQT_linux_amd64.deb"
-                data-label="AMD64 DEB" data-i18n="home.amd64deb">AMD64 DEB</span>
-              <span class="format-option"
-                data-href-latest="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT_linux_amd64.rpm"
-                data-href-stable="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_linux_stable }}/openterfaceQT_linux_amd64.rpm"
-                data-label="AMD64 RPM" data-i18n="home.amd64rpm">AMD64 RPM</span>
-              <span class="format-option"
-                data-href-latest="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT_linux_amd64.AppImage"
-                data-href-stable="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_linux_stable }}/openterfaceQT_linux_amd64.AppImage"
-                data-label="AMD64 AppImage" data-i18n="home.amd64appimage">AMD64 AppImage</span>
-            </div>
-            <div>
-              <span class="format-option"
-                data-href-latest="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT_linux_arm64.deb"
-                data-href-stable="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_linux_stable }}/openterfaceQT_linux_arm64.deb"
-                data-label="ARM64 DEB" data-i18n="home.arm64deb">ARM64 DEB</span>
-              <span class="format-option"
-                data-href-latest="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_version }}/openterfaceQT_linux_arm64.AppImage"
-                data-href-stable="https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/{{ config.extra.qt_linux_stable }}/openterfaceQT_linux_arm64.AppImage"
-                data-label="ARM64 AppImage" data-i18n="home.arm64appimage">ARM64 AppImageå</span>
-              <span class="format-option"
-                data-href-latest="/flathub"
-                data-href-stable="/flathub"
-                data-label="FlatHub" data-i18n="home.flathub">FlatHub</span>
-            </div>
-            <div>
-              <span class="format-option"
-                data-href="https://github.com/TechxArtisanStudio/Openterface_QT"
-                data-label="源代码" data-i18n="home.sourcecode">源代码</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Android -->
-      <div class="dialogue-bubble" id="op-bubble">
-        <div>
-          <img src="https://assets.openterface.com/images/trademark/android.svg" alt="头像" class="avatar" draggable="false">
-          <p data-i18n="home.android">Android</p>
-        </div>
-        <h3 class="version-text">{{ config.extra.android_version }}</h3>
-        <div class="platform-download" data-platform="android">
-          <a id="android-main-download" href="/playstore" class="btngogoleplay md-button md-button--primary" data-i18n="home.downloadplaystore"></a>
-          <div class="format-selector">
-            <span class="format-option selected"
-              data-href="/playstore"
-              data-label="Play Store"
-              data-i18n="home.playstore">Play Store</span>
-            <span class="format-option"
-              data-href="https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{ config.extra.android_version }}/OpenterfaceAndroid-release.apk"
-              data-label="APK"
-              data-i18n="home.apk">APK</span>
-            <span class="format-option"
-              data-href="https://github.com/TechxArtisanStudio/Openterface_Android"
-              data-label="源代码"
-              data-i18n="home.sourcecode">源代码</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <p data-i18n="home.andmore">以及<a href="/zh/app" style="color: var(--md-primary-fg-color);" data-i18n="home.more">更多</a>。</p>
-  </section>
-
-  <section class="feature-dev-test" id="feature-dev-test">
-    <div class="container">
-      <h2 data-i18n="home.productreview">产品评测</h2>
-      <div class="videos-wrapper">
-        <div class="video-container">
-          <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/ZZ5P6MnBcHw?si=Ny7OUeid4Wnu_YqV" title="介绍视频" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen data-i18n="home.introvideo"></iframe>
-        </div>
-        <div class="video-container">
-          <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/sKDYsKBv90A?si=6Zr71Mabpu1688w6" title="Windows 测试版应用" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen data-i18n="home.betawindows"></iframe>
-        </div>
-        <div class="video-container">
-          <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/l5e1wHwZ__c?si=KDTVPeb8fnzvJQiA" title="产品评测" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen data-i18n="home.productreviewvideo"></iframe>
-        </div>
-      </div>
-      <p data-i18n="home.andmore-reviews">以及<a href="/zh/product/minikvm/reviews/youtube/" style="color: #e0e0e0;" data-i18n="home.more">更多</a>。</p>
-    </div>
-  </section>
-
-  <!-- Gibby Avatar and Dialogue Box -->
-  <div class="gibby-container">
-    <a href="#" class="gibby-link" id="gibby-avatar-link"><img src="https://assets.openterface.com/images/op-avatar.webp" alt="Gibby 吉祥物" class="gibby-avatar" draggable="false" aria-label="Gibby 吉祥物"></a>
-    <div class="gibby-dialogue">
-      <p data-i18n="home.subscribenow"><a href="#" class="gibby-link" id="gibby-text-link" data-i18n="home.subscribenow-link">立即订阅！</a></p>
-    </div>
-  </div>
 
   <a rel="me" href="https://mastodon.social/@youyoubilly" style="display:none;" data-i18n="home.mastodon">Mastodon</a>
+
 {% endblock %}
 
 {% block content %}{% endblock %}
