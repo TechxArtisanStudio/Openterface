@@ -159,6 +159,7 @@ body.homepage .md-content {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
+  border-radius: 0.2rem;
 }
 
 .carousel-actions .md-button--primary {

@@ -436,7 +436,7 @@ function initCountdown() {
     const distance = targetDate - now;
     
     if (distance < 0) {
-      countdownElement.textContent = 'Crowdfunding has ended';
+      countdownElement.style.display = 'none';
       return;
     }
     
@@ -445,11 +445,11 @@ function initCountdown() {
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     
     if (days > 0) {
+      countdownElement.style.display = '';
       countdownElement.textContent = `${days} day${days !== 1 ? 's' : ''} left until Dec 30, 2025`;
-    } else if (hours > 0) {
-      countdownElement.textContent = `${hours} hour${hours !== 1 ? 's' : ''} left until Dec 30, 2025`;
     } else {
-      countdownElement.textContent = `${minutes} minute${minutes !== 1 ? 's' : ''} left until Dec 30, 2025`;
+      // Hide countdown when days reach 0
+      countdownElement.style.display = 'none';
     }
   }
   
