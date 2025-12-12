@@ -236,6 +236,43 @@ body.homepage .md-content {
   min-height: 400px;
   max-width: 600px;
   min-width: 0;
+  position: relative;
+  overflow: visible;
+}
+
+/* Radial gradient effect under image for slide 1 when button is hovered */
+.carousel-slide[data-slide-index="1"]:has(.carousel-btn-preorder:hover) .carousel-content-right::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120%;
+  height: 120%;
+  min-width: 500px;
+  min-height: 500px;
+  background: radial-gradient(ellipse at center, rgba(255, 107, 53, 0.4) 0%, rgba(255, 107, 53, 0.2) 40%, transparent 70%);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.carousel-slide[data-slide-index="1"] .carousel-content-right::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120%;
+  height: 120%;
+  min-width: 500px;
+  min-height: 500px;
+  background: radial-gradient(ellipse at center, rgba(255, 107, 53, 0.4) 0%, rgba(255, 107, 53, 0.2) 40%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+  pointer-events: none;
 }
 
 @keyframes slideInRight {
@@ -255,6 +292,8 @@ body.homepage .md-content {
   object-fit: contain;
   max-height: 400px;
   transition: opacity 0.3s ease;
+  position: relative;
+  z-index: 1;
 }
 
 /* Lazy loading styles for carousel images */
@@ -445,6 +484,21 @@ body.homepage .md-content {
 
   .carousel-progress-container {
     padding: 2rem 2rem 1.5rem;
+  }
+
+  /* Adjust gradient size on mobile to prevent clipping by progress container */
+  .carousel-slide[data-slide-index="1"]:has(.carousel-btn-preorder:hover) .carousel-content-right::after {
+    width: 100%;
+    height: 100%;
+    min-width: auto;
+    min-height: auto;
+  }
+
+  .carousel-slide[data-slide-index="1"] .carousel-content-right::after {
+    width: 100%;
+    height: 100%;
+    min-width: auto;
+    min-height: auto;
   }
 }
 
