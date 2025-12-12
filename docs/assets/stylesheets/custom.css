@@ -1040,6 +1040,33 @@ body.homepage .md-content {
     color: var(--md-accent-fg-color);
 }
 
+/* Language reminder styles */
+.gibby-dialogue.lang-reminder-active {
+    display: block !important;
+}
+
+.gibby-dialogue .lang-switch-btn {
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.gibby-dialogue .lang-switch-btn:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+    text-decoration: none;
+}
+
+.gibby-dialogue .lang-stay-btn {
+    transition: opacity 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
+    font-family: inherit;
+}
+
+.gibby-dialogue .lang-stay-btn:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+    background-color: var(--md-default-fg-color);
+    color: var(--md-default-bg-color);
+}
+
 /* Animation for dialogue box appearance */
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(10px); }
@@ -1064,6 +1091,11 @@ body.homepage .md-content {
     .gibby-dialogue p {
         font-size: 0.85rem;
     }
+    .gibby-dialogue .lang-switch-btn,
+    .gibby-dialogue .lang-stay-btn {
+        font-size: 0.8rem;
+        padding: 5px 12px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -1082,6 +1114,11 @@ body.homepage .md-content {
     }
     .gibby-dialogue p {
         font-size: 0.8rem;
+    }
+    .gibby-dialogue .lang-switch-btn,
+    .gibby-dialogue .lang-stay-btn {
+        font-size: 0.75rem;
+        padding: 4px 10px;
     }
 }
 
