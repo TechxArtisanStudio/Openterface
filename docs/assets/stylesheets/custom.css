@@ -213,6 +213,65 @@ body.homepage .md-content {
   color: #fff !important;
 }
 
+.carousel-btn-xmas {
+  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 50%, #dc2626 100%) !important;
+  background-size: 200% 200% !important;
+  border: 2px solid #dc2626 !important;
+  color: #fff !important;
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  animation: xmasShimmer 3s ease-in-out infinite;
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.4), 0 0 20px rgba(220, 38, 38, 0.2) !important;
+}
+
+.carousel-btn-xmas::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent 30%,
+    rgba(255, 255, 255, 0.3) 50%,
+    transparent 70%
+  );
+  animation: xmasSparkle 2s linear infinite;
+}
+
+.carousel-btn-xmas:hover {
+  background: linear-gradient(135deg, #b91c1c 0%, #991b1b 50%, #b91c1c 100%) !important;
+  background-size: 200% 200% !important;
+  border-color: #991b1b !important;
+  color: #fff !important;
+  box-shadow: 0 6px 20px rgba(220, 38, 38, 0.6), 0 0 30px rgba(220, 38, 38, 0.4) !important;
+  transform: translateY(-2px);
+}
+
+.carousel-btn-xmas:hover::before {
+  animation-duration: 1s;
+}
+
+@keyframes xmasShimmer {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes xmasSparkle {
+  0% {
+    transform: translateX(-100%) translateY(-100%) rotate(45deg);
+  }
+  100% {
+    transform: translateX(100%) translateY(100%) rotate(45deg);
+  }
+}
+
 .carousel-btn-comingsoon {
   opacity: 0.6;
   cursor: not-allowed;
