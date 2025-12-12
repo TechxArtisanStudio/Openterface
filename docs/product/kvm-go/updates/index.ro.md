@@ -13,3 +13,8 @@
 - 2025-10-07: [🚀 Lotul Beta KVM-Go HDMI în curs de livrare!](251007-kvm-go-beta-test-kits-sent-1.ro.md)
 - 2025-09-12: [Prezentarea Seriei Openterface KVM-Go - Anunț de Pre-Lansare!](250912-kvm-go-beta-testing-invitation.ro.md)
 
+---
+
+## Micro Postări
+
+{% include "partials/kvm-go-micro-posts.html" %}

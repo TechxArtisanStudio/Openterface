@@ -13,3 +13,8 @@
 - 2025-10-07: [🚀 KVM-Go HDMI Beta批次正在发货！](251007-kvm-go-beta-test-kits-sent-1.zh.md)
 - 2025-09-12: [介绍Openterface KVM-Go系列 - 预发布公告！](250912-kvm-go-beta-testing-invitation.zh.md)
 
+---
+
+## 微动态
+
+{% include "partials/kvm-go-micro-posts.html" %}
