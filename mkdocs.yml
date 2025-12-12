@@ -66,7 +66,7 @@ extra:
   uconsole-kvm-extension_updates: 2
   uconsole-kvm-extension_youtube: 5
   minikvm_youtube: 18
-  kvm-go_youtube: 0
+  kvm-go_youtube: 1
   accessories_youtube: 0
   qt_version: 0.4.3
   android_version: v1.1.2
@@ -221,7 +221,6 @@ plugins:
     skip_classes:
     - skip-lightbox
 - search
-- social
 - macros
 - tags
 - meta
@@ -229,18 +228,18 @@ plugins:
 - git-revision-date-localized:
     enable_creation_date: true
     type: timeago
-- ultralytics:  # to enhance SEO by adding metadata
-    verbose: True
-    enabled: True
-    default_author: "Openterface"
-    add_desc: True
-    add_image: True
-    add_keywords: True
-    add_share_buttons: False
-    add_authors: False
-    add_json_ld: False
-    add_css: True
-    default_image: "https://assets.openterface.com/images/kvm-go/KVM-GO-bundle-hand-2.webp"
+- ultralytics:
+    verbose: true
+    enabled: true
+    default_author: Openterface
+    add_desc: true
+    add_image: true
+    add_keywords: true
+    add_share_buttons: false
+    add_authors: false
+    add_json_ld: false
+    add_css: true
+    default_image: https://assets.openterface.com/images/kvm-go/KVM-GO-bundle-hand-2.webp
 - redirects:
     redirect_maps:
       product/minikvm/buy.md: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm

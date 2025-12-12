@@ -1,3 +1,9 @@
+---
+title: "KVM-GO Beta 빠른 시작 가이드 | Openterface 베타 테스트 지침"
+description: "Openterface KVM-GO의 완전한 베타 테스트 가이드. 장시간 유휴 상태, 핫플러그, BIOS 액세스, 복사-붙여넣기, 장치 시뮬레이션 설정 테스트 방법을 알아보세요. 베타 설문을 통해 피드백을 제출하세요."
+keywords: "KVM-GO 베타, Openterface 베타 테스트, KVM-GO 베타 가이드, 베타 테스터 지침, KVM-GO 피드백, 베타 설문, USB KVM 베타, 헤드리스 제어 테스트, USB KVM 베타"
+---
+
 # KVM-GO Beta 빠른 시작 가이드
 
 > Openterface 커뮤니티의 [Iker](https://github.com/IkerGarcia) 님이 ❤️ 를 담아 작성했습니다 — 더 나은 문서를 함께 만들어 주셔서 감사합니다!
