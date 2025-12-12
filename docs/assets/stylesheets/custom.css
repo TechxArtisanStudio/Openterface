@@ -46,7 +46,6 @@ body.homepage .md-content {
   width: 100%;
   background: var(--md-default-bg-color);
   overflow: hidden;
-  padding: 0;
 }
 
 .mdx-carousel-wrapper {
@@ -82,8 +81,7 @@ body.homepage .md-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 4rem;
-  padding: 0;
+  padding: 0 2rem;
   pointer-events: none;
   overflow: hidden;
 }
@@ -276,7 +274,7 @@ body.homepage .md-content {
 .carousel-progress-container {
   width: 100%;
   background: var(--md-default-bg-color);
-  padding: 3rem 0 2rem;
+  padding: 3rem 2rem 2rem;
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -361,7 +359,7 @@ body.homepage .md-content {
     min-height: auto;
     height: auto;
     flex-direction: column;
-    padding: 2rem 1rem 1.5rem 1rem;
+    padding: 2rem 0rem 1rem;
     gap: 2rem;
     margin: auto;
     overflow: hidden;
@@ -446,7 +444,7 @@ body.homepage .md-content {
   }
 
   .carousel-progress-container {
-    padding: 2rem 3rem 1.5rem;
+    padding: 2rem 2rem 1.5rem;
   }
 }
 
@@ -479,7 +477,7 @@ body.homepage .md-content {
   }
   
   .carousel-progress-container {
-    padding: 2rem 0 1.5rem;
+    padding: 2rem 2rem 1.5rem;
   }
 }
 
@@ -495,7 +493,7 @@ body.homepage .md-content {
   }
   
   .carousel-progress-container {
-    padding: 3rem 0 2rem;
+    padding: 3rem 2rem 2rem;
   }
   
   .carousel-content-left {
@@ -510,7 +508,7 @@ body.homepage .md-content {
 /* Large Desktop - Ensure balanced padding */
 @media screen and (min-width: 1400px) {
   .carousel-progress-container {
-    padding: 3rem 0 2rem;
+    padding: 3rem 2rem 2rem;
   }
 }
 
@@ -1110,6 +1108,13 @@ linux-download-columns {
 body {
   overflow-x: visible !important;
 }
+
+/* Set max-width for md-grid on large screens */
+/* @media screen and (min-width: 76.25em) {
+  .md-grid {
+    padding: 0rem auto;
+  }
+} */
 
 /* What Others Say - YouTube Videos Section */
 .what-others-say {
