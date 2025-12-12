@@ -1,8 +1,8 @@
 # Media Coverage
 
-## Coming Soon
+## Media Coverage
 
-We're excited to share media coverage of the Openterface KVM-Go as it becomes available!
+- [TechxArtisan is Back with a Smaller Yet More Powerful Openterface: The Openterface KVM-Go](https://www.hackster.io/news/techxartisan-is-back-with-a-smaller-yet-more-powerful-openterface-the-openterface-kvm-go-26174b2d11c0) - Hackster.io
 
 ## Media & Reviewers Welcome!
 

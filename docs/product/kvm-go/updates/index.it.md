@@ -13,3 +13,8 @@
 - 2025-10-07: [🚀 Lotto Beta KVM-Go HDMI in spedizione!](251007-kvm-go-beta-test-kits-sent-1.it.md)
 - 2025-09-12: [Presentazione della Serie Openterface KVM-Go - Annuncio di Pre-Lancio!](250912-kvm-go-beta-testing-invitation.it.md)
 
+---
+
+## Micro Post
+
+{% include "partials/kvm-go-micro-posts.html" %}
