@@ -1040,6 +1040,33 @@ body.homepage .md-content {
     color: var(--md-accent-fg-color);
 }
 
+/* Language reminder styles */
+.gibby-dialogue.lang-reminder-active {
+    display: block !important;
+}
+
+.gibby-dialogue .lang-switch-btn {
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.gibby-dialogue .lang-switch-btn:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+    text-decoration: none;
+}
+
+.gibby-dialogue .lang-stay-btn {
+    transition: opacity 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
+    font-family: inherit;
+}
+
+.gibby-dialogue .lang-stay-btn:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+    background-color: var(--md-default-fg-color);
+    color: var(--md-default-bg-color);
+}
+
 /* Animation for dialogue box appearance */
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(10px); }
@@ -1064,6 +1091,11 @@ body.homepage .md-content {
     .gibby-dialogue p {
         font-size: 0.85rem;
     }
+    .gibby-dialogue .lang-switch-btn,
+    .gibby-dialogue .lang-stay-btn {
+        font-size: 0.8rem;
+        padding: 5px 12px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -1082,6 +1114,11 @@ body.homepage .md-content {
     }
     .gibby-dialogue p {
         font-size: 0.8rem;
+    }
+    .gibby-dialogue .lang-switch-btn,
+    .gibby-dialogue .lang-stay-btn {
+        font-size: 0.75rem;
+        padding: 4px 10px;
     }
 }
 
@@ -1681,6 +1718,144 @@ body {
 /* Ensure cookie consent appears above all other elements (carousel slides, language selector modal, etc.) */
 .md-consent {
   z-index: 10000 !important;
+}
+
+/* Language tabs for consent dialog */
+.md-consent__lang-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 20px;
+  padding: 8px;
+  background-color: var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.lang-tab {
+  padding: 8px 16px;
+  border: none;
+  background-color: transparent;
+  color: var(--md-default-fg-color--lighter);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
+  font-family: inherit;
+  position: relative;
+  outline: none;
+}
+
+.lang-tab::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: var(--md-primary-fg-color);
+  transition: width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 2px 2px 0 0;
+}
+
+.lang-tab:hover {
+  color: var(--md-default-fg-color);
+  background-color: var(--md-default-fg-color--lightest);
+}
+
+.lang-tab:hover::before {
+  width: 60%;
+}
+
+.lang-tab.active {
+  color: var(--md-primary-fg-color);
+  background-color: var(--md-default-fg-color--lightest);
+  font-weight: 600;
+}
+
+.lang-tab.active::before {
+  width: 80%;
+  background-color: var(--md-primary-fg-color);
+}
+
+.consent-content {
+  margin-bottom: 16px;
+}
+
+.consent-content h4 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.consent-content p {
+  margin: 0;
+}
+
+/* Responsive adjustments for language tabs */
+@media screen and (max-width: 768px) {
+  .md-consent__lang-tabs {
+    gap: 3px;
+    padding: 6px;
+    margin-bottom: 16px;
+  }
+  
+  .lang-tab {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+    flex: 1 1 calc(33.333% - 2px);
+    min-width: calc(33.333% - 2px);
+    max-width: calc(33.333% - 2px);
+  }
+  
+  .lang-tab::before {
+    height: 2px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .md-consent__lang-tabs {
+    gap: 2px;
+    padding: 4px;
+    margin-bottom: 12px;
+  }
+  
+  .lang-tab {
+    padding: 5px 8px;
+    font-size: 0.75rem;
+    flex: 1 1 calc(33.333% - 1px);
+    min-width: calc(33.333% - 1px);
+    max-width: calc(33.333% - 1px);
+  }
+  
+  .lang-tab::before {
+    height: 1.5px;
+  }
+  
+  .consent-content h4 {
+    font-size: 1rem;
+    margin-bottom: 6px;
+  }
+  
+  .consent-content p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Dark mode adjustments for language tabs */
+[data-md-color-scheme="slate"] .md-consent__lang-tabs {
+  background-color: var(--md-default-fg-color--lightest);
+}
+
+[data-md-color-scheme="slate"] .lang-tab:hover {
+  background-color: var(--md-default-fg-color--lighter);
+}
+
+[data-md-color-scheme="slate"] .lang-tab.active {
+  background-color: var(--md-default-fg-color--lighter);
 }
 
 /* Ensure dropdown menu appears above carousel slides */
