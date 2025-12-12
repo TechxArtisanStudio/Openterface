@@ -1295,3 +1295,8 @@ body {
 [data-md-color-scheme="slate"] .custom-nav-dropdown .dropdown-content .dropdown-item:hover {
   background-color: var(--md-default-fg-color--lightest);
 }
+
+/* Ensure cookie consent appears above all other elements (carousel slides, language selector modal, etc.) */
+.md-consent {
+  z-index: 10000 !important;
+}
