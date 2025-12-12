@@ -1,3 +1,9 @@
+---
+title: "KVM-GO Beta クイックスタートガイド | Openterface ベータテスト手順"
+description: "Openterface KVM-GO の完全なベータテストガイド。長時間アイドル、ホットプラグ、BIOS アクセス、コピー＆ペースト、デバイスシミュレーション設定のテスト方法を学びます。ベータアンケートからフィードバックを提出してください。"
+keywords: "KVM-GO ベータ, Openterface ベータテスト, KVM-GO ベータガイド, ベータテスター手順, KVM-GO フィードバック, ベータアンケート, USB 経由 KVM ベータ, ヘッドレス制御テスト, USB KVM ベータ"
+---
+
 # KVM-GO Beta クイックスタートガイド
 
 > Openterface コミュニティの [Iker](https://github.com/IkerGarcia) さんが ❤️ を込めて作成してくださいました — ドキュメント改善へのご協力に感謝します！

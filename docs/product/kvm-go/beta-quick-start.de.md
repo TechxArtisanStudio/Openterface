@@ -1,3 +1,9 @@
+---
+title: "KVM-GO Beta Schnellstartanleitung | Openterface Beta-Test-Anleitung"
+description: "Vollständige Beta-Test-Anleitung für Openterface KVM-GO. Erfahren Sie, wie Sie erweiterte Leerlauf-, Hot-Plug-, BIOS-Zugriffs-, Kopieren-Einfügen- und Gerätesimulations-Einstellungen testen. Feedback über unser Beta-Fragebogen einreichen."
+keywords: "KVM-GO Beta, Openterface Beta-Test, KVM-GO Beta-Anleitung, Beta-Tester-Anweisungen, KVM-GO Feedback, Beta-Fragebogen, KVM über USB Beta, Headless-Steuerung Test, USB KVM Beta"
+---
+
 # KVM-GO Beta Schnellstartanleitung
 
 > Mit ❤️ verfasst von [Iker](https://github.com/IkerGarcia) aus der Openterface-Community — vielen Dank, dass du uns hilfst, bessere Dokus zu erstellen!

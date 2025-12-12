@@ -1,3 +1,9 @@
+---
+title: "Ghid rapid KVM-GO Beta | Instrucțiuni testare beta Openterface"
+description: "Ghid complet de testare beta pentru Openterface KVM-GO. Află cum să testezi inactivitate prelungită, hot-plug, acces BIOS, copiere-lipire și setări de simulare dispozitiv. Trimite feedback prin chestionarul nostru beta."
+keywords: "KVM-GO beta, testare beta Openterface, ghid beta KVM-GO, instrucțiuni tester beta, feedback KVM-GO, chestionar beta, KVM peste USB beta, testare control headless, USB KVM beta"
+---
+
 # Ghid rapid KVM-GO Beta
 
 > Scris cu ❤️ de [Iker](https://github.com/IkerGarcia) din comunitatea Openterface — îți mulțumim că ne ajuți să îmbunătățim documentația!

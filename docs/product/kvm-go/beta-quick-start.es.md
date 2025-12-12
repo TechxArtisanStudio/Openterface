@@ -1,3 +1,9 @@
+---
+title: "Guía rápida de KVM-GO Beta | Instrucciones de prueba beta de Openterface"
+description: "Guía completa de pruebas beta para Openterface KVM-GO. Aprende a probar inactividad prolongada, hot-plug, acceso BIOS, copiar-pegar y configuraciones de simulación de dispositivos. Envía comentarios a través de nuestro cuestionario beta."
+keywords: "KVM-GO beta, pruebas beta Openterface, guía beta KVM-GO, instrucciones para probadores beta, comentarios KVM-GO, cuestionario beta, KVM sobre USB beta, pruebas de control headless, USB KVM beta"
+---
+
 # Guía rápida de KVM-GO Beta
 
 > Redactado con ❤️ por [Iker](https://github.com/IkerGarcia) de la comunidad de Openterface — ¡gracias por ayudarnos a crear mejor documentación!
