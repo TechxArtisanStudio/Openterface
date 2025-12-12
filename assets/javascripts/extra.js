@@ -92,17 +92,21 @@ function initCarousel(carouselId) {
           // Double-check progress bars are initialized
           const firstBar = document.querySelector('#progress-1');
           if (firstBar) {
+            // Check if animation is running or if width is still 0% (not started)
             const hasAnimation = firstBar.style.animation && 
                                 firstBar.style.animation !== 'none' &&
                                 firstBar.style.animation.includes('fillProgress');
-            if (!hasAnimation) {
+            const widthIsZero = firstBar.style.width === '0%' || !firstBar.style.width;
+            
+            // If no animation and width is still 0%, reinitialize
+            if (!hasAnimation && widthIsZero) {
               updateProgressBars(state.currentSlide, state.totalSlides, state.interval);
             }
           }
           initProgressBarClickHandlers();
         }
       }
-    }, 50);
+    }, 100);
   });
   
   // Start autoplay if enabled
@@ -137,13 +141,28 @@ function setupCarouselEvents(carouselId) {
   // Only pause on hover over interactive elements (buttons, progress bars)
   // Not on the entire carousel to allow progress bar to continue when hovering over images
   const interactiveElements = carousel.querySelectorAll('.carousel-actions, .carousel-progress-container');
+  const buttons = carousel.querySelectorAll('.carousel-actions .md-button');
   
+  // Add listeners to containers
   interactiveElements.forEach(element => {
     element.addEventListener('mouseenter', () => {
       pauseAutoplay(carouselId);
     });
     
     element.addEventListener('mouseleave', () => {
+      if (state.autoplay) {
+        resumeAutoplay(carouselId);
+      }
+    });
+  });
+  
+  // Also add listeners directly to buttons for more reliable detection
+  buttons.forEach(button => {
+    button.addEventListener('mouseenter', () => {
+      pauseAutoplay(carouselId);
+    });
+    
+    button.addEventListener('mouseleave', () => {
       if (state.autoplay) {
         resumeAutoplay(carouselId);
       }
@@ -314,8 +333,11 @@ function updateProgressBars(currentSlide, totalSlides, duration) {
         // Force reflow before starting animation
         void bar.offsetWidth;
         
+        // Use double requestAnimationFrame to ensure animation starts
         requestAnimationFrame(() => {
-          bar.style.animation = `fillProgress ${duration}ms linear forwards`;
+          requestAnimationFrame(() => {
+            bar.style.animation = `fillProgress ${duration}ms linear forwards`;
+          });
         });
       } else {
         // Future slides - empty
