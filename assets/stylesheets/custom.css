@@ -46,7 +46,6 @@ body.homepage .md-content {
   width: 100%;
   background: var(--md-default-bg-color);
   overflow: hidden;
-  padding: 0;
 }
 
 .mdx-carousel-wrapper {
@@ -82,8 +81,7 @@ body.homepage .md-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 4rem;
-  padding: 0;
+  padding: 0 2rem;
   pointer-events: none;
   overflow: hidden;
 }
@@ -210,9 +208,68 @@ body.homepage .md-content {
 }
 
 .carousel-btn-secondary:hover {
-  background-color: #6b7280 !important;
-  border-color: #6b7280 !important;
+  background-color: #ff6b35 !important;
+  border-color: #ff6b35 !important;
   color: #fff !important;
+}
+
+.carousel-btn-xmas {
+  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 50%, #dc2626 100%) !important;
+  background-size: 200% 200% !important;
+  border: 2px solid #dc2626 !important;
+  color: #fff !important;
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  animation: xmasShimmer 3s ease-in-out infinite;
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.4), 0 0 20px rgba(220, 38, 38, 0.2) !important;
+}
+
+.carousel-btn-xmas::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent 30%,
+    rgba(255, 255, 255, 0.3) 50%,
+    transparent 70%
+  );
+  animation: xmasSparkle 2s linear infinite;
+}
+
+.carousel-btn-xmas:hover {
+  background: linear-gradient(135deg, #b91c1c 0%, #991b1b 50%, #b91c1c 100%) !important;
+  background-size: 200% 200% !important;
+  border-color: #991b1b !important;
+  color: #fff !important;
+  box-shadow: 0 6px 20px rgba(220, 38, 38, 0.6), 0 0 30px rgba(220, 38, 38, 0.4) !important;
+  transform: translateY(-2px);
+}
+
+.carousel-btn-xmas:hover::before {
+  animation-duration: 1s;
+}
+
+@keyframes xmasShimmer {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes xmasSparkle {
+  0% {
+    transform: translateX(-100%) translateY(-100%) rotate(45deg);
+  }
+  100% {
+    transform: translateX(100%) translateY(100%) rotate(45deg);
+  }
 }
 
 .carousel-btn-comingsoon {
@@ -238,6 +295,43 @@ body.homepage .md-content {
   min-height: 400px;
   max-width: 600px;
   min-width: 0;
+  position: relative;
+  overflow: visible;
+}
+
+/* Radial gradient effect under image for slide 1 when button is hovered */
+.carousel-slide[data-slide-index="1"]:has(.carousel-btn-preorder:hover) .carousel-content-right::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120%;
+  height: 120%;
+  min-width: 500px;
+  min-height: 500px;
+  background: radial-gradient(ellipse at center, rgba(255, 107, 53, 0.4) 0%, rgba(255, 107, 53, 0.2) 40%, transparent 70%);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.carousel-slide[data-slide-index="1"] .carousel-content-right::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120%;
+  height: 120%;
+  min-width: 500px;
+  min-height: 500px;
+  background: radial-gradient(ellipse at center, rgba(255, 107, 53, 0.4) 0%, rgba(255, 107, 53, 0.2) 40%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+  pointer-events: none;
 }
 
 @keyframes slideInRight {
@@ -257,6 +351,8 @@ body.homepage .md-content {
   object-fit: contain;
   max-height: 400px;
   transition: opacity 0.3s ease;
+  position: relative;
+  z-index: 1;
 }
 
 /* Lazy loading styles for carousel images */
@@ -276,7 +372,7 @@ body.homepage .md-content {
 .carousel-progress-container {
   width: 100%;
   background: var(--md-default-bg-color);
-  padding: 3rem 0 2rem;
+  padding: 3rem 2rem 2rem;
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -323,6 +419,173 @@ body.homepage .md-content {
   /* Animation is applied via inline style, not CSS class */
 }
 
+/* Xmas-themed progress bar for slide 4 - Snow Theme */
+.progress-bar-wrapper-xmas {
+  background: rgba(147, 197, 253, 0.2) !important;
+  box-shadow: 0 0 8px rgba(147, 197, 253, 0.2), inset 0 0 5px rgba(255, 255, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Snow always appears in slide 4 progress bar */
+.progress-bar-wrapper-xmas::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(2px 2px at 10% 20%, rgba(255, 255, 255, 0.9), transparent),
+    radial-gradient(1.5px 1.5px at 30% 40%, rgba(255, 255, 255, 0.8), transparent),
+    radial-gradient(2px 2px at 50% 10%, rgba(255, 255, 255, 0.9), transparent),
+    radial-gradient(1px 1px at 70% 60%, rgba(255, 255, 255, 0.7), transparent),
+    radial-gradient(2px 2px at 90% 30%, rgba(255, 255, 255, 0.9), transparent),
+    radial-gradient(1.5px 1.5px at 20% 80%, rgba(255, 255, 255, 0.8), transparent),
+    radial-gradient(1px 1px at 60% 90%, rgba(255, 255, 255, 0.7), transparent),
+    radial-gradient(2px 2px at 80% 70%, rgba(255, 255, 255, 0.9), transparent);
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  animation: snowFall 3s linear infinite;
+  pointer-events: none;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.progress-bar-wrapper-xmas::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(1.5px 1.5px at 25% 15%, rgba(255, 255, 255, 0.8), transparent),
+    radial-gradient(2px 2px at 45% 55%, rgba(255, 255, 255, 0.9), transparent),
+    radial-gradient(1px 1px at 65% 25%, rgba(255, 255, 255, 0.7), transparent),
+    radial-gradient(1.5px 1.5px at 85% 75%, rgba(255, 255, 255, 0.8), transparent),
+    radial-gradient(2px 2px at 15% 65%, rgba(255, 255, 255, 0.9), transparent),
+    radial-gradient(1px 1px at 35% 85%, rgba(255, 255, 255, 0.7), transparent),
+    radial-gradient(1.5px 1.5px at 55% 45%, rgba(255, 255, 255, 0.8), transparent),
+    radial-gradient(2px 2px at 75% 35%, rgba(255, 255, 255, 0.9), transparent);
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  animation: snowFall 4s linear infinite;
+  pointer-events: none;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.progress-bar-xmas {
+  background: linear-gradient(90deg, 
+    rgba(255, 255, 255, 0.95) 0%, 
+    rgba(219, 234, 254, 0.95) 25%,
+    rgba(255, 255, 255, 0.95) 50%,
+    rgba(191, 219, 254, 0.95) 75%,
+    rgba(255, 255, 255, 0.95) 100%) !important;
+  background-size: 200% 100% !important;
+  animation: snowProgressShimmer 3s linear infinite;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4), 
+              0 0 20px rgba(147, 197, 253, 0.2),
+              inset 0 0 5px rgba(255, 255, 255, 0.6);
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-bar-xmas::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.6),
+    transparent
+  );
+  animation: snowSparkle 2s linear infinite;
+}
+
+
+.progress-bar-xmas.progress-bar--active {
+  background: linear-gradient(90deg, 
+    rgba(255, 255, 255, 0.95) 0%, 
+    rgba(219, 234, 254, 0.95) 25%,
+    rgba(255, 255, 255, 0.95) 50%,
+    rgba(191, 219, 254, 0.95) 75%,
+    rgba(255, 255, 255, 0.95) 100%) !important;
+  background-size: 200% 100% !important;
+  animation: snowProgressShimmer 3s linear infinite, fillProgress 6s linear forwards;
+}
+
+/* Snowflake icon that moves with progress - only visible when active */
+.progress-icon-snowflake {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 16px;
+  height: 16px;
+  transform: translate(-50%, -50%);
+  color: rgba(59, 130, 246, 0.9);
+  filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.8));
+  animation: snowflakeRotate 2s linear infinite;
+  z-index: 10;
+  pointer-events: none;
+  transition: left 0.05s linear, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.progress-bar-xmas.progress-bar--active .progress-icon-snowflake {
+  opacity: 1;
+}
+
+@keyframes snowProgressShimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+@keyframes snowSparkle {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes snowFall {
+  0% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0% -100%;
+  }
+}
+
+@keyframes snowflakeRotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes snowflakeFloat {
+  0%, 100% {
+    transform: translate(-50%, -50%) translateY(0px);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateY(-3px);
+  }
+}
+
 @keyframes fillProgress {
   from {
     width: 0%;
@@ -355,13 +618,25 @@ body.homepage .md-content {
   opacity: 0.85;
 }
 
+/* Xmas-themed progress labels for slide 4 */
+.progress-item[data-slide="4"] .progress-label-small {
+  color: #dc2626 !important;
+  opacity: 0.9;
+  text-shadow: 0 0 5px rgba(220, 38, 38, 0.3);
+}
+
+.progress-item[data-slide="4"] .progress-label-large {
+  color: var(--md-typeset-color);
+  opacity: 0.9;
+}
+
 /* Carousel Mobile Responsiveness */
 @media screen and (max-width: 768px) {
   .mdx-carousel {
     min-height: auto;
     height: auto;
     flex-direction: column;
-    padding: 2rem 1rem 1.5rem 1rem;
+    padding: 2rem 0rem 1rem;
     gap: 2rem;
     margin: auto;
     overflow: hidden;
@@ -446,7 +721,22 @@ body.homepage .md-content {
   }
 
   .carousel-progress-container {
-    padding: 2rem 3rem 1.5rem;
+    padding: 2rem 2rem 1.5rem;
+  }
+
+  /* Adjust gradient size on mobile to prevent clipping by progress container */
+  .carousel-slide[data-slide-index="1"]:has(.carousel-btn-preorder:hover) .carousel-content-right::after {
+    width: 100%;
+    height: 100%;
+    min-width: auto;
+    min-height: auto;
+  }
+
+  .carousel-slide[data-slide-index="1"] .carousel-content-right::after {
+    width: 100%;
+    height: 100%;
+    min-width: auto;
+    min-height: auto;
   }
 }
 
@@ -479,7 +769,7 @@ body.homepage .md-content {
   }
   
   .carousel-progress-container {
-    padding: 2rem 0 1.5rem;
+    padding: 2rem 2rem 1.5rem;
   }
 }
 
@@ -495,7 +785,7 @@ body.homepage .md-content {
   }
   
   .carousel-progress-container {
-    padding: 3rem 0 2rem;
+    padding: 3rem 2rem 2rem;
   }
   
   .carousel-content-left {
@@ -510,7 +800,7 @@ body.homepage .md-content {
 /* Large Desktop - Ensure balanced padding */
 @media screen and (min-width: 1400px) {
   .carousel-progress-container {
-    padding: 3rem 0 2rem;
+    padding: 3rem 2rem 2rem;
   }
 }
 
@@ -1110,6 +1400,13 @@ linux-download-columns {
 body {
   overflow-x: visible !important;
 }
+
+/* Set max-width for md-grid on large screens */
+/* @media screen and (min-width: 76.25em) {
+  .md-grid {
+    padding: 0rem auto;
+  }
+} */
 
 /* What Others Say - YouTube Videos Section */
 .what-others-say {
