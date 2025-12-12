@@ -1011,7 +1011,7 @@ linux-download-columns {
   min-width: 220px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
   border-radius: 0 0 6px 6px;
-  z-index: 40;
+  z-index: 250 !important;
   opacity: 0;
   visibility: hidden;
   transform: translateY(-10px);
@@ -1294,4 +1294,29 @@ body {
 
 [data-md-color-scheme="slate"] .custom-nav-dropdown .dropdown-content .dropdown-item:hover {
   background-color: var(--md-default-fg-color--lightest);
+}
+
+/* Ensure cookie consent appears above all other elements (carousel slides, language selector modal, etc.) */
+.md-consent {
+  z-index: 10000 !important;
+}
+
+/* Ensure dropdown menu appears above carousel slides */
+.custom-nav-dropdown {
+  z-index: 250 !important;
+}
+
+/* Ensure dropdown menu appears above carousel slides in medium viewport sizes (768px - 1415px) */
+@media screen and (min-width: 768px) and (max-width: 1415px) {
+  .custom-nav-dropdown .dropdown-content {
+    z-index: 250 !important;
+  }
+  
+  .mdx-carousel-container {
+    z-index: 1;
+  }
+  
+  .carousel-slide--active {
+    z-index: 10;
+  }
 }
