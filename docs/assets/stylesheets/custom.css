@@ -391,6 +391,7 @@ body.homepage .md-content {
   gap: 1rem;
   cursor: pointer;
   transition: opacity 0.3s ease;
+  position: relative;
 }
 
 .progress-item:hover {
@@ -489,7 +490,8 @@ body.homepage .md-content {
               0 0 20px rgba(147, 197, 253, 0.2),
               inset 0 0 5px rgba(255, 255, 255, 0.6);
   position: relative;
-  overflow: hidden;
+  overflow: visible;
+  z-index: 1;
 }
 
 .progress-bar-xmas::before {
@@ -521,23 +523,30 @@ body.homepage .md-content {
 }
 
 /* Snowflake icon that moves with progress - only visible when active */
-.progress-icon-snowflake {
-  position: absolute;
-  top: 50%;
-  left: 0px;
-  width: 16px;
-  height: 16px;
-  transform: translate(-50%, -50%);
-  color: rgba(59, 130, 246, 0.9);
-  filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.8));
-  animation: snowflakeRotate 2s linear infinite;
-  z-index: 10;
-  pointer-events: none;
-  transition: left 0.05s linear, opacity 0.3s ease;
-  opacity: 0;
+.progress-bar-wrapper-xmas {
+  position: relative;
 }
 
-.progress-bar-xmas.progress-bar--active .progress-icon-snowflake {
+.progress-item[data-slide="4"] {
+  overflow: visible;
+}
+
+.progress-item[data-slide="4"] .progress-icon-snowflake {
+  position: absolute;
+  top: 0px;
+  left: -5px;
+  font-size: 14px;
+  line-height: 0;
+  filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.8));
+  animation: snowflakeRotate 3s linear infinite;
+  z-index: 20;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  display: inline-block;
+}
+
+.progress-item[data-slide="4"]:has(.progress-bar-xmas.progress-bar--active) .progress-icon-snowflake {
   opacity: 1;
 }
 
@@ -623,6 +632,82 @@ body.homepage .md-content {
   color: #dc2626 !important;
   opacity: 0.9;
   text-shadow: 0 0 5px rgba(220, 38, 38, 0.3);
+}
+
+/* Light mode improvements for xmas progress bar */
+@media (prefers-color-scheme: light) {
+  .progress-bar-wrapper-xmas {
+    background: rgba(147, 197, 253, 0.3) !important;
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    box-shadow: 0 0 8px rgba(147, 197, 253, 0.3), 
+                inset 0 0 5px rgba(255, 255, 255, 0.2),
+                0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .progress-bar-xmas {
+    background: linear-gradient(90deg, 
+      rgba(59, 130, 246, 0.9) 0%, 
+      rgba(96, 165, 250, 0.9) 25%,
+      rgba(59, 130, 246, 0.9) 50%,
+      rgba(96, 165, 250, 0.9) 75%,
+      rgba(59, 130, 246, 0.9) 100%) !important;
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.4), 
+                0 0 20px rgba(96, 165, 250, 0.3),
+                inset 0 0 5px rgba(255, 255, 255, 0.8),
+                0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .progress-bar-xmas.progress-bar--active {
+    background: linear-gradient(90deg, 
+      rgba(59, 130, 246, 0.95) 0%, 
+      rgba(96, 165, 250, 0.95) 25%,
+      rgba(59, 130, 246, 0.95) 50%,
+      rgba(96, 165, 250, 0.95) 75%,
+      rgba(59, 130, 246, 0.95) 100%) !important;
+  }
+
+  .progress-icon-snowflake {
+    color: rgba(37, 99, 235, 0.95);
+    filter: drop-shadow(0 0 3px rgba(59, 130, 246, 0.6)) 
+            drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
+  }
+}
+
+/* Alternative: Use data attribute if Material theme uses it */
+[data-md-color-scheme="default"] .progress-bar-wrapper-xmas {
+  background: rgba(147, 197, 253, 0.3) !important;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  box-shadow: 0 0 8px rgba(147, 197, 253, 0.3), 
+              inset 0 0 5px rgba(255, 255, 255, 0.2),
+              0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+[data-md-color-scheme="default"] .progress-bar-xmas {
+  background: linear-gradient(90deg, 
+    rgba(59, 130, 246, 0.9) 0%, 
+    rgba(96, 165, 250, 0.9) 25%,
+    rgba(59, 130, 246, 0.9) 50%,
+    rgba(96, 165, 250, 0.9) 75%,
+    rgba(59, 130, 246, 0.9) 100%) !important;
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.4), 
+              0 0 20px rgba(96, 165, 250, 0.3),
+              inset 0 0 5px rgba(255, 255, 255, 0.8),
+              0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+[data-md-color-scheme="default"] .progress-bar-xmas.progress-bar--active {
+  background: linear-gradient(90deg, 
+    rgba(59, 130, 246, 0.95) 0%, 
+    rgba(96, 165, 250, 0.95) 25%,
+    rgba(59, 130, 246, 0.95) 50%,
+    rgba(96, 165, 250, 0.95) 75%,
+    rgba(59, 130, 246, 0.95) 100%) !important;
+}
+
+[data-md-color-scheme="default"] .progress-icon-snowflake {
+  color: rgba(37, 99, 235, 0.95);
+  filter: drop-shadow(0 0 3px rgba(59, 130, 246, 0.6)) 
+          drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
 }
 
 .progress-item[data-slide="4"] .progress-label-large {
