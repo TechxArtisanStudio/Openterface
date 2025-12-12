@@ -163,8 +163,17 @@
 
           <!-- Slide 4 Progress -->
           <div class="progress-item" data-slide="4">
-            <div class="progress-bar-wrapper">
-              <div class="progress-bar" id="progress-4"></div>
+            <div class="progress-bar-wrapper progress-bar-wrapper-xmas">
+              <div class="progress-bar progress-bar-xmas" id="progress-4">
+                <svg class="progress-icon-snowflake" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="2" x2="12" y2="22"></line>
+                  <line x1="17" y1="7" x2="7" y2="17"></line>
+                  <line x1="7" y1="7" x2="17" y2="17"></line>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <line x1="17" y1="17" x2="7" y2="7"></line>
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                </svg>
+              </div>
             </div>
             <div class="progress-labels">
               <div class="progress-label-small" id="label-small-4" data-i18n="home.series-txa-shop">TxA Shop</div>
@@ -177,6 +186,91 @@
   </section>
 
   <a rel="me" href="https://mastodon.social/@youyoubilly" style="display:none;" data-i18n="home.mastodon">Mastodon</a>
+
+  <script>
+    // Sync snowflake icon position with Xmas progress bar
+    (function() {
+      let animationFrameId = null;
+      let isActive = false;
+      
+      function updateSnowflakePosition() {
+        const progressBar = document.getElementById('progress-4');
+        const snowflake = progressBar?.querySelector('.progress-icon-snowflake');
+        
+        if (progressBar && snowflake) {
+          // Use offsetWidth directly - this reflects the actual rendered width during animation
+          const progressWidth = progressBar.offsetWidth;
+          
+          // Position snowflake at the right edge of the progress bar
+          // Since transform is translate(-50%, -50%), we position it so the center is at the edge
+          // But keep it slightly inside to ensure visibility with overflow: hidden
+          const snowflakeWidth = 16; // width of snowflake
+          const position = Math.max(snowflakeWidth / 2, progressWidth - snowflakeWidth / 2);
+          snowflake.style.left = position + 'px';
+        }
+      }
+      
+      function animateSnowflake() {
+        if (isActive) {
+          updateSnowflakePosition();
+          animationFrameId = requestAnimationFrame(animateSnowflake);
+        }
+      }
+      
+      // Watch for progress bar changes
+      const observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+          if (mutation.type === 'attributes') {
+            const progressBar = document.getElementById('progress-4');
+            if (progressBar) {
+              const wasActive = isActive;
+              isActive = progressBar.classList.contains('progress-bar--active');
+              
+              updateSnowflakePosition();
+              
+              if (isActive && !wasActive) {
+                // Just became active, start animation
+                if (!animationFrameId) {
+                  animateSnowflake();
+                }
+              } else if (!isActive && wasActive) {
+                // Just became inactive, stop animation
+                if (animationFrameId) {
+                  cancelAnimationFrame(animationFrameId);
+                  animationFrameId = null;
+                }
+                // Reset snowflake position
+                const snowflake = progressBar.querySelector('.progress-icon-snowflake');
+                if (snowflake) {
+                  snowflake.style.left = '0%';
+                }
+              }
+            }
+          }
+        });
+      });
+      
+      const progressBar = document.getElementById('progress-4');
+      if (progressBar) {
+        isActive = progressBar.classList.contains('progress-bar--active');
+        
+        observer.observe(progressBar, {
+          attributes: true,
+          attributeFilter: ['style', 'class'],
+          childList: false,
+          subtree: false
+        });
+        
+        // Initial update
+        updateSnowflakePosition();
+        
+        // Start animation if already active
+        if (isActive) {
+          animateSnowflake();
+        }
+      }
+    })();
+  </script>
 
 {% endblock %}
 
