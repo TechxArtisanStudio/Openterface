@@ -2,6 +2,43 @@
 
 {% block extrahead %}
   {{ super() }}
+  
+  <!-- SEO Metadata -->
+  <meta name="description" content="Découvrez Openterface - Solutions KVM-over-USB ultra-compactes incluant la Série KVM-GO (taille porte-clés), la Série Mini-KVM et l'Extension KVM uConsole. Outils open-source riches en fonctionnalités pour les professionnels IT, développeurs et gestion de serveurs.">
+  <meta name="keywords" content="KVM-over-USB, commutateur KVM, KVM portable, USB KVM, gestion de serveur sans tête, outils IT, console serveur, accès serveur distant, KVM-GO, Mini-KVM, KVM uConsole, KVM open source, KVM ultra-compact, KVM porte-clés, KVM 4K, KVM DisplayPort, KVM HDMI, KVM VGA">
+  <meta name="author" content="Openterface">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="{{ config.site_url }}/fr/">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ config.site_url }}/fr/">
+  <meta property="og:title" content="Openterface | Solutions KVM Ultra-Compactes pour Professionnels IT">
+  <meta property="og:description" content="Découvrez Openterface - Solutions KVM-over-USB ultra-compactes incluant la Série KVM-GO (taille porte-clés), la Série Mini-KVM et l'Extension KVM uConsole. Outils open-source riches en fonctionnalités pour les professionnels IT, développeurs et gestion de serveurs.">
+  <meta property="og:image" content="https://assets.openterface.com/images/kvm-go-triple.png">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Openterface">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="{{ config.site_url }}/fr/">
+  <meta name="twitter:title" content="Openterface | Solutions KVM Ultra-Compactes pour Professionnels IT">
+  <meta name="twitter:description" content="Découvrez Openterface - Solutions KVM-over-USB ultra-compactes incluant la Série KVM-GO (taille porte-clés), la Série Mini-KVM et l'Extension KVM uConsole.">
+  <meta name="twitter:image" content="https://assets.openterface.com/images/kvm-go-triple.png">
+  
+  <!-- Language Alternates -->
+  <link rel="alternate" hreflang="en" href="{{ config.site_url }}/">
+  <link rel="alternate" hreflang="de" href="{{ config.site_url }}/de/">
+  <link rel="alternate" hreflang="es" href="{{ config.site_url }}/es/">
+  <link rel="alternate" hreflang="fr" href="{{ config.site_url }}/fr/">
+  <link rel="alternate" hreflang="it" href="{{ config.site_url }}/it/">
+  <link rel="alternate" hreflang="ja" href="{{ config.site_url }}/ja/">
+  <link rel="alternate" hreflang="ko" href="{{ config.site_url }}/ko/">
+  <link rel="alternate" hreflang="pt" href="{{ config.site_url }}/pt/">
+  <link rel="alternate" hreflang="ro" href="{{ config.site_url }}/ro/">
+  <link rel="alternate" hreflang="zh" href="{{ config.site_url }}/zh/">
+  <link rel="alternate" hreflang="x-default" href="{{ config.site_url }}/">
+  
   <script>
     // Add class to body to identify homepage (run immediately)
     (function() {
