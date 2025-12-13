@@ -3,6 +3,7 @@ import sys
 import subprocess
 import argparse
 import os
+import socket
 
 def update_config(skip_versions=False):
     """Update mkdocs.yml with dynamic values"""
@@ -59,6 +60,26 @@ def manage_i18n(action, languages=None):
         print(f"Warning: i18n {action} failed, continuing with existing config")
     return result.returncode == 0
 
+
+def get_local_ip():
+    """Get the local IP address for network access"""
+    try:
+        # Connect to a remote address to determine local IP
+        # This doesn't actually send data, just determines the route
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        s.connect(("8.8.8.8", 80))
+        local_ip = s.getsockname()[0]
+        s.close()
+        return local_ip
+    except Exception:
+        # Fallback: try to get hostname IP
+        try:
+            hostname = socket.gethostname()
+            local_ip = socket.gethostbyname(hostname)
+            return local_ip
+        except Exception:
+            return None
+
 def main():
     parser = argparse.ArgumentParser(description='Run MkDocs serve with config updates')
     parser.add_argument('--no-update-config', action='store_true',
@@ -69,12 +90,33 @@ def main():
                        help='Port to serve on (default: 8002)')
     parser.add_argument('--host', default='0.0.0.0',
                        help='Host to bind to (default: 0.0.0.0)')
+    parser.add_argument('--local-network', action='store_true',
+                       help='Serve on local network (sets host to 0.0.0.0 and displays local IP address)')
     parser.add_argument('--i18n', choices=['add', 'remove', 'list'], 
                        help='Manage i18n configuration: add all languages, remove all except English, or list current languages')
     parser.add_argument('--lang', nargs='+',
                        help='Specific languages to add/remove when using --i18n (e.g., zh ja ko)')
     
     args = parser.parse_args()
+    
+    # Handle local network flag
+    local_ip = None
+    if args.local_network:
+        args.host = '0.0.0.0'
+        local_ip = get_local_ip()
+        if local_ip:
+            print(f"\n{'='*60}")
+            print(f"🌐 Serving on local network")
+            print(f"{'='*60}")
+            print(f"📍 EXACT IP ADDRESS TO VISIT:")
+            print(f"   http://{local_ip}:{args.port}")
+            print(f"{'='*60}")
+            print(f"📱 Use this URL on your phone: http://{local_ip}:{args.port}")
+            print(f"💻 Use this URL locally: http://localhost:{args.port}")
+            print(f"{'='*60}\n")
+        else:
+            print("\n⚠️  Could not determine local IP address")
+            print(f"   Serving on 0.0.0.0:{args.port} - check your network settings for the IP\n")
     
     # Handle i18n management
     if args.i18n:
@@ -99,6 +141,11 @@ def main():
         "-a", f"{args.host}:{args.port}"
     ]
     print("Running:", " ".join(cmd))
+    if args.local_network and local_ip:
+        print(f"\n{'='*60}")
+        print(f"🌐 Server is starting...")
+        print(f"📍 VISIT THE WEBSITE AT: http://{local_ip}:{args.port}")
+        print(f"{'='*60}\n")
     subprocess.run(cmd)
 
 if __name__ == "__main__":
