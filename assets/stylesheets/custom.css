@@ -1715,9 +1715,23 @@ body {
   background-color: var(--md-default-fg-color--lightest);
 }
 
-/* Ensure cookie consent appears above all other elements (carousel slides, language selector modal, etc.) */
+/* Ensure cookie consent appears above all other elements (carousel slides, language selector modal, drawer, overlay, etc.) */
 .md-consent {
   z-index: 10000 !important;
+  position: relative !important;
+}
+
+/* Ensure consent dialog stays above drawer and overlay on mobile */
+@media screen and (max-width: 76.1875em) {
+  .md-consent {
+    z-index: 10000 !important;
+    position: fixed !important;
+  }
+  
+  /* Ensure consent is above drawer overlay */
+  [data-md-toggle="drawer"]:checked ~ .md-container .md-consent {
+    z-index: 10000 !important;
+  }
 }
 
 /* Language tabs for consent dialog */
@@ -1891,28 +1905,54 @@ body {
     z-index: 300 !important;
   }
   
-  /* Ensure drawer backdrop appears instantly */
+  /* Disable overlay on mobile to prevent it from blocking drawer menu clicks */
+  /* Users can still close the drawer by clicking the menu button again */
   .md-overlay {
-    transition: opacity 0.1s ease !important;
-    z-index: 299 !important;
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+  
+  /* Ensure overlay is disabled even when drawer is open */
+  [data-md-toggle="drawer"]:checked ~ .md-container .md-overlay {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
   }
   
   /* Prevent any transform animations on drawer content */
   .md-drawer__inner {
     transition: none !important;
     z-index: 301 !important;
+    position: relative !important;
+    pointer-events: auto !important;
   }
   
   /* Also target the drawer container */
   [data-md-toggle="drawer"]:checked ~ .md-container .md-drawer {
     transition: none !important;
     z-index: 300 !important;
+    pointer-events: auto !important;
+  }
+  
+  /* Ensure drawer content is clickable and above overlay */
+  [data-md-toggle="drawer"]:checked ~ .md-container .md-drawer__inner {
+    z-index: 301 !important;
+    pointer-events: auto !important;
+  }
+  
+  /* Ensure all drawer content (navigation, links, etc.) is clickable */
+  [data-md-toggle="drawer"]:checked ~ .md-container .md-drawer * {
+    pointer-events: auto !important;
   }
   
   /* Ensure navigation tabs in drawer appear above slides */
   .md-drawer .md-tabs {
     z-index: 302 !important;
     position: relative;
+    pointer-events: auto !important;
   }
   
   /* Ensure navigation tabs appear at the top of drawer content */
@@ -1929,6 +1969,18 @@ body {
     top: 0 !important;
     background-color: var(--md-primary-fg-color) !important;
     z-index: 302 !important;
+    pointer-events: auto !important;
+  }
+  
+  /* Ensure all links and interactive elements in drawer are clickable */
+  .md-drawer a,
+  .md-drawer button,
+  .md-drawer label,
+  .md-drawer .md-nav__link,
+  .md-drawer .md-nav__item {
+    pointer-events: auto !important;
+    position: relative !important;
+    z-index: 303 !important;
   }
   
   /* Ensure carousel slides stay below drawer menu and tabs */
