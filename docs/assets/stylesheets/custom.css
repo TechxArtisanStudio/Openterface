@@ -876,7 +876,7 @@ body.homepage .md-content {
 @media screen and (min-width: 1025px) {
   .mdx-carousel {
     min-height: 550px;
-    gap: 4rem;
+    gap: 0rem;
   }
 
   .carousel-progress-wrapper {
