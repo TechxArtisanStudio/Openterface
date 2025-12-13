@@ -87,7 +87,7 @@
             </div>
           </div>
           <div class="carousel-content-right">
-            <img src="{{ 'assets/images/kvm-go-triple.png' | url }}" alt="KVM-GO Series" loading="eager" draggable="false" fetchpriority="high">
+            <img src="{{ 'assets/images/kvm-go-triple.png' | url }}" alt="KVM-GO Series" loading="eager" draggable="false" fetchpriority="high" data-slide-images='["{{ 'assets/images/kvm-go-triple.png' | url }}", "{{ 'assets/images/kvm-go-triple-2.png' | url }}"]' class="carousel-random-image">
           </div>
         </div>
 
@@ -115,7 +115,7 @@
             </div>
           </div>
           <div class="carousel-content-right">
-            <img data-src="{{ 'assets/images/mini-kvm-toolkit.png' | url }}" alt="Openterface Mini-KVM" loading="lazy" draggable="false" class="carousel-lazy-image">
+            <img data-src="{{ 'assets/images/mini-kvm-toolkit.png' | url }}" alt="Openterface Mini-KVM" loading="lazy" draggable="false" class="carousel-lazy-image carousel-random-image" data-slide-images='["{{ 'assets/images/mini-kvm-toolkit.png' | url }}", "{{ 'assets/images/mini-kvm.png' | url }}"]'>
           </div>
         </div>
 
@@ -142,7 +142,7 @@
             </div>
           </div>
           <div class="carousel-content-right">
-            <img data-src="{{ 'assets/images/uconsole.png' | url }}" alt="uConsole KVM Extension" loading="lazy" draggable="false" class="carousel-lazy-image">
+            <img data-src="{{ 'assets/images/uconsole.png' | url }}" alt="uConsole KVM Extension" loading="lazy" draggable="false" class="carousel-lazy-image carousel-random-image" data-slide-images='["{{ 'assets/images/op-uconsole-ext-c1.png' | url }}", "{{ 'assets/images/uconsole.png' | url }}"]'>
           </div>
         </div>
 
@@ -230,6 +230,7 @@
 {% block scripts %}
   {{ super() }}
   <script src="{{ 'assets/javascripts/xmas-progress.js' | url }}"></script>
+  <script src="{{ 'assets/javascripts/carousel-random-images.js' | url }}"></script>
 {% endblock %}
 
 {% block content %}{% endblock %}
