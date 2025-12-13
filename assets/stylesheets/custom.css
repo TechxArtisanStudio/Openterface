@@ -272,6 +272,20 @@ body.homepage .md-content {
   }
 }
 
+.carousel-btn-docs {
+  background-color: transparent !important;
+  border: 2px solid var(--md-primary-fg-color) !important;
+  color: var(--md-primary-fg-color) !important;
+  font-weight: 600;
+}
+
+.carousel-btn-docs:hover {
+  background-color: var(--md-primary-fg-color) !important;
+  border-color: var(--md-primary-fg-color) !important;
+  color: #fff !important;
+  transform: translateY(-2px);
+}
+
 .carousel-btn-comingsoon {
   opacity: 0.6;
   cursor: not-allowed;
