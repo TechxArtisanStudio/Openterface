@@ -1877,3 +1877,82 @@ body {
     z-index: 10;
   }
 }
+
+/* Fix mobile menu drawer slide animation - make it instant to avoid messy look */
+@media screen and (max-width: 76.1875em) {
+  /* Remove slide animation from drawer */
+  .md-drawer {
+    transition: none !important;
+    z-index: 300 !important;
+  }
+  
+  .md-drawer--open {
+    transition: none !important;
+    z-index: 300 !important;
+  }
+  
+  /* Ensure drawer backdrop appears instantly */
+  .md-overlay {
+    transition: opacity 0.1s ease !important;
+    z-index: 299 !important;
+  }
+  
+  /* Prevent any transform animations on drawer content */
+  .md-drawer__inner {
+    transition: none !important;
+    z-index: 301 !important;
+  }
+  
+  /* Also target the drawer container */
+  [data-md-toggle="drawer"]:checked ~ .md-container .md-drawer {
+    transition: none !important;
+    z-index: 300 !important;
+  }
+  
+  /* Ensure navigation tabs in drawer appear above slides */
+  .md-drawer .md-tabs {
+    z-index: 302 !important;
+    position: relative;
+  }
+  
+  /* Ensure navigation tabs appear at the top of drawer content */
+  .md-drawer__inner {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  
+  /* Ensure tabs appear first in drawer on mobile */
+  .md-drawer__inner > .md-tabs,
+  .md-drawer .md-tabs {
+    order: -1 !important;
+    position: sticky !important;
+    top: 0 !important;
+    background-color: var(--md-primary-fg-color) !important;
+    z-index: 302 !important;
+  }
+  
+  /* Ensure carousel slides stay below drawer menu and tabs */
+  .md-drawer .mdx-carousel-container {
+    order: 1 !important;
+    z-index: 1 !important;
+    position: relative;
+  }
+  
+  /* Ensure carousel slides stay below drawer menu when drawer is open */
+  .mdx-carousel-container {
+    z-index: 1 !important;
+    position: relative;
+  }
+  
+  .mdx-carousel {
+    z-index: 1 !important;
+  }
+  
+  .carousel-slide {
+    z-index: 1 !important;
+  }
+  
+  .carousel-slide--active {
+    z-index: 2 !important;
+  }
+}
