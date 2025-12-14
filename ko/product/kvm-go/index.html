@@ -1686,16 +1686,15 @@
 <div class="md-footer-meta__inner md-grid footer-flex-container">
 <!-- Signup form -->
 <div class="signup-form-container footer-flex-item">
-<!-- All languages submit directly to Google Form -->
+<!-- All languages submit via AJAX -->
 <div id="form_signup">
-<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdFc5YUQN74mQpFj6U4NkpNH4TGZGgxur7wVADWSWEsmNezdg/formResponse" id="subscribe-form" method="post" name="subscribe-form" target="_blank">
+<form id="subscribe-form" name="subscribe-form">
 <div id="form_signup_scroll">
 <div class="gf-field-group">
-<input class="required" id="form-name" name="entry.1988135673" placeholder="이름" required="" type="text"/>
+<input class="required" id="form-name" name="name" placeholder="이름" required="" type="text"/>
 </div>
 <div class="gf-field-group">
-<input class="required email" id="form-email" name="emailAddress" placeholder="이메일 주소 *" required="" type="email"/>
-<input name="entry.22394832" type="hidden" value="Openterface-ko"/>
+<input class="required email" id="form-email" name="email" placeholder="이메일 주소 *" required="" type="email"/>
 </div>
 <div class="clear">
 <input class="button" id="form-submit" name="submit" type="submit" value="✉️ 최신 소식 구독하기! 🐝"/>
@@ -1759,6 +1758,63 @@
       langselect.async = false; // Load synchronously to ensure it's available
       document.body.appendChild(langselect);
     })();
+  </script>
+<!-- Subscribe Form AJAX Handler -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const form = document.getElementById('subscribe-form');
+      const submitBtn = document.getElementById('form-submit');
+      const originalBtnValue = submitBtn.value;
+
+      if (form) {
+        form.addEventListener('submit', function(e) {
+          e.preventDefault();
+
+          // Get form data
+          const formData = new FormData(form);
+          const data = {
+            email: formData.get('email'),
+            name: formData.get('name')
+          };
+
+          // Disable button and change text
+          submitBtn.disabled = true;
+          submitBtn.value = 'Subscribing...';
+
+          // Send AJAX request
+          fetch('https://subscribe.openterface.com/api/subscribe/', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data)
+          })
+          .then(response => response.json())
+          .then(result => {
+            if (result.success) {
+              submitBtn.value = 'Successfully subscribed!';
+              // Clear form fields
+              form.reset();
+            } else {
+              // Handle error response
+              submitBtn.value = 'Subscription failed. Try again.';
+              submitBtn.disabled = false;
+              setTimeout(() => {
+                submitBtn.value = originalBtnValue;
+              }, 3000);
+            }
+          })
+          .catch(error => {
+            console.error('Error:', error);
+            submitBtn.value = 'An error occurred. Try again.';
+            submitBtn.disabled = false;
+            setTimeout(() => {
+              submitBtn.value = originalBtnValue;
+            }, 3000);
+          });
+        });
+      }
+    });
   </script>
 </footer>
 </div>

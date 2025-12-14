@@ -62,68 +62,55 @@
       <!-- Signup form -->
       <div class="signup-form-container footer-flex-item">
         {% set current_locale = page.locale or config.theme.language or (page.url.split('/')[1] if page.url and page.url.split('/')[1] in ['de', 'es', 'fr', 'it', 'ja', 'ko', 'pt', 'ro', 'zh'] else 'en') %}
-        <!-- All languages submit directly to Google Form -->
+        <!-- All languages submit via AJAX -->
         <div id="form_signup">
-          <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdFc5YUQN74mQpFj6U4NkpNH4TGZGgxur7wVADWSWEsmNezdg/formResponse" 
-                method="post" 
-                id="subscribe-form" 
-                name="subscribe-form" 
-                target="_blank">
+          <form id="subscribe-form" 
+                name="subscribe-form">
             <div id="form_signup_scroll">
               <div class="gf-field-group">
                 {% if current_locale == 'de' %}
-                  <input type="text" name="entry.1988135673" class="required" id="form-name" required placeholder="Ihr Name">
+                  <input type="text" name="name" class="required" id="form-name" required placeholder="Ihr Name">
                 {% elif current_locale == 'es' %}
-                  <input type="text" name="entry.1988135673" class="required" id="form-name" required placeholder="Tu Nombre">
+                  <input type="text" name="name" class="required" id="form-name" required placeholder="Tu Nombre">
                 {% elif current_locale == 'fr' %}
-                  <input type="text" name="entry.1988135673" class="required" id="form-name" required placeholder="Votre Nom">
+                  <input type="text" name="name" class="required" id="form-name" required placeholder="Votre Nom">
                 {% elif current_locale == 'it' %}
-                  <input type="text" name="entry.1988135673" class="required" id="form-name" required placeholder="Il Tuo Nome">
+                  <input type="text" name="name" class="required" id="form-name" required placeholder="Il Tuo Nome">
                 {% elif current_locale == 'ja' %}
-                  <input type="text" name="entry.1988135673" class="required" id="form-name" required placeholder="お名前">
+                  <input type="text" name="name" class="required" id="form-name" required placeholder="お名前">
                 {% elif current_locale == 'ko' %}
-                  <input type="text" name="entry.1988135673" class="required" id="form-name" required placeholder="이름">
+                  <input type="text" name="name" class="required" id="form-name" required placeholder="이름">
                 {% elif current_locale == 'pt' %}
-                  <input type="text" name="entry.1988135673" class="required" id="form-name" required placeholder="Seu Nome">
+                  <input type="text" name="name" class="required" id="form-name" required placeholder="Seu Nome">
                 {% elif current_locale == 'ro' %}
-                  <input type="text" name="entry.1988135673" class="required" id="form-name" required placeholder="Numele tău">
+                  <input type="text" name="name" class="required" id="form-name" required placeholder="Numele tău">
                 {% elif current_locale == 'zh' %}
-                  <input type="text" name="entry.1988135673" class="required" id="form-name" required placeholder="您的姓名">
+                  <input type="text" name="name" class="required" id="form-name" required placeholder="您的姓名">
                 {% else %}
-                  <input type="text" name="entry.1988135673" class="required" id="form-name" required placeholder="Your Name">
+                  <input type="text" name="name" class="required" id="form-name" required placeholder="Your Name">
                 {% endif %}
               </div>
               <div class="gf-field-group">
                 {% if current_locale == 'de' %}
-                  <input type="email" name="emailAddress" class="required email" id="form-email" required placeholder="Ihre E-Mail-Adresse *">
-                  <input type="hidden" name="entry.22394832" value="Openterface-de">
+                  <input type="email" name="email" class="required email" id="form-email" required placeholder="Ihre E-Mail-Adresse *">
                 {% elif current_locale == 'es' %}
-                  <input type="email" name="emailAddress" class="required email" id="form-email" required placeholder="Tu Correo Electrónico *">
-                  <input type="hidden" name="entry.22394832" value="Openterface-es">
+                  <input type="email" name="email" class="required email" id="form-email" required placeholder="Tu Correo Electrónico *">
                 {% elif current_locale == 'fr' %}
-                  <input type="email" name="emailAddress" class="required email" id="form-email" required placeholder="Votre Adresse Email *">
-                  <input type="hidden" name="entry.22394832" value="Openterface-fr">
+                  <input type="email" name="email" class="required email" id="form-email" required placeholder="Votre Adresse Email *">
                 {% elif current_locale == 'it' %}
-                  <input type="email" name="emailAddress" class="required email" id="form-email" required placeholder="Il Tuo Indirizzo Email *">
-                  <input type="hidden" name="entry.22394832" value="Openterface-it">
+                  <input type="email" name="email" class="required email" id="form-email" required placeholder="Il Tuo Indirizzo Email *">
                 {% elif current_locale == 'ja' %}
-                  <input type="email" name="emailAddress" class="required email" id="form-email" required placeholder="メールアドレス *">
-                  <input type="hidden" name="entry.22394832" value="Openterface-ja">
+                  <input type="email" name="email" class="required email" id="form-email" required placeholder="メールアドレス *">
                 {% elif current_locale == 'ko' %}
-                  <input type="email" name="emailAddress" class="required email" id="form-email" required placeholder="이메일 주소 *">
-                  <input type="hidden" name="entry.22394832" value="Openterface-ko">
+                  <input type="email" name="email" class="required email" id="form-email" required placeholder="이메일 주소 *">
                 {% elif current_locale == 'pt' %}
-                  <input type="email" name="emailAddress" class="required email" id="form-email" required placeholder="Seu Endereço de Email *">
-                  <input type="hidden" name="entry.22394832" value="Openterface-pt">
+                  <input type="email" name="email" class="required email" id="form-email" required placeholder="Seu Endereço de Email *">
                 {% elif current_locale == 'ro' %}
-                  <input type="email" name="emailAddress" class="required email" id="form-email" required placeholder="Adresa ta de email *">
-                  <input type="hidden" name="entry.22394832" value="Openterface-ro">
+                  <input type="email" name="email" class="required email" id="form-email" required placeholder="Adresa ta de email *">
                 {% elif current_locale == 'zh' %}
-                  <input type="email" name="emailAddress" class="required email" id="form-email" required placeholder="您的电子邮箱地址 *">
-                  <input type="hidden" name="entry.22394832" value="Openterface-zh">
+                  <input type="email" name="email" class="required email" id="form-email" required placeholder="您的电子邮箱地址 *">
                 {% else %}
-                  <input type="email" name="emailAddress" class="required email" id="form-email" required placeholder="Your Email Address *">
-                  <input type="hidden" name="entry.22394832" value="Openterface-en">
+                  <input type="email" name="email" class="required email" id="form-email" required placeholder="Your Email Address *">
                 {% endif %}
               </div>
               <div class="clear">
@@ -186,5 +173,63 @@
       langselect.async = false; // Load synchronously to ensure it's available
       document.body.appendChild(langselect);
     })();
+  </script>
+
+  <!-- Subscribe Form AJAX Handler -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const form = document.getElementById('subscribe-form');
+      const submitBtn = document.getElementById('form-submit');
+      const originalBtnValue = submitBtn.value;
+
+      if (form) {
+        form.addEventListener('submit', function(e) {
+          e.preventDefault();
+
+          // Get form data
+          const formData = new FormData(form);
+          const data = {
+            email: formData.get('email'),
+            name: formData.get('name')
+          };
+
+          // Disable button and change text
+          submitBtn.disabled = true;
+          submitBtn.value = 'Subscribing...';
+
+          // Send AJAX request
+          fetch('https://subscribe.openterface.com/api/subscribe/', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data)
+          })
+          .then(response => response.json())
+          .then(result => {
+            if (result.success) {
+              submitBtn.value = 'Successfully subscribed!';
+              // Clear form fields
+              form.reset();
+            } else {
+              // Handle error response
+              submitBtn.value = 'Subscription failed. Try again.';
+              submitBtn.disabled = false;
+              setTimeout(() => {
+                submitBtn.value = originalBtnValue;
+              }, 3000);
+            }
+          })
+          .catch(error => {
+            console.error('Error:', error);
+            submitBtn.value = 'An error occurred. Try again.';
+            submitBtn.disabled = false;
+            setTimeout(() => {
+              submitBtn.value = originalBtnValue;
+            }, 3000);
+          });
+        });
+      }
+    });
   </script>
 </footer>
