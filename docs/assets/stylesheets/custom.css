@@ -136,7 +136,7 @@ body.homepage .md-content {
 .carousel-description {
   font-size: 1.125rem;
   line-height: 1.2;
-  margin: 1rem 0 2rem;
+  margin: 0.5rem 0 1.5rem;
   color: var(--md-typeset-color);
   opacity: 0.85;
 }
@@ -295,7 +295,7 @@ body.homepage .md-content {
   font-size: 0.875rem;
   color: var(--md-typeset-color);
   opacity: 0.7;
-  margin-top: 0.25rem;
+  margin-top: 0.1rem;
   font-weight: 500;
 }
 
