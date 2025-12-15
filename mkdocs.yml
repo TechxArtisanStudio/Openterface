@@ -242,6 +242,9 @@ plugins:
     default_image: https://assets.openterface.com/images/kvm-go/KVM-GO-bundle-hand-2.webp
 - redirects:
     redirect_maps:
+      uconsole-kvm-ext.md: product/uconsole-kvm-extension/index.md
+      kvm-go.md: product/kvm-go/index.md
+      minikvm.md: product/minikvm/index.md
       product/minikvm/buy.md: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
       product/kvm-go/buy.md: https://www.crowdsupply.com/techxartisan/openterface-kvm-go
       support.md: about/tech-support.md
