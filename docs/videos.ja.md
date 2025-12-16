@@ -4,8 +4,6 @@ hide:
   - toc
 ---
 
-# 動画
-
 <div markdown="0">
-{% include "partials/videos.ja.html" %}
+{% include "partials/videos.html" %}
 </div>

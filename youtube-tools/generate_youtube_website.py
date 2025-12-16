@@ -69,15 +69,12 @@ class YouTubeWebsiteGenerator:
         if output_path:
             self.output_path = output_path
         else:
-            # Default to docs/partials/videos.html (or videos.{lang}.html for non-English)
+            # Default to docs/partials/videos.html (single i18n-enabled file)
             script_dir = Path(__file__).parent
             docs_dir = script_dir.parent / "docs"
             partials_dir = docs_dir / "partials"
             partials_dir.mkdir(parents=True, exist_ok=True)
-            if self.language == 'en':
-                self.output_path = partials_dir / "videos.html"
-            else:
-                self.output_path = partials_dir / f"videos.{self.language}.html"
+            self.output_path = partials_dir / "videos.html"
     
     def read_csv(self) -> List[Dict[str, str]]:
         """Read CSV file and return list of rows."""
@@ -322,7 +319,7 @@ class YouTubeWebsiteGenerator:
         return grid_html
     
     def generate_html(self, rows: List[Dict[str, str]]) -> str:
-        """Generate HTML content from CSV rows."""
+        """Generate HTML content from CSV rows with i18n support."""
         
         # Sort by z_index (descending) if available, then by views
         def sort_key(row):
@@ -340,32 +337,106 @@ class YouTubeWebsiteGenerator:
         
         sorted_rows = sorted(rows, key=sort_key)
         
-        # Get translations for current language
-        t = self.translations
+        # Get all translations for embedding as data attribute
+        all_translations = self._translations
         
-        # Generate HTML partial that works within MkDocs Material theme
+        # Convert translations to JSON string, escaping single quotes for HTML attribute
+        translations_json = json.dumps(all_translations, ensure_ascii=False)
+        # Escape single quotes for use in HTML attribute (but keep double quotes for JSON)
+        translations_json_escaped = translations_json.replace("'", "&#39;")
+        
+        # Get default English translations for fallback text content
+        t = self._translations.get('en', {})
+        
+        # Generate HTML partial with i18n support
         # Note: CSS is now in docs/assets/stylesheets/youtube-videos.css
         # The video grid is in a separate partial: videos-grid.html
-        html_content = f"""<!-- YouTube Videos Page - Generated from youtube.csv (Language: {self.language}) -->
+        html_content = f"""<!-- YouTube Videos Page - Generated from youtube.csv (i18n-enabled) -->
 
-    <div class="youtube-videos-page">
+    <div class="youtube-videos-page" 
+         i18n-lang="auto" 
+         data-translations='{translations_json_escaped}'>
+    <h1 class="youtube-videos-title" data-i18n-key="title">{t.get('title', '📺 YouTube Videos')}</h1>
     <div class="youtube-stats">
         <div class="youtube-stat-card">
             <div class="number">{len(sorted_rows)}</div>
-            <div class="label">{t['total_videos']}</div>
+            <div class="label" data-i18n-key="total_videos">{t.get('total_videos', 'Total Videos')}</div>
         </div>
         <div class="youtube-stat-card">
             <div class="number">{len(set(r.get('language', '').strip() for r in sorted_rows if r.get('language', '').strip()))}</div>
-            <div class="label">{t['languages']}</div>
+            <div class="label" data-i18n-key="languages">{t.get('languages', 'Languages')}</div>
         </div>
         <div class="youtube-stat-card">
             <div class="number">{len(set(r.get('product', '').strip() for r in sorted_rows if r.get('product', '').strip()))}</div>
-            <div class="label">{t['products']}</div>
+            <div class="label" data-i18n-key="products">{t.get('products', 'Products')}</div>
         </div>
     </div>
     
     {{% include "partials/videos-grid.html" %}}
 </div>
+
+<script>
+(function() {{
+    'use strict';
+    
+    // Get the page container
+    const pageElement = document.querySelector('.youtube-videos-page');
+    if (!pageElement) return;
+    
+    // Load translations from data attribute
+    let translations = {{}};
+    try {{
+        const translationsJson = pageElement.getAttribute('data-translations');
+        if (translationsJson) {{
+            // Unescape HTML entities
+            const unescaped = translationsJson.replace(/&#39;/g, "'");
+            translations = JSON.parse(unescaped);
+        }}
+    }} catch (e) {{
+        console.warn('Failed to parse translations:', e);
+        return;
+    }}
+    
+    // Detect current language from URL path
+    // MkDocs static i18n uses URLs like: /zh/videos/, /es/videos/, etc.
+    function detectLanguageFromURL() {{
+        const path = window.location.pathname;
+        const segments = path.split('/').filter(segment => segment);
+        
+        // Supported language codes (from i18n.json)
+        const supportedLangs = {json.dumps(self._supported_languages)};
+        
+        // Check if first segment is a language code
+        if (segments.length > 0 && supportedLangs.includes(segments[0])) {{
+            return segments[0];
+        }}
+        
+        // Default to English if no language code found
+        return 'en';
+    }}
+    
+    // Get current language
+    const i18nLang = pageElement.getAttribute('i18n-lang');
+    let currentLang = 'en';
+    
+    if (i18nLang === 'auto') {{
+        currentLang = detectLanguageFromURL();
+    }} else if (i18nLang && translations[i18nLang]) {{
+        currentLang = i18nLang;
+    }}
+    
+    // Get translations for current language (fallback to English)
+    const t = translations[currentLang] || translations['en'] || {{}};
+    
+    // Update all elements with data-i18n-key attribute
+    pageElement.querySelectorAll('[data-i18n-key]').forEach(element => {{
+        const key = element.getAttribute('data-i18n-key');
+        if (t[key]) {{
+            element.textContent = t[key];
+        }}
+    }});
+}})();
+</script>
 """
         
         return html_content
@@ -401,46 +472,32 @@ class YouTubeWebsiteGenerator:
             print(f"  ❌ Error writing {grid_path.name}: {e}")
             return
         
+        # Generate single i18n-enabled videos.html (works for all languages)
+        print(f"📝 Generating i18n-enabled videos.html...")
+        html_content = self.generate_html(rows)
+        
+        videos_path = partials_dir / "videos.html"
+        try:
+            with open(videos_path, 'w', encoding='utf-8') as f:
+                f.write(html_content)
+            print(f"  ✅ Generated: {videos_path.name} (i18n-enabled for all languages)")
+        except Exception as e:
+            print(f"  ❌ Error writing {videos_path.name}: {e}")
+            return
+        
         if generate_all_languages:
-            # Generate for all languages
-            print(f"📝 Generating HTML websites for all languages...")
-            generated_files = []
-            
-            for lang in self._supported_languages:
-                generator = YouTubeWebsiteGenerator(
-                    csv_path=self.csv_path,
-                    language=lang
-                )
-                html_content = generator.generate_html(rows)
-                
-                try:
-                    with open(generator.output_path, 'w', encoding='utf-8') as f:
-                        f.write(html_content)
-                    generated_files.append(generator.output_path)
-                    print(f"  ✅ Generated: {generator.output_path.name} ({lang})")
-                except Exception as e:
-                    print(f"  ❌ Error writing {generator.output_path.name}: {e}")
-            
-            print(f"\n✅ Generated {len(generated_files)} HTML files successfully!")
+            # Legacy mode: This now just generates the single file
+            print(f"\n✅ Generation complete!")
             print(f"📄 Files:")
             print(f"   - {grid_path.name} (shared grid)")
-            for f in generated_files:
-                print(f"   - {f.name}")
+            print(f"   - {videos_path.name} (single i18n-enabled file for all languages)")
         else:
-            # Generate for current language only
-            print(f"📝 Generating HTML website (language: {self.language})...")
-            html_content = self.generate_html(rows)
-            
-            try:
-                with open(self.output_path, 'w', encoding='utf-8') as f:
-                    f.write(html_content)
-                
-                print(f"✅ Website generated successfully!")
-                print(f"📄 Output file: {self.output_path}")
-                print(f"\n💡 Open {self.output_path} in your browser to view the website.")
-                
-            except Exception as e:
-                print(f"❌ Error writing HTML file: {e}")
+            # Single file generation (already done above)
+            print(f"\n✅ Generation complete!")
+            print(f"📄 Files:")
+            print(f"   - {grid_path.name} (shared grid)")
+            print(f"   - {videos_path.name} (i18n-enabled for all languages)")
+            print(f"\n💡 The videos.html file automatically detects language from URL path.")
 
 
 def main():
