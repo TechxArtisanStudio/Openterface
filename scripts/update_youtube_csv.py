@@ -189,7 +189,7 @@ class YouTubeMetadataFetcher:
 class YouTubeCSVUpdater:
     """Updates YouTube CSV file with metadata."""
     
-    CSV_COLUMNS = ['youtube_url', 'title', 'author_name', 'thumbnail_url', 'date', 'views', 'description', 'fetch_date']
+    CSV_COLUMNS = ['youtube_url', 'title', 'author_name', 'thumbnail_url', 'date', 'views', 'description', 'fetch_date', 'z_index', 'language', 'product', 'type']
     
     def __init__(self, csv_path: Path, dry_run: bool = False, verbose: bool = False, 
                  offline: bool = False, proxy: str = None, force: bool = False, 
