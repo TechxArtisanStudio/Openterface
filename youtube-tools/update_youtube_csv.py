@@ -65,6 +65,7 @@ class YouTubeMetadataFetcher:
                 'title': '',
                 'author_name': '',
                 'thumbnail_url': '',
+                'video_thumbnail_url': '',
                 'date': '',
                 'views': '',
                 'description': ''
@@ -79,10 +80,14 @@ class YouTubeMetadataFetcher:
             
             if response.status_code == 200:
                 data = response.json()
+                # oEmbed returns video thumbnail, save it before we overwrite with channel avatar
+                video_thumbnail = data.get('thumbnail_url', '')
+                
                 metadata = {
                     'title': data.get('title', ''),
                     'author_name': data.get('author_name', ''),
-                    'thumbnail_url': data.get('thumbnail_url', ''),
+                    'thumbnail_url': '',  # Will be set to channel avatar in _fetch_additional_metadata
+                    'video_thumbnail_url': video_thumbnail,  # Video thumbnail from oEmbed
                     'date': '',  # oEmbed doesn't provide date
                     'views': '',  # oEmbed doesn't provide views
                     'description': ''
@@ -102,6 +107,7 @@ class YouTubeMetadataFetcher:
             'title': '',
             'author_name': '',
             'thumbnail_url': '',
+            'video_thumbnail_url': '',
             'date': '',
             'views': '',
             'description': ''
@@ -147,10 +153,33 @@ class YouTubeMetadataFetcher:
                     except ValueError:
                         metadata['date'] = date_str
                 
-                # Extract channel avatar/icon instead of video thumbnail
+                # Extract channel avatar/icon (keep in thumbnail_url)
                 avatar_match = re.search(r'"channelThumbnail":\s*\{\s*"thumbnails":\s*\[.*?"url":\s*"([^"]+)"', content, re.DOTALL)
                 if avatar_match:
                     metadata['thumbnail_url'] = avatar_match.group(1)
+                
+                # Extract video thumbnail/cover image if not already set from oEmbed
+                if not metadata.get('video_thumbnail_url'):
+                    # Try multiple patterns for video thumbnail
+                    video_thumb_patterns = [
+                        r'"thumbnail":\s*\{\s*"thumbnails":\s*\[.*?"url":\s*"([^"]+)"',  # Standard thumbnail
+                        r'"videoDetails":\s*\{[^}]*"thumbnail":\s*\{\s*"thumbnails":\s*\[.*?"url":\s*"([^"]+)"',  # Video details thumbnail
+                        r'"maxresdefault":\s*"([^"]+)"',  # Max resolution thumbnail
+                        r'"hqdefault":\s*"([^"]+)"',  # High quality thumbnail
+                    ]
+                    
+                    video_thumbnail = None
+                    for pattern in video_thumb_patterns:
+                        thumb_match = re.search(pattern, content, re.DOTALL)
+                        if thumb_match:
+                            video_thumbnail = thumb_match.group(1)
+                            break
+                    
+                    # If not found in page, construct from video ID
+                    if not video_thumbnail:
+                        video_thumbnail = f"https://img.youtube.com/vi/{video_id}/maxresdefault.jpg"
+                    
+                    metadata['video_thumbnail_url'] = video_thumbnail
                 
                 # Try to extract description - handle escaped quotes properly
                 # Pattern: "shortDescription":"...content..." where content can contain escaped quotes
@@ -189,7 +218,7 @@ class YouTubeMetadataFetcher:
 class YouTubeCSVUpdater:
     """Updates YouTube CSV file with metadata."""
     
-    CSV_COLUMNS = ['youtube_url', 'title', 'author_name', 'thumbnail_url', 'date', 'views', 'description', 'fetch_date', 'z_index', 'language', 'product', 'type']
+    CSV_COLUMNS = ['youtube_url', 'title', 'author_name', 'thumbnail_url', 'video_thumbnail_url', 'date', 'views', 'description', 'fetch_date', 'z_index', 'language', 'product', 'type', 'home_page']
     
     def __init__(self, csv_path: Path, dry_run: bool = False, verbose: bool = False, 
                  offline: bool = False, proxy: str = None, force: bool = False, 
@@ -353,6 +382,7 @@ class YouTubeCSVUpdater:
             row['title'] = metadata.get('title', '')
             row['author_name'] = metadata.get('author_name', '')
             row['thumbnail_url'] = metadata.get('thumbnail_url', '')
+            row['video_thumbnail_url'] = metadata.get('video_thumbnail_url', '')
             row['date'] = metadata.get('date', '')
             row['views'] = metadata.get('views', '')
             row['description'] = metadata.get('description', '')
@@ -364,6 +394,8 @@ class YouTubeCSVUpdater:
                 row['author_name'] = metadata.get('author_name', '')
             if not row.get('thumbnail_url', '').strip():
                 row['thumbnail_url'] = metadata.get('thumbnail_url', '')
+            if not row.get('video_thumbnail_url', '').strip():
+                row['video_thumbnail_url'] = metadata.get('video_thumbnail_url', '')
             if not row.get('date', '').strip():
                 row['date'] = metadata.get('date', '')
             if not row.get('views', '').strip():

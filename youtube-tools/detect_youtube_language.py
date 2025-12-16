@@ -263,7 +263,7 @@ class YouTubeLanguageUpdater:
     """Updates YouTube CSV file with detected languages."""
     
     CSV_COLUMNS = ['youtube_url', 'title', 'author_name', 'thumbnail_url', 'date', 'views', 
-                   'description', 'fetch_date', 'z_index', 'language', 'product', 'type']
+                   'description', 'fetch_date', 'z_index', 'language', 'product', 'type', 'home_page']
     
     def __init__(self, csv_path: Path, dry_run: bool = False, verbose: bool = False,
                  force: bool = False, interactive: bool = False,

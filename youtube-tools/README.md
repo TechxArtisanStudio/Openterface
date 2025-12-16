@@ -7,6 +7,7 @@ This directory contains tools for managing YouTube video metadata and language d
 - `youtube.csv` - Main CSV file containing YouTube video metadata
 - `update_youtube_csv.py` - Script to fetch and update YouTube video metadata
 - `detect_youtube_language.py` - Script to detect video languages using local LLM
+- `generate_youtube_website.py` - Script to generate HTML website from CSV data
 
 ## Usage
 
@@ -39,6 +40,16 @@ python youtube-tools/detect_youtube_language.py --interactive
 python youtube-tools/detect_youtube_language.py --force
 ```
 
+### Generate Website
+
+```bash
+# Generate HTML website (default: youtube.html)
+python youtube-tools/generate_youtube_website.py
+
+# Specify custom output file
+python youtube-tools/generate_youtube_website.py --output videos.html
+```
+
 ## CSV Structure
 
 The `youtube.csv` file contains the following columns:
@@ -55,6 +66,7 @@ The `youtube.csv` file contains the following columns:
 - `language` - Language code (en, zh, ja, ko, fr, de, it, es, pt, ro)
 - `product` - Product name (e.g., minikvm, kvm-go)
 - `type` - Video type (e.g., review, update)
+- `home_page` - Whether to show on home page
 
 ## Notes
 
