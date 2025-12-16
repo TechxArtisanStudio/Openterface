@@ -79,6 +79,10 @@
     "YouTube Reviews": YouTube 评测
     "Reviews Videos": 评测视频
     "Updates for Mini-KVM": Mini-KVM 更新
+    "Beta Quick Start": Beta快速开始
+    "MicroSD Switch": MicroSD切换器
+    "FAQs for KVM-Go": KVM-Go常见问题
+    "Updates for KVM-Go": KVM-Go更新
 - locale: ja
   name: 日本語
   build: true
@@ -146,10 +150,14 @@
     "FAQs for KVM Ext.": "KVM 拡張 FAQ"
     "Media Coverage": メディア掲載
     "Testimonials": お客様の声
-    "Updates for KVM Ext.": "KVM 拡張アップデート"
-    "YouTube Reviews": YouTube レビュー
+    "Updates for KVM Ext.": "KVM拡張アップデート"
+    "YouTube Reviews": YouTubeレビュー
     "Reviews Videos": レビュー動画
-    "Updates for Mini-KVM": Mini-KVM アップデート
+    "Updates for Mini-KVM": Mini-KVMアップデート
+    "Beta Quick Start": Betaクイックスタート
+    "MicroSD Switch": MicroSDスイッチ
+    "FAQs for KVM-Go": KVM-Go FAQ
+    "Updates for KVM-Go": KVM-Goアップデート
 - locale: ko
   name: 한국어
   build: true
@@ -221,6 +229,10 @@
     "YouTube Reviews": YouTube 리뷰
     "Reviews Videos": 리뷰 영상
     "Updates for Mini-KVM": Mini-KVM 업데이트
+    "Beta Quick Start": Beta 빠른 시작
+    "MicroSD Switch": MicroSD 스위치
+    "FAQs for KVM-Go": KVM-Go FAQ
+    "Updates for KVM-Go": KVM-Go 업데이트
 - locale: fr
   name: Français
   build: true
@@ -292,6 +304,10 @@
     "YouTube Reviews": "Avis YouTube"
     "Reviews Videos": "Vidéos d'avis"
     "Updates for Mini-KVM": "Mises à jour Mini-KVM"
+    "Beta Quick Start": "Démarrage rapide Beta"
+    "MicroSD Switch": "Commutateur MicroSD"
+    "FAQs for KVM-Go": "FAQ KVM-Go"
+    "Updates for KVM-Go": "Mises à jour KVM-Go"
 - locale: de
   name: Deutsch
   build: true
@@ -363,6 +379,10 @@
     "YouTube Reviews": "YouTube-Bewertungen"
     "Reviews Videos": "Bewertungsvideos"
     "Updates for Mini-KVM": "Mini-KVM Updates"
+    "Beta Quick Start": "Beta Schnellstart"
+    "MicroSD Switch": "MicroSD-Umschalter"
+    "FAQs for KVM-Go": "KVM-Go FAQs"
+    "Updates for KVM-Go": "KVM-Go Updates"
 - locale: it
   name: Italiano
   build: true
@@ -434,6 +454,10 @@
     "YouTube Reviews": "Recensioni YouTube"
     "Reviews Videos": "Video recensioni"
     "Updates for Mini-KVM": "Aggiornamenti Mini-KVM"
+    "Beta Quick Start": "Guida rapida Beta"
+    "MicroSD Switch": "Switch MicroSD"
+    "FAQs for KVM-Go": "FAQ KVM-Go"
+    "Updates for KVM-Go": "Aggiornamenti KVM-Go"
 - locale: es
   name: Español
   build: true
@@ -505,6 +529,10 @@
     "YouTube Reviews": "Reseñas de YouTube"
     "Reviews Videos": "Videos de reseñas"
     "Updates for Mini-KVM": "Actualizaciones Mini-KVM"
+    "Beta Quick Start": "Inicio rápido Beta"
+    "MicroSD Switch": "Conmutador MicroSD"
+    "FAQs for KVM-Go": "Preguntas sobre KVM-Go"
+    "Updates for KVM-Go": "Actualizaciones KVM-Go"
 - locale: pt
   name: Português
   build: true
@@ -576,6 +604,10 @@
     "YouTube Reviews": "Avaliações do YouTube"
     "Reviews Videos": "Vídeos de avaliações"
     "Updates for Mini-KVM": "Atualizações Mini-KVM"
+    "Beta Quick Start": "Início rápido Beta"
+    "MicroSD Switch": "Comutador MicroSD"
+    "FAQs for KVM-Go": "Perguntas sobre KVM-Go"
+    "Updates for KVM-Go": "Atualizações KVM-Go"
 - locale: ro
   name: Română
   build: true
@@ -647,3 +679,7 @@
     "YouTube Reviews": "Recenzii YouTube"
     "Reviews Videos": "Videoclipuri recenzii"
     "Updates for Mini-KVM": "Actualizări Mini-KVM"
+    "Beta Quick Start": "Începere rapidă Beta"
+    "MicroSD Switch": "Comutator MicroSD"
+    "FAQs for KVM-Go": "Întrebări despre KVM-Go"
+    "Updates for KVM-Go": "Actualizări KVM-Go"
