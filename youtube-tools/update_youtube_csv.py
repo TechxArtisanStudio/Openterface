@@ -2,7 +2,7 @@
 """
 YouTube CSV Metadata Updater
 
-This script updates home-material/youtube.csv with YouTube video metadata.
+This script updates youtube-tools/youtube.csv with YouTube video metadata.
 It fetches metadata for videos and updates the CSV file, preserving user edits
 and supporting maintenance workflows.
 
@@ -467,7 +467,7 @@ class YouTubeCSVUpdater:
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Update home-material/youtube.csv with YouTube video metadata',
+        description='Update youtube-tools/youtube.csv with YouTube video metadata',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
@@ -491,7 +491,7 @@ Examples:
         """
     )
     parser.add_argument('--csv-path', 
-                       help='Path to CSV file (default: home-material/youtube.csv)',
+                       help='Path to CSV file (default: youtube-tools/youtube.csv)',
                        type=Path)
     parser.add_argument('--dry-run', action='store_true', 
                        help='Show what would be done without making changes')
@@ -514,9 +514,9 @@ Examples:
     if args.csv_path:
         csv_path = Path(args.csv_path)
     else:
-        # Default to home-material/youtube.csv relative to script directory
+        # Default to youtube-tools/youtube.csv (same directory as script)
         script_dir = Path(__file__).parent
-        csv_path = script_dir.parent / "home-material" / "youtube.csv"
+        csv_path = script_dir / "youtube.csv"
     
     # Determine proxy settings (priority: --proxy > --vpn > environment variables)
     proxy = args.proxy

@@ -498,7 +498,7 @@ Examples:
         """
     )
     parser.add_argument('--csv-path', 
-                       help='Path to CSV file (default: home-material/youtube.csv)',
+                       help='Path to CSV file (default: youtube-tools/youtube.csv)',
                        type=Path)
     parser.add_argument('--dry-run', action='store_true', 
                        help='Show what would be done without making changes')
@@ -518,9 +518,9 @@ Examples:
     if args.csv_path:
         csv_path = Path(args.csv_path)
     else:
-        # Default to home-material/youtube.csv relative to script directory
+        # Default to youtube-tools/youtube.csv (same directory as script)
         script_dir = Path(__file__).parent
-        csv_path = script_dir.parent / "home-material" / "youtube.csv"
+        csv_path = script_dir / "youtube.csv"
     
     print(f"Using LM Studio API: {args.api_url}")
     print(f"CSV file: {csv_path}\n")

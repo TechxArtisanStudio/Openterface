@@ -18,4 +18,4 @@ i18n_audit.csv
 prompts/
 site/
 __pycache__/
-home-material/youtube.csv.backup
+*.backup
