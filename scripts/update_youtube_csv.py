@@ -118,16 +118,11 @@ class YouTubeMetadataFetcher:
             if response.status_code == 200:
                 content = response.text
                 
-                # Extract views using regex
+                # Extract views using regex - store as actual number
                 views_match = re.search(r'"viewCount":"(\d+)"', content)
                 if views_match:
                     views = int(views_match.group(1))
-                    if views >= 1000000:
-                        metadata['views'] = f"{views/1000000:.1f}M"
-                    elif views >= 1000:
-                        metadata['views'] = f"{views/1000:.1f}K"
-                    else:
-                        metadata['views'] = str(views)
+                    metadata['views'] = str(views)  # Store as number, not formatted
                 
                 # Extract publish date
                 date_match = re.search(r'"publishDate":"(\d{4}-\d{2}-\d{2})"', content)
@@ -157,13 +152,34 @@ class YouTubeMetadataFetcher:
                 if avatar_match:
                     metadata['thumbnail_url'] = avatar_match.group(1)
                 
-                # Try to extract description (first 500 chars)
-                desc_match = re.search(r'"shortDescription":"([^"]{0,500})"', content)
-                if desc_match:
-                    description = desc_match.group(1)
-                    # Unescape common sequences
-                    description = description.replace('\\n', ' ').replace('\\"', '"')
-                    metadata['description'] = description[:500]  # Limit to 500 chars
+                # Try to extract description - handle escaped quotes properly
+                # Pattern: "shortDescription":"...content..." where content can contain escaped quotes
+                # We need to match the full JSON string value, handling escaped quotes
+                desc_patterns = [
+                    # Try to find shortDescription in JSON structure
+                    r'"shortDescription":"((?:[^"\\]|\\.)*)"',
+                    # Alternative: look for description in videoPrimaryInfoRenderer
+                    r'"description":\s*\{\s*"simpleText":\s*"((?:[^"\\]|\\.)*)"',
+                    # Another alternative pattern
+                    r'"description":\s*"((?:[^"\\]|\\.)*)"',
+                ]
+                
+                description = ''
+                for pattern in desc_patterns:
+                    desc_match = re.search(pattern, content, re.DOTALL)
+                    if desc_match:
+                        description = desc_match.group(1)
+                        # Unescape JSON sequences
+                        description = description.replace('\\n', '\n').replace('\\"', '"').replace('\\\\', '\\')
+                        # Replace newlines with spaces for CSV (or keep them - CSV can handle them)
+                        description = description.replace('\n', ' ').replace('\r', ' ')
+                        # Remove extra whitespace
+                        description = ' '.join(description.split())
+                        if description:
+                            break
+                
+                if description:
+                    metadata['description'] = description
                         
         except Exception as e:
             # Silently fail for additional metadata
@@ -186,6 +202,35 @@ class YouTubeCSVUpdater:
         self.skip_existing = skip_existing
         self.metadata_fetcher = YouTubeMetadataFetcher(offline_mode=offline, proxy=proxy)
         
+    def normalize_views(self, views_str: str) -> str:
+        """Convert formatted view count (e.g., '4.0K', '26.5K', '1.62M') to actual number."""
+        if not views_str or not views_str.strip():
+            return ''
+        
+        views_str = views_str.strip().upper()
+        
+        # If it's already a number, return as is
+        if views_str.isdigit():
+            return views_str
+        
+        # Handle K (thousands) and M (millions)
+        try:
+            if views_str.endswith('K'):
+                number = float(views_str[:-1])
+                return str(int(number * 1000))
+            elif views_str.endswith('M'):
+                number = float(views_str[:-1])
+                return str(int(number * 1000000))
+            elif views_str.endswith('B'):
+                number = float(views_str[:-1])
+                return str(int(number * 1000000000))
+            else:
+                # Try to parse as number
+                return str(int(float(views_str)))
+        except (ValueError, AttributeError):
+            # If parsing fails, return original
+            return views_str
+    
     def read_csv(self) -> List[Dict[str, str]]:
         """Read CSV file and return list of rows."""
         rows = []
@@ -203,6 +248,10 @@ class YouTubeCSVUpdater:
                     for key, value in row.items():
                         normalized_key = key.lstrip('\ufeff')  # Remove BOM from key
                         normalized_row[normalized_key] = value
+                    
+                    # Normalize views column if present
+                    if 'views' in normalized_row:
+                        normalized_row['views'] = self.normalize_views(normalized_row['views'])
                     
                     # Skip rows where youtube_url is empty or is the header
                     url = normalized_row.get('youtube_url', '').strip()
@@ -229,8 +278,18 @@ class YouTubeCSVUpdater:
                     print(f"Created backup: {backup_path}")
             
             # Write CSV (using utf-8-sig to maintain BOM if it existed)
+            # Note: Python's csv module automatically handles long descriptions by escaping
+            # quotes and special characters, so full descriptions can be stored safely
+            
+            # Determine all columns: start with standard columns, then add any extra columns from rows
+            all_columns = list(self.CSV_COLUMNS)
+            for row in rows:
+                for key in row.keys():
+                    if key not in all_columns:
+                        all_columns.append(key)  # Preserve any extra columns (e.g., language, product, type)
+            
             with open(self.csv_path, 'w', encoding='utf-8-sig', newline='') as f:
-                writer = csv.DictWriter(f, fieldnames=self.CSV_COLUMNS)
+                writer = csv.DictWriter(f, fieldnames=all_columns)
                 writer.writeheader()
                 writer.writerows(rows)
                 
@@ -319,7 +378,9 @@ class YouTubeCSVUpdater:
         # Show result
         if success:
             title_preview = metadata.get('title', '')[:50] + '...' if len(metadata.get('title', '')) > 50 else metadata.get('title', '')
-            print(f" ✓ {title_preview}")
+            desc_len = len(metadata.get('description', ''))
+            desc_info = f" (desc: {desc_len} chars)" if desc_len > 0 else ""
+            print(f" ✓ {title_preview}{desc_info}")
         else:
             print(f" ✗ Failed to fetch metadata")
         
@@ -413,8 +474,11 @@ Examples:
   # Update only rows with missing metadata
   python update_youtube_csv.py
   
-  # Force update all rows (overwrites existing data)
+  # Force update all rows (useful for updating view counts that change over time)
   python update_youtube_csv.py --force
+  
+  # Force update with VPN
+  python update_youtube_csv.py --force --vpn
   
   # Skip rows that already have metadata
   python update_youtube_csv.py --skip-existing
@@ -440,7 +504,7 @@ Examples:
     parser.add_argument('--vpn', action='store_true',
                        help='Use VPN proxy at http://0.0.0.0:1087')
     parser.add_argument('--force', action='store_true',
-                       help='Force update all rows, overwriting existing metadata')
+                       help='Force update all rows (including those with existing metadata). Useful for updating view counts that change over time.')
     parser.add_argument('--skip-existing', action='store_true',
                        help='Skip rows that already have any metadata')
     
