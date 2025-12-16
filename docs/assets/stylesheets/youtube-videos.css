@@ -3,6 +3,10 @@
     background: var(--md-default-bg-color);
     color: var(--md-default-fg-color);
     padding: 2rem 1rem;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .youtube-videos-header {

@@ -134,12 +134,15 @@ class YouTubeWebsiteGenerator:
         if output_path:
             self.output_path = output_path
         else:
-            # Default to docs/partials/videos.html
+            # Default to docs/partials/videos.html (or videos.{lang}.html for non-English)
             script_dir = Path(__file__).parent
             docs_dir = script_dir.parent / "docs"
             partials_dir = docs_dir / "partials"
             partials_dir.mkdir(parents=True, exist_ok=True)
-            self.output_path = partials_dir / "videos.html"
+            if self.language == 'en':
+                self.output_path = partials_dir / "videos.html"
+            else:
+                self.output_path = partials_dir / f"videos.{self.language}.html"
     
     def read_csv(self) -> List[Dict[str, str]]:
         """Read CSV file and return list of rows."""
@@ -350,6 +353,39 @@ class YouTubeWebsiteGenerator:
         
         return card_html
     
+    def generate_videos_grid(self, rows: List[Dict[str, str]]) -> str:
+        """Generate the videos grid HTML (shared across all languages)."""
+        # Sort by z_index (descending) if available, then by views
+        def sort_key(row):
+            z_index = row.get('z_index', '').strip()
+            views = row.get('views', '').strip()
+            try:
+                z_val = int(z_index) if z_index else 0
+            except:
+                z_val = 0
+            try:
+                v_val = int(views) if views else 0
+            except:
+                v_val = 0
+            return (-z_val, -v_val)  # Negative for descending
+        
+        sorted_rows = sorted(rows, key=sort_key)
+        
+        # Generate the video grid HTML
+        grid_html = """<!-- YouTube Videos Grid - Generated from youtube.csv -->
+    <div class="youtube-videos-grid">
+"""
+        
+        for row in sorted_rows:
+            # Render video card using template
+            card_html = self.render_video_card(row)
+            grid_html += f"            {card_html}\n"
+        
+        grid_html += """    </div>
+"""
+        
+        return grid_html
+    
     def generate_html(self, rows: List[Dict[str, str]]) -> str:
         """Generate HTML content from CSV rows."""
         
@@ -374,7 +410,8 @@ class YouTubeWebsiteGenerator:
         
         # Generate HTML partial that works within MkDocs Material theme
         # Note: CSS is now in docs/assets/stylesheets/youtube-videos.css
-        html_content = f"""<!-- YouTube Videos Grid - Generated from youtube.csv (Language: {self.language}) -->
+        # The video grid is in a separate partial: videos-grid.html
+        html_content = f"""<!-- YouTube Videos Page - Generated from youtube.csv (Language: {self.language}) -->
 
     <div class="youtube-videos-page">
     <div class="youtube-stats">
@@ -392,22 +429,13 @@ class YouTubeWebsiteGenerator:
         </div>
     </div>
     
-    <div class="youtube-videos-grid">
-"""
-        
-        for row in sorted_rows:
-            # Render video card using template
-            card_html = self.render_video_card(row)
-            html_content += f"            {card_html}\n"
-        
-        html_content += """
-    </div>
+    {{% include "partials/videos-grid.html" %}}
 </div>
 """
         
         return html_content
     
-    def generate(self):
+    def generate(self, generate_all_languages: bool = False):
         """Generate the HTML website."""
         print("=" * 60)
         print("YouTube Website Generator")
@@ -420,20 +448,64 @@ class YouTubeWebsiteGenerator:
             return
         
         print(f"\n📊 Found {len(rows)} videos in CSV file.")
-        print(f"📝 Generating HTML website...")
         
-        html_content = self.generate_html(rows)
+        # First, generate the shared videos-grid.html
+        print(f"📝 Generating shared videos-grid.html...")
+        grid_html = self.generate_videos_grid(rows)
+        
+        script_dir = Path(__file__).parent
+        docs_dir = script_dir.parent / "docs"
+        partials_dir = docs_dir / "partials"
+        grid_path = partials_dir / "videos-grid.html"
         
         try:
-            with open(self.output_path, 'w', encoding='utf-8') as f:
-                f.write(html_content)
-            
-            print(f"✅ Website generated successfully!")
-            print(f"📄 Output file: {self.output_path}")
-            print(f"\n💡 Open {self.output_path} in your browser to view the website.")
-            
+            with open(grid_path, 'w', encoding='utf-8') as f:
+                f.write(grid_html)
+            print(f"  ✅ Generated: {grid_path.name}")
         except Exception as e:
-            print(f"❌ Error writing HTML file: {e}")
+            print(f"  ❌ Error writing {grid_path.name}: {e}")
+            return
+        
+        if generate_all_languages:
+            # Generate for all languages
+            print(f"📝 Generating HTML websites for all languages...")
+            generated_files = []
+            
+            for lang in self.SUPPORTED_LANGUAGES:
+                generator = YouTubeWebsiteGenerator(
+                    csv_path=self.csv_path,
+                    language=lang
+                )
+                html_content = generator.generate_html(rows)
+                
+                try:
+                    with open(generator.output_path, 'w', encoding='utf-8') as f:
+                        f.write(html_content)
+                    generated_files.append(generator.output_path)
+                    print(f"  ✅ Generated: {generator.output_path.name} ({lang})")
+                except Exception as e:
+                    print(f"  ❌ Error writing {generator.output_path.name}: {e}")
+            
+            print(f"\n✅ Generated {len(generated_files)} HTML files successfully!")
+            print(f"📄 Files:")
+            print(f"   - {grid_path.name} (shared grid)")
+            for f in generated_files:
+                print(f"   - {f.name}")
+        else:
+            # Generate for current language only
+            print(f"📝 Generating HTML website (language: {self.language})...")
+            html_content = self.generate_html(rows)
+            
+            try:
+                with open(self.output_path, 'w', encoding='utf-8') as f:
+                    f.write(html_content)
+                
+                print(f"✅ Website generated successfully!")
+                print(f"📄 Output file: {self.output_path}")
+                print(f"\n💡 Open {self.output_path} in your browser to view the website.")
+                
+            except Exception as e:
+                print(f"❌ Error writing HTML file: {e}")
 
 
 def main():
@@ -442,8 +514,14 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Generate website (default: docs/partials/videos.html)
+  # Generate website for English (default: docs/partials/videos.html)
   python generate_youtube_website.py
+  
+  # Generate for all languages
+  python generate_youtube_website.py --all-languages
+  
+  # Generate for specific language
+  python generate_youtube_website.py --language zh
   
   # Specify custom output file
   python generate_youtube_website.py --output custom.html
@@ -455,6 +533,11 @@ Examples:
     parser.add_argument('--output', '-o',
                        help='Output HTML file (default: docs/partials/videos.html)',
                        type=Path)
+    parser.add_argument('--language', '-l',
+                       help='Language code (en, zh, ja, ko, fr, de, it, es, pt, ro). Default: en',
+                       default='en')
+    parser.add_argument('--all-languages', '-a', action='store_true',
+                       help='Generate HTML files for all supported languages')
     
     args = parser.parse_args()
     
@@ -469,9 +552,9 @@ Examples:
     generator = YouTubeWebsiteGenerator(
         csv_path=csv_path,
         output_path=args.output,
-        language='en'  # Default to English, but only one file is generated
+        language=args.language
     )
-    generator.generate()
+    generator.generate(generate_all_languages=args.all_languages)
 
 
 if __name__ == "__main__":

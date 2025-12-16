@@ -1,5 +1,11 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Video
 
 <div markdown="0">
-{% include "partials/videos.html" %}
+{% include "partials/videos.it.html" %}
 </div>
