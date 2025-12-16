@@ -11,6 +11,7 @@ Usage:
 
 import csv
 import argparse
+import json
 from pathlib import Path
 from typing import List, Dict
 from datetime import datetime
@@ -20,116 +21,50 @@ import html
 class YouTubeWebsiteGenerator:
     """Generates HTML website from YouTube CSV data."""
     
-    # Translation dictionaries for UI strings
-    TRANSLATIONS = {
-        'en': {
-            'title': '📺 YouTube Videos',
-            'subtitle': 'Openterface Product Reviews & Updates',
-            'total_videos': 'Total Videos',
-            'languages': 'Languages',
-            'products': 'Products',
-            'views': 'views',
-            'home_page': 'Home Page',
-            'unknown_channel': 'Unknown Channel'
-        },
-        'zh': {
-            'title': '📺 YouTube 视频',
-            'subtitle': 'Openterface 产品评测与更新',
-            'total_videos': '视频总数',
-            'languages': '语言',
-            'products': '产品',
-            'views': '次观看',
-            'home_page': '首页',
-            'unknown_channel': '未知频道'
-        },
-        'ja': {
-            'title': '📺 YouTube 動画',
-            'subtitle': 'Openterface 製品レビューとアップデート',
-            'total_videos': '動画総数',
-            'languages': '言語',
-            'products': '製品',
-            'views': '回視聴',
-            'home_page': 'ホームページ',
-            'unknown_channel': '不明なチャンネル'
-        },
-        'ko': {
-            'title': '📺 YouTube 동영상',
-            'subtitle': 'Openterface 제품 리뷰 및 업데이트',
-            'total_videos': '동영상 총수',
-            'languages': '언어',
-            'products': '제품',
-            'views': '회 조회',
-            'home_page': '홈페이지',
-            'unknown_channel': '알 수 없는 채널'
-        },
-        'fr': {
-            'title': '📺 Vidéos YouTube',
-            'subtitle': 'Avis et mises à jour des produits Openterface',
-            'total_videos': 'Total des vidéos',
-            'languages': 'Langues',
-            'products': 'Produits',
-            'views': 'vues',
-            'home_page': 'Page d\'accueil',
-            'unknown_channel': 'Chaîne inconnue'
-        },
-        'de': {
-            'title': '📺 YouTube Videos',
-            'subtitle': 'Openterface Produktbewertungen & Updates',
-            'total_videos': 'Gesamt Videos',
-            'languages': 'Sprachen',
-            'products': 'Produkte',
-            'views': 'Aufrufe',
-            'home_page': 'Startseite',
-            'unknown_channel': 'Unbekannter Kanal'
-        },
-        'it': {
-            'title': '📺 Video YouTube',
-            'subtitle': 'Recensioni e aggiornamenti prodotti Openterface',
-            'total_videos': 'Totale video',
-            'languages': 'Lingue',
-            'products': 'Prodotti',
-            'views': 'visualizzazioni',
-            'home_page': 'Home Page',
-            'unknown_channel': 'Canale sconosciuto'
-        },
-        'es': {
-            'title': '📺 Videos de YouTube',
-            'subtitle': 'Reseñas y actualizaciones de productos Openterface',
-            'total_videos': 'Total de videos',
-            'languages': 'Idiomas',
-            'products': 'Productos',
-            'views': 'visualizaciones',
-            'home_page': 'Página de inicio',
-            'unknown_channel': 'Canal desconocido'
-        },
-        'pt': {
-            'title': '📺 Vídeos do YouTube',
-            'subtitle': 'Avaliações e atualizações de produtos Openterface',
-            'total_videos': 'Total de vídeos',
-            'languages': 'Idiomas',
-            'products': 'Produtos',
-            'views': 'visualizações',
-            'home_page': 'Página inicial',
-            'unknown_channel': 'Canal desconhecido'
-        },
-        'ro': {
-            'title': '📺 Videoclipuri YouTube',
-            'subtitle': 'Recenzii și actualizări produse Openterface',
-            'total_videos': 'Total videoclipuri',
-            'languages': 'Limbi',
-            'products': 'Produse',
-            'views': 'vizualizări',
-            'home_page': 'Pagina principală',
-            'unknown_channel': 'Canal necunoscut'
-        }
-    }
+    @staticmethod
+    def load_i18n_config() -> Dict:
+        """Load i18n configuration from JSON file."""
+        script_dir = Path(__file__).parent
+        i18n_path = script_dir / "i18n.json"
+        
+        if not i18n_path.exists():
+            raise FileNotFoundError(
+                f"i18n configuration file not found: {i18n_path}\n"
+                "Please ensure i18n.json exists in the same directory as the script."
+            )
+        
+        try:
+            with open(i18n_path, 'r', encoding='utf-8') as f:
+                config = json.load(f)
+            return config
+        except json.JSONDecodeError as e:
+            raise ValueError(f"Invalid JSON in i18n.json: {e}")
+        except Exception as e:
+            raise RuntimeError(f"Error loading i18n.json: {e}")
     
-    SUPPORTED_LANGUAGES = ['en', 'zh', 'ja', 'ko', 'fr', 'de', 'it', 'es', 'pt', 'ro']
+    @classmethod
+    def get_translations(cls) -> Dict[str, Dict[str, str]]:
+        """Get translations dictionary from i18n config."""
+        config = cls.load_i18n_config()
+        return config.get('translations', {})
+    
+    @classmethod
+    def get_supported_languages(cls) -> List[str]:
+        """Get supported languages list from i18n config."""
+        config = cls.load_i18n_config()
+        return config.get('supported_languages', ['en'])
     
     def __init__(self, csv_path: Path, output_path: Path = None, language: str = 'en'):
         self.csv_path = csv_path
-        self.language = language if language in self.SUPPORTED_LANGUAGES else 'en'
-        self.translations = self.TRANSLATIONS.get(self.language, self.TRANSLATIONS['en'])
+        
+        # Load i18n configuration
+        self._i18n_config = self.load_i18n_config()
+        self._translations = self._i18n_config.get('translations', {})
+        self._supported_languages = self._i18n_config.get('supported_languages', ['en'])
+        
+        # Set language and translations
+        self.language = language if language in self._supported_languages else 'en'
+        self.translations = self._translations.get(self.language, self._translations.get('en', {}))
         
         if output_path:
             self.output_path = output_path
@@ -471,7 +406,7 @@ class YouTubeWebsiteGenerator:
             print(f"📝 Generating HTML websites for all languages...")
             generated_files = []
             
-            for lang in self.SUPPORTED_LANGUAGES:
+            for lang in self._supported_languages:
                 generator = YouTubeWebsiteGenerator(
                     csv_path=self.csv_path,
                     language=lang

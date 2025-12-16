@@ -1,0 +1,106 @@
+{
+  "supported_languages": ["en", "zh", "ja", "ko", "fr", "de", "it", "es", "pt", "ro"],
+  "translations": {
+    "en": {
+      "title": "📺 YouTube Videos",
+      "subtitle": "Openterface Product Reviews & Updates",
+      "total_videos": "Total Videos",
+      "languages": "Languages",
+      "products": "Products",
+      "views": "views",
+      "home_page": "Home Page",
+      "unknown_channel": "Unknown Channel"
+    },
+    "zh": {
+      "title": "📺 YouTube 视频",
+      "subtitle": "Openterface 产品评测与更新",
+      "total_videos": "视频总数",
+      "languages": "语言",
+      "products": "产品",
+      "views": "次观看",
+      "home_page": "首页",
+      "unknown_channel": "未知频道"
+    },
+    "ja": {
+      "title": "📺 YouTube 動画",
+      "subtitle": "Openterface 製品レビューとアップデート",
+      "total_videos": "動画総数",
+      "languages": "言語",
+      "products": "製品",
+      "views": "回視聴",
+      "home_page": "ホームページ",
+      "unknown_channel": "不明なチャンネル"
+    },
+    "ko": {
+      "title": "📺 YouTube 동영상",
+      "subtitle": "Openterface 제품 리뷰 및 업데이트",
+      "total_videos": "동영상 총수",
+      "languages": "언어",
+      "products": "제품",
+      "views": "회 조회",
+      "home_page": "홈페이지",
+      "unknown_channel": "알 수 없는 채널"
+    },
+    "fr": {
+      "title": "📺 Vidéos YouTube",
+      "subtitle": "Avis et mises à jour des produits Openterface",
+      "total_videos": "Total des vidéos",
+      "languages": "Langues",
+      "products": "Produits",
+      "views": "vues",
+      "home_page": "Page d'accueil",
+      "unknown_channel": "Chaîne inconnue"
+    },
+    "de": {
+      "title": "📺 YouTube Videos",
+      "subtitle": "Openterface Produktbewertungen & Updates",
+      "total_videos": "Gesamt Videos",
+      "languages": "Sprachen",
+      "products": "Produkte",
+      "views": "Aufrufe",
+      "home_page": "Startseite",
+      "unknown_channel": "Unbekannter Kanal"
+    },
+    "it": {
+      "title": "📺 Video YouTube",
+      "subtitle": "Recensioni e aggiornamenti prodotti Openterface",
+      "total_videos": "Totale video",
+      "languages": "Lingue",
+      "products": "Prodotti",
+      "views": "visualizzazioni",
+      "home_page": "Home Page",
+      "unknown_channel": "Canale sconosciuto"
+    },
+    "es": {
+      "title": "📺 Videos de YouTube",
+      "subtitle": "Reseñas y actualizaciones de productos Openterface",
+      "total_videos": "Total de videos",
+      "languages": "Idiomas",
+      "products": "Productos",
+      "views": "visualizaciones",
+      "home_page": "Página de inicio",
+      "unknown_channel": "Canal desconocido"
+    },
+    "pt": {
+      "title": "📺 Vídeos do YouTube",
+      "subtitle": "Avaliações e atualizações de produtos Openterface",
+      "total_videos": "Total de vídeos",
+      "languages": "Idiomas",
+      "products": "Produtos",
+      "views": "visualizações",
+      "home_page": "Página inicial",
+      "unknown_channel": "Canal desconhecido"
+    },
+    "ro": {
+      "title": "📺 Videoclipuri YouTube",
+      "subtitle": "Recenzii și actualizări produse Openterface",
+      "total_videos": "Total videoclipuri",
+      "languages": "Limbi",
+      "products": "Produse",
+      "views": "vizualizări",
+      "home_page": "Pagina principală",
+      "unknown_channel": "Canal necunoscut"
+    }
+  }
+}
+

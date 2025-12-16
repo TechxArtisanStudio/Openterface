@@ -217,6 +217,672 @@ plugins:
       name: English
       default: true
       build: true
+    - locale: zh
+      name: 简体中文
+      build: true
+      nav_translations:
+        Home: 首页
+        FAQs: 常见问题
+        Support: 支持
+        Product: 产品
+        App: 应用
+        Use Cases: 使用场景
+        Reviews: 评测
+        Compliance: 合规
+        Shop: 商店
+        Discord: Discord
+        About: 关于
+        About Us: 关于我们
+        Contribute & Support: 贡献与支持
+        KVM-over-USB: KVM-over-USB 基础
+        What is USB KVM?: 什么是 USB KVM？
+        Why Openterface USB KVM?: 为什么选择 Openterface USB KVM？
+        Mini-KVM Series: Mini‑KVM 系列
+        Openterface Mini-KVM: Openterface Mini‑KVM
+        Enterprise & Media: 企业与媒体常见问题
+        FAQs for Products: 产品常见问题
+        FAQs for Mini-KVM: Mini‑KVM 常见问题
+        FAQs for Apps: 应用常见问题
+        Mini-KVM 👑: Mini‑KVM 👑
+        Reviews & Press: 评测与媒体报道
+        FAQs & Troubleshoot: 常见问题与故障排查
+        Why Openterface: 为什么选择 Openterface
+        KVM-Go Series ⏳: KVM-Go 系列 ⏳
+        uConsole KVM Extension 🛠️: uConsole KVM 扩展 🛠️
+        Installation Guide: 安装指南
+        Accessories: 配件
+        VGA to HDMI Cable 1m: VGA 转 HDMI 线 1m
+        Type-C to C Cable Nylon 1.5m: Type‑C to C 尼龙线 1.5m
+        Type-C to C Cable Orange 1.5m: Type‑C to C 橙色线 1.5m
+        Type-C to A Cable Black 30cm: Type‑C to A 黑色线 30cm
+        HDMI Cable 30cm: HDMI 线 30cm
+        Toolkit Bag: 工具包
+        Win & Linux: Windows 与 Linux
+        MacOS: macOS
+        Android: Android
+        Overview: 概览
+        Features: 特性与规格
+        How To Connect: 如何连接
+        Hardware Installation: 硬件安装
+        Software Setup: 软件设置
+        Connect to Target: 连接目标设备
+        What's In The Box: 包装清单
+        USB Switch: USB 切换器
+        Extension Pins: 扩展引脚
+        Pre-Launch: 预发布
+        Basics: 基础
+        DMG Installation: DMG 安装
+        Contributing: 参与贡献
+        Tech Support: 技术支持
+        Community: 社区
+        Multi-Languages: 多语言
+        Support Us: 支持我们
+        Bulk Orders: 批量订单
+        Reviews & Media: 评测与媒体
+        For Enterprise: 企业
+        FAQs for KVM Ext.: KVM 扩展常见问题
+        Media Coverage: 媒体报道
+        Testimonials: 用户评价
+        Updates for KVM Ext.: KVM 扩展更新
+        YouTube Reviews: YouTube 评测
+        Reviews Videos: 评测视频
+        Updates for Mini-KVM: Mini-KVM 更新
+        Beta Quick Start: Beta快速开始
+        MicroSD Switch: MicroSD切换器
+        FAQs for KVM-Go: KVM-Go常见问题
+        Updates for KVM-Go: KVM-Go更新
+    - locale: ja
+      name: 日本語
+      build: true
+      nav_translations:
+        Home: ホーム
+        FAQs: よくある質問
+        Support: サポート
+        Product: 製品
+        App: アプリ
+        Use Cases: 活用事例
+        Reviews: レビュー
+        Compliance: コンプライアンス
+        Shop: ショップ
+        Discord: Discord
+        About: 概要
+        About Us: 私たちについて
+        Contribute & Support: 貢献と支援
+        KVM-over-USB: KVM-over-USB 基礎
+        What is USB KVM?: USB KVM とは？
+        Why Openterface USB KVM?: なぜ Openterface の USB KVM なのか？
+        Mini-KVM Series: Mini‑KVM シリーズ
+        Openterface Mini-KVM: Openterface Mini‑KVM
+        Enterprise & Media: 企業・メディア向け FAQ
+        FAQs for Products: 製品FAQ
+        FAQs for Mini-KVM: Mini‑KVM FAQ
+        FAQs for Apps: アプリFAQ
+        Mini-KVM 👑: Mini‑KVM 👑
+        Reviews & Press: レビュー・掲載記事
+        FAQs & Troubleshoot: FAQ・トラブルシューティング
+        Why Openterface: Openterface を選ぶ理由
+        KVM-Go Series ⏳: KVM-Go シリーズ ⏳
+        uConsole KVM Extension 🛠️: uConsole 用 KVM 拡張 🛠️
+        Installation Guide: インストールガイド
+        Accessories: アクセサリ
+        VGA to HDMI Cable 1m: VGA–HDMI ケーブル 1m
+        Type-C to C Cable Nylon 1.5m: Type‑C–C ナイロンケーブル 1.5m
+        Type-C to C Cable Orange 1.5m: Type‑C–C オレンジケーブル 1.5m
+        Type-C to A Cable Black 30cm: Type‑C–A ブラックケーブル 30cm
+        HDMI Cable 30cm: HDMI ケーブル 30cm
+        Toolkit Bag: ツールキットバッグ
+        Win & Linux: Windows と Linux
+        MacOS: macOS
+        Android: Android
+        Overview: 概要
+        Features: 機能と仕様
+        How To Connect: 接続方法
+        Hardware Installation: ハードウェアインストール
+        Software Setup: ソフトウェアセットアップ
+        Connect to Target: ターゲットデバイスに接続
+        What's In The Box: 同梱物
+        USB Switch: USB スイッチ
+        Extension Pins: 拡張ピン
+        Pre-Launch: 事前情報
+        Basics: 基礎
+        DMG Installation: DMG インストール
+        Contributing: 貢献
+        Tech Support: テクニカルサポート
+        Community: コミュニティ
+        Multi-Languages: 多言語
+        Support Us: 私たちをサポート
+        Bulk Orders: バルク注文
+        Reviews & Media: レビューとメディア
+        For Enterprise: エンタープライズ
+        FAQs for KVM Ext.: KVM 拡張 FAQ
+        Media Coverage: メディア掲載
+        Testimonials: お客様の声
+        Updates for KVM Ext.: KVM拡張アップデート
+        YouTube Reviews: YouTubeレビュー
+        Reviews Videos: レビュー動画
+        Updates for Mini-KVM: Mini-KVMアップデート
+        Beta Quick Start: Betaクイックスタート
+        MicroSD Switch: MicroSDスイッチ
+        FAQs for KVM-Go: KVM-Go FAQ
+        Updates for KVM-Go: KVM-Goアップデート
+    - locale: ko
+      name: 한국어
+      build: true
+      nav_translations:
+        Home: 홈
+        FAQs: 자주 묻는 질문
+        Support: 지원
+        Product: 제품
+        App: 앱
+        Use Cases: 활용 사례
+        Reviews: 리뷰
+        Compliance: 규정 준수
+        Shop: 스토어
+        Discord: Discord
+        About: 소개
+        About Us: 우리에 대해
+        Contribute & Support: 기여 및 지원
+        KVM-over-USB: KVM-over-USB 기초
+        What is USB KVM?: USB KVM이란?
+        Why Openterface USB KVM?: 왜 Openterface USB KVM인가?
+        Mini-KVM Series: Mini‑KVM 시리즈
+        Openterface Mini-KVM: Openterface Mini‑KVM
+        Enterprise & Media: 기업 및 미디어 FAQ
+        FAQs for Products: 제품 FAQ
+        FAQs for Mini-KVM: Mini‑KVM FAQ
+        FAQs for Apps: 앱 FAQ
+        Mini-KVM 👑: Mini‑KVM 👑
+        Reviews & Press: 리뷰 및 보도자료
+        FAQs & Troubleshoot: FAQ 및 문제 해결
+        Why Openterface: Openterface를 선택하는 이유
+        KVM-Go Series ⏳: KVM-Go 시리즈 ⏳
+        uConsole KVM Extension 🛠️: uConsole KVM 확장 🛠️
+        Installation Guide: 설치 가이드
+        Accessories: 액세서리
+        VGA to HDMI Cable 1m: VGA to HDMI 케이블 1m
+        Type-C to C Cable Nylon 1.5m: Type‑C to C 나일론 케이블 1.5m
+        Type-C to C Cable Orange 1.5m: Type‑C to C 오렌지 케이블 1.5m
+        Type-C to A Cable Black 30cm: Type‑C to A 블랙 케이블 30cm
+        HDMI Cable 30cm: HDMI 케이블 30cm
+        Toolkit Bag: 툴킷 백
+        Win & Linux: Windows 및 Linux
+        MacOS: macOS
+        Android: Android
+        Overview: 개요
+        Features: 기능 및 사양
+        How To Connect: 연결 방법
+        Hardware Installation: 하드웨어 설치
+        Software Setup: 소프트웨어 설정
+        Connect to Target: 대상 장치 연결
+        What's In The Box: 구성품
+        USB Switch: USB 스위치
+        Extension Pins: 확장 핀
+        Pre-Launch: 사전 공개
+        Basics: 기초
+        DMG Installation: DMG 설치
+        Contributing: 기여하기
+        Tech Support: 기술 지원
+        Community: 커뮤니티
+        Multi-Languages: 다국어
+        Support Us: 우리를 지원하세요
+        Bulk Orders: 대량 주문
+        Reviews & Media: 리뷰와 미디어
+        For Enterprise: 기업
+        FAQs for KVM Ext.: KVM 확장 FAQ
+        Media Coverage: 미디어 보도
+        Testimonials: 사용자 후기
+        Updates for KVM Ext.: KVM 확장 업데이트
+        YouTube Reviews: YouTube 리뷰
+        Reviews Videos: 리뷰 영상
+        Updates for Mini-KVM: Mini-KVM 업데이트
+        Beta Quick Start: Beta 빠른 시작
+        MicroSD Switch: MicroSD 스위치
+        FAQs for KVM-Go: KVM-Go FAQ
+        Updates for KVM-Go: KVM-Go 업데이트
+    - locale: fr
+      name: Français
+      build: true
+      nav_translations:
+        Home: Accueil
+        FAQs: FAQ
+        Support: Support
+        Product: Produits
+        App: Application
+        Use Cases: Cas d'utilisation
+        Reviews: Avis
+        Compliance: Conformité
+        Shop: Boutique
+        Discord: Discord
+        About: À propos
+        About Us: À Propos de Nous
+        Contribute & Support: Contribuer et soutenir
+        KVM-over-USB: Notions de base sur KVM-over-USB
+        What is USB KVM?: Qu'est-ce qu'un USB KVM ?
+        Why Openterface USB KVM?: Pourquoi Openterface USB KVM ?
+        Mini-KVM Series: Série Mini‑KVM
+        Openterface Mini-KVM: Openterface Mini‑KVM
+        Enterprise & Media: FAQ Entreprise et Médias
+        FAQs for Products: FAQ Produits
+        FAQs for Mini-KVM: FAQ Mini‑KVM
+        FAQs for Apps: FAQ Applications
+        Mini-KVM 👑: Mini‑KVM 👑
+        Reviews & Press: Avis et presse
+        FAQs & Troubleshoot: FAQ et dépannage
+        Why Openterface: Pourquoi Openterface
+        KVM-Go Series ⏳: Série KVM-Go ⏳
+        uConsole KVM Extension 🛠️: Extension KVM pour uConsole 🛠️
+        Installation Guide: Guide d'installation
+        Accessories: Accessoires
+        VGA to HDMI Cable 1m: Câble VGA vers HDMI 1 m
+        Type-C to C Cable Nylon 1.5m: Câble Type‑C vers C en nylon 1,5 m
+        Type-C to C Cable Orange 1.5m: Câble Type‑C vers C orange 1,5 m
+        Type-C to A Cable Black 30cm: Câble Type‑C vers A noir 30 cm
+        HDMI Cable 30cm: Câble HDMI 30 cm
+        Toolkit Bag: Trousse à outils
+        Win & Linux: Windows et Linux
+        MacOS: macOS
+        Android: Android
+        Overview: Vue d'ensemble
+        Features: Fonctionnalités et spécifications
+        How To Connect: Comment connecter
+        Hardware Installation: Installation du matériel
+        Software Setup: Configuration du logiciel
+        Connect to Target: Connexion à l'appareil cible
+        What's In The Box: Contenu de la boîte
+        USB Switch: Commutateur USB
+        Extension Pins: Broches d'extension
+        Pre-Launch: Pré-lancement
+        Basics: Bases
+        DMG Installation: Installation DMG
+        Contributing: Contribuer
+        Tech Support: Support Technique
+        Community: Communauté
+        Multi-Languages: Multilingue
+        Support Us: Soutenez-nous
+        Bulk Orders: Commandes en gros
+        Reviews & Media: Avis et médias
+        For Enterprise: Entreprise
+        FAQs for KVM Ext.: FAQ Extension KVM
+        Media Coverage: Couverture médiatique
+        Testimonials: Témoignages
+        Updates for KVM Ext.: Mises à jour Extension KVM
+        YouTube Reviews: Avis YouTube
+        Reviews Videos: Vidéos d'avis
+        Updates for Mini-KVM: Mises à jour Mini-KVM
+        Beta Quick Start: Démarrage rapide Beta
+        MicroSD Switch: Commutateur MicroSD
+        FAQs for KVM-Go: FAQ KVM-Go
+        Updates for KVM-Go: Mises à jour KVM-Go
+    - locale: de
+      name: Deutsch
+      build: true
+      nav_translations:
+        Home: Startseite
+        FAQs: Häufige Fragen
+        Support: Support
+        Product: Produkte
+        App: App
+        Use Cases: Anwendungsfälle
+        Reviews: Bewertungen
+        Compliance: Konformität
+        Shop: Shop
+        Discord: Discord
+        About: Über uns
+        About Us: Über Uns
+        Contribute & Support: Mitwirken & Unterstützen
+        KVM-over-USB: KVM-over-USB Grundlagen
+        What is USB KVM?: Was ist ein USB-KVM?
+        Why Openterface USB KVM?: Warum Openterface USB-KVM?
+        Mini-KVM Series: Mini‑KVM Serie
+        Openterface Mini-KVM: Openterface Mini‑KVM
+        Enterprise & Media: FAQs für Unternehmen und Medien
+        FAQs for Products: Produkt-FAQs
+        FAQs for Mini-KVM: Mini‑KVM FAQs
+        FAQs for Apps: App-FAQs
+        Mini-KVM 👑: Mini‑KVM 👑
+        Reviews & Press: Bewertungen & Presse
+        FAQs & Troubleshoot: FAQs & Fehlerbehebung
+        Why Openterface: Warum Openterface
+        KVM-Go Series ⏳: KVM-Go Serie ⏳
+        uConsole KVM Extension 🛠️: uConsole KVM‑Erweiterung 🛠️
+        Installation Guide: Installationsanleitung
+        Accessories: Zubehör
+        VGA to HDMI Cable 1m: VGA‑zu‑HDMI‑Kabel 1 m
+        Type-C to C Cable Nylon 1.5m: Type‑C‑zu‑C Nylonkabel 1,5 m
+        Type-C to C Cable Orange 1.5m: Type‑C‑zu‑C Kabel Orange 1,5 m
+        Type-C to A Cable Black 30cm: Type‑C‑zu‑A Kabel Schwarz 30 cm
+        HDMI Cable 30cm: HDMI‑Kabel 30 cm
+        Toolkit Bag: Werkzeugtasche
+        Win & Linux: Windows & Linux
+        MacOS: macOS
+        Android: Android
+        Overview: Übersicht
+        Features: Funktionen und Spezifikationen
+        How To Connect: Verbindung herstellen
+        Hardware Installation: Hardware-Installation
+        Software Setup: Software-Einrichtung
+        Connect to Target: Zielgerät verbinden
+        What's In The Box: Lieferumfang
+        USB Switch: USB‑Umschalter
+        Extension Pins: Erweiterungspins
+        Pre-Launch: Vorabankündigung
+        Basics: Grundlagen
+        DMG Installation: DMG‑Installation
+        Contributing: Mitwirken
+        Tech Support: Technischer Support
+        Community: Gemeinschaft
+        Multi-Languages: Mehrsprachig
+        Support Us: Unterstützen Sie uns
+        Bulk Orders: Mengenbestellungen
+        Reviews & Media: Bewertungen & Medien
+        For Enterprise: Unternehmen
+        FAQs for KVM Ext.: KVM-Erweiterung FAQs
+        Media Coverage: Medienberichterstattung
+        Testimonials: Kundenbewertungen
+        Updates for KVM Ext.: KVM-Erweiterung Updates
+        YouTube Reviews: YouTube-Bewertungen
+        Reviews Videos: Bewertungsvideos
+        Updates for Mini-KVM: Mini-KVM Updates
+        Beta Quick Start: Beta Schnellstart
+        MicroSD Switch: MicroSD-Umschalter
+        FAQs for KVM-Go: KVM-Go FAQs
+        Updates for KVM-Go: KVM-Go Updates
+    - locale: it
+      name: Italiano
+      build: true
+      nav_translations:
+        Home: Home
+        FAQs: Domande frequenti
+        Support: Supporto
+        Product: Prodotti
+        App: App
+        Use Cases: Casi d'uso
+        Reviews: Recensioni
+        Compliance: Conformità
+        Shop: Negozio
+        Discord: Discord
+        About: Informazioni
+        About Us: Chi Siamo
+        Contribute & Support: Contribuire e Sostenere
+        KVM-over-USB: Nozioni di base su KVM-over-USB
+        What is USB KVM?: Che cos'è un USB KVM?
+        Why Openterface USB KVM?: Perché Openterface USB KVM?
+        Mini-KVM Series: Serie Mini‑KVM
+        Openterface Mini-KVM: Openterface Mini‑KVM
+        Enterprise & Media: FAQ per aziende e media
+        FAQs for Products: FAQ Prodotti
+        FAQs for Mini-KVM: FAQ Mini‑KVM
+        FAQs for Apps: FAQ App
+        Mini-KVM 👑: Mini‑KVM 👑
+        Reviews & Press: Recensioni e stampa
+        FAQs & Troubleshoot: FAQ e risoluzione problemi
+        Why Openterface: Perché Openterface
+        KVM-Go Series ⏳: Serie KVM-Go ⏳
+        uConsole KVM Extension 🛠️: Estensione KVM per uConsole 🛠️
+        Installation Guide: Guida all'installazione
+        Accessories: Accessori
+        VGA to HDMI Cable 1m: Cavo VGA a HDMI 1 m
+        Type-C to C Cable Nylon 1.5m: Cavo Type‑C a C in nylon 1,5 m
+        Type-C to C Cable Orange 1.5m: Cavo Type‑C a C arancione 1,5 m
+        Type-C to A Cable Black 30cm: Cavo Type‑C a A nero 30 cm
+        HDMI Cable 30cm: Cavo HDMI 30 cm
+        Toolkit Bag: Borsa degli attrezzi
+        Win & Linux: Windows e Linux
+        MacOS: macOS
+        Android: Android
+        Overview: Panoramica
+        Features: Caratteristiche e specifiche
+        How To Connect: Come collegare
+        Hardware Installation: Installazione hardware
+        Software Setup: Configurazione software
+        Connect to Target: Connessione al dispositivo target
+        What's In The Box: Contenuto della confezione
+        USB Switch: Switch USB
+        Extension Pins: Pin di estensione
+        Pre-Launch: Pre‑lancio
+        Basics: Basi
+        DMG Installation: Installazione DMG
+        Contributing: Contribuire
+        Tech Support: Support Tecnico
+        Community: Comunità
+        Multi-Languages: Multilingue
+        Support Us: Supportaci
+        Bulk Orders: Ordini all'ingrosso
+        Reviews & Media: Recensioni e media
+        For Enterprise: Azienda
+        FAQs for KVM Ext.: FAQ Estensione KVM
+        Media Coverage: Copertura mediatica
+        Testimonials: Testimonianze
+        Updates for KVM Ext.: Aggiornamenti Estensione KVM
+        YouTube Reviews: Recensioni YouTube
+        Reviews Videos: Video recensioni
+        Updates for Mini-KVM: Aggiornamenti Mini-KVM
+        Beta Quick Start: Guida rapida Beta
+        MicroSD Switch: Switch MicroSD
+        FAQs for KVM-Go: FAQ KVM-Go
+        Updates for KVM-Go: Aggiornamenti KVM-Go
+    - locale: es
+      name: Español
+      build: true
+      nav_translations:
+        Home: Inicio
+        FAQs: Preguntas frecuentes
+        Support: Soporte
+        Product: Producto
+        App: Aplicación
+        Use Cases: Casos de uso
+        Reviews: Reseñas
+        Compliance: Cumplimiento
+        Shop: Tienda
+        Discord: Discord
+        About: Acerca de
+        About Us: Acerca de Nosotros
+        Contribute & Support: Contribuir y Apoyar
+        KVM-over-USB: Conceptos básicos de KVM-over-USB
+        What is USB KVM?: ¿Qué es un USB KVM?
+        Why Openterface USB KVM?: ¿Por qué Openterface USB KVM?
+        Mini-KVM Series: Serie Mini‑KVM
+        Openterface Mini-KVM: Openterface Mini‑KVM
+        Enterprise & Media: Preguntas para empresas y medios
+        FAQs for Products: Preguntas sobre productos
+        FAQs for Mini-KVM: Preguntas sobre Mini‑KVM
+        FAQs for Apps: Preguntas sobre aplicaciones
+        Mini-KVM 👑: Mini‑KVM 👑
+        Reviews & Press: Reseñas y prensa
+        FAQs & Troubleshoot: Preguntas y solución de problemas
+        Why Openterface: Por qué Openterface
+        KVM-Go Series ⏳: Serie KVM-Go ⏳
+        uConsole KVM Extension 🛠️: Extensión KVM para uConsole 🛠️
+        Installation Guide: Guía de instalación
+        Accessories: Accesorios
+        VGA to HDMI Cable 1m: Cable VGA a HDMI 1 m
+        Type-C to C Cable Nylon 1.5m: Cable Type‑C a C de nailon 1,5 m
+        Type-C to C Cable Orange 1.5m: Cable Type‑C a C naranja 1,5 m
+        Type-C to A Cable Black 30cm: Cable Type‑C a A negro 30 cm
+        HDMI Cable 30cm: Cable HDMI 30 cm
+        Toolkit Bag: Bolsa de herramientas
+        Win & Linux: Windows y Linux
+        MacOS: macOS
+        Android: Android
+        Overview: Descripción general
+        Features: Características y especificaciones
+        How To Connect: Cómo conectar
+        Hardware Installation: Instalación de hardware
+        Software Setup: Configuración de software
+        Connect to Target: Conectar al dispositivo objetivo
+        What's In The Box: Contenido de la caja
+        USB Switch: Conmutador USB
+        Extension Pins: Pines de extensión
+        Pre-Launch: Prelanzamiento
+        Basics: Conceptos básicos
+        DMG Installation: Instalación DMG
+        Contributing: Contribuir
+        Tech Support: Soporte Técnico
+        Community: Comunidad
+        Multi-Languages: Multilingüe
+        Support Us: Apóyanos
+        Bulk Orders: Pedidos al por mayor
+        Reviews & Media: Reseñas y medios
+        For Enterprise: Empresa
+        FAQs for KVM Ext.: Preguntas sobre Extensión KVM
+        Media Coverage: Cobertura mediática
+        Testimonials: Testimonios
+        Updates for KVM Ext.: Actualizaciones Extensión KVM
+        YouTube Reviews: Reseñas de YouTube
+        Reviews Videos: Videos de reseñas
+        Updates for Mini-KVM: Actualizaciones Mini-KVM
+        Beta Quick Start: Inicio rápido Beta
+        MicroSD Switch: Conmutador MicroSD
+        FAQs for KVM-Go: Preguntas sobre KVM-Go
+        Updates for KVM-Go: Actualizaciones KVM-Go
+    - locale: pt
+      name: Português
+      build: true
+      nav_translations:
+        Home: Início
+        FAQs: Perguntas frequentes
+        Support: Suporte
+        Product: Produtos
+        App: Aplicativo
+        Use Cases: Casos de uso
+        Reviews: Avaliações
+        Compliance: Conformidade
+        Shop: Loja
+        Discord: Discord
+        About: Sobre
+        About Us: Sobre Nós
+        Contribute & Support: Contribuir e Apoiar
+        KVM-over-USB: Noções básicas de KVM-over-USB
+        What is USB KVM?: O que é um USB KVM?
+        Why Openterface USB KVM?: Por que Openterface USB KVM?
+        Mini-KVM Series: Série Mini‑KVM
+        Openterface Mini-KVM: Openterface Mini‑KVM
+        Enterprise & Media: Perguntas para Empresas e Mídia
+        FAQs for Products: Perguntas sobre Produtos
+        FAQs for Mini-KVM: Perguntas sobre Mini‑KVM
+        FAQs for Apps: Perguntas sobre Aplicativos
+        Mini-KVM 👑: Mini‑KVM 👑
+        Reviews & Press: Avaliações e imprensa
+        FAQs & Troubleshoot: Perguntas e solução de problemas
+        Why Openterface: Por que Openterface
+        KVM-Go Series ⏳: Série KVM-Go ⏳
+        uConsole KVM Extension 🛠️: Extensão KVM para uConsole 🛠️
+        Installation Guide: Guia de instalação
+        Accessories: Acessórios
+        VGA to HDMI Cable 1m: Cabo VGA para HDMI 1 m
+        Type-C to C Cable Nylon 1.5m: Cabo Type‑C para C de náilon 1,5 m
+        Type-C to C Cable Orange 1.5m: Cabo Type‑C para C laranja 1,5 m
+        Type-C to A Cable Black 30cm: Cabo Type‑C para A preto 30 cm
+        HDMI Cable 30cm: Cabo HDMI 30 cm
+        Toolkit Bag: Bolsa de ferramentas
+        Win & Linux: Windows e Linux
+        MacOS: macOS
+        Android: Android
+        Overview: Visão geral
+        Features: Recursos e especificações
+        How To Connect: Como conectar
+        Hardware Installation: Instalação de hardware
+        Software Setup: Configuração de software
+        Connect to Target: Conectar ao dispositivo de destino
+        What's In The Box: Conteúdo da caixa
+        USB Switch: Comutador USB
+        Extension Pins: Pinos de extensão
+        Pre-Launch: Pré-lançamento
+        Basics: Fundamentos
+        DMG Installation: Instalação do DMG
+        Contributing: Contribuindo
+        Tech Support: Suporte Técnico
+        Community: Comunidade
+        Multi-Languages: Multilíngue
+        Support Us: Apoie-nos
+        Bulk Orders: Pedidos em massa
+        Reviews & Media: Avaliações e mídia
+        For Enterprise: Empresa
+        FAQs for KVM Ext.: Perguntas sobre Extensão KVM
+        Media Coverage: Cobertura da mídia
+        Testimonials: Depoimentos
+        Updates for KVM Ext.: Atualizações Extensão KVM
+        YouTube Reviews: Avaliações do YouTube
+        Reviews Videos: Vídeos de avaliações
+        Updates for Mini-KVM: Atualizações Mini-KVM
+        Beta Quick Start: Início rápido Beta
+        MicroSD Switch: Comutador MicroSD
+        FAQs for KVM-Go: Perguntas sobre KVM-Go
+        Updates for KVM-Go: Atualizações KVM-Go
+    - locale: ro
+      name: Română
+      build: true
+      nav_translations:
+        Home: Acasă
+        FAQs: Întrebări frecvente
+        Support: Suport
+        Product: Produse
+        App: Aplicație
+        Use Cases: Cazuri de utilizare
+        Reviews: Recenzii
+        Compliance: Conformitate
+        Shop: Magazin
+        Discord: Discord
+        About: Despre
+        About Us: Despre Noi
+        Contribute & Support: Contribuie și Susține
+        KVM-over-USB: Noțiuni de bază KVM-over-USB
+        What is USB KVM?: Ce este un USB KVM?
+        Why Openterface USB KVM?: De ce Openterface USB KVM?
+        Mini-KVM Series: Seria Mini‑KVM
+        Openterface Mini-KVM: Openterface Mini‑KVM
+        Enterprise & Media: Întrebări pentru companii și media
+        FAQs for Products: Întrebări despre produse
+        FAQs for Mini-KVM: Întrebări despre Mini‑KVM
+        FAQs for Apps: Întrebări despre aplicații
+        Mini-KVM 👑: Mini‑KVM 👑
+        Reviews & Press: Recenzii și presă
+        FAQs & Troubleshoot: Întrebări și depanare
+        Why Openterface: De ce Openterface
+        KVM-Go Series ⏳: Seria KVM-Go ⏳
+        uConsole KVM Extension 🛠️: Extensie KVM pentru uConsole 🛠️
+        Installation Guide: Ghid de instalare
+        Accessories: Accesorii
+        VGA to HDMI Cable 1m: Cablu VGA la HDMI 1 m
+        Type-C to C Cable Nylon 1.5m: Cablu Type‑C la C din nailon 1,5 m
+        Type-C to C Cable Orange 1.5m: Cablu Type‑C la C portocaliu 1,5 m
+        Type-C to A Cable Black 30cm: Cablu Type‑C la A negru 30 cm
+        HDMI Cable 30cm: Cablu HDMI 30 cm
+        Toolkit Bag: Geantă cu unelte
+        Win & Linux: Windows și Linux
+        MacOS: macOS
+        Android: Android
+        Overview: Prezentare generală
+        Features: Funcționalități și specificații
+        How To Connect: Cum se conectează
+        Hardware Installation: Instalare hardware
+        Software Setup: Configurare software
+        Connect to Target: Conectare la dispozitivul țintă
+        What's In The Box: Conținutul cutiei
+        USB Switch: Comutator USB
+        Extension Pins: Pini de extindere
+        Pre-Launch: Pre-lansare
+        Basics: Bazele
+        DMG Installation: Instalare DMG
+        Contributing: Contribuții
+        Tech Support: Suport Tehnic
+        Community: Comunitate
+        Multi-Languages: Multilingv
+        Support Us: Susține-ne
+        Bulk Orders: Comenzi în vrac
+        Reviews & Media: Recenzii și media
+        For Enterprise: Întreprindere
+        FAQs for KVM Ext.: Întrebări despre Extensia KVM
+        Media Coverage: Acoperirea media
+        Testimonials: Mărturii
+        Updates for KVM Ext.: Actualizări Extensie KVM
+        YouTube Reviews: Recenzii YouTube
+        Reviews Videos: Videoclipuri recenzii
+        Updates for Mini-KVM: Actualizări Mini-KVM
+        Beta Quick Start: Începere rapidă Beta
+        MicroSD Switch: Comutator MicroSD
+        FAQs for KVM-Go: Întrebări despre KVM-Go
+        Updates for KVM-Go: Actualizări KVM-Go
 - glightbox:
     skip_classes:
     - skip-lightbox
