@@ -33,6 +33,7 @@
 <link href="assets/stylesheets/signup_form.css" rel="stylesheet"/>
 <link href="assets/stylesheets/slideshow.css" rel="stylesheet"/>
 <link href="assets/stylesheets/version-selector.css" rel="stylesheet"/>
+<link href="assets/stylesheets/youtube-videos.css" rel="stylesheet"/>
 <!-- Determine current locale -->
 <!-- Gibby Avatar and Dialogue Box -->
 <link href="assets/stylesheets/glightbox.min.css" rel="stylesheet"/><script src="assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
@@ -50,7 +51,7 @@
 <a class="gibby-link" href="#" id="gibby-avatar-link"><img alt="Gibby Mascot" aria-label="Gibby Mascot" class="gibby-avatar" draggable="false" src="https://assets.openterface.com/images/op-avatar.webp"/></a>
 <div class="gibby-dialogue">
 <p>
-<a class="gibby-link" data-i18n="main.subscribenow-link" href="#" id="gibby-text-link">Subscribe NOW!</a>
+<a class="gibby-link" href="#" id="gibby-text-link">Subscribe NOW!</a>
 </p>
 </div>
 </div>
@@ -227,6 +228,22 @@
     document.addEventListener('DOMContentLoaded', function() {
       initYouTubeLazyLoading();
     });
+    
+    // Add class to body to identify videos page
+    (function() {
+      function addVideosClass() {
+        const videosPage = document.querySelector('.youtube-videos-page');
+        if (videosPage) {
+          document.body.classList.add('videos-page');
+        }
+      }
+      
+      if (document.body) {
+        addVideosClass();
+      } else {
+        document.addEventListener('DOMContentLoaded', addVideosClass);
+      }
+    })();
   </script>
 <!-- SEO Metadata -->
 <meta content="Discover Openterface - Ultra-compact KVM-over-USB solutions including KVM-GO Series (keychain-sized), Mini-KVM Series, and uConsole KVM Extension. Open-source, feature-rich tools for IT professionals, developers, and server management." name="description"/>
@@ -574,13 +591,13 @@
 <!-- Slide 1: KVM-GO Series -->
 <div class="carousel-slide carousel-slide--active" data-slide-index="1">
 <div class="carousel-content-left">
-<div class="carousel-category" data-i18n="home.series-kvm-go">KVM-GO Series</div>
-<h1 class="carousel-headline" data-i18n="home.kvm-go-headline">The Ultra-Compact KVM That Fits on Keychain</h1>
-<p class="carousel-description" data-i18n="home.kvm-go-description">
+<div class="carousel-category">KVM-GO Series</div>
+<h1 class="carousel-headline">The Ultra-Compact KVM That Fits on Keychain</h1>
+<p class="carousel-description">
               Designed to fit on your keychain and save your day in a snap, this next-generation KVM-over-USB gadget is built for rapid IT operations in the field.
             </p>
 <div class="carousel-actions">
-<a class="md-button md-button--primary carousel-btn-preorder" data-i18n="home.crowdfunding-now" href="https://www.crowdsupply.com/techxartisan/openterface-kvm-go" rel="noopener noreferrer" target="_blank">
+<a class="md-button md-button--primary carousel-btn-preorder" href="https://www.crowdsupply.com/techxartisan/openterface-kvm-go" rel="noopener noreferrer" target="_blank">
                 Crowdfunding NOW
                 <svg class="carousel-btn-icon" version="1.1" viewbox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
 <path d="M 68.3,9.7 8,70 68.3,130.3 Z" fill="#555"></path>
@@ -589,7 +606,7 @@
 <path d="m 60.7,63.9 h -8.2 v -3.6 c 0,-4.7 -2.1,-6 -5.3,-6 -3.2,0 -5.3,1.3 -5.3,6 v 17.4 c 0,4.7 2.1,6 5.3,6 3.2,0 5.3,-1.3 5.3,-6 v -3.8 h 8.2 v 2.7 c 0,10.5 -5.6,14.3 -13.5,14.3 -7.9,0 -13.5,-3.8 -13.5,-14.3 V 61.4 c 0,-10.5 5.6,-14.3 13.5,-14.3 7.9,0 13.5,3.8 13.5,14.3 z" fill="#FFF"></path>
 </svg>
 </a>
-<a class="md-button carousel-btn-docs" data-i18n="home.view-docs" href="product/kvm-go/">
+<a class="md-button carousel-btn-docs" href="product/kvm-go/">
                 View Docs
               </a>
 <div class="carousel-countdown" id="kvm-go-countdown"></div>
@@ -602,13 +619,13 @@
 <!-- Slide 2: Mini-KVM -->
 <div class="carousel-slide" data-slide-index="2">
 <div class="carousel-content-left">
-<div class="carousel-category" data-i18n="home.series-mini-kvm">Mini-KVM Series</div>
-<h1 class="carousel-headline" data-i18n="home.mini-kvm-headline">The Compact KVM Solution for Professionals</h1>
-<p class="carousel-description" data-i18n="home.mini-kvm-description">
+<div class="carousel-category">Mini-KVM Series</div>
+<h1 class="carousel-headline">The Compact KVM Solution for Professionals</h1>
+<p class="carousel-description">
               A compact, feature-rich, open-source KVM-over-USB solution that simplifies your tech life with on-the-fly IT tasks and troubleshooting.
             </p>
 <div class="carousel-actions">
-<a class="md-button md-button--primary carousel-btn-secondary" data-i18n="home.order-now" href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm" rel="noopener noreferrer" target="_blank">
+<a class="md-button md-button--primary carousel-btn-secondary" href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm" rel="noopener noreferrer" target="_blank">
                 Order NOW
                 <svg class="carousel-btn-icon" version="1.1" viewbox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
 <path d="M 68.3,9.7 8,70 68.3,130.3 Z" fill="#555"></path>
@@ -617,7 +634,7 @@
 <path d="m 60.7,63.9 h -8.2 v -3.6 c 0,-4.7 -2.1,-6 -5.3,-6 -3.2,0 -5.3,1.3 -5.3,6 v 17.4 c 0,4.7 2.1,6 5.3,6 3.2,0 5.3,-1.3 5.3,-6 v -3.8 h 8.2 v 2.7 c 0,10.5 -5.6,14.3 -13.5,14.3 -7.9,0 -13.5,-3.8 -13.5,-14.3 V 61.4 c 0,-10.5 5.6,-14.3 13.5,-14.3 7.9,0 13.5,3.8 13.5,14.3 z" fill="#FFF"></path>
 </svg>
 </a>
-<a class="md-button carousel-btn-docs" data-i18n="home.view-docs" href="product/minikvm/">
+<a class="md-button carousel-btn-docs" href="product/minikvm/">
                 View Docs
               </a>
 </div>
@@ -629,13 +646,13 @@
 <!-- Slide 3: uConsole KVM Extension -->
 <div class="carousel-slide" data-slide-index="3">
 <div class="carousel-content-left">
-<div class="carousel-category" data-i18n="home.series-uconsole">uConsole Ext. Series</div>
-<h1 class="carousel-headline" data-i18n="home.uconsole-headline">Transform Your uConsole Into a KVM Console</h1>
-<p class="carousel-description" data-i18n="home.uconsole-description">
+<div class="carousel-category">uConsole Ext. Series</div>
+<h1 class="carousel-headline">Transform Your uConsole Into a KVM Console</h1>
+<p class="carousel-description">
               Turn your uConsole into a portable KVM console – now taking pre-orders for Openterface KVM Ext. for uConsole. Your all-in-one portable solution.
             </p>
 <div class="carousel-actions">
-<a class="md-button md-button--primary carousel-btn-secondary" data-i18n="home.order-now" href="https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole" rel="noopener noreferrer" target="_blank">
+<a class="md-button md-button--primary carousel-btn-secondary" href="https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole" rel="noopener noreferrer" target="_blank">
                 Order NOW
                 <svg class="carousel-btn-icon" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
 <path d="M166.32,10H33.68A23.68,23.68,0,0,0,10,33.68V166.32A23.68,23.68,0,0,0,33.68,190H166.32A23.68,23.68,0,0,0,190,166.32V33.68A23.68,23.68,0,0,0,166.32,10ZM150.21,79H134.55l-21.4,21.4L133.82,121h16.39v29.18H121V134.56l-21-21-21,21v15.66H49.79V121H66.17l20.67-20.66L65.44,79H49.79V49.79H79V66.18l21,21,21-21V49.79h29.18Z" fill="#faa22c"></path>
@@ -643,7 +660,7 @@
 <path d="M100,106.21l6.21-6.21L73.54,67.33a9.73,9.73,0,0,0,.69-3.6,9.94,9.94,0,1,0-7.18,9.53L93.79,100,67.58,126.21a9.81,9.81,0,0,0-3.27-.56,9.91,9.91,0,1,0,9.92,9.91,9.79,9.79,0,0,0-.5-3.08L100,106.21Z" fill="#f9f9fa"></path>
 </svg>
 </a>
-<a class="md-button carousel-btn-docs" data-i18n="home.view-docs" href="product/uconsole-kvm-extension/">
+<a class="md-button carousel-btn-docs" href="product/uconsole-kvm-extension/">
                 View Docs
               </a>
 </div>
@@ -655,14 +672,14 @@
 <!-- Slide 4: TxA Shop - Accessories -->
 <div class="carousel-slide" data-slide-index="4">
 <div class="carousel-content-left">
-<div class="carousel-category" data-i18n="home.series-txa-shop">TxA Shop</div>
-<h1 class="carousel-headline" data-i18n="home.txa-shop-headline">Complete Your Setup with Premium Accessories</h1>
-<p class="carousel-description" data-i18n="home.txa-shop-description">
+<div class="carousel-category">TxA Shop</div>
+<h1 class="carousel-headline">Complete Your Setup with Premium Accessories</h1>
+<p class="carousel-description">
               Explore our range of essential accessories including video adapters, high-speed cables, and storage solutions. Enhance your Openterface experience with quality accessories designed for professionals.
             </p>
 <div class="carousel-actions">
-<a class="md-button md-button--primary carousel-btn-xmas" data-i18n="home.xmas-special" href="https://shop.techxartisan.com/" rel="noopener noreferrer" target="_blank">
-<span data-i18n="home.xmas-special">🎄 Xmas Special</span>
+<a class="md-button md-button--primary carousel-btn-xmas" href="https://shop.techxartisan.com/" rel="noopener noreferrer" target="_blank">
+<span>🎄 Xmas Special</span>
 <svg class="carousel-btn-icon" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
 <path d="M166.32,10H33.68A23.68,23.68,0,0,0,10,33.68V166.32A23.68,23.68,0,0,0,33.68,190H166.32A23.68,23.68,0,0,0,190,166.32V33.68A23.68,23.68,0,0,0,166.32,10ZM150.21,79H134.55l-21.4,21.4L133.82,121h16.39v29.18H121V134.56l-21-21-21,21v15.66H49.79V121H66.17l20.67-20.66L65.44,79H49.79V49.79H79V66.18l21,21,21-21V49.79h29.18Z" fill="#faa22c"></path>
 <path d="M150.21,79V49.79H121V66.17l-21,21-21-21V49.79H49.79V79H65.44l21.4,21.4L66.17,121H49.79v29.18H79V134.55l21-21,21,21v15.65h29.18V121H133.82l-20.67-20.66L134.55,79ZM100,106.21h0L73.73,132.48a9.79,9.79,0,0,1,.5,3.08,9.92,9.92,0,1,1-9.92-9.91,9.81,9.81,0,0,1,3.27.56L93.79,100,67.05,73.26a9.91,9.91,0,1,1,7.18-9.53,9.73,9.73,0,0,1-.69,3.6L106.21,100Z" fill="#211e1f"></path>
@@ -685,8 +702,8 @@
 <div class="progress-bar progress-bar--active" id="progress-1"></div>
 </div>
 <div class="progress-labels">
-<div class="progress-label-small" data-i18n="home.series-kvm-go" id="label-small-1">KVM-GO Series</div>
-<div class="progress-label-large" data-i18n="home.kvm-go-headline" id="label-large-1">The Ultra-Compact KVM That Fits on Your Keychain</div>
+<div class="progress-label-small" id="label-small-1">KVM-GO Series</div>
+<div class="progress-label-large" id="label-large-1">The Ultra-Compact KVM That Fits on Your Keychain</div>
 </div>
 </div>
 <!-- Slide 2 Progress -->
@@ -695,8 +712,8 @@
 <div class="progress-bar" id="progress-2"></div>
 </div>
 <div class="progress-labels">
-<div class="progress-label-small" data-i18n="home.series-mini-kvm" id="label-small-2">Mini-KVM Series</div>
-<div class="progress-label-large" data-i18n="home.mini-kvm-headline" id="label-large-2">The Compact KVM Solution for Professionals</div>
+<div class="progress-label-small" id="label-small-2">Mini-KVM Series</div>
+<div class="progress-label-large" id="label-large-2">The Compact KVM Solution for Professionals</div>
 </div>
 </div>
 <!-- Slide 3 Progress -->
@@ -705,8 +722,8 @@
 <div class="progress-bar" id="progress-3"></div>
 </div>
 <div class="progress-labels">
-<div class="progress-label-small" data-i18n="home.series-uconsole" id="label-small-3">uConsole Ext. Series</div>
-<div class="progress-label-large" data-i18n="home.uconsole-headline" id="label-large-3">Transform Your uConsole Into a KVM Console</div>
+<div class="progress-label-small" id="label-small-3">uConsole Ext. Series</div>
+<div class="progress-label-large" id="label-large-3">Transform Your uConsole Into a KVM Console</div>
 </div>
 </div>
 <!-- Slide 4 Progress -->
@@ -716,15 +733,15 @@
 </div>
 <span class="progress-icon-snowflake">❄️</span>
 <div class="progress-labels">
-<div class="progress-label-small" data-i18n="home.series-txa-shop" id="label-small-4">TxA Shop</div>
-<div class="progress-label-large" data-i18n="home.txa-shop-headline" id="label-large-4">Complete Your Setup with Premium Accessories</div>
+<div class="progress-label-small" id="label-small-4">TxA Shop</div>
+<div class="progress-label-large" id="label-large-4">Complete Your Setup with Premium Accessories</div>
 </div>
 </div>
 </div>
 </div>
 </div>
 </section>
-<a data-i18n="home.mastodon" href="https://mastodon.social/@youyoubilly" rel="me" style="display:none;">Mastodon</a>
+<a href="https://mastodon.social/@youyoubilly" rel="me" style="display:none;">Mastodon</a>
 <main class="md-main" data-md-component="main">
 <div class="md-main__inner md-grid">
 <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">

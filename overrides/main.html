@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="{{ 'assets/stylesheets/signup_form.css' | url }}">
   <link rel="stylesheet" href="{{ 'assets/stylesheets/slideshow.css' | url }}">
   <link rel="stylesheet" href="{{ 'assets/stylesheets/version-selector.css' | url }}">
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/youtube-videos.css' | url }}">
   
   <!-- Determine current locale -->
   {% set current_locale = page.locale or config.theme.language or (page.url.split('/')[1] if page.url and page.url.split('/')[1] in ['de', 'es', 'fr', 'it', 'ja', 'ko', 'pt', 'ro', 'zh'] else 'en') %}
@@ -15,7 +16,7 @@
     <a href="#" class="gibby-link" id="gibby-avatar-link"><img src="https://assets.openterface.com/images/op-avatar.webp" alt="Gibby Mascot" class="gibby-avatar" draggable="false" aria-label="Gibby Mascot"></a>
     <div class="gibby-dialogue">
       <p>
-        <a href="#" class="gibby-link" id="gibby-text-link" data-i18n="main.subscribenow-link">Subscribe NOW!</a>
+        <a href="#" class="gibby-link" id="gibby-text-link">Subscribe NOW!</a>
       </p>
     </div>
   </div>
@@ -193,6 +194,22 @@
     document.addEventListener('DOMContentLoaded', function() {
       initYouTubeLazyLoading();
     });
+    
+    // Add class to body to identify videos page
+    (function() {
+      function addVideosClass() {
+        const videosPage = document.querySelector('.youtube-videos-page');
+        if (videosPage) {
+          document.body.classList.add('videos-page');
+        }
+      }
+      
+      if (document.body) {
+        addVideosClass();
+      } else {
+        document.addEventListener('DOMContentLoaded', addVideosClass);
+      }
+    })();
   </script>
 {% endblock %}
 

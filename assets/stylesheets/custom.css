@@ -40,6 +40,50 @@ body.homepage .md-content {
   }
 }
 
+/* Videos Page Specific Styles - Full Width Content */
+/* Only apply these styles on the videos page (when body has 'videos-page' class) */
+body.videos-page .md-main__inner {
+  margin: 0;
+  max-width: 100%;
+}
+
+body.videos-page .md-content {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body.videos-page .md-content__inner {
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body.videos-page .md-grid {
+  max-width: 100%;
+  margin: 0;
+}
+
+body.videos-page .md-container {
+  max-width: 100%;
+}
+
+@media screen and (min-width:60em){
+  body.videos-page .md-sidebar--secondary {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width:76.25em){
+  body.videos-page .md-sidebar--primary {
+    display: none !important;
+  }
+  
+  body.videos-page .md-main {
+    margin-left: 0;
+  }
+}
+
 /* Carousel Styles */
 .mdx-carousel-container {
   position: relative;

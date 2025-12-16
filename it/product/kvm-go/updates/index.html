@@ -40,6 +40,7 @@
 <link href="../../../../assets/stylesheets/signup_form.css" rel="stylesheet"/>
 <link href="../../../../assets/stylesheets/slideshow.css" rel="stylesheet"/>
 <link href="../../../../assets/stylesheets/version-selector.css" rel="stylesheet"/>
+<link href="../../../../assets/stylesheets/youtube-videos.css" rel="stylesheet"/>
 <!-- Determine current locale -->
 <!-- Gibby Avatar and Dialogue Box -->
 <link href="../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><script src="../../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
@@ -57,7 +58,7 @@
 <a class="gibby-link" href="#" id="gibby-avatar-link"><img alt="Gibby Mascot" aria-label="Gibby Mascot" class="gibby-avatar" draggable="false" src="https://assets.openterface.com/images/op-avatar.webp"/></a>
 <div class="gibby-dialogue">
 <p>
-<a class="gibby-link" data-i18n="main.subscribenow-link" href="#" id="gibby-text-link">Subscribe NOW!</a>
+<a class="gibby-link" href="#" id="gibby-text-link">Subscribe NOW!</a>
 </p>
 </div>
 </div>
@@ -234,6 +235,22 @@
     document.addEventListener('DOMContentLoaded', function() {
       initYouTubeLazyLoading();
     });
+    
+    // Add class to body to identify videos page
+    (function() {
+      function addVideosClass() {
+        const videosPage = document.querySelector('.youtube-videos-page');
+        if (videosPage) {
+          document.body.classList.add('videos-page');
+        }
+      }
+      
+      if (document.body) {
+        addVideosClass();
+      } else {
+        document.addEventListener('DOMContentLoaded', addVideosClass);
+      }
+    })();
   </script>
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>

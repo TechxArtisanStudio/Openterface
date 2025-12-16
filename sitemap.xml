@@ -31,6 +31,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/use-cases/"/>
     </url>
     <url>
+        <loc>https://openterface.com/videos/</loc>
+        <lastmod>2025-12-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/videos/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/videos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/videos/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/videos/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/videos/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/videos/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/videos/"/>
+    </url>
+    <url>
         <loc>https://openterface.com/about/about-us/</loc>
         <lastmod>2025-12-16</lastmod>
         <changefreq>daily</changefreq>
@@ -1454,6 +1469,21 @@
         <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/use-cases/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/use-cases/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/use-cases/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/zh/videos/</loc>
+        <lastmod>2025-12-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/videos/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/videos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/videos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/videos/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/videos/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/videos/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/videos/"/>
     </url>
     <url>
         <loc>https://openterface.com/zh/about/about-us/</loc>
@@ -2881,6 +2911,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/use-cases/"/>
     </url>
     <url>
+        <loc>https://openterface.com/ja/videos/</loc>
+        <lastmod>2025-12-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/videos/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/videos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/videos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/videos/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/videos/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/videos/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/videos/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/videos/"/>
+    </url>
+    <url>
         <loc>https://openterface.com/ja/about/about-us/</loc>
         <lastmod>2025-12-16</lastmod>
         <changefreq>daily</changefreq>
@@ -4304,6 +4349,21 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/use-cases/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/use-cases/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/use-cases/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ko/videos/</loc>
+        <lastmod>2025-12-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/videos/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/videos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/videos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/videos/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/videos/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/videos/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/videos/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/videos/"/>
     </url>
     <url>
         <loc>https://openterface.com/ko/about/about-us/</loc>
@@ -5731,6 +5791,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/use-cases/"/>
     </url>
     <url>
+        <loc>https://openterface.com/fr/videos/</loc>
+        <lastmod>2025-12-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/videos/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/videos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/videos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/videos/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/videos/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/videos/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/videos/"/>
+    </url>
+    <url>
         <loc>https://openterface.com/fr/about/about-us/</loc>
         <lastmod>2025-12-16</lastmod>
         <changefreq>daily</changefreq>
@@ -7154,6 +7229,21 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/use-cases/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/use-cases/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/use-cases/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/de/videos/</loc>
+        <lastmod>2025-12-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/videos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/videos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/videos/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/videos/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/videos/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/videos/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/videos/"/>
     </url>
     <url>
         <loc>https://openterface.com/de/about/about-us/</loc>
@@ -8581,6 +8671,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/use-cases/"/>
     </url>
     <url>
+        <loc>https://openterface.com/it/videos/</loc>
+        <lastmod>2025-12-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/videos/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/videos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/videos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/videos/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/videos/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/videos/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/videos/"/>
+    </url>
+    <url>
         <loc>https://openterface.com/it/about/about-us/</loc>
         <lastmod>2025-12-16</lastmod>
         <changefreq>daily</changefreq>
@@ -10004,6 +10109,21 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/use-cases/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/use-cases/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/use-cases/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/es/videos/</loc>
+        <lastmod>2025-12-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/videos/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/videos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/videos/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/videos/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/videos/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/videos/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/videos/"/>
     </url>
     <url>
         <loc>https://openterface.com/es/about/about-us/</loc>
@@ -11431,6 +11551,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/use-cases/"/>
     </url>
     <url>
+        <loc>https://openterface.com/pt/videos/</loc>
+        <lastmod>2025-12-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/videos/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/videos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/videos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/videos/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/videos/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/videos/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/videos/"/>
+    </url>
+    <url>
         <loc>https://openterface.com/pt/about/about-us/</loc>
         <lastmod>2025-12-16</lastmod>
         <changefreq>daily</changefreq>
@@ -12854,6 +12989,21 @@
         <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/use-cases/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/use-cases/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/use-cases/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ro/videos/</loc>
+        <lastmod>2025-12-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/videos/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/videos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/videos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/videos/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/videos/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/videos/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/videos/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/videos/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/videos/"/>
     </url>
     <url>
         <loc>https://openterface.com/ro/about/about-us/</loc>
