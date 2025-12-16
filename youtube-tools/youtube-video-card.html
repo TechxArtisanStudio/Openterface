@@ -1,0 +1,28 @@
+<!-- YouTube Video Card Template -->
+<!-- This template uses Python string formatting with variables: url, title, video_thumbnail, channel_avatar_img, channel_name, views, views_label, date, description_html, tags_html -->
+<div class="youtube-video-card">
+    <a href="{url}" target="_blank" rel="noopener noreferrer">
+        <div class="youtube-video-thumbnail">
+            <img src="{video_thumbnail}" alt="{title}" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'">
+            <div class="play-overlay"></div>
+        </div>
+    </a>
+    <div class="youtube-video-content">
+        <h3 class="youtube-video-title">
+            <a href="{url}" target="_blank" rel="noopener noreferrer">{title}</a>
+        </h3>
+        <div class="youtube-video-meta">
+            <div class="youtube-channel-info">
+                {channel_avatar_img}
+                <span class="youtube-channel-name">{channel_name}</span>
+            </div>
+        </div>
+        <div class="youtube-video-stats">
+            <span class="youtube-stat-item">👁️ {views} {views_label}</span>
+            <span class="youtube-stat-item">📅 {date}</span>
+        </div>
+        {description_html}
+        {tags_html}
+    </div>
+</div>
+

@@ -43,12 +43,20 @@ python youtube-tools/detect_youtube_language.py --force
 ### Generate Website
 
 ```bash
-# Generate HTML website (default: youtube.html)
+# Generate HTML website for English (default: docs/overrides/videos.html)
 python youtube-tools/generate_youtube_website.py
 
+# Generate for all languages (creates videos.html, videos.zh.html, etc.)
+python youtube-tools/generate_youtube_website.py --all-languages
+
+# Generate for specific language
+python youtube-tools/generate_youtube_website.py --language zh
+
 # Specify custom output file
-python youtube-tools/generate_youtube_website.py --output videos.html
+python youtube-tools/generate_youtube_website.py --output custom.html
 ```
+
+The generated website will be accessible at `http://0.0.0.0:8002/videos` when running the MkDocs server. Language-specific versions are available at `/zh/videos`, `/ja/videos`, etc.
 
 ## CSV Structure
 

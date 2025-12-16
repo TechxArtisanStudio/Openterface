@@ -20,12 +20,126 @@ import html
 class YouTubeWebsiteGenerator:
     """Generates HTML website from YouTube CSV data."""
     
-    def __init__(self, csv_path: Path, output_path: Path = None):
+    # Translation dictionaries for UI strings
+    TRANSLATIONS = {
+        'en': {
+            'title': '📺 YouTube Videos',
+            'subtitle': 'Openterface Product Reviews & Updates',
+            'total_videos': 'Total Videos',
+            'languages': 'Languages',
+            'products': 'Products',
+            'views': 'views',
+            'home_page': 'Home Page',
+            'unknown_channel': 'Unknown Channel'
+        },
+        'zh': {
+            'title': '📺 YouTube 视频',
+            'subtitle': 'Openterface 产品评测与更新',
+            'total_videos': '视频总数',
+            'languages': '语言',
+            'products': '产品',
+            'views': '次观看',
+            'home_page': '首页',
+            'unknown_channel': '未知频道'
+        },
+        'ja': {
+            'title': '📺 YouTube 動画',
+            'subtitle': 'Openterface 製品レビューとアップデート',
+            'total_videos': '動画総数',
+            'languages': '言語',
+            'products': '製品',
+            'views': '回視聴',
+            'home_page': 'ホームページ',
+            'unknown_channel': '不明なチャンネル'
+        },
+        'ko': {
+            'title': '📺 YouTube 동영상',
+            'subtitle': 'Openterface 제품 리뷰 및 업데이트',
+            'total_videos': '동영상 총수',
+            'languages': '언어',
+            'products': '제품',
+            'views': '회 조회',
+            'home_page': '홈페이지',
+            'unknown_channel': '알 수 없는 채널'
+        },
+        'fr': {
+            'title': '📺 Vidéos YouTube',
+            'subtitle': 'Avis et mises à jour des produits Openterface',
+            'total_videos': 'Total des vidéos',
+            'languages': 'Langues',
+            'products': 'Produits',
+            'views': 'vues',
+            'home_page': 'Page d\'accueil',
+            'unknown_channel': 'Chaîne inconnue'
+        },
+        'de': {
+            'title': '📺 YouTube Videos',
+            'subtitle': 'Openterface Produktbewertungen & Updates',
+            'total_videos': 'Gesamt Videos',
+            'languages': 'Sprachen',
+            'products': 'Produkte',
+            'views': 'Aufrufe',
+            'home_page': 'Startseite',
+            'unknown_channel': 'Unbekannter Kanal'
+        },
+        'it': {
+            'title': '📺 Video YouTube',
+            'subtitle': 'Recensioni e aggiornamenti prodotti Openterface',
+            'total_videos': 'Totale video',
+            'languages': 'Lingue',
+            'products': 'Prodotti',
+            'views': 'visualizzazioni',
+            'home_page': 'Home Page',
+            'unknown_channel': 'Canale sconosciuto'
+        },
+        'es': {
+            'title': '📺 Videos de YouTube',
+            'subtitle': 'Reseñas y actualizaciones de productos Openterface',
+            'total_videos': 'Total de videos',
+            'languages': 'Idiomas',
+            'products': 'Productos',
+            'views': 'visualizaciones',
+            'home_page': 'Página de inicio',
+            'unknown_channel': 'Canal desconocido'
+        },
+        'pt': {
+            'title': '📺 Vídeos do YouTube',
+            'subtitle': 'Avaliações e atualizações de produtos Openterface',
+            'total_videos': 'Total de vídeos',
+            'languages': 'Idiomas',
+            'products': 'Produtos',
+            'views': 'visualizações',
+            'home_page': 'Página inicial',
+            'unknown_channel': 'Canal desconhecido'
+        },
+        'ro': {
+            'title': '📺 Videoclipuri YouTube',
+            'subtitle': 'Recenzii și actualizări produse Openterface',
+            'total_videos': 'Total videoclipuri',
+            'languages': 'Limbi',
+            'products': 'Produse',
+            'views': 'vizualizări',
+            'home_page': 'Pagina principală',
+            'unknown_channel': 'Canal necunoscut'
+        }
+    }
+    
+    SUPPORTED_LANGUAGES = ['en', 'zh', 'ja', 'ko', 'fr', 'de', 'it', 'es', 'pt', 'ro']
+    
+    def __init__(self, csv_path: Path, output_path: Path = None, language: str = 'en'):
         self.csv_path = csv_path
+        self.language = language if language in self.SUPPORTED_LANGUAGES else 'en'
+        self.translations = self.TRANSLATIONS.get(self.language, self.TRANSLATIONS['en'])
+        
         if output_path:
             self.output_path = output_path
         else:
-            self.output_path = csv_path.parent / "youtube.html"
+            # Default to docs/partials/videos.html
+            script_dir = Path(__file__).parent
+            docs_dir = script_dir.parent / "docs"
+            partials_dir = docs_dir / "partials"
+            partials_dir.mkdir(parents=True, exist_ok=True)
+            self.output_path = partials_dir / "videos.html"
     
     def read_csv(self) -> List[Dict[str, str]]:
         """Read CSV file and return list of rows."""
@@ -124,6 +238,118 @@ class YouTubeWebsiteGenerator:
         }
         return lang_names.get(code.lower(), code.upper() if code else 'Unknown')
     
+    def load_video_card_template(self) -> str:
+        """Load the video card template from youtube-tools directory."""
+        script_dir = Path(__file__).parent
+        template_path = script_dir / "youtube-video-card.html"
+        
+        if template_path.exists():
+            try:
+                with open(template_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                    # Remove HTML comments from template
+                    import re
+                    content = re.sub(r'<!--.*?-->', '', content, flags=re.DOTALL)
+                    return content.strip()
+            except Exception as e:
+                print(f"Warning: Could not load template from {template_path}: {e}")
+        
+        # Fallback to inline template if file doesn't exist
+        return """<div class="youtube-video-card">
+    <a href="{url}" target="_blank" rel="noopener noreferrer">
+        <div class="youtube-video-thumbnail">
+            <img src="{video_thumbnail}" alt="{title}" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'">
+            <div class="play-overlay"></div>
+        </div>
+    </a>
+    <div class="youtube-video-content">
+        <h3 class="youtube-video-title">
+            <a href="{url}" target="_blank" rel="noopener noreferrer">{title}</a>
+        </h3>
+        <div class="youtube-video-meta">
+            <div class="youtube-channel-info">
+                {channel_avatar_img}
+                <span class="youtube-channel-name">{channel_name}</span>
+            </div>
+        </div>
+        <div class="youtube-video-stats">
+            <span class="youtube-stat-item">👁️ {views} {views_label}</span>
+            <span class="youtube-stat-item">📅 {date}</span>
+        </div>
+        {description_html}
+        {tags_html}
+    </div>
+</div>"""
+    
+    def render_video_card(self, row: Dict[str, str]) -> str:
+        """Render a single video card using the template."""
+        url = row.get('youtube_url', '').strip()
+        title = html.escape(row.get('title', '').strip())
+        author = html.escape(row.get('author_name', '').strip())
+        channel_avatar = row.get('thumbnail_url', '').strip()
+        video_thumbnail = row.get('video_thumbnail_url', '').strip()
+        date = self.format_date(row.get('date', '').strip())
+        views = self.format_views(row.get('views', '').strip())
+        description = html.escape(row.get('description', '').strip())
+        language = row.get('language', '').strip()
+        product = row.get('product', '').strip()
+        video_type = row.get('type', '').strip()
+        home_page = row.get('home_page', '').strip()
+        
+        video_id = self.extract_video_id(url)
+        
+        # Use video_thumbnail_url for video cover, fallback to YouTube thumbnail URL
+        if not video_thumbnail and video_id:
+            video_thumbnail = f"https://img.youtube.com/vi/{video_id}/maxresdefault.jpg"
+        elif not video_thumbnail:
+            video_thumbnail = "https://via.placeholder.com/640x360?text=No+Thumbnail"
+        
+        # Build channel avatar image
+        if channel_avatar:
+            channel_avatar_img = f'<img src="{html.escape(channel_avatar)}" alt="{author}" class="youtube-channel-avatar" onerror="this.style.display=\'none\'">'
+        else:
+            channel_avatar_img = ''
+        
+        # Build description HTML
+        if description:
+            description_html = f'<div class="youtube-video-description">{description}</div>'
+        else:
+            description_html = ''
+        
+        # Build tags HTML
+        tags_html = ""
+        if language or product or video_type or home_page:
+            tags_html = '<div class="youtube-video-tags">'
+            if language:
+                lang_name = self.get_language_name(language)
+                tags_html += f'<span class="youtube-tag language">{lang_name}</span>'
+            if product:
+                tags_html += f'<span class="youtube-tag product">{html.escape(product)}</span>'
+            if video_type:
+                tags_html += f'<span class="youtube-tag type">{html.escape(video_type)}</span>'
+            if home_page:
+                tags_html += f'<span class="youtube-tag home-page">{self.translations["home_page"]}</span>'
+            tags_html += '</div>'
+        
+        # Load template and render
+        template = self.load_video_card_template()
+        
+        # Replace template variables
+        card_html = template.format(
+            url=url,
+            title=title,
+            video_thumbnail=html.escape(video_thumbnail),
+            channel_avatar_img=channel_avatar_img,
+            channel_name=author or self.translations['unknown_channel'],
+            views=views,
+            views_label=self.translations['views'],
+            date=date,
+            description_html=description_html,
+            tags_html=tags_html
+        )
+        
+        return card_html
+    
     def generate_html(self, rows: List[Dict[str, str]]) -> str:
         """Generate HTML content from CSV rows."""
         
@@ -143,387 +369,40 @@ class YouTubeWebsiteGenerator:
         
         sorted_rows = sorted(rows, key=sort_key)
         
-        html_content = f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Videos - Openterface</title>
-    <style>
-        * {{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }}
+        # Get translations for current language
+        t = self.translations
         
-        body {{
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 20px;
-            color: #333;
-        }}
-        
-        .container {{
-            max-width: 1400px;
-            margin: 0 auto;
-        }}
-        
-        header {{
-            text-align: center;
-            color: white;
-            margin-bottom: 40px;
-            padding: 30px 0;
-        }}
-        
-        header h1 {{
-            font-size: 2.5em;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }}
-        
-        header p {{
-            font-size: 1.2em;
-            opacity: 0.9;
-        }}
-        
-        .stats {{
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            margin-bottom: 30px;
-            flex-wrap: wrap;
-        }}
-        
-        .stat-card {{
-            background: white;
-            padding: 20px 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            text-align: center;
-        }}
-        
-        .stat-card .number {{
-            font-size: 2em;
-            font-weight: bold;
-            color: #667eea;
-        }}
-        
-        .stat-card .label {{
-            color: #666;
-            margin-top: 5px;
-        }}
-        
-        .videos-grid {{
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-            gap: 25px;
-            margin-top: 30px;
-        }}
-        
-        .video-card {{
-            background: white;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            display: flex;
-            flex-direction: column;
-        }}
-        
-        .video-card:hover {{
-            transform: translateY(-5px);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.25);
-        }}
-        
-        .video-thumbnail {{
-            position: relative;
-            width: 100%;
-            padding-top: 56.25%; /* 16:9 aspect ratio */
-            background: #f0f0f0;
-            overflow: hidden;
-        }}
-        
-        .video-thumbnail img {{
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }}
-        
-        .video-thumbnail .play-overlay {{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 60px;
-            height: 60px;
-            background: rgba(255, 0, 0, 0.9);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }}
-        
-        .video-card:hover .play-overlay {{
-            opacity: 1;
-        }}
-        
-        .play-overlay::after {{
-            content: '';
-            width: 0;
-            height: 0;
-            border-left: 20px solid white;
-            border-top: 12px solid transparent;
-            border-bottom: 12px solid transparent;
-            margin-left: 4px;
-        }}
-        
-        .video-content {{
-            padding: 20px;
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-        }}
-        
-        .video-title {{
-            font-size: 1.1em;
-            font-weight: 600;
-            margin-bottom: 12px;
-            line-height: 1.4;
-            color: #333;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }}
-        
-        .video-title a {{
-            color: #333;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }}
-        
-        .video-title a:hover {{
-            color: #667eea;
-        }}
-        
-        .video-meta {{
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            margin-bottom: 12px;
-            flex-wrap: wrap;
-        }}
-        
-        .channel-info {{
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }}
-        
-        .channel-avatar {{
-            width: 32px;
-            height: 32px;
-            border-radius: 50%;
-            object-fit: cover;
-        }}
-        
-        .channel-name {{
-            font-size: 0.9em;
-            color: #666;
-            font-weight: 500;
-        }}
-        
-        .video-stats {{
-            display: flex;
-            gap: 15px;
-            font-size: 0.85em;
-            color: #888;
-            flex-wrap: wrap;
-        }}
-        
-        .stat-item {{
-            display: flex;
-            align-items: center;
-            gap: 5px;
-        }}
-        
-        .video-description {{
-            font-size: 0.9em;
-            color: #666;
-            line-height: 1.5;
-            margin-top: 12px;
-            display: -webkit-box;
-            -webkit-line-clamp: 3;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-            flex-grow: 1;
-        }}
-        
-        .video-tags {{
-            display: flex;
-            gap: 8px;
-            margin-top: 15px;
-            flex-wrap: wrap;
-        }}
-        
-        .tag {{
-            background: #f0f0f0;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 0.8em;
-            color: #666;
-        }}
-        
-        .tag.language {{
-            background: #e3f2fd;
-            color: #1976d2;
-        }}
-        
-        .tag.product {{
-            background: #f3e5f5;
-            color: #7b1fa2;
-        }}
-        
-        .tag.type {{
-            background: #fff3e0;
-            color: #e65100;
-        }}
-        
-        .tag.home-page {{
-            background: #e8f5e9;
-            color: #388e3c;
-        }}
-        
-        footer {{
-            text-align: center;
-            color: white;
-            margin-top: 50px;
-            padding: 20px 0;
-            opacity: 0.8;
-        }}
-        
-        @media (max-width: 768px) {{
-            .videos-grid {{
-                grid-template-columns: 1fr;
-            }}
-            
-            header h1 {{
-                font-size: 2em;
-            }}
-            
-            .stats {{
-                gap: 15px;
-            }}
-            
-            .stat-card {{
-                padding: 15px 20px;
-            }}
-        }}
-    </style>
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1>📺 YouTube Videos</h1>
-            <p>Openterface Product Reviews & Updates</p>
-        </header>
-        
-        <div class="stats">
-            <div class="stat-card">
-                <div class="number">{len(sorted_rows)}</div>
-                <div class="label">Total Videos</div>
-            </div>
-            <div class="stat-card">
-                <div class="number">{len(set(r.get('language', '').strip() for r in sorted_rows if r.get('language', '').strip()))}</div>
-                <div class="label">Languages</div>
-            </div>
-            <div class="stat-card">
-                <div class="number">{len(set(r.get('product', '').strip() for r in sorted_rows if r.get('product', '').strip()))}</div>
-                <div class="label">Products</div>
-            </div>
+        # Generate HTML partial that works within MkDocs Material theme
+        # Note: CSS is now in docs/assets/stylesheets/youtube-videos.css
+        html_content = f"""<!-- YouTube Videos Grid - Generated from youtube.csv (Language: {self.language}) -->
+
+    <div class="youtube-videos-page">
+    <div class="youtube-stats">
+        <div class="youtube-stat-card">
+            <div class="number">{len(sorted_rows)}</div>
+            <div class="label">{t['total_videos']}</div>
         </div>
-        
-        <div class="videos-grid">
+        <div class="youtube-stat-card">
+            <div class="number">{len(set(r.get('language', '').strip() for r in sorted_rows if r.get('language', '').strip()))}</div>
+            <div class="label">{t['languages']}</div>
+        </div>
+        <div class="youtube-stat-card">
+            <div class="number">{len(set(r.get('product', '').strip() for r in sorted_rows if r.get('product', '').strip()))}</div>
+            <div class="label">{t['products']}</div>
+        </div>
+    </div>
+    
+    <div class="youtube-videos-grid">
 """
         
         for row in sorted_rows:
-            url = row.get('youtube_url', '').strip()
-            title = html.escape(row.get('title', '').strip())
-            author = html.escape(row.get('author_name', '').strip())
-            channel_avatar = row.get('thumbnail_url', '').strip()  # Channel avatar
-            video_thumbnail = row.get('video_thumbnail_url', '').strip()  # Video cover thumbnail
-            date = self.format_date(row.get('date', '').strip())
-            views = self.format_views(row.get('views', '').strip())
-            description = html.escape(row.get('description', '').strip())
-            language = row.get('language', '').strip()
-            product = row.get('product', '').strip()
-            video_type = row.get('type', '').strip()
-            home_page = row.get('home_page', '').strip()
-            
-            video_id = self.extract_video_id(url)
-            
-            # Use video_thumbnail_url for video cover, fallback to YouTube thumbnail URL
-            if not video_thumbnail and video_id:
-                video_thumbnail = f"https://img.youtube.com/vi/{video_id}/maxresdefault.jpg"
-            elif not video_thumbnail:
-                video_thumbnail = "https://via.placeholder.com/640x360?text=No+Thumbnail"
-            
-            # Build tags
-            tags_html = ""
-            if language:
-                lang_name = self.get_language_name(language)
-                tags_html += f'<span class="tag language">{lang_name}</span>'
-            if product:
-                tags_html += f'<span class="tag product">{html.escape(product)}</span>'
-            if video_type:
-                tags_html += f'<span class="tag type">{html.escape(video_type)}</span>'
-            if home_page:
-                tags_html += f'<span class="tag home-page">Home Page</span>'
-            
-            html_content += f"""
-            <div class="video-card">
-                <a href="{url}" target="_blank" rel="noopener noreferrer">
-                    <div class="video-thumbnail">
-                        <img src="{html.escape(video_thumbnail)}" alt="{title}" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'">
-                        <div class="play-overlay"></div>
-                    </div>
-                </a>
-                <div class="video-content">
-                    <h3 class="video-title">
-                        <a href="{url}" target="_blank" rel="noopener noreferrer">{title}</a>
-                    </h3>
-                    <div class="video-meta">
-                        <div class="channel-info">
-                            {f'<img src="{html.escape(channel_avatar)}" alt="{author}" class="channel-avatar" onerror="this.style.display=\'none\'">' if channel_avatar else ''}
-                            <span class="channel-name">{author or 'Unknown Channel'}</span>
-                        </div>
-                    </div>
-                    <div class="video-stats">
-                        <span class="stat-item">👁️ {views} views</span>
-                        <span class="stat-item">📅 {date}</span>
-                    </div>
-                    {f'<div class="video-description">{description}</div>' if description else ''}
-                    {f'<div class="video-tags">{tags_html}</div>' if tags_html else ''}
-                </div>
-            </div>
-"""
+            # Render video card using template
+            card_html = self.render_video_card(row)
+            html_content += f"            {card_html}\n"
         
         html_content += """
-        </div>
-        
-        <footer>
-            <p>Generated on """ + datetime.now().strftime('%Y-%m-%d %H:%M:%S') + """</p>
-            <p>Data from youtube.csv</p>
-        </footer>
     </div>
-</body>
-</html>
+</div>
 """
         
         return html_content
@@ -563,18 +442,18 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Generate website with default output (youtube.html)
+  # Generate website (default: docs/partials/videos.html)
   python generate_youtube_website.py
   
   # Specify custom output file
-  python generate_youtube_website.py --output videos.html
+  python generate_youtube_website.py --output custom.html
         """
     )
     parser.add_argument('--csv-path',
                        help='Path to CSV file (default: youtube.csv in script directory)',
                        type=Path)
     parser.add_argument('--output', '-o',
-                       help='Output HTML file (default: youtube.html)',
+                       help='Output HTML file (default: docs/partials/videos.html)',
                        type=Path)
     
     args = parser.parse_args()
@@ -587,7 +466,11 @@ Examples:
         script_dir = Path(__file__).parent
         csv_path = script_dir / "youtube.csv"
     
-    generator = YouTubeWebsiteGenerator(csv_path=csv_path, output_path=args.output)
+    generator = YouTubeWebsiteGenerator(
+        csv_path=csv_path,
+        output_path=args.output,
+        language='en'  # Default to English, but only one file is generated
+    )
     generator.generate()
 
 
