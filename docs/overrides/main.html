@@ -232,5 +232,8 @@
   <script src="{{ 'assets/javascripts/slideshow.js' | url }}"></script>
   {% endif %}
   
-  <script src="{{ 'assets/javascripts/extra.js' | url }}"></script>
+  <!-- Conditionally load home-carousel.js only on homepage -->
+  {% if page and page.meta and page.meta.template and 'home' in page.meta.template %}
+  <script src="{{ 'assets/javascripts/home-carousel.js' | url }}"></script>
+  {% endif %}
 {% endblock %}
