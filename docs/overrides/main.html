@@ -3,9 +3,16 @@
 {% block extrahead %}
   <link rel="stylesheet" href="{{ 'assets/stylesheets/custom.css' | url }}">
   <link rel="stylesheet" href="{{ 'assets/stylesheets/signup_form.css' | url }}">
+  
+  <!-- Conditionally load slideshow.css only on product pages -->
+  {% if page and page.file and 'product/' in page.file.src_path and '/index.' in page.file.src_path %}
   <link rel="stylesheet" href="{{ 'assets/stylesheets/slideshow.css' | url }}">
-  <link rel="stylesheet" href="{{ 'assets/stylesheets/version-selector.css' | url }}">
+  {% endif %}
+  
+  <!-- Conditionally load youtube-videos.css only on videos pages -->
+  {% if page and page.file and 'videos.' in page.file.src_path %}
   <link rel="stylesheet" href="{{ 'assets/stylesheets/youtube-videos.css' | url }}">
+  {% endif %}
   
   <!-- Language Alternates (hreflang for SEO) -->
   {% include "partials/hreflang.html" %}
@@ -219,7 +226,11 @@
 {% block scripts %}
   {{ super() }}
   <script src="{{ 'assets/javascripts/i18n-handler.js' | url }}"></script>
+  
+  <!-- Conditionally load slideshow.js only on product pages -->
+  {% if page and page.file and 'product/' in page.file.src_path and '/index.' in page.file.src_path %}
   <script src="{{ 'assets/javascripts/slideshow.js' | url }}"></script>
-  <script src="{{ 'assets/javascripts/download-selector.js' | url }}"></script>
+  {% endif %}
+  
   <script src="{{ 'assets/javascripts/extra.js' | url }}"></script>
 {% endblock %}
