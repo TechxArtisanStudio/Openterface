@@ -318,8 +318,8 @@ class YouTubeWebsiteGenerator:
         
         return grid_html
     
-    def generate_html(self, rows: List[Dict[str, str]]) -> str:
-        """Generate HTML content from CSV rows with i18n support."""
+    def generate_html(self, rows: List[Dict[str, str]], language: str = 'en') -> str:
+        """Generate HTML for a specific language (static, SEO-friendly)."""
         
         # Sort by z_index (descending) if available, then by views
         def sort_key(row):
@@ -337,106 +337,52 @@ class YouTubeWebsiteGenerator:
         
         sorted_rows = sorted(rows, key=sort_key)
         
-        # Get default English translations for fallback text content
-        t = self._translations.get('en', {})
+        # Get translations for this language (fallback to English)
+        t = self._translations.get(language, self._translations.get('en', {}))
         
-        # Generate HTML partial with i18n support
-        # Note: CSS is now in docs/assets/stylesheets/youtube-videos.css
+        # Calculate stats from CSV data
+        num_videos = len(sorted_rows)
+        num_languages = len(set(r.get('language', '').strip() for r in sorted_rows if r.get('language', '').strip()))
+        num_products = len(set(r.get('product', '').strip() for r in sorted_rows if r.get('product', '').strip()))
+        
+        # Calculate stats from CSV data
+        num_videos = len(sorted_rows)
+        num_languages = len(set(r.get('language', '').strip() for r in sorted_rows if r.get('language', '').strip()))
+        num_products = len(set(r.get('product', '').strip() for r in sorted_rows if r.get('product', '').strip()))
+        
+        # Generate static HTML with translations applied (no client-side JavaScript needed)
+        # Note: CSS is in docs/assets/stylesheets/youtube-videos.css
         # The video grid is in a separate partial: videos-grid.html
-        # Translations are loaded from /i18n-sites/youtube-videos.json by i18n-handler.js
-        html_content = f"""<!-- YouTube Videos Page - Generated from youtube.csv (i18n-enabled) -->
+        html_content = f"""<!-- YouTube Videos Page - Static {language.upper()} - Generated from youtube.csv -->
 
-    <div class="youtube-videos-page" 
-         data-i18n-file="youtube-videos">
-    <h1 class="youtube-videos-title" data-i18n-key="title">{t.get('title', '📺 YouTube Videos')}</h1>
+
+<div class="youtube-videos-page">
+    <h1 class="youtube-videos-title">{t.get('title', '📺 YouTube Videos')}</h1>
     <div class="youtube-stats">
         <div class="youtube-stat-card">
-            <div class="number">{len(sorted_rows)}</div>
-            <div class="label" data-i18n-key="total_videos">{t.get('total_videos', 'Total Videos')}</div>
+            <div class="number">{num_videos}</div>
+            <div class="label">{t.get('total_videos', 'Total Videos')}</div>
         </div>
         <div class="youtube-stat-card">
-            <div class="number">{len(set(r.get('language', '').strip() for r in sorted_rows if r.get('language', '').strip()))}</div>
-            <div class="label" data-i18n-key="languages">{t.get('languages', 'Languages')}</div>
+            <div class="number">{num_languages}</div>
+            <div class="label">{t.get('languages', 'Languages')}</div>
         </div>
         <div class="youtube-stat-card">
-            <div class="number">{len(set(r.get('product', '').strip() for r in sorted_rows if r.get('product', '').strip()))}</div>
-            <div class="label" data-i18n-key="products">{t.get('products', 'Products')}</div>
+            <div class="number">{num_products}</div>
+            <div class="label">{t.get('products', 'Products')}</div>
         </div>
     </div>
     
     {{% include "partials/videos-grid.html" %}}
 </div>
-
-<script>
-(function() {{
-    'use strict';
-    
-    // Get the page container
-    const pageElement = document.querySelector('.youtube-videos-page');
-    if (!pageElement) return;
-    
-    // Load translations from data attribute
-    let translations = {{}};
-    try {{
-        const translationsJson = pageElement.getAttribute('data-translations');
-        if (translationsJson) {{
-            // Unescape HTML entities
-            const unescaped = translationsJson.replace(/&#39;/g, "'");
-            translations = JSON.parse(unescaped);
-        }}
-    }} catch (e) {{
-        console.warn('Failed to parse translations:', e);
-        return;
-    }}
-    
-    // Detect current language from URL path
-    // MkDocs static i18n uses URLs like: /zh/videos/, /es/videos/, etc.
-    function detectLanguageFromURL() {{
-        const path = window.location.pathname;
-        const segments = path.split('/').filter(segment => segment);
-        
-        // Supported language codes (from i18n.json)
-        const supportedLangs = {json.dumps(self._supported_languages)};
-        
-        // Check if first segment is a language code
-        if (segments.length > 0 && supportedLangs.includes(segments[0])) {{
-            return segments[0];
-        }}
-        
-        // Default to English if no language code found
-        return 'en';
-    }}
-    
-    // Get current language
-    const i18nLang = pageElement.getAttribute('i18n-lang');
-    let currentLang = 'en';
-    
-    if (i18nLang === 'auto') {{
-        currentLang = detectLanguageFromURL();
-    }} else if (i18nLang && translations[i18nLang]) {{
-        currentLang = i18nLang;
-    }}
-    
-    // Get translations for current language (fallback to English)
-    const t = translations[currentLang] || translations['en'] || {{}};
-    
-    // Update all elements with data-i18n-key attribute
-    pageElement.querySelectorAll('[data-i18n-key]').forEach(element => {{
-        const key = element.getAttribute('data-i18n-key');
-        if (t[key]) {{
-            element.textContent = t[key];
-        }}
-    }});
-}})();
-</script>
 """
         
         return html_content
     
     def generate(self, generate_all_languages: bool = False):
-        """Generate the HTML website."""
+        """Generate static HTML files for all languages (SEO-friendly)."""
         print("=" * 60)
-        print("YouTube Website Generator")
+        print("YouTube Website Generator (Static i18n)")
         print("=" * 60)
         
         rows = self.read_csv()
@@ -448,7 +394,7 @@ class YouTubeWebsiteGenerator:
         print(f"\n📊 Found {len(rows)} videos in CSV file.")
         
         # First, generate the shared videos-grid.html
-        print(f"📝 Generating shared videos-grid.html...")
+        print(f"\n📝 Generating shared videos-grid.html...")
         grid_html = self.generate_videos_grid(rows)
         
         script_dir = Path(__file__).parent
@@ -464,32 +410,29 @@ class YouTubeWebsiteGenerator:
             print(f"  ❌ Error writing {grid_path.name}: {e}")
             return
         
-        # Generate single i18n-enabled videos.html (works for all languages)
-        print(f"📝 Generating i18n-enabled videos.html...")
-        html_content = self.generate_html(rows)
+        # Generate language-specific videos.{lang}.html files (static, SEO-friendly)
+        print(f"\n📝 Generating static language-specific files...")
+        print(f"📊 Languages: {', '.join(self._supported_languages)}\n")
         
-        videos_path = partials_dir / "videos.html"
-        try:
-            with open(videos_path, 'w', encoding='utf-8') as f:
-                f.write(html_content)
-            print(f"  ✅ Generated: {videos_path.name} (i18n-enabled for all languages)")
-        except Exception as e:
-            print(f"  ❌ Error writing {videos_path.name}: {e}")
-            return
+        for lang in self._supported_languages:
+            html_content = self.generate_html(rows, language=lang)
+            
+            # English gets videos.html, others get videos.{lang}.html
+            suffix = '' if lang == 'en' else f'.{lang}'
+            output_filename = f"videos{suffix}.html"
+            output_path = partials_dir / output_filename
+            
+            try:
+                with open(output_path, 'w', encoding='utf-8') as f:
+                    f.write(html_content)
+                print(f"  ✅ Generated: {output_filename} ({lang})")
+            except Exception as e:
+                print(f"❌ Error writing {output_filename}: {e}")
+                continue
         
-        if generate_all_languages:
-            # Legacy mode: This now just generates the single file
-            print(f"\n✅ Generation complete!")
-            print(f"📄 Files:")
-            print(f"   - {grid_path.name} (shared grid)")
-            print(f"   - {videos_path.name} (single i18n-enabled file for all languages)")
-        else:
-            # Single file generation (already done above)
-            print(f"\n✅ Generation complete!")
-            print(f"📄 Files:")
-            print(f"   - {grid_path.name} (shared grid)")
-            print(f"   - {videos_path.name} (i18n-enabled for all languages)")
-            print(f"\n💡 The videos.html file automatically detects language from URL path.")
+        print(f"\n✅ Generation complete!")
+        print(f"📄 Output directory: {partials_dir}")
+        print(f"\n💡 Each language now has its own static HTML file for perfect SEO.")
 
 
 def main():

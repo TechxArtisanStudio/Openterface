@@ -4,26 +4,26 @@
   {{ super() }}
   
   <!-- SEO Metadata -->
-  <meta name="description" content="Openterface를 발견하세요 - KVM-GO 시리즈(열쇠고리 크기), Mini-KVM 시리즈 및 uConsole KVM 확장을 포함한 초소형 USB-KVM 솔루션. IT 전문가, 개발자 및 서버 관리를 위한 오픈소스 기능 풍부한 도구.">
-  <meta name="keywords" content="USB-KVM, KVM 스위치, 휴대용 KVM, USB KVM, 헤드리스 서버 관리, IT 도구, 서버 콘솔, 원격 서버 액세스, KVM-GO, Mini-KVM, uConsole KVM, 오픈소스 KVM, 초소형 KVM, 열쇠고리 KVM, 4K KVM, DisplayPort KVM, HDMI KVM, VGA KVM">
+  <meta name="description" content="Discover Openterface - Ultra-compact KVM-over-USB solutions including KVM-GO Series (keychain-sized), Mini-KVM Series, and uConsole KVM Extension. Open-source, feature-rich tools for IT professionals, developers, and server management.">
+  <meta name="keywords" content="KVM-over-USB, KVM switch, portable KVM, USB KVM, headless server management, IT tools, server console, remote server access, KVM-GO, Mini-KVM, uConsole KVM, open source KVM, ultra-compact KVM, keychain KVM, 4K KVM, DisplayPort KVM, HDMI KVM, VGA KVM">
   <meta name="author" content="Openterface">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="{{ config.site_url }}/ko/">
+  <link rel="canonical" href="{{ config.site_url }}{{ page.url if page.url else '/' }}">
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ config.site_url }}/ko/">
-  <meta property="og:title" content="Openterface | IT 전문가를 위한 초소형 KVM 솔루션">
-  <meta property="og:description" content="Openterface를 발견하세요 - KVM-GO 시리즈(열쇠고리 크기), Mini-KVM 시리즈 및 uConsole KVM 확장을 포함한 초소형 USB-KVM 솔루션. IT 전문가, 개발자 및 서버 관리를 위한 오픈소스 기능 풍부한 도구.">
+  <meta property="og:url" content="{{ config.site_url }}{{ page.url if page.url else '/' }}">
+  <meta property="og:title" content="Openterface | Ultra-Compact KVM Solutions for IT Professionals">
+  <meta property="og:description" content="Discover Openterface - Ultra-compact KVM-over-USB solutions including KVM-GO Series (keychain-sized), Mini-KVM Series, and uConsole KVM Extension. Open-source, feature-rich tools for IT professionals, developers, and server management.">
   <meta property="og:image" content="https://assets.openterface.com/images/kvm-go-triple.png">
-  <meta property="og:locale" content="ko_KR">
+  <meta property="og:locale" content="en_US">
   <meta property="og:site_name" content="Openterface">
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="{{ config.site_url }}/ko/">
-  <meta name="twitter:title" content="Openterface | IT 전문가를 위한 초소형 KVM 솔루션">
-  <meta name="twitter:description" content="Openterface를 발견하세요 - KVM-GO 시리즈(열쇠고리 크기), Mini-KVM 시리즈 및 uConsole KVM 확장을 포함한 초소형 USB-KVM 솔루션.">
+  <meta name="twitter:url" content="{{ config.site_url }}{{ page.url if page.url else '/' }}">
+  <meta name="twitter:title" content="Openterface | Ultra-Compact KVM Solutions for IT Professionals">
+  <meta name="twitter:description" content="Discover Openterface - Ultra-compact KVM-over-USB solutions including KVM-GO Series (keychain-sized), Mini-KVM Series, and uConsole KVM Extension.">
   <meta name="twitter:image" content="https://assets.openterface.com/images/kvm-go-triple.png">
   
   <!-- Language Alternates -->
@@ -66,19 +66,20 @@
         <div class="carousel-slide carousel-slide--active" data-slide-index="1">
           <div class="carousel-content-left">
             <div class="carousel-category">KVM-GO 시리즈</div>
-            <h1 class="carousel-headline">열쇠고리에 달 수 있는 초소형 KVM</h1>
-            <p class="carousel-description">
-              열쇠고리에 달고 다닐 수 있도록 설계된 차세대 USB-KVM 가젯으로, 현장에서 빠른 IT 작업을 위해 제작되었습니다.
-            </p>
+            <h1 class="carousel-headline">열쇠고리에 걸 수 있는 초소형 KVM</h1>
+            <p class="carousel-description">열쇠고리에 걸어 언제든 사용할 수 있도록 설계된 차세대 USB-KVM 가젯입니다. 현장에서의 신속한 IT 작업을 위해 제작되었습니다.</p>
             <div class="carousel-actions">
               <a href="https://www.crowdsupply.com/techxartisan/openterface-kvm-go" class="md-button md-button--primary carousel-btn-preorder" target="_blank" rel="noopener noreferrer">
-                크라우드펀딩 진행 중
+                <span>크라우드펀딩 진행중</span>
                 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 140 140" class="carousel-btn-icon">
                   <path d="M 68.3,9.7 8,70 68.3,130.3 Z" fill="#555" />
                   <path d="M 71.7,9.7 V 130.3 L 132,70 Z" fill="#099" />
                   <path d="m 90.7,91 c -6.6,0 -11.8,-3.6 -14,-12 l 8,-1.7 c 0.9,5.1 3.9,7 6.3,7 2.8,0 5,-1.9 5,-5.1 0,-8 -18.2,-8.2 -18.2,-20.1 0,-7.3 4.4,-12 12.8,-12 7.3,0 11.7,4.3 13.1,10.4 l -7.3,2.1 c -1.4,-4 -3.1,-5.7 -6,-5.7 -2.9,0 -4.5,1.8 -4.5,4.7 0,6.4 18.2,6.9 18.2,20.3 0.2,7.2 -4.9,12.1 -13.4,12.1 z" fill="#FFF" />
                   <path d="m 60.7,63.9 h -8.2 v -3.6 c 0,-4.7 -2.1,-6 -5.3,-6 -3.2,0 -5.3,1.3 -5.3,6 v 17.4 c 0,4.7 2.1,6 5.3,6 3.2,0 5.3,-1.3 5.3,-6 v -3.8 h 8.2 v 2.7 c 0,10.5 -5.6,14.3 -13.5,14.3 -7.9,0 -13.5,-3.8 -13.5,-14.3 V 61.4 c 0,-10.5 5.6,-14.3 13.5,-14.3 7.9,0 13.5,3.8 13.5,14.3 z" fill="#FFF" />
                 </svg>
+              </a>
+              <a href="{{ 'product/kvm-go/' | url }}" class="md-button carousel-btn-docs">
+                <span>문서 보기</span>
               </a>
               <div class="carousel-countdown" id="kvm-go-countdown"></div>
             </div>
@@ -92,19 +93,20 @@
         <div class="carousel-slide" data-slide-index="2">
           <div class="carousel-content-left">
             <div class="carousel-category">Mini-KVM 시리즈</div>
-            <h1 class="carousel-headline">전문가를 위한 컴팩트한 KVM 솔루션</h1>
-            <p class="carousel-description">
-              컴팩트하고 기능이 풍부한 오픈소스 USB-KVM 솔루션으로, 다양한 IT 작업과 문제 해결을 더 쉽게 만들어줍니다.
-            </p>
+            <h1 class="carousel-headline">전문가를 위한 컴팩트 KVM 솔루션</h1>
+            <p class="carousel-description">컴팩트하고 기능이 풍부한 오픈소스 USB-KVM 솔루션으로 즉석 IT 작업 및 문제 해결을 간소화합니다.</p>
             <div class="carousel-actions">
               <a href="{{ config.extra.minikvm_purchase_link | url }}" class="md-button md-button--primary carousel-btn-secondary" target="_blank" rel="noopener noreferrer">
-                지금 주문하기
+                <span>지금 주문</span>
                 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 140 140" class="carousel-btn-icon">
                   <path d="M 68.3,9.7 8,70 68.3,130.3 Z" fill="#555" />
                   <path d="M 71.7,9.7 V 130.3 L 132,70 Z" fill="#099" />
                   <path d="m 90.7,91 c -6.6,0 -11.8,-3.6 -14,-12 l 8,-1.7 c 0.9,5.1 3.9,7 6.3,7 2.8,0 5,-1.9 5,-5.1 0,-8 -18.2,-8.2 -18.2,-20.1 0,-7.3 4.4,-12 12.8,-12 7.3,0 11.7,4.3 13.1,10.4 l -7.3,2.1 c -1.4,-4 -3.1,-5.7 -6,-5.7 -2.9,0 -4.5,1.8 -4.5,4.7 0,6.4 18.2,6.9 18.2,20.3 0.2,7.2 -4.9,12.1 -13.4,12.1 z" fill="#FFF" />
                   <path d="m 60.7,63.9 h -8.2 v -3.6 c 0,-4.7 -2.1,-6 -5.3,-6 -3.2,0 -5.3,1.3 -5.3,6 v 17.4 c 0,4.7 2.1,6 5.3,6 3.2,0 5.3,-1.3 5.3,-6 v -3.8 h 8.2 v 2.7 c 0,10.5 -5.6,14.3 -13.5,14.3 -7.9,0 -13.5,-3.8 -13.5,-14.3 V 61.4 c 0,-10.5 5.6,-14.3 13.5,-14.3 7.9,0 13.5,3.8 13.5,14.3 z" fill="#FFF" />
                 </svg>
+              </a>
+              <a href="{{ 'product/minikvm/' | url }}" class="md-button carousel-btn-docs">
+                <span>문서 보기</span>
               </a>
             </div>
           </div>
@@ -117,18 +119,19 @@
         <div class="carousel-slide" data-slide-index="3">
           <div class="carousel-content-left">
             <div class="carousel-category">uConsole 확장 시리즈</div>
-            <h1 class="carousel-headline">uConsole을 KVM 콘솔로 변환</h1>
-            <p class="carousel-description">
-              uConsole을 휴대용 KVM 콘솔로 변환하는 확장 보드입니다. 현재 uConsole용 Openterface KVM Ext. 사전 주문을 받고 있습니다.
-            </p>
+            <h1 class="carousel-headline">uConsole을 KVM 콘솔로 변신</h1>
+            <p class="carousel-description">uConsole을 휴대용 KVM 콘솔로 변신 – Openterface KVM uConsole 확장 사전 주문 받는 중. 올인원 휴대용 솔루션.</p>
             <div class="carousel-actions">
               <a href="https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole" class="md-button md-button--primary carousel-btn-secondary" target="_blank" rel="noopener noreferrer">
-                지금 주문하기
+                <span>지금 주문</span>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" class="carousel-btn-icon">
                   <path fill="#faa22c" d="M166.32,10H33.68A23.68,23.68,0,0,0,10,33.68V166.32A23.68,23.68,0,0,0,33.68,190H166.32A23.68,23.68,0,0,0,190,166.32V33.68A23.68,23.68,0,0,0,166.32,10ZM150.21,79H134.55l-21.4,21.4L133.82,121h16.39v29.18H121V134.56l-21-21-21,21v15.66H49.79V121H66.17l20.67-20.66L65.44,79H49.79V49.79H79V66.18l21,21,21-21V49.79h29.18Z"/>
                   <path fill="#211e1f" d="M150.21,79V49.79H121V66.17l-21,21-21-21V49.79H49.79V79H65.44l21.4,21.4L66.17,121H49.79v29.18H79V134.55l21-21,21,21v15.65h29.18V121H133.82l-20.67-20.66L134.55,79ZM100,106.21h0L73.73,132.48a9.79,9.79,0,0,1,.5,3.08,9.92,9.92,0,1,1-9.92-9.91,9.81,9.81,0,0,1,3.27.56L93.79,100,67.05,73.26a9.91,9.91,0,1,1,7.18-9.53,9.73,9.73,0,0,1-.69,3.6L106.21,100Z"/>
                   <path fill="#f9f9fa" d="M100,106.21l6.21-6.21L73.54,67.33a9.73,9.73,0,0,0,.69-3.6,9.94,9.94,0,1,0-7.18,9.53L93.79,100,67.58,126.21a9.81,9.81,0,0,0-3.27-.56,9.91,9.91,0,1,0,9.92,9.91,9.79,9.79,0,0,0-.5-3.08L100,106.21Z"/>
                 </svg>
+              </a>
+              <a href="{{ 'product/uconsole-kvm-extension/' | url }}" class="md-button carousel-btn-docs">
+                <span>문서 보기</span>
               </a>
             </div>
           </div>
@@ -140,11 +143,9 @@
         <!-- Slide 4: TxA Shop - Accessories -->
         <div class="carousel-slide" data-slide-index="4">
           <div class="carousel-content-left">
-            <div class="carousel-category">TxA 쇼핑몰</div>
-            <h1 class="carousel-headline">프리미엄 액세서리로 설정 완성하기</h1>
-            <p class="carousel-description">
-              비디오 어댑터, 고속 케이블, 스토리지 솔루션을 포함한 필수 액세서리를 확인하세요. 전문가를 위해 설계된 고품질 액세서리로 Openterface 경험을 향상시키세요.
-            </p>
+            <div class="carousel-category">TxA 샵</div>
+            <h1 class="carousel-headline">프리미엄 액세서리로 설정 완성</h1>
+            <p class="carousel-description">비디오 어댑터, 고속 케이블, 스토리지 솔루션 등 필수 액세서리를 살펴보세요. 전문가를 위해 설계된 품질 좋은 액세서리로 Openterface 경험을 향상시키세요.</p>
             <div class="carousel-actions">
               <a href="https://shop.techxartisan.com/" class="md-button md-button--primary carousel-btn-xmas" target="_blank" rel="noopener noreferrer">
                 <span>🎄 크리스마스 특별</span>
@@ -172,7 +173,7 @@
             </div>
             <div class="progress-labels">
               <div class="progress-label-small" id="label-small-1">KVM-GO 시리즈</div>
-              <div class="progress-label-large" id="label-large-1">열쇠고리에 달 수 있는 초소형 KVM</div>
+              <div class="progress-label-large" id="label-large-1">열쇠고리에 걸 수 있는 초소형 KVM</div>
             </div>
           </div>
 
@@ -183,7 +184,7 @@
             </div>
             <div class="progress-labels">
               <div class="progress-label-small" id="label-small-2">Mini-KVM 시리즈</div>
-              <div class="progress-label-large" id="label-large-2">전문가를 위한 컴팩트한 KVM 솔루션</div>
+              <div class="progress-label-large" id="label-large-2">전문가를 위한 컴팩트 KVM 솔루션</div>
             </div>
           </div>
 
@@ -194,7 +195,7 @@
             </div>
             <div class="progress-labels">
               <div class="progress-label-small" id="label-small-3">uConsole 확장 시리즈</div>
-              <div class="progress-label-large" id="label-large-3">uConsole을 KVM 콘솔로 변환</div>
+              <div class="progress-label-large" id="label-large-3">uConsole을 KVM 콘솔로 변신</div>
             </div>
           </div>
 
@@ -205,8 +206,8 @@
             </div>
             <span class="progress-icon-snowflake">❄️</span>
             <div class="progress-labels">
-              <div class="progress-label-small" id="label-small-4">TxA 쇼핑몰</div>
-              <div class="progress-label-large" id="label-large-4">프리미엄 액세서리로 설정 완성하기</div>
+              <div class="progress-label-small" id="label-small-4">TxA 샵</div>
+              <div class="progress-label-large" id="label-large-4">프리미엄 액세서리로 설정 완성</div>
             </div>
           </div>
         </div>

@@ -5,5 +5,5 @@ hide:
 ---
 
 <div markdown="0">
-{% include "partials/videos.html" %}
+{% include "partials/videos.ja.html" %}
 </div>

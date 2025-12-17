@@ -82,3 +82,51 @@ The `youtube.csv` file contains the following columns:
 - All columns are preserved when updating metadata
 - Manual edits to the CSV are preserved (unless using `--force`)
 
+
+## Static i18n Generation (SEO-Optimized)
+
+The `generate_youtube_website.py` script now generates language-specific static HTML files for SEO:
+
+### Generated Files
+
+- `docs/partials/videos.html` (English)
+- `docs/partials/videos.zh.html` (Chinese)
+- `docs/partials/videos.ja.html` (Japanese)
+- `docs/partials/videos.ko.html` (Korean)
+- `docs/partials/videos.fr.html` (French)
+- `docs/partials/videos.de.html` (German)
+- `docs/partials/videos.it.html` (Italian)
+- `docs/partials/videos.es.html` (Spanish)
+- `docs/partials/videos.pt.html` (Portuguese)
+- `docs/partials/videos.ro.html` (Romanian)
+- `docs/partials/videos-grid.html` (Shared grid, included by all language files)
+
+### How It Works
+
+1. Reads video data from `youtube.csv`
+2. Loads translations from `docs/assets/i18n-sites/youtube-videos.json`
+3. Generates static HTML with translations applied at build time
+4. Each language gets its own file for perfect SEO indexing
+
+### Workflow
+
+```bash
+# 1. Update video data or translations
+vim youtube-tools/youtube.csv
+vim docs/assets/i18n-sites/youtube-videos.json
+
+# 2. Regenerate all language files
+python youtube-tools/generate_youtube_website.py
+
+# 3. Commit generated files
+git add docs/partials/videos*.html
+git commit -m "Update videos page"
+```
+
+### SEO Benefits
+
+- ✅ Search engines see fully translated static HTML
+- ✅ No JavaScript required for translation
+- ✅ Each language URL serves its own static file
+- ✅ Perfect indexing for all languages
+
