@@ -25,12 +25,12 @@ class YouTubeWebsiteGenerator:
     def load_i18n_config() -> Dict:
         """Load i18n configuration from JSON file."""
         script_dir = Path(__file__).parent
-        i18n_path = script_dir / "i18n.json"
+        i18n_path = script_dir.parent / "docs" / "assets" / "i18n-sites" / "youtube-videos.json"
         
         if not i18n_path.exists():
             raise FileNotFoundError(
                 f"i18n configuration file not found: {i18n_path}\n"
-                "Please ensure i18n.json exists in the same directory as the script."
+                "Please ensure youtube-videos.json exists in the docs/assets/i18n-sites directory."
             )
         
         try:
@@ -38,9 +38,9 @@ class YouTubeWebsiteGenerator:
                 config = json.load(f)
             return config
         except json.JSONDecodeError as e:
-            raise ValueError(f"Invalid JSON in i18n.json: {e}")
+            raise ValueError(f"Invalid JSON in youtube-videos.json: {e}")
         except Exception as e:
-            raise RuntimeError(f"Error loading i18n.json: {e}")
+            raise RuntimeError(f"Error loading youtube-videos.json: {e}")
     
     @classmethod
     def get_translations(cls) -> Dict[str, Dict[str, str]]:
@@ -337,25 +337,17 @@ class YouTubeWebsiteGenerator:
         
         sorted_rows = sorted(rows, key=sort_key)
         
-        # Get all translations for embedding as data attribute
-        all_translations = self._translations
-        
-        # Convert translations to JSON string, escaping single quotes for HTML attribute
-        translations_json = json.dumps(all_translations, ensure_ascii=False)
-        # Escape single quotes for use in HTML attribute (but keep double quotes for JSON)
-        translations_json_escaped = translations_json.replace("'", "&#39;")
-        
         # Get default English translations for fallback text content
         t = self._translations.get('en', {})
         
         # Generate HTML partial with i18n support
         # Note: CSS is now in docs/assets/stylesheets/youtube-videos.css
         # The video grid is in a separate partial: videos-grid.html
+        # Translations are loaded from /i18n-sites/youtube-videos.json by i18n-handler.js
         html_content = f"""<!-- YouTube Videos Page - Generated from youtube.csv (i18n-enabled) -->
 
     <div class="youtube-videos-page" 
-         i18n-lang="auto" 
-         data-translations='{translations_json_escaped}'>
+         data-i18n-file="youtube-videos">
     <h1 class="youtube-videos-title" data-i18n-key="title">{t.get('title', '📺 YouTube Videos')}</h1>
     <div class="youtube-stats">
         <div class="youtube-stat-card">
