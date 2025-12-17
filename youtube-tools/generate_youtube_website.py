@@ -30,12 +30,12 @@ class YouTubeWebsiteGenerator:
     def load_i18n_config() -> Dict:
         """Load i18n configuration from JSON file."""
         script_dir = Path(__file__).parent
-        i18n_path = script_dir.parent / "docs" / "assets" / "i18n-sites" / "youtube-videos.json"
+        i18n_path = script_dir.parent / "docs" / "assets" / "i18n-sites" / "videos.json"
         
         if not i18n_path.exists():
             raise FileNotFoundError(
                 f"i18n configuration file not found: {i18n_path}\n"
-                "Please ensure youtube-videos.json exists in the docs/assets/i18n-sites directory."
+                "Please ensure videos.json exists in the docs/assets/i18n-sites directory."
             )
         
         try:
@@ -43,9 +43,9 @@ class YouTubeWebsiteGenerator:
                 config = json.load(f)
             return config
         except json.JSONDecodeError as e:
-            raise ValueError(f"Invalid JSON in youtube-videos.json: {e}")
+            raise ValueError(f"Invalid JSON in videos.json: {e}")
         except Exception as e:
-            raise RuntimeError(f"Error loading youtube-videos.json: {e}")
+            raise RuntimeError(f"Error loading videos.json: {e}")
     
     @classmethod
     def get_translations(cls) -> Dict[str, Dict[str, str]]:
@@ -387,12 +387,51 @@ class YouTubeWebsiteGenerator:
         
         return html_content
     
+    def generate_base_template(self, rows: List[Dict[str, str]]) -> str:
+        """
+        Generate videos-base.html as a content fragment (not a full page template).
+        This will be included by markdown files via {% include "partials/videos.html" %}
+        """
+        # Calculate stats from CSV data
+        num_videos = len(rows)
+        num_languages = len(set(r.get('language', '').strip() for r in rows if r.get('language', '').strip()))
+        num_products = len(set(r.get('product', '').strip() for r in rows if r.get('product', '').strip()))
+        
+        # Generate content fragment with data-i18n-key attributes
+        # This will be processed by generate_static_pages.py to create language-specific versions
+        html_content = f"""<!-- YouTube Videos Page - Generated from youtube.csv -->
+<!-- This is a content fragment to be included by markdown files -->
+
+<div class="youtube-videos-page">
+    <h1 class="youtube-videos-title" data-i18n-key="title">📺 YouTube Videos</h1>
+    
+    <div class="youtube-stats">
+        <div class="youtube-stat-card">
+            <div class="number">{num_videos}</div>
+            <div class="label" data-i18n-key="total_videos">Total Videos</div>
+        </div>
+        <div class="youtube-stat-card">
+            <div class="number">{num_languages}</div>
+            <div class="label" data-i18n-key="languages">Languages</div>
+        </div>
+        <div class="youtube-stat-card">
+            <div class="number">{num_products}</div>
+            <div class="label" data-i18n-key="products">Products</div>
+        </div>
+    </div>
+    
+    {{% include "partials/videos-grid.html" %}}
+</div>
+"""
+        
+        return html_content
+    
     def validate_and_get_languages(self) -> List[str]:
         """Validate JSON languages and return available languages."""
         json_languages = self._supported_languages
         
         # Validate against YAML config
-        self.i18n_config.validate_json_languages(json_languages, "youtube-videos.json")
+        self.i18n_config.validate_json_languages(json_languages, "videos.json")
         
         # Use intersection of YAML and JSON languages
         yaml_languages = set(self.i18n_config.languages)
@@ -464,38 +503,102 @@ class YouTubeWebsiteGenerator:
         print(f"\n✅ Generation complete!")
         print(f"📄 Output directory: {partials_dir}")
         print(f"\n💡 Each language now has its own static HTML file for perfect SEO.")
+    
+    def generate_for_i18n_pipeline(self):
+        """
+        New workflow: Generate base template for i18n pipeline.
+        This is the unified architecture approach.
+        """
+        print("=" * 60)
+        print("YouTube Content Generator (for i18n pipeline)")
+        print("=" * 60)
+        
+        rows = self.read_csv()
+        
+        if not rows:
+            print("❌ No rows found in CSV file.")
+            return
+        
+        print(f"\n📊 Found {len(rows)} videos in CSV file.")
+        
+        script_dir = Path(__file__).parent
+        
+        # Step 1: Generate videos-grid.html (pure data, no i18n needed)
+        print(f"\n📝 Step 1: Generating videos-grid.html (video data)...")
+        grid_html = self.generate_videos_grid(rows)
+        
+        docs_dir = script_dir.parent / "docs"
+        # Output to docs/partials for MkDocs-Macros compatibility
+        # (videos.*.html templates include this via {% include "videos-grid.html" %})
+        partials_dir = docs_dir / "partials"
+        partials_dir.mkdir(parents=True, exist_ok=True)
+        
+        grid_path = partials_dir / "videos-grid.html"
+        
+        try:
+            with open(grid_path, 'w', encoding='utf-8') as f:
+                f.write(grid_html)
+            print(f"  ✅ Generated: {grid_path.name}")
+        except Exception as e:
+            print(f"  ❌ Error writing {grid_path.name}: {e}")
+            return
+        
+        # Step 2: Generate videos-base.html (template with data-i18n-key)
+        print(f"\n📝 Step 2: Generating videos-base.html (i18n template)...")
+        base_html = self.generate_base_template(rows)
+        
+        templates_dir = script_dir.parent / "i18n-site-tools" / "templates"
+        templates_dir.mkdir(parents=True, exist_ok=True)
+        
+        base_path = templates_dir / "videos-base.html"
+        
+        try:
+            with open(base_path, 'w', encoding='utf-8') as f:
+                f.write(base_html)
+            print(f"  ✅ Generated: {base_path.name}")
+            print(f"  📂 Location: {base_path}")
+        except Exception as e:
+            print(f"  ❌ Error writing {base_path.name}: {e}")
+            return
+        
+        print(f"\n✅ Content generation complete!")
+        print(f"\n💡 Next step:")
+        print(f"   Run: python i18n-site-tools/generate_static_pages.py --template videos")
+        print(f"   Or: python i18n-site-tools/generate_all_i18n.py")
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Generate HTML website from YouTube CSV data',
+        description='Generate YouTube videos content',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Generate website for English (default: docs/partials/videos.html)
-  python generate_youtube_website.py
+  # New unified workflow (recommended):
+  python generate_youtube_website.py --base-template
+  # Then run: python ../i18n-site-tools/generate_static_pages.py --template videos
   
-  # Generate for all languages
+  # Or use the all-in-one script:
+  python ../i18n-site-tools/generate_all_i18n.py
+  
+  # Legacy workflow (direct generation):
   python generate_youtube_website.py --all-languages
-  
-  # Generate for specific language
-  python generate_youtube_website.py --language zh
-  
-  # Specify custom output file
-  python generate_youtube_website.py --output custom.html
         """
     )
     parser.add_argument('--csv-path',
                        help='Path to CSV file (default: youtube.csv in script directory)',
                        type=Path)
+    parser.add_argument('--base-template', '-b',
+                       action='store_true',
+                       help='Generate videos-base.html for i18n pipeline (recommended)')
+    parser.add_argument('--all-languages', '-a',
+                       action='store_true',
+                       help='Legacy: Generate HTML files for all languages directly')
     parser.add_argument('--output', '-o',
-                       help='Output HTML file (default: docs/partials/videos.html)',
+                       help='Legacy: Output HTML file path',
                        type=Path)
     parser.add_argument('--language', '-l',
-                       help='Language code (en, zh, ja, ko, fr, de, it, es, pt, ro). Default: en',
+                       help='Legacy: Language code (en, zh, ja, etc)',
                        default='en')
-    parser.add_argument('--all-languages', '-a', action='store_true',
-                       help='Generate HTML files for all supported languages')
     
     args = parser.parse_args()
     
@@ -503,7 +606,6 @@ Examples:
     if args.csv_path:
         csv_path = Path(args.csv_path)
     else:
-        # Default to youtube.csv in script directory
         script_dir = Path(__file__).parent
         csv_path = script_dir / "youtube.csv"
     
@@ -512,7 +614,13 @@ Examples:
         output_path=args.output,
         language=args.language
     )
-    generator.generate(generate_all_languages=args.all_languages)
+    
+    # New unified workflow (default)
+    if args.base_template or (not args.all_languages and not args.output):
+        generator.generate_for_i18n_pipeline()
+    else:
+        # Legacy direct generation
+        generator.generate(generate_all_languages=args.all_languages)
 
 
 if __name__ == "__main__":

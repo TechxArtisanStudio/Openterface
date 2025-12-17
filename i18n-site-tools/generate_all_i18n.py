@@ -22,29 +22,39 @@ def main():
     print("="*60)
     
     try:
+        script_dir = Path(__file__).parent
+        
         # 1. Generate hreflang partial (used by all pages)
         print("\n1️⃣  Generating hreflang partial...")
         generator = StaticPageGenerator()
         generator.generate_hreflang_partial()
         
-        # 2. Generate home pages
-        print("\n2️⃣  Generating home pages...")
-        generator.generate_all()
-        
-        # 3. Generate videos pages
-        print("\n3️⃣  Generating videos pages...")
+        # 2. Generate videos content (creates videos-base.html)
+        print("\n2️⃣  Generating videos content from CSV...")
         csv_path = script_dir.parent / "youtube-tools" / "youtube.csv"
-        video_gen = YouTubeWebsiteGenerator(csv_path)  # Pass Path object, not string
-        video_gen.generate()
+        video_gen = YouTubeWebsiteGenerator(csv_path)
+        video_gen.generate_for_i18n_pipeline()  # NEW: Use unified workflow
+        
+        # 3. Generate ALL static pages (home + videos)
+        print("\n3️⃣  Generating all static pages with translations...")
+        generator.generate_all()
         
         print("\n" + "="*60)
         print("✅ All i18n content generated successfully!")
         print("="*60)
+        print("\n📊 Summary:")
+        print("   • hreflang.html - Generated")
+        print("   • videos-base.html - Generated from CSV")
+        print("   • videos-grid.html - Generated from CSV")
+        print("   • home.*.html - Generated (10 languages)")
+        print("   • videos.*.html - Generated (10 languages)")
         
         return 0
         
     except Exception as e:
         print(f"\n❌ Error: {e}")
+        import traceback
+        traceback.print_exc()
         return 1
 
 

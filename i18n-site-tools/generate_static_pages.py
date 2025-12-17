@@ -31,11 +31,20 @@ class StaticPageGenerator:
         
         # Load centralized i18n config
         self.i18n_config = I18nConfig()
+        
+        # Define which templates go where
+        # home: page override (extends main.html) -> docs/overrides/
+        # videos: template (extends main.html) -> docs/partials/
+        self.template_output_dirs = {
+            'home': self.output_dir,      # Override: replaces index page
+            'videos': self.partials_dir,  # Template: used by videos.md via template: front matter
+        }
     
     def generate_hreflang_partial(self) -> None:
-        """Generate docs/partials/hreflang.html from i18n.yml."""
+        """Generate docs/overrides/partials/hreflang.html from i18n.yml."""
         print("\n📝 Generating hreflang partial...")
-        self.i18n_config.generate_hreflang_file(self.partials_dir)
+        # Generate to docs/overrides/partials/ (MkDocs template search path)
+        self.i18n_config.generate_hreflang_file(self.output_dir)
     
     def load_i18n_config(self, template_name: str) -> Dict:
         """Load i18n configuration for a template."""
@@ -181,17 +190,22 @@ class StaticPageGenerator:
             # Generate the page
             html_content = self.generate_page(template_name, lang, translations)
             
+            # Determine output directory based on template type
+            output_dir = self.template_output_dirs.get(template_name, self.output_dir)
+            
             # Determine output filename
             suffix = '' if lang == 'en' else f'.{lang}'
             output_filename = f"{template_name}{suffix}.html"
-            output_path = self.output_dir / output_filename
+            output_path = output_dir / output_filename
             
             # Write output
             output_path.write_text(html_content, encoding='utf-8')
-            print(f"  ✅ Generated: {output_filename} ({lang})")
+            print(f"  ✅ Generated: {output_filename} ({lang}) → {output_dir.name}/")
         
         print(f"\n✅ Generation complete!")
-        print(f"📄 Output directory: {self.output_dir}\n")
+        # Show output location
+        output_dir = self.template_output_dirs.get(template_name, self.output_dir)
+        print(f"📄 Output directory: {output_dir}\n")
     
     def generate_all(self):
         """Generate all available templates."""

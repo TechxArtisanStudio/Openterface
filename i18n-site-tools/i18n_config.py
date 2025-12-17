@@ -87,13 +87,15 @@ class I18nConfig:
     
     def generate_hreflang_file(self, output_dir: Path) -> None:
         """
-        Generate docs/partials/hreflang.html file.
+        Generate hreflang.html file in docs/overrides/partials/.
         
         Args:
-            output_dir: Directory where partials are stored (docs/partials)
+            output_dir: Base output directory (e.g., docs/overrides)
         """
-        output_dir.mkdir(parents=True, exist_ok=True)
-        output_path = output_dir / "hreflang.html"
+        # Create partials subdirectory in overrides (MkDocs template search path)
+        partials_dir = output_dir / "partials"
+        partials_dir.mkdir(parents=True, exist_ok=True)
+        output_path = partials_dir / "hreflang.html"
         
         html_content = self.generate_hreflang_html()
         output_path.write_text(html_content, encoding='utf-8')
