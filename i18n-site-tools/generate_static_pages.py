@@ -60,7 +60,39 @@ class StaticPageGenerator:
         with open(template_path, 'r', encoding='utf-8') as f:
             html_content = f.read()
         
-        # Step 1: Replace text content for elements with data-i18n-key
+        # Step 1: Replace content attribute in meta tags with data-i18n-key
+        # Pattern: <meta ...content="VALUE"...data-i18n-key="KEY"...>
+        def replace_meta_content(match):
+            """Replace content attribute value in meta tags."""
+            full_tag = match.group(0)
+            key = match.group(1)
+            
+            # Find the content attribute value
+            content_match = re.search(r'content=["\']([^"\']*)["\']', full_tag)
+            if not content_match:
+                return full_tag
+            
+            original_content = content_match.group(1)
+            
+            # Get translation for this key (use original content if not found)
+            translated_text = translations.get(key, original_content)
+            
+            # Replace the content attribute value
+            result = re.sub(
+                r'content=["\'][^"\']*["\']',
+                f'content="{translated_text}"',
+                full_tag,
+                count=1
+            )
+            
+            return result
+        
+        # Find all meta tags with data-i18n-key and replace their content attribute
+        # Pattern: <meta ...data-i18n-key="KEY"...>
+        meta_pattern = r'<meta[^>]*data-i18n-key=["\']([^"\']+)["\'][^>]*>'
+        html_content = re.sub(meta_pattern, replace_meta_content, html_content, flags=re.IGNORECASE)
+        
+        # Step 2: Replace text content for regular elements with data-i18n-key
         # Pattern matches: <tag ...data-i18n-key="key"...>TEXT</tag>
         def replace_i18n_text(match):
             """Replace text content with translation."""
@@ -75,15 +107,15 @@ class StaticPageGenerator:
             # Return the tag with translated text (attributes unchanged for now)
             return f'<{tag_name}{attributes_and_key}>{translated_text}</{tag_name}>'
         
-        # Find all elements with data-i18n-key and replace their text
+        # Find all non-meta elements with data-i18n-key and replace their text
         # Pattern: <tag (attributes including data-i18n-key="KEY")>CONTENT</tag>
         pattern = r'<(\w+)([^>]*data-i18n-key=["\']([^"\']+)["\'][^>]*)>(.*?)</\1>'
         html_content = re.sub(pattern, replace_i18n_text, html_content, flags=re.DOTALL)
         
-        # Step 2: Remove ALL data-i18n-key attributes from the HTML
+        # Step 3: Remove ALL data-i18n-key attributes from the HTML
         html_content = re.sub(r'\s*data-i18n-key=["\'][^"\']*["\']', '', html_content)
         
-        # Step 3: Remove ALL data-i18n-file attributes
+        # Step 4: Remove ALL data-i18n-file attributes
         html_content = re.sub(r'\s*data-i18n-file=["\'][^"\']*["\']', '', html_content)
         
         return html_content

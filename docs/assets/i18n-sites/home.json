@@ -2,6 +2,14 @@
   "supported_languages": ["en", "zh", "ja", "ko", "fr", "de", "it", "es", "pt", "ro"],
   "translations": {
     "en": {
+      "seo_description": "Discover Openterface - Ultra-compact KVM-over-USB solutions including KVM-GO Series (keychain-sized), Mini-KVM Series, and uConsole KVM Extension. Open-source, feature-rich tools for IT professionals, developers, and server management.",
+      "seo_keywords": "KVM-over-USB, KVM switch, portable KVM, USB KVM, headless server management, IT tools, server console, remote server access, KVM-GO, Mini-KVM, uConsole KVM, open source KVM, ultra-compact KVM, keychain KVM, 4K KVM, DisplayPort KVM, HDMI KVM, VGA KVM",
+      "og_title": "Openterface | Ultra-Compact KVM Solutions for IT Professionals",
+      "og_description": "Discover Openterface - Ultra-compact KVM-over-USB solutions including KVM-GO Series (keychain-sized), Mini-KVM Series, and uConsole KVM Extension. Open-source, feature-rich tools for IT professionals, developers, and server management.",
+      "og_locale": "en_US",
+      "twitter_title": "Openterface | Ultra-Compact KVM Solutions for IT Professionals",
+      "twitter_description": "Discover Openterface - Ultra-compact KVM-over-USB solutions including KVM-GO Series (keychain-sized), Mini-KVM Series, and uConsole KVM Extension.",
+      
       "slide1_category": "KVM-GO Series",
       "slide1_headline": "The Ultra-Compact KVM That Fits on Keychain",
       "slide1_description": "Designed to fit on your keychain and save your day in a snap, this next-generation KVM-over-USB gadget is built for rapid IT operations in the field.",
@@ -34,6 +42,14 @@
       "slide4_progress_large": "Complete Your Setup with Premium Accessories"
     },
     "zh": {
+      "seo_description": "探索 Openterface - 超紧凑型 USB-KVM 解决方案，包括 KVM-GO 系列（钥匙扣尺寸）、Mini-KVM 系列和 uConsole KVM 扩展板。为 IT 专业人士、开发者和服务器管理打造的开源、功能丰富的工具。",
+      "seo_keywords": "USB-KVM, KVM 切换器, 便携式 KVM, USB KVM, 无头服务器管理, IT 工具, 服务器控制台, 远程服务器访问, KVM-GO, Mini-KVM, uConsole KVM, 开源 KVM, 超紧凑 KVM, 钥匙扣 KVM, 4K KVM, DisplayPort KVM, HDMI KVM, VGA KVM",
+      "og_title": "Openterface | 为 IT 专业人士打造的超紧凑型 KVM 解决方案",
+      "og_description": "探索 Openterface - 超紧凑型 USB-KVM 解决方案，包括 KVM-GO 系列（钥匙扣尺寸）、Mini-KVM 系列和 uConsole KVM 扩展板。为 IT 专业人士、开发者和服务器管理打造的开源、功能丰富的工具。",
+      "og_locale": "zh_CN",
+      "twitter_title": "Openterface | 为 IT 专业人士打造的超紧凑型 KVM 解决方案",
+      "twitter_description": "探索 Openterface - 超紧凑型 USB-KVM 解决方案，包括 KVM-GO 系列（钥匙扣尺寸）、Mini-KVM 系列和 uConsole KVM 扩展板。",
+      
       "slide1_category": "KVM-GO 系列",
       "slide1_headline": "超迷你便携式 KVM，可随身挂在钥匙扣上",
       "slide1_description": "专为随身携带而设计，让你在关键时刻迅速完成 IT 操作。这是一款面向现场运维的下一代 USB-KVM 小工具。",
@@ -66,6 +82,14 @@
       "slide4_progress_large": "用高品质配件完善你的整套方案"
     },
     "ja": {
+      "seo_description": "Openterface を発見 - KVM-GO シリーズ（キーホルダーサイズ）、Mini-KVM シリーズ、uConsole KVM 拡張を含む超コンパクトな USB-KVM ソリューション。IT プロフェッショナル、開発者、サーバー管理のためのオープンソースで機能豊富なツール。",
+      "seo_keywords": "USB-KVM, KVM スイッチ, ポータブル KVM, USB KVM, ヘッドレスサーバー管理, IT ツール, サーバーコンソール, リモートサーバーアクセス, KVM-GO, Mini-KVM, uConsole KVM, オープンソース KVM, 超コンパクト KVM, キーホルダー KVM, 4K KVM, DisplayPort KVM, HDMI KVM, VGA KVM",
+      "og_title": "Openterface | IT プロフェッショナル向け超コンパクト KVM ソリューション",
+      "og_description": "Openterface を発見 - KVM-GO シリーズ（キーホルダーサイズ）、Mini-KVM シリーズ、uConsole KVM 拡張を含む超コンパクトな USB-KVM ソリューション。IT プロフェッショナル、開発者、サーバー管理のためのオープンソースで機能豊富なツール。",
+      "og_locale": "ja_JP",
+      "twitter_title": "Openterface | IT プロフェッショナル向け超コンパクト KVM ソリューション",
+      "twitter_description": "Openterface を発見 - KVM-GO シリーズ（キーホルダーサイズ）、Mini-KVM シリーズ、uConsole KVM 拡張を含む超コンパクトな USB-KVM ソリューション。",
+      
       "slide1_category": "KVM-GO シリーズ",
       "slide1_headline": "キーホルダーに収まる超コンパクト KVM",
       "slide1_description": "キーホルダーに収まり、いつでも対応できるよう設計された次世代の USB-KVM ガジェットです。フィールドでの迅速な IT オペレーションのために作られています。",
@@ -98,6 +122,14 @@
       "slide4_progress_large": "高品質アクセサリーでセットアップを完成させよう"
     },
     "ko": {
+      "seo_description": "Openterface 발견 - KVM-GO 시리즈(열쇠고리 크기), Mini-KVM 시리즈, uConsole KVM 확장을 포함한 초소형 USB-KVM 솔루션. IT 전문가, 개발자, 서버 관리를 위한 오픈소스 다기능 도구.",
+      "seo_keywords": "USB-KVM, KVM 스위치, 휴대용 KVM, USB KVM, 헤드리스 서버 관리, IT 도구, 서버 콘솔, 원격 서버 액세스, KVM-GO, Mini-KVM, uConsole KVM, 오픈소스 KVM, 초소형 KVM, 열쇠고리 KVM, 4K KVM, DisplayPort KVM, HDMI KVM, VGA KVM",
+      "og_title": "Openterface | IT 전문가를 위한 초소형 KVM 솔루션",
+      "og_description": "Openterface 발견 - KVM-GO 시리즈(열쇠고리 크기), Mini-KVM 시리즈, uConsole KVM 확장을 포함한 초소형 USB-KVM 솔루션. IT 전문가, 개발자, 서버 관리를 위한 오픈소스 다기능 도구.",
+      "og_locale": "ko_KR",
+      "twitter_title": "Openterface | IT 전문가를 위한 초소형 KVM 솔루션",
+      "twitter_description": "Openterface 발견 - KVM-GO 시리즈(열쇠고리 크기), Mini-KVM 시리즈, uConsole KVM 확장을 포함한 초소형 USB-KVM 솔루션.",
+      
       "slide1_category": "KVM-GO 시리즈",
       "slide1_headline": "열쇠고리에 걸 수 있는 초소형 KVM",
       "slide1_description": "열쇠고리에 걸어 언제든 사용할 수 있도록 설계된 차세대 USB-KVM 가젯입니다. 현장에서의 신속한 IT 작업을 위해 제작되었습니다.",
@@ -130,6 +162,14 @@
       "slide4_progress_large": "프리미엄 액세서리로 설정 완성"
     },
     "fr": {
+      "seo_description": "Découvrez Openterface - Solutions KVM-over-USB ultra-compactes incluant la série KVM-GO (taille porte-clés), la série Mini-KVM et l'extension uConsole KVM. Outils open-source riches en fonctionnalités pour les professionnels IT, développeurs et gestion de serveurs.",
+      "seo_keywords": "KVM-over-USB, commutateur KVM, KVM portable, USB KVM, gestion de serveur headless, outils IT, console serveur, accès serveur distant, KVM-GO, Mini-KVM, uConsole KVM, KVM open source, KVM ultra-compact, KVM porte-clés, KVM 4K, DisplayPort KVM, HDMI KVM, VGA KVM",
+      "og_title": "Openterface | Solutions KVM Ultra-Compactes pour Professionnels IT",
+      "og_description": "Découvrez Openterface - Solutions KVM-over-USB ultra-compactes incluant la série KVM-GO (taille porte-clés), la série Mini-KVM et l'extension uConsole KVM. Outils open-source riches en fonctionnalités pour les professionnels IT, développeurs et gestion de serveurs.",
+      "og_locale": "fr_FR",
+      "twitter_title": "Openterface | Solutions KVM Ultra-Compactes pour Professionnels IT",
+      "twitter_description": "Découvrez Openterface - Solutions KVM-over-USB ultra-compactes incluant la série KVM-GO (taille porte-clés), la série Mini-KVM et l'extension uConsole KVM.",
+      
       "slide1_category": "Série KVM-GO",
       "slide1_headline": "Le KVM Ultra-Compact pour Porte-Clés",
       "slide1_description": "Conçu pour tenir sur votre porte-clés et vous sauver la mise en un instant, ce gadget KVM-over-USB de nouvelle génération est conçu pour des opérations IT rapides sur le terrain.",
@@ -162,6 +202,14 @@
       "slide4_progress_large": "Complétez votre Configuration avec des Accessoires Premium"
     },
     "de": {
+      "seo_description": "Entdecken Sie Openterface - Ultra-kompakte KVM-over-USB-Lösungen einschließlich KVM-GO-Serie (Schlüsselbundgröße), Mini-KVM-Serie und uConsole-KVM-Erweiterung. Open-Source, funktionsreiche Tools für IT-Profis, Entwickler und Serververwaltung.",
+      "seo_keywords": "KVM-over-USB, KVM-Switch, tragbares KVM, USB-KVM, Headless-Serververwaltung, IT-Tools, Server-Konsole, Remote-Server-Zugriff, KVM-GO, Mini-KVM, uConsole-KVM, Open-Source-KVM, ultra-kompaktes KVM, Schlüsselbund-KVM, 4K-KVM, DisplayPort-KVM, HDMI-KVM, VGA-KVM",
+      "og_title": "Openterface | Ultra-Kompakte KVM-Lösungen für IT-Profis",
+      "og_description": "Entdecken Sie Openterface - Ultra-kompakte KVM-over-USB-Lösungen einschließlich KVM-GO-Serie (Schlüsselbundgröße), Mini-KVM-Serie und uConsole-KVM-Erweiterung. Open-Source, funktionsreiche Tools für IT-Profis, Entwickler und Serververwaltung.",
+      "og_locale": "de_DE",
+      "twitter_title": "Openterface | Ultra-Kompakte KVM-Lösungen für IT-Profis",
+      "twitter_description": "Entdecken Sie Openterface - Ultra-kompakte KVM-over-USB-Lösungen einschließlich KVM-GO-Serie (Schlüsselbundgröße), Mini-KVM-Serie und uConsole-KVM-Erweiterung.",
+      
       "slide1_category": "KVM-GO Serie",
       "slide1_headline": "Das Ultra-Kompakte KVM für den Schlüsselbund",
       "slide1_description": "Entwickelt, um an Ihrem Schlüsselbund zu passen und Ihnen im Handumdrehen zu helfen, ist dieses KVM-over-USB-Gadget der nächsten Generation für schnelle IT-Operationen im Feld konzipiert.",
@@ -194,6 +242,14 @@
       "slide4_progress_large": "Vervollständigen Sie Ihr Setup mit Premium-Zubehör"
     },
     "it": {
+      "seo_description": "Scopri Openterface - Soluzioni KVM-over-USB ultra-compatte tra cui la serie KVM-GO (dimensioni portachiavi), la serie Mini-KVM e l'estensione uConsole KVM. Strumenti open-source ricchi di funzionalità per professionisti IT, sviluppatori e gestione server.",
+      "seo_keywords": "KVM-over-USB, switch KVM, KVM portatile, USB KVM, gestione server headless, strumenti IT, console server, accesso server remoto, KVM-GO, Mini-KVM, uConsole KVM, KVM open source, KVM ultra-compatto, KVM portachiavi, KVM 4K, DisplayPort KVM, HDMI KVM, VGA KVM",
+      "og_title": "Openterface | Soluzioni KVM Ultra-Compatte per Professionisti IT",
+      "og_description": "Scopri Openterface - Soluzioni KVM-over-USB ultra-compatte tra cui la serie KVM-GO (dimensioni portachiavi), la serie Mini-KVM e l'estensione uConsole KVM. Strumenti open-source ricchi di funzionalità per professionisti IT, sviluppatori e gestione server.",
+      "og_locale": "it_IT",
+      "twitter_title": "Openterface | Soluzioni KVM Ultra-Compatte per Professionisti IT",
+      "twitter_description": "Scopri Openterface - Soluzioni KVM-over-USB ultra-compatte tra cui la serie KVM-GO (dimensioni portachiavi), la serie Mini-KVM e l'estensione uConsole KVM.",
+      
       "slide1_category": "Serie KVM-GO",
       "slide1_headline": "Il KVM Ultra-Compatto che Sta sul Portachiavi",
       "slide1_description": "Progettato per stare sul tuo portachiavi e salvarti la giornata in un attimo, questo gadget KVM-over-USB di nuova generazione è costruito per operazioni IT rapide sul campo.",
@@ -226,6 +282,14 @@
       "slide4_progress_large": "Completa la tua Configurazione con Accessori Premium"
     },
     "es": {
+      "seo_description": "Descubre Openterface - Soluciones KVM-over-USB ultracompactas que incluyen la serie KVM-GO (tamaño llavero), la serie Mini-KVM y la extensión uConsole KVM. Herramientas de código abierto con muchas funciones para profesionales de IT, desarrolladores y gestión de servidores.",
+      "seo_keywords": "KVM-over-USB, conmutador KVM, KVM portátil, USB KVM, gestión de servidores sin cabeza, herramientas IT, consola de servidor, acceso remoto a servidor, KVM-GO, Mini-KVM, uConsole KVM, KVM de código abierto, KVM ultracompacto, KVM llavero, KVM 4K, DisplayPort KVM, HDMI KVM, VGA KVM",
+      "og_title": "Openterface | Soluciones KVM Ultracompactas para Profesionales IT",
+      "og_description": "Descubre Openterface - Soluciones KVM-over-USB ultracompactas que incluyen la serie KVM-GO (tamaño llavero), la serie Mini-KVM y la extensión uConsole KVM. Herramientas de código abierto con muchas funciones para profesionales de IT, desarrolladores y gestión de servidores.",
+      "og_locale": "es_ES",
+      "twitter_title": "Openterface | Soluciones KVM Ultracompactas para Profesionales IT",
+      "twitter_description": "Descubre Openterface - Soluciones KVM-over-USB ultracompactas que incluyen la serie KVM-GO (tamaño llavero), la serie Mini-KVM y la extensión uConsole KVM.",
+      
       "slide1_category": "Serie KVM-GO",
       "slide1_headline": "El KVM Ultracompacto que Cabe en tu Llavero",
       "slide1_description": "Diseñado para caber en tu llavero y salvarte el día en un instante, este gadget KVM-over-USB de próxima generación está construido para operaciones IT rápidas en campo.",
@@ -258,6 +322,14 @@
       "slide4_progress_large": "Completa tu Configuración con Accesorios Premium"
     },
     "pt": {
+      "seo_description": "Descubra o Openterface - Soluções KVM-over-USB ultra-compactas incluindo a série KVM-GO (tamanho chaveiro), a série Mini-KVM e a extensão uConsole KVM. Ferramentas de código aberto ricas em recursos para profissionais de TI, desenvolvedores e gerenciamento de servidores.",
+      "seo_keywords": "KVM-over-USB, comutador KVM, KVM portátil, USB KVM, gerenciamento de servidor headless, ferramentas de TI, console de servidor, acesso remoto ao servidor, KVM-GO, Mini-KVM, uConsole KVM, KVM de código aberto, KVM ultra-compacto, KVM chaveiro, KVM 4K, DisplayPort KVM, HDMI KVM, VGA KVM",
+      "og_title": "Openterface | Soluções KVM Ultra-Compactas para Profissionais de TI",
+      "og_description": "Descubra o Openterface - Soluções KVM-over-USB ultra-compactas incluindo a série KVM-GO (tamanho chaveiro), a série Mini-KVM e a extensão uConsole KVM. Ferramentas de código aberto ricas em recursos para profissionais de TI, desenvolvedores e gerenciamento de servidores.",
+      "og_locale": "pt_BR",
+      "twitter_title": "Openterface | Soluções KVM Ultra-Compactas para Profissionais de TI",
+      "twitter_description": "Descubra o Openterface - Soluções KVM-over-USB ultra-compactas incluindo a série KVM-GO (tamanho chaveiro), a série Mini-KVM e a extensão uConsole KVM.",
+      
       "slide1_category": "Série KVM-GO",
       "slide1_headline": "O KVM Ultra-Compacto que Cabe no Chaveiro",
       "slide1_description": "Projetado para caber no seu chaveiro e salvá-lo em um instante, este gadget KVM-over-USB de próxima geração foi construído para operações de TI rápidas em campo.",
@@ -290,6 +362,14 @@
       "slide4_progress_large": "Complete sua Configuração com Acessórios Premium"
     },
     "ro": {
+      "seo_description": "Descoperă Openterface - Soluții KVM-over-USB ultra-compacte incluzând seria KVM-GO (dimensiune breloc), seria Mini-KVM și extensia uConsole KVM. Instrumente open-source bogate în funcții pentru profesioniști IT, dezvoltatori și gestionare servere.",
+      "seo_keywords": "KVM-over-USB, comutator KVM, KVM portabil, USB KVM, gestionare server fără cap, instrumente IT, consolă server, acces server la distanță, KVM-GO, Mini-KVM, uConsole KVM, KVM open source, KVM ultra-compact, KVM breloc, KVM 4K, DisplayPort KVM, HDMI KVM, VGA KVM",
+      "og_title": "Openterface | Soluții KVM Ultra-Compacte pentru Profesioniști IT",
+      "og_description": "Descoperă Openterface - Soluții KVM-over-USB ultra-compacte incluzând seria KVM-GO (dimensiune breloc), seria Mini-KVM și extensia uConsole KVM. Instrumente open-source bogate în funcții pentru profesioniști IT, dezvoltatori și gestionare servere.",
+      "og_locale": "ro_RO",
+      "twitter_title": "Openterface | Soluții KVM Ultra-Compacte pentru Profesioniști IT",
+      "twitter_description": "Descoperă Openterface - Soluții KVM-over-USB ultra-compacte incluzând seria KVM-GO (dimensiune breloc), seria Mini-KVM și extensia uConsole KVM.",
+      
       "slide1_category": "Seria KVM-GO",
       "slide1_headline": "KVM-ul Ultra-Compact care Încape pe Breloc",
       "slide1_description": "Proiectat să încapă pe breloc și să te salveze într-o clipă, acest gadget KVM-over-USB de ultimă generație este construit pentru operațiuni IT rapide în teren.",
