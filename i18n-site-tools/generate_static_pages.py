@@ -13,8 +13,10 @@ Usage:
 import argparse
 import json
 import re
+import yaml
 from pathlib import Path
 from typing import Dict
+from i18n_config import I18nConfig
 
 
 class StaticPageGenerator:
@@ -25,6 +27,15 @@ class StaticPageGenerator:
         self.templates_dir = self.script_dir / "templates"
         self.i18n_dir = self.script_dir.parent / "docs" / "assets" / "i18n-sites"
         self.output_dir = self.script_dir.parent / "docs" / "overrides"
+        self.partials_dir = self.script_dir.parent / "docs" / "partials"
+        
+        # Load centralized i18n config
+        self.i18n_config = I18nConfig()
+    
+    def generate_hreflang_partial(self) -> None:
+        """Generate docs/partials/hreflang.html from i18n.yml."""
+        print("\n📝 Generating hreflang partial...")
+        self.i18n_config.generate_hreflang_file(self.partials_dir)
     
     def load_i18n_config(self, template_name: str) -> Dict:
         """Load i18n configuration for a template."""
@@ -128,8 +139,23 @@ class StaticPageGenerator:
         
         # Load i18n configuration
         i18n_config = self.load_i18n_config(template_name)
-        supported_languages = i18n_config.get('supported_languages', [])
+        json_languages = i18n_config.get('supported_languages', [])
         all_translations = i18n_config.get('translations', {})
+        
+        # Validate JSON languages against YAML config
+        self.i18n_config.validate_json_languages(json_languages, f"{template_name}.json")
+        
+        # Use intersection of YAML and JSON languages
+        yaml_languages = set(self.i18n_config.languages)
+        supported_languages = list(set(json_languages) & yaml_languages)
+        
+        if not supported_languages:
+            raise ValueError(
+                f"No common languages between i18n.yml and {template_name}.json"
+            )
+        
+        # Sort to ensure consistent order
+        supported_languages.sort()
         
         # Determine which languages to generate
         if language:
@@ -172,6 +198,9 @@ class StaticPageGenerator:
         print("\n" + "="*60)
         print("Generating ALL static pages")
         print("="*60)
+        
+        # Generate hreflang partial first (used by all templates)
+        self.generate_hreflang_partial()
         
         # Find all template files
         template_files = list(self.templates_dir.glob("*-base.html"))

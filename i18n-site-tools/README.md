@@ -227,11 +227,68 @@ Add to your build pipeline:
 4. **Keep translations complete**: Ensure all keys exist in all languages (fallback to English if missing)
 5. **Use semantic keys**: Name keys descriptively (e.g., `slide1_headline` not `text1`)
 
+## Language Configuration
+
+All supported languages are configured in a single source of truth:
+
+**File**: `docs/assets/i18n-sites/i18n.yml`
+
+```yaml
+default_language: en
+languages:
+- en
+- zh
+- ja
+- ko
+- fr
+- de
+- it
+- es
+- pt
+- ro
+```
+
+### Adding a New Language
+
+1. Add language code to `i18n.yml`
+2. Add translations to relevant JSON files (`home.json`, `youtube-videos.json`)
+3. Regenerate all pages: `python i18n-site-tools/generate_static_pages.py --all`
+
+### Validation
+
+The generator automatically validates that JSON translation files include all languages from `i18n.yml`:
+- **Missing languages**: Shows warning, generates only available languages
+- **Extra languages**: Shows info message, includes them in generation
+
+This ensures consistency across the site while allowing flexibility during translation work.
+
+### Automatic hreflang Generation
+
+The system automatically generates `docs/partials/hreflang.html` from `i18n.yml`. This file is included in `docs/overrides/main.html` in the `extrahead` block:
+
+```html
+<!-- Language Alternates (hreflang for SEO) -->
+{% include "partials/hreflang.html" %}
+```
+
+**All pages automatically inherit hreflang** through the template chain:
+- Regular markdown pages → main.html → base.html
+- Custom override pages → main.html → base.html (via `{{ super() }}`)
+
+No need to add hreflang to individual page templates - it's automatic!
+
 ## Dependencies
 
 - **Python 3.8+**
+- **PyYAML**: For reading i18n.yml configuration
 
-No external dependencies required! The generator uses Python's built-in `re` module for regex-based text replacement, which preserves Jinja2 template syntax perfectly.
+Install dependencies:
+
+```bash
+pip install pyyaml
+```
+
+No external dependencies required for HTML generation! The generator uses Python's built-in `re` module for regex-based text replacement, which preserves Jinja2 template syntax perfectly.
 
 ## Troubleshooting
 

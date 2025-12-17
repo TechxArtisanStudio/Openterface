@@ -12,10 +12,15 @@ Usage:
 import csv
 import argparse
 import json
+import sys
 from pathlib import Path
 from typing import List, Dict
 from datetime import datetime
 import html
+
+# Add i18n-site-tools to path for importing I18nConfig
+sys.path.insert(0, str(Path(__file__).parent.parent / "i18n-site-tools"))
+from i18n_config import I18nConfig
 
 
 class YouTubeWebsiteGenerator:
@@ -56,6 +61,9 @@ class YouTubeWebsiteGenerator:
     
     def __init__(self, csv_path: Path, output_path: Path = None, language: str = 'en'):
         self.csv_path = csv_path
+        
+        # Load centralized i18n config first
+        self.i18n_config = I18nConfig()
         
         # Load i18n configuration
         self._i18n_config = self.load_i18n_config()
@@ -379,6 +387,26 @@ class YouTubeWebsiteGenerator:
         
         return html_content
     
+    def validate_and_get_languages(self) -> List[str]:
+        """Validate JSON languages and return available languages."""
+        json_languages = self._supported_languages
+        
+        # Validate against YAML config
+        self.i18n_config.validate_json_languages(json_languages, "youtube-videos.json")
+        
+        # Use intersection of YAML and JSON languages
+        yaml_languages = set(self.i18n_config.languages)
+        available_languages = list(set(json_languages) & yaml_languages)
+        
+        if not available_languages:
+            raise ValueError(
+                "No common languages between i18n.yml and youtube-videos.json"
+            )
+        
+        # Sort for consistent order
+        available_languages.sort()
+        return available_languages
+    
     def generate(self, generate_all_languages: bool = False):
         """Generate static HTML files for all languages (SEO-friendly)."""
         print("=" * 60)
@@ -410,11 +438,14 @@ class YouTubeWebsiteGenerator:
             print(f"  ❌ Error writing {grid_path.name}: {e}")
             return
         
+        # Get validated language list
+        languages_to_generate = self.validate_and_get_languages()
+        
         # Generate language-specific videos.{lang}.html files (static, SEO-friendly)
         print(f"\n📝 Generating static language-specific files...")
-        print(f"📊 Languages: {', '.join(self._supported_languages)}\n")
+        print(f"📊 Languages: {', '.join(languages_to_generate)}\n")
         
-        for lang in self._supported_languages:
+        for lang in languages_to_generate:
             html_content = self.generate_html(rows, language=lang)
             
             # English gets videos.html, others get videos.{lang}.html
