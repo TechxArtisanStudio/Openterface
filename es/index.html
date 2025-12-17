@@ -38,9 +38,21 @@
 <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
 <link href="../assets/stylesheets/custom.css" rel="stylesheet"/>
 <link href="../assets/stylesheets/signup_form.css" rel="stylesheet"/>
-<link href="../assets/stylesheets/slideshow.css" rel="stylesheet"/>
-<link href="../assets/stylesheets/version-selector.css" rel="stylesheet"/>
-<link href="../assets/stylesheets/youtube-videos.css" rel="stylesheet"/>
+<!-- Conditionally load slideshow.css only on product pages -->
+<!-- Conditionally load youtube-videos.css only on videos pages -->
+<!-- Language Alternates (hreflang for SEO) -->
+<!-- hreflang links - Auto-generated from i18n.yml -->
+<link href="https://openterface.com//" hreflang="en" rel="alternate"/>
+<link href="https://openterface.com//zh/" hreflang="zh" rel="alternate"/>
+<link href="https://openterface.com//ja/" hreflang="ja" rel="alternate"/>
+<link href="https://openterface.com//ko/" hreflang="ko" rel="alternate"/>
+<link href="https://openterface.com//fr/" hreflang="fr" rel="alternate"/>
+<link href="https://openterface.com//de/" hreflang="de" rel="alternate"/>
+<link href="https://openterface.com//it/" hreflang="it" rel="alternate"/>
+<link href="https://openterface.com//es/" hreflang="es" rel="alternate"/>
+<link href="https://openterface.com//pt/" hreflang="pt" rel="alternate"/>
+<link href="https://openterface.com//ro/" hreflang="ro" rel="alternate"/>
+<link href="https://openterface.com//" hreflang="x-default" rel="alternate"/>
 <!-- Determine current locale -->
 <!-- Gibby Avatar and Dialogue Box -->
 <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
@@ -253,11 +265,11 @@
     })();
   </script>
 <!-- SEO Metadata -->
-<meta content="Descubre Openterface - Soluciones ultracompactas KVM-over-USB que incluyen Serie KVM-GO (tamaño llavero), Serie Mini-KVM y Extensión KVM uConsole. Herramientas de código abierto y ricas en funciones para profesionales IT, desarrolladores y gestión de servidores." name="description"/>
+<meta content="Descubre Openterface - Soluciones KVM-over-USB ultracompactas que incluyen la serie KVM-GO (tamaño llavero), la serie Mini-KVM y la extensión uConsole KVM. Herramientas de código abierto con muchas funciones para profesionales de IT, desarrolladores y gestión de servidores." name="description"/>
 <meta content="KVM-over-USB, conmutador KVM, KVM portátil, USB KVM, gestión de servidores sin cabeza, herramientas IT, consola de servidor, acceso remoto a servidor, KVM-GO, Mini-KVM, uConsole KVM, KVM código abierto, KVM ultracompacto, KVM llavero, KVM 4K, KVM DisplayPort, KVM HDMI, KVM VGA" name="keywords"/>
 <meta content="Openterface" name="author"/>
 <meta content="index, follow" name="robots"/>
-<link href="https://openterface.com//es/" rel="canonical"/>
+<link href="https://openterface.com/es/" rel="canonical"/>
 <!-- Open Graph / Facebook -->
 <meta content="website" property="og:type"/>
 <meta content="https://openterface.com/es" property="og:url"/>
@@ -268,22 +280,10 @@
 <meta content="Openterface" property="og:site_name"/>
 <!-- Twitter Card -->
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="https://openterface.com//es/" name="twitter:url"/>
+<meta content="https://openterface.com/es/" name="twitter:url"/>
 <meta content="Openterface | Soluciones KVM Ultracompactas para Profesionales IT" name="twitter:title"/>
-<meta content="Descubre Openterface - Soluciones ultracompactas KVM-over-USB que incluyen Serie KVM-GO (tamaño llavero), Serie Mini-KVM y Extensión KVM uConsole." name="twitter:description"/>
+<meta content="Descubre Openterface - Soluciones KVM-over-USB ultracompactas que incluyen la serie KVM-GO (tamaño llavero), la serie Mini-KVM y la extensión uConsole KVM." name="twitter:description"/>
 <meta content="https://assets.openterface.com/images/kvm-go-triple.png" name="twitter:image"/>
-<!-- Language Alternates -->
-<link href="https://openterface.com//" hreflang="en" rel="alternate"/>
-<link href="https://openterface.com//de/" hreflang="de" rel="alternate"/>
-<link href="https://openterface.com//es/" hreflang="es" rel="alternate"/>
-<link href="https://openterface.com//fr/" hreflang="fr" rel="alternate"/>
-<link href="https://openterface.com//it/" hreflang="it" rel="alternate"/>
-<link href="https://openterface.com//ja/" hreflang="ja" rel="alternate"/>
-<link href="https://openterface.com//ko/" hreflang="ko" rel="alternate"/>
-<link href="https://openterface.com//pt/" hreflang="pt" rel="alternate"/>
-<link href="https://openterface.com//ro/" hreflang="ro" rel="alternate"/>
-<link href="https://openterface.com//zh/" hreflang="zh" rel="alternate"/>
-<link href="https://openterface.com//" hreflang="x-default" rel="alternate"/>
 <script>
     // Add class to body to identify homepage (run immediately)
     (function() {
@@ -599,18 +599,19 @@
 <div class="carousel-content-left">
 <div class="carousel-category">Serie KVM-GO</div>
 <h1 class="carousel-headline">El KVM Ultracompacto que Cabe en tu Llavero</h1>
-<p class="carousel-description">
-              Diseñado para caber en tu llavero y salvarte el día en un instante, este gadget KVM-over-USB de próxima generación está construido para operaciones IT rápidas en campo.
-            </p>
+<p class="carousel-description">Diseñado para caber en tu llavero y salvarte el día en un instante, este gadget KVM-over-USB de próxima generación está construido para operaciones IT rápidas en campo.</p>
 <div class="carousel-actions">
 <a class="md-button md-button--primary carousel-btn-preorder" href="https://www.crowdsupply.com/techxartisan/openterface-kvm-go" rel="noopener noreferrer" target="_blank">
-                Financiación Colectiva AHORA
-                <svg class="carousel-btn-icon" version="1.1" viewbox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
+<span>Financiación Colectiva AHORA</span>
+<svg class="carousel-btn-icon" version="1.1" viewbox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
 <path d="M 68.3,9.7 8,70 68.3,130.3 Z" fill="#555"></path>
 <path d="M 71.7,9.7 V 130.3 L 132,70 Z" fill="#099"></path>
 <path d="m 90.7,91 c -6.6,0 -11.8,-3.6 -14,-12 l 8,-1.7 c 0.9,5.1 3.9,7 6.3,7 2.8,0 5,-1.9 5,-5.1 0,-8 -18.2,-8.2 -18.2,-20.1 0,-7.3 4.4,-12 12.8,-12 7.3,0 11.7,4.3 13.1,10.4 l -7.3,2.1 c -1.4,-4 -3.1,-5.7 -6,-5.7 -2.9,0 -4.5,1.8 -4.5,4.7 0,6.4 18.2,6.9 18.2,20.3 0.2,7.2 -4.9,12.1 -13.4,12.1 z" fill="#FFF"></path>
 <path d="m 60.7,63.9 h -8.2 v -3.6 c 0,-4.7 -2.1,-6 -5.3,-6 -3.2,0 -5.3,1.3 -5.3,6 v 17.4 c 0,4.7 2.1,6 5.3,6 3.2,0 5.3,-1.3 5.3,-6 v -3.8 h 8.2 v 2.7 c 0,10.5 -5.6,14.3 -13.5,14.3 -7.9,0 -13.5,-3.8 -13.5,-14.3 V 61.4 c 0,-10.5 5.6,-14.3 13.5,-14.3 7.9,0 13.5,3.8 13.5,14.3 z" fill="#FFF"></path>
 </svg>
+</a>
+<a class="md-button carousel-btn-docs" href="../product/kvm-go/">
+<span>Ver Documentación</span>
 </a>
 <div class="carousel-countdown" id="kvm-go-countdown"></div>
 </div>
@@ -624,18 +625,19 @@
 <div class="carousel-content-left">
 <div class="carousel-category">Serie Mini-KVM</div>
 <h1 class="carousel-headline">La Solución KVM Compacta para Profesionales</h1>
-<p class="carousel-description">
-              Una solución KVM-over-USB compacta, rica en funciones y de código abierto que simplifica tu vida tecnológica con tareas IT y resolución de problemas sobre la marcha.
-            </p>
+<p class="carousel-description">Una solución KVM-over-USB compacta, rica en funciones y de código abierto que simplifica tu vida tecnológica con tareas IT y resolución de problemas sobre la marcha.</p>
 <div class="carousel-actions">
 <a class="md-button md-button--primary carousel-btn-secondary" href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm" rel="noopener noreferrer" target="_blank">
-                Pedir AHORA
-                <svg class="carousel-btn-icon" version="1.1" viewbox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
+<span>Pedir AHORA</span>
+<svg class="carousel-btn-icon" version="1.1" viewbox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
 <path d="M 68.3,9.7 8,70 68.3,130.3 Z" fill="#555"></path>
 <path d="M 71.7,9.7 V 130.3 L 132,70 Z" fill="#099"></path>
 <path d="m 90.7,91 c -6.6,0 -11.8,-3.6 -14,-12 l 8,-1.7 c 0.9,5.1 3.9,7 6.3,7 2.8,0 5,-1.9 5,-5.1 0,-8 -18.2,-8.2 -18.2,-20.1 0,-7.3 4.4,-12 12.8,-12 7.3,0 11.7,4.3 13.1,10.4 l -7.3,2.1 c -1.4,-4 -3.1,-5.7 -6,-5.7 -2.9,0 -4.5,1.8 -4.5,4.7 0,6.4 18.2,6.9 18.2,20.3 0.2,7.2 -4.9,12.1 -13.4,12.1 z" fill="#FFF"></path>
 <path d="m 60.7,63.9 h -8.2 v -3.6 c 0,-4.7 -2.1,-6 -5.3,-6 -3.2,0 -5.3,1.3 -5.3,6 v 17.4 c 0,4.7 2.1,6 5.3,6 3.2,0 5.3,-1.3 5.3,-6 v -3.8 h 8.2 v 2.7 c 0,10.5 -5.6,14.3 -13.5,14.3 -7.9,0 -13.5,-3.8 -13.5,-14.3 V 61.4 c 0,-10.5 5.6,-14.3 13.5,-14.3 7.9,0 13.5,3.8 13.5,14.3 z" fill="#FFF"></path>
 </svg>
+</a>
+<a class="md-button carousel-btn-docs" href="../product/minikvm/">
+<span>Ver Documentación</span>
 </a>
 </div>
 </div>
@@ -648,17 +650,18 @@
 <div class="carousel-content-left">
 <div class="carousel-category">Serie Ext. uConsole</div>
 <h1 class="carousel-headline">Transforma tu uConsole en una Consola KVM</h1>
-<p class="carousel-description">
-              Convierte tu uConsole en una consola KVM portátil – ahora aceptando pedidos anticipados para Openterface KVM Ext. para uConsole. Tu solución portátil todo-en-uno.
-            </p>
+<p class="carousel-description">Convierte tu uConsole en una consola KVM portátil – ahora aceptando pedidos anticipados para Openterface KVM Ext. para uConsole. Tu solución portátil todo-en-uno.</p>
 <div class="carousel-actions">
 <a class="md-button md-button--primary carousel-btn-secondary" href="https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole" rel="noopener noreferrer" target="_blank">
-                Pedir AHORA
-                <svg class="carousel-btn-icon" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+<span>Pedir AHORA</span>
+<svg class="carousel-btn-icon" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
 <path d="M166.32,10H33.68A23.68,23.68,0,0,0,10,33.68V166.32A23.68,23.68,0,0,0,33.68,190H166.32A23.68,23.68,0,0,0,190,166.32V33.68A23.68,23.68,0,0,0,166.32,10ZM150.21,79H134.55l-21.4,21.4L133.82,121h16.39v29.18H121V134.56l-21-21-21,21v15.66H49.79V121H66.17l20.67-20.66L65.44,79H49.79V49.79H79V66.18l21,21,21-21V49.79h29.18Z" fill="#faa22c"></path>
 <path d="M150.21,79V49.79H121V66.17l-21,21-21-21V49.79H49.79V79H65.44l21.4,21.4L66.17,121H49.79v29.18H79V134.55l21-21,21,21v15.65h29.18V121H133.82l-20.67-20.66L134.55,79ZM100,106.21h0L73.73,132.48a9.79,9.79,0,0,1,.5,3.08,9.92,9.92,0,1,1-9.92-9.91,9.81,9.81,0,0,1,3.27.56L93.79,100,67.05,73.26a9.91,9.91,0,1,1,7.18-9.53,9.73,9.73,0,0,1-.69,3.6L106.21,100Z" fill="#211e1f"></path>
 <path d="M100,106.21l6.21-6.21L73.54,67.33a9.73,9.73,0,0,0,.69-3.6,9.94,9.94,0,1,0-7.18,9.53L93.79,100,67.58,126.21a9.81,9.81,0,0,0-3.27-.56,9.91,9.91,0,1,0,9.92,9.91,9.79,9.79,0,0,0-.5-3.08L100,106.21Z" fill="#f9f9fa"></path>
 </svg>
+</a>
+<a class="md-button carousel-btn-docs" href="../product/uconsole-kvm-extension/">
+<span>Ver Documentación</span>
 </a>
 </div>
 </div>
@@ -671,9 +674,7 @@
 <div class="carousel-content-left">
 <div class="carousel-category">Tienda TxA</div>
 <h1 class="carousel-headline">Completa tu Configuración con Accesorios Premium</h1>
-<p class="carousel-description">
-              Explora nuestra gama de accesorios esenciales que incluyen adaptadores de video, cables de alta velocidad y soluciones de almacenamiento. Mejora tu experiencia Openterface con accesorios de calidad diseñados para profesionales.
-            </p>
+<p class="carousel-description">Explora nuestra gama de accesorios esenciales que incluyen adaptadores de video, cables de alta velocidad y soluciones de almacenamiento. Mejora tu experiencia Openterface con accesorios de calidad diseñados para profesionales.</p>
 <div class="carousel-actions">
 <a class="md-button md-button--primary carousel-btn-xmas" href="https://shop.techxartisan.com/" rel="noopener noreferrer" target="_blank">
 <span>🎄 Especial Navidad</span>
@@ -1781,19 +1782,20 @@
 <div class="md-footer-meta__inner md-grid footer-flex-container">
 <!-- Signup form -->
 <div class="signup-form-container footer-flex-item">
-<!-- All languages submit via AJAX -->
-<div id="form_signup">
+<div data-i18n-file="forms" id="form_signup">
 <form id="subscribe-form" name="subscribe-form">
 <div id="form_signup_scroll">
 <div class="gf-field-group">
-<input class="required" id="form-name" name="name" placeholder="Tu Nombre" required="" type="text"/>
+<input class="required" data-i18n-attr="placeholder" data-i18n-key="footer_name_placeholder" id="form-name" name="name" placeholder="Your Name" required="" type="text"/>
 </div>
 <div class="gf-field-group">
-<input class="required email" id="form-email" name="email" placeholder="Tu Correo Electrónico *" required="" type="email"/>
+<input class="required email" data-i18n-attr="placeholder" data-i18n-key="footer_email_placeholder" id="form-email" name="email" placeholder="Your Email Address *" required="" type="email"/>
 </div>
 <div class="clear">
-<input class="button" id="form-submit" name="submit" type="submit" value="✉️ ¡Suscríbete a las Últimas Novedades! 🐝"/>
-<p class="footnote">No más de un correo al mes. Cancela cuando quieras. <br/> Para consultas, envíanos un correo a <a href="mailto:info@openterface.com">info@openterface.com</a>.</p>
+<input class="button" data-i18n-attr="value" data-i18n-key="footer_submit_button" id="form-submit" name="submit" type="submit" value="✉️ Subscribe to the Latest Buzz! 🐝"/>
+<p class="footnote" data-i18n-html="true" data-i18n-key="footer_footnote">
+                  No more than one email a month. Unsubscribe anytime. <br/> For inquiries, email us at <a href="mailto:info@openterface.com">info@openterface.com</a>.
+                </p>
 </div>
 </div>
 </form>
@@ -1855,63 +1857,6 @@
       langselect.async = false; // Load synchronously to ensure it's available
       document.body.appendChild(langselect);
     })();
-  </script>
-<!-- Subscribe Form AJAX Handler -->
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const form = document.getElementById('subscribe-form');
-      const submitBtn = document.getElementById('form-submit');
-      const originalBtnValue = submitBtn.value;
-
-      if (form) {
-        form.addEventListener('submit', function(e) {
-          e.preventDefault();
-
-          // Get form data
-          const formData = new FormData(form);
-          const data = {
-            email: formData.get('email'),
-            name: formData.get('name')
-          };
-
-          // Disable button and change text
-          submitBtn.disabled = true;
-          submitBtn.value = 'Subscribing...';
-
-          // Send AJAX request
-          fetch('https://subscribe.openterface.com/api/subscribe/', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(data)
-          })
-          .then(response => response.json())
-          .then(result => {
-            if (result.success) {
-              submitBtn.value = 'Successfully subscribed!';
-              // Clear form fields
-              form.reset();
-            } else {
-              // Handle error response
-              submitBtn.value = 'Subscription failed. Try again.';
-              submitBtn.disabled = false;
-              setTimeout(() => {
-                submitBtn.value = originalBtnValue;
-              }, 3000);
-            }
-          })
-          .catch(error => {
-            console.error('Error:', error);
-            submitBtn.value = 'An error occurred. Try again.';
-            submitBtn.disabled = false;
-            setTimeout(() => {
-              submitBtn.value = originalBtnValue;
-            }, 3000);
-          });
-        });
-      }
-    });
   </script>
 </footer>
 </div>
@@ -2370,12 +2315,13 @@
 <script src="../js/timeago_mkdocs_material.js"></script>
 <script src="../js/timeago.min.js"></script>
 <script src="../js/timeago_mkdocs_material.js"></script>
-<script src="https://assets.openterface.com/js/custom.min.js"></script>
-<script src="../assets/javascripts/slideshow.js"></script>
-<script src="../assets/javascripts/download-selector.js"></script>
-<script src="../assets/javascripts/extra.js"></script>
-<script src="../assets/javascripts/xmas-progress.js"></script>
-<script src="../assets/javascripts/carousel-random-images.js"></script>
+<!-- Load i18n handler first (needed for forms translation) -->
+<script src="../assets/javascripts/i18n-handler.js"></script>
+<!-- Load subscribe.js globally (needed for footer and product signup forms) -->
+<script src="../assets/javascripts/subscribe.js"></script>
+<!-- Conditionally load slideshow.js only on product pages -->
+<!-- Conditionally load home-carousel.js only on homepage -->
+<script src="../assets/javascripts/home-carousel.js"></script>
 <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
 document$.subscribe(()=>{ lightbox.reload(); });
 </script></body></html>

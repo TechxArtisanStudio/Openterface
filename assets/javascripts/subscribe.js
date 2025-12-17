@@ -37,71 +37,88 @@ function initializeProductSignupForm() {
 }
 
 function handleSubmit(event) {
-    event.preventDefault();
+  event.preventDefault();
 
-    // Show loading message on button
-    submitButton.value = 'Processing... ⏳';
-    submitButton.style.backgroundColor = '#FAA22B';
+  const form = document.getElementById('subscribe-form');
+  const submitButton = document.getElementById('form-submit');
+  const originalButtonText = submitButton.value;
 
-    // Create a hidden input for source if it doesn't exist
-    let sourceInput = form.querySelector('input[name="source"]');
-    if (!sourceInput) {
-      sourceInput = document.createElement('input');
-      sourceInput.type = 'hidden';
-      sourceInput.name = 'source';
-      form.appendChild(sourceInput);
-    }
+  // Get form data
+  const formData = new FormData(form);
+  const data = {
+    email: formData.get('email'),
+    name: formData.get('name') || ''
+  };
 
-    // Set the source input to the clean URL (protocol + domain + path, without query parameters or hash)
-    const url = new URL(window.location.href);
-    sourceInput.value = url.origin + url.pathname;
+  // Get translated feedback messages
+  const t = {
+    processing: window.OpenterfaceI18n?.getTranslation('forms', 'subscribe_processing', 'Processing... ⏳'),
+    success: window.OpenterfaceI18n?.getTranslation('forms', 'subscribe_success', '✓ Successfully subscribed! 🎉'),
+    failed: window.OpenterfaceI18n?.getTranslation('forms', 'subscribe_failed', '✗ Subscription failed. Try again.'),
+    error: window.OpenterfaceI18n?.getTranslation('forms', 'subscribe_error', '✗ An error occurred. Try again.')
+  };
 
-    // Create a hidden input for language identifier if it doesn't exist
-    let langInput = form.querySelector('input[name="entry.22394832"]');
-    if (!langInput) {
-      langInput = document.createElement('input');
-      langInput.type = 'hidden';
-      langInput.name = 'entry.22394832';
-      form.appendChild(langInput);
-    }
+  // Disable button and show loading state
+  submitButton.disabled = true;
+  submitButton.value = t.processing;
+  submitButton.style.backgroundColor = '#FAA22B';
+  submitButton.classList.add('submitting');
 
-    // Determine language from URL path and set the language identifier
-    const pathSegments = url.pathname.split('/').filter(segment => segment);
-    const supportedLangs = ['de', 'es', 'fr', 'it', 'ja', 'ko', 'pt', 'ro', 'zh'];
-    const currentLang = pathSegments.length > 0 && supportedLangs.includes(pathSegments[0]) ? pathSegments[0] : 'en';
-    langInput.value = `Openterface-${currentLang}`;
-
-    const formData = new FormData(form);
-    const data = {};
-    formData.forEach((value, key) => { data[key] = value; });
-
-    fetch('https://script.google.com/macros/s/AKfycbwBqXSVZWT5GBsq5bPyz6xqF_RR7JZhK9PyszpvcztgZf3HbXhB4bUFALgkNq-DBpp2/exec', {
-      method: 'POST',
-      mode: 'no-cors',
-      headers: {
-        'Content-Type': 'application/x-www-form-urlencoded',
-      },
-      body: new URLSearchParams(data).toString(),
-    })
-    .then(response => {
-      submitButton.value = 'Thank you for subscribing! 🎉';
+  // Send AJAX request
+  fetch('https://subscribe.openterface.com/api/subscribe/', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(data)
+  })
+  .then(response => response.json())
+  .then(result => {
+    if (result.success) {
+      // Success state
+      submitButton.value = t.success;
       submitButton.style.backgroundColor = '#2e4e1f';
+      submitButton.classList.remove('submitting');
+      submitButton.classList.add('success');
       form.reset();
+      
+      // Re-enable after 3 seconds
       setTimeout(() => {
         submitButton.value = originalButtonText;
         submitButton.style.backgroundColor = '';
-      }, 5000);
-    })
-    .catch(error => {
-      submitButton.value = 'Error subscribing. Please try again.';
-      submitButton.style.backgroundColor = 'red';
-      console.error('Error:', error);
+        submitButton.disabled = false;
+        submitButton.classList.remove('success');
+      }, 3000);
+    } else {
+      // Error state
+      submitButton.value = t.failed;
+      submitButton.style.backgroundColor = '#d32f2f';
+      submitButton.classList.remove('submitting');
+      submitButton.classList.add('error');
+      submitButton.disabled = false;
+      
       setTimeout(() => {
         submitButton.value = originalButtonText;
         submitButton.style.backgroundColor = '';
-      }, 5000);
-    });
-  }
+        submitButton.classList.remove('error');
+      }, 3000);
+    }
+  })
+  .catch(error => {
+    console.error('Error:', error);
+    // Error state
+    submitButton.value = t.error;
+    submitButton.style.backgroundColor = '#d32f2f';
+    submitButton.classList.remove('submitting');
+    submitButton.classList.add('error');
+    submitButton.disabled = false;
+    
+    setTimeout(() => {
+      submitButton.value = originalButtonText;
+      submitButton.style.backgroundColor = '';
+      submitButton.classList.remove('error');
+    }, 3000);
+  });
 }
 
 function handleProductSubmit(event) {
@@ -111,67 +128,81 @@ function handleProductSubmit(event) {
   const submitButton = document.getElementById('product-form-submit');
   const originalButtonText = submitButton.value;
 
-  // Show loading message on button
-  submitButton.value = 'Processing... ⏳';
-  submitButton.style.backgroundColor = '#FAA22B';
-
-  // Create a hidden input for source if it doesn't exist
-  let sourceInput = form.querySelector('input[name="source"]');
-  if (!sourceInput) {
-    sourceInput = document.createElement('input');
-    sourceInput.type = 'hidden';
-    sourceInput.name = 'source';
-    form.appendChild(sourceInput);
-  }
-
-  // Set the source input to the clean URL (protocol + domain + path, without query parameters or hash)
-  const url = new URL(window.location.href);
-  sourceInput.value = url.origin + url.pathname;
-
-  // Create a hidden input for language identifier if it doesn't exist
-  let langInput = form.querySelector('input[name="entry.22394832"]');
-  if (!langInput) {
-    langInput = document.createElement('input');
-    langInput.type = 'hidden';
-    langInput.name = 'entry.22394832';
-    form.appendChild(langInput);
-  }
-
-  // Determine language from URL path and set the language identifier for product-specific signup
-  const pathSegments = url.pathname.split('/').filter(segment => segment);
-  const supportedLangs = ['de', 'es', 'fr', 'it', 'ja', 'ko', 'pt', 'ro', 'zh'];
-  const currentLang = pathSegments.length > 0 && supportedLangs.includes(pathSegments[0]) ? pathSegments[0] : 'en';
-  langInput.value = `minikvm-${currentLang}`;
-
+  // Get form data
   const formData = new FormData(form);
-  const data = {};
-  formData.forEach((value, key) => { data[key] = value; });
+  const data = {
+    email: formData.get('email'),
+    name: formData.get('name') || ''
+  };
 
-  fetch('https://script.google.com/macros/s/AKfycbwBqXSVZWT5GBsq5bPyz6xqF_RR7JZhK9PyszpvcztgZf3HbXhB4bUFALgkNq-DBpp2/exec', {
+  // Get translated feedback messages
+  const t = {
+    processing: window.OpenterfaceI18n?.getTranslation('forms', 'subscribe_processing', 'Processing... ⏳'),
+    success: window.OpenterfaceI18n?.getTranslation('forms', 'subscribe_success', '✓ Successfully subscribed! 🎉'),
+    failed: window.OpenterfaceI18n?.getTranslation('forms', 'subscribe_failed', '✗ Subscription failed. Try again.'),
+    error: window.OpenterfaceI18n?.getTranslation('forms', 'subscribe_error', '✗ An error occurred. Try again.')
+  };
+
+  // Disable button and show loading state
+  submitButton.disabled = true;
+  submitButton.value = t.processing;
+  submitButton.style.backgroundColor = '#FAA22B';
+  submitButton.classList.add('submitting');
+
+  // Send AJAX request
+  fetch('https://subscribe.openterface.com/api/subscribe/', {
     method: 'POST',
-    mode: 'no-cors',
     headers: {
-      'Content-Type': 'application/x-www-form-urlencoded',
+      'Content-Type': 'application/json',
     },
-    body: new URLSearchParams(data).toString(),
+    body: JSON.stringify(data)
   })
-  .then(response => {
-    submitButton.value = 'Thank you for subscribing! 🎉';
-    submitButton.style.backgroundColor = '#2e4e1f';
-    form.reset();
-    setTimeout(() => {
-      submitButton.value = originalButtonText;
-      submitButton.style.backgroundColor = '';
-    }, 5000);
+  .then(response => response.json())
+  .then(result => {
+    if (result.success) {
+      // Success state
+      submitButton.value = t.success;
+      submitButton.style.backgroundColor = '#2e4e1f';
+      submitButton.classList.remove('submitting');
+      submitButton.classList.add('success');
+      form.reset();
+      
+      // Re-enable after 3 seconds
+      setTimeout(() => {
+        submitButton.value = originalButtonText;
+        submitButton.style.backgroundColor = '';
+        submitButton.disabled = false;
+        submitButton.classList.remove('success');
+      }, 3000);
+    } else {
+      // Error state
+      submitButton.value = t.failed;
+      submitButton.style.backgroundColor = '#d32f2f';
+      submitButton.classList.remove('submitting');
+      submitButton.classList.add('error');
+      submitButton.disabled = false;
+      
+      setTimeout(() => {
+        submitButton.value = originalButtonText;
+        submitButton.style.backgroundColor = '';
+        submitButton.classList.remove('error');
+      }, 3000);
+    }
   })
   .catch(error => {
-    submitButton.value = 'Error subscribing. Please try again.';
-    submitButton.style.backgroundColor = 'red';
     console.error('Error:', error);
+    // Error state
+    submitButton.value = t.error;
+    submitButton.style.backgroundColor = '#d32f2f';
+    submitButton.classList.remove('submitting');
+    submitButton.classList.add('error');
+    submitButton.disabled = false;
+    
     setTimeout(() => {
       submitButton.value = originalButtonText;
       submitButton.style.backgroundColor = '';
-    }, 5000);
+      submitButton.classList.remove('error');
+    }, 3000);
   });
 }
 

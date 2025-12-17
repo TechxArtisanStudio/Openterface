@@ -37,9 +37,22 @@
 <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
 <link href="../../assets/stylesheets/custom.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/signup_form.css" rel="stylesheet"/>
-<link href="../../assets/stylesheets/slideshow.css" rel="stylesheet"/>
-<link href="../../assets/stylesheets/version-selector.css" rel="stylesheet"/>
+<!-- Conditionally load slideshow.css only on product pages -->
+<!-- Conditionally load youtube-videos.css only on videos pages -->
 <link href="../../assets/stylesheets/youtube-videos.css" rel="stylesheet"/>
+<!-- Language Alternates (hreflang for SEO) -->
+<!-- hreflang links - Auto-generated from i18n.yml -->
+<link href="https://openterface.com//" hreflang="en" rel="alternate"/>
+<link href="https://openterface.com//zh/" hreflang="zh" rel="alternate"/>
+<link href="https://openterface.com//ja/" hreflang="ja" rel="alternate"/>
+<link href="https://openterface.com//ko/" hreflang="ko" rel="alternate"/>
+<link href="https://openterface.com//fr/" hreflang="fr" rel="alternate"/>
+<link href="https://openterface.com//de/" hreflang="de" rel="alternate"/>
+<link href="https://openterface.com//it/" hreflang="it" rel="alternate"/>
+<link href="https://openterface.com//es/" hreflang="es" rel="alternate"/>
+<link href="https://openterface.com//pt/" hreflang="pt" rel="alternate"/>
+<link href="https://openterface.com//ro/" hreflang="ro" rel="alternate"/>
+<link href="https://openterface.com//" hreflang="x-default" rel="alternate"/>
 <!-- Determine current locale -->
 <!-- Gibby Avatar and Dialogue Box -->
 <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
@@ -1551,21 +1564,22 @@
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
 <div markdown="0">
-<!-- YouTube Videos Page - Generated from youtube.csv (i18n-enabled) -->
-<div class="youtube-videos-page" data-translations="{&quot;en&quot;: {&quot;title&quot;: &quot;📺 YouTube Videos&quot;, &quot;subtitle&quot;: &quot;Openterface Product Reviews &amp; Updates&quot;, &quot;total_videos&quot;: &quot;Total Videos&quot;, &quot;languages&quot;: &quot;Languages&quot;, &quot;products&quot;: &quot;Products&quot;, &quot;views&quot;: &quot;views&quot;, &quot;home_page&quot;: &quot;Home Page&quot;, &quot;unknown_channel&quot;: &quot;Unknown Channel&quot;}, &quot;zh&quot;: {&quot;title&quot;: &quot;📺 YouTube 视频&quot;, &quot;subtitle&quot;: &quot;Openterface 产品评测与更新&quot;, &quot;total_videos&quot;: &quot;视频总数&quot;, &quot;languages&quot;: &quot;语言&quot;, &quot;products&quot;: &quot;产品&quot;, &quot;views&quot;: &quot;次观看&quot;, &quot;home_page&quot;: &quot;首页&quot;, &quot;unknown_channel&quot;: &quot;未知频道&quot;}, &quot;ja&quot;: {&quot;title&quot;: &quot;📺 YouTube 動画&quot;, &quot;subtitle&quot;: &quot;Openterface 製品レビューとアップデート&quot;, &quot;total_videos&quot;: &quot;動画総数&quot;, &quot;languages&quot;: &quot;言語&quot;, &quot;products&quot;: &quot;製品&quot;, &quot;views&quot;: &quot;回視聴&quot;, &quot;home_page&quot;: &quot;ホームページ&quot;, &quot;unknown_channel&quot;: &quot;不明なチャンネル&quot;}, &quot;ko&quot;: {&quot;title&quot;: &quot;📺 YouTube 동영상&quot;, &quot;subtitle&quot;: &quot;Openterface 제품 리뷰 및 업데이트&quot;, &quot;total_videos&quot;: &quot;동영상 총수&quot;, &quot;languages&quot;: &quot;언어&quot;, &quot;products&quot;: &quot;제품&quot;, &quot;views&quot;: &quot;회 조회&quot;, &quot;home_page&quot;: &quot;홈페이지&quot;, &quot;unknown_channel&quot;: &quot;알 수 없는 채널&quot;}, &quot;fr&quot;: {&quot;title&quot;: &quot;📺 Vidéos YouTube&quot;, &quot;subtitle&quot;: &quot;Avis et mises à jour des produits Openterface&quot;, &quot;total_videos&quot;: &quot;Total des vidéos&quot;, &quot;languages&quot;: &quot;Langues&quot;, &quot;products&quot;: &quot;Produits&quot;, &quot;views&quot;: &quot;vues&quot;, &quot;home_page&quot;: &quot;Page d'accueil&quot;, &quot;unknown_channel&quot;: &quot;Chaîne inconnue&quot;}, &quot;de&quot;: {&quot;title&quot;: &quot;📺 YouTube Videos&quot;, &quot;subtitle&quot;: &quot;Openterface Produktbewertungen &amp; Updates&quot;, &quot;total_videos&quot;: &quot;Gesamt Videos&quot;, &quot;languages&quot;: &quot;Sprachen&quot;, &quot;products&quot;: &quot;Produkte&quot;, &quot;views&quot;: &quot;Aufrufe&quot;, &quot;home_page&quot;: &quot;Startseite&quot;, &quot;unknown_channel&quot;: &quot;Unbekannter Kanal&quot;}, &quot;it&quot;: {&quot;title&quot;: &quot;📺 Video YouTube&quot;, &quot;subtitle&quot;: &quot;Recensioni e aggiornamenti prodotti Openterface&quot;, &quot;total_videos&quot;: &quot;Totale video&quot;, &quot;languages&quot;: &quot;Lingue&quot;, &quot;products&quot;: &quot;Prodotti&quot;, &quot;views&quot;: &quot;visualizzazioni&quot;, &quot;home_page&quot;: &quot;Home Page&quot;, &quot;unknown_channel&quot;: &quot;Canale sconosciuto&quot;}, &quot;es&quot;: {&quot;title&quot;: &quot;📺 Videos de YouTube&quot;, &quot;subtitle&quot;: &quot;Reseñas y actualizaciones de productos Openterface&quot;, &quot;total_videos&quot;: &quot;Total de videos&quot;, &quot;languages&quot;: &quot;Idiomas&quot;, &quot;products&quot;: &quot;Productos&quot;, &quot;views&quot;: &quot;visualizaciones&quot;, &quot;home_page&quot;: &quot;Página de inicio&quot;, &quot;unknown_channel&quot;: &quot;Canal desconocido&quot;}, &quot;pt&quot;: {&quot;title&quot;: &quot;📺 Vídeos do YouTube&quot;, &quot;subtitle&quot;: &quot;Avaliações e atualizações de produtos Openterface&quot;, &quot;total_videos&quot;: &quot;Total de vídeos&quot;, &quot;languages&quot;: &quot;Idiomas&quot;, &quot;products&quot;: &quot;Produtos&quot;, &quot;views&quot;: &quot;visualizações&quot;, &quot;home_page&quot;: &quot;Página inicial&quot;, &quot;unknown_channel&quot;: &quot;Canal desconhecido&quot;}, &quot;ro&quot;: {&quot;title&quot;: &quot;📺 Videoclipuri YouTube&quot;, &quot;subtitle&quot;: &quot;Recenzii și actualizări produse Openterface&quot;, &quot;total_videos&quot;: &quot;Total videoclipuri&quot;, &quot;languages&quot;: &quot;Limbi&quot;, &quot;products&quot;: &quot;Produse&quot;, &quot;views&quot;: &quot;vizualizări&quot;, &quot;home_page&quot;: &quot;Pagina principală&quot;, &quot;unknown_channel&quot;: &quot;Canal necunoscut&quot;}}" i18n-lang="auto">
-<h1 class="youtube-videos-title" data-i18n-key="title">📺 YouTube Videos</h1>
+<!-- YouTube Videos Page - Generated from youtube.csv -->
+<!-- This is a content fragment to be included by markdown files -->
+<div class="youtube-videos-page">
+<h1 class="youtube-videos-title">📺 Videos de YouTube</h1>
 <div class="youtube-stats">
 <div class="youtube-stat-card">
 <div class="number">25</div>
-<div class="label" data-i18n-key="total_videos">Total Videos</div>
+<div class="label">Total de videos</div>
 </div>
 <div class="youtube-stat-card">
 <div class="number">5</div>
-<div class="label" data-i18n-key="languages">Languages</div>
+<div class="label">Idiomas</div>
 </div>
 <div class="youtube-stat-card">
 <div class="number">3</div>
-<div class="label" data-i18n-key="products">Products</div>
+<div class="label">Productos</div>
 </div>
 </div>
 <!-- YouTube Videos Grid - Generated from youtube.csv -->
@@ -2171,75 +2185,13 @@
 </div>
 </div>
 </div>
-<script>
-(function() {
-    'use strict';
-
-    // Get the page container
-    const pageElement = document.querySelector('.youtube-videos-page');
-    if (!pageElement) return;
-
-    // Load translations from data attribute
-    let translations = {};
-    try {
-        const translationsJson = pageElement.getAttribute('data-translations');
-        if (translationsJson) {
-            // Unescape HTML entities
-            const unescaped = translationsJson.replace(/&#39;/g, "'");
-            translations = JSON.parse(unescaped);
-        }
-    } catch (e) {
-        console.warn('Failed to parse translations:', e);
-        return;
-    }
-
-    // Detect current language from URL path
-    // MkDocs static i18n uses URLs like: /zh/videos/, /es/videos/, etc.
-    function detectLanguageFromURL() {
-        const path = window.location.pathname;
-        const segments = path.split('/').filter(segment => segment);
-
-        // Supported language codes (from i18n.json)
-        const supportedLangs = ["en", "zh", "ja", "ko", "fr", "de", "it", "es", "pt", "ro"];
-
-        // Check if first segment is a language code
-        if (segments.length > 0 && supportedLangs.includes(segments[0])) {
-            return segments[0];
-        }
-
-        // Default to English if no language code found
-        return 'en';
-    }
-
-    // Get current language
-    const i18nLang = pageElement.getAttribute('i18n-lang');
-    let currentLang = 'en';
-
-    if (i18nLang === 'auto') {
-        currentLang = detectLanguageFromURL();
-    } else if (i18nLang && translations[i18nLang]) {
-        currentLang = i18nLang;
-    }
-
-    // Get translations for current language (fallback to English)
-    const t = translations[currentLang] || translations['en'] || {};
-
-    // Update all elements with data-i18n-key attribute
-    pageElement.querySelectorAll('[data-i18n-key]').forEach(element => {
-        const key = element.getAttribute('data-i18n-key');
-        if (t[key]) {
-            element.textContent = t[key];
-        }
-    });
-})();
-</script>
 </div>
 <aside class="md-source-file">
 <span class="md-source-file__fact">
 <span class="md-icon" title="Última actualización">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
 </span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="16 de diciembre de 2025 09:04:20 UTC"><span class="timeago" datetime="2025-12-16T09:04:20+00:00" locale="es"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="16 de diciembre de 2025 09:04:20 UTC">2025-12-16</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="17 de diciembre de 2025 08:07:04 UTC"><span class="timeago" datetime="2025-12-17T08:07:04+00:00" locale="es"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="17 de diciembre de 2025 08:07:04 UTC">2025-12-17</span>
 </span>
 <span class="md-source-file__fact">
 <span class="md-icon" title="Creado">
@@ -2266,19 +2218,20 @@
 <div class="md-footer-meta__inner md-grid footer-flex-container">
 <!-- Signup form -->
 <div class="signup-form-container footer-flex-item">
-<!-- All languages submit via AJAX -->
-<div id="form_signup">
+<div data-i18n-file="forms" id="form_signup">
 <form id="subscribe-form" name="subscribe-form">
 <div id="form_signup_scroll">
 <div class="gf-field-group">
-<input class="required" id="form-name" name="name" placeholder="Tu Nombre" required="" type="text"/>
+<input class="required" data-i18n-attr="placeholder" data-i18n-key="footer_name_placeholder" id="form-name" name="name" placeholder="Your Name" required="" type="text"/>
 </div>
 <div class="gf-field-group">
-<input class="required email" id="form-email" name="email" placeholder="Tu Correo Electrónico *" required="" type="email"/>
+<input class="required email" data-i18n-attr="placeholder" data-i18n-key="footer_email_placeholder" id="form-email" name="email" placeholder="Your Email Address *" required="" type="email"/>
 </div>
 <div class="clear">
-<input class="button" id="form-submit" name="submit" type="submit" value="✉️ ¡Suscríbete a las Últimas Novedades! 🐝"/>
-<p class="footnote">No más de un correo al mes. Cancela cuando quieras. <br/> Para consultas, envíanos un correo a <a href="mailto:info@openterface.com">info@openterface.com</a>.</p>
+<input class="button" data-i18n-attr="value" data-i18n-key="footer_submit_button" id="form-submit" name="submit" type="submit" value="✉️ Subscribe to the Latest Buzz! 🐝"/>
+<p class="footnote" data-i18n-html="true" data-i18n-key="footer_footnote">
+                  No more than one email a month. Unsubscribe anytime. <br/> For inquiries, email us at <a href="mailto:info@openterface.com">info@openterface.com</a>.
+                </p>
 </div>
 </div>
 </form>
@@ -2340,63 +2293,6 @@
       langselect.async = false; // Load synchronously to ensure it's available
       document.body.appendChild(langselect);
     })();
-  </script>
-<!-- Subscribe Form AJAX Handler -->
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const form = document.getElementById('subscribe-form');
-      const submitBtn = document.getElementById('form-submit');
-      const originalBtnValue = submitBtn.value;
-
-      if (form) {
-        form.addEventListener('submit', function(e) {
-          e.preventDefault();
-
-          // Get form data
-          const formData = new FormData(form);
-          const data = {
-            email: formData.get('email'),
-            name: formData.get('name')
-          };
-
-          // Disable button and change text
-          submitBtn.disabled = true;
-          submitBtn.value = 'Subscribing...';
-
-          // Send AJAX request
-          fetch('https://subscribe.openterface.com/api/subscribe/', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(data)
-          })
-          .then(response => response.json())
-          .then(result => {
-            if (result.success) {
-              submitBtn.value = 'Successfully subscribed!';
-              // Clear form fields
-              form.reset();
-            } else {
-              // Handle error response
-              submitBtn.value = 'Subscription failed. Try again.';
-              submitBtn.disabled = false;
-              setTimeout(() => {
-                submitBtn.value = originalBtnValue;
-              }, 3000);
-            }
-          })
-          .catch(error => {
-            console.error('Error:', error);
-            submitBtn.value = 'An error occurred. Try again.';
-            submitBtn.disabled = false;
-            setTimeout(() => {
-              submitBtn.value = originalBtnValue;
-            }, 3000);
-          });
-        });
-      }
-    });
   </script>
 </footer>
 </div>
@@ -2855,10 +2751,12 @@
 <script src="../../js/timeago_mkdocs_material.js"></script>
 <script src="../../js/timeago.min.js"></script>
 <script src="../../js/timeago_mkdocs_material.js"></script>
-<script src="https://assets.openterface.com/js/custom.min.js"></script>
-<script src="../../assets/javascripts/slideshow.js"></script>
-<script src="../../assets/javascripts/download-selector.js"></script>
-<script src="../../assets/javascripts/extra.js"></script>
+<!-- Load i18n handler first (needed for forms translation) -->
+<script src="../../assets/javascripts/i18n-handler.js"></script>
+<!-- Load subscribe.js globally (needed for footer and product signup forms) -->
+<script src="../../assets/javascripts/subscribe.js"></script>
+<!-- Conditionally load slideshow.js only on product pages -->
+<!-- Conditionally load home-carousel.js only on homepage -->
 <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
 document$.subscribe(()=>{ lightbox.reload(); });
 </script></body></html>

@@ -176,7 +176,7 @@
 }
 
 #product-signup-form {
-    max-width: 500px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
@@ -187,14 +187,21 @@
     align-items: stretch;
 }
 
-.product-signup-email-field {
+.product-signup-name-field {
     flex: 1;
+    min-width: 150px;
+}
+
+.product-signup-email-field {
+    flex: 1.5;
+    min-width: 200px;
 }
 
 .product-signup-button-field {
     flex: 0 0 auto;
 }
 
+#product-signup-form input[type="text"],
 #product-signup-form input[type="email"] {
     width: 100%;
     padding: 0.6rem;
@@ -206,12 +213,14 @@
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
+#product-signup-form input[type="text"]:focus,
 #product-signup-form input[type="email"]:focus {
     outline: none;
     border-color: var(--md-accent-fg-color);
     box-shadow: 0 0 0 2px rgba(var(--md-accent-fg-color--rgb), 0.2);
 }
 
+#product-signup-form input[type="text"]::placeholder,
 #product-signup-form input[type="email"]::placeholder {
     color: var(--md-default-fg-color--light);
 }
@@ -230,13 +239,30 @@
     min-width: 120px;
 }
 
-#product-signup-form .button:hover {
+#product-signup-form .button:hover:not(:disabled) {
     background-color: #FAA22B;
     transform: translateY(-1px);
 }
 
-#product-signup-form .button:active {
+#product-signup-form .button:active:not(:disabled) {
     transform: translateY(0);
+}
+
+#product-signup-form .button:disabled {
+    cursor: not-allowed;
+    opacity: 0.8;
+}
+
+#product-signup-form .button.submitting {
+    background-color: #FAA22B !important;
+}
+
+#product-signup-form .button.success {
+    background-color: #2e4e1f !important;
+}
+
+#product-signup-form .button.error {
+    background-color: #d32f2f !important;
 }
 
 /* Dark mode adjustments */
@@ -245,6 +271,7 @@
     border-color: var(--md-code-hl-border-color);
 }
 
+[data-md-color-scheme="slate"] #product-signup-form input[type="text"],
 [data-md-color-scheme="slate"] #product-signup-form input[type="email"] {
     background-color: var(--md-default-bg-color);
     border-color: var(--md-code-hl-border-color);
@@ -280,6 +307,7 @@
         margin-bottom: 0.5rem;
     }
     
+    #product-signup-form input[type="text"],
     #product-signup-form input[type="email"] {
         padding: 0.5rem;
         font-size: 0.85rem;
@@ -288,5 +316,28 @@
     #product-signup-form .button {
         padding: 0.5rem 0.75rem;
         font-size: 0.85rem;
+        min-width: 100px;
+    }
+}
+
+/* Extra small screens */
+@media screen and (max-width: 30em) {
+    .product-signup-container {
+        padding: 0.5rem;
+    }
+    
+    .product-signup-container p {
+        font-size: 0.7rem;
+    }
+    
+    #product-signup-form input[type="text"],
+    #product-signup-form input[type="email"] {
+        padding: 0.4rem;
+        font-size: 0.8rem;
+    }
+    
+    #product-signup-form .button {
+        padding: 0.4rem 0.5rem;
+        font-size: 0.8rem;
     }
 }

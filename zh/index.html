@@ -32,9 +32,21 @@
 <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
 <link href="../assets/stylesheets/custom.css" rel="stylesheet"/>
 <link href="../assets/stylesheets/signup_form.css" rel="stylesheet"/>
-<link href="../assets/stylesheets/slideshow.css" rel="stylesheet"/>
-<link href="../assets/stylesheets/version-selector.css" rel="stylesheet"/>
-<link href="../assets/stylesheets/youtube-videos.css" rel="stylesheet"/>
+<!-- Conditionally load slideshow.css only on product pages -->
+<!-- Conditionally load youtube-videos.css only on videos pages -->
+<!-- Language Alternates (hreflang for SEO) -->
+<!-- hreflang links - Auto-generated from i18n.yml -->
+<link href="https://openterface.com//" hreflang="en" rel="alternate"/>
+<link href="https://openterface.com//zh/" hreflang="zh" rel="alternate"/>
+<link href="https://openterface.com//ja/" hreflang="ja" rel="alternate"/>
+<link href="https://openterface.com//ko/" hreflang="ko" rel="alternate"/>
+<link href="https://openterface.com//fr/" hreflang="fr" rel="alternate"/>
+<link href="https://openterface.com//de/" hreflang="de" rel="alternate"/>
+<link href="https://openterface.com//it/" hreflang="it" rel="alternate"/>
+<link href="https://openterface.com//es/" hreflang="es" rel="alternate"/>
+<link href="https://openterface.com//pt/" hreflang="pt" rel="alternate"/>
+<link href="https://openterface.com//ro/" hreflang="ro" rel="alternate"/>
+<link href="https://openterface.com//" hreflang="x-default" rel="alternate"/>
 <!-- Determine current locale -->
 <!-- Gibby Avatar and Dialogue Box -->
 <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
@@ -247,11 +259,11 @@
     })();
   </script>
 <!-- SEO Metadata -->
-<meta content="发现 Openterface - 超迷你便携式 USB-KVM 解决方案，包括 KVM-GO 系列（钥匙扣大小）、Mini-KVM 系列和 uConsole KVM 扩展。面向 IT 专业人士、开发者和服务器管理的开源功能丰富工具。" name="description"/>
+<meta content="探索 Openterface - 超紧凑型 USB-KVM 解决方案，包括 KVM-GO 系列（钥匙扣尺寸）、Mini-KVM 系列和 uConsole KVM 扩展板。为 IT 专业人士、开发者和服务器管理打造的开源、功能丰富的工具。" name="description"/>
 <meta content="KVM-over-USB, KVM切换器, 便携式KVM, USB KVM, 无头服务器管理, IT工具, 服务器控制台, 远程服务器访问, KVM-GO, Mini-KVM, uConsole KVM, 开源KVM, 超紧凑KVM, 钥匙扣KVM, 4K KVM, DisplayPort KVM, HDMI KVM, VGA KVM" name="keywords"/>
 <meta content="Openterface" name="author"/>
 <meta content="index, follow" name="robots"/>
-<link href="https://openterface.com//zh/" rel="canonical"/>
+<link href="https://openterface.com/zh/" rel="canonical"/>
 <!-- Open Graph / Facebook -->
 <meta content="website" property="og:type"/>
 <meta content="https://openterface.com/zh" property="og:url"/>
@@ -262,22 +274,10 @@
 <meta content="Openterface" property="og:site_name"/>
 <!-- Twitter Card -->
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="https://openterface.com//zh/" name="twitter:url"/>
-<meta content="Openterface | 面向 IT 专业人士的超迷你 KVM 解决方案" name="twitter:title"/>
-<meta content="发现 Openterface - 超迷你便携式 USB-KVM 解决方案，包括 KVM-GO 系列（钥匙扣大小）、Mini-KVM 系列和 uConsole KVM 扩展。" name="twitter:description"/>
+<meta content="https://openterface.com/zh/" name="twitter:url"/>
+<meta content="Openterface | 为 IT 专业人士打造的超紧凑型 KVM 解决方案" name="twitter:title"/>
+<meta content="探索 Openterface - 超紧凑型 USB-KVM 解决方案，包括 KVM-GO 系列（钥匙扣尺寸）、Mini-KVM 系列和 uConsole KVM 扩展板。" name="twitter:description"/>
 <meta content="https://assets.openterface.com/images/kvm-go-triple.png" name="twitter:image"/>
-<!-- Language Alternates -->
-<link href="https://openterface.com//" hreflang="en" rel="alternate"/>
-<link href="https://openterface.com//de/" hreflang="de" rel="alternate"/>
-<link href="https://openterface.com//es/" hreflang="es" rel="alternate"/>
-<link href="https://openterface.com//fr/" hreflang="fr" rel="alternate"/>
-<link href="https://openterface.com//it/" hreflang="it" rel="alternate"/>
-<link href="https://openterface.com//ja/" hreflang="ja" rel="alternate"/>
-<link href="https://openterface.com//ko/" hreflang="ko" rel="alternate"/>
-<link href="https://openterface.com//pt/" hreflang="pt" rel="alternate"/>
-<link href="https://openterface.com//ro/" hreflang="ro" rel="alternate"/>
-<link href="https://openterface.com//zh/" hreflang="zh" rel="alternate"/>
-<link href="https://openterface.com//" hreflang="x-default" rel="alternate"/>
 <script>
     // Add class to body to identify homepage (run immediately)
     (function() {
@@ -588,29 +588,30 @@
 <div class="mdx-carousel-wrapper">
 <!-- Main Carousel Content -->
 <div aria-label="Featured highlights carousel" class="mdx-carousel" data-autoplay="true" data-interval="6000" id="mdx-carousel" role="region">
-<!-- Slide 1: KVM-GO 系列 -->
+<!-- Slide 1: KVM-GO Series -->
 <div class="carousel-slide carousel-slide--active" data-slide-index="1">
 <div class="carousel-content-left">
 <div class="carousel-category">KVM-GO 系列</div>
 <h1 class="carousel-headline">超迷你便携式 KVM，可随身挂在钥匙扣上</h1>
-<p class="carousel-description">
-              专为随身携带而设计，让你在关键时刻迅速完成 IT 操作。这是一款面向现场运维的下一代 USB-KVM 小工具。
-            </p>
+<p class="carousel-description">专为随身携带而设计，让你在关键时刻迅速完成 IT 操作。这是一款面向现场运维的下一代 USB-KVM 小工具。</p>
 <div class="carousel-actions">
 <a class="md-button md-button--primary carousel-btn-preorder" href="https://www.crowdsupply.com/techxartisan/openterface-kvm-go" rel="noopener noreferrer" target="_blank">
-                参与众筹
-                <svg class="carousel-btn-icon" version="1.1" viewbox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
+<span>参与众筹</span>
+<svg class="carousel-btn-icon" version="1.1" viewbox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
 <path d="M 68.3,9.7 8,70 68.3,130.3 Z" fill="#555"></path>
 <path d="M 71.7,9.7 V 130.3 L 132,70 Z" fill="#099"></path>
 <path d="m 90.7,91 c -6.6,0 -11.8,-3.6 -14,-12 l 8,-1.7 c 0.9,5.1 3.9,7 6.3,7 2.8,0 5,-1.9 5,-5.1 0,-8 -18.2,-8.2 -18.2,-20.1 0,-7.3 4.4,-12 12.8,-12 7.3,0 11.7,4.3 13.1,10.4 l -7.3,2.1 c -1.4,-4 -3.1,-5.7 -6,-5.7 -2.9,0 -4.5,1.8 -4.5,4.7 0,6.4 18.2,6.9 18.2,20.3 0.2,7.2 -4.9,12.1 -13.4,12.1 z" fill="#FFF"></path>
 <path d="m 60.7,63.9 h -8.2 v -3.6 c 0,-4.7 -2.1,-6 -5.3,-6 -3.2,0 -5.3,1.3 -5.3,6 v 17.4 c 0,4.7 2.1,6 5.3,6 3.2,0 5.3,-1.3 5.3,-6 v -3.8 h 8.2 v 2.7 c 0,10.5 -5.6,14.3 -13.5,14.3 -7.9,0 -13.5,-3.8 -13.5,-14.3 V 61.4 c 0,-10.5 5.6,-14.3 13.5,-14.3 7.9,0 13.5,3.8 13.5,14.3 z" fill="#FFF"></path>
 </svg>
 </a>
+<a class="md-button carousel-btn-docs" href="../product/kvm-go/">
+<span>查看文档</span>
+</a>
 <div class="carousel-countdown" id="kvm-go-countdown"></div>
 </div>
 </div>
 <div class="carousel-content-right">
-<img alt="KVM-GO 系列" class="carousel-random-image" data-slide-images='["../assets/images/kvm-go-triple.png", "../assets/images/kvm-go-triple-2.png"]' draggable="false" fetchpriority="high" loading="eager" src="../assets/images/kvm-go-triple.png"/>
+<img alt="KVM-GO Series" class="carousel-random-image" data-slide-images='["../assets/images/kvm-go-triple.png", "../assets/images/kvm-go-triple-2.png"]' draggable="false" fetchpriority="high" loading="eager" src="../assets/images/kvm-go-triple.png"/>
 </div>
 </div>
 <!-- Slide 2: Mini-KVM -->
@@ -618,18 +619,19 @@
 <div class="carousel-content-left">
 <div class="carousel-category">Mini-KVM 系列</div>
 <h1 class="carousel-headline">为专业人士打造的紧凑型 KVM 方案</h1>
-<p class="carousel-description">
-              一款紧凑、功能丰富、开源的 USB-KVM 解决方案，帮助你轻松处理各种临时 IT 任务与故障排查。
-            </p>
+<p class="carousel-description">一款紧凑、功能丰富、开源的 USB-KVM 解决方案，帮助你轻松处理各种临时 IT 任务与故障排查。</p>
 <div class="carousel-actions">
 <a class="md-button md-button--primary carousel-btn-secondary" href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm" rel="noopener noreferrer" target="_blank">
-                立即购买
-                <svg class="carousel-btn-icon" version="1.1" viewbox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
+<span>立即购买</span>
+<svg class="carousel-btn-icon" version="1.1" viewbox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
 <path d="M 68.3,9.7 8,70 68.3,130.3 Z" fill="#555"></path>
 <path d="M 71.7,9.7 V 130.3 L 132,70 Z" fill="#099"></path>
 <path d="m 90.7,91 c -6.6,0 -11.8,-3.6 -14,-12 l 8,-1.7 c 0.9,5.1 3.9,7 6.3,7 2.8,0 5,-1.9 5,-5.1 0,-8 -18.2,-8.2 -18.2,-20.1 0,-7.3 4.4,-12 12.8,-12 7.3,0 11.7,4.3 13.1,10.4 l -7.3,2.1 c -1.4,-4 -3.1,-5.7 -6,-5.7 -2.9,0 -4.5,1.8 -4.5,4.7 0,6.4 18.2,6.9 18.2,20.3 0.2,7.2 -4.9,12.1 -13.4,12.1 z" fill="#FFF"></path>
 <path d="m 60.7,63.9 h -8.2 v -3.6 c 0,-4.7 -2.1,-6 -5.3,-6 -3.2,0 -5.3,1.3 -5.3,6 v 17.4 c 0,4.7 2.1,6 5.3,6 3.2,0 5.3,-1.3 5.3,-6 v -3.8 h 8.2 v 2.7 c 0,10.5 -5.6,14.3 -13.5,14.3 -7.9,0 -13.5,-3.8 -13.5,-14.3 V 61.4 c 0,-10.5 5.6,-14.3 13.5,-14.3 7.9,0 13.5,3.8 13.5,14.3 z" fill="#FFF"></path>
 </svg>
+</a>
+<a class="md-button carousel-btn-docs" href="../product/minikvm/">
+<span>查看文档</span>
 </a>
 </div>
 </div>
@@ -642,17 +644,18 @@
 <div class="carousel-content-left">
 <div class="carousel-category">uConsole 扩展系列</div>
 <h1 class="carousel-headline">让你的 uConsole 变身便携式 KVM 控制台</h1>
-<p class="carousel-description">
-              让 uConsole 直接成为便携式 KVM 控制台——现已开放 Openterface KVM uConsole 扩展板的预售，一体化便携方案。
-            </p>
+<p class="carousel-description">让 uConsole 直接成为便携式 KVM 控制台——现已开放 Openterface KVM uConsole 扩展板的预售，一体化便携方案。</p>
 <div class="carousel-actions">
 <a class="md-button md-button--primary carousel-btn-secondary" href="https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole" rel="noopener noreferrer" target="_blank">
-                立即购买
-                <svg class="carousel-btn-icon" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+<span>立即购买</span>
+<svg class="carousel-btn-icon" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
 <path d="M166.32,10H33.68A23.68,23.68,0,0,0,10,33.68V166.32A23.68,23.68,0,0,0,33.68,190H166.32A23.68,23.68,0,0,0,190,166.32V33.68A23.68,23.68,0,0,0,166.32,10ZM150.21,79H134.55l-21.4,21.4L133.82,121h16.39v29.18H121V134.56l-21-21-21,21v15.66H49.79V121H66.17l20.67-20.66L65.44,79H49.79V49.79H79V66.18l21,21,21-21V49.79h29.18Z" fill="#faa22c"></path>
 <path d="M150.21,79V49.79H121V66.17l-21,21-21-21V49.79H49.79V79H65.44l21.4,21.4L66.17,121H49.79v29.18H79V134.55l21-21,21,21v15.65h29.18V121H133.82l-20.67-20.66L134.55,79ZM100,106.21h0L73.73,132.48a9.79,9.79,0,0,1,.5,3.08,9.92,9.92,0,1,1-9.92-9.91,9.81,9.81,0,0,1,3.27.56L93.79,100,67.05,73.26a9.91,9.91,0,1,1,7.18-9.53,9.73,9.73,0,0,1-.69,3.6L106.21,100Z" fill="#211e1f"></path>
 <path d="M100,106.21l6.21-6.21L73.54,67.33a9.73,9.73,0,0,0,.69-3.6,9.94,9.94,0,1,0-7.18,9.53L93.79,100,67.58,126.21a9.81,9.81,0,0,0-3.27-.56,9.91,9.91,0,1,0,9.92,9.91,9.79,9.79,0,0,0-.5-3.08L100,106.21Z" fill="#f9f9fa"></path>
 </svg>
+</a>
+<a class="md-button carousel-btn-docs" href="../product/uconsole-kvm-extension/">
+<span>查看文档</span>
 </a>
 </div>
 </div>
@@ -660,14 +663,12 @@
 <img alt="uConsole KVM Extension" class="carousel-lazy-image carousel-random-image" data-slide-images='["../assets/images/op-uconsole-ext-c1.png", "../assets/images/uconsole.png"]' data-src="../assets/images/uconsole.png" draggable="false" loading="lazy"/>
 </div>
 </div>
-<!-- Slide 4: TxA 商店 - Accessories -->
+<!-- Slide 4: TxA Shop - Accessories -->
 <div class="carousel-slide" data-slide-index="4">
 <div class="carousel-content-left">
 <div class="carousel-category">TxA 商店</div>
 <h1 class="carousel-headline">用高品质配件完善你的整套方案</h1>
-<p class="carousel-description">
-              探索我们精选的专业配件，包括视频适配器、高速线材及存储方案。用高品质配件全面提升你的 Openterface 体验。
-            </p>
+<p class="carousel-description">探索我们精选的专业配件，包括视频适配器、高速线材及存储方案。用高品质配件全面提升你的 Openterface 体验。</p>
 <div class="carousel-actions">
 <a class="md-button md-button--primary carousel-btn-xmas" href="https://shop.techxartisan.com/" rel="noopener noreferrer" target="_blank">
 <span>🎄 圣诞特惠</span>
@@ -680,7 +681,7 @@
 </div>
 </div>
 <div class="carousel-content-right">
-<img alt="TxA 商店 Accessories" class="carousel-lazy-image" data-src="https://assets.openterface.com/images/cover-Gibby-with-Christmas-hat_resized.webp" draggable="false" loading="lazy"/>
+<img alt="TxA Shop Accessories" class="carousel-lazy-image" data-src="https://assets.openterface.com/images/cover-Gibby-with-Christmas-hat_resized.webp" draggable="false" loading="lazy"/>
 </div>
 </div>
 </div>
@@ -1775,19 +1776,20 @@
 <div class="md-footer-meta__inner md-grid footer-flex-container">
 <!-- Signup form -->
 <div class="signup-form-container footer-flex-item">
-<!-- All languages submit via AJAX -->
-<div id="form_signup">
+<div data-i18n-file="forms" id="form_signup">
 <form id="subscribe-form" name="subscribe-form">
 <div id="form_signup_scroll">
 <div class="gf-field-group">
-<input class="required" id="form-name" name="name" placeholder="您的姓名" required="" type="text"/>
+<input class="required" data-i18n-attr="placeholder" data-i18n-key="footer_name_placeholder" id="form-name" name="name" placeholder="Your Name" required="" type="text"/>
 </div>
 <div class="gf-field-group">
-<input class="required email" id="form-email" name="email" placeholder="您的电子邮箱地址 *" required="" type="email"/>
+<input class="required email" data-i18n-attr="placeholder" data-i18n-key="footer_email_placeholder" id="form-email" name="email" placeholder="Your Email Address *" required="" type="email"/>
 </div>
 <div class="clear">
-<input class="button" id="form-submit" name="submit" type="submit" value="✉️ 订阅最新动态！🐝"/>
-<p class="footnote">每月最多一封邮件。随时可以取消订阅。<br/> 如有疑问，请发送邮件至 <a href="mailto:info@openterface.com">info@openterface.com</a>。</p>
+<input class="button" data-i18n-attr="value" data-i18n-key="footer_submit_button" id="form-submit" name="submit" type="submit" value="✉️ Subscribe to the Latest Buzz! 🐝"/>
+<p class="footnote" data-i18n-html="true" data-i18n-key="footer_footnote">
+                  No more than one email a month. Unsubscribe anytime. <br/> For inquiries, email us at <a href="mailto:info@openterface.com">info@openterface.com</a>.
+                </p>
 </div>
 </div>
 </form>
@@ -1851,63 +1853,6 @@
       langselect.async = false; // Load synchronously to ensure it's available
       document.body.appendChild(langselect);
     })();
-  </script>
-<!-- Subscribe Form AJAX Handler -->
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const form = document.getElementById('subscribe-form');
-      const submitBtn = document.getElementById('form-submit');
-      const originalBtnValue = submitBtn.value;
-
-      if (form) {
-        form.addEventListener('submit', function(e) {
-          e.preventDefault();
-
-          // Get form data
-          const formData = new FormData(form);
-          const data = {
-            email: formData.get('email'),
-            name: formData.get('name')
-          };
-
-          // Disable button and change text
-          submitBtn.disabled = true;
-          submitBtn.value = 'Subscribing...';
-
-          // Send AJAX request
-          fetch('https://subscribe.openterface.com/api/subscribe/', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(data)
-          })
-          .then(response => response.json())
-          .then(result => {
-            if (result.success) {
-              submitBtn.value = 'Successfully subscribed!';
-              // Clear form fields
-              form.reset();
-            } else {
-              // Handle error response
-              submitBtn.value = 'Subscription failed. Try again.';
-              submitBtn.disabled = false;
-              setTimeout(() => {
-                submitBtn.value = originalBtnValue;
-              }, 3000);
-            }
-          })
-          .catch(error => {
-            console.error('Error:', error);
-            submitBtn.value = 'An error occurred. Try again.';
-            submitBtn.disabled = false;
-            setTimeout(() => {
-              submitBtn.value = originalBtnValue;
-            }, 3000);
-          });
-        });
-      }
-    });
   </script>
 </footer>
 </div>
@@ -2354,12 +2299,13 @@
 <script src="../js/timeago_mkdocs_material.js"></script>
 <script src="../js/timeago.min.js"></script>
 <script src="../js/timeago_mkdocs_material.js"></script>
-<script src="https://assets.openterface.com/js/custom.min.js"></script>
-<script src="../assets/javascripts/slideshow.js"></script>
-<script src="../assets/javascripts/download-selector.js"></script>
-<script src="../assets/javascripts/extra.js"></script>
-<script src="../assets/javascripts/xmas-progress.js"></script>
-<script src="../assets/javascripts/carousel-random-images.js"></script>
+<!-- Load i18n handler first (needed for forms translation) -->
+<script src="../assets/javascripts/i18n-handler.js"></script>
+<!-- Load subscribe.js globally (needed for footer and product signup forms) -->
+<script src="../assets/javascripts/subscribe.js"></script>
+<!-- Conditionally load slideshow.js only on product pages -->
+<!-- Conditionally load home-carousel.js only on homepage -->
+<script src="../assets/javascripts/home-carousel.js"></script>
 <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
 document$.subscribe(()=>{ lightbox.reload(); });
 </script></body></html>

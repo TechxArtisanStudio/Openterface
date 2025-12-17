@@ -172,9 +172,26 @@
     
   <link rel="stylesheet" href="/assets/stylesheets/custom.css">
   <link rel="stylesheet" href="/assets/stylesheets/signup_form.css">
-  <link rel="stylesheet" href="/assets/stylesheets/slideshow.css">
-  <link rel="stylesheet" href="/assets/stylesheets/version-selector.css">
-  <link rel="stylesheet" href="/assets/stylesheets/youtube-videos.css">
+  
+  <!-- Conditionally load slideshow.css only on product pages -->
+  
+  
+  <!-- Conditionally load youtube-videos.css only on videos pages -->
+  
+  
+  <!-- Language Alternates (hreflang for SEO) -->
+  <!-- hreflang links - Auto-generated from i18n.yml -->
+<link rel="alternate" hreflang="en" href="https://openterface.com//">
+<link rel="alternate" hreflang="zh" href="https://openterface.com//zh/">
+<link rel="alternate" hreflang="ja" href="https://openterface.com//ja/">
+<link rel="alternate" hreflang="ko" href="https://openterface.com//ko/">
+<link rel="alternate" hreflang="fr" href="https://openterface.com//fr/">
+<link rel="alternate" hreflang="de" href="https://openterface.com//de/">
+<link rel="alternate" hreflang="it" href="https://openterface.com//it/">
+<link rel="alternate" hreflang="es" href="https://openterface.com//es/">
+<link rel="alternate" hreflang="pt" href="https://openterface.com//pt/">
+<link rel="alternate" hreflang="ro" href="https://openterface.com//ro/">
+<link rel="alternate" hreflang="x-default" href="https://openterface.com//">
   
   <!-- Determine current locale -->
   
@@ -3598,27 +3615,42 @@
 
       <!-- Signup form -->
       <div class="signup-form-container footer-flex-item">
-        
-        <!-- All languages submit via AJAX -->
-        <div id="form_signup">
-          <form id="subscribe-form" 
-                name="subscribe-form">
+        <div id="form_signup" data-i18n-file="forms">
+          <form id="subscribe-form" name="subscribe-form">
             <div id="form_signup_scroll">
               <div class="gf-field-group">
-                
-                  <input type="text" name="name" class="required" id="form-name" required placeholder="Numele tău">
-                
+                <input type="text" 
+                       name="name" 
+                       class="required" 
+                       id="form-name" 
+                       required 
+                       data-i18n-key="footer_name_placeholder"
+                       data-i18n-attr="placeholder"
+                       placeholder="Your Name">
               </div>
               <div class="gf-field-group">
-                
-                  <input type="email" name="email" class="required email" id="form-email" required placeholder="Adresa ta de email *">
-                
+                <input type="email" 
+                       name="email" 
+                       class="required email" 
+                       id="form-email" 
+                       required 
+                       data-i18n-key="footer_email_placeholder"
+                       data-i18n-attr="placeholder"
+                       placeholder="Your Email Address *">
               </div>
               <div class="clear">
-                
-                  <input type="submit" name="submit" id="form-submit" class="button" value="✉️ Abonează-te la cele mai noi știri! 🐝">
-                  <p class="footnote">Nu mai mult de un email pe lună. Dezabonare oricând. <br> Pentru întrebări, trimite-ne un email la <a href="mailto:info@openterface.com">info@openterface.com</a>.</p>
-                
+                <input type="submit" 
+                       name="submit" 
+                       id="form-submit" 
+                       class="button" 
+                       data-i18n-key="footer_submit_button"
+                       data-i18n-attr="value"
+                       value="✉️ Subscribe to the Latest Buzz! 🐝">
+                <p class="footnote" 
+                   data-i18n-key="footer_footnote"
+                   data-i18n-html="true">
+                  No more than one email a month. Unsubscribe anytime. <br> For inquiries, email us at <a href="mailto:info@openterface.com">info@openterface.com</a>.
+                </p>
               </div>
             </div>
           </form>
@@ -3743,64 +3775,6 @@
       langselect.async = false; // Load synchronously to ensure it's available
       document.body.appendChild(langselect);
     })();
-  </script>
-
-  <!-- Subscribe Form AJAX Handler -->
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const form = document.getElementById('subscribe-form');
-      const submitBtn = document.getElementById('form-submit');
-      const originalBtnValue = submitBtn.value;
-
-      if (form) {
-        form.addEventListener('submit', function(e) {
-          e.preventDefault();
-
-          // Get form data
-          const formData = new FormData(form);
-          const data = {
-            email: formData.get('email'),
-            name: formData.get('name')
-          };
-
-          // Disable button and change text
-          submitBtn.disabled = true;
-          submitBtn.value = 'Subscribing...';
-
-          // Send AJAX request
-          fetch('https://subscribe.openterface.com/api/subscribe/', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(data)
-          })
-          .then(response => response.json())
-          .then(result => {
-            if (result.success) {
-              submitBtn.value = 'Successfully subscribed!';
-              // Clear form fields
-              form.reset();
-            } else {
-              // Handle error response
-              submitBtn.value = 'Subscription failed. Try again.';
-              submitBtn.disabled = false;
-              setTimeout(() => {
-                submitBtn.value = originalBtnValue;
-              }, 3000);
-            }
-          })
-          .catch(error => {
-            console.error('Error:', error);
-            submitBtn.value = 'An error occurred. Try again.';
-            submitBtn.disabled = false;
-            setTimeout(() => {
-              submitBtn.value = originalBtnValue;
-            }, 3000);
-          });
-        });
-      }
-    });
   </script>
 </footer>
       
@@ -4356,10 +4330,18 @@
         <script src="/js/timeago_mkdocs_material.js"></script>
       
     
-  <script src="https://assets.openterface.com/js/custom.min.js"></script>
-  <script src="/assets/javascripts/slideshow.js"></script>
-  <script src="/assets/javascripts/download-selector.js"></script>
-  <script src="/assets/javascripts/extra.js"></script>
+  
+  <!-- Load i18n handler first (needed for forms translation) -->
+  <script src="/assets/javascripts/i18n-handler.js"></script>
+  
+  <!-- Load subscribe.js globally (needed for footer and product signup forms) -->
+  <script src="/assets/javascripts/subscribe.js"></script>
+  
+  <!-- Conditionally load slideshow.js only on product pages -->
+  
+  
+  <!-- Conditionally load home-carousel.js only on homepage -->
+  
 
   </body>
 </html>

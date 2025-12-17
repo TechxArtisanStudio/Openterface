@@ -4,40 +4,27 @@
   {{ super() }}
   
   <!-- SEO Metadata -->
-  <meta name="description" content="发现 Openterface - 超迷你便携式 USB-KVM 解决方案，包括 KVM-GO 系列（钥匙扣大小）、Mini-KVM 系列和 uConsole KVM 扩展。面向 IT 专业人士、开发者和服务器管理的开源功能丰富工具。">
-  <meta name="keywords" content="USB-KVM, KVM 切换器, 便携式 KVM, USB KVM, 无头服务器管理, IT 工具, 服务器控制台, 远程服务器访问, KVM-GO, Mini-KVM, uConsole KVM, 开源 KVM, 超迷你 KVM, 钥匙扣 KVM, 4K KVM, DisplayPort KVM, HDMI KVM, VGA KVM">
+  <meta name="description" content="探索 Openterface - 超紧凑型 USB-KVM 解决方案，包括 KVM-GO 系列（钥匙扣尺寸）、Mini-KVM 系列和 uConsole KVM 扩展板。为 IT 专业人士、开发者和服务器管理打造的开源、功能丰富的工具。">
+  <meta name="keywords" content="USB-KVM, KVM 切换器, 便携式 KVM, USB KVM, 无头服务器管理, IT 工具, 服务器控制台, 远程服务器访问, KVM-GO, Mini-KVM, uConsole KVM, 开源 KVM, 超紧凑 KVM, 钥匙扣 KVM, 4K KVM, DisplayPort KVM, HDMI KVM, VGA KVM">
   <meta name="author" content="Openterface">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="{{ config.site_url }}/zh/">
+  <link rel="canonical" href="{{ config.site_url }}{{ page.url if page.url else '/' }}">
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ config.site_url }}/zh/">
-  <meta property="og:title" content="Openterface | 面向 IT 专业人士的超迷你 KVM 解决方案">
-  <meta property="og:description" content="发现 Openterface - 超迷你便携式 USB-KVM 解决方案，包括 KVM-GO 系列（钥匙扣大小）、Mini-KVM 系列和 uConsole KVM 扩展。面向 IT 专业人士、开发者和服务器管理的开源功能丰富工具。">
+  <meta property="og:url" content="{{ config.site_url }}{{ page.url if page.url else '/' }}">
+  <meta property="og:title" content="Openterface | 为 IT 专业人士打造的超紧凑型 KVM 解决方案">
+  <meta property="og:description" content="探索 Openterface - 超紧凑型 USB-KVM 解决方案，包括 KVM-GO 系列（钥匙扣尺寸）、Mini-KVM 系列和 uConsole KVM 扩展板。为 IT 专业人士、开发者和服务器管理打造的开源、功能丰富的工具。">
   <meta property="og:image" content="https://assets.openterface.com/images/kvm-go-triple.png">
   <meta property="og:locale" content="zh_CN">
   <meta property="og:site_name" content="Openterface">
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="{{ config.site_url }}/zh/">
-  <meta name="twitter:title" content="Openterface | 面向 IT 专业人士的超迷你 KVM 解决方案">
-  <meta name="twitter:description" content="发现 Openterface - 超迷你便携式 USB-KVM 解决方案，包括 KVM-GO 系列（钥匙扣大小）、Mini-KVM 系列和 uConsole KVM 扩展。">
+  <meta name="twitter:url" content="{{ config.site_url }}{{ page.url if page.url else '/' }}">
+  <meta name="twitter:title" content="Openterface | 为 IT 专业人士打造的超紧凑型 KVM 解决方案">
+  <meta name="twitter:description" content="探索 Openterface - 超紧凑型 USB-KVM 解决方案，包括 KVM-GO 系列（钥匙扣尺寸）、Mini-KVM 系列和 uConsole KVM 扩展板。">
   <meta name="twitter:image" content="https://assets.openterface.com/images/kvm-go-triple.png">
-  
-  <!-- Language Alternates -->
-  <link rel="alternate" hreflang="en" href="{{ config.site_url }}/">
-  <link rel="alternate" hreflang="de" href="{{ config.site_url }}/de/">
-  <link rel="alternate" hreflang="es" href="{{ config.site_url }}/es/">
-  <link rel="alternate" hreflang="fr" href="{{ config.site_url }}/fr/">
-  <link rel="alternate" hreflang="it" href="{{ config.site_url }}/it/">
-  <link rel="alternate" hreflang="ja" href="{{ config.site_url }}/ja/">
-  <link rel="alternate" hreflang="ko" href="{{ config.site_url }}/ko/">
-  <link rel="alternate" hreflang="pt" href="{{ config.site_url }}/pt/">
-  <link rel="alternate" hreflang="ro" href="{{ config.site_url }}/ro/">
-  <link rel="alternate" hreflang="zh" href="{{ config.site_url }}/zh/">
-  <link rel="alternate" hreflang="x-default" href="{{ config.site_url }}/">
   
   <script>
     // Add class to body to identify homepage (run immediately)
@@ -62,17 +49,15 @@
       <!-- Main Carousel Content -->
       <div class="mdx-carousel" id="mdx-carousel" role="region" aria-label="Featured highlights carousel" data-autoplay="true" data-interval="6000">
         
-        <!-- Slide 1: KVM-GO 系列 -->
+        <!-- Slide 1: KVM-GO Series -->
         <div class="carousel-slide carousel-slide--active" data-slide-index="1">
           <div class="carousel-content-left">
             <div class="carousel-category">KVM-GO 系列</div>
             <h1 class="carousel-headline">超迷你便携式 KVM，可随身挂在钥匙扣上</h1>
-            <p class="carousel-description">
-              专为随身携带而设计，让你在关键时刻迅速完成 IT 操作。这是一款面向现场运维的下一代 USB-KVM 小工具。
-            </p>
+            <p class="carousel-description">专为随身携带而设计，让你在关键时刻迅速完成 IT 操作。这是一款面向现场运维的下一代 USB-KVM 小工具。</p>
             <div class="carousel-actions">
               <a href="https://www.crowdsupply.com/techxartisan/openterface-kvm-go" class="md-button md-button--primary carousel-btn-preorder" target="_blank" rel="noopener noreferrer">
-                参与众筹
+                <span>参与众筹</span>
                 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 140 140" class="carousel-btn-icon">
                   <path d="M 68.3,9.7 8,70 68.3,130.3 Z" fill="#555" />
                   <path d="M 71.7,9.7 V 130.3 L 132,70 Z" fill="#099" />
@@ -80,11 +65,14 @@
                   <path d="m 60.7,63.9 h -8.2 v -3.6 c 0,-4.7 -2.1,-6 -5.3,-6 -3.2,0 -5.3,1.3 -5.3,6 v 17.4 c 0,4.7 2.1,6 5.3,6 3.2,0 5.3,-1.3 5.3,-6 v -3.8 h 8.2 v 2.7 c 0,10.5 -5.6,14.3 -13.5,14.3 -7.9,0 -13.5,-3.8 -13.5,-14.3 V 61.4 c 0,-10.5 5.6,-14.3 13.5,-14.3 7.9,0 13.5,3.8 13.5,14.3 z" fill="#FFF" />
                 </svg>
               </a>
+              <a href="{{ 'product/kvm-go/' | url }}" class="md-button carousel-btn-docs">
+                <span>查看文档</span>
+              </a>
               <div class="carousel-countdown" id="kvm-go-countdown"></div>
             </div>
           </div>
           <div class="carousel-content-right">
-            <img src="{{ 'assets/images/kvm-go-triple.png' | url }}" alt="KVM-GO 系列" loading="eager" draggable="false" fetchpriority="high" data-slide-images='["{{ 'assets/images/kvm-go-triple.png' | url }}", "{{ 'assets/images/kvm-go-triple-2.png' | url }}"]' class="carousel-random-image">
+            <img src="{{ 'assets/images/kvm-go-triple.png' | url }}" alt="KVM-GO Series" loading="eager" draggable="false" fetchpriority="high" data-slide-images='["{{ 'assets/images/kvm-go-triple.png' | url }}", "{{ 'assets/images/kvm-go-triple-2.png' | url }}"]' class="carousel-random-image">
           </div>
         </div>
 
@@ -93,18 +81,19 @@
           <div class="carousel-content-left">
             <div class="carousel-category">Mini-KVM 系列</div>
             <h1 class="carousel-headline">为专业人士打造的紧凑型 KVM 方案</h1>
-            <p class="carousel-description">
-              一款紧凑、功能丰富、开源的 USB-KVM 解决方案，帮助你轻松处理各种临时 IT 任务与故障排查。
-            </p>
+            <p class="carousel-description">一款紧凑、功能丰富、开源的 USB-KVM 解决方案，帮助你轻松处理各种临时 IT 任务与故障排查。</p>
             <div class="carousel-actions">
               <a href="{{ config.extra.minikvm_purchase_link | url }}" class="md-button md-button--primary carousel-btn-secondary" target="_blank" rel="noopener noreferrer">
-                立即购买
+                <span>立即购买</span>
                 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 140 140" class="carousel-btn-icon">
                   <path d="M 68.3,9.7 8,70 68.3,130.3 Z" fill="#555" />
                   <path d="M 71.7,9.7 V 130.3 L 132,70 Z" fill="#099" />
                   <path d="m 90.7,91 c -6.6,0 -11.8,-3.6 -14,-12 l 8,-1.7 c 0.9,5.1 3.9,7 6.3,7 2.8,0 5,-1.9 5,-5.1 0,-8 -18.2,-8.2 -18.2,-20.1 0,-7.3 4.4,-12 12.8,-12 7.3,0 11.7,4.3 13.1,10.4 l -7.3,2.1 c -1.4,-4 -3.1,-5.7 -6,-5.7 -2.9,0 -4.5,1.8 -4.5,4.7 0,6.4 18.2,6.9 18.2,20.3 0.2,7.2 -4.9,12.1 -13.4,12.1 z" fill="#FFF" />
                   <path d="m 60.7,63.9 h -8.2 v -3.6 c 0,-4.7 -2.1,-6 -5.3,-6 -3.2,0 -5.3,1.3 -5.3,6 v 17.4 c 0,4.7 2.1,6 5.3,6 3.2,0 5.3,-1.3 5.3,-6 v -3.8 h 8.2 v 2.7 c 0,10.5 -5.6,14.3 -13.5,14.3 -7.9,0 -13.5,-3.8 -13.5,-14.3 V 61.4 c 0,-10.5 5.6,-14.3 13.5,-14.3 7.9,0 13.5,3.8 13.5,14.3 z" fill="#FFF" />
                 </svg>
+              </a>
+              <a href="{{ 'product/minikvm/' | url }}" class="md-button carousel-btn-docs">
+                <span>查看文档</span>
               </a>
             </div>
           </div>
@@ -118,17 +107,18 @@
           <div class="carousel-content-left">
             <div class="carousel-category">uConsole 扩展系列</div>
             <h1 class="carousel-headline">让你的 uConsole 变身便携式 KVM 控制台</h1>
-            <p class="carousel-description">
-              让 uConsole 直接成为便携式 KVM 控制台——现已开放 Openterface KVM uConsole 扩展板的预售，一体化便携方案。
-            </p>
+            <p class="carousel-description">让 uConsole 直接成为便携式 KVM 控制台——现已开放 Openterface KVM uConsole 扩展板的预售，一体化便携方案。</p>
             <div class="carousel-actions">
               <a href="https://shop.techxartisan.com/products/openterface-kvm-ext-for-uconsole" class="md-button md-button--primary carousel-btn-secondary" target="_blank" rel="noopener noreferrer">
-                立即购买
+                <span>立即购买</span>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" class="carousel-btn-icon">
                   <path fill="#faa22c" d="M166.32,10H33.68A23.68,23.68,0,0,0,10,33.68V166.32A23.68,23.68,0,0,0,33.68,190H166.32A23.68,23.68,0,0,0,190,166.32V33.68A23.68,23.68,0,0,0,166.32,10ZM150.21,79H134.55l-21.4,21.4L133.82,121h16.39v29.18H121V134.56l-21-21-21,21v15.66H49.79V121H66.17l20.67-20.66L65.44,79H49.79V49.79H79V66.18l21,21,21-21V49.79h29.18Z"/>
                   <path fill="#211e1f" d="M150.21,79V49.79H121V66.17l-21,21-21-21V49.79H49.79V79H65.44l21.4,21.4L66.17,121H49.79v29.18H79V134.55l21-21,21,21v15.65h29.18V121H133.82l-20.67-20.66L134.55,79ZM100,106.21h0L73.73,132.48a9.79,9.79,0,0,1,.5,3.08,9.92,9.92,0,1,1-9.92-9.91,9.81,9.81,0,0,1,3.27.56L93.79,100,67.05,73.26a9.91,9.91,0,1,1,7.18-9.53,9.73,9.73,0,0,1-.69,3.6L106.21,100Z"/>
                   <path fill="#f9f9fa" d="M100,106.21l6.21-6.21L73.54,67.33a9.73,9.73,0,0,0,.69-3.6,9.94,9.94,0,1,0-7.18,9.53L93.79,100,67.58,126.21a9.81,9.81,0,0,0-3.27-.56,9.91,9.91,0,1,0,9.92,9.91,9.79,9.79,0,0,0-.5-3.08L100,106.21Z"/>
                 </svg>
+              </a>
+              <a href="{{ 'product/uconsole-kvm-extension/' | url }}" class="md-button carousel-btn-docs">
+                <span>查看文档</span>
               </a>
             </div>
           </div>
@@ -137,14 +127,12 @@
           </div>
         </div>
 
-        <!-- Slide 4: TxA 商店 - Accessories -->
+        <!-- Slide 4: TxA Shop - Accessories -->
         <div class="carousel-slide" data-slide-index="4">
           <div class="carousel-content-left">
             <div class="carousel-category">TxA 商店</div>
             <h1 class="carousel-headline">用高品质配件完善你的整套方案</h1>
-            <p class="carousel-description">
-              探索我们精选的专业配件，包括视频适配器、高速线材及存储方案。用高品质配件全面提升你的 Openterface 体验。
-            </p>
+            <p class="carousel-description">探索我们精选的专业配件，包括视频适配器、高速线材及存储方案。用高品质配件全面提升你的 Openterface 体验。</p>
             <div class="carousel-actions">
               <a href="https://shop.techxartisan.com/" class="md-button md-button--primary carousel-btn-xmas" target="_blank" rel="noopener noreferrer">
                 <span>🎄 圣诞特惠</span>
@@ -157,7 +145,7 @@
             </div>
           </div>
           <div class="carousel-content-right">
-            <img data-src="https://assets.openterface.com/images/cover-Gibby-with-Christmas-hat_resized.webp" alt="TxA 商店 Accessories" loading="lazy" draggable="false" class="carousel-lazy-image">
+            <img data-src="https://assets.openterface.com/images/cover-Gibby-with-Christmas-hat_resized.webp" alt="TxA Shop Accessories" loading="lazy" draggable="false" class="carousel-lazy-image">
           </div>
         </div>
       </div>
@@ -220,8 +208,6 @@
 
 {% block scripts %}
   {{ super() }}
-  <script src="{{ 'assets/javascripts/xmas-progress.js' | url }}"></script>
-  <script src="{{ 'assets/javascripts/carousel-random-images.js' | url }}"></script>
 {% endblock %}
 
 {% block content %}{% endblock %}

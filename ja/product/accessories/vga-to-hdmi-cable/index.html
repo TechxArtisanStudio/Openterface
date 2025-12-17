@@ -34,9 +34,21 @@
 <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
 <link href="../../../../assets/stylesheets/custom.css" rel="stylesheet"/>
 <link href="../../../../assets/stylesheets/signup_form.css" rel="stylesheet"/>
-<link href="../../../../assets/stylesheets/slideshow.css" rel="stylesheet"/>
-<link href="../../../../assets/stylesheets/version-selector.css" rel="stylesheet"/>
-<link href="../../../../assets/stylesheets/youtube-videos.css" rel="stylesheet"/>
+<!-- Conditionally load slideshow.css only on product pages -->
+<!-- Conditionally load youtube-videos.css only on videos pages -->
+<!-- Language Alternates (hreflang for SEO) -->
+<!-- hreflang links - Auto-generated from i18n.yml -->
+<link href="https://openterface.com//" hreflang="en" rel="alternate"/>
+<link href="https://openterface.com//zh/" hreflang="zh" rel="alternate"/>
+<link href="https://openterface.com//ja/" hreflang="ja" rel="alternate"/>
+<link href="https://openterface.com//ko/" hreflang="ko" rel="alternate"/>
+<link href="https://openterface.com//fr/" hreflang="fr" rel="alternate"/>
+<link href="https://openterface.com//de/" hreflang="de" rel="alternate"/>
+<link href="https://openterface.com//it/" hreflang="it" rel="alternate"/>
+<link href="https://openterface.com//es/" hreflang="es" rel="alternate"/>
+<link href="https://openterface.com//pt/" hreflang="pt" rel="alternate"/>
+<link href="https://openterface.com//ro/" hreflang="ro" rel="alternate"/>
+<link href="https://openterface.com//" hreflang="x-default" rel="alternate"/>
 <!-- Determine current locale -->
 <!-- Gibby Avatar and Dialogue Box -->
 <link href="../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><script src="../../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
@@ -1822,19 +1834,20 @@
 <div class="md-footer-meta__inner md-grid footer-flex-container">
 <!-- Signup form -->
 <div class="signup-form-container footer-flex-item">
-<!-- All languages submit via AJAX -->
-<div id="form_signup">
+<div data-i18n-file="forms" id="form_signup">
 <form id="subscribe-form" name="subscribe-form">
 <div id="form_signup_scroll">
 <div class="gf-field-group">
-<input class="required" id="form-name" name="name" placeholder="お名前" required="" type="text"/>
+<input class="required" data-i18n-attr="placeholder" data-i18n-key="footer_name_placeholder" id="form-name" name="name" placeholder="Your Name" required="" type="text"/>
 </div>
 <div class="gf-field-group">
-<input class="required email" id="form-email" name="email" placeholder="メールアドレス *" required="" type="email"/>
+<input class="required email" data-i18n-attr="placeholder" data-i18n-key="footer_email_placeholder" id="form-email" name="email" placeholder="Your Email Address *" required="" type="email"/>
 </div>
 <div class="clear">
-<input class="button" id="form-submit" name="submit" type="submit" value="✉️ 最新情報を受け取る！ 🐝"/>
-<p class="footnote">月に1回程度の配信です。いつでも配信解除可能です。<br/>お問い合わせは <a href="mailto:info@openterface.com">info@openterface.com</a> まで。</p>
+<input class="button" data-i18n-attr="value" data-i18n-key="footer_submit_button" id="form-submit" name="submit" type="submit" value="✉️ Subscribe to the Latest Buzz! 🐝"/>
+<p class="footnote" data-i18n-html="true" data-i18n-key="footer_footnote">
+                  No more than one email a month. Unsubscribe anytime. <br/> For inquiries, email us at <a href="mailto:info@openterface.com">info@openterface.com</a>.
+                </p>
 </div>
 </div>
 </form>
@@ -1894,63 +1907,6 @@
       langselect.async = false; // Load synchronously to ensure it's available
       document.body.appendChild(langselect);
     })();
-  </script>
-<!-- Subscribe Form AJAX Handler -->
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const form = document.getElementById('subscribe-form');
-      const submitBtn = document.getElementById('form-submit');
-      const originalBtnValue = submitBtn.value;
-
-      if (form) {
-        form.addEventListener('submit', function(e) {
-          e.preventDefault();
-
-          // Get form data
-          const formData = new FormData(form);
-          const data = {
-            email: formData.get('email'),
-            name: formData.get('name')
-          };
-
-          // Disable button and change text
-          submitBtn.disabled = true;
-          submitBtn.value = 'Subscribing...';
-
-          // Send AJAX request
-          fetch('https://subscribe.openterface.com/api/subscribe/', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(data)
-          })
-          .then(response => response.json())
-          .then(result => {
-            if (result.success) {
-              submitBtn.value = 'Successfully subscribed!';
-              // Clear form fields
-              form.reset();
-            } else {
-              // Handle error response
-              submitBtn.value = 'Subscription failed. Try again.';
-              submitBtn.disabled = false;
-              setTimeout(() => {
-                submitBtn.value = originalBtnValue;
-              }, 3000);
-            }
-          })
-          .catch(error => {
-            console.error('Error:', error);
-            submitBtn.value = 'An error occurred. Try again.';
-            submitBtn.disabled = false;
-            setTimeout(() => {
-              submitBtn.value = originalBtnValue;
-            }, 3000);
-          });
-        });
-      }
-    });
   </script>
 </footer>
 </div>
@@ -2399,10 +2355,12 @@
 <script src="../../../../js/timeago_mkdocs_material.js"></script>
 <script src="../../../../js/timeago.min.js"></script>
 <script src="../../../../js/timeago_mkdocs_material.js"></script>
-<script src="https://assets.openterface.com/js/custom.min.js"></script>
-<script src="../../../../assets/javascripts/slideshow.js"></script>
-<script src="../../../../assets/javascripts/download-selector.js"></script>
-<script src="../../../../assets/javascripts/extra.js"></script>
+<!-- Load i18n handler first (needed for forms translation) -->
+<script src="../../../../assets/javascripts/i18n-handler.js"></script>
+<!-- Load subscribe.js globally (needed for footer and product signup forms) -->
+<script src="../../../../assets/javascripts/subscribe.js"></script>
+<!-- Conditionally load slideshow.js only on product pages -->
+<!-- Conditionally load home-carousel.js only on homepage -->
 <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
 document$.subscribe(()=>{ lightbox.reload(); });
 </script></body></html>
