@@ -1562,27 +1562,59 @@
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
 <div markdown="0">
-<!-- YouTube Videos Page - Generated from youtube.csv -->
-<!-- This is a content fragment to be included by markdown files -->
+<!-- YouTube Videos Page (Layout Template) -->
+<!-- This file is hand-maintained. Video data is generated into docs/partials/videos-grid.html. -->
+<!-- Translations are applied at build-time by i18n-site-tools/generate_static_pages.py using docs/assets/i18n-sites/videos.json -->
 <div class="youtube-videos-page">
 <h1 class="youtube-videos-title">📺 YouTube Videos</h1>
+<div class="youtube-topbar">
 <div class="youtube-stats">
-<div class="youtube-stat-card">
-<div class="number">25</div>
+<div class="youtube-stat-card" data-stat="total_videos">
+<div class="number">0</div>
 <div class="label">Gesamt Videos</div>
 </div>
-<div class="youtube-stat-card">
-<div class="number">5</div>
+<div class="youtube-stat-card" data-stat="languages">
+<div class="number">0</div>
 <div class="label">Sprachen</div>
 </div>
-<div class="youtube-stat-card">
-<div class="number">3</div>
+<div class="youtube-stat-card" data-stat="products">
+<div class="number">0</div>
 <div class="label">Produkte</div>
+</div>
+</div>
+<div aria-label="Video controls" class="youtube-controls" role="region">
+<div class="youtube-controls-row">
+<div class="youtube-control">
+<label for="yt-sort">Sortieren</label>
+<select class="youtube-select" id="yt-sort">
+<option value="newest">Neueste zuerst</option>
+<option value="oldest">Älteste zuerst</option>
+</select>
+</div>
+<div class="youtube-control">
+<label for="yt-filter-product">Produkt</label>
+<select class="youtube-select" id="yt-filter-product">
+<option value="">Alle Produkte</option>
+</select>
+</div>
+<div class="youtube-control">
+<label for="yt-filter-language">Sprache</label>
+<select class="youtube-select" id="yt-filter-language">
+<option value="">Alle Sprachen</option>
+</select>
+</div>
+</div>
+<div aria-live="polite" class="youtube-controls-footer">
+<span>Angezeigt</span>
+<strong><span id="yt-results-visible">0</span></strong>
+                /
+                <span id="yt-results-total">0</span>
+</div>
 </div>
 </div>
 <!-- YouTube Videos Grid - Generated from youtube.csv -->
 <div class="youtube-videos-grid">
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2024-03-30" data-language="en" data-language-name="English" data-product="minikvm">
 <a href="https://www.youtube.com/watch?v=xAEQpWyfY-c" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=xAEQpWyfY-c" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/xAEQpWyfY-c/hqdefault.jpg"><img alt="This USB KVM Console is Awesome! - Openterface by TechxArtisan" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/xAEQpWyfY-c/hqdefault.jpg"/></a>
@@ -1606,7 +1638,7 @@
 <div class="youtube-video-tags"><span class="youtube-tag language">English</span><span class="youtube-tag product">minikvm</span></div>
 </div>
 </div>
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2024-06-25" data-language="en" data-language-name="English" data-product="minikvm">
 <a href="https://www.youtube.com/watch?v=ZZ5P6MnBcHw" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=ZZ5P6MnBcHw" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/ZZ5P6MnBcHw/hqdefault.jpg"><img alt="A USB KVM for your IT Tool Bag" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/ZZ5P6MnBcHw/hqdefault.jpg"/></a>
@@ -1630,7 +1662,7 @@
 <div class="youtube-video-tags"><span class="youtube-tag language">English</span><span class="youtube-tag product">minikvm</span></div>
 </div>
 </div>
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2024-11-18" data-language="ja" data-language-name="Japanese" data-product="minikvm">
 <a href="https://www.youtube.com/watch?v=B7GHj7mPei4" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=B7GHj7mPei4" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/B7GHj7mPei4/hqdefault.jpg"><img alt="【楽しすぎる】M4 MacMini 2024を外に持ち出す方法がロマンすぎた！！！！" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/B7GHj7mPei4/hqdefault.jpg"/></a>
@@ -1654,7 +1686,7 @@
 <div class="youtube-video-tags"><span class="youtube-tag language">Japanese</span><span class="youtube-tag product">minikvm</span></div>
 </div>
 </div>
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2024-07-02" data-language="en" data-language-name="English" data-product="minikvm">
 <a href="https://www.youtube.com/watch?v=K0EuMSQEwKo" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=K0EuMSQEwKo" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/K0EuMSQEwKo/hqdefault.jpg"><img alt="Turn Your Laptop into a KVM Console using Mini-KVM" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/K0EuMSQEwKo/hqdefault.jpg"/></a>
@@ -1678,7 +1710,7 @@
 <div class="youtube-video-tags"><span class="youtube-tag language">English</span><span class="youtube-tag product">minikvm</span></div>
 </div>
 </div>
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2025-06-15" data-language="en" data-language-name="English" data-product="minikvm">
 <a href="https://www.youtube.com/watch?v=VfVGD2bQswQ" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=VfVGD2bQswQ" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/VfVGD2bQswQ/hqdefault.jpg"><img alt="A Tiny KVM That Solves Big IT Headaches" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/VfVGD2bQswQ/hqdefault.jpg"/></a>
@@ -1702,7 +1734,7 @@
 <div class="youtube-video-tags"><span class="youtube-tag language">English</span><span class="youtube-tag product">minikvm</span></div>
 </div>
 </div>
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2025-11-21" data-language="en" data-language-name="English" data-product="kvm-go">
 <a href="https://www.youtube.com/watch?v=__WfaaAS0O4" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=__WfaaAS0O4" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/__WfaaAS0O4/hqdefault.jpg"><img alt="OpenInterface Shows New KVM Go at Maker Faire Shenzhen" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/__WfaaAS0O4/hqdefault.jpg"/></a>
@@ -1726,7 +1758,7 @@
 <div class="youtube-video-tags"><span class="youtube-tag language">English</span><span class="youtube-tag product">kvm-go</span></div>
 </div>
 </div>
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2024-11-16" data-language="ja" data-language-name="Japanese" data-product="minikvm">
 <a href="https://www.youtube.com/watch?v=1iTaDp24PBI" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=1iTaDp24PBI" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/1iTaDp24PBI/hqdefault.jpg"><img alt="【革命】M4 MacMini 2024を外に持ち出して使えたwwww" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/1iTaDp24PBI/hqdefault.jpg"/></a>
@@ -1750,7 +1782,7 @@
 <div class="youtube-video-tags"><span class="youtube-tag language">Japanese</span><span class="youtube-tag product">minikvm</span></div>
 </div>
 </div>
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2025-01-17" data-language="en" data-language-name="English" data-product="minikvm">
 <a href="https://www.youtube.com/watch?v=sKDYsKBv90A" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=sKDYsKBv90A" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/sKDYsKBv90A/hqdefault.jpg"><img alt="Openterface: A KVM over USB Device" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/sKDYsKBv90A/hqdefault.jpg"/></a>
@@ -1774,7 +1806,7 @@
 <div class="youtube-video-tags"><span class="youtube-tag language">English</span><span class="youtube-tag product">minikvm</span></div>
 </div>
 </div>
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2024-08-24" data-language="ja" data-language-name="Japanese" data-product="minikvm">
 <a href="https://www.youtube.com/watch?v=U8kvzWnOWWc" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=U8kvzWnOWWc" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/U8kvzWnOWWc/hqdefault.jpg"><img alt="【openterface Mini-KVM】ノートPCをサーバーなどのコンソールとして利用する機器のご紹介" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/U8kvzWnOWWc/hqdefault.jpg"/></a>
@@ -1798,7 +1830,7 @@
 <div class="youtube-video-tags"><span class="youtube-tag language">Japanese</span><span class="youtube-tag product">minikvm</span></div>
 </div>
 </div>
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2025-05-01" data-language="en" data-language-name="English" data-product="minikvm">
 <a href="https://www.youtube.com/watch?v=l5e1wHwZ__c" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=l5e1wHwZ__c" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/l5e1wHwZ__c/hqdefault.jpg"><img alt="Everyone with Multiple Computers Should Have This Tiny KVM Tool ! #openterface" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/l5e1wHwZ__c/hqdefault.jpg"/></a>
@@ -1822,7 +1854,7 @@
 <div class="youtube-video-tags"><span class="youtube-tag language">English</span><span class="youtube-tag product">minikvm</span></div>
 </div>
 </div>
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2024-05-30" data-language="en" data-language-name="English" data-product="minikvm">
 <a href="https://www.youtube.com/watch?v=lwitzvmxsgc" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=lwitzvmxsgc" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/lwitzvmxsgc/hqdefault.jpg"><img alt="Openterface Mini-KVM open-source KVM gadget" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/lwitzvmxsgc/hqdefault.jpg"/></a>
@@ -1846,7 +1878,7 @@
 <div class="youtube-video-tags"><span class="youtube-tag language">English</span><span class="youtube-tag product">minikvm</span></div>
 </div>
 </div>
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2024-09-06" data-language="ja" data-language-name="Japanese" data-product="minikvm">
 <a href="https://www.youtube.com/watch?v=hOSP7je8zSk" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=hOSP7je8zSk" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/hOSP7je8zSk/hqdefault.jpg"><img alt="【紹介】【スイッチ】【簡単】1社に1個あると良い！TechxArtisan社のMini KVM" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/hOSP7je8zSk/hqdefault.jpg"/></a>
@@ -1870,7 +1902,7 @@
 <div class="youtube-video-tags"><span class="youtube-tag language">Japanese</span><span class="youtube-tag product">minikvm</span></div>
 </div>
 </div>
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2025-05-13" data-language="en" data-language-name="English" data-product="minikvm">
 <a href="https://www.youtube.com/watch?v=MNp8AifZ8_Q" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=MNp8AifZ8_Q" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/MNp8AifZ8_Q/hqdefault.jpg"><img alt="Small Gadget, Massive Workflow Upgrade! 🖥️💡 TechXArtisan Openterface Mini-KVM review!" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/MNp8AifZ8_Q/hqdefault.jpg"/></a>
@@ -1894,7 +1926,7 @@
 <div class="youtube-video-tags"><span class="youtube-tag language">English</span><span class="youtube-tag product">minikvm</span></div>
 </div>
 </div>
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2025-08-27" data-language="en" data-language-name="English" data-product="uconsole-kvm-extension">
 <a href="https://www.youtube.com/watch?v=UaHBOCbXk1Y" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=UaHBOCbXk1Y" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/UaHBOCbXk1Y/hqdefault.jpg"><img alt="Make your uConsole into a KVM!" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/UaHBOCbXk1Y/hqdefault.jpg"/></a>
@@ -1918,7 +1950,7 @@
 <div class="youtube-video-tags"><span class="youtube-tag language">English</span><span class="youtube-tag product">uconsole-kvm-extension</span></div>
 </div>
 </div>
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2024-12-09" data-language="es" data-language-name="Spanish" data-product="minikvm">
 <a href="https://www.youtube.com/watch?v=XTbpzx91Qbs" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=XTbpzx91Qbs" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/XTbpzx91Qbs/hqdefault.jpg"><img alt="Openterface Mini-KVM ¡Controla Todo desde un Solo Lugar y Revoluciona tu Gestión Tecnológica!" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/XTbpzx91Qbs/hqdefault.jpg"/></a>
@@ -1942,7 +1974,7 @@
 <div class="youtube-video-tags"><span class="youtube-tag language">Spanish</span><span class="youtube-tag product">minikvm</span></div>
 </div>
 </div>
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2025-08-02" data-language="en" data-language-name="English" data-product="uconsole-kvm-extension">
 <a href="https://www.youtube.com/watch?v=OyVeDDlDbN0" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=OyVeDDlDbN0" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/OyVeDDlDbN0/hqdefault.jpg"><img alt="The Smallest KVM You’ll Ever Use? The Openterface by TechxArtisan" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/OyVeDDlDbN0/hqdefault.jpg"/></a>
@@ -1966,7 +1998,7 @@
 <div class="youtube-video-tags"><span class="youtube-tag language">English</span><span class="youtube-tag product">uconsole-kvm-extension</span></div>
 </div>
 </div>
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2025-05-08" data-language="es" data-language-name="Spanish" data-product="minikvm">
 <a href="https://www.youtube.com/watch?v=Lf45H4Hkt1o" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=Lf45H4Hkt1o" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/Lf45H4Hkt1o/hqdefault.jpg"><img alt="Openterface Mini-KVM: Controla un segundo PC sin monitor sin teclado y sin ratón desde tu portátil" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/Lf45H4Hkt1o/hqdefault.jpg"/></a>
@@ -1990,7 +2022,7 @@
 <div class="youtube-video-tags"><span class="youtube-tag language">Spanish</span><span class="youtube-tag product">minikvm</span></div>
 </div>
 </div>
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2025-09-10" data-language="en" data-language-name="English" data-product="uconsole-kvm-extension">
 <a href="https://www.youtube.com/watch?v=gy-auzoEs-4" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=gy-auzoEs-4" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/gy-auzoEs-4/hqdefault.jpg"><img alt="Openterface KVM On The uConsole" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/gy-auzoEs-4/hqdefault.jpg"/></a>
@@ -2014,7 +2046,7 @@
 <div class="youtube-video-tags"><span class="youtube-tag language">English</span><span class="youtube-tag product">uconsole-kvm-extension</span></div>
 </div>
 </div>
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2025-05-16" data-language="en" data-language-name="English" data-product="minikvm">
 <a href="https://www.youtube.com/watch?v=Tp4f_uxEo6E" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=Tp4f_uxEo6E" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/Tp4f_uxEo6E/hqdefault.jpg"><img alt="Teardown Session 53: Openterface Mini-KVM" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/Tp4f_uxEo6E/hqdefault.jpg"/></a>
@@ -2038,7 +2070,7 @@
 <div class="youtube-video-tags"><span class="youtube-tag language">English</span><span class="youtube-tag product">minikvm</span></div>
 </div>
 </div>
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2024-12-12" data-language="en" data-language-name="English" data-product="minikvm">
 <a href="https://www.youtube.com/watch?v=FaAFCHHQeQg" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=FaAFCHHQeQg" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/FaAFCHHQeQg/hqdefault.jpg"><img alt="Playing around with the KVM-Mini Toolkit" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/FaAFCHHQeQg/hqdefault.jpg"/></a>
@@ -2061,7 +2093,7 @@
 <div class="youtube-video-tags"><span class="youtube-tag language">English</span><span class="youtube-tag product">minikvm</span></div>
 </div>
 </div>
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2025-08-15" data-language="en" data-language-name="English" data-product="uconsole-kvm-extension">
 <a href="https://www.youtube.com/watch?v=3NKIu-kDpQg" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=3NKIu-kDpQg" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/3NKIu-kDpQg/hqdefault.jpg"><img alt="Quick test of the Opernterface KVM EXT. for the uConsole." loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/3NKIu-kDpQg/hqdefault.jpg"/></a>
@@ -2085,7 +2117,7 @@
 <div class="youtube-video-tags"><span class="youtube-tag language">English</span><span class="youtube-tag product">uconsole-kvm-extension</span></div>
 </div>
 </div>
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2025-09-01" data-language="en" data-language-name="English" data-product="uconsole-kvm-extension">
 <a href="https://www.youtube.com/watch?v=Yav62fERPTE" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=Yav62fERPTE" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/Yav62fERPTE/hqdefault.jpg"><img alt="Openterface KVM Ext. for uConsole | Screw Washers Installation" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/Yav62fERPTE/hqdefault.jpg"/></a>
@@ -2109,7 +2141,7 @@
 <div class="youtube-video-tags"><span class="youtube-tag language">English</span><span class="youtube-tag product">uconsole-kvm-extension</span></div>
 </div>
 </div>
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2024-12-30" data-language="" data-language-name="" data-product="minikvm">
 <a href="https://www.youtube.com/watch?v=xQev3upcoKo" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=xQev3upcoKo" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/xQev3upcoKo/hqdefault.jpg"><img alt="Mini KVM - první dojmy" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/xQev3upcoKo/hqdefault.jpg"/></a>
@@ -2133,7 +2165,7 @@
 <div class="youtube-video-tags"><span class="youtube-tag product">minikvm</span></div>
 </div>
 </div>
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2024-12-19" data-language="pt" data-language-name="Portuguese" data-product="minikvm">
 <a href="https://www.youtube.com/watch?v=VjH0H8Nt68k" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=VjH0H8Nt68k" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/VjH0H8Nt68k/hqdefault.jpg"><img alt="Apresentação do Open KVM" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/VjH0H8Nt68k/hqdefault.jpg"/></a>
@@ -2157,7 +2189,7 @@
 <div class="youtube-video-tags"><span class="youtube-tag language">Portuguese</span><span class="youtube-tag product">minikvm</span></div>
 </div>
 </div>
-<div class="youtube-video-card">
+<div class="youtube-video-card" data-date="2025-12-15" data-language="fr" data-language-name="French" data-product="kvm-go">
 <a href="https://www.youtube.com/watch?v=aXQSNFAFiqk" rel="noopener noreferrer" target="_blank">
 </a><div class="youtube-video-thumbnail"><a href="https://www.youtube.com/watch?v=aXQSNFAFiqk" rel="noopener noreferrer" target="_blank">
 </a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="https://i.ytimg.com/vi/aXQSNFAFiqk/hqdefault.jpg"><img alt="J’ai testé le KVM le plus compact au monde : OpenTerface KVM Go !" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'" src="https://i.ytimg.com/vi/aXQSNFAFiqk/hqdefault.jpg"/></a>
@@ -2749,6 +2781,8 @@
 <script src="../../assets/javascripts/i18n-handler.js"></script>
 <!-- Load subscribe.js globally (needed for footer and product signup forms) -->
 <script src="../../assets/javascripts/subscribe.js"></script>
+<!-- Conditionally load youtube-videos-controls.js only on videos pages -->
+<script src="../../assets/javascripts/youtube-videos-controls.js"></script>
 <!-- Conditionally load slideshow.js only on product pages -->
 <!-- Conditionally load home-carousel.js only on homepage -->
 <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});

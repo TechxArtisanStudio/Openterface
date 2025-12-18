@@ -30,32 +30,34 @@
 
 .youtube-stats {
     display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-    margin-bottom: 2rem;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
     flex-wrap: wrap;
 }
 
 .youtube-stat-card {
-    background: var(--md-default-bg-color);
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.35rem;
+    padding: 0.35rem 0.6rem;
+    border-radius: 999px;
     border: 1px solid var(--md-default-fg-color--lightest);
-    padding: 1rem 1.5rem;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background: transparent;
+    box-shadow: none;
 }
 
 .youtube-stat-card .number {
-    font-size: 1.8em;
-    font-weight: bold;
-    color: var(--md-accent-fg-color);
-    line-height: 1.2;
+    font-size: 1.05em;
+    font-weight: 700;
+    color: var(--md-default-fg-color);
+    line-height: 1;
 }
 
 .youtube-stat-card .label {
     color: var(--md-default-fg-color--lighter);
-    margin-top: 0.5rem;
-    font-size: 0.9em;
+    margin-top: 0;
+    font-size: 0.85em;
 }
 
 .youtube-videos-grid {
@@ -256,6 +258,64 @@
     border-color: var(--md-default-fg-color--lightest);
 }
 
+.youtube-topbar {
+    max-width: 1400px;
+    margin: 0 auto 1.25rem;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+.youtube-controls {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+.youtube-controls-row {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+/* Slight visual separation between stats pills and controls without a box/border */
+.youtube-controls {
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.youtube-control {
+    flex: 1 1 220px;
+    min-width: 180px;
+}
+
+.youtube-control label {
+    display: block;
+    font-size: 0.85em;
+    color: var(--md-default-fg-color--lighter);
+    margin-bottom: 0.35rem;
+}
+
+.youtube-select {
+    width: 100%;
+    padding: 0.55rem 0.65rem;
+    border-radius: 8px;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    background: var(--md-default-bg-color);
+    color: var(--md-default-fg-color);
+}
+
+.youtube-controls-footer {
+    margin-top: 0.75rem;
+    font-size: 0.9em;
+    color: var(--md-default-fg-color--lighter);
+}
+
 /* Mobile responsive */
 @media (max-width: 768px) {
     .youtube-videos-grid {
@@ -268,15 +328,25 @@
     }
     
     .youtube-stats {
-        gap: 1rem;
+        gap: 0.5rem;
     }
     
     .youtube-stat-card {
-        padding: 0.75rem 1rem;
+        padding: 0.3rem 0.55rem;
     }
     
     .youtube-stat-card .number {
-        font-size: 1.5em;
+        font-size: 1em;
     }
+
+    .youtube-topbar {
+        padding: 0;
+    }
+
+    .youtube-control {
+        flex: 1 1 100%;
+        min-width: 0;
+    }
+
 }
 
