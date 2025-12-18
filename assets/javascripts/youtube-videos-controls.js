@@ -3,6 +3,32 @@
     return (el && el.textContent ? el.textContent : "").trim();
   }
 
+  function parseAbbrevNumber(raw) {
+    const s = String(raw || "").replace(/,/g, "");
+    const m = s.match(/(\d+(?:\.\d+)?)\s*([KMB])?/i);
+    if (!m) return 0;
+    let n = parseFloat(m[1]);
+    const u = (m[2] || "").toUpperCase();
+    if (u === "K") n *= 1e3;
+    else if (u === "M") n *= 1e6;
+    else if (u === "B") n *= 1e9;
+    return Number.isFinite(n) ? Math.round(n) : 0;
+  }
+
+  function extractViews(card) {
+    // Prefer stable data attribute if present (generated from youtube.csv)
+    const dv = card && card.dataset ? card.dataset.views : "";
+    if (dv && /^\d+$/.test(dv)) return parseInt(dv, 10);
+
+    // Fallback: parse the "👁️ ..." stat line (e.g. "👁️ 60.1K views")
+    const items = card ? card.querySelectorAll(".youtube-video-stats .youtube-stat-item") : [];
+    for (const it of items) {
+      const t = text(it);
+      if (t.includes("👁")) return parseAbbrevNumber(t);
+    }
+    return 0;
+  }
+
   function extractISODate(card) {
     const items = card.querySelectorAll(".youtube-video-stats .youtube-stat-item");
     for (const it of items) {
@@ -75,7 +101,7 @@
     const l = sp.get("l") || "";
     const s = sp.get("s") || "";
 
-    if (sortEl && (s === "newest" || s === "oldest")) sortEl.value = s;
+    if (sortEl && (s === "newest" || s === "oldest" || s === "views")) sortEl.value = s;
     if (productEl && p && hasOption(productEl, p)) productEl.value = p;
     if (languageEl && l && hasOption(languageEl, l)) languageEl.value = l;
   }
@@ -129,6 +155,7 @@
       meta.set(card, {
         dateISO: iso,
         dateTime: toTime(iso),
+        viewsCount: extractViews(card),
         product,
         languageCode,
         languageName,
@@ -171,8 +198,22 @@
       });
 
       filtered.sort((a, b) => {
-        const da = meta.get(a).dateTime;
-        const db = meta.get(b).dateTime;
+        const ma = meta.get(a);
+        const mb = meta.get(b);
+
+        if (sortMode === "views") {
+          const va = ma.viewsCount || 0;
+          const vb = mb.viewsCount || 0;
+          // Missing views (0) should go last
+          if (va === 0 && vb !== 0) return 1;
+          if (vb === 0 && va !== 0) return -1;
+          if (vb !== va) return vb - va;
+          // Tie-break: newest first
+          return (mb.dateTime || 0) - (ma.dateTime || 0);
+        }
+
+        const da = ma.dateTime;
+        const db = mb.dateTime;
         // Missing date (0) should go last in "newest", first in "oldest"
         if (da === 0 && db !== 0) return sortMode === "oldest" ? -1 : 1;
         if (db === 0 && da !== 0) return sortMode === "oldest" ? 1 : -1;
