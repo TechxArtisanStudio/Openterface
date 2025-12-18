@@ -146,10 +146,10 @@ nav:
     - Beta Quick Start: product/kvm-go/beta-quick-start.md
     - MicroSD Switch: product/kvm-go/microsd-switch.md
     - FAQs for KVM-Go: product/kvm-go/faq.md
+    - Videos: videos/?p=kvm-go
     - Reviews & Press:
       - Testimonials: product/kvm-go/reviews/testimonials.md
       - Media Coverage: product/kvm-go/reviews/media.md
-    - Videos: videos/?p=kvm-go
     - Updates for KVM-Go: product/kvm-go/updates/index.md
   - Mini-KVM 👑:
     - Overview: product/minikvm/index.md
@@ -159,10 +159,10 @@ nav:
     - USB Switch: product/minikvm/usb-switch.md
     - Extension Pins: product/minikvm/extension-pins.md
     - FAQs for Mini-KVM: product/minikvm/faq.md
+    - Videos: videos/?p=minikvm
     - Reviews & Press:
       - Testimonials: product/minikvm/reviews/testimonials.md
       - Media Coverage: product/minikvm/reviews/media.md
-    - Videos: videos/?p=minikvm
     - Updates for Mini-KVM: product/minikvm/updates/index.md
     - Support: product/minikvm/support.md
   - uConsole KVM Extension:

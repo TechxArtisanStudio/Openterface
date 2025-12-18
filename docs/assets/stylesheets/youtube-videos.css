@@ -283,10 +283,9 @@
     align-items: end;
 }
 
-/* Slight visual separation between stats pills and controls without a box/border */
+/* Slight visual separation between stats pills and controls (no divider line) */
 .youtube-controls {
     padding-top: 0.75rem;
-    border-top: 1px solid var(--md-default-fg-color--lightest);
 }
 
 .youtube-control {
