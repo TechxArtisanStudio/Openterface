@@ -1,21 +1,57 @@
-<!-- YouTube Videos Page - Generated from youtube.csv -->
-<!-- This is a content fragment to be included by markdown files -->
+<!-- YouTube Videos Page (Layout Template) -->
+<!-- This file is hand-maintained. Video data is generated into docs/partials/videos-grid.html. -->
+<!-- Translations are applied at build-time by i18n-site-tools/generate_static_pages.py using docs/assets/i18n-sites/videos.json -->
 
 <div class="youtube-videos-page">
     <h1 class="youtube-videos-title">📺 YouTube Videos</h1>
     
-    <div class="youtube-stats">
-        <div class="youtube-stat-card">
-            <div class="number">25</div>
-            <div class="label">Gesamt Videos</div>
+    <div class="youtube-topbar">
+        <div class="youtube-stats">
+            <div class="youtube-stat-card" data-stat="total_videos">
+                <div class="number">0</div>
+                <div class="label">Gesamt Videos</div>
+            </div>
+            <div class="youtube-stat-card" data-stat="languages">
+                <div class="number">0</div>
+                <div class="label">Sprachen</div>
+            </div>
+            <div class="youtube-stat-card" data-stat="products">
+                <div class="number">0</div>
+                <div class="label">Produkte</div>
+            </div>
         </div>
-        <div class="youtube-stat-card">
-            <div class="number">5</div>
-            <div class="label">Sprachen</div>
-        </div>
-        <div class="youtube-stat-card">
-            <div class="number">3</div>
-            <div class="label">Produkte</div>
+
+        <div class="youtube-controls" role="region" aria-label="Video controls">
+            <div class="youtube-controls-row">
+                <div class="youtube-control">
+                    <label for="yt-sort">Sortieren</label>
+                    <select id="yt-sort" class="youtube-select">
+                        <option value="newest">Neueste zuerst</option>
+                        <option value="oldest">Älteste zuerst</option>
+                    </select>
+                </div>
+
+                <div class="youtube-control">
+                    <label for="yt-filter-product">Produkt</label>
+                    <select id="yt-filter-product" class="youtube-select">
+                        <option value="">Alle Produkte</option>
+                    </select>
+                </div>
+
+                <div class="youtube-control">
+                    <label for="yt-filter-language">Sprache</label>
+                    <select id="yt-filter-language" class="youtube-select">
+                        <option value="">Alle Sprachen</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="youtube-controls-footer" aria-live="polite">
+                <span>Angezeigt</span>
+                <strong><span id="yt-results-visible">0</span></strong>
+                /
+                <span id="yt-results-total">0</span>
+            </div>
         </div>
     </div>
     

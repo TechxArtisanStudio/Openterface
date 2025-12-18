@@ -232,9 +232,11 @@ class YouTubeWebsiteGenerator:
         channel_avatar = row.get('thumbnail_url', '').strip()
         video_thumbnail = row.get('video_thumbnail_url', '').strip()
         date = self.format_date(row.get('date', '').strip())
+        date_iso = date if date and date != "N/A" else ""
         views = self.format_views(row.get('views', '').strip())
         description = html.escape(row.get('description', '').strip())
         language = row.get('language', '').strip()
+        language_name = self.get_language_name(language) if language else ""
         product = row.get('product', '').strip()
         video_type = row.get('type', '').strip()
         home_page = row.get('home_page', '').strip()
@@ -287,6 +289,10 @@ class YouTubeWebsiteGenerator:
             views=views,
             views_label=self.translations['views'],
             date=date,
+            date_iso=html.escape(date_iso),
+            language=html.escape(language),
+            language_name=html.escape(language_name),
+            product=html.escape(product),
             description_html=description_html,
             tags_html=tags_html
         )
@@ -402,7 +408,7 @@ class YouTubeWebsiteGenerator:
         html_content = f"""<!-- YouTube Videos Page - Generated from youtube.csv -->
 <!-- This is a content fragment to be included by markdown files -->
 
-<div class="youtube-videos-page">
+<div class="youtube-videos-page" data-i18n-file="videos">
     <h1 class="youtube-videos-title" data-i18n-key="title">📺 YouTube Videos</h1>
     
     <div class="youtube-stats">
@@ -417,6 +423,41 @@ class YouTubeWebsiteGenerator:
         <div class="youtube-stat-card">
             <div class="number">{num_products}</div>
             <div class="label" data-i18n-key="products">Products</div>
+        </div>
+    </div>
+
+    <div class="youtube-controls" role="region" aria-label="Video controls">
+        <div class="youtube-controls-row">
+            <div class="youtube-control">
+                <label for="yt-sort" data-i18n-key="sort_by">Sort</label>
+                <select id="yt-sort" class="youtube-select">
+                    <option value="newest" data-i18n-key="sort_newest">Newest first</option>
+                    <option value="oldest" data-i18n-key="sort_oldest">Oldest first</option>
+                </select>
+            </div>
+
+            <div class="youtube-control">
+                <label for="yt-filter-product" data-i18n-key="filter_product">Product</label>
+                <select id="yt-filter-product" class="youtube-select">
+                    <option value="" data-i18n-key="all_products">All products</option>
+                </select>
+            </div>
+
+            <div class="youtube-control">
+                <label for="yt-filter-language" data-i18n-key="filter_language">Language</label>
+                <select id="yt-filter-language" class="youtube-select">
+                    <option value="" data-i18n-key="all_languages">All languages</option>
+                </select>
+            </div>
+
+            <button type="button" class="youtube-button" id="yt-reset" data-i18n-key="reset_filters">Reset</button>
+        </div>
+
+        <div class="youtube-controls-footer" aria-live="polite">
+            <span data-i18n-key="showing">Showing</span>
+            <strong><span id="yt-results-visible">0</span></strong>
+            /
+            <span id="yt-results-total">0</span>
         </div>
     </div>
     
@@ -506,8 +547,8 @@ class YouTubeWebsiteGenerator:
     
     def generate_for_i18n_pipeline(self):
         """
-        New workflow: Generate base template for i18n pipeline.
-        This is the unified architecture approach.
+        New workflow: Generate data partials for the i18n pipeline.
+        This keeps layout/styling decoupled from youtube.csv updates.
         """
         print("=" * 60)
         print("YouTube Content Generator (for i18n pipeline)")
@@ -543,24 +584,6 @@ class YouTubeWebsiteGenerator:
             print(f"  ❌ Error writing {grid_path.name}: {e}")
             return
         
-        # Step 2: Generate videos-base.html (template with data-i18n-key)
-        print(f"\n📝 Step 2: Generating videos-base.html (i18n template)...")
-        base_html = self.generate_base_template(rows)
-        
-        templates_dir = script_dir.parent / "i18n-site-tools" / "templates"
-        templates_dir.mkdir(parents=True, exist_ok=True)
-        
-        base_path = templates_dir / "videos-base.html"
-        
-        try:
-            with open(base_path, 'w', encoding='utf-8') as f:
-                f.write(base_html)
-            print(f"  ✅ Generated: {base_path.name}")
-            print(f"  📂 Location: {base_path}")
-        except Exception as e:
-            print(f"  ❌ Error writing {base_path.name}: {e}")
-            return
-        
         print(f"\n✅ Content generation complete!")
         print(f"\n💡 Next step:")
         print(f"   Run: python i18n-site-tools/generate_static_pages.py --template videos")
@@ -589,7 +612,7 @@ Examples:
                        type=Path)
     parser.add_argument('--base-template', '-b',
                        action='store_true',
-                       help='Generate videos-base.html for i18n pipeline (recommended)')
+                       help='Generate data partials (videos-grid.html) for i18n pipeline (recommended)')
     parser.add_argument('--all-languages', '-a',
                        action='store_true',
                        help='Legacy: Generate HTML files for all languages directly')

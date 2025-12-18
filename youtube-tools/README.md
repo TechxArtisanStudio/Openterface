@@ -40,23 +40,20 @@ python youtube-tools/detect_youtube_language.py --interactive
 python youtube-tools/detect_youtube_language.py --force
 ```
 
-### Generate Website
+### Generate Videos Page
 
 ```bash
-# Generate HTML website for English (default: docs/overrides/videos.html)
-python youtube-tools/generate_youtube_website.py
+# 1) Generate the shared grid partial from youtube.csv (recommended)
+python youtube-tools/generate_youtube_website.py --base-template
 
-# Generate for all languages (creates videos.html, videos.zh.html, etc.)
-python youtube-tools/generate_youtube_website.py --all-languages
+# 2) Generate SEO-friendly per-language videos partials from videos-base.html + videos.json
+python i18n-site-tools/generate_static_pages.py --template videos
 
-# Generate for specific language
-python youtube-tools/generate_youtube_website.py --language zh
-
-# Specify custom output file
-python youtube-tools/generate_youtube_website.py --output custom.html
+# Or run the orchestrator (hreflang + videos-grid + all static pages)
+python i18n-site-tools/generate_all_i18n.py
 ```
 
-The generated website will be accessible at `http://0.0.0.0:8002/videos` when running the MkDocs server. Language-specific versions are available at `/zh/videos`, `/ja/videos`, etc.
+The videos page will be accessible at `/videos/` when running the MkDocs server. Language-specific versions are available at `/zh/videos/`, `/ja/videos/`, etc.
 
 ## CSV Structure
 
@@ -83,50 +80,46 @@ The `youtube.csv` file contains the following columns:
 - Manual edits to the CSV are preserved (unless using `--force`)
 
 
-## Static i18n Generation (SEO-Optimized)
+## Static i18n Generation (SEO-Optimized, Decoupled)
 
-The `generate_youtube_website.py` script now generates language-specific static HTML files for SEO:
+The Videos page is built with a **decoupled pipeline**:
+
+- **Data updates** (from `youtube.csv`) regenerate only a shared **data partial**: `docs/partials/videos-grid.html`
+- **Layout/styling/controls** are hand-maintained in templates/CSS/JS
+- **Translations** are applied at build-time from `docs/assets/i18n-sites/videos.json` to produce `docs/partials/videos.<lang>.html`
 
 ### Generated Files
 
-- `docs/partials/videos.html` (English)
-- `docs/partials/videos.zh.html` (Chinese)
-- `docs/partials/videos.ja.html` (Japanese)
-- `docs/partials/videos.ko.html` (Korean)
-- `docs/partials/videos.fr.html` (French)
-- `docs/partials/videos.de.html` (German)
-- `docs/partials/videos.it.html` (Italian)
-- `docs/partials/videos.es.html` (Spanish)
-- `docs/partials/videos.pt.html` (Portuguese)
-- `docs/partials/videos.ro.html` (Romanian)
-- `docs/partials/videos-grid.html` (Shared grid, included by all language files)
+- `docs/partials/videos-grid.html` (shared card grid generated from `youtube.csv`)
+- `docs/partials/videos.html` (English, build-time translated)
+- `docs/partials/videos.<lang>.html` (de/es/fr/it/ja/ko/pt/ro/zh)
 
-### How It Works
+### Safe files to edit for UI/design changes
 
-1. Reads video data from `youtube.csv`
-2. Loads translations from `docs/assets/i18n-sites/youtube-videos.json`
-3. Generates static HTML with translations applied at build time
-4. Each language gets its own file for perfect SEO indexing
+- Page layout + i18n keys: `i18n-site-tools/templates/videos-base.html`
+- Styling: `docs/assets/stylesheets/youtube-videos.css`
+- Client-side controls (sort/filter): `docs/assets/javascripts/youtube-videos-controls.js`
+- Card markup (optional): `youtube-tools/youtube-video-card.html` (requires regenerating `videos-grid.html`)
 
 ### Workflow
 
 ```bash
-# 1. Update video data or translations
-vim youtube-tools/youtube.csv
-vim docs/assets/i18n-sites/youtube-videos.json
+# 1) Update YouTube data
+python youtube-tools/update_youtube_csv.py
 
-# 2. Regenerate all language files
-python youtube-tools/generate_youtube_website.py
+# 2) Regenerate the shared grid from youtube.csv
+python youtube-tools/generate_youtube_website.py --base-template
 
-# 3. Commit generated files
-git add docs/partials/videos*.html
-git commit -m "Update videos page"
+# 3) Apply build-time i18n translations (SEO)
+python i18n-site-tools/generate_static_pages.py --template videos
+
+# (or run all-i18n orchestrator)
+python i18n-site-tools/generate_all_i18n.py
 ```
 
-### SEO Benefits
+### Why this is better
 
-- ✅ Search engines see fully translated static HTML
-- ✅ No JavaScript required for translation
-- ✅ Each language URL serves its own static file
-- ✅ Perfect indexing for all languages
+- Updating `youtube.csv` no longer overwrites your layout template.
+- Redesigning the page mostly touches `videos-base.html` + CSS/JS.
+- Sort/filter reads stable `data-*` attributes on cards, so it’s resilient to markup tweaks.
 

@@ -29,14 +29,14 @@ def main():
         generator = StaticPageGenerator()
         generator.generate_hreflang_partial()
         
-        # 2. Generate videos content (creates videos-base.html)
+        # 2. Generate videos data partials from CSV (videos-grid.html)
         print("\n2️⃣  Generating videos content from CSV...")
         csv_path = script_dir.parent / "youtube-tools" / "youtube.csv"
         video_gen = YouTubeWebsiteGenerator(csv_path)
         video_gen.generate_for_i18n_pipeline()  # NEW: Use unified workflow
         
-        # 3. Generate ALL static pages (home + videos)
-        print("\n3️⃣  Generating all static pages with translations...")
+        # 3. Generate static pages with translations (home + videos)
+        print("\n3️⃣  Generating static pages with translations (home + videos)...")
         generator.generate_all()
         
         print("\n" + "="*60)
@@ -44,7 +44,6 @@ def main():
         print("="*60)
         print("\n📊 Summary:")
         print("   • hreflang.html - Generated")
-        print("   • videos-base.html - Generated from CSV")
         print("   • videos-grid.html - Generated from CSV")
         print("   • home.*.html - Generated (10 languages)")
         print("   • videos.*.html - Generated (10 languages)")

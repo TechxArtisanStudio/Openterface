@@ -32,12 +32,12 @@ class StaticPageGenerator:
         # Load centralized i18n config
         self.i18n_config = I18nConfig()
         
-        # Define which templates go where
+        # Define which templates are generated at build-time (SEO-friendly).
         # home: page override (extends main.html) -> docs/overrides/
-        # videos: template (extends main.html) -> docs/partials/
+        # videos: content fragment (includes videos-grid.html) -> docs/partials/
         self.template_output_dirs = {
             'home': self.output_dir,      # Override: replaces index page
-            'videos': self.partials_dir,  # Template: used by videos.md via template: front matter
+            'videos': self.partials_dir,  # SEO-friendly static per-language partials
         }
     
     def generate_hreflang_partial(self) -> None:
@@ -216,22 +216,18 @@ class StaticPageGenerator:
         # Generate hreflang partial first (used by all templates)
         self.generate_hreflang_partial()
         
-        # Find all template files
-        template_files = list(self.templates_dir.glob("*-base.html"))
+        template_names = list(self.template_output_dirs.keys())
         
-        if not template_files:
-            print(f"\n⚠️  No templates found in {self.templates_dir}")
-            print("Template files should be named: <name>-base.html")
+        if not template_names:
+            print("\n⚠️  No static templates configured.")
             return
         
-        print(f"\nFound {len(template_files)} template(s):")
-        for template_file in template_files:
-            template_name = template_file.stem.replace('-base', '')
-            print(f"  - {template_name}")
+        print(f"\nConfigured static templates ({len(template_names)}):")
+        for name in template_names:
+            print(f"  - {name}")
         
-        # Generate each template
-        for template_file in template_files:
-            template_name = template_file.stem.replace('-base', '')
+        # Generate each configured template
+        for template_name in template_names:
             try:
                 self.generate_template(template_name)
             except Exception as e:

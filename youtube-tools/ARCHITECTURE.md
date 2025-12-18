@@ -16,7 +16,7 @@ The YouTube tools follow a **unified i18n pipeline architecture** where content 
     │               │               │
     ▼               ▼               ▼
 home-base.html  videos-base.html  future.html
-(manual)        (from CSV)        (any method)
+(manual)        (manual)          (any method)
     │               │               │
     └───────────────┼───────────────┘
                     │
@@ -44,12 +44,12 @@ python youtube-tools/generate_youtube_website.py --base-template
 
 **What it does:**
 - Reads `youtube.csv`
-- Generates `videos-grid.html` (pure data, no i18n needed)
-- Generates `i18n-site-tools/templates/videos-base.html` with `data-i18n-key` attributes
+- Generates `docs/partials/videos-grid.html` (video cards data partial; no i18n needed)
+- Uses `youtube-tools/youtube-video-card.html` as the card template
+- Adds stable card metadata via `data-*` attributes (e.g. `data-date`, `data-language`, `data-product`) so client-side features don’t depend on markup
 
 **Output:**
 - `docs/partials/videos-grid.html` - Video card HTML (data from CSV)
-- `i18n-site-tools/templates/videos-base.html` - Template with i18n placeholders
 
 ### Step 2: Translation Application (Centralized)
 
@@ -65,9 +65,9 @@ python i18n-site-tools/generate_static_pages.py --template videos
 - Removes `data-i18n-key` attributes
 
 **Output:**
-- `docs/overrides/videos.html` (English)
-- `docs/overrides/videos.zh.html` (Chinese)
-- `docs/overrides/videos.ja.html` (Japanese)
+- `docs/partials/videos.html` (English)
+- `docs/partials/videos.zh.html` (Chinese)
+- `docs/partials/videos.ja.html` (Japanese)
 - ... (10 languages total)
 
 ### All-in-One Command
@@ -93,7 +93,7 @@ youtube-tools/
 i18n-site-tools/
 ├── templates/
 │   ├── home-base.html            # Manual template
-│   └── videos-base.html          # Generated from CSV
+│   └── videos-base.html          # Manual template (layout + i18n keys; includes videos-grid.html)
 ├── generate_static_pages.py      # Unified translation engine
 └── generate_all_i18n.py          # Orchestrator
 
@@ -104,10 +104,10 @@ docs/
 │   └── videos.json               # Videos page translations
 ├── overrides/
 │   ├── home.*.html               # Generated home pages
-│   └── videos.*.html             # Generated videos pages
 └── partials/
     ├── hreflang.html             # Auto-generated SEO links
-    └── videos-grid.html          # Video cards (no i18n)
+    ├── videos-grid.html          # Video cards (no i18n)
+    └── videos.*.html             # Generated videos partials (10 languages)
 ```
 
 ## Key Principles
