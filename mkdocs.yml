@@ -64,10 +64,6 @@ theme:
 extra:
   copyright_year: 2025
   uconsole-kvm-extension_updates: 2
-  uconsole-kvm-extension_youtube: 5
-  minikvm_youtube: 18
-  kvm-go_youtube: 2
-  accessories_youtube: 0
   qt_version: 0.4.3
   android_version: v1.1.2
   macos_version: 1.16
@@ -151,9 +147,9 @@ nav:
     - MicroSD Switch: product/kvm-go/microsd-switch.md
     - FAQs for KVM-Go: product/kvm-go/faq.md
     - Reviews & Press:
-      - YouTube Reviews: product/kvm-go/reviews/youtube.md
       - Testimonials: product/kvm-go/reviews/testimonials.md
       - Media Coverage: product/kvm-go/reviews/media.md
+    - Videos: videos/?p=kvm-go
     - Updates for KVM-Go: product/kvm-go/updates/index.md
   - Mini-KVM 👑:
     - Overview: product/minikvm/index.md
@@ -164,9 +160,9 @@ nav:
     - Extension Pins: product/minikvm/extension-pins.md
     - FAQs for Mini-KVM: product/minikvm/faq.md
     - Reviews & Press:
-      - YouTube Reviews: product/minikvm/reviews/youtube.md
       - Testimonials: product/minikvm/reviews/testimonials.md
       - Media Coverage: product/minikvm/reviews/media.md
+    - Videos: videos/?p=minikvm
     - Updates for Mini-KVM: product/minikvm/updates/index.md
     - Support: product/minikvm/support.md
   - uConsole KVM Extension:
@@ -177,7 +173,7 @@ nav:
     - Software Setup: product/uconsole-kvm-extension/software-setup.md
     - Connect to Target: product/uconsole-kvm-extension/connect-to-target.md
     - FAQs for KVM Ext.: product/uconsole-kvm-extension/faq.md
-    - Reviews Videos: product/uconsole-kvm-extension/reviews/youtube.md
+    - Videos: videos/?p=uconsole-kvm-extension
     - Updates for KVM Ext.: product/uconsole-kvm-extension/updates/index.md
   - Accessories:
     - Overview: product/accessories/index.md
@@ -283,9 +279,8 @@ plugins:
         FAQs for KVM Ext.: KVM 扩展常见问题
         Media Coverage: 媒体报道
         Testimonials: 用户评价
+        Videos: 视频
         Updates for KVM Ext.: KVM 扩展更新
-        YouTube Reviews: YouTube 评测
-        Reviews Videos: 评测视频
         Updates for Mini-KVM: Mini-KVM 更新
         Beta Quick Start: Beta快速开始
         MicroSD Switch: MicroSD切换器
@@ -358,8 +353,7 @@ plugins:
         Media Coverage: メディア掲載
         Testimonials: お客様の声
         Updates for KVM Ext.: KVM拡張アップデート
-        YouTube Reviews: YouTubeレビュー
-        Reviews Videos: レビュー動画
+        Videos: 動画
         Updates for Mini-KVM: Mini-KVMアップデート
         Beta Quick Start: Betaクイックスタート
         MicroSD Switch: MicroSDスイッチ
@@ -432,8 +426,7 @@ plugins:
         Media Coverage: 미디어 보도
         Testimonials: 사용자 후기
         Updates for KVM Ext.: KVM 확장 업데이트
-        YouTube Reviews: YouTube 리뷰
-        Reviews Videos: 리뷰 영상
+        Videos: 동영상
         Updates for Mini-KVM: Mini-KVM 업데이트
         Beta Quick Start: Beta 빠른 시작
         MicroSD Switch: MicroSD 스위치
@@ -506,8 +499,7 @@ plugins:
         Media Coverage: Couverture médiatique
         Testimonials: Témoignages
         Updates for KVM Ext.: Mises à jour Extension KVM
-        YouTube Reviews: Avis YouTube
-        Reviews Videos: Vidéos d'avis
+        Videos: Vidéos
         Updates for Mini-KVM: Mises à jour Mini-KVM
         Beta Quick Start: Démarrage rapide Beta
         MicroSD Switch: Commutateur MicroSD
@@ -580,8 +572,7 @@ plugins:
         Media Coverage: Medienberichterstattung
         Testimonials: Kundenbewertungen
         Updates for KVM Ext.: KVM-Erweiterung Updates
-        YouTube Reviews: YouTube-Bewertungen
-        Reviews Videos: Bewertungsvideos
+        Videos: Videos
         Updates for Mini-KVM: Mini-KVM Updates
         Beta Quick Start: Beta Schnellstart
         MicroSD Switch: MicroSD-Umschalter
@@ -654,8 +645,7 @@ plugins:
         Media Coverage: Copertura mediatica
         Testimonials: Testimonianze
         Updates for KVM Ext.: Aggiornamenti Estensione KVM
-        YouTube Reviews: Recensioni YouTube
-        Reviews Videos: Video recensioni
+        Videos: Video
         Updates for Mini-KVM: Aggiornamenti Mini-KVM
         Beta Quick Start: Guida rapida Beta
         MicroSD Switch: Switch MicroSD
@@ -728,8 +718,7 @@ plugins:
         Media Coverage: Cobertura mediática
         Testimonials: Testimonios
         Updates for KVM Ext.: Actualizaciones Extensión KVM
-        YouTube Reviews: Reseñas de YouTube
-        Reviews Videos: Videos de reseñas
+        Videos: Videos
         Updates for Mini-KVM: Actualizaciones Mini-KVM
         Beta Quick Start: Inicio rápido Beta
         MicroSD Switch: Conmutador MicroSD
@@ -802,8 +791,7 @@ plugins:
         Media Coverage: Cobertura da mídia
         Testimonials: Depoimentos
         Updates for KVM Ext.: Atualizações Extensão KVM
-        YouTube Reviews: Avaliações do YouTube
-        Reviews Videos: Vídeos de avaliações
+        Videos: Vídeos
         Updates for Mini-KVM: Atualizações Mini-KVM
         Beta Quick Start: Início rápido Beta
         MicroSD Switch: Comutador MicroSD
@@ -876,8 +864,7 @@ plugins:
         Media Coverage: Acoperirea media
         Testimonials: Mărturii
         Updates for KVM Ext.: Actualizări Extensie KVM
-        YouTube Reviews: Recenzii YouTube
-        Reviews Videos: Videoclipuri recenzii
+        Videos: Videoclipuri
         Updates for Mini-KVM: Actualizări Mini-KVM
         Beta Quick Start: Începere rapidă Beta
         MicroSD Switch: Comutator MicroSD
@@ -918,7 +905,6 @@ plugins:
       support/appointment.md: https://calendar.app.google/9nyjjpA9m3TUpzsaA
       support/minikvm.md: https://docs.google.com/forms/d/e/1FAIpQLSd4NiKDb-BRIJxuo5m08sC03nkhsioE-4KZj6e_uMZ6oDg5Bw/viewform?usp=header
       support/minikvm/r.md: https://docs.google.com/spreadsheets/d/1apfEJuWz5ZhlLR7PW7Rpv6devQ2IqeSq_ZCEtD98nZw/edit?resourcekey=&gid=1205342311#gid=1205342311
-      product/minikvm/reviews.md: product/minikvm/reviews/youtube.md
       product/kvm-go/pre-launch.md: product/kvm-go/index.md
       product/kvm-go/beta-questions.md: https://docs.google.com/forms/d/e/1FAIpQLSf1WGwGSN-4ZPVav0CwdepNsBQj9iLmtR7AF_c2GETPwnfHCQ/viewform?usp=header
       product/kvm-go/beta-questions/r.md: https://docs.google.com/spreadsheets/d/1kA4Ss1JugniiaEdR_FSC_V9LroV_S6SgrwpdA0aFAcM/edit?resourcekey=&gid=1732436299#gid=1732436299
@@ -929,7 +915,6 @@ plugins:
       about/support-us.md: about/contribute-support.md
       compliance.md: about/compliance.md
       community.md: about/community.md
-      reviews.md: product/minikvm/reviews/youtube.md
       features.md: product/minikvm/features.md
       usb-switch.md: product/minikvm/usb-switch.md
       product.md: product/minikvm/index.md

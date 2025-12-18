@@ -65,7 +65,7 @@ Following the success of **Openterface Mini-KVM**, with over 5,000 users in our 
 
     ---
 
-    [:material-account-group-outline: Crowdfunding NOW](https://forms.gle/yaS1F5E5MSo8DWNZ6) / [:material-trophy-outline: Beta Testing Program](https://forms.gle/yaS1F5E5MSo8DWNZ6) / [:material-newspaper-variant-outline: Product Updates](/product/kvm-go/updates)
+    [:material-account-group-outline: Crowdfunding NOW](https://forms.gle/yaS1F5E5MSo8DWNZ6) / [:material-trophy-outline: Beta Testing Program](https://forms.gle/yaS1F5E5MSo8DWNZ6) / [:material-newspaper-variant-outline: Product Updates](/product/kvm-go/updates) / [:material-play-circle-outline: YouTube Videos](/videos/?p=kvm-go)
 
 </div>
 

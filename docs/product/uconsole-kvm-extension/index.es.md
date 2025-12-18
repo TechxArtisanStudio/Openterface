@@ -63,10 +63,9 @@ La **Openterface KVM Extension** reemplaza el módem 4G/LTE original en la ranur
 
     ---
 
-    [:material-newspaper-variant-outline: Actualizaciones del Producto](/product/uconsole-kvm-extension/updates/) / [:material-account-group-outline: Soporte de la Comunidad](/discord)
+    [:material-newspaper-variant-outline: Actualizaciones del Producto](/product/uconsole-kvm-extension/updates/) / [:material-account-group-outline: Soporte de la Comunidad](/discord) / [:material-play-circle-outline: Videos de YouTube](/es/videos/?p=uconsole-kvm-extension)
 
 </div>
 
 {% include "partials/product-signup.html" %}
 
-{% include "partials/uconsole-kvm-youtube-reviews.html" %}

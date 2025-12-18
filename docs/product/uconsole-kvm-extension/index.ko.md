@@ -63,10 +63,9 @@ keywords: "KVM 확장, uConsole KVM, 휴대용 KVM, HDMI KVM, USB HID 제어, �
 
     ---
 
-    [:material-newspaper-variant-outline: 제품 업데이트](/product/uconsole-kvm-extension/updates/) / [:material-account-group-outline: 커뮤니티 지원](/discord)
+    [:material-newspaper-variant-outline: 제품 업데이트](/product/uconsole-kvm-extension/updates/) / [:material-account-group-outline: 커뮤니티 지원](/discord) / [:material-play-circle-outline: YouTube 비디오](/ko/videos/?p=uconsole-kvm-extension)
 
 </div>
 
 {% include "partials/product-signup.html" %}
 
-{% include "partials/uconsole-kvm-youtube-reviews.html" %}

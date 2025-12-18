@@ -63,10 +63,9 @@ keywords: "extensie KVM, uConsole KVM, KVM portabil, HDMI KVM, control USB HID, 
 
     ---
 
-    [:material-newspaper-variant-outline: Actualizări Produs](/product/uconsole-kvm-extension/updates/) / [:material-account-group-outline: Suport Comunitate](/discord)
+    [:material-newspaper-variant-outline: Actualizări Produs](/product/uconsole-kvm-extension/updates/) / [:material-account-group-outline: Suport Comunitate](/discord) / [:material-play-circle-outline: Videoclipuri YouTube](/ro/videos/?p=uconsole-kvm-extension)
 
 </div>
 
 {% include "partials/product-signup.html" %}
 
-{% include "partials/uconsole-kvm-youtube-reviews.html" %}

@@ -63,10 +63,9 @@ A **Openterface KVM Extension** substitui o modem 4G/LTE original no slot de exp
 
     ---
 
-    [:material-newspaper-variant-outline: Atualizações do Produto](/product/uconsole-kvm-extension/updates/) / [:material-account-group-outline: Suporte da Comunidade](/discord)
+    [:material-newspaper-variant-outline: Atualizações do Produto](/product/uconsole-kvm-extension/updates/) / [:material-account-group-outline: Suporte da Comunidade](/discord) / [:material-play-circle-outline: Vídeos do YouTube](/pt/videos/?p=uconsole-kvm-extension)
 
 </div>
 
 {% include "partials/product-signup.html" %}
 
-{% include "partials/uconsole-kvm-youtube-reviews.html" %}

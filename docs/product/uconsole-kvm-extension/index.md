@@ -63,10 +63,8 @@ The **Openterface KVM Extension** replaces the original 4G/LTE modem in your uCo
 
     ---
 
-    [:material-newspaper-variant-outline: Product Updates](/product/uconsole-kvm-extension/updates/) / [:material-account-group-outline: Community Support](/discord)
+    [:material-newspaper-variant-outline: Product Updates](/product/uconsole-kvm-extension/updates/) / [:material-account-group-outline: Community Support](/discord) / [:material-play-circle-outline: YouTube Videos](/videos/?p=uconsole-kvm-extension)
 
 </div>
 
 {% include "partials/product-signup.html" %}
-
-{% include "partials/uconsole-kvm-youtube-reviews.html" %}
