@@ -1,59 +1,196 @@
-<!DOCTYPE html>
-<html class="no-js" lang="fr"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="FAQ détaillée pour notre produit phare Mini-KVM, couvrant les spécifications techniques, guides d'utilisation et conseils de dépannage." name="description"/>
-<meta content="Openterface" name="author"/>
-<link href="https://openterface.com/fr/faq/" rel="canonical"/>
-<link href="../" rel="prev"/>
-<link href="kvm-over-usb/" rel="next"/>
-<link href="../../faq/" hreflang="en" rel="alternate"/>
-<link href="../../zh/faq/" hreflang="zh" rel="alternate"/>
-<link href="../../ja/faq/" hreflang="ja" rel="alternate"/>
-<link href="../../ko/faq/" hreflang="ko" rel="alternate"/>
-<link href="./" hreflang="fr" rel="alternate"/>
-<link href="../../de/faq/" hreflang="de" rel="alternate"/>
-<link href="../../it/faq/" hreflang="it" rel="alternate"/>
-<link href="../../es/faq/" hreflang="es" rel="alternate"/>
-<link href="../../pt/faq/" hreflang="pt" rel="alternate"/>
-<link href="../../ro/faq/" hreflang="ro" rel="alternate"/>
-<link href="../../assets/favicon.png" rel="icon"/>
-<meta content="mkdocs-1.6.1, mkdocs-material-9.7.1" name="generator"/>
-<title>FAQ pour USB KVM et Openterface - Openterface | Bridging Interfaces to Open Possibilities</title>
-<link href="../../assets/stylesheets/main.484c7ddc.min.css" rel="stylesheet"/>
-<link href="../../assets/stylesheets/palette.ab4e12ef.min.css" rel="stylesheet"/>
-<style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M64%20480c-35.3%200-64-28.7-64-64V96c0-35.3%2028.7-64%2064-64h320c35.3%200%2064%2028.7%2064%2064v213.5c0%2017-6.7%2033.3-18.7%2045.3L322.7%20461.3c-12%2012-28.3%2018.7-45.3%2018.7zm325.5-176H296c-13.3%200-24%2010.7-24%2024v93.5z%22/%3E%3C/svg%3E');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M384%20512H96c-53%200-96-43-96-96V96C0%2043%2043%200%2096%200h304c26.5%200%2048%2021.5%2048%2048v288c0%2020.9-13.4%2038.7-32%2045.3V448c17.7%200%2032%2014.3%2032%2032s-14.3%2032-32%2032zM96%20384c-17.7%200-32%2014.3-32%2032s14.3%2032%2032%2032h256v-64zm32-232c0%2013.3%2010.7%2024%2024%2024h176c13.3%200%2024-10.7%2024-24s-10.7-24-24-24H152c-13.3%200-24%2010.7-24%2024m24%2072c-13.3%200-24%2010.7-24%2024s10.7%2024%2024%2024h176c13.3%200%2024-10.7%2024-24s-10.7-24-24-24z%22/%3E%3C/svg%3E');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M256%20512a256%20256%200%201%200%200-512%20256%20256%200%201%200%200%20512m-32-352a32%2032%200%201%201%2064%200%2032%2032%200%201%201-64%200m-8%2064h48c13.3%200%2024%2010.7%2024%2024v88h8c13.3%200%2024%2010.7%2024%2024s-10.7%2024-24%2024h-80c-13.3%200-24-10.7-24-24s10.7-24%2024-24h24v-64h-24c-13.3%200-24-10.7-24-24s10.7-24%2024-24%22/%3E%3C/svg%3E');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M461.2%2018.9C472.7%2024%20480%2035.4%20480%2048v416c0%2012.6-7.3%2024-18.8%2029.1s-24.8%203.2-34.3-5.1l-46.6-40.7c-43.6-38.1-98.7-60.3-156.4-63V480c0%2017.7-14.3%2032-32%2032h-32c-17.7%200-32-14.3-32-32v-96C57.3%20384%200%20326.7%200%20256s57.3-128%20128-128h84.5c61.8-.2%20121.4-22.7%20167.9-63.3L427%2024c9.4-8.3%2022.9-10.2%2034.3-5.1zM224%20320v.2c70.3%202.7%20137.8%2028.5%20192%2073.4V118.3c-54.2%2044.9-121.7%2070.7-192%2073.4z%22/%3E%3C/svg%3E');--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M434.8%2070.1c14.3%2010.4%2017.5%2030.4%207.1%2044.7l-256%20352c-5.5%207.6-14%2012.3-23.4%2013.1s-18.5-2.7-25.1-9.3l-128-128c-12.5-12.5-12.5-32.8%200-45.3s32.8-12.5%2045.3%200l101.5%20101.5%20234-321.7c10.4-14.3%2030.4-17.5%2044.7-7.1z%22/%3E%3C/svg%3E');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M256%20512a256%20256%200%201%200%200-512%20256%20256%200%201%200%200%20512m0-336c-17.7%200-32%2014.3-32%2032%200%2013.3-10.7%2024-24%2024s-24-10.7-24-24c0-44.2%2035.8-80%2080-80s80%2035.8%2080%2080c0%2047.2-36%2067.2-56%2074.5v3.8c0%2013.3-10.7%2024-24%2024s-24-10.7-24-24v-8.1c0-20.5%2014.8-35.2%2030.1-40.2%206.4-2.1%2013.2-5.5%2018.2-10.3%204.3-4.2%207.7-10%207.7-19.6%200-17.7-14.3-32-32-32zm-32%20192a32%2032%200%201%201%2064%200%2032%2032%200%201%201-64%200%22/%3E%3C/svg%3E');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M256%200c14.7%200%2028.2%208.1%2035.2%2021l216%20400c6.7%2012.4%206.4%2027.4-.8%2039.5S486.1%20480%20472%20480H40c-14.1%200-27.2-7.4-34.4-19.5s-7.5-27.1-.8-39.5l216-400c7-12.9%2020.5-21%2035.2-21m0%20352a32%2032%200%201%200%200%2064%2032%2032%200%201%200%200-64m0-192c-18.2%200-32.7%2015.5-31.4%2033.7l7.4%20104c.9%2012.5%2011.4%2022.3%2023.9%2022.3%2012.6%200%2023-9.7%2023.9-22.3l7.4-104c1.3-18.2-13.1-33.7-31.4-33.7z%22/%3E%3C/svg%3E');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20576%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M480-16c6.9%200%2013%204.4%2015.2%2010.9l13.5%2040.4%2040.4%2013.5C555.6%2051%20560%2057.1%20560%2064s-4.4%2013-10.9%2015.2l-40.4%2013.5-13.5%2040.4c-2.2%206.5-8.3%2010.9-15.2%2010.9s-13-4.4-15.2-10.9l-13.5-40.4-40.4-13.5C404.4%2077%20400%2070.9%20400%2064s4.4-13%2010.9-15.2l40.4-13.5%2013.5-40.4C467-11.6%20473.1-16%20480-16M321.4%2097.4c12.5-12.5%2032.8-12.5%2045.3%200l80%2080c12.5%2012.5%2012.5%2032.8%200%2045.3l-10.9%2010.9c7.9%2022%2012.2%2045.7%2012.2%2070.5%200%20114.9-93.1%20208-208%20208S32%20418.9%2032%20304%20125.1%2096%20240%2096c24.7%200%2048.5%204.3%2070.5%2012.3zM144%20304c0-53%2043-96%2096-96%2013.3%200%2024-10.7%2024-24s-10.7-24-24-24c-79.5%200-144%2064.5-144%20144%200%2013.3%2010.7%2024%2024%2024s24-10.7%2024-24%22/%3E%3C/svg%3E');--md-admonition-icon--danger:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M416%20427.4c58.5-44%2096-111.6%2096-187.4C512%20107.5%20397.4%200%20256%200S0%20107.5%200%20240c0%2075.8%2037.5%20143.4%2096%20187.4V464c0%2026.5%2021.5%2048%2048%2048h32v-40c0-13.3%2010.7-24%2024-24s24%2010.7%2024%2024v40h64v-40c0-13.3%2010.7-24%2024-24s24%2010.7%2024%2024v40h32c26.5%200%2048-21.5%2048-48zM96%20256a64%2064%200%201%201%20128%200%2064%2064%200%201%201-128%200m256-64a64%2064%200%201%201%200%20128%2064%2064%200%201%201%200-128%22/%3E%3C/svg%3E');--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20640%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M352%200c0-17.7-14.3-32-32-32s-32%2014.3-32%2032v64h-96c-53%200-96%2043-96%2096v224c0%2053%2043%2096%2096%2096h256c53%200%2096-43%2096-96V160c0-53-43-96-96-96h-96zM160%20368c0-13.3%2010.7-24%2024-24h32c13.3%200%2024%2010.7%2024%2024s-10.7%2024-24%2024h-32c-13.3%200-24-10.7-24-24m120%200c0-13.3%2010.7-24%2024-24h32c13.3%200%2024%2010.7%2024%2024s-10.7%2024-24%2024h-32c-13.3%200-24-10.7-24-24m120%200c0-13.3%2010.7-24%2024-24h32c13.3%200%2024%2010.7%2024%2024s-10.7%2024-24%2024h-32c-13.3%200-24-10.7-24-24M224%20176a48%2048%200%201%201%200%2096%2048%2048%200%201%201%200-96m144%2048a48%2048%200%201%201%2096%200%2048%2048%200%201%201-96%200m-304%200c0-17.7-14.3-32-32-32S0%20206.3%200%20224v96c0%2017.7%2014.3%2032%2032%2032s32-14.3%2032-32zm544-32c-17.7%200-32%2014.3-32%2032v96c0%2017.7%2014.3%2032%2032%2032s32-14.3%2032-32v-96c0-17.7-14.3-32-32-32%22/%3E%3C/svg%3E');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M288%200H128c-17.7%200-32%2014.3-32%2032s14.3%2032%2032%2032v151.5L7.5%20426.3C2.6%20435%200%20444.7%200%20454.7%200%20486.4%2025.6%20512%2057.3%20512h333.4c31.6%200%2057.3-25.6%2057.3-57.3%200-10-2.6-19.8-7.5-28.4L320%20215.5V64c17.7%200%2032-14.3%2032-32S337.7%200%20320%200zm-96%20215.5V64h64v151.5c0%2011.1%202.9%2022.1%208.4%2031.8L306%20320H142l41.6-72.7c5.5-9.7%208.4-20.6%208.4-31.8%22/%3E%3C/svg%3E');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M0%20216C0%20149.7%2053.7%2096%20120%2096h8c17.7%200%2032%2014.3%2032%2032s-14.3%2032-32%2032h-8c-30.9%200-56%2025.1-56%2056v8h64c35.3%200%2064%2028.7%2064%2064v64c0%2035.3-28.7%2064-64%2064H64c-35.3%200-64-28.7-64-64zm256%200c0-66.3%2053.7-120%20120-120h8c17.7%200%2032%2014.3%2032%2032s-14.3%2032-32%2032h-8c-30.9%200-56%2025.1-56%2056v8h64c35.3%200%2064%2028.7%2064%2064v64c0%2035.3-28.7%2064-64%2064h-64c-35.3%200-64-28.7-64-64z%22/%3E%3C/svg%3E');}</style>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
-<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-<link href="../../css/timeago.css" rel="stylesheet"/>
-<link href="../../css/timeago.css" rel="stylesheet"/>
-<link href="../../css/timeago.css" rel="stylesheet"/>
-<link href="../../css/timeago.css" rel="stylesheet"/>
-<link href="../../css/timeago.css" rel="stylesheet"/>
-<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<!DOCTYPE html><html lang="fr" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="FAQ détaillée pour notre produit phare Mini-KVM, couvrant les spécifications techniques, guides d'utilisation et conseils de dépannage.">
+      
+      
+        <meta name="author" content="Openterface">
+      
+      
+        <link rel="canonical" href="https://openterface.com/fr/faq/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="kvm-over-usb/">
+      
+      
+        
+          <link rel="alternate" href="../../faq/" hreflang="en">
+        
+          <link rel="alternate" href="../../zh/faq/" hreflang="zh">
+        
+          <link rel="alternate" href="../../ja/faq/" hreflang="ja">
+        
+          <link rel="alternate" href="../../ko/faq/" hreflang="ko">
+        
+          <link rel="alternate" href="./" hreflang="fr">
+        
+          <link rel="alternate" href="../../de/faq/" hreflang="de">
+        
+          <link rel="alternate" href="../../it/faq/" hreflang="it">
+        
+          <link rel="alternate" href="../../es/faq/" hreflang="es">
+        
+          <link rel="alternate" href="../../pt/faq/" hreflang="pt">
+        
+          <link rel="alternate" href="../../ro/faq/" hreflang="ro">
+        
+      
+      
+      <link rel="icon" href="../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>FAQ pour USB KVM et Openterface - Openterface | Relier les interfaces pour ouvrir des possibilités infinies</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+  
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M64%20480c-35.3%200-64-28.7-64-64V96c0-35.3%2028.7-64%2064-64h320c35.3%200%2064%2028.7%2064%2064v213.5c0%2017-6.7%2033.3-18.7%2045.3L322.7%20461.3c-12%2012-28.3%2018.7-45.3%2018.7zm325.5-176H296c-13.3%200-24%2010.7-24%2024v93.5z%22/%3E%3C/svg%3E');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M384%20512H96c-53%200-96-43-96-96V96C0%2043%2043%200%2096%200h304c26.5%200%2048%2021.5%2048%2048v288c0%2020.9-13.4%2038.7-32%2045.3V448c17.7%200%2032%2014.3%2032%2032s-14.3%2032-32%2032zM96%20384c-17.7%200-32%2014.3-32%2032s14.3%2032%2032%2032h256v-64zm32-232c0%2013.3%2010.7%2024%2024%2024h176c13.3%200%2024-10.7%2024-24s-10.7-24-24-24H152c-13.3%200-24%2010.7-24%2024m24%2072c-13.3%200-24%2010.7-24%2024s10.7%2024%2024%2024h176c13.3%200%2024-10.7%2024-24s-10.7-24-24-24z%22/%3E%3C/svg%3E');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M256%20512a256%20256%200%201%200%200-512%20256%20256%200%201%200%200%20512m-32-352a32%2032%200%201%201%2064%200%2032%2032%200%201%201-64%200m-8%2064h48c13.3%200%2024%2010.7%2024%2024v88h8c13.3%200%2024%2010.7%2024%2024s-10.7%2024-24%2024h-80c-13.3%200-24-10.7-24-24s10.7-24%2024-24h24v-64h-24c-13.3%200-24-10.7-24-24s10.7-24%2024-24%22/%3E%3C/svg%3E');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M461.2%2018.9C472.7%2024%20480%2035.4%20480%2048v416c0%2012.6-7.3%2024-18.8%2029.1s-24.8%203.2-34.3-5.1l-46.6-40.7c-43.6-38.1-98.7-60.3-156.4-63V480c0%2017.7-14.3%2032-32%2032h-32c-17.7%200-32-14.3-32-32v-96C57.3%20384%200%20326.7%200%20256s57.3-128%20128-128h84.5c61.8-.2%20121.4-22.7%20167.9-63.3L427%2024c9.4-8.3%2022.9-10.2%2034.3-5.1zM224%20320v.2c70.3%202.7%20137.8%2028.5%20192%2073.4V118.3c-54.2%2044.9-121.7%2070.7-192%2073.4z%22/%3E%3C/svg%3E');--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M434.8%2070.1c14.3%2010.4%2017.5%2030.4%207.1%2044.7l-256%20352c-5.5%207.6-14%2012.3-23.4%2013.1s-18.5-2.7-25.1-9.3l-128-128c-12.5-12.5-12.5-32.8%200-45.3s32.8-12.5%2045.3%200l101.5%20101.5%20234-321.7c10.4-14.3%2030.4-17.5%2044.7-7.1z%22/%3E%3C/svg%3E');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M256%20512a256%20256%200%201%200%200-512%20256%20256%200%201%200%200%20512m0-336c-17.7%200-32%2014.3-32%2032%200%2013.3-10.7%2024-24%2024s-24-10.7-24-24c0-44.2%2035.8-80%2080-80s80%2035.8%2080%2080c0%2047.2-36%2067.2-56%2074.5v3.8c0%2013.3-10.7%2024-24%2024s-24-10.7-24-24v-8.1c0-20.5%2014.8-35.2%2030.1-40.2%206.4-2.1%2013.2-5.5%2018.2-10.3%204.3-4.2%207.7-10%207.7-19.6%200-17.7-14.3-32-32-32zm-32%20192a32%2032%200%201%201%2064%200%2032%2032%200%201%201-64%200%22/%3E%3C/svg%3E');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M256%200c14.7%200%2028.2%208.1%2035.2%2021l216%20400c6.7%2012.4%206.4%2027.4-.8%2039.5S486.1%20480%20472%20480H40c-14.1%200-27.2-7.4-34.4-19.5s-7.5-27.1-.8-39.5l216-400c7-12.9%2020.5-21%2035.2-21m0%20352a32%2032%200%201%200%200%2064%2032%2032%200%201%200%200-64m0-192c-18.2%200-32.7%2015.5-31.4%2033.7l7.4%20104c.9%2012.5%2011.4%2022.3%2023.9%2022.3%2012.6%200%2023-9.7%2023.9-22.3l7.4-104c1.3-18.2-13.1-33.7-31.4-33.7z%22/%3E%3C/svg%3E');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20576%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M480-16c6.9%200%2013%204.4%2015.2%2010.9l13.5%2040.4%2040.4%2013.5C555.6%2051%20560%2057.1%20560%2064s-4.4%2013-10.9%2015.2l-40.4%2013.5-13.5%2040.4c-2.2%206.5-8.3%2010.9-15.2%2010.9s-13-4.4-15.2-10.9l-13.5-40.4-40.4-13.5C404.4%2077%20400%2070.9%20400%2064s4.4-13%2010.9-15.2l40.4-13.5%2013.5-40.4C467-11.6%20473.1-16%20480-16M321.4%2097.4c12.5-12.5%2032.8-12.5%2045.3%200l80%2080c12.5%2012.5%2012.5%2032.8%200%2045.3l-10.9%2010.9c7.9%2022%2012.2%2045.7%2012.2%2070.5%200%20114.9-93.1%20208-208%20208S32%20418.9%2032%20304%20125.1%2096%20240%2096c24.7%200%2048.5%204.3%2070.5%2012.3zM144%20304c0-53%2043-96%2096-96%2013.3%200%2024-10.7%2024-24s-10.7-24-24-24c-79.5%200-144%2064.5-144%20144%200%2013.3%2010.7%2024%2024%2024s24-10.7%2024-24%22/%3E%3C/svg%3E');--md-admonition-icon--danger:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M416%20427.4c58.5-44%2096-111.6%2096-187.4C512%20107.5%20397.4%200%20256%200S0%20107.5%200%20240c0%2075.8%2037.5%20143.4%2096%20187.4V464c0%2026.5%2021.5%2048%2048%2048h32v-40c0-13.3%2010.7-24%2024-24s24%2010.7%2024%2024v40h64v-40c0-13.3%2010.7-24%2024-24s24%2010.7%2024%2024v40h32c26.5%200%2048-21.5%2048-48zM96%20256a64%2064%200%201%201%20128%200%2064%2064%200%201%201-128%200m256-64a64%2064%200%201%201%200%20128%2064%2064%200%201%201%200-128%22/%3E%3C/svg%3E');--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20640%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M352%200c0-17.7-14.3-32-32-32s-32%2014.3-32%2032v64h-96c-53%200-96%2043-96%2096v224c0%2053%2043%2096%2096%2096h256c53%200%2096-43%2096-96V160c0-53-43-96-96-96h-96zM160%20368c0-13.3%2010.7-24%2024-24h32c13.3%200%2024%2010.7%2024%2024s-10.7%2024-24%2024h-32c-13.3%200-24-10.7-24-24m120%200c0-13.3%2010.7-24%2024-24h32c13.3%200%2024%2010.7%2024%2024s-10.7%2024-24%2024h-32c-13.3%200-24-10.7-24-24m120%200c0-13.3%2010.7-24%2024-24h32c13.3%200%2024%2010.7%2024%2024s-10.7%2024-24%2024h-32c-13.3%200-24-10.7-24-24M224%20176a48%2048%200%201%201%200%2096%2048%2048%200%201%201%200-96m144%2048a48%2048%200%201%201%2096%200%2048%2048%200%201%201-96%200m-304%200c0-17.7-14.3-32-32-32S0%20206.3%200%20224v96c0%2017.7%2014.3%2032%2032%2032s32-14.3%2032-32zm544-32c-17.7%200-32%2014.3-32%2032v96c0%2017.7%2014.3%2032%2032%2032s32-14.3%2032-32v-96c0-17.7-14.3-32-32-32%22/%3E%3C/svg%3E');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M288%200H128c-17.7%200-32%2014.3-32%2032s14.3%2032%2032%2032v151.5L7.5%20426.3C2.6%20435%200%20444.7%200%20454.7%200%20486.4%2025.6%20512%2057.3%20512h333.4c31.6%200%2057.3-25.6%2057.3-57.3%200-10-2.6-19.8-7.5-28.4L320%20215.5V64c17.7%200%2032-14.3%2032-32S337.7%200%20320%200zm-96%20215.5V64h64v151.5c0%2011.1%202.9%2022.1%208.4%2031.8L306%20320H142l41.6-72.7c5.5-9.7%208.4-20.6%208.4-31.8%22/%3E%3C/svg%3E');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.1.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20d%3D%22M0%20216C0%20149.7%2053.7%2096%20120%2096h8c17.7%200%2032%2014.3%2032%2032s-14.3%2032-32%2032h-8c-30.9%200-56%2025.1-56%2056v8h64c35.3%200%2064%2028.7%2064%2064v64c0%2035.3-28.7%2064-64%2064H64c-35.3%200-64-28.7-64-64zm256%200c0-66.3%2053.7-120%20120-120h8c17.7%200%2032%2014.3%2032%2032s-14.3%2032-32%2032h-8c-30.9%200-56%2025.1-56%2056v8h64c35.3%200%2064%2028.7%2064%2064v64c0%2035.3-28.7%2064-64%2064h-64c-35.3%200-64-28.7-64-64z%22/%3E%3C/svg%3E');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/timeago.css">
+    
+      <link rel="stylesheet" href="../../css/timeago.css">
+    
+      <link rel="stylesheet" href="../../css/timeago.css">
+    
+      <link rel="stylesheet" href="../../css/timeago.css">
+    
+      <link rel="stylesheet" href="../../css/timeago.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
 <script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-EKZEH6QYWT"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-EKZEH6QYWT",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-EKZEH6QYWT",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
-<script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
-<link href="../../assets/stylesheets/custom.css" rel="stylesheet"/>
-<link href="../../assets/stylesheets/signup_form.css" rel="stylesheet"/>
-<!-- Conditionally load slideshow.css only on product pages -->
-<!-- Conditionally load youtube-videos.css only on videos pages -->
-<!-- Language Alternates (hreflang for SEO) -->
-<!-- hreflang links - Auto-generated from i18n.yml -->
-<link href="https://openterface.com//" hreflang="en" rel="alternate"/>
-<link href="https://openterface.com//zh/" hreflang="zh" rel="alternate"/>
-<link href="https://openterface.com//ja/" hreflang="ja" rel="alternate"/>
-<link href="https://openterface.com//ko/" hreflang="ko" rel="alternate"/>
-<link href="https://openterface.com//fr/" hreflang="fr" rel="alternate"/>
-<link href="https://openterface.com//de/" hreflang="de" rel="alternate"/>
-<link href="https://openterface.com//it/" hreflang="it" rel="alternate"/>
-<link href="https://openterface.com//es/" hreflang="es" rel="alternate"/>
-<link href="https://openterface.com//pt/" hreflang="pt" rel="alternate"/>
-<link href="https://openterface.com//ro/" hreflang="ro" rel="alternate"/>
-<link href="https://openterface.com//" hreflang="x-default" rel="alternate"/>
-<!-- Determine current locale -->
-<!-- Gibby Avatar and Dialogue Box -->
-<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+  
+    <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
+  
+
+    
+    
+  <link rel="stylesheet" href="../../assets/stylesheets/custom.css">
+  <link rel="stylesheet" href="../../assets/stylesheets/signup_form.css">
+  
+  <!-- Conditionally load slideshow.css only on product pages -->
+  
+  
+  <!-- Conditionally load youtube-videos.css only on videos pages -->
+  
+  
+  <!-- Language Alternates (hreflang for SEO) -->
+  <!-- hreflang links - Auto-generated from i18n.yml -->
+<link rel="alternate" hreflang="en" href="https://openterface.com//">
+<link rel="alternate" hreflang="zh" href="https://openterface.com//zh/">
+<link rel="alternate" hreflang="ja" href="https://openterface.com//ja/">
+<link rel="alternate" hreflang="ko" href="https://openterface.com//ko/">
+<link rel="alternate" hreflang="fr" href="https://openterface.com//fr/">
+<link rel="alternate" hreflang="de" href="https://openterface.com//de/">
+<link rel="alternate" hreflang="it" href="https://openterface.com//it/">
+<link rel="alternate" hreflang="es" href="https://openterface.com//es/">
+<link rel="alternate" hreflang="pt" href="https://openterface.com//pt/">
+<link rel="alternate" hreflang="ro" href="https://openterface.com//ro/">
+<link rel="alternate" hreflang="x-default" href="https://openterface.com//">
+  
+  <!-- Determine current locale -->
+  
+
+  <!-- Gibby Avatar and Dialogue Box -->
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
@@ -63,16 +200,17 @@
             body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
             body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
             body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
-        </style><meta content="Vue d'ensemble" name="title"/><meta content="USB KVM, Openterface, KVM-over-USB, portable KVM, plug-and-play KVM, network-free KVM, headless device control, IT solutions, troubleshooting, Openterface products" name="keywords"/><meta content="website" property="og:type"/><meta content="https://openterface.com/fr/faq" property="og:url"/><meta content="Vue d'ensemble" property="og:title"/><meta content="" property="og:description"/><meta content="https://assets.openterface.com/images/kvm-go/KVM-GO-bundle-hand-2.webp" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://openterface.com/fr/faq" property="twitter:url"/><meta content="Vue d'ensemble" property="twitter:title"/><meta content="" property="twitter:description"/><meta content="https://assets.openterface.com/images/kvm-go/KVM-GO-bundle-hand-2.webp" property="twitter:image"/></head><body data-md-color-accent="custom" data-md-color-primary="deep-orange" data-md-color-scheme="default" dir="ltr"><div class="gibby-container">
-<!-- Default English content (fallback) -->
-<a class="gibby-link" href="#" id="gibby-avatar-link"><img alt="Gibby Mascot" aria-label="Gibby Mascot" class="gibby-avatar" draggable="false" src="https://assets.openterface.com/images/op-avatar.webp"/></a>
-<div class="gibby-dialogue">
-<p>
-<a class="gibby-link" href="#" id="gibby-text-link">Subscribe NOW!</a>
-</p>
-</div>
-</div>
-<script>
+        </style></head><body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="custom"><div class="gibby-container">
+    <!-- Default English content (fallback) -->
+    <a href="#" class="gibby-link" id="gibby-avatar-link"><img src="https://assets.openterface.com/images/op-avatar.webp" alt="Gibby Mascot" class="gibby-avatar" draggable="false" aria-label="Gibby Mascot"></a>
+    <div class="gibby-dialogue">
+      <p>
+        <a href="#" class="gibby-link" id="gibby-text-link">Subscribe NOW!</a>
+      </p>
+    </div>
+  </div>
+
+  <script>
     // Language-specific Gibby content
     const gibbyContent = {
       'en': {
@@ -262,328 +400,590 @@
       }
     })();
   </script>
-<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
-<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
-<label class="md-overlay" for="__drawer"></label>
-<div data-md-component="skip">
-<a class="md-skip" href="#faq">
+
+  
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#faq" class="md-skip">
           Aller au contenu
         </a>
-</div>
-<div data-md-component="announce">
-</div>
-<!-- Determine classes -->
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <!-- Determine classes -->
+
+
+  
+
+
 <!-- Header -->
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
-<nav aria-label="En-tête" class="md-header__inner md-grid">
-<!-- Link to home -->
-<a aria-label="Openterface | Bridging Interfaces to Open Possibilities" class="md-header__button md-logo" data-md-component="logo" href="../" title="Openterface | Bridging Interfaces to Open Possibilities">
-<img alt="logo" src="../../assets/app-logo.png"/>
-</a>
-<!-- Button to open drawer -->
-<label class="md-header__button md-icon" for="__drawer">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
-</label>
-<!-- Header title -->
-<div class="md-header__title" data-md-component="header-title">
-<div class="md-header__ellipsis">
-<div class="md-header__topic">
-<span class="md-ellipsis">
-            Openterface | Bridging Interfaces to Open Possibilities
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+
+    <!-- Link to home -->
+    <a href="../" title="Openterface | Relier les interfaces pour ouvrir des possibilités infinies" class="md-header__button md-logo" aria-label="Openterface | Relier les interfaces pour ouvrir des possibilités infinies" data-md-component="logo">
+      
+  <img src="../../assets/app-logo.png" alt="logo">
+
+    </a>
+
+    <!-- Button to open drawer -->
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+
+    <!-- Header title -->
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Openterface | Relier les interfaces pour ouvrir des possibilités infinies
           </span>
-</div>
-<div class="md-header__topic" data-md-component="header-topic">
-<span class="md-ellipsis">
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
             
               FAQ pour USB KVM et Openterface
             
           </span>
-</div>
-</div>
-</div>
-<!-- Color palette toggle -->
-<form class="md-header__option" data-md-component="palette">
-<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="custom" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="deep-orange" data-md-color-scheme="default" id="__palette_0" name="__palette" type="radio"/>
-<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to dark mode">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"></path></svg>
-</label>
-<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="custom" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="deep-orange" data-md-color-scheme="slate" id="__palette_1" name="__palette" type="radio"/>
-<label class="md-header__button md-icon" for="__palette_0" hidden="" title="Switch to light mode">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"></path></svg>
-</label>
+        </div>
+      </div>
+    </div>
+
+    <!-- Color palette toggle -->
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="custom" aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="custom" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"></path></svg>
+      </label>
+    
+  
 </form>
-<!-- User preference: color palette -->
-<script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
-<!-- Site language selector -->
-<div class="md-header__option">
-<div class="md-select">
-<button aria-label="Sélectionner la langue" class="md-header__button md-icon">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
-</button>
-<div class="md-select__inner">
-<ul class="md-select__list">
-<li class="md-select__item">
-<a class="md-select__link" href="../../faq/" hreflang="en">
+      
+    
+
+    <!-- User preference: color palette -->
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+
+    <!-- Site language selector -->
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Sélectionner la langue">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../faq/" hreflang="en" class="md-select__link">
               English
             </a>
-</li>
-<li class="md-select__item">
-<a class="md-select__link" href="../../zh/faq/" hreflang="zh">
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../zh/faq/" hreflang="zh" class="md-select__link">
               简体中文
             </a>
-</li>
-<li class="md-select__item">
-<a class="md-select__link" href="../../ja/faq/" hreflang="ja">
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../ja/faq/" hreflang="ja" class="md-select__link">
               日本語
             </a>
-</li>
-<li class="md-select__item">
-<a class="md-select__link" href="../../ko/faq/" hreflang="ko">
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../ko/faq/" hreflang="ko" class="md-select__link">
               한국어
             </a>
-</li>
-<li class="md-select__item">
-<a class="md-select__link" href="./" hreflang="fr">
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="fr" class="md-select__link">
               Français
             </a>
-</li>
-<li class="md-select__item">
-<a class="md-select__link" href="../../de/faq/" hreflang="de">
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../de/faq/" hreflang="de" class="md-select__link">
               Deutsch
             </a>
-</li>
-<li class="md-select__item">
-<a class="md-select__link" href="../../it/faq/" hreflang="it">
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../it/faq/" hreflang="it" class="md-select__link">
               Italiano
             </a>
-</li>
-<li class="md-select__item">
-<a class="md-select__link" href="../../es/faq/" hreflang="es">
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../es/faq/" hreflang="es" class="md-select__link">
               Español
             </a>
-</li>
-<li class="md-select__item">
-<a class="md-select__link" href="../../pt/faq/" hreflang="pt">
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../pt/faq/" hreflang="pt" class="md-select__link">
               Português
             </a>
-</li>
-<li class="md-select__item">
-<a class="md-select__link" href="../../ro/faq/" hreflang="ro">
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../ro/faq/" hreflang="ro" class="md-select__link">
               Română
             </a>
-</li>
-</ul>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
 </div>
-</div>
-</div>
-<!-- Button to open search modal -->
-<!-- Check if search is actually enabled - see https://t.ly/DT_0V -->
-<label class="md-header__button md-icon" for="__search">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
-</label>
-<!-- Search interface -->
-<div class="md-search" data-md-component="search" role="dialog">
-<label class="md-search__overlay" for="__search"></label>
-<div class="md-search__inner" role="search">
-<form class="md-search__form" name="search">
-<input aria-label="Rechercher" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Rechercher" required="" spellcheck="false" type="text"/>
-<label class="md-search__icon md-icon" for="__search">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
-</label>
-<nav aria-label="Recherche" class="md-search__options">
-<button aria-label="Effacer" class="md-search__icon md-icon" tabindex="-1" title="Effacer" type="reset">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
-</button>
-</nav>
-<div class="md-search__suggest" data-md-component="search-suggest"></div>
-</form>
-<div class="md-search__output">
-<div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
-<div class="md-search-result" data-md-component="search-result">
-<div class="md-search-result__meta">
+    
+
+    <!-- Button to open search modal -->
+    
+      
+
+      <!-- Check if search is actually enabled - see https://t.ly/DT_0V -->
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+
+        <!-- Search interface -->
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
             Initialisation de la recherche
           </div>
-<ol class="md-search-result__list" role="presentation"></ol>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-</div>
-</div>
-</div>
-</div>
-<!-- Repository information -->
-<div class="md-header__source">
-<a class="md-source" data-md-component="source" href="https://github.com/TechxArtisanStudio/Openterface" title="Aller au dépôt">
-<div class="md-source__icon md-icon">
-<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
-</div>
-<div class="md-source__repository">
+      
+    
+
+    <!-- Repository information -->
+    
+      <div class="md-header__source">
+        <a href="https://github.com/TechxArtisanStudio/Openterface" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
     Openterface
   </div>
 </a>
-</div>
-</nav>
-<!-- Custom Navigation Tabs -->
-<!-- Custom Navigation Tabs -->
-<nav aria-label="Onglets" class="md-tabs" data-md-component="tabs">
-<div class="custom-nav-container">
-<!-- Simple link item -->
-<a class="nav-item" href="../">
+      </div>
+    
+  </nav>
+
+  <!-- Custom Navigation Tabs -->
+  
+    
+      <!-- Custom Navigation Tabs -->
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="custom-nav-container">
+    
+      
+        <!-- Simple link item -->
+        
+          <a href="../" class="nav-item">
             Accueil
           </a>
-<!-- Dropdown item -->
-<div class="custom-nav-dropdown">
-<a class="nav-item" href="./">
+        
+      
+    
+      
+        <!-- Dropdown item -->
+        <div class="custom-nav-dropdown">
+          
+          
+            <a href="./" class="nav-item">
               FAQ
               <span class="dropdown-arrow">▼</span>
-</a>
-<div class="dropdown-content">
-<!-- Direct child with URL -->
-<a class="dropdown-item active" href="./">
+            </a>
+          
+          
+          <div class="dropdown-content">
+            
+              
+                <!-- Direct child with URL -->
+                <a href="./" class="dropdown-item active">
                   Vue d'ensemble
                 </a>
-<!-- Direct child with URL -->
-<a class="dropdown-item" href="kvm-over-usb/">
+              
+            
+              
+                <!-- Direct child with URL -->
+                <a href="kvm-over-usb/" class="dropdown-item">
                   Notions de base sur KVM-over-USB
                 </a>
-</div>
-</div>
-<!-- Simple link item -->
-<a class="nav-item" href="../support/">
+              
+            
+          </div>
+        </div>
+      
+    
+      
+        <!-- Simple link item -->
+        
+          <a href="../support/" class="nav-item">
             Support
           </a>
-<!-- Dropdown item -->
-<div class="custom-nav-dropdown">
-<span class="nav-item">
+        
+      
+    
+      
+        <!-- Dropdown item -->
+        <div class="custom-nav-dropdown">
+          
+          
+            <span class="nav-item">
               Produits
               <span class="dropdown-arrow">▼</span>
-</span>
-<div class="dropdown-content">
-<!-- Child with children - show the child title and link to its first child -->
-<a class="dropdown-item" href="../product/kvm-go/">
+            </span>
+          
+          
+          <div class="dropdown-content">
+            
+              
+                <!-- Child with children - show the child title and link to its first child -->
+                
+                
+                  <a href="../product/kvm-go/" class="dropdown-item">
                     KVM-Go Series 🚀
                   </a>
-<!-- Child with children - show the child title and link to its first child -->
-<a class="dropdown-item" href="../product/minikvm/">
+                
+              
+            
+              
+                <!-- Child with children - show the child title and link to its first child -->
+                
+                
+                  <a href="../product/minikvm/" class="dropdown-item">
                     Mini‑KVM 👑
                   </a>
-<!-- Child with children - show the child title and link to its first child -->
-<a class="dropdown-item" href="../product/uconsole-kvm-extension/">
+                
+              
+            
+              
+                <!-- Child with children - show the child title and link to its first child -->
+                
+                
+                  <a href="../product/uconsole-kvm-extension/" class="dropdown-item">
                     uConsole KVM Extension
                   </a>
-<!-- Child with children - show the child title and link to its first child -->
-<a class="dropdown-item" href="../product/accessories/">
+                
+              
+            
+              
+                <!-- Child with children - show the child title and link to its first child -->
+                
+                
+                  <a href="../product/accessories/" class="dropdown-item">
                     Accessoires
                   </a>
-</div>
-</div>
-<!-- Dropdown item -->
-<div class="custom-nav-dropdown">
-<a class="nav-item" href="../app/overview/">
+                
+              
+            
+          </div>
+        </div>
+      
+    
+      
+        <!-- Dropdown item -->
+        <div class="custom-nav-dropdown">
+          
+          
+            <a href="../app/overview/" class="nav-item">
               Application
               <span class="dropdown-arrow">▼</span>
-</a>
-<div class="dropdown-content">
-<!-- Direct child with URL -->
-<a class="dropdown-item" href="../app/overview/">
+            </a>
+          
+          
+          <div class="dropdown-content">
+            
+              
+                <!-- Direct child with URL -->
+                <a href="../app/overview/" class="dropdown-item">
                   Vue d'ensemble
                 </a>
-<!-- Child with children - show the child title and link to its first child -->
-<a class="dropdown-item" href="../app/qt/">
+              
+            
+              
+                <!-- Child with children - show the child title and link to its first child -->
+                
+                
+                  <a href="../app/qt/" class="dropdown-item">
                     Windows et Linux
                   </a>
-<!-- Child with children - show the child title and link to its first child -->
-<a class="dropdown-item" href="../app/macos/">
+                
+              
+            
+              
+                <!-- Child with children - show the child title and link to its first child -->
+                
+                
+                  <a href="../app/macos/" class="dropdown-item">
                     macOS
                   </a>
-<!-- Child with children - show the child title and link to its first child -->
-<a class="dropdown-item" href="../app/android/">
+                
+              
+            
+              
+                <!-- Child with children - show the child title and link to its first child -->
+                
+                
+                  <a href="../app/android/" class="dropdown-item">
                     Android
                   </a>
-<!-- Direct child with URL -->
-<a class="dropdown-item" href="../app/faq/">
+                
+              
+            
+              
+                <!-- Direct child with URL -->
+                <a href="../app/faq/" class="dropdown-item">
                   FAQ
                 </a>
-</div>
-</div>
-<!-- Simple link item -->
-<a class="nav-item" href="../use-cases/">
+              
+            
+          </div>
+        </div>
+      
+    
+      
+        <!-- Simple link item -->
+        
+          <a href="../videos/" class="nav-item">
+            Vidéos
+          </a>
+        
+      
+    
+      
+        <!-- Simple link item -->
+        
+          <a href="../use-cases/" class="nav-item">
             Cas d'utilisation
           </a>
-<!-- Simple link item -->
-<a class="nav-item" href="https://shop.techxartisan.com">
+        
+      
+    
+      
+        <!-- Simple link item -->
+        
+          <a href="https://shop.techxartisan.com" class="nav-item">
             Boutique
           </a>
-<!-- Dropdown item -->
-<div class="custom-nav-dropdown">
-<a class="nav-item" href="../about/community/">
+        
+      
+    
+      
+        <!-- Dropdown item -->
+        <div class="custom-nav-dropdown">
+          
+          
+            <a href="../about/community/" class="nav-item">
               À propos
               <span class="dropdown-arrow">▼</span>
-</a>
-<div class="dropdown-content">
-<!-- Direct child with URL -->
-<a class="dropdown-item" href="../about/community/">
+            </a>
+          
+          
+          <div class="dropdown-content">
+            
+              
+                <!-- Direct child with URL -->
+                <a href="../about/community/" class="dropdown-item">
                   Communauté
                 </a>
-<!-- Direct child with URL -->
-<a class="dropdown-item" href="../about/multi-languages/">
+              
+            
+              
+                <!-- Direct child with URL -->
+                <a href="../about/multi-languages/" class="dropdown-item">
                   Multilingue
                 </a>
-<!-- Direct child with URL -->
-<a class="dropdown-item" href="../about/compliance/">
+              
+            
+              
+                <!-- Direct child with URL -->
+                <a href="../about/compliance/" class="dropdown-item">
                   Conformité
                 </a>
-<!-- Direct child with URL -->
-<a class="dropdown-item" href="../about/contribute-support/">
+              
+            
+              
+                <!-- Direct child with URL -->
+                <a href="../about/contribute-support/" class="dropdown-item">
                   Contribuer et soutenir
                 </a>
-<!-- Direct child with URL -->
-<a class="dropdown-item" href="../about/media/">
+              
+            
+              
+                <!-- Direct child with URL -->
+                <a href="../about/media/" class="dropdown-item">
                   Avis et médias
                 </a>
-<!-- Direct child with URL -->
-<a class="dropdown-item" href="../about/bulk_orders/">
+              
+            
+              
+                <!-- Direct child with URL -->
+                <a href="../about/bulk_orders/" class="dropdown-item">
                   Commandes en gros
                 </a>
-<!-- Direct child with URL -->
-<a class="dropdown-item" href="../about/enterprise/">
+              
+            
+              
+                <!-- Direct child with URL -->
+                <a href="../about/enterprise/" class="dropdown-item">
                   Entreprise
                 </a>
-<!-- Direct child with URL -->
-<a class="dropdown-item" href="../about/about-us/">
+              
+            
+              
+                <!-- Direct child with URL -->
+                <a href="../about/about-us/" class="dropdown-item">
                   À Propos de Nous
                 </a>
-</div>
-</div>
-</div>
+              
+            
+          </div>
+        </div>
+      
+    
+  </div>
 </nav>
+    
+  
 </header>
-<div class="md-container" data-md-component="container">
-<main class="md-main" data-md-component="main">
-<div class="md-main__inner md-grid">
-<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
-<div class="md-sidebar__scrollwrap">
-<div class="md-sidebar__inner">
-<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" data-md-level="0">
-<label class="md-nav__title" for="__drawer">
-<a aria-label="Openterface | Bridging Interfaces to Open Possibilities" class="md-nav__button md-logo" data-md-component="logo" href="../" title="Openterface | Bridging Interfaces to Open Possibilities">
-<img alt="logo" src="../../assets/app-logo.png"/>
-</a>
-    Openterface | Bridging Interfaces to Open Possibilities
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../" title="Openterface | Relier les interfaces pour ouvrir des possibilités infinies" class="md-nav__button md-logo" aria-label="Openterface | Relier les interfaces pour ouvrir des possibilités infinies" data-md-component="logo">
+      
+  <img src="../../assets/app-logo.png" alt="logo">
+
+    </a>
+    Openterface | Relier les interfaces pour ouvrir des possibilités infinies
   </label>
-<div class="md-nav__source">
-<a class="md-source" data-md-component="source" href="https://github.com/TechxArtisanStudio/Openterface" title="Aller au dépôt">
-<div class="md-source__icon md-icon">
-<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
-</div>
-<div class="md-source__repository">
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/TechxArtisanStudio/Openterface" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
     Openterface
   </div>
 </a>
-</div>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../">
-<span class="md-ellipsis">
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Accueil
@@ -591,13 +991,54 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
-<div class="md-nav__link md-nav__container">
-<a class="md-nav__link md-nav__link--active" href="./">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
+  
+  
+  <span class="md-ellipsis">
     
   
     FAQ
@@ -605,24 +1046,43 @@
 
     
   </span>
-</a>
-<label class="md-nav__link md-nav__link--active" for="__nav_2" id="__nav_2_label" tabindex="">
-<span class="md-nav__icon md-icon"></span>
-</label>
-</div>
-<nav aria-expanded="true" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_2">
-<span class="md-nav__icon md-icon"></span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
             
   
     FAQ
   
 
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="kvm-over-usb/">
-<span class="md-ellipsis">
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kvm-over-usb/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Notions de base sur KVM-over-USB
@@ -630,14 +1090,34 @@
 
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../support/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Support
@@ -645,12 +1125,50 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
-<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4">
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
     
   
     Produits
@@ -658,23 +1176,74 @@
 
     
   </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_4">
-<span class="md-nav__icon md-icon"></span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
             
   
     Produits
   
 
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_4_1" type="checkbox"/>
-<div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="../product/kvm-go/">
-<span class="md-ellipsis">
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../product/kvm-go/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
     
   
     KVM-Go Series 🚀
@@ -682,24 +1251,43 @@
 
     
   </span>
-</a>
-<label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
-<span class="md-nav__icon md-icon"></span>
-</label>
-</div>
-<nav aria-expanded="false" aria-labelledby="__nav_4_1_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_4_1">
-<span class="md-nav__icon md-icon"></span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
             
   
     KVM-Go Series 🚀
   
 
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/kvm-go/features/">
-<span class="md-ellipsis">
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/kvm-go/features/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Fonctionnalités et spécifications
@@ -707,11 +1295,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/kvm-go/whats-in-the-box/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/kvm-go/whats-in-the-box/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Contenu de la boîte
@@ -719,11 +1323,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/kvm-go/how-to-connect/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/kvm-go/how-to-connect/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Comment connecter
@@ -731,11 +1351,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/kvm-go/beta-quick-start/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/kvm-go/beta-quick-start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Démarrage rapide Beta
@@ -743,11 +1379,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/kvm-go/microsd-switch/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/kvm-go/microsd-switch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Commutateur MicroSD
@@ -755,11 +1407,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/kvm-go/faq/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/kvm-go/faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     FAQ KVM-Go
@@ -767,11 +1435,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../videos/?p=kvm-go">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../videos/?p=kvm-go" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Vidéos
@@ -779,12 +1463,47 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_4_1_9" type="checkbox"/>
-<label class="md-nav__link" for="__nav_4_1_9" id="__nav_4_1_9_label" tabindex="0">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1_9">
+        
+          
+          <label class="md-nav__link" for="__nav_4_1_9" id="__nav_4_1_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
     
   
     Avis et presse
@@ -792,21 +1511,35 @@
 
     
   </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_4_1_9_label" class="md-nav" data-md-level="3">
-<label class="md-nav__title" for="__nav_4_1_9">
-<span class="md-nav__icon md-icon"></span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_1_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1_9">
+            <span class="md-nav__icon md-icon"></span>
             
   
     Avis et presse
   
 
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/kvm-go/reviews/testimonials/">
-<span class="md-ellipsis">
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/kvm-go/reviews/testimonials/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Témoignages
@@ -814,11 +1547,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/kvm-go/reviews/media/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/kvm-go/reviews/media/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Couverture médiatique
@@ -826,14 +1575,35 @@
 
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/kvm-go/updates/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/kvm-go/updates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Mises à jour KVM-Go
@@ -841,16 +1611,76 @@
 
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_4_2" type="checkbox"/>
-<div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="../product/minikvm/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../product/minikvm/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
     
   
     Mini‑KVM 👑
@@ -858,24 +1688,43 @@
 
     
   </span>
-</a>
-<label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
-<span class="md-nav__icon md-icon"></span>
-</label>
-</div>
-<nav aria-expanded="false" aria-labelledby="__nav_4_2_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_4_2">
-<span class="md-nav__icon md-icon"></span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
             
   
     Mini‑KVM 👑
   
 
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/minikvm/features/">
-<span class="md-ellipsis">
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/minikvm/features/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Fonctionnalités et spécifications
@@ -883,11 +1732,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/minikvm/whats-in-the-box/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/minikvm/whats-in-the-box/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Contenu de la boîte
@@ -895,11 +1760,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/minikvm/how-to-connect/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/minikvm/how-to-connect/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Comment connecter
@@ -907,11 +1788,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/minikvm/usb-switch/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/minikvm/usb-switch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Commutateur USB
@@ -919,11 +1816,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/minikvm/extension-pins/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/minikvm/extension-pins/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Broches d'extension
@@ -931,11 +1844,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/minikvm/faq/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/minikvm/faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     FAQ Mini‑KVM
@@ -943,11 +1872,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../videos/?p=minikvm">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../videos/?p=minikvm" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Vidéos
@@ -955,12 +1900,47 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_4_2_9" type="checkbox"/>
-<label class="md-nav__link" for="__nav_4_2_9" id="__nav_4_2_9_label" tabindex="0">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_9">
+        
+          
+          <label class="md-nav__link" for="__nav_4_2_9" id="__nav_4_2_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
     
   
     Avis et presse
@@ -968,21 +1948,35 @@
 
     
   </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_4_2_9_label" class="md-nav" data-md-level="3">
-<label class="md-nav__title" for="__nav_4_2_9">
-<span class="md-nav__icon md-icon"></span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_2_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_9">
+            <span class="md-nav__icon md-icon"></span>
             
   
     Avis et presse
   
 
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/minikvm/reviews/testimonials/">
-<span class="md-ellipsis">
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/minikvm/reviews/testimonials/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Témoignages
@@ -990,11 +1984,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/minikvm/reviews/media/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/minikvm/reviews/media/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Couverture médiatique
@@ -1002,14 +2012,35 @@
 
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/minikvm/updates/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/minikvm/updates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Mises à jour Mini-KVM
@@ -1017,11 +2048,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../product/minikvm/support.md">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/minikvm/support.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Support
@@ -1029,16 +2076,72 @@
 
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_4_3" type="checkbox"/>
-<div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="../product/uconsole-kvm-extension/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../product/uconsole-kvm-extension/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
     
   
     uConsole KVM Extension
@@ -1046,24 +2149,43 @@
 
     
   </span>
-</a>
-<label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
-<span class="md-nav__icon md-icon"></span>
-</label>
-</div>
-<nav aria-expanded="false" aria-labelledby="__nav_4_3_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_4_3">
-<span class="md-nav__icon md-icon"></span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
             
   
     uConsole KVM Extension
   
 
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/uconsole-kvm-extension/features/">
-<span class="md-ellipsis">
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/uconsole-kvm-extension/features/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Fonctionnalités et spécifications
@@ -1071,11 +2193,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/uconsole-kvm-extension/whats-in-the-box/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/uconsole-kvm-extension/whats-in-the-box/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Contenu de la boîte
@@ -1083,11 +2221,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/uconsole-kvm-extension/hardware-installation/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/uconsole-kvm-extension/hardware-installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Installation du matériel
@@ -1095,11 +2249,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/uconsole-kvm-extension/software-setup/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/uconsole-kvm-extension/software-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Configuration du logiciel
@@ -1107,11 +2277,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/uconsole-kvm-extension/connect-to-target/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/uconsole-kvm-extension/connect-to-target/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Connexion à l'appareil cible
@@ -1119,11 +2305,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/uconsole-kvm-extension/faq/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/uconsole-kvm-extension/faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     FAQ Extension KVM
@@ -1131,11 +2333,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../videos/?p=uconsole-kvm-extension">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../videos/?p=uconsole-kvm-extension" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Vidéos
@@ -1143,11 +2361,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/uconsole-kvm-extension/updates/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/uconsole-kvm-extension/updates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Mises à jour Extension KVM
@@ -1155,16 +2389,68 @@
 
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_4_4" type="checkbox"/>
-<div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="../product/accessories/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../product/accessories/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
     
   
     Accessoires
@@ -1172,24 +2458,43 @@
 
     
   </span>
-</a>
-<label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
-<span class="md-nav__icon md-icon"></span>
-</label>
-</div>
-<nav aria-expanded="false" aria-labelledby="__nav_4_4_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_4_4">
-<span class="md-nav__icon md-icon"></span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
             
   
     Accessoires
   
 
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/accessories/vga-to-hdmi-cable/">
-<span class="md-ellipsis">
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/accessories/vga-to-hdmi-cable/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Câble VGA vers HDMI 1 m
@@ -1197,11 +2502,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/accessories/nylong-c-to-c-150/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/accessories/nylong-c-to-c-150/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Câble Type‑C vers C en nylon 1,5 m
@@ -1209,11 +2530,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/accessories/type-c-to-c-cable-with-adapter/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/accessories/type-c-to-c-cable-with-adapter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Câble Type‑C vers C orange 1,5 m
@@ -1221,11 +2558,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/accessories/black-c-to-a-30/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/accessories/black-c-to-a-30/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Câble Type‑C vers A noir 30 cm
@@ -1233,11 +2586,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/accessories/hdmi-male-to-male-cable/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/accessories/hdmi-male-to-male-cable/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Câble HDMI 30 cm
@@ -1245,11 +2614,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../product/accessories/openterface-toolkit-bag/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product/accessories/openterface-toolkit-bag/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Trousse à outils
@@ -1257,18 +2642,68 @@
 
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox"/>
-<label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5">
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
     
   
     Application
@@ -1276,21 +2711,35 @@
 
     
   </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_5">
-<span class="md-nav__icon md-icon"></span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
             
   
     Application
   
 
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../app/overview/">
-<span class="md-ellipsis">
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../app/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Vue d'ensemble
@@ -1298,13 +2747,48 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_5_2" type="checkbox"/>
-<div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="../app/qt/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../app/qt/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
     
   
     Windows et Linux
@@ -1312,26 +2796,69 @@
 
     
   </span>
-</a>
-</div>
-<nav aria-expanded="false" aria-labelledby="__nav_5_2_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_5_2">
-<span class="md-nav__icon md-icon"></span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
             
   
     Windows et Linux
   
 
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_5_3" type="checkbox"/>
-<div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="../app/macos/">
-<span class="md-ellipsis">
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../app/macos/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
     
   
     macOS
@@ -1339,24 +2866,43 @@
 
     
   </span>
-</a>
-<label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
-<span class="md-nav__icon md-icon"></span>
-</label>
-</div>
-<nav aria-expanded="false" aria-labelledby="__nav_5_3_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_5_3">
-<span class="md-nav__icon md-icon"></span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
             
   
     macOS
   
 
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../app/macos/dmg-installation/">
-<span class="md-ellipsis">
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../app/macos/dmg-installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Installation DMG
@@ -1364,16 +2910,56 @@
 
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_5_4" type="checkbox"/>
-<div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="../app/android/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_4">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../app/android/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
     
   
     Android
@@ -1381,24 +2967,46 @@
 
     
   </span>
-</a>
-</div>
-<nav aria-expanded="false" aria-labelledby="__nav_5_4_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_5_4">
-<span class="md-nav__icon md-icon"></span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4">
+            <span class="md-nav__icon md-icon"></span>
             
   
     Android
   
 
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../app/faq/">
-<span class="md-ellipsis">
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../app/faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     FAQ
@@ -1406,14 +3014,61 @@
 
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../use-cases/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../videos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vidéos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use-cases/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Cas d'utilisation
@@ -1421,11 +3076,26 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="https://shop.techxartisan.com">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://shop.techxartisan.com" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Boutique
@@ -1433,12 +3103,58 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_8" type="checkbox"/>
-<label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9">
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
     
   
     À propos
@@ -1446,21 +3162,35 @@
 
     
   </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_8_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_8">
-<span class="md-nav__icon md-icon"></span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
             
   
     À propos
   
 
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../about/community/">
-<span class="md-ellipsis">
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Communauté
@@ -1468,11 +3198,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../about/multi-languages/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/multi-languages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Multilingue
@@ -1480,11 +3226,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../about/compliance/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/compliance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Conformité
@@ -1492,11 +3254,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../about/contribute-support/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/contribute-support/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Contribuer et soutenir
@@ -1504,11 +3282,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../about/media/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/media/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Avis et médias
@@ -1516,11 +3310,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../about/bulk_orders/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/bulk_orders/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Commandes en gros
@@ -1528,11 +3338,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../about/enterprise/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/enterprise/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     Entreprise
@@ -1540,11 +3366,27 @@
 
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../about/about-us/">
-<span class="md-ellipsis">
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/about-us/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     
   
     À Propos de Nous
@@ -1552,25 +3394,49 @@
 
     
   </span>
-</a>
-</li>
-</ul>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
 </nav>
-</li>
-</ul>
-</nav>
-</div>
-</div>
-</div>
-<div class="md-content" data-md-component="content">
-<article class="md-content__inner md-typeset">
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
 <h1 id="faq">FAQ</h1>
-<h3 id="bases-de-kvm-over-usb"><span class="twemoji lg"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15 7v4h1v2h-3V5h2l-3-4-3 4h2v8H8v-2.07c.7-.37 1.2-1.08 1.2-1.93A2.2 2.2 0 0 0 7 6.8c-1.22 0-2.2.98-2.2 2.2 0 .85.5 1.56 1.2 1.93V13a2 2 0 0 0 2 2h3v3.05c-.71.36-1.2 1.1-1.2 1.95a2.2 2.2 0 0 0 2.2 2.2 2.2 2.2 0 0 0 2.2-2.2c0-.85-.49-1.59-1.2-1.95V15h3a2 2 0 0 0 2-2v-2h1V7z"></path></svg></span> Bases de KVM-over-USB</h3>
+<h3 id="bases-de-kvm-over-usb"><span class="twemoji lg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 7v4h1v2h-3V5h2l-3-4-3 4h2v8H8v-2.07c.7-.37 1.2-1.08 1.2-1.93A2.2 2.2 0 0 0 7 6.8c-1.22 0-2.2.98-2.2 2.2 0 .85.5 1.56 1.2 1.93V13a2 2 0 0 0 2 2h3v3.05c-.71.36-1.2 1.1-1.2 1.95a2.2 2.2 0 0 0 2.2 2.2 2.2 2.2 0 0 0 2.2-2.2c0-.85-.49-1.59-1.2-1.95V15h3a2 2 0 0 0 2-2v-2h1V7z"></path></svg></span> Bases de KVM-over-USB</h3>
 <ul>
 <li><a href="/faq/kvm-over-usb#what-is-kvm-over-usb">KVM-over-USB : Qu'est-ce que c'est, comment ça marche et avantages</a></li>
 <li><a href="/faq/kvm-over-usb#usb-vs-ip">USB KVM vs IP KVM</a></li>
 </ul>
-<h3 id="faq-pour-les-produits"><span class="twemoji lg"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7 5h14v2H7zm0 8v-2h14v2zM4 4.5A1.5 1.5 0 0 1 5.5 6 1.5 1.5 0 0 1 4 7.5 1.5 1.5 0 0 1 2.5 6 1.5 1.5 0 0 1 4 4.5m0 6A1.5 1.5 0 0 1 5.5 12 1.5 1.5 0 0 1 4 13.5 1.5 1.5 0 0 1 2.5 12 1.5 1.5 0 0 1 4 10.5M7 19v-2h14v2zm-3-2.5A1.5 1.5 0 0 1 5.5 18 1.5 1.5 0 0 1 4 19.5 1.5 1.5 0 0 1 2.5 18 1.5 1.5 0 0 1 4 16.5"></path></svg></span> FAQ pour les Produits</h3>
+<h3 id="faq-pour-les-produits"><span class="twemoji lg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 5h14v2H7zm0 8v-2h14v2zM4 4.5A1.5 1.5 0 0 1 5.5 6 1.5 1.5 0 0 1 4 7.5 1.5 1.5 0 0 1 2.5 6 1.5 1.5 0 0 1 4 4.5m0 6A1.5 1.5 0 0 1 5.5 12 1.5 1.5 0 0 1 4 13.5 1.5 1.5 0 0 1 2.5 12 1.5 1.5 0 0 1 4 10.5M7 19v-2h14v2zm-3-2.5A1.5 1.5 0 0 1 5.5 18 1.5 1.5 0 0 1 4 19.5 1.5 1.5 0 0 1 2.5 18 1.5 1.5 0 0 1 4 16.5"></path></svg></span> FAQ pour les Produits</h3>
 <h4 id="openterface-mini-kvm"><strong>Openterface Mini-KVM</strong></h4>
 <ul>
 <li><a href="/product/minikvm/faq#flagship-product">Qu'est-ce qui fait du Mini-KVM notre produit phare ?</a></li>
@@ -1584,135 +3450,257 @@
 <ul>
 <li><a href="/app/faq">FAQ pour les Applications</a></li>
 </ul>
-<aside class="md-source-file">
-<span class="md-source-file__fact">
-<span class="md-icon" title="Dernière mise à jour">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
-</span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="10 décembre 2025 06:00:22 UTC"><span class="timeago" datetime="2025-12-10T06:00:22+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="10 décembre 2025 06:00:22 UTC">2025-12-10</span>
-</span>
-<span class="md-source-file__fact">
-<span class="md-icon" title="Créé">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"></path></svg>
-</span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="18 septembre 2025 08:39:21 UTC"><span class="timeago" datetime="2025-09-18T08:39:21+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="18 septembre 2025 08:39:21 UTC">2025-09-18</span>
-</span>
-</aside>
-</article>
-</div>
-<script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+
+
+
+
+
+
+  
+    
+  
+  
+    
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Dernière mise à jour">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="10 décembre 2025 06:00:22 UTC"><span class="timeago" datetime="2025-12-10T06:00:22+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="10 décembre 2025 06:00:22 UTC">2025-12-10</span>
+  </span>
+
+    
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Créé">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"></path></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="18 septembre 2025 08:39:21 UTC"><span class="timeago" datetime="2025-09-18T08:39:21+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="18 septembre 2025 08:39:21 UTC">2025-09-18</span>
+  </span>
+
+    
+    
+    
+  </aside>
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
-</div>
-<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
   Retour en haut de la page
 </button>
-</main>
-<!-- Footer -->
+        
+      </main>
+      
+        <!-- Footer -->
 <footer class="md-footer">
-<!-- Link to previous and/or next page -->
-<nav aria-label="Pied de page" class="md-footer__inner md-grid">
-<!-- Link to previous page -->
-<a aria-label="Précédent: Accueil" class="md-footer__link md-footer__link--prev" href="../">
-<div class="md-footer__button md-icon">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
-</div>
-<div class="md-footer__title">
-<span class="md-footer__direction">Précédent</span>
-<div class="md-ellipsis">
+
+  <!-- Link to previous and/or next page -->
+  
+    
+      
+        <nav class="md-footer__inner md-grid" aria-label="Pied de page">
+      
+
+        <!-- Link to previous page -->
+        
+          
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Précédent: Accueil">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">Précédent</span>
+              <div class="md-ellipsis">
                 Accueil
               </div>
-</div>
-</a>
-<!-- Link to next page -->
-<a aria-label="Suivant: Notions de base sur KVM-over-USB" class="md-footer__link md-footer__link--next" href="kvm-over-usb/">
-<div class="md-footer__title">
-<span class="md-footer__direction">
+            </div>
+          </a>
+        
+
+        <!-- Link to next page -->
+        
+          
+          <a href="kvm-over-usb/" class="md-footer__link md-footer__link--next" aria-label="Suivant: Notions de base sur KVM-over-USB">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
                 Suivant
               </span>
-<div class="md-ellipsis">
+              <div class="md-ellipsis">
                 Notions de base sur KVM-over-USB
               </div>
-</div>
-<div class="md-footer__button md-icon">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
-</div>
-</a>
-</nav>
-<!-- Further information -->
-<div class="md-footer-meta md-typeset">
-<div class="md-footer-meta__inner md-grid footer-flex-container">
-<!-- Signup form -->
-<div class="signup-form-container footer-flex-item">
-<div data-i18n-file="forms" id="form_signup">
-<form id="subscribe-form" name="subscribe-form">
-<div id="form_signup_scroll">
-<div class="gf-field-group">
-<input class="required" data-i18n-attr="placeholder" data-i18n-key="footer_name_placeholder" id="form-name" name="name" placeholder="Your Name" required="" type="text"/>
-</div>
-<div class="gf-field-group">
-<input class="required email" data-i18n-attr="placeholder" data-i18n-key="footer_email_placeholder" id="form-email" name="email" placeholder="Your Email Address *" required="" type="email"/>
-</div>
-<div class="clear">
-<input class="button" data-i18n-attr="value" data-i18n-key="footer_submit_button" id="form-submit" name="submit" type="submit" value="✉️ Subscribe to the Latest Buzz! 🐝"/>
-<p class="footnote" data-i18n-html="true" data-i18n-key="footer_footnote">
-                  No more than one email a month. Unsubscribe anytime. <br/> For inquiries, email us at <a href="mailto:info@openterface.com">info@openterface.com</a>.
-                </p>
-</div>
-</div>
-</form>
-</div>
-</div>
-<!-- Copyright info -->
-<div class="footer-flex-item footer-copyright">
-<!-- Copyright and theme information -->
-<div class="md-copyright">
-<!-- Always use our localized copyright, ignore config.copyright -->
-<div class="md-copyright__highlight">
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
     
-      Copyright © Tous droits réservés. 2025 <a href="https://www.openterface.com">Openterface</a> | <a href="https://www.techxartisan.com">TechxArtisan</a><br/>
-<a href="/fr/">Accueil</a> | <a href="/fr/policy/terms-of-service">Conditions d'Utilisation</a> | <a href="/fr/policy/privacy">Politique de Confidentialité</a> | <a href="#__consent">Cookie</a> | <a href="/fr/about/about-us">À Propos</a> | <a href="/fr/about/multi-languages">Langues</a>
-</div>
+  
+
+  <!-- Further information -->
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid footer-flex-container">
+
+      <!-- Signup form -->
+      <div class="signup-form-container footer-flex-item">
+        <div id="form_signup" data-i18n-file="forms">
+          <form id="subscribe-form" name="subscribe-form">
+            <div id="form_signup_scroll">
+              <div class="gf-field-group">
+                <input type="text" name="name" class="required" id="form-name" required data-i18n-key="footer_name_placeholder" data-i18n-attr="placeholder" placeholder="Your Name">
+              </div>
+              <div class="gf-field-group">
+                <input type="email" name="email" class="required email" id="form-email" required data-i18n-key="footer_email_placeholder" data-i18n-attr="placeholder" placeholder="Your Email Address *">
+              </div>
+              <div class="clear">
+                <input type="submit" name="submit" id="form-submit" class="button" data-i18n-key="footer_submit_button" data-i18n-attr="value" value="✉️ Subscribe to the Latest Buzz! 🐝">
+                <p class="footnote" data-i18n-key="footer_footnote" data-i18n-html="true">
+                  No more than one email a month. Unsubscribe anytime. <br> For inquiries, email us at <a href="mailto:info@openterface.com">info@openterface.com</a>.
+                </p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Copyright info -->
+      <div class="footer-flex-item footer-copyright">
+        <!-- Copyright and theme information -->
+<div class="md-copyright">
+  
+  
+  
+  <!-- Always use our localized copyright, ignore config.copyright -->
+  <div class="md-copyright__highlight">
+    
+      Copyright © Tous droits réservés. 2025 <a href="https://www.openterface.com">Openterface</a> | <a href="https://www.techxartisan.com">TechxArtisan</a><br>
+      <a href="/fr/">Accueil</a> | <a href="/fr/policy/terms-of-service">Conditions d'Utilisation</a> | <a href="/fr/policy/privacy">Politique de Confidentialité</a> | <a href="#__consent">Cookie</a> | <a href="/fr/about/about-us">À Propos</a> | <a href="/fr/about/multi-languages">Langues</a>
+    
+  </div>
   
   
     
       Fait avec
-      <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
         Material for MkDocs
       </a>
+    
+  
 </div>
-</div>
-<!-- Social links -->
-<div class="footer-flex-item footer-social">
+      </div>
+
+      <!-- Social links -->
+      
+        <div class="footer-flex-item footer-social">
+          
 <div class="md-social">
-<a class="md-social__link" href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm" rel="noopener" target="_blank" title="www.crowdsupply.com">
-<!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
-<svg version="1.1" viewbox="0 0 140 140" xmlns="http://www.w3.org/2000/svg"><path d="M 68.3,9.7 8,70 68.3,130.3 Z" fill="#555"></path><path d="M 71.7,9.7 V 130.3 L 132,70 Z" fill="#099"></path><path d="m 90.7,91 c -6.6,0 -11.8,-3.6 -14,-12 l 8,-1.7 c 0.9,5.1 3.9,7 6.3,7 2.8,0 5,-1.9 5,-5.1 0,-8 -18.2,-8.2 -18.2,-20.1 0,-7.3 4.4,-12 12.8,-12 7.3,0 11.7,4.3 13.1,10.4 l -7.3,2.1 c -1.4,-4 -3.1,-5.7 -6,-5.7 -2.9,0 -4.5,1.8 -4.5,4.7 0,6.4 18.2,6.9 18.2,20.3 0.2,7.2 -4.9,12.1 -13.4,12.1 z" fill="#FFF"></path><path d="m 60.7,63.9 h -8.2 v -3.6 c 0,-4.7 -2.1,-6 -5.3,-6 -3.2,0 -5.3,1.3 -5.3,6 v 17.4 c 0,4.7 2.1,6 5.3,6 3.2,0 5.3,-1.3 5.3,-6 v -3.8 h 8.2 v 2.7 c 0,10.5 -5.6,14.3 -13.5,14.3 -7.9,0 -13.5,-3.8 -13.5,-14.3 V 61.4 c 0,-10.5 5.6,-14.3 13.5,-14.3 7.9,0 13.5,3.8 13.5,14.3 z" fill="#FFF"></path></svg>
-</a>
-<a class="md-social__link" href="/reddit" rel="noopener" target="_blank" title="">
-<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M373 138.6c-25.2 0-46.3-17.5-51.9-41-30.6 4.3-54.2 30.7-54.2 62.4v.2c47.4 1.8 90.6 15.1 124.9 36.3 12.6-9.7 28.4-15.5 45.5-15.5 41.3 0 74.7 33.4 74.7 74.7 0 29.8-17.4 55.5-42.7 67.5-2.4 86.8-97 156.6-213.2 156.6S45.5 410.1 43 323.4c-25.4-11.9-43-37.7-43-67.7C0 214.4 33.4 181 74.7 181c17.2 0 33 5.8 45.7 15.6 34-21.1 76.8-34.4 123.7-36.4v-.3c0-44.3 33.7-80.9 76.8-85.5C325.8 50.2 347.2 32 373 32c29.4 0 53.3 23.9 53.3 53.3s-23.9 53.3-53.3 53.3M157.5 255.3c-20.9 0-38.9 20.8-40.2 47.9s17.1 38.1 38 38.1 36.6-9.8 37.8-36.9-14.7-49.1-35.7-49.1zM395 303.1c-1.2-27.1-19.2-47.9-40.2-47.9s-36.9 22-35.7 49.1 16.9 36.9 37.8 36.9 39.3-11 38-38.1zm-60.1 70.8c1.5-3.6-1-7.7-4.9-8.1-23-2.3-47.9-3.6-73.8-3.6s-50.8 1.3-73.8 3.6c-3.9.4-6.4 4.5-4.9 8.1 12.9 30.8 43.3 52.4 78.7 52.4s65.8-21.6 78.7-52.4"></path></svg>
-</a>
-<a class="md-social__link" href="/discord" rel="noopener" target="_blank" title="">
-<svg viewbox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M492.5 69.8c-.2-.3-.4-.6-.8-.7-38.1-17.5-78.4-30-119.7-37.1-.4-.1-.8 0-1.1.1s-.6.4-.8.8c-5.5 9.9-10.5 20.2-14.9 30.6-44.6-6.8-89.9-6.8-134.4 0-4.5-10.5-9.5-20.7-15.1-30.6-.2-.3-.5-.6-.8-.8s-.7-.2-1.1-.2C162.5 39 122.2 51.5 84.1 69c-.3.1-.6.4-.8.7C7.1 183.5-13.8 294.6-3.6 404.2c0 .3.1.5.2.8s.3.4.5.6c44.4 32.9 94 58 146.8 74.2.4.1.8.1 1.1 0s.7-.4.9-.7c11.3-15.4 21.4-31.8 30-48.8.1-.2.2-.5.2-.8s0-.5-.1-.8-.2-.5-.4-.6-.4-.3-.7-.4c-15.8-6.1-31.2-13.4-45.9-21.9-.3-.2-.5-.4-.7-.6s-.3-.6-.3-.9 0-.6.2-.9.3-.5.6-.7c3.1-2.3 6.2-4.7 9.1-7.1.3-.2.6-.4.9-.4s.7 0 1 .1c96.2 43.9 200.4 43.9 295.5 0 .3-.1.7-.2 1-.2s.7.2.9.4c2.9 2.4 6 4.9 9.1 7.2.2.2.4.4.6.7s.2.6.2.9-.1.6-.3.9-.4.5-.6.6c-14.7 8.6-30 15.9-45.9 21.8-.2.1-.5.2-.7.4s-.3.4-.4.7-.1.5-.1.8.1.5.2.8c8.8 17 18.8 33.3 30 48.8.2.3.6.6.9.7s.8.1 1.1 0c52.9-16.2 102.6-41.3 147.1-74.2.2-.2.4-.4.5-.6s.2-.5.2-.8c12.3-126.8-20.5-236.9-86.9-334.5zm-302 267.7c-29 0-52.8-26.6-52.8-59.2s23.4-59.2 52.8-59.2c29.7 0 53.3 26.8 52.8 59.2 0 32.7-23.4 59.2-52.8 59.2m195.4 0c-29 0-52.8-26.6-52.8-59.2s23.4-59.2 52.8-59.2c29.7 0 53.3 26.8 52.8 59.2 0 32.7-23.2 59.2-52.8 59.2"></path></svg>
-</a>
-<a class="md-social__link" href="https://youtube.com/@TechxArtisan" rel="noopener" target="_blank" title="youtube.com">
-<svg viewbox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M549.7 124.1c-6.2-23.7-24.8-42.3-48.3-48.6C458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5c-23.5 6.3-42 24.9-48.3 48.6C15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.3 448 288.1 448 288.1 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2z"></path></svg>
-</a>
-<a class="md-social__link" href="https://twitter.com/TechxArtisan" rel="noopener" target="_blank" title="twitter.com">
-<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M357.2 48h70.6L273.6 224.2 455 464H313L201.7 318.6 74.5 464H3.8l164.9-188.5L-5.2 48h145.6l100.5 132.9zm-24.8 373.8h39.1L119.1 88h-42z"></path></svg>
-</a>
-<a class="md-social__link" href="https://www.facebook.com/TechxArtisan" rel="noopener" target="_blank" title="www.facebook.com">
-<svg viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M80 299.3V512h116V299.3h86.5l18-97.8H196v-34.6c0-51.7 20.3-71.5 72.7-71.5 16.3 0 29.4.4 37 1.2V7.9C291.4 4 256.4 0 236.2 0 129.3 0 80 50.5 80 159.4v42.1H14v97.8z"></path></svg>
-</a>
-<a class="md-social__link" href="https://www.linkedin.com/company/techxartisan/" rel="noopener" target="_blank" title="www.linkedin.com">
-<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8c0-14.3 5.7-27.9 15.8-38S39.6 0 53.8 0s27.9 5.7 38 15.8 15.8 23.8 15.8 38c0 29.7-24.1 54.3-53.8 54.3M447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"></path></svg>
-</a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm" target="_blank" rel="noopener" title="www.crowdsupply.com" class="md-social__link">
+      <!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 140 140"><path d="M 68.3,9.7 8,70 68.3,130.3 Z" fill="#555"></path><path d="M 71.7,9.7 V 130.3 L 132,70 Z" fill="#099"></path><path d="m 90.7,91 c -6.6,0 -11.8,-3.6 -14,-12 l 8,-1.7 c 0.9,5.1 3.9,7 6.3,7 2.8,0 5,-1.9 5,-5.1 0,-8 -18.2,-8.2 -18.2,-20.1 0,-7.3 4.4,-12 12.8,-12 7.3,0 11.7,4.3 13.1,10.4 l -7.3,2.1 c -1.4,-4 -3.1,-5.7 -6,-5.7 -2.9,0 -4.5,1.8 -4.5,4.7 0,6.4 18.2,6.9 18.2,20.3 0.2,7.2 -4.9,12.1 -13.4,12.1 z" fill="#FFF"></path><path d="m 60.7,63.9 h -8.2 v -3.6 c 0,-4.7 -2.1,-6 -5.3,-6 -3.2,0 -5.3,1.3 -5.3,6 v 17.4 c 0,4.7 2.1,6 5.3,6 3.2,0 5.3,-1.3 5.3,-6 v -3.8 h 8.2 v 2.7 c 0,10.5 -5.6,14.3 -13.5,14.3 -7.9,0 -13.5,-3.8 -13.5,-14.3 V 61.4 c 0,-10.5 5.6,-14.3 13.5,-14.3 7.9,0 13.5,3.8 13.5,14.3 z" fill="#FFF"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="/reddit" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M373 138.6c-25.2 0-46.3-17.5-51.9-41-30.6 4.3-54.2 30.7-54.2 62.4v.2c47.4 1.8 90.6 15.1 124.9 36.3 12.6-9.7 28.4-15.5 45.5-15.5 41.3 0 74.7 33.4 74.7 74.7 0 29.8-17.4 55.5-42.7 67.5-2.4 86.8-97 156.6-213.2 156.6S45.5 410.1 43 323.4c-25.4-11.9-43-37.7-43-67.7C0 214.4 33.4 181 74.7 181c17.2 0 33 5.8 45.7 15.6 34-21.1 76.8-34.4 123.7-36.4v-.3c0-44.3 33.7-80.9 76.8-85.5C325.8 50.2 347.2 32 373 32c29.4 0 53.3 23.9 53.3 53.3s-23.9 53.3-53.3 53.3M157.5 255.3c-20.9 0-38.9 20.8-40.2 47.9s17.1 38.1 38 38.1 36.6-9.8 37.8-36.9-14.7-49.1-35.7-49.1zM395 303.1c-1.2-27.1-19.2-47.9-40.2-47.9s-36.9 22-35.7 49.1 16.9 36.9 37.8 36.9 39.3-11 38-38.1zm-60.1 70.8c1.5-3.6-1-7.7-4.9-8.1-23-2.3-47.9-3.6-73.8-3.6s-50.8 1.3-73.8 3.6c-3.9.4-6.4 4.5-4.9 8.1 12.9 30.8 43.3 52.4 78.7 52.4s65.8-21.6 78.7-52.4"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="/discord" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M492.5 69.8c-.2-.3-.4-.6-.8-.7-38.1-17.5-78.4-30-119.7-37.1-.4-.1-.8 0-1.1.1s-.6.4-.8.8c-5.5 9.9-10.5 20.2-14.9 30.6-44.6-6.8-89.9-6.8-134.4 0-4.5-10.5-9.5-20.7-15.1-30.6-.2-.3-.5-.6-.8-.8s-.7-.2-1.1-.2C162.5 39 122.2 51.5 84.1 69c-.3.1-.6.4-.8.7C7.1 183.5-13.8 294.6-3.6 404.2c0 .3.1.5.2.8s.3.4.5.6c44.4 32.9 94 58 146.8 74.2.4.1.8.1 1.1 0s.7-.4.9-.7c11.3-15.4 21.4-31.8 30-48.8.1-.2.2-.5.2-.8s0-.5-.1-.8-.2-.5-.4-.6-.4-.3-.7-.4c-15.8-6.1-31.2-13.4-45.9-21.9-.3-.2-.5-.4-.7-.6s-.3-.6-.3-.9 0-.6.2-.9.3-.5.6-.7c3.1-2.3 6.2-4.7 9.1-7.1.3-.2.6-.4.9-.4s.7 0 1 .1c96.2 43.9 200.4 43.9 295.5 0 .3-.1.7-.2 1-.2s.7.2.9.4c2.9 2.4 6 4.9 9.1 7.2.2.2.4.4.6.7s.2.6.2.9-.1.6-.3.9-.4.5-.6.6c-14.7 8.6-30 15.9-45.9 21.8-.2.1-.5.2-.7.4s-.3.4-.4.7-.1.5-.1.8.1.5.2.8c8.8 17 18.8 33.3 30 48.8.2.3.6.6.9.7s.8.1 1.1 0c52.9-16.2 102.6-41.3 147.1-74.2.2-.2.4-.4.5-.6s.2-.5.2-.8c12.3-126.8-20.5-236.9-86.9-334.5zm-302 267.7c-29 0-52.8-26.6-52.8-59.2s23.4-59.2 52.8-59.2c29.7 0 53.3 26.8 52.8 59.2 0 32.7-23.4 59.2-52.8 59.2m195.4 0c-29 0-52.8-26.6-52.8-59.2s23.4-59.2 52.8-59.2c29.7 0 53.3 26.8 52.8 59.2 0 32.7-23.2 59.2-52.8 59.2"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://youtube.com/@TechxArtisan" target="_blank" rel="noopener" title="youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M549.7 124.1c-6.2-23.7-24.8-42.3-48.3-48.6C458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5c-23.5 6.3-42 24.9-48.3 48.6C15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.3 448 288.1 448 288.1 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2z"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/TechxArtisan" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M357.2 48h70.6L273.6 224.2 455 464H313L201.7 318.6 74.5 464H3.8l164.9-188.5L-5.2 48h145.6l100.5 132.9zm-24.8 373.8h39.1L119.1 88h-42z"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.facebook.com/TechxArtisan" target="_blank" rel="noopener" title="www.facebook.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M80 299.3V512h116V299.3h86.5l18-97.8H196v-34.6c0-51.7 20.3-71.5 72.7-71.5 16.3 0 29.4.4 37 1.2V7.9C291.4 4 256.4 0 236.2 0 129.3 0 80 50.5 80 159.4v42.1H14v97.8z"></path></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/company/techxartisan/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8c0-14.3 5.7-27.9 15.8-38S39.6 0 53.8 0s27.9 5.7 38 15.8 15.8 23.8 15.8 38c0 29.7-24.1 54.3-53.8 54.3M447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"></path></svg>
+    </a>
+  
 </div>
-</div>
-</div>
-</div>
-<!-- Load language-select.js -->
-<script>
+        </div>
+      
+    </div>
+  </div>
+
+  <!-- Load language-select.js -->
+  <script>
     (function() {
       var langselect = document.createElement('script');
       langselect.src = "../../assets/javascripts/language-select.js";
@@ -1721,15 +3709,18 @@
     })();
   </script>
 </footer>
-</div>
-<div class="md-dialog" data-md-component="dialog">
-<div class="md-dialog__inner md-typeset"></div>
-</div>
-<div class="md-consent" data-md-component="consent" hidden="" id="__consent">
-<div class="md-consent__overlay"></div>
-<aside class="md-consent__inner">
-<form class="md-consent__form md-grid md-typeset" name="consent">
-<!--
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            <!--
   Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -1750,102 +3741,158 @@
   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
   IN THE SOFTWARE.
 -->
+
 <!-- Determine current locale -->
+
+
 <!-- Determine cookies -->
+
+
+  
+    
+  
+
+
+  
+    
+  
+
+
 <!-- Determine actions -->
+
+
+
 <!-- Determine initial settings state -->
+
+  
+
+
 <!-- Language tabs -->
 <div class="md-consent__lang-tabs" id="consent-lang-tabs">
-<button class="lang-tab" data-lang="en" data-url="/" type="button">English</button>
-<button class="lang-tab" data-lang="zh" data-url="/zh/" type="button">中文</button>
-<button class="lang-tab" data-lang="ja" data-url="/ja/" type="button">日本語</button>
-<button class="lang-tab" data-lang="ko" data-url="/ko/" type="button">한국어</button>
-<button class="lang-tab" data-lang="fr" data-url="/fr/" type="button">Français</button>
-<button class="lang-tab" data-lang="de" data-url="/de/" type="button">Deutsch</button>
-<button class="lang-tab" data-lang="it" data-url="/it/" type="button">Italiano</button>
-<button class="lang-tab" data-lang="es" data-url="/es/" type="button">Español</button>
-<button class="lang-tab" data-lang="pt" data-url="/pt/" type="button">Português</button>
-<button class="lang-tab" data-lang="ro" data-url="/ro/" type="button">Română</button>
+  <button type="button" class="lang-tab" data-lang="en" data-url="/">English</button>
+  <button type="button" class="lang-tab" data-lang="zh" data-url="/zh/">中文</button>
+  <button type="button" class="lang-tab" data-lang="ja" data-url="/ja/">日本語</button>
+  <button type="button" class="lang-tab" data-lang="ko" data-url="/ko/">한국어</button>
+  <button type="button" class="lang-tab" data-lang="fr" data-url="/fr/">Français</button>
+  <button type="button" class="lang-tab" data-lang="de" data-url="/de/">Deutsch</button>
+  <button type="button" class="lang-tab" data-lang="it" data-url="/it/">Italiano</button>
+  <button type="button" class="lang-tab" data-lang="es" data-url="/es/">Español</button>
+  <button type="button" class="lang-tab" data-lang="pt" data-url="/pt/">Português</button>
+  <button type="button" class="lang-tab" data-lang="ro" data-url="/ro/">Română</button>
 </div>
+
 <!-- Consent content container -->
 <div id="consent-content-container">
-<!-- Consent title and description with language-specific content -->
-<div class="consent-content" data-lang="en">
-<h4>Cookie Consent</h4>
-<p>We use cookies to enhance quality of docs content, analyse site effectiveness and needs. By consenting, you help us improve our website. Thanks!</p>
+  <!-- Consent title and description with language-specific content -->
+  <div class="consent-content" data-lang="en">
+    <h4>Cookie Consent</h4>
+    <p>We use cookies to enhance quality of docs content, analyse site effectiveness and needs. By consenting, you help us improve our website. Thanks!</p>
+  </div>
+  <div class="consent-content" data-lang="de" style="display: none;">
+    <h4>Cookie-Einwilligung</h4>
+    <p>Wir verwenden Cookies, um die Qualität des Dokumentationsinhalts zu verbessern, die Website-Effektivität zu analysieren und Bedürfnisse zu ermitteln. Durch Ihre Zustimmung helfen Sie uns, unsere Website zu verbessern. Vielen Dank!</p>
+  </div>
+  <div class="consent-content" data-lang="es" style="display: none;">
+    <h4>Consentimiento de Cookies</h4>
+    <p>Utilizamos cookies para mejorar la calidad del contenido de la documentación, analizar la efectividad del sitio y las necesidades. Al dar su consentimiento, nos ayuda a mejorar nuestro sitio web. ¡Gracias!</p>
+  </div>
+  <div class="consent-content" data-lang="fr" style="display: none;">
+    <h4>Consentement aux Cookies</h4>
+    <p>Nous utilisons des cookies pour améliorer la qualité du contenu de la documentation, analyser l'efficacité du site et les besoins. En donnant votre consentement, vous nous aidez à améliorer notre site web. Merci !</p>
+  </div>
+  <div class="consent-content" data-lang="it" style="display: none;">
+    <h4>Consenso sui Cookie</h4>
+    <p>Utilizziamo i cookie per migliorare la qualità del contenuto della documentazione, analizzare l'efficacia del sito e le esigenze. Dando il tuo consenso, ci aiuti a migliorare il nostro sito web. Grazie!</p>
+  </div>
+  <div class="consent-content" data-lang="ja" style="display: none;">
+    <h4>クッキー同意</h4>
+    <p>ドキュメントコンテンツの品質向上、サイトの効果性とニーズの分析にクッキーを使用しています。同意することで、私たちのウェブサイトの改善にご協力いただいています。ありがとうございます！</p>
+  </div>
+  <div class="consent-content" data-lang="ko" style="display: none;">
+    <h4>쿠키 동의</h4>
+    <p>문서 콘텐츠의 품질 향상, 사이트 효과성 및 요구사항 분석을 위해 쿠키를 사용합니다. 동의해 주시면 웹사이트 개선에 도움이 됩니다. 감사합니다!</p>
+  </div>
+  <div class="consent-content" data-lang="pt" style="display: none;">
+    <h4>Consentimento de Cookies</h4>
+    <p>Usamos cookies para melhorar a qualidade do conteúdo da documentação, analisar a eficácia do site e as necessidades. Ao dar seu consentimento, você nos ajuda a melhorar nosso site. Obrigado!</p>
+  </div>
+  <div class="consent-content" data-lang="zh" style="display: none;">
+    <h4>Cookie 同意</h4>
+    <p>我们使用 cookie 来提升文档内容质量，分析网站效果和需求。通过同意，您帮助我们改善网站。谢谢！</p>
+  </div>
+  <div class="consent-content" data-lang="ro" style="display: none;">
+    <h4>Consimțământ Cookie</h4>
+    <p>Folosim cookie-uri pentru a îmbunătăți calitatea conținutului documentației, pentru a analiza eficacitatea site-ului și nevoile. Prin consimțământul dumneavoastră, ne ajutați să îmbunătățim site-ul nostru. Mulțumim!</p>
+  </div>
 </div>
-<div class="consent-content" data-lang="de" style="display: none;">
-<h4>Cookie-Einwilligung</h4>
-<p>Wir verwenden Cookies, um die Qualität des Dokumentationsinhalts zu verbessern, die Website-Effektivität zu analysieren und Bedürfnisse zu ermitteln. Durch Ihre Zustimmung helfen Sie uns, unsere Website zu verbessern. Vielen Dank!</p>
-</div>
-<div class="consent-content" data-lang="es" style="display: none;">
-<h4>Consentimiento de Cookies</h4>
-<p>Utilizamos cookies para mejorar la calidad del contenido de la documentación, analizar la efectividad del sitio y las necesidades. Al dar su consentimiento, nos ayuda a mejorar nuestro sitio web. ¡Gracias!</p>
-</div>
-<div class="consent-content" data-lang="fr" style="display: none;">
-<h4>Consentement aux Cookies</h4>
-<p>Nous utilisons des cookies pour améliorer la qualité du contenu de la documentation, analyser l'efficacité du site et les besoins. En donnant votre consentement, vous nous aidez à améliorer notre site web. Merci !</p>
-</div>
-<div class="consent-content" data-lang="it" style="display: none;">
-<h4>Consenso sui Cookie</h4>
-<p>Utilizziamo i cookie per migliorare la qualità del contenuto della documentazione, analizzare l'efficacia del sito e le esigenze. Dando il tuo consenso, ci aiuti a migliorare il nostro sito web. Grazie!</p>
-</div>
-<div class="consent-content" data-lang="ja" style="display: none;">
-<h4>クッキー同意</h4>
-<p>ドキュメントコンテンツの品質向上、サイトの効果性とニーズの分析にクッキーを使用しています。同意することで、私たちのウェブサイトの改善にご協力いただいています。ありがとうございます！</p>
-</div>
-<div class="consent-content" data-lang="ko" style="display: none;">
-<h4>쿠키 동의</h4>
-<p>문서 콘텐츠의 품질 향상, 사이트 효과성 및 요구사항 분석을 위해 쿠키를 사용합니다. 동의해 주시면 웹사이트 개선에 도움이 됩니다. 감사합니다!</p>
-</div>
-<div class="consent-content" data-lang="pt" style="display: none;">
-<h4>Consentimento de Cookies</h4>
-<p>Usamos cookies para melhorar a qualidade do conteúdo da documentação, analisar a eficácia do site e as necessidades. Ao dar seu consentimento, você nos ajuda a melhorar nosso site. Obrigado!</p>
-</div>
-<div class="consent-content" data-lang="zh" style="display: none;">
-<h4>Cookie 同意</h4>
-<p>我们使用 cookie 来提升文档内容质量，分析网站效果和需求。通过同意，您帮助我们改善网站。谢谢！</p>
-</div>
-<div class="consent-content" data-lang="ro" style="display: none;">
-<h4>Consimțământ Cookie</h4>
-<p>Folosim cookie-uri pentru a îmbunătăți calitatea conținutului documentației, pentru a analiza eficacitatea site-ului și nevoile. Prin consimțământul dumneavoastră, ne ajutați să îmbunătățim site-ul nostru. Mulțumim!</p>
-</div>
-</div>
+
 <!-- Consent settings -->
-<input checked="" class="md-toggle" id="__settings" type="checkbox"/>
+<input class="md-toggle" type="checkbox" id="__settings" checked>
 <div class="md-consent__settings">
-<ul class="task-list">
-<li class="task-list-item" data-cookie-type="analytics">
-<label class="task-list-control">
-<input checked="" name="analytics" type="checkbox"/>
-<span class="task-list-indicator"></span>
-<span class="cookie-name">Google Analytics</span>
-</label>
-</li>
-<li class="task-list-item" data-cookie-type="github">
-<label class="task-list-control">
-<input checked="" name="github" type="checkbox"/>
-<span class="task-list-indicator"></span>
-<span class="cookie-name">GitHub</span>
-</label>
-</li>
-</ul>
+  <ul class="task-list">
+    
+      
+      
+        
+        
+      
+      <li class="task-list-item" data-cookie-type="analytics">
+        <label class="task-list-control">
+          <input type="checkbox" name="analytics" checked>
+          <span class="task-list-indicator"></span>
+          <span class="cookie-name">Google Analytics</span>
+        </label>
+      </li>
+    
+      
+      
+        
+        
+      
+      <li class="task-list-item" data-cookie-type="github">
+        <label class="task-list-control">
+          <input type="checkbox" name="github" checked>
+          <span class="task-list-indicator"></span>
+          <span class="cookie-name">GitHub</span>
+        </label>
+      </li>
+    
+  </ul>
 </div>
+
 <!-- Consent controls -->
 <div class="md-consent__controls">
-<!-- Button to accept cookies -->
-<button class="md-button md-button--primary" id="consent-accept-btn" type="button">
-<span class="btn-text-accept">Accepter</span>
-</button>
-<!-- Button to reject cookies -->
-<!-- Button to manage settings -->
-<!-- Button to accept cookies -->
-<!-- Button to reject cookies -->
-<button class="md-button" id="consent-reject-btn" type="reset">
-<span class="btn-text-reject">Refuser</span>
-</button>
-<!-- Button to manage settings -->
+  
+
+    <!-- Button to accept cookies -->
+    
+      <button type="button" class="md-button md-button--primary" id="consent-accept-btn">
+        <span class="btn-text-accept">Accepter</span>
+      </button>
+    
+
+    <!-- Button to reject cookies -->
+    
+
+    <!-- Button to manage settings -->
+    
+  
+
+    <!-- Button to accept cookies -->
+    
+
+    <!-- Button to reject cookies -->
+    
+      <button type="reset" class="md-button" id="consent-reject-btn">
+        <span class="btn-text-reject">Refuser</span>
+      </button>
+    
+
+    <!-- Button to manage settings -->
+    
+  
 </div>
+
 <script>
 (function() {
   'use strict';
@@ -2155,31 +4202,58 @@
   });
 })();
 </script>
-</form>
-</aside>
-</div>
-<script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
-<script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["toc.integrate", "toc.follow", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer", "navigation.indexes", "navigation.tracking", "search.suggest", "search.highlight", "content.tabs", "content.code.annotation", "content.code.copy", "content.tabs.link", "last_updated"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
-<script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
-<script src="../../js/timeago.min.js"></script>
-<script src="../../js/timeago_mkdocs_material.js"></script>
-<script src="../../js/timeago.min.js"></script>
-<script src="../../js/timeago_mkdocs_material.js"></script>
-<script src="../../js/timeago.min.js"></script>
-<script src="../../js/timeago_mkdocs_material.js"></script>
-<script src="../../js/timeago.min.js"></script>
-<script src="../../js/timeago_mkdocs_material.js"></script>
-<script src="../../js/timeago.min.js"></script>
-<script src="../../js/timeago_mkdocs_material.js"></script>
-<!-- Custom navigation + language switch helpers -->
-<script src="../../assets/javascripts/custom-nav.js"></script>
-<!-- Load i18n handler first (needed for forms translation) -->
-<script src="../../assets/javascripts/i18n-handler.js"></script>
-<!-- Load subscribe.js globally (needed for footer and product signup forms) -->
-<script src="../../assets/javascripts/subscribe.js"></script>
-<!-- Conditionally load youtube-videos-controls.js only on videos pages -->
-<!-- Conditionally load slideshow.js only on product pages -->
-<!-- Conditionally load home-carousel.js only on homepage -->
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["toc.integrate", "toc.follow", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer", "navigation.indexes", "navigation.tracking", "search.suggest", "search.highlight", "content.tabs", "content.code.annotation", "content.code.copy", "content.tabs.link", "last_updated"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+    
+    
+  
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../js/timeago.min.js"></script>
+      
+        <script src="../../js/timeago_mkdocs_material.js"></script>
+      
+        <script src="../../js/timeago.min.js"></script>
+      
+        <script src="../../js/timeago_mkdocs_material.js"></script>
+      
+        <script src="../../js/timeago.min.js"></script>
+      
+        <script src="../../js/timeago_mkdocs_material.js"></script>
+      
+        <script src="../../js/timeago.min.js"></script>
+      
+        <script src="../../js/timeago_mkdocs_material.js"></script>
+      
+        <script src="../../js/timeago.min.js"></script>
+      
+        <script src="../../js/timeago_mkdocs_material.js"></script>
+      
+    
+
+  <!-- Load i18n handler first (needed for forms translation) -->
+  <script src="../../assets/javascripts/i18n-handler.js"></script>
+  
+  <!-- Load subscribe.js globally (needed for footer and product signup forms) -->
+  <script src="../../assets/javascripts/subscribe.js"></script>
+
+  <!-- Conditionally load youtube-videos-controls.js only on videos pages -->
+  
+  
+  <!-- Conditionally load slideshow.js only on product pages -->
+  
+  
+  <!-- Conditionally load home-carousel.js only on homepage -->
+  
+
+  
 <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
 document$.subscribe(()=>{ lightbox.reload(); });
 </script></body></html>
