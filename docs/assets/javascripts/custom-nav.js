@@ -2,6 +2,11 @@
 (function() {
   'use strict';
 
+  // Prevent double-initialization (this script is already included via `mkdocs.yml` theme.custom.js)
+  // Some templates might also include it; guard against duplicate execution.
+  if (window.__openterfaceCustomNavLoaded) return;
+  window.__openterfaceCustomNavLoaded = true;
+
   // Preserve query string + hash when switching languages via Material language selector.
   // Use event delegation (capture phase) so it works even if the dropdown links are created
   // dynamically or only exist after opening the selector.
@@ -52,6 +57,7 @@
   // Wait for DOM to be ready
   document.addEventListener('DOMContentLoaded', function() {
     initializeCustomNavigation();
+    handleResponsiveNavigation();
   });
 
   function initializeCustomNavigation() {
@@ -142,30 +148,24 @@
 
   // Handle responsive behavior
   function handleResponsiveNavigation() {
-    const customNav = document.querySelector('.custom-nav-container');
-    const originalTabs = document.querySelector('.md-tabs');
-    
-    if (window.innerWidth <= 1220) { // 76.25em = 1220px
-      if (customNav) {
-        customNav.style.display = 'none';
-      }
-      if (originalTabs) {
-        originalTabs.style.display = 'block';
-      }
-    } else {
-      if (customNav) {
-        customNav.style.display = 'flex';
-      }
-      if (originalTabs) {
-        originalTabs.style.display = 'none';
-      }
-    }
+    // There may be multiple `.md-tabs` (e.g. Material tabs + our custom tabs).
+    // Never blindly hide the first `.md-tabs` or we may hide the custom nav itself.
+    const allTabs = Array
+      .from(document.querySelectorAll('nav.md-tabs[data-md-component="tabs"]'))
+      .filter(tab => !tab.closest('.md-drawer')); // ignore drawer tabs
+
+    const customTabs = allTabs.find(tab => tab.querySelector('.custom-nav-container'));
+    const originalTabs = allTabs.find(tab => tab !== customTabs);
+    const customNav = customTabs ? customTabs.querySelector('.custom-nav-container') : null;
+
+    const showCustom = window.innerWidth > 1220; // 76.25em = 1220px
+
+    if (customTabs) customTabs.style.display = showCustom ? 'block' : 'none';
+    if (customNav) customNav.style.display = showCustom ? 'flex' : 'none';
+    if (originalTabs) originalTabs.style.display = showCustom ? 'none' : 'block';
   }
 
   // Listen for window resize
   window.addEventListener('resize', handleResponsiveNavigation);
   
-  // Initial call
-  handleResponsiveNavigation();
-
 })();

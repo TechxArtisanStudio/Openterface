@@ -115,34 +115,58 @@ def add_languages_to_mkdocs(mkdocs_path, lang_path, languages=None):
     if languages:
         lang_config = [lang for lang in lang_config if lang["locale"] in languages]
 
-    # Add languages from lang.yml
+    # Add/update languages from lang.yml
     added_count = 0
+    updated_count = 0
     for lang_entry in lang_config:
         locale = lang_entry["locale"]
 
-        # Check if language already exists
-        if not any(lang.get("locale") == locale for lang in current_languages):
-            # Convert lang.yml format to mkdocs.yml format
-            mkdocs_lang_entry = {
-                "locale": locale,
-                "name": lang_entry["name"],
-                "build": lang_entry.get("build", True),
-            }
+        existing_lang_entry = next(
+            (lang for lang in current_languages if lang.get("locale") == locale),
+            None,
+        )
 
-            # Add nav_translations if present
+        # If language exists, sync its fields from lang.yml
+        if existing_lang_entry is not None:
+            existing_lang_entry["name"] = lang_entry["name"]
+            existing_lang_entry["build"] = lang_entry.get("build", True)
+
+            # Per-language overrides (mkdocs-static-i18n supports overriding config keys like site_name)
+            if "site_name" in lang_entry:
+                existing_lang_entry["site_name"] = lang_entry["site_name"]
+
             if "nav_translations" in lang_entry:
-                mkdocs_lang_entry["nav_translations"] = lang_entry["nav_translations"]
+                existing_lang_entry["nav_translations"] = lang_entry["nav_translations"]
 
-            current_languages.append(mkdocs_lang_entry)
-            added_count += 1
-            print(f"Added language: {locale} ({lang_entry['name']})")
+            updated_count += 1
+            continue
+
+        # New language - convert lang.yml format to mkdocs.yml format
+        mkdocs_lang_entry = {
+            "locale": locale,
+            "name": lang_entry["name"],
+            "build": lang_entry.get("build", True),
+        }
+
+        if "site_name" in lang_entry:
+            mkdocs_lang_entry["site_name"] = lang_entry["site_name"]
+
+        if "nav_translations" in lang_entry:
+            mkdocs_lang_entry["nav_translations"] = lang_entry["nav_translations"]
+
+        current_languages.append(mkdocs_lang_entry)
+        added_count += 1
+        print(f"Added language: {locale} ({lang_entry['name']})")
 
     # Update mkdocs config
     mkdocs_config["plugins"][i18n_index]["i18n"]["languages"] = current_languages
 
     # Save updated config
     if save_yaml_file(mkdocs_path, mkdocs_config):
-        print(f"Successfully added {added_count} languages to mkdocs.yml")
+        print(
+            f"Successfully added {added_count} languages to mkdocs.yml "
+            f"(updated {updated_count} existing languages)"
+        )
         return True
     else:
         print("Failed to save mkdocs.yml")
