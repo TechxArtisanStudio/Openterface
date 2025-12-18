@@ -226,6 +226,9 @@
 {% block scripts %}
   {{ super() }}
   
+  <!-- Custom navigation + language switch helpers -->
+  <script src="{{ 'assets/javascripts/custom-nav.js' | url }}"></script>
+
   <!-- Load i18n handler first (needed for forms translation) -->
   <script src="{{ 'assets/javascripts/i18n-handler.js' | url }}"></script>
   

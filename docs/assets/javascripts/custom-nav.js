@@ -2,6 +2,53 @@
 (function() {
   'use strict';
 
+  // Preserve query string + hash when switching languages via Material language selector.
+  // Use event delegation (capture phase) so it works even if the dropdown links are created
+  // dynamically or only exist after opening the selector.
+  function shouldHandleLanguageLink(anchor) {
+    if (!anchor) return false;
+    // Material language selector commonly uses data-md-type="language" and/or md-select.
+    return !!(
+      anchor.closest('[data-md-component="language"]') ||
+      anchor.closest('[data-md-type="language"]') ||
+      anchor.closest('.md-select')
+    );
+  }
+
+  function isModifiedOrNonLeftClick(e, anchor) {
+    if (!e) return true;
+    if (e.defaultPrevented) return true;
+    if (typeof e.button === 'number' && e.button !== 0) return true;
+    if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return true;
+    if (anchor && anchor.target && anchor.target !== '_self') return true;
+    return false;
+  }
+
+  document.addEventListener(
+    'click',
+    function(e) {
+      const anchor = e && e.target ? e.target.closest('a') : null;
+      if (!anchor) return;
+      if (!shouldHandleLanguageLink(anchor)) return;
+      if (isModifiedOrNonLeftClick(e, anchor)) return;
+
+      const keepSearch = window.location.search || '';
+      const keepHash = window.location.hash || '';
+      if (!keepSearch && !keepHash) return;
+
+      try {
+        const dest = new URL(anchor.href, window.location.origin);
+        dest.search = keepSearch;
+        dest.hash = keepHash;
+        e.preventDefault();
+        window.location.assign(dest.toString());
+      } catch (_err) {
+        // If anything is unexpected, fall back to default navigation.
+      }
+    },
+    true
+  );
+
   // Wait for DOM to be ready
   document.addEventListener('DOMContentLoaded', function() {
     initializeCustomNavigation();
@@ -46,11 +93,11 @@
       }
     });
 
-    // Handle language switching - refresh navigation when language changes
-    const languageSelectors = document.querySelectorAll('[data-md-component="language"] a');
+    // Optional: after language navigation completes, the new page will load anyway.
+    // Keep this hook for any future SPA-like behavior / debugging.
+    const languageSelectors = document.querySelectorAll('[data-md-component="language"] a, [data-md-type="language"] a');
     languageSelectors.forEach(function(selector) {
       selector.addEventListener('click', function() {
-        // Small delay to allow language change to complete
         setTimeout(function() {
           refreshNavigationTranslations();
         }, 100);

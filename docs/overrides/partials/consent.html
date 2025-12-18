@@ -445,8 +445,8 @@
             localStorage.setItem('__md_consent', JSON.stringify(consent));
           }
           
-          // Redirect to selected language URL
-          window.location.href = baseUrl + newUrl;
+          // Redirect to selected language URL, preserving query string + hash
+          window.location.href = baseUrl + newUrl + window.location.search + window.location.hash;
         }, 100);
       }, false); // Bubble phase - runs after Material's handler
     }
