@@ -117,6 +117,19 @@ python i18n-site-tools/generate_static_pages.py --template videos
 python i18n-site-tools/generate_all_i18n.py
 ```
 
+### Shareable URL filters (client-side)
+
+The Videos page supports URL query params for sharing a pre-filtered/sorted view:
+
+- `p`: product (example: `minikvm`, `kvm-go`)
+- `l`: language code (example: `en`, `ja`, `fr`)
+- `s`: sort (`newest` or `oldest`)
+
+Examples:
+
+- `/videos/?p=minikvm&l=en&s=oldest`
+- `/zh/videos/?p=kvm-go&l=fr&s=newest`
+
 ### Why this is better
 
 - Updating `youtube.csv` no longer overwrites your layout template.

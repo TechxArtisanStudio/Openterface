@@ -64,6 +64,44 @@
     if (el) el.textContent = String(value);
   }
 
+  function hasOption(selectEl, value) {
+    if (!selectEl) return false;
+    return Array.from(selectEl.options).some((o) => o.value === value);
+  }
+
+  function applyUrlState(sortEl, productEl, languageEl) {
+    const sp = new URLSearchParams(window.location.search);
+    const p = sp.get("p") || "";
+    const l = sp.get("l") || "";
+    const s = sp.get("s") || "";
+
+    if (sortEl && (s === "newest" || s === "oldest")) sortEl.value = s;
+    if (productEl && p && hasOption(productEl, p)) productEl.value = p;
+    if (languageEl && l && hasOption(languageEl, l)) languageEl.value = l;
+  }
+
+  function syncUrlFromState(sortEl, productEl, languageEl) {
+    const url = new URL(window.location.href);
+    const sp = url.searchParams;
+
+    const p = productEl ? productEl.value : "";
+    const l = languageEl ? languageEl.value : "";
+    const s = sortEl ? sortEl.value : "newest";
+
+    if (p) sp.set("p", p);
+    else sp.delete("p");
+
+    if (l) sp.set("l", l);
+    else sp.delete("l");
+
+    if (s && s !== "newest") sp.set("s", s);
+    else sp.delete("s");
+
+    const qs = sp.toString();
+    const next = `${url.pathname}${qs ? `?${qs}` : ""}${url.hash || ""}`;
+    window.history.replaceState(null, "", next);
+  }
+
   function init() {
     const page = document.querySelector(".youtube-videos-page");
     if (!page) return;
@@ -117,6 +155,9 @@
       .sort((a, b) => a.label.localeCompare(b.label, undefined, { sensitivity: "base" }));
     populateSelect(languageEl, languageOptions);
 
+    // Apply initial URL state after options exist
+    applyUrlState(sortEl, productEl, languageEl);
+
     function apply() {
       const sortMode = sortEl ? sortEl.value : "newest";
       const wantProduct = productEl ? productEl.value : "";
@@ -149,9 +190,14 @@
       if (totalEl) totalEl.textContent = String(cards.length);
     }
 
-    if (sortEl) sortEl.addEventListener("change", apply);
-    if (productEl) productEl.addEventListener("change", apply);
-    if (languageEl) languageEl.addEventListener("change", apply);
+    function applyAndSync() {
+      apply();
+      syncUrlFromState(sortEl, productEl, languageEl);
+    }
+
+    if (sortEl) sortEl.addEventListener("change", applyAndSync);
+    if (productEl) productEl.addEventListener("change", applyAndSync);
+    if (languageEl) languageEl.addEventListener("change", applyAndSync);
 
     apply();
   }
