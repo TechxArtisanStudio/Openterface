@@ -198,7 +198,7 @@ class YouTubeWebsiteGenerator:
                 print(f"Warning: Could not load template from {template_path}: {e}")
         
         # Fallback to inline template if file doesn't exist
-        return """<div class="youtube-video-card">
+        return """<div class="youtube-video-card" data-views="{views_raw}">
     <a href="{url}" target="_blank" rel="noopener noreferrer">
         <div class="youtube-video-thumbnail">
             <img src="{video_thumbnail}" alt="{title}" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'">
@@ -233,7 +233,12 @@ class YouTubeWebsiteGenerator:
         video_thumbnail = row.get('video_thumbnail_url', '').strip()
         date = self.format_date(row.get('date', '').strip())
         date_iso = date if date and date != "N/A" else ""
-        views = self.format_views(row.get('views', '').strip())
+        views_src = row.get('views', '').strip()
+        try:
+            views_raw_int = int(views_src) if views_src else 0
+        except (ValueError, TypeError):
+            views_raw_int = 0
+        views = self.format_views(views_src)
         description = html.escape(row.get('description', '').strip())
         language = row.get('language', '').strip()
         language_name = self.get_language_name(language) if language else ""
@@ -287,6 +292,7 @@ class YouTubeWebsiteGenerator:
             channel_avatar_img=channel_avatar_img,
             channel_name=author or self.translations['unknown_channel'],
             views=views,
+            views_raw=str(views_raw_int),
             views_label=self.translations['views'],
             date=date,
             date_iso=html.escape(date_iso),

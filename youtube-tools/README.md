@@ -123,7 +123,7 @@ The Videos page supports URL query params for sharing a pre-filtered/sorted view
 
 - `p`: product (example: `minikvm`, `kvm-go`)
 - `l`: language code (example: `en`, `ja`, `fr`)
-- `s`: sort (`newest` or `oldest`)
+- `s`: sort (`newest`, `oldest`, or `views`)
 
 Examples:
 
