@@ -2132,14 +2132,16 @@ body {
   width: 100%;
   background: var(--md-default-bg-color);
   padding: 2rem 0 0.5rem 0;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
   z-index: 1;
   clip-path: none;
 }
 
 .home-videos-carousel-wrapper {
   width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
   position: relative;
   z-index: 1;
   clip-path: none;
@@ -2225,7 +2227,7 @@ body {
 }
 
 .home-video-item:hover {
-  z-index: 100;
+  z-index: 10000;
 }
 
 .home-video-item:hover .home-video-thumbnail {

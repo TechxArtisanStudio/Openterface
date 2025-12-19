@@ -378,6 +378,8 @@
             if (thumbnail) {
               thumbnail.style.opacity = '1';
               thumbnail.style.pointerEvents = '';
+              thumbnail.style.zIndex = '10000';
+              thumbnail.style.position = 'relative';
             }
             
             // Remove cloned thumbnail immediately (original is now visible)
@@ -392,6 +394,7 @@
             card.style.opacity = '1';
             card.style.transform = 'translateY(0)';
             card.style.maxHeight = '300px';
+            card.style.zIndex = '9999';
             
             // Remove cloned card immediately (original is now visible)
             if (cardClone && cardClone.parentNode) {
@@ -407,6 +410,15 @@
               card.style.opacity = '';
               card.style.transform = '';
               card.style.maxHeight = '';
+              card.style.zIndex = '';
+              
+              // Reset thumbnail z-index after transition completes
+              setTimeout(function() {
+                if (thumbnail) {
+                  thumbnail.style.zIndex = '';
+                  thumbnail.style.position = '';
+                }
+              }, 300);
             });
           });
           
