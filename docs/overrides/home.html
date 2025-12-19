@@ -202,12 +202,32 @@
     </div>
   </section>
 
+  {% include "partials/home-videos.html" %}
+
   <a rel="me" href="https://mastodon.social/@youyoubilly" style="display:none;">Mastodon</a>
 
 {% endblock %}
 
 {% block scripts %}
   {{ super() }}
+  <script>
+    // Home Videos Carousel - Pause on hover
+    (function() {
+      document.addEventListener('DOMContentLoaded', function() {
+        const carousel = document.getElementById('home-videos-carousel');
+        if (!carousel) return;
+        
+        // Pause animation on hover
+        carousel.addEventListener('mouseenter', function() {
+          carousel.style.animationPlayState = 'paused';
+        });
+        
+        carousel.addEventListener('mouseleave', function() {
+          carousel.style.animationPlayState = 'running';
+        });
+      });
+    })();
+  </script>
 {% endblock %}
 
 {% block content %}{% endblock %}

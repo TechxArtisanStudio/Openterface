@@ -8,6 +8,7 @@ This directory contains tools for managing YouTube video metadata and language d
 - `update_youtube_csv.py` - Script to fetch and update YouTube video metadata
 - `detect_youtube_language.py` - Script to detect video languages using local LLM
 - `generate_youtube_website.py` - Script to generate HTML website from CSV data
+- `generate_home_videos.py` - Script to generate homepage video carousel partial
 
 ## Usage
 
@@ -54,6 +55,17 @@ python i18n-site-tools/generate_all_i18n.py
 ```
 
 The videos page will be accessible at `/videos/` when running the MkDocs server. Language-specific versions are available at `/zh/videos/`, `/ja/videos/`, etc.
+
+### Generate Homepage Video Carousel
+
+```bash
+# Generate homepage video carousel (top 10 videos)
+python youtube-tools/generate_home_videos.py
+```
+
+This generates `docs/overrides/partials/home-videos.html` which displays the top 10 videos sorted by z_index (highest), views (most), and date (newest) in a horizontal auto-scrolling carousel on the homepage. The carousel shows video thumbnails by default and expands to show full video cards on hover.
+
+**Note**: Run this script after updating `youtube.csv` to refresh the homepage carousel.
 
 ## CSV Structure
 

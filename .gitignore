@@ -20,3 +20,4 @@ site/
 __pycache__/
 *.backup
 /i18n-sites
+.cursor

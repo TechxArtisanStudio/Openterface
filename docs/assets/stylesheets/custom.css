@@ -1555,11 +1555,13 @@ linux-download-columns {
 }
 
 /* Ensure header has higher z-index than navigation tabs */
+/* Note: On mobile (max-width: 76.1875em), header z-index is lowered to 100 in mobile media query */
 .md-header {
   z-index: 200 !important;
 }
 
 /* Ensure language selector dropdown appears above navigation tabs */
+/* Note: On mobile (max-width: 76.1875em), header inner z-index is lowered to 100 in mobile media query */
 .md-header__inner,
 .md-header__inner *,
 [data-md-component="language"],
@@ -1952,15 +1954,57 @@ body {
 
 /* Fix mobile menu drawer slide animation - make it instant to avoid messy look */
 @media screen and (max-width: 76.1875em) {
-  /* Remove slide animation from drawer */
-  .md-drawer {
-    transition: none !important;
-    z-index: 300 !important;
+  /* Lower header z-index on mobile to ensure drawer appears above */
+  /* Use very specific selectors to override global header z-index */
+  body .md-header,
+  body .md-header.md-header--shadow,
+  body .md-header.md-header--lifted,
+  html body .md-header,
+  html body .md-header.md-header--shadow,
+  html body .md-header.md-header--lifted {
+    z-index: 50 !important;
   }
   
-  .md-drawer--open {
+  body .md-header__inner,
+  body .md-header__inner *,
+  body .md-header__button,
+  body .md-header__title,
+  html body .md-header__inner,
+  html body .md-header__inner *,
+  html body .md-header__button,
+  html body .md-header__title {
+    z-index: 50 !important;
+  }
+  
+  /* When drawer is open, ensure header stays below */
+  [data-md-toggle="drawer"]:checked ~ .md-container body .md-header,
+  [data-md-toggle="drawer"]:checked ~ .md-container body .md-header.md-header--shadow,
+  [data-md-toggle="drawer"]:checked ~ .md-container body .md-header.md-header--lifted,
+  [data-md-toggle="drawer"]:checked ~ .md-container .md-header,
+  [data-md-toggle="drawer"]:checked ~ .md-container .md-header.md-header--shadow,
+  [data-md-toggle="drawer"]:checked ~ .md-container .md-header.md-header--lifted {
+    z-index: 50 !important;
+  }
+  
+  /* Remove slide animation from drawer */
+  /* Ensure drawer appears above header with very high z-index */
+  /* Material theme drawer is typically position: fixed, so z-index should work */
+  body .md-drawer,
+  html body .md-drawer,
+  .md-container .md-drawer,
+  * .md-drawer {
     transition: none !important;
-    z-index: 300 !important;
+    z-index: 99999 !important;
+    position: fixed !important;
+  }
+  
+  body .md-drawer--open,
+  html body .md-drawer--open,
+  .md-container .md-drawer--open,
+  * .md-drawer--open {
+    transition: none !important;
+    z-index: 99999 !important;
+    position: fixed !important;
   }
   
   /* Disable overlay on mobile to prevent it from blocking drawer menu clicks */
@@ -1981,23 +2025,29 @@ body {
   }
   
   /* Prevent any transform animations on drawer content */
-  .md-drawer__inner {
+  /* Ensure drawer inner appears above header */
+  body .md-drawer__inner,
+  html body .md-drawer__inner {
     transition: none !important;
-    z-index: 301 !important;
+    z-index: 10000 !important;
     position: relative !important;
     pointer-events: auto !important;
   }
   
-  /* Also target the drawer container */
-  [data-md-toggle="drawer"]:checked ~ .md-container .md-drawer {
+  /* Also target the drawer container when open */
+  [data-md-toggle="drawer"]:checked ~ .md-container .md-drawer,
+  [data-md-toggle="drawer"]:checked ~ .md-container .md-drawer--open,
+  body [data-md-toggle="drawer"]:checked ~ .md-container .md-drawer,
+  body [data-md-toggle="drawer"]:checked ~ .md-container .md-drawer--open {
     transition: none !important;
-    z-index: 300 !important;
+    z-index: 9999 !important;
     pointer-events: auto !important;
   }
   
-  /* Ensure drawer content is clickable and above overlay */
-  [data-md-toggle="drawer"]:checked ~ .md-container .md-drawer__inner {
-    z-index: 301 !important;
+  /* Ensure drawer content is clickable and above overlay and header */
+  [data-md-toggle="drawer"]:checked ~ .md-container .md-drawer__inner,
+  body [data-md-toggle="drawer"]:checked ~ .md-container .md-drawer__inner {
+    z-index: 10000 !important;
     pointer-events: auto !important;
   }
   
@@ -2006,39 +2056,48 @@ body {
     pointer-events: auto !important;
   }
   
-  /* Ensure navigation tabs in drawer appear above slides */
-  .md-drawer .md-tabs {
-    z-index: 302 !important;
+  /* Ensure navigation tabs in drawer appear above slides and header */
+  body .md-drawer .md-tabs,
+  html body .md-drawer .md-tabs {
+    z-index: 10001 !important;
     position: relative;
     pointer-events: auto !important;
   }
   
   /* Ensure navigation tabs appear at the top of drawer content */
-  .md-drawer__inner {
+  body .md-drawer__inner,
+  html body .md-drawer__inner {
     display: flex !important;
     flex-direction: column !important;
   }
   
-  /* Ensure tabs appear first in drawer on mobile */
-  .md-drawer__inner > .md-tabs,
-  .md-drawer .md-tabs {
+  /* Ensure tabs appear first in drawer on mobile and above header */
+  body .md-drawer__inner > .md-tabs,
+  body .md-drawer .md-tabs,
+  html body .md-drawer__inner > .md-tabs,
+  html body .md-drawer .md-tabs {
     order: -1 !important;
     position: sticky !important;
     top: 0 !important;
     background-color: var(--md-primary-fg-color) !important;
-    z-index: 302 !important;
+    z-index: 10001 !important;
     pointer-events: auto !important;
   }
   
-  /* Ensure all links and interactive elements in drawer are clickable */
-  .md-drawer a,
-  .md-drawer button,
-  .md-drawer label,
-  .md-drawer .md-nav__link,
-  .md-drawer .md-nav__item {
+  /* Ensure all links and interactive elements in drawer are clickable and above header */
+  body .md-drawer a,
+  body .md-drawer button,
+  body .md-drawer label,
+  body .md-drawer .md-nav__link,
+  body .md-drawer .md-nav__item,
+  html body .md-drawer a,
+  html body .md-drawer button,
+  html body .md-drawer label,
+  html body .md-drawer .md-nav__link,
+  html body .md-drawer .md-nav__item {
     pointer-events: auto !important;
     position: relative !important;
-    z-index: 303 !important;
+    z-index: 10002 !important;
   }
   
   /* Ensure carousel slides stay below drawer menu and tabs */
@@ -2064,5 +2123,278 @@ body {
   
   .carousel-slide--active {
     z-index: 2 !important;
+  }
+}
+
+/* Homepage Video Carousel Styles */
+.home-videos-carousel-container {
+  position: relative;
+  width: 100%;
+  background: var(--md-default-bg-color);
+  padding: 2rem 0;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+.home-videos-carousel-wrapper {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: visible;
+  position: relative;
+}
+
+.home-videos-carousel {
+  display: flex;
+  gap: 1rem;
+  width: max-content;
+  animation: scroll-videos 60s linear infinite;
+  will-change: transform;
+}
+
+.home-videos-carousel:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll-videos {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.home-video-item {
+  flex-shrink: 0;
+  width: 200px;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 1rem 0 8rem 0;
+}
+
+.home-video-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+
+.home-video-thumbnail {
+  position: relative;
+  width: 200px;
+  height: 112px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--md-default-fg-color--lightest);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 1;
+}
+
+.home-video-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.home-video-card {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
+  background: var(--md-default-bg-color);
+  padding: 0.75rem;
+  border-radius: 8px;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease, max-height 0.3s ease;
+  pointer-events: none;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  max-height: 0;
+  overflow: hidden;
+  z-index: 2000;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  box-sizing: border-box;
+  visibility: hidden;
+  margin: 0;
+}
+
+.home-video-item:hover {
+  z-index: 100;
+}
+
+.home-video-item:hover .home-video-thumbnail {
+  transform: scale(1.15);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  transform-origin: center center;
+  position: relative;
+  z-index: 1000;
+}
+
+.home-video-item:hover .home-video-card {
+  z-index: 2000;
+}
+
+.home-video-item:hover .home-video-card {
+  opacity: 1;
+  transform: translateY(0);
+  max-height: 300px;
+  pointer-events: auto;
+  overflow: visible;
+  visibility: visible;
+}
+
+.home-video-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  line-height: 1.3;
+  color: var(--md-default-fg-color);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.home-video-meta {
+  margin-bottom: 0.5rem;
+}
+
+.home-video-channel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-video-channel-avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.home-video-channel-name {
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color--lighter);
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.home-video-stats {
+  display: flex;
+  gap: 0.75rem;
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color--lighter);
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.home-video-stat-item {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  white-space: nowrap;
+  flex-shrink: 1;
+  min-width: 0;
+}
+
+.home-video-date {
+  display: inline;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-videos-carousel-container {
+    padding: 2rem 0;
+  }
+  
+  .home-video-item {
+    width: 160px;
+  }
+  
+  .home-video-thumbnail {
+    width: 160px;
+    height: 90px;
+  }
+  
+  .home-video-card {
+    width: 160px;
+    min-width: 160px;
+    max-width: 160px;
+    padding: 0.6rem;
+  }
+  
+  .home-videos-carousel {
+    animation-duration: 80s;
+    gap: 0.75rem;
+  }
+  
+  .home-video-title {
+    font-size: 0.75rem;
+  }
+  
+  .home-video-channel-name {
+    font-size: 0.7rem;
+  }
+  
+  .home-video-stats {
+    font-size: 0.65rem;
+    gap: 0.5rem;
+    flex-wrap: nowrap;
+  }
+  
+  .home-video-stat-item {
+    font-size: 0.65rem;
+    gap: 0.2rem;
+  }
+  
+  .home-video-date {
+    display: inline-block;
+    max-width: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .home-video-item {
+    width: 180px;
+  }
+  
+  .home-video-thumbnail {
+    width: 180px;
+    height: 101px;
+  }
+  
+  .home-video-card {
+    width: 180px;
+    min-width: 180px;
+    max-width: 180px;
+  }
+  
+  .home-videos-carousel {
+    animation-duration: 70s;
+  }
+}
+
+@media (min-width: 1025px) {
+  .home-videos-carousel {
+    animation-duration: 60s;
+  }
+  
+  .home-video-card {
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
   }
 }
