@@ -2131,16 +2131,18 @@ body {
   position: relative;
   width: 100%;
   background: var(--md-default-bg-color);
-  padding: 2rem 0;
-  overflow-x: hidden;
-  overflow-y: visible;
+  padding: 2rem 0 0.5rem 0;
+  overflow: hidden;
+  z-index: 1;
+  clip-path: none;
 }
 
 .home-videos-carousel-wrapper {
   width: 100%;
-  overflow-x: hidden;
-  overflow-y: visible;
+  overflow: hidden;
   position: relative;
+  z-index: 1;
+  clip-path: none;
 }
 
 .home-videos-carousel {
@@ -2170,7 +2172,7 @@ body {
   position: relative;
   z-index: 1;
   margin: 0;
-  padding: 1rem 0 8rem 0;
+  padding: 1rem 0 0 0;
 }
 
 .home-video-link {
@@ -2214,8 +2216,8 @@ body {
   pointer-events: none;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
   max-height: 0;
-  overflow: hidden;
-  z-index: 2000;
+  overflow: visible;
+  z-index: 9999;
   border: 1px solid var(--md-default-fg-color--lightest);
   box-sizing: border-box;
   visibility: hidden;
@@ -2231,21 +2233,20 @@ body {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
   transform-origin: center center;
   position: relative;
-  z-index: 1000;
-}
-
-.home-video-item:hover .home-video-card {
-  z-index: 2000;
+  z-index: 10000;
+  will-change: transform;
 }
 
 .home-video-item:hover .home-video-card {
   opacity: 1;
   transform: translateY(0);
   max-height: 300px;
-  pointer-events: auto;
+  pointer-events: none;
   overflow: visible;
   visibility: visible;
+  z-index: 2000;
 }
+
 
 .home-video-title {
   font-size: 0.85rem;
@@ -2314,11 +2315,21 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
   .home-videos-carousel-container {
-    padding: 2rem 0;
+    padding: 2rem 0 1rem 0;
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+  
+  .home-videos-carousel-wrapper {
+    overflow-x: hidden;
+    overflow-y: visible;
+    padding: 0;
+    margin: 0;
   }
   
   .home-video-item {
     width: 160px;
+    padding: 1rem 0 1.5rem 0;
   }
   
   .home-video-thumbnail {
@@ -2326,11 +2337,35 @@ body {
     height: 90px;
   }
   
+  /* On mobile, card appears below image, not overlapping */
   .home-video-card {
+    position: relative !important;
     width: 160px;
     min-width: 160px;
     max-width: 160px;
     padding: 0.6rem;
+    top: auto !important;
+    left: auto !important;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    opacity: 1 !important;
+    transform: none !important;
+    visibility: visible !important;
+    max-height: none !important;
+    z-index: auto !important;
+    overflow: visible;
+  }
+  
+  /* On mobile, disable thumbnail enlargement completely */
+  .home-video-item:hover .home-video-thumbnail {
+    transform: none !important;
+    box-shadow: none !important;
+    scale: 1 !important;
+  }
+  
+  .home-video-thumbnail {
+    transform: none !important;
   }
   
   .home-videos-carousel {
