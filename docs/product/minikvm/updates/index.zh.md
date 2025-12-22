@@ -2,19 +2,7 @@
 
 **Total Updates: {{ config.extra.minikvm_updates }}**
 
-## USB KVM DIY 大赛 2024
-
-- 2025-05-20: [Openterface Viewer：Kashall的轻量级、基于浏览器的KVM解决方案](250520-kashall-project.zh.md)
-- 2025-05-20: [iPad KVM：iOS与底层设备之间的创新桥接](250520-Casey.zh.md)
-- 2025-05-20: [Audio Bridge概念：激发双向音频和AI工作流](250520-Veera-post.zh.md)
-
-## 展览会
-
-- 2025-07-18: [Openterface参加2025年Open Sauce展会 - F.9展位！](250718-open-sauce-2025.zh.md)
-- 2025-06-17: [Teardown 2025：我们重返波特兰！](250617-teardown-2025-promote.zh.md)
-- 2024-06-18: [这个周末在波特兰与我相聚，通过我的游戏挑战赢取 Mini-KVM！](240618-meet-up-teardown-2024.zh.md)
-
-## 更新
+## Updates
 
 - 2025-08-30: [向 KVM-Go 问好 – 您 KVM 冒险之旅的下一章超便携篇章](250830-kvm-go-pre-launch.zh.md)
 - 2025-05-19: [来自韩国的深度洞察和有价值的评测。](250614-tinyrack-review.zh.md)

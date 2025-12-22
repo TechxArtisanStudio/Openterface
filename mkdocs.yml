@@ -62,12 +62,14 @@ theme:
       icon: material/weather-night
       name: Switch to light mode
 extra:
+  usb-kvm-diy-contest-2024_updates: 3
+  exhibition_updates: 3
   copyright_year: 2025
   uconsole-kvm-extension_updates: 2
   qt_version: 0.4.3
   android_version: v1.1.2
   macos_version: 1.16
-  minikvm_updates: 21
+  minikvm_updates: 15
   kvm-go_updates: 5
   accessories_updates: 0
   qt_linux_stable: 0.3.19
