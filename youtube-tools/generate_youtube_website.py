@@ -201,7 +201,7 @@ class YouTubeWebsiteGenerator:
         return """<div class="youtube-video-card" data-views="{views_raw}">
     <a href="{url}" target="_blank" rel="noopener noreferrer">
         <div class="youtube-video-thumbnail">
-            <img src="{video_thumbnail}" alt="{title}" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'">
+            <img src="{video_thumbnail}" alt="{title}" class="skip-lightbox" loading="lazy" onerror="this.src='https://via.placeholder.com/640x360?text=Image+Error'">
             <div class="play-overlay"></div>
         </div>
     </a>
