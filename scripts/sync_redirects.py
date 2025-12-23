@@ -43,7 +43,7 @@ def extract_redirects_from_mkdocs():
 
 def extract_supported_languages():
     """Extract supported languages from lang.yml"""
-    lang_path = Path(__file__).parent.parent / "lang.yml"
+    lang_path = Path(__file__).parent.parent / "docs" / "assets" / "i18n-sites" / "lang.yml"
 
     with open(lang_path, "r", encoding="utf-8") as f:
         lang_data = yaml.safe_load(f)

@@ -22,7 +22,7 @@ def update_config(skip_versions=False):
 
 def count_updates():
     """Count update posts and update mkdocs.yml with product update variables"""
-    script_path = os.path.join(os.path.dirname(__file__), "scripts", "count_updates.py")
+    script_path = os.path.join(os.path.dirname(__file__), "scripts", "update-post-tool", "count_updates.py")
     
     cmd = [sys.executable, script_path]
     
@@ -35,7 +35,7 @@ def count_updates():
 
 def generate_updates_lists():
     """Generate automatic updates lists from H1 titles"""
-    script_path = os.path.join(os.path.dirname(__file__), "scripts", "generate_updates_list.py")
+    script_path = os.path.join(os.path.dirname(__file__), "scripts", "update-post-tool", "generate_updates_list.py")
     
     cmd = [sys.executable, script_path, "--update-files"]
     

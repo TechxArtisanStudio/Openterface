@@ -84,7 +84,7 @@ The GitHub Actions workflow automatically adds all languages before building, en
 ## File Structure
 
 - `mkdocs.yml` - Main MkDocs configuration (starts with English only)
-- `lang.yml` - Contains all language configurations and translations
+- `docs/assets/i18n-sites/lang.yml` - Contains all language configurations and translations (single source of truth)
 - `scripts/manage_i18n.py` - Script to manage i18n configuration
 - `run.py` - Enhanced run script with i18n management flags
 

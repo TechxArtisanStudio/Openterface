@@ -1,0 +1,60 @@
+<!-- YouTube Videos Page (Layout Template) -->
+<!-- This file is hand-maintained. Video data is generated into docs/partials/videos-grid.html. -->
+<!-- Translations are applied at build-time by scripts/i18n-site-tools/generate_static_pages.py using docs/assets/i18n-sites/videos.json -->
+
+<div class="youtube-videos-page">
+    <h1 class="youtube-videos-title" data-i18n-key="title">📺 YouTube Videos</h1>
+    
+    <div class="youtube-topbar">
+        <div class="youtube-stats">
+            <div class="youtube-stat-card" data-stat="total_videos">
+                <div class="number">0</div>
+                <div class="label" data-i18n-key="total_videos">Total Videos</div>
+            </div>
+            <div class="youtube-stat-card" data-stat="languages">
+                <div class="number">0</div>
+                <div class="label" data-i18n-key="languages">Languages</div>
+            </div>
+            <div class="youtube-stat-card" data-stat="products">
+                <div class="number">0</div>
+                <div class="label" data-i18n-key="products">Products</div>
+            </div>
+        </div>
+
+        <div class="youtube-controls" role="region" aria-label="Video controls">
+            <div class="youtube-controls-row">
+                <div class="youtube-control">
+                    <label for="yt-sort" data-i18n-key="sort_by">Sort</label>
+                    <select id="yt-sort" class="youtube-select">
+                        <option value="newest" data-i18n-key="sort_newest">Newest first</option>
+                        <option value="oldest" data-i18n-key="sort_oldest">Oldest first</option>
+                        <option value="views" data-i18n-key="sort_most_views">Most views</option>
+                    </select>
+                </div>
+
+                <div class="youtube-control">
+                    <label for="yt-filter-product" data-i18n-key="filter_product">Product</label>
+                    <select id="yt-filter-product" class="youtube-select">
+                        <option value="" data-i18n-key="all_products">All products</option>
+                    </select>
+                </div>
+
+                <div class="youtube-control">
+                    <label for="yt-filter-language" data-i18n-key="filter_language">Language</label>
+                    <select id="yt-filter-language" class="youtube-select">
+                        <option value="" data-i18n-key="all_languages">All languages</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="youtube-controls-footer" aria-live="polite">
+                <span data-i18n-key="showing">Showing</span>
+                <strong><span id="yt-results-visible">0</span></strong>
+                /
+                <span id="yt-results-total">0</span>
+            </div>
+        </div>
+    </div>
+    
+    {% include "partials/videos-grid.html" %}
+</div>

@@ -32,19 +32,9 @@ jobs:
       # install additional dependencies here
       - name: Install additional dependencies
         run: pip install -r requirements.txt
-      - name: Update mkdocs config with dynamic values
+      - name: Prepare and build site
         run: |
-          python scripts/update_config.py
-      - name: Manage updates (count and generate lists)
-        run: |
-          python scripts/update-tools/manage_updates.py
-      - name: Add all languages to mkdocs config
-        run: |
-          python scripts/manage_i18n.py add
-      - name: Copy .well-known directory
-        run: |
-          mkdir -p site/.well-known
-          cp -r docs/.well-known/* site/.well-known/
+          python scripts/prepare_build.py --i18n-mode full --copy-well-known --action build
       - name: Deploy Documentation
         env:
           MK_SECRET_TOKEN: ${{ secrets.MK_SECRET_TOKEN }}

@@ -6,7 +6,7 @@ This project uses a **separated i18n configuration system** for better managemen
 
 ## File Structure
 
-- **`lang.yml`** - Contains all language translations and configurations
+- **`docs/assets/i18n-sites/lang.yml`** - Contains all language translations and configurations (single source of truth)
 - **`mkdocs.yml`** - Contains the active language configuration (managed by scripts)
 - **`scripts/manage_i18n.py`** - Script to manage language configurations
 
@@ -23,7 +23,7 @@ The i18n translations should **ONLY** be managed through the `lang.yml` file and
 
 ### ✅ Correct Workflow
 
-1. **Add new languages**: Edit `lang.yml` with new language configurations
+1. **Add new languages**: Edit `docs/assets/i18n-sites/lang.yml` with new language configurations
 2. **Apply changes**: Run `python scripts/manage_i18n.py add` to update `mkdocs.yml`
 3. **Remove languages**: Run `python scripts/manage_i18n.py remove [language_codes]`
 4. **Check status**: Run `python scripts/manage_i18n.py list` to see current configuration
@@ -31,7 +31,7 @@ The i18n translations should **ONLY** be managed through the `lang.yml` file and
 ## Script Usage
 
 ```bash
-# Add all languages from lang.yml to mkdocs.yml
+# Add all languages from docs/assets/i18n-sites/lang.yml to mkdocs.yml
 python scripts/manage_i18n.py add
 
 # Add specific languages only
@@ -52,7 +52,7 @@ python scripts/manage_i18n.py list
 When working with this project's i18n system:
 
 1. **NEVER** manually add nav_translations to `mkdocs.yml`
-2. **ALWAYS** edit language configurations in `lang.yml`
+2. **ALWAYS** edit language configurations in `docs/assets/i18n-sites/lang.yml`
 3. **ALWAYS** use `scripts/manage_i18n.py` to apply changes to `mkdocs.yml`
 4. **UNDERSTAND** that `mkdocs.yml` i18n config is managed, not manually edited
 

@@ -282,8 +282,8 @@ def main():
     )
     parser.add_argument(
         "--lang-path",
-        default="lang.yml",
-        help="Path to lang.yml file (default: lang.yml)",
+        default="docs/assets/i18n-sites/lang.yml",
+        help="Path to lang.yml file (default: docs/assets/i18n-sites/lang.yml)",
     )
 
     args = parser.parse_args()
