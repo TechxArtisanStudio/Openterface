@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Wrapper script to manage update counting and list generation.
-This script runs both count_updates.py and generate_updates_list.py in sequence.
+This script runs count_updates.py, generate_updates_list.py, and generate_app_overview_updates.py in sequence.
 """
 
 import sys
@@ -11,9 +11,10 @@ from pathlib import Path
 script_dir = Path(__file__).parent
 sys.path.insert(0, str(script_dir))
 
-# Import the main functions from both scripts
+# Import the main functions from all scripts
 from count_updates import main as count_updates_main
 from generate_updates_list import main as generate_updates_main
+from generate_app_overview_updates import main as generate_app_overview_updates_main
 
 
 def main():
@@ -52,6 +53,22 @@ def main():
         print("\n✅ Step 2 completed successfully")
     except Exception as e:
         print(f"\n❌ Step 2 failed with error: {e}")
+        sys.exit(1)
+    
+    # Step 3: Generate app overview updates section
+    print("\n" + "=" * 70)
+    print("Step 3: Generating app overview updates section")
+    print("=" * 70)
+    try:
+        generate_app_overview_updates_main()
+        print("\n✅ Step 3 completed successfully")
+    except SystemExit as e:
+        if e.code != 0:
+            print(f"\n❌ Step 3 failed with exit code {e.code}")
+            sys.exit(e.code)
+        print("\n✅ Step 3 completed successfully")
+    except Exception as e:
+        print(f"\n❌ Step 3 failed with error: {e}")
         sys.exit(1)
     
     print("\n" + "=" * 70)

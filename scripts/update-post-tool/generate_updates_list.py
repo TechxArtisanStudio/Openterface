@@ -483,6 +483,91 @@ def generate_updates_list_for_event_and_language(event_name, language="en"):
     )
 
 
+def generate_updates_list_for_app_and_language(language="en"):
+    """Generate updates list for app in a specific language, grouped by categories and sorted by centralized rating."""
+    # Get the project root directory
+    script_dir = Path(__file__).parent
+    project_root = script_dir.parent.parent
+
+    # Path to the updates directory for app
+    updates_dir = project_root / "docs" / "app" / "updates"
+
+    if not updates_dir.exists():
+        return None, f"No updates directory found for app"
+
+    update_files = get_update_files_info(updates_dir, language)
+
+    if not update_files:
+        # Return empty list if no update files found
+        return (
+            "",
+            f"No update files found for app in {language}, created empty index",
+        )
+
+    # Collect all discovered categories
+    discovered_categories = set()
+    for update in update_files:
+        if update["category"]:
+            discovered_categories.add(update["category"])
+
+    # Update .categories file with new categories
+    update_categories_file(updates_dir, discovered_categories)
+
+    # Load centralized category configuration (after potential update)
+    category_ratings, category_translations = load_category_config(updates_dir)
+
+    # Sort by raw date in descending order (newest first)
+    update_files.sort(key=lambda x: x["raw_date"] or "", reverse=True)
+
+    # Group updates by category (posts without category default to "Updates")
+    categorized_updates = {}
+
+    for update in update_files:
+        category = (
+            update["category"] or "Updates"
+        )  # Default to "Updates" if no category
+
+        if category not in categorized_updates:
+            categorized_updates[category] = []
+        categorized_updates[category].append(update)
+
+    # Generate markdown list grouped by categories, sorted by centralized rating (highest first)
+    markdown_sections = []
+
+    # Sort categories by centralized rating in descending order (highest rating first)
+    sorted_categories = sorted(
+        categorized_updates.keys(),
+        key=lambda cat: category_ratings.get(cat, 0),
+        reverse=True,
+    )
+
+    # Add categorized sections (sorted by centralized rating)
+    for category in sorted_categories:
+        # Get translated category name
+        translated_category = category
+        if (
+            category in category_translations
+            and language in category_translations[category]
+        ):
+            translated_category = category_translations[category][language]
+
+        markdown_sections.append(f"## {translated_category}")
+        markdown_sections.append("")  # Empty line after section header
+
+        for update in categorized_updates[category]:
+            filename = update["filename"]
+            title = update["title"]
+            raw_date = update["raw_date"] or "Unknown Date"
+            markdown_sections.append(f"- {raw_date}: [{title}]({filename})")
+
+        markdown_sections.append("")  # Empty line after section
+
+    return (
+        "\n".join(markdown_sections),
+        f"Generated list for app in {language} with {len(update_files)} updates",
+    )
+
+
 def generate_updates_list_for_product(product_name):
     """Generate updates list for a specific product, grouped by categories and sorted by centralized rating."""
     return generate_updates_list_for_product_and_language(product_name, "en")
@@ -585,6 +670,22 @@ def generate_all_events_updates_list_for_language(language):
     return results
 
 
+def generate_all_app_updates_list_for_language(language):
+    """Generate updates list for app in a specific language."""
+    markdown_list, message = generate_updates_list_for_app_and_language(language)
+    
+    if markdown_list is not None:  # Changed condition to handle empty strings
+        return {"app": {"markdown": markdown_list, "message": message}}
+    else:
+        # Create empty index for app without updates directory
+        return {
+            "app": {
+                "markdown": "",
+                "message": f"Created empty updates index for app in {language}",
+            }
+        }
+
+
 def create_or_update_index_file(product_name, markdown_list, language="en"):
     """Create or update the index file for a specific product and language with the standardized format."""
     script_dir = Path(__file__).parent
@@ -663,6 +764,41 @@ def create_or_update_index_file_for_event(event_name, markdown_list, language="e
     return True
 
 
+def create_or_update_index_file_for_app(markdown_list, language="en"):
+    """Create or update the index file for app and language with the standardized format."""
+    script_dir = Path(__file__).parent
+    project_root = script_dir.parent.parent
+    updates_dir = project_root / "docs" / "app" / "updates"
+
+    # Determine the index filename based on language
+    if language == "en":
+        index_filename = "index.md"
+    else:
+        index_filename = f"index.{language}.md"
+
+    index_path = updates_dir / index_filename
+
+    # Create the updates directory if it doesn't exist
+    updates_dir.mkdir(parents=True, exist_ok=True)
+
+    # Create the standardized content with category support
+    variable_name = "app_updates"
+    config_var = f"config.extra.{variable_name}"
+
+    content = f"""# Updates & Events
+
+**Total Updates: {{{{ {config_var} }}}}**
+
+{markdown_list}
+"""
+
+    # Write the content to index file (overwrite if exists)
+    with open(index_path, "w", encoding="utf-8") as f:
+        f.write(content)
+
+    return True
+
+
 def create_empty_updates_index(product_name, language="en"):
     """Create an empty updates index for products without updates directory."""
     script_dir = Path(__file__).parent
@@ -704,10 +840,11 @@ def create_empty_updates_index(product_name, language="en"):
 def main():
     """Main function to generate and optionally update update lists."""
     parser = argparse.ArgumentParser(
-        description="Generate automatic updates list from H1 titles (default: all products and events, all languages, update files)"
+        description="Generate automatic updates list from H1 titles (default: all products, events, and app, all languages, update files)"
     )
     parser.add_argument("--product", help="Generate list for specific product only (default: all products)")
     parser.add_argument("--event", help="Generate list for specific event only (default: all events)")
+    parser.add_argument("--app", action="store_true", help="Generate list for app only (default: all items)")
     parser.add_argument(
         "--language", help="Generate list for specific language only (default: all languages)"
     )
@@ -812,13 +949,39 @@ def main():
                         print(
                             f"❌ Failed to update {args.event}/updates/index.{language}.md"
                         )
+        elif args.app:
+            # Generate for app and language
+            markdown_list, message = generate_updates_list_for_app_and_language(language)
+            print(f"✅ {message}")
+            if markdown_list:
+                print(f"\nGenerated markdown list for {language}:")
+                print(markdown_list)
+
+            if update_files:
+                if create_or_update_index_file_for_app(markdown_list, language):
+                    if language == "en":
+                        print(f"✅ Updated app/updates/index.md")
+                    else:
+                        print(
+                            f"✅ Updated app/updates/index.{language}.md"
+                        )
+                else:
+                    if language == "en":
+                        print(
+                            f"❌ Failed to update app/updates/index.md"
+                        )
+                    else:
+                        print(
+                            f"❌ Failed to update app/updates/index.{language}.md"
+                        )
         else:
-            # Generate for all products and events in the language
+            # Generate for all products, events, and app in the language
             product_results = generate_all_products_updates_list_for_language(language)
             event_results = generate_all_events_updates_list_for_language(language)
+            app_results = generate_all_app_updates_list_for_language(language)
 
-            if not product_results and not event_results:
-                print(f"No products or events with updates found for {language}.")
+            if not product_results and not event_results and not app_results:
+                print(f"No products, events, or app with updates found for {language}.")
                 continue
 
             # Process products
@@ -876,9 +1039,37 @@ def main():
                                 print(
                                     f"❌ Failed to update {event_name}/updates/index.{language}.md"
                                 )
+
+            # Process app
+            if app_results:
+                print(f"\n--- App ({language}) ---")
+                for app_name, result in app_results.items():
+                    print(f"\n✅ {result['message']}")
+                    print(f"📝 {app_name} updates list ({language}):")
+                    print(result["markdown"])
+
+                    if update_files:
+                        if create_or_update_index_file_for_app(
+                            result["markdown"], language
+                        ):
+                            if language == "en":
+                                print(f"✅ Updated app/updates/index.md")
+                            else:
+                                print(
+                                    f"✅ Updated app/updates/index.{language}.md"
+                                )
+                        else:
+                            if language == "en":
+                                print(
+                                    f"❌ Failed to update app/updates/index.md"
+                                )
+                            else:
+                                print(
+                                    f"❌ Failed to update app/updates/index.{language}.md"
+                                )
             
-            # Store results for output file (combine products and events)
-            combined_results = {**product_results, **event_results}
+            # Store results for output file (combine products, events, and app)
+            combined_results = {**product_results, **event_results, **app_results}
             all_results[language] = combined_results
 
     # Save to output file if specified

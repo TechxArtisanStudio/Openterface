@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Script to count update posts in all product and event folders and update mkdocs.yml with the
-total count for each product and event for use in templates.
+Script to count update posts in all product, event, and app folders and update mkdocs.yml with the
+total count for each product, event, and app for use in templates.
 """
 
 import os
@@ -66,6 +66,35 @@ def count_update_posts_for_event(event_name):
     
     # Path to the updates directory for this event
     updates_dir = project_root / "docs" / "event" / event_name / "updates"
+    
+    if not updates_dir.exists():
+        return 0, []
+    
+    # Count markdown files, excluding index files, translated files, and draft posts
+    update_files = []
+    for file_path in updates_dir.glob("*.md"):
+        # Skip index files (both index.md and index.lang.md)
+        if file_path.name == "index.md" or file_path.name.startswith("index."):
+            continue
+        
+        # Skip translated files (files ending with .lang.md)
+        if any(file_path.name.endswith(f".{lang}.md") for lang in ["zh", "ja", "ko", "fr", "de", "it", "es", "pt", "ro"]):
+            continue
+        
+        # Skip draft posts
+        if not is_draft_post(file_path):
+            update_files.append(file_path.name)
+    
+    return len(update_files), update_files
+
+def count_update_posts_for_app():
+    """Count the number of update markdown files in the app's updates directory (English only)."""
+    # Get the project root directory (script is in scripts/update-post-tool/)
+    script_dir = Path(__file__).parent
+    project_root = script_dir.parent.parent
+    
+    # Path to the updates directory for app
+    updates_dir = project_root / "docs" / "app" / "updates"
     
     if not updates_dir.exists():
         return 0, []
@@ -167,8 +196,8 @@ def update_mkdocs_yml(all_counts):
     return True
 
 def main():
-    """Main function to count updates for all products and events and update mkdocs.yml."""
-    print("Scanning all product and event folders for updates directories...")
+    """Main function to count updates for all products, events, and app and update mkdocs.yml."""
+    print("Scanning all product, event, and app folders for updates directories...")
     
     # Get all product folders
     product_folders = get_all_product_folders()
@@ -178,7 +207,6 @@ def main():
     
     if not product_folders and not event_folders:
         print("No product or event folders found.")
-        return
     
     if product_folders:
         print(f"Found product folders: {', '.join(product_folders)}")
@@ -220,7 +248,20 @@ def main():
             else:
                 print(f"\n{event_name}: No updates directory found")
     
-    print(f"\nTotal updates across all products and events: {total_updates}")
+    # Count updates for app
+    print("\n--- Processing App ---")
+    count, update_files = count_update_posts_for_app()
+    all_counts["app"] = count
+    total_updates += count
+    
+    if count > 0:
+        print(f"\napp: Found {count} update posts:")
+        for file_name in sorted(update_files):
+            print(f"  - {file_name}")
+    else:
+        print(f"\napp: No updates directory found")
+    
+    print(f"\nTotal updates across all products, events, and app: {total_updates}")
     
     # Show what variables will be created/updated
     print(f"\nVariables to be created/updated in mkdocs.yml:")
@@ -230,7 +271,7 @@ def main():
     
     print("\nUpdating mkdocs.yml...")
     if update_mkdocs_yml(all_counts):
-        print("✅ Successfully updated mkdocs.yml with product and event update variables")
+        print("✅ Successfully updated mkdocs.yml with product, event, and app update variables")
         print("   You can now use these variables in your templates:")
         for item_name in all_counts.keys():
             variable_name = f"{item_name}_updates"
