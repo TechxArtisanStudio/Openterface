@@ -71,6 +71,7 @@
     "Support Us": "支持我们"
     "Bulk Orders": 批量订单
     "Reviews & Media": 评测与媒体
+    Event: 活动
     For Enterprise: 企业
     "FAQs for KVM Ext.": "KVM 扩展常见问题"
     "Media Coverage": 媒体报道
@@ -145,6 +146,7 @@
     "Support Us": "私たちをサポート"
     "Bulk Orders": バルク注文
     "Reviews & Media": レビューとメディア
+    Event: イベント
     For Enterprise: エンタープライズ
     "FAQs for KVM Ext.": "KVM 拡張 FAQ"
     "Media Coverage": メディア掲載
@@ -219,6 +221,7 @@
     "Support Us": "우리를 지원하세요"
     "Bulk Orders": 대량 주문
     "Reviews & Media": 리뷰와 미디어
+    Event: 이벤트
     For Enterprise: 기업
     "FAQs for KVM Ext.": "KVM 확장 FAQ"
     "Media Coverage": 미디어 보도
@@ -293,6 +296,7 @@
     "Support Us": "Soutenez-nous"
     "Bulk Orders": "Commandes en gros"
     "Reviews & Media": "Avis et médias"
+    Event: Événements
     For Enterprise: Entreprise
     "FAQs for KVM Ext.": "FAQ Extension KVM"
     "Media Coverage": "Couverture médiatique"
@@ -367,6 +371,7 @@
     "Support Us": "Unterstützen Sie uns"
     "Bulk Orders": "Mengenbestellungen"
     "Reviews & Media": "Bewertungen & Medien"
+    Event: Veranstaltungen
     For Enterprise: Unternehmen
     "FAQs for KVM Ext.": "KVM-Erweiterung FAQs"
     "Media Coverage": "Medienberichterstattung"
@@ -441,6 +446,7 @@
     "Support Us": "Supportaci"
     "Bulk Orders": "Ordini all'ingrosso"
     "Reviews & Media": "Recensioni e media"
+    Event: Eventi
     For Enterprise: Azienda
     "FAQs for KVM Ext.": "FAQ Estensione KVM"
     "Media Coverage": "Copertura mediatica"
@@ -515,6 +521,7 @@
     "Support Us": "Apóyanos"
     "Bulk Orders": "Pedidos al por mayor"
     "Reviews & Media": "Reseñas y medios"
+    Event: Eventos
     For Enterprise: Empresa
     "FAQs for KVM Ext.": "Preguntas sobre Extensión KVM"
     "Media Coverage": "Cobertura mediática"
@@ -589,6 +596,7 @@
     "Support Us": "Apoie-nos"
     "Bulk Orders": "Pedidos em massa"
     "Reviews & Media": "Avaliações e mídia"
+    Event: Eventos
     For Enterprise: Empresa
     "FAQs for KVM Ext.": "Perguntas sobre Extensão KVM"
     "Media Coverage": "Cobertura da mídia"
@@ -663,6 +671,7 @@
     "Support Us": "Susține-ne"
     "Bulk Orders": "Comenzi în vrac"
     "Reviews & Media": "Recenzii și media"
+    Event: Evenimente
     For Enterprise: Întreprindere
     "FAQs for KVM Ext.": "Întrebări despre Extensia KVM"
     "Media Coverage": "Acoperirea media"
