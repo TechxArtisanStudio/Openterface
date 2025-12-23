@@ -210,12 +210,16 @@
     </div>
   </section>
 
+  {% include "partials/home-videos.html" %}
+
   <a rel="me" href="https://mastodon.social/@youyoubilly" style="display:none;">Mastodon</a>
 
 {% endblock %}
 
 {% block scripts %}
   {{ super() }}
+  <!-- Load home-videos.js for video carousel interactions -->
+  <script src="{{ 'assets/javascripts/home-videos.js' | url }}"></script>
 {% endblock %}
 
 {% block content %}{% endblock %}

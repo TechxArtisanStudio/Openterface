@@ -14,6 +14,7 @@ sys.path.insert(0, str(script_dir.parent / "youtube-tools"))
 
 from generate_static_pages import StaticPageGenerator
 from generate_youtube_website import YouTubeWebsiteGenerator
+from generate_home_videos import HomeVideosGenerator
 
 
 def main():
@@ -35,6 +36,11 @@ def main():
         video_gen = YouTubeWebsiteGenerator(csv_path)
         video_gen.generate_for_i18n_pipeline()  # NEW: Use unified workflow
         
+        # 2.5. Generate home videos partial (home-videos.html)
+        print("\n2️⃣.5️⃣  Generating home videos carousel...")
+        home_videos_gen = HomeVideosGenerator(csv_path=csv_path)
+        home_videos_gen.generate()
+        
         # 3. Generate static pages with translations (home + videos)
         print("\n3️⃣  Generating static pages with translations (home + videos)...")
         generator.generate_all()
@@ -45,6 +51,7 @@ def main():
         print("\n📊 Summary:")
         print("   • hreflang.html - Generated")
         print("   • videos-grid.html - Generated from CSV")
+        print("   • home-videos.html - Generated from CSV")
         print("   • home.*.html - Generated (10 languages)")
         print("   • videos.*.html - Generated (10 languages)")
         

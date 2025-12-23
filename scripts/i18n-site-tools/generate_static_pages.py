@@ -13,10 +13,17 @@ Usage:
 import argparse
 import json
 import re
+import sys
 import yaml
 from pathlib import Path
 from typing import Dict
 from i18n_config import I18nConfig
+
+# Add youtube-tools to path for importing HomeVideosGenerator
+script_dir = Path(__file__).parent
+youtube_tools_dir = script_dir.parent / "youtube-tools"
+if str(youtube_tools_dir) not in sys.path:
+    sys.path.insert(0, str(youtube_tools_dir))
 
 
 class StaticPageGenerator:
@@ -140,6 +147,21 @@ class StaticPageGenerator:
         
         return html_content
     
+    def ensure_home_videos_generated(self):
+        """Ensure home-videos.html is generated before generating home pages."""
+        try:
+            from generate_home_videos import HomeVideosGenerator
+            csv_path = self.script_dir.parent / "youtube-tools" / "youtube.csv"
+            if csv_path.exists():
+                home_videos_gen = HomeVideosGenerator(csv_path=csv_path)
+                home_videos_gen.generate()
+            else:
+                print(f"⚠️  Warning: youtube.csv not found at {csv_path}, skipping home-videos.html generation")
+        except ImportError as e:
+            print(f"⚠️  Warning: Could not import HomeVideosGenerator: {e}")
+        except Exception as e:
+            print(f"⚠️  Warning: Error generating home-videos.html: {e}")
+    
     def generate_template(self, template_name: str, language: str = None):
         """Generate static pages for a template."""
         print(f"\n{'='*60}")
@@ -178,6 +200,11 @@ class StaticPageGenerator:
             languages_to_generate = supported_languages
         
         print(f"📊 Generating for {len(languages_to_generate)} language(s): {', '.join(languages_to_generate)}\n")
+        
+        # If generating home template, ensure home-videos.html is generated first
+        if template_name == 'home':
+            print("📹 Ensuring home-videos.html is generated...")
+            self.ensure_home_videos_generated()
         
         # Generate page for each language
         for lang in languages_to_generate:

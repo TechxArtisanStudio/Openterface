@@ -1,0 +1,101 @@
+{
+  "events": [
+    {
+      "id": "exhibition",
+      "folder": "exhibition",
+      "translations": {
+        "en": "Exhibition",
+        "zh": "展览",
+        "ja": "展示会",
+        "ko": "전시회",
+        "fr": "Exposition",
+        "de": "Ausstellung",
+        "it": "Mostra",
+        "es": "Exposición",
+        "pt": "Exposição",
+        "ro": "Expoziție"
+      }
+    },
+    {
+      "id": "usb-kvm-diy-contest-2024",
+      "folder": "usb-kvm-diy-contest-2024",
+      "translations": {
+        "en": "USB KVM DIY Contest 2024",
+        "zh": "USB KVM DIY 竞赛 2024",
+        "ja": "USB KVM DIY コンテスト 2024",
+        "ko": "USB KVM DIY 콘테스트 2024",
+        "fr": "Concours USB KVM DIY 2024",
+        "de": "USB KVM DIY Wettbewerb 2024",
+        "it": "Concorso USB KVM DIY 2024",
+        "es": "Concurso USB KVM DIY 2024",
+        "pt": "Concurso USB KVM DIY 2024",
+        "ro": "Concurs USB KVM DIY 2024"
+      }
+    }
+  ],
+  "link_text": {
+    "en": "Updates & Events",
+    "zh": "更新与活动",
+    "ja": "更新とイベント",
+    "ko": "업데이트 및 이벤트",
+    "fr": "Mises à jour et événements",
+    "de": "Updates & Veranstaltungen",
+    "it": "Aggiornamenti ed eventi",
+    "es": "Actualizaciones y eventos",
+    "pt": "Atualizações e eventos",
+    "ro": "Actualizări și evenimente"
+  },
+  "page_metadata": {
+    "en": {
+      "title": "Events",
+      "description": "Openterface events, exhibitions, and community activities",
+      "keywords": "Openterface events, exhibitions, contests, community activities"
+    },
+    "zh": {
+      "title": "活动",
+      "description": "Openterface 活动、展览和社区活动",
+      "keywords": "Openterface 活动, 展览, 竞赛, 社区活动"
+    },
+    "ja": {
+      "title": "イベント",
+      "description": "Openterface のイベント、展示会、コミュニティ活動",
+      "keywords": "Openterface イベント, 展示会, コンテスト, コミュニティ活動"
+    },
+    "ko": {
+      "title": "이벤트",
+      "description": "Openterface 이벤트, 전시회 및 커뮤니티 활동",
+      "keywords": "Openterface 이벤트, 전시회, 콘테스트, 커뮤니티 활동"
+    },
+    "fr": {
+      "title": "Événements",
+      "description": "Événements Openterface, expositions et activités communautaires",
+      "keywords": "événements Openterface, expositions, concours, activités communautaires"
+    },
+    "de": {
+      "title": "Veranstaltungen",
+      "description": "Openterface Veranstaltungen, Ausstellungen und Community-Aktivitäten",
+      "keywords": "Openterface Veranstaltungen, Ausstellungen, Wettbewerbe, Community-Aktivitäten"
+    },
+    "it": {
+      "title": "Eventi",
+      "description": "Eventi Openterface, mostre e attività della community",
+      "keywords": "eventi Openterface, mostre, concorsi, attività della community"
+    },
+    "es": {
+      "title": "Eventos",
+      "description": "Eventos Openterface, exposiciones y actividades comunitarias",
+      "keywords": "eventos Openterface, exposiciones, concursos, actividades comunitarias"
+    },
+    "pt": {
+      "title": "Eventos",
+      "description": "Eventos Openterface, exposições e atividades da comunidade",
+      "keywords": "eventos Openterface, exposições, concursos, atividades da comunidade"
+    },
+    "ro": {
+      "title": "Evenimente",
+      "description": "Evenimente Openterface, expoziții și activități comunitare",
+      "keywords": "evenimente Openterface, expoziții, concursuri, activități comunitare"
+    }
+  }
+}
+

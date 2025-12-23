@@ -5,7 +5,9 @@ Unified build preparation script for MkDocs site.
 Handles all pre-build steps:
 - Update mkdocs config
 - Manage updates (count and generate lists)
+- Manage events (generate event index files)
 - Sync languages (full i18n or English-only)
+- Generate video data files (videos-grid.html, home-videos.html) - always
 - Generate static i18n pages (only for full i18n mode)
 - Copy .well-known directory (for CI/CD)
 - Execute action (build or serve)
@@ -90,6 +92,14 @@ def manage_updates():
     return run_command(cmd, "Manage updates (count and generate lists)", continue_on_error=True)
 
 
+def manage_events():
+    """Generate event index files for all languages."""
+    script_path = os.path.join(os.path.dirname(__file__), "event-tool", "manage_events.py")
+    cmd = [sys.executable, script_path]
+    
+    return run_command(cmd, "Generate event index files", continue_on_error=True)
+
+
 def sync_languages(i18n_mode):
     """Sync languages based on mode."""
     script_path = os.path.join(os.path.dirname(__file__), "manage_i18n.py")
@@ -105,6 +115,60 @@ def sync_languages(i18n_mode):
         return False
     
     return run_command(cmd, description, continue_on_error=False)
+
+
+def generate_video_data_files():
+    """Generate video data files from CSV (always, regardless of i18n mode).
+    
+    Generates:
+    - videos-grid.html: Video cards data for videos page
+    - home-videos.html: Homepage video carousel
+    
+    These files are language-agnostic and needed in both full i18n and en-only modes.
+    """
+    script_dir = Path(__file__).parent
+    youtube_tools_dir = script_dir / "youtube-tools"
+    csv_path = youtube_tools_dir / "youtube.csv"
+    
+    # Check if CSV exists
+    if not csv_path.exists():
+        print(f"⚠️  YouTube CSV not found: {csv_path}")
+        print("   Skipping video data generation")
+        return True  # Not critical, continue
+    
+    success = True
+    
+    # Step 1: Generate videos-grid.html
+    print(f"\n{'='*60}")
+    print(f"🔄 Generating videos-grid.html from CSV")
+    print(f"{'='*60}")
+    script_path = youtube_tools_dir / "generate_youtube_website.py"
+    cmd = [sys.executable, str(script_path), "--base-template"]
+    print(f"Running: {' '.join(cmd)}")
+    
+    result = subprocess.run(cmd)
+    if result.returncode == 0:
+        print(f"✅ Generated videos-grid.html")
+    else:
+        print(f"⚠️  videos-grid.html generation had issues (continuing)")
+        success = False
+    
+    # Step 2: Generate home-videos.html
+    print(f"\n{'='*60}")
+    print(f"🔄 Generating home-videos.html from CSV")
+    print(f"{'='*60}")
+    script_path = youtube_tools_dir / "generate_home_videos.py"
+    cmd = [sys.executable, str(script_path)]
+    print(f"Running: {' '.join(cmd)}")
+    
+    result = subprocess.run(cmd)
+    if result.returncode == 0:
+        print(f"✅ Generated home-videos.html")
+    else:
+        print(f"⚠️  home-videos.html generation had issues (continuing)")
+        success = False
+    
+    return success
 
 
 def generate_static_i18n_pages():
@@ -270,12 +334,20 @@ def main():
     else:
         print("⏭️  Skipping update management")
     
-    # Step 3: Sync languages
+    # Step 3: Manage events
+    if not manage_events():
+        print("⚠️  Event management had issues, but continuing...")
+    
+    # Step 4: Sync languages
     if not sync_languages(args.i18n_mode):
         print("❌ Language sync failed - aborting")
         sys.exit(1)
     
-    # Step 4: Generate static i18n pages (only for full i18n mode)
+    # Step 5: Generate video data files (always, regardless of i18n mode)
+    if not generate_video_data_files():
+        print("⚠️  Video data generation had issues, but continuing...")
+    
+    # Step 6: Generate static i18n pages (only for full i18n mode)
     if args.i18n_mode == "full" and not args.skip_static_pages:
         if not generate_static_i18n_pages():
             print("❌ Static i18n page generation failed - aborting")
@@ -285,14 +357,14 @@ def main():
     else:
         print("⏭️  Skipping static i18n page generation (--skip-static-pages)")
     
-    # Step 5: Copy .well-known (only if requested)
+    # Step 7: Copy .well-known (only if requested)
     if args.copy_well_known:
         if not copy_well_known():
             print("⚠️  .well-known copy had issues, but continuing...")
     else:
         print("⏭️  Skipping .well-known copy")
     
-    # Step 6: Execute action
+    # Step 8: Execute action
     print("\n" + "="*60)
     print(f"✅ All preparation steps completed!")
     print("="*60 + "\n")
