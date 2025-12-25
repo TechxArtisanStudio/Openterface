@@ -10,3 +10,8 @@ ipywidgets>=7.6.0
 
 # Optional: Progress bars
 tqdm>=4.62.0
+
+# LLM API clients for translation
+openai>=1.0.0  # For OpenAI API and LM Studio (OpenAI-compatible)
+anthropic>=0.18.0  # For Anthropic Claude API
+pyyaml>=6.0  # For YAML configuration files

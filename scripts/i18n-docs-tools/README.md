@@ -114,7 +114,93 @@ python3 scripts/i18n-docs-tools/clean_file_variants.py docs/product/minikvm/ --i
 python3 scripts/i18n-docs-tools/clean_file_variants.py docs/product/minikvm/ --dry-run
 ```
 
-### 6) Translation Guide System
+### 6) Translate with LLM APIs
+
+Automatically translate English markdown files to target languages using local or cloud LLM APIs.
+
+**Supported Providers:**
+- **LM Studio** (local, default) - Free local translation using your own models
+- **OpenAI** - GPT-4, GPT-3.5, and other OpenAI models
+- **Anthropic** - Claude 3 models (Opus, Sonnet, Haiku)
+
+**Basic usage:**
+
+```bash
+# Translate to all missing languages using LM Studio (local)
+python3 scripts/i18n-docs-tools/translate_with_llm.py docs/product/kvm-go/updates/article.md
+
+# Translate to specific languages
+python3 scripts/i18n-docs-tools/translate_with_llm.py docs/product/kvm-go/updates/article.md --langs zh,ja,ko
+
+# Overwrite existing translations
+python3 scripts/i18n-docs-tools/translate_with_llm.py docs/product/kvm-go/updates/article.md --overwrite
+```
+
+**Using OpenAI:**
+
+```bash
+# Set API key (recommended: use environment variable)
+export OPENAI_API_KEY=sk-...
+
+# Translate with GPT-4
+python3 scripts/i18n-docs-tools/translate_with_llm.py docs/product/kvm-go/updates/article.md --provider openai --model gpt-4-turbo-preview
+
+# Translate with GPT-3.5 (faster, cheaper)
+python3 scripts/i18n-docs-tools/translate_with_llm.py docs/product/kvm-go/updates/article.md --provider openai --model gpt-3.5-turbo
+```
+
+**Using Anthropic Claude:**
+
+```bash
+# Set API key
+export ANTHROPIC_API_KEY=sk-ant-...
+
+# Translate with Claude Opus
+python3 scripts/i18n-docs-tools/translate_with_llm.py docs/product/kvm-go/updates/article.md --provider anthropic --model claude-3-opus-20240229
+
+# Translate with Claude Sonnet (faster, cheaper)
+python3 scripts/i18n-docs-tools/translate_with_llm.py docs/product/kvm-go/updates/article.md --provider anthropic --model claude-3-sonnet-20240229
+```
+
+**Advanced options:**
+
+```bash
+# Custom temperature (lower = more consistent, higher = more creative)
+python3 scripts/i18n-docs-tools/translate_with_llm.py docs/product/kvm-go/updates/article.md --temperature 0.2
+
+# Custom API endpoint
+export LM_STUDIO_API_URL=http://localhost:1234/v1
+python3 scripts/i18n-docs-tools/translate_with_llm.py docs/product/kvm-go/updates/article.md --provider lmstudio
+
+# Dry run (preview without translating)
+python3 scripts/i18n-docs-tools/translate_with_llm.py docs/product/kvm-go/updates/article.md --dry-run
+
+# Configuration file
+python3 scripts/i18n-docs-tools/translate_with_llm.py docs/product/kvm-go/updates/article.md --config-file .translation_config.yml
+```
+
+**Configuration file example (.translation_config.yml):**
+
+```yaml
+provider: openai
+api_key: ${OPENAI_API_KEY}  # Can use env var references
+api_url: https://api.openai.com/v1
+model: gpt-4-turbo-preview
+temperature: 0.3
+default_languages: [zh, ja, ko, fr, de, it, es, pt, ro]
+```
+
+**Features:**
+- Automatically loads translation guides (global + language-specific)
+- Preserves markdown formatting, links, code blocks, and frontmatter
+- Skips existing translations by default (use `--overwrite` to replace)
+- Supports multiple API providers with easy switching
+- Handles errors gracefully with clear messages
+- Integrates with existing i18n workflow
+
+**Note:** The script automatically uses translation guides from `scripts/i18n-docs-tools/translation_guide/` to ensure consistent, high-quality translations.
+
+### 7) Translation Guide System
 
 The system automatically loads translation guides from `scripts/i18n-docs-tools/translation_guide/` to ensure consistent, high-quality translations.
 
