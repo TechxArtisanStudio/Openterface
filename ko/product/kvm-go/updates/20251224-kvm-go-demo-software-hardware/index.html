@@ -3,57 +3,53 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="A Feature-rich, Open-source and Community-driven KVM-over-USB Solution">
+        <meta name="description" content="KVM-GO의 HDMI/DP/VGA 버전이 실제로 어떻게 작동하는지 보여주는 새로운 데모 영상을 확인해보세요. Mini-KVM과 KVM-GO를 위한 통합 소프트웨어, MS2130S 4K@60Hz 비디오 프로세서 및 CH32V208 MCU를 포함한 하드웨어 업그레이드, 그리고 커스텀 EDID 지원과 같은 예정 기능에 대해 알아보세요. 캠페인 업데이트: 220명 이상의 후원자와 함께 $72k 달성">
       
       
-        <meta name="author" content="Openterface">
+        <meta name="author" content="TechxArtisan Studio">
       
       
-        <link rel="canonical" href="https://openterface.com/ko/product/kvm-go/updates/">
+        <link rel="canonical" href="https://openterface.com/ko/product/kvm-go/updates/20251224-kvm-go-demo-software-hardware/">
       
       
-        <link rel="prev" href="../reviews/media/">
-      
-      
-        <link rel="next" href="../../minikvm/">
       
       
         
-          <link rel="alternate" href="../../../../product/kvm-go/updates/" hreflang="en">
+          <link rel="alternate" href="../../../../../product/kvm-go/updates/20251224-kvm-go-demo-software-hardware/" hreflang="en">
         
-          <link rel="alternate" href="../../../../zh/product/kvm-go/updates/" hreflang="zh">
+          <link rel="alternate" href="../../../../../zh/product/kvm-go/updates/20251224-kvm-go-demo-software-hardware/" hreflang="zh">
         
-          <link rel="alternate" href="../../../../ja/product/kvm-go/updates/" hreflang="ja">
+          <link rel="alternate" href="../../../../../ja/product/kvm-go/updates/20251224-kvm-go-demo-software-hardware/" hreflang="ja">
         
           <link rel="alternate" href="./" hreflang="ko">
         
-          <link rel="alternate" href="../../../../fr/product/kvm-go/updates/" hreflang="fr">
+          <link rel="alternate" href="../../../../../fr/product/kvm-go/updates/20251224-kvm-go-demo-software-hardware/" hreflang="fr">
         
-          <link rel="alternate" href="../../../../de/product/kvm-go/updates/" hreflang="de">
+          <link rel="alternate" href="../../../../../de/product/kvm-go/updates/20251224-kvm-go-demo-software-hardware/" hreflang="de">
         
-          <link rel="alternate" href="../../../../it/product/kvm-go/updates/" hreflang="it">
+          <link rel="alternate" href="../../../../../it/product/kvm-go/updates/20251224-kvm-go-demo-software-hardware/" hreflang="it">
         
-          <link rel="alternate" href="../../../../es/product/kvm-go/updates/" hreflang="es">
+          <link rel="alternate" href="../../../../../es/product/kvm-go/updates/20251224-kvm-go-demo-software-hardware/" hreflang="es">
         
-          <link rel="alternate" href="../../../../pt/product/kvm-go/updates/" hreflang="pt">
+          <link rel="alternate" href="../../../../../pt/product/kvm-go/updates/20251224-kvm-go-demo-software-hardware/" hreflang="pt">
         
-          <link rel="alternate" href="../../../../ro/product/kvm-go/updates/" hreflang="ro">
+          <link rel="alternate" href="../../../../../ro/product/kvm-go/updates/20251224-kvm-go-demo-software-hardware/" hreflang="ro">
         
       
       
-      <link rel="icon" href="../../../../assets/favicon.png">
+      <link rel="icon" href="../../../../../assets/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
-        <title>KVM-Go 업데이트 - Openterface | 인터페이스를 연결하여 무한한 가능성을 열다</title>
+        <title>새로운 데모 영상, 소프트웨어 진행 상황 및 KVM-GO 내부 구성 - Openterface | 인터페이스를 연결하여 무한한 가능성을 열다</title>
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
   
@@ -137,15 +133,15 @@
       
     
     
-      <link rel="stylesheet" href="../../../../css/timeago.css">
+      <link rel="stylesheet" href="../../../../../css/timeago.css">
     
-      <link rel="stylesheet" href="../../../../css/timeago.css">
+      <link rel="stylesheet" href="../../../../../css/timeago.css">
     
-      <link rel="stylesheet" href="../../../../css/timeago.css">
+      <link rel="stylesheet" href="../../../../../css/timeago.css">
     
-      <link rel="stylesheet" href="../../../../css/timeago.css">
+      <link rel="stylesheet" href="../../../../../css/timeago.css">
     
-    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -161,12 +157,10 @@
 
     
     
-  <link rel="stylesheet" href="../../../../assets/stylesheets/custom.css">
-  <link rel="stylesheet" href="../../../../assets/stylesheets/signup_form.css">
+  <link rel="stylesheet" href="../../../../../assets/stylesheets/custom.css">
+  <link rel="stylesheet" href="../../../../../assets/stylesheets/signup_form.css">
   
   <!-- Conditionally load slideshow.css only on product pages -->
-  
-  <link rel="stylesheet" href="../../../../assets/stylesheets/slideshow.css">
   
   
   <!-- Conditionally load youtube-videos.css only on videos pages -->
@@ -190,7 +184,7 @@
   
 
   <!-- Gibby Avatar and Dialogue Box -->
-  <link href="../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+  <link href="../../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
@@ -420,7 +414,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#updates-events" class="md-skip">
+        <a href="#kvm-go" class="md-skip">
           콘텐츠로 이동
         </a>
       
@@ -441,9 +435,9 @@
   <nav class="md-header__inner md-grid" aria-label="상단/헤더">
 
     <!-- Link to home -->
-    <a href="../../../" title="Openterface | 인터페이스를 연결하여 무한한 가능성을 열다" class="md-header__button md-logo" aria-label="Openterface | 인터페이스를 연결하여 무한한 가능성을 열다" data-md-component="logo">
+    <a href="../../../../" title="Openterface | 인터페이스를 연결하여 무한한 가능성을 열다" class="md-header__button md-logo" aria-label="Openterface | 인터페이스를 연결하여 무한한 가능성을 열다" data-md-component="logo">
       
-  <img src="../../../../assets/app-logo.png" alt="logo">
+  <img src="../../../../../assets/app-logo.png" alt="logo">
 
     </a>
 
@@ -464,7 +458,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              KVM-Go 업데이트
+              새로운 데모 영상, 소프트웨어 진행 상황 및 KVM-GO 내부 구성
             
           </span>
         </div>
@@ -517,19 +511,19 @@
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../../../../product/kvm-go/updates/" hreflang="en" class="md-select__link">
+            <a href="../../../../../product/kvm-go/updates/20251224-kvm-go-demo-software-hardware/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../zh/product/kvm-go/updates/" hreflang="zh" class="md-select__link">
+            <a href="../../../../../zh/product/kvm-go/updates/20251224-kvm-go-demo-software-hardware/" hreflang="zh" class="md-select__link">
               简体中文
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../ja/product/kvm-go/updates/" hreflang="ja" class="md-select__link">
+            <a href="../../../../../ja/product/kvm-go/updates/20251224-kvm-go-demo-software-hardware/" hreflang="ja" class="md-select__link">
               日本語
             </a>
           </li>
@@ -541,37 +535,37 @@
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../fr/product/kvm-go/updates/" hreflang="fr" class="md-select__link">
+            <a href="../../../../../fr/product/kvm-go/updates/20251224-kvm-go-demo-software-hardware/" hreflang="fr" class="md-select__link">
               Français
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../de/product/kvm-go/updates/" hreflang="de" class="md-select__link">
+            <a href="../../../../../de/product/kvm-go/updates/20251224-kvm-go-demo-software-hardware/" hreflang="de" class="md-select__link">
               Deutsch
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../it/product/kvm-go/updates/" hreflang="it" class="md-select__link">
+            <a href="../../../../../it/product/kvm-go/updates/20251224-kvm-go-demo-software-hardware/" hreflang="it" class="md-select__link">
               Italiano
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../es/product/kvm-go/updates/" hreflang="es" class="md-select__link">
+            <a href="../../../../../es/product/kvm-go/updates/20251224-kvm-go-demo-software-hardware/" hreflang="es" class="md-select__link">
               Español
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../pt/product/kvm-go/updates/" hreflang="pt" class="md-select__link">
+            <a href="../../../../../pt/product/kvm-go/updates/20251224-kvm-go-demo-software-hardware/" hreflang="pt" class="md-select__link">
               Português
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../ro/product/kvm-go/updates/" hreflang="ro" class="md-select__link">
+            <a href="../../../../../ro/product/kvm-go/updates/20251224-kvm-go-demo-software-hardware/" hreflang="ro" class="md-select__link">
               Română
             </a>
           </li>
@@ -657,7 +651,7 @@
       
         <!-- Simple link item -->
         
-          <a href="../../../" class="nav-item">
+          <a href="../../../../" class="nav-item">
             홈
           </a>
         
@@ -668,7 +662,7 @@
         <div class="custom-nav-dropdown">
           
           
-            <a href="../../../faq/" class="nav-item">
+            <a href="../../../../faq/" class="nav-item">
               자주 묻는 질문
               <span class="dropdown-arrow">▼</span>
             </a>
@@ -678,14 +672,14 @@
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../faq/" class="dropdown-item">
+                <a href="../../../../faq/" class="dropdown-item">
                   개요
                 </a>
               
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../faq/kvm-over-usb/" class="dropdown-item">
+                <a href="../../../../faq/kvm-over-usb/" class="dropdown-item">
                   KVM-over-USB 기초
                 </a>
               
@@ -697,7 +691,7 @@
       
         <!-- Simple link item -->
         
-          <a href="../../../support/" class="nav-item">
+          <a href="../../../../support/" class="nav-item">
             지원
           </a>
         
@@ -720,7 +714,7 @@
                 <!-- Child with children - show the child title and link to its first child -->
                 
                 
-                  <a href="../" class="dropdown-item">
+                  <a href="../../" class="dropdown-item">
                     KVM-Go Series 🚀
                   </a>
                 
@@ -730,7 +724,7 @@
                 <!-- Child with children - show the child title and link to its first child -->
                 
                 
-                  <a href="../../minikvm/" class="dropdown-item">
+                  <a href="../../../minikvm/" class="dropdown-item">
                     Mini‑KVM 👑
                   </a>
                 
@@ -740,7 +734,7 @@
                 <!-- Child with children - show the child title and link to its first child -->
                 
                 
-                  <a href="../../uconsole-kvm-extension/" class="dropdown-item">
+                  <a href="../../../uconsole-kvm-extension/" class="dropdown-item">
                     uConsole KVM Extension
                   </a>
                 
@@ -750,7 +744,7 @@
                 <!-- Child with children - show the child title and link to its first child -->
                 
                 
-                  <a href="../../accessories/" class="dropdown-item">
+                  <a href="../../../accessories/" class="dropdown-item">
                     액세서리
                   </a>
                 
@@ -765,7 +759,7 @@
         <div class="custom-nav-dropdown">
           
           
-            <a href="../../../app/overview/" class="nav-item">
+            <a href="../../../../app/overview/" class="nav-item">
               앱
               <span class="dropdown-arrow">▼</span>
             </a>
@@ -775,7 +769,7 @@
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../app/overview/" class="dropdown-item">
+                <a href="../../../../app/overview/" class="dropdown-item">
                   개요
                 </a>
               
@@ -784,7 +778,7 @@
                 <!-- Child with children - show the child title and link to its first child -->
                 
                 
-                  <a href="../../../app/qt/" class="dropdown-item">
+                  <a href="../../../../app/qt/" class="dropdown-item">
                     Windows 및 Linux
                   </a>
                 
@@ -794,7 +788,7 @@
                 <!-- Child with children - show the child title and link to its first child -->
                 
                 
-                  <a href="../../../app/macos/" class="dropdown-item">
+                  <a href="../../../../app/macos/" class="dropdown-item">
                     macOS
                   </a>
                 
@@ -804,7 +798,7 @@
                 <!-- Child with children - show the child title and link to its first child -->
                 
                 
-                  <a href="../../../app/android/" class="dropdown-item">
+                  <a href="../../../../app/android/" class="dropdown-item">
                     Android
                   </a>
                 
@@ -814,7 +808,7 @@
                 <!-- Child with children - show the child title and link to its first child -->
                 
                 
-                  <a href="../../../app/updates/" class="dropdown-item">
+                  <a href="../../../../app/updates/" class="dropdown-item">
                     Updates
                   </a>
                 
@@ -822,7 +816,7 @@
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../app/faq/" class="dropdown-item">
+                <a href="../../../../app/faq/" class="dropdown-item">
                   자주 묻는 질문
                 </a>
               
@@ -834,7 +828,7 @@
       
         <!-- Simple link item -->
         
-          <a href="../../../videos/" class="nav-item">
+          <a href="../../../../videos/" class="nav-item">
             동영상
           </a>
         
@@ -843,7 +837,7 @@
       
         <!-- Simple link item -->
         
-          <a href="../../../use-cases/" class="nav-item">
+          <a href="../../../../use-cases/" class="nav-item">
             활용 사례
           </a>
         
@@ -875,7 +869,7 @@
                 <!-- Child with children - show the child title and link to its first child -->
                 
                 
-                  <a href="../../../event/" class="dropdown-item">
+                  <a href="../../../../event/" class="dropdown-item">
                     Events
                   </a>
                 
@@ -883,56 +877,56 @@
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../about/community/" class="dropdown-item">
+                <a href="../../../../about/community/" class="dropdown-item">
                   커뮤니티
                 </a>
               
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../about/multi-languages/" class="dropdown-item">
+                <a href="../../../../about/multi-languages/" class="dropdown-item">
                   다국어
                 </a>
               
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../about/compliance/" class="dropdown-item">
+                <a href="../../../../about/compliance/" class="dropdown-item">
                   규정 준수
                 </a>
               
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../about/contribute-support/" class="dropdown-item">
+                <a href="../../../../about/contribute-support/" class="dropdown-item">
                   기여 및 지원
                 </a>
               
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../about/media/" class="dropdown-item">
+                <a href="../../../../about/media/" class="dropdown-item">
                   리뷰와 미디어
                 </a>
               
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../about/bulk_orders/" class="dropdown-item">
+                <a href="../../../../about/bulk_orders/" class="dropdown-item">
                   대량 주문
                 </a>
               
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../about/enterprise/" class="dropdown-item">
+                <a href="../../../../about/enterprise/" class="dropdown-item">
                   기업
                 </a>
               
             
               
                 <!-- Direct child with URL -->
-                <a href="../../../about/about-us/" class="dropdown-item">
+                <a href="../../../../about/about-us/" class="dropdown-item">
                   우리에 대해
                 </a>
               
@@ -970,9 +964,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="네비게이션" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../../" title="Openterface | 인터페이스를 연결하여 무한한 가능성을 열다" class="md-nav__button md-logo" aria-label="Openterface | 인터페이스를 연결하여 무한한 가능성을 열다" data-md-component="logo">
+    <a href="../../../../" title="Openterface | 인터페이스를 연결하여 무한한 가능성을 열다" class="md-nav__button md-logo" aria-label="Openterface | 인터페이스를 연결하여 무한한 가능성을 열다" data-md-component="logo">
       
-  <img src="../../../../assets/app-logo.png" alt="logo">
+  <img src="../../../../../assets/app-logo.png" alt="logo">
 
     </a>
     Openterface | 인터페이스를 연결하여 무한한 가능성을 열다
@@ -999,7 +993,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../" class="md-nav__link">
+      <a href="../../../../" class="md-nav__link">
         
   
   
@@ -1049,7 +1043,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../faq/" class="md-nav__link ">
+            <a href="../../../../faq/" class="md-nav__link ">
               
   
   
@@ -1093,7 +1087,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../faq/kvm-over-usb/" class="md-nav__link">
+      <a href="../../../../faq/kvm-over-usb/" class="md-nav__link">
         
   
   
@@ -1128,7 +1122,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../support/" class="md-nav__link">
+      <a href="../../../../support/" class="md-nav__link">
         
   
   
@@ -1152,10 +1146,8 @@
       
   
   
-    
   
   
-  
     
     
       
@@ -1171,20 +1163,17 @@
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4">
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
   
   
@@ -1202,7 +1191,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1217,8 +1206,6 @@
                 
   
   
-    
-  
   
   
     
@@ -1253,15 +1240,15 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1">
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../../" class="md-nav__link ">
               
   
   
@@ -1285,7 +1272,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_1">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1305,7 +1292,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../features/" class="md-nav__link">
+      <a href="../../features/" class="md-nav__link">
         
   
   
@@ -1333,7 +1320,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../whats-in-the-box/" class="md-nav__link">
+      <a href="../../whats-in-the-box/" class="md-nav__link">
         
   
   
@@ -1361,7 +1348,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../how-to-connect/" class="md-nav__link">
+      <a href="../../how-to-connect/" class="md-nav__link">
         
   
   
@@ -1389,7 +1376,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../beta-quick-start/" class="md-nav__link">
+      <a href="../../beta-quick-start/" class="md-nav__link">
         
   
   
@@ -1417,7 +1404,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../microsd-switch/" class="md-nav__link">
+      <a href="../../microsd-switch/" class="md-nav__link">
         
   
   
@@ -1445,7 +1432,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../faq/" class="md-nav__link">
+      <a href="../../faq/" class="md-nav__link">
         
   
   
@@ -1473,7 +1460,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../videos/?p=kvm-go" class="md-nav__link">
+      <a href="../../../../../videos/?p=kvm-go" class="md-nav__link">
         
   
   
@@ -1557,7 +1544,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reviews/testimonials/" class="md-nav__link">
+      <a href="../../reviews/testimonials/" class="md-nav__link">
         
   
   
@@ -1585,7 +1572,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reviews/media/" class="md-nav__link">
+      <a href="../../reviews/media/" class="md-nav__link">
         
   
   
@@ -1618,37 +1605,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    KVM-Go 업데이트
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -1664,48 +1624,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="목차">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      목차
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        제품 업데이트
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#product-updates" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Product Updates
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1767,7 +1685,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../minikvm/" class="md-nav__link ">
+            <a href="../../../minikvm/" class="md-nav__link ">
               
   
   
@@ -1811,7 +1729,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../minikvm/features/" class="md-nav__link">
+      <a href="../../../minikvm/features/" class="md-nav__link">
         
   
   
@@ -1839,7 +1757,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../minikvm/whats-in-the-box/" class="md-nav__link">
+      <a href="../../../minikvm/whats-in-the-box/" class="md-nav__link">
         
   
   
@@ -1867,7 +1785,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../minikvm/how-to-connect/" class="md-nav__link">
+      <a href="../../../minikvm/how-to-connect/" class="md-nav__link">
         
   
   
@@ -1895,7 +1813,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../minikvm/usb-switch/" class="md-nav__link">
+      <a href="../../../minikvm/usb-switch/" class="md-nav__link">
         
   
   
@@ -1923,7 +1841,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../minikvm/extension-pins/" class="md-nav__link">
+      <a href="../../../minikvm/extension-pins/" class="md-nav__link">
         
   
   
@@ -1951,7 +1869,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../minikvm/faq/" class="md-nav__link">
+      <a href="../../../minikvm/faq/" class="md-nav__link">
         
   
   
@@ -1979,7 +1897,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../videos/?p=minikvm" class="md-nav__link">
+      <a href="../../../../../videos/?p=minikvm" class="md-nav__link">
         
   
   
@@ -2063,7 +1981,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../minikvm/reviews/testimonials/" class="md-nav__link">
+      <a href="../../../minikvm/reviews/testimonials/" class="md-nav__link">
         
   
   
@@ -2091,7 +2009,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../minikvm/reviews/media/" class="md-nav__link">
+      <a href="../../../minikvm/reviews/media/" class="md-nav__link">
         
   
   
@@ -2127,7 +2045,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../minikvm/updates/" class="md-nav__link">
+      <a href="../../../minikvm/updates/" class="md-nav__link">
         
   
   
@@ -2155,7 +2073,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../product/minikvm/support.md" class="md-nav__link">
+      <a href="../../../../../product/minikvm/support.md" class="md-nav__link">
         
   
   
@@ -2228,7 +2146,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../uconsole-kvm-extension/" class="md-nav__link ">
+            <a href="../../../uconsole-kvm-extension/" class="md-nav__link ">
               
   
   
@@ -2272,7 +2190,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../uconsole-kvm-extension/features/" class="md-nav__link">
+      <a href="../../../uconsole-kvm-extension/features/" class="md-nav__link">
         
   
   
@@ -2300,7 +2218,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../uconsole-kvm-extension/whats-in-the-box/" class="md-nav__link">
+      <a href="../../../uconsole-kvm-extension/whats-in-the-box/" class="md-nav__link">
         
   
   
@@ -2328,7 +2246,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../uconsole-kvm-extension/hardware-installation/" class="md-nav__link">
+      <a href="../../../uconsole-kvm-extension/hardware-installation/" class="md-nav__link">
         
   
   
@@ -2356,7 +2274,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../uconsole-kvm-extension/software-setup/" class="md-nav__link">
+      <a href="../../../uconsole-kvm-extension/software-setup/" class="md-nav__link">
         
   
   
@@ -2384,7 +2302,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../uconsole-kvm-extension/connect-to-target/" class="md-nav__link">
+      <a href="../../../uconsole-kvm-extension/connect-to-target/" class="md-nav__link">
         
   
   
@@ -2412,7 +2330,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../uconsole-kvm-extension/faq/" class="md-nav__link">
+      <a href="../../../uconsole-kvm-extension/faq/" class="md-nav__link">
         
   
   
@@ -2440,7 +2358,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../videos/?p=uconsole-kvm-extension" class="md-nav__link">
+      <a href="../../../../../videos/?p=uconsole-kvm-extension" class="md-nav__link">
         
   
   
@@ -2468,7 +2386,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../uconsole-kvm-extension/updates/" class="md-nav__link">
+      <a href="../../../uconsole-kvm-extension/updates/" class="md-nav__link">
         
   
   
@@ -2537,7 +2455,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../accessories/" class="md-nav__link ">
+            <a href="../../../accessories/" class="md-nav__link ">
               
   
   
@@ -2581,7 +2499,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../accessories/vga-to-hdmi-cable/" class="md-nav__link">
+      <a href="../../../accessories/vga-to-hdmi-cable/" class="md-nav__link">
         
   
   
@@ -2609,7 +2527,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../accessories/nylong-c-to-c-150/" class="md-nav__link">
+      <a href="../../../accessories/nylong-c-to-c-150/" class="md-nav__link">
         
   
   
@@ -2637,7 +2555,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../accessories/type-c-to-c-cable-with-adapter/" class="md-nav__link">
+      <a href="../../../accessories/type-c-to-c-cable-with-adapter/" class="md-nav__link">
         
   
   
@@ -2665,7 +2583,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../accessories/black-c-to-a-30/" class="md-nav__link">
+      <a href="../../../accessories/black-c-to-a-30/" class="md-nav__link">
         
   
   
@@ -2693,7 +2611,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../accessories/hdmi-male-to-male-cable/" class="md-nav__link">
+      <a href="../../../accessories/hdmi-male-to-male-cable/" class="md-nav__link">
         
   
   
@@ -2721,7 +2639,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../accessories/openterface-toolkit-bag/" class="md-nav__link">
+      <a href="../../../accessories/openterface-toolkit-bag/" class="md-nav__link">
         
   
   
@@ -2828,7 +2746,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../app/overview/" class="md-nav__link">
+      <a href="../../../../app/overview/" class="md-nav__link">
         
   
   
@@ -2877,7 +2795,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../app/qt/" class="md-nav__link ">
+            <a href="../../../../app/qt/" class="md-nav__link ">
               
   
   
@@ -2947,7 +2865,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../app/macos/" class="md-nav__link ">
+            <a href="../../../../app/macos/" class="md-nav__link ">
               
   
   
@@ -2991,7 +2909,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../app/macos/dmg-installation/" class="md-nav__link">
+      <a href="../../../../app/macos/dmg-installation/" class="md-nav__link">
         
   
   
@@ -3048,7 +2966,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../app/android/" class="md-nav__link ">
+            <a href="../../../../app/android/" class="md-nav__link ">
               
   
   
@@ -3116,7 +3034,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../app/updates/" class="md-nav__link ">
+            <a href="../../../../app/updates/" class="md-nav__link ">
               
   
   
@@ -3163,7 +3081,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../app/faq/" class="md-nav__link">
+      <a href="../../../../app/faq/" class="md-nav__link">
         
   
   
@@ -3198,7 +3116,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../videos/" class="md-nav__link">
+      <a href="../../../../videos/" class="md-nav__link">
         
   
   
@@ -3225,7 +3143,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../use-cases/" class="md-nav__link">
+      <a href="../../../../use-cases/" class="md-nav__link">
         
   
   
@@ -3370,7 +3288,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../event/" class="md-nav__link ">
+            <a href="../../../../event/" class="md-nav__link ">
               
   
   
@@ -3417,7 +3335,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../about/community/" class="md-nav__link">
+      <a href="../../../../about/community/" class="md-nav__link">
         
   
   
@@ -3445,7 +3363,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../about/multi-languages/" class="md-nav__link">
+      <a href="../../../../about/multi-languages/" class="md-nav__link">
         
   
   
@@ -3473,7 +3391,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../about/compliance/" class="md-nav__link">
+      <a href="../../../../about/compliance/" class="md-nav__link">
         
   
   
@@ -3501,7 +3419,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../about/contribute-support/" class="md-nav__link">
+      <a href="../../../../about/contribute-support/" class="md-nav__link">
         
   
   
@@ -3529,7 +3447,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../about/media/" class="md-nav__link">
+      <a href="../../../../about/media/" class="md-nav__link">
         
   
   
@@ -3557,7 +3475,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../about/bulk_orders/" class="md-nav__link">
+      <a href="../../../../about/bulk_orders/" class="md-nav__link">
         
   
   
@@ -3585,7 +3503,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../about/enterprise/" class="md-nav__link">
+      <a href="../../../../about/enterprise/" class="md-nav__link">
         
   
   
@@ -3613,7 +3531,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../about/about-us/" class="md-nav__link">
+      <a href="../../../../about/about-us/" class="md-nav__link">
         
   
   
@@ -3656,25 +3574,199 @@
                 
                   
 
+  <nav class="md-tags">
+    
+      
+      
+      
+      
+        <span class="md-tag">KVM-GO</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">기술적 심층 분석</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">데모 영상</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">소프트웨어</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">제품 업데이트</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">크라우드펀딩</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">하드웨어</span>
+      
+    
+  </nav>
+
 
   
   
 
 
-<h1 id="updates-events">Updates &amp; Events</h1>
-<p><strong>Total Updates: 6</strong></p>
-<h2 id="_1">제품 업데이트</h2>
+<h1 id="kvm-go">새로운 데모 영상, 소프트웨어 진행 상황 및 KVM-GO 내부 구성</h1>
+<p>안녕하세요, 모두! 조용한 기간에 대해 죄송합니다. 우리는 KVM-GO의 하드웨어와 소프트웨어를 다듬는 데 집중했고, 시간이 정말 빠르게 지나갔습니다. 12월 말 기준, 우리는 <strong>220명 이상의 후원자와 함께 $72k</strong>를 달성했으며, 이는 매우 인상 깊은 일입니다. 우리를 더 많이 돕고 싶으시다면, <strong>소문을 퍼뜨려 주세요!</strong></p>
+<p>여러분의 인내심과 지원에 진심으로 감사드립니다. 네, 크리스마스는 분명히 혼란을 더했습니다 🙂🎄 이제 업데이트를 확인해 보겠습니다.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/blog/Gemini_Generated_Image_kvm-go.webp" data-desc-position="bottom"><img alt="blog-Gemini_Generated_Image_kvm-go" src="https://assets.openterface.com/images/blog/Gemini_Generated_Image_kvm-go.webp"></a>
+<em>Nano Banana를 사용해 실제 KVM-GO 제품 사진을 기반으로 생성한 연말 테마 이미지.</em></p>
+<h2 id="kvm-go_1">새로운 데모 영상: KVM-GO 실제 사용 모습</h2>
+<p>우리가 <a href="https://www.youtube.com/watch?v=459rWCQbJRE"><strong>새로운 데모 영상</strong></a>을 출시했는데, KVM-GO가 실제 환경에서 어떻게 작동하는지 보여줍니다.</p>
+<p>영상에서는 다음과 같은 내용을 확인할 수 있습니다:</p>
 <ul>
-<li>2025-12-24: <a href="20251224-kvm-go-demo-software-hardware/">새로운 데모 영상, 소프트웨어 진행 상황 및 KVM-GO 내부 구성</a></li>
-<li>2025-11-27: <a href="20251127-why-kvm-go/">KVM-GO의 물리적 형식이 이렇게 생긴 이유</a></li>
-<li>2025-10-07: <a href="251007-kvm-go-beta-test-kits-sent-1/">🚀 KVM-Go HDMI Beta 배치 발송 중!</a></li>
-<li>2025-09-12: <a href="250912-kvm-go-beta-testing-invitation/">Openterface KVM-Go 시리즈 소개 - 사전 출시 발표!</a></li>
+<li>KVM-GO의 <strong>HDMI / DP / VGA</strong> 버전 실제 사용 모습</li>
+<li>박스에 포함된 <strong>내용물</strong></li>
+<li>다양한 대상 장치를 제어하는 방법</li>
+<li>KVM-GO가 실제 워크플로우에 어떻게 적합하게 들어맞는지</li>
 </ul>
-<h2 id="product-updates">Product Updates</h2>
+<p>더 가벼운, 손으로 직접 테스트하고 실제 사용 사례에 관심이 있으신 분들은 우리 <a href="https://openterface.com/about/community/">소셜 미디어</a>도 확인해 주세요. 우리는 KVM-GO가 실제 기술 전선에서 어떻게 작동하는지 보여주는 원시 테스트 클립과 실용적인 시나리오를 자주 공유합니다.</p>
+<h2 id="mini-kvm-kvm-go">소프트웨어 진행 상황: Mini-KVM과 KVM-GO를 위한 하나의 앱</h2>
+<p>소프트웨어 측면에서는 단단한 한 걸음을 내딛었습니다.</p>
+<p>최신 업데이트로 인해 <strong>Mini-KVM과 KVM-GO 시리즈 모두와 호환되는 동일한 Openterface 앱</strong>을 사용할 수 있게 되었습니다. 사용자에게는 다음과 같은 이점이 있습니다:</p>
 <ul>
-<li>2025-11-14: <a href="251114-kvm-go-launch-mini-kvm-update/">🚀 흥미진진한 소식: KVM-GO가 이제 출시되었습니다!</a></li>
-<li>2025-08-30: <a href="250830-kvm-go-pre-launch/">KVM-Go 베타 테스트 팀 참여 – 무료 테스트, 제한된 자리!</a></li>
+<li>제품 간 일관된 경험</li>
+<li>하나 이상의 Openterface 장치를 사용하는 경우, 분할이 줄어듭니다</li>
 </ul>
+<p>우리는 또한 키보드 및 마우스 성능을 개선하는 데 시간을 할애했으며, 특히 다음과 같은 점에 초점을 맞췄습니다:</p>
+<ul>
+<li>전체 지연 시간 감소</li>
+<li>연결 상태 및 신호 품질의 더 나은 감지 포함, 입력 처리 안정성 증가</li>
+<li>빠른 반응 시간, 특히 빠르거나 지속적인 상호작용 시</li>
+</ul>
+<p>우리의 KVM 솔루션은 게임이 주요 사용 사례가 아니지만, 실제 시나리오에서 입력 반응성을 매우 중요하게 생각합니다. 기술적 세부 사항에 대해 더 알고 싶으시다면, 특히 macOS에서, 우리는 최근 이에 대한 심층 분석을 여기 게시했습니다:
+👉 <strong><a href="https://openterface.com/app/updates/20251218-macos-mouse-speed/">Openterface Mini-KVM 마우스 속도 및 macOS에서의 게임 성능</a></strong></p>
+<p>그 기사에서 논의된 많은 개선 사항이 이제 Mini-KVM과 KVM-GO를 위한 통합 소프트웨어 스택에 직접적으로 반영되고 있습니다.</p>
+<h2 id="kvm-go-mini-kvm">KVM-GO의 핵심 하드웨어 업그레이드 (Mini-KVM과 비교)</h2>
+<p>내부 구조에 관심이 있으신 분들을 위해, Mini-KVM에서 KVM-GO로의 핵심 하드웨어 변경 사항을 간단히 비교합니다.</p>
+<h3 id="_1">비디오 파이프라인 업그레이드</h3>
+<table>
+<thead>
+<tr>
+<th>항목</th>
+<th><strong>MS2109 (Mini-KVM)</strong></th>
+<th><strong>MS2130S (KVM-GO)</strong></th>
+<th>개선 사항</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HDMI 입력</td>
+<td>4K @ 30Hz</td>
+<td>4K @ 60Hz</td>
+<td>입력 대역폭 2배 증가</td>
+</tr>
+<tr>
+<td>USB 비디오 출력</td>
+<td>1080p @ 30Hz</td>
+<td>4K @ 60Hz</td>
+<td>픽셀 처리량 4배 증가</td>
+</tr>
+<tr>
+<td>내부 스케일링</td>
+<td>4K → 1080p</td>
+<td>네이티브 4K</td>
+<td>강제 다운스케일 없음</td>
+</tr>
+<tr>
+<td>프레임 지연</td>
+<td>높음 (스케일러 + 버퍼)</td>
+<td>낮음 (직접 경로)</td>
+<td>지연 시간 감소</td>
+</tr>
+</tbody>
+</table>
+<h3 id="usb">USB 키보드 및 마우스 에뮬레이션 업그레이드</h3>
+<table>
+<thead>
+<tr>
+<th>항목</th>
+<th><strong>CH340 + CH9329 (Mini-KVM)</strong></th>
+<th><strong>CH32V208 (KVM-GO)</strong></th>
+<th>개선 사항</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>칩 수</td>
+<td>2개</td>
+<td>단일 MCU</td>
+<td>더 간단한 시스템</td>
+</tr>
+<tr>
+<td>USB 처리</td>
+<td>USB–Serial 브리지</td>
+<td>네이티브 USB 장치</td>
+<td>지연 시간 감소</td>
+</tr>
+<tr>
+<td>HID 생성</td>
+<td>고정 기능</td>
+<td>펌웨어 정의</td>
+<td>완전한 제어</td>
+</tr>
+<tr>
+<td>데이터 경로</td>
+<td>USB → UART → HID</td>
+<td>USB → HID</td>
+<td>한 단계 제거</td>
+</tr>
+<tr>
+<td>BIOS 호환성</td>
+<td>혼합</td>
+<td>우수</td>
+<td>더 신뢰성 있음</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_2">개발 중인 고급 기능</h2>
+<p>최종 KVM-GO 펌웨어에 대한 여러 고급 기능이 계획되고 있으며, 현재 활발히 개발 중입니다. 간단한 미리보기:</p>
+<ul>
+<li><strong>커스텀 EDID 지원</strong>으로 디스플레이 호환성 문제를 해결</li>
+<li><strong>스크립트 기반 제어</strong>로 자동화 및 고급 워크플로우를 위한</li>
+</ul>
+<p>이러한 기능들이 성숙해질수록 더 많은 세부 사항을 공유할 예정입니다.</p>
+<h2 id="_3">오픈소스 약속 (언제나)</h2>
+<p>네, <strong>KVM-GO는 완전히 오픈소스로 유지될 것입니다</strong>.</p>
+<p>대량 생산을 위한 하드웨어 설계가 완료되면, 우리는 <strong>OSHWA (오픈소스 하드웨어 협회) 인증</strong>을 신청할 예정입니다.</p>
+<p>모든 하드웨어 설계 파일 및 STL 모델은 여기에 게시될 예정입니다:
+👉 <a href="https://github.com/TechxArtisanStudio/Openterface_KVM-GO_Hardware">https://github.com/TechxArtisanStudio/Openterface_KVM-GO_Hardware</a></p>
+<p>투명성과 커뮤니티 협력은 우리가 하는 일의 핵심입니다.</p>
+<h2 id="_4">캠페인 최종일: 친절한 напоминание</h2>
+<p>우리는 이제 <strong>캠페인의 최종일</strong>에 접어들었습니다.</p>
+<p>크라우드펀딩은 <strong>KVM-GO를 가장 낮은 가격으로 구매할 수 있는 최고의 기회</strong>입니다. 캠페인 종료 후, 우리는 사후 크라우드펀딩 주문으로 이동하게 되며, 가격이 상승할 것입니다.</p>
+<p>고민 중이셨다면, 지금이 바로 때입니다.</p>
+<p>👉 <strong>캠페인을 지원하고 Crowd Supply에서 KVM-GO 단위를 확보하세요:</strong>
+[https://www.crowdsupply.com/techxartisan/openterface-kvm-go](https://www.crowdsupply.com/techxartisan/openter:
+<a href="https://www.crowdsupply.com/techxartisan/openterface-kvm-go">https://www.crowdsupply.com/techxartisan/openterface-kvm-go</a></p>
+<p>다시 한 번, 여러분의 인내심, 신뢰 및 지원에 감사드립니다. 더 많은 업데이트가 곧 올 예정이며, 다시 조용히 있지 않도록 노력하겠습니다. 우리 모두로부터 따뜻한 연말 축하 인사를 드립니다!</p>
+<p><strong>Openterface 팀 | TechxArtisan</strong></p>
 
 
 
@@ -3707,7 +3799,7 @@
     <span class="md-icon" title="작성일">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2025년 9월 22일 15:43:04 UTC"><span class="timeago" datetime="2025-09-22T15:43:04+00:00" locale="ko"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2025년 9월 22일 15:43:04 UTC">2025-09-22</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2025년 12월 25일 08:26:11 UTC"><span class="timeago" datetime="2025-12-25T08:26:11+00:00" locale="ko"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2025년 12월 25일 08:26:11 UTC">2025-12-25</span>
   </span>
 
     
@@ -3744,47 +3836,6 @@
 
   <!-- Link to previous and/or next page -->
   
-    
-      
-        <nav class="md-footer__inner md-grid" aria-label="하단/푸터">
-      
-
-        <!-- Link to previous page -->
-        
-          
-          <a href="../reviews/media/" class="md-footer__link md-footer__link--prev" aria-label="이전: 미디어 보도">
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
-            </div>
-            <div class="md-footer__title">
-              <span class="md-footer__direction">이전</span>
-              <div class="md-ellipsis">
-                미디어 보도
-              </div>
-            </div>
-          </a>
-        
-
-        <!-- Link to next page -->
-        
-          
-          <a href="../../minikvm/" class="md-footer__link md-footer__link--next" aria-label="다음: 개요">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                다음
-              </span>
-              <div class="md-ellipsis">
-                개요
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
-            </div>
-          </a>
-        
-      </nav>
     
   
 
@@ -3927,7 +3978,7 @@
   <script>
     (function() {
       var langselect = document.createElement('script');
-      langselect.src = "../../../../assets/javascripts/language-select.js";
+      langselect.src = "../../../../../assets/javascripts/language-select.js";
       langselect.async = false; // Load synchronously to ensure it's available
       document.body.appendChild(langselect);
     })();
@@ -4434,42 +4485,40 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["toc.integrate", "toc.follow", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer", "navigation.indexes", "navigation.tracking", "search.suggest", "search.highlight", "content.tabs", "content.code.annotation", "content.code.copy", "content.tabs.link", "last_updated"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\ud074\ub9bd\ubcf4\ub4dc\uc5d0 \ubcf5\uc0ac\ub428", "clipboard.copy": "\ud074\ub9bd\ubcf4\ub4dc\ub85c \ubcf5\uc0ac", "search.result.more.one": "\uc774 \ubb38\uc11c\uc5d0\uc11c 1\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.more.other": "\uc774 \ubb38\uc11c\uc5d0\uc11c #\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.none": "\uac80\uc0c9\uc5b4\uc640 \uc77c\uce58\ud558\ub294 \ubb38\uc11c\uac00 \uc5c6\uc2b5\ub2c8\ub2e4", "search.result.one": "1\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.other": "#\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.placeholder": "\uac80\uc0c9\uc5b4\ub97c \uc785\ub825\ud558\uc138\uc694", "search.result.term.missing": "\ud3ec\ud568\ub418\uc9c0 \uc54a\uc740 \uac80\uc0c9\uc5b4", "select.version": "\ubc84\uc804 \uc120\ud0dd"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["toc.integrate", "toc.follow", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer", "navigation.indexes", "navigation.tracking", "search.suggest", "search.highlight", "content.tabs", "content.code.annotation", "content.code.copy", "content.tabs.link", "last_updated"], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\ud074\ub9bd\ubcf4\ub4dc\uc5d0 \ubcf5\uc0ac\ub428", "clipboard.copy": "\ud074\ub9bd\ubcf4\ub4dc\ub85c \ubcf5\uc0ac", "search.result.more.one": "\uc774 \ubb38\uc11c\uc5d0\uc11c 1\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.more.other": "\uc774 \ubb38\uc11c\uc5d0\uc11c #\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.none": "\uac80\uc0c9\uc5b4\uc640 \uc77c\uce58\ud558\ub294 \ubb38\uc11c\uac00 \uc5c6\uc2b5\ub2c8\ub2e4", "search.result.one": "1\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.other": "#\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.placeholder": "\uac80\uc0c9\uc5b4\ub97c \uc785\ub825\ud558\uc138\uc694", "search.result.term.missing": "\ud3ec\ud568\ub418\uc9c0 \uc54a\uc740 \uac80\uc0c9\uc5b4", "select.version": "\ubc84\uc804 \uc120\ud0dd"}, "version": null}</script>
     
     
   
-      <script src="../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="../../../../js/timeago.min.js"></script>
+        <script src="../../../../../js/timeago.min.js"></script>
       
-        <script src="../../../../js/timeago_mkdocs_material.js"></script>
+        <script src="../../../../../js/timeago_mkdocs_material.js"></script>
       
-        <script src="../../../../js/timeago.min.js"></script>
+        <script src="../../../../../js/timeago.min.js"></script>
       
-        <script src="../../../../js/timeago_mkdocs_material.js"></script>
+        <script src="../../../../../js/timeago_mkdocs_material.js"></script>
       
-        <script src="../../../../js/timeago.min.js"></script>
+        <script src="../../../../../js/timeago.min.js"></script>
       
-        <script src="../../../../js/timeago_mkdocs_material.js"></script>
+        <script src="../../../../../js/timeago_mkdocs_material.js"></script>
       
-        <script src="../../../../js/timeago.min.js"></script>
+        <script src="../../../../../js/timeago.min.js"></script>
       
-        <script src="../../../../js/timeago_mkdocs_material.js"></script>
+        <script src="../../../../../js/timeago_mkdocs_material.js"></script>
       
     
 
   <!-- Load i18n handler first (needed for forms translation) -->
-  <script src="../../../../assets/javascripts/i18n-handler.js"></script>
+  <script src="../../../../../assets/javascripts/i18n-handler.js"></script>
   
   <!-- Load subscribe.js globally (needed for footer and product signup forms) -->
-  <script src="../../../../assets/javascripts/subscribe.js"></script>
+  <script src="../../../../../assets/javascripts/subscribe.js"></script>
 
   <!-- Conditionally load youtube-videos-controls.js only on videos pages -->
   
   
   <!-- Conditionally load slideshow.js only on product pages -->
-  
-  <script src="../../../../assets/javascripts/slideshow.js"></script>
   
   
   <!-- Conditionally load home-carousel.js only on homepage -->
