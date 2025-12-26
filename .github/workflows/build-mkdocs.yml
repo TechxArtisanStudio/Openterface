@@ -17,15 +17,9 @@ jobs:
         with:
           fetch-depth: 0 # Fetch all history for all branches and tags
           submodules: recursive # Checkout CMS submodule
-          token: ${{ secrets.GITHUB_TOKEN }} # Try GITHUB_TOKEN first
-      - name: Checkout CMS submodule (fallback if GITHUB_TOKEN fails)
-        if: failure()
-        run: |
-          # If GITHUB_TOKEN doesn't work, try with explicit token
-          git submodule sync
-          git submodule update --init --recursive --remote
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # GITHUB_TOKEN should work for private repos in same org
+          # If it doesn't, use secrets.CMS_ACCESS_TOKEN (PAT) instead
+          token: ${{ secrets.CMS_ACCESS_TOKEN || secrets.GITHUB_TOKEN }}
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
