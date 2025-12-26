@@ -17,9 +17,7 @@ jobs:
         with:
           fetch-depth: 0 # Fetch all history for all branches and tags
           submodules: recursive # Checkout CMS submodule
-          # GITHUB_TOKEN should work for private repos in same org
-          # If it doesn't, use secrets.CMS_ACCESS_TOKEN (PAT) instead
-          token: ${{ secrets.CMS_ACCESS_TOKEN || secrets.GITHUB_TOKEN }}
+          # GITHUB_TOKEN automatically has access to private repos in same org
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
