@@ -17,8 +17,7 @@ jobs:
         with:
           fetch-depth: 0 # Fetch all history for all branches and tags
           submodules: recursive # Checkout CMS submodule
-          token: ${{ secrets.GITHUB_TOKEN }} # Needed for private submodule
-          ssh-key: ${{ secrets.DEPLOY_KEY }} # Alternative: use deploy key if GITHUB_TOKEN doesn't work
+          token: ${{ secrets.GITHUB_TOKEN }} # Needed for private submodule access
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
