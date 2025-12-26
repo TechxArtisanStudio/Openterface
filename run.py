@@ -4,10 +4,40 @@ import subprocess
 import argparse
 import os
 import socket
+from pathlib import Path
+
+def get_repo_root():
+    """Get the repository root directory (where mkdocs.yml is located)"""
+    # Start from the directory containing this script
+    current = Path(__file__).parent.resolve()
+    
+    # Look for mkdocs.yml in current directory or parents
+    for path in [current] + list(current.parents):
+        mkdocs_path = path / "mkdocs.yml"
+        if mkdocs_path.exists() and mkdocs_path.is_file():
+            return path
+    
+    # Fallback to script directory
+    return current
+
+def get_cms_script_path(script_relative_path):
+    """Get full path to a script in openterface-cms/scripts/"""
+    repo_root = get_repo_root()
+    cms_scripts_dir = repo_root / "openterface-cms" / "scripts"
+    script_path = cms_scripts_dir / script_relative_path
+    
+    if not script_path.exists():
+        raise FileNotFoundError(
+            f"Script not found: {script_path}\n"
+            f"Make sure openterface-cms submodule is initialized:\n"
+            f"  git submodule update --init --recursive"
+        )
+    
+    return str(script_path)
 
 def update_config(skip_versions=False):
     """Update mkdocs.yml with dynamic values"""
-    script_path = os.path.join(os.path.dirname(__file__), "scripts", "update_config.py")
+    script_path = get_cms_script_path("update_config.py")
     
     cmd = [sys.executable, script_path]
     if skip_versions:
@@ -22,7 +52,7 @@ def update_config(skip_versions=False):
 
 def count_updates():
     """Count update posts and update mkdocs.yml with product update variables"""
-    script_path = os.path.join(os.path.dirname(__file__), "scripts", "update-post-tool", "count_updates.py")
+    script_path = get_cms_script_path("update-post-tool/count_updates.py")
     
     cmd = [sys.executable, script_path]
     
@@ -35,7 +65,7 @@ def count_updates():
 
 def generate_updates_lists():
     """Generate automatic updates lists from H1 titles"""
-    script_path = os.path.join(os.path.dirname(__file__), "scripts", "update-post-tool", "generate_updates_list.py")
+    script_path = get_cms_script_path("update-post-tool/generate_updates_list.py")
     
     cmd = [sys.executable, script_path, "--update-files"]
     
@@ -48,7 +78,7 @@ def generate_updates_lists():
 
 def manage_i18n(action, languages=None):
     """Manage i18n configuration in mkdocs.yml"""
-    script_path = os.path.join(os.path.dirname(__file__), "scripts", "manage_i18n.py")
+    script_path = get_cms_script_path("manage_i18n.py")
     
     cmd = [sys.executable, script_path, action]
     if languages:
