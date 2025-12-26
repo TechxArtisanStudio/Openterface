@@ -86,6 +86,26 @@ This repo is:
 - A hub for documentation, software links, and compliance info for all Openterface products
 - Maintained by [TechxArtisan](https://techxartisan.com), the creators of the Openterface product family
 
+## 🔧 Development Setup
+
+This repository uses a git submodule for build tools and CMS:
+
+```bash
+# Clone with submodule
+git clone --recursive https://github.com/TechxArtisanStudio/Openterface.git
+
+# Or if already cloned, initialize submodule
+git submodule update --init --recursive
+
+# Install CMS dependencies
+pip install -r openterface-cms/requirements.txt
+
+# Run build preparation
+python openterface-cms/scripts/prepare_build.py --i18n-mode en-only --action serve
+```
+
+**Note:** Build tools and scripts are in the private `openterface-cms` submodule. The main repository contains only documentation content and i18n translation assets.
+
 💌 Questions or ideas? Email us at [info@openterface.com](mailto:info@openterface.com) or [join our Discord](/discord)
 
 ---

@@ -14,6 +14,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Fetch all history for all branches and tags
+          submodules: recursive # Checkout CMS submodule
+          token: ${{ secrets.GITHUB_TOKEN }} # Needed for private submodule
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
@@ -32,9 +34,12 @@ jobs:
       # install additional dependencies here
       - name: Install additional dependencies
         run: pip install -r requirements.txt
+      - name: Install CMS dependencies
+        run: |
+          pip install -r openterface-cms/requirements.txt
       - name: Prepare and build site
         run: |
-          python scripts/prepare_build.py --i18n-mode full --copy-well-known --action build
+          python openterface-cms/scripts/prepare_build.py --i18n-mode full --copy-well-known --action build
       - name: Deploy Documentation
         env:
           MK_SECRET_TOKEN: ${{ secrets.MK_SECRET_TOKEN }}

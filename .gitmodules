@@ -1,0 +1,3 @@
+[submodule "openterface-cms"]
+	path = openterface-cms
+	url = git@github.com:TechxArtisanStudio/openterface-cms.git
