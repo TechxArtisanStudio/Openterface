@@ -1,3 +1,8 @@
+---
+hide:
+  - sitemap
+---
+
 ![Openterface Logo](https://assets.openterface.com/images/openterface.svg#only-light){:style="max-height:46px"}
 
 # **Openterface KVM-GO: Beta Review Guide**
