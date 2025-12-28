@@ -98,7 +98,7 @@ Oui — le mode 4K est expérimental et génère de la chaleur supplémentaire. 
 
 **:material-chat-question:{ .faq } Open-source ?**
 
-Oui — certifié par [OSHWA](https://certification.oshwa.org/cn000015.html). Le matériel et le logiciel sont sur [GitHub](/contributing/).
+Oui — certifié par [OSHWA](https://certification.oshwa.org/cn000015.html). Le matériel et le logiciel sont sur [GitHub](https://github.com/TechxArtisanStudio/Openterface_KVM-GO_Hardware).
 
 **:material-chat-question:{ .faq } Accès au BIOS**
 

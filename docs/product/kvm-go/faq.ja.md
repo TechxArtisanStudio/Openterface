@@ -98,7 +98,7 @@ KVM-Go は、次世代の超コンパクト KVM-over-USB ソリューション�
 
 **:material-chat-question:{ .faq } オープンソースですか？**
 
-はい — [OSHWA](https://certification.oshwa.org/cn000015.html) 認定済みです。ハードウェアとソフトウェアは [GitHub](/contributing/) で公開されています。
+はい — [OSHWA](https://certification.oshwa.org/cn000015.html) 認定済みです。ハードウェアとソフトウェアは [GitHub](https://github.com/TechxArtisanStudio/Openterface_KVM-GO_Hardware) で公開されています。
 
 **:material-chat-question:{ .faq } BIOS アクセス**
 

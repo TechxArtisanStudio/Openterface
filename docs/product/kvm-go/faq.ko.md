@@ -98,7 +98,7 @@ KVM-Go는 차세대 초소형 KVM-over-USB 솔루션입니다. 키체인 크기�
 
 **:material-chat-question:{ .faq } 오픈소스인가요?**
 
-예 — [OSHWA](https://certification.oshwa.org/cn000015.html)에서 인증받았습니다. 하드웨어와 소프트웨어는 [GitHub](/contributing/)에 있습니다.
+예 — [OSHWA](https://certification.oshwa.org/cn000015.html)에서 인증받았습니다. 하드웨어와 소프트웨어는 [GitHub](https://github.com/TechxArtisanStudio/Openterface_KVM-GO_Hardware)에 있습니다.
 
 **:material-chat-question:{ .faq } BIOS 액세스**
 

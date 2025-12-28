@@ -98,7 +98,7 @@ KVM-Go 是我们下一代超紧凑型 KVM-over-USB 解决方案。它只有钥�
 
 **:material-chat-question:{ .faq } 开源吗？**
 
-是的——已通过 [OSHWA](https://certification.oshwa.org/cn000015.html) 认证。硬件和软件都在 [GitHub](/contributing/) 上。
+是的——已通过 [OSHWA](https://certification.oshwa.org/cn000015.html) 认证。硬件和软件都在 [GitHub](https://github.com/TechxArtisanStudio/Openterface_KVM-GO_Hardware) 上。
 
 **:material-chat-question:{ .faq } BIOS 访问**
 

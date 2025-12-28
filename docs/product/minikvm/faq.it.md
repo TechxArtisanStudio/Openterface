@@ -45,7 +45,7 @@ USB 3.0 potrebbe apparire nei futuri modelli pro.
 
 **:material-chat-question:{ .faq } Open-source?**
 
-Sì — certificato da [OSHWA](https://certification.oshwa.org/cn000015.html). Hardware e software sono su [GitHub](/contributing/).
+Sì — certificato da [OSHWA](https://certification.oshwa.org/cn000015.html). Hardware e software sono su [GitHub](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware).
 
 **:material-chat-question:{ .faq } Accesso BIOS**
 

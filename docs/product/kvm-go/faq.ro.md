@@ -98,7 +98,7 @@ Da — modul 4K este experimental și generează căldură suplimentară. Supraf
 
 **:material-chat-question:{ .faq } Este open-source?**
 
-Da — certificat de [OSHWA](https://certification.oshwa.org/cn000015.html). Hardware-ul și software-ul sunt pe [GitHub](/contributing/).
+Da — certificat de [OSHWA](https://certification.oshwa.org/cn000015.html). Hardware-ul și software-ul sunt pe [GitHub](https://github.com/TechxArtisanStudio/Openterface_KVM-GO_Hardware).
 
 **:material-chat-question:{ .faq } Acces BIOS**
 

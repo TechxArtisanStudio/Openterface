@@ -45,7 +45,7 @@ USB 3.0 は将来のプロモデルに登場する可能性があります。
 
 **:material-chat-question:{ .faq } オープンソースですか？**
 
-はい — [OSHWA](https://certification.oshwa.org/cn000015.html) に認定されています。ハードウェアとソフトウェアは [GitHub](/contributing/) にあります。
+はい — [OSHWA](https://certification.oshwa.org/cn000015.html) に認定されています。ハードウェアとソフトウェアは [GitHub](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware) にあります。
 
 **:material-chat-question:{ .faq } BIOS アクセス**
 

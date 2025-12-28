@@ -45,7 +45,7 @@ USB 3.0 pode aparecer em futuros modelos profissionais.
 
 **:material-chat-question:{ .faq } Código aberto?**
 
-Sim — certificado pela [OSHWA](https://certification.oshwa.org/cn000015.html). Hardware e software estão no [GitHub](/contributing/).
+Sim — certificado pela [OSHWA](https://certification.oshwa.org/cn000015.html). Hardware e software estão no [GitHub](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware).
 
 **:material-chat-question:{ .faq } Acesso BIOS**
 

@@ -98,7 +98,7 @@ Sim — o modo 4K é experimental e gera calor adicional. A superfície do dispo
 
 **:material-chat-question:{ .faq } É código aberto?**
 
-Sim — certificado pela [OSHWA](https://certification.oshwa.org/cn000015.html). Hardware e software estão no [GitHub](/contributing/).
+Sim — certificado pela [OSHWA](https://certification.oshwa.org/cn000015.html). Hardware e software estão no [GitHub](https://github.com/TechxArtisanStudio/Openterface_KVM-GO_Hardware).
 
 **:material-chat-question:{ .faq } Acesso ao BIOS**
 

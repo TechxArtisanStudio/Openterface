@@ -45,7 +45,7 @@ USB 3.0은 향후 프로 모델에 등장할 수 있습니다.
 
 **:material-chat-question:{ .faq } 오픈소스인가요?**
 
-네 — [OSHWA](https://certification.oshwa.org/cn000015.html)에서 인증받았습니다. 하드웨어와 소프트웨어는 [GitHub](/contributing/)에 있습니다.
+네 — [OSHWA](https://certification.oshwa.org/cn000015.html)에서 인증받았습니다. 하드웨어와 소프트웨어는 [GitHub](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware)에 있습니다.
 
 **:material-chat-question:{ .faq } BIOS 접근**
 

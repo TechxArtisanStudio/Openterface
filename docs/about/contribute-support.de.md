@@ -45,7 +45,7 @@ Jeder Kauf, jede Weiterempfehlung und jeder Beitrag treibt die nächste Innovati
 
 - **💻 Unsere Hardware kaufen**: Am direktesten unterstützt du uns, indem du ein [Openterface-Gerät kaufst](/buy-mini-kvm).
 - **👕 Merch holen**: Zeige Unterstützung und hilf die Entwicklung zu finanzieren mit limitierten Artikeln im [TxA-Shop](/shop).
-- **🛠️ Mission beitreten**: Coder, Maker und Dokumentierende — schaut in unseren [Contribution-Guide](/contributing), um Teil des Dev-Teams zu werden.
+- **🛠️ Mission beitreten**: Coder, Maker und Dokumentierende — schaut in unseren [Contribution-Guide](/about/contribute-support/), um Teil des Dev-Teams zu werden.
 - **📢 Weitersagen**: Teile Openterface mit Freunden, Tech-Team oder Community.
 - **💬 Feedback geben**: Hilf uns, die Roadmap zu priorisieren, auf der [Feedback-Seite](/feedback).
 

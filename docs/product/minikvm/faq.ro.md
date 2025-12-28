@@ -45,7 +45,7 @@ USB 3.0 poate apărea în modelele profesionale viitoare.
 
 **:material-chat-question:{ .faq } Open-source?**
 
-Da — certificat de [OSHWA](https://certification.oshwa.org/cn000015.html). Hardware-ul și software-ul sunt pe [GitHub](/contributing/).
+Da — certificat de [OSHWA](https://certification.oshwa.org/cn000015.html). Hardware-ul și software-ul sunt pe [GitHub](https://github.com/TechxArtisanStudio/Openterface_Mini-KVM_Hardware).
 
 **:material-chat-question:{ .faq } Acces BIOS**
 
