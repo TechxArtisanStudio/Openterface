@@ -4,7 +4,7 @@
 
 Openterface Mini-KVM este o soluție hardware și software open-source concepută pentru a oferi funcționalitate KVM (Tastatură, Video, Mouse) de bază pentru controlul dispozitivelor printr-o interfață bazată pe Android. Acest repository conține codul sursă al aplicației Android, configurațiile de build și scripturile suport pentru configurarea și implementarea proiectului.
 
-Ne-am angajat să dezvoltăm hardware deschis și software open-source, licențiat sub [GNU Affero General Public License v3](LICENSE).
+Ne-am angajat să dezvoltăm hardware deschis și software open-source, licențiat sub [GNU Affero General Public License v3](https://github.com/TechxArtisanStudio/Openterface_Android/blob/main/LICENSE).
 
 ## Module funcționale
 
