@@ -168,7 +168,7 @@ nav:
       - Testimonials: product/minikvm/reviews/testimonials.md
       - Media Coverage: product/minikvm/reviews/media.md
     - Updates for Mini-KVM: product/minikvm/updates/index.md
-    - Support: product/minikvm/support.md
+    - Support: product/minikvm/support/index.md
   - uConsole KVM Extension:
     - Overview: product/uconsole-kvm-extension/index.md
     - Features: product/uconsole-kvm-extension/features.md
