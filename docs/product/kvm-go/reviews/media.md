@@ -23,7 +23,7 @@ We're happy to provide review units, technical specifications, and any support y
 **Learn More About KVM-Go:**
 
 - [Product Overview](/product/kvm-go/)
-- [Features & Specifications](/product/kvm-go/features.md)
+- [Features & Specifications](/product/kvm-go/features/)
 - [Latest Updates](/product/kvm-go/updates/)
-- [Frequently Asked Questions](/product/kvm-go/faq.md)
+- [Frequently Asked Questions](/product/kvm-go/faq/)
 
