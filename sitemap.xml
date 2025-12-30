@@ -931,6 +931,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/"/>
     </url>
     <url>
+        <loc>https://openterface.com/product/minikvm/datasheet/</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/datasheet/"/>
+    </url>
+    <url>
         <loc>https://openterface.com/product/minikvm/extension-pins/</loc>
         <lastmod>2025-12-30</lastmod>
         <changefreq>daily</changefreq>
@@ -2414,6 +2429,21 @@
         <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/zh/product/minikvm/datasheet/</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/datasheet/"/>
     </url>
     <url>
         <loc>https://openterface.com/zh/product/minikvm/extension-pins/</loc>
@@ -3901,6 +3931,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/"/>
     </url>
     <url>
+        <loc>https://openterface.com/ja/product/minikvm/datasheet/</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/datasheet/"/>
+    </url>
+    <url>
         <loc>https://openterface.com/ja/product/minikvm/extension-pins/</loc>
         <lastmod>2025-12-30</lastmod>
         <changefreq>daily</changefreq>
@@ -5384,6 +5429,21 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ko/product/minikvm/datasheet/</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/datasheet/"/>
     </url>
     <url>
         <loc>https://openterface.com/ko/product/minikvm/extension-pins/</loc>
@@ -6871,6 +6931,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/"/>
     </url>
     <url>
+        <loc>https://openterface.com/fr/product/minikvm/datasheet/</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/datasheet/"/>
+    </url>
+    <url>
         <loc>https://openterface.com/fr/product/minikvm/extension-pins/</loc>
         <lastmod>2025-12-30</lastmod>
         <changefreq>daily</changefreq>
@@ -8354,6 +8429,21 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/de/product/minikvm/datasheet/</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/datasheet/"/>
     </url>
     <url>
         <loc>https://openterface.com/de/product/minikvm/extension-pins/</loc>
@@ -9841,6 +9931,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/"/>
     </url>
     <url>
+        <loc>https://openterface.com/it/product/minikvm/datasheet/</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/datasheet/"/>
+    </url>
+    <url>
         <loc>https://openterface.com/it/product/minikvm/extension-pins/</loc>
         <lastmod>2025-12-30</lastmod>
         <changefreq>daily</changefreq>
@@ -11324,6 +11429,21 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/es/product/minikvm/datasheet/</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/datasheet/"/>
     </url>
     <url>
         <loc>https://openterface.com/es/product/minikvm/extension-pins/</loc>
@@ -12811,6 +12931,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/"/>
     </url>
     <url>
+        <loc>https://openterface.com/pt/product/minikvm/datasheet/</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/datasheet/"/>
+    </url>
+    <url>
         <loc>https://openterface.com/pt/product/minikvm/extension-pins/</loc>
         <lastmod>2025-12-30</lastmod>
         <changefreq>daily</changefreq>
@@ -14294,6 +14429,21 @@
         <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ro/product/minikvm/datasheet/</loc>
+        <lastmod>2025-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/product/minikvm/datasheet/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/product/minikvm/datasheet/"/>
     </url>
     <url>
         <loc>https://openterface.com/ro/product/minikvm/extension-pins/</loc>
