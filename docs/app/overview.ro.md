@@ -50,6 +50,7 @@ Pentru a face funcționale gadget-urile Openterface™ KVM, va trebui să instal
 
     Descărcați sau construiți din codul sursă pentru **Android APK**:
 
+    [:octicons-arrow-right-24: Instalați din Google Play](https://play.google.com/store/apps/details?id=com.openterface.AOS)<br>
     [:octicons-download-24: Descărcați {{android_version}}](https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{android_version}}/OpenterfaceAndroid-release.apk) <br>
     [:octicons-mark-github-16: Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android) <br>
     [:octicons-play-24: Urmăriți Demo](https://x.com/TechxArtisan/status/1825460088922071398)

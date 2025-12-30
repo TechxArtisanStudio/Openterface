@@ -49,7 +49,8 @@ To get your Openterface™ KVM gadgets up and running, you'll need to install on
     ***
 
     Download or build from source for **Android APK**:
-
+    
+    [:octicons-arrow-right-24: Download from Google Play Store](https://play.google.com/store/apps/details?id=com.openterface.AOS)<br>
     [:octicons-download-24: Download {{android_version}}](https://github.com/TechxArtisanStudio/Openterface_Android/releases/download/{{android_version}}/OpenterfaceAndroid-release.apk) <br>
     [:octicons-mark-github-16: Openterface_Android](https://github.com/TechxArtisanStudio/Openterface_Android) <br>
     [:octicons-play-24: Watch Demo](https://x.com/TechxArtisan/status/1825460088922071398)
