@@ -18,8 +18,8 @@ Este cable combina **video VGA** y **audio 3.5mm** en una sola salida HDMI, entr
 -   **Salida de audio**: Integrada en la señal HDMI
 -   **Alimentación**: Alimentado por USB
 
-![VGA to HDMI Cable Dark](vga2hdmi-connect-dark.svg#only-dark)
-![VGA to HDMI Cable Light](vga2hdmi-connect-light.svg#only-light)
+![VGA to HDMI Cable Dark](https://assets.openterface.com/images/product/accessories/vga-to-hdmi-cable/vga2hdmi-connect-dark.svg#only-dark)
+![VGA to HDMI Cable Light](https://assets.openterface.com/images/product/accessories/vga-to-hdmi-cable/vga2hdmi-connect-light.svg#only-light)
 
 ## ⚡ Notas importantes
 
