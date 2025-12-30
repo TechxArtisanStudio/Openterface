@@ -40,7 +40,7 @@ We showcased our cool tech art projects at the Shenzhen Maker Faire in November 
 *Stickers and postcards from MAKE: Magazine are seriously cool!*
 
 ## Community Feedback and Development
-After sharing our prototype on Reddit, we received invaluable feedback from [the community](http://openterface.com/community/#community-contributors), encouraging us to refine and develop our solution into a polished product. This community support was instrumental in transforming our makeshift device into a sleek, efficient tool for homelabbers, sysadmins, tech enthusiasts, and anyone working with headless computers.
+After sharing our prototype on Reddit, we received invaluable feedback from [the community](/community/), encouraging us to refine and develop our solution into a polished product. This community support was instrumental in transforming our makeshift device into a sleek, efficient tool for homelabbers, sysadmins, tech enthusiasts, and anyone working with headless computers.
 
 ![got_feedback_from_reddit](https://www.crowdsupply.com/img/b24b/e04dfa15-1e5b-4bfb-b97c-acdba784b24b/got-feedback-from-reddit_jpg_gallery-lg.jpg)
 *Received a super amount of feedback from homelabbers*

@@ -40,7 +40,7 @@ Mostramos nossos projetos legais de arte tecnológica na Shenzhen Maker Faire em
 *Adesivos e cartões postais da MAKE: Magazine são realmente legais!*
 
 ## Feedback da comunidade e desenvolvimento
-Após compartilhar nosso protótipo no Reddit, recebemos feedback inestimável da [comunidade](http://openterface.com/community/#community-contributors), encorajando-nos a refinar e desenvolver nossa solução em um produto polido. Este apoio da comunidade foi fundamental para transformar nosso dispositivo improvisado em uma ferramenta elegante e eficiente para homelabbers, administradores de sistema, entusiastas de tecnologia e qualquer pessoa que trabalhe com computadores headless.
+Após compartilhar nosso protótipo no Reddit, recebemos feedback inestimável da [comunidade](/community/), encorajando-nos a refinar e desenvolver nossa solução em um produto polido. Este apoio da comunidade foi fundamental para transformar nosso dispositivo improvisado em uma ferramenta elegante e eficiente para homelabbers, administradores de sistema, entusiastas de tecnologia e qualquer pessoa que trabalhe com computadores headless.
 
 ![got_feedback_from_reddit](https://www.crowdsupply.com/img/b24b/e04dfa15-1e5b-4bfb-b97c-acdba784b24b/got-feedback-from-reddit_jpg_gallery-lg.jpg)
 *Recebida uma quantidade enorme de feedback de homelabbers*

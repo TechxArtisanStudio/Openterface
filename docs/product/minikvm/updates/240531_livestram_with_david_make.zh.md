@@ -40,7 +40,7 @@ Mini-KVM的旅程始于中国广州繁华的TechxArtisan工作室。在过去的
 *MAKE: Magazine的贴纸和明信片真的很酷！*
 
 ## 社区反馈和开发
-在Reddit上分享我们的原型后，我们收到了来自[社区](http://openterface.com/community/#community-contributors)的宝贵反馈，鼓励我们完善并将我们的解决方案开发成一个精美的产品。这种社区支持对于将我们的临时设备转变为家庭实验室管理员、系统管理员、技术爱好者和任何使用无头计算机的人的时尚高效工具至关重要。
+在Reddit上分享我们的原型后，我们收到了来自[社区](/community/)的宝贵反馈，鼓励我们完善并将我们的解决方案开发成一个精美的产品。这种社区支持对于将我们的临时设备转变为家庭实验室管理员、系统管理员、技术爱好者和任何使用无头计算机的人的时尚高效工具至关重要。
 
 ![got_feedback_from_reddit](https://www.crowdsupply.com/img/b24b/e04dfa15-1e5b-4bfb-b97c-acdba784b24b/got-feedback-from-reddit_jpg_gallery-lg.jpg)
 *从家庭实验室管理员那里收到了大量反馈*

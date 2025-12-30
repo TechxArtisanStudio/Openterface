@@ -40,7 +40,7 @@ Mini-KVM의 여정은 중국 광저우의 번화한 도시에 있는 TechxArtisa
 *MAKE: Magazine의 스티커와 엽서는 정말 멋집니다!*
 
 ## 커뮤니티 피드백과 개발
-Reddit에서 우리의 프로토타입을 공유한 후, [커뮤니티](http://openterface.com/community/#community-contributors)로부터 귀중한 피드백을 받았고, 솔루션을 개선하고 완성된 제품으로 개발하도록 격려받았습니다. 이 커뮤니티 지원은 우리의 임시 장치를 홈랩러, 시스템 관리자, 기술 애호가, 그리고 헤드리스 컴퓨터를 다루는 모든 사람을 위한 세련되고 효율적인 도구로 변환하는 데 필수적이었습니다.
+Reddit에서 우리의 프로토타입을 공유한 후, [커뮤니티](/community/)로부터 귀중한 피드백을 받았고, 솔루션을 개선하고 완성된 제품으로 개발하도록 격려받았습니다. 이 커뮤니티 지원은 우리의 임시 장치를 홈랩러, 시스템 관리자, 기술 애호가, 그리고 헤드리스 컴퓨터를 다루는 모든 사람을 위한 세련되고 효율적인 도구로 변환하는 데 필수적이었습니다.
 
 ![got_feedback_from_reddit](https://www.crowdsupply.com/img/b24b/e04dfa15-1e5b-4bfb-b97c-acdba784b24b/got-feedback-from-reddit_jpg_gallery-lg.jpg)
 *홈랩러들로부터 엄청난 양의 피드백을 받았습니다*

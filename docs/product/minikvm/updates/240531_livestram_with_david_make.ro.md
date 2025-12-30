@@ -40,7 +40,7 @@ Am prezentat proiectele noastre cool de artă tehnologică la Shenzhen Maker Fai
 *Autocolele și cărțile poștale de la MAKE: Magazine sunt cu adevărat cool!*
 
 ## Feedback-ul comunității și dezvoltarea
-După ce am împărtășit prototipul nostru pe Reddit, am primit feedback inestimabil de la [comunitate](http://openterface.com/community/#community-contributors), încurajându-ne să rafinăm și să dezvoltăm soluția noastră într-un produs lustruit. Acest suport al comunității a fost esențial pentru transformarea dispozitivului nostru improvizat într-un instrument elegant și eficient pentru homelabberi, administratori de sistem, entuziaști de tehnologie și oricine lucrează cu computere headless.
+După ce am împărtășit prototipul nostru pe Reddit, am primit feedback inestimabil de la [comunitate](/community/), încurajându-ne să rafinăm și să dezvoltăm soluția noastră într-un produs lustruit. Acest suport al comunității a fost esențial pentru transformarea dispozitivului nostru improvizat într-un instrument elegant și eficient pentru homelabberi, administratori de sistem, entuziaști de tehnologie și oricine lucrează cu computere headless.
 
 ![got_feedback_from_reddit](https://www.crowdsupply.com/img/b24b/e04dfa15-1e5b-4bfb-b97c-acdba784b24b/got-feedback-from-reddit_jpg_gallery-lg.jpg)
 *Primită o cantitate enormă de feedback de la homelabberi*

@@ -40,7 +40,7 @@ Wir stellten unsere coolen Tech-Kunstprojekte auf der Shenzhen Maker Faire im No
 *Aufkleber und Postkarten von MAKE: Magazine sind wirklich cool!*
 
 ## Community-Feedback und Entwicklung
-Nachdem wir unseren Prototyp auf Reddit geteilt hatten, erhielten wir unschätzbares Feedback von [der Community](http://openterface.com/community/#community-contributors), das uns ermutigte, unsere Lösung zu verfeinern und zu einem polierten Produkt zu entwickeln. Diese Community-Unterstützung war entscheidend dafür, unser behelfsmäßiges Gerät in ein elegantes, effizientes Tool für Homelabber, Systemadministratoren, Tech-Enthusiasten und jeden zu verwandeln, der mit Headless-Computern arbeitet.
+Nachdem wir unseren Prototyp auf Reddit geteilt hatten, erhielten wir unschätzbares Feedback von [der Community](/community/), das uns ermutigte, unsere Lösung zu verfeinern und zu einem polierten Produkt zu entwickeln. Diese Community-Unterstützung war entscheidend dafür, unser behelfsmäßiges Gerät in ein elegantes, effizientes Tool für Homelabber, Systemadministratoren, Tech-Enthusiasten und jeden zu verwandeln, der mit Headless-Computern arbeitet.
 
 ![got_feedback_from_reddit](https://www.crowdsupply.com/img/b24b/e04dfa15-1e5b-4bfb-b97c-acdba784b24b/got-feedback-from-reddit_jpg_gallery-lg.jpg)
 *Eine riesige Menge Feedback von Homelabbern erhalten*

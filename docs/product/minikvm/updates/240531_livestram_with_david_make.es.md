@@ -40,7 +40,7 @@ Mostramos nuestros geniales proyectos de arte tecnológico en la Shenzhen Maker 
 *¡Las pegatinas y postales de MAKE: Magazine son realmente geniales!*
 
 ## Retroalimentación de la comunidad y desarrollo
-Después de compartir nuestro prototipo en Reddit, recibimos retroalimentación invaluable de [la comunidad](http://openterface.com/community/#community-contributors), animándonos a refinar y desarrollar nuestra solución en un producto pulido. Este apoyo de la comunidad fue instrumental para transformar nuestro dispositivo improvisado en una herramienta elegante y eficiente para homelabbers, administradores de sistemas, entusiastas de la tecnología y cualquiera que trabaje con ordenadores headless.
+Después de compartir nuestro prototipo en Reddit, recibimos retroalimentación invaluable de [la comunidad](/community/), animándonos a refinar y desarrollar nuestra solución en un producto pulido. Este apoyo de la comunidad fue instrumental para transformar nuestro dispositivo improvisado en una herramienta elegante y eficiente para homelabbers, administradores de sistemas, entusiastas de la tecnología y cualquiera que trabaje con ordenadores headless.
 
 ![got_feedback_from_reddit](https://www.crowdsupply.com/img/b24b/e04dfa15-1e5b-4bfb-b97c-acdba784b24b/got-feedback-from-reddit_jpg_gallery-lg.jpg)
 *Recibida una cantidad enorme de retroalimentación de homelabbers*

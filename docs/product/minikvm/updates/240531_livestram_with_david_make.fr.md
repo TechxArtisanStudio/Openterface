@@ -40,7 +40,7 @@ Nous avons présenté nos projets d'art technologique cool à la Shenzhen Maker 
 *Les autocollants et cartes postales de MAKE: Magazine sont vraiment cool !*
 
 ## Retour de la communauté et développement
-Après avoir partagé notre prototype sur Reddit, nous avons reçu des commentaires inestimables de [la communauté](http://openterface.com/community/#community-contributors), nous encourageant à affiner et développer notre solution en un produit poli. Ce soutien communautaire a été instrumental pour transformer notre appareil de fortune en un outil élégant et efficace pour les homelabbers, les administrateurs système, les passionnés de technologie et quiconque travaille avec des ordinateurs sans tête.
+Après avoir partagé notre prototype sur Reddit, nous avons reçu des commentaires inestimables de [la communauté](/community/), nous encourageant à affiner et développer notre solution en un produit poli. Ce soutien communautaire a été instrumental pour transformer notre appareil de fortune en un outil élégant et efficace pour les homelabbers, les administrateurs système, les passionnés de technologie et quiconque travaille avec des ordinateurs sans tête.
 
 ![got_feedback_from_reddit](https://www.crowdsupply.com/img/b24b/e04dfa15-1e5b-4bfb-b97c-acdba784b24b/got-feedback-from-reddit_jpg_gallery-lg.jpg)
 *Reçu une énorme quantité de commentaires des homelabbers*
