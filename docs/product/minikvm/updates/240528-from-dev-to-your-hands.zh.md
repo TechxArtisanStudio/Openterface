@@ -96,7 +96,7 @@ QT是一个我们喜欢的多功能框架，所以我们基于它构建了我们
 
 我们将在接下来的两到三周内开始逐步发布硬件详细信息。此外，为了保持开源的高标准，我们计划遵守开源硬件协会（**OSHWA**）认证要求。
 
-与此同时，您可以在这里了解更多关于我们硬件的信息：[数据表](https://docs.google.com/document/d/1UPw5RwGTp0AjKL3wOvQZUS1hp3IPMxkCujtqy5haeP0/edit?usp=sharing)和[工作原理](/how-it-works/)。此页面解释了我们的USB-HDMI捕获集成，采用**CH9329**芯片进行键盘和鼠标控制。技术爱好者可能会发现关于此芯片的详细信息特别有趣。此外，我们的mini-KVM利用**CH340**芯片，支持主机和目标端的内置USB集线器。我们的mini-KVM可与市场上许多视频捕获卡相媲美。
+与此同时，您可以在这里了解更多关于我们硬件的信息：[数据表](https://docs.google.com/document/d/1UPw5RwGTp0AjKL3wOvQZUS1hp3IPMxkCujtqy5haeP0/edit?usp=sharing)和[工作原理](/faq/kvm-over-usb/)。此页面解释了我们的USB-HDMI捕获集成，采用**CH9329**芯片进行键盘和鼠标控制。技术爱好者可能会发现关于此芯片的详细信息特别有趣。此外，我们的mini-KVM利用**CH340**芯片，支持主机和目标端的内置USB集线器。我们的mini-KVM可与市场上许多视频捕获卡相媲美。
 
 #### 请耐心等待！
 

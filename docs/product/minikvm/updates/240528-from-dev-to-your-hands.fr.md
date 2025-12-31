@@ -96,7 +96,7 @@ Nous explorons également la compatibilité avec les systèmes mobiles d'Apple, 
 
 Nous commencerons à publier les détails du hardware progressivement au cours des deux à trois prochaines semaines. De plus, pour maintenir un haut standard open source, nous prévoyons d'adhérer aux exigences de certification de l'Open Source Hardware Association (**OSHWA**).
 
-En attendant, vous pouvez en apprendre plus sur notre hardware ici : [datasheet](https://docs.google.com/document/d/1UPw5RwGTp0AjKL3wOvQZUS1hp3IPMxkCujtqy5haeP0/edit?usp=sharing) et [Comment ça marche](/how-it-works/) pour l'instant. Cette page explique notre intégration de capture USB-HDMI, mettant en vedette la puce **CH9329** pour le contrôle clavier et souris. Les passionnés de technologie pourraient trouver les détails sur cette puce particulièrement intéressants. De plus, notre mini-KVM utilise la puce **CH340**, supportant deux hubs USB intégrés pour les côtés hôte et cible. Notre mini-KVM est comparable à de nombreuses cartes de capture vidéo actuellement sur le marché.
+En attendant, vous pouvez en apprendre plus sur notre hardware ici : [datasheet](https://docs.google.com/document/d/1UPw5RwGTp0AjKL3wOvQZUS1hp3IPMxkCujtqy5haeP0/edit?usp=sharing) et [Comment ça marche](/faq/kvm-over-usb/) pour l'instant. Cette page explique notre intégration de capture USB-HDMI, mettant en vedette la puce **CH9329** pour le contrôle clavier et souris. Les passionnés de technologie pourraient trouver les détails sur cette puce particulièrement intéressants. De plus, notre mini-KVM utilise la puce **CH340**, supportant deux hubs USB intégrés pour les côtés hôte et cible. Notre mini-KVM est comparable à de nombreuses cartes de capture vidéo actuellement sur le marché.
 
 #### Veuillez patienter !
 

@@ -65,7 +65,7 @@ theme:
 extra:
   qt_version: 0.5.7
   android_version: v1.2.2
-  macos_version: 1.21
+  macos_version: 1.22
   copyright_year: 2025
   app_updates: 1
   usb-kvm-diy-contest-2024_updates: 3
@@ -165,6 +165,7 @@ nav:
     - FAQs for Mini-KVM: product/minikvm/faq.md
     - Videos: videos/?p=minikvm
     - Reviews & Press:
+      - Overview: product/minikvm/reviews/index.md
       - Testimonials: product/minikvm/reviews/testimonials.md
       - Media Coverage: product/minikvm/reviews/media.md
     - Updates for Mini-KVM: product/minikvm/updates/index.md

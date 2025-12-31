@@ -96,7 +96,7 @@ Explorăm și compatibilitatea cu sistemele mobile Apple, ca iPadOS. Din cauza c
 
 Vom începe să eliberăm detaliile hardware-ului incremental în următoarele două-trei săptămâni. În plus, pentru a menține un standard înalt open source, planificăm să aderăm la cerințele de certificare ale Open Source Hardware Association (**OSHWA**).
 
-Între timp, puteți afla mai multe despre hardware-ul nostru aici: [fișa tehnică](https://docs.google.com/document/d/1UPw5RwGTp0AjKL3wOvQZUS1hp3IPMxkCujtqy5haeP0/edit?usp=sharing) și [Cum funcționează](/how-it-works/) pentru moment. Această pagină explică integrarea noastră de captură USB-HDMI, prezentând cipul **CH9329** pentru controlul tastaturii și mouse-ului. Entuziaștii tech ar putea găsi detaliile despre acest cip deosebit de interesante. În plus, mini-KVM-ul nostru utilizează cipul **CH340**, susținând două hub-uri USB integrate pentru atât partea gazdă cât și țintă. Mini-KVM-ul nostru este comparabil cu multe carduri de captură video prezent pe piață.
+Între timp, puteți afla mai multe despre hardware-ul nostru aici: [fișa tehnică](https://docs.google.com/document/d/1UPw5RwGTp0AjKL3wOvQZUS1hp3IPMxkCujtqy5haeP0/edit?usp=sharing) și [Cum funcționează](/faq/kvm-over-usb/) pentru moment. Această pagină explică integrarea noastră de captură USB-HDMI, prezentând cipul **CH9329** pentru controlul tastaturii și mouse-ului. Entuziaștii tech ar putea găsi detaliile despre acest cip deosebit de interesante. În plus, mini-KVM-ul nostru utilizează cipul **CH340**, susținând două hub-uri USB integrate pentru atât partea gazdă cât și țintă. Mini-KVM-ul nostru este comparabil cu multe carduri de captură video prezent pe piață.
 
 #### Vă rugăm să așteptați!
 

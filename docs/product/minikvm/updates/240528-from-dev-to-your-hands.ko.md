@@ -96,7 +96,7 @@ Linux 기반 시스템의 경우, ARM32, ARM64, ARMv7, ARMv8과 같은 다양한
 
 우리는 향후 2-3주에 걸쳐 하드웨어 세부사항을 점진적으로 릴리스할 예정입니다. 또한, 오픈소스의 높은 표준을 유지하기 위해 오픈소스 하드웨어 협회(**OSHWA**) 인증 요구사항을 준수할 계획입니다.
 
-그동안, 여기서 하드웨어에 대해 더 알아볼 수 있습니다: [데이터시트](https://docs.google.com/document/d/1UPw5RwGTp0AjKL3wOvQZUS1hp3IPMxkCujtqy5haeP0/edit?usp=sharing)와 [작동 원리](/how-it-works/)입니다. 이 페이지는 키보드와 마우스 제어를 위한 **CH9329** 칩을 특징으로 하는 우리의 USB-HDMI 캡처 통합에 대해 설명합니다. 기술 애호가들은 이 칩에 대한 세부사항이 특히 흥미롭다고 느낄 수 있습니다. 또한, 우리의 mini-KVM은 **CH340** 칩을 활용하여 호스트와 타겟 양쪽의 내장 USB 허브를 지원합니다. 우리의 mini-KVM은 현재 시장에 있는 많은 비디오 캡처 카드와 비교할 수 있습니다.
+그동안, 여기서 하드웨어에 대해 더 알아볼 수 있습니다: [데이터시트](https://docs.google.com/document/d/1UPw5RwGTp0AjKL3wOvQZUS1hp3IPMxkCujtqy5haeP0/edit?usp=sharing)와 [작동 원리](/faq/kvm-over-usb/)입니다. 이 페이지는 키보드와 마우스 제어를 위한 **CH9329** 칩을 특징으로 하는 우리의 USB-HDMI 캡처 통합에 대해 설명합니다. 기술 애호가들은 이 칩에 대한 세부사항이 특히 흥미롭다고 느낄 수 있습니다. 또한, 우리의 mini-KVM은 **CH340** 칩을 활용하여 호스트와 타겟 양쪽의 내장 USB 허브를 지원합니다. 우리의 mini-KVM은 현재 시장에 있는 많은 비디오 캡처 카드와 비교할 수 있습니다.
 
 #### 조금만 기다려 주세요!
 

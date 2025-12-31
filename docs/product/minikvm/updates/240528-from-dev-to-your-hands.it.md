@@ -96,7 +96,7 @@ Stiamo anche esplorando la compatibilità con i sistemi mobili di Apple, come iP
 
 Inizieremo a rilasciare i dettagli dell'hardware incrementalmente nelle prossime due o tre settimane. Inoltre, per mantenere un alto standard open source, pianifichiamo di aderire ai requisiti di certificazione dell'Open Source Hardware Association (**OSHWA**).
 
-Nel frattempo, potete saperne di più sul nostro hardware qui: [datasheet](https://docs.google.com/document/d/1UPw5RwGTp0AjKL3wOvQZUS1hp3IPMxkCujtqy5haeP0/edit?usp=sharing) e [Come funziona](/how-it-works/) per ora. Questa pagina spiega la nostra integrazione di cattura USB-HDMI, presentando il chip **CH9329** per il controllo di tastiera e mouse. Gli appassionati di tecnologia potrebbero trovare i dettagli su questo chip particolarmente interessanti. Inoltre, il nostro mini-KVM utilizza il chip **CH340**, supportando due hub USB integrati per entrambi i lati host e target. Il nostro mini-KVM è paragonabile a molte schede di cattura video attualmente sul mercato.
+Nel frattempo, potete saperne di più sul nostro hardware qui: [datasheet](https://docs.google.com/document/d/1UPw5RwGTp0AjKL3wOvQZUS1hp3IPMxkCujtqy5haeP0/edit?usp=sharing) e [Come funziona](/faq/kvm-over-usb/) per ora. Questa pagina spiega la nostra integrazione di cattura USB-HDMI, presentando il chip **CH9329** per il controllo di tastiera e mouse. Gli appassionati di tecnologia potrebbero trovare i dettagli su questo chip particolarmente interessanti. Inoltre, il nostro mini-KVM utilizza il chip **CH340**, supportando due hub USB integrati per entrambi i lati host e target. Il nostro mini-KVM è paragonabile a molte schede di cattura video attualmente sul mercato.
 
 #### Per favore, tenete duro!
 
