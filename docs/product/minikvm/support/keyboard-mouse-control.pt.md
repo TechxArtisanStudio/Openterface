@@ -1,3 +1,9 @@
+---
+title: "Resolução de problemas de controle de teclado e mouse - Openterface Mini-KVM"
+description: "Guia de resolução de problemas para problemas de controle de teclado e mouse do Openterface Mini-KVM. Aprenda a resolver problemas de comunicação HID, conexões de cabo incorretas, problemas de hub USB e estados zumbi do chip HID."
+keywords: "Openterface Mini-KVM, resolução problemas teclado mouse, problemas HID KVM, teclado mouse não funciona, suporte Mini-KVM, resolução problemas USB KVM, reset chip HID, problemas controle KVM, teclado mouse não responde, resolução problemas Openterface, problemas dispositivo KVM, problemas hub USB, taxa transmissão KVM, erros comunicação serial"
+---
+
 # **Resolução de problemas de teclado e mouse que não conseguem controlar o computador de destino**
 
 Ocasionalmente, os usuários podem experimentar situações em que as funções de teclado e mouse do dispositivo Openterface não funcionam como esperado. Este documento descreve as causas mais comuns e como resolvê-las ou evitá-las.

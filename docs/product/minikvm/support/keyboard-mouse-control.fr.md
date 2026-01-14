@@ -1,3 +1,9 @@
+---
+title: "Dépannage des problèmes de contrôle clavier et souris - Openterface Mini-KVM"
+description: "Guide de dépannage pour les problèmes de contrôle clavier et souris d'Openterface Mini-KVM. Apprenez à résoudre les problèmes de communication HID, les connexions de câble incorrectes, les problèmes de hub USB et les états zombie du puce HID."
+keywords: "Openterface Mini-KVM, dépannage clavier souris, problèmes HID KVM, clavier souris ne fonctionne pas, support Mini-KVM, dépannage USB KVM, réinitialisation puce HID, problèmes contrôle KVM, clavier souris ne répond pas, dépannage Openterface, problèmes dispositif KVM, problèmes hub USB, débit baud KVM, erreurs communication série"
+---
+
 # **Dépannage des problèmes de clavier et souris ne pouvant pas contrôler l'ordinateur cible**
 
 Occasionnellement, les utilisateurs peuvent rencontrer des situations où les fonctions de clavier et de souris du dispositif Openterface ne fonctionnent pas comme prévu. Ce document décrit les causes les plus courantes et comment les résoudre ou les prévenir.

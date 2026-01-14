@@ -1,3 +1,9 @@
+---
+title: "Risoluzione problemi controllo tastiera e mouse - Openterface Mini-KVM"
+description: "Guida alla risoluzione dei problemi per i problemi di controllo tastiera e mouse di Openterface Mini-KVM. Scopri come risolvere problemi di comunicazione HID, connessioni cavo errate, problemi hub USB e stati zombie del chip HID."
+keywords: "Openterface Mini-KVM, risoluzione problemi tastiera mouse, problemi HID KVM, tastiera mouse non funziona, supporto Mini-KVM, risoluzione problemi USB KVM, reset chip HID, problemi controllo KVM, tastiera mouse non risponde, risoluzione problemi Openterface, problemi dispositivo KVM, problemi hub USB, velocità baud KVM, errori comunicazione seriale"
+---
+
 # **Risoluzione dei problemi di tastiera e mouse che non riescono a controllare il computer di destinazione**
 
 Occasionalmente, gli utenti possono riscontrare situazioni in cui le funzioni di tastiera e mouse del dispositivo Openterface non funzionano come previsto. Questo documento descrive le cause più comuni e come risolverle o prevenirle.

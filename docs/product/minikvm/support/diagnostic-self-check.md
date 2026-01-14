@@ -1,0 +1,95 @@
+---
+title: "Openterface Mini-KVM - Diagnostic Self-Check Guide"
+description: "Step-by-step guide for running diagnostic self-checks on the Openterface Mini-KVM device. Learn how to test USB connections, detect issues, and send defect reports to support."
+keywords: "Openterface Mini-KVM, diagnostic self-check, KVM troubleshooting, USB KVM diagnostics, Mini-KVM support, KVM device testing, USB connection test, KVM defect report, Mini-KVM troubleshooting guide, KVM diagnostic tool, headless server diagnostics, IT troubleshooting tools"
+---
+
+# Openterface Mini-KVM - Diagnostic Self-Check Guide
+
+This guide provides step-by-step instructions for running diagnostic self-checks on the Openterface Mini-KVM device.
+
+---
+
+## Good Unit
+
+**Step 1:** In the Openterface app, open Settings → Settings…
+
+**Step 2:** In the Settings window, go to Advanced & Debug.
+
+**Step 3:** Click Open Diagnostics Tool.
+
+**Step 4:** When prompted, click Enable to turn on diagnostic logging.
+
+**Step 5:** Click Check Now to start the self-check.
+
+**Step 6:** Click Start Test, then unplug and replug the black USB-C (target side) when asked.
+
+![minikvm-support-target](https://assets.openterface.com/images/minikvm/support/target.webp)
+
+**Step 7:** Click Start Test, then unplug and replug the orange USB-C (host side) when asked.
+
+![minikvm-support-host](https://assets.openterface.com/images/minikvm/support/host.webp)
+
+**Step 8:** Click Start Test, and wait for the test to complete.
+
+**Step 9:** Click Reset Now, and wait for it to complete.
+
+**Step 10:** Click Change Now, and wait for the baudrate switch to finish.
+
+**Step 11:** Click Start Test, then wait about 30 seconds. Do not operate the target while the test runs.
+
+> **Note:** Mouse may move quickly. Don't touch the target.
+
+![minikvm-support-stress_test](https://assets.openterface.com/images/minikvm/support/stress_test.gif)
+
+**Step 12:** Confirm all items show green check marks and the progress is complete.
+
+**Step 13:** Click the ❌ (top-right) to close the Diagnostics window.
+
+---
+
+## Issue Detected (Keyboard/Mouse Example)
+
+Follow Steps 1–11 in "Good Unit" first. The notes below explain what you'll see when a keyboard/mouse issue is detected.
+
+## How this issue shows up
+
+In this example, Overall Connection shows FAIL first because a target-side keyboard/mouse (HID) issue affects the overall check. This is an early indicator, not a separate issue. (You'll see the FAIL status highlighted next to "Overall Connection" on the left.)
+
+- **Overall Connection:** FAIL is shown here first due to the target-side issue.
+
+![minikvm-support-overall_connection](https://assets.openterface.com/images/minikvm/support/overall_connection.webp)
+
+- **Target Plug & Play:** After running this step, the result can show the target-side problem more clearly.
+
+> **Tip:** If a step shows FAIL, the diagnostics will not stop, but it may stop auto-advancing—so you'll need to continue manually.
+
+## Extra final test (depends on the issue type)
+
+**Step 12:** After Stress Test, the diagnostics may show an extra final test depending on the detected issue; in this keyboard/mouse example, it continues to Target Port Checking.
+
+**Step 13:** Click "Detect Devices" to start Target Port Checking, then follow the on-screen instructions.
+
+![minikvm-support-target_port_checking](https://assets.openterface.com/images/minikvm/support/target_port_checking.webp)
+
+## What happens when an issue is detected
+
+**Step 14:** To continue, click Next (bottom bar) or select the next test from the left panel.
+
+![minikvm-support-target_plug_n_play](https://assets.openterface.com/images/minikvm/support/target_plug_n_play.webp)
+
+## Sending logs to Support
+
+**Step 15:** Click Send Defect Report to Support to prepare the report for support.
+
+![minikvm-support-send_defect_report_to_support](https://assets.openterface.com/images/minikvm/support/send_defect_report_to_support.webp)
+
+**Step 16:** In the Defect Report window, enter your **Order ID** and **Name**.
+
+**Step 17:** Click **Open Log Folder**, then attach the exported **log files** to your email.
+
+**Step 18:** Copy the **support email address**, paste the prefilled **email subject/body**, attach a clear **setup photo** (Mini-KVM + host/target connections), and send the email.
+
+![minikvm-support-support](https://assets.openterface.com/images/minikvm/support/support.webp)
+
+**Step 19:** Click the ❌ (top-right) to close the Diagnostics window.

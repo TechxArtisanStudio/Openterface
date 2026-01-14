@@ -1,3 +1,9 @@
+---
+title: "Behebung von Tastatur- und Maussteuerungsproblemen - Openterface Mini-KVM"
+description: "Troubleshooting-Anleitung für Openterface Mini-KVM Tastatur- und Maussteuerungsprobleme. Erfahren Sie, wie Sie HID-Kommunikationsprobleme, falsche Kabelverbindungen, USB-Hub-Probleme und HID-Chip-Zombie-Zustände beheben."
+keywords: "Openterface Mini-KVM, Tastatur Maus Fehlerbehebung, KVM HID Probleme, Tastatur Maus funktioniert nicht, Mini-KVM Support, USB KVM Fehlerbehebung, HID Chip Reset, KVM Steuerungsprobleme, Tastatur Maus reagiert nicht, Openterface Fehlerbehebung, KVM Geräteprobleme, USB Hub Probleme, Baudrate KVM, serielle Kommunikationsfehler"
+---
+
 # **Behebung von Problemen mit Tastatur und Maus, die den Zielcomputer nicht steuern können**
 
 Gelegentlich können Benutzer Situationen erleben, in denen die Tastatur- und Mausfunktionen des Openterface-Geräts nicht wie erwartet funktionieren. Dieses Dokument beschreibt die häufigsten Ursachen und wie man sie beheben oder verhindern kann.

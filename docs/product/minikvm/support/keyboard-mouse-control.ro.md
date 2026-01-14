@@ -1,3 +1,9 @@
+---
+title: "Rezolvarea problemelor de control tastatură și mouse - Openterface Mini-KVM"
+description: "Ghid de rezolvare a problemelor pentru problemele de control tastatură și mouse ale Openterface Mini-KVM. Aflați cum să rezolvați problemele de comunicare HID, conexiuni de cablu incorecte, probleme de hub USB și stări zombie ale cipului HID."
+keywords: "Openterface Mini-KVM, rezolvare probleme tastatură mouse, probleme HID KVM, tastatură mouse nu funcționează, suport Mini-KVM, rezolvare probleme USB KVM, resetare cip HID, probleme control KVM, tastatură mouse nu răspunde, rezolvare probleme Openterface, probleme dispozitiv KVM, probleme hub USB, rată transmisie KVM, erori comunicare serială"
+---
+
 # **Rezolvarea problemelor cu tastatura și mouse-ul care nu pot controla computerul țintă**
 
 Ocazional, utilizatorii pot întâmpina situații în care funcțiile de tastatură și mouse ale dispozitivului Openterface nu funcționează conform așteptărilor. Acest document descrie cele mai frecvente cauze și cum le puteți rezolva sau preveni.
