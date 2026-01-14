@@ -63,10 +63,10 @@ theme:
       icon: material/weather-night
       name: Switch to light mode
 extra:
-  qt_version: 0.5.7
+  qt_version: 0.5.10
   android_version: v1.2.2
-  macos_version: 1.22
-  copyright_year: 2025
+  macos_version: 1.23
+  copyright_year: 2026
   app_updates: 1
   usb-kvm-diy-contest-2024_updates: 3
   exhibition_updates: 3
@@ -164,6 +164,9 @@ nav:
     - Extension Pins: product/minikvm/extension-pins.md
     - FAQs for Mini-KVM: product/minikvm/faq.md
     - Videos: videos/?p=minikvm
+    - Tech Support:
+      - Keyboard and Mouse Control: product/minikvm/support/keyboard-mouse-control.md
+      - Diagnostic Self-Check Guide: product/minikvm/support/diagnostic-self-check.md
     - Reviews & Press:
       - Overview: product/minikvm/reviews/index.md
       - Testimonials: product/minikvm/reviews/testimonials.md
