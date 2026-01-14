@@ -16,15 +16,6 @@ keywords: "KVM-Go, KVM over USB, 超紧凑KVM, 内置HDMI, 钥匙扣KVM, 4K KVM,
 
 继**Openterface Mini-KVM**取得成功，我们的开源社区拥有超过5,000名用户，**Openterface™ KVM-Go系列**是下一代[**KVM-over-USB**](/faq/kvm-over-usb/)解决方案。超紧凑设计，可挂在钥匙扣上，配备内置视频连接器（HDMI、DisplayPort或VGA），无需单独的视频线缆。非常适合数据中心、远程服务器机房和无头设备故障排除的快速操作。
 
-<div style="text-align: center; margin: 20px 0 10px 0;">
-  <div class="carousel-funding-stats">
-    <span class="funding-amount">$88,253</span>
-    <span class="funding-text">Funded on Dec 30, 2025</span>
-    <span class="funding-separator">|</span>
-    <span class="funding-backers"><span class="funding-backers-count">349</span> <span>Backers</span></span>
-  </div>
-</div>
-
 <div style="text-align: center; margin: 20px 0;">
   <button class="md-button" onclick="window.open('{{ config.extra.kvmgo_purchase_link }}', '_blank')">
     加入等待列表
@@ -34,6 +25,15 @@ keywords: "KVM-Go, KVM over USB, 超紧凑KVM, 内置HDMI, 钥匙扣KVM, 4K KVM,
       alt="Crowd Supply" 
       style="vertical-align: middle; height: 26px; margin-left: 8px;">
   </button>
+</div>
+
+<div style="text-align: center; margin: 20px 0 10px 0;">
+  <div class="carousel-funding-stats" style="display: inline-flex; justify-content: center;">
+    <span class="funding-amount">$88,253</span>
+    <span class="funding-text">2025年12月30日完成众筹</span>
+    <span class="funding-separator">|</span>
+    <span class="funding-backers"><span class="funding-backers-count">349</span> <span>位支持者</span></span>
+  </div>
 </div>
 
 <div class="grid cards" markdown>

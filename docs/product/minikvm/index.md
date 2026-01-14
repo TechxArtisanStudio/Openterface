@@ -16,15 +16,6 @@ keywords: "Mini-KVM, KVM over USB, KVM over IP, headless control, HDMI KVM, USB 
 
 Our **Openterface™ Mini-KVM** is a plug-and-play [**KVM-over-USB**](/faq/kvm-over-usb/) solution. It allows you to control a nearby headless computer directly from your laptop or desktop using USB and HDMI connections, eliminating the need for additional peripherals or network connectivity.
 
-<div style="text-align: center; margin: 20px 0 10px 0;">
-  <div class="carousel-funding-stats">
-    <span class="funding-amount">$466,678</span>
-    <span class="funding-text">Funded on Jun 13, 2024</span>
-    <span class="funding-separator">|</span>
-    <span class="funding-backers"><span class="funding-backers-count">3,516</span> <span>Backers</span></span>
-  </div>
-</div>
-
 <div style="text-align: center; margin: 20px 0;">
   <button class="md-button" onclick="window.open('{{ config.extra.minikvm_purchase_link }}', '_blank')">
     Order NOW
@@ -34,6 +25,15 @@ Our **Openterface™ Mini-KVM** is a plug-and-play [**KVM-over-USB**](/faq/kvm-o
       alt="Crowd Supply" 
       style="vertical-align: middle; height: 26px; margin-left: 8px;">
   </button>
+</div>
+
+<div style="text-align: center; margin: 20px 0 10px 0;">
+  <div class="carousel-funding-stats" style="display: inline-flex; justify-content: center;">
+    <span class="funding-amount">$466,678</span>
+    <span class="funding-text">Funded on Jun 13, 2024</span>
+    <span class="funding-separator">|</span>
+    <span class="funding-backers"><span class="funding-backers-count">3,516</span> <span>Backers</span></span>
+  </div>
 </div>
 
 <div class="grid cards" markdown>

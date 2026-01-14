@@ -16,15 +16,6 @@ keywords: "KVM-Go, KVM over USB, KVM ultra-compact, HDMI intégré, KVM porte-cl
 
 Suite au succès d'**Openterface Mini-KVM**, avec plus de 5 000 utilisateurs dans notre communauté open source, la **Série Openterface™ KVM-Go** est la solution [**KVM-over-USB**](/faq/kvm-over-usb/) de nouvelle génération. Ultra-compacte et conçue pour tenir sur votre porte-clés, elle dispose de connecteurs vidéo intégrés (HDMI, DisplayPort ou VGA) qui éliminent le besoin de câbles vidéo séparés. Parfaite pour les opérations rapides dans les centres de données, les salles de serveurs distantes et le dépannage de dispositifs headless.
 
-<div style="text-align: center; margin: 20px 0 10px 0;">
-  <div class="carousel-funding-stats">
-    <span class="funding-amount">$88,253</span>
-    <span class="funding-text">Funded on Dec 30, 2025</span>
-    <span class="funding-separator">|</span>
-    <span class="funding-backers"><span class="funding-backers-count">349</span> <span>Backers</span></span>
-  </div>
-</div>
-
 <div style="text-align: center; margin: 20px 0;">
   <button class="md-button" onclick="window.open('{{ config.extra.kvmgo_purchase_link }}', '_blank')">
     Rejoindre la Liste d'Attente
@@ -34,6 +25,15 @@ Suite au succès d'**Openterface Mini-KVM**, avec plus de 5 000 utilisateurs dan
       alt="Crowd Supply" 
       style="vertical-align: middle; height: 26px; margin-left: 8px;">
   </button>
+</div>
+
+<div style="text-align: center; margin: 20px 0 10px 0;">
+  <div class="carousel-funding-stats" style="display: inline-flex; justify-content: center;">
+    <span class="funding-amount">$88,253</span>
+    <span class="funding-text">Financé le 30 déc. 2025</span>
+    <span class="funding-separator">|</span>
+    <span class="funding-backers"><span class="funding-backers-count">349</span> <span>Contributeurs</span></span>
+  </div>
 </div>
 
 <div class="grid cards" markdown>

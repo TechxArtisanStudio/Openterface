@@ -16,15 +16,6 @@ keywords: "Mini-KVM, KVM over USB, KVM over IP, headless control, HDMI KVM, USB 
 
 我们的 **Openterface™ Mini-KVM** 是一个即插即用的 [**KVM-over-USB**](/faq/kvm-over-usb/) 解决方案。它允许您使用USB和HDMI连接直接从您的笔记本电脑或台式机控制附近的无头计算机，无需额外的外设或网络连接。
 
-<div style="text-align: center; margin: 20px 0 10px 0;">
-  <div class="carousel-funding-stats">
-    <span class="funding-amount">$466,678</span>
-    <span class="funding-text">Funded on Jun 13, 2024</span>
-    <span class="funding-separator">|</span>
-    <span class="funding-backers"><span class="funding-backers-count">3,516</span> <span>Backers</span></span>
-  </div>
-</div>
-
 <div style="text-align: center; margin: 20px 0;">
   <button class="md-button" onclick="window.open('{{ config.extra.minikvm_purchase_link }}', '_blank')">
     立即订购
@@ -34,6 +25,15 @@ keywords: "Mini-KVM, KVM over USB, KVM over IP, headless control, HDMI KVM, USB 
       alt="Crowd Supply" 
       style="vertical-align: middle; height: 26px; margin-left: 8px;">
   </button>
+</div>
+
+<div style="text-align: center; margin: 20px 0 10px 0;">
+  <div class="carousel-funding-stats" style="display: inline-flex; justify-content: center;">
+    <span class="funding-amount">$466,678</span>
+    <span class="funding-text">2024年6月13日完成众筹</span>
+    <span class="funding-separator">|</span>
+    <span class="funding-backers"><span class="funding-backers-count">3,516</span> <span>位支持者</span></span>
+  </div>
 </div>
 
 <div class="grid cards" markdown>
