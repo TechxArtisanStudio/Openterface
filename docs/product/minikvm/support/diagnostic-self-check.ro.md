@@ -10,8 +10,6 @@ Acest ghid oferă instrucțiuni pas cu pas pentru rularea verificărilor auto-di
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-K6Idzky3fY?si=r7pZgCkBzzZXgrLT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
----
-
 ## Unitate bună
 
 **Pasul 1:** În aplicația Openterface, deschide Setări → Setări…

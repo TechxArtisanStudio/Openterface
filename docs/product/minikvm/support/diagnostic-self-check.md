@@ -8,7 +8,7 @@ keywords: "Openterface Mini-KVM, diagnostic self-check, KVM troubleshooting, USB
 
 This guide provides step-by-step instructions for running diagnostic self-checks on the Openterface Mini-KVM device.
 
----
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-K6Idzky3fY?si=r7pZgCkBzzZXgrLT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Good Unit
 

@@ -11,8 +11,6 @@ Dieses Handbuch enthält Schritt-für-Schritt-Anweisungen zur Durchführung von 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-K6Idzky3fY?si=r7pZgCkBzzZXgrLT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
----
-
 ## Gutes Gerät
 
 **Schritt 1:** Öffnen Sie im Openterface-App die Einstellungen → Einstellungen…

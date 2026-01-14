@@ -11,8 +11,6 @@ keywords: "Openterface Mini-KVM, 诊断自检, KVM 故障排除, USB KVM 诊断,
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-K6Idzky3fY?si=r7pZgCkBzzZXgrLT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
----
-
 ## 正常设备
 
 **步骤 1:** 在 Openterface 应用中，打开 设置 → 高级设置。

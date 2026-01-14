@@ -11,8 +11,6 @@ keywords: "Openterface Mini-KVM, 진단 자기 점검, KVM 문제 해결, USB KV
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-K6Idzky3fY?si=r7pZgCkBzzZXgrLT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
----
-
 ## 정상 작동 상태
 
 **단계 1:** Openterface 앱에서 설정 → 설정...을 열어주세요.
