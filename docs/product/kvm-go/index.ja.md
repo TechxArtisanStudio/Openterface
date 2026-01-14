@@ -16,6 +16,15 @@ keywords: "KVM-Go, KVM over USB, 超コンパクトKVM, 内蔵HDMI, キーチェ
 
 **Openterface Mini-KVM**の成功を受け、オープンソースコミュニティに5,000人以上のユーザーを擁する**Openterface™ KVM-Goシリーズ**は次世代の[**KVM-over-USB**](/faq/kvm-over-usb/)ソリューションです。超コンパクトでキーチェーンに収まる設計で、内蔵ビデオコネクター（HDMI、DisplayPort、またはVGA）を搭載し、別途ビデオケーブルが不要です。データセンター、リモートサーバールーム、ヘッドレスデバイスのトラブルシューティングでの迅速な操作に最適です。
 
+<div style="text-align: center; margin: 20px 0 10px 0;">
+  <div class="carousel-funding-stats">
+    <span class="funding-amount">$88,253</span>
+    <span class="funding-text">Funded on Dec 30, 2025</span>
+    <span class="funding-separator">|</span>
+    <span class="funding-backers"><span class="funding-backers-count">349</span> <span>Backers</span></span>
+  </div>
+</div>
+
 <div style="text-align: center; margin: 20px 0;">
   <button class="md-button" onclick="window.open('{{ config.extra.kvmgo_purchase_link }}', '_blank')">
     ウェイティングリストに参加
