@@ -8,6 +8,9 @@ keywords: "Openterface Mini-KVM, 진단 자기 점검, KVM 문제 해결, USB KV
 
 이 가이드는 Openterface Mini-KVM 장치에서 진단 자기 점검을 실행하는 단계별 지침을 제공합니다.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-K6Idzky3fY?si=r7pZgCkBzzZXgrLT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ---
 
 ## 정상 작동 상태

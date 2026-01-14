@@ -8,6 +8,9 @@ keywords: "Openterface Mini-KVM, Diagnose Selbsttest, KVM-Problembehandlung, USB
 
 Dieses Handbuch enthält Schritt-für-Schritt-Anweisungen zur Durchführung von Diagnose Selbsttests am Openterface Mini-KVM-Gerät.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-K6Idzky3fY?si=r7pZgCkBzzZXgrLT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ---
 
 ## Gutes Gerät
