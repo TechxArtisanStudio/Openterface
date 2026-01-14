@@ -1,39 +1,39 @@
-<!DOCTYPE html><html lang="zh" class="no-js"><head>
+<!DOCTYPE html><html lang="en" class="no-js"><head>
     
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Openterface Mini-KVM 键盘和鼠标控制问题排查指南。了解如何解决 HID 通信问题、错误的电缆连接、USB 集线器问题和 HID 芯片僵尸状态。">
+        <meta name="description" content="Step-by-step guide for running diagnostic self-checks on the Openterface Mini-KVM device. Learn how to test USB connections, detect issues, and send defect reports to support.">
       
       
         <meta name="author" content="Openterface">
       
       
-        <link rel="canonical" href="https://openterface.com/zh/product/minikvm/support/keyboard-mouse-control/">
+        <link rel="canonical" href="https://openterface.com/product/minikvm/support/diagnostic-self-check/">
       
       
       
       
         
-          <link rel="alternate" href="../../../../../product/minikvm/support/keyboard-mouse-control/" hreflang="en">
+          <link rel="alternate" href="./" hreflang="en">
         
-          <link rel="alternate" href="./" hreflang="zh">
+          <link rel="alternate" href="../../../../zh/product/minikvm/support/diagnostic-self-check/" hreflang="zh">
         
-          <link rel="alternate" href="../../../../../ja/product/minikvm/support/keyboard-mouse-control/" hreflang="ja">
+          <link rel="alternate" href="../../../../ja/product/minikvm/support/diagnostic-self-check/" hreflang="ja">
         
-          <link rel="alternate" href="../../../../../ko/product/minikvm/support/keyboard-mouse-control/" hreflang="ko">
+          <link rel="alternate" href="../../../../ko/product/minikvm/support/diagnostic-self-check/" hreflang="ko">
         
-          <link rel="alternate" href="../../../../../fr/product/minikvm/support/keyboard-mouse-control/" hreflang="fr">
+          <link rel="alternate" href="../../../../fr/product/minikvm/support/diagnostic-self-check/" hreflang="fr">
         
-          <link rel="alternate" href="../../../../../de/product/minikvm/support/keyboard-mouse-control/" hreflang="de">
+          <link rel="alternate" href="../../../../de/product/minikvm/support/diagnostic-self-check/" hreflang="de">
         
-          <link rel="alternate" href="../../../../../it/product/minikvm/support/keyboard-mouse-control/" hreflang="it">
+          <link rel="alternate" href="../../../../it/product/minikvm/support/diagnostic-self-check/" hreflang="it">
         
-          <link rel="alternate" href="../../../../../es/product/minikvm/support/keyboard-mouse-control/" hreflang="es">
+          <link rel="alternate" href="../../../../es/product/minikvm/support/diagnostic-self-check/" hreflang="es">
         
-          <link rel="alternate" href="../../../../../pt/product/minikvm/support/keyboard-mouse-control/" hreflang="pt">
+          <link rel="alternate" href="../../../../pt/product/minikvm/support/diagnostic-self-check/" hreflang="pt">
         
-          <link rel="alternate" href="../../../../../ro/product/minikvm/support/keyboard-mouse-control/" hreflang="ro">
+          <link rel="alternate" href="../../../../ro/product/minikvm/support/diagnostic-self-check/" hreflang="ro">
         
       
       
@@ -42,14 +42,14 @@
     
     
       
-        <title>键盘和鼠标控制问题排查 - Openterface Mini-KVM - Openterface | 连接接口，开启无限可能</title>
+        <title>Openterface Mini-KVM - Diagnostic Self-Check Guide - Openterface | Bridging Interfaces to Open Possibilities</title>
       
     
     
-      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
   
@@ -133,11 +133,9 @@
       
     
     
-      <link rel="stylesheet" href="../../../../../css/timeago.css">
+      <link rel="stylesheet" href="../../../../css/timeago.css">
     
-      <link rel="stylesheet" href="../../../../../css/timeago.css">
-    
-    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -153,8 +151,8 @@
 
     
     
-  <link rel="stylesheet" href="../../../../../assets/stylesheets/custom.css">
-  <link rel="stylesheet" href="../../../../../assets/stylesheets/signup_form.css">
+  <link rel="stylesheet" href="../../../../assets/stylesheets/custom.css">
+  <link rel="stylesheet" href="../../../../assets/stylesheets/signup_form.css">
   
   <!-- Conditionally load slideshow.css only on product pages -->
   
@@ -166,7 +164,7 @@
   
 
   <!-- Gibby Avatar and Dialogue Box -->
-  <link href="../../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+  <link href="../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
@@ -396,8 +394,8 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
-          跳转至
+        <a href="#openterface-mini-kvm-diagnostic-self-check-guide" class="md-skip">
+          Skip to content
         </a>
       
     </div>
@@ -414,10 +412,10 @@
 
 <!-- Header -->
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="页眉">
+  <nav class="md-header__inner md-grid" aria-label="Header">
 
     <!-- Link to home -->
-    <a href="../../../../" title="Openterface | 连接接口，开启无限可能" class="md-header__button md-logo" aria-label="Openterface | 连接接口，开启无限可能" data-md-component="logo">
+    <a href="../../../.." title="Openterface | Bridging Interfaces to Open Possibilities" class="md-header__button md-logo" aria-label="Openterface | Bridging Interfaces to Open Possibilities" data-md-component="logo">
       
   <img src="https://assets.openterface.com/images/app-logo.png" alt="logo">
 
@@ -434,13 +432,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Openterface | 连接接口，开启无限可能
+            Openterface | Bridging Interfaces to Open Possibilities
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              键盘和鼠标控制问题排查 - Openterface Mini-KVM
+              Openterface Mini-KVM - Diagnostic Self-Check Guide
             
           </span>
         </div>
@@ -486,68 +484,68 @@
       <div class="md-header__option">
   <div class="md-select">
     
-    <button class="md-header__button md-icon" aria-label="选择当前语言">
+    <button class="md-header__button md-icon" aria-label="Select language">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
     </button>
     <div class="md-select__inner">
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../../../../../product/minikvm/support/keyboard-mouse-control/" hreflang="en" class="md-select__link">
+            <a href="./" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="./" hreflang="zh" class="md-select__link">
+            <a href="../../../../zh/product/minikvm/support/diagnostic-self-check/" hreflang="zh" class="md-select__link">
               简体中文
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../../ja/product/minikvm/support/keyboard-mouse-control/" hreflang="ja" class="md-select__link">
+            <a href="../../../../ja/product/minikvm/support/diagnostic-self-check/" hreflang="ja" class="md-select__link">
               日本語
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../../ko/product/minikvm/support/keyboard-mouse-control/" hreflang="ko" class="md-select__link">
+            <a href="../../../../ko/product/minikvm/support/diagnostic-self-check/" hreflang="ko" class="md-select__link">
               한국어
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../../fr/product/minikvm/support/keyboard-mouse-control/" hreflang="fr" class="md-select__link">
+            <a href="../../../../fr/product/minikvm/support/diagnostic-self-check/" hreflang="fr" class="md-select__link">
               Français
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../../de/product/minikvm/support/keyboard-mouse-control/" hreflang="de" class="md-select__link">
+            <a href="../../../../de/product/minikvm/support/diagnostic-self-check/" hreflang="de" class="md-select__link">
               Deutsch
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../../it/product/minikvm/support/keyboard-mouse-control/" hreflang="it" class="md-select__link">
+            <a href="../../../../it/product/minikvm/support/diagnostic-self-check/" hreflang="it" class="md-select__link">
               Italiano
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../../es/product/minikvm/support/keyboard-mouse-control/" hreflang="es" class="md-select__link">
+            <a href="../../../../es/product/minikvm/support/diagnostic-self-check/" hreflang="es" class="md-select__link">
               Español
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../../pt/product/minikvm/support/keyboard-mouse-control/" hreflang="pt" class="md-select__link">
+            <a href="../../../../pt/product/minikvm/support/diagnostic-self-check/" hreflang="pt" class="md-select__link">
               Português
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../../ro/product/minikvm/support/keyboard-mouse-control/" hreflang="ro" class="md-select__link">
+            <a href="../../../../ro/product/minikvm/support/diagnostic-self-check/" hreflang="ro" class="md-select__link">
               Română
             </a>
           </li>
@@ -574,16 +572,16 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
       </label>
-      <nav class="md-search__options" aria-label="查找">
+      <nav class="md-search__options" aria-label="Search">
         
-        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
         </button>
@@ -596,7 +594,7 @@
       <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            正在初始化搜索引擎
+            Initializing search
           </div>
           <ol class="md-search-result__list" role="presentation"></ol>
         </div>
@@ -610,7 +608,7 @@
     <!-- Repository information -->
     
       <div class="md-header__source">
-        <a href="https://github.com/TechxArtisanStudio/Openterface" title="前往仓库" class="md-source" data-md-component="source">
+        <a href="https://github.com/TechxArtisanStudio/Openterface" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
@@ -627,14 +625,15 @@
   
     
       <!-- Custom Navigation Tabs -->
-<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="custom-nav-container">
     
       
         <!-- Simple link item -->
         
-          <a href="../../../../" class="nav-item">
-            首页
+          <!-- Special handling for Home page - uses homepage title for any language -->
+          <a href="../../../.." class="nav-item">
+            Home
           </a>
         
       
@@ -645,7 +644,7 @@
           
           
             <a href="../../../../faq/" class="nav-item">
-              常见问题
+              FAQs
               <span class="dropdown-arrow">▼</span>
             </a>
           
@@ -655,14 +654,14 @@
               
                 <!-- Direct child with URL -->
                 <a href="../../../../faq/" class="dropdown-item">
-                  概览
+                  Overview
                 </a>
               
             
               
                 <!-- Direct child with URL -->
                 <a href="../../../../faq/kvm-over-usb/" class="dropdown-item">
-                  KVM-over-USB 基础
+                  KVM-over-USB
                 </a>
               
             
@@ -674,7 +673,7 @@
         <!-- Simple link item -->
         
           <a href="../../../../support/" class="nav-item">
-            支持
+            Support
           </a>
         
       
@@ -685,7 +684,7 @@
           
           
             <span class="nav-item">
-              产品
+              Product
               <span class="dropdown-arrow">▼</span>
             </span>
           
@@ -707,7 +706,7 @@
                 
                 
                   <a href="../../" class="dropdown-item">
-                    Mini‑KVM 👑
+                    Mini-KVM 👑
                   </a>
                 
               
@@ -727,7 +726,7 @@
                 
                 
                   <a href="../../../accessories/" class="dropdown-item">
-                    配件
+                    Accessories
                   </a>
                 
               
@@ -742,7 +741,7 @@
           
           
             <a href="../../../../app/overview/" class="nav-item">
-              应用
+              App
               <span class="dropdown-arrow">▼</span>
             </a>
           
@@ -752,7 +751,7 @@
               
                 <!-- Direct child with URL -->
                 <a href="../../../../app/overview/" class="dropdown-item">
-                  概览
+                  Overview
                 </a>
               
             
@@ -761,7 +760,7 @@
                 
                 
                   <a href="../../../../app/qt/" class="dropdown-item">
-                    Windows 与 Linux
+                    Win &amp; Linux
                   </a>
                 
               
@@ -771,7 +770,7 @@
                 
                 
                   <a href="../../../../app/macos/" class="dropdown-item">
-                    macOS
+                    MacOS
                   </a>
                 
               
@@ -799,7 +798,7 @@
               
                 <!-- Direct child with URL -->
                 <a href="../../../../app/faq/" class="dropdown-item">
-                  常见问题
+                  FAQs
                 </a>
               
             
@@ -811,7 +810,7 @@
         <!-- Simple link item -->
         
           <a href="../../../../videos/" class="nav-item">
-            视频
+            Videos
           </a>
         
       
@@ -820,7 +819,7 @@
         <!-- Simple link item -->
         
           <a href="../../../../use-cases/" class="nav-item">
-            使用场景
+            Use Cases
           </a>
         
       
@@ -829,7 +828,7 @@
         <!-- Simple link item -->
         
           <a href="https://shop.techxartisan.com" class="nav-item">
-            商店
+            Shop
           </a>
         
       
@@ -840,7 +839,7 @@
           
           
             <span class="nav-item">
-              关于
+              About
               <span class="dropdown-arrow">▼</span>
             </span>
           
@@ -852,7 +851,7 @@
                 
                 
                   <a href="../../../../event/" class="dropdown-item">
-                    活动
+                    Events
                   </a>
                 
               
@@ -860,56 +859,56 @@
               
                 <!-- Direct child with URL -->
                 <a href="../../../../about/community/" class="dropdown-item">
-                  社区
+                  Community
                 </a>
               
             
               
                 <!-- Direct child with URL -->
                 <a href="../../../../about/multi-languages/" class="dropdown-item">
-                  多语言
+                  Multi-Languages
                 </a>
               
             
               
                 <!-- Direct child with URL -->
                 <a href="../../../../about/compliance/" class="dropdown-item">
-                  合规
+                  Compliance
                 </a>
               
             
               
                 <!-- Direct child with URL -->
                 <a href="../../../../about/contribute-support/" class="dropdown-item">
-                  贡献与支持
+                  Contribute &amp; Support
                 </a>
               
             
               
                 <!-- Direct child with URL -->
                 <a href="../../../../about/media/" class="dropdown-item">
-                  评测与媒体
+                  Reviews &amp; Media
                 </a>
               
             
               
                 <!-- Direct child with URL -->
                 <a href="../../../../about/bulk_orders/" class="dropdown-item">
-                  批量订单
+                  Bulk Orders
                 </a>
               
             
               
                 <!-- Direct child with URL -->
                 <a href="../../../../about/enterprise/" class="dropdown-item">
-                  企业
+                  For Enterprise
                 </a>
               
             
               
                 <!-- Direct child with URL -->
                 <a href="../../../../about/about-us/" class="dropdown-item">
-                  关于我们
+                  About Us
                 </a>
               
             
@@ -945,18 +944,18 @@
 
   
 
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="导航栏" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../../../" title="Openterface | 连接接口，开启无限可能" class="md-nav__button md-logo" aria-label="Openterface | 连接接口，开启无限可能" data-md-component="logo">
+    <a href="../../../.." title="Openterface | Bridging Interfaces to Open Possibilities" class="md-nav__button md-logo" aria-label="Openterface | Bridging Interfaces to Open Possibilities" data-md-component="logo">
       
   <img src="https://assets.openterface.com/images/app-logo.png" alt="logo">
 
     </a>
-    Openterface | 连接接口，开启无限可能
+    Openterface | Bridging Interfaces to Open Possibilities
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/TechxArtisanStudio/Openterface" title="前往仓库" class="md-source" data-md-component="source">
+      <a href="https://github.com/TechxArtisanStudio/Openterface" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
@@ -976,14 +975,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../" class="md-nav__link">
+      <a href="../../../.." class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    首页
+    Home
   
 
     
@@ -1033,7 +1032,7 @@
   <span class="md-ellipsis">
     
   
-    常见问题
+    FAQs
   
 
     
@@ -1055,7 +1054,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    常见问题
+    FAQs
   
 
           </label>
@@ -1077,7 +1076,7 @@
   <span class="md-ellipsis">
     
   
-    KVM-over-USB 基础
+    KVM-over-USB
   
 
     
@@ -1112,7 +1111,7 @@
   <span class="md-ellipsis">
     
   
-    支持
+    Support
   
 
     
@@ -1163,7 +1162,7 @@
   <span class="md-ellipsis">
     
   
-    产品
+    Product
   
 
     
@@ -1179,7 +1178,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    产品
+    Product
   
 
           </label>
@@ -1282,7 +1281,7 @@
   <span class="md-ellipsis">
     
   
-    特性与规格
+    Features
   
 
     
@@ -1310,7 +1309,7 @@
   <span class="md-ellipsis">
     
   
-    包装清单
+    What's In The Box
   
 
     
@@ -1338,7 +1337,7 @@
   <span class="md-ellipsis">
     
   
-    如何连接
+    How To Connect
   
 
     
@@ -1366,7 +1365,7 @@
   <span class="md-ellipsis">
     
   
-    Beta快速开始
+    Beta Quick Start
   
 
     
@@ -1394,7 +1393,7 @@
   <span class="md-ellipsis">
     
   
-    MicroSD切换器
+    MicroSD Switch
   
 
     
@@ -1422,7 +1421,7 @@
   <span class="md-ellipsis">
     
   
-    KVM-Go常见问题
+    FAQs for KVM-Go
   
 
     
@@ -1443,14 +1442,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../videos/?p=kvm-go" class="md-nav__link">
+      <a href="../../../../videos/?p=kvm-go" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    视频
+    Videos
   
 
     
@@ -1498,7 +1497,7 @@
   <span class="md-ellipsis">
     
   
-    评测与媒体报道
+    Reviews &amp; Press
   
 
     
@@ -1514,7 +1513,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    评测与媒体报道
+    Reviews &amp; Press
   
 
           </label>
@@ -1534,7 +1533,7 @@
   <span class="md-ellipsis">
     
   
-    用户评价
+    Testimonials
   
 
     
@@ -1562,7 +1561,7 @@
   <span class="md-ellipsis">
     
   
-    媒体报道
+    Media Coverage
   
 
     
@@ -1598,7 +1597,7 @@
   <span class="md-ellipsis">
     
   
-    KVM-Go更新
+    Updates for KVM-Go
   
 
     
@@ -1673,7 +1672,7 @@
   <span class="md-ellipsis">
     
   
-    Mini‑KVM 👑
+    Mini-KVM 👑
   
 
     
@@ -1695,7 +1694,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Mini‑KVM 👑
+    Mini-KVM 👑
   
 
           </label>
@@ -1717,7 +1716,7 @@
   <span class="md-ellipsis">
     
   
-    特性与规格
+    Features
   
 
     
@@ -1745,7 +1744,7 @@
   <span class="md-ellipsis">
     
   
-    包装清单
+    What's In The Box
   
 
     
@@ -1773,7 +1772,7 @@
   <span class="md-ellipsis">
     
   
-    如何连接
+    How To Connect
   
 
     
@@ -1801,7 +1800,7 @@
   <span class="md-ellipsis">
     
   
-    USB 切换器
+    USB Switch
   
 
     
@@ -1829,7 +1828,7 @@
   <span class="md-ellipsis">
     
   
-    扩展引脚
+    Extension Pins
   
 
     
@@ -1857,7 +1856,7 @@
   <span class="md-ellipsis">
     
   
-    Mini‑KVM 常见问题
+    FAQs for Mini-KVM
   
 
     
@@ -1878,14 +1877,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../videos/?p=minikvm" class="md-nav__link">
+      <a href="../../../../videos/?p=minikvm" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    视频
+    Videos
   
 
     
@@ -1938,7 +1937,7 @@
   <span class="md-ellipsis">
     
   
-    评测与媒体报道
+    Reviews &amp; Press
   
 
     
@@ -1960,7 +1959,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    评测与媒体报道
+    Reviews &amp; Press
   
 
           </label>
@@ -1982,7 +1981,7 @@
   <span class="md-ellipsis">
     
   
-    用户评价
+    Testimonials
   
 
     
@@ -2010,7 +2009,7 @@
   <span class="md-ellipsis">
     
   
-    媒体报道
+    Media Coverage
   
 
     
@@ -2046,7 +2045,7 @@
   <span class="md-ellipsis">
     
   
-    Mini-KVM 更新
+    Updates for Mini-KVM
   
 
     
@@ -2163,7 +2162,7 @@
   <span class="md-ellipsis">
     
   
-    特性与规格
+    Features
   
 
     
@@ -2191,7 +2190,7 @@
   <span class="md-ellipsis">
     
   
-    包装清单
+    What's In The Box
   
 
     
@@ -2219,7 +2218,7 @@
   <span class="md-ellipsis">
     
   
-    硬件安装
+    Hardware Installation
   
 
     
@@ -2247,7 +2246,7 @@
   <span class="md-ellipsis">
     
   
-    软件设置
+    Software Setup
   
 
     
@@ -2275,7 +2274,7 @@
   <span class="md-ellipsis">
     
   
-    连接目标设备
+    Connect to Target
   
 
     
@@ -2303,7 +2302,7 @@
   <span class="md-ellipsis">
     
   
-    KVM 扩展常见问题
+    FAQs for KVM Ext.
   
 
     
@@ -2324,14 +2323,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../videos/?p=uconsole-kvm-extension" class="md-nav__link">
+      <a href="../../../../videos/?p=uconsole-kvm-extension" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    视频
+    Videos
   
 
     
@@ -2359,7 +2358,7 @@
   <span class="md-ellipsis">
     
   
-    KVM 扩展更新
+    Updates for KVM Ext.
   
 
     
@@ -2428,7 +2427,7 @@
   <span class="md-ellipsis">
     
   
-    配件
+    Accessories
   
 
     
@@ -2450,7 +2449,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    配件
+    Accessories
   
 
           </label>
@@ -2472,7 +2471,7 @@
   <span class="md-ellipsis">
     
   
-    VGA 转 HDMI 线 1m
+    VGA to HDMI Cable 1m
   
 
     
@@ -2500,7 +2499,7 @@
   <span class="md-ellipsis">
     
   
-    Type‑C to C 尼龙线 1.5m
+    Type-C to C Cable Nylon 1.5m
   
 
     
@@ -2528,7 +2527,7 @@
   <span class="md-ellipsis">
     
   
-    Type‑C to C 橙色线 1.5m
+    Type-C to C Cable Orange 1.5m
   
 
     
@@ -2556,7 +2555,7 @@
   <span class="md-ellipsis">
     
   
-    Type‑C to A 黑色线 30cm
+    Type-C to A Cable Black 30cm
   
 
     
@@ -2584,7 +2583,7 @@
   <span class="md-ellipsis">
     
   
-    HDMI 线 30cm
+    HDMI Cable 30cm
   
 
     
@@ -2612,7 +2611,7 @@
   <span class="md-ellipsis">
     
   
-    工具包
+    Toolkit Bag
   
 
     
@@ -2683,7 +2682,7 @@
   <span class="md-ellipsis">
     
   
-    应用
+    App
   
 
     
@@ -2699,7 +2698,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    应用
+    App
   
 
           </label>
@@ -2719,7 +2718,7 @@
   <span class="md-ellipsis">
     
   
-    概览
+    Overview
   
 
     
@@ -2768,7 +2767,7 @@
   <span class="md-ellipsis">
     
   
-    Windows 与 Linux
+    Win &amp; Linux
   
 
     
@@ -2785,7 +2784,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Windows 与 Linux
+    Win &amp; Linux
   
 
           </label>
@@ -2838,7 +2837,7 @@
   <span class="md-ellipsis">
     
   
-    macOS
+    MacOS
   
 
     
@@ -2860,7 +2859,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    macOS
+    MacOS
   
 
           </label>
@@ -2882,7 +2881,7 @@
   <span class="md-ellipsis">
     
   
-    DMG 安装
+    DMG Installation
   
 
     
@@ -3054,7 +3053,7 @@
   <span class="md-ellipsis">
     
   
-    常见问题
+    FAQs
   
 
     
@@ -3089,7 +3088,7 @@
   <span class="md-ellipsis">
     
   
-    视频
+    Videos
   
 
     
@@ -3116,7 +3115,7 @@
   <span class="md-ellipsis">
     
   
-    使用场景
+    Use Cases
   
 
     
@@ -3143,7 +3142,7 @@
   <span class="md-ellipsis">
     
   
-    商店
+    Shop
   
 
     
@@ -3204,7 +3203,7 @@
   <span class="md-ellipsis">
     
   
-    关于
+    About
   
 
     
@@ -3220,7 +3219,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    关于
+    About
   
 
           </label>
@@ -3261,7 +3260,7 @@
   <span class="md-ellipsis">
     
   
-    活动
+    Events
   
 
     
@@ -3278,7 +3277,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    活动
+    Events
   
 
           </label>
@@ -3308,7 +3307,7 @@
   <span class="md-ellipsis">
     
   
-    社区
+    Community
   
 
     
@@ -3336,7 +3335,7 @@
   <span class="md-ellipsis">
     
   
-    多语言
+    Multi-Languages
   
 
     
@@ -3364,7 +3363,7 @@
   <span class="md-ellipsis">
     
   
-    合规
+    Compliance
   
 
     
@@ -3392,7 +3391,7 @@
   <span class="md-ellipsis">
     
   
-    贡献与支持
+    Contribute &amp; Support
   
 
     
@@ -3420,7 +3419,7 @@
   <span class="md-ellipsis">
     
   
-    评测与媒体
+    Reviews &amp; Media
   
 
     
@@ -3448,7 +3447,7 @@
   <span class="md-ellipsis">
     
   
-    批量订单
+    Bulk Orders
   
 
     
@@ -3476,7 +3475,7 @@
   <span class="md-ellipsis">
     
   
-    企业
+    For Enterprise
   
 
     
@@ -3504,7 +3503,7 @@
   <span class="md-ellipsis">
     
   
-    关于我们
+    About Us
   
 
     
@@ -3545,89 +3544,59 @@
   
 
 
-<h1 id="_1"><strong>排查键盘和鼠标无法控制目标计算机的问题</strong></h1>
-<p>偶尔，用户可能会遇到 Openterface 设备的键盘和鼠标功能无法正常工作的情况。本文档概述了最常见的原因及其解决或预防方法。</p>
-<p><strong>软件反馈：</strong> 当 Openterface 因缺少或错误的目标连接而无法建立 HID 通信时，UI 会突出显示状态，以便您快速采取行动。</p>
+<h1 id="openterface-mini-kvm-diagnostic-self-check-guide">Openterface Mini-KVM - Diagnostic Self-Check Guide</h1>
+<p>This guide provides step-by-step instructions for running diagnostic self-checks on the Openterface Mini-KVM device.</p>
+<hr>
+<h2 id="good-unit">Good Unit</h2>
+<p><strong>Step 1:</strong> In the Openterface app, open Settings → Settings…</p>
+<p><strong>Step 2:</strong> In the Settings window, go to Advanced &amp; Debug.</p>
+<p><strong>Step 3:</strong> Click Open Diagnostics Tool.</p>
+<p><strong>Step 4:</strong> When prompted, click Enable to turn on diagnostic logging.</p>
+<p><strong>Step 5:</strong> Click Check Now to start the self-check.</p>
+<p><strong>Step 6:</strong> Click Start Test, then unplug and replug the black USB-C (target side) when asked.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/minikvm/support/target.webp" data-desc-position="bottom"><img alt="minikvm-support-target" src="https://assets.openterface.com/images/minikvm/support/target.webp"></a></p>
+<p><strong>Step 7:</strong> Click Start Test, then unplug and replug the orange USB-C (host side) when asked.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/minikvm/support/host.webp" data-desc-position="bottom"><img alt="minikvm-support-host" src="https://assets.openterface.com/images/minikvm/support/host.webp"></a></p>
+<p><strong>Step 8:</strong> Click Start Test, and wait for the test to complete.</p>
+<p><strong>Step 9:</strong> Click Reset Now, and wait for it to complete.</p>
+<p><strong>Step 10:</strong> Click Change Now, and wait for the baudrate switch to finish.</p>
+<p><strong>Step 11:</strong> Click Start Test, then wait about 30 seconds. Do not operate the target while the test runs.</p>
+<blockquote>
+<p><strong>Note:</strong> Mouse may move quickly. Don't touch the target.</p>
+</blockquote>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/minikvm/support/stress_test.gif" data-desc-position="bottom"><img alt="minikvm-support-stress_test" src="https://assets.openterface.com/images/minikvm/support/stress_test.gif"></a></p>
+<p><strong>Step 12:</strong> Confirm all items show green check marks and the progress is complete.</p>
+<p><strong>Step 13:</strong> Click the ❌ (top-right) to close the Diagnostics window.</p>
+<hr>
+<h2 id="issue-detected-keyboardmouse-example">Issue Detected (Keyboard/Mouse Example)</h2>
+<p>Follow Steps 1–11 in "Good Unit" first. The notes below explain what you'll see when a keyboard/mouse issue is detected.</p>
+<h2 id="how-this-issue-shows-up">How this issue shows up</h2>
+<p>In this example, Overall Connection shows FAIL first because a target-side keyboard/mouse (HID) issue affects the overall check. This is an early indicator, not a separate issue. (You'll see the FAIL status highlighted next to "Overall Connection" on the left.)</p>
 <ul>
-<li>
-<p>在 <strong>macOS</strong> 上，Openterface 实用程序右上角的键盘和鼠标图标变为 <strong>橙色</strong>。  </p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/software/inactive_keyboardmoue_macos.webp" data-desc-position="bottom"><img src="https://assets.openterface.com/images/software/inactive_keyboardmoue_macos.webp" alt="Inactive keyboard and mouse (macOS)" width="200"></a></p>
-</li>
-<li>
-<p>在 <strong>Windows/Linux</strong> 上，窗口底部的相应图标变为 <strong>红色</strong>。  </p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/software/inactive_keyboardmoue_windows.webp" data-desc-position="bottom"><img src="https://assets.openterface.com/images/software/inactive_keyboardmoue_windows.webp" alt="Inactive keyboard and mouse (Windows)" width="200"></a></p>
-</li>
+<li><strong>Overall Connection:</strong> FAIL is shown here first due to the target-side issue.</li>
 </ul>
-<p>Openterface 中仍有视频显示，但键盘和鼠标无响应——您可以看到目标桌面但无法控制它。这通常意味着 HID 通信未建立（例如，错误的目标电缆、电源不足的集线器或有缺陷的 HID 芯片）；请检查下面的清单和部分。软件还会阻止进一步的键盘/鼠标连接，直到解决布线/问题。</p>
-<hr>
-<h2 id="1"><strong>1. 不正确的电缆连接</strong></h2>
-<p><strong>问题：</strong><br>
-令人惊讶的是很常见：用户忘记将 Openterface 目标 Type-C 端口连接到目标计算机。</p>
-<p><strong>解决方案：</strong><br>
-✅ 始终验证：
-- <strong>目标 Type-C 电缆</strong> 从 Openterface <strong>目标端口</strong> 安全连接到您希望控制的 <strong>目标计算机</strong>。
-- <strong>主机 USB-A/USB-C 电缆</strong> 已连接到您的 <strong>主机/控制计算机</strong>（运行 OpenterfaceQt 或控制软件的地方）。</p>
-<blockquote>
-<p><strong>提示：</strong> 在复杂设置中标记电缆以避免混淆。
-- 将黑色电缆连接到目标连接器的黑色一侧。
-- 将橙色电缆连接到目标连接器的橙色覆盖一侧。</p>
-</blockquote>
-<h2 id="2-usb"><strong>2. 使用无电源 USB 集线器</strong></h2>
-<p><strong>问题：</strong><br>
-通过无电源 USB 集线器连接 Openterface 可能导致 <strong>电源供应不足</strong>（VBUS 电压下降）。这可能导致设备行为异常或无法初始化 HID（键盘/鼠标）功能。</p>
-<p><strong>解决方案：</strong><br>
-✅ <strong>避免使用无电源 USB 集线器</strong> 在 Openterface 和目标计算机之间。<br>
-✅ 如果需要集线器，请使用 <strong>高质量、外接电源的 USB 集线器</strong>，能够提供稳定的 5V 电源。</p>
-<blockquote>
-<p><strong>注意：</strong> USB 电源供应对 HID 芯片的可靠运行至关重要。电压下降会触发内部故障。</p>
-</blockquote>
-<hr>
-<h2 id="3-hid"><strong>3. HID 芯片进入"僵尸状态"</strong></h2>
-<p><strong>问题：</strong><br>
-在某些条件下——例如快速命令突发结合边际电源——内部 HID 芯片（例如 CH9329）可能进入 <strong>"僵尸状态"。</strong> 在此状态下：
-- HID 芯片锁定，停止向主计算机发送串行响应数据。
-- 它保持内部错误状态，防止主机软件正常重新初始化。
-- 设备可能看起来已连接（视频存在），而输入仍无响应。
-- 主机软件（例如 OpenterfaceQt）无法正确重新初始化设备。
-- 重新插入所有电缆或电源循环 USB 连接通常无法清除此内部错误；需要 HID 芯片的出厂重置。</p>
-<p><strong>解决方案：</strong><br>
-执行 <strong>HID 芯片的出厂重置</strong>：</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/minikvm/support/overall_connection.webp" data-desc-position="bottom"><img alt="minikvm-support-overall_connection" src="https://assets.openterface.com/images/minikvm/support/overall_connection.webp"></a></p>
 <ul>
-<li>
-<p>在 <strong>macOS</strong> 上：使用 macOS 实用程序的 <strong>高级菜单</strong> 中提供的 <strong>串行重置工具</strong>。  </p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/software/MacOS_FactoryResetHID.webp" data-desc-position="bottom"><img src="https://assets.openterface.com/images/software/MacOS_FactoryResetHID.webp" alt="Serial Reset Tool (macOS)" width="150"></a></p>
-</li>
-<li>
-<p>在 <strong>OpenterfaceQt</strong>（桌面应用）中：转到 <strong>高级菜单 → HID 芯片出厂重置</strong>。</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/software/OpenterfaceQT_FactoryResetHID.webp" data-desc-position="bottom"><img src="https://assets.openterface.com/images/software/OpenterfaceQT_FactoryResetHID.webp" alt="Factory Reset HID Chip (OpenterfaceQt)" width="150"></a></p>
-</li>
+<li><strong>Target Plug &amp; Play:</strong> After running this step, the result can show the target-side problem more clearly.</li>
 </ul>
 <blockquote>
-<p>这会清除芯片的内部状态并恢复正常操作。</p>
+<p><strong>Tip:</strong> If a step shows FAIL, the diagnostics will not stop, but it may stop auto-advancing—so you'll need to continue manually.</p>
 </blockquote>
-<hr>
-<h2 id="4"><strong>4. 嘈杂环境中的波特率敏感性</strong></h2>
-<p><strong>问题：</strong><br>
-Openterface 默认为 <strong>115200 bps</strong> 波特率以实现更快的鼠标数据传输。但是，在电气噪声环境中（例如，开关电源或长/屏蔽不足的电缆），这种高波特率可能导致 <strong>串行通信错误</strong>，导致 HID 命令丢失或损坏。</p>
-<p><strong>解决方案：</strong><br>
-切换到 <strong>9600 bps</strong> 波特率：
-- 这在嘈杂设置中大大提高了 <strong>通信可靠性</strong>。
-- 对延迟的影响在典型使用中 <strong>可忽略不计</strong>（例如，30 FPS 视频捕获和控制）。</p>
-<blockquote>
-<p><strong>建议：</strong> 如果您在没有电源或连接问题的情况下遇到间歇性输入故障，请尝试在 Openterface 配置中降低波特率。</p>
-</blockquote>
-<hr>
-<h2 id="_2"><strong>摘要清单</strong></h2>
-<p>如果键盘/鼠标不工作：</p>
-<ol>
-<li>✅ 确认正确的 <strong>目标 Type-C 电缆</strong> 已连接到 <strong>目标计算机</strong>。</li>
-<li>✅ 避免使用无电源 USB 集线器——使用直接连接或 <strong>电源集线器</strong>。</li>
-<li>✅ 如果设备看起来"冻结"，通过软件 <strong>重置 HID 芯片</strong>。</li>
-<li>✅ 在不稳定的环境中，<strong>将波特率降低到 9600</strong> 以获得更强大的通信。</li>
-<li>✅ 如果上述尝试没有帮助，请尝试主机上的其他 USB 端口或重启主计算机——操作系统可能在收到过多 USB 错误数据包后禁用端口或集线器。切换端口或重启主机通常会恢复连接。</li>
-</ol>
-<hr>
-<p>通过解决这四个方面，可以预防或快速解决大多数间歇性 HID 问题。如有持续问题，请与支持 (support@openterface.com) 联系并提供您的设置详情和日志。</p>
+<h2 id="extra-final-test-depends-on-the-issue-type">Extra final test (depends on the issue type)</h2>
+<p><strong>Step 12:</strong> After Stress Test, the diagnostics may show an extra final test depending on the detected issue; in this keyboard/mouse example, it continues to Target Port Checking.</p>
+<p><strong>Step 13:</strong> Click "Detect Devices" to start Target Port Checking, then follow the on-screen instructions.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/minikvm/support/target_port_checking.webp" data-desc-position="bottom"><img alt="minikvm-support-target_port_checking" src="https://assets.openterface.com/images/minikvm/support/target_port_checking.webp"></a></p>
+<h2 id="what-happens-when-an-issue-is-detected">What happens when an issue is detected</h2>
+<p><strong>Step 14:</strong> To continue, click Next (bottom bar) or select the next test from the left panel.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/minikvm/support/target_plug_n_play.webp" data-desc-position="bottom"><img alt="minikvm-support-target_plug_n_play" src="https://assets.openterface.com/images/minikvm/support/target_plug_n_play.webp"></a></p>
+<h2 id="sending-logs-to-support">Sending logs to Support</h2>
+<p><strong>Step 15:</strong> Click Send Defect Report to Support to prepare the report for support.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/minikvm/support/send_defect_report_to_support.webp" data-desc-position="bottom"><img alt="minikvm-support-send_defect_report_to_support" src="https://assets.openterface.com/images/minikvm/support/send_defect_report_to_support.webp"></a></p>
+<p><strong>Step 16:</strong> In the Defect Report window, enter your <strong>Order ID</strong> and <strong>Name</strong>.</p>
+<p><strong>Step 17:</strong> Click <strong>Open Log Folder</strong>, then attach the exported <strong>log files</strong> to your email.</p>
+<p><strong>Step 18:</strong> Copy the <strong>support email address</strong>, paste the prefilled <strong>email subject/body</strong>, attach a clear <strong>setup photo</strong> (Mini-KVM + host/target connections), and send the email.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/minikvm/support/support.webp" data-desc-position="bottom"><img alt="minikvm-support-support" src="https://assets.openterface.com/images/minikvm/support/support.webp"></a></p>
+<p><strong>Step 19:</strong> Click the ❌ (top-right) to close the Diagnostics window.</p>
 
 
 
@@ -3647,20 +3616,20 @@ Openterface 默认为 <strong>115200 bps</strong> 波特率以实现更快的鼠
     
       
   <span class="md-source-file__fact">
-    <span class="md-icon" title="最后更新">
+    <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2026年1月14日 03:50:40 UTC"><span class="timeago" datetime="2026-01-14T03:50:40+00:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2026年1月14日 03:50:40 UTC">2026-01-14</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="January 14, 2026 03:50:40 UTC"><span class="timeago" datetime="2026-01-14T03:50:40+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="January 14, 2026 03:50:40 UTC">2026-01-14</span>
   </span>
 
     
     
       
   <span class="md-source-file__fact">
-    <span class="md-icon" title="创建日期">
+    <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2025年12月2日 10:04:24 UTC"><span class="timeago" datetime="2025-12-02T10:04:24+00:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2025年12月2日 10:04:24 UTC">2025-12-02</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="January 14, 2026 03:50:40 UTC"><span class="timeago" datetime="2026-01-14T03:50:40+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="January 14, 2026 03:50:40 UTC">2026-01-14</span>
   </span>
 
     
@@ -3687,7 +3656,7 @@ Openterface 默认为 <strong>115200 bps</strong> 波特率以实现更快的鼠
           <button type="button" class="md-top md-icon" data-md-component="top" hidden>
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
-  回到页面顶部
+  Back to top
 </button>
         
       </main>
@@ -3736,17 +3705,19 @@ Openterface 默认为 <strong>115200 bps</strong> 波特率以实现更快的鼠
   <!-- Always use our localized copyright, ignore config.copyright -->
   <div class="md-copyright__highlight">
     
-      Copyright © 版权所有。2026 <a href="https://www.openterface.com">Openterface</a> | <a href="https://www.techxartisan.com">TechxArtisan</a><br>
-      <a href="/zh/">首页</a> | <a href="/zh/policy/terms-of-service">服务条款</a> | <a href="/zh/policy/privacy">隐私政策</a> | <a href="#__consent">Cookie</a> | <a href="/zh/about/about-us">关于我们</a> | <a href="/zh/about/multi-languages">语言</a>
+      <!-- Default English -->
+      Copyright © All rights reserved. 2026 <a href="https://www.openterface.com">Openterface</a> | <a href="https://www.techxartisan.com">TechxArtisan</a><br>
+      <a href="/">Home</a> | <a href="/policy/terms-of-service">Terms of Service</a> | <a href="/policy/privacy">Privacy Policy</a> | <a href="#__consent">Cookie</a> | <a href="/about/about-us">About</a> | <a href="/about/multi-languages">Languages</a>
     
   </div>
   
   
     
-      使用
+      <!-- Default English -->
+      Made with
       <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
         Material for MkDocs
-      </a>制作
+      </a>
     
   
 </div>
@@ -3840,7 +3811,7 @@ Openterface 默认为 <strong>115200 bps</strong> 波特率以实现更快的鼠
   <script>
     (function() {
       var langselect = document.createElement('script');
-      langselect.src = "../../../../../assets/javascripts/language-select.js";
+      langselect.src = "../../../../assets/javascripts/language-select.js";
       langselect.async = false; // Load synchronously to ensure it's available
       document.body.appendChild(langselect);
     })();
@@ -3911,14 +3882,14 @@ Openterface 默认为 <strong>115200 bps</strong> 波特率以实现更快的鼠
 <div class="md-consent__controls">
   
     
-      <button class="md-button md-button--primary">同意</button>
+      <button class="md-button md-button--primary">Accept</button>
     
     
     
   
     
     
-      <button type="reset" class="md-button md-button--primary">拒绝</button>
+      <button type="reset" class="md-button md-button--primary">Reject</button>
     
     
   
@@ -3931,27 +3902,23 @@ Openterface 默认为 <strong>115200 bps</strong> 波特率以实现更快的鼠
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["toc.integrate", "toc.follow", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer", "navigation.indexes", "navigation.tracking", "search.suggest", "search.highlight", "content.tabs", "content.code.annotation", "content.code.copy", "content.tabs.link", "last_updated"], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["toc.integrate", "toc.follow", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer", "navigation.indexes", "navigation.tracking", "search.suggest", "search.highlight", "content.tabs", "content.code.annotation", "content.code.copy", "content.tabs.link", "last_updated"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
   
-      <script src="../../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="../../../../../js/timeago.min.js"></script>
+        <script src="../../../../js/timeago.min.js"></script>
       
-        <script src="../../../../../js/timeago_mkdocs_material.js"></script>
-      
-        <script src="../../../../../js/timeago.min.js"></script>
-      
-        <script src="../../../../../js/timeago_mkdocs_material.js"></script>
+        <script src="../../../../js/timeago_mkdocs_material.js"></script>
       
     
 
   <!-- Load i18n handler first (needed for forms translation) -->
-  <script src="../../../../../assets/javascripts/i18n-handler.js"></script>
+  <script src="../../../../assets/javascripts/i18n-handler.js"></script>
   
   <!-- Load subscribe.js globally (needed for footer and product signup forms) -->
-  <script src="../../../../../assets/javascripts/subscribe.js"></script>
+  <script src="../../../../assets/javascripts/subscribe.js"></script>
 
   <!-- Conditionally load youtube-videos-controls.js only on videos pages -->
   
