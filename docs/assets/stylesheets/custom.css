@@ -335,6 +335,36 @@ body.videos-page .md-container {
   cursor: not-allowed;
 }
 
+.carousel-funding-stats {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--md-typeset-color);
+  opacity: 0.85;
+  margin-top: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.carousel-funding-stats .funding-amount {
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+  font-size: 0.9375rem;
+}
+
+.carousel-funding-stats .funding-text {
+  font-weight: 500;
+}
+
+.carousel-funding-stats .funding-separator {
+  opacity: 0.5;
+  margin: 0 0.25rem;
+}
+
+.carousel-funding-stats .funding-backers {
+  font-weight: 500;
+}
+
 .carousel-countdown {
   font-size: 0.875rem;
   color: var(--md-typeset-color);
@@ -847,6 +877,16 @@ body.videos-page .md-container {
   .carousel-actions .md-button {
     font-size: 1rem;
     padding: 0.65rem 1.25rem;
+  }
+
+  .carousel-funding-stats {
+    font-size: 0.8125rem;
+    gap: 0.4rem;
+    margin-top: 0.4rem;
+  }
+
+  .carousel-funding-stats .funding-amount {
+    font-size: 0.875rem;
   }
 
   .carousel-progress-wrapper {
