@@ -62,7 +62,7 @@
 
 .youtube-videos-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
     max-width: 1400px;
     margin: 0 auto;
@@ -318,7 +318,7 @@
 /* Mobile responsive */
 @media (max-width: 768px) {
     .youtube-videos-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
     }
     
