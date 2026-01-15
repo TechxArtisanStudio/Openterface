@@ -128,6 +128,13 @@
     window.history.replaceState(null, "", next);
   }
 
+  function detectPageLanguage() {
+    // Extract language from URL path (e.g., /ja/videos -> "ja", /zh/videos -> "zh")
+    const path = window.location.pathname;
+    const langMatch = path.match(/^\/([a-z]{2})\//);
+    return langMatch ? langMatch[1] : "en";
+  }
+
   function init() {
     const page = document.querySelector(".youtube-videos-page");
     if (!page) return;
@@ -140,6 +147,9 @@
     const languageEl = page.querySelector("#yt-filter-language");
     const visibleEl = page.querySelector("#yt-results-visible");
     const totalEl = page.querySelector("#yt-results-total");
+
+    // Detect page language from URL
+    const pageLanguage = detectPageLanguage();
 
     const cards = Array.from(grid.querySelectorAll(".youtube-video-card"));
     const meta = new Map();
@@ -159,6 +169,8 @@
         product,
         languageCode,
         languageName,
+        // Store page language for prioritization
+        pageLanguage: pageLanguage,
       });
     }
 
@@ -189,6 +201,11 @@
       const sortMode = sortEl ? sortEl.value : "newest";
       const wantProduct = productEl ? productEl.value : "";
       const wantLanguageCode = languageEl ? languageEl.value : "";
+      
+      // Prioritize by language when:
+      // 1. No language filter is active (user hasn't selected a language filter)
+      // 2. Page has a language prefix (e.g., /ja/videos)
+      const shouldPrioritizeLanguage = !wantLanguageCode && pageLanguage && pageLanguage !== "en";
 
       const filtered = cards.filter((card) => {
         const m = meta.get(card);
@@ -200,6 +217,15 @@
       filtered.sort((a, b) => {
         const ma = meta.get(a);
         const mb = meta.get(b);
+
+        // Language prioritization: only when no explicit sort and no language filter
+        if (shouldPrioritizeLanguage) {
+          const aMatches = ma.languageCode && ma.languageCode.toLowerCase() === pageLanguage.toLowerCase();
+          const bMatches = mb.languageCode && mb.languageCode.toLowerCase() === pageLanguage.toLowerCase();
+          if (aMatches !== bMatches) {
+            return aMatches ? -1 : 1; // Matching language comes first
+          }
+        }
 
         if (sortMode === "views") {
           const va = ma.viewsCount || 0;
