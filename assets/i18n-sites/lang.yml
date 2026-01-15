@@ -55,6 +55,7 @@
     Overview: 概览
     Features: 特性与规格
     "How To Connect": 如何连接
+    "Use Cases": 使用场景
     "Hardware Installation": 硬件安装
     "Software Setup": 软件设置
     "Connect to Target": 连接目标设备
@@ -132,6 +133,7 @@
     Overview: 概要
     Features: 機能と仕様
     "How To Connect": "接続方法"
+    "Use Cases": 使用例
     "Hardware Installation": "ハードウェアインストール"
     "Software Setup": "ソフトウェアセットアップ"
     "Connect to Target": "ターゲットデバイスに接続"
@@ -209,6 +211,7 @@
     Overview: 개요
     Features: 기능 및 사양
     "How To Connect": "연결 방법"
+    "Use Cases": 사용 사례
     "Hardware Installation": "하드웨어 설치"
     "Software Setup": "소프트웨어 설정"
     "Connect to Target": "대상 장치 연결"
@@ -286,6 +289,7 @@
     Overview: "Vue d'ensemble"
     Features: Fonctionnalités et spécifications
     "How To Connect": "Comment connecter"
+    "Use Cases": "Cas d'utilisation"
     "Hardware Installation": "Installation du matériel"
     "Software Setup": "Configuration du logiciel"
     "Connect to Target": "Connexion à l'appareil cible"
@@ -363,6 +367,7 @@
     Overview: Übersicht
     Features: Funktionen und Spezifikationen
     "How To Connect": "Verbindung herstellen"
+    "Use Cases": Anwendungsfälle
     "Hardware Installation": "Hardware-Installation"
     "Software Setup": "Software-Einrichtung"
     "Connect to Target": "Zielgerät verbinden"
@@ -440,6 +445,7 @@
     Overview: Panoramica
     Features: Caratteristiche e specifiche
     "How To Connect": "Come collegare"
+    "Use Cases": Casi d'uso
     "Hardware Installation": "Installazione hardware"
     "Software Setup": "Configurazione software"
     "Connect to Target": "Connessione al dispositivo target"
@@ -517,6 +523,7 @@
     Overview: "Descripción general"
     Features: "Características y especificaciones"
     "How To Connect": "Cómo conectar"
+    "Use Cases": Casos de uso
     "Hardware Installation": "Instalación de hardware"
     "Software Setup": "Configuración de software"
     "Connect to Target": "Conectar al dispositivo objetivo"
@@ -594,6 +601,7 @@
     Overview: "Visão geral"
     Features: Recursos e especificações
     "How To Connect": "Como conectar"
+    "Use Cases": Casos de uso
     "Hardware Installation": "Instalação de hardware"
     "Software Setup": "Configuração de software"
     "Connect to Target": "Conectar ao dispositivo de destino"
@@ -671,6 +679,7 @@
     Overview: "Prezentare generală"
     Features: Funcționalități și specificații
     "How To Connect": "Cum se conectează"
+    "Use Cases": Cazuri de utilizare
     "Hardware Installation": "Instalare hardware"
     "Software Setup": "Configurare software"
     "Connect to Target": "Conectare la dispozitivul țintă"
