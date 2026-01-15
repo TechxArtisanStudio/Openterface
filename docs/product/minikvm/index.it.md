@@ -30,10 +30,10 @@ Il nostro **Openterface™ Mini-KVM** è una soluzione [**KVM-over-USB**](/faq/k
 
 <div style="text-align: center; margin: 20px 0 10px 0;">
   <div class="carousel-funding-stats" style="display: inline-flex; justify-content: center;">
-    <span class="funding-amount">$467,060</span>
+    <span class="funding-amount">$467,189</span>
     <span class="funding-text">Finanziato il 13 giu 2024</span>
     <span class="funding-separator">|</span>
-    <span class="funding-backers"><span class="funding-backers-count">3,519</span> <span>Sostenitori</span></span>
+    <span class="funding-backers"><span class="funding-backers-count">3,520</span> <span>Sostenitori</span></span>
   </div>
 </div>
 
@@ -73,7 +73,7 @@ Il nostro **Openterface™ Mini-KVM** è una soluzione [**KVM-over-USB**](/faq/k
 
     ---
 
-    [:material-star-outline: Recensioni](/product/minikvm/reviews/testimonials) / [:material-newspaper-variant-outline: Media](/product/minikvm/reviews/media) / [:material-play-circle-outline: Video YouTube](/it/videos/?p=minikvm) / [:material-newspaper-variant-outline: Totale Aggiornamenti {{ config.extra.minikvm_updates }}](/product/minikvm/updates) / [:material-trophy-outline: Concorso USB KVM DIY 2024](/product/minikvm/updates) / [:material-account-group-outline: Mostra](/product/minikvm/updates)
+    [:material-star-outline: Recensioni](/product/minikvm/reviews/) / [:material-newspaper-variant-outline: Media](/product/minikvm/reviews/) / [:material-play-circle-outline: Video YouTube](/it/videos/?p=minikvm) / [:material-newspaper-variant-outline: Totale Aggiornamenti {{ config.extra.minikvm_updates }}](/product/minikvm/updates) / [:material-trophy-outline: Concorso USB KVM DIY 2024](/product/minikvm/updates) / [:material-account-group-outline: Mostra](/product/minikvm/updates)
 
 </div>
 

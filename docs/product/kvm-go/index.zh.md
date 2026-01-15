@@ -32,7 +32,7 @@ keywords: "KVM-Go, KVM over USB, 超紧凑KVM, 内置HDMI, 钥匙扣KVM, 4K KVM,
     <span class="funding-amount">$88,253</span>
     <span class="funding-text">2025年12月30日完成众筹</span>
     <span class="funding-separator">|</span>
-    <span class="funding-backers"><span class="funding-backers-count">349</span> <span>位支持者</span></span>
+    <span class="funding-backers"><span class="funding-backers-count">351</span> <span>位支持者</span></span>
   </div>
 </div>
 

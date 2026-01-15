@@ -30,10 +30,10 @@ keywords: "Mini-KVM, KVM over USB, KVM over IP, headless control, HDMI KVM, USB 
 
 <div style="text-align: center; margin: 20px 0 10px 0;">
   <div class="carousel-funding-stats" style="display: inline-flex; justify-content: center;">
-    <span class="funding-amount">$467,060</span>
+    <span class="funding-amount">$467,189</span>
     <span class="funding-text">2024년 6월 13일 펀딩 완료</span>
     <span class="funding-separator">|</span>
-    <span class="funding-backers"><span class="funding-backers-count">3,519</span> <span>후원자</span></span>
+    <span class="funding-backers"><span class="funding-backers-count">3,520</span> <span>후원자</span></span>
   </div>
 </div>
 
@@ -73,7 +73,7 @@ keywords: "Mini-KVM, KVM over USB, KVM over IP, headless control, HDMI KVM, USB 
 
     ---
 
-    [:material-star-outline: 리뷰](/product/minikvm/reviews/testimonials) / [:material-newspaper-variant-outline: 미디어](/product/minikvm/reviews/media) / [:material-play-circle-outline: YouTube 비디오](/ko/videos/?p=minikvm) / [:material-newspaper-variant-outline: 총 업데이트 {{ config.extra.minikvm_updates }}](/product/minikvm/updates) / [:material-trophy-outline: USB KVM DIY 콘테스트 2024](/product/minikvm/updates) / [:material-account-group-outline: 전시회](/product/minikvm/updates)
+    [:material-star-outline: 리뷰](/product/minikvm/reviews/) / [:material-newspaper-variant-outline: 미디어](/product/minikvm/reviews/) / [:material-play-circle-outline: YouTube 비디오](/ko/videos/?p=minikvm) / [:material-newspaper-variant-outline: 총 업데이트 {{ config.extra.minikvm_updates }}](/product/minikvm/updates) / [:material-trophy-outline: USB KVM DIY 콘테스트 2024](/product/minikvm/updates) / [:material-account-group-outline: 전시회](/product/minikvm/updates)
 
 </div>
 

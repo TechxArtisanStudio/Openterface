@@ -117,6 +117,8 @@ markdown_extensions:
 - pymdownx.tabbed:
     alternate_style: true
 - pymdownx.betterem
+- pymdownx.snippets:
+    base_path: docs
 - attr_list
 - md_in_html
 - pymdownx.superfences
@@ -152,8 +154,7 @@ nav:
     - FAQs for KVM-Go: product/kvm-go/faq.md
     - Videos: videos/?p=kvm-go
     - Reviews & Press:
-      - Testimonials: product/kvm-go/reviews/testimonials.md
-      - Media Coverage: product/kvm-go/reviews/media.md
+      - Overview: product/kvm-go/reviews/index.md
     - Updates for KVM-Go: product/kvm-go/updates/index.md
   - Mini-KVM 👑:
     - Overview: product/minikvm/index.md
@@ -169,8 +170,6 @@ nav:
       - Keyboard and Mouse Control: product/minikvm/support/keyboard-mouse-control.md
     - Reviews & Press:
       - Overview: product/minikvm/reviews/index.md
-      - Testimonials: product/minikvm/reviews/testimonials.md
-      - Media Coverage: product/minikvm/reviews/media.md
     - Updates for Mini-KVM: product/minikvm/updates/index.md
   - uConsole KVM Extension:
     - Overview: product/uconsole-kvm-extension/index.md
@@ -973,6 +972,10 @@ plugins:
       quick-start.md: product/minikvm/index.md
       basic/usb-switch.md: product/minikvm/usb-switch.md
       product/minikvm-lite/pre-launch.md: product/kvm-go/pre-launch.md
+      product/minikvm/reviews/testimonials.md: product/minikvm/reviews/index.md
+      product/minikvm/reviews/media.md: product/minikvm/reviews/index.md
+      product/kvm-go/reviews/testimonials.md: product/kvm-go/reviews/index.md
+      product/kvm-go/reviews/media.md: product/kvm-go/reviews/index.md
       buy-mini-kvm.md: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
       order.md: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
       shop.md: https://shop.techxartisan.com
