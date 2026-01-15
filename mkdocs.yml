@@ -63,7 +63,7 @@ theme:
       icon: material/weather-night
       name: Switch to light mode
 extra:
-  qt_version: 0.5.10
+  qt_version: 0.5.11
   android_version: v1.2.2
   macos_version: 1.23
   copyright_year: 2026
@@ -149,6 +149,7 @@ nav:
     - Features: product/kvm-go/features.md
     - What's In The Box: product/kvm-go/whats-in-the-box.md
     - How To Connect: product/kvm-go/how-to-connect.md
+    - Use Cases: product/kvm-go/use-cases.md
     - Beta Quick Start: product/kvm-go/beta-quick-start.md
     - MicroSD Switch: product/kvm-go/microsd-switch.md
     - FAQs for KVM-Go: product/kvm-go/faq.md
@@ -311,7 +312,7 @@ plugins:
         Support: サポート
         Product: 製品
         App: アプリ
-        Use Cases: 活用事例
+        Use Cases: 使用例
         Reviews: レビュー
         Compliance: コンプライアンス
         Shop: ショップ
@@ -388,7 +389,7 @@ plugins:
         Support: 지원
         Product: 제품
         App: 앱
-        Use Cases: 활용 사례
+        Use Cases: 사용 사례
         Reviews: 리뷰
         Compliance: 규정 준수
         Shop: 스토어
