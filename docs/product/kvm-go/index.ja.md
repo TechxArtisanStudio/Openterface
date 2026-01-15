@@ -80,6 +80,10 @@ keywords: "KVM-Go, KVM over USB, 超コンパクトKVM, 内蔵HDMI, キーチェ
 
 {% include "partials/product-signup.html" %}
 
+<div markdown="0">
+{% include "partials/videos-grid-kvm-go.ja.html" %}
+</div>
+
 ## 利用可能なモデル
 
 - **KVM-Go HDMI オス** — モダンデバイス用の直接HDMI接続

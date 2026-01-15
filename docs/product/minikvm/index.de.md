@@ -79,3 +79,7 @@ Unser **Openterface™ Mini-KVM** ist eine Plug-and-Play [**KVM-over-USB**](/faq
 </div>
 
 {% include "partials/product-signup.html" %}
+
+<div markdown="0">
+{% include "partials/videos-grid-minikvm.de.html" %}
+</div>

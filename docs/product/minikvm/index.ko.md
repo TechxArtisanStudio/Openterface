@@ -78,3 +78,7 @@ keywords: "Mini-KVM, KVM over USB, KVM over IP, headless control, HDMI KVM, USB 
 </div>
 
 {% include "partials/product-signup.html" %}
+
+<div markdown="0">
+{% include "partials/videos-grid-minikvm.ko.html" %}
+</div>

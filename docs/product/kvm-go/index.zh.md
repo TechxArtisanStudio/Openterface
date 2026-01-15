@@ -80,6 +80,10 @@ keywords: "KVM-Go, KVM over USB, 超紧凑KVM, 内置HDMI, 钥匙扣KVM, 4K KVM,
 
 {% include "partials/product-signup.html" %}
 
+<div markdown="0">
+{% include "partials/videos-grid-kvm-go.zh.html" %}
+</div>
+
 ## 可用型号
 
 - **KVM-Go HDMI 公头** — 现代设备的直接HDMI连接

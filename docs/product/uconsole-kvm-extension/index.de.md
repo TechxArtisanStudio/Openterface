@@ -69,3 +69,7 @@ Die **Openterface KVM Extension** ersetzt das ursprüngliche 4G/LTE-Modem im Erw
 
 {% include "partials/product-signup.html" %}
 
+<div markdown="0">
+{% include "partials/videos-grid-uconsole-kvm-extension.de.html" %}
+</div>
+

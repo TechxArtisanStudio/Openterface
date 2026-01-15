@@ -80,6 +80,10 @@ keywords: "KVM-Go, KVM over USB, 초소형 KVM, 내장 HDMI, 키체인 KVM, 4K K
 
 {% include "partials/product-signup.html" %}
 
+<div markdown="0">
+{% include "partials/videos-grid-kvm-go.ko.html" %}
+</div>
+
 ## 사용 가능한 모델
 
 - **KVM-Go HDMI 수** — 모던 장치용 직접 HDMI 연결

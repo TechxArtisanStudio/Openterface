@@ -80,6 +80,10 @@ După succesul **Openterface Mini-KVM**, cu peste 5.000 de utilizatori în comun
 
 {% include "partials/product-signup.html" %}
 
+<div markdown="0">
+{% include "partials/videos-grid-kvm-go.ro.html" %}
+</div>
+
 ## Modele Disponibile
 
 - **KVM-Go HDMI Mascul** — Conexiune HDMI directă pentru dispozitive moderne

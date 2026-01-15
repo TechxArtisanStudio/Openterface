@@ -80,6 +80,10 @@ Suite au succès d'**Openterface Mini-KVM**, avec plus de 5 000 utilisateurs dan
 
 {% include "partials/product-signup.html" %}
 
+<div markdown="0">
+{% include "partials/videos-grid-kvm-go.fr.html" %}
+</div>
+
 ## Modèles Disponibles
 
 - **KVM-Go HDMI Mâle** — Connexion HDMI directe pour les appareils modernes

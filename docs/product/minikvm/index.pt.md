@@ -77,3 +77,7 @@ Nosso **Openterface™ Mini-KVM** é uma solução [**KVM-over-USB**](/faq/kvm-o
 </div>
 
 {% include "partials/product-signup.html" %}
+
+<div markdown="0">
+{% include "partials/videos-grid-minikvm.pt.html" %}
+</div>

@@ -69,3 +69,7 @@ keywords: "extensie KVM, uConsole KVM, KVM portabil, HDMI KVM, control USB HID, 
 
 {% include "partials/product-signup.html" %}
 
+<div markdown="0">
+{% include "partials/videos-grid-uconsole-kvm-extension.ro.html" %}
+</div>
+

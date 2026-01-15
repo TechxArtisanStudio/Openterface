@@ -69,3 +69,7 @@ keywords: "KVM扩展, uConsole KVM, 便携式KVM, HDMI KVM, USB HID控制, 无�
 
 {% include "partials/product-signup.html" %}
 
+<div markdown="0">
+{% include "partials/videos-grid-uconsole-kvm-extension.zh.html" %}
+</div>
+
