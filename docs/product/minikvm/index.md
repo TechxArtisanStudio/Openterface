@@ -29,10 +29,10 @@ Our **Openterface™ Mini-KVM** is a plug-and-play [**KVM-over-USB**](/faq/kvm-o
 
 <div style="text-align: center; margin: 20px 0 10px 0;">
   <div class="carousel-funding-stats" style="display: inline-flex; justify-content: center;">
-    <span class="funding-amount">$466,678</span>
+    <span class="funding-amount">$467,060</span>
     <span class="funding-text">Funded on Jun 13, 2024</span>
     <span class="funding-separator">|</span>
-    <span class="funding-backers"><span class="funding-backers-count">3,516</span> <span>Backers</span></span>
+    <span class="funding-backers"><span class="funding-backers-count">3,519</span> <span>Backers</span></span>
   </div>
 </div>
 
