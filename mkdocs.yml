@@ -72,7 +72,7 @@ extra:
   exhibition_updates: 3
   uconsole-kvm-extension_updates: 2
   minikvm_updates: 15
-  kvm-go_updates: 6
+  kvm-go_updates: 7
   accessories_updates: 0
   qt_linux_stable: 0.3.19
   minikvm_purchase_link: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
