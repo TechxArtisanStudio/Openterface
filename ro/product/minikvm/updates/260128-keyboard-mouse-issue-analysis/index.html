@@ -3,7 +3,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="A Feature-rich, Open-source and Community-driven KVM-over-USB Solution">
+        <meta name="description" content="A transparent root cause analysis of intermittent keyboard and mouse issues in Openterface MiniKVM, explaining a CH213K ideal diode variation, why normal QA passed, and how the issue was fixed and prevented going forward.">
       
       
         <meta name="author" content="Openterface">
@@ -42,7 +42,7 @@
     
     
       
-        <title>260128 keyboard mouse issue analysis - Openterface | Conectând interfețele pentru a deschide posibilități infinite</title>
+        <title>Openterface MiniKVM Keyboard and Mouse Not Working Issues Root Cause Analysis - Openterface | Conectând interfețele pentru a deschide posibilități infinite</title>
       
     
     
@@ -458,7 +458,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              260128 keyboard mouse issue analysis
+              Openterface MiniKVM Keyboard and Mouse Not Working Issues Root Cause Analysis
             
           </span>
         </div>
@@ -3598,15 +3598,13 @@
   
 
 
-  <h1>260128 keyboard mouse issue analysis</h1>
-
-<h2 id="openterface-minikvm-keyboard-and-mouse-not-working-issues-root-cause-analysis">Openterface MiniKVM Keyboard and Mouse Not Working Issues Root Cause Analysis</h2>
+<h1 id="openterface-minikvm-keyboard-and-mouse-not-working-issues-root-cause-analysis">Openterface MiniKVM Keyboard and Mouse Not Working Issues Root Cause Analysis</h1>
 <p>Over the past month, a number of users have reported intermittent issues with Openterface, most commonly involving keyboard and mouse instability. We want to share a transparent and detailed technical explanation of what happened, how we identified the root cause, and what we have done — and are still doing — in response.</p>
-<h3 id="first-production-batch-stable-and-well-received">First Production Batch: Stable and Well-Received</h3>
+<h2 id="first-production-batch-stable-and-well-received">First Production Batch: Stable and Well-Received</h2>
 <p>During our crowdfunding campaign, we produced the first batch of <strong>4,000 Openterface units</strong>.<br>
 This batch went through our full internal QA process, and overall quality was very solid. Only a small number of issues were reported, and the vast majority of users were satisfied with the stability and usability of the product.</p>
 <p>This gave us confidence that both the hardware design and the production process were sound.</p>
-<h3 id="second-batch-same-design-same-factory-same-components">Second Batch: Same Design, Same Factory, “Same” Components</h3>
+<h2 id="second-batch-same-design-same-factory-same-components">Second Batch: Same Design, Same Factory, “Same” Components</h2>
 <p>After the first batch sold out, we produced a second batch of <strong>500 Openterface units</strong>, manufactured in the same factory and using components sourced from the same suppliers.</p>
 <p>One key component involved is the <strong>CH213K ideal diode</strong>, sourced from <strong>WCH</strong>.<br>
 In Openterface, this component is used to <strong>protect and isolate the USB power paths between the Host side and the Target side</strong>, preventing reverse current and unintended power injection.</p>
@@ -3617,10 +3615,10 @@ In Openterface, this component is used to <strong>protect and isolate the USB po
 </ul>
 <p>Because the part number, supplier, and published specifications were unchanged, we treated this as a routine batch or marking update and did not initially consider it a risk factor.</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/blog/20260128/Ch213K_Compare.webp" data-desc-position="bottom"><img alt="CH213K_Compare.png" src="https://assets.openterface.com/images/blog/20260128/Ch213K_Compare.webp"></a></p>
-<h3 id="qa-results-subtle-signals-that-were-easy-to-miss">QA Results: Subtle Signals That Were Easy to Miss</h3>
+<h2 id="qa-results-subtle-signals-that-were-easy-to-miss">QA Results: Subtle Signals That Were Easy to Miss</h2>
 <p>We ran the same QA procedures as with the first batch.<br>
 The overall defect rate increased slightly but remained within what we considered an acceptable range. No single failure mode stood out clearly, and the results did not point to a specific component or design issue. In hindsight, this subtle degradation was an early signal that we did not investigate deeply enough.</p>
-<h3 id="user-reports-triggered-deeper-investigation">User Reports Triggered Deeper Investigation</h3>
+<h2 id="user-reports-triggered-deeper-investigation">User Reports Triggered Deeper Investigation</h2>
 <p>Starting last month, we began receiving an increasing number of user reports describing keyboard and mouse not working as expected. A notable characteristic of these reports was that the issue appeared to depend on variables such as:</p>
 <ul>
 <li>The host computer</li>
@@ -3629,7 +3627,7 @@ The overall defect rate increased slightly but remained within what we considere
 </ul>
 <p>This variability suggested a <strong>power-path edge case</strong>, rather than a firmware or USB protocol problem. We therefore started a systematic comparison of all factors that had changed between production batches.</p>
 <p>Through this process, we identified the <strong>CH213K ideal diode with the “3k10” marking</strong> as the common factor across affected units.</p>
-<h3 id="root-cause-low-probability-environment-dependent-power-instability">Root Cause: Low-Probability, Environment-Dependent Power Instability</h3>
+<h2 id="root-cause-low-probability-environment-dependent-power-instability">Root Cause: Low-Probability, Environment-Dependent Power Instability</h2>
 <p>Through voltage measurements and comparative testing, we observed the following behavior:</p>
 <ul>
 <li>Units using the older <strong>“13K”</strong> ideal diode:</li>
@@ -3642,7 +3640,7 @@ The overall defect rate increased slightly but remained within what we considere
 <p>Because the CH213K sits directly in the USB power path, voltage instability at this point can propagate downstream and affect USB HID behavior, resulting in intermittent keyboard or mouse failures.</p>
 <p>Although both components are labeled <strong>CH213K</strong>, real-world behavior under varying USB power conditions appears to differ between these markings or internal manufacturing revisions.</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/blog/20260128/CH213K_InternalVoltage.webp" data-desc-position="bottom"><img alt="CH213K_InternalVoltage" src="https://assets.openterface.com/images/blog/20260128/CH213K_InternalVoltage.webp"></a></p>
-<h3 id="validation-restoring-stability-with-additional-output-capacitance">Validation: Restoring Stability with Additional Output Capacitance</h3>
+<h2 id="validation-restoring-stability-with-additional-output-capacitance">Validation: Restoring Stability with Additional Output Capacitance</h2>
 <p>To validate our hypothesis, we introduced a targeted hardware change:</p>
 <ul>
 <li>Adding a <strong>10 µF capacitor</strong> at the output of the CH213K ideal diode.</li>
@@ -3662,7 +3660,7 @@ The overall defect rate increased slightly but remained within what we considere
 <li><strong>Live technical support for faster resolution</strong><br>
    For users who have difficulty diagnosing the issue, we offer <strong>live calls</strong> to walk through the checks together. This avoids long back-and-forth email exchanges and allows us to identify and resolve problems much more quickly.</li>
 </ol>
-<h3 id="lessons-learned">Lessons Learned</h3>
+<h2 id="lessons-learned">Lessons Learned</h2>
 <p>This incident reinforced several important lessons for us:</p>
 <ol>
 <li>Even when part numbers remain unchanged, power-path components can exhibit subtle behavior differences between batches or internal revisions.</li>
@@ -3670,7 +3668,7 @@ The overall defect rate increased slightly but remained within what we considere
 <li>USB power environments vary widely in the real world and are difficult to fully replicate in controlled testing.</li>
 <li>Fast, human-to-human support matters just as much as technical fixes when issues do occur.</li>
 </ol>
-<h3 id="our-commitment-going-forward">Our Commitment Going Forward</h3>
+<h2 id="our-commitment-going-forward">Our Commitment Going Forward</h2>
 <p>We take full responsibility for this issue and for not identifying it earlier. Transparency matters to us, and we believe our users deserve a clear and honest technical explanation.</p>
 <p>Going forward, we are:</p>
 <ul>
@@ -3705,7 +3703,7 @@ The overall defect rate increased slightly but remained within what we considere
     <span class="md-icon" title="Ultima actualizare">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="January 28, 2026 05:40:32 UTC"><span class="timeago" datetime="2026-01-28T05:40:32+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="January 28, 2026 05:40:32 UTC">2026-01-28</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="January 28, 2026 05:47:58 UTC"><span class="timeago" datetime="2026-01-28T05:47:58+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="January 28, 2026 05:47:58 UTC">2026-01-28</span>
   </span>
 
     
