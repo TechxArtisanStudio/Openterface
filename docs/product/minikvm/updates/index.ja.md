@@ -4,6 +4,7 @@
 
 ## Updates
 
+- 2026-01-28: [Openterface MiniKVM キーボード／マウスが動作しない問題の根本原因分析](260128-keyboard-mouse-issue-analysis.ja.md)
 - 2025-08-30: [KVM-Go にこんにちは – あなたの KVM アドベンチャーの次の超ポータブル章](250830-kvm-go-pre-launch.ja.md)
 - 2025-05-19: [韓国からの非常に洞察に富んだ価値のあるレビュー。](250614-tinyrack-review.ja.md)
 - 2025-05-15: [ライブ配信します！](250515-openterface-tds-annc.ja.md)

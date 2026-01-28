@@ -4,6 +4,7 @@
 
 ## Updates
 
+- 2026-01-28: [Análisis de la causa raíz: Problemas de teclado y ratón en Openterface MiniKVM](260128-keyboard-mouse-issue-analysis.es.md)
 - 2025-08-30: [Saluda a KVM-Go – el próximo capítulo ultra-portátil de tu aventura KVM](250830-kvm-go-pre-launch.es.md)
 - 2025-05-19: [Una reseña muy perspicaz y valiosa de Corea del Sur.](250614-tinyrack-review.es.md)
 - 2025-05-15: [¡Vamos en Directo!](250515-openterface-tds-annc.es.md)

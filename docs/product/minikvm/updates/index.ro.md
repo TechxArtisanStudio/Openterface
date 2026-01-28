@@ -4,6 +4,7 @@
 
 ## Updates
 
+- 2026-01-28: [Analiza cauzei rădăcină: probleme cu tastatura și mouse‑ul la Openterface MiniKVM](260128-keyboard-mouse-issue-analysis.ro.md)
 - 2025-08-30: [Spuneți bună ziua KVM-Go – următorul capitol ultra-portabil din aventura voastră KVM](250830-kvm-go-pre-launch.ro.md)
 - 2025-05-19: [O recenzie foarte perspicace și valoroasă din Coreea de Sud.](250614-tinyrack-review.ro.md)
 - 2025-05-15: [Mergem Live!](250515-openterface-tds-annc.ro.md)
