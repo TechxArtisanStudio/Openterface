@@ -19,10 +19,10 @@ This gave us confidence that both the hardware design and the production process
 
 ## Second Batch: Same Design, Same Factory, “Same” Components
 
-After the first batch sold out, we produced a second batch of **500 Openterface units**, manufactured in the same factory and using components sourced from the same suppliers.
+After the first batch sold out, we produced a second batch of **500 Openterface MiniKVM units**, manufactured in the same factory and using components sourced from the same suppliers.
 
 One key component involved is the **CH213K ideal diode**, sourced from **WCH**.  
-In Openterface, this component is used to **protect and isolate the USB power paths between the Host side and the Target side**, preventing reverse current and unintended power injection.
+In Openterface MiniKVM, this component is used to **protect and isolate the USB power paths between the Host side and the Target side**, preventing reverse current and unintended power injection.
 
 In this second batch, the silk-screen marking on the CH213K changed:
 
@@ -116,7 +116,7 @@ Going forward, we are:
 
 If you believe your unit may be affected or have questions about your specific setup, please contact us at [support@openterface.com](mailto:support@openterface.com)— we are committed to supporting you and making this right.
 
-Thank you for your patience, your feedback, and your continued trust in Openterface.
+Thank you for your patience, your feedback, and your continued trust in Openterface MiniKVM.
 
 Best regards,
 
