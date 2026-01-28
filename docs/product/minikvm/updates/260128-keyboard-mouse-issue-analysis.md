@@ -1,15 +1,23 @@
-## Openterface MiniKVM Keyboard and Mouse Not Working Issues Root Cause Analysis
+---
+draft: false
+date: 2026-01-28
+description: "A transparent root cause analysis of intermittent keyboard and mouse issues in Openterface MiniKVM, explaining a CH213K ideal diode variation, why normal QA passed, and how the issue was fixed and prevented going forward."
+keywords: "mini-kvm, openterface, kvm-over-usb, root-cause-analysis, CH213K-ideal-diode, usb-power-stability, ideal-diode-variation, keyboard-mouse-failure, hardware-fix, qa-improvements"
+
+---
+
+# Openterface MiniKVM Keyboard and Mouse Not Working Issues Root Cause Analysis
 
 Over the past month, a number of users have reported intermittent issues with Openterface, most commonly involving keyboard and mouse instability. We want to share a transparent and detailed technical explanation of what happened, how we identified the root cause, and what we have done — and are still doing — in response.
 
-### First Production Batch: Stable and Well-Received
+## First Production Batch: Stable and Well-Received
 
 During our crowdfunding campaign, we produced the first batch of **4,000 Openterface units**.  
 This batch went through our full internal QA process, and overall quality was very solid. Only a small number of issues were reported, and the vast majority of users were satisfied with the stability and usability of the product.
 
 This gave us confidence that both the hardware design and the production process were sound.
 
-### Second Batch: Same Design, Same Factory, “Same” Components
+## Second Batch: Same Design, Same Factory, “Same” Components
 
 After the first batch sold out, we produced a second batch of **500 Openterface units**, manufactured in the same factory and using components sourced from the same suppliers.
 
@@ -25,12 +33,12 @@ Because the part number, supplier, and published specifications were unchanged, 
 
 ![CH213K_Compare.png](https://assets.openterface.com/images/blog/20260128/Ch213K_Compare.webp)
 
-### QA Results: Subtle Signals That Were Easy to Miss
+## QA Results: Subtle Signals That Were Easy to Miss
 
 We ran the same QA procedures as with the first batch.  
 The overall defect rate increased slightly but remained within what we considered an acceptable range. No single failure mode stood out clearly, and the results did not point to a specific component or design issue. In hindsight, this subtle degradation was an early signal that we did not investigate deeply enough.
 
-### User Reports Triggered Deeper Investigation
+## User Reports Triggered Deeper Investigation
 
 Starting last month, we began receiving an increasing number of user reports describing keyboard and mouse not working as expected. A notable characteristic of these reports was that the issue appeared to depend on variables such as:
 
@@ -42,7 +50,7 @@ This variability suggested a **power-path edge case**, rather than a firmware or
 
 Through this process, we identified the **CH213K ideal diode with the “3k10” marking** as the common factor across affected units.
 
-### Root Cause: Low-Probability, Environment-Dependent Power Instability
+## Root Cause: Low-Probability, Environment-Dependent Power Instability
 
 Through voltage measurements and comparative testing, we observed the following behavior:
 
@@ -60,7 +68,7 @@ Although both components are labeled **CH213K**, real-world behavior under varyi
 
 ![CH213K_InternalVoltage](https://assets.openterface.com/images/blog/20260128/CH213K_InternalVoltage.webp)
 
-### Validation: Restoring Stability with Additional Output Capacitance
+## Validation: Restoring Stability with Additional Output Capacitance
 
 To validate our hypothesis, we introduced a targeted hardware change:
 
@@ -86,7 +94,7 @@ In parallel with the technical investigation and fix, we focused on minimizing u
 3. **Live technical support for faster resolution**  
    For users who have difficulty diagnosing the issue, we offer **live calls** to walk through the checks together. This avoids long back-and-forth email exchanges and allows us to identify and resolve problems much more quickly.
 
-### Lessons Learned
+## Lessons Learned
 
 This incident reinforced several important lessons for us:
 
@@ -95,7 +103,7 @@ This incident reinforced several important lessons for us:
 3. USB power environments vary widely in the real world and are difficult to fully replicate in controlled testing.
 4. Fast, human-to-human support matters just as much as technical fixes when issues do occur.
 
-### Our Commitment Going Forward
+## Our Commitment Going Forward
 
 We take full responsibility for this issue and for not identifying it earlier. Transparency matters to us, and we believe our users deserve a clear and honest technical explanation.
 
