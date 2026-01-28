@@ -109,3 +109,7 @@ Going forward, we are:
 If you believe your unit may be affected or have questions about your specific setup, please contact us at [support@openterface.com](mailto:support@openterface.com)— we are committed to supporting you and making this right.
 
 Thank you for your patience, your feedback, and your continued trust in Openterface.
+
+Best regards,
+
+Openterface Team | TechxArtisan
