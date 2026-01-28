@@ -3,7 +3,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="A transparent root cause analysis of intermittent keyboard and mouse issues in Openterface MiniKVM, explaining a CH213K ideal diode variation, why normal QA passed, and how the issue was fixed and prevented going forward.">
+        <meta name="description" content="Openterface MiniKVM のキーボード／マウスの断続的な不具合に関する透明性のある根本原因分析。CH213K 理想ダイオードの差異、通常の QA で見逃された理由、修正と再発防止策を説明します。">
       
       
         <meta name="author" content="Openterface">
@@ -42,7 +42,7 @@
     
     
       
-        <title>Openterface MiniKVM Keyboard and Mouse Not Working Issues Root Cause Analysis - Openterface | インターフェースを橋渡し、無限の可能性を開く</title>
+        <title>Openterface MiniKVM キーボード／マウスが動作しない問題の根本原因分析 - Openterface | インターフェースを橋渡し、無限の可能性を開く</title>
       
     
     
@@ -400,7 +400,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#openterface-minikvm-keyboard-and-mouse-not-working-issues-root-cause-analysis" class="md-skip">
+        <a href="#openterface-minikvm" class="md-skip">
           コンテンツにスキップ
         </a>
       
@@ -444,7 +444,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Openterface MiniKVM Keyboard and Mouse Not Working Issues Root Cause Analysis
+              Openterface MiniKVM キーボード／マウスが動作しない問題の根本原因分析
             
           </span>
         </div>
@@ -3584,89 +3584,88 @@
   
 
 
-<h1 id="openterface-minikvm-keyboard-and-mouse-not-working-issues-root-cause-analysis">Openterface MiniKVM Keyboard and Mouse Not Working Issues Root Cause Analysis</h1>
-<p>Over the past month, a number of users have reported intermittent issues with Openterface, most commonly involving keyboard and mouse instability. We want to share a transparent and detailed technical explanation of what happened, how we identified the root cause, and what we have done — and are still doing — in response.</p>
-<h2 id="first-production-batch-stable-and-well-received">First Production Batch: Stable and Well-Received</h2>
-<p>During our crowdfunding campaign, we produced the first batch of <strong>4,000 Openterface units</strong>.<br>
-This batch went through our full internal QA process, and overall quality was very solid. Only a small number of issues were reported, and the vast majority of users were satisfied with the stability and usability of the product.</p>
-<p>This gave us confidence that both the hardware design and the production process were sound.</p>
-<h2 id="second-batch-same-design-same-factory-same-components">Second Batch: Same Design, Same Factory, “Same” Components</h2>
-<p>After the first batch sold out, we produced a second batch of <strong>500 Openterface units</strong>, manufactured in the same factory and using components sourced from the same suppliers.</p>
-<p>One key component involved is the <strong>CH213K ideal diode</strong>, sourced from <strong>WCH</strong>.<br>
-In Openterface, this component is used to <strong>protect and isolate the USB power paths between the Host side and the Target side</strong>, preventing reverse current and unintended power injection.</p>
-<p>In this second batch, the silk-screen marking on the CH213K changed:</p>
+<h1 id="openterface-minikvm">Openterface MiniKVM キーボード／マウスが動作しない問題の根本原因分析</h1>
+<p>過去 1 か月ほどにわたり、一部のユーザーからキーボードやマウスの不安定性に関する断続的な報告を受けました。本稿では、何が起きたか、どのように根本原因を特定したか、そして私たちが行った対策と今後の取り組みを透明に説明します。</p>
+<h2 id="1">第1ロット：安定し好評</h2>
+<p>クラウドファンディング中に 1 ロット目として <strong>4,000 台の Openterface</strong> を生産しました。
+このロットは社内 QA を通過し、全体的に良好な品質を示しました。報告された問題はごくわずかで、大多数のユーザーは安定性と使い勝手に満足していました。</p>
+<p>これにより、ハードウェア設計と生産プロセスへの信頼が高まりました。</p>
+<h2 id="2">第2ロット：同設計・同工場・“同一”部品</h2>
+<p>第1ロットが完売した後、同じ工場・同じ仕入先から部品を調達して第2ロット（<strong>500 台</strong>）を生産しました。</p>
+<p>重要な部品の一つが WCH 製の <strong>CH213K 理想ダイオード</strong> です。
+この素子はホスト側とターゲット側の USB 電源経路を保護・分離するために使用され、逆流や不正な電源注入を防ぎます。</p>
+<p>第2ロットでは CH213K のシルク印字が変わっていました：</p>
 <ul>
-<li>First batch: <strong>“13K”</strong></li>
-<li>Second batch: <strong>“3k10”</strong></li>
+<li>第1ロット：<strong>「13K」</strong></li>
+<li>第2ロット：<strong>「3k10」</strong></li>
 </ul>
-<p>Because the part number, supplier, and published specifications were unchanged, we treated this as a routine batch or marking update and did not initially consider it a risk factor.</p>
+<p>部品番号、供給元、公開仕様が変わっていなかったため、我々はこれを通常のバッチまたはマーキングの更新と見なし、リスク要因とは認識しませんでした。</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/blog/20260128/Ch213K_Compare.webp" data-desc-position="bottom"><img alt="CH213K_Compare.png" src="https://assets.openterface.com/images/blog/20260128/Ch213K_Compare.webp"></a></p>
-<h2 id="qa-results-subtle-signals-that-were-easy-to-miss">QA Results: Subtle Signals That Were Easy to Miss</h2>
-<p>We ran the same QA procedures as with the first batch.<br>
-The overall defect rate increased slightly but remained within what we considered an acceptable range. No single failure mode stood out clearly, and the results did not point to a specific component or design issue. In hindsight, this subtle degradation was an early signal that we did not investigate deeply enough.</p>
-<h2 id="user-reports-triggered-deeper-investigation">User Reports Triggered Deeper Investigation</h2>
-<p>Starting last month, we began receiving an increasing number of user reports describing keyboard and mouse not working as expected. A notable characteristic of these reports was that the issue appeared to depend on variables such as:</p>
+<h2 id="qa">QA 結果：見落としやすい微妙な兆候</h2>
+<p>第1ロットと同じ QA 手順を実行しました。総合的な不良率はわずかに上昇しましたが、我々が許容する範囲内でした。単一の失敗モードは明確でなく、結果は特定の部品や設計の問題を示しませんでした。振り返ると、この微小な劣化は早期の兆候であり、もっと深く調べるべきでした。</p>
+<h2 id="_1">ユーザー報告が深掘りを促す</h2>
+<p>先月から、キーボードやマウスの不具合に関する報告が増加しました。注目すべき点は、問題が以下のような要因に依存していることでした：</p>
 <ul>
-<li>The host computer</li>
-<li>The target computer</li>
-<li>The USB cable being used</li>
+<li>ホストコンピュータ</li>
+<li>ターゲットコンピュータ</li>
+<li>使用する USB ケーブル</li>
 </ul>
-<p>This variability suggested a <strong>power-path edge case</strong>, rather than a firmware or USB protocol problem. We therefore started a systematic comparison of all factors that had changed between production batches.</p>
-<p>Through this process, we identified the <strong>CH213K ideal diode with the “3k10” marking</strong> as the common factor across affected units.</p>
-<h2 id="root-cause-low-probability-environment-dependent-power-instability">Root Cause: Low-Probability, Environment-Dependent Power Instability</h2>
-<p>Through voltage measurements and comparative testing, we observed the following behavior:</p>
+<p>この変動性は、ファームウェアや USB プロトコルの問題ではなく、<strong>電源経路のエッジケース</strong>であることを示唆しました。そこで、我々はロット間のすべての差分を系統的に比較しました。</p>
+<p>その結果、<strong>「3k10」印字の CH213K 理想ダイオード</strong>が影響を受けるユニットに共通していることを特定しました。</p>
+<h2 id="_2">根本原因：低確率・環境依存の電源不安定性</h2>
+<p>電圧測定と比較試験により、以下の挙動を確認しました：</p>
 <ul>
-<li>Units using the older <strong>“13K”</strong> ideal diode:</li>
-<li>Internal USB voltage remains stable across all tested hosts, targets, and cables.</li>
-<li>Units using the newer <strong>“3k10”</strong> ideal diode:</li>
-<li>In most cases, internal voltage remains stable and the device operates normally.</li>
-<li>However, based on user reports and follow-up testing, a <strong>small percentage of units (within ~5%)</strong> can experience internal voltage instability <strong>under certain combinations of host devices and USB cables</strong>.</li>
+<li>旧印字の <strong>「13K」</strong> を用いたユニット：</li>
+<li>テストしたホスト、ターゲット、ケーブルの組合せすべてで内部 USB 電圧は安定していました。</li>
+<li>新印字 <strong>「3k10」</strong> のユニット：</li>
+<li>大多数では内部電圧は安定し、正常に動作します。</li>
+<li>しかし、ユーザー報告と追加試験により、<strong>ごく一部（約 5% 程度）</strong>のユニットが特定のホスト／ケーブル構成で内部電圧の不安定化を起こすことが分かりました。</li>
 </ul>
-<p>This behavior is <strong>not deterministic</strong> and does not occur consistently across all setups, which explains why it was difficult to reproduce during standard QA testing. Nevertheless, at our scale, this incidence rate is significant and required immediate investigation.</p>
-<p>Because the CH213K sits directly in the USB power path, voltage instability at this point can propagate downstream and affect USB HID behavior, resulting in intermittent keyboard or mouse failures.</p>
-<p>Although both components are labeled <strong>CH213K</strong>, real-world behavior under varying USB power conditions appears to differ between these markings or internal manufacturing revisions.</p>
+<p>この振る舞いは<strong>確定的ではなく</strong>、すべての環境で再現するわけではありません。これが通常の QA で再現しにくかった理由です。ただし我々の出荷規模では、この発生率は無視できないため即時対応が必要でした。</p>
+<p>CH213K は USB 電源経路に位置しているため、この地点の電圧不安定は下流に伝播し USB HID の挙動を乱し、キーボード／マウスの断続的な不具合につながります。</p>
+<p>同じ CH213K と表記されていても、実運用条件での挙動は印字や内部製造差によって異なることが示唆されます。</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/blog/20260128/CH213K_InternalVoltage.webp" data-desc-position="bottom"><img alt="CH213K_InternalVoltage" src="https://assets.openterface.com/images/blog/20260128/CH213K_InternalVoltage.webp"></a></p>
-<h2 id="validation-restoring-stability-with-additional-output-capacitance">Validation: Restoring Stability with Additional Output Capacitance</h2>
-<p>To validate our hypothesis, we introduced a targeted hardware change:</p>
+<h2 id="_3">検証：出力側にコンデンサを追加して安定化を回復</h2>
+<p>仮説を検証するため、以下のハードウェア改修を行いました：</p>
 <ul>
-<li>Adding a <strong>10 µF capacitor</strong> at the output of the CH213K ideal diode.</li>
+<li>CH213K の出力側に <strong>10 µF のコンデンサ</strong> を追加しました。</li>
 </ul>
-<p>With this capacitor in place, internal voltage stability was restored across all previously problematic configurations. Keyboard and mouse behavior returned to normal, confirming that the issue was <strong>power-stability-related</strong>, rather than caused by firmware or USB logic.</p>
+<p>このコンデンサを追加すると、以前問題が発生していた構成において内部電圧の安定性が回復しました。キーボード／マウスの挙動は正常に戻り、問題が<strong>電源の安定性</strong>に関するものであることが確認されました。</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/blog/20260128/fixed_test.webp" data-desc-position="bottom"><img alt="fixed_test" src="https://assets.openterface.com/images/blog/20260128/fixed_test.webp"></a></p>
-<p>In addition, we have developed a <strong>quick QA validation tool based on ESP32</strong> to measure <strong>Vpp (peak-to-peak voltage ripple)</strong> on MiniKVM units <strong>without requiring an oscilloscope</strong>. This allows our QA engineers to quickly and consistently check power stability during production and re-inspection, even outside a lab environment. By lowering the tooling and skill barrier for voltage-quality checks, we can screen all units more thoroughly and reliably, including edge cases that are difficult to catch with functional testing alone.</p>
+<p>さらに、示波器を必要とせず MiniKVM の <strong>Vpp（ピークツーピークの電圧リプル）</strong> を測定できる ESP32 ベースの<strong>簡易 QA ツール</strong>を開発しました。これにより、QA エンジニアが製造ラインや現場で迅速に電源品質を検査でき、機能試験では捕捉しにくいエッジケースを検出しやすくなります。</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/blog/20260128/qatool.webp" data-desc-position="bottom"><img alt="ESP32_QA_Tool" src="https://assets.openterface.com/images/blog/20260128/qatool.webp"></a></p>
-<h3 id="what-we-have-done-for-affected-users">What We Have Done for Affected Users</h3>
-<p>In parallel with the technical investigation and fix, we focused on minimizing user impact and improving support efficiency:</p>
+<h3 id="_4">影響を受けたユーザー向けの対応</h3>
+<p>技術的な調査と修正と並行して、ユーザー影響を最小化しサポートの効率を上げることを優先しました：</p>
 <ol>
-<li><strong>Cross-platform self-diagnostics tool</strong><br>
-   We developed a self-diagnostics tool for <strong>macOS, Windows, and Linux</strong>. This tool helps users quickly determine whether their keyboard or mouse instability is related to this issue and allows them to report the results directly to us.<br>
-   For confirmed cases, we <strong>send a replacement unit immediately</strong>, without requiring users to go through lengthy distributor-side verification procedures.</li>
-<li><strong>Pause in sales and proactive hardware fix</strong><br>
-   We <strong>temporarily stopped shipping all existing stock</strong> once the issue was confirmed. We ship new batch of inventory now includes the <strong>capacitor-based fix</strong> to Crowd Supply, ensuring that ongoing and future sales are not affected by this low-probability but real issue.</li>
-<li><strong>Live technical support for faster resolution</strong><br>
-   For users who have difficulty diagnosing the issue, we offer <strong>live calls</strong> to walk through the checks together. This avoids long back-and-forth email exchanges and allows us to identify and resolve problems much more quickly.</li>
+<li><strong>クロスプラットフォームの自己診断ツール</strong>
+   macOS、Windows、Linux に対応する自己診断ツールを用意し、ユーザーが問題が本件に起因するかどうかを迅速に判定して結果を報告できるようにしました。
+   影響が確認されたケースには、分配業者での長い検証手続きを要求せず、<strong>即時交換対応</strong>を行います。</li>
+<li><strong>出荷一時停止と積極的なハードウェア修正</strong>
+   問題確認後、既存在庫の出荷を一時停止しました。以降出荷する在庫には<strong>コンデンサ修正</strong>を施しており、今後の販売に影響が出ないようにしています。</li>
+<li><strong>ライブサポートで迅速対応</strong>
+   自己診断が難しいユーザーには、ライブ通話で一緒に確認を行い、メールの往復を減らして迅速に原因特定・解決を行います。</li>
 </ol>
-<h2 id="lessons-learned">Lessons Learned</h2>
-<p>This incident reinforced several important lessons for us:</p>
+<h2 id="_5">教訓</h2>
+<p>この件から得た重要な教訓は：</p>
 <ol>
-<li>Even when part numbers remain unchanged, power-path components can exhibit subtle behavior differences between batches or internal revisions.</li>
-<li>Small increases in QA failure rates can be early indicators of deeper issues.</li>
-<li>USB power environments vary widely in the real world and are difficult to fully replicate in controlled testing.</li>
-<li>Fast, human-to-human support matters just as much as technical fixes when issues do occur.</li>
+<li>部品番号が同じでも、電源経路の素子はバッチや内部改良で微妙に挙動が変わり得る。</li>
+<li>QA の不良率の小さな変化は、深刻な問題の予兆である可能性がある。</li>
+<li>USB の電源環境は実運用で多様であり、管理されたテストだけでは再現が難しい。</li>
+<li>問題発生時には迅速な人的サポートが技術的修正と同じくらい重要である。</li>
 </ol>
-<h2 id="our-commitment-going-forward">Our Commitment Going Forward</h2>
-<p>We take full responsibility for this issue and for not identifying it earlier. Transparency matters to us, and we believe our users deserve a clear and honest technical explanation.</p>
-<p>Going forward, we are:</p>
+<h2 id="_6">私たちのコミットメント</h2>
+<p>この問題を早期に発見できなかったことについて全面的に責任を負います。透明性を重視し、ユーザーには正直で明確な技術説明を提供します。</p>
+<p>今後の対応：</p>
 <ul>
-<li>Updating the hardware design to improve USB power-path stability margins.</li>
-<li>Strengthening validation and characterization of power-path components, even when part numbers remain unchanged.</li>
-<li><strong>Using an ESP32-based quick QA tool that enables QA engineers to measure Vpp without an oscilloscope</strong>, making power-stability checks faster, more repeatable, and easier to scale across production.</li>
-<li>Refining QA thresholds and test coverage to better catch low-probability, environment-dependent issues.</li>
+<li>USB 電源経路の安定マージンを高めるためにハードウェア設計を更新します。</li>
+<li>部品番号が変わらなくとも、電源経路部品の特性評価と検証を強化します。</li>
+<li><strong>ESP32 ベースの簡易 QA ツールを導入し、示波器不要で Vpp を測定できるようにします</strong>。これにより電源安定性チェックを迅速かつ再現可能にし、生産に拡張します。</li>
+<li>QA の閾値とテストカバレッジを見直し、低確率かつ環境依存の問題をより早く検出できるようにします。</li>
 </ul>
-<p>If you believe your unit may be affected or have questions about your specific setup, please contact us at <a href="mailto:support@openterface.com">support@openterface.com</a>— we are committed to supporting you and making this right.</p>
-<p>Thank you for your patience, your feedback, and your continued trust in Openterface.</p>
-<p>Best regards,</p>
-<p>Openterface Team | TechxArtisan</p>
+<p>該当する可能性があると考える場合や環境固有の質問がある場合は、<a href="mailto:support@openterface.com">support@openterface.com</a> までご連絡ください。誠心誠意対応します。</p>
+<p>ご理解とフィードバック、Openterface へのご信頼に感謝いたします。</p>
+<p>敬具</p>
+<p>Openterface チーム | TechxArtisan</p>
 
 
 
@@ -3689,7 +3688,7 @@ The overall defect rate increased slightly but remained within what we considere
     <span class="md-icon" title="最終更新日">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="January 28, 2026 05:47:58 UTC"><span class="timeago" datetime="2026-01-28T05:47:58+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="January 28, 2026 05:47:58 UTC">2026-01-28</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2026年1月28日 06:50:43 UTC"><span class="timeago" datetime="2026-01-28T06:50:43+00:00" locale="ja"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2026年1月28日 06:50:43 UTC">2026-01-28</span>
   </span>
 
     
@@ -3699,7 +3698,7 @@ The overall defect rate increased slightly but remained within what we considere
     <span class="md-icon" title="作成日">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="January 28, 2026 05:35:19 UTC"><span class="timeago" datetime="2026-01-28T05:35:19+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="January 28, 2026 05:35:19 UTC">2026-01-28</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2026年1月28日 06:50:43 UTC"><span class="timeago" datetime="2026-01-28T06:50:43+00:00" locale="ja"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2026年1月28日 06:50:43 UTC">2026-01-28</span>
   </span>
 
     

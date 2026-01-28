@@ -3,7 +3,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="A transparent root cause analysis of intermittent keyboard and mouse issues in Openterface MiniKVM, explaining a CH213K ideal diode variation, why normal QA passed, and how the issue was fixed and prevented going forward.">
+        <meta name="description" content="Analyse transparente de la cause racine des problèmes intermittents de clavier et souris sur Openterface MiniKVM : variation du CH213K, raisons du passage au travers des QA classiques, et mesures correctives et préventives.">
       
       
         <meta name="author" content="Openterface">
@@ -42,7 +42,7 @@
     
     
       
-        <title>Openterface MiniKVM Keyboard and Mouse Not Working Issues Root Cause Analysis - Openterface | Relier les interfaces pour ouvrir des possibilités infinies</title>
+        <title>Analyse de la cause racine : problèmes de clavier et souris sur Openterface MiniKVM - Openterface | Relier les interfaces pour ouvrir des possibilités infinies</title>
       
     
     
@@ -404,7 +404,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#openterface-minikvm-keyboard-and-mouse-not-working-issues-root-cause-analysis" class="md-skip">
+        <a href="#analyse-de-la-cause-racine-problemes-de-clavier-et-souris-sur-openterface-minikvm" class="md-skip">
           Aller au contenu
         </a>
       
@@ -448,7 +448,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Openterface MiniKVM Keyboard and Mouse Not Working Issues Root Cause Analysis
+              Analyse de la cause racine : problèmes de clavier et souris sur Openterface MiniKVM
             
           </span>
         </div>
@@ -3588,88 +3588,112 @@
   
 
 
-<h1 id="openterface-minikvm-keyboard-and-mouse-not-working-issues-root-cause-analysis">Openterface MiniKVM Keyboard and Mouse Not Working Issues Root Cause Analysis</h1>
-<p>Over the past month, a number of users have reported intermittent issues with Openterface, most commonly involving keyboard and mouse instability. We want to share a transparent and detailed technical explanation of what happened, how we identified the root cause, and what we have done — and are still doing — in response.</p>
-<h2 id="first-production-batch-stable-and-well-received">First Production Batch: Stable and Well-Received</h2>
-<p>During our crowdfunding campaign, we produced the first batch of <strong>4,000 Openterface units</strong>.<br>
-This batch went through our full internal QA process, and overall quality was very solid. Only a small number of issues were reported, and the vast majority of users were satisfied with the stability and usability of the product.</p>
-<p>This gave us confidence that both the hardware design and the production process were sound.</p>
-<h2 id="second-batch-same-design-same-factory-same-components">Second Batch: Same Design, Same Factory, “Same” Components</h2>
-<p>After the first batch sold out, we produced a second batch of <strong>500 Openterface units</strong>, manufactured in the same factory and using components sourced from the same suppliers.</p>
-<p>One key component involved is the <strong>CH213K ideal diode</strong>, sourced from <strong>WCH</strong>.<br>
-In Openterface, this component is used to <strong>protect and isolate the USB power paths between the Host side and the Target side</strong>, preventing reverse current and unintended power injection.</p>
-<p>In this second batch, the silk-screen marking on the CH213K changed:</p>
+<h1 id="analyse-de-la-cause-racine-problemes-de-clavier-et-souris-sur-openterface-minikvm">Analyse de la cause racine : problèmes de clavier et souris sur Openterface MiniKVM</h1>
+<p>Au cours du dernier mois, plusieurs utilisateurs ont signalé des problèmes intermittents, principalement des instabilités du clavier et de la souris. Nous souhaitons partager une explication technique claire et transparente de ce qui s'est passé, comment nous avons identifié la cause racine, et ce que nous avons fait — et continuons de faire — en réponse.</p>
+<h2 id="premiere-serie-de-production-stable-et-bien-recue">Première série de production : stable et bien reçue</h2>
+<p>Pendant notre campagne de financement participatif, nous avons produit la première série de <strong>4 000 unités Openterface MiniKVM</strong>.
+Cette série est passée par l'ensemble de notre procédure QA interne et la qualité globale était solide. Seuls quelques problèmes ont été rapportés, et la grande majorité des utilisateurs étaient satisfaits de la stabilité et de l'expérience.</p>
+<p>Cela nous a donné confiance dans le design matériel et le processus de production.</p>
+<h2 id="deuxieme-serie-meme-conception-meme-usine-composants-identiques">Deuxième série : même conception, même usine, composants “identiques”</h2>
+<p>Après la vente de la première série, nous avons produit une deuxième série de <strong>500 unités</strong>, fabriquées dans la même usine et avec des composants provenant des mêmes fournisseurs.</p>
+<p>Un composant clé est la <strong>diode idéale CH213K</strong>, fournie par <strong>WCH</strong>.
+Dans Openterface MiniKVM, cet élément est utilisé pour <strong>protéger et isoler les chemins d'alimentation USB entre l'hôte et la cible</strong>, afin d'éviter les courants inverses et les injections d'alimentation imprévues.</p>
+<p>Dans la deuxième série, le marquage sérigraphié du CH213K a changé :</p>
 <ul>
-<li>First batch: <strong>“13K”</strong></li>
-<li>Second batch: <strong>“3k10”</strong></li>
+<li>Première série : <strong>“13K”</strong></li>
+<li>Deuxième série : <strong>“3k10”</strong></li>
 </ul>
-<p>Because the part number, supplier, and published specifications were unchanged, we treated this as a routine batch or marking update and did not initially consider it a risk factor.</p>
+<p>Comme le numéro de pièce, le fournisseur et les spécifications publiées n'ont pas changé, nous avons considéré cela comme une mise à jour de lot ou de marquage routinière et n'avons pas initialement perçu de risque.</p>
+<h2 id="resultats-qa-signaux-subtils-faciles-a-manquer">Résultats QA : signaux subtils, faciles à manquer</h2>
+<p>Nous avons exécuté les mêmes procédures QA que pour la première série. Le taux de défaut global a légèrement augmenté mais est resté dans une plage que nous jugions acceptable. Aucun mode de défaillance unique n'est ressorti clairement et les résultats n'ont pas pointé vers un composant ou une conception spécifique. Avec le recul, cette dégradation subtile était un signal précoce que nous n'avons pas suffisamment approfondi.</p>
+<h2 id="les-rapports-utilisateurs-ont-declenche-une-enquete-approfondie">Les rapports utilisateurs ont déclenché une enquête approfondie</h2>
+<h2 id="depuis-le-mois-dernier-nous-avons-recu-un-nombre-croissant-de-rapports-dutilisateurs-decrivant-des-dysfonctionnements-du-clavier-et-de-la-souris-une-caracteristique-notable-de-ces-rapports-etait-que-le-probleme-semblait-dependre-de-variables-telles-que">Depuis le mois dernier, nous avons reçu un nombre croissant de rapports d'utilisateurs décrivant des dysfonctionnements du clavier et de la souris. Une caractéristique notable de ces rapports était que le problème semblait dépendre de variables telles que :</h2>
+<p>draft: false
+date: 2026-01-28
+description: "Analyse transparente de la cause racine des problèmes intermittents de clavier et souris sur Openterface MiniKVM : variation du CH213K, raisons du passage au travers des QA classiques, et mesures correctives et préventives."
+keywords: "mini-kvm, openterface, kvm-over-usb, analyse-cause-racine, CH213K-diode-idéale, stabilité-alimentation-usb, variation-diode, défaillance-clavier-souris, correction-matérielle, amélioration-qa"</p>
+<hr>
+<h1 id="analyse-de-la-cause-racine-problemes-de-clavier-et-souris-sur-openterface-minikvm_1">Analyse de la cause racine : problèmes de clavier et souris sur Openterface MiniKVM</h1>
+<p>Au cours du dernier mois, plusieurs utilisateurs ont signalé des problèmes intermittents, principalement des instabilités du clavier et de la souris. Nous souhaitons partager une explication technique claire et transparente de ce qui s'est passé, comment nous avons identifié la cause racine, et ce que nous avons fait — et continuons de faire — en réponse.</p>
+<h2 id="premiere-serie-de-production-stable-et-bien-recue_1">Première série de production : stable et bien reçue</h2>
+<p>Pendant notre campagne de financement participatif, nous avons produit la première série de <strong>4 000 unités Openterface MiniKVM</strong>.
+Cette série est passée par l'ensemble de notre procédure QA interne et la qualité globale était solide. Seuls quelques problèmes ont été rapportés, et la grande majorité des utilisateurs étaient satisfaits de la stabilité et de l'expérience.</p>
+<p>Cela nous a donné confiance dans le design matériel et le processus de production.</p>
+<h2 id="deuxieme-serie-meme-conception-meme-usine-composants-identiques_1">Deuxième série : même conception, même usine, composants “identiques”</h2>
+<p>Après la vente de la première série, nous avons produit une deuxième série de <strong>500 unités</strong>, fabriquées dans la même usine et avec des composants provenant des mêmes fournisseurs.</p>
+<p>Un composant clé est la <strong>diode idéale CH213K</strong>, fournie par <strong>WCH</strong>.
+Dans Openterface MiniKVM, cet élément est utilisé pour <strong>protéger et isoler les chemins d'alimentation USB entre l'hôte et la cible</strong>, afin d'éviter les courants inverses et les injections d'alimentation imprévues.</p>
+<p>Dans la deuxième série, le marquage sérigraphié du CH213K a changé :</p>
+<ul>
+<li>Première série : <strong>“13K”</strong></li>
+<li>Deuxième série : <strong>“3k10”</strong></li>
+</ul>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/blog/20260128/Ch213K_Compare.webp" data-desc-position="bottom"><img alt="CH213K_Compare.png" src="https://assets.openterface.com/images/blog/20260128/Ch213K_Compare.webp"></a></p>
-<h2 id="qa-results-subtle-signals-that-were-easy-to-miss">QA Results: Subtle Signals That Were Easy to Miss</h2>
-<p>We ran the same QA procedures as with the first batch.<br>
-The overall defect rate increased slightly but remained within what we considered an acceptable range. No single failure mode stood out clearly, and the results did not point to a specific component or design issue. In hindsight, this subtle degradation was an early signal that we did not investigate deeply enough.</p>
-<h2 id="user-reports-triggered-deeper-investigation">User Reports Triggered Deeper Investigation</h2>
-<p>Starting last month, we began receiving an increasing number of user reports describing keyboard and mouse not working as expected. A notable characteristic of these reports was that the issue appeared to depend on variables such as:</p>
+<p>Comme le numéro de pièce, le fournisseur et les spécifications publiées n'ont pas changé, nous avons considéré cela comme une mise à jour de lot ou de marquage routinière et n'avons pas initialement perçu de risque.</p>
+<h2 id="resultats-qa-signaux-subtils-faciles-a-manquer_1">Résultats QA : signaux subtils, faciles à manquer</h2>
+<p>Nous avons exécuté les mêmes procédures QA que pour la première série. Le taux de défaut global a légèrement augmenté mais est resté dans une plage que nous jugions acceptable. Aucun mode de défaillance unique n'est ressorti clairement et les résultats n'ont pas pointé vers un composant ou une conception spécifique. Avec le recul, cette dégradation subtile était un signal précoce que nous n'avons pas suffisamment approfondi.</p>
+<h2 id="les-rapports-utilisateurs-ont-declenche-une-enquete-approfondie_1">Les rapports utilisateurs ont déclenché une enquête approfondie</h2>
+<p>Depuis le mois dernier, nous avons reçu un nombre croissant de rapports d'utilisateurs décrivant des dysfonctionnements du clavier et de la souris. Une caractéristique notable de ces rapports était que le problème semblait dépendre de variables telles que :</p>
 <ul>
-<li>The host computer</li>
-<li>The target computer</li>
-<li>The USB cable being used</li>
+<li>l'ordinateur hôte</li>
+<li>l'ordinateur cible</li>
+<li>le câble USB utilisé</li>
 </ul>
-<p>This variability suggested a <strong>power-path edge case</strong>, rather than a firmware or USB protocol problem. We therefore started a systematic comparison of all factors that had changed between production batches.</p>
-<p>Through this process, we identified the <strong>CH213K ideal diode with the “3k10” marking</strong> as the common factor across affected units.</p>
-<h2 id="root-cause-low-probability-environment-dependent-power-instability">Root Cause: Low-Probability, Environment-Dependent Power Instability</h2>
-<p>Through voltage measurements and comparative testing, we observed the following behavior:</p>
+<p>Cette variabilité suggérait un <strong>cas-limite lié au chemin d'alimentation</strong>, plutôt qu'un problème de firmware ou de protocole USB. Nous avons donc commencé une comparaison systématique de tous les facteurs ayant changé entre les séries de production.</p>
+<p>Au cours de ce processus, nous avons identifié la <strong>diode idéale CH213K marquée “3k10”</strong> comme facteur commun aux unités affectées.</p>
+<h2 id="cause-racine-instabilite-dalimentation-a-faible-probabilite-dependante-de-lenvironnement">Cause racine : instabilité d'alimentation à faible probabilité, dépendante de l'environnement</h2>
+<p>Par des mesures de tension et des tests comparatifs, nous avons observé le comportement suivant :</p>
 <ul>
-<li>Units using the older <strong>“13K”</strong> ideal diode:</li>
-<li>Internal USB voltage remains stable across all tested hosts, targets, and cables.</li>
-<li>Units using the newer <strong>“3k10”</strong> ideal diode:</li>
-<li>In most cases, internal voltage remains stable and the device operates normally.</li>
-<li>However, based on user reports and follow-up testing, a <strong>small percentage of units (within ~5%)</strong> can experience internal voltage instability <strong>under certain combinations of host devices and USB cables</strong>.</li>
+<li>Unités avec l'ancienne diode <strong>“13K”</strong> :</li>
+<li>la tension USB interne reste stable pour tous les hôtes, cibles et câbles testés.</li>
+<li>Unités avec la nouvelle diode <strong>“3k10”</strong> :</li>
+<li>dans la plupart des cas, la tension interne reste stable et l'appareil fonctionne normalement.</li>
+<li>cependant, d'après les retours utilisateurs et des tests complémentaires, <strong>un petit pourcentage d'unités (~5%)</strong> peut connaître une instabilité de tension interne <strong>pour certaines combinaisons d'hôtes et de câbles USB</strong>.</li>
 </ul>
-<p>This behavior is <strong>not deterministic</strong> and does not occur consistently across all setups, which explains why it was difficult to reproduce during standard QA testing. Nevertheless, at our scale, this incidence rate is significant and required immediate investigation.</p>
-<p>Because the CH213K sits directly in the USB power path, voltage instability at this point can propagate downstream and affect USB HID behavior, resulting in intermittent keyboard or mouse failures.</p>
-<p>Although both components are labeled <strong>CH213K</strong>, real-world behavior under varying USB power conditions appears to differ between these markings or internal manufacturing revisions.</p>
+<p>Ce comportement n'est <strong>pas déterministe</strong> et n'apparaît pas systématiquement sur toutes les configurations, ce qui explique pourquoi il était difficile à reproduire lors des tests QA standard. Néanmoins, à notre échelle, ce taux d'incidence est significatif et a nécessité une investigation immédiate.</p>
+<p>Parce que le CH213K se situe directement sur le chemin d'alimentation USB, une instabilité de tension à cet endroit peut se propager en aval et affecter le comportement USB HID, entraînant des défaillances intermittentes du clavier ou de la souris.</p>
+<p>Bien que les composants soient tous étiquetés <strong>CH213K</strong>, leur comportement réel en conditions d'alimentation USB variables semble différer selon le marquage ou des révisions internes de fabrication.</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/blog/20260128/CH213K_InternalVoltage.webp" data-desc-position="bottom"><img alt="CH213K_InternalVoltage" src="https://assets.openterface.com/images/blog/20260128/CH213K_InternalVoltage.webp"></a></p>
-<h2 id="validation-restoring-stability-with-additional-output-capacitance">Validation: Restoring Stability with Additional Output Capacitance</h2>
-<p>To validate our hypothesis, we introduced a targeted hardware change:</p>
+<h2 id="validation-restauration-de-la-stabilite-avec-une-capacite-de-sortie-additionnelle">Validation : restauration de la stabilité avec une capacité de sortie additionnelle</h2>
+<p>Pour valider notre hypothèse, nous avons introduit une modification matérielle ciblée :</p>
 <ul>
-<li>Adding a <strong>10 µF capacitor</strong> at the output of the CH213K ideal diode.</li>
+<li>ajout d'un <strong>condensateur de 10 µF</strong> en sortie du CH213K.</li>
 </ul>
-<p>With this capacitor in place, internal voltage stability was restored across all previously problematic configurations. Keyboard and mouse behavior returned to normal, confirming that the issue was <strong>power-stability-related</strong>, rather than caused by firmware or USB logic.</p>
+<p>Avec ce condensateur, la stabilité de la tension interne a été rétablie pour toutes les configurations auparavant problématiques. Le comportement du clavier et de la souris est revenu à la normale, confirmant que le problème était lié à la <strong>stabilité d'alimentation</strong> plutôt qu'au firmware ou à la logique USB.</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/blog/20260128/fixed_test.webp" data-desc-position="bottom"><img alt="fixed_test" src="https://assets.openterface.com/images/blog/20260128/fixed_test.webp"></a></p>
-<p>In addition, we have developed a <strong>quick QA validation tool based on ESP32</strong> to measure <strong>Vpp (peak-to-peak voltage ripple)</strong> on MiniKVM units <strong>without requiring an oscilloscope</strong>. This allows our QA engineers to quickly and consistently check power stability during production and re-inspection, even outside a lab environment. By lowering the tooling and skill barrier for voltage-quality checks, we can screen all units more thoroughly and reliably, including edge cases that are difficult to catch with functional testing alone.</p>
+<p>De plus, nous avons développé un <strong>outil QA rapide basé sur ESP32</strong> pour mesurer le <strong>Vpp (ondulation de tension crête-à-crête)</strong> des unités MiniKVM <strong>sans nécessiter d'oscilloscope</strong>. Cela permet à nos ingénieurs QA de vérifier rapidement et systématiquement la qualité de l'alimentation pendant la production et la réinspection, même hors laboratoire. En abaissant la barrière d'outillage et de compétence pour les contrôles de qualité de tension, nous pouvons mieux scanner toutes les unités, y compris les cas-limites difficiles à attraper par des tests fonctionnels seuls.</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/blog/20260128/qatool.webp" data-desc-position="bottom"><img alt="ESP32_QA_Tool" src="https://assets.openterface.com/images/blog/20260128/qatool.webp"></a></p>
-<h3 id="what-we-have-done-for-affected-users">What We Have Done for Affected Users</h3>
-<p>In parallel with the technical investigation and fix, we focused on minimizing user impact and improving support efficiency:</p>
+<h3 id="mesures-prises-pour-les-utilisateurs-concernes">Mesures prises pour les utilisateurs concernés</h3>
+<p>En parallèle de l'enquête technique et de la correction matérielle, nous nous sommes concentrés sur la réduction de l'impact utilisateur et l'amélioration de l'efficacité du support :</p>
 <ol>
-<li><strong>Cross-platform self-diagnostics tool</strong><br>
-   We developed a self-diagnostics tool for <strong>macOS, Windows, and Linux</strong>. This tool helps users quickly determine whether their keyboard or mouse instability is related to this issue and allows them to report the results directly to us.<br>
-   For confirmed cases, we <strong>send a replacement unit immediately</strong>, without requiring users to go through lengthy distributor-side verification procedures.</li>
-<li><strong>Pause in sales and proactive hardware fix</strong><br>
-   We <strong>temporarily stopped shipping all existing stock</strong> once the issue was confirmed. We ship new batch of inventory now includes the <strong>capacitor-based fix</strong> to Crowd Supply, ensuring that ongoing and future sales are not affected by this low-probability but real issue.</li>
-<li><strong>Live technical support for faster resolution</strong><br>
-   For users who have difficulty diagnosing the issue, we offer <strong>live calls</strong> to walk through the checks together. This avoids long back-and-forth email exchanges and allows us to identify and resolve problems much more quickly.</li>
+<li><strong>Outil d'auto-diagnostic multiplateforme</strong>
+   Nous avons développé un outil d'auto-diagnostic pour <strong>macOS, Windows et Linux</strong>. Cet outil aide les utilisateurs à déterminer rapidement si leur instabilité de clavier/souris est liée à ce problème et leur permet de nous renvoyer les résultats directement.
+   Pour les cas confirmés, nous <strong>expédions immédiatement une unité de remplacement</strong>, sans exiger les longues vérifications côté distributeur.</li>
+<li><strong>Pause des expéditions et correction matérielle proactive</strong>
+   Nous avons <strong>temporairement stoppé l'expédition de tout le stock existant</strong> une fois le problème confirmé. Les nouvelles unités expédiées incluent la <strong>correction par condensateur</strong>, garantissant que les ventes en cours et futures ne soient pas affectées par ce problème à faible probabilité mais réel.</li>
+<li><strong>Support technique en direct pour accélérer la résolution</strong>
+   Pour les utilisateurs ayant des difficultés à diagnostiquer le problème, nous proposons des <strong>appels en direct</strong> pour guider les vérifications ensemble. Cela évite de longs échanges par e-mail et nous permet d'identifier et résoudre les problèmes plus rapidement.</li>
 </ol>
-<h2 id="lessons-learned">Lessons Learned</h2>
-<p>This incident reinforced several important lessons for us:</p>
+<h2 id="lecons-apprises">Leçons apprises</h2>
+<p>Cet incident nous a rappelé plusieurs points importants :</p>
 <ol>
-<li>Even when part numbers remain unchanged, power-path components can exhibit subtle behavior differences between batches or internal revisions.</li>
-<li>Small increases in QA failure rates can be early indicators of deeper issues.</li>
-<li>USB power environments vary widely in the real world and are difficult to fully replicate in controlled testing.</li>
-<li>Fast, human-to-human support matters just as much as technical fixes when issues do occur.</li>
+<li>Même lorsque les numéros de pièce restent inchangés, les composants de l'alimentation peuvent montrer des différences comportementales subtiles entre lots ou révisions internes.</li>
+<li>De petites augmentations des taux de défaut QA peuvent être des signaux précoces d'un problème plus profond.</li>
+<li>Les environnements d'alimentation USB varient énormément en pratique et sont difficiles à reproduire complètement en test contrôlé.</li>
+<li>Un support humain rapide compte autant que les corrections techniques lorsque des problèmes surviennent.</li>
 </ol>
-<h2 id="our-commitment-going-forward">Our Commitment Going Forward</h2>
-<p>We take full responsibility for this issue and for not identifying it earlier. Transparency matters to us, and we believe our users deserve a clear and honest technical explanation.</p>
-<p>Going forward, we are:</p>
+<h2 id="notre-engagement-pour-lavenir">Notre engagement pour l'avenir</h2>
+<p>Nous assumons l'entière responsabilité de cet incident et de ne pas l'avoir identifié plus tôt. La transparence est importante pour nous, et nous estimons que nos utilisateurs méritent une explication technique claire et honnête.</p>
+<p>Pour la suite, nous :</p>
 <ul>
-<li>Updating the hardware design to improve USB power-path stability margins.</li>
-<li>Strengthening validation and characterization of power-path components, even when part numbers remain unchanged.</li>
-<li><strong>Using an ESP32-based quick QA tool that enables QA engineers to measure Vpp without an oscilloscope</strong>, making power-stability checks faster, more repeatable, and easier to scale across production.</li>
-<li>Refining QA thresholds and test coverage to better catch low-probability, environment-dependent issues.</li>
+<li>mettrons à jour le design matériel pour améliorer les marges de stabilité du chemin d'alimentation USB.</li>
+<li>renforcerons la validation et la caractérisation des composants du chemin d'alimentation, même si le numéro de pièce reste identique。</li>
+<li><strong>utiliserons un outil QA rapide basé sur ESP32 permettant aux ingénieurs QA de mesurer le Vpp sans oscilloscope</strong>, rendant les contrôles de stabilité d'alimentation plus rapides, reproductibles et extensibles en production。</li>
+<li>affinerons les seuils et la couverture QA pour mieux détecter les problèmes rares et dépendants de l'environnement。</li>
 </ul>
-<p>If you believe your unit may be affected or have questions about your specific setup, please contact us at <a href="mailto:support@openterface.com">support@openterface.com</a>— we are committed to supporting you and making this right.</p>
-<p>Thank you for your patience, your feedback, and your continued trust in Openterface.</p>
-<p>Best regards,</p>
+<p>Si vous pensez que votre unité pourrait être affectée ou si vous avez des questions concernant votre configuration, veuillez nous contacter à <a href="mailto:support@openterface.com">support@openterface.com</a> — nous nous engageons à vous aider et à réparer la situation。</p>
+<p>Merci pour votre patience, vos retours et votre confiance en Openterface MiniKVM。</p>
+<p>Cordialement,</p>
 <p>Openterface Team | TechxArtisan</p>
 
 
@@ -3693,7 +3717,7 @@ The overall defect rate increased slightly but remained within what we considere
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="January 28, 2026 05:47:58 UTC"><span class="timeago" datetime="2026-01-28T05:47:58+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="January 28, 2026 05:47:58 UTC">2026-01-28</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="28 janvier 2026 06:50:43 UTC"><span class="timeago" datetime="2026-01-28T06:50:43+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="28 janvier 2026 06:50:43 UTC">2026-01-28</span>
   </span>
 
     
@@ -3703,7 +3727,7 @@ The overall defect rate increased slightly but remained within what we considere
     <span class="md-icon" title="Créé">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="January 28, 2026 05:35:19 UTC"><span class="timeago" datetime="2026-01-28T05:35:19+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="January 28, 2026 05:35:19 UTC">2026-01-28</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="28 janvier 2026 06:50:43 UTC"><span class="timeago" datetime="2026-01-28T06:50:43+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="28 janvier 2026 06:50:43 UTC">2026-01-28</span>
   </span>
 
     
