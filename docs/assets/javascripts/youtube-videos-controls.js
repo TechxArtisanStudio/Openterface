@@ -180,7 +180,20 @@
     setStatNumber(page, "products", uniqSorted(cards.map((c) => meta.get(c).product)).length);
 
     // Populate filters from stable data-* attributes
-    const productOptions = uniqSorted(cards.map((c) => meta.get(c).product)).map((p) => ({ value: p, label: p }));
+    // Known products always shown (even with 0 videos); merge with products from cards
+    const knownProducts = ["minikvm", "kvm-go", "uconsole-kvm-extension", "keymod"];
+    const productDisplayNames = {
+      minikvm: "Mini-KVM",
+      "kvm-go": "KVM-Go",
+      "uconsole-kvm-extension": "uConsole KVM Extension",
+      keymod: "KeyMod",
+    };
+    const productsFromCards = cards.map((c) => meta.get(c).product).filter(Boolean);
+    const allProducts = uniqSorted([...knownProducts, ...productsFromCards]);
+    const productOptions = allProducts.map((p) => ({
+      value: p,
+      label: productDisplayNames[p] || p,
+    }));
     populateSelect(productEl, productOptions);
 
     // Language: value is code (stable), label is name

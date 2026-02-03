@@ -74,6 +74,7 @@ extra:
   minikvm_updates: 16
   kvm-go_updates: 7
   accessories_updates: 0
+  keymod_updates: 0
   qt_linux_stable: 0.3.19
   minikvm_purchase_link: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
   kvmgo_purchase_link: https://www.crowdsupply.com/techxartisan/openterface-kvm-go
@@ -144,7 +145,18 @@ nav:
   - KVM-over-USB: faq/kvm-over-usb.md
 - Support: support/index.md
 - Product:
-  - KVM-Go Series 🚀:
+  - KeyMod 🤘:
+    - Overview: product/keymod/index.md
+    - Features: product/keymod/features.md
+    - What's In The Box: product/keymod/whats-in-the-box.md
+    - How To Connect: product/keymod/how-to-connect.md
+    - Use Cases: product/keymod/use-cases.md
+    - FAQs for KeyMod: product/keymod/faq.md
+    - Videos: videos/?p=keymod
+    - Reviews & Press:
+      - Overview: product/keymod/reviews/index.md
+    - Updates for KeyMod: product/keymod/updates/index.md
+  - KVM-Go Series ⚒️:
     - Overview: product/kvm-go/index.md
     - Features: product/kvm-go/features.md
     - What's In The Box: product/kvm-go/whats-in-the-box.md
@@ -261,6 +273,7 @@ plugins:
       support/minikvm.md: https://docs.google.com/forms/d/e/1FAIpQLSd4NiKDb-BRIJxuo5m08sC03nkhsioE-4KZj6e_uMZ6oDg5Bw/viewform?usp=header
       support/minikvm/r.md: https://docs.google.com/spreadsheets/d/1apfEJuWz5ZhlLR7PW7Rpv6devQ2IqeSq_ZCEtD98nZw/edit?resourcekey=&gid=1205342311#gid=1205342311
       product/kvm-go/pre-launch.md: product/kvm-go/index.md
+      product/keymod/pre-launch.md: product/keymod/index.md
       product/kvm-go/beta-questions.md: https://docs.google.com/forms/d/e/1FAIpQLSf1WGwGSN-4ZPVav0CwdepNsBQj9iLmtR7AF_c2GETPwnfHCQ/viewform?usp=header
       product/kvm-go/beta-questions/r.md: https://docs.google.com/spreadsheets/d/1kA4Ss1JugniiaEdR_FSC_V9LroV_S6SgrwpdA0aFAcM/edit?resourcekey=&gid=1732436299#gid=1732436299
       app.md: app/overview.md
