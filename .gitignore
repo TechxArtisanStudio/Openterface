@@ -22,3 +22,4 @@ __pycache__/
 /i18n-sites
 .cursor
 .tmp
+log/
