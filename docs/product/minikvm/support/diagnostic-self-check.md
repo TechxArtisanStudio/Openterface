@@ -1,10 +1,10 @@
 ---
-title: "Openterface Mini-KVM - Diagnostic Self-Check Guide"
-description: "Step-by-step guide for running diagnostic self-checks on the Openterface Mini-KVM device. Learn how to test USB connections, detect issues, and send defect reports to support."
-keywords: "Openterface Mini-KVM, diagnostic self-check, KVM troubleshooting, USB KVM diagnostics, Mini-KVM support, KVM device testing, USB connection test, KVM defect report, Mini-KVM troubleshooting guide, KVM diagnostic tool, headless server diagnostics, IT troubleshooting tools"
+title: "Openterface Mini-KVM - Diagnostic Self-Check Guide (macOS)"
+description: "Step-by-step guide for running diagnostic self-checks on the Openterface Mini-KVM device with the macOS app. Learn how to test USB connections, detect issues, and send defect reports to support."
+keywords: "Openterface Mini-KVM, macOS, diagnostic self-check, KVM troubleshooting, USB KVM diagnostics, Mini-KVM support, KVM device testing, USB connection test, KVM defect report, Mini-KVM troubleshooting guide, KVM diagnostic tool, headless server diagnostics, IT troubleshooting tools"
 ---
 
-# Openterface Mini-KVM - Diagnostic Self-Check Guide
+# Openterface Mini-KVM - Diagnostic Self-Check Guide (macOS)
 
 This guide provides step-by-step instructions for running diagnostic self-checks on the Openterface Mini-KVM device.
 
@@ -84,12 +84,22 @@ In this example, Overall Connection shows FAIL first because a target-side keybo
 
 ![minikvm-support-send_defect_report_to_support](https://assets.openterface.com/images/minikvm/support/send_defect_report_to_support.webp)
 
-**Step 16:** In the Defect Report window, enter your **Order ID** and **Name**.
+**Step 16:** In the Defect Report window, enter your **Order ID** and **Name**, then click **Apply** to insert them into the email draft.
 
-**Step 17:** Click **Open Log Folder**, then attach the exported **log files** to your email.
-
-**Step 18:** Copy the **support email address**, paste the prefilled **email subject/body**, attach a clear **setup photo** (Mini-KVM + host/target connections), and send the email.
+**Step 17:** Copy the email address and draft:
+- Click **Copy Email** to copy the support email address.
+- Click **Copy Draft** to copy the pre-filled email content (including Order ID + Name).
+- Paste both into your email client (Gmail/Outlook/etc.).
 
 ![minikvm-support-support](https://assets.openterface.com/images/minikvm/support/support.webp)
 
-**Step 19:** Click the ❌ (top-right) to close the Diagnostics window.
+**Step 18:** Click **Open Log Folder**. The tool will indicate which files to attach. **Attach only the requested log files** (the folder may contain many other logs).
+
+**Step 19:** In the same email, attach a clear **setup photo** showing:
+- the Mini-KVM device,
+- both **Host** and **Target** connections,
+- ports and cables clearly visible.
+
+**Step 20:** Send the email to support (draft text + requested logs + setup photo attached).
+
+**Step 21:** Click the ❌ (top-right) to close the Diagnostics window.

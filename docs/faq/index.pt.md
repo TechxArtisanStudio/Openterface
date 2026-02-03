@@ -1,7 +1,7 @@
 ---
 title: FAQs para USB KVM e Openterface
 description: FAQ detalhado para nosso produto principal Mini-KVM, cobrindo especificações técnicas, guias de uso e dicas de solução de problemas.
-keywords: USB KVM, Openterface, KVM-over-USB, portable KVM, plug-and-play KVM, network-free KVM, headless device control, IT solutions, troubleshooting, Openterface products
+keywords: USB KVM, Openterface, KVM-over-USB, portable KVM, plug-and-play KVM, network-free KVM, headless device control, IT solutions, troubleshooting, autoverificação diagnóstica, controle teclado mouse, Openterface products
 ---
 
 # FAQs
@@ -15,8 +15,10 @@ keywords: USB KVM, Openterface, KVM-over-USB, portable KVM, plug-and-play KVM, n
 
 #### **Openterface Mini-KVM**
 
-- [O que torna o Mini-KVM nosso produto principal?](/product/minikvm/faq#flagship-product)
-- [Quais computadores host são compatíveis?](/product/minikvm/faq#mini-kvm-host-compatibility)
+- [Perguntas frequentes sobre Openterface Mini-KVM](/product/minikvm/faq) — FAQ completo sobre recursos, compatibilidade e uso
+- [Teclado e mouse não conseguem controlar o alvo?](/product/minikvm/faq#keyboard-and-mouse-cannot-control-the-target-computer) — Solução de problemas HID/controle
+- [Como executo diagnósticos?](/product/minikvm/faq#how-do-i-run-diagnostics-to-check-if-my-mini-kvm-is-working) — Verifique seu dispositivo com a autoverificação integrada
+- [Como reporto um problema de hardware ao suporte?](/product/minikvm/faq#how-do-i-report-a-hardware-issue-to-support) — Quando os diagnósticos mostram FALHA
 
 #### **Openterface KVM Extension para uConsole**
 

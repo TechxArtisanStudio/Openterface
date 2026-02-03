@@ -1,10 +1,10 @@
 ---
-title: "Openterface Mini-KVM - 诊断自检指南"
-description: "运行 Openterface Mini-KVM 设备诊断自检的逐步指南。学习如何测试 USB 连接，检测问题，并将缺陷报告发送给支持团队。"
-keywords: "Openterface Mini-KVM, 诊断自检, KVM 故障排除, USB KVM 诊断, Mini-KVM 支持, KVM 设备测试, USB 连接测试, KVM 缺陷报告, Mini-KVM 故障排除指南, KVM 诊断工具, 无头服务器诊断, IT 故障排除工具"
+title: "Openterface Mini-KVM - 诊断自检指南（macOS）"
+description: "使用 macOS 应用运行 Openterface Mini-KVM 设备诊断自检的逐步指南。学习如何测试 USB 连接，检测问题，并将缺陷报告发送给支持团队。"
+keywords: "Openterface Mini-KVM, macOS, 诊断自检, KVM 故障排除, USB KVM 诊断, Mini-KVM 支持, KVM 设备测试, USB 连接测试, KVM 缺陷报告, Mini-KVM 故障排除指南, KVM 诊断工具, 无头服务器诊断, IT 故障排除工具"
 ---
 
-# Openterface Mini-KVM - 诊断自检指南
+# Openterface Mini-KVM - 诊断自检指南（macOS）
 
 本指南提供运行 Openterface Mini-KVM 设备诊断自检的逐步说明。
 
@@ -85,12 +85,22 @@ keywords: "Openterface Mini-KVM, 诊断自检, KVM 故障排除, USB KVM 诊断,
 
 ![minikvm-support-send_defect_report_to_support](https://assets.openterface.com/images/minikvm/support/send_defect_report_to_support.webp)
 
-**步骤 16:** 在缺陷报告窗口中，输入您的 **订单号** 和 **姓名**。
+**步骤 16:** 在缺陷报告窗口中，输入您的 **订单号** 和 **姓名**，然后点击 **应用** 将其插入到邮件草稿中。
 
-**步骤 17:** 点击 **打开日志文件夹**，然后将导出的 **日志文件** 附加到您的电子邮件中。
-
-**步骤 18:** 复制 **支持邮箱地址**，粘贴预填写的 **邮件主题/正文**，附加清晰的 **设置照片**（Mini-KVM + 主机/目标连接），然后发送电子邮件。
+**步骤 17:** 复制邮箱地址和草稿：
+- 点击 **复制邮箱** 以复制支持邮箱地址。
+- 点击 **复制草稿** 以复制预填写的邮件内容（包括订单号 + 姓名）。
+- 将两者粘贴到您的邮件客户端（Gmail/Outlook 等）中。
 
 ![minikvm-support-support](https://assets.openterface.com/images/minikvm/support/support.webp)
 
-**步骤 19:** 点击 ❌（右上角）关闭诊断窗口。
+**步骤 18:** 点击 **打开日志文件夹**。工具会指示需要附加哪些文件。**仅附加所请求的日志文件**（文件夹中可能包含许多其他日志）。
+
+**步骤 19:** 在同一封邮件中，附加一张清晰的 **设置照片**，显示：
+- Mini-KVM 设备，
+- **主机** 和 **目标** 的连接，
+- 端口和线缆清晰可见。
+
+**步骤 20:** 将邮件发送给支持团队（草稿文本 + 请求的日志 + 设置照片已附加）。
+
+**步骤 21:** 点击 ❌（右上角）关闭诊断窗口。

@@ -1,10 +1,10 @@
 ---
-titlu: „Openterface Mini-KVM - Ghid pentru verificare auto-diagnostic”
-descriere: „Ghid pas cu pas pentru rularea verificărilor auto-diagnostice pe dispozitivul Openterface Mini-KVM. Învață cum să testezi conexiunile USB, să detectezi probleme și să trimiti rapoarte de defecte către suport.”
-cuvinte cheie: „Openterface Mini-KVM, verificare auto-diagnostic, depanare KVM, diagnostic USB KVM, suport Mini-KVM, testare dispozitiv KVM, test conexiune USB, raport de defect KVM, ghid pentru depanare Mini-KVM, instrument diagnostic KVM, diagnostice server headless, unelte pentru depanare IT”
+titlu: „Openterface Mini-KVM - Ghid pentru verificare auto-diagnostic (macOS)”
+descriere: „Ghid pas cu pas pentru rularea verificărilor auto-diagnostice pe dispozitivul Openterface Mini-KVM cu aplicația macOS. Învață cum să testezi conexiunile USB, să detectezi probleme și să trimiti rapoarte de defecte către suport.”
+cuvinte cheie: „Openterface Mini-KVM, macOS, verificare auto-diagnostic, depanare KVM, diagnostic USB KVM, suport Mini-KVM, testare dispozitiv KVM, test conexiune USB, raport de defect KVM, ghid pentru depanare Mini-KVM, instrument diagnostic KVM, diagnostice server headless, unelte pentru depanare IT”
 ---
 
-# Openterface Mini-KVM - Ghid pentru verificare auto-diagnostic
+# Openterface Mini-KVM - Ghid pentru verificare auto-diagnostic (macOS)
 
 Acest ghid oferă instrucțiuni pas cu pas pentru rularea verificărilor auto-diagnostice pe dispozitivul Openterface Mini-KVM.
 
@@ -84,12 +84,22 @@ Urmăriți pașii 1–11 din secțiunea „Unitate bună” mai întâi. Notele 
 
 ![minikvm-support-send_defect_report_to_support](https://assets.openterface.com/images/minikvm/support/send_defect_report_to_support.webp)
 
-**Pasul 16:** În fereastra Raport Defect, introduceți **ID-ul comenzi** și **Numele**.
+**Pasul 16:** În fereastra Raport Defect, introduceți **ID-ul comenzi** și **Numele**, apoi clic pe **Aplicare** pentru a le insera în ciorna e-mailului.
 
-**Pasul 17:** Clic pe **Deschide Folder Loguri**, apoi atașați fișierele de log exportate la e-mailul dumneavoastră.
-
-**Pasul 18:** Copiați **adresa de e-mail pentru suport**, lipiți subiectul și corpul preîncărcat al e-mailului, atașați o **fotografie clară a configurării** (Mini-KVM + conexiuni gazdă/țintă), și trimiteți e-mailul.
+**Pasul 17:** Copiați adresa de e-mail și ciorna:
+- Clic pe **Copiază E-mail** pentru a copia adresa de e-mail pentru suport.
+- Clic pe **Copiază Ciornă** pentru a copia conținutul e-mailului precompletat (inclusiv ID comandă + Nume).
+- Lipiți ambele în clientul de e-mail (Gmail/Outlook/etc.).
 
 ![minikvm-support-support](https://assets.openterface.com/images/minikvm/support/support.webp)
 
-**Pasul 19:** Clic pe ❌ (dreapta sus) pentru a închide fereastra de Diagnosticare.
+**Pasul 18:** Clic pe **Deschide Folder Loguri**. Instrumentul va indica ce fișiere să atașați. **Atașați doar fișierele de log solicitate** (folderul poate conține multe alte loguri).
+
+**Pasul 19:** În același e-mail, atașați o **fotografie clară a configurării** care arată:
+- dispozitivul Mini-KVM,
+- ambele conexiuni **Gazdă** și **Țintă**,
+- porturi și cabluri clar vizibile.
+
+**Pasul 20:** Trimiteți e-mailul către suport (text ciornă + loguri solicitate + fotografie configurație atașate).
+
+**Pasul 21:** Clic pe ❌ (dreapta sus) pentru a închide fereastra de Diagnosticare.

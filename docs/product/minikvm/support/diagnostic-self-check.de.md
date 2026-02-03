@@ -1,10 +1,10 @@
 ---
-title: "Openterface Mini-KVM - Diagnose Selbsttest Anleitung"
-description: "Schritt-für-Schritt-Anleitung zur Durchführung von Diagnose Selbsttests am Openterface Mini-KVM-Gerät. Erfahren Sie, wie Sie USB-Verbindungen testen, Probleme erkennen und Defektberichte an den Support senden können."
-keywords: "Openterface Mini-KVM, Diagnose Selbsttest, KVM-Problembehandlung, USB-KVM-Diagnose, Mini-KVM-Support, KVM-Gerät-Test, USB-Verbindungsprüfung, KVM-Defektbericht, Mini-KVM-Problemlösungshandbuch, KVM-Diagnose-Tool, headless Server Diagnose, IT-Problemlösungstools"
+title: "Openterface Mini-KVM - Diagnose Selbsttest Anleitung (macOS)"
+description: "Schritt-für-Schritt-Anleitung zur Durchführung von Diagnose Selbsttests am Openterface Mini-KVM-Gerät mit der macOS-App. Erfahren Sie, wie Sie USB-Verbindungen testen, Probleme erkennen und Defektberichte an den Support senden können."
+keywords: "Openterface Mini-KVM, macOS, Diagnose Selbsttest, KVM-Problembehandlung, USB-KVM-Diagnose, Mini-KVM-Support, KVM-Gerät-Test, USB-Verbindungsprüfung, KVM-Defektbericht, Mini-KVM-Problemlösungshandbuch, KVM-Diagnose-Tool, headless Server Diagnose, IT-Problemlösungstools"
 ---
 
-# Openterface Mini-KVM - Diagnose Selbsttest Anleitung
+# Openterface Mini-KVM - Diagnose Selbsttest Anleitung (macOS)
 
 Dieses Handbuch enthält Schritt-für-Schritt-Anweisungen zur Durchführung von Diagnose Selbsttests am Openterface Mini-KVM-Gerät.
 
@@ -85,12 +85,22 @@ In diesem Beispiel wird zuerst der Gesamtverbindungszustand als FEHLER angezeigt
 
 ![minikvm-support-send_defect_report_to_support](https://assets.openterface.com/images/minikvm/support/send_defect_report_to_support.webp)
 
-**Schritt 16:** Im Defektberichtsfenster geben Sie Ihre **Bestellnummer** und **Name** ein.
+**Schritt 16:** Im Defektberichtsfenster geben Sie Ihre **Bestellnummer** und **Name** ein, und klicken Sie auf **Übernehmen**, um sie in den E-Mail-Entwurf einzufügen.
 
-**Schritt 17:** Klicken Sie auf **Log-Ordner öffnen**, und fügen Sie anschließend die exportierten **Protokolldateien** zu Ihrer E-Mail hinzu.
-
-**Schritt 18:** Kopieren Sie die **Support-E-Mail-Adresse**, fügen Sie den vorgefüllten **E-Mail-Betreff/Text** ein, fügen Sie ein klares **Aufstellungsphoto** (Mini-KVM + Host/Ziel-Verbindungen) hinzu und senden Sie die E-Mail.
+**Schritt 17:** Kopieren Sie die E-Mail-Adresse und den Entwurf:
+- Klicken Sie auf **E-Mail kopieren**, um die Support-E-Mail-Adresse zu kopieren.
+- Klicken Sie auf **Entwurf kopieren**, um den vorgefüllten E-Mail-Inhalt (einschließlich Bestellnummer + Name) zu kopieren.
+- Fügen Sie beides in Ihren E-Mail-Client (Gmail/Outlook usw.) ein.
 
 ![minikvm-support-support](https://assets.openterface.com/images/minikvm/support/support.webp)
 
-**Schritt 19:** Klicken Sie auf ❌ (oben rechts), um das Diagnosefenster zu schließen.
+**Schritt 18:** Klicken Sie auf **Log-Ordner öffnen**. Das Tool zeigt an, welche Dateien angehängt werden sollen. **Hängen Sie nur die angeforderten Protokolldateien an** (der Ordner kann viele andere Protokolle enthalten).
+
+**Schritt 19:** Fügen Sie derselben E-Mail ein klares **Aufstellungsphoto** bei, das zeigt:
+- das Mini-KVM-Gerät,
+- beide **Host-** und **Ziel-**Verbindungen,
+- Anschlüsse und Kabel deutlich sichtbar.
+
+**Schritt 20:** Senden Sie die E-Mail an den Support (Entwurfstext + angeforderte Protokolle + Aufstellungsphoto angehängt).
+
+**Schritt 21:** Klicken Sie auf ❌ (oben rechts), um das Diagnosefenster zu schließen.

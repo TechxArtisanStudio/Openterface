@@ -1,7 +1,7 @@
 ---
 title: Întrebări Frecvente pentru USB KVM și Openterface
 description: FAQ detaliat pentru produsul nostru principal Mini-KVM, acoperind specificații tehnice, ghiduri de utilizare și sfaturi de depanare.
-keywords: USB KVM, Openterface, KVM-over-USB, portable KVM, plug-and-play KVM, network-free KVM, headless device control, IT solutions, troubleshooting, Openterface products
+keywords: USB KVM, Openterface, KVM-over-USB, portable KVM, plug-and-play KVM, network-free KVM, headless device control, IT solutions, troubleshooting, verificare auto-diagnostic, control tastatură mouse, Openterface products
 ---
 
 # Întrebări Frecvente
@@ -15,8 +15,10 @@ keywords: USB KVM, Openterface, KVM-over-USB, portable KVM, plug-and-play KVM, n
 
 #### **Openterface Mini-KVM**
 
-- [Ce face Mini-KVM-ul să fie produsul nostru principal?](/product/minikvm/faq#flagship-product)
-- [Care computere gazdă sunt compatibile?](/product/minikvm/faq#mini-kvm-host-compatibility)
+- [Întrebări frecvente despre Openterface Mini-KVM](/product/minikvm/faq) — FAQ complet despre funcționalități, compatibilitate și utilizare
+- [Tastatura și mausul nu pot controla ținta?](/product/minikvm/faq#keyboard-and-mouse-cannot-control-the-target-computer) — Depanare HID/control
+- [Cum rulez diagnosticele?](/product/minikvm/faq#how-do-i-run-diagnostics-to-check-if-my-mini-kvm-is-working) — Verificați dispozitivul cu verificarea auto integrată
+- [Cum raportez o problemă hardware către suport?](/product/minikvm/faq#how-do-i-report-a-hardware-issue-to-support) — Când diagnosticul arată ECHEC
 
 #### **Openterface KVM Extension pentru uConsole**
 

@@ -1,7 +1,7 @@
 ---
 title: FAQs für Openterface Mini-KVM
 description: Häufig gestellte Fragen zum Mini-KVM, die Funktionen, Kompatibilität, Fehlerbehebung und zukünftige Pläne abdecken.
-keywords: Mini-KVM, Openterface, KVM-Switch, Open-Source, Fehlerbehebung, Videoaufnahme, USB, Kompatibilität
+keywords: Mini-KVM, Openterface, KVM-Switch, Open-Source, Fehlerbehebung, Videoaufnahme, USB, Kompatibilität, Diagnose Selbsttest, Tastatur Maus Steuerung, Hardware-Diagnose, Support
 ---
 
 # FAQs für Openterface Mini-KVM
@@ -75,6 +75,18 @@ Für stromsparende Ziele (z.B. Raspberry Pi) verwenden Sie eine dedizierte Strom
 
 ## Steuerung
 
+**:material-chat-question:{ .faq } Tastatur und Maus können den Zielcomputer nicht steuern**
+
+Wenn Sie den Ziel-Desktop sehen können, aber Tastatur- und Mauseingaben nicht reagieren, bedeutet dies meist, dass die HID-Kommunikation nicht hergestellt wurde. Versuchen Sie diese Schritte:
+
+1. **Kabelverbindungen prüfen** — Stellen Sie sicher, dass das Target Type-C-Kabel mit dem Zielcomputer verbunden ist; das Host-Kabel mit Ihrem Steuerungscomputer.
+2. **Unversorgte USB-Hubs vermeiden** — Verwenden Sie Direktverbindung oder einen aktiven Hub.
+3. **HID-Chip zurücksetzen** — Wenn das Gerät „eingefroren" wirkt, verwenden Sie **Erweitertes Menü → HID-Chip Werksreset** (OpenterfaceQt) oder **Serial Reset Tool** (macOS).
+4. **Anderen USB-Port ausprobieren oder neu starten** — Das Host-Betriebssystem kann einen Port nach USB-Fehlern deaktivieren.
+5. **Baudrate senken** — In störungsanfälligen Umgebungen auf 9600 bps umstellen für zuverlässigere Kommunikation.
+
+Details siehe [Troubleshooting Tastatur- und Maussteuerung](/product/minikvm/support/keyboard-mouse-control/).
+
 **:material-chat-question:{ .faq } Drahtlose oder Ethernet-Version?**
 
 Nicht eingebaut. Verwenden Sie einen Headless-Computer (z.B. Raspberry Pi) + Remote-Desktop für Fernsteuerung.
@@ -122,14 +134,37 @@ Verwenden Sie Adapter für VGA, DVI, DisplayPort, etc.
 
 ## Fehlerbehebung
 
+**:material-chat-question:{ .faq } Wie führe ich Diagnosen durch, um zu prüfen, ob mein Mini-KVM funktioniert?**
+
+Führen Sie den integrierten Diagnose-Selbsttest aus, um USB-Verbindungen zu prüfen und Hardware-Probleme zu erkennen:
+
+- **macOS:** [Diagnose Selbsttest Anleitung (macOS)](/product/minikvm/support/diagnostic-self-check/) — Einstellungen → Erweitert & Debug → Diagnose-Tool öffnen
+- **Windows:** [Diagnose Selbsttest Anleitung (Windows)](/product/minikvm/support/diagnostic-self-check-windows/) — Erweitert → Hardware-Diagnose
+
+Die Diagnose testet Target/Host Plug & Play, Stresstest und mehr. Wenn alle Tests bestehen, funktioniert Ihr Gerät einwandfrei.
+
+**:material-chat-question:{ .faq } Wie melde ich ein Hardware-Problem an den Support?**
+
+Wenn der Diagnose-Selbsttest bei einem oder mehreren Tests **FEHLER** anzeigt:
+
+1. Führen Sie die verbleibenden Diagnoseschritte aus (das Tool führt Sie).
+2. Bei erkanntem Problem öffnet sich ein Fenster **Support-E-Mail** oder **Defektbericht**.
+3. Geben Sie **Bestellnummer** und **Name** ein, kopieren Sie E-Mail-Adresse und Entwurf.
+4. Hängen Sie die **angeforderten Protokolldateien** an (das Tool zeigt an, welche) und ein **Aufstellungsphoto** (Mini-KVM + Host/Ziel-Verbindungen deutlich sichtbar).
+5. Senden Sie die E-Mail an den Support.
+
+Schritt-für-Schritt-Anleitung: [Diagnose Selbsttest Anleitung (macOS)](/product/minikvm/support/diagnostic-self-check/) oder [Diagnose Selbsttest Anleitung (Windows)](/product/minikvm/support/diagnostic-self-check-windows/).
+
 **:material-chat-question:{ .faq } USB-Hub-Probleme**
 
-Verwenden Sie einen **aktiven Hub**, um Spannungsabfälle zu vermeiden, die Instabilität verursachen.
+Verwenden Sie einen **aktiven Hub**, um Spannungsabfälle zu vermeiden. Unversorgte Hubs können zu unzureichender Stromversorgung und instabilem HID-Verhalten (Tastatur/Maus) führen. Details: [Troubleshooting Tastatur- und Maussteuerung](/product/minikvm/support/keyboard-mouse-control/).
 
 **:material-chat-question:{ .faq } App zeigt kein Video oder Steuerung reagiert nicht**
 
-Trennen Sie alle Kabel, warten Sie, verbinden Sie wieder.  
-Wenn nicht gelöst, Firmware prüfen oder Host-App aktualisieren.
+1. Alle Kabel trennen, einige Sekunden warten, wieder verbinden.
+2. [Troubleshooting Tastatur- und Maussteuerung](/product/minikvm/support/keyboard-mouse-control/) für HID-Probleme prüfen (Kabel, Hubs, HID-Reset).
+3. [Diagnose-Selbsttest](/product/minikvm/support/diagnostic-self-check/) (macOS) oder [Hardware-Diagnose](/product/minikvm/support/diagnostic-self-check-windows/) (Windows) ausführen.
+4. Wenn ungelöst: Firmware prüfen oder Host-App aktualisieren.
 
 **:material-chat-question:{ .faq } Seltsame Auflösungen wie 43184x24228@44Hz**
 
@@ -140,4 +175,5 @@ Firmware neu flashen über [GitHub-Releases](https://github.com/TechxArtisanStud
 
 -   Richtige USB-Enumeration verifizieren (`USB Tree Viewer` oder `lsusb -v`)
 -   Neueste Host-App bestätigen
--   Wenn immer noch fehlschlagend, Support für Diagnose/Austausch kontaktieren.
+-   [Diagnose-Selbsttest](/product/minikvm/support/diagnostic-self-check/) ausführen, um Protokolle zu erfassen
+-   Wenn weiterhin fehlschlagend: Support mit Bestellnummer, Diagnose-Protokollen und Aufstellungsphoto kontaktieren — siehe [Wie melde ich ein Hardware-Problem an den Support?](#wie-melde-ich-ein-hardware-problem-an-den-support)

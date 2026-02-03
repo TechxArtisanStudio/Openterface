@@ -1,10 +1,10 @@
 ---
-title: "Guía de autodiagnóstico para Openterface Mini-KVM"
-description: "Guía paso a paso para realizar autodiagnósticos en el dispositivo Openterface Mini-KVM. Aprenda cómo probar las conexiones USB, detectar problemas y enviar informes de defectos al soporte."
-keywords: "Openterface Mini-KVM, autodiagnóstico, solución de problemas KVM, diagnósticos USB KVM, soporte Mini-KVM, prueba del dispositivo KVM, prueba de conexión USB, informe de defectos KVM, guía de solución de problemas Mini-KVM, herramienta de diagnóstico KVM, diagnósticos de servidores headless, herramientas de solución de problemas IT"
+title: "Openterface Mini-KVM - Guía de autodiagnóstico (macOS)"
+description: "Guía paso a paso para realizar autodiagnósticos en el dispositivo Openterface Mini-KVM con la app macOS. Aprenda cómo probar las conexiones USB, detectar problemas y enviar informes de defectos al soporte."
+keywords: "Openterface Mini-KVM, macOS, autodiagnóstico, solución de problemas KVM, diagnósticos USB KVM, soporte Mini-KVM, prueba del dispositivo KVM, prueba de conexión USB, informe de defectos KVM, guía de solución de problemas Mini-KVM, herramienta de diagnóstico KVM, diagnósticos de servidores headless, herramientas de solución de problemas IT"
 ---
 
-# Openterface Mini-KVM - Guía de autodiagnóstico
+# Openterface Mini-KVM - Guía de autodiagnóstico (macOS)
 
 Esta guía proporciona instrucciones paso a paso para realizar autodiagnósticos en el dispositivo Openterface Mini-KVM.
 
@@ -85,12 +85,22 @@ En este ejemplo, la Conexión General muestra FALLA primero porque un problema d
 
 ![minikvm-support-send_defect_report_to_support](https://assets.openterface.com/images/minikvm/support/send_defect_report_to_support.webp)
 
-**Paso 16:** En la ventana de Informe de Defecto, ingrese su **Número de Pedido** y **Nombre**.
+**Paso 16:** En la ventana de Informe de Defecto, ingrese su **Número de Pedido** y **Nombre**, luego haga clic en **Aplicar** para insertarlos en el borrador del correo electrónico.
 
-**Paso 17:** Haga clic en **Abrir Carpeta de Registros**, luego adjunte los archivos de registro exportados a su correo electrónico.
-
-**Paso 18:** Copie la **dirección de correo del soporte**, pegue el asunto/cuerpo previamente rellenado, adjunte una foto clara de la configuración (Mini-KVM + conexiones anfitrión/objetivo) y envíe el correo electrónico.
+**Paso 17:** Copie la dirección de correo y el borrador:
+- Haga clic en **Copiar Email** para copiar la dirección de correo del soporte.
+- Haga clic en **Copiar Borrador** para copiar el contenido del correo prellenado (incluyendo Número de Pedido + Nombre).
+- Pegue ambos en su cliente de correo (Gmail/Outlook/etc.).
 
 ![minikvm-support-support](https://assets.openterface.com/images/minikvm/support/support.webp)
 
-**Paso 19:** Haga clic en ❌ (esquina superior derecha) para cerrar la ventana de Diagnóstico.
+**Paso 18:** Haga clic en **Abrir Carpeta de Registros**. La herramienta indicará qué archivos adjuntar. **Adjunte solo los archivos de registro solicitados** (la carpeta puede contener muchos otros registros).
+
+**Paso 19:** En el mismo correo, adjunte una **foto clara de la configuración** que muestre:
+- el dispositivo Mini-KVM,
+- ambas conexiones **Anfitrión** y **Objetivo**,
+- puertos y cables claramente visibles.
+
+**Paso 20:** Envíe el correo al soporte (texto del borrador + registros solicitados + foto de configuración adjuntos).
+
+**Paso 21:** Haga clic en ❌ (esquina superior derecha) para cerrar la ventana de Diagnóstico.

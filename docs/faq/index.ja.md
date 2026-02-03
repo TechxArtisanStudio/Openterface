@@ -1,7 +1,7 @@
 ---
 title: USB KVM と Openterface のよくある質問
 description: 私たちのフラッグシップ製品 Mini-KVM の詳細な FAQ、技術仕様、使用方法ガイド、トラブルシューティングのヒントをカバーします。
-keywords: USB KVM, Openterface, KVM-over-USB, portable KVM, plug-and-play KVM, network-free KVM, headless device control, IT solutions, troubleshooting, Openterface products
+keywords: USB KVM, Openterface, KVM-over-USB, portable KVM, plug-and-play KVM, network-free KVM, headless device control, IT solutions, troubleshooting, 診断自己チェック, キーボードマウス制御, Openterface products
 ---
 
 # よくある質問
@@ -15,8 +15,10 @@ keywords: USB KVM, Openterface, KVM-over-USB, portable KVM, plug-and-play KVM, n
 
 #### **Openterface Mini-KVM**
 
-- [Mini-KVM が私たちのフラッグシップ製品である理由は何ですか？](/product/minikvm/faq#flagship-product)
-- [どのホストコンピューターが互換性がありますか？](/product/minikvm/faq#mini-kvm-host-compatibility)
+- [Openterface Mini-KVM よくある質問](/product/minikvm/faq) — 機能、互換性、使用方法をカバーする完全な FAQ
+- [キーボードとマウスでターゲットを制御できない？](/product/minikvm/faq#keyboard-and-mouse-cannot-control-the-target-computer) — HID/制御の問題のトラブルシューティング
+- [診断を実行するには？](/product/minikvm/faq#how-do-i-run-diagnostics-to-check-if-my-mini-kvm-is-working) — 組み込みの自己チェックでデバイスを検証
+- [ハードウェアの問題をサポートに報告するには？](/product/minikvm/faq#how-do-i-report-a-hardware-issue-to-support) — 診断で失敗が表示された場合
 
 #### **Openterface KVM Extension for uConsole**
 

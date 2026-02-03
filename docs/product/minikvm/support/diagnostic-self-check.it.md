@@ -1,10 +1,10 @@
 ---
-title: "Openterface Mini-KVM - Guida per il controllo diagnostico auto"
-description: "Guida passo dopo passo per eseguire controlli diagnostici auto sull'apparecchio Openterface Mini-KVM. Impara come testare le connessioni USB, rilevare problemi e inviare segnalazioni di difetti al supporto."
-keywords: "Openterface Mini-KVM, controllo diagnostico auto, risoluzione dei problemi KVM, diagnosi USB KVM, supporto Mini-KVM, test del dispositivo KVM, test della connessione USB, segnalazione di difetti KVM, guida alla risoluzione dei problemi Mini-KVM, strumento diagnostico KVM, diagnosi per server headless, strumenti IT per la risoluzione dei problemi"
+title: "Openterface Mini-KVM - Guida per il controllo diagnostico auto (macOS)"
+description: "Guida passo dopo passo per eseguire controlli diagnostici auto sull'apparecchio Openterface Mini-KVM con l'app macOS. Impara come testare le connessioni USB, rilevare problemi e inviare segnalazioni di difetti al supporto."
+keywords: "Openterface Mini-KVM, macOS, controllo diagnostico auto, risoluzione dei problemi KVM, diagnosi USB KVM, supporto Mini-KVM, test del dispositivo KVM, test della connessione USB, segnalazione di difetti KVM, guida alla risoluzione dei problemi Mini-KVM, strumento diagnostico KVM, diagnosi per server headless, strumenti IT per la risoluzione dei problemi"
 ---
 
-# Openterface Mini-KVM - Guida per il controllo diagnostico auto
+# Openterface Mini-KVM - Guida per il controllo diagnostico auto (macOS)
 
 Questa guida fornisce istruzioni passo dopo passo per eseguire controlli diagnostici auto sull'apparecchio Openterface Mini-KVM.
 
@@ -85,12 +85,22 @@ In questo esempio, Connessione Generale mostra FAIL inizialmente perché un prob
 
 ![minikvm-support-send_defect_report_to_support](https://assets.openterface.com/images/minikvm/support/send_defect_report_to_support.webp)
 
-**Passaggio 16:** Nella finestra della Segnalazione di Difetto, inserisci il tuo **ID Ordine** e **Nome**.
+**Passaggio 16:** Nella finestra della Segnalazione di Difetto, inserisci il tuo **ID Ordine** e **Nome**, quindi fare clic su **Applica** per inserirli nella bozza dell'email.
 
-**Passaggio 17:** Fare clic su **Apri Cartella dei Log**, quindi allega i file log esportati alla tua email.
-
-**Passaggio 18:** Copia l'**indirizzo email del supporto**, incolla l'oggetto e il corpo dell'email precompilati, allega una foto chiara della **configurazione** (Mini-KVM + connessioni host/target), e invia l'email.
+**Passaggio 17:** Copia l'indirizzo email e la bozza:
+- Fare clic su **Copia Email** per copiare l'indirizzo email del supporto.
+- Fare clic su **Copia Bozza** per copiare il contenuto dell'email precompilato (inclusi ID Ordine + Nome).
+- Incolla entrambi nel tuo client email (Gmail/Outlook/ecc.).
 
 ![minikvm-support-support](https://assets.openterface.com/images/minikvm/support/support.webp)
 
-**Passaggio 19:** Fare clic sul ❌ (in alto a destra) per chiudere la finestra diagnostica.
+**Passaggio 18:** Fare clic su **Apri Cartella dei Log**. Lo strumento indicherà quali file allegare. **Allega solo i file di log richiesti** (la cartella può contenere molti altri log).
+
+**Passaggio 19:** Nella stessa email, allega una **foto chiara della configurazione** che mostri:
+- il dispositivo Mini-KVM,
+- entrambe le connessioni **Host** e **Target**,
+- porte e cavi chiaramente visibili.
+
+**Passaggio 20:** Invia l'email al supporto (testo della bozza + log richiesti + foto della configurazione allegati).
+
+**Passaggio 21:** Fare clic sul ❌ (in alto a destra) per chiudere la finestra diagnostica.

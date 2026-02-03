@@ -1,10 +1,10 @@
 ---
-title: "Openterface Mini-KVM - 診断自己チェックガイド"
-description: "Openterface Mini-KVMデバイスで診断自己チェックを実行するためのステップバイステップガイド。USB接続のテスト、問題の検出、サポートへの欠陥報告の送信方法を学びましょう。"
-keywords: "Openterface Mini-KVM, 診断自己チェック, KVMトラブルシューティング, USB KVM診断, Mini-KVMサポート, KVMデバイステスト, USB接続テスト, KVM欠陥報告, Mini-KVMトラブルシューティングガイド, KVM診断ツール, ヘッドレスサーバー診断, ITトラブルシューティングツール"
+title: "Openterface Mini-KVM - 診断自己チェックガイド（macOS）"
+description: "macOSアプリでOpenterface Mini-KVMデバイスの診断自己チェックを実行するためのステップバイステップガイド。USB接続のテスト、問題の検出、サポートへの欠陥報告の送信方法を学びましょう。"
+keywords: "Openterface Mini-KVM, macOS, 診断自己チェック, KVMトラブルシューティング, USB KVM診断, Mini-KVMサポート, KVMデバイステスト, USB接続テスト, KVM欠陥報告, Mini-KVMトラブルシューティングガイド, KVM診断ツール, ヘッドレスサーバー診断, ITトラブルシューティングツール"
 ---
 
-# Openterface Mini-KVM - 診断自己チェックガイド
+# Openterface Mini-KVM - 診断自己チェックガイド（macOS）
 
 このガイドは、Openterface Mini-KVMデバイスで診断自己チェックを実行するためのステップバイステップの指示を提供します。
 
@@ -85,12 +85,22 @@ keywords: "Openterface Mini-KVM, 診断自己チェック, KVMトラブルシュ
 
 ![minikvm-support-send_defect_report_to_support](https://assets.openterface.com/images/minikvm/support/send_defect_report_to_support.webp)
 
-**ステップ16:** 欠陥報告ウィンドウで、**注文ID**と**名前**を入力してください。
+**ステップ16:** 欠陥報告ウィンドウで、**注文ID**と**名前**を入力し、**適用**をクリックしてメールの下書きに挿入してください。
 
-**ステップ17:** **Open Log Folder**をクリックし、エクスポートされた**ログファイル**をメールに添付してください。
-
-**ステップ18:** **サポートのメールアドレス**をコピーし、事前に記入された**メール件名/本文**に貼り付け、明確な**設定写真**（Mini-KVM + ホスト/ターゲット接続）を添付してメールを送信してください。
+**ステップ17:** メールアドレスと下書きをコピーします：
+- **メールをコピー**をクリックしてサポートのメールアドレスをコピーします。
+- **下書きをコピー**をクリックして事前記入されたメール内容（注文ID + 名前を含む）をコピーします。
+- 両方をメールクライアント（Gmail/Outlookなど）に貼り付けてください。
 
 ![minikvm-support-support](https://assets.openterface.com/images/minikvm/support/support.webp)
 
-**ステップ19:** Diagnosticsウィンドウを閉じるには、右上隅の ❌ をクリックします。
+**ステップ18:** **ログフォルダを開く**をクリックします。ツールが添付するファイルを表示します。**要求されたログファイルのみを添付してください**（フォルダには他の多くのログが含まれている場合があります）。
+
+**ステップ19:** 同じメールに、明確な**設定写真**を添付してください。写真には以下が写っている必要があります：
+- Mini-KVMデバイス、
+- **ホスト**と**ターゲット**の両方の接続、
+- ポートとケーブルがはっきり見えること。
+
+**ステップ20:** サポートにメールを送信してください（下書きテキスト + 要求されたログ + 設定写真を添付）。
+
+**ステップ21:** Diagnosticsウィンドウを閉じるには、右上隅の ❌ をクリックします。

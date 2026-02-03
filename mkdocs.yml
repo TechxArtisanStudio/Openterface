@@ -179,7 +179,8 @@ nav:
     - FAQs for Mini-KVM: product/minikvm/faq.md
     - Videos: videos/?p=minikvm
     - Tech Support:
-      - Diagnostic Self-Check Guide: product/minikvm/support/diagnostic-self-check.md
+      - Diagnostic Self-Check Guide (macOS): product/minikvm/support/diagnostic-self-check.md
+      - Diagnostic Self-Check Guide (Windows): product/minikvm/support/diagnostic-self-check-windows.md
       - Keyboard and Mouse Control: product/minikvm/support/keyboard-mouse-control.md
     - Reviews & Press:
       - Overview: product/minikvm/reviews/index.md

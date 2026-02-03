@@ -1,7 +1,7 @@
 ---
 title: FAQ pour Openterface Mini-KVM
 description: Questions fréquemment posées sur le Mini-KVM, couvrant les fonctionnalités, la compatibilité, le dépannage et les plans futurs.
-keywords: Mini-KVM, Openterface, commutateur KVM, open-source, dépannage, capture vidéo, USB, compatibilité
+keywords: Mini-KVM, Openterface, commutateur KVM, open-source, dépannage, capture vidéo, USB, compatibilité, auto-vérification diagnostique, contrôle clavier souris, diagnostic matériel, support
 ---
 
 # FAQ pour Openterface Mini-KVM
@@ -75,6 +75,18 @@ Pour les cibles à faible consommation (ex. Raspberry Pi), utilisez une alimenta
 
 ## Contrôle
 
+**:material-chat-question:{ .faq } Le clavier et la souris ne peuvent pas contrôler l'ordinateur cible**
+
+Si vous voyez le bureau cible mais que les entrées clavier/souris ne répondent pas, cela signifie généralement que la communication HID n'est pas établie. Essayez ces étapes :
+
+1. **Vérifier les connexions des câbles** — Assurez-vous que le câble Type-C cible est connecté à l'ordinateur cible ; le câble hôte à votre ordinateur de contrôle.
+2. **Éviter les hubs USB non alimentés** — Utilisez une connexion directe ou un hub alimenté.
+3. **Réinitialiser la puce HID** — Si l'appareil semble « gelé », utilisez **Menu Avancé → Réinitialisation usine puce HID** (OpenterfaceQt) ou **Outil de réinitialisation série** (macOS).
+4. **Essayer un autre port USB ou redémarrer** — L'OS hôte peut désactiver un port après des erreurs USB.
+5. **Réduire le débit en bauds** — Dans les environnements bruyants, passez à 9600 bps pour une communication plus fiable.
+
+Pour plus de détails, voir [Dépannage du contrôle clavier et souris](/product/minikvm/support/keyboard-mouse-control/).
+
 **:material-chat-question:{ .faq } Version sans fil ou Ethernet ?**
 
 Pas intégré. Utilisez un ordinateur sans tête (ex. Raspberry Pi) + bureau distant pour le contrôle distant.
@@ -122,14 +134,37 @@ Utilisez des adaptateurs pour VGA, DVI, DisplayPort, etc.
 
 ## Dépannage
 
+**:material-chat-question:{ .faq } Comment exécuter les diagnostics pour vérifier si mon Mini-KVM fonctionne ?**
+
+Exécutez l'auto-vérification diagnostique intégrée pour vérifier les connexions USB et détecter les problèmes matériels :
+
+- **macOS :** [Guide d'auto-vérification diagnostique (macOS)](/product/minikvm/support/diagnostic-self-check/) — Paramètres → Avancé & Débogage → Ouvrir l'outil de diagnostic
+- **Windows :** [Guide d'auto-vérification diagnostique (Windows)](/product/minikvm/support/diagnostic-self-check-windows/) — Avancé → Diagnostic matériel
+
+Les diagnostics testent Target/Host Plug & Play, test de stress, etc. Si tous les tests passent, votre appareil fonctionne correctement.
+
+**:material-chat-question:{ .faq } Comment signaler un problème matériel au support ?**
+
+Si l'auto-vérification diagnostique affiche **ÉCHEC** sur un ou plusieurs tests :
+
+1. Complétez les étapes de diagnostic restantes (l'outil vous guidera).
+2. Lorsqu'un problème est détecté, une fenêtre **E-mail de support** ou **Rapport de défaut** s'ouvre.
+3. Entrez votre **Numéro de commande** et **Nom**, puis copiez l'adresse e-mail et le brouillon.
+4. Joignez les **fichiers de journaux demandés** (l'outil indique lesquels) et une **photo de la configuration** (Mini-KVM + connexions hôte/cible clairement visibles).
+5. Envoyez l'e-mail au support.
+
+Instructions étape par étape : [Guide d'auto-vérification diagnostique (macOS)](/product/minikvm/support/diagnostic-self-check/) ou [Guide d'auto-vérification diagnostique (Windows)](/product/minikvm/support/diagnostic-self-check-windows/).
+
 **:material-chat-question:{ .faq } Problèmes de hub USB**
 
-Utilisez un **hub alimenté** pour éviter les chutes de tension causant l'instabilité.
+Utilisez un **hub alimenté** pour éviter les chutes de tension. Les hubs non alimentés peuvent entraîner une alimentation insuffisante et un comportement erratique du HID (clavier/souris). Voir [Dépannage du contrôle clavier et souris](/product/minikvm/support/keyboard-mouse-control/).
 
 **:material-chat-question:{ .faq } L'app ne montre pas de vidéo ou le contrôle ne répond pas**
 
-Déconnectez tous les câbles, attendez, reconnectez.  
-Si non résolu, vérifiez le firmware ou mettez à jour l'app hôte.
+1. Déconnectez tous les câbles, attendez quelques secondes, reconnectez.
+2. Consultez [Dépannage du contrôle clavier et souris](/product/minikvm/support/keyboard-mouse-control/) pour les problèmes HID (câbles, hubs, réinitialisation HID).
+3. Exécutez l'[auto-vérification diagnostique](/product/minikvm/support/diagnostic-self-check/) (macOS) ou le [Diagnostic matériel](/product/minikvm/support/diagnostic-self-check-windows/) (Windows) pour vérifier l'appareil.
+4. Si non résolu, vérifiez le firmware ou mettez à jour l'app hôte.
 
 **:material-chat-question:{ .faq } Résolutions étranges comme 43184x24228@44Hz**
 
@@ -140,4 +175,5 @@ Re-flashez le firmware via les [releases GitHub](https://github.com/TechxArtisan
 
 -   Vérifiez la bonne énumération USB (`USB Tree Viewer` ou `lsusb -v`)
 -   Confirmez la dernière app hôte
--   Si toujours en échec, contactez le support pour diagnostic/remplacement.
+-   Exécutez l'[auto-vérification diagnostique](/product/minikvm/support/diagnostic-self-check/) pour capturer les journaux
+-   Si toujours en échec, contactez le support avec votre Numéro de commande, journaux de diagnostic et photo de configuration — voir [Comment signaler un problème matériel au support ?](#comment-signaler-un-problème-matériel-au-support)

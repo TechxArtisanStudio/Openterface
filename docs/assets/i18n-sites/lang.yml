@@ -69,6 +69,8 @@
     Tech Support: 技术支持
     "Keyboard and Mouse Control": 键盘和鼠标控制
     "Diagnostic Self-Check Guide": 诊断自检指南
+    "Diagnostic Self-Check Guide (macOS)": 诊断自检指南（macOS）
+    "Diagnostic Self-Check Guide (Windows)": 诊断自检指南（Windows）
     Community: 社区
     "Multi-Languages": 多语言
     "Support Us": "支持我们"
@@ -150,6 +152,8 @@
     Tech Support: テクニカルサポート
     "Keyboard and Mouse Control": キーボードとマウスの制御
     "Diagnostic Self-Check Guide": 診断セルフチェックガイド
+    "Diagnostic Self-Check Guide (macOS)": 診断セルフチェックガイド（macOS）
+    "Diagnostic Self-Check Guide (Windows)": 診断セルフチェックガイド（Windows）
     Community: コミュニティ
     "Multi-Languages": 多言語
     "Support Us": "私たちをサポート"
@@ -231,6 +235,8 @@
     Tech Support: 기술 지원
     "Keyboard and Mouse Control": 키보드 및 마우스 제어
     "Diagnostic Self-Check Guide": 진단 자가 점검 가이드
+    "Diagnostic Self-Check Guide (macOS)": 진단 자가 점검 가이드 (macOS)
+    "Diagnostic Self-Check Guide (Windows)": 진단 자가 점검 가이드 (Windows)
     Community: 커뮤니티
     "Multi-Languages": 다국어
     "Support Us": "우리를 지원하세요"
@@ -312,6 +318,8 @@
     Tech Support: "Support Technique"
     "Keyboard and Mouse Control": "Contrôle du clavier et de la souris"
     "Diagnostic Self-Check Guide": "Guide d'auto-diagnostic"
+    "Diagnostic Self-Check Guide (macOS)": "Guide d'auto-diagnostic (macOS)"
+    "Diagnostic Self-Check Guide (Windows)": "Guide d'auto-diagnostic (Windows)"
     Community: Communauté
     "Multi-Languages": Multilingue
     "Support Us": "Soutenez-nous"
@@ -393,6 +401,8 @@
     Tech Support: "Technischer Support"
     "Keyboard and Mouse Control": "Tastatur- und Maussteuerung"
     "Diagnostic Self-Check Guide": "Diagnose-Selbstprüfungsanleitung"
+    "Diagnostic Self-Check Guide (macOS)": "Diagnose-Selbstprüfungsanleitung (macOS)"
+    "Diagnostic Self-Check Guide (Windows)": "Diagnose-Selbstprüfungsanleitung (Windows)"
     Community: Gemeinschaft
     "Multi-Languages": Mehrsprachig
     "Support Us": "Unterstützen Sie uns"
@@ -474,6 +484,8 @@
     Tech Support: "Support Tecnico"
     "Keyboard and Mouse Control": "Controllo tastiera e mouse"
     "Diagnostic Self-Check Guide": "Guida all'autodiagnosi"
+    "Diagnostic Self-Check Guide (macOS)": "Guida all'autodiagnosi (macOS)"
+    "Diagnostic Self-Check Guide (Windows)": "Guida all'autodiagnosi (Windows)"
     Community: Comunità
     "Multi-Languages": Multilingue
     "Support Us": "Supportaci"
@@ -555,6 +567,8 @@
     Tech Support: "Soporte Técnico"
     "Keyboard and Mouse Control": "Control de teclado y mouse"
     "Diagnostic Self-Check Guide": "Guía de autodiagnóstico"
+    "Diagnostic Self-Check Guide (macOS)": "Guía de autodiagnóstico (macOS)"
+    "Diagnostic Self-Check Guide (Windows)": "Guía de autodiagnóstico (Windows)"
     Community: Comunidad
     "Multi-Languages": Multilingüe
     "Support Us": "Apóyanos"
@@ -636,6 +650,8 @@
     Tech Support: "Suporte Técnico"
     "Keyboard and Mouse Control": "Controle de teclado e mouse"
     "Diagnostic Self-Check Guide": "Guia de autodiagnóstico"
+    "Diagnostic Self-Check Guide (macOS)": "Guia de autodiagnóstico (macOS)"
+    "Diagnostic Self-Check Guide (Windows)": "Guia de autodiagnóstico (Windows)"
     Community: Comunidade
     "Multi-Languages": Multilíngue
     "Support Us": "Apoie-nos"
@@ -717,6 +733,8 @@
     Tech Support: "Suport Tehnic"
     "Keyboard and Mouse Control": "Control tastatură și mouse"
     "Diagnostic Self-Check Guide": "Ghid de autodiagnosticare"
+    "Diagnostic Self-Check Guide (macOS)": "Ghid de autodiagnosticare (macOS)"
+    "Diagnostic Self-Check Guide (Windows)": "Ghid de autodiagnosticare (Windows)"
     Community: Comunitate
     "Multi-Languages": Multilingv
     "Support Us": "Susține-ne"

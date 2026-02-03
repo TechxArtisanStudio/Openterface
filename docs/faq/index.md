@@ -1,7 +1,7 @@
 ---
 title: FAQs for USB KVM & Openterface
-description: Detailed FAQ for our flagship Mini-KVM product, covering technical specifications, usage guides, and troubleshooting tips.
-keywords: USB KVM, Openterface, KVM-over-USB, portable KVM, plug-and-play KVM, network-free KVM, headless device control, IT solutions, troubleshooting, Openterface products
+description: Detailed FAQ for our flagship Mini-KVM product, covering technical specifications, usage guides, troubleshooting, and support.
+keywords: USB KVM, Openterface, KVM-over-USB, portable KVM, plug-and-play KVM, network-free KVM, headless device control, IT solutions, troubleshooting, diagnostic self-check, keyboard mouse control, Openterface products
 ---
 
 # FAQs
@@ -11,12 +11,14 @@ keywords: USB KVM, Openterface, KVM-over-USB, portable KVM, plug-and-play KVM, n
 - [KVM-over-USB: What, How, and Benefits](/faq/kvm-over-usb#what-is-kvm-over-usb)
 - [USB KVM vs IP KVM](/faq/kvm-over-usb#usb-vs-ip)
 
-### :material-format-list-bulleted:{ .lg }  FAQs for Products
+### :material-format-list-bulleted:{ .lg } FAQs for Products
 
 #### **Openterface Mini-KVM**
 
-- [What makes the Mini-KVM our flagship product?](/product/minikvm/faq#flagship-product)
-- [Which host computers are compatible?](/product/minikvm/faq#mini-kvm-host-compatibility)
+- [FAQs for Openterface Mini-KVM](/product/minikvm/faq) — Full FAQ covering features, compatibility, and usage
+- [Keyboard and mouse cannot control the target?](/product/minikvm/faq#keyboard-and-mouse-cannot-control-the-target-computer) — Troubleshooting HID/control issues
+- [How do I run diagnostics?](/product/minikvm/faq#how-do-i-run-diagnostics-to-check-if-my-mini-kvm-is-working) — Verify your device with built-in self-check
+- [How do I report a hardware issue to support?](/product/minikvm/faq#how-do-i-report-a-hardware-issue-to-support) — When diagnostics show FAIL
 
 #### **Openterface KVM Extension for uConsole**
 

@@ -1,7 +1,7 @@
 ---
 title: Openterface Mini-KVM 常见问题
 description: 关于 Mini-KVM 的常见问题，涵盖功能、兼容性、故障排除和未来计划。
-keywords: Mini-KVM, Openterface, KVM 切换器, 开源, 故障排除, 视频捕获, USB, 兼容性
+keywords: Mini-KVM, Openterface, KVM 切换器, 开源, 故障排除, 视频捕获, USB, 兼容性, 诊断自检, 键盘鼠标控制, 硬件诊断, 支持
 ---
 
 # Openterface Mini-KVM 常见问题
@@ -75,6 +75,18 @@ Mini-KVM 可以从**任一侧**（主机或目标）获取电源。**较短电�
 
 ## 控制
 
+**:material-chat-question:{ .faq } 键盘和鼠标无法控制目标计算机**
+
+如果您能看到目标桌面但键盘和鼠标输入无响应，这通常意味着 HID 通信未建立。请尝试以下步骤：
+
+1. **检查电缆连接** — 确保目标 Type-C 电缆连接到目标计算机；主机电缆连接到您的控制计算机。
+2. **避免使用无源 USB 集线器** — 使用直连或有源集线器。
+3. **重置 HID 芯片** — 如果设备似乎"卡住"，使用 **高级菜单 → 恢复 HID 芯片出厂设置**（OpenterfaceQt）或 **串口重置工具**（macOS）。
+4. **尝试其他 USB 端口或重启** — 主机操作系统可能在 USB 错误后禁用端口。
+5. **降低波特率** — 在嘈杂环境中，切换到 9600 bps 以获得更可靠的通信。
+
+详情请参阅[键盘和鼠标控制故障排除](/product/minikvm/support/keyboard-mouse-control/)。
+
 **:material-chat-question:{ .faq } 无线或以太网版本？**
 
 没有内置。使用无头计算机（例如 Raspberry Pi）+ 远程桌面进行远程控制。
@@ -122,14 +134,37 @@ Mini-KVM 可以从**任一侧**（主机或目标）获取电源。**较短电�
 
 ## 故障排除
 
+**:material-chat-question:{ .faq } 如何运行诊断以检查 Mini-KVM 是否正常工作？**
+
+运行内置诊断自检以验证 USB 连接并检测硬件问题：
+
+- **macOS：** [诊断自检指南（macOS）](/product/minikvm/support/diagnostic-self-check/) — 设置 → 高级与调试 → 打开诊断工具
+- **Windows：** [诊断自检指南（Windows）](/product/minikvm/support/diagnostic-self-check-windows/) — 高级 → 硬件诊断
+
+诊断测试目标/主机即插即用、压力测试等。如果所有测试通过，则设备工作正常。
+
+**:material-chat-question:{ .faq } 如何向支持团队报告硬件问题？**
+
+如果诊断自检在一个或多个测试中显示**失败**：
+
+1. 完成剩余的诊断步骤（工具会引导您）。
+2. 检测到问题时，将打开**支持邮件**或**缺陷报告**窗口。
+3. 输入您的**订单号**和**姓名**，然后复制邮箱地址和草稿。
+4. 附加**请求的日志文件**（工具会指示哪些）和**设置照片**（Mini-KVM + 主机/目标连接清晰可见）。
+5. 将邮件发送给支持团队。
+
+分步说明请参阅 [诊断自检指南（macOS）](/product/minikvm/support/diagnostic-self-check/) 或 [诊断自检指南（Windows）](/product/minikvm/support/diagnostic-self-check-windows/)。
+
 **:material-chat-question:{ .faq } USB 集线器问题**
 
-使用**有源集线器**以避免电压下降导致不稳定。
+使用**有源集线器**以避免电压下降导致不稳定。无源集线器可能导致供电不足和 HID（键盘/鼠标）行为异常。详情请参阅[键盘和鼠标控制故障排除](/product/minikvm/support/keyboard-mouse-control/)。
 
 **:material-chat-question:{ .faq } 应用程序显示无视频或控制无响应**
 
-断开所有电缆，等待，重新连接。  
-如果问题未解决，检查固件或更新主机应用程序。
+1. 断开所有电缆，等待几秒，重新连接。
+2. 检查[键盘和鼠标控制故障排除](/product/minikvm/support/keyboard-mouse-control/)以了解 HID 问题（电缆、集线器、HID 重置）。
+3. 运行[诊断自检](/product/minikvm/support/diagnostic-self-check/)（macOS）或[硬件诊断](/product/minikvm/support/diagnostic-self-check-windows/)（Windows）以验证设备。
+4. 如果未解决，检查固件或更新主机应用程序。
 
 **:material-chat-question:{ .faq } 奇怪的分辨率如 43184x24228@44Hz**
 
@@ -140,4 +175,5 @@ Mini-KVM 可以从**任一侧**（主机或目标）获取电源。**较短电�
 
 -   验证正确的 USB 枚举（`USB Tree Viewer` 或 `lsusb -v`）
 -   确认最新的主机应用程序
--   如果仍然失败，请联系支持进行诊断/更换。
+-   运行[诊断自检](/product/minikvm/support/diagnostic-self-check/)以捕获日志
+-   如果仍然失败，请携带订单号、诊断日志和设置照片联系支持 — 参见[如何向支持团队报告硬件问题？](#如何向支持团队报告硬件问题)

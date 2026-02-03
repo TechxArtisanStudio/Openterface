@@ -1,7 +1,7 @@
 ---
 title: Întrebări frecvente despre Openterface Mini-KVM
 description: Întrebări frecvente despre Mini-KVM, acoperind funcționalități, compatibilitate, depanare și planuri viitoare.
-keywords: Mini-KVM, Openterface, comutator KVM, open-source, depanare, captură video, USB, compatibilitate
+keywords: Mini-KVM, Openterface, comutator KVM, open-source, depanare, captură video, USB, compatibilitate, verificare auto-diagnostic, control tastatură mouse, diagnostic hardware, suport
 ---
 
 # Întrebări frecvente despre Openterface Mini-KVM
@@ -75,6 +75,18 @@ Pentru ținte de joasă putere (ex. Raspberry Pi), folosiți o sursă de aliment
 
 ## Control
 
+**:material-chat-question:{ .faq } Tastatura și mausul nu pot controla computerul țintă**
+
+Dacă puteți vedea desktopul țintă dar intrările de la tastatură și maus nu răspund, acest lucru înseamnă de obicei că comunicarea HID nu este stabilită. Încercați acești pași:
+
+1. **Verificați conexiunile cablurilor** — Asigurați-vă că cablul Type-C țintă este conectat la computerul țintă; cablul gazdă la computerul dvs. de control.
+2. **Evitați hub-urile USB nealimentate** — Folosiți conexiune directă sau un hub alimentat.
+3. **Resetați chipul HID** — Dacă dispozitivul pare „înghețat", folosiți **Meniu Avansat → Resetare fabrică chip HID** (OpenterfaceQt) sau **Instrument resetare serial** (macOS).
+4. **Încercați alt port USB sau reporniți** — SO-ul gazdă poate dezactiva un port după erori USB.
+5. **Reduceți viteza în baud** — În medii zgomotoase, treceți la 9600 bps pentru o comunicare mai fiabilă.
+
+Pentru detalii, consultați [Depanare control tastatură și mouse](/product/minikvm/support/keyboard-mouse-control/).
+
 **:material-chat-question:{ .faq } Versiune wireless sau Ethernet?**
 
 Nu integrat. Folosiți un computer headless (ex. Raspberry Pi) + desktop remote pentru control remote.
@@ -122,14 +134,37 @@ Folosiți adaptoare pentru VGA, DVI, DisplayPort, etc.
 
 ## Depanare
 
+**:material-chat-question:{ .faq } Cum rulez diagnosticele pentru a verifica dacă Mini-KVM-ul meu funcționează?**
+
+Rulați verificarea auto-diagnostic integrată pentru a verifica conexiunile USB și detecta probleme hardware:
+
+- **macOS:** [Ghid pentru verificare auto-diagnostic (macOS)](/product/minikvm/support/diagnostic-self-check/) — Setări → Avansat și Debug → Deschide Tool pentru Diagnosticare
+- **Windows:** [Ghid pentru verificare auto-diagnostic (Windows)](/product/minikvm/support/diagnostic-self-check-windows/) — Avansat → Diagnostic Hardware
+
+Diagnosticul testează Target/Host Plug & Play, Test de Stres etc. Dacă toate testele trec, dispozitivul dvs. funcționează corect.
+
+**:material-chat-question:{ .faq } Cum raportez o problemă hardware către suport?**
+
+Dacă verificarea auto-diagnostic arată **ECHEC** la unul sau mai multe teste:
+
+1. Completați pașii de diagnostic rămași (instrumentul vă va ghida).
+2. Când este detectată o problemă, se deschide o fereastră **E-mail Suport** sau **Raport Defect**.
+3. Introduceți **ID-ul comenzi** și **Numele**, apoi copiați adresa de e-mail și ciorna.
+4. Atașați **fișierele de log solicitate** (instrumentul indică care) și o **fotografie a configurării** (Mini-KVM + conexiuni gazdă/țintă clar vizibile).
+5. Trimiteți e-mailul către suport.
+
+Instrucțiuni pas cu pas: [Ghid pentru verificare auto-diagnostic (macOS)](/product/minikvm/support/diagnostic-self-check/) sau [Ghid pentru verificare auto-diagnostic (Windows)](/product/minikvm/support/diagnostic-self-check-windows/).
+
 **:material-chat-question:{ .faq } Probleme hub USB**
 
-Folosiți un **hub alimentat** pentru a evita scăderile de tensiune care cauzează instabilitate.
+Folosiți un **hub alimentat** pentru a evita scăderile de tensiune. Hub-urile nealimentate pot cauza alimentare insuficientă și comportament erratic al HID (tastatură/maus). Consultați [Depanare control tastatură și mouse](/product/minikvm/support/keyboard-mouse-control/).
 
 **:material-chat-question:{ .faq } Aplicația nu arată video sau controlul nu răspunde**
 
-Deconectați toate cablurile, așteptați, reconectați.  
-Dacă nu se rezolvă, verificați firmware-ul sau actualizați aplicația gazdă.
+1. Deconectați toate cablurile, așteptați câteva secunde, reconectați.
+2. Verificați [Depanare control tastatură și mouse](/product/minikvm/support/keyboard-mouse-control/) pentru probleme HID (cabluri, hub-uri, resetare HID).
+3. Rulați [verificarea auto-diagnostic](/product/minikvm/support/diagnostic-self-check/) (macOS) sau [Diagnostic Hardware](/product/minikvm/support/diagnostic-self-check-windows/) (Windows) pentru a verifica dispozitivul.
+4. Dacă nu se rezolvă, verificați firmware-ul sau actualizați aplicația gazdă.
 
 **:material-chat-question:{ .faq } Rezoluții ciudate precum 43184x24228@44Hz**
 
@@ -140,4 +175,5 @@ Re-flashați firmware-ul prin [lansările GitHub](https://github.com/TechxArtisa
 
 -   Verificați enumerarea USB corectă (`USB Tree Viewer` sau `lsusb -v`)
 -   Confirmați cea mai recentă aplicație gazdă
--   Dacă încă eșuează, contactați suportul pentru diagnostic/înlocuire.
+-   Rulați [verificarea auto-diagnostic](/product/minikvm/support/diagnostic-self-check/) pentru a captura loguri
+-   Dacă încă eșuează, contactați suportul cu ID-ul comenzi, logurile de diagnostic și fotografia configurării — consultați [Cum raportez o problemă hardware către suport?](#cum-raportez-o-problemă-hardware-către-suport)

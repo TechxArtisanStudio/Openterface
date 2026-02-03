@@ -1,10 +1,10 @@
 ---
-title: "Openterface Mini-KVM - Guide d'auto-vérification diagnostique"
-description: "Guide étape par étape pour exécuter des tests d'auto-vérification diagnostique sur l'appareil Openterface Mini-KVM. Découvrez comment tester les connexions USB, détecter des problèmes et envoyer des rapports de défauts au support."
-keywords: "Openterface Mini-KVM, auto-vérification diagnostique, dépannage KVM, diagnostics USB KVM, support Mini-KVM, test appareil KVM, test connexion USB, rapport de défaut KVM, guide dépannage Mini-KVM, outil diagnostic KVM, diagnostics serveur sans interface, outils dépannage IT"
+title: "Openterface Mini-KVM - Guide d'auto-vérification diagnostique (macOS)"
+description: "Guide étape par étape pour exécuter des tests d'auto-vérification diagnostique sur l'appareil Openterface Mini-KVM avec l'app macOS. Découvrez comment tester les connexions USB, détecter des problèmes et envoyer des rapports de défauts au support."
+keywords: "Openterface Mini-KVM, macOS, auto-vérification diagnostique, dépannage KVM, diagnostics USB KVM, support Mini-KVM, test appareil KVM, test connexion USB, rapport de défaut KVM, guide dépannage Mini-KVM, outil diagnostic KVM, diagnostics serveur sans interface, outils dépannage IT"
 ---
 
-# Openterface Mini-KVM - Guide d'auto-vérification diagnostique
+# Openterface Mini-KVM - Guide d'auto-vérification diagnostique (macOS)
 
 Ce guide fournit des instructions étape par étape pour exécuter des tests d'auto-vérification diagnostique sur l'appareil Openterface Mini-KVM.
 
@@ -85,12 +85,22 @@ Dans cet exemple, la Connexion globale affiche ÉCHÉC d'abord car un problème 
 
 ![minikvm-support-send_defect_report_to_support](https://assets.openterface.com/images/minikvm/support/send_defect_report_to_support.webp)
 
-**Étape 16 :** Dans la fenêtre de rapport de défaut, entrez votre **Numéro de commande** et **Nom**.
+**Étape 16 :** Dans la fenêtre de rapport de défaut, entrez votre **Numéro de commande** et **Nom**, puis cliquez sur **Appliquer** pour les insérer dans le brouillon d'e-mail.
 
-**Étape 17 :** Cliquez sur **Ouvrir le dossier des journaux**, puis attachez les fichiers de journaux exportés à votre e-mail.
-
-**Étape 18 :** Copiez l'**adresse e-mail de support**, collez le sujet et corps d'e-mail prémis en place, attachez une photo claire de la configuration (Mini-KVM + connexions hôte/cible), puis envoyez l'e-mail.
+**Étape 17 :** Copiez l'adresse e-mail et le brouillon :
+- Cliquez sur **Copier l'e-mail** pour copier l'adresse e-mail du support.
+- Cliquez sur **Copier le brouillon** pour copier le contenu de l'e-mail prérempli (y compris Numéro de commande + Nom).
+- Collez les deux dans votre client e-mail (Gmail/Outlook/etc.).
 
 ![minikvm-support-support](https://assets.openterface.com/images/minikvm/support/support.webp)
 
-**Étape 19 :** Cliquez sur ❌ (en haut à droite) pour fermer la fenêtre de diagnostic.
+**Étape 18 :** Cliquez sur **Ouvrir le dossier des journaux**. L'outil indiquera quels fichiers joindre. **Joignez uniquement les fichiers de journaux demandés** (le dossier peut contenir de nombreux autres journaux).
+
+**Étape 19 :** Dans le même e-mail, joignez une **photo claire de la configuration** montrant :
+- l'appareil Mini-KVM,
+- les connexions **Hôte** et **Cible**,
+- les ports et câbles clairement visibles.
+
+**Étape 20 :** Envoyez l'e-mail au support (texte du brouillon + journaux demandés + photo de configuration joints).
+
+**Étape 21 :** Cliquez sur ❌ (en haut à droite) pour fermer la fenêtre de diagnostic.
