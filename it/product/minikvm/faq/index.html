@@ -2406,6 +2406,8 @@
       
         
       
+        
+      
     
     
     
@@ -2463,7 +2465,35 @@
   <span class="md-ellipsis">
     
   
-    Guida all'autodiagnosi
+    Guida all'autodiagnosi (macOS)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/diagnostic-self-check-windows/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guida all'autodiagnosi (Windows)
   
 
     
@@ -4143,6 +4173,16 @@ Per target a basso consumo (es. Raspberry Pi), usate un alimentatore dedicato in
 </ul>
 <hr>
 <h2 id="controllo">Controllo</h2>
+<p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> Tastiera e mouse non possono controllare il computer target</strong></p>
+<p>Se vedete il desktop del target ma gli input di tastiera e mouse non rispondono, di solito significa che la comunicazione HID non è stabilita. Provate questi passaggi:</p>
+<ol>
+<li><strong>Verificare le connessioni dei cavi</strong> — Assicuratevi che il cavo Type-C target sia collegato al computer target; il cavo host al vostro computer di controllo.</li>
+<li><strong>Evitare hub USB non alimentati</strong> — Usate connessione diretta o un hub alimentato.</li>
+<li><strong>Ripristinare il chip HID</strong> — Se il dispositivo sembra "bloccato", usate <strong>Menu Avanzate → Ripristino chip HID di fabbrica</strong> (OpenterfaceQt) o <strong>Strumento di ripristino seriale</strong> (macOS).</li>
+<li><strong>Provare un'altra porta USB o riavviare</strong> — L'OS host può disabilitare una porta dopo errori USB.</li>
+<li><strong>Ridurre la velocità in baud</strong> — In ambienti rumorosi, passate a 9600 bps per una comunicazione più affidabile.</li>
+</ol>
+<p>Per i dettagli, vedete <a href="/product/minikvm/support/keyboard-mouse-control/">Risoluzione problemi controllo tastiera e mouse</a>.</p>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> Versione wireless o Ethernet?</strong></p>
 <p>Non integrata. Usate un computer headless (es. Raspberry Pi) + desktop remoto per controllo remoto.</p>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> Compatibilità PS/2?</strong></p>
@@ -4172,11 +4212,32 @@ Per target a basso consumo (es. Raspberry Pi), usate un alimentatore dedicato in
 <p>Usate adattatori per VGA, DVI, DisplayPort, ecc.</p>
 <hr>
 <h2 id="risoluzione-problemi">Risoluzione problemi</h2>
+<p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> Come eseguo i controlli diagnostici per verificare se il mio Mini-KVM funziona?</strong></p>
+<p>Eseguite il controllo diagnostico auto integrato per verificare le connessioni USB e rilevare problemi hardware:</p>
+<ul>
+<li><strong>macOS:</strong> <a href="/product/minikvm/support/diagnostic-self-check/">Guida al controllo diagnostico auto (macOS)</a> — Impostazioni → Avanzate e Debug → Apri Strumento diagnostico</li>
+<li><strong>Windows:</strong> <a href="/product/minikvm/support/diagnostic-self-check-windows/">Guida al controllo diagnostico auto (Windows)</a> — Avanzate → Hardware Diagnostics</li>
+</ul>
+<p>I controlli testano Target/Host Plug &amp; Play, test a stress, ecc. Se tutti i test passano, il dispositivo funziona correttamente.</p>
+<p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> Come segnalo un problema hardware al supporto?</strong></p>
+<p>Se il controllo diagnostico auto mostra <strong>FAIL</strong> su uno o più test:</p>
+<ol>
+<li>Completate i passaggi diagnostici rimanenti (lo strumento vi guiderà).</li>
+<li>Quando viene rilevato un problema, si apre una finestra <strong>Email di supporto</strong> o <strong>Segnalazione di difetto</strong>.</li>
+<li>Inserite <strong>ID Ordine</strong> e <strong>Nome</strong>, poi copiate indirizzo email e bozza.</li>
+<li>Allega i <strong>file di log richiesti</strong> (lo strumento indica quali) e una <strong>foto della configurazione</strong> (Mini-KVM + connessioni host/target chiaramente visibili).</li>
+<li>Inviate l'email al supporto.</li>
+</ol>
+<p>Istruzioni passo-passo: <a href="/product/minikvm/support/diagnostic-self-check/">Guida al controllo diagnostico auto (macOS)</a> o <a href="/product/minikvm/support/diagnostic-self-check-windows/">Guida al controllo diagnostico auto (Windows)</a>.</p>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> Problemi hub USB</strong></p>
-<p>Usate un <strong>hub alimentato</strong> per evitare cali di tensione che causano instabilità.</p>
+<p>Usate un <strong>hub alimentato</strong> per evitare cali di tensione. Gli hub non alimentati possono causare alimentazione insufficiente e comportamento erratico dell'HID (tastiera/mouse). Vedi <a href="/product/minikvm/support/keyboard-mouse-control/">Risoluzione problemi controllo tastiera e mouse</a>.</p>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> L'app non mostra video o controllo non risponde</strong></p>
-<p>Scollegate tutti i cavi, aspettate, riconnettete.<br>
-Se non risolto, controllate il firmware o aggiornate l'app host.</p>
+<ol>
+<li>Scollegate tutti i cavi, aspettate qualche secondo, riconnettete.</li>
+<li>Controllate <a href="/product/minikvm/support/keyboard-mouse-control/">Risoluzione problemi controllo tastiera e mouse</a> per problemi HID (cavi, hub, ripristino HID).</li>
+<li>Eseguite il <a href="/product/minikvm/support/diagnostic-self-check/">controllo diagnostico auto</a> (macOS) o <a href="/product/minikvm/support/diagnostic-self-check-windows/">Hardware Diagnostics</a> (Windows) per verificare il dispositivo.</li>
+<li>Se non risolto, controllate il firmware o aggiornate l'app host.</li>
+</ol>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> Risoluzioni strane come 43184x24228@44Hz</strong></p>
 <p>Il firmware di cattura probabilmente è tornato alle impostazioni di fabbrica.<br>
 Re-flash del firmware via <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases">release GitHub</a>.</p>
@@ -4184,7 +4245,8 @@ Re-flash del firmware via <a href="https://github.com/TechxArtisanStudio/Openter
 <ul>
 <li>Verificate la corretta enumerazione USB (<code>USB Tree Viewer</code> o <code>lsusb -v</code>)</li>
 <li>Confermate la più recente app host</li>
-<li>Se ancora fallisce, contattate il supporto per diagnostica/sostituzione.</li>
+<li>Eseguite il <a href="/product/minikvm/support/diagnostic-self-check/">controllo diagnostico auto</a> per acquisire i log</li>
+<li>Se ancora fallisce, contattate il supporto con ID Ordine, log diagnostici e foto della configurazione — vedi <a href="#come-segnalo-un-problema-hardware-al-supporto">Come segnalo un problema hardware al supporto?</a></li>
 </ul>
 
 
@@ -4208,7 +4270,7 @@ Re-flash del firmware via <a href="https://github.com/TechxArtisanStudio/Openter
     <span class="md-icon" title="Ultimo aggiornamento">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="28 dicembre 2025 13:50:44 UTC"><span class="timeago" datetime="2025-12-28T13:50:44+00:00" locale="it"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="28 dicembre 2025 13:50:44 UTC">2025-12-28</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="3 febbraio 2026 06:38:25 UTC"><span class="timeago" datetime="2026-02-03T06:38:25+00:00" locale="it"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="3 febbraio 2026 06:38:25 UTC">2026-02-03</span>
   </span>
 
     
@@ -4280,13 +4342,13 @@ Re-flash del firmware via <a href="https://github.com/TechxArtisanStudio/Openter
         <!-- Link to next page -->
         
           
-          <a href="../support/diagnostic-self-check/" class="md-footer__link md-footer__link--next" aria-label="Successivo: Guida all'autodiagnosi">
+          <a href="../support/diagnostic-self-check/" class="md-footer__link md-footer__link--next" aria-label="Successivo: Guida all'autodiagnosi (macOS)">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Successivo
               </span>
               <div class="md-ellipsis">
-                Guida all'autodiagnosi
+                Guida all'autodiagnosi (macOS)
               </div>
             </div>
             <div class="md-footer__button md-icon">

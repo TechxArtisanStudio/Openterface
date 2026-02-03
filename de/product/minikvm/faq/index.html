@@ -2404,6 +2404,8 @@
       
         
       
+        
+      
     
     
     
@@ -2461,7 +2463,35 @@
   <span class="md-ellipsis">
     
   
-    Diagnose-Selbstprüfungsanleitung
+    Diagnose-Selbstprüfungsanleitung (macOS)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/diagnostic-self-check-windows/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Diagnose-Selbstprüfungsanleitung (Windows)
   
 
     
@@ -4141,6 +4171,16 @@ Für stromsparende Ziele (z.B. Raspberry Pi) verwenden Sie eine dedizierte Strom
 </ul>
 <hr>
 <h2 id="steuerung">Steuerung</h2>
+<p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> Tastatur und Maus können den Zielcomputer nicht steuern</strong></p>
+<p>Wenn Sie den Ziel-Desktop sehen können, aber Tastatur- und Mauseingaben nicht reagieren, bedeutet dies meist, dass die HID-Kommunikation nicht hergestellt wurde. Versuchen Sie diese Schritte:</p>
+<ol>
+<li><strong>Kabelverbindungen prüfen</strong> — Stellen Sie sicher, dass das Target Type-C-Kabel mit dem Zielcomputer verbunden ist; das Host-Kabel mit Ihrem Steuerungscomputer.</li>
+<li><strong>Unversorgte USB-Hubs vermeiden</strong> — Verwenden Sie Direktverbindung oder einen aktiven Hub.</li>
+<li><strong>HID-Chip zurücksetzen</strong> — Wenn das Gerät „eingefroren" wirkt, verwenden Sie <strong>Erweitertes Menü → HID-Chip Werksreset</strong> (OpenterfaceQt) oder <strong>Serial Reset Tool</strong> (macOS).</li>
+<li><strong>Anderen USB-Port ausprobieren oder neu starten</strong> — Das Host-Betriebssystem kann einen Port nach USB-Fehlern deaktivieren.</li>
+<li><strong>Baudrate senken</strong> — In störungsanfälligen Umgebungen auf 9600 bps umstellen für zuverlässigere Kommunikation.</li>
+</ol>
+<p>Details siehe <a href="/product/minikvm/support/keyboard-mouse-control/">Troubleshooting Tastatur- und Maussteuerung</a>.</p>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> Drahtlose oder Ethernet-Version?</strong></p>
 <p>Nicht eingebaut. Verwenden Sie einen Headless-Computer (z.B. Raspberry Pi) + Remote-Desktop für Fernsteuerung.</p>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> PS/2-Kompatibilität?</strong></p>
@@ -4170,11 +4210,32 @@ Für stromsparende Ziele (z.B. Raspberry Pi) verwenden Sie eine dedizierte Strom
 <p>Verwenden Sie Adapter für VGA, DVI, DisplayPort, etc.</p>
 <hr>
 <h2 id="fehlerbehebung">Fehlerbehebung</h2>
+<p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> Wie führe ich Diagnosen durch, um zu prüfen, ob mein Mini-KVM funktioniert?</strong></p>
+<p>Führen Sie den integrierten Diagnose-Selbsttest aus, um USB-Verbindungen zu prüfen und Hardware-Probleme zu erkennen:</p>
+<ul>
+<li><strong>macOS:</strong> <a href="/product/minikvm/support/diagnostic-self-check/">Diagnose Selbsttest Anleitung (macOS)</a> — Einstellungen → Erweitert &amp; Debug → Diagnose-Tool öffnen</li>
+<li><strong>Windows:</strong> <a href="/product/minikvm/support/diagnostic-self-check-windows/">Diagnose Selbsttest Anleitung (Windows)</a> — Erweitert → Hardware-Diagnose</li>
+</ul>
+<p>Die Diagnose testet Target/Host Plug &amp; Play, Stresstest und mehr. Wenn alle Tests bestehen, funktioniert Ihr Gerät einwandfrei.</p>
+<p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> Wie melde ich ein Hardware-Problem an den Support?</strong></p>
+<p>Wenn der Diagnose-Selbsttest bei einem oder mehreren Tests <strong>FEHLER</strong> anzeigt:</p>
+<ol>
+<li>Führen Sie die verbleibenden Diagnoseschritte aus (das Tool führt Sie).</li>
+<li>Bei erkanntem Problem öffnet sich ein Fenster <strong>Support-E-Mail</strong> oder <strong>Defektbericht</strong>.</li>
+<li>Geben Sie <strong>Bestellnummer</strong> und <strong>Name</strong> ein, kopieren Sie E-Mail-Adresse und Entwurf.</li>
+<li>Hängen Sie die <strong>angeforderten Protokolldateien</strong> an (das Tool zeigt an, welche) und ein <strong>Aufstellungsphoto</strong> (Mini-KVM + Host/Ziel-Verbindungen deutlich sichtbar).</li>
+<li>Senden Sie die E-Mail an den Support.</li>
+</ol>
+<p>Schritt-für-Schritt-Anleitung: <a href="/product/minikvm/support/diagnostic-self-check/">Diagnose Selbsttest Anleitung (macOS)</a> oder <a href="/product/minikvm/support/diagnostic-self-check-windows/">Diagnose Selbsttest Anleitung (Windows)</a>.</p>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> USB-Hub-Probleme</strong></p>
-<p>Verwenden Sie einen <strong>aktiven Hub</strong>, um Spannungsabfälle zu vermeiden, die Instabilität verursachen.</p>
+<p>Verwenden Sie einen <strong>aktiven Hub</strong>, um Spannungsabfälle zu vermeiden. Unversorgte Hubs können zu unzureichender Stromversorgung und instabilem HID-Verhalten (Tastatur/Maus) führen. Details: <a href="/product/minikvm/support/keyboard-mouse-control/">Troubleshooting Tastatur- und Maussteuerung</a>.</p>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> App zeigt kein Video oder Steuerung reagiert nicht</strong></p>
-<p>Trennen Sie alle Kabel, warten Sie, verbinden Sie wieder.<br>
-Wenn nicht gelöst, Firmware prüfen oder Host-App aktualisieren.</p>
+<ol>
+<li>Alle Kabel trennen, einige Sekunden warten, wieder verbinden.</li>
+<li><a href="/product/minikvm/support/keyboard-mouse-control/">Troubleshooting Tastatur- und Maussteuerung</a> für HID-Probleme prüfen (Kabel, Hubs, HID-Reset).</li>
+<li><a href="/product/minikvm/support/diagnostic-self-check/">Diagnose-Selbsttest</a> (macOS) oder <a href="/product/minikvm/support/diagnostic-self-check-windows/">Hardware-Diagnose</a> (Windows) ausführen.</li>
+<li>Wenn ungelöst: Firmware prüfen oder Host-App aktualisieren.</li>
+</ol>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> Seltsame Auflösungen wie 43184x24228@44Hz</strong></p>
 <p>Erfassungs-Firmware wahrscheinlich auf Werkseinstellungen zurückgesetzt.<br>
 Firmware neu flashen über <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases">GitHub-Releases</a>.</p>
@@ -4182,7 +4243,8 @@ Firmware neu flashen über <a href="https://github.com/TechxArtisanStudio/Opente
 <ul>
 <li>Richtige USB-Enumeration verifizieren (<code>USB Tree Viewer</code> oder <code>lsusb -v</code>)</li>
 <li>Neueste Host-App bestätigen</li>
-<li>Wenn immer noch fehlschlagend, Support für Diagnose/Austausch kontaktieren.</li>
+<li><a href="/product/minikvm/support/diagnostic-self-check/">Diagnose-Selbsttest</a> ausführen, um Protokolle zu erfassen</li>
+<li>Wenn weiterhin fehlschlagend: Support mit Bestellnummer, Diagnose-Protokollen und Aufstellungsphoto kontaktieren — siehe <a href="#wie-melde-ich-ein-hardware-problem-an-den-support">Wie melde ich ein Hardware-Problem an den Support?</a></li>
 </ul>
 
 
@@ -4206,7 +4268,7 @@ Firmware neu flashen über <a href="https://github.com/TechxArtisanStudio/Opente
     <span class="md-icon" title="Letztes Update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="28. Dezember 2025 13:50:44 UTC"><span class="timeago" datetime="2025-12-28T13:50:44+00:00" locale="de"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="28. Dezember 2025 13:50:44 UTC">2025-12-28</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="3. Februar 2026 06:38:25 UTC"><span class="timeago" datetime="2026-02-03T06:38:25+00:00" locale="de"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="3. Februar 2026 06:38:25 UTC">2026-02-03</span>
   </span>
 
     
@@ -4278,13 +4340,13 @@ Firmware neu flashen über <a href="https://github.com/TechxArtisanStudio/Opente
         <!-- Link to next page -->
         
           
-          <a href="../support/diagnostic-self-check/" class="md-footer__link md-footer__link--next" aria-label="Weiter: Diagnose-Selbstprüfungsanleitung">
+          <a href="../support/diagnostic-self-check/" class="md-footer__link md-footer__link--next" aria-label="Weiter: Diagnose-Selbstprüfungsanleitung (macOS)">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Weiter
               </span>
               <div class="md-ellipsis">
-                Diagnose-Selbstprüfungsanleitung
+                Diagnose-Selbstprüfungsanleitung (macOS)
               </div>
             </div>
             <div class="md-footer__button md-icon">

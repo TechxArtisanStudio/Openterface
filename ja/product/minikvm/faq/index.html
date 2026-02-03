@@ -2398,6 +2398,8 @@
       
         
       
+        
+      
     
     
     
@@ -2455,7 +2457,35 @@
   <span class="md-ellipsis">
     
   
-    診断セルフチェックガイド
+    診断セルフチェックガイド（macOS）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/diagnostic-self-check-windows/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    診断セルフチェックガイド（Windows）
   
 
     
@@ -4135,6 +4165,16 @@ USB 3.0 は将来のプロモデルに登場する可能性があります。</p
 </ul>
 <hr>
 <h2 id="_3">制御</h2>
+<p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> キーボードとマウスでターゲットコンピューターを制御できない</strong></p>
+<p>ターゲットデスクトップは表示されるがキーボードとマウスの入力が反応しない場合、通常は HID 通信が確立されていないことを意味します。次の手順を試してください：</p>
+<ol>
+<li><strong>ケーブル接続を確認</strong> — ターゲット Type-C ケーブルがターゲットコンピューターに接続されていること、ホストケーブルが制御コンピューターに接続されていることを確認してください。</li>
+<li><strong>無電源 USB ハブを避ける</strong> — 直接接続または有源ハブを使用してください。</li>
+<li><strong>HID チップをリセット</strong> — デバイスが「フリーズ」しているように見える場合は、<strong>詳細メニュー → HID チップ工場リセット</strong>（OpenterfaceQt）または <strong>シリアルリセットツール</strong>（macOS）を使用してください。</li>
+<li><strong>別の USB ポートを試すか再起動</strong> — ホスト OS が USB エラー後にポートを無効にしている可能性があります。</li>
+<li><strong>ボーレートを下げる</strong> — ノイズの多い環境では、より信頼性の高い通信のために 9600 bps に切り替えてください。</li>
+</ol>
+<p>詳細は<a href="/product/minikvm/support/keyboard-mouse-control/">キーボードとマウス制御のトラブルシューティング</a>をご覧ください。</p>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> ワイヤレスまたはイーサネット版？</strong></p>
 <p>内蔵されていません。リモート制御にはヘッドレスコンピューター（例：Raspberry Pi）+ リモートデスクトップを使用してください。</p>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> PS/2 互換性？</strong></p>
@@ -4164,11 +4204,32 @@ USB 3.0 は将来のプロモデルに登場する可能性があります。</p
 <p>VGA、DVI、DisplayPort などにはアダプターを使用してください。</p>
 <hr>
 <h2 id="_5">トラブルシューティング</h2>
+<p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> Mini-KVM が正常に動作しているか診断するには？</strong></p>
+<p>USB 接続を検証し、ハードウェアの問題を検出するには、組み込みの診断自己チェックを実行してください：</p>
+<ul>
+<li><strong>macOS：</strong> <a href="/product/minikvm/support/diagnostic-self-check/">診断自己チェックガイド（macOS）</a> — 設定 → 高度な設定 &amp; デバッグ → 診断ツールを開く</li>
+<li><strong>Windows：</strong> <a href="/product/minikvm/support/diagnostic-self-check-windows/">診断自己チェックガイド（Windows）</a> — 高度な設定 → ハードウェア診断</li>
+</ul>
+<p>診断はターゲット/ホスト プラグ &amp; プレイ、ストレステストなどをテストします。すべてのテストが通過すれば、デバイスは正常に動作しています。</p>
+<p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> ハードウェアの問題をサポートに報告するには？</strong></p>
+<p>診断自己チェックで 1 つ以上のテストが<strong>失敗</strong>と表示された場合：</p>
+<ol>
+<li>残りの診断の手順を完了してください（ツールが案内します）。</li>
+<li>問題が検出されると、<strong>サポートメール</strong>または<strong>欠陥報告</strong>ウィンドウが開きます。</li>
+<li><strong>注文ID</strong>と<strong>名前</strong>を入力し、メールアドレスと下書きをコピーしてください。</li>
+<li><strong>要求されたログファイル</strong>（ツールが指示）と<strong>設定写真</strong>（Mini-KVM + ホスト/ターゲット接続が明確に写っている）を添付してください。</li>
+<li>サポートにメールを送信してください。</li>
+</ol>
+<p>ステップバイステップの説明は <a href="/product/minikvm/support/diagnostic-self-check/">診断自己チェックガイド（macOS）</a> または <a href="/product/minikvm/support/diagnostic-self-check-windows/">診断自己チェックガイド（Windows）</a> をご覧ください。</p>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> USB ハブの問題</strong></p>
-<p>電圧降下による不安定性を避けるため、<strong>有源ハブ</strong>を使用してください。</p>
+<p>電圧降下による不安定性を避けるため、<strong>有源ハブ</strong>を使用してください。無電源ハブは電力供給不足や HID（キーボード/マウス）の不安定な動作を引き起こす可能性があります。詳細は<a href="/product/minikvm/support/keyboard-mouse-control/">キーボードとマウス制御のトラブルシューティング</a>をご覧ください。</p>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> アプリにビデオが表示されない、または制御が応答しない</strong></p>
-<p>すべてのケーブルを切断し、待機してから再接続してください。<br>
-解決しない場合は、ファームウェアを確認するか、ホストアプリを更新してください。</p>
+<ol>
+<li>すべてのケーブルを切断し、数秒待ってから再接続してください。</li>
+<li>HID の問題（ケーブル、ハブ、HID リセット）については<a href="/product/minikvm/support/keyboard-mouse-control/">キーボードとマウス制御のトラブルシューティング</a>をご確認ください。</li>
+<li>デバイスを検証するには<a href="/product/minikvm/support/diagnostic-self-check/">診断自己チェック</a>（macOS）または<a href="/product/minikvm/support/diagnostic-self-check-windows/">ハードウェア診断</a>（Windows）を実行してください。</li>
+<li>解決しない場合は、ファームウェアを確認するか、ホストアプリを更新してください。</li>
+</ol>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> 43184x24228@44Hz のような奇妙な解像度</strong></p>
 <p>キャプチャファームウェアが工場出荷状態に戻った可能性があります。<br>
 <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases">GitHub リリース</a> 経由でファームウェアを再フラッシュしてください。</p>
@@ -4176,7 +4237,8 @@ USB 3.0 は将来のプロモデルに登場する可能性があります。</p
 <ul>
 <li>正しい USB 列挙を確認（<code>USB Tree Viewer</code> または <code>lsusb -v</code>）</li>
 <li>最新のホストアプリを確認</li>
-<li>それでも失敗する場合は、診断/交換のためにサポートに連絡してください。</li>
+<li><a href="/product/minikvm/support/diagnostic-self-check/">診断自己チェック</a>を実行してログをキャプチャ</li>
+<li>それでも失敗する場合は、注文ID、診断ログ、設定写真を添えてサポートに連絡 — <a href="#ハードウェアの問題をサポートに報告するには">ハードウェアの問題をサポートに報告するには？</a> を参照</li>
 </ul>
 
 
@@ -4200,7 +4262,7 @@ USB 3.0 は将来のプロモデルに登場する可能性があります。</p
     <span class="md-icon" title="最終更新日">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2025年12月28日 13:50:44 UTC"><span class="timeago" datetime="2025-12-28T13:50:44+00:00" locale="ja"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2025年12月28日 13:50:44 UTC">2025-12-28</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2026年2月3日 06:38:25 UTC"><span class="timeago" datetime="2026-02-03T06:38:25+00:00" locale="ja"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2026年2月3日 06:38:25 UTC">2026-02-03</span>
   </span>
 
     
@@ -4272,13 +4334,13 @@ USB 3.0 は将来のプロモデルに登場する可能性があります。</p
         <!-- Link to next page -->
         
           
-          <a href="../support/diagnostic-self-check/" class="md-footer__link md-footer__link--next" aria-label="次: 診断セルフチェックガイド">
+          <a href="../support/diagnostic-self-check/" class="md-footer__link md-footer__link--next" aria-label="次: 診断セルフチェックガイド（macOS）">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 次
               </span>
               <div class="md-ellipsis">
-                診断セルフチェックガイド
+                診断セルフチェックガイド（macOS）
               </div>
             </div>
             <div class="md-footer__button md-icon">

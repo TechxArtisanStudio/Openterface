@@ -2396,6 +2396,8 @@
       
         
       
+        
+      
     
     
     
@@ -2453,7 +2455,35 @@
   <span class="md-ellipsis">
     
   
-    诊断自检指南
+    诊断自检指南（macOS）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/diagnostic-self-check-windows/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    诊断自检指南（Windows）
   
 
     
@@ -4133,6 +4163,16 @@ USB 3.0 可能会出现在未来的专业型号中。</p>
 </ul>
 <hr>
 <h2 id="_3">控制</h2>
+<p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> 键盘和鼠标无法控制目标计算机</strong></p>
+<p>如果您能看到目标桌面但键盘和鼠标输入无响应，这通常意味着 HID 通信未建立。请尝试以下步骤：</p>
+<ol>
+<li><strong>检查电缆连接</strong> — 确保目标 Type-C 电缆连接到目标计算机；主机电缆连接到您的控制计算机。</li>
+<li><strong>避免使用无源 USB 集线器</strong> — 使用直连或有源集线器。</li>
+<li><strong>重置 HID 芯片</strong> — 如果设备似乎"卡住"，使用 <strong>高级菜单 → 恢复 HID 芯片出厂设置</strong>（OpenterfaceQt）或 <strong>串口重置工具</strong>（macOS）。</li>
+<li><strong>尝试其他 USB 端口或重启</strong> — 主机操作系统可能在 USB 错误后禁用端口。</li>
+<li><strong>降低波特率</strong> — 在嘈杂环境中，切换到 9600 bps 以获得更可靠的通信。</li>
+</ol>
+<p>详情请参阅<a href="/product/minikvm/support/keyboard-mouse-control/">键盘和鼠标控制故障排除</a>。</p>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> 无线或以太网版本？</strong></p>
 <p>没有内置。使用无头计算机（例如 Raspberry Pi）+ 远程桌面进行远程控制。</p>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> PS/2 兼容性？</strong></p>
@@ -4162,11 +4202,32 @@ USB 3.0 可能会出现在未来的专业型号中。</p>
 <p>使用适配器支持 VGA、DVI、DisplayPort 等。</p>
 <hr>
 <h2 id="_5">故障排除</h2>
+<p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> 如何运行诊断以检查 Mini-KVM 是否正常工作？</strong></p>
+<p>运行内置诊断自检以验证 USB 连接并检测硬件问题：</p>
+<ul>
+<li><strong>macOS：</strong> <a href="/product/minikvm/support/diagnostic-self-check/">诊断自检指南（macOS）</a> — 设置 → 高级与调试 → 打开诊断工具</li>
+<li><strong>Windows：</strong> <a href="/product/minikvm/support/diagnostic-self-check-windows/">诊断自检指南（Windows）</a> — 高级 → 硬件诊断</li>
+</ul>
+<p>诊断测试目标/主机即插即用、压力测试等。如果所有测试通过，则设备工作正常。</p>
+<p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> 如何向支持团队报告硬件问题？</strong></p>
+<p>如果诊断自检在一个或多个测试中显示<strong>失败</strong>：</p>
+<ol>
+<li>完成剩余的诊断步骤（工具会引导您）。</li>
+<li>检测到问题时，将打开<strong>支持邮件</strong>或<strong>缺陷报告</strong>窗口。</li>
+<li>输入您的<strong>订单号</strong>和<strong>姓名</strong>，然后复制邮箱地址和草稿。</li>
+<li>附加<strong>请求的日志文件</strong>（工具会指示哪些）和<strong>设置照片</strong>（Mini-KVM + 主机/目标连接清晰可见）。</li>
+<li>将邮件发送给支持团队。</li>
+</ol>
+<p>分步说明请参阅 <a href="/product/minikvm/support/diagnostic-self-check/">诊断自检指南（macOS）</a> 或 <a href="/product/minikvm/support/diagnostic-self-check-windows/">诊断自检指南（Windows）</a>。</p>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> USB 集线器问题</strong></p>
-<p>使用<strong>有源集线器</strong>以避免电压下降导致不稳定。</p>
+<p>使用<strong>有源集线器</strong>以避免电压下降导致不稳定。无源集线器可能导致供电不足和 HID（键盘/鼠标）行为异常。详情请参阅<a href="/product/minikvm/support/keyboard-mouse-control/">键盘和鼠标控制故障排除</a>。</p>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> 应用程序显示无视频或控制无响应</strong></p>
-<p>断开所有电缆，等待，重新连接。<br>
-如果问题未解决，检查固件或更新主机应用程序。</p>
+<ol>
+<li>断开所有电缆，等待几秒，重新连接。</li>
+<li>检查<a href="/product/minikvm/support/keyboard-mouse-control/">键盘和鼠标控制故障排除</a>以了解 HID 问题（电缆、集线器、HID 重置）。</li>
+<li>运行<a href="/product/minikvm/support/diagnostic-self-check/">诊断自检</a>（macOS）或<a href="/product/minikvm/support/diagnostic-self-check-windows/">硬件诊断</a>（Windows）以验证设备。</li>
+<li>如果未解决，检查固件或更新主机应用程序。</li>
+</ol>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> 奇怪的分辨率如 43184x24228@44Hz</strong></p>
 <p>捕获固件可能已恢复到出厂设置。<br>
 通过 <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases">GitHub 发布</a> 重新刷写固件。</p>
@@ -4174,7 +4235,8 @@ USB 3.0 可能会出现在未来的专业型号中。</p>
 <ul>
 <li>验证正确的 USB 枚举（<code>USB Tree Viewer</code> 或 <code>lsusb -v</code>）</li>
 <li>确认最新的主机应用程序</li>
-<li>如果仍然失败，请联系支持进行诊断/更换。</li>
+<li>运行<a href="/product/minikvm/support/diagnostic-self-check/">诊断自检</a>以捕获日志</li>
+<li>如果仍然失败，请携带订单号、诊断日志和设置照片联系支持 — 参见<a href="#如何向支持团队报告硬件问题">如何向支持团队报告硬件问题？</a></li>
 </ul>
 
 
@@ -4198,7 +4260,7 @@ USB 3.0 可能会出现在未来的专业型号中。</p>
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2025年12月28日 13:50:44 UTC"><span class="timeago" datetime="2025-12-28T13:50:44+00:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2025年12月28日 13:50:44 UTC">2025-12-28</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2026年2月3日 06:38:25 UTC"><span class="timeago" datetime="2026-02-03T06:38:25+00:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2026年2月3日 06:38:25 UTC">2026-02-03</span>
   </span>
 
     
@@ -4270,13 +4332,13 @@ USB 3.0 可能会出现在未来的专业型号中。</p>
         <!-- Link to next page -->
         
           
-          <a href="../support/diagnostic-self-check/" class="md-footer__link md-footer__link--next" aria-label="下一页: 诊断自检指南">
+          <a href="../support/diagnostic-self-check/" class="md-footer__link md-footer__link--next" aria-label="下一页: 诊断自检指南（macOS）">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 下一页
               </span>
               <div class="md-ellipsis">
-                诊断自检指南
+                诊断自检指南（macOS）
               </div>
             </div>
             <div class="md-footer__button md-icon">

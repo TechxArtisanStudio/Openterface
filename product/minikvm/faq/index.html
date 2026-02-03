@@ -2395,6 +2395,8 @@
       
         
       
+        
+      
     
     
     
@@ -2452,7 +2454,35 @@
   <span class="md-ellipsis">
     
   
-    Diagnostic Self-Check Guide
+    Diagnostic Self-Check Guide (macOS)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/diagnostic-self-check-windows/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Diagnostic Self-Check Guide (Windows)
   
 
     
@@ -4132,8 +4162,16 @@ For low-power targets (e.g., Raspberry Pi), use a dedicated power supply instead
 </ul>
 <hr>
 <h2 id="control">Control</h2>
-<p>**<span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> Keyboard and mouse cannot control the target computer</p>
-<p>If you can see the target desktop but keyboard and mouse inputs are unresponsive, check cables/hubs, try the HID reset or another USB port/reboot — see <a href="/product/minikvm/support/keyboard-mouse-control/">Troubleshooting Keyboard and Mouse cannot control target computer Issues</a> for details.</p>
+<p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> Keyboard and mouse cannot control the target computer</strong></p>
+<p>If you can see the target desktop but keyboard and mouse inputs are unresponsive, this usually means HID communication isn't established. Try these steps:</p>
+<ol>
+<li><strong>Check cable connections</strong> — Ensure the Target Type-C cable is connected to the target computer; the Host cable to your control computer.</li>
+<li><strong>Avoid unpowered USB hubs</strong> — Use direct connection or a powered hub.</li>
+<li><strong>Reset the HID chip</strong> — If the device seems "frozen," use <strong>Advanced Menu → Factory Reset HID Chip</strong> (OpenterfaceQt) or <strong>Serial Reset Tool</strong> (macOS).</li>
+<li><strong>Try another USB port or reboot</strong> — The host OS may disable a port after USB errors.</li>
+<li><strong>Lower baud rate</strong> — In noisy environments, switch to 9600 bps for more reliable communication.</li>
+</ol>
+<p>For full details, see <a href="/product/minikvm/support/keyboard-mouse-control/">Troubleshooting Keyboard and Mouse Control Issues</a>.</p>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> Wireless or Ethernet version?</strong></p>
 <p>Not built-in. Use a headless computer (e.g., Raspberry Pi) + remote desktop for remote control.</p>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> PS/2 compatibility?</strong></p>
@@ -4163,11 +4201,32 @@ For low-power targets (e.g., Raspberry Pi), use a dedicated power supply instead
 <p>Use adapters for VGA, DVI, DisplayPort, etc.</p>
 <hr>
 <h2 id="troubleshooting">Troubleshooting</h2>
+<p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> How do I run diagnostics to check if my Mini-KVM is working?</strong></p>
+<p>Run the built-in diagnostic self-check to verify USB connections and detect hardware issues:</p>
+<ul>
+<li><strong>macOS:</strong> <a href="/product/minikvm/support/diagnostic-self-check/">Diagnostic Self-Check Guide (macOS)</a> — Settings → Advanced &amp; Debug → Open Diagnostics Tool</li>
+<li><strong>Windows:</strong> <a href="/product/minikvm/support/diagnostic-self-check-windows/">Diagnostic Self-Check Guide (Windows)</a> — Advanced → Hardware Diagnostics</li>
+</ul>
+<p>The diagnostics test Target/Host Plug &amp; Play, Stress Test, and more. If all tests pass, your device is working correctly.</p>
+<p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> How do I report a hardware issue to support?</strong></p>
+<p>If the diagnostic self-check shows <strong>FAIL</strong> on one or more tests:</p>
+<ol>
+<li>Complete the remaining diagnostic steps (the tool will guide you).</li>
+<li>When an issue is detected, a <strong>Support Email</strong> or <strong>Defect Report</strong> window opens.</li>
+<li>Enter your <strong>Order ID</strong> and <strong>Name</strong>, then copy the email address and draft.</li>
+<li>Attach the <strong>requested log files</strong> (the tool indicates which ones) and a <strong>setup photo</strong> (Mini-KVM + host/target connections clearly visible).</li>
+<li>Send the email to support.</li>
+</ol>
+<p>See the <a href="/product/minikvm/support/diagnostic-self-check/">Diagnostic Self-Check Guide (macOS)</a> or <a href="/product/minikvm/support/diagnostic-self-check-windows/">Diagnostic Self-Check Guide (Windows)</a> for step-by-step instructions.</p>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> USB hub issues</strong></p>
-<p>Use a <strong>powered hub</strong> to avoid voltage drops causing instability.</p>
+<p>Use a <strong>powered hub</strong> to avoid voltage drops causing instability. Unpowered hubs can lead to insufficient power delivery and erratic HID (keyboard/mouse) behavior. See <a href="/product/minikvm/support/keyboard-mouse-control/">Keyboard and Mouse Control troubleshooting</a> for details.</p>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> App shows no video or control unresponsive</strong></p>
-<p>Disconnect all cables, wait, reconnect.<br>
-If unresolved, check firmware or update host app.</p>
+<ol>
+<li>Disconnect all cables, wait a few seconds, reconnect.</li>
+<li>Check <a href="/product/minikvm/support/keyboard-mouse-control/">Keyboard and Mouse Control troubleshooting</a> for HID issues (cables, hubs, HID reset).</li>
+<li>Run the <a href="/product/minikvm/support/diagnostic-self-check/">diagnostic self-check</a> (macOS) or <a href="/product/minikvm/support/diagnostic-self-check-windows/">Hardware Diagnostics</a> (Windows) to verify the device.</li>
+<li>If unresolved, check firmware or update the host app.</li>
+</ol>
 <p><strong><span class="twemoji faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4.1 2.8 5.5 0 .6-.4 2.2-2.8 4.5 0 0 3.5 0 6.5-2.5 1.1.3 2.3.5 3.5.5 5.5 0 10-3.6 10-8s-4.5-8-10-8m1 12h-2v-2h2zm1.8-5c-.3.4-.7.6-1.1.8-.3.2-.4.3-.5.5-.2.2-.2.4-.2.7h-2c0-.5.1-.8.3-1.1.2-.2.6-.5 1.1-.8.3-.1.5-.3.6-.5s.2-.5.2-.7c0-.3-.1-.5-.3-.7s-.5-.3-.8-.3-.5.1-.7.2q-.3.15-.3.6h-2c.1-.7.4-1.3.9-1.7s1.2-.5 2.1-.5 1.7.2 2.2.6.8 1 .8 1.7q.15.6-.3 1.2"></path></svg></span> Weird resolutions like 43184x24228@44Hz</strong></p>
 <p>Capture firmware likely reverted to factory.<br>
 Re-flash firmware via <a href="https://github.com/TechxArtisanStudio/Openterface_QT/releases">GitHub releases</a>.</p>
@@ -4175,7 +4234,8 @@ Re-flash firmware via <a href="https://github.com/TechxArtisanStudio/Openterface
 <ul>
 <li>Verify correct USB enumeration (<code>USB Tree Viewer</code> or <code>lsusb -v</code>)</li>
 <li>Confirm latest host app</li>
-<li>If still failing, contact support for diagnostics/replacement.</li>
+<li>Run the <a href="/product/minikvm/support/diagnostic-self-check/">diagnostic self-check</a> to capture logs</li>
+<li>If still failing, contact support with your Order ID, diagnostic logs, and setup photo — see <a href="#how-do-i-report-a-hardware-issue-to-support">How do I report a hardware issue to support?</a></li>
 </ul>
 
 
@@ -4199,7 +4259,7 @@ Re-flash firmware via <a href="https://github.com/TechxArtisanStudio/Openterface
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="December 28, 2025 13:50:44 UTC"><span class="timeago" datetime="2025-12-28T13:50:44+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 28, 2025 13:50:44 UTC">2025-12-28</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="February 3, 2026 06:38:25 UTC"><span class="timeago" datetime="2026-02-03T06:38:25+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="February 3, 2026 06:38:25 UTC">2026-02-03</span>
   </span>
 
     
@@ -4271,13 +4331,13 @@ Re-flash firmware via <a href="https://github.com/TechxArtisanStudio/Openterface
         <!-- Link to next page -->
         
           
-          <a href="../support/diagnostic-self-check/" class="md-footer__link md-footer__link--next" aria-label="Next: Diagnostic Self-Check Guide">
+          <a href="../support/diagnostic-self-check/" class="md-footer__link md-footer__link--next" aria-label="Next: Diagnostic Self-Check Guide (macOS)">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Diagnostic Self-Check Guide
+                Diagnostic Self-Check Guide (macOS)
               </div>
             </div>
             <div class="md-footer__button md-icon">
