@@ -2,7 +2,7 @@
 
 ![use-case-demo-industrial-pc](https://assets.openterface.com/images/product/use-case-demo-industrial-pc.webp)
 
-Welcome to the official repository for **Openterface** — a family of open-source, portable KVM solutions for BIOS-level control, local troubleshooting, and seamless device management, all without the need for a network connection.
+Welcome to the official repository for **Openterface** — a family of open-source, portable solutions including KVM devices for BIOS-level control and the KeyMod Series for turning your phone into a keyboard. Built for local troubleshooting and seamless device management, often without the need for a network connection.
 
 > 💡 This repository powers the **official Openterface product website** via GitHub Pages. It is *not* intended as a template for self-hosting. Instead, it's the home of our documentation, compliance info, software download links, and other product resources.
 
@@ -10,7 +10,7 @@ Welcome to the official repository for **Openterface** — a family of open-sour
 
 ## 🌟 The Openterface Product Family
 
-We offer multiple KVM solutions designed for different use cases:
+We offer multiple solutions designed for different use cases:
 
 ### 🖥️ [Openterface Mini-KVM](https://openterface.com/product/minikvm/)
 A compact USB-based KVM gadget for BIOS-level control of headless computers. Perfect for IT pros, developers, and system administrators.
@@ -24,6 +24,9 @@ A compact USB-based KVM gadget for BIOS-level control of headless computers. Per
 
 ### 🚀 [Openterface KVM-Go Series](https://openterface.com/product/kvm-go/)
 A new line of versatile KVM solutions with enhanced portability and connectivity options for professionals on the go.
+
+### 🤘 [Openterface KeyMod Series](https://openterface.com/product/keymod/)
+A compact USB + Bluetooth HID emulator that turns your phone into a portable keyboard and trackpad. Perfect for kiosks, smart TVs, outdoor displays, and quick workflow shortcuts—no full keyboard required.
 
 ### 🎮 [uConsole KVM Extension](https://openterface.com/product/uconsole-kvm-extension/)
 A specialized extension board that transforms the Clockwork uConsole into a portable KVM device for field work and embedded system debugging.
@@ -43,15 +46,15 @@ A specialized extension board that transforms the Clockwork uConsole into a port
 - Plug-and-play design
 - Cross-platform compatibility
 
-📖 Learn more: [KVM-over-USB Basics](https://openterface.com/faq/usbkvm/kvm-over-usb/)
+📖 Learn more: [KVM-over-USB Basics](https://openterface.com/faq/kvm-over-usb/)
 
 ---
 
 ## 📲 Download the Host App
 
-To use any Openterface KVM device, install the corresponding **host-side app** on your computer or mobile:
+To use any Openterface device, install the corresponding **host-side app** on your computer or mobile:
 
-- 💻 [Windows, macOS, Linux, Android builds & source](https://openterface.com/app/)
+- 💻 [Windows, macOS, Linux, Android, iPadOS — builds & source](https://openterface.com/app/)
 - 📺 [Watch Demos on YouTube](https://youtube.com/@TechxArtisan)
 
 > ⚠️ All apps are open source and community-tested. Be cautious when using third-party forks — KVM tools handle sensitive inputs.
@@ -72,41 +75,17 @@ We take openness seriously. Both our hardware and software are fully transparent
 
 Learn how Openterface KVM solutions compare to IP-based and software-based alternatives:
 
-- ⚙️ [Use Cases & Comparison Charts](https://openterface.com/faq/usbkvm/kvm-over-usb/)
-- 🤔 [Why Openterface?](https://openterface.com/faq/usbkvm/openterface/)
+- ⚙️ [Use Cases & Comparison Charts](https://openterface.com/faq/kvm-over-usb/)
+- 🤔 [FAQs & Why Openterface](https://openterface.com/faq/)
 - 🧑‍💻 [Tech Support, Discord & Community](https://openterface.com/discord)
 
 ---
 
 ## 🌐 About This Repository
 
-This repo is:
+This repo is the **source of the Openterface product website** (hosted via GitHub Pages)—a hub for documentation, software links, and compliance info for all Openterface products. Maintained by [TechxArtisan](https://techxartisan.com), the creators of the Openterface product family.
 
-- The **source of the Openterface product website** (hosted via GitHub Pages)
-- A hub for documentation, software links, and compliance info for all Openterface products
-- Maintained by [TechxArtisan](https://techxartisan.com), the creators of the Openterface product family
-
-## 🔧 Development Setup
-
-This repository uses a git submodule for build tools and CMS:
-
-```bash
-# Clone with submodule
-git clone --recursive https://github.com/TechxArtisanStudio/Openterface.git
-
-# Or if already cloned, initialize submodule
-git submodule update --init --recursive
-
-# Install CMS dependencies
-pip install -r openterface-cms/requirements.txt
-
-# Run build preparation
-python openterface-cms/scripts/prepare_build.py --i18n-mode en-only --action serve
-```
-
-**Note:** Build tools and scripts are in the private `openterface-cms` submodule. The main repository contains only documentation content and i18n translation assets.
-
-💌 Questions or ideas? Email us at [info@openterface.com](mailto:info@openterface.com) or [join our Discord](/discord)
+💌 Questions or ideas? Email us at [info@openterface.com](mailto:info@openterface.com) or [join our Discord](https://openterface.com/discord)
 
 ---
 
