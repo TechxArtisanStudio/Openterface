@@ -4,6 +4,7 @@
 
 ## Actualizări produs
 
+- 2026-02-03: [microSD EXPRESS pe KVM-GO: test de compatibilitate și viteze de transfer reale](20260203-kvm-go-microsd-express.ro.md)
 - 2026-01-23: [Progresul producției KVM-GO #1](20260123-kvmgo_update_20260115.ro.md)
 - 2025-12-24: [Nouă demonstrație video, progres software și ce se află în interiorul KVM-GO](20251224-kvm-go-demo-software-hardware.ro.md)
 

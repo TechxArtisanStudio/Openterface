@@ -2,6 +2,10 @@
 
 **Total Updates: {{ config.extra['kvm-go_updates'] }}**
 
+## Aggiornamenti prodotto
+
+- 2026-02-03: [microSD EXPRESS su KVM-GO: test di compatibilità e velocità di trasferimento reali](20260203-kvm-go-microsd-express.it.md)
+
 ## Aggiornamenti sul prodotto
 
 - 2026-01-23: [Progresso della produzione KVM-GO #1](20260123-kvmgo_update_20260115.it.md)
