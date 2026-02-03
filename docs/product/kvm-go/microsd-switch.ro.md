@@ -40,3 +40,8 @@ KVM-Go oferă două modalități de a comuta cardul MicroSD între gazdă și ț
     În mod implicit, cardul MicroSD se montează pe **gazdă** când dispozitivul este pornit pentru prima dată.  
     O funcție experimentală viitoare va permite **montarea automată** pe oricare parte (gazdă sau țintă) care se conectează prima, făcând experiența și mai fluidă.
 
+---
+
+## Articole conexe
+
+- [microSD EXPRESS pe KVM-GO: test de compatibilitate și viteze de transfer reale](updates/20260203-kvm-go-microsd-express.ro.md) — Test de compatibilitate cu card SanDisk microSD EXPRESS și viteze de transfer reale

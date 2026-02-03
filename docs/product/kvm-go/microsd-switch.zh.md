@@ -40,4 +40,9 @@ KVM-Go 提供两种在主机和目标之间切换 MicroSD 卡的方式：
     默认情况下，当设备首次上电时，MicroSD 卡会挂载到**主机**。  
     即将推出的实验性功能将允许**自动挂载**到首先连接的一侧（主机或目标），使体验更加无缝。
 
+---
+
+## 相关
+
+- [KVM-GO 上的 microSD EXPRESS：兼容性测试与实际传输速度](updates/20260203-kvm-go-microsd-express.zh.md) — SanDisk microSD EXPRESS 卡兼容性测试与实际传输速度
 

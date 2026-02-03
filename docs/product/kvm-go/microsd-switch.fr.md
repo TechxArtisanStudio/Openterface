@@ -40,4 +40,9 @@ Les **indicateurs LED bicolores** affichent l'état actuel de la connexion Micro
     Par défaut, la carte MicroSD se monte sur l'**hôte** lors de la première mise sous tension de l'appareil.  
     Une fonctionnalité expérimentale à venir permettra le **montage automatique** du côté (hôte ou cible) qui se connecte en premier, rendant l'expérience encore plus fluide.
 
+---
+
+## Voir aussi
+
+- [microSD EXPRESS sur KVM-GO : test de compatibilité et vitesses de transfert réelles](updates/20260203-kvm-go-microsd-express.fr.md) — Test de compatibilité avec carte SanDisk microSD EXPRESS et vitesses de transfert réelles
 

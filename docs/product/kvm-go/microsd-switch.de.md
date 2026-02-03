@@ -40,4 +40,9 @@ Die **zweifarbigen LED-Anzeigen** zeigen den aktuellen MicroSD-Verbindungsstatus
     Standardmäßig wird die MicroSD-Karte beim ersten Einschalten des Geräts auf dem **Host** gemountet.  
     Eine kommende experimentelle Funktion ermöglicht **automatisches Mounting** auf der Seite (Host oder Ziel), die zuerst verbunden wird, was die Erfahrung noch nahtloser macht.
 
+---
+
+## Verwandte Artikel
+
+- [microSD EXPRESS auf KVM-GO: Kompatibilitätstest und reale Übertragungsgeschwindigkeiten](updates/20260203-kvm-go-microsd-express.de.md) — Kompatibilitätstest mit SanDisk microSD EXPRESS-Karte und reale Übertragungsgeschwindigkeiten
 

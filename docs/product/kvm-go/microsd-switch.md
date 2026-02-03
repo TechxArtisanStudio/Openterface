@@ -39,3 +39,9 @@ The **dual-color LED indicators** display the current MicroSD connection state *
 !!! note "Auto-Mounting Feature (Experimental)"
     By default, the MicroSD card mounts to the **host** when the device is first powered on.  
     An upcoming experimental feature will allow **auto-mounting** to whichever side (host or target) connects first, making the experience even more seamless.
+
+---
+
+## Related
+
+- [microSD EXPRESS on KVM-GO: Compatibility Test and Real Transfer Speeds](updates/20260203-kvm-go-microsd-express.md) — Compatibility test with SanDisk microSD EXPRESS card and real-world transfer speeds

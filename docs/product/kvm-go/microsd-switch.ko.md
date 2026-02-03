@@ -40,4 +40,9 @@ KVM-Go는 호스트와 대상 간에 MicroSD 카드를 전환하는 두 가지 �
     기본적으로 장치가 처음 전원이 켜지면 MicroSD 카드는 **호스트**에 마운트됩니다.  
     향후 실험적 기능을 통해 먼저 연결되는 쪽(호스트 또는 대상)으로 **자동 마운트**가 가능해져 더욱 원활한 경험을 제공합니다.
 
+---
+
+## 관련
+
+- [KVM-GO의 microSD EXPRESS: 호환성 테스트 및 실제 전송 속도](updates/20260203-kvm-go-microsd-express.ko.md) — SanDisk microSD EXPRESS 카드 호환성 테스트 및 실제 전송 속도
 

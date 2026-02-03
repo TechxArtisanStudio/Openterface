@@ -40,4 +40,9 @@ Gli **indicatori LED bicolore** visualizzano lo stato di connessione MicroSD cor
     Per impostazione predefinita, la scheda MicroSD si monta sull'**host** quando il dispositivo viene acceso per la prima volta.  
     Una prossima funzionalità sperimentale consentirà il **montaggio automatico** su quale lato (host o destinazione) si connette per primo, rendendo l'esperienza ancora più fluida.
 
+---
+
+## Correlati
+
+- [microSD EXPRESS su KVM-GO: test di compatibilità e velocità di trasferimento reali](updates/20260203-kvm-go-microsd-express.it.md) — Test di compatibilità con scheda SanDisk microSD EXPRESS e velocità di trasferimento reali
 
