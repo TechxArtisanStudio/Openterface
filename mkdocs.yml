@@ -294,6 +294,8 @@ plugins:
       product/minikvm/reviews/media.md: product/minikvm/reviews/index.md
       product/kvm-go/reviews/testimonials.md: product/kvm-go/reviews/index.md
       product/kvm-go/reviews/media.md: product/kvm-go/reviews/index.md
+      product/keymod/reviews/testimonials.md: product/keymod/reviews/index.md
+      product/keymod/reviews/media.md: product/keymod/reviews/index.md
       buy-mini-kvm.md: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
       order.md: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
       shop.md: https://shop.techxartisan.com

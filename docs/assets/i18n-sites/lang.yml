@@ -86,6 +86,9 @@
     "MicroSD Switch": MicroSD切换器
     "FAQs for KVM-Go": KVM-Go常见问题
     "Updates for KVM-Go": KVM-Go更新
+    "KeyMod 🤘": "KeyMod 🤘"
+    "FAQs for KeyMod": KeyMod常见问题
+    "Updates for KeyMod": KeyMod更新
 - locale: ja
   name: 日本語
   build: true
@@ -164,6 +167,9 @@
     "MicroSD Switch": MicroSDスイッチ
     "FAQs for KVM-Go": KVM-Go FAQ
     "Updates for KVM-Go": KVM-Goアップデート
+    "KeyMod 🤘": "KeyMod 🤘"
+    "FAQs for KeyMod": KeyMod FAQ
+    "Updates for KeyMod": KeyModアップデート
 - locale: ko
   name: 한국어
   build: true
@@ -242,6 +248,9 @@
     "MicroSD Switch": MicroSD 스위치
     "FAQs for KVM-Go": KVM-Go FAQ
     "Updates for KVM-Go": KVM-Go 업데이트
+    "KeyMod 🤘": "KeyMod 🤘"
+    "FAQs for KeyMod": KeyMod FAQ
+    "Updates for KeyMod": KeyMod 업데이트
 - locale: fr
   name: Français
   build: true
@@ -320,6 +329,9 @@
     "MicroSD Switch": "Commutateur MicroSD"
     "FAQs for KVM-Go": "FAQ KVM-Go"
     "Updates for KVM-Go": "Mises à jour KVM-Go"
+    "KeyMod 🤘": "KeyMod 🤘"
+    "FAQs for KeyMod": "FAQ KeyMod"
+    "Updates for KeyMod": "Mises à jour KeyMod"
 - locale: de
   name: Deutsch
   build: true
@@ -398,6 +410,9 @@
     "MicroSD Switch": "MicroSD-Umschalter"
     "FAQs for KVM-Go": "KVM-Go FAQs"
     "Updates for KVM-Go": "KVM-Go Updates"
+    "KeyMod 🤘": "KeyMod 🤘"
+    "FAQs for KeyMod": "KeyMod FAQs"
+    "Updates for KeyMod": "KeyMod Updates"
 - locale: it
   name: Italiano
   build: true
@@ -476,6 +491,9 @@
     "MicroSD Switch": "Switch MicroSD"
     "FAQs for KVM-Go": "FAQ KVM-Go"
     "Updates for KVM-Go": "Aggiornamenti KVM-Go"
+    "KeyMod 🤘": "KeyMod 🤘"
+    "FAQs for KeyMod": "FAQ KeyMod"
+    "Updates for KeyMod": "Aggiornamenti KeyMod"
 - locale: es
   name: Español
   build: true
@@ -554,6 +572,9 @@
     "MicroSD Switch": "Conmutador MicroSD"
     "FAQs for KVM-Go": "Preguntas sobre KVM-Go"
     "Updates for KVM-Go": "Actualizaciones KVM-Go"
+    "KeyMod 🤘": "KeyMod 🤘"
+    "FAQs for KeyMod": "Preguntas sobre KeyMod"
+    "Updates for KeyMod": "Actualizaciones KeyMod"
 - locale: pt
   name: Português
   build: true
@@ -632,6 +653,9 @@
     "MicroSD Switch": "Comutador MicroSD"
     "FAQs for KVM-Go": "Perguntas sobre KVM-Go"
     "Updates for KVM-Go": "Atualizações KVM-Go"
+    "KeyMod 🤘": "KeyMod 🤘"
+    "FAQs for KeyMod": "Perguntas sobre KeyMod"
+    "Updates for KeyMod": "Atualizações KeyMod"
 - locale: ro
   name: Română
   build: true
@@ -709,4 +733,7 @@
     "Beta Quick Start": "Începere rapidă Beta"
     "MicroSD Switch": "Comutator MicroSD"
     "FAQs for KVM-Go": "Întrebări despre KVM-Go"
+    "Updates for KeyMod": "Actualizări KeyMod"
+    "KeyMod 🤘": "KeyMod 🤘"
+    "FAQs for KeyMod": "Întrebări despre KeyMod"
     "Updates for KVM-Go": "Actualizări KVM-Go"
