@@ -1,10 +1,10 @@
 ---
-title: "Openterface KeyMod | Transformați telefonul într-o tastatură inteligentă"
-description: "KeyMod este un emulator HID USB + Bluetooth compact care transformă telefonul într-o tastatură și trackpad portabile. Plug and play, 100% open source. Perfect pentru kioscuri, smart TV-uri și shortcut-uri de flux de lucru."
+title: "Openterface KeyMod Series | Transformați telefonul într-o tastatură inteligentă"
+description: "KeyMod Series este un emulator HID USB + Bluetooth compact care transformă telefonul într-o tastatură și trackpad portabile. Plug and play, 100% open source. Perfect pentru kioscuri, smart TV-uri și shortcut-uri de flux de lucru."
 keywords: "KeyMod, emulator HID, tastatură telefon, tastatură Bluetooth, tastatură USB, tastatură portabilă, open source, Android, iPadOS, gamepad, macro"
 ---
 
-# **Openterface KeyMod**
+# **Openterface KeyMod Series**
 
 {% include "partials/keymod-slideshow.html" %}
 

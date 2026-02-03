@@ -145,17 +145,17 @@ nav:
   - KVM-over-USB: faq/kvm-over-usb.md
 - Support: support/index.md
 - Product:
-  - KeyMod 🤘:
+  - KeyMod Series 🤘:
     - Overview: product/keymod/index.md
     - Features: product/keymod/features.md
     - What's In The Box: product/keymod/whats-in-the-box.md
     - How To Connect: product/keymod/how-to-connect.md
     - Use Cases: product/keymod/use-cases.md
-    - FAQs for KeyMod: product/keymod/faq.md
+    - FAQs for KeyMod Series: product/keymod/faq.md
     - Videos: videos/?p=keymod
     - Reviews & Press:
       - Overview: product/keymod/reviews/index.md
-    - Updates for KeyMod: product/keymod/updates/index.md
+    - Updates for KeyMod Series: product/keymod/updates/index.md
   - KVM-Go Series ⚒️:
     - Overview: product/kvm-go/index.md
     - Features: product/kvm-go/features.md

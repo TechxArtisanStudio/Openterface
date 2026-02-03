@@ -1,6 +1,6 @@
 ---
 title: "Funcționalități și specificații"
-description: "Funcționalități KeyMod: tastatură și mouse HID Bluetooth, conexiune duală USB + Bluetooth, profile personalizate, macro-uri, moduri gamepad. Aplicație mobilă open source pentru Android și iPadOS."
+description: "Funcționalități KeyMod Series: tastatură și mouse HID Bluetooth, conexiune duală USB + Bluetooth, profile personalizate, macro-uri, moduri gamepad. Aplicație mobilă open source pentru Android și iPadOS."
 keywords: "funcționalități KeyMod, emulator HID, tastatură Bluetooth, tastatură USB, butoane programabile, gamepad, macro, open source, CH9329"
 ---
 

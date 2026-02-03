@@ -1,10 +1,10 @@
 ---
 title: "How to Connect"
-description: "Step-by-step guide to setting up KeyMod. Connect your phone to KeyMod via USB or Bluetooth, then connect KeyMod to your target device for keyboard and mouse control."
-keywords: "KeyMod setup, how to connect KeyMod, phone keyboard setup, Bluetooth HID, USB HID"
+description: "Step-by-step guide to setting up KeyMod Series. Connect your phone to KeyMod via USB or Bluetooth, then connect KeyMod to your target device for keyboard and mouse control."
+keywords: "KeyMod Series setup, how to connect KeyMod, phone keyboard setup, Bluetooth HID, USB HID"
 ---
 
-# **How to Connect** | Setup Guide | Openterface KeyMod
+# **How to Connect** | Setup Guide | Openterface KeyMod Series
 
 ## **Overview**
 

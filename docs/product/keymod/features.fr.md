@@ -1,6 +1,6 @@
 ---
 title: "Fonctionnalités et spécifications"
-description: "Fonctionnalités KeyMod : clavier et souris HID Bluetooth, connexion dual USB + Bluetooth, profils personnalisés, macros, modes manette. Application mobile open source pour Android et iPadOS."
+description: "Fonctionnalités KeyMod Series : clavier et souris HID Bluetooth, connexion dual USB + Bluetooth, profils personnalisés, macros, modes manette. Application mobile open source pour Android et iPadOS."
 keywords: "fonctionnalités KeyMod, émulateur HID, clavier Bluetooth, clavier USB, boutons programmables, manette, macro, open source, CH9329"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Funzionalità e specifiche"
-description: "Funzionalità KeyMod: tastiera e mouse HID Bluetooth, connessione dual USB + Bluetooth, profili personalizzati, macro, modalità gamepad. App mobile open source per Android e iPadOS."
+description: "Funzionalità KeyMod Series: tastiera e mouse HID Bluetooth, connessione dual USB + Bluetooth, profili personalizzati, macro, modalità gamepad. App mobile open source per Android e iPadOS."
 keywords: "funzionalità KeyMod, emulatore HID, tastiera Bluetooth, tastiera USB, pulsanti programmabili, gamepad, macro, open source, CH9329"
 ---
 

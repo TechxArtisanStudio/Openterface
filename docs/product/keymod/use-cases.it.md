@@ -1,6 +1,6 @@
 ---
 title: "Casi d'uso"
-description: "Casi d'uso KeyMod: display esterni, insegne LED, chioschi, smart TV, decoder e scorciatoie di flusso di lavoro. Trasforma il tuo telefono in tastiera quando una tastiera completa non è disponibile."
+description: "Casi d'uso KeyMod Series: display esterni, insegne LED, chioschi, smart TV, decoder e scorciatoie di flusso di lavoro. Trasforma il tuo telefono in tastiera quando una tastiera completa non è disponibile."
 keywords: "casi d'uso KeyMod, controllo chiosco, controllo smart TV, display esterno, insegna LED, scorciatoie flusso di lavoro"
 ---
 

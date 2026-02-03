@@ -1,10 +1,10 @@
 ---
 title: "Features & Specifications"
-description: "KeyMod features: Bluetooth HID keyboard and mouse, USB + Bluetooth dual connection, custom profiles, macros, gamepad modes. Open source mobile app for Android and iPadOS."
-keywords: "KeyMod features, HID emulator, Bluetooth keyboard, USB keyboard, programmable buttons, gamepad, macro, open source, CH9329"
+description: "KeyMod Series features: Bluetooth HID keyboard and mouse, USB + Bluetooth dual connection, custom profiles, macros, gamepad modes. Open source mobile app for Android and iPadOS."
+keywords: "KeyMod Series features, HID emulator, Bluetooth keyboard, USB keyboard, programmable buttons, gamepad, macro, open source, CH9329"
 ---
 
-# **Features & Specifications** | Openterface KeyMod
+# **Features & Specifications** | Openterface KeyMod Series
 
 ## Pre-Launch Status
 

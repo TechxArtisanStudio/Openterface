@@ -1,6 +1,6 @@
 ---
 title: "Verbindung herstellen"
-description: "Schritt-für-Schritt-Anleitung zur Einrichtung von KeyMod. Verbinden Sie Ihr Smartphone per USB oder Bluetooth mit KeyMod, dann verbinden Sie KeyMod mit Ihrem Zielgerät für Tastatur- und Maussteuerung."
+description: "Schritt-für-Schritt-Anleitung zur Einrichtung von KeyMod Series. Verbinden Sie Ihr Smartphone per USB oder Bluetooth mit KeyMod, dann verbinden Sie KeyMod mit Ihrem Zielgerät für Tastatur- und Maussteuerung."
 keywords: "KeyMod Einrichtung, KeyMod verbinden, Smartphone-Tastatur Einrichtung, Bluetooth HID, USB HID"
 ---
 

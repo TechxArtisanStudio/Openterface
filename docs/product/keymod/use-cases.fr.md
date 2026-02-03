@@ -1,6 +1,6 @@
 ---
 title: "Cas d'utilisation"
-description: "Cas d'utilisation KeyMod : affichages extérieurs, enseignes LED, bornes, téléviseurs intelligents, décodeurs et raccourcis de flux de travail. Transformez votre téléphone en clavier lorsqu'un clavier complet n'est pas disponible."
+description: "Cas d'utilisation KeyMod Series : affichages extérieurs, enseignes LED, bornes, téléviseurs intelligents, décodeurs et raccourcis de flux de travail. Transformez votre téléphone en clavier lorsqu'un clavier complet n'est pas disponible."
 keywords: "cas d'utilisation KeyMod, contrôle borne, contrôle smart TV, affichage extérieur, enseigne LED, raccourcis flux de travail"
 ---
 

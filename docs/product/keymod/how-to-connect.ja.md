@@ -1,6 +1,6 @@
 ---
 title: "接続方法"
-description: "KeyModのセットアップ手順ガイド。USBまたはBluetoothでスマートフォンをKeyModに接続し、KeyModをターゲットデバイスに接続してキーボードとマウスを制御します。"
+description: "KeyMod シリーズのセットアップ手順ガイド。USBまたはBluetoothでスマートフォンをKeyModに接続し、KeyModをターゲットデバイスに接続してキーボードとマウスを制御します。"
 keywords: "KeyModセットアップ, KeyMod接続方法, スマホキーボードセットアップ, Bluetooth HID, USB HID"
 ---
 

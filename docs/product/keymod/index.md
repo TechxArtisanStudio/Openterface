@@ -1,10 +1,10 @@
 ---
-title: "Openterface KeyMod | Turn Your Phone into a Smart Keyboard"
-description: "KeyMod is a compact USB + Bluetooth HID emulator that turns your phone into a portable keyboard and trackpad. Plug and play, 100% open source. Perfect for kiosks, smart TVs, and quick workflow shortcuts."
+title: "Openterface KeyMod Series | Turn Your Phone into a Smart Keyboard"
+description: "KeyMod Series is a compact USB + Bluetooth HID emulator that turns your phone into a portable keyboard and trackpad. Plug and play, 100% open source. Perfect for kiosks, smart TVs, and quick workflow shortcuts."
 keywords: "KeyMod, HID emulator, phone keyboard, Bluetooth keyboard, USB keyboard, portable keyboard, open source, Android, iPadOS, gamepad, macro"
 ---
 
-# **Openterface KeyMod**
+# **Openterface KeyMod Series**
 
 {% include "partials/keymod-slideshow.html" %}
 
@@ -13,9 +13,9 @@ keywords: "KeyMod, HID emulator, phone keyboard, Bluetooth keyboard, USB keyboar
   <div class="slogan-subtitle">Programmable keyboard and mouse control for tech, professionals, and gaming.</div>
 </div>
 
-Following the success of our 2024 [Mini-KVM](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) and 2025 [KVM-GO](https://www.crowdsupply.com/techxartisan/openterface-kvm-go) campaigns, we're back with a new kind of everyday control tool: **Openterface KeyMod**.
+Following the success of our 2024 [Mini-KVM](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) and 2025 [KVM-GO](https://www.crowdsupply.com/techxartisan/openterface-kvm-go) campaigns, we're back with a new kind of everyday control tool: **Openterface KeyMod Series**.
 
-A compact, programmable **USB + Bluetooth** HID (keyboard and mouse) emulator, KeyMod turns your phone into a portable keyboard and trackpad console for quick local control and workflow shortcuts. Built on the proven HID core from Openterface Mini-KVM, it is plug and play, 100% open source.
+A compact, programmable **USB + Bluetooth** HID (keyboard and mouse) emulator, KeyMod Series turns your phone into a portable keyboard and trackpad console for quick local control and workflow shortcuts. Built on the proven HID core from Openterface Mini-KVM, it is plug and play, 100% open source.
 
 <div class="grid cards" markdown>
 

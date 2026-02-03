@@ -1,6 +1,6 @@
 ---
 title: "功能与规格"
-description: "KeyMod 功能：蓝牙 HID 键盘和鼠标、USB + 蓝牙双连接、自定义配置、宏、手柄模式。适用于 Android 和 iPadOS 的开源移动应用。"
+description: "KeyMod 系列功能：蓝牙 HID 键盘和鼠标、USB + 蓝牙双连接、自定义配置、宏、手柄模式。适用于 Android 和 iPadOS 的开源移动应用。"
 keywords: "KeyMod 功能, HID 模拟器, 蓝牙键盘, USB 键盘, 可编程按钮, 手柄, 宏, 开源, CH9329"
 ---
 

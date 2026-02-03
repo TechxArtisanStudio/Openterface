@@ -1,6 +1,6 @@
 ---
 title: "Contenu de la boîte"
-description: "Contenu du pack KeyMod. Pré-lancement : l'emballage et les accessoires sont encore en développement. Articles attendus : unité KeyMod, câble et guide de démarrage rapide."
+description: "Contenu du pack KeyMod Series. Pré-lancement : l'emballage et les accessoires sont encore en développement. Articles attendus : unité KeyMod, câble et guide de démarrage rapide."
 keywords: "KeyMod, contenu du pack, contenu de la boîte, accessoires, pré-lancement"
 ---
 

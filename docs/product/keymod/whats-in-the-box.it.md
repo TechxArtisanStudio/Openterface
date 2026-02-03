@@ -1,6 +1,6 @@
 ---
 title: "Contenuto della confezione"
-description: "Contenuto del pacchetto KeyMod. Pre-lancio: imballaggio e accessori sono ancora in sviluppo. Articoli previsti: unità KeyMod, cavo e guida rapida."
+description: "Contenuto del pacchetto KeyMod Series. Pre-lancio: imballaggio e accessori sono ancora in sviluppo. Articoli previsti: unità KeyMod, cavo e guida rapida."
 keywords: "KeyMod, contenuto pacchetto, contenuto confezione, accessori, pre-lancio"
 ---
 

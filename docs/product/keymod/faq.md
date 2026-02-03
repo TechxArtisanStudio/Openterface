@@ -1,12 +1,12 @@
 ---
-title: FAQs for Openterface KeyMod
-description: Frequently asked questions about KeyMod, covering features, compatibility, platforms, and pre-launch information.
-keywords: KeyMod, Openterface, HID emulator, Bluetooth keyboard, phone keyboard, open-source, pre-launch, Android, iPadOS
+title: FAQs for Openterface KeyMod Series
+description: Frequently asked questions about KeyMod Series, covering features, compatibility, platforms, and pre-launch information.
+keywords: KeyMod Series, Openterface, HID emulator, Bluetooth keyboard, phone keyboard, open-source, pre-launch, Android, iPadOS
 ---
 
-# FAQs for Openterface KeyMod
+# FAQs for Openterface KeyMod Series
 
-Welcome to the FAQ for **Openterface KeyMod**.  
+Welcome to the FAQ for **Openterface KeyMod Series**.  
 If you don't find what you need, **email us at [info@openterface.com](mailto:info@openterface.com)** or **join our community** on [Discord](/discord) or [Reddit](/reddit).
 
 ⚠️ **Note**: KeyMod is currently in pre-launch development. Features, specifications, and design are subject to change as we finalize the product.
@@ -15,7 +15,7 @@ If you don't find what you need, **email us at [info@openterface.com](mailto:inf
 
 ## :material-clipboard-list: Quick Navigation
 
-- [FAQs for Openterface KeyMod](#faqs-for-openterface-keymod)
+- [FAQs for Openterface KeyMod Series](#faqs-for-openterface-keymod-series)
   - [:material-clipboard-list: Quick Navigation](#material-clipboard-list-quick-navigation)
   - [General](#general)
   - [Connectivity](#connectivity)
@@ -26,21 +26,21 @@ If you don't find what you need, **email us at [info@openterface.com](mailto:inf
 
 ## General
 
-**:material-chat-question:{ .faq } What is KeyMod?**
+**:material-chat-question:{ .faq } What is KeyMod Series?**
 
-KeyMod is a compact USB + Bluetooth HID (keyboard and mouse) emulator that turns your phone into a portable keyboard and trackpad. Use it to control devices that need keyboard/mouse input—kiosks, smart TVs, set top boxes, outdoor displays—without carrying a full keyboard.
+KeyMod Series is a compact USB + Bluetooth HID (keyboard and mouse) emulator that turns your phone into a portable keyboard and trackpad. Use it to control devices that need keyboard/mouse input—kiosks, smart TVs, set top boxes, outdoor displays—without carrying a full keyboard.
 
-**:material-chat-question:{ .faq } What platforms does the KeyMod app support?**
+**:material-chat-question:{ .faq } What platforms does the KeyMod Series app support?**
 
-The KeyMod controller app focuses on **Android** and **iPadOS**. We are also expanding desktop control with **Windows and macOS** software in our broader Openterface ecosystem.
+The KeyMod Series controller app focuses on **Android** and **iPadOS**. We are also expanding desktop control with **Windows and macOS** software in our broader Openterface ecosystem.
 
 **:material-chat-question:{ .faq } Does the target device need any software?**
 
-No. KeyMod emulates a standard USB keyboard and mouse. The target device recognizes it as plug-and-play HID hardware—no drivers or software installation required.
+No. KeyMod Series emulates a standard USB keyboard and mouse. The target device recognizes it as plug-and-play HID hardware—no drivers or software installation required.
 
-**:material-chat-question:{ .faq } Is KeyMod open source?**
+**:material-chat-question:{ .faq } Is KeyMod Series open source?**
 
-Yes. KeyMod is open hardware and open software. We will publish schematics, PCB files, firmware, software, and BOM as the project evolves.
+Yes. KeyMod Series is open hardware and open software. We will publish schematics, PCB files, firmware, software, and BOM as the project evolves.
 
 ---
 
@@ -70,16 +70,16 @@ Yes. The open source mobile app supports custom input profiles, macros, hotkeys,
 
 **:material-chat-question:{ .faq } What are the programmable hardware buttons?**
 
-KeyMod includes programmable hardware buttons for on-device actions like quick triggers and simple macro-style workflows. This capability is still experimental and will be refined through community feedback.
+KeyMod Series includes programmable hardware buttons for on-device actions like quick triggers and simple macro-style workflows. This capability is still experimental and will be refined through community feedback.
 
 ---
 
 ## Pre-Launch
 
-**:material-chat-question:{ .faq } When will KeyMod launch?**
+**:material-chat-question:{ .faq } When will KeyMod Series launch?**
 
-KeyMod is in pre-launch development. Subscribe on the [product page](/product/keymod/) for launch notifications and updates.
+KeyMod Series is in pre-launch development. Subscribe on the [product page](/product/keymod/) for launch notifications and updates.
 
-**:material-chat-question:{ .faq } How is KeyMod related to Mini-KVM and KVM-Go?**
+**:material-chat-question:{ .faq } How is KeyMod Series related to Mini-KVM and KVM-Go?**
 
-KeyMod uses the proven HID core from Openterface Mini-KVM. It shares the same hardware-based keyboard and mouse emulation approach but is designed for a different use case: turning your phone into a portable keyboard/trackpad for local device control, rather than KVM-over-USB video capture.
+KeyMod Series uses the proven HID core from Openterface Mini-KVM. It shares the same hardware-based keyboard and mouse emulation approach but is designed for a different use case: turning your phone into a portable keyboard/trackpad for local device control, rather than KVM-over-USB video capture.

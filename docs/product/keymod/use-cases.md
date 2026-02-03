@@ -1,12 +1,12 @@
 ---
 title: "Use Cases"
-description: "KeyMod use cases: outdoor displays, LED signage, kiosks, smart TVs, set top boxes, and quick workflow shortcuts. Turn your phone into a keyboard when a full keyboard isn't available."
-keywords: "KeyMod use cases, kiosk control, smart TV control, outdoor display, LED signage, workflow shortcuts"
+description: "KeyMod Series use cases: outdoor displays, LED signage, kiosks, smart TVs, set top boxes, and quick workflow shortcuts. Turn your phone into a keyboard when a full keyboard isn't available."
+keywords: "KeyMod Series use cases, kiosk control, smart TV control, outdoor display, LED signage, workflow shortcuts"
 ---
 
-# Use Cases | Openterface KeyMod
+# Use Cases | Openterface KeyMod Series
 
-KeyMod is designed for moments when you need quick keyboard and mouse input but a full keyboard isn't available or convenient. Use your phone as the input device—plug KeyMod into the target and start controlling.
+KeyMod Series is designed for moments when you need quick keyboard and mouse input but a full keyboard isn't available or convenient. Use your phone as the input device—plug KeyMod into the target and start controlling.
 
 ## Use Case Demos
 

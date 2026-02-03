@@ -1,6 +1,6 @@
 ---
-title: Openterface KeyMod 常见问题
-description: 关于 KeyMod 的常见问题，涵盖功能、兼容性、平台和预发布信息。
+title: Openterface KeyMod 系列常见问题
+description: 关于 KeyMod 系列的常见问题，涵盖功能、兼容性、平台和预发布信息。
 keywords: KeyMod, Openterface, HID 模拟器, 蓝牙键盘, 手机键盘, 开源, 预发布, Android, iPadOS
 ---
 

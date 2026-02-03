@@ -1,10 +1,10 @@
 ---
-title: "Openterface KeyMod | 휴대폰을 스마트 키보드로"
-description: "KeyMod는 휴대폰을 휴대용 키보드와 트랙패드로 바꾸는 컴팩트한 USB + 블루투스 HID 에뮬레이터입니다. 플러그 앤 플레이, 100% 오픈소스. 키오스크, 스마트 TV, 빠른 워크플로우 단축키에 완벽합니다."
+title: "Openterface KeyMod 시리즈 | 휴대폰을 스마트 키보드로"
+description: "KeyMod 시리즈는 휴대폰을 휴대용 키보드와 트랙패드로 바꾸는 컴팩트한 USB + 블루투스 HID 에뮬레이터입니다. 플러그 앤 플레이, 100% 오픈소스. 키오스크, 스마트 TV, 빠른 워크플로우 단축키에 완벽합니다."
 keywords: "KeyMod, HID 에뮬레이터, 폰 키보드, 블루투스 키보드, USB 키보드, 휴대용 키보드, 오픈소스, Android, iPadOS, 게임패드, 매크로"
 ---
 
-# **Openterface KeyMod**
+# **Openterface KeyMod 시리즈**
 
 {% include "partials/keymod-slideshow.html" %}
 

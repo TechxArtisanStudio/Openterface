@@ -1,6 +1,6 @@
 ---
 title: "Anwendungsfälle"
-description: "KeyMod-Anwendungsfälle: Außendisplays, LED-Schilder, Kioske, Smart-TVs, Set-Top-Boxen und schnelle Workflow-Verknüpfungen. Verwenden Sie Ihr Smartphone als Tastatur, wenn keine vollständige Tastatur verfügbar ist."
+description: "KeyMod Series Anwendungsfälle: Außendisplays, LED-Schilder, Kioske, Smart-TVs, Set-Top-Boxen und schnelle Workflow-Verknüpfungen. Verwenden Sie Ihr Smartphone als Tastatur, wenn keine vollständige Tastatur verfügbar ist."
 keywords: "KeyMod Anwendungsfälle, Kiosk-Steuerung, Smart-TV-Steuerung, Außendisplay, LED-Schilder, Workflow-Verknüpfungen"
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: Openterface KeyMod よくある質問
-description: KeyModに関するよくある質問。機能、互換性、プラットフォーム、プレローンチ情報をカバーしています。
+title: Openterface KeyMod シリーズ よくある質問
+description: KeyMod シリーズに関するよくある質問。機能、互換性、プラットフォーム、プレローンチ情報をカバーしています。
 keywords: KeyMod, Openterface, HIDエミュレーター, Bluetoothキーボード, スマホキーボード, オープンソース, プレローンチ, Android, iPadOS
 ---
 

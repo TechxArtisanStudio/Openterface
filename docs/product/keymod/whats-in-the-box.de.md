@@ -1,6 +1,6 @@
 ---
 title: "Lieferumfang"
-description: "KeyMod-Paketinhalt. Pre-Launch: Verpackung und Zubehör befinden sich noch in der Entwicklung. Erwartete Artikel: KeyMod-Einheit, Kabel und Kurzanleitung."
+description: "KeyMod Series Paketinhalt. Pre-Launch: Verpackung und Zubehör befinden sich noch in der Entwicklung. Erwartete Artikel: KeyMod-Einheit, Kabel und Kurzanleitung."
 keywords: "KeyMod, Paketinhalt, Lieferumfang, Zubehör, Pre-Launch"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "O que vem na caixa"
-description: "Conteúdo do pacote KeyMod. Pré-lançamento: embalagem e acessórios ainda estão em desenvolvimento. Itens esperados incluem unidade KeyMod, cabo e guia de início rápido."
+description: "Conteúdo do pacote KeyMod Series. Pré-lançamento: embalagem e acessórios ainda estão em desenvolvimento. Itens esperados incluem unidade KeyMod, cabo e guia de início rápido."
 keywords: "KeyMod, conteúdo do pacote, o que vem na caixa, acessórios, pré-lançamento"
 ---
 

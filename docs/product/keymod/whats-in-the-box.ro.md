@@ -1,6 +1,6 @@
 ---
 title: "Conținutul cutiei"
-description: "Conținutul pachetului KeyMod. Pre-lansare: ambalajul și accesoriile sunt încă în dezvoltare. Articolele așteptate includ unitatea KeyMod, cablu și ghid de început rapid."
+description: "Conținutul pachetului KeyMod Series. Pre-lansare: ambalajul și accesoriile sunt încă în dezvoltare. Articolele așteptate includ unitatea KeyMod, cablu și ghid de început rapid."
 keywords: "KeyMod, conținut pachet, conținut cutie, accesorii, pre-lansare"
 ---
 

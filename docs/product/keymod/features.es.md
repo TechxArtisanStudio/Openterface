@@ -1,6 +1,6 @@
 ---
 title: "Funciones y especificaciones"
-description: "Funciones de KeyMod: teclado y ratón HID Bluetooth, conexión dual USB + Bluetooth, perfiles personalizados, macros, modos gamepad. Aplicación móvil de código abierto para Android e iPadOS."
+description: "Funciones de KeyMod Series: teclado y ratón HID Bluetooth, conexión dual USB + Bluetooth, perfiles personalizados, macros, modos gamepad. Aplicación móvil de código abierto para Android e iPadOS."
 keywords: "funciones KeyMod, emulador HID, teclado Bluetooth, teclado USB, botones programables, gamepad, macro, código abierto, CH9329"
 ---
 

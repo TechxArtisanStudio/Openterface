@@ -1,6 +1,6 @@
 ---
 title: "Contenido de la caja"
-description: "Contenido del paquete KeyMod. Pre-lanzamiento: el embalaje y los accesorios siguen en desarrollo. Los artículos esperados incluyen la unidad KeyMod, cable y guía de inicio rápido."
+description: "Contenido del paquete KeyMod Series. Pre-lanzamiento: el embalaje y los accesorios siguen en desarrollo. Los artículos esperados incluyen la unidad KeyMod, cable y guía de inicio rápido."
 keywords: "KeyMod, contenido del paquete, contenido de la caja, accesorios, pre-lanzamiento"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "使用场景"
-description: "KeyMod 使用场景：户外显示屏、LED signage、信息亭、智能电视、机顶盒和快速工作流快捷方式。当没有完整键盘时，将手机变成键盘。"
+description: "KeyMod 系列使用场景：户外显示屏、LED signage、信息亭、智能电视、机顶盒和快速工作流快捷方式。当没有完整键盘时，将手机变成键盘。"
 keywords: "KeyMod 使用场景, 信息亭控制, 智能电视控制, 户外显示屏, LED signage, 工作流快捷方式"
 ---
 

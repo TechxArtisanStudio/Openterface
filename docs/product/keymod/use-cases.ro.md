@@ -1,6 +1,6 @@
 ---
 title: "Cazuri de utilizare"
-description: "Cazuri de utilizare KeyMod: afișaje exterioare, afișaje LED, kioscuri, smart TV-uri, set-top box-uri și shortcut-uri de flux de lucru. Transformați telefonul în tastatură când o tastatură completă nu este disponibilă."
+description: "Cazuri de utilizare KeyMod Series: afișaje exterioare, afișaje LED, kioscuri, smart TV-uri, set-top box-uri și shortcut-uri de flux de lucru. Transformați telefonul în tastatură când o tastatură completă nu este disponibilă."
 keywords: "cazuri de utilizare KeyMod, control kiosk, control smart TV, afișaj exterior, afișaj LED, shortcut-uri flux de lucru"
 ---
 

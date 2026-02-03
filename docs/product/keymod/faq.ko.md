@@ -1,6 +1,6 @@
 ---
-title: Openterface KeyMod 자주 묻는 질문
-description: KeyMod에 대한 자주 묻는 질문. 기능, 호환성, 플랫폼 및 출시 전 정보를 다룹니다.
+title: Openterface KeyMod 시리즈 자주 묻는 질문
+description: KeyMod 시리즈에 대한 자주 묻는 질문. 기능, 호환성, 플랫폼 및 출시 전 정보를 다룹니다.
 keywords: KeyMod, Openterface, HID 에뮬레이터, 블루투스 키보드, 폰 키보드, 오픈소스, 출시 전, Android, iPadOS
 ---
 

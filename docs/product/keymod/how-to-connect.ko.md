@@ -1,6 +1,6 @@
 ---
 title: "연결 방법"
-description: "KeyMod 설정 단계별 가이드. USB 또는 블루투스로 휴대폰을 KeyMod에 연결한 다음 KeyMod를 대상 기기에 연결하여 키보드와 마우스를 제어합니다."
+description: "KeyMod 시리즈 설정 단계별 가이드. USB 또는 블루투스로 휴대폰을 KeyMod에 연결한 다음 KeyMod를 대상 기기에 연결하여 키보드와 마우스를 제어합니다."
 keywords: "KeyMod 설정, KeyMod 연결 방법, 폰 키보드 설정, Bluetooth HID, USB HID"
 ---
 

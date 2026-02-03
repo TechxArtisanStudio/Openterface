@@ -1,6 +1,6 @@
 ---
 title: "기능 및 사양"
-description: "KeyMod 기능: 블루투스 HID 키보드 및 마우스, USB + 블루투스 듀얼 연결, 사용자 정의 프로필, 매크로, 게임패드 모드. Android 및 iPadOS용 오픈소스 모바일 앱."
+description: "KeyMod 시리즈 기능: 블루투스 HID 키보드 및 마우스, USB + 블루투스 듀얼 연결, 사용자 정의 프로필, 매크로, 게임패드 모드. Android 및 iPadOS용 오픈소스 모바일 앱."
 keywords: "KeyMod 기능, HID 에뮬레이터, 블루투스 키보드, USB 키보드, 프로그래밍 가능 버튼, 게임패드, 매크로, 오픈소스, CH9329"
 ---
 

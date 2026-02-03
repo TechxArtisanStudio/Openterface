@@ -1,10 +1,10 @@
 ---
-title: "Openterface KeyMod | Transforme seu telefone em um teclado inteligente"
-description: "KeyMod é um emulador HID USB + Bluetooth compacto que transforma seu telefone em um teclado e trackpad portáteis. Plug and play, 100% open source. Perfeito para quiosques, smart TVs e atalhos de fluxo de trabalho."
+title: "Openterface KeyMod Series | Transforme seu telefone em um teclado inteligente"
+description: "KeyMod Series é um emulador HID USB + Bluetooth compacto que transforma seu telefone em um teclado e trackpad portáteis. Plug and play, 100% open source. Perfeito para quiosques, smart TVs e atalhos de fluxo de trabalho."
 keywords: "KeyMod, emulador HID, teclado telefone, teclado Bluetooth, teclado USB, teclado portátil, open source, Android, iPadOS, gamepad, macro"
 ---
 
-# **Openterface KeyMod**
+# **Openterface KeyMod Series**
 
 {% include "partials/keymod-slideshow.html" %}
 

@@ -1,6 +1,6 @@
 ---
 title: "Como conectar"
-description: "Guia passo a passo para configurar o KeyMod. Conecte seu telefone ao KeyMod via USB ou Bluetooth, depois conecte o KeyMod ao seu dispositivo de destino para controle de teclado e mouse."
+description: "Guia passo a passo para configurar o KeyMod Series. Conecte seu telefone ao KeyMod via USB ou Bluetooth, depois conecte o KeyMod ao seu dispositivo de destino para controle de teclado e mouse."
 keywords: "configuração KeyMod, como conectar KeyMod, configuração teclado telefone, Bluetooth HID, USB HID"
 ---
 

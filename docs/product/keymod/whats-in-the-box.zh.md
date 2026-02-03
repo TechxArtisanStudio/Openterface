@@ -1,6 +1,6 @@
 ---
 title: "包装内容"
-description: "KeyMod 包装内容。预发布：包装和配件仍在开发中。预计包含：KeyMod 主机、线缆和快速入门指南。"
+description: "KeyMod 系列包装内容。预发布：包装和配件仍在开发中。预计包含：KeyMod 主机、线缆和快速入门指南。"
 keywords: "KeyMod, 包装内容, 包装清单, 配件, 预发布"
 ---
 

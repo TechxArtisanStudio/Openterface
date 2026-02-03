@@ -1,12 +1,12 @@
 ---
 title: "What's In The Box"
-description: "KeyMod package contents. Pre-launch: packaging and accessories are still in development. Expected items include KeyMod unit, cable, and quick start guide."
-keywords: "KeyMod, package contents, what's in the box, accessories, pre-launch"
+description: "KeyMod Series package contents. Pre-launch: packaging and accessories are still in development. Expected items include KeyMod unit, cable, and quick start guide."
+keywords: "KeyMod Series, package contents, what's in the box, accessories, pre-launch"
 ---
 
-# **What's In The Box** | Openterface KeyMod
+# **What's In The Box** | Openterface KeyMod Series
 
-KeyMod is currently in pre-launch. Package contents and packaging design are still in development and may change before fulfillment.
+KeyMod Series is currently in pre-launch. Package contents and packaging design are still in development and may change before fulfillment.
 
 ## Expected Contents *(tentative)*
 

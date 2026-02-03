@@ -1,6 +1,6 @@
 ---
 title: "Casos de uso"
-description: "Casos de uso de KeyMod: displays exteriores, cartelería LED, quioscos, smart TVs, decodificadores y accesos directos de flujo de trabajo. Convierte tu teléfono en teclado cuando no hay uno completo disponible."
+description: "Casos de uso de KeyMod Series: displays exteriores, cartelería LED, quioscos, smart TVs, decodificadores y accesos directos de flujo de trabajo. Convierte tu teléfono en teclado cuando no hay uno completo disponible."
 keywords: "casos de uso KeyMod, control quiosco, control smart TV, display exterior, cartelería LED, accesos directos flujo de trabajo"
 ---
 

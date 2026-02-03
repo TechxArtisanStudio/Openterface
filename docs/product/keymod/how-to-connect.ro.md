@@ -1,6 +1,6 @@
 ---
 title: "Cum se conectează"
-description: "Ghid pas cu pas pentru configurarea KeyMod. Conectați telefonul la KeyMod prin USB sau Bluetooth, apoi conectați KeyMod la dispozitivul țintă pentru control tastatură și mouse."
+description: "Ghid pas cu pas pentru configurarea KeyMod Series. Conectați telefonul la KeyMod prin USB sau Bluetooth, apoi conectați KeyMod la dispozitivul țintă pentru control tastatură și mouse."
 keywords: "configurare KeyMod, cum se conectează KeyMod, configurare tastatură telefon, Bluetooth HID, USB HID"
 ---
 

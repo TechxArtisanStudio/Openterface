@@ -1,6 +1,6 @@
 ---
 title: "Recursos e especificações"
-description: "Recursos do KeyMod: teclado e mouse HID Bluetooth, conexão dual USB + Bluetooth, perfis personalizados, macros, modos gamepad. Aplicativo móvel open source para Android e iPadOS."
+description: "Recursos do KeyMod Series: teclado e mouse HID Bluetooth, conexão dual USB + Bluetooth, perfis personalizados, macros, modos gamepad. Aplicativo móvel open source para Android e iPadOS."
 keywords: "recursos KeyMod, emulador HID, teclado Bluetooth, teclado USB, botões programáveis, gamepad, macro, open source, CH9329"
 ---
 

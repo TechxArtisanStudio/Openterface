@@ -1,10 +1,10 @@
 ---
-title: "Openterface KeyMod | Verwandeln Sie Ihr Smartphone in eine intelligente Tastatur"
-description: "KeyMod ist ein kompakter USB + Bluetooth HID-Emulator, der Ihr Smartphone in eine tragbare Tastatur und ein Trackpad verwandelt. Plug and Play, 100 % Open Source. Perfekt für Kioske, Smart-TVs und schnelle Workflow-Verknüpfungen."
+title: "Openterface KeyMod Series | Verwandeln Sie Ihr Smartphone in eine intelligente Tastatur"
+description: "KeyMod Series ist ein kompakter USB + Bluetooth HID-Emulator, der Ihr Smartphone in eine tragbare Tastatur und ein Trackpad verwandelt. Plug and Play, 100 % Open Source. Perfekt für Kioske, Smart-TVs und schnelle Workflow-Verknüpfungen."
 keywords: "KeyMod, HID-Emulator, Smartphone-Tastatur, Bluetooth-Tastatur, USB-Tastatur, tragbare Tastatur, Open Source, Android, iPadOS, Gamepad, Makro"
 ---
 
-# **Openterface KeyMod**
+# **Openterface KeyMod Series**
 
 {% include "partials/keymod-slideshow.html" %}
 

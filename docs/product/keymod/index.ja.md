@@ -1,10 +1,10 @@
 ---
-title: "Openterface KeyMod | スマートフォンをスマートキーボードに"
-description: "KeyModは、スマートフォンをポータブルキーボードとトラックパッドに変えるコンパクトなUSB + Bluetooth HIDエミュレーター。プラグアンドプレイ、100%オープンソース。キオスク、スマートTV、ワークフローショートカットに最適。"
+title: "Openterface KeyMod シリーズ | スマートフォンをスマートキーボードに"
+description: "KeyMod シリーズは、スマートフォンをポータブルキーボードとトラックパッドに変えるコンパクトなUSB + Bluetooth HIDエミュレーター。プラグアンドプレイ、100%オープンソース。キオスク、スマートTV、ワークフローショートカットに最適。"
 keywords: "KeyMod, HIDエミュレーター, スマホキーボード, Bluetoothキーボード, USBキーボード, ポータブルキーボード, オープンソース, Android, iPadOS, ゲームパッド, マクロ"
 ---
 
-# **Openterface KeyMod**
+# **Openterface KeyMod シリーズ**
 
 {% include "partials/keymod-slideshow.html" %}
 

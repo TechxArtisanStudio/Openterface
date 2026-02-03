@@ -1,6 +1,6 @@
 ---
-title: Preguntas frecuentes sobre Openterface KeyMod
-description: Preguntas frecuentes sobre KeyMod: funciones, compatibilidad, plataformas e información de pre-lanzamiento.
+title: Preguntas frecuentes sobre Openterface KeyMod Series
+description: Preguntas frecuentes sobre KeyMod Series: funciones, compatibilidad, plataformas e información de pre-lanzamiento.
 keywords: KeyMod, Openterface, emulador HID, teclado Bluetooth, teclado teléfono, código abierto, pre-lanzamiento, Android, iPadOS
 ---
 

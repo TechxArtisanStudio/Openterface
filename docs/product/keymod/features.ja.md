@@ -1,6 +1,6 @@
 ---
 title: "機能と仕様"
-description: "KeyModの機能：Bluetooth HIDキーボードとマウス、USB + Bluetoothデュアル接続、カスタムプロファイル、マクロ、ゲームパッドモード。AndroidとiPadOS向けオープンソースモバイルアプリ。"
+description: "KeyMod シリーズの機能：Bluetooth HIDキーボードとマウス、USB + Bluetoothデュアル接続、カスタムプロファイル、マクロ、ゲームパッドモード。AndroidとiPadOS向けオープンソースモバイルアプリ。"
 keywords: "KeyMod機能, HIDエミュレーター, Bluetoothキーボード, USBキーボード, プログラマブルボタン, ゲームパッド, マクロ, オープンソース, CH9329"
 ---
 
