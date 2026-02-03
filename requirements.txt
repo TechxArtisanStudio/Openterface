@@ -1,4 +1,4 @@
-mkdocs-material
+mkdocs-material[imaging]
 mkdocs-glightbox
 mkdocs-redirects
 mkdocs-static-i18n
