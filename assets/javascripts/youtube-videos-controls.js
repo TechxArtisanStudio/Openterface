@@ -186,7 +186,7 @@
       minikvm: "Mini-KVM",
       "kvm-go": "KVM-Go",
       "uconsole-kvm-extension": "uConsole KVM Extension",
-      keymod: "KeyMod",
+      keymod: "KeyMod Series",
     };
     const productsFromCards = cards.map((c) => meta.get(c).product).filter(Boolean);
     const allProducts = uniqSorted([...knownProducts, ...productsFromCards]);

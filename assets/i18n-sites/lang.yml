@@ -86,9 +86,9 @@
     "MicroSD Switch": MicroSD切换器
     "FAQs for KVM-Go": KVM-Go常见问题
     "Updates for KVM-Go": KVM-Go更新
-    "KeyMod 🤘": "KeyMod 🤘"
-    "FAQs for KeyMod": KeyMod常见问题
-    "Updates for KeyMod": KeyMod更新
+    "KeyMod Series 🤘": "KeyMod Series 🤘"
+    "FAQs for KeyMod Series": KeyMod 系列常见问题
+    "Updates for KeyMod Series": KeyMod 系列更新
 - locale: ja
   name: 日本語
   build: true
@@ -167,9 +167,9 @@
     "MicroSD Switch": MicroSDスイッチ
     "FAQs for KVM-Go": KVM-Go FAQ
     "Updates for KVM-Go": KVM-Goアップデート
-    "KeyMod 🤘": "KeyMod 🤘"
-    "FAQs for KeyMod": KeyMod FAQ
-    "Updates for KeyMod": KeyModアップデート
+    "KeyMod Series 🤘": "KeyMod Series 🤘"
+    "FAQs for KeyMod Series": KeyMod シリーズ FAQ
+    "Updates for KeyMod Series": KeyMod シリーズアップデート
 - locale: ko
   name: 한국어
   build: true
@@ -248,9 +248,9 @@
     "MicroSD Switch": MicroSD 스위치
     "FAQs for KVM-Go": KVM-Go FAQ
     "Updates for KVM-Go": KVM-Go 업데이트
-    "KeyMod 🤘": "KeyMod 🤘"
-    "FAQs for KeyMod": KeyMod FAQ
-    "Updates for KeyMod": KeyMod 업데이트
+    "KeyMod Series 🤘": "KeyMod Series 🤘"
+    "FAQs for KeyMod Series": KeyMod 시리즈 FAQ
+    "Updates for KeyMod Series": KeyMod 시리즈 업데이트
 - locale: fr
   name: Français
   build: true
@@ -329,9 +329,9 @@
     "MicroSD Switch": "Commutateur MicroSD"
     "FAQs for KVM-Go": "FAQ KVM-Go"
     "Updates for KVM-Go": "Mises à jour KVM-Go"
-    "KeyMod 🤘": "KeyMod 🤘"
-    "FAQs for KeyMod": "FAQ KeyMod"
-    "Updates for KeyMod": "Mises à jour KeyMod"
+    "KeyMod Series 🤘": "KeyMod Series 🤘"
+    "FAQs for KeyMod Series": "FAQ KeyMod Series"
+    "Updates for KeyMod Series": "Mises à jour KeyMod Series"
 - locale: de
   name: Deutsch
   build: true
@@ -410,9 +410,9 @@
     "MicroSD Switch": "MicroSD-Umschalter"
     "FAQs for KVM-Go": "KVM-Go FAQs"
     "Updates for KVM-Go": "KVM-Go Updates"
-    "KeyMod 🤘": "KeyMod 🤘"
-    "FAQs for KeyMod": "KeyMod FAQs"
-    "Updates for KeyMod": "KeyMod Updates"
+    "KeyMod Series 🤘": "KeyMod Series 🤘"
+    "FAQs for KeyMod Series": "KeyMod Series FAQs"
+    "Updates for KeyMod Series": "KeyMod Series Updates"
 - locale: it
   name: Italiano
   build: true
@@ -491,9 +491,9 @@
     "MicroSD Switch": "Switch MicroSD"
     "FAQs for KVM-Go": "FAQ KVM-Go"
     "Updates for KVM-Go": "Aggiornamenti KVM-Go"
-    "KeyMod 🤘": "KeyMod 🤘"
-    "FAQs for KeyMod": "FAQ KeyMod"
-    "Updates for KeyMod": "Aggiornamenti KeyMod"
+    "KeyMod Series 🤘": "KeyMod Series 🤘"
+    "FAQs for KeyMod Series": "FAQ KeyMod Series"
+    "Updates for KeyMod Series": "Aggiornamenti KeyMod Series"
 - locale: es
   name: Español
   build: true
@@ -572,9 +572,9 @@
     "MicroSD Switch": "Conmutador MicroSD"
     "FAQs for KVM-Go": "Preguntas sobre KVM-Go"
     "Updates for KVM-Go": "Actualizaciones KVM-Go"
-    "KeyMod 🤘": "KeyMod 🤘"
-    "FAQs for KeyMod": "Preguntas sobre KeyMod"
-    "Updates for KeyMod": "Actualizaciones KeyMod"
+    "KeyMod Series 🤘": "KeyMod Series 🤘"
+    "FAQs for KeyMod Series": "Preguntas sobre KeyMod Series"
+    "Updates for KeyMod Series": "Actualizaciones KeyMod Series"
 - locale: pt
   name: Português
   build: true
@@ -653,9 +653,9 @@
     "MicroSD Switch": "Comutador MicroSD"
     "FAQs for KVM-Go": "Perguntas sobre KVM-Go"
     "Updates for KVM-Go": "Atualizações KVM-Go"
-    "KeyMod 🤘": "KeyMod 🤘"
-    "FAQs for KeyMod": "Perguntas sobre KeyMod"
-    "Updates for KeyMod": "Atualizações KeyMod"
+    "KeyMod Series 🤘": "KeyMod Series 🤘"
+    "FAQs for KeyMod Series": "Perguntas sobre KeyMod Series"
+    "Updates for KeyMod Series": "Atualizações KeyMod Series"
 - locale: ro
   name: Română
   build: true
@@ -733,7 +733,7 @@
     "Beta Quick Start": "Începere rapidă Beta"
     "MicroSD Switch": "Comutator MicroSD"
     "FAQs for KVM-Go": "Întrebări despre KVM-Go"
-    "Updates for KeyMod": "Actualizări KeyMod"
-    "KeyMod 🤘": "KeyMod 🤘"
-    "FAQs for KeyMod": "Întrebări despre KeyMod"
+    "Updates for KeyMod Series": "Actualizări KeyMod Series"
+    "KeyMod Series 🤘": "KeyMod Series 🤘"
+    "FAQs for KeyMod Series": "Întrebări despre KeyMod Series"
     "Updates for KVM-Go": "Actualizări KVM-Go"
