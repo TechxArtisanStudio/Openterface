@@ -166,6 +166,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/about/multi-languages/"/>
     </url>
     <url>
+        <loc>https://openterface.com/about/public-holidays/</loc>
+        <lastmod>2026-02-04</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/about/public-holidays/"/>
+    </url>
+    <url>
         <loc>https://openterface.com/app/faq/</loc>
         <lastmod>2026-02-04</lastmod>
         <changefreq>daily</changefreq>
@@ -1859,6 +1874,21 @@
         <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/about/multi-languages/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/about/multi-languages/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/about/multi-languages/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/zh/about/public-holidays/</loc>
+        <lastmod>2026-02-04</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/about/public-holidays/"/>
     </url>
     <url>
         <loc>https://openterface.com/zh/app/faq/</loc>
@@ -3556,6 +3586,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/about/multi-languages/"/>
     </url>
     <url>
+        <loc>https://openterface.com/ja/about/public-holidays/</loc>
+        <lastmod>2026-02-04</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/about/public-holidays/"/>
+    </url>
+    <url>
         <loc>https://openterface.com/ja/app/faq/</loc>
         <lastmod>2026-02-04</lastmod>
         <changefreq>daily</changefreq>
@@ -5249,6 +5294,21 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/about/multi-languages/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/about/multi-languages/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/about/multi-languages/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ko/about/public-holidays/</loc>
+        <lastmod>2026-02-04</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/about/public-holidays/"/>
     </url>
     <url>
         <loc>https://openterface.com/ko/app/faq/</loc>
@@ -6946,6 +7006,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/about/multi-languages/"/>
     </url>
     <url>
+        <loc>https://openterface.com/fr/about/public-holidays/</loc>
+        <lastmod>2026-02-04</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/about/public-holidays/"/>
+    </url>
+    <url>
         <loc>https://openterface.com/fr/app/faq/</loc>
         <lastmod>2026-02-04</lastmod>
         <changefreq>daily</changefreq>
@@ -8639,6 +8714,21 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/about/multi-languages/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/about/multi-languages/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/about/multi-languages/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/de/about/public-holidays/</loc>
+        <lastmod>2026-02-04</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/about/public-holidays/"/>
     </url>
     <url>
         <loc>https://openterface.com/de/app/faq/</loc>
@@ -10336,6 +10426,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/about/multi-languages/"/>
     </url>
     <url>
+        <loc>https://openterface.com/it/about/public-holidays/</loc>
+        <lastmod>2026-02-04</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/about/public-holidays/"/>
+    </url>
+    <url>
         <loc>https://openterface.com/it/app/faq/</loc>
         <lastmod>2026-02-04</lastmod>
         <changefreq>daily</changefreq>
@@ -12029,6 +12134,21 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/about/multi-languages/"/>
         <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/about/multi-languages/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/about/multi-languages/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/es/about/public-holidays/</loc>
+        <lastmod>2026-02-04</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/about/public-holidays/"/>
     </url>
     <url>
         <loc>https://openterface.com/es/app/faq/</loc>
@@ -13726,6 +13846,21 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/about/multi-languages/"/>
     </url>
     <url>
+        <loc>https://openterface.com/pt/about/public-holidays/</loc>
+        <lastmod>2026-02-04</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/about/public-holidays/"/>
+    </url>
+    <url>
         <loc>https://openterface.com/pt/app/faq/</loc>
         <lastmod>2026-02-04</lastmod>
         <changefreq>daily</changefreq>
@@ -15419,6 +15554,21 @@
         <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/about/multi-languages/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/about/multi-languages/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/about/multi-languages/"/>
+    </url>
+    <url>
+        <loc>https://openterface.com/ro/about/public-holidays/</loc>
+        <lastmod>2026-02-04</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://openterface.com/ro/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://openterface.com/de/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://openterface.com/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://openterface.com/es/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://openterface.com/fr/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://openterface.com/it/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://openterface.com/ja/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://openterface.com/ko/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://openterface.com/pt/about/public-holidays/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://openterface.com/zh/about/public-holidays/"/>
     </url>
     <url>
         <loc>https://openterface.com/ro/app/faq/</loc>
