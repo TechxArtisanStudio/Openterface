@@ -32,7 +32,7 @@ Dopo il successo di **Openterface Mini-KVM**, con oltre 5.000 utenti nella nostr
     <span class="funding-amount">$88,253</span>
     <span class="funding-text">Finanziato il 30 dic 2025</span>
     <span class="funding-separator">|</span>
-    <span class="funding-backers"><span class="funding-backers-count">351</span> <span>Sostenitori</span></span>
+    <span class="funding-backers"><span class="funding-backers-count">372</span> <span>Sostenitori</span></span>
   </div>
 </div>
 

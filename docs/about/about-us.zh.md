@@ -26,6 +26,7 @@
 
 - **公司名称：** **TechxArtisan Limited**  
 - **地址：** Unit 04-05, 16/F, Broadway Building, 54-62 Lockhart Road, Wanchai, Hong Kong SAR, China
+- **工作时间：** 周一至周五 9:30–19:30（GMT+8）。主要遵循[中国内地与香港公众假期](public-holidays.md)。
 - **联系信息：** ✉️ [info@techxartisan.com](mailto:info@techxartisan.com)  
 
 

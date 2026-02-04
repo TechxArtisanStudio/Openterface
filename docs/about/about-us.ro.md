@@ -26,6 +26,7 @@ Scopul nostru este simplu: **să transformăm complexitatea în oportunitate și
 
 - **Numele companiei:** **TechxArtisan Limited**  
 - **Adresă:** Unit 04-05, 16/F, Broadway Building, 54-62 Lockhart Road, Wanchai, Hong Kong SAR, China
+- **Program de lucru:** Luni–vineri, 9:30–19:30 (GMT+8). Respectăm în principal [sărbătorile din China continentală și Hong Kong](public-holidays.md).
 - **Contact:** ✉️ [info@techxartisan.com](mailto:info@techxartisan.com)  
 
 

@@ -30,10 +30,10 @@ keywords: "Mini-KVM, KVM over USB, KVM over IP, headless control, HDMI KVM, USB 
 
 <div style="text-align: center; margin: 20px 0 10px 0;">
   <div class="carousel-funding-stats" style="display: inline-flex; justify-content: center;">
-    <span class="funding-amount">$467,189</span>
+    <span class="funding-amount">$476,518</span>
     <span class="funding-text">2024年6月13日資金調達完了</span>
     <span class="funding-separator">|</span>
-    <span class="funding-backers"><span class="funding-backers-count">3,520</span> <span>サポーター</span></span>
+    <span class="funding-backers"><span class="funding-backers-count">3,582</span> <span>サポーター</span></span>
   </div>
 </div>
 

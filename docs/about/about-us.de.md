@@ -26,6 +26,7 @@ Unser Ziel ist einfach: **Komplexität in Chancen verwandeln und Potenzial in Fo
 
 - **Unternehmensname:** **TechxArtisan Limited**  
 - **Adresse:** Unit 04-05, 16/F, Broadway Building, 54-62 Lockhart Road, Wanchai, Hong Kong SAR, China
+- **Arbeitszeiten:** Montag bis Freitag, 9:30–19:30 Uhr (GMT+8). Wir folgen hauptsächlich den [Feiertagen in Festlandchina und Hongkong](public-holidays.md).
 - **Kontakt:** ✉️ [info@techxartisan.com](mailto:info@techxartisan.com)  
 
 
