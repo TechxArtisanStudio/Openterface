@@ -1,48 +1,99 @@
-# Return, Refunds and Warranty Policy
+# Return, Refund, and Warranty Policy
 
-## Returns
+**(Version 2 – February 2026)**
 
-Openterface provides options for returns and exchanges in accordance with the following terms and conditions:
+This policy applies to Openterface products, including Mini-KVM, KVM-GO, etc. Please read carefully, as returns, refunds, and warranty handling depend on where you purchased the product.
 
-### Damage in Shipment
+## Language and Prevailing Version
 
-Should your product arrive with damage incurred during shipment, we request you to inform us via email at [info@techxartisan.com](mailto:info@techxartisan.com) within two business days of receipt. Your email should detail the damages and, where possible, include photographic evidence. This assists us greatly in ensuring our products are properly packaged and transported. We will organize replacements for the damaged products.
+This policy is written in English. If this policy is translated into other languages and there is any inconsistency or conflict between the English version and any translated version, the English version shall prevail and be the controlling version.
 
-### Exchanges
+## 1. Purchase Channel Matters
 
-If you are unsatisfied with your purchase for any reason, we offer the facility to return items in exchange for store credit. For a return to be accepted, items must adhere to the criteria outlined in the section [Important Conditions for Return]. Please initiate exchanges within 15 days following delivery. Note that Openterface ==does not cover the costs of return postage and customs tax.==
+Openterface products may be purchased through different channels, including but not limited to:
 
-### Important Conditions for Return
+- Openterface official website
+- Authorized platforms (e.g. Crowd Supply, Mouser Electronics)
+- Other authorized resellers
 
-Upon receiving the returned product, it will undergo an inspection. To ensure a smooth return process, please meet the following conditions:
+- **Refunds** are always processed by the original seller.
+- **Replacement support** is provided directly by Openterface, subject to the conditions below.
 
-- The product must be in its original, undamaged state.
-- Notification of the product's return must be given to us within 15 business days.
-- The return package should contain all items that were included in the original purchase, such as price tags, labels, original packaging, freebies, accessories, invoices, warranty cards, and other documentation.
-- It is acknowledged and agreed that Openterface retains the discretion to determine if a product is in a saleable condition. Items deemed unsaleable will be discarded and no store credit or exchange will be issued for these items.
+## 2. Replacement (Primary Resolution)
 
-## Refunds
+If your Openterface product has a confirmed hardware defect or persistent functional issues under normal use (for example, unstable keyboard or mouse control), Openterface offers replacement as the primary resolution, regardless of purchase channel.
 
-Once your return is received and inspected, we will send you an email to notify you of the receipt of your returned item. If the product is returned in an undamaged state, we will process the refund within five working days.
+### Replacement Process
 
-## Warranty
+1. Contact Openterface support and follow the requested diagnostic steps (such as software self-checks, logs, or setup confirmation).
+2. Once a hardware defect is confirmed, Openterface will offer a replacement unit.
+3. In most cases, return of the defective unit is not required, unless explicitly requested by Openterface.
+4. Replacement units are shipped by Openterface to restore normal functionality as quickly as possible.
 
-This warranty policy confers specific legal rights upon you. Additionally, depending on your location—be it a particular state, province, or country—you may have other rights. 
+## 3. Replacement and Refund Exclusivity
 
-Openterface, as governed by law, respects your rights and does not seek to exclude, limit, or suspend any rights you possess, particularly those arising from nonconformity with a sales contract. To fully understand your rights, it's advisable to refer to the laws of your state, province, or country.
+Replacement and refund are mutually exclusive resolutions.
 
-### Scope of this Warranty
+- Customers may choose either replacement or refund, depending on eligibility and purchase channel.
+- Once a replacement is confirmed and shipped, the order is no longer eligible for a refund.
+- If a customer prefers a refund, they must contact the original seller before confirming replacement.
+- This policy exists to prevent duplicate compensation and to ensure fair and consistent handling for all customers.
 
-The benefits provided by this Openterface warranty are in addition to, and do not detract from, any rights and remedies you may have under law in connection to the goods and services under warranty. This warranty is applicable to any Openterface products purchased from an authorised Openterface reseller or directly via www.openterface.com.
+## 4. Refunds and Returns
 
-- Our policy limits warranties and services to products bought either directly from Openterface or an authorised Openterface reseller, and requires accompanying proof of purchase. If your Openterface product was bought from an unauthorised reseller, or if its original factory serial number is missing, defaced, or altered, this warranty becomes invalid.
-- Be aware that some websites and dealers may falsely claim to be authorised Openterface resellers. Products bought through these sources are not covered by an Openterface warranty. These products may be counterfeit, used, defective, or unsuitable for use in your country. Ensure your protection and the integrity of your Openterface product by buying only from authorised resellers. For information on authorised resellers, please visit our website.
+### Refund Handling
+
+- Openterface does not process refunds directly.
+- If you purchased through Crowd Supply, Mouser, or another reseller, all refunds and return labels must be requested through that seller, according to their policies and timelines.
+- Openterface may provide reasonable documentation (for example, confirmation of a hardware defect) to support a refund request.
+- Refund approval, timing, and payment are solely determined by the seller.
+
+### Returns for Refund
+
+Any physical return of products for refund purposes is governed by the seller's return policy, including requirements related to:
+
+- Return authorization
+- Shipping method and address
+- Customs duties or taxes, if applicable
+
+## 5. Shipping Damage
+
+If your product arrives damaged:
+
+- For products shipped by a platform or reseller, please contact the seller's support team first, as they manage shipping and carrier claims.
+- Openterface may assist with troubleshooting or documentation if needed.
+
+## 6. Warranty
 
 ### Warranty Coverage
 
-- Openterface guarantees its products, in their original packaging, against defects in materials and workmanship under normal use.
-- All Openterface limited warranties commence from the date of purchase. KEEP YOUR RECEIPT AS PROOF OF PURCHASE. The duration of the Openterface limited hardware warranty is typically 6 months from the date of purchase, though this may vary for different Openterface products.
-- All Openterface warranties, including any statutory guarantees or non-excludable statutory warranties, are valid solely during the period the product is owned by the original purchaser. The 'original purchaser' is defined as the first buyer of the product from Openterface or an authorised reseller. Openterface limited warranties, including any lifetime warranties, are non-transferable.
-- The warranty does not cover scenarios outside normal use, such as theft, accidents, misuse, abuse, water damage, or use of the product in conditions outside its specified operational climate.
+- Openterface warrants its products against defects in materials and workmanship under normal use.
+- **Warranty period:** 6 months from the date of purchase, unless otherwise stated.
+- Warranty applies only to the original purchaser.
+- Proof of purchase from Openterface or an authorized reseller is required.
 
-To the extent permitted by applicable law, this warranty and any implied warranties constitute your sole and exclusive warranties, superseding all other warranties or conditions, whether express or implied. Some jurisdictions may not allow limitations on the duration of an implied warranty, so the above limitation may not apply in your case.
+### What Is Covered
+
+- Manufacturing defects
+- Hardware failures under normal operating conditions
+
+### What Is Not Covered
+
+- Damage due to misuse, accident, modification, water exposure, or operation outside specified environmental conditions
+- Products purchased from unauthorized sellers
+- Normal wear and tear
+
+This warranty is provided in addition to any non‑excludable rights you may have under applicable law.
+
+## 7. Authorized Resellers
+
+Warranty and replacement support apply only to products purchased from Openterface or authorized resellers.
+
+Openterface is not responsible for products purchased from unauthorized sources, which may be counterfeit, used, or defective.
+
+## 8. Important Notes
+
+- Replacement is the preferred and fastest resolution for confirmed hardware defects.
+- Refunds must follow the original purchase channel.
+- Shipping costs, duties, and taxes may vary by region and seller policy.
+- Openterface reserves the right to assess cases individually to prevent abuse of replacement or warranty services.
