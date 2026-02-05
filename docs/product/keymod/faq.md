@@ -32,7 +32,7 @@ KeyMod Series is a compact USB + Bluetooth HID (keyboard and mouse) emulator tha
 
 **:material-chat-question:{ .faq } What platforms does the KeyMod Series app support?**
 
-The KeyMod Series controller app focuses on **Android** and **iPadOS**. We are also expanding desktop control with **Windows and macOS** software in our broader Openterface ecosystem.
+The KeyMod Series controller app focuses on **Android** , **IOS** and **iPadOS**. We are also expanding desktop control with **Windows and macOS** software in our broader Openterface ecosystem.
 
 **:material-chat-question:{ .faq } Does the target device need any software?**
 
@@ -60,17 +60,9 @@ Yes. KeyMod Series is open hardware and open software. We will publish schematic
 
 ## Features
 
-**:material-chat-question:{ .faq } What gamepad layouts are supported?**
-
-KeyMod can act as a virtual game controller with **Xbox layout**, **PlayStation layout**, and **NES layout**.
-
 **:material-chat-question:{ .faq } Can I create custom profiles and macros?**
 
-Yes. The open source mobile app supports custom input profiles, macros, hotkeys, and workflow shortcuts. You can also use keypad and gamepad modes.
-
-**:material-chat-question:{ .faq } What are the programmable hardware buttons?**
-
-KeyMod Series includes programmable hardware buttons for on-device actions like quick triggers and simple macro-style workflows. This capability is still experimental and will be refined through community feedback.
+Yes. The open source mobile app supports custom input profiles, macros, hotkeys, and workflow shortcuts. You can also use keypad.
 
 ---
 

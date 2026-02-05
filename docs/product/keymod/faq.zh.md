@@ -32,7 +32,7 @@ KeyMod 是一款紧凑的 USB + 蓝牙 HID（键盘和鼠标）模拟器，可�
 
 **:material-chat-question:{ .faq } KeyMod 应用支持哪些平台？**
 
-KeyMod 控制器应用主要支持 **Android** 和 **iPadOS**。我们也在更广泛的 Openterface 生态系统中通过 **Windows 和 macOS** 软件扩展桌面控制。
+KeyMod Series 控制器应用主要支持 **Android**、**iOS** 和 **iPadOS**。我们也在更广泛的 Openterface 生态系统中通过 **Windows 和 macOS** 软件扩展桌面控制。
 
 **:material-chat-question:{ .faq } 目标设备需要安装软件吗？**
 
@@ -60,17 +60,9 @@ KeyMod 控制器应用主要支持 **Android** 和 **iPadOS**。我们也在更�
 
 ## 功能
 
-**:material-chat-question:{ .faq } 支持哪些手柄布局？**
-
-KeyMod 可作为虚拟游戏控制器，支持 **Xbox 布局**、**PlayStation 布局** 和 **NES 布局**。
-
 **:material-chat-question:{ .faq } 可以创建自定义配置和宏吗？**
 
-可以。开源移动应用支持自定义输入配置、宏、快捷键和工作流快捷方式。您还可以使用数字键盘和手柄模式。
-
-**:material-chat-question:{ .faq } 可编程硬件按钮是什么？**
-
-KeyMod 包含可编程硬件按钮，用于设备上的操作，如快速触发和简单的宏式工作流。此功能仍处于实验阶段，将通过社区反馈不断完善。
+可以。开源移动应用支持自定义输入配置、宏、快捷键和工作流快捷方式。您还可以使用数字键盘。
 
 ---
 

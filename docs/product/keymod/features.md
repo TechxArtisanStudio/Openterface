@@ -36,22 +36,10 @@ With our open source mobile app, you can:
 
 - Build custom input profiles
 - Launch macros and configure hotkeys
-- Extend to advanced modes: keypad and gamepad
 - Create workflow shortcuts
 
-The KeyMod controller app focuses on **Android and iPadOS**. We are also expanding desktop control with **Windows and macOS** software in our broader Openterface ecosystem.
+The KeyMod controller app focuses on **Android, IOS and iPadOS**. We are also expanding desktop control with **Windows and macOS** software in our broader Openterface ecosystem.
 
-### **Virtual Game Controller**
-
-KeyMod can act as a virtual game controller with familiar layouts:
-
-- **Xbox layout**
-- **PlayStation layout**
-- **NES layout**
-
-### **Programmable Hardware Buttons**
-
-KeyMod includes programmable hardware buttons for on-device actions like quick triggers and simple macro-style workflows. This capability is still experimental and will be refined through prototyping, testing, and community feedback.
 
 ### **True Hardware HID**
 
@@ -82,5 +70,3 @@ KeyMod is open hardware and open software. We will publish schematics, PCB files
 - Full keyboard and mouse emulation (HID)
 - Custom input profiles
 - Macros and hotkeys
-- Keypad and gamepad modes
-- Virtual game controller layouts (Xbox, PlayStation, NES)

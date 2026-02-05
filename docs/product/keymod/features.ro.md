@@ -36,22 +36,9 @@ Cu aplicația noastră mobilă open source puteți:
 
 - Crea profile de intrare personalizate
 - Lansare macro-uri și configurare taste rapide
-- Extinde la moduri avansate: tastatură numerică și gamepad
 - Crea shortcut-uri pentru fluxul de lucru
 
-Aplicația controler KeyMod se concentrează pe **Android și iPadOS**. Extindem și controlul desktop cu software **Windows și macOS** în ecosistemul nostru Openterface mai larg.
-
-### **Controler de joc virtual**
-
-KeyMod poate acționa ca un controler de joc virtual cu layout-uri familiare:
-
-- **Layout Xbox**
-- **Layout PlayStation**
-- **Layout NES**
-
-### **Butoane hardware programabile**
-
-KeyMod include butoane hardware programabile pentru acțiuni pe dispozitiv precum declanșatoare rapide și fluxuri de lucru simple în stil macro. Această capacitate este încă experimentală și va fi rafinată prin prototipare, testare și feedback-ul comunității.
+Aplicația controler KeyMod se concentrează pe **Android, IOS și iPadOS**. Extindem și controlul desktop cu software **Windows și macOS** în ecosistemul nostru Openterface mai larg.
 
 ### **HID hardware real**
 
@@ -82,5 +69,3 @@ KeyMod este hardware și software deschise. Vom publica scheme, fișiere PCB, fi
 - Emulare completă tastatură și mouse (HID)
 - Profile de intrare personalizate
 - Macro-uri și taste rapide
-- Moduri tastatură numerică și gamepad
-- Layout-uri controler de joc virtual (Xbox, PlayStation, NES)

@@ -32,7 +32,7 @@ KeyMod este un emulator HID (tastatură și mouse) compact USB + Bluetooth care 
 
 **:material-chat-question:{ .faq } Ce platforme suportă aplicația KeyMod?**
 
-Aplicația controler KeyMod se concentrează pe **Android** și **iPadOS**. Extindem și controlul desktop cu software **Windows și macOS** în ecosistemul nostru Openterface mai larg.
+Aplicația controler KeyMod Series se concentrează pe **Android**, **iOS** și **iPadOS**. Extindem și controlul desktop cu software **Windows și macOS** în ecosistemul nostru Openterface mai larg.
 
 **:material-chat-question:{ .faq } Dispozitivul țintă are nevoie de software?**
 
@@ -60,17 +60,9 @@ Da. KeyMod este hardware și software deschise. Vom publica scheme, fișiere PCB
 
 ## Funcționalități
 
-**:material-chat-question:{ .faq } Ce layout-uri de gamepad sunt suportate?**
-
-KeyMod poate acționa ca un controler de joc virtual cu **layout Xbox**, **layout PlayStation** și **layout NES**.
-
 **:material-chat-question:{ .faq } Pot crea profile și macro-uri personalizate?**
 
-Da. Aplicația mobilă open source suportă profile de intrare personalizate, macro-uri, taste rapide și shortcut-uri pentru fluxul de lucru. Puteți folosi și moduri tastatură numerică și gamepad.
-
-**:material-chat-question:{ .faq } Ce sunt butoanele hardware programabile?**
-
-KeyMod include butoane hardware programabile pentru acțiuni pe dispozitiv precum declanșatoare rapide și fluxuri de lucru simple în stil macro. Această capacitate este încă experimentală și va fi rafinată prin feedback-ul comunității.
+Da. Aplicația mobilă open source suportă profile de intrare personalizate, macro-uri, taste rapide și shortcut-uri pentru fluxul de lucru. Puteți folosi și tastatură numerică.
 
 ---
 

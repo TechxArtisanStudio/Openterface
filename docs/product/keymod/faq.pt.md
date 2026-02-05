@@ -32,7 +32,7 @@ KeyMod é um emulador HID (teclado e mouse) compacto USB + Bluetooth que transfo
 
 **:material-chat-question:{ .faq } Quais plataformas o aplicativo KeyMod suporta?**
 
-O aplicativo controlador KeyMod foca em **Android** e **iPadOS**. Também estamos expandindo o controle de desktop com software **Windows e macOS** em nosso ecossistema Openterface mais amplo.
+O aplicativo controlador KeyMod Series foca em **Android**, **iOS** e **iPadOS**. Também estamos expandindo o controle de desktop com software **Windows e macOS** em nosso ecossistema Openterface mais amplo.
 
 **:material-chat-question:{ .faq } O dispositivo de destino precisa de algum software?**
 
@@ -60,17 +60,9 @@ Sim. KeyMod é hardware e software abertos. Publicaremos esquemas, arquivos PCB,
 
 ## Recursos
 
-**:material-chat-question:{ .faq } Quais layouts de gamepad são suportados?**
-
-KeyMod pode atuar como um controlador de jogo virtual com **layout Xbox**, **layout PlayStation** e **layout NES**.
-
 **:material-chat-question:{ .faq } Posso criar perfis e macros personalizados?**
 
-Sim. O aplicativo móvel open source suporta perfis de entrada personalizados, macros, atalhos de teclado e atalhos de fluxo de trabalho. Você também pode usar modos de teclado numérico e gamepad.
-
-**:material-chat-question:{ .faq } O que são os botões de hardware programáveis?**
-
-KeyMod inclui botões de hardware programáveis para ações no dispositivo como gatilhos rápidos e fluxos de trabalho simples estilo macro. Esta capacidade ainda é experimental e será refinada através do feedback da comunidade.
+Sim. O aplicativo móvel open source suporta perfis de entrada personalizados, macros, atalhos de teclado e atalhos de fluxo de trabalho. Você também pode usar teclado numérico.
 
 ---
 

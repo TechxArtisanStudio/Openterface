@@ -32,7 +32,7 @@ KeyMod는 휴대폰을 휴대용 키보드와 트랙패드로 바꾸는 컴팩�
 
 **:material-chat-question:{ .faq } KeyMod 앱은 어떤 플랫폼을 지원하나요?**
 
-KeyMod 컨트롤러 앱은 **Android**와 **iPadOS**에 중점을 둡니다. 더 넓은 Openterface 생태계에서 **Windows 및 macOS** 소프트웨어로 데스크톱 제어도 확장하고 있습니다.
+KeyMod Series 컨트롤러 앱은 **Android**, **iOS**, **iPadOS**에 중점을 둡니다. 더 넓은 Openterface 생태계에서 **Windows 및 macOS** 소프트웨어로 데스크톱 제어도 확장하고 있습니다.
 
 **:material-chat-question:{ .faq } 대상 기기에 소프트웨어가 필요하나요?**
 
@@ -60,17 +60,9 @@ KeyMod 컨트롤러 앱은 **Android**와 **iPadOS**에 중점을 둡니다. 더
 
 ## 기능
 
-**:material-chat-question:{ .faq } 어떤 게임패드 레이아웃이 지원되나요?**
-
-KeyMod는 **Xbox 레이아웃**, **PlayStation 레이아웃**, **NES 레이아웃**으로 가상 게임 컨트롤러 역할을 할 수 있습니다.
-
 **:material-chat-question:{ .faq } 사용자 정의 프로필과 매크로를 만들 수 있나요?**
 
-예. 오픈소스 모바일 앱은 사용자 정의 입력 프로필, 매크로, 단축키 및 워크플로우 단축키를 지원합니다. 키패드 및 게임패드 모드도 사용할 수 있습니다.
-
-**:material-chat-question:{ .faq } 프로그래밍 가능한 하드웨어 버튼이란 무엇인가요?**
-
-KeyMod에는 빠른 트리거 및 간단한 매크로 스타일 워크플로우와 같은 기기 내 작업을 위한 프로그래밍 가능한 하드웨어 버튼이 포함되어 있습니다. 이 기능은 아직 실험적이며 커뮤니티 피드백을 통해 개선될 예정입니다.
+예. 오픈소스 모바일 앱은 사용자 정의 입력 프로필, 매크로, 단축키 및 워크플로우 단축키를 지원합니다. 키패드도 사용할 수 있습니다.
 
 ---
 

@@ -36,22 +36,9 @@ Avec notre application mobile open source, vous pouvez :
 
 - Créer des profils d'entrée personnalisés
 - Lancer des macros et configurer des raccourcis clavier
-- Étendre aux modes avancés : pavé numérique et manette
 - Créer des raccourcis de flux de travail
 
-L'application contrôleur KeyMod se concentre sur **Android et iPadOS**. Nous développons également le contrôle desktop avec des logiciels **Windows et macOS** dans notre écosystème Openterface plus large.
-
-### **Manette de jeu virtuelle**
-
-KeyMod peut agir comme une manette de jeu virtuelle avec des dispositions familières :
-
-- **Disposition Xbox**
-- **Disposition PlayStation**
-- **Disposition NES**
-
-### **Boutons matériels programmables**
-
-KeyMod inclut des boutons matériels programmables pour des actions sur l'appareil comme des déclencheurs rapides et des flux de travail simples de type macro. Cette capacité est encore expérimentale et sera affinée par le prototypage, les tests et les retours de la communauté.
+L'application contrôleur KeyMod se concentre sur **Android, IOS et iPadOS**. Nous développons également le contrôle desktop avec des logiciels **Windows et macOS** dans notre écosystème Openterface plus large.
 
 ### **Vrai HID matériel**
 
@@ -82,5 +69,3 @@ KeyMod est un matériel et logiciel ouverts. Nous publierons les schémas, fichi
 - Émulation complète clavier et souris (HID)
 - Profils d'entrée personnalisés
 - Macros et raccourcis clavier
-- Modes pavé numérique et manette
-- Dispositions de manette de jeu virtuelle (Xbox, PlayStation, NES)
