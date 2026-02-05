@@ -8,6 +8,8 @@ keywords: "Openterface Mini-KVM, Windows, diagnostica hardware, controllo diagno
 
 Questa guida spiega come eseguire il controllo **Diagnostica hardware** nell'app Openterface per **Windows** e come inviare il report diagnostico al supporto se viene rilevato un problema.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uSq3BDc_SBU?si=rREugsUxX1FzDGqm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 ## Prima di iniziare

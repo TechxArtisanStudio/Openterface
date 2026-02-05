@@ -8,6 +8,8 @@ keywords: "Openterface Mini-KVM, Windows, hardware diagnostics, diagnostic self-
 
 This guide explains how to run the **Hardware Diagnostics** self-check in the **Windows** version of the Openterface app, and how to send the diagnostic report to support if an issue is detected.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uSq3BDc_SBU?si=rREugsUxX1FzDGqm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 ## Before you start

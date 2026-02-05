@@ -8,6 +8,8 @@ keywords: "Openterface Mini-KVM, Windows, ハードウェア診断, 診断自己
 
 このガイドでは、**Windows**版Openterfaceアプリで**ハードウェア診断**自己チェックを実行する方法と、問題が検出された場合にサポートへ診断レポートを送信する方法を説明します。
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uSq3BDc_SBU?si=rREugsUxX1FzDGqm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 ## 開始前に

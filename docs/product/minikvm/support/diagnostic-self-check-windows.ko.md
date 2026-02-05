@@ -8,6 +8,8 @@ keywords: "Openterface Mini-KVM, Windows, 하드웨어 진단, 진단 자기 점
 
 이 가이드는 **Windows** 버전 Openterface 앱에서 **하드웨어 진단** 자기 점검을 실행하는 방법과 문제가 감지된 경우 지원팀에 진단 보고서를 보내는 방법을 설명합니다.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uSq3BDc_SBU?si=rREugsUxX1FzDGqm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 ## 시작하기 전에

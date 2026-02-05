@@ -8,6 +8,8 @@ keywords: "Openterface Mini-KVM, Windows, 硬件诊断, 诊断自检, KVM 故障
 
 本指南介绍如何在 **Windows** 版 Openterface 应用中运行**硬件诊断**自检，以及如何在检测到问题时将诊断报告发送给支持团队。
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uSq3BDc_SBU?si=rREugsUxX1FzDGqm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 ## 开始之前

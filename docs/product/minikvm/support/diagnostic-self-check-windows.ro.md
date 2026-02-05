@@ -8,6 +8,8 @@ cuvinte cheie: „Openterface Mini-KVM, Windows, diagnostic hardware, verificare
 
 Acest ghid explică cum să rulați verificarea auto-diagnostic **Hardware** în versiunea **Windows** a aplicației Openterface, și cum să trimiteți raportul de diagnostic către suport dacă este detectată o problemă.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uSq3BDc_SBU?si=rREugsUxX1FzDGqm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 ## Înainte de a începe

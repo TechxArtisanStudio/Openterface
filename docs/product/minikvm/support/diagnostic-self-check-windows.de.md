@@ -8,6 +8,8 @@ keywords: "Openterface Mini-KVM, Windows, Hardware-Diagnose, Diagnose Selbsttest
 
 Diese Anleitung erklärt, wie Sie den **Hardware-Diagnose** Selbsttest in der **Windows**-Version der Openterface-App ausführen und wie Sie den Diagnosebericht an den Support senden, wenn ein Problem erkannt wird.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uSq3BDc_SBU?si=rREugsUxX1FzDGqm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 ## Vor dem Start

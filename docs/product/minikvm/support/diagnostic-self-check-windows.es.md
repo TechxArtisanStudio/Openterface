@@ -8,6 +8,8 @@ keywords: "Openterface Mini-KVM, Windows, autodiagnóstico de hardware, solució
 
 Esta guía explica cómo ejecutar el autodiagnóstico de **Hardware** en la versión **Windows** de la aplicación Openterface, y cómo enviar el informe de diagnóstico al soporte si se detecta un problema.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uSq3BDc_SBU?si=rREugsUxX1FzDGqm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 ## Antes de comenzar

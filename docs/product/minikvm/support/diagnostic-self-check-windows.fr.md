@@ -8,6 +8,8 @@ keywords: "Openterface Mini-KVM, Windows, diagnostic matériel, auto-vérificati
 
 Ce guide explique comment exécuter l'auto-vérification **Diagnostic matériel** dans la version **Windows** de l'application Openterface, et comment envoyer le rapport de diagnostic au support si un problème est détecté.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uSq3BDc_SBU?si=rREugsUxX1FzDGqm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 ## Avant de commencer
