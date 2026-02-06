@@ -2017,13 +2017,16 @@ body {
   }
   
   /* When drawer is open, ensure header stays below */
-  [data-md-toggle="drawer"]:checked ~ .md-container body .md-header,
-  [data-md-toggle="drawer"]:checked ~ .md-container body .md-header.md-header--shadow,
-  [data-md-toggle="drawer"]:checked ~ .md-container body .md-header.md-header--lifted,
-  [data-md-toggle="drawer"]:checked ~ .md-container .md-header,
-  [data-md-toggle="drawer"]:checked ~ .md-container .md-header.md-header--shadow,
-  [data-md-toggle="drawer"]:checked ~ .md-container .md-header.md-header--lifted {
+  /* Header is a sibling of the checkbox, not inside .md-container */
+  [data-md-toggle="drawer"]:checked ~ .md-header,
+  [data-md-toggle="drawer"]:checked ~ .md-header.md-header--shadow,
+  [data-md-toggle="drawer"]:checked ~ .md-header.md-header--lifted {
     z-index: 50 !important;
+  }
+  
+  /* Ensure announce bar stays below drawer when drawer is open */
+  [data-md-toggle="drawer"]:checked ~ [data-md-component="announce"] {
+    z-index: 40 !important;  /* Below header (50), well below drawer (9999) */
   }
   
   /* Remove slide animation from drawer */
