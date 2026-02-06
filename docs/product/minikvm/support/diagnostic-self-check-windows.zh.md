@@ -14,6 +14,7 @@ keywords: "Openterface Mini-KVM, Windows, 硬件诊断, 诊断自检, KVM 故障
 
 ## 开始之前
 
+- **更新应用：** 在运行诊断之前，请确保已安装最新版本的 [Openterface Windows 应用](/app)。请在应用菜单中检查更新。
 - 将 Mini-KVM 连接到**主机**和**目标**。
 - 测试期间（尤其是压力测试期间）保持目标设备空闲。
 

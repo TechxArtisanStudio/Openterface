@@ -8,6 +8,12 @@ keywords: "Openterface Mini-KVM, macOS, Diagnose Selbsttest, KVM-Problembehandlu
 
 Dieses Handbuch enthält Schritt-für-Schritt-Anweisungen zur Durchführung von Diagnose Selbsttests am Openterface Mini-KVM-Gerät.
 
+## Bevor Sie beginnen
+
+- **App aktualisieren:** Stellen Sie sicher, dass Sie die neueste Version der [Openterface macOS-App](/app) installiert haben, bevor Sie die Diagnose ausführen. Überprüfen Sie das App-Menü auf Updates.
+- **Gerät verbinden:** Überprüfen Sie, dass das Mini-KVM ordnungsgemäß mit Host- und Zielgeräten verbunden ist.
+- **Ziel im Leerlauf halten:** Während des Tests (besonders beim Belastungstest) halten Sie das Zielgerät untätig und bedienen Sie es nicht.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-K6Idzky3fY?si=r7pZgCkBzzZXgrLT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 

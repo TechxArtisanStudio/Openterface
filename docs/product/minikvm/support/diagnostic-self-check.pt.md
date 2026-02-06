@@ -8,6 +8,12 @@ keywords: "Openterface Mini-KVM, macOS, autoverificação diagnóstica, soluçã
 
 Este guia fornece instruções passo a passo para executar autoverificações diagnósticas no dispositivo Openterface Mini-KVM.
 
+## Antes de começar
+
+- **Atualizar o aplicativo:** Certifique-se de ter a versão mais recente do [aplicativo Openterface macOS](/app) instalada antes de executar os diagnósticos. Verifique o menu do aplicativo para atualizações.
+- **Conectar o dispositivo:** Verifique se o Mini-KVM está corretamente conectado aos dispositivos Host e Target.
+- **Manter o alvo inativo:** Durante os testes (especialmente o Teste de Estresse), mantenha o dispositivo alvo inativo e não o opere.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-K6Idzky3fY?si=r7pZgCkBzzZXgrLT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Unidade Boa

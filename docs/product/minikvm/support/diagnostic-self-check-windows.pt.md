@@ -14,6 +14,7 @@ Este guia explica como executar a autoverificação **Diagnóstico de Hardware**
 
 ## Antes de começar
 
+- **Atualizar o aplicativo:** Certifique-se de ter a versão mais recente do [aplicativo Openterface para Windows](/app) instalada antes de executar os diagnósticos. Verifique o menu do aplicativo para atualizações.
 - Conecte o Mini-KVM ao **Host** e ao **Alvo**.
 - Mantenha o dispositivo alvo inativo durante os testes (especialmente durante o Teste de Estresse).
 

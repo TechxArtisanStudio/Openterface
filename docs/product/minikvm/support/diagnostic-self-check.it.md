@@ -8,6 +8,12 @@ keywords: "Openterface Mini-KVM, macOS, controllo diagnostico auto, risoluzione 
 
 Questa guida fornisce istruzioni passo dopo passo per eseguire controlli diagnostici auto sull'apparecchio Openterface Mini-KVM.
 
+## Prima di iniziare
+
+- **Aggiornare l'app:** Assicurati di avere l'ultima versione di [l'app Openterface macOS](/app) installata prima di eseguire la diagnostica. Controlla il menu dell'app per gli aggiornamenti.
+- **Connettere il dispositivo:** Verifica che Mini-KVM sia correttamente connesso a entrambi i dispositivi Host e Target.
+- **Mantenere il target inattivo:** Durante i test (specialmente il Test di stress), mantieni il dispositivo target inattivo e non utilizzarlo.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-K6Idzky3fY?si=r7pZgCkBzzZXgrLT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 

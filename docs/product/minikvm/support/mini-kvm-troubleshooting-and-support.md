@@ -38,7 +38,8 @@ If your unit is affected, we are committed to resolving it responsibly.
 
 ```mermaid
 flowchart TD
-    U[User experiences keyboard or mouse issue] --> D[Run self diagnostic tool - required]
+    U[User experiences keyboard or mouse issue] --> A[Update app first]
+    A --> D[Run self diagnostic tool - required]
 
     D --> P[Prepare information<br/>Diagnostic log<br/>Setup photos<br/>Issue description]
 
@@ -64,6 +65,8 @@ Running the self-diagnostic tool is **critical**.
 It allows us to understand your device state and avoid guesswork or unnecessary delays.
 
 Please run the diagnostic tool **before contacting support**:
+
+**Update the app first:** Ensure you have the latest version of the [Openterface app](/app) installed before running diagnostics. Check the app menu for updates.
 
 * **macOS**
   [https://openterface.com/product/minikvm/support/diagnostic-self-check/](https://openterface.com/product/minikvm/support/diagnostic-self-check/)

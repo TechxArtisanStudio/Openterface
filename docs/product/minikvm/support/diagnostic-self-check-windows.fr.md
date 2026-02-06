@@ -14,6 +14,7 @@ Ce guide explique comment exécuter l'auto-vérification **Diagnostic matériel*
 
 ## Avant de commencer
 
+- **Mettre à jour l'application :** Assurez-vous d'avoir la dernière version de [l'application Openterface pour Windows](/app) installée avant d'exécuter les diagnostics. Vérifiez le menu de l'application pour les mises à jour.
 - Connectez Mini-KVM à **Hôte** et **Cible**.
 - Gardez l'appareil cible inactif pendant les tests (surtout pendant le test de stress).
 

@@ -14,6 +14,7 @@ Esta guía explica cómo ejecutar el autodiagnóstico de **Hardware** en la vers
 
 ## Antes de comenzar
 
+- **Actualizar la aplicación:** Asegúrese de tener la última versión de la [aplicación Openterface para Windows](/app) instalada antes de ejecutar el diagnóstico. Verifique el menú de la aplicación para obtener actualizaciones.
 - Conecte Mini-KVM a **Host** y **Objetivo**.
 - Mantenga el dispositivo objetivo inactivo durante las pruebas (especialmente durante la Prueba de Estrés).
 

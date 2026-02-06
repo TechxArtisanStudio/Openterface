@@ -8,6 +8,12 @@ keywords: "Openterface Mini-KVM, macOS, diagnostic self-check, KVM troubleshooti
 
 This guide provides step-by-step instructions for running diagnostic self-checks on the Openterface Mini-KVM device.
 
+## Before you start
+
+- **Update the app:** Ensure you have the latest version of [the Openterface macOS app](/app) installed before running diagnostics. Check the app menu for updates.
+- **Connect the device:** Verify that Mini-KVM is properly connected to both Host and Target devices.
+- **Keep target idle:** During testing (especially Stress Test), keep the target device idle and do not operate it.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-K6Idzky3fY?si=r7pZgCkBzzZXgrLT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Good Unit

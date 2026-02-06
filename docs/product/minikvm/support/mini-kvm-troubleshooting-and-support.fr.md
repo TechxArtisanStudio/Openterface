@@ -38,7 +38,8 @@ Si votre unité est concernée, nous nous engageons à résoudre le problème de
 
 ```mermaid
 flowchart TD
-    U[L'utilisateur rencontre un problème clavier ou souris] --> D[Exécuter l'outil d'autodiagnostic - requis]
+    U[L'utilisateur rencontre un problème clavier ou souris] --> A[Mettre à jour l'application d'abord]
+    A --> D[Exécuter l'outil d'autodiagnostic - requis]
 
     D --> P[Préparer les informations<br/>Journal de diagnostic<br/>Photos de la configuration<br/>Description du problème]
 
@@ -64,6 +65,8 @@ L'exécution de l'outil d'autodiagnostic est **critique**.
 Cela nous permet de comprendre l'état de votre appareil et d'éviter les conjectures ou les retards inutiles.
 
 Veuillez exécuter l'outil de diagnostic **avant de contacter le support** :
+
+**Mettez à jour l'application d'abord :** Assurez-vous d'avoir la dernière version de [l'application Openterface](/app) installée avant d'exécuter les diagnostics. Vérifiez le menu de l'application pour les mises à jour.
 
 * **macOS**
   [https://openterface.com/product/minikvm/support/diagnostic-self-check/](https://openterface.com/product/minikvm/support/diagnostic-self-check/)

@@ -8,6 +8,12 @@ cuvinte cheie: „Openterface Mini-KVM, macOS, verificare auto-diagnostic, depan
 
 Acest ghid oferă instrucțiuni pas cu pas pentru rularea verificărilor auto-diagnostice pe dispozitivul Openterface Mini-KVM.
 
+## Înainte de a începe
+
+- **Actualizați aplicația:** Asigurați-vă că aveți cea mai recentă versiune a [aplicației Openterface macOS](/app) instalată înainte de a rula diagnosticele. Verificați meniul aplicației pentru actualizări.
+- **Conectați dispozitivul:** Verificați că Mini-KVM este conectat corect la dispozitivele Host și Target.
+- **Păstrați ținta inactivă:** În timpul testării (în special Testul de stres), păstrați dispozitivul țintă inactiv și nu îl operați.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-K6Idzky3fY?si=r7pZgCkBzzZXgrLT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Unitate bună

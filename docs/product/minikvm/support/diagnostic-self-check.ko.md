@@ -8,6 +8,12 @@ keywords: "Openterface Mini-KVM, macOS, 진단 자기 점검, KVM 문제 해결,
 
 이 가이드는 Openterface Mini-KVM 장치에서 진단 자기 점검을 실행하는 단계별 지침을 제공합니다.
 
+## 시작하기 전에
+
+- **앱 업데이트:** 진단을 실행하기 전에 [Openterface macOS 앱](/app)의 최신 버전이 설치되어 있는지 확인하세요. 앱 메뉴에서 업데이트를 확인하세요.
+- **장치 연결:** Mini-KVM이 호스트와 타겟 장치 모두에 올바르게 연결되어 있는지 확인하세요.
+- **타겟 유휴 상태 유지:** 테스트 중(특히 스트레스 테스트 시)에는 타겟 장치를 유휴 상태로 유지하고 조작하지 마세요.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-K6Idzky3fY?si=r7pZgCkBzzZXgrLT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 

@@ -8,6 +8,12 @@ keywords: "Openterface Mini-KVM, macOS, 診断自己チェック, KVMトラブ�
 
 このガイドは、Openterface Mini-KVMデバイスで診断自己チェックを実行するためのステップバイステップの指示を提供します。
 
+## 開始する前に
+
+- **アプリを更新:** 診断を実行する前に、[Openterface macOSアプリ](/app)の最新バージョンがインストールされていることを確認してください。アプリメニューでアップデートを確認してください。
+- **デバイスを接続:** Mini-KVMがホストとターゲットの両方のデバイスに正しく接続されていることを確認してください。
+- **ターゲットをアイドル状態に保つ:** テスト中（特にストレステスト時）は、ターゲットデバイスをアイドル状態に保ち、操作しないでください。
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-K6Idzky3fY?si=r7pZgCkBzzZXgrLT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 

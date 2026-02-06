@@ -14,6 +14,7 @@ Diese Anleitung erklärt, wie Sie den **Hardware-Diagnose** Selbsttest in der **
 
 ## Vor dem Start
 
+- **App aktualisieren:** Stellen Sie sicher, dass Sie die neueste Version der [Openterface Windows-App](/app) installiert haben, bevor Sie die Diagnose ausführen. Überprüfen Sie das App-Menü auf Updates.
 - Verbinden Sie Mini-KVM mit **Host** und **Ziel**.
 - Halten Sie das Zielgerät während des Tests im Leerlauf (besonders während des Stresstests).
 

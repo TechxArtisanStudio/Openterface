@@ -38,7 +38,8 @@ Se la tua unità è interessata, ci impegniamo a risolverla in modo responsabile
 
 ```mermaid
 flowchart TD
-    U[L'utente ha problemi con tastiera o mouse] --> D[Eseguire lo strumento di autodiagnosi - richiesto]
+    U[L'utente ha problemi con tastiera o mouse] --> A[Aggiornare l'app prima]
+    A --> D[Eseguire lo strumento di autodiagnosi - richiesto]
 
     D --> P[Preparare le informazioni<br/>Log di diagnostica<br/>Foto del setup<br/>Descrizione del problema]
 
@@ -64,6 +65,8 @@ Eseguire lo strumento di autodiagnosi è **critico**.
 Ci permette di comprendere lo stato del tuo dispositivo ed evitare congetture o ritardi inutili.
 
 Esegui lo strumento di diagnostica **prima di contattare il supporto**:
+
+**Aggiorna prima l'app:** Assicurati di avere l'ultima versione dell'[app Openterface](/app) installata prima di eseguire la diagnostica. Controlla il menu dell'app per gli aggiornamenti.
 
 * **macOS**
   [https://openterface.com/product/minikvm/support/diagnostic-self-check/](https://openterface.com/product/minikvm/support/diagnostic-self-check/)

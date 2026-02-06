@@ -38,7 +38,8 @@ keywords: "Openterface Mini-KVM, Mini-KVM 지원, Mini-KVM 문제 해결, 키보
 
 ```mermaid
 flowchart TD
-    U[사용자가 키보드 또는 마우스 문제 경험] --> D[자가 진단 도구 실행 - 필수]
+    U[사용자가 키보드 또는 마우스 문제 경험] --> A[먼저 앱 업데이트]
+    A --> D[자가 진단 도구 실행 - 필수]
 
     D --> P[정보 준비<br/>진단 로그<br/>설정 사진<br/>문제 설명]
 
@@ -64,6 +65,8 @@ flowchart TD
 기기 상태를 파악하고 추측이나 불필요한 지연을 피할 수 있습니다.
 
 **지원팀에 문의하기 전에** 진단 도구를 실행해 주세요:
+
+**먼저 앱을 업데이트하세요:** 진단을 실행하기 전에 [Openterface 앱](/app)의 최신 버전이 설치되어 있는지 확인하세요. 앱 메뉴에서 업데이트를 확인하세요.
 
 * **macOS**
   [https://openterface.com/product/minikvm/support/diagnostic-self-check/](https://openterface.com/product/minikvm/support/diagnostic-self-check/)

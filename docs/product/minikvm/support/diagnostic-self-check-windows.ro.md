@@ -14,6 +14,7 @@ Acest ghid explică cum să rulați verificarea auto-diagnostic **Hardware** în
 
 ## Înainte de a începe
 
+- **Actualizați aplicația:** Asigurați-vă că aveți cea mai recentă versiune a [aplicației Openterface pentru Windows](/app) instalată înainte de a rula diagnosticele. Verificați meniul aplicației pentru actualizări.
 - Conectați Mini-KVM la **Gazdă** și **Țintă**.
 - Păstrați dispozitivul țintă inactiv în timpul testării (în special în timpul Testului de Stres).
 

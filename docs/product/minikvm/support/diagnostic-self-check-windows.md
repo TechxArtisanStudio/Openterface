@@ -14,6 +14,7 @@ This guide explains how to run the **Hardware Diagnostics** self-check in the **
 
 ## Before you start
 
+- **Update the app:** Ensure you have the latest version of the [Openterface Windows app](/app) installed before running diagnostics. Check the app menu for updates.
 - Connect Mini-KVM to both **Host** and **Target**.
 - Keep the target device idle during testing (especially during Stress Test).
 

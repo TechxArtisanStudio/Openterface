@@ -14,6 +14,7 @@ Questa guida spiega come eseguire il controllo **Diagnostica hardware** nell'app
 
 ## Prima di iniziare
 
+- **Aggiornare l'app:** Assicurati di avere l'ultima versione di [l'app Openterface per Windows](/app) installata prima di eseguire la diagnostica. Controlla il menu dell'app per gli aggiornamenti.
 - Collegare Mini-KVM a **Host** e **Target**.
 - Mantenere il dispositivo target inattivo durante i test (soprattutto durante il test di stress).
 

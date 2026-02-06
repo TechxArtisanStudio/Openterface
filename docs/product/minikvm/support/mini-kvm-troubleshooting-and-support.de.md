@@ -38,7 +38,8 @@ Wenn Ihre Einheit betroffen ist, verpflichten wir uns, sie verantwortungsvoll zu
 
 ```mermaid
 flowchart TD
-    U[Benutzer hat Tastatur- oder Mausproblem] --> D[Selbstdiagnosetool ausführen - erforderlich]
+    U[Benutzer hat Tastatur- oder Mausproblem] --> A[App zuerst aktualisieren]
+    A --> D[Selbstdiagnosetool ausführen - erforderlich]
 
     D --> P[Informationen vorbereiten<br/>Diagnoseprotokoll<br/>Setup-Fotos<br/>Problembeschreibung]
 
@@ -64,6 +65,8 @@ Die Ausführung des Selbstdiagnosetools ist **kritisch**.
 Es ermöglicht uns, den Gerätezustand zu verstehen und Vermutungen oder unnötige Verzögerungen zu vermeiden.
 
 Bitte führen Sie das Diagnosetool **vor der Kontaktaufnahme mit dem Support** aus:
+
+**App zuerst aktualisieren:** Stellen Sie sicher, dass Sie die neueste Version der [Openterface-App](/app) installiert haben, bevor Sie die Diagnose ausführen. Überprüfen Sie das App-Menü auf Updates.
 
 * **macOS**
   [https://openterface.com/product/minikvm/support/diagnostic-self-check/](https://openterface.com/product/minikvm/support/diagnostic-self-check/)

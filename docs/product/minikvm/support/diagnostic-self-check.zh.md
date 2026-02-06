@@ -8,6 +8,12 @@ keywords: "Openterface Mini-KVM, macOS, 诊断自检, KVM 故障排除, USB KVM 
 
 本指南提供运行 Openterface Mini-KVM 设备诊断自检的逐步说明。
 
+## 开始之前
+
+- **更新应用：** 在运行诊断之前，请确保已安装最新版本的 [Openterface macOS 应用](/app)。请在应用菜单中检查更新。
+- **连接设备：** 确认 Mini-KVM 已正确连接到主机和目标设备。
+- **保持目标空闲：** 在测试期间（尤其是压力测试时），请保持目标设备空闲，不要对其进行操作。
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-K6Idzky3fY?si=r7pZgCkBzzZXgrLT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 

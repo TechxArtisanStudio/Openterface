@@ -38,7 +38,8 @@ Dacă unitatea dvs. este afectată, ne angajăm să o rezolvăm în mod responsa
 
 ```mermaid
 flowchart TD
-    U[Utilizatorul întâmpină problemă tastatură sau mouse] --> D[Rulați instrumentul de autodiagnosticare - obligatoriu]
+    U[Utilizatorul întâmpină problemă tastatură sau mouse] --> A[Actualizați aplicația mai întâi]
+    A --> D[Rulați instrumentul de autodiagnosticare - obligatoriu]
 
     D --> P[Pregătiți informațiile<br/>Jurnal de diagnostic<br/>Fotografii setup<br/>Descrierea problemei]
 
@@ -64,6 +65,8 @@ Rularea instrumentului de autodiagnosticare este **critică**.
 Ne permite să înțelegem starea dispozitivului dvs. și să evităm presupuneri sau întârzieri inutile.
 
 Vă rugăm să rulați instrumentul de diagnostic **înainte de a contacta suportul**:
+
+**Actualizați mai întâi aplicația:** Asigurați-vă că aveți cea mai recentă versiune a [aplicației Openterface](/app) instalată înainte de a rula diagnosticele. Verificați meniul aplicației pentru actualizări.
 
 * **macOS**
   [https://openterface.com/product/minikvm/support/diagnostic-self-check/](https://openterface.com/product/minikvm/support/diagnostic-self-check/)

@@ -38,7 +38,8 @@ keywords: "Openterface Mini-KVM, Mini-KVM 支持, Mini-KVM 故障排查, 键盘�
 
 ```mermaid
 flowchart TD
-    U[用户遇到键盘或鼠标问题] --> D[运行自诊断工具 - 必需]
+    U[用户遇到键盘或鼠标问题] --> A[请先更新应用]
+    A --> D[运行自诊断工具 - 必需]
 
     D --> P[准备信息<br/>诊断日志<br/>设置照片<br/>问题描述]
 
@@ -64,6 +65,8 @@ flowchart TD
 它使我们能够了解您的设备状态，避免猜测或不必要的延误。
 
 请**在联系支持之前**运行诊断工具：
+
+**请先更新应用：** 在运行诊断之前，请确保已安装最新版本的 [Openterface 应用](/app)。请在应用菜单中检查更新。
 
 * **macOS**
   [https://openterface.com/product/minikvm/support/diagnostic-self-check/](https://openterface.com/product/minikvm/support/diagnostic-self-check/)
