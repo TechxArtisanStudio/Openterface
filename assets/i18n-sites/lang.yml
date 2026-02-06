@@ -24,6 +24,10 @@
     Shop: 商店
     Discord: Discord
     About: 关于
+    Policy: 政策
+    Privacy: 隐私政策
+    "Terms of Service": 服务条款
+    "Return, Refunds & Warranty": 退货、退款与保修
     "About Us": 关于我们
     "Contribute & Support": 贡献与支持
     "KVM-over-USB": "KVM-over-USB 基础"
@@ -108,6 +112,10 @@
     Shop: ショップ
     Discord: Discord
     About: 概要
+    Policy: ポリシー
+    Privacy: プライバシーポリシー
+    "Terms of Service": 利用規約
+    "Return, Refunds & Warranty": 返品・返金・保証
     "About Us": 私たちについて
     "Contribute & Support": 貢献と支援
     "KVM-over-USB": "KVM-over-USB 基礎"
@@ -192,6 +200,10 @@
     Shop: 스토어
     Discord: Discord
     About: 소개
+    Policy: 정책
+    Privacy: 개인정보처리방침
+    "Terms of Service": 서비스 약관
+    "Return, Refunds & Warranty": 반품, 환불 및 보증
     "About Us": 우리에 대해
     "Contribute & Support": 기여 및 지원
     "KVM-over-USB": "KVM-over-USB 기초"
@@ -276,6 +288,10 @@
     Shop: Boutique
     Discord: Discord
     About: "À propos"
+    Policy: Politique
+    Privacy: "Politique de confidentialité"
+    "Terms of Service": "Conditions d'utilisation"
+    "Return, Refunds & Warranty": "Retours, remboursements et garantie"
     "About Us": "À Propos de Nous"
     "Contribute & Support": "Contribuer et soutenir"
     "KVM-over-USB": "Notions de base sur KVM-over-USB"
@@ -360,6 +376,10 @@
     Shop: Shop
     Discord: Discord
     About: "Über uns"
+    Policy: Richtlinien
+    Privacy: Datenschutz
+    "Terms of Service": "Nutzungsbedingungen"
+    "Return, Refunds & Warranty": "Rückgabe, Erstattung und Garantie"
     "About Us": "Über Uns"
     "Contribute & Support": "Mitwirken & Unterstützen"
     "KVM-over-USB": "KVM-over-USB Grundlagen"
@@ -444,6 +464,10 @@
     Shop: Negozio
     Discord: Discord
     About: Informazioni
+    Policy: Politica
+    Privacy: Privacy
+    "Terms of Service": "Termini di servizio"
+    "Return, Refunds & Warranty": "Resi, rimborsi e garanzia"
     "About Us": "Chi Siamo"
     "Contribute & Support": "Contribuire e Sostenere"
     "KVM-over-USB": "Nozioni di base su KVM-over-USB"
@@ -528,6 +552,10 @@
     Shop: Tienda
     Discord: Discord
     About: Acerca de
+    Policy: Política
+    Privacy: Privacidad
+    "Terms of Service": "Términos de servicio"
+    "Return, Refunds & Warranty": "Devoluciones, reembolsos y garantía"
     "About Us": "Acerca de Nosotros"
     "Contribute & Support": "Contribuir y Apoyar"
     "KVM-over-USB": "Conceptos básicos de KVM-over-USB"
@@ -612,6 +640,10 @@
     Shop: Loja
     Discord: Discord
     About: Sobre
+    Policy: Política
+    Privacy: Privacidade
+    "Terms of Service": "Termos de serviço"
+    "Return, Refunds & Warranty": "Devoluções, reembolsos e garantia"
     "About Us": "Sobre Nós"
     "Contribute & Support": "Contribuir e Apoiar"
     "KVM-over-USB": "Noções básicas de KVM-over-USB"
@@ -696,6 +728,10 @@
     Shop: Magazin
     Discord: Discord
     About: Despre
+    Policy: Politică
+    Privacy: Confidențialitate
+    "Terms of Service": "Termeni și condiții"
+    "Return, Refunds & Warranty": "Returnări, rambursări și garanție"
     "About Us": "Despre Noi"
     "Contribute & Support": "Contribuie și Susține"
     "KVM-over-USB": "Noțiuni de bază KVM-over-USB"

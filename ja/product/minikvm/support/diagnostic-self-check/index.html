@@ -959,6 +959,16 @@
               
             
               
+                <!-- Child with children - show the child title and link to its first child -->
+                
+                
+                  <a href="../../../../policy/" class="dropdown-item">
+                    ポリシー
+                  </a>
+                
+              
+            
+              
                 <!-- Direct child with URL -->
                 <a href="../../../../about/public-holidays/" class="dropdown-item">
                   Public Holidays
@@ -2460,7 +2470,7 @@
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        良好なユニット
+        開始する前に
       
     </span>
   </a>
@@ -2471,7 +2481,7 @@
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        問題が検出された場合（キーボード/マウスの例）
+        良好なユニット
       
     </span>
   </a>
@@ -2482,7 +2492,7 @@
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        この問題の表示方法
+        問題が検出された場合（キーボード/マウスの例）
       
     </span>
   </a>
@@ -2493,7 +2503,7 @@
   <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
-        追加の最終テスト（問題タイプによります）
+        この問題の表示方法
       
     </span>
   </a>
@@ -2504,7 +2514,7 @@
   <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
-        問題が検出されたときの処理
+        追加の最終テスト（問題タイプによります）
       
     </span>
   </a>
@@ -2513,6 +2523,17 @@
       
         <li class="md-nav__item">
   <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        問題が検出されたときの処理
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
       
         ログをサポートに送信する
@@ -3816,6 +3837,8 @@
       
         
       
+        
+      
     
     
     
@@ -4129,6 +4152,169 @@
   
   
   
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_9">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../policy/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ポリシー
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_9_9" id="__nav_9_9_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ポリシー
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../policy/privacy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    プライバシーポリシー
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../policy/terms-of-service/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    利用規約
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../policy/return-refunds-warranty/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    返品・返金・保証
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../../../about/public-holidays/" class="md-nav__link">
         
@@ -4208,9 +4394,15 @@
 
 <h1 id="openterface-mini-kvm-macos">Openterface Mini-KVM - 診断自己チェックガイド（macOS）</h1>
 <p>このガイドは、Openterface Mini-KVMデバイスで診断自己チェックを実行するためのステップバイステップの指示を提供します。</p>
+<h2 id="_1">開始する前に</h2>
+<ul>
+<li><strong>アプリを更新:</strong> 診断を実行する前に、<a href="/app">Openterface macOSアプリ</a>の最新バージョンがインストールされていることを確認してください。アプリメニューでアップデートを確認してください。</li>
+<li><strong>デバイスを接続:</strong> Mini-KVMがホストとターゲットの両方のデバイスに正しく接続されていることを確認してください。</li>
+<li><strong>ターゲットをアイドル状態に保つ:</strong> テスト中（特にストレステスト時）は、ターゲットデバイスをアイドル状態に保ち、操作しないでください。</li>
+</ul>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-K6Idzky3fY?si=r7pZgCkBzzZXgrLT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<h2 id="_1">良好なユニット</h2>
+<h2 id="_2">良好なユニット</h2>
 <p><strong>ステップ1:</strong> Openterfaceアプリで、設定 → 設定…を開きます。</p>
 <p><strong>ステップ2:</strong> 設定ウィンドウで、高度な設定 &amp; デバッグに移動します。</p>
 <p><strong>ステップ3:</strong> 診断ツールを開くをクリックします。</p>
@@ -4231,9 +4423,9 @@
 <p><strong>ステップ12:</strong> すべての項目が緑色のチェックマークを表示し、進行状況が完了していることを確認してください。</p>
 <p><strong>ステップ13:</strong> Diagnosticsウィンドウを閉じるには、右上隅の ❌ をクリックします。</p>
 <hr>
-<h2 id="_2">問題が検出された場合（キーボード/マウスの例）</h2>
+<h2 id="_3">問題が検出された場合（キーボード/マウスの例）</h2>
 <p>まず「Good Unit」でステップ1～11を実施してください。以下のノートは、キーボード/マウスの問題が検出されたときに表示される内容を説明しています。</p>
-<h2 id="_3">この問題の表示方法</h2>
+<h2 id="_4">この問題の表示方法</h2>
 <p>この例では、ターゲット側のキーボード/マウス（HID）の問題により、全体的なチェックが最初に「FAIL」を表示します。これは早期の指標であり、個別の問題ではありません。（左側に「Overall Connection」の隣にFAILステータスが強調表示されます。）</p>
 <ul>
 <li><strong>全体的な接続:</strong> ターゲット側の問題により、ここに最初に「FAIL」が表示されます。</li>
@@ -4245,14 +4437,14 @@
 <blockquote>
 <p><strong>ヒント:</strong> ステップで「FAIL」が表示された場合、診断は停止しませんが、自動進行が止まることがありますので、手動で進める必要があります。</p>
 </blockquote>
-<h2 id="_4">追加の最終テスト（問題タイプによります）</h2>
+<h2 id="_5">追加の最終テスト（問題タイプによります）</h2>
 <p><strong>ステップ12:</strong> ストレステスト後、検出された問題に応じて診断が追加の最終テストを表示することがあります。このキーボード/マウスの例では、ターゲットポートチェックに続きます。</p>
 <p><strong>ステップ13:</strong> 「Detect Devices」をクリックしてターゲットポートチェックを開始し、画面の指示に従ってください。</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/minikvm/support/target_port_checking.webp" data-desc-position="bottom"><img alt="minikvm-support-target_port_checking" src="https://assets.openterface.com/images/minikvm/support/target_port_checking.webp"></a></p>
-<h2 id="_5">問題が検出されたときの処理</h2>
+<h2 id="_6">問題が検出されたときの処理</h2>
 <p><strong>ステップ14:</strong> 続けるには、下部バーの「Next」をクリックするか、左パネルから次のテストを選択してください。</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/minikvm/support/target_plug_n_play.webp" data-desc-position="bottom"><img alt="minikvm-support-target_plug_n_play" src="https://assets.openterface.com/images/minikvm/support/target_plug_n_play.webp"></a></p>
-<h2 id="_6">ログをサポートに送信する</h2>
+<h2 id="_7">ログをサポートに送信する</h2>
 <p><strong>ステップ15:</strong> サポートへの欠陥報告を準備するために「Send Defect Report to Support」をクリックします。</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://assets.openterface.com/images/minikvm/support/send_defect_report_to_support.webp" data-desc-position="bottom"><img alt="minikvm-support-send_defect_report_to_support" src="https://assets.openterface.com/images/minikvm/support/send_defect_report_to_support.webp"></a></p>
 <p><strong>ステップ16:</strong> 欠陥報告ウィンドウで、<strong>注文ID</strong>と<strong>名前</strong>を入力し、<strong>適用</strong>をクリックしてメールの下書きに挿入してください。</p>
@@ -4290,7 +4482,7 @@
     <span class="md-icon" title="最終更新日">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2026年2月3日 06:38:25 UTC"><span class="timeago" datetime="2026-02-03T06:38:25+00:00" locale="ja"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2026年2月3日 06:38:25 UTC">2026-02-03</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2026年2月6日 15:24:48 UTC"><span class="timeago" datetime="2026-02-06T15:24:48+00:00" locale="ja"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2026年2月6日 15:24:48 UTC">2026-02-06</span>
   </span>
 
     
