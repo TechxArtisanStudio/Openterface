@@ -1,48 +1,99 @@
-# Rückgabe-, Rückerstattungs- und Garantiebedingungen
+# Rückgabe-, Erstattungs- und Garantierichtlinie
 
-## Rückgaben
+**(Version 2 – Februar 2026)**
 
-Openterface bietet Optionen für Rückgaben und Umtausch gemäß den folgenden Bedingungen:
+Diese Richtlinie gilt für Openterface-Produkte, einschließlich Mini-KVM, KVM-GO usw. Bitte lesen Sie sorgfältig, da Rückgaben, Erstattungen und Garantiebehandlung davon abhängen, wo Sie das Produkt gekauft haben.
 
-### Schäden während des Versands
+## Sprache und maßgebliche Version
 
-Sollte Ihr Produkt mit Schäden, die während des Versands entstanden sind, ankommen, bitten wir Sie, uns innerhalb von zwei Werktagen nach Erhalt per E-Mail unter [info@techxartisan.com](mailto:info@techxartisan.com) zu informieren. Ihre E-Mail sollte die Schäden detailliert beschreiben und, wenn möglich, fotografische Beweise enthalten. Dies hilft uns sehr, sicherzustellen, dass unsere Produkte ordnungsgemäß verpackt und transportiert werden. Wir werden Ersatz für die beschädigten Produkte organisieren.
+Diese Richtlinie ist in Englisch verfasst. Wenn diese Richtlinie in andere Sprachen übersetzt wird und zwischen der englischen Version und einer übersetzten Version Unstimmigkeiten oder Konflikte bestehen, hat die englische Version Vorrang und ist die maßgebliche Version.
 
-### Umtausch
+## 1. Bedeutung des Kaufkanals
 
-Wenn Sie mit Ihrem Kauf aus irgendeinem Grund unzufrieden sind, bieten wir die Möglichkeit, Artikel gegen Guthaben im Geschäft zurückzugeben. Damit eine Rückgabe akzeptiert wird, müssen die Artikel die in dem Abschnitt [Wichtige Bedingungen für die Rückgabe] aufgeführten Kriterien erfüllen. Bitte initiieren Sie Umtausch innerhalb von 15 Tagen nach der Lieferung. Bitte beachten Sie, dass Openterface ==die Kosten für die Rücksendung und Zollgebühren nicht übernimmt.==
+Openterface-Produkte können über verschiedene Kanäle gekauft werden, einschließlich, aber nicht beschränkt auf:
 
-### Wichtige Bedingungen für die Rückgabe
+- Openterface offizielle Website
+- Autorisierten Plattformen (z. B. Crowd Supply, Mouser Electronics)
+- Andere autorisierte Wiederverkäufer
 
-Nach Erhalt des zurückgesendeten Produkts wird eine Inspektion durchgeführt. Um einen reibungslosen Rückgabeprozess zu gewährleisten, beachten Sie bitte die folgenden Bedingungen:
+- **Erstattungen** werden immer vom ursprünglichen Verkäufer bearbeitet.
+- **Austausch-Support** wird direkt von Openterface bereitgestellt, vorbehaltlich der unten genannten Bedingungen.
 
-- Das Produkt muss sich in seinem ursprünglichen, unbeschädigten Zustand befinden.
-- Die Benachrichtigung über die Rückgabe des Produkts muss uns innerhalb von 15 Werktagen mitgeteilt werden.
-- Das Rücksendepaket sollte alle Artikel enthalten, die im ursprünglichen Kauf enthalten waren, wie Preisschilder, Etiketten, Originalverpackung, Werbegeschenke, Zubehör, Rechnungen, Garantiekarten und andere Dokumente.
-- Es wird anerkannt und vereinbart, dass Openterface das Ermessen behält, zu bestimmen, ob ein Produkt in einem verkaufsfähigen Zustand ist. Artikel, die als nicht verkaufsfähig erachtet werden, werden verworfen und es wird kein Guthaben oder Umtausch für diese Artikel ausgestellt.
+## 2. Austausch (primäre Lösung)
 
-## Rückerstattungen
+Wenn Ihr Openterface-Produkt einen bestätigten Hardware-Defekt oder anhaltende Funktionsprobleme bei normaler Nutzung aufweist (z. B. instabile Tastatur- oder Maussteuerung), bietet Openterface den Austausch als primäre Lösung an, unabhängig vom Kaufkanal.
 
-Sobald Ihre Rücksendung erhalten und inspiziert wurde, senden wir Ihnen eine E-Mail, um Sie über den Erhalt Ihres zurückgesendeten Artikels zu benachrichtigen. Wenn das Produkt in unbeschädigtem Zustand zurückgegeben wird, bearbeiten wir die Rückerstattung innerhalb von fünf Werktagen.
+### Austauschprozess
 
-## Garantie
+1. Kontaktieren Sie den Openterface-Support und befolgen Sie die angeforderten Diagnoseschritte (z. B. Software-Selbsttests, Protokolle oder Setup-Bestätigung).
+2. Sobald ein Hardware-Defekt bestätigt ist, bietet Openterface eine Austauscheinheit an.
+3. In den meisten Fällen ist die Rücksendung der defekten Einheit nicht erforderlich, es sei denn, Openterface fordert dies ausdrücklich an.
+4. Austauscheinheiten werden von Openterface versandt, um die normale Funktionalität so schnell wie möglich wiederherzustellen.
 
-Diese Garantiebedingungen gewähren Ihnen spezifische gesetzliche Rechte. Darüber hinaus können Sie je nach Ihrem Standort – sei es ein bestimmter Staat, eine Provinz oder ein Land – andere Rechte haben.
+## 3. Ausschließlichkeit von Austausch und Erstattung
 
-Openterface respektiert Ihre Rechte und beabsichtigt nicht, irgendwelche Rechte, die Sie besitzen, insbesondere die aus der Nichterfüllung eines Verkaufsvertrags resultierenden, auszuschließen, einzuschränken oder auszusetzen. Um Ihre Rechte vollständig zu verstehen, ist es ratsam, sich auf die Gesetze Ihres Staates, Ihrer Provinz oder Ihres Landes zu beziehen.
+Austausch und Erstattung sind sich gegenseitig ausschließende Lösungen.
 
-### Geltungsbereich dieser Garantie
+- Kunden können je nach Berechtigung und Kaufkanal entweder Austausch oder Erstattung wählen.
+- Sobald ein Austausch bestätigt und versandt wurde, ist die Bestellung nicht mehr für eine Erstattung berechtigt.
+- Wenn ein Kunde eine Erstattung bevorzugt, muss er den ursprünglichen Verkäufer kontaktieren, bevor der Austausch bestätigt wird.
+- Diese Richtlinie existiert, um doppelte Entschädigung zu verhindern und eine faire und einheitliche Behandlung aller Kunden zu gewährleisten.
 
-Die Vorteile, die durch diese Openterface-Garantie gewährt werden, ergänzen und schmälern nicht die Rechte und Rechtsmittel, die Sie nach dem Gesetz in Bezug auf die unter Garantie stehenden Waren und Dienstleistungen haben. Diese Garantie gilt für alle Openterface-Produkte, die bei einem autorisierten Openterface-Händler oder direkt über www.openterface.com gekauft wurden.
+## 4. Erstattungen und Rückgaben
 
-- Unsere Richtlinie beschränkt Garantien und Dienstleistungen auf Produkte, die entweder direkt von Openterface oder einem autorisierten Openterface-Händler gekauft wurden, und erfordert einen entsprechenden Kaufnachweis. Wenn Ihr Openterface-Produkt von einem nicht autorisierten Händler gekauft wurde oder wenn die ursprüngliche Seriennummer der Fabrik fehlt, unleserlich oder verändert ist, wird diese Garantie ungültig.
-- Seien Sie sich bewusst, dass einige Websites und Händler fälschlicherweise behaupten können, autorisierte Openterface-Händler zu sein. Produkte, die über diese Quellen gekauft werden, sind nicht durch eine Openterface-Garantie abgedeckt. Diese Produkte können gefälscht, gebraucht, defekt oder für die Verwendung in Ihrem Land ungeeignet sein. Stellen Sie sicher, dass Sie geschützt sind und die Integrität Ihres Openterface-Produkts gewahrt bleibt, indem Sie nur bei autorisierten Händlern kaufen. Für Informationen zu autorisierten Händlern besuchen Sie bitte unsere Website.
+### Erstattungsbearbeitung
 
-### Garantieabdeckung
+- Openterface bearbeitet Erstattungen nicht direkt.
+- Wenn Sie über Crowd Supply, Mouser oder einen anderen Wiederverkäufer gekauft haben, müssen alle Erstattungen und Rücksendeetiketten gemäß deren Richtlinien und Zeitplänen bei diesem Verkäufer beantragt werden.
+- Openterface kann angemessene Dokumentation (z. B. Bestätigung eines Hardware-Defekts) zur Unterstützung eines Erstattungsantrags bereitstellen.
+- Erstattungsgenehmigung, Zeitpunkt und Zahlung werden ausschließlich vom Verkäufer bestimmt.
 
-- Openterface garantiert seine Produkte in ihrer Originalverpackung gegen Mängel in Material und Verarbeitung bei normalem Gebrauch.
-- Alle Openterface-Garantien beginnen ab dem Kaufdatum. BEWAHREN SIE IHREN BELEG ALS KAUFNACHWEIS AUF. Die Dauer der Openterface-Garantie für Hardware beträgt in der Regel 6 Monate ab dem Kaufdatum, kann jedoch je nach Openterface-Produkt variieren.
-- Alle Openterface-Garantien, einschließlich gesetzlicher Garantien oder nicht ausschließbarer gesetzlicher Garantien, sind nur während der Zeit gültig, in der das Produkt im Besitz des ursprünglichen Käufers ist. Der 'ursprüngliche Käufer' wird als der erste Käufer des Produkts von Openterface oder einem autorisierten Händler definiert. Openterface-Garantien, einschließlich aller lebenslangen Garantien, sind nicht übertragbar.
-- Die Garantie deckt keine Szenarien außerhalb des normalen Gebrauchs ab, wie Diebstahl, Unfälle, Missbrauch, Wasserschäden oder die Verwendung des Produkts unter Bedingungen, die außerhalb seines angegebenen Betriebsbereichs liegen.
+### Rückgaben zur Erstattung
 
-Soweit es das geltende Recht zulässt, stellen diese Garantie und alle stillschweigenden Garantien Ihre einzigen und ausschließlichen Garantien dar und ersetzen alle anderen Garantien oder Bedingungen, ob ausdrücklich oder stillschweigend. In einigen Rechtsordnungen sind möglicherweise keine Einschränkungen der Dauer einer stillschweigenden Garantie zulässig, sodass die oben genannte Einschränkung möglicherweise nicht auf Ihren Fall zutrifft.
+Jede physische Rückgabe von Produkten zu Erstattungszwecken unterliegt der Rückgaberichtlinie des Verkäufers, einschließlich Anforderungen zu:
+
+- Rückgabegenehmigung
+- Versandmethode und -adresse
+- Zollgebühren oder Steuern, falls zutreffend
+
+## 5. Versandschaden
+
+Wenn Ihr Produkt beschädigt ankommt:
+
+- Bei von einer Plattform oder einem Wiederverkäufer versandten Produkten wenden Sie sich bitte zuerst an das Support-Team des Verkäufers, da diese Versand und Speditionsansprüche verwalten.
+- Openterface kann bei Bedarf bei der Fehlerbehebung oder Dokumentation unterstützen.
+
+## 6. Garantie
+
+### Garantieumfang
+
+- Openterface garantiert seine Produkte gegen Mängel in Material und Verarbeitung bei normaler Nutzung.
+- **Garantiezeitraum:** 6 Monate ab dem Kaufdatum, sofern nicht anders angegeben.
+- Die Garantie gilt nur für den ursprünglichen Käufer.
+- Ein Kaufnachweis von Openterface oder einem autorisierten Wiederverkäufer ist erforderlich.
+
+### Was abgedeckt ist
+
+- Herstellungsfehler
+- Hardware-Ausfälle unter normalen Betriebsbedingungen
+
+### Was nicht abgedeckt ist
+
+- Schäden durch Missbrauch, Unfall, Modifikation, Wassereinwirkung oder Betrieb außerhalb der spezifizierten Umweltbedingungen
+- Von nicht autorisierten Verkäufern gekaufte Produkte
+- Normale Abnutzung
+
+Diese Garantie wird zusätzlich zu allen nicht ausschließbaren Rechten gewährt, die Sie nach geltendem Recht haben können.
+
+## 7. Autorisierte Wiederverkäufer
+
+Garantie- und Austausch-Support gelten nur für Produkte, die von Openterface oder autorisierten Wiederverkäufern gekauft wurden.
+
+Openterface ist nicht verantwortlich für Produkte, die von nicht autorisierten Quellen gekauft wurden und die gefälscht, gebraucht oder defekt sein können.
+
+## 8. Wichtige Hinweise
+
+- Der Austausch ist die bevorzugte und schnellste Lösung für bestätigte Hardware-Defekte.
+- Erstattungen müssen dem ursprünglichen Kaufkanal folgen.
+- Versandkosten, Zölle und Steuern können je nach Region und Verkäuferrichtlinie variieren.
+- Openterface behält sich das Recht vor, Fälle einzeln zu prüfen, um Missbrauch von Austausch- oder Garantiedienstleistungen zu verhindern.

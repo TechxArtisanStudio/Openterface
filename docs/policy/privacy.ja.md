@@ -1,40 +1,107 @@
-# Privacy Policy
+# プライバシーポリシー
 
-This Privacy Policy applies to the “Openterface” mini-KVM device and its associated macOS application (collectively, the “Service”), developed and operated by Guangzhou Billio Tech. Co., Ltd. By using our Service, you agree to the collection and use of information in accordance with this policy. If you do not agree with any part of this policy, please refrain from using any products and services offered.
+**（バージョン 2 – 2026年2月）**
 
-## **Data Collection and Use**
+本プライバシーポリシーは、Openterface ウェブサイト、Openterface ハードウェアデバイス、およびそれらに関連するアプリケーション（総称して「サービス」）に適用されます。これらは **TechxArtisan Limited**（「TechxArtisan」）が開発・運営しています。Openterface は TechxArtisan のブランドです。
 
-We are committed to protecting your privacy. Our Service does not collect, store, or transfer any personal data at any stage in using our app. For the effective operation of our Service - controlling your computer remotely through the Openterface device and app, we require access to certain types of non-personal data:
+本サービスをご利用いただくことで、本ポリシーに記載された情報の収集と使用に同意したものとみなされます。本ポリシーのいずれかの部分に同意されない場合は、本サービスのご利用をお控えください。
 
-1. **Camera Access**: We require camera permissions to capture the video feed from your remotely connected computer. This is essential for displaying the feed on your device through the Openterface application.
-2. **Keyboard and Mouse Event Data**: To enable remote control functionalities, we need permissions to listen to local keyboard and mouse events. This data is used solely to convert these events into control signals for the target device connected through our hardware.
+## ウェブサイトを通じて収集される情報
 
-Please note that the above-mentioned data is considered non-personal as it does not directly identify you as an individual. The permissions we request are necessary solely to enable core functionality. Data is also never stored or transferred outside your device.
+Openterface ウェブサイトで操作いただく際、お客様が自発的に提供される情報を収集する場合があります：
 
-## **Security**
+- **お問い合わせフォーム** — お問い合わせ時に送信される氏名、メールアドレス、およびメッセージ。
+- **サポートメール** — サポートのため当社にメール（例：info@techxartisan.com）を送信される場合、メッセージの内容および含まれる情報を受信・処理します。
+- **ニュースレター登録** — ニュースレター登録時に提供されるメールアドレスおよび設定。
+- **ウェブサイト分析（同意に基づく）** — 当社ウェブサイトにアクセスし、Cookie 同意に同意された場合、Google Analytics 4（GA4）を使用して、アクセス経路、閲覧ページ、クリックされたボタンやリンク、一般的なトラフィックデータ（デバイスタイプ、ブラウザ、おおよその位置など）などのアクセス情報を収集します。これにより、訪問者が当社サイトをどのように利用しているかを把握し、改善に役立てます。GA4 データは Google のプライバシーポリシーに従って処理されます。Cookie 設定またはブラウザ設定により、いつでも同意を撤回できます。
 
-With no collection or retention of user data at any point, protecting user data via security measures is not applicable in our case. Our app presents no privacy risks inherent in its intended functionality.
+これらの情報は、お問い合わせへの対応、サポートの提供、ご要望に応じたニュースレターの送信、または（分析の場合）ウェブサイトの改善のみに使用されます。お客様が選択された範囲を超えたマーケティングには使用せず、第三者のマーケティング目的で共有することもありません。
 
-## **Disclaimer**
+## データの収集と使用
 
-The Service may become open source in the future for transparency and community supervision. As a result, various versions of the app and device may be created and modified by third parties.This would enable anyone to inspect the code and build versions themselves, as well as modify for custom use cases. We will not be responsible for what individuals or organizations may build from modified code and hardware.  It is the user's responsibility to verify the source of the application. We strongly recommend downloading the app from our official website openterface.com and well-known, reliable certified app platform platforms for safety and reliability.
+TechxArtisan はユーザーのプライバシー保護に努めています。本サービスは **オフラインファースト** で設計されており、バックグラウンドでユーザーデータを **収集、保存、送信、または処理しません**。
 
-## **Changes to this Policy**
+本サービスは、ユーザーアカウント、クラウド接続、分析、または広告サービスを **必要としません**。
 
-We may occasionally update this privacy policy to comply with law changes or reflect updates to our application. Any changes will be posted clearly on this page. Continued use of Openterface after changes signifies consent to the revised privacy policy.
+### コア機能の権限
 
-## **Agreement to Privacy Policy**
+本サービスの想定機能（接続されたターゲットデバイスのビデオ出力の表示と制御）を提供するため、アプリケーションは以下へのアクセスを必要とします：
 
-By agreeing to our Service Usage Agreement, you also agree to this Privacy Policy. This Privacy Policy is an integral part of our Service Usage Agreement. If you disagree with any part of this policy, please do not use our Service.
+1. **カメラアクセス**
+   Openterface ハードウェアを介して接続されたターゲットシステムのビデオフィードをキャプチャおよび表示するためのみに使用されます。
 
-## **Language and Interpretation**
+2. **キーボードおよびマウス入力アクセス**
+   ローカルの入力イベントを接続されたターゲットデバイスに送信される制御信号に変換するためのみに使用されます。
 
-This agreement has been provided in multiple languages for convenience. It is agreed that the working language of the company is both English and Chinese. In the event of any inconsistency between the English and non-English versions of this policy or any related documents, the English version shall prevail. The final interpretation of this policy will be in English.
+これらすべてのデータは、リアルタイム操作のため **ユーザーのデバイス上でのみローカルかつ一時的に** 処理されます。この情報は TechxArtisan によって **保存、記録、分析、または送信されません**。
 
-## **Governing Law and Jurisdiction**
+## 診断情報（ユーザー主導）
 
-This Agreement and any disputes arising from it shall be governed by the laws and regulations of the jurisdiction where Openterface is registered, unless otherwise mandated by law. In any civil litigation or other legal proceedings to enforce rights under this Agreement, each party shall bear its own legal costs and expenses.
+本サービスには、ハードウェア、ファームウェア、または接続の問題を特定するための **オプションのセルフ診断ツール** が含まれています。
 
-## **Contact Information**
+ユーザーが明示的に起動した場合、診断ツールはユーザーのデバイス上で **ローカルに** 診断ログを生成します。このログには、以下のような技術情報が含まれる場合があります：
 
-For any questions or concerns regarding this Privacy Policy, please contact us at [info@techxartisan.com](mailto:info@techxartisan.com). We encourage feedback and will endeavour to address your concerns promptly.
+- Openterface デバイスファームウェアバージョン
+- アプリケーション名およびバージョン
+- オペレーティングシステムの種類およびバージョン
+- 基本的なハードウェア環境および USB / HID / カメラ接続状態
+
+診断情報は、トラブルシューティング目的のみを意図しています。
+
+### ユーザー制御と同意
+
+- 診断ログは **自動的に送信されません**。
+- 本サービスは診断ログを含む **下書きメール** を準備する場合があります。
+- **ユーザーは手動で確認し、明示的にメール送信を選択する必要があります**。
+
+TechxArtisan は、診断情報を **ユーザーがサポートリクエストの一部として自発的に送信した場合にのみ** 受信します。
+
+診断ログは個人データを含むことを意図していませんが、一部のシステム設定の詳細は、ユーザーのデバイスに関連する技術情報と見なされる場合があります。このような情報は **ユーザーの明示的な操作による場合にのみ**、かつ **報告された問題の診断と解決のためのみ** 処理されます。
+
+## 第三者サービス
+
+本サービスは、第三者分析ツール、広告ネットワーク、トラッキング SDK、またはクラウドデータサービスを **統合していません**。ユーザーデータは第三者と共有されません。
+
+### 第三者販売者による購入
+
+Openterface 製品は、Openterface 公式ウェブサイト、認定プラットフォーム（例：Crowd Supply、Mouser Electronics）、その他の認定販売者など、さまざまなチャネルで購入できます。
+
+第三者プラットフォームまたは販売者を通じて購入する場合、お客様の個人データ（請求、配送、支払い情報）は、その販売者のプライバシーポリシーに従ってその販売者によって収集・処理されます。本プライバシーポリシーは、Openterface に直接提供される情報（例：当社ウェブサイト、サポートメール、または直接購入を通じて）に適用されます。第三者販売者を通じた購入については、販売者のプライバシーポリシーをご参照ください。
+
+## セキュリティ
+
+本サービスは、バックグラウンドでのデータ収集と自動送信を避けることで、データの露出を最小限に抑えるよう設計されています。
+
+カメラアクセスや入力監視などの権限は、**記載された機能に厳密に** 使用され、オペレーティングシステムの権限設定を通じて常にユーザーの管理下にあります。
+
+ユーザー主導のサポート連絡を通じて TechxArtisan に自発的に提供された診断情報は、報告された問題への対応にのみ使用され、サポート目的に必要な期間を超えて保持されません。
+
+## オープンソースおよび第三者による改変
+
+本サービスの一部は、透明性とコミュニティの協力を促進するためにオープンソース化される場合があります。その結果、第三者がソフトウェアまたはハードウェアの改変版を作成する可能性があります。
+
+TechxArtisan は、第三者ビルドまたは改変版のプライバシー慣行、セキュリティ、または動作について **責任を負いません**。ユーザーは、インストールするソフトウェアの出所を確認する責任があります。
+
+本サービスは、Openterface 公式ウェブサイト（[https://openterface.com](https://openterface.com)）または信頼できる認定アプリケーションプラットフォームからのみダウンロードすることを強く推奨します。
+
+## 本ポリシーの変更
+
+本プライバシーポリシーは、サービス、法的要件、または運用慣行の変更を反映するために随時更新される場合があります。更新はこのページに明確に掲載されます。変更後の本サービスの継続利用は、改訂されたポリシーへの同意を示します。
+
+## プライバシーポリシーへの同意
+
+本プライバシーポリシーは、利用規約の不可欠な部分を構成します。本ポリシーのいずれかの部分に同意されない場合は、本サービスのご利用をお控えください。
+
+## 言語および優先バージョン
+
+本ポリシーは英語で作成されています。本ポリシーが他の言語に翻訳され、英語版と翻訳版の間に矛盾または抵触がある場合、英語版が優先され、拘束力のあるバージョンとなります。
+
+## 準拠法および管轄
+
+本ポリシーは、法律で認められる最大限の範囲で、香港の法律に準拠し、それに従って解釈されます。
+
+## お問い合わせ
+
+本プライバシーポリシーに関するご質問やご懸念がございましたら、以下までご連絡ください：
+
+📧 [info@techxartisan.com](mailto:info@techxartisan.com)

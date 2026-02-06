@@ -1,87 +1,122 @@
 # Conditions d'Utilisation
 
+**(Version 2 – Février 2026)**
+
 ## Aperçu
-Ce site web est exploité par Openterface, une division de Guangzhou Billio Tech Co., Ltd. Les termes "nous", "notre" et "nos" font référence à Openterface. Ce site web, y compris toutes les informations, outils et services disponibles, vous est proposé, à vous l'utilisateur, sous réserve de votre acceptation de toutes les conditions, modalités, politiques et avis énoncés ici.
 
-En accédant à notre site web ou en l'utilisant et/ou en effectuant un achat auprès de nous, vous vous engagez dans notre "Service" et acceptez d'être lié par ces conditions, désignées comme "Conditions d'Utilisation" ou "Conditions", qui incluent des conditions, modalités et politiques supplémentaires accessibles par hyperlien. Ces Conditions s'appliquent à tous les utilisateurs du site, y compris, sans s'y limiter, les visiteurs, les fournisseurs, les clients, les marchands et les contributeurs de contenu.
+Ce site web est exploité par Openterface, une marque de TechxArtisan Limited (« TechxArtisan »), qui a succédé aux opérations précédemment menées sous Guangzhou Billio Tech Co., Ltd. Les termes « nous », « notre » et « nos » font référence à Openterface.
 
-Veuillez lire attentivement ces Conditions d'Utilisation avant d'utiliser notre site web. En accédant ou en utilisant toute partie du site, vous acceptez ces Conditions. Si vous n'acceptez pas tous les termes et conditions de cet accord, vous ne devez pas accéder au site web ni utiliser les services. Si ces Conditions d'Utilisation sont considérées comme une offre, l'acceptation est expressément limitée à ces Conditions.
+Ce site web, y compris toutes les informations, outils et services disponibles, vous est proposé sous réserve de votre acceptation de tous les termes, conditions, politiques et avis énoncés ici, y compris notre Politique de Retour, Remboursement et Garantie, qui est incorporée par référence.
 
-Toute nouvelle fonctionnalité ou tout nouvel outil ajouté à la boutique actuelle sera également soumis aux Conditions d'Utilisation. Vous pouvez consulter la version la plus récente des Conditions d'Utilisation à tout moment sur cette page. Nous nous réservons le droit de mettre à jour, modifier ou remplacer toute partie de ces Conditions en publiant des mises à jour et/ou des modifications sur notre site web. Il est de votre responsabilité de vérifier régulièrement cette page pour voir les changements. Votre utilisation continue ou votre accès au site web après la publication des modifications constitue une acceptation de ces modifications.
+En accédant ou en utilisant notre site web et/ou en achetant des produits associés à Openterface, vous acceptez d'être lié par ces Conditions d'Utilisation (« Conditions »).
 
-En acceptant ces Conditions d'Utilisation, vous déclarez que vous avez atteint l'âge de la majorité dans votre état ou province de résidence. Si vous avez atteint l'âge de la majorité, vous avez également consenti à permettre à vos personnes à charge mineures d'utiliser ce site. Nos produits ne doivent pas être utilisés à des fins illégales ou non autorisées, et le Service ne doit pas être utilisé pour violer les lois de votre juridiction, y compris les lois sur les droits d'auteur. Il est interdit de transmettre des codes malveillants tels que des vers, des virus ou des codes destructeurs. Toute violation de ces Conditions entraînera la résiliation immédiate de vos services.
+Ces Conditions s'appliquent à tous les utilisateurs du site, y compris les navigateurs, les clients, les marchands et les contributeurs de contenu.
 
-## Conditions Générales
-Nous nous réservons le droit de refuser le service à quiconque à tout moment. Votre contenu (à l'exclusion des informations de carte de crédit) peut être transféré sans cryptage et peut subir des modifications pour répondre aux exigences techniques. Les informations de carte de crédit sont toujours cryptées pendant le transfert. Sans notre autorisation écrite expresse, vous n'êtes pas autorisé à reproduire, dupliquer, copier, vendre, revendre ou exploiter une quelconque partie du Service ou l'accès au Service. Les titres utilisés dans cet accord ne sont là que pour des raisons de commodité et ne limiteront ni n'affecteront ces Conditions.
+## Langue et version prévalente
 
-## Exactitude, Exhaustivité et Actualité des Informations
-Nous ne sommes pas responsables si les informations disponibles sur ce site ne sont pas exactes, complètes ou à jour. Le contenu de ce site est fourni à titre d'information générale uniquement et ne devrait pas être la seule base pour prendre des décisions. Toute utilisation du contenu du site se fait à vos propres risques. Le site peut contenir des informations historiques à titre de référence uniquement. Nous pouvons modifier le contenu du site à tout moment sans obligation de mettre à jour les informations. Il est de votre responsabilité de surveiller les changements sur notre site.
+Ces Conditions d'Utilisation sont rédigées en anglais. Si ces Conditions sont traduites dans d'autres langues et qu'il existe une incohérence ou un conflit entre la version anglaise et toute version traduite, la version anglaise prévaudra et sera la version contrôlante.
 
-## Modifications du Service et des Prix
-Les prix des produits sont sujets à modification sans préavis. Nous pouvons modifier ou interrompre le Service sans préavis à tout moment. Nous ne serons pas responsables envers vous ou toute tierce partie pour toute modification, changement de prix, suspension ou interruption du Service.
+## Conditions générales
 
-## Produits ou Services
-Certains produits ou services peuvent être disponibles exclusivement en ligne. Ces produits ou services peuvent être en quantités limitées et sont soumis à notre Politique de Retour, Remboursement et Garantie. Nous nous sommes efforcés d'afficher aussi précisément que possible les couleurs et images de nos produits, mais nous ne pouvons garantir qu'elles s'afficheront avec exactitude sur votre moniteur. Nous nous réservons le droit de limiter les ventes de nos produits ou services à toute personne, région géographique ou juridiction, et de limiter les quantités des produits. Nous pouvons exercer ce droit au cas par cas. Nous nous réservons le droit de limiter les quantités de tout produit ou service que nous offrons. Toutes les descriptions de produits et leur tarification sont sujettes à modification à tout moment, sans préavis et à notre seule discrétion. Nous nous réservons le droit d'interrompre tout produit à tout moment. Toute offre de produit ou service faite sur ce site est nulle là où la loi l'interdit. Nous ne garantissons pas que la qualité des produits, services, informations ou autres matériels que vous achetez répondra à vos attentes, ni que les erreurs du Service seront corrigées.
+Nous nous réservons le droit de refuser le service à quiconque pour quelque raison que ce soit à tout moment, dans la mesure permise par la loi.
 
-## Exactitude des Informations de Facturation et de Compte
-Nous nous réservons le droit de refuser toute commande que vous passez auprès de nous. Nous pouvons, à notre seule discrétion, limiter ou annuler les quantités achetées par personne, par foyer ou par commande. Ces restrictions peuvent inclure les commandes passées par ou sous le même compte client, la même carte de crédit, et/ou les commandes utilisant la même adresse de facturation et/ou d'expédition. Dans le cas où nous effectuerions une modification ou annulerions une commande, nous pouvons tenter de vous en informer en contactant l'e-mail et/ou l'adresse de facturation/numéro de téléphone fournis au moment où la commande a été passée. Nous nous réservons le droit de limiter ou d'interdire les commandes qui, selon notre jugement, semblent être passées par des revendeurs, des revendeurs ou des distributeurs.
+Vous acceptez de ne pas reproduire, dupliquer, copier, vendre, revendre ou exploiter une partie du Service sans autorisation écrite expresse.
 
-Vous acceptez de fournir des informations d'achat et de compte actuelles, complètes et exactes pour tous les achats effectués dans notre boutique. Vous acceptez de mettre à jour rapidement votre compte et autres informations, y compris votre adresse e-mail et vos numéros de carte de crédit et dates d'expiration, afin que nous puissions compléter vos transactions et vous contacter si nécessaire.
+## Exactitude, exhaustivité et actualité des informations
 
-Pour plus de détails, veuillez consulter notre Politique de Retour, Remboursement et Garantie.
+Les informations sur ce site sont fournies à titre de référence générale uniquement. Nous ne sommes pas responsables si les informations disponibles sur ce site ne sont pas exactes, complètes ou à jour. Toute confiance accordée au matériel de ce site est à vos propres risques.
 
-## Outils Optionnels
-Nous pouvons vous fournir l'accès à des outils tiers sur lesquels nous n'exerçons ni surveillance ni contrôle. Vous reconnaissez et acceptez que nous fournissons l'accès à ces outils "tels quels" et "selon la disponibilité" sans aucune garantie, représentation ou condition d'aucune sorte et sans aucune approbation. Nous n'aurons aucune responsabilité quelle qu'elle soit découlant de ou liée à votre utilisation des outils tiers optionnels. Toute utilisation par vous des outils optionnels offerts via le site est entièrement à vos propres risques et à votre discrétion, et vous devez vous assurer que vous comprenez et approuvez les conditions selon lesquelles ces outils sont fournis par le(s) fournisseur(s) tiers concerné(s). Nous pouvons également, à l'avenir, offrir de nouveaux services et/ou fonctionnalités via le site web (y compris le lancement de nouveaux outils et ressources). Ces nouvelles fonctionnalités et/ou services seront également soumis à ces Conditions d'Utilisation.
+## Modifications du Service et des prix
 
-## Liens Tiers
-Certains contenus, produits et services disponibles via notre Service peuvent inclure des éléments provenant de tiers. Les liens tiers sur ce site peuvent vous diriger vers des sites web tiers qui ne sont pas affiliés à nous. Nous ne sommes pas responsables d'examiner ou d'évaluer le contenu ou l'exactitude et nous ne garantissons pas et n'assumons aucune responsabilité pour tout contenu, site web, produit ou service tiers. Nous ne sommes pas responsables des préjudices ou dommages liés à l'achat ou à l'utilisation de biens, services, ressources, contenu ou toute autre transaction effectuée en relation avec des sites web tiers. Veuillez lire attentivement les politiques et pratiques des tiers et assurez-vous de bien les comprendre avant de vous engager dans toute transaction. Les plaintes, réclamations, préoccupations ou questions concernant les produits tiers doivent être adressées aux tiers.
+Les prix des produits affichés sur ce site web peuvent changer sans préavis. Nous nous réservons le droit de modifier ou d'interrompre le Service (ou toute partie de celui-ci) à tout moment sans préavis.
 
-## Commentaires, Retours et Autres Soumissions des Utilisateurs
-Si, à notre demande, vous envoyez certaines soumissions spécifiques (par exemple des participations à des concours) ou sans notre demande, vous envoyez des idées créatives, des suggestions, des propositions, des plans ou d'autres documents, que ce soit en ligne, par e-mail, par courrier postal, ou autrement (collectivement, 'commentaires'), vous acceptez que nous puissions, à tout moment, sans restriction, éditer, copier, publier, distribuer, traduire et utiliser dans quelque média que ce soit tous les commentaires que vous nous transmettez. Nous ne sommes pas et ne devrons pas être obligés (1) de maintenir la confidentialité des commentaires ; (2) de payer une compensation pour tout commentaire ; ou (3) de répondre à tout commentaire. Nous pouvons, mais n'avons aucune obligation de le faire, surveiller, éditer ou supprimer le contenu que nous jugeons illégal, offensant, menaçant, diffamatoire, pornographique, obscène ou autrement répréhensible ou qui viole la propriété intellectuelle de toute partie ou ces Conditions d'Utilisation. Vous acceptez que vos commentaires ne violeront aucun droit de tiers, y compris les droits d'auteur, les marques déposées, la confidentialité, la personnalité ou autre droit personnel ou de propriété. Vous acceptez en outre que vos commentaires ne contiendront pas de contenu diffamatoire ou illégal, abusif ou obscène, ni de virus informatique ou autre logiciel malveillant qui pourrait affecter de quelque manière que ce soit le fonctionnement du Service ou de tout site web connexe. Vous ne pouvez pas utiliser une fausse adresse e-mail, prétendre être quelqu'un que vous n'êtes pas, ou nous induire en erreur ou induire en erreur des tiers quant à l'origine de tout commentaire. Vous êtes seul responsable de tous les commentaires que vous faites et de leur exactitude. Nous n'assumons aucune responsabilité et n'assumons aucune obligation pour tout commentaire publié par vous ou tout tiers.
+## Produits ou services
 
-## Informations Personnelles
-Votre soumission d'informations personnelles à travers la boutique est régie par notre Politique de Confidentialité.
+Certains produits ou services peuvent être disponibles exclusivement en ligne et peuvent avoir des quantités limitées.
 
-## Erreurs, Inexactitudes et Omissions
-Il peut arriver qu'il y ait des informations sur notre site ou dans le Service qui contiennent des erreurs typographiques, des inexactitudes ou des omissions qui peuvent être liées aux descriptions de produits, aux prix, aux promotions, aux offres, aux frais d'expédition des produits, aux délais de livraison et à la disponibilité. Nous nous réservons le droit de corriger toute erreur, inexactitude ou omission, et de changer ou de mettre à jour des informations ou d'annuler des commandes si une information dans le Service ou sur tout site web connexe est inexacte à tout moment sans préavis (y compris après que vous ayez soumis votre commande). Nous ne nous engageons pas à mettre à jour, modifier ou clarifier les informations dans le Service ou sur tout site web connexe, y compris sans limitation les informations sur les prix, sauf si requis par la loi.
+Tous les produits et services sont soumis à notre Politique de Retour, Remboursement et Garantie, qui régit le remplacement, l'éligibilité au remboursement et la gestion des garanties. Le traitement des remplacements et des remboursements dépend du canal d'achat d'origine.
 
-## Utilisations Interdites
-En plus des autres interdictions énoncées dans les Conditions d'Utilisation, il vous est interdit d'utiliser le site ou son contenu : (a) à des fins illégales ; (b) pour solliciter d'autres personnes à accomplir ou à participer à des actes illégaux ; (c) pour violer toute réglementation, règle, loi ou ordonnance locale, internationale, fédérale, provinciale ou étatique ; (d) pour porter atteinte à ou violer nos droits de propriété intellectuelle ou les droits de propriété intellectuelle d'autres ; (e) pour harceler, abuser, insulter, blesser, diffamer, calomnier, dénigrer, intimider ou discriminer en fonction du genre, de l'orientation sexuelle, de la religion, de l'ethnie, de la race, de l'âge, de l'origine nationale ou d'un handicap ; (f) pour soumettre des informations fausses ou trompeuses ; (g) pour télécharger ou transmettre des virus ou tout autre type de code malveillant qui sera ou pourrait être utilisé de manière à affecter la fonctionnalité ou le fonctionnement du Service ou de tout site web connexe, d'autres sites web ou d'Internet ; (h) pour collecter ou suivre les informations personnelles d'autres ; (i) pour spammer, hameçonner, détourner un domaine, extraire des informations, explorer, scanner ou tester la vulnérabilité ; (j) à des fins obscènes ou immorales ; ou (k) pour interférer avec ou contourner les fonctionnalités de sécurité du Service ou de tout site web connexe, d'autres sites web ou d'Internet. Nous nous réservons le droit de mettre fin à votre utilisation du Service ou de tout site web connexe pour avoir violé l'une des utilisations interdites.
+Openterface ne garantit pas que la qualité des produits ou services répondra à toutes les attentes, mais nous nous engageons à fournir un support de remplacement raisonnable pour les défauts matériels confirmés comme décrit dans notre politique.
 
-## Clause de Non-Responsabilité ; Limitation de Responsabilité
+## Remplacement, remboursements et canal d'achat
 
-Nous ne garantissons pas que votre utilisation de notre service sera ininterrompue, opportune, sécurisée ou sans erreur. De plus, nous ne pouvons pas garantir que les résultats qui peuvent être obtenus de l'utilisation du service seront exacts ou fiables. Vous acceptez que nous puissions suspendre le service pour des périodes indéterminées ou annuler le service à tout moment, sans vous en informer au préalable.
+Les produits vendus via Openterface peuvent être achetés via différents canaux, notamment :
 
-Vous acceptez expressément que votre utilisation du service, ou votre incapacité à l'utiliser, est à vos propres risques. Le service et tous les produits et services qui vous sont fournis par le biais du service sont (sauf mention expresse de notre part) fournis 'tels quels' et 'selon disponibilité' pour votre utilisation, sans aucune représentation, garantie ou condition d'aucune sorte, expresse ou implicite, y compris toutes les garanties ou conditions implicites de commercialisation, de qualité marchande, d'adaptation à un usage particulier, de durabilité, de titre et de non-violation.
+- Site web officiel Openterface
+- Plateformes autorisées (par ex. Crowd Supply, Mouser Electronics)
+- Autres revendeurs autorisés
 
-En aucun cas Openterface, nos directeurs, officiers, employés, affiliés, agents, contractants, stagiaires, fournisseurs, prestataires de services ou concédants ne seront responsables de toute blessure, perte, réclamation, ou de tout dommage direct, indirect, accessoire, punitif, spécial ou consécutif de quelque nature que ce soit, y compris, sans limitation, la perte de profits, de revenus, d'économies, de données, les coûts de remplacement ou tous dommages similaires, qu'ils soient contractuels, délictuels (y compris la négligence), de responsabilité stricte ou autre, résultant de votre utilisation de tout service ou produit obtenu par le biais du service, ou pour toute autre réclamation liée de quelque manière que ce soit à votre utilisation du service ou de tout produit, y compris, mais sans s'y limiter, toute erreur ou omission dans tout contenu, ou toute perte ou tout dommage de toute nature subi à la suite de l'utilisation du service ou de tout contenu (ou produit) publié, transmis ou rendu disponible via le service, même si vous êtes informé de leur possibilité. Comme certains États ou juridictions ne permettent pas l'exclusion ou la limitation de responsabilité pour les dommages consécutifs ou accessoires, dans ces États ou juridictions, notre responsabilité sera limitée dans la mesure maximale permise par la loi.
+- Les **remboursements** sont traités exclusivement par le vendeur d'origine.
+- Le **support de remplacement** est fourni directement par Openterface, sous réserve de notre Politique de Retour, Remboursement et Garantie.
+
+Le remplacement et le remboursement sont des résolutions mutuellement exclusives. Une fois qu'un remplacement a été confirmé et expédié, la commande associée n'est plus éligible au remboursement.
+
+## Exactitude de la facturation et des informations de compte
+
+Pour les achats effectués directement via Openterface, vous acceptez de fournir des informations d'achat et de compte actuelles, complètes et exactes.
+
+Pour les achats effectués via des plateformes ou des revendeurs tiers, la facturation, le paiement, l'annulation, le traitement des remboursements et les obligations connexes sont régis par les politiques du vendeur d'origine.
+
+## Outils optionnels
+
+Nous pouvons fournir l'accès à des outils tiers que nous ne surveillons ni ne contrôlons. Toute utilisation de ces outils est à vos propres risques.
+
+## Liens tiers
+
+Certains contenus, produits et services disponibles via notre Service peuvent inclure des matériaux de tiers. Nous ne sommes pas responsables des sites web tiers ni des transactions effectuées via eux.
+
+Les plaintes ou demandes de remboursement relatives aux produits achetés auprès de vendeurs tiers doivent être adressées au vendeur d'origine.
+
+## Commentaires, retours et autres soumissions des utilisateurs
+
+Vous acceptez que nous puissions utiliser les retours ou soumissions que vous fournissez sans restriction ni compensation.
+
+## Informations personnelles
+
+Votre soumission d'informations personnelles via le site est régie par notre Politique de Confidentialité.
+
+## Erreurs, inexactitudes et omissions
+
+Nous nous réservons le droit de corriger les erreurs, inexactitudes ou omissions et de modifier ou mettre à jour les informations à tout moment sans préavis.
+
+## Utilisations interdites
+
+Il vous est interdit d'utiliser le site ou son contenu à des fins illégales ou en violation de ces Conditions.
+
+## Exclusion de garanties ; limitation de responsabilité
+
+Le Service et tous les produits fournis via le Service sont fournis « tels quels » et « selon disponibilité », sauf indication expresse dans notre Politique de Retour, Remboursement et Garantie.
+
+Dans la mesure maximale permise par la loi, Openterface ne sera pas responsable des dommages indirects, accessoires, punitifs, spéciaux ou consécutifs résultant de l'utilisation du Service ou des produits.
+
+Rien dans ces Conditions n'exclut les droits qui ne peuvent être exclus en vertu de la loi applicable.
 
 ## Indemnisation
 
-Vous acceptez d'indemniser, de défendre et de tenir hors de cause Openterface et notre société mère, nos filiales, sociétés affiliées, partenaires, dirigeants, administrateurs, agents, contractants, concédants, prestataires de services, sous-traitants, fournisseurs, stagiaires et employés, de toute réclamation ou demande, y compris les honoraires raisonnables d'avocat, faite par un tiers en raison de ou découlant de votre violation de ces Conditions d'Utilisation ou des documents qu'elles incorporent par référence, ou de votre violation de toute loi ou des droits d'un tiers.
+Vous acceptez d'indemniser et de dégager de toute responsabilité Openterface contre toute réclamation découlant de votre violation de ces Conditions ou de toute loi.
 
 ## Divisibilité
 
-Dans le cas où une disposition des présentes Conditions d'Utilisation serait jugée illégale, nulle ou inapplicable, cette disposition sera néanmoins applicable dans toute la mesure permise par la loi applicable, et la partie inapplicable sera considérée comme étant dissociée de ces Conditions d'Utilisation, cette détermination n'affectant pas la validité et l'applicabilité des autres dispositions restantes.
+Si une disposition de ces Conditions est jugée inapplicable, les dispositions restantes resteront en vigueur.
 
 ## Résiliation
 
-Les obligations et responsabilités des parties engagées avant la date de résiliation survivront à la résiliation de cet accord à toutes fins. Ces Conditions d'Utilisation sont effectives jusqu'à ce qu'elles soient résiliées par vous ou par nous. Vous pouvez résilier ces Conditions d'Utilisation à tout moment en nous informant que vous ne souhaitez plus utiliser nos Services, ou lorsque vous cessez d'utiliser notre site.
+Ces Conditions restent en vigueur sauf si elles sont résiliées par vous ou par nous. Nous pouvons résilier l'accès si vous violez ces Conditions.
 
-Si, selon notre seul jugement, vous ne respectez pas, ou nous soupçonnons que vous n'avez pas respecté une quelconque modalité ou disposition des présentes Conditions d'Utilisation, nous pouvons également résilier cet accord à tout moment sans préavis et vous resterez responsable de tous les montants dus jusqu'à la date de résiliation incluse ; et/ou en conséquence nous pouvons vous refuser l'accès à nos Services (ou à toute partie de ceux-ci).
+## Accord entier
 
-## Accord Complet
+Ces Conditions, ainsi que notre Politique de Retour, Remboursement et Garantie et notre Politique de Confidentialité, constituent l'intégralité de l'accord entre vous et Openterface concernant l'utilisation du Service.
 
-Le fait que nous n'exercions pas ou ne fassions pas respecter un droit ou une disposition des présentes Conditions d'Utilisation ne constitue pas une renonciation à ce droit ou à cette disposition. Ces Conditions d'Utilisation et toute politique ou règle d'exploitation publiées par nous sur ce site ou concernant le Service constituent l'intégralité de l'accord et de l'entente entre vous et nous et régissent votre utilisation du Service, remplaçant tout accord, communication et proposition antérieurs ou contemporains, oraux ou écrits, entre vous et nous (y compris, mais sans s'y limiter, toute version antérieure des Conditions d'Utilisation). Toute ambiguïté dans l'interprétation de ces Conditions d'Utilisation ne doit pas être interprétée contre la partie rédactrice.
+## Droit applicable
 
-## Loi Applicable
-
-Ces Conditions d'Utilisation et tout accord distinct par lequel nous vous fournissons des Services seront régis et interprétés conformément aux lois de la République Populaire de Chine.
+Ces Conditions seront régies et interprétées conformément aux lois de la République populaire de Chine.
 
 ## Modifications des Conditions d'Utilisation
 
-Vous pouvez consulter la version la plus récente des Conditions d'Utilisation à tout moment sur cette page. Nous nous réservons le droit, à notre seule discrétion, de mettre à jour, modifier ou remplacer toute partie de ces Conditions d'Utilisation en publiant des mises à jour et des changements sur notre site web. Il est de votre responsabilité de vérifier notre site web périodiquement pour voir s'il y a des changements. Votre utilisation continue ou votre accès à notre site web ou au Service après la publication de toute modification de ces Conditions d'Utilisation constitue une acceptation de ces modifications.
+Nous nous réservons le droit de mettre à jour ou de remplacer toute partie de ces Conditions à tout moment. L'utilisation continue du Service constitue l'acceptation de ces modifications.
 
-## Informations de Contact
+## Coordonnées
 
-Pour toute question concernant les Conditions d'Utilisation, veuillez nous contacter à [info@techxartisan.com](mailto:info@techxartisan.com).
+Pour toute question concernant ces Conditions, veuillez contacter :
+
+📧 [info@techxartisan.com](mailto:info@techxartisan.com)

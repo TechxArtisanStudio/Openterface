@@ -1,48 +1,99 @@
-# Return, Refunds and Warranty Policy
+# 返品・返金・保証ポリシー
 
-## Returns
+**(バージョン 2 – 2026年2月)**
 
-Openterface provides options for returns and exchanges in accordance with the following terms and conditions:
+本ポリシーは、Mini-KVM、KVM-GO などを含む Openterface 製品に適用されます。返品、返金、保証の取り扱いは購入先によって異なりますので、よくお読みください。
 
-### Damage in Shipment
+## 言語と優先バージョン
 
-Should your product arrive with damage incurred during shipment, we request you to inform us via email at [info@techxartisan.com](mailto:info@techxartisan.com) within two business days of receipt. Your email should detail the damages and, where possible, include photographic evidence. This assists us greatly in ensuring our products are properly packaged and transported. We will organize replacements for the damaged products.
+本ポリシーは英語で作成されています。本ポリシーが他の言語に翻訳された場合、英語版と翻訳版の間に矛盾や抵触がある場合は、英語版が優先され、拘束力のある版となります。
 
-### Exchanges
+## 1. 購入チャネルの重要性
 
-If you are unsatisfied with your purchase for any reason, we offer the facility to return items in exchange for store credit. For a return to be accepted, items must adhere to the criteria outlined in the section [Important Conditions for Return]. Please initiate exchanges within 15 days following delivery. Note that Openterface ==does not cover the costs of return postage and customs tax.==
+Openterface 製品は、以下のようなさまざまなチャネルで購入できます。
 
-### Important Conditions for Return
+- Openterface 公式ウェブサイト
+- 認定プラットフォーム（例：Crowd Supply、Mouser Electronics）
+- その他の認定販売店
 
-Upon receiving the returned product, it will undergo an inspection. To ensure a smooth return process, please meet the following conditions:
+- **返金**は常に元の販売者が処理します。
+- **交換サポート**は、以下の条件に従い、Openterface が直接提供します。
 
-- The product must be in its original, undamaged state.
-- Notification of the product's return must be given to us within 15 business days.
-- The return package should contain all items that were included in the original purchase, such as price tags, labels, original packaging, freebies, accessories, invoices, warranty cards, and other documentation.
-- It is acknowledged and agreed that Openterface retains the discretion to determine if a product is in a saleable condition. Items deemed unsaleable will be discarded and no store credit or exchange will be issued for these items.
+## 2. 交換（主な解決策）
 
-## Refunds
+Openterface 製品に、通常使用下で確認されたハードウェアの欠陥または持続的な機能問題（例：キーボードやマウス制御の不安定さ）がある場合、購入チャネルに関係なく、Openterface は交換を主な解決策として提供します。
 
-Once your return is received and inspected, we will send you an email to notify you of the receipt of your returned item. If the product is returned in an undamaged state, we will process the refund within five working days.
+### 交換プロセス
 
-## Warranty
+1. Openterface サポートに連絡し、要求された診断手順（ソフトウェアのセルフチェック、ログ、設定確認など）に従ってください。
+2. ハードウェアの欠陥が確認され次第、Openterface は交換ユニットを提供します。
+3. ほとんどの場合、Openterface が明示的に要求しない限り、欠陥ユニットの返送は不要です。
+4. 交換ユニットは Openterface が発送し、できるだけ早く正常な機能を回復させます。
 
-This warranty policy confers specific legal rights upon you. Additionally, depending on your location—be it a particular state, province, or country—you may have other rights. 
+## 3. 交換と返金の排他性
 
-Openterface, as governed by law, respects your rights and does not seek to exclude, limit, or suspend any rights you possess, particularly those arising from nonconformity with a sales contract. To fully understand your rights, it's advisable to refer to the laws of your state, province, or country.
+交換と返金は相互に排他的な解決策です。
 
-### Scope of this Warranty
+- お客様は、資格と購入チャネルに応じて、交換または返金のいずれかを選択できます。
+- 交換が確認され発送された後は、その注文は返金の対象外となります。
+- 返金を希望するお客様は、交換を確認する前に元の販売者に連絡する必要があります。
+- 本ポリシーは、二重補償を防ぎ、すべてのお客様に公平かつ一貫した取り扱いを確保するために存在します。
 
-The benefits provided by this Openterface warranty are in addition to, and do not detract from, any rights and remedies you may have under law in connection to the goods and services under warranty. This warranty is applicable to any Openterface products purchased from an authorised Openterface reseller or directly via www.openterface.com.
+## 4. 返金と返品
 
-- Our policy limits warranties and services to products bought either directly from Openterface or an authorised Openterface reseller, and requires accompanying proof of purchase. If your Openterface product was bought from an unauthorised reseller, or if its original factory serial number is missing, defaced, or altered, this warranty becomes invalid.
-- Be aware that some websites and dealers may falsely claim to be authorised Openterface resellers. Products bought through these sources are not covered by an Openterface warranty. These products may be counterfeit, used, defective, or unsuitable for use in your country. Ensure your protection and the integrity of your Openterface product by buying only from authorised resellers. For information on authorised resellers, please visit our website.
+### 返金の取り扱い
 
-### Warranty Coverage
+- Openterface は返金を直接処理しません。
+- Crowd Supply、Mouser、または他の販売者を通じて購入した場合、すべての返金と返品ラベルは、その販売者のポリシーとスケジュールに従って、その販売者に申請する必要があります。
+- Openterface は、返金申請をサポートするための合理的な書類（例：ハードウェア欠陥の確認）を提供することがあります。
+- 返金の承認、時期、支払いは販売者のみが決定します。
 
-- Openterface guarantees its products, in their original packaging, against defects in materials and workmanship under normal use.
-- All Openterface limited warranties commence from the date of purchase. KEEP YOUR RECEIPT AS PROOF OF PURCHASE. The duration of the Openterface limited hardware warranty is typically 6 months from the date of purchase, though this may vary for different Openterface products.
-- All Openterface warranties, including any statutory guarantees or non-excludable statutory warranties, are valid solely during the period the product is owned by the original purchaser. The 'original purchaser' is defined as the first buyer of the product from Openterface or an authorised reseller. Openterface limited warranties, including any lifetime warranties, are non-transferable.
-- The warranty does not cover scenarios outside normal use, such as theft, accidents, misuse, abuse, water damage, or use of the product in conditions outside its specified operational climate.
+### 返金のための返品
 
-To the extent permitted by applicable law, this warranty and any implied warranties constitute your sole and exclusive warranties, superseding all other warranties or conditions, whether express or implied. Some jurisdictions may not allow limitations on the duration of an implied warranty, so the above limitation may not apply in your case.
+返金目的の製品の物理的な返品は、販売者の返品ポリシーに準拠し、以下の要件を含みます。
+
+- 返品承認
+- 配送方法と住所
+- 関税または税金（該当する場合）
+
+## 5. 配送時の損傷
+
+製品が到着時に損傷している場合：
+
+- プラットフォームまたは販売者が発送した製品については、まず販売者のサポートチームに連絡してください。配送と運送会社への請求は販売者が管理します。
+- 必要に応じて、Openterface がトラブルシューティングや書類提供を支援することがあります。
+
+## 6. 保証
+
+### 保証範囲
+
+- Openterface は、通常使用下における材料および製造上の欠陥に対して製品を保証します。
+- **保証期間：**購入日から6か月、別途定めがある場合を除く。
+- 保証は元の購入者のみに適用されます。
+- Openterface または認定販売者からの購入証明が必要です。
+
+### 保証対象
+
+- 製造上の欠陥
+- 通常の動作条件下でのハードウェア障害
+
+### 保証対象外
+
+- 誤用、事故、改造、水没、または指定された環境条件外での使用による損傷
+- 非認定販売者から購入した製品
+- 通常の摩耗
+
+本保証は、適用される法律に基づくお客様の譲渡不能な権利に加えて提供されます。
+
+## 7. 認定販売者
+
+保証および交換サポートは、Openterface または認定販売者から購入した製品にのみ適用されます。
+
+Openterface は、非認定の出所から購入した製品（偽造品、中古品、または欠陥品である可能性があります）について責任を負いません。
+
+## 8. 重要な注意事項
+
+- 確認されたハードウェア欠陥については、交換が推奨され、最も迅速な解決策です。
+- 返金は元の購入チャネルに従う必要があります。
+- 配送料、関税、税金は地域や販売者のポリシーによって異なる場合があります。
+- Openterface は、交換または保証サービスの悪用を防ぐため、個別にケースを評価する権利を留保します。

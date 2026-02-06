@@ -1,40 +1,107 @@
 # Política de Privacidade
 
-Esta Política de Privacidade se aplica ao dispositivo mini-KVM “Openterface” e seu aplicativo associado para macOS (coletivamente, o “Serviço”), desenvolvido e operado pela Guangzhou Billio Tech. Co., Ltd. Ao usar nosso Serviço, você concorda com a coleta e uso de informações de acordo com esta política. Se você não concorda com qualquer parte desta política, por favor, evite usar quaisquer produtos e serviços oferecidos.
+**(Versão 2 – Fevereiro de 2026)**
 
-## **Coleta e Uso de Dados**
+Esta Política de Privacidade aplica-se ao site Openterface, aos dispositivos de hardware Openterface e às suas aplicações associadas (em conjunto, o "Serviço"), desenvolvidos e operados pela **TechxArtisan Limited** ("TechxArtisan"). Openterface é uma marca da TechxArtisan.
 
-Estamos comprometidos em proteger sua privacidade. Nosso Serviço não coleta, armazena ou transfere quaisquer dados pessoais em nenhuma fase do uso de nosso aplicativo. Para o funcionamento eficaz de nosso Serviço - controlando seu computador remotamente através do dispositivo e aplicativo Openterface, precisamos de acesso a certos tipos de dados não pessoais:
+Ao utilizar o Serviço, concorda com a recolha e utilização de informações conforme descrito nesta política. Se não concordar com qualquer parte desta política, por favor abstenha-se de utilizar o Serviço.
 
-1. **Acesso à Câmera**: Precisamos de permissões de câmera para capturar o feed de vídeo do seu computador conectado remotamente. Isso é essencial para exibir o feed em seu dispositivo através do aplicativo Openterface.
-2. **Dados de Eventos de Teclado e Mouse**: Para habilitar funcionalidades de controle remoto, precisamos de permissões para ouvir eventos locais de teclado e mouse. Esses dados são usados exclusivamente para converter esses eventos em sinais de controle para o dispositivo alvo conectado através do nosso hardware.
+## Informações recolhidas através do site
 
-Por favor, note que os dados mencionados acima são considerados não pessoais, pois não identificam diretamente você como um indivíduo. As permissões que solicitamos são necessárias exclusivamente para habilitar a funcionalidade principal. Os dados também nunca são armazenados ou transferidos para fora do seu dispositivo.
+Quando interage com o site Openterface, podemos recolher informações que fornece voluntariamente:
 
-## **Segurança**
+- **Formulários de contacto** — Nome, endereço de e-mail e qualquer mensagem que submeta ao contactar-nos.
+- **E-mail de suporte** — Quando nos envia um e-mail (por exemplo, para info@techxartisan.com) para suporte, recebemos e processamos o conteúdo da sua mensagem e qualquer informação que inclua.
+- **Subscrição de newsletter** — Endereço de e-mail e preferências que fornece ao subscrever a nossa newsletter.
+- **Análise do site (com consentimento)** — Quando visita o nosso site e aceita o nosso consentimento de cookies, utilizamos o Google Analytics 4 (GA4) para recolher informações sobre a sua visita, como como nos encontrou, que páginas visualiza, que botões ou ligações clica, e dados gerais de tráfego (por ex., tipo de dispositivo, navegador, localização aproximada). Isto ajuda-nos a entender como os visitantes utilizam o nosso site e a melhorá-lo. Os dados do GA4 são processados pelo Google de acordo com a sua política de privacidade. Pode retirar o consentimento a qualquer momento através das nossas definições de cookies ou das definições do seu navegador.
 
-Sem a coleta ou retenção de dados do usuário em qualquer momento, proteger os dados do usuário através de medidas de segurança não é aplicável em nosso caso. Nosso aplicativo não apresenta riscos de privacidade inerentes à sua funcionalidade pretendida.
+Estas informações são utilizadas exclusivamente para responder às suas consultas, fornecer suporte, enviar newsletters conforme solicitado ou (para análise) melhorar o nosso site. Não as utilizamos para marketing além do que optou, e não as partilhamos com terceiros para os seus fins de marketing.
 
-## **Isenção de Responsabilidade**
+## Recolha e utilização de dados
 
-O Serviço pode se tornar de código aberto no futuro para transparência e supervisão da comunidade. Como resultado, várias versões do aplicativo e do dispositivo podem ser criadas e modificadas por terceiros. Isso permitiria que qualquer um inspecionasse o código e construísse versões por conta própria, bem como modificasse para casos de uso personalizados. Não seremos responsáveis pelo que indivíduos ou organizações possam construir a partir de código e hardware modificados. É responsabilidade do usuário verificar a fonte do aplicativo. Recomendamos fortemente o download do aplicativo em nosso site oficial openterface.com e em plataformas de aplicativos certificadas, confiáveis e bem conhecidas para segurança e confiabilidade.
+A TechxArtisan está empenhada em proteger a privacidade dos utilizadores. O Serviço foi concebido para funcionar com **prioridade offline** e **não recolhe, armazena, transmite ou processa dados de utilizador em segundo plano**.
 
-## **Alterações a esta Política**
+O Serviço **não** requer contas de utilizador, conectividade na nuvem, análise ou serviços publicitários.
 
-Podemos ocasionalmente atualizar esta política de privacidade para cumprir com mudanças na legislação ou refletir atualizações em nosso aplicativo. Quaisquer alterações serão publicadas claramente nesta página. O uso contínuo do Openterface após as alterações significa consentimento à política de privacidade revisada.
+### Permissões de funcionalidade principal
 
-## **Acordo com a Política de Privacidade**
+Para fornecer a funcionalidade pretendida do Serviço — exibir a saída de vídeo e controlar um dispositivo alvo conectado — a aplicação requer acesso ao seguinte:
 
-Ao concordar com nosso Acordo de Uso do Serviço, você também concorda com esta Política de Privacidade. Esta Política de Privacidade é uma parte integral do nosso Acordo de Uso do Serviço. Se você discordar de qualquer parte desta política, por favor, não use nosso Serviço.
+1. **Acesso à câmara**
+   Utilizado exclusivamente para capturar e exibir o fluxo de vídeo do sistema alvo conectado através do hardware Openterface.
 
-## **Linguagem e Interpretação**
+2. **Acesso a entrada de teclado e rato**
+   Utilizado exclusivamente para converter eventos de entrada locais em sinais de controlo enviados ao dispositivo alvo conectado.
 
-Este acordo foi fornecido em vários idiomas para conveniência. Concorda-se que a língua de trabalho da empresa é tanto o inglês quanto o chinês. No caso de qualquer inconsistência entre as versões em inglês e não inglês desta política ou de quaisquer documentos relacionados, a versão em inglês prevalecerá. A interpretação final desta política será em inglês.
+Todos estes dados são processados **apenas localmente e de forma transitória no dispositivo do utilizador**, exclusivamente para operação em tempo real. Esta informação **não é armazenada, registada, analisada ou transmitida** pela TechxArtisan.
 
-## **Legislação e Jurisdição**
+## Informações de diagnóstico (iniciadas pelo utilizador)
 
-Este Acordo e quaisquer disputas decorrentes dele serão regidos pelas leis e regulamentos da jurisdição onde o Openterface está registrado, a menos que a lei exija o contrário. Em qualquer litígio civil ou outros procedimentos legais para fazer valer direitos sob este Acordo, cada parte arcará com seus próprios custos e despesas legais.
+O Serviço inclui uma **ferramenta de autodiagnóstico opcional** para ajudar os utilizadores a identificar problemas de hardware, firmware ou ligação.
 
-## **Informações de Contato**
+Quando explicitamente iniciada pelo utilizador, a ferramenta de diagnóstico gera um registo de diagnóstico **localmente** no dispositivo do utilizador. Este registo pode incluir informações técnicas como:
 
-Para quaisquer perguntas ou preocupações sobre esta Política de Privacidade, entre em contato conosco pelo e-mail [info@techxartisan.com](mailto:info@techxartisan.com). Agradecemos o feedback e nos esforçaremos para abordar suas preocupações prontamente.
+- Versão do firmware do dispositivo Openterface
+- Nome e versão da aplicação
+- Tipo e versão do sistema operativo
+- Ambiente de hardware básico e estado da ligação USB / HID / câmara
+
+As informações de diagnóstico destinam-se exclusivamente a fins de resolução de problemas.
+
+### Controlo e consentimento do utilizador
+
+- Os registos de diagnóstico **não são transmitidos automaticamente**.
+- O Serviço pode preparar um **rascunho de e-mail** contendo o registo de diagnóstico.
+- **O utilizador deve rever manualmente e escolher explicitamente enviar o e-mail**.
+
+A TechxArtisan recebe informações de diagnóstico **apenas se e quando o utilizador as envia voluntariamente** como parte de um pedido de suporte.
+
+Embora os registos de diagnóstico não se destinem a incluir dados pessoais, alguns detalhes de configuração do sistema podem ser considerados informações técnicas relacionadas com o dispositivo do utilizador. Essas informações são processadas **apenas com a ação explícita do utilizador** e **apenas para diagnosticar e resolver os problemas reportados**.
+
+## Serviços de terceiros
+
+O Serviço **não** integra ferramentas de análise de terceiros, redes publicitárias, SDKs de rastreamento ou serviços de dados na nuvem. Nenhum dado de utilizador é partilhado com terceiros.
+
+### Compras através de vendedores terceiros
+
+Os produtos Openterface podem ser adquiridos através de diferentes canais, incluindo o site oficial Openterface, plataformas autorizadas (por ex., Crowd Supply, Mouser Electronics) e outros revendedores autorizados.
+
+Quando compra através de uma plataforma ou revendedor terceiro, os seus dados pessoais (faturação, envio, informações de pagamento) são recolhidos e processados por esse vendedor de acordo com a sua política de privacidade. Esta Política de Privacidade aplica-se às informações que fornece diretamente à Openterface (por ex., através do nosso site, e-mail de suporte ou compras diretas). Para compras efetuadas através de vendedores terceiros, consulte a política de privacidade do vendedor.
+
+## Segurança
+
+O Serviço foi concebido para minimizar a exposição de dados, evitando a recolha de dados em segundo plano e a transmissão automática.
+
+Permissões como acesso à câmara e monitorização de entrada são utilizadas **estritamente para a sua funcionalidade declarada** e permanecem sob o controlo do utilizador através das definições de permissões do sistema operativo em todo o momento.
+
+Qualquer informação de diagnóstico fornecida voluntariamente à TechxArtisan através de comunicação de suporte iniciada pelo utilizador é utilizada exclusivamente para responder ao problema reportado e não é retida por mais tempo do que o necessário para fins de suporte.
+
+## Código aberto e modificações de terceiros
+
+Partes do Serviço podem tornar-se de código aberto para promover a transparência e a colaboração da comunidade. Como resultado, terceiros podem criar versões modificadas do software ou hardware.
+
+A TechxArtisan **não é responsável** pelas práticas de privacidade, segurança ou comportamento de compilações ou versões modificadas de terceiros. Os utilizadores são responsáveis por verificar a origem do software que instalam.
+
+Recomendamos vivamente que descarregue o Serviço apenas do site oficial Openterface ([https://openterface.com](https://openterface.com)) ou de plataformas de aplicações certificadas de confiança.
+
+## Alterações a esta política
+
+Podemos atualizar esta Política de Privacidade de tempos a tempos para refletir alterações no Serviço, requisitos legais ou práticas operacionais. Qualquer atualização será claramente publicada nesta página. A utilização continuada do Serviço após as alterações indica aceitação da política revista.
+
+## Acordo com a Política de Privacidade
+
+Esta Política de Privacidade constitui uma parte integrante dos Termos de Serviço. Se não concordar com qualquer parte desta política, por favor não utilize o Serviço.
+
+## Língua e versão prevalecente
+
+Esta política está redigida em inglês. Se esta política for traduzida para outras línguas e existir qualquer inconsistência ou conflito entre a versão em inglês e qualquer versão traduzida, a versão em inglês prevalecerá e será a versão controladora.
+
+## Lei aplicável e jurisdição
+
+Esta política será regida e interpretada de acordo com as leis de Hong Kong, na máxima medida permitida por lei.
+
+## Informações de contacto
+
+Se tiver questões ou preocupações sobre esta Política de Privacidade, contacte-nos em:
+
+📧 [info@techxartisan.com](mailto:info@techxartisan.com)

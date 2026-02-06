@@ -1,48 +1,99 @@
 # Politique de Retour, Remboursement et Garantie
 
-## Retours
+**(Version 2 – Février 2026)**
 
-Openterface propose des options de retour et d'échange conformément aux conditions suivantes :
+Cette politique s'applique aux produits Openterface, y compris Mini-KVM, KVM-GO, etc. Veuillez lire attentivement, car les retours, remboursements et la garantie dépendent de l'endroit où vous avez acheté le produit.
 
-### Dommages pendant le Transport
+## Langue et Version Prévaleante
 
-Si votre produit arrive endommagé pendant le transport, nous vous demandons de nous en informer par email à [info@techxartisan.com](mailto:info@techxartisan.com) dans les deux jours ouvrables suivant la réception. Votre email doit détailler les dommages et, si possible, inclure des preuves photographiques. Cela nous aide grandement à garantir que nos produits sont correctement emballés et transportés. Nous organiserons le remplacement des produits endommagés.
+Cette politique est rédigée en anglais. Si cette politique est traduite dans d'autres langues et qu'il existe une incohérence ou un conflit entre la version anglaise et toute version traduite, la version anglaise prévaudra et sera la version de référence.
 
-### Échanges
+## 1. Importance du Canal d'Achat
 
-Si vous n'êtes pas satisfait de votre achat pour quelque raison que ce soit, nous offrons la possibilité de retourner les articles en échange d'un crédit en magasin. Pour qu'un retour soit accepté, les articles doivent respecter les critères décrits dans la section [Conditions Importantes pour le Retour]. Veuillez initier les échanges dans les 15 jours suivant la livraison. Notez qu'Openterface ==does not cover the costs of return postage and customs tax.==
+Les produits Openterface peuvent être achetés par différents canaux, notamment :
 
-### Conditions Importantes pour le Retour
+- Le site web officiel Openterface
+- Les plateformes autorisées (ex. Crowd Supply, Mouser Electronics)
+- D'autres revendeurs autorisés
 
-À la réception du produit retourné, il fera l'objet d'une inspection. Pour garantir un processus de retour fluide, veuillez respecter les conditions suivantes :
+- Les **remboursements** sont toujours traités par le vendeur d'origine.
+- Le **support de remplacement** est fourni directement par Openterface, sous réserve des conditions ci-dessous.
 
-- Le produit doit être dans son état d'origine, non endommagé.
-- La notification du retour du produit doit nous être communiquée dans les 15 jours ouvrables.
-- Le colis de retour doit contenir tous les éléments inclus dans l'achat d'origine, tels que les étiquettes de prix, les étiquettes, l'emballage d'origine, les cadeaux, les accessoires, les factures, les cartes de garantie et autres documents.
-- Il est reconnu et accepté qu'Openterface conserve le pouvoir discrétionnaire de déterminer si un produit est dans un état vendable. Les articles jugés invendables seront jetés et aucun crédit en magasin ou échange ne sera émis pour ces articles.
+## 2. Remplacement (Résolution Principale)
 
-## Remboursements
+Si votre produit Openterface présente un défaut matériel confirmé ou des problèmes fonctionnels persistants en usage normal (par exemple, contrôle instable du clavier ou de la souris), Openterface propose le remplacement comme résolution principale, quel que soit le canal d'achat.
 
-Une fois votre retour reçu et inspecté, nous vous enverrons un email pour vous informer de la réception de votre article retourné. Si le produit est retourné dans un état non endommagé, nous traiterons le remboursement dans les cinq jours ouvrables.
+### Processus de Remplacement
 
-## Garantie
+1. Contactez le support Openterface et suivez les étapes de diagnostic demandées (auto-vérifications logicielles, journaux ou confirmation de configuration).
+2. Une fois le défaut matériel confirmé, Openterface proposera une unité de remplacement.
+3. Dans la plupart des cas, le retour de l'unité défectueuse n'est pas requis, sauf demande explicite d'Openterface.
+4. Les unités de remplacement sont expédiées par Openterface pour rétablir la fonctionnalité normale le plus rapidement possible.
 
-Cette politique de garantie vous confère des droits légaux spécifiques. De plus, selon votre localisation - que ce soit un état particulier, une province ou un pays - vous pouvez avoir d'autres droits.
+## 3. Exclusivité Remplacement et Remboursement
 
-Openterface, conformément à la loi, respecte vos droits et ne cherche pas à exclure, limiter ou suspendre les droits que vous possédez, particulièrement ceux découlant de la non-conformité avec un contrat de vente. Pour bien comprendre vos droits, il est conseillé de consulter les lois de votre état, province ou pays.
+Le remplacement et le remboursement sont des résolutions mutuellement exclusives.
 
-### Portée de cette Garantie
+- Les clients peuvent choisir soit le remplacement soit le remboursement, selon l'éligibilité et le canal d'achat.
+- Une fois le remplacement confirmé et expédié, la commande n'est plus éligible au remboursement.
+- Si un client préfère un remboursement, il doit contacter le vendeur d'origine avant de confirmer le remplacement.
+- Cette politique existe pour éviter une double indemnisation et assurer un traitement équitable et cohérent pour tous les clients.
 
-Les avantages fournis par cette garantie Openterface s'ajoutent à, et ne diminuent pas, tous les droits et recours que vous pourriez avoir en vertu de la loi concernant les biens et services sous garantie. Cette garantie s'applique à tout produit Openterface acheté auprès d'un revendeur Openterface autorisé ou directement via www.openterface.com.
+## 4. Remboursements et Retours
 
-- Notre politique limite les garanties et services aux produits achetés soit directement auprès d'Openterface soit auprès d'un revendeur Openterface autorisé, et nécessite une preuve d'achat. Si votre produit Openterface a été acheté auprès d'un revendeur non autorisé, ou si son numéro de série d'origine est manquant, effacé ou modifié, cette garantie devient invalide.
-- Sachez que certains sites web et revendeurs peuvent faussement prétendre être des revendeurs Openterface autorisés. Les produits achetés via ces sources ne sont pas couverts par une garantie Openterface. Ces produits peuvent être contrefaits, d'occasion, défectueux ou inadaptés à l'utilisation dans votre pays. Assurez votre protection et l'intégrité de votre produit Openterface en achetant uniquement auprès de revendeurs autorisés. Pour plus d'informations sur les revendeurs autorisés, veuillez visiter notre site web.
+### Traitement des Remboursements
+
+- Openterface ne traite pas les remboursements directement.
+- Si vous avez acheté via Crowd Supply, Mouser ou un autre revendeur, tous les remboursements et étiquettes de retour doivent être demandés auprès de ce vendeur, conformément à leurs politiques et délais.
+- Openterface peut fournir une documentation raisonnable (par exemple, confirmation d'un défaut matériel) pour soutenir une demande de remboursement.
+- L'approbation, le calendrier et le paiement du remboursement sont uniquement déterminés par le vendeur.
+
+### Retours pour Remboursement
+
+Tout retour physique de produits à des fins de remboursement est régi par la politique de retour du vendeur, y compris les exigences relatives à :
+
+- L'autorisation de retour
+- La méthode et l'adresse d'expédition
+- Les droits de douane ou taxes, le cas échéant
+
+## 5. Dommages d'Expédition
+
+Si votre produit arrive endommagé :
+
+- Pour les produits expédiés par une plateforme ou un revendeur, veuillez contacter d'abord l'équipe support du vendeur, car ils gèrent l'expédition et les réclamations auprès des transporteurs.
+- Openterface peut aider au dépannage ou à la documentation si nécessaire.
+
+## 6. Garantie
 
 ### Couverture de la Garantie
 
-- Openterface garantit ses produits, dans leur emballage d'origine, contre les défauts de matériaux et de fabrication dans des conditions normales d'utilisation.
-- Toutes les garanties limitées Openterface commencent à la date d'achat. CONSERVEZ VOTRE REÇU COMME PREUVE D'ACHAT. La durée de la garantie matérielle limitée Openterface est généralement de 6 mois à partir de la date d'achat, bien que cela puisse varier selon les différents produits Openterface.
-- Toutes les garanties Openterface, y compris les garanties légales ou les garanties légales non excludables, ne sont valables que pendant la période où le produit appartient à l'acheteur d'origine. L'« acheteur d'origine » est défini comme le premier acheteur du produit auprès d'Openterface ou d'un revendeur autorisé. Les garanties limitées Openterface, y compris toute garantie à vie, sont non transférables.
-- La garantie ne couvre pas les scénarios en dehors d'une utilisation normale, tels que le vol, les accidents, la mauvaise utilisation, l'abus, les dégâts des eaux, ou l'utilisation du produit dans des conditions en dehors de son climat opérationnel spécifié.
+- Openterface garantit ses produits contre les défauts de matériaux et de fabrication en usage normal.
+- **Période de garantie :** 6 mois à compter de la date d'achat, sauf indication contraire.
+- La garantie s'applique uniquement à l'acheteur d'origine.
+- Une preuve d'achat auprès d'Openterface ou d'un revendeur autorisé est requise.
 
-Dans la mesure permise par la loi applicable, cette garantie et toutes les garanties implicites constituent vos seules et exclusives garanties, remplaçant toutes autres garanties ou conditions, qu'elles soient expresses ou implicites. Certaines juridictions peuvent ne pas autoriser les limitations sur la durée d'une garantie implicite, donc la limitation ci-dessus peut ne pas s'appliquer dans votre cas.
+### Ce Qui Est Couvert
+
+- Les défauts de fabrication
+- Les pannes matérielles dans des conditions d'utilisation normales
+
+### Ce Qui N'Est Pas Couvert
+
+- Les dommages dus à une mauvaise utilisation, un accident, une modification, une exposition à l'eau ou un fonctionnement en dehors des conditions environnementales spécifiées
+- Les produits achetés auprès de vendeurs non autorisés
+- L'usure normale
+
+Cette garantie s'ajoute à tous les droits non exclusifs que vous pouvez avoir en vertu de la loi applicable.
+
+## 7. Revendeurs Autorisés
+
+La garantie et le support de remplacement s'appliquent uniquement aux produits achetés auprès d'Openterface ou de revendeurs autorisés.
+
+Openterface n'est pas responsable des produits achetés auprès de sources non autorisées, qui peuvent être contrefaits, d'occasion ou défectueux.
+
+## 8. Notes Importantes
+
+- Le remplacement est la résolution préférée et la plus rapide pour les défauts matériels confirmés.
+- Les remboursements doivent suivre le canal d'achat d'origine.
+- Les frais d'expédition, droits et taxes peuvent varier selon la région et la politique du vendeur.
+- Openterface se réserve le droit d'évaluer les cas individuellement pour prévenir l'abus des services de remplacement ou de garantie.

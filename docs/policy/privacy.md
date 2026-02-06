@@ -1,40 +1,107 @@
 # Privacy Policy
 
-This Privacy Policy applies to the “Openterface” mini-KVM device and its associated macOS application (collectively, the “Service”), developed and operated by Guangzhou Billio Tech. Co., Ltd. By using our Service, you agree to the collection and use of information in accordance with this policy. If you do not agree with any part of this policy, please refrain from using any products and services offered.
+**(Version 2 – February 2026)**
 
-## **Data Collection and Use**
+This Privacy Policy applies to the Openterface website, Openterface hardware devices, and their associated applications (collectively, the "Service"), developed and operated by **TechxArtisan Limited** ("TechxArtisan"). Openterface is a brand of TechxArtisan.
 
-We are committed to protecting your privacy. Our Service does not collect, store, or transfer any personal data at any stage in using our app. For the effective operation of our Service - controlling your computer remotely through the Openterface device and app, we require access to certain types of non-personal data:
+By using the Service, you agree to the collection and use of information as described in this policy. If you do not agree with any part of this policy, please refrain from using the Service.
 
-1. **Camera Access**: We require camera permissions to capture the video feed from your remotely connected computer. This is essential for displaying the feed on your device through the Openterface application.
-2. **Keyboard and Mouse Event Data**: To enable remote control functionalities, we need permissions to listen to local keyboard and mouse events. This data is used solely to convert these events into control signals for the target device connected through our hardware.
+## Information Collected Through the Website
 
-Please note that the above-mentioned data is considered non-personal as it does not directly identify you as an individual. The permissions we request are necessary solely to enable core functionality. Data is also never stored or transferred outside your device.
+When you interact with the Openterface website, we may collect information you voluntarily provide:
 
-## **Security**
+- **Contact forms** — Name, email address, and any message you submit when contacting us.
+- **Support email** — When you email us (e.g., at info@techxartisan.com) for support, we receive and process the content of your message and any information you include.
+- **Newsletter subscription** — Email address and any preferences you provide when subscribing to our newsletter.
+- **Website analytics (with consent)** — When you visit our website and accept our cookie consent, we use Google Analytics 4 (GA4) to collect information about your visit, such as how you found us, which pages you view, which buttons or links you click, and general traffic data (e.g., device type, browser, approximate location). This helps us understand how visitors use our site and improve it. GA4 data is processed by Google according to their privacy policy. You can withdraw consent at any time via our cookie settings or your browser settings.
 
-With no collection or retention of user data at any point, protecting user data via security measures is not applicable in our case. Our app presents no privacy risks inherent in its intended functionality.
+This information is used solely to respond to your inquiries, provide support, send newsletters as requested, or (for analytics) to improve our website. We do not use it for marketing beyond what you have opted into, and we do not share it with third parties for their marketing purposes.
 
-## **Disclaimer**
+## Data Collection and Use
 
-The Service may become open source in the future for transparency and community supervision. As a result, various versions of the app and device may be created and modified by third parties.This would enable anyone to inspect the code and build versions themselves, as well as modify for custom use cases. We will not be responsible for what individuals or organizations may build from modified code and hardware.  It is the user's responsibility to verify the source of the application. We strongly recommend downloading the app from our official website openterface.com and well-known, reliable certified app platform platforms for safety and reliability.
+TechxArtisan is committed to protecting user privacy. The Service is designed to operate **offline-first** and does **not collect, store, transmit, or process user data in the background**.
 
-## **Changes to this Policy**
+The Service does **not** require user accounts, cloud connectivity, analytics, or advertising services.
 
-We may occasionally update this privacy policy to comply with law changes or reflect updates to our application. Any changes will be posted clearly on this page. Continued use of Openterface after changes signifies consent to the revised privacy policy.
+### Core Functionality Permissions
 
-## **Agreement to Privacy Policy**
+To provide the intended functionality of the Service—displaying video output from and controlling a connected target device—the application requires access to the following:
 
-By agreeing to our Service Usage Agreement, you also agree to this Privacy Policy. This Privacy Policy is an integral part of our Service Usage Agreement. If you disagree with any part of this policy, please do not use our Service.
+1. **Camera Access**
+   Used solely to capture and display the video feed from the connected target system via Openterface hardware.
 
-## **Language and Interpretation**
+2. **Keyboard and Mouse Input Access**
+   Used solely to convert local input events into control signals sent to the connected target device.
 
-This agreement has been provided in multiple languages for convenience. It is agreed that the working language of the company is both English and Chinese. In the event of any inconsistency between the English and non-English versions of this policy or any related documents, the English version shall prevail. The final interpretation of this policy will be in English.
+All such data is processed **locally and transiently on the user's device only**, solely for real-time operation. This information is **not stored, logged, analyzed, or transmitted** by TechxArtisan.
 
-## **Governing Law and Jurisdiction**
+## Diagnostic Information (User-Initiated)
 
-This Agreement and any disputes arising from it shall be governed by the laws and regulations of the jurisdiction where Openterface is registered, unless otherwise mandated by law. In any civil litigation or other legal proceedings to enforce rights under this Agreement, each party shall bear its own legal costs and expenses.
+The Service includes an **optional self-diagnostic tool** to assist users in identifying hardware, firmware, or connection issues.
 
-## **Contact Information**
+When explicitly initiated by the user, the diagnostic tool generates a diagnostic log **locally** on the user's device. This log may include technical information such as:
 
-For any questions or concerns regarding this Privacy Policy, please contact us at [info@techxartisan.com](mailto:info@techxartisan.com). We encourage feedback and will endeavour to address your concerns promptly.
+- Openterface device firmware version
+- Application name and version
+- Operating system type and version
+- Basic hardware environment and USB / HID / camera connection status
+
+The diagnostic information is intended solely for troubleshooting purposes.
+
+### User Control and Consent
+
+- Diagnostic logs are **not transmitted automatically**.
+- The Service may prepare a **draft email** containing the diagnostic log.
+- **The user must manually review and explicitly choose to send the email**.
+
+TechxArtisan receives diagnostic information **only if and when the user voluntarily sends it** as part of a support request.
+
+While diagnostic logs are not intended to include personal data, some system configuration details may be considered technical information related to the user's device. Such information is processed **only with the user's explicit action** and **only to diagnose and resolve reported issues**.
+
+## Third-Party Services
+
+The Service does **not** integrate with third-party analytics tools, advertising networks, tracking SDKs, or cloud data services. No user data is shared with third parties.
+
+### Purchases Through Third-Party Sellers
+
+Openterface products may be purchased through different channels, including the Openterface official website, authorized platforms (e.g., Crowd Supply, Mouser Electronics), and other authorized resellers.
+
+When you purchase through a third-party platform or reseller, your personal data (billing, shipping, payment information) is collected and processed by that seller according to their privacy policy. This Privacy Policy applies to information you provide directly to Openterface (e.g., through our website, support email, or direct purchases). For purchases made through third-party sellers, please refer to the seller's privacy policy.
+
+## Security
+
+The Service is designed to minimize data exposure by avoiding background data collection and automatic transmission.
+
+Permissions such as camera access and input monitoring are used **strictly for their stated functionality** and remain under the user's control via the operating system's permission settings at all times.
+
+Any diagnostic information voluntarily provided to TechxArtisan through user-initiated support communication is used solely to respond to the reported issue and is not retained longer than necessary for support purposes.
+
+## Open-Source and Third-Party Modifications
+
+Parts of the Service may become open source to promote transparency and community collaboration. As a result, third parties may create modified versions of the software or hardware.
+
+TechxArtisan is **not responsible** for the privacy practices, security, or behavior of third-party builds or modified versions. Users are responsible for verifying the source of the software they install.
+
+We strongly recommend downloading the Service only from the official Openterface website ([https://openterface.com](https://openterface.com)) or trusted, certified application platforms.
+
+## Changes to This Policy
+
+We may update this Privacy Policy from time to time to reflect changes in the Service, legal requirements, or operational practices. Any updates will be posted clearly on this page. Continued use of the Service after changes indicates acceptance of the revised policy.
+
+## Agreement to Privacy Policy
+
+This Privacy Policy forms an integral part of the Terms of Service. If you do not agree with any part of this policy, please do not use the Service.
+
+## Language and Prevailing Version
+
+This policy is written in English. If this policy is translated into other languages and there is any inconsistency or conflict between the English version and any translated version, the English version shall prevail and be the controlling version.
+
+## Governing Law and Jurisdiction
+
+This policy shall be governed by and construed in accordance with the laws of Hong Kong, to the maximum extent permitted by law.
+
+## Contact Information
+
+If you have any questions or concerns regarding this Privacy Policy, please contact us at:
+
+📧 [info@techxartisan.com](mailto:info@techxartisan.com)

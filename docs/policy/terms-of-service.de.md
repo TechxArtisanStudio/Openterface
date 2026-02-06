@@ -1,87 +1,122 @@
 # Nutzungsbedingungen
 
-## Übersicht
-Diese Website wird von Openterface betrieben, einem Teil von Guangzhou Billio Tech Co., Ltd. Die Begriffe "wir", "uns" und "unser" beziehen sich auf Openterface. Diese Website, einschließlich aller Informationen, Werkzeuge und Dienstleistungen, die von ihr verfügbar sind, wird Ihnen, dem Benutzer, unter der Bedingung angeboten, dass Sie alle hier dargelegten Bedingungen, Konditionen, Richtlinien und Hinweise akzeptieren.
+**(Version 2 – Februar 2026)**
 
-Durch den Zugriff auf oder die Nutzung unserer Website und/oder den Kauf bei uns nehmen Sie an unserem "Service" teil und stimmen zu, an diese Bedingungen und Konditionen gebunden zu sein, die als "Nutzungsbedingungen" oder "Bedingungen" bezeichnet werden und zusätzliche Bedingungen, Konditionen und Richtlinien enthalten, die über Hyperlink verfügbar sind. Diese Bedingungen gelten für alle Nutzer der Website, einschließlich, aber nicht beschränkt auf Browser, Anbieter, Kunden, Händler und Inhaltsbeitragsleister.
+## Überblick
 
-Bitte lesen Sie diese Nutzungsbedingungen sorgfältig durch, bevor Sie unsere Website nutzen. Durch den Zugriff auf oder die Nutzung eines Teils der Website stimmen Sie diesen Bedingungen zu. Wenn Sie mit den Bedingungen und Konditionen dieser Vereinbarung nicht einverstanden sind, sollten Sie die Website nicht aufrufen oder Dienstleistungen nutzen. Wenn diese Nutzungsbedingungen als Angebot angesehen werden, ist die Annahme ausdrücklich auf diese Bedingungen beschränkt.
+Diese Website wird von Openterface betrieben, einer Marke von TechxArtisan Limited („TechxArtisan“), die die zuvor unter Guangzhou Billio Tech Co., Ltd. durchgeführten Geschäfte übernommen hat. Die Begriffe „wir“, „uns“ und „unser“ beziehen sich auf Openterface.
 
-Neue Funktionen oder Werkzeuge, die dem aktuellen Geschäft hinzugefügt werden, fallen ebenfalls unter diese Nutzungsbedingungen. Sie können die neueste Version der Nutzungsbedingungen jederzeit auf dieser Seite einsehen. Wir können Teile dieser Bedingungen aktualisieren, ändern oder ersetzen, indem wir Updates und/oder Änderungen auf unserer Website veröffentlichen. Es liegt in Ihrer Verantwortung, diese Seite regelmäßig auf Änderungen zu überprüfen. Die fortgesetzte Nutzung oder der Zugriff auf die Website nach Änderungen impliziert die Akzeptanz dieser Änderungen.
+Diese Website, einschließlich aller darauf verfügbaren Informationen, Tools und Dienste, wird Ihnen unter der Bedingung angeboten, dass Sie alle hier genannten Bedingungen, Richtlinien und Hinweise akzeptieren, einschließlich unserer Rückgabe-, Erstattungs- und Garantierichtlinie, die durch Bezugnahme einbezogen ist.
 
-Indem Sie diesen Nutzungsbedingungen zustimmen, bestätigen Sie, dass Sie mindestens das gesetzliche Mindestalter in Ihrem Bundesstaat oder Ihrer Provinz haben. Wenn Sie das gesetzliche Mindestalter erreicht haben, haben Sie auch zugestimmt, dass Ihre minderjährigen Angehörigen diese Website nutzen dürfen. Unsere Produkte dürfen nicht für illegale oder unbefugte Zwecke verwendet werden, noch sollte der Service verwendet werden, um gegen Gesetze in Ihrer Gerichtsbarkeit, einschließlich Urheberrechtsgesetze, zu verstoßen. Es ist verboten, schädlichen Code wie Würmer, Viren oder destruktiven Code zu übertragen. Jede Verletzung dieser Bedingungen führt zur sofortigen Beendigung Ihrer Dienstleistungen.
+Durch den Zugriff auf oder die Nutzung unserer Website und/oder den Kauf von Produkten im Zusammenhang mit Openterface erklären Sie sich mit diesen Nutzungsbedingungen („Bedingungen“) einverstanden.
+
+Diese Bedingungen gelten für alle Nutzer der Website, einschließlich Besucher, Kunden, Händler und Inhaltsbeiträger.
+
+## Sprache und maßgebliche Version
+
+Diese Nutzungsbedingungen sind in Englisch verfasst. Wenn diese Bedingungen in andere Sprachen übersetzt werden und zwischen der englischen Version und einer übersetzten Version Unstimmigkeiten oder Konflikte bestehen, hat die englische Version Vorrang und ist die maßgebliche Version.
 
 ## Allgemeine Bedingungen
-Wir behalten uns das Recht vor, jedem jederzeit den Service zu verweigern. Ihre Inhalte (mit Ausnahme von Kreditkarteninformationen) können unverschlüsselt übertragen werden und können Änderungen unterliegen, um technischen Anforderungen zu entsprechen. Kreditkarteninformationen werden während der Übertragung immer verschlüsselt. Ohne unsere ausdrückliche schriftliche Genehmigung dürfen Sie keinen Teil des Services oder den Zugang zum Service reproduzieren, duplizieren, kopieren, verkaufen, weiterverkaufen oder ausnutzen. Die Überschriften in dieser Vereinbarung dienen nur der Bequemlichkeit und schränken diese Bedingungen nicht ein oder beeinflussen sie nicht.
+
+Wir behalten uns das Recht vor, den Service jederzeit aus beliebigem Grund jedem zu verweigern, soweit gesetzlich zulässig.
+
+Sie erklären sich damit einverstanden, keinen Teil des Service ohne ausdrückliche schriftliche Genehmigung zu reproduzieren, zu duplizieren, zu kopieren, zu verkaufen, weiterzuverkaufen oder auszubeuten.
 
 ## Genauigkeit, Vollständigkeit und Aktualität der Informationen
-Wir sind nicht haftbar, wenn die Informationen auf dieser Website ungenau, unvollständig oder nicht aktuell sind. Das Material auf dieser Website dient allgemeinen Informationszwecken und sollte nicht die einzige Grundlage für Entscheidungen sein. Jegliches Vertrauen auf das Material der Website erfolgt auf Ihr eigenes Risiko. Die Website kann historische Informationen nur zur Referenz enthalten. Wir können die Inhalte der Website jederzeit ändern, ohne verpflichtet zu sein, Informationen zu aktualisieren. Die Überwachung von Änderungen an unserer Website liegt in Ihrer Verantwortung.
 
-## Änderungen des Services und der Preise
-Produktpreise können ohne vorherige Ankündigung geändert werden. Wir können den Service jederzeit ohne Ankündigung ändern oder einstellen. Wir sind nicht haftbar für Änderungen des Services, Preisänderungen, Aussetzungen oder die Einstellung des Services.
+Die auf dieser Website bereitgestellten Informationen dienen nur zur allgemeinen Referenz. Wir sind nicht verantwortlich, wenn die auf dieser Website verfügbaren Informationen nicht genau, vollständig oder aktuell sind. Jede Abhängigkeit von den Materialien auf dieser Website erfolgt auf eigenes Risiko.
+
+## Änderungen am Service und Preise
+
+Die Preise für auf dieser Website angezeigte Produkte können sich ohne Vorankündigung ändern. Wir behalten uns das Recht vor, den Service (oder einen Teil davon) jederzeit ohne Vorankündigung zu ändern oder einzustellen.
 
 ## Produkte oder Dienstleistungen
-Bestimmte Produkte oder Dienstleistungen sind möglicherweise ausschließlich online verfügbar. Diese können in begrenzten Mengen verfügbar sein und unterliegen unserer Rückgabe-, Rückerstattungs- und Garantiepolitik. Wir haben uns bemüht, Produktfarben und -bilder genau darzustellen, können jedoch keine genaue Anzeige auf Ihrem Monitor garantieren. Wir behalten uns das Recht vor, Verkäufe an jede Person, geografische Region oder Gerichtsbarkeit zu beschränken und die Produktmengen zu begrenzen. Produktbeschreibungen und Preise können jederzeit ohne vorherige Ankündigung nach unserem Ermessen geändert werden. Wir können jedes Produkt jederzeit einstellen. Alle Produkt- oder Dienstleistungsangebote auf dieser Website sind ungültig, wo es verboten ist. Wir garantieren nicht, dass die Qualität der Produkte, Dienstleistungen, Informationen oder anderer Materialien, die gekauft werden, Ihren Erwartungen entspricht oder dass Servicefehler korrigiert werden.
+
+Bestimmte Produkte oder Dienstleistungen sind möglicherweise ausschließlich online verfügbar und können begrenzte Mengen haben.
+
+Alle Produkte und Dienstleistungen unterliegen unserer Rückgabe-, Erstattungs- und Garantierichtlinie, die Ersatz, Erstattungsberechtigung und Garantiebehandlung regelt. Die Behandlung von Ersatz und Erstattungen hängt vom ursprünglichen Kaufkanal ab.
+
+Openterface garantiert nicht, dass die Qualität von Produkten oder Dienstleistungen allen Erwartungen entspricht, verpflichtet sich jedoch zur Bereitstellung angemessener Ersatzunterstützung für bestätigte Hardware-Defekte, wie in unserer Richtlinie beschrieben.
+
+## Ersatz, Erstattungen und Kaufkanal
+
+Über Openterface verkaufte Produkte können über verschiedene Kanäle gekauft werden, einschließlich:
+
+- Openterface offizielle Website
+- Autorisierten Plattformen (z. B. Crowd Supply, Mouser Electronics)
+- Anderen autorisierten Wiederverkäufern
+
+- **Erstattungen** werden ausschließlich vom ursprünglichen Verkäufer bearbeitet.
+- **Ersatz-Support** wird direkt von Openterface bereitgestellt, vorbehaltlich unserer Rückgabe-, Erstattungs- und Garantierichtlinie.
+
+Ersatz und Erstattung sind sich gegenseitig ausschließende Lösungen. Sobald ein Ersatz bestätigt und versandt wurde, ist die zugehörige Bestellung nicht mehr für eine Erstattung berechtigt.
 
 ## Genauigkeit der Abrechnung und Kontoinformationen
-Wir behalten uns das Recht vor, jede Bestellung abzulehnen. Wir können die Mengen, die pro Person, Haushalt oder Bestellung gekauft werden, begrenzen oder stornieren. Diese Einschränkungen können Bestellungen durch dasselbe Kundenkonto, dieselbe Kreditkarte und/oder Bestellungen unter Verwendung derselben Rechnungs-/Lieferadresse umfassen. Wir können Sie per E-Mail, Rechnungsadresse oder Telefonnummer kontaktieren, wenn wir eine Bestellung ändern oder stornieren. Wir behalten uns das Recht vor, Bestellungen zu begrenzen oder zu verbieten, die anscheinend von Händlern, Wiederverkäufern oder Distributoren aufgegeben wurden.
 
-Sie stimmen zu, aktuelle, vollständige und genaue Kauf- und Kontoinformationen für alle Käufe bereitzustellen. Sie stimmen zu, Ihr Konto und andere Informationen, einschließlich Ihrer E-Mail-Adresse und Kreditkartennummern sowie Ablaufdaten, zu aktualisieren, um Ihre Transaktionen abzuschließen und Sie bei Bedarf zu kontaktieren.
+Für Käufe, die direkt über Openterface getätigt werden, erklären Sie sich damit einverstanden, aktuelle, vollständige und genaue Kauf- und Kontoinformationen bereitzustellen.
 
-Für weitere Details lesen Sie bitte unsere Rückgabe-, Rückerstattungs- und Garantiepolitik.
+Für Käufe über Drittplattformen oder Wiederverkäufer unterliegen Abrechnung, Zahlung, Stornierung, Erstattungsbearbeitung und damit verbundene Verpflichtungen den Richtlinien des ursprünglichen Verkäufers.
 
-## Optionale Werkzeuge
-Wir können den Zugriff auf Drittanbieter-Tools bereitstellen, über die wir keine Kontrolle oder Einfluss haben. Der Zugriff auf solche Tools erfolgt "wie sie sind" und "wie verfügbar" ohne jegliche Garantien, Zusicherungen oder Bedingungen jeglicher Art und ohne Billigung. Wir sind nicht haftbar für Ihre Nutzung optionaler Drittanbieter-Tools. Die Nutzung dieser Tools erfolgt auf Ihr eigenes Risiko und nach eigenem Ermessen, und Sie sollten sicherstellen, dass Sie mit den von den jeweiligen Drittanbietern bereitgestellten Bedingungen vertraut sind und diese akzeptieren. Neue Dienstleistungen und/oder Funktionen, einschließlich neuer Werkzeuge und Ressourcen, unterliegen ebenfalls diesen Nutzungsbedingungen.
+## Optionale Tools
 
-## Links von Drittanbietern
-Inhalte, Produkte und Dienstleistungen, die über unseren Service verfügbar sind, können Materialien von Drittanbietern enthalten. Links von Drittanbietern können Sie zu Websites führen, die nicht mit uns verbunden sind. Wir sind nicht verantwortlich für den Inhalt oder die Genauigkeit von Websites Dritter und garantieren nicht und haften nicht für Materialien, Websites oder andere Produkte oder Dienstleistungen von Drittanbietern. Wir sind nicht haftbar für Schäden oder Verluste, die im Zusammenhang mit Waren, Dienstleistungen, Ressourcen, Inhalten oder Transaktionen von Drittanbietern stehen. Überprüfen Sie die Richtlinien und Praktiken von Drittanbietern, bevor Sie Transaktionen durchführen. Beschwerden, Ansprüche, Bedenken oder Fragen zu Produkten von Drittanbietern sollten an den Drittanbieter gerichtet werden.
+Wir können Zugang zu Tools von Drittanbietern bereitstellen, die wir nicht überwachen oder kontrollieren. Die Nutzung solcher Tools erfolgt auf eigenes Risiko.
 
-## Benutzerkommentare, Feedback und andere Einreichungen
-Wenn Sie spezifische Einreichungen auf unsere Anfrage (z. B. Wettbewerbsbeiträge) senden oder unaufgefordert kreative Ideen, Vorschläge, Pläne oder andere Materialien senden, können wir ohne Einschränkung Kommentare, die Sie uns senden, bearbeiten, kopieren, veröffentlichen, verteilen, übersetzen und verwenden. Wir sind nicht verpflichtet, (1) Kommentare vertraulich zu behandeln; (2) für Kommentare eine Vergütung zu zahlen; oder (3) auf Kommentare zu antworten. Wir können Inhalte überwachen, bearbeiten oder entfernen, die als rechtswidrig, anstößig, bedrohlich, verleumderisch, diffamierend, pornografisch, obszön oder anderweitig anstößig oder die geistigen Eigentumsrechte oder diese Bedingungen verletzen. Sie stimmen zu, dass Ihre Kommentare keine Rechte Dritter verletzen, verleumderisches oder rechtswidriges Material oder Malware enthalten, die den Service beeinträchtigen. Sie sind für die Genauigkeit Ihrer Kommentare verantwortlich, und wir übernehmen keine Haftung für Kommentare, die von Ihnen oder Dritten veröffentlicht werden.
+## Links zu Drittanbietern
+
+Bestimmte über unseren Service verfügbare Inhalte, Produkte und Dienstleistungen können Materialien von Drittanbietern enthalten. Wir sind nicht verantwortlich für Websites von Drittanbietern oder über diese durchgeführte Transaktionen.
+
+Beschwerden oder Erstattungsanfragen zu Produkten, die von Drittanbietern gekauft wurden, müssen an den ursprünglichen Verkäufer gerichtet werden.
+
+## Nutzerkommentare, Feedback und andere Einreichungen
+
+Sie erklären sich damit einverstanden, dass wir Feedback oder von Ihnen bereitgestellte Einreichungen ohne Einschränkung oder Vergütung verwenden dürfen.
 
 ## Persönliche Informationen
-Ihre Einreichung persönlicher Informationen über den Shop unterliegt unserer Datenschutzrichtlinie.
 
-## Fehler, Ungenauigkeiten und Auslassungen
-Gelegentlich kann es Informationen im Service geben, die typografische Fehler, Ungenauigkeiten oder Auslassungen in Bezug auf Produktbeschreibungen, Preise, Werbeaktionen, Angebote, Versandkosten, Transitzeiten und Verfügbarkeit enthalten. Wir behalten uns das Recht vor, Fehler, Ungenauigkeiten oder Auslassungen zu korrigieren und Informationen zu ändern oder zu aktualisieren oder Bestellungen zu stornieren, wenn Informationen im Service zu irgendeinem Zeitpunkt ungenau sind, ohne vorherige Ankündigung. Es besteht keine Verpflichtung, Informationen im Service oder auf verwandten Websites, einschließlich Preisangaben, zu aktualisieren, zu ändern oder zu klären, es sei denn, dies ist gesetzlich erforderlich.
+Ihre Übermittlung persönlicher Informationen über die Website unterliegt unserer Datenschutzrichtlinie.
 
-## Verbotene Verwendungen
-Zusätzlich zu anderen in den Nutzungsbedingungen festgelegten Verboten sind Sie untersagt, die Website oder deren Inhalte für rechtswidrige Zwecke zu nutzen; andere zur Durchführung rechtswidriger Handlungen aufzufordern; gegen internationale, bundesstaatliche, staatliche oder lokale Vorschriften, Gesetze oder Verordnungen zu verstoßen; unsere oder die geistigen Eigentumsrechte anderer zu verletzen; zu belästigen, zu missbrauchen, zu beleidigen, zu schädigen, zu verleumden, zu diffamieren, zu schmähen, einzuschüchtern oder zu diskriminieren; falsche oder irreführende Informationen einzureichen; schädlichen Code hochzuladen oder zu übertragen; persönliche Informationen anderer zu sammeln oder zu verfolgen; zu spammen, zu phishen, zu pharmen, vorzutäuschen, zu spider, zu crawlen oder zu scrapen; für obszöne oder unmoralische Zwecke; oder die Sicherheitsfunktionen des Services zu stören oder zu umgehen. Wir behalten uns das Recht vor, Ihre Nutzung des Services wegen Verstoßes gegen eine der verbotenen Verwendungen zu beenden.
+## Fehler, Unrichtigkeiten und Auslassungen
+
+Wir behalten uns das Recht vor, Fehler, Unrichtigkeiten oder Auslassungen zu korrigieren und Informationen jederzeit ohne vorherige Ankündigung zu ändern oder zu aktualisieren.
+
+## Verbotene Nutzungen
+
+Es ist untersagt, die Website oder deren Inhalte für rechtswidrige Zwecke oder in Verletzung dieser Bedingungen zu nutzen.
 
 ## Haftungsausschluss; Haftungsbeschränkung
 
-Wir können nicht garantieren, dass Ihre Nutzung unseres Services ununterbrochen, zeitgerecht, sicher oder fehlerfrei sein wird. Darüber hinaus können wir nicht garantieren, dass die Ergebnisse, die Sie durch die Nutzung unseres Services erhalten, genau oder zuverlässig sind. Sie erkennen an, dass wir den Service für unbestimmte Zeit aussetzen oder den Service jederzeit ohne vorherige Ankündigung kündigen können.
+Der Service und alle über den Service bereitgestellten Produkte werden „wie besehen“ und „wie verfügbar“ bereitgestellt, sofern nicht ausdrücklich in unserer Rückgabe-, Erstattungs- und Garantierichtlinie angegeben.
 
-Ihre Nutzung des Services oder Ihre Unfähigkeit, den Service zu nutzen, erfolgt ausschließlich auf Ihr eigenes Risiko. Der Service und alle Produkte und Dienstleistungen, die Ihnen über den Service bereitgestellt werden, werden, sofern nicht ausdrücklich von uns angegeben, "wie sie sind" und "wie verfügbar" ohne jegliche Garantien oder Bedingungen jeglicher Art, weder ausdrücklich noch stillschweigend, bereitgestellt. Dies schließt alle stillschweigenden Garantien oder Bedingungen der Marktgängigkeit, Eignung für einen bestimmten Zweck oder Nichtverletzung von Rechten des geistigen Eigentums ein.
+Im größtmöglichen gesetzlich zulässigen Umfang haftet Openterface nicht für indirekte, zufällige, strafende, besondere oder Folgeschäden, die aus der Nutzung des Service oder der Produkte entstehen.
 
-Unter keinen Umständen haften Openterface, unsere Direktoren, leitenden Angestellten, Mitarbeiter, Tochtergesellschaften, Agenten, Auftragnehmer, Praktikanten, Lieferanten, Dienstleister oder Lizenzgeber für Verletzungen, Verluste, Ansprüche oder direkte, indirekte, zufällige, strafende, besondere oder Folgeschäden jeglicher Art. Dies umfasst unter anderem entgangene Gewinne, entgangene Einnahmen, entgangene Einsparungen, Datenverluste, Ersatzkosten oder ähnliche Schäden, unabhängig davon, ob sie auf Vertrag, Delikt (einschließlich Fahrlässigkeit), strenger Haftung oder anderweitig basieren, die sich aus Ihrer Nutzung des Services oder von Produkten ergeben, die über den Service bezogen wurden. Dies umfasst auch jeden anderen Anspruch, der in irgendeiner Weise mit Ihrer Nutzung des Services oder eines Produkts verbunden ist, wie Fehler oder Auslassungen in Inhalten oder Verluste oder Schäden jeglicher Art, die infolge der Nutzung des Services oder von Inhalten (oder Produkten), die über den Service bereitgestellt, übertragen oder anderweitig verfügbar gemacht wurden, entstanden sind, selbst wenn auf die Möglichkeit hingewiesen wurde. Die Haftungsbeschränkung gilt im größtmöglichen gesetzlich zulässigen Umfang in der jeweiligen Gerichtsbarkeit.
+Nichts in diesen Bedingungen schließt Rechte aus, die nach geltendem Recht nicht ausgeschlossen werden können.
 
-## Entschädigung
+## Freistellung
 
-Sie stimmen zu, Openterface und unsere Muttergesellschaft, Tochtergesellschaften, verbundenen Unternehmen, Partner, leitenden Angestellten, Direktoren, Agenten, Auftragnehmer, Lizenzgeber, Dienstleister, Subunternehmer, Lieferanten, Praktikanten und Mitarbeiter von allen Ansprüchen oder Forderungen, einschließlich angemessener Anwaltsgebühren, die von Dritten aufgrund oder im Zusammenhang mit Ihrem Verstoß gegen diese Nutzungsbedingungen, die Dokumente, die sie durch Verweis einbeziehen, oder Ihre Verletzung eines Gesetzes oder der Rechte eines Dritten erhoben werden, schadlos zu halten, zu verteidigen und freizustellen.
+Sie erklären sich damit einverstanden, Openterface von allen Ansprüchen freizustellen und schadlos zu halten, die aus Ihrer Verletzung dieser Bedingungen oder Verstoß gegen Gesetze entstehen.
 
-## Salvatorische Klausel
+## Teilbarkeit
 
-Wenn eine Bestimmung dieser Nutzungsbedingungen als rechtswidrig, nichtig oder nicht durchsetzbar erachtet wird, bleibt diese Bestimmung dennoch im größtmöglichen gesetzlich zulässigen Umfang durchsetzbar. Der nicht durchsetzbare Teil wird als von diesen Nutzungsbedingungen getrennt betrachtet, jedoch hat diese Feststellung keine Auswirkungen auf die Gültigkeit und Durchsetzbarkeit anderer verbleibender Bestimmungen.
+Wenn eine Bestimmung dieser Bedingungen als nicht durchsetzbar erachtet wird, bleiben die übrigen Bestimmungen in vollem Umfang in Kraft.
 
-## Kündigung
+## Beendigung
 
-Die Verpflichtungen und Haftungen der Parteien, die vor dem Kündigungsdatum entstanden sind, überdauern die Beendigung dieser Vereinbarung zu allen Zwecken. Diese Nutzungsbedingungen sind wirksam, es sei denn, sie werden von Ihnen oder uns gekündigt. Sie können diese Nutzungsbedingungen jederzeit kündigen, indem Sie uns mitteilen, dass Sie unsere Dienstleistungen nicht mehr nutzen möchten, oder indem Sie die Nutzung unserer Website einstellen.
+Diese Bedingungen bleiben wirksam, sofern sie nicht von Ihnen oder uns gekündigt werden. Wir können den Zugang beenden, wenn Sie gegen diese Bedingungen verstoßen.
 
-Wir können diese Vereinbarung jederzeit ohne Vorankündigung kündigen, wenn wir nach unserem alleinigen Ermessen feststellen, dass Sie nicht oder wir den Verdacht haben, dass Sie nicht mit einer Bestimmung oder Bedingung dieser Nutzungsbedingungen übereingestimmt haben. In einem solchen Fall bleiben Sie für alle bis zum Kündigungsdatum fälligen Beträge verantwortlich; und wir können Ihnen den Zugang zu unseren Dienstleistungen (oder einem Teil davon) verweigern.
+## Gesamtvereinbarung
 
-## Gesamte Vereinbarung
-
-Unser Versäumnis, ein Recht oder eine Bestimmung dieser Nutzungsbedingungen auszuüben oder durchzusetzen, stellt keinen Verzicht auf dieses Recht oder diese Bestimmung dar. Diese Nutzungsbedingungen und alle von uns auf dieser Website oder in Bezug auf den Service veröffentlichten Richtlinien oder Betriebsregeln stellen die gesamte Vereinbarung und das gesamte Verständnis zwischen Ihnen und uns dar und regeln Ihre Nutzung des Services. Dies ersetzt alle vorherigen oder gleichzeitigen Vereinbarungen, Mitteilungen und Vorschläge, ob mündlich oder schriftlich, zwischen Ihnen und uns (einschließlich, aber nicht beschränkt auf alle vorherigen Versionen der Nutzungsbedingungen). Unklarheiten bei der Auslegung dieser Nutzungsbedingungen dürfen nicht gegen die verfassende Partei ausgelegt werden.
+Diese Bedingungen bilden zusammen mit unserer Rückgabe-, Erstattungs- und Garantierichtlinie sowie unserer Datenschutzrichtlinie die gesamte Vereinbarung zwischen Ihnen und Openterface bezüglich der Nutzung des Service.
 
 ## Anwendbares Recht
 
-Diese Nutzungsbedingungen und alle separaten Vereinbarungen, durch die wir Ihnen Dienstleistungen bereitstellen, unterliegen den Gesetzen der Volksrepublik China und sind in Übereinstimmung mit diesen auszulegen.
+Diese Bedingungen unterliegen den Gesetzen der Volksrepublik China und werden entsprechend ausgelegt.
 
 ## Änderungen der Nutzungsbedingungen
 
-Sie können die aktuellste Version der Nutzungsbedingungen jederzeit auf dieser Seite einsehen. Wir behalten uns das Recht vor, nach unserem alleinigen Ermessen, Teile dieser Nutzungsbedingungen zu aktualisieren, zu ändern oder zu ersetzen, indem wir Updates und Änderungen auf unserer Website veröffentlichen. Es liegt in Ihrer Verantwortung, unsere Website regelmäßig auf Änderungen zu überprüfen. Ihre fortgesetzte Nutzung oder der Zugriff auf unsere Website oder den Service nach der Veröffentlichung von Änderungen an diesen Nutzungsbedingungen stellt die Akzeptanz dieser Änderungen dar.
+Wir behalten uns das Recht vor, jeden Teil dieser Bedingungen jederzeit zu aktualisieren oder zu ersetzen. Die fortgesetzte Nutzung des Service gilt als Akzeptanz solcher Änderungen.
 
 ## Kontaktinformationen
 
-Bei Fragen zu den Nutzungsbedingungen kontaktieren Sie uns bitte unter [info@techxartisan.com](mailto:info@techxartisan.com).
+Bei Fragen zu diesen Bedingungen wenden Sie sich bitte an:
+
+📧 [info@techxartisan.com](mailto:info@techxartisan.com)

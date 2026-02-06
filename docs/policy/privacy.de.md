@@ -1,36 +1,107 @@
 # Datenschutzrichtlinie
 
-Diese Datenschutzrichtlinie gilt für das “Openterface” Mini-KVM-Gerät und die zugehörige macOS-Anwendung (gemeinsam als “Dienst” bezeichnet), die von Guangzhou Billio Tech. Co., Ltd. entwickelt und betrieben wird. Durch die Nutzung unseres Dienstes stimmen Sie der Erhebung und Verwendung von Informationen gemäß dieser Richtlinie zu. Wenn Sie mit einem Teil dieser Richtlinie nicht einverstanden sind, verwenden Sie bitte keine angebotenen Produkte und Dienstleistungen.
+**(Version 2 – Februar 2026)**
 
-## **Datenerhebung und -nutzung**
+Diese Datenschutzrichtlinie gilt für die Openterface-Website, Openterface-Hardwaregeräte und die zugehörigen Anwendungen (zusammenfassend der „Dienst“), die von **TechxArtisan Limited** („TechxArtisan“) entwickelt und betrieben werden. Openterface ist eine Marke von TechxArtisan.
 
-Wir verpflichten uns, Ihre Privatsphäre zu schützen. Unser Dienst erhebt, speichert oder überträgt zu keinem Zeitpunkt persönliche Daten bei der Nutzung unserer App. Für den effektiven Betrieb unseres Dienstes - die Fernsteuerung Ihres Computers über das Openterface-Gerät und die App - benötigen wir Zugriff auf bestimmte Arten von nicht-personalen Daten:
+Durch die Nutzung des Dienstes erklären Sie sich mit der Erhebung und Verwendung von Informationen gemäß dieser Richtlinie einverstanden. Wenn Sie mit einem Teil dieser Richtlinie nicht einverstanden sind, verwenden Sie den Dienst bitte nicht.
 
-1. **Kamerazugriff**: Wir benötigen Kameraberechtigungen, um den Video-Feed von Ihrem remote verbundenen Computer zu erfassen. Dies ist entscheidend, um den Feed auf Ihrem Gerät über die Openterface-Anwendung anzuzeigen.
-2. **Tastatur- und Mausereignisdaten**: Um die Funktionen der Fernsteuerung zu ermöglichen, benötigen wir Berechtigungen, um lokale Tastatur- und Mausereignisse zu überwachen. Diese Daten werden ausschließlich verwendet, um diese Ereignisse in Steuersignale für das Zielgerät umzuwandeln, das über unsere Hardware verbunden ist.
+## Über die Website erhobene Informationen
 
-Bitte beachten Sie, dass die oben genannten Daten als nicht-personal betrachtet werden, da sie Sie nicht direkt als Individuum identifizieren. Die Berechtigungen, die wir anfordern, sind ausschließlich erforderlich, um die Kernfunktionalität zu ermöglichen. Daten werden auch niemals außerhalb Ihres Geräts gespeichert oder übertragen.
+Wenn Sie mit der Openterface-Website interagieren, können wir Informationen erheben, die Sie freiwillig bereitstellen:
 
-## **Sicherheit**
+- **Kontaktformulare** — Name, E-Mail-Adresse und jede Nachricht, die Sie bei der Kontaktaufnahme übermitteln.
+- **Support-E-Mail** — Wenn Sie uns eine Support-E-Mail senden (z. B. an info@techxartisan.com), erhalten und verarbeiten wir den Inhalt Ihrer Nachricht und alle von Ihnen angegebenen Informationen.
+- **Newsletter-Anmeldung** — E-Mail-Adresse und alle Präferenzen, die Sie bei der Anmeldung zu unserem Newsletter angeben.
+- **Website-Analysen (mit Einwilligung)** — Wenn Sie unsere Website besuchen und unserer Cookie-Einwilligung zustimmen, verwenden wir Google Analytics 4 (GA4), um Informationen über Ihren Besuch zu erfassen, z. B. wie Sie uns gefunden haben, welche Seiten Sie ansehen, welche Buttons oder Links Sie klicken, und allgemeine Verkehrsdaten (z. B. Gerätetyp, Browser, ungefährer Standort). Dies hilft uns zu verstehen, wie Besucher unsere Website nutzen und sie zu verbessern. GA4-Daten werden von Google gemäß deren Datenschutzrichtlinie verarbeitet. Sie können Ihre Einwilligung jederzeit über unsere Cookie-Einstellungen oder Ihre Browsereinstellungen widerrufen.
 
-Da keine Erhebung oder Speicherung von Benutzerdaten zu irgendeinem Zeitpunkt erfolgt, sind Sicherheitsmaßnahmen zum Schutz von Benutzerdaten in unserem Fall nicht anwendbar. Unsere App birgt keine Datenschutzrisiken, die in ihrer beabsichtigten Funktionalität inhärent sind.
+Diese Informationen werden ausschließlich zur Beantwortung Ihrer Anfragen, zur Support-Bereitstellung, zum Versand von Newslettern auf Anfrage oder (bei Analysen) zur Verbesserung unserer Website verwendet. Wir verwenden sie nicht für Marketing über Ihre Einwilligung hinaus und geben sie nicht an Dritte für deren Marketingzwecke weiter.
 
-## **Haftungsausschluss**
+## Datenerhebung und -verwendung
 
-Der Dienst könnte in Zukunft Open Source werden, um Transparenz und Gemeinschaftsaufsicht zu gewährleisten. Infolgedessen können verschiedene Versionen der App und des Geräts von Dritten erstellt und modifiziert werden. Dies würde es jedem ermöglichen, den Code zu inspizieren und Versionen selbst zu erstellen sowie für benutzerdefinierte Anwendungsfälle zu modifizieren. Wir sind nicht verantwortlich für das, was Einzelpersonen oder Organisationen aus modifiziertem Code und Hardware erstellen. Es liegt in der Verantwortung des Benutzers, die Quelle der Anwendung zu überprüfen. Wir empfehlen dringend, die App von unserer offiziellen Website openterface.com und von bekannten, zuverlässigen zertifizierten App-Plattformen herunterzuladen, um Sicherheit und Zuverlässigkeit zu gewährleisten.
+TechxArtisan verpflichtet sich zum Schutz der Privatsphäre der Nutzer. Der Dienst ist für einen **Offline-First**-Betrieb konzipiert und **erhebt, speichert, überträgt oder verarbeitet keine** Benutzerdaten im Hintergrund.
 
-## **Änderungen an dieser Richtlinie**
+Der Dienst **erfordert keine** Benutzerkonten, Cloud-Konnektivität, Analysen oder Werbedienste.
 
-Wir können diese Datenschutzrichtlinie gelegentlich aktualisieren, um Änderungen der Gesetze zu entsprechen oder Aktualisierungen unserer Anwendung widerzuspiegeln. Alle Änderungen werden klar auf dieser Seite veröffentlicht. Die fortgesetzte Nutzung von Openterface nach Änderungen bedeutet die Zustimmung zur überarbeiteten Datenschutzrichtlinie.
+### Berechtigungen für Kernfunktionen
 
-## **Zustimmung zur Datenschutzrichtlinie**
+Um die vorgesehene Funktionalität des Dienstes bereitzustellen – Anzeige der Videoausgabe von und Steuerung eines verbundenen Zielgeräts – benötigt die Anwendung Zugriff auf Folgendes:
 
-Durch die Zustimmung zu unserem Nutzungsvereinbarung stimmen Sie auch dieser Datenschutzrichtlinie zu. Diese Datenschutzrichtlinie ist ein integraler Bestandteil unserer Nutzungsvereinbarung. Wenn Sie mit einem Teil dieser Richtlinie nicht einverstanden sind, verwenden Sie bitte unseren Dienst nicht.
+1. **Kamerazugriff**
+   Wird ausschließlich zum Erfassen und Anzeigen des Videofeeds vom verbundenen Zielsystem über Openterface-Hardware verwendet.
 
-## **Sprache und Auslegung**
+2. **Zugriff auf Tastatur- und Mauseingaben**
+   Wird ausschließlich verwendet, um lokale Eingabeereignisse in Steuersignale umzuwandeln, die an das verbundene Zielgerät gesendet werden.
 
-Diese Vereinbarung wurde aus Bequemlichkeit in mehreren Sprachen bereitgestellt. Es wird vereinbart, dass die Arbeitssprache des Unternehmens sowohl Englisch als auch Chinesisch ist. Im Falle von Unstimmigkeiten zwischen der englischen und den nicht-englischen Versionen dieser Richtlinie oder verwandter Dokumente hat die englische Version Vorrang. Die endgültige Auslegung dieser Richtlinie erfolgt in Englisch.
+Alle diese Daten werden **nur lokal und vorübergehend auf dem Gerät des Nutzers** verarbeitet, ausschließlich für den Echtzeitbetrieb. Diese Informationen werden von TechxArtisan **nicht gespeichert, protokolliert, analysiert oder übertragen**.
 
-## **Ansprechpartner**
+## Diagnoseinformationen (nutzerinitiiert)
 
-Bei Fragen oder Bedenken zu dieser Datenschutzrichtlinie kontaktieren Sie uns bitte unter [info@techxartisan.com](mailto:info@techxartisan.com). Wir freuen uns über Ihr Feedback und werden uns bemühen, Ihre Anliegen umgehend zu klären.
+Der Dienst enthält ein **optionales Selbstdiagnosetool**, um Nutzern bei der Identifizierung von Hardware-, Firmware- oder Verbindungsproblemen zu helfen.
+
+Wenn der Nutzer es ausdrücklich startet, erstellt das Diagnosetool **lokal** auf dem Gerät des Nutzers ein Diagnoseprotokoll. Dieses Protokoll kann technische Informationen enthalten wie:
+
+- Openterface-Geräte-Firmware-Version
+- Anwendungsname und -version
+- Betriebssystemtyp und -version
+- Grundlegende Hardwareumgebung und USB-/HID-/Kameraverbindungsstatus
+
+Die Diagnoseinformationen dienen ausschließlich der Fehlerbehebung.
+
+### Nutzerkontrolle und Einwilligung
+
+- Diagnoseprotokolle werden **nicht automatisch übertragen**.
+- Der Dienst kann eine **E-Mail-Entwurf** mit dem Diagnoseprotokoll vorbereiten.
+- **Der Nutzer muss die E-Mail manuell prüfen und ausdrücklich zum Senden auswählen**.
+
+TechxArtisan erhält Diagnoseinformationen **nur dann und wenn der Nutzer sie freiwillig** als Teil einer Support-Anfrage sendet.
+
+Obwohl Diagnoseprotokolle keine personenbezogenen Daten enthalten sollen, können einige Systemkonfigurationsdetails als technische Informationen in Bezug auf das Gerät des Nutzers angesehen werden. Solche Informationen werden **nur bei ausdrücklicher Aktion des Nutzers** und **nur zur Diagnose und Behebung gemeldeter Probleme** verarbeitet.
+
+## Drittanbieterdienste
+
+Der Dienst **integriert keine** Drittanbieter-Analysetools, Werbenetzwerke, Tracking-SDKs oder Cloud-Datendienste. Es werden keine Nutzerdaten an Dritte weitergegeben.
+
+### Käufe über Drittanbieterverkäufer
+
+Openterface-Produkte können über verschiedene Kanäle erworben werden, darunter die offizielle Openterface-Website, autorisierte Plattformen (z. B. Crowd Supply, Mouser Electronics) und andere autorisierte Händler.
+
+Wenn Sie über eine Drittanbieter-Plattform oder einen Händler kaufen, werden Ihre personenbezogenen Daten (Rechnungs-, Versand-, Zahlungsinformationen) von diesem Verkäufer gemäß dessen Datenschutzrichtlinie erhoben und verarbeitet. Diese Datenschutzrichtlinie gilt für Informationen, die Sie direkt an Openterface übermitteln (z. B. über unsere Website, Support-E-Mail oder Direktkäufe). Bei Käufen über Drittanbieterverkäufer beachten Sie bitte die Datenschutzrichtlinie des Verkäufers.
+
+## Sicherheit
+
+Der Dienst ist darauf ausgelegt, die Datenexposition durch Vermeidung von Hintergrunddatenerhebung und automatischer Übertragung zu minimieren.
+
+Berechtigungen wie Kamerazugriff und Eingabeüberwachung werden **streng für ihre angegebene Funktionalität** verwendet und bleiben jederzeit über die Berechtigungseinstellungen des Betriebssystems unter der Kontrolle des Nutzers.
+
+Alle Diagnoseinformationen, die TechxArtisan freiwillig über nutzerinitiierte Support-Kommunikation zur Verfügung gestellt werden, werden ausschließlich zur Beantwortung des gemeldeten Problems verwendet und nicht länger als für Support-Zwecke erforderlich aufbewahrt.
+
+## Open-Source und Drittanbieter-Modifikationen
+
+Teile des Dienstes können Open Source werden, um Transparenz und Community-Zusammenarbeit zu fördern. Infolgedessen können Dritte modifizierte Versionen der Software oder Hardware erstellen.
+
+TechxArtisan ist **nicht verantwortlich** für die Datenschutzpraktiken, Sicherheit oder das Verhalten von Drittanbieter-Builds oder modifizierten Versionen. Nutzer sind verantwortlich für die Überprüfung der Quelle der von ihnen installierten Software.
+
+Wir empfehlen dringend, den Dienst nur von der offiziellen Openterface-Website ([https://openterface.com](https://openterface.com)) oder vertrauenswürdigen, zertifizierten Anwendungsplattformen herunterzuladen.
+
+## Änderungen dieser Richtlinie
+
+Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren, um Änderungen am Dienst, gesetzliche Anforderungen oder betriebliche Praktiken widerzuspiegeln. Alle Aktualisierungen werden auf dieser Seite deutlich veröffentlicht. Die fortgesetzte Nutzung des Dienstes nach Änderungen gilt als Akzeptanz der überarbeiteten Richtlinie.
+
+## Vereinbarung zur Datenschutzrichtlinie
+
+Diese Datenschutzrichtlinie bildet einen integralen Bestandteil der Nutzungsbedingungen. Wenn Sie mit einem Teil dieser Richtlinie nicht einverstanden sind, verwenden Sie den Dienst bitte nicht.
+
+## Sprache und maßgebliche Version
+
+Diese Richtlinie ist in Englisch verfasst. Wenn diese Richtlinie in andere Sprachen übersetzt wird und zwischen der englischen Version und einer übersetzten Version Unstimmigkeiten oder Konflikte bestehen, hat die englische Version Vorrang und ist die maßgebliche Version.
+
+## Anwendbares Recht und Gerichtsstand
+
+Diese Richtlinie unterliegt den Gesetzen von Hongkong und wird entsprechend ausgelegt, soweit gesetzlich zulässig.
+
+## Kontaktinformationen
+
+Bei Fragen oder Bedenken zu dieser Datenschutzrichtlinie kontaktieren Sie uns bitte unter:
+
+📧 [info@techxartisan.com](mailto:info@techxartisan.com)
