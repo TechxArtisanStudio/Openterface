@@ -336,5 +336,10 @@ nav:
     - Reviews & Media: about/media.md
     - Bulk Orders: about/bulk_orders.md
     - For Enterprise: about/enterprise.md
+    - Policy:
+      - Overview: policy/index.md
+      - Privacy: policy/privacy.md
+      - Terms of Service: policy/terms-of-service.md
+      - Return, Refunds & Warranty: policy/return-refunds-warranty.md
     - Public Holidays: about/public-holidays.md
     - About Us: about/about-us.md
