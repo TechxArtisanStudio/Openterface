@@ -32,7 +32,7 @@ keywords: "KVM-Go, KVM over USB, 초소형 KVM, 내장 HDMI, 키체인 KVM, 4K K
     <span class="funding-amount">$88,253</span>
     <span class="funding-text">2025년 12월 30일 펀딩 완료</span>
     <span class="funding-separator">|</span>
-    <span class="funding-backers"><span class="funding-backers-count">372</span> <span>후원자</span></span>
+    <span class="funding-backers"><span class="funding-backers-count">374</span> <span>후원자</span></span>
   </div>
 </div>
 
