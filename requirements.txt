@@ -1,5 +1,6 @@
 mkdocs-material[imaging]
 mkdocs-glightbox
+mkdocs-mermaid2-plugin
 mkdocs-redirects
 mkdocs-static-i18n
 # mkdocs-awesome-nav
