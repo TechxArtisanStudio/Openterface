@@ -1,31 +1,5 @@
 {% extends "base.html" %}
 
-{% block announce %}
-  {% set ann_locale = page.locale or config.theme.language or (page.url.split('/')[1] if page and page.url and page.url.split('/')[1] in ['de', 'es', 'fr', 'it', 'ja', 'ko', 'pt', 'ro', 'zh'] else 'en') %}
-  {% set ann_link = 'about/public-holidays/' | url %}
-  {% if ann_locale == 'de' %}
-    <strong>Chinesisches Neujahr:</strong> Unser Büro ist während des <a href="{{ ann_link }}">Frühlingsfests</a> (15.–23. Feb. 2026) geschlossen. Der Support kann vor und während der Feiertage langsamer sein. Vielen Dank für Ihr Verständnis!
-  {% elif ann_locale == 'es' %}
-    <strong>Año Nuevo Chino:</strong> Nuestra oficina permanecerá cerrada durante el <a href="{{ ann_link }}">Festival de Primavera</a> (15–23 feb. 2026). El soporte puede ser más lento al acercarse las fechas y durante las vacaciones. ¡Gracias por su comprensión!
-  {% elif ann_locale == 'fr' %}
-    <strong>Nouvel An chinois :</strong> Notre bureau sera fermé pendant la <a href="{{ ann_link }}">Fête du Printemps</a> (15–23 févr. 2026). Le support peut être plus lent à l'approche et pendant les vacances. Merci de votre compréhension !
-  {% elif ann_locale == 'it' %}
-    <strong>Capodanno cinese:</strong> Il nostro ufficio sarà chiuso durante la <a href="{{ ann_link }}">Festa di Primavera</a> (15–23 feb. 2026). Il supporto può essere più lento in prossimità e durante le festività. Grazie per la comprensione!
-  {% elif ann_locale == 'ja' %}
-    <strong>旧正月：</strong> <a href="{{ ann_link }}">春節</a>期間（2026年2月15日〜23日）はオフィス休業となります。休暇前後はサポート対応が遅くなる場合があります。ご理解のほどよろしくお願いいたします。
-  {% elif ann_locale == 'ko' %}
-    <strong>설날:</strong> <a href="{{ ann_link }}">춘절</a> 기간(2026년 2월 15–23일) 동안 사무실이 휴무입니다. 휴가 전후로 지원 응답이 느려질 수 있습니다. 양해 부탁드립니다.
-  {% elif ann_locale == 'pt' %}
-    <strong>Ano Novo Chinês:</strong> Nosso escritório permanecerá fechado durante o <a href="{{ ann_link }}">Festival da Primavera</a> (15–23 fev. 2026). O suporte pode ser mais lento à medida que as férias se aproximam e durante o período. Agradecemos sua compreensão!
-  {% elif ann_locale == 'ro' %}
-    <strong>Anul Nou Chinezesc:</strong> Biroul nostru va fi închis în timpul <a href="{{ ann_link }}">Festivalului Primăverii</a> (15–23 feb. 2026). Suportul poate fi mai lent pe măsură ce se apropie sărbătorile și în timpul acestora. Vă mulțumim pentru înțelegere!
-  {% elif ann_locale == 'zh' %}
-    <strong>春节假期：</strong> <a href="{{ ann_link }}">春节</a>期间（2026年2月15日至23日）办公室将休息。假期前后支持响应可能较慢，敬请理解。
-  {% else %}
-    <strong>Chinese New Year holiday:</strong> Our office will be closed during the <a href="{{ ann_link }}">Spring Festival</a> (Feb 15–23, 2026). Support may be slower as the holiday approaches and during the break. We appreciate your understanding!
-  {% endif %}
-{% endblock %}
-
 {% block extrahead %}
   <link rel="stylesheet" href="{{ 'assets/stylesheets/custom.css' | url }}">
   <link rel="stylesheet" href="{{ 'assets/stylesheets/signup_form.css' | url }}">
