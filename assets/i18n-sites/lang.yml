@@ -68,6 +68,7 @@
     Contributing: 参与贡献
     Tech Support: 技术支持
     "Keyboard and Mouse Control": 键盘和鼠标控制
+    "Support & Troubleshooting": 支持与故障排查
     "Diagnostic Self-Check Guide": 诊断自检指南
     "Diagnostic Self-Check Guide (macOS)": 诊断自检指南（macOS）
     "Diagnostic Self-Check Guide (Windows)": 诊断自检指南（Windows）
@@ -151,6 +152,7 @@
     Contributing: 貢献
     Tech Support: テクニカルサポート
     "Keyboard and Mouse Control": キーボードとマウスの制御
+    "Support & Troubleshooting": サポートとトラブルシューティング
     "Diagnostic Self-Check Guide": 診断セルフチェックガイド
     "Diagnostic Self-Check Guide (macOS)": 診断セルフチェックガイド（macOS）
     "Diagnostic Self-Check Guide (Windows)": 診断セルフチェックガイド（Windows）
@@ -234,6 +236,7 @@
     Contributing: 기여하기
     Tech Support: 기술 지원
     "Keyboard and Mouse Control": 키보드 및 마우스 제어
+    "Support & Troubleshooting": 지원 및 문제 해결
     "Diagnostic Self-Check Guide": 진단 자가 점검 가이드
     "Diagnostic Self-Check Guide (macOS)": 진단 자가 점검 가이드 (macOS)
     "Diagnostic Self-Check Guide (Windows)": 진단 자가 점검 가이드 (Windows)
@@ -317,6 +320,7 @@
     Contributing: Contribuer
     Tech Support: "Support Technique"
     "Keyboard and Mouse Control": "Contrôle du clavier et de la souris"
+    "Support & Troubleshooting": "Support et dépannage"
     "Diagnostic Self-Check Guide": "Guide d'auto-diagnostic"
     "Diagnostic Self-Check Guide (macOS)": "Guide d'auto-diagnostic (macOS)"
     "Diagnostic Self-Check Guide (Windows)": "Guide d'auto-diagnostic (Windows)"
@@ -400,6 +404,7 @@
     Contributing: Mitwirken
     Tech Support: "Technischer Support"
     "Keyboard and Mouse Control": "Tastatur- und Maussteuerung"
+    "Support & Troubleshooting": "Support & Fehlerbehebung"
     "Diagnostic Self-Check Guide": "Diagnose-Selbstprüfungsanleitung"
     "Diagnostic Self-Check Guide (macOS)": "Diagnose-Selbstprüfungsanleitung (macOS)"
     "Diagnostic Self-Check Guide (Windows)": "Diagnose-Selbstprüfungsanleitung (Windows)"
@@ -483,6 +488,7 @@
     Contributing: Contribuire
     Tech Support: "Support Tecnico"
     "Keyboard and Mouse Control": "Controllo tastiera e mouse"
+    "Support & Troubleshooting": "Supporto e risoluzione problemi"
     "Diagnostic Self-Check Guide": "Guida all'autodiagnosi"
     "Diagnostic Self-Check Guide (macOS)": "Guida all'autodiagnosi (macOS)"
     "Diagnostic Self-Check Guide (Windows)": "Guida all'autodiagnosi (Windows)"
@@ -566,6 +572,7 @@
     Contributing: Contribuir
     Tech Support: "Soporte Técnico"
     "Keyboard and Mouse Control": "Control de teclado y mouse"
+    "Support & Troubleshooting": "Soporte y solución de problemas"
     "Diagnostic Self-Check Guide": "Guía de autodiagnóstico"
     "Diagnostic Self-Check Guide (macOS)": "Guía de autodiagnóstico (macOS)"
     "Diagnostic Self-Check Guide (Windows)": "Guía de autodiagnóstico (Windows)"
@@ -649,6 +656,7 @@
     Contributing: Contribuindo
     Tech Support: "Suporte Técnico"
     "Keyboard and Mouse Control": "Controle de teclado e mouse"
+    "Support & Troubleshooting": "Suporte e solução de problemas"
     "Diagnostic Self-Check Guide": "Guia de autodiagnóstico"
     "Diagnostic Self-Check Guide (macOS)": "Guia de autodiagnóstico (macOS)"
     "Diagnostic Self-Check Guide (Windows)": "Guia de autodiagnóstico (Windows)"
@@ -732,6 +740,7 @@
     Contributing: Contribuții
     Tech Support: "Suport Tehnic"
     "Keyboard and Mouse Control": "Control tastatură și mouse"
+    "Support & Troubleshooting": "Suport și depanare"
     "Diagnostic Self-Check Guide": "Ghid de autodiagnosticare"
     "Diagnostic Self-Check Guide (macOS)": "Ghid de autodiagnosticare (macOS)"
     "Diagnostic Self-Check Guide (Windows)": "Ghid de autodiagnosticare (Windows)"
