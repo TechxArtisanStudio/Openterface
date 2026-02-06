@@ -13,6 +13,8 @@ keywords: "KeyMod, HIDエミュレーター, スマホキーボード, Bluetooth
   <div class="slogan-subtitle">テック、プロフェッショナル、ゲーミング向けのプログラマブルなキーボードとマウス制御。</div>
 </div>
 
+{% include "partials/product-signup.html" %}
+
 2024年[Mini-KVM](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm)と2025年[KVM-GO](https://www.crowdsupply.com/techxartisan/openterface-kvm-go)キャンペーンの成功に続き、新しい日常制御ツールを発表します：**Openterface KeyMod**。
 
 コンパクトでプログラマブルな**USB + Bluetooth** HID（キーボードとマウス）エミュレーター、KeyModはスマートフォンをポータブルキーボードとトラックパッドコンソールに変え、迅速なローカル制御とワークフローショートカットを実現します。Openterface Mini-KVMの実績あるHIDコアを基盤とし、プラグアンドプレイ、100%オープンソースです。

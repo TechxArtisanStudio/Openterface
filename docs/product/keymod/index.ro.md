@@ -13,6 +13,8 @@ keywords: "KeyMod, emulator HID, tastatură telefon, tastatură Bluetooth, tasta
   <div class="slogan-subtitle">Control tastatură și mouse programabil pentru tech, profesioniști și gaming.</div>
 </div>
 
+{% include "partials/product-signup.html" %}
+
 După succesul campaniilor noastre din 2024 [Mini-KVM](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) și 2025 [KVM-GO](https://www.crowdsupply.com/techxartisan/openterface-kvm-go), revenim cu un nou tip de instrument de control zilnic: **Openterface KeyMod**.
 
 Un emulator HID (tastatură și mouse) compact și programabil **USB + Bluetooth**, KeyMod transformă telefonul într-o consolă tastatură și trackpad portabile pentru control local rapid și shortcut-uri de flux de lucru. Construit pe nucleul HID dovedit al Openterface Mini-KVM, este plug and play, 100% open source.

@@ -13,6 +13,8 @@ keywords: "KeyMod, HID-Emulator, Smartphone-Tastatur, Bluetooth-Tastatur, USB-Ta
   <div class="slogan-subtitle">Programmierbare Tastatur- und Maussteuerung für Technik, Profis und Gaming.</div>
 </div>
 
+{% include "partials/product-signup.html" %}
+
 Nach dem Erfolg unserer 2024 [Mini-KVM](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm)- und 2025 [KVM-GO](https://www.crowdsupply.com/techxartisan/openterface-kvm-go)-Kampagnen präsentieren wir ein neues Alltagskontrollwerkzeug: **Openterface KeyMod**.
 
 Ein kompakter, programmierbarer **USB + Bluetooth** HID-Emulator (Tastatur und Maus), der Ihr Smartphone in eine tragbare Tastatur- und Trackpad-Konsole für schnelle lokale Steuerung und Workflow-Verknüpfungen verwandelt. Basiert auf dem bewährten HID-Kern von Openterface Mini-KVM, ist es Plug-and-Play und 100 % Open Source.

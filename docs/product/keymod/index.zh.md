@@ -13,6 +13,8 @@ keywords: "KeyMod, HID 模拟器, 手机键盘, 蓝牙键盘, USB 键盘, 便携
   <div class="slogan-subtitle">面向技术、专业人士和游戏的可编程键盘和鼠标控制。</div>
 </div>
 
+{% include "partials/product-signup.html" %}
+
 继 2024 年 [Mini-KVM](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) 和 2025 年 [KVM-GO](https://www.crowdsupply.com/techxartisan/openterface-kvm-go) 活动成功后，我们带来了一款新的日常控制工具：**Openterface KeyMod**。
 
 KeyMod 是一款紧凑、可编程的 **USB + 蓝牙** HID（键盘和鼠标）模拟器，可将您的手机变成便携式键盘和触控板控制台，实现快速本地控制和工作流快捷方式。基于 Openterface Mini-KVM 的成熟 HID 核心构建，即插即用，100% 开源。

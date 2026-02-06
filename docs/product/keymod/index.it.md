@@ -13,6 +13,8 @@ keywords: "KeyMod, emulatore HID, tastiera telefono, tastiera Bluetooth, tastier
   <div class="slogan-subtitle">Controllo tastiera e mouse programmabile per tech, professionisti e gaming.</div>
 </div>
 
+{% include "partials/product-signup.html" %}
+
 Dopo il successo delle nostre campagne 2024 [Mini-KVM](https://www.crowdsupply.com/techxartisan/openterface-mini-kvm) e 2025 [KVM-GO](https://www.crowdsupply.com/techxartisan/openterface-kvm-go), torniamo con un nuovo tipo di strumento di controllo quotidiano: **Openterface KeyMod**.
 
 Un emulatore HID (tastiera e mouse) compatto e programmabile **USB + Bluetooth**, KeyMod trasforma il tuo telefono in una console tastiera e trackpad portatili per controllo locale rapido e scorciatoie di flusso di lavoro. Costruito sul collaudato nucleo HID di Openterface Mini-KVM, è plug and play, 100% open source.
