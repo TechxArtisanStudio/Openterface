@@ -8,6 +8,37 @@ keywords: "KeyMod keyboard, KeyMod mouse, touchpad, modifier keys, keyboard shor
 
 The Keyboard & Mouse mode is the most frequently used mode. It provides a virtual keyboard and touchpad for controlling the target computer from your phone.
 
+## Two Tiers: Basic and Pro
+
+KeyMod offers two keyboard experiences:
+
+| Tier | Mode name | Best for |
+|---|---|---|
+| **Basic** | Keyboard & Mouse | Quick typing with a full-screen keyboard, no header distraction |
+| **Pro** | Keyboard & Mouse Pro | Full composite layout with Shortcut Hub strips, split keyboard, and rich IME |
+
+### Keyboard & Mouse (Basic)
+
+The **Basic** tier gives you a **dedicated full-screen keyboard** without the app's top header. All controls live on the keyboard's own top row:
+
+- Menu, mode switching (Touchpad / Compose & Send / Num pad)
+- Target OS selector
+- Connection status
+
+**Features unique to Basic:**
+
+- **Long-press repeat**: hold any character or function key for auto-repeat (~400ms delay, ~50ms repeat)
+- **Key preview**: a floating bubble shows the effective label above the key when pressed
+- **Haptic feedback** and **theme-aware** key surfaces
+- **Portrait and landscape numpad**: 5x8 grid (portrait) or 8x5 grid (landscape)
+- **IME compose mode**: type long text, send as clean ASCII-only HID keystrokes
+
+> Basic does **not** include Shortcut Hub strip rows. For strip profiles, switch to **Keyboard & Mouse Pro**.
+
+### Keyboard & Mouse Pro
+
+**Pro** is the full composite experience: Shortcut Hub strip rows, split keyboard layouts, and the complete IME workflow. This is what power users expect.
+
 ## The Layout
 
 **Portrait mode:**
