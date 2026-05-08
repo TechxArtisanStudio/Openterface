@@ -69,7 +69,11 @@ Settings let you choose between **sticky modifiers** (tap to latch) and **moment
 
 **This version (0.15):** [KeyMod-release-0.15.apk](https://assets2.openterface.com/data/KeyMod-release-0.15.apk)
 
-You can also get builds from [GitHub Releases](https://github.com/TechxArtisanStudio/Openterface_KeyMod_Android/releases) or [GitHub Actions](https://github.com/TechxArtisanStudio/Openterface_KeyMod_Android/actions). Existing installs upgrade in place.
+> **Beta notice:** The KeyMod Android app is still in active beta. The source repo is not yet public — we plan to open-source it after a successful crowdfunding campaign. If you are a beta tester and need the latest APK, reach out to us on Discord and we will get you the build.
+
+> **Known issues:** This release introduces significant changes to the gamepad preset system and the Basic keyboard tier. Our dev team is still testing internally, so you may encounter bugs. If you run into anything unexpected, please report it on Discord — your feedback helps us stabilize faster.
+
+Existing installs upgrade in place.
 
 ## Upgrade notes
 

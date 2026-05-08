@@ -69,7 +69,11 @@ Les paramètres vous permettent de choisir entre **modificateurs sticky** (appui
 
 **Cette version (0.15) :** [KeyMod-release-0.15.apk](https://assets2.openterface.com/data/KeyMod-release-0.15.apk)
 
-Vous pouvez aussi obtenir les builds depuis [GitHub Releases](https://github.com/TechxArtisanStudio/Openterface_KeyMod_Android/releases) ou [GitHub Actions](https://github.com/TechxArtisanStudio/Openterface_KeyMod_Android/actions). Les installations existantes se mettent à jour in-place.
+> **Note beta :** L'app KeyMod pour Android est toujours en phase beta active. Le repo n'est pas encore public — nous prévoyons de l'open-sourcer après une campagne crowdfunding réussie. Si vous êtes beta testeur et avez besoin du dernier APK, contactez-nous sur Discord et nous vous enverrons le build.
+
+> **Problèmes connus :** Cette version introduit des changements importants sur le système de préréglages du gamepad et le niveau clavier Basic. Notre équipe dev effectue encore des tests en interne, des bugs peuvent donc survenir. Si vous rencontrez quelque chose d'inattendu, signalez-le sur Discord — vos retours nous aident à stabiliser plus vite.
+
+Les installations existantes se mettent à jour in-place.
 
 ## Notes de mise à jour
 

@@ -69,7 +69,11 @@ KeyMod **0.15**（`versionCode` **15**）是一个里程碑式的版本，包含
 
 **此版本（0.15）：** [KeyMod-release-0.15.apk](https://assets2.openterface.com/data/KeyMod-release-0.15.apk)
 
-你也可以从 [GitHub Releases](https://github.com/TechxArtisanStudio/Openterface_KeyMod_Android/releases) 或 [GitHub Actions](https://github.com/TechxArtisanStudio/Openterface_KeyMod_Android/actions) 获取构建。已安装用户可直接原地升级。
+> **Beta 说明：** KeyMod Android 应用仍处于活跃 Beta 阶段。源码仓库尚未公开 — 我们计划在众筹成功后正式开源。如果你是 Beta 测试者并需要最新 APK，请在 Discord 上联系我们，我们会发送构建给你。
+
+> **已知问题：** 此版本对游戏手柄预设系统和 Basic 键盘层级进行了大量改动。我们的开发团队仍在内部测试中，可能会遇到一些 bug。如果遇到任何异常情况，请在 Discord 上报告 — 你的反馈能帮助我们更快稳定版本。
+
+已安装用户可直接原地升级。
 
 ## 升级说明
 

@@ -69,7 +69,11 @@ KeyMod **0.15**(`versionCode` **15**)는 세 가지 주요 기능을 제공하�
 
 **이 버전 (0.15):** [KeyMod-release-0.15.apk](https://assets2.openterface.com/data/KeyMod-release-0.15.apk)
 
-[GitHub Releases](https://github.com/TechxArtisanStudio/Openterface_KeyMod_Android/releases) 또는 [GitHub Actions](https://github.com/TechxArtisanStudio/Openterface_KeyMod_Android/actions)에서도 빌드를 받을 수 있습니다. 기존 설치는 인플레이스로 업그레이드됩니다.
+> **Beta 안내:** KeyMod Android 앱은 현재 활성 Beta 단계입니다. 소스 리포지토리는 아직 공개되지 않았습니다 — 크라우드펀딩 캠페인 성공 후 정식으로 오픈소스화할 예정입니다. 베타 테스터로서 최신 APK가 필요하시면 Discord로 연락해 주세요. 빌드를 보내드리겠습니다.
+
+> **알려진 문제:** 이 버전에는 게임패드 프리셋 시스템과 Basic 키보드 티어에 대한 대폭적인 변경이 포함되어 있습니다. 개발 팀이 아직 내부 테스트 중이므로 버그를 마주칠 수 있습니다. 예상치 못한 동작이 있으면 Discord에서 보고해 주세요 — 여러분의 피드백이 더 빠른 안정화에 도움이 됩니다.
+
+기존 설치는 인플레이스로 업그레이드됩니다.
 
 ## 업그레이드 참고
 

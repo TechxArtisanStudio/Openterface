@@ -69,7 +69,11 @@ Einstellungen ermöglichen die Wahl zwischen **sticky Modifiers** (Tippen zum Ei
 
 **Diese Version (0.15):** [KeyMod-release-0.15.apk](https://assets2.openterface.com/data/KeyMod-release-0.15.apk)
 
-Builds sind auch unter [GitHub Releases](https://github.com/TechxArtisanStudio/Openterface_KeyMod_Android/releases) oder [GitHub Actions](https://github.com/TechxArtisanStudio/Openterface_KeyMod_Android/actions) verfügbar. Bestehende Installationen werden vor Ort aktualisiert.
+> **Beta-Hinweis:** Die KeyMod Android-App befindet sich noch in der aktiven Beta-Phase. Das Repo ist noch nicht öffentlich — wir planen, es nach einer erfolgreichen Crowdfunding-Kampagne zu open-sourcen. Wenn du Beta-Tester bist und den neuesten APK brauchst, meld dich bei uns auf Discord und wir schicken dir den Build.
+
+> **Bekannte Probleme:** Dieses Release führt erhebliche Änderungen am Gamepad-Preset-System und dem Basic-Tastatur-Tier ein. Unser Dev-Team testet noch intern, es können also noch Bugs auftreten. Falls du auf etwas Unerwartetes stößt, melde es bitte auf Discord — dein Feedback hilft uns, schneller zu stabilisieren.
+
+Bestehende Installationen werden vor Ort aktualisiert.
 
 ## Upgrade-Hinweise
 

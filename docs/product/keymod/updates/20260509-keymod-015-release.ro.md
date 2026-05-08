@@ -69,7 +69,11 @@ Setările îți permit să alegi între **modificatori sticky** (atingere pentru
 
 **Această versiune (0.15):** [KeyMod-release-0.15.apk](https://assets2.openterface.com/data/KeyMod-release-0.15.apk)
 
-Poți obține și build-uri de la [GitHub Releases](https://github.com/TechxArtisanStudio/Openterface_KeyMod_Android/releases) sau [GitHub Actions](https://github.com/TechxArtisanStudio/Openterface_KeyMod_Android/actions). Instalările existente se actualizează in-place.
+> **Notă beta:** Aplicația KeyMod pentru Android este încă în fază beta activă. Repo-ul nu este încă public — plănuim să-l facem open source după o campanie crowdfunding de succes. Dacă ești beta tester și ai nevoie de cel mai recent APK, contactează-ne pe Discord și îți trimitem build-ul.
+
+> **Probleme cunoscute:** Această versiune introduce modificări semnificative în sistemul de presetări gamepad și nivelul de tastatură Basic. Echipa noastră de dev încă testează intern, așa că poți întâlni bug-uri. Dacă întâlnești ceva neașteptat, raportează-l pe Discord — feedback-ul tău ne ajută să stabilizăm mai repede.
+
+Instalările existente se actualizează in-place.
 
 ## Note de actualizare
 
