@@ -75,7 +75,7 @@ extra:
   minikvm_updates: 16
   kvm-go_updates: 11
   accessories_updates: 0
-  keymod_updates: 1
+  keymod_updates: 2
   qt_linux_stable: 0.3.19
   minikvm_purchase_link: https://www.crowdsupply.com/techxartisan/openterface-mini-kvm
   kvmgo_purchase_link: https://www.crowdsupply.com/techxartisan/openterface-kvm-go

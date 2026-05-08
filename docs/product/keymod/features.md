@@ -1,14 +1,14 @@
 ---
 title: "Features & Specifications"
-description: "KeyMod Series features: Bluetooth HID keyboard and mouse, USB + Bluetooth dual connection, custom profiles, macros, gamepad modes. Open source mobile app for Android and iPadOS."
-keywords: "KeyMod Series features, HID emulator, Bluetooth keyboard, USB keyboard, programmable buttons, gamepad, macro, open source, CH9329"
+description: "KeyMod Series features: Bluetooth HID keyboard and mouse, USB + Bluetooth dual connection, custom profiles, macros, gamepad modes, presentation controls, shortcut hub. Open source mobile app for Android."
+keywords: "KeyMod Series features, HID emulator, Bluetooth keyboard, USB keyboard, programmable buttons, gamepad, macro, open source, CH9329, shortcut hub, presentation mode"
 ---
 
 # **Features & Specifications** | Openterface KeyMod Series
 
-## Pre-Launch Status
+## Current Status
 
-KeyMod is currently in pre-launch development. We're refining the hardware and software. Subscribe on the [product page](/product/keymod/) to stay updated on progress and launch notifications.
+KeyMod is in active development with a [public beta](/tutorial/keymod/) available for Android. Subscribe on the [product page](/product/keymod/) to stay updated on launch notifications.
 
 > **Note:** Features, specifications, and design are still subject to change as development continues.
 
@@ -34,11 +34,15 @@ KeyMod is built for practical everyday local device control, not as a remote des
 
 With our open source mobile app, you can:
 
-- Build custom input profiles
-- Launch macros and configure hotkeys
-- Create workflow shortcuts
+- **Keyboard & Mouse (Basic)** — Full-screen keyboard with long-press repeat, key preview, and numpad
+- **Keyboard & Mouse Pro** — Composite layout with Shortcut Hub strips, split keyboard, and IME
+- **Presentation mode** — Slide remote control with timer for Google Slides and other apps
+- **Gamepad** — Virtual controller with customizable preset layouts, multi-touchpad support
+- **Shortcut Hub** — Profile-based keyboard shortcuts for creative and dev tools (Blender, KiCAD, Photoshop, VS Code), with create, import, and export
+- **Macros** — Programmable key sequences with delays
+- **Voice input** — Speech-to-keyboard with AI (Whisper API)
 
-The KeyMod controller app focuses on **Android, IOS and iPadOS**. We are also expanding desktop control with **Windows and macOS** software in our broader Openterface ecosystem.
+The KeyMod controller app focuses on **Android** and **iPadOS**. We are also expanding desktop control with **Windows and macOS** software in our broader Openterface ecosystem.
 
 
 ### **True Hardware HID**
@@ -68,5 +72,9 @@ KeyMod is open hardware and open software. We will publish schematics, PCB files
 ### **Input Features**
 
 - Full keyboard and mouse emulation (HID)
-- Custom input profiles
+- Custom input profiles (Basic and Pro tiers)
 - Macros and hotkeys
+- Shortcut Hub with app-specific profiles
+- Gamepad with preset-based layouts (schema v7)
+- Presentation controls with slide timer
+- Voice-to-keyboard with AI

@@ -4,5 +4,6 @@
 
 ## Product Updates
 
+- 2026-05-09: [KeyMod 0.15: Gamepad Preset Pipeline, Keyboard & Mouse (Basic) Tier, Multi-Touchpad Layouts](20260509-keymod-015-release.md)
 - 2026-04-08: [KeyMod Update: Prototype Connectors and Your Feedback](20260408-keymod-connector-feedback.md)
 
