@@ -75,6 +75,13 @@ Settings let you choose between **sticky modifiers** (tap to latch) and **moment
 
 Existing installs upgrade in place.
 
+## Works with Mini-KVM and KVM-Go
+
+The KeyMod app is not limited to KeyMod hardware. Existing Openterface users can also try it out:
+
+- **KVM-Go**: connect via **Bluetooth** or **USB**
+- **Mini-KVM**: connect via **USB**
+
 ## Upgrade notes
 
 - **Gamepad**: your previous two-button preference automatically activates the **Two buttons** preset on first launch. Use **Preset** (tap to cycle, long-press for the list) instead of the old 1 Button / 2 Buttons control.

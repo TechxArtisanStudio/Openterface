@@ -75,6 +75,13 @@ Los ajustes te permiten elegir entre **modificadores sticky** (tocar para fijar)
 
 Las instalaciones existentes se actualizan in-place.
 
+## Compatible con Mini-KVM y KVM-Go
+
+La app KeyMod no se limita al hardware KeyMod. Los usuarios actuales de Openterface también pueden probarla:
+
+- **KVM-Go**: conexión por **Bluetooth** o **USB**
+- **Mini-KVM**: conexión por **USB**
+
 ## Notas de actualización
 
 - **Gamepad**: tu preferencia anterior de dos botones activa automáticamente el preajuste **Two buttons** en el primer inicio. Usa **Preset** (toca para ciclar, pulsación larga para la lista) en lugar del antiguo control 1 Button / 2 Buttons.

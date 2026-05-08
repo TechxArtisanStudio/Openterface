@@ -75,6 +75,13 @@ KeyMod **0.15**(`versionCode` **15**)는 세 가지 주요 기능을 제공하�
 
 기존 설치는 인플레이스로 업그레이드됩니다.
 
+## Mini-KVM 및 KVM-Go에서도 사용 가능
+
+KeyMod 앱은 KeyMod 하드웨어에만 한정되지 않습니다. 기존 Openterface 사용자도 사용해 볼 수 있습니다:
+
+- **KVM-Go**: **Bluetooth** 또는 **USB** 연결
+- **Mini-KVM**: **USB** 연결
+
 ## 업그레이드 참고
 
 - **게임패드**: 이전의 두 버튼 선호도는 첫 실행 시 자동으로 **Two buttons** 프리셋을 활성화합니다. 기존 1 Button / 2 Buttons 컨트롤 대신 **Preset**(탭으로 순환, 길게 눌러 목록)을 사용하세요.

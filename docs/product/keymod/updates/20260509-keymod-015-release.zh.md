@@ -75,6 +75,13 @@ KeyMod **0.15**（`versionCode` **15**）是一个里程碑式的版本，包含
 
 已安装用户可直接原地升级。
 
+## 兼容 Mini-KVM 和 KVM-Go
+
+KeyMod 应用不仅限于 KeyMod 硬件。现有的 Openterface 用户也可以试用：
+
+- **KVM-Go**：可通过**蓝牙**或 **USB** 连接
+- **Mini-KVM**：可通过 **USB** 连接
+
 ## 升级说明
 
 - **游戏手柄**：你之前的双按钮偏好会在首次启动时自动激活 **Two buttons** 预设。请使用 **Preset**（轻触切换，长按查看列表）替代旧的 1 Button / 2 Buttons 控件。
