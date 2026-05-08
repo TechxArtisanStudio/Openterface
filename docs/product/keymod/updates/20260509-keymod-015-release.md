@@ -67,7 +67,9 @@ Settings let you choose between **sticky modifiers** (tap to latch) and **moment
 
 ## Get the update
 
-Download the latest APK from [GitHub Releases](https://github.com/TechxArtisanStudio/Openterface_KeyMod_Android/releases) or [GitHub Actions](https://github.com/TechxArtisanStudio/Openterface_KeyMod_Android/actions). Existing installs upgrade in place.
+**This version (0.15):** [KeyMod-release-0.15.apk](https://assets2.openterface.com/data/KeyMod-release-0.15.apk)
+
+You can also get builds from [GitHub Releases](https://github.com/TechxArtisanStudio/Openterface_KeyMod_Android/releases) or [GitHub Actions](https://github.com/TechxArtisanStudio/Openterface_KeyMod_Android/actions). Existing installs upgrade in place.
 
 ## Upgrade notes
 
