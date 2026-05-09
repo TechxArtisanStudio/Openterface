@@ -18,6 +18,45 @@ social:
 
 KeyMod **0.15** (`versionCode` **15**) is a milestone release that ships three major features: the **gamepad preset pipeline** with layout schema **v6-v7**, the dedicated **Keyboard & Mouse (Basic)** tier, and **multi-touchpad** layouts. This update also brings full **KeyMod** branding across the welcome flow and build artifacts.
 
+<div class="slideshow-container" id="slideshow-keymod-015-gamepad" data-auto-slide="true" data-auto-slide-interval="3000">
+  <div class="slideshow-wrapper">
+    <div class="slide active"><img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-1.webp" alt="Gamepad preset view" style="max-height:320px;" loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-2.webp" alt="Gamepad preset management" style="max-height:320px;" loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-3.webp" alt="Gamepad preset list" style="max-height:320px;" loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-4.webp" alt="Gamepad preset add module" style="max-height:320px;" loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft.webp" alt="Gamepad preset in Minecraft" style="max-height:320px;" loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard.webp" alt="Basic full-screen keyboard" style="max-height:320px;" loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/KM-Basic-ComposeSend.webp" alt="Basic compose and send mode" style="max-height:320px;" loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/KM-Basic-Numpad.webp" alt="Basic numpad layout" style="max-height:320px;" loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/KM-Basic-TouchPad.webp" alt="Basic touchpad mode" style="max-height:320px;" loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-portiat-keyboard.webp" alt="Pro portrait keyboard" style="max-height:320px;" loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-portiat-ime.webp" alt="Pro portrait IME" style="max-height:320px;" loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-portiat-numpad.webp" alt="Pro portrait numpad" style="max-height:320px;" loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-full.webp" alt="Pro landscape full keyboard" style="max-height:320px;" loading="lazy"></div>
+    <div class="slide"><img src="https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split.webp" alt="Pro landscape split keyboard" style="max-height:320px;" loading="lazy"></div>
+  </div>
+  <div class="slideshow-navigation">
+    <button class="nav-arrow left" onclick="changeSlide('slideshow-keymod-015-gamepad', -1)">❮</button>
+    <div class="slideshow-dots">
+      <span class="dot active" onclick="currentSlide('slideshow-keymod-015-gamepad', 1)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 2)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 3)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 4)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 5)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 6)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 7)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 8)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 9)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 10)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 11)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 12)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 13)"></span>
+      <span class="dot" onclick="currentSlide('slideshow-keymod-015-gamepad', 14)"></span>
+    </div>
+    <button class="nav-arrow right" onclick="changeSlide('slideshow-keymod-015-gamepad', 1)">❯</button>
+  </div>
+</div>
+
 ## Gamepad: Preset Pipeline v7
 
 The gamepad now uses a proper **preset system** that lets you save, load, import, and export custom controller layouts.
