@@ -6,7 +6,7 @@ keywords: "KeyMod tutorial, how to use KeyMod, phone keyboard guide, KeyMod app 
 
 # KeyMod Tutorial
 
-{% include "partials/keymod-slideshow.html" %}
+{% include "partials/keymod-tutorial-slideshow.html" %}
 
 This tutorial covers the **Android** version of the KeyMod app. The iOS version is under development.
 
