@@ -83,6 +83,10 @@ La plus grande nouveauté de la version 0.19 est le **mode Compose** dans KM Pro
 
 <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait.webp" alt="Exécution de script en mode Compose" style="max-width:100%; border-radius:8px; margin:16px 0;" loading="lazy">
 
+<p><strong>Compose &amp; Send demo (YouTube Short)</strong></p>
+
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/_rJF-hTF3_E" title="KeyCmd Compose &amp; Send demo (YouTube Short)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ### Éditeur Compose
 

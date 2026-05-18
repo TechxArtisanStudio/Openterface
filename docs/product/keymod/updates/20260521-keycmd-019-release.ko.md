@@ -83,6 +83,10 @@ KeyCmd는 전체 화면 키보드, 터치패드 및 숫자 패드 경험을 제�
 
 <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait.webp" alt="Compose 모드에서 스크립트 실행" style="max-width:100%; border-radius:8px; margin:16px 0;" loading="lazy">
 
+<p><strong>Compose &amp; Send demo (YouTube Short)</strong></p>
+
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/_rJF-hTF3_E" title="KeyCmd Compose &amp; Send demo (YouTube Short)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ### Compose 편집기
 

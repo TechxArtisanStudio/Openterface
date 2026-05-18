@@ -83,6 +83,10 @@ KeyCmd 提供全屏键盘、触控板和数字键盘体验 — 针对竖屏和�
 
 <img src="https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait.webp" alt="输入模式中的脚本运行" style="max-width:100%; border-radius:8px; margin:16px 0;" loading="lazy">
 
+<p><strong>Compose &amp; Send demo (YouTube Short)</strong></p>
+
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/_rJF-hTF3_E" title="KeyCmd Compose &amp; Send demo (YouTube Short)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ### 输入编辑器
 
