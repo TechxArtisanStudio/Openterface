@@ -4,6 +4,7 @@
 
 ## Product Updates
 
+- 2026-05-18: [KVM-GO Shipment Update: Goods Are on the Way to the US](20260518-kvm-go-us-shipment-update.md)
 - 2026-04-10: [KVM-GO Production Progress Update #3](20260410-production-progress-3.md)
 - 2026-03-16: [KVM-GO Production Progress Update #2](20260316-kvmgo_production-progress-update_02.md)
 - 2026-03-05: [Engineering Log: Tracking Down DP/VGA Heat in KVM-GO (and the Fix That Finally Worked)](20260305-kvm-go-dp-vga-thermal-fix.md)

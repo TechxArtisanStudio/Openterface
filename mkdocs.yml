@@ -73,7 +73,7 @@ extra:
   exhibition_updates: 3
   uconsole-kvm-extension_updates: 2
   minikvm_updates: 16
-  kvm-go_updates: 11
+  kvm-go_updates: 12
   accessories_updates: 0
   keymod_updates: 3
   qt_linux_stable: 0.3.19
@@ -208,6 +208,7 @@ plugins:
       basic/usb-switch.md: product/minikvm/usb-switch.md
       product/minikvm/reviews/testimonials.md: product/minikvm/reviews/index.md
       product/minikvm/reviews/media.md: product/minikvm/reviews/index.md
+      product/kvm-go/updates/20260518-deliever.md: product/kvm-go/updates/20260518-kvm-go-us-shipment-update.md
       product/kvm-go/reviews/testimonials.md: product/kvm-go/reviews/index.md
       product/kvm-go/reviews/media.md: product/kvm-go/reviews/index.md
       product/keymod/reviews/testimonials.md: product/keymod/reviews/index.md
