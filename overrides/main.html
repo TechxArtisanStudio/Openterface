@@ -4,8 +4,8 @@
   <link rel="stylesheet" href="{{ 'assets/stylesheets/custom.css' | url }}">
   <link rel="stylesheet" href="{{ 'assets/stylesheets/signup_form.css' | url }}">
   
-  <!-- Conditionally load slideshow.css only on product pages -->
-  {% if page and page.file and 'product/' in page.file.src_path and '/index.' in page.file.src_path %}
+  <!-- Conditionally load slideshow.css on product and tutorial pages that embed slideshow HTML -->
+  {% if page and page.file and ('product/' in page.file.src_path or 'tutorial/' in page.file.src_path) %}
   <link rel="stylesheet" href="{{ 'assets/stylesheets/slideshow.css' | url }}">
   {% endif %}
   
@@ -234,8 +234,8 @@
   <script src="{{ 'assets/javascripts/youtube-videos-controls.js' | url }}"></script>
   {% endif %}
   
-  <!-- Conditionally load slideshow.js only on product pages -->
-  {% if page and page.file and 'product/' in page.file.src_path and '/index.' in page.file.src_path %}
+  <!-- Conditionally load slideshow.js (same scope as slideshow.css) -->
+  {% if page and page.file and ('product/' in page.file.src_path or 'tutorial/' in page.file.src_path) %}
   <script src="{{ 'assets/javascripts/slideshow.js' | url }}"></script>
   {% endif %}
   
