@@ -22,11 +22,11 @@ Gracias por apoyar **KVM-GO** y por vuestra paciencia mientras las unidades pasa
 
 Junto con la aplicación **Openterface KVM** (vídeo y control KVM total en tu teléfono o tableta), hemos estado mejorando **KeyCmd**, nuestra aplicación complementaria para entrada de teclado, ratón, gamepad y accesos directos. **KeyCmd 0.19** es la versión que recomendamos hoy si usas KVM-GO. Emparéjala mediante **USB** o **Bluetooth**, instálala sobre cualquier versión anterior y tus ajustes, perfiles y dispositivos emparejados se mantendrán.
 
-![KVM-GO en un portátil con el teclado KeyCmd en un móvil](https://assets2.openterface.com/images/kvm-go/kvm-go-keycmd-phone-keyboard-setup.webp)
+![KVM-GO en un portátil con el teclado KeyCmd en un móvil](https://assets2.openterface.com/images/kvm-go/kvm-go-keycmd-phone-keyboard-setup.webp){:style="max-width:720px;width:100%;height:auto"}
 
 A continuación explicamos qué hace KeyCmd con KVM-GO, qué modo abrir para cada tarea y cómo sacarle el máximo partido en una máquina objetivo real.
 
-![Pantalla de bienvenida de KeyCmd](https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape_1.webp)
+![Pantalla de bienvenida de KeyCmd](https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape_1.webp){:style="max-height:320px;width:auto"}
 
 ## Modos y cómo usarlos
 
@@ -44,21 +44,21 @@ Abre esto cuando quieras un **teclado simple a pantalla completa** y nada más q
 
 **Por qué ayuda:** más espacio en pantalla para las teclas, menos interfaz, más rápido cuando solo necesitas entrada y no accesos directos.
 
-![Teclado KM Basic a pantalla completa](https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard_1.webp)
+![Teclado KM Basic a pantalla completa](https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard_1.webp){:style="max-height:320px;width:auto"}
 
-![Teclado numérico KeyCmd en horizontal](https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape_1.webp)
+![Teclado numérico KeyCmd en horizontal](https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape_1.webp){:style="max-height:320px;width:auto"}
 
 ### Teclado y ratón (Pro)
 
-![Teclado dividido KM Pro en horizontal](https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split_1.webp)
+![Teclado dividido KM Pro en horizontal](https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split_1.webp){:style="max-height:320px;width:auto"}
 
-![Teclado y panel táctil KeyCmd en vertical](https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait_1.webp)
+![Teclado y panel táctil KeyCmd en vertical](https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait_1.webp){:style="max-height:320px;width:auto"}
 
 Abre esto para el **trabajo de control diario** en máquinas conectadas a KVM-GO: teclados divididos, IME, barras de Shortcut Hub y el editor **Compose**.
 
 **Ideal para:** sesiones de escritura más largas, macros y accesos directos, envío de bloques de texto o scripts al host mientras ves el resultado en la vista KVM.
 
-![Modo Compose enviando un script](https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait_1.webp)
+![Modo Compose enviando un script](https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait_1.webp){:style="max-height:320px;width:auto"}
 
 Vale la pena probar **Compose** si sueles pegar comandos o scripts: escribe en tu móvil, revisa y luego envíalo como pulsaciones de teclas al host. Esta [breve demostración en YouTube](https://www.youtube.com/watch?v=_rJF-hTF3_E) muestra el flujo completo.
 
@@ -84,9 +84,9 @@ Abre esto cuando quieras un diseño de **mando virtual** en pantalla, ajustado p
 
 **Por qué ayuda:** no estás limitado a un único diseño de fábrica; guarda diseños por juego o por máquina y comparte los ajustes con otros.
 
-![Diseño preestablecido de Gamepad](https://assets2.openterface.com/images/keymod/Gamepad-perset-1_1.webp)
+![Diseño preestablecido de Gamepad](https://assets2.openterface.com/images/keymod/Gamepad-perset-1_1.webp){:style="max-height:320px;width:auto"}
 
-![Ajuste preestablecido de Gamepad usado en Minecraft](https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft_1.webp)
+![Ajuste preestablecido de Gamepad usado en Minecraft](https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft_1.webp){:style="max-height:320px;width:auto"}
 
 *Ajuste preestablecido personalizado para Minecraft.*
 
@@ -108,7 +108,7 @@ Una superficie de control más simple tipo **presentador**, mantenida en **verti
 
 **Ideal para:** pasar diapositivas o controles de presentación ligeros en el objetivo.
 
-![Modo presentación controlando Google Slides](https://assets2.openterface.com/images/keymod/KeyCmd-Presentation-Google-Slides.webp)
+![Modo presentación controlando Google Slides](https://assets2.openterface.com/images/keymod/KeyCmd-Presentation-Google-Slides.webp){:style="max-height:320px;width:auto"}
 
 ---
 
@@ -140,7 +140,7 @@ Para las **tres variantes de KVM-GO** (HDMI, VGA y DP), no es necesario conectar
 1. Conecta el **cable naranja largo** desde el puerto **Host** del KVM-GO a tu móvil Android.
 2. Abre **KeyCmd** y conéctate mediante **USB** en la aplicación.
 
-![Puerto Target del KVM-GO conectado a un portátil mediante el cable USB negro corto](https://assets2.openterface.com/images/kvm-go/kvm-go-target-port-laptop-power.webp)
+![Puerto Target del KVM-GO conectado a un portátil mediante el cable USB negro corto](https://assets2.openterface.com/images/kvm-go/kvm-go-target-port-laptop-power.webp){:style="max-height:360px;width:auto"}
 
 Para vídeo a pantalla completa más entrada, usa **Openterface KVM** para la pantalla del objetivo y **KeyCmd** para teclado, ratón y accesos directos. KeyCmd por sí solo es suficiente cuando el objetivo ya tiene su propia pantalla y solo necesitas entrada.
 

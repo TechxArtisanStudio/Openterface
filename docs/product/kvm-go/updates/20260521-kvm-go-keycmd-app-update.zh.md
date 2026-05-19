@@ -22,11 +22,11 @@ social:
 
 除了 **Openterface KVM** 应用（可在手机或平板上实现视频显示及完整的 KVM 控制）外，我们一直在优化 **KeyCmd**，这是我们用于键盘、鼠标、游戏手柄及快捷键输入的配套应用。**KeyCmd 0.19** 是我们目前推荐配合 KVM-GO 使用的版本。您可以通过 **USB** 或 **蓝牙** 配对，并直接在旧版本上覆盖安装，您的设置、配置文件和已配对设备都将完整保留。
 
-![手机上的 KeyCmd 键盘配合笔记本电脑上的 KVM-GO 使用](https://assets2.openterface.com/images/kvm-go/kvm-go-keycmd-phone-keyboard-setup.webp)
+![手机上的 KeyCmd 键盘配合笔记本电脑上的 KVM-GO 使用](https://assets2.openterface.com/images/kvm-go/kvm-go-keycmd-phone-keyboard-setup.webp){:style="max-width:720px;width:100%;height:auto"}
 
 以下是 KeyCmd 配合 KVM-GO 的功能介绍、不同场景下的模式选择，以及如何在目标机器上最大化发挥其效用。
 
-![KeyCmd 欢迎界面](https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape_1.webp)
+![KeyCmd 欢迎界面](https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape_1.webp){:style="max-height:320px;width:auto"}
 
 ## 模式及使用方法
 
@@ -44,21 +44,21 @@ social:
 
 **核心优势：** 为按键提供更大的屏幕空间，界面简洁，在仅需输入而非快捷键时操作更迅速。
 
-![KM Basic 全屏键盘](https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard_1.webp)
+![KM Basic 全屏键盘](https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard_1.webp){:style="max-height:320px;width:auto"}
 
-![KeyCmd 横屏下的数字键盘](https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape_1.webp)
+![KeyCmd 横屏下的数字键盘](https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape_1.webp){:style="max-height:320px;width:auto"}
 
 ### 键盘与鼠标（专业版）
 
-![KM Pro 横屏下的分体键盘](https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split_1.webp)
+![KM Pro 横屏下的分体键盘](https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split_1.webp){:style="max-height:320px;width:auto"}
 
-![KeyCmd 竖屏下的键盘与触控板](https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait_1.webp)
+![KeyCmd 竖屏下的键盘与触控板](https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait_1.webp){:style="max-height:320px;width:auto"}
 
 此模式适用于配合 KVM-GO 对机器进行**日常管理工作**：支持分体键盘、输入法（IME）、快捷键中心（Shortcut Hub）工具栏以及**撰写（Compose）**编辑器。
 
 **适用场景：** 较长时间的文字输入、宏与快捷键操作、在观察 KVM 画面的同时向主机发送大段文本或脚本。
 
-![撰写模式正在发送脚本](https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait_1.webp)
+![撰写模式正在发送脚本](https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait_1.webp){:style="max-height:320px;width:auto"}
 
 如果您经常需要粘贴命令或脚本，非常推荐尝试 **撰写（Compose）** 功能：在手机上编写、检查，然后将其模拟为按键发送给主机。[YouTube 上的演示短片](https://www.youtube.com/watch?v=_rJF-hTF3_E) 展示了完整的操作流程。
 
@@ -84,9 +84,9 @@ social:
 
 **核心优势：** 不受出厂布局限制；您可以按游戏或机器保存布局，并与他人分享预设。
 
-![游戏手柄预设布局](https://assets2.openterface.com/images/keymod/Gamepad-perset-1_1.webp)
+![游戏手柄预设布局](https://assets2.openterface.com/images/keymod/Gamepad-perset-1_1.webp){:style="max-height:320px;width:auto"}
 
-![在我的世界中使用游戏手柄预设](https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft_1.webp)
+![在我的世界中使用游戏手柄预设](https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft_1.webp){:style="max-height:320px;width:auto"}
 
 *为《我的世界 (Minecraft)》定制的预设。*
 
@@ -108,7 +108,7 @@ social:
 
 **适用场景：** 切换幻灯片或对目标机器进行简单的演示控制。
 
-![演示模式控制 Google Slides](https://assets2.openterface.com/images/keymod/KeyCmd-Presentation-Google-Slides.webp)
+![演示模式控制 Google Slides](https://assets2.openterface.com/images/keymod/KeyCmd-Presentation-Google-Slides.webp){:style="max-height:320px;width:auto"}
 
 ---
 
@@ -140,7 +140,7 @@ social:
 1. 将**橙色长线**从 KVM-GO 的 **Host** 端口连接到您的安卓手机。
 2. 打开 **KeyCmd** 并在应用中选择通过 **USB** 连接。
 
-![KVM-GO Target 端口通过黑色短 USB 线连接到笔记本电脑供电](https://assets2.openterface.com/images/kvm-go/kvm-go-target-port-laptop-power.webp)
+![KVM-GO Target 端口通过黑色短 USB 线连接到笔记本电脑供电](https://assets2.openterface.com/images/kvm-go/kvm-go-target-port-laptop-power.webp){:style="max-height:360px;width:auto"}
 
 如需全屏视频加输入，请使用 **Openterface KVM** 查看目标画面，并使用 **KeyCmd** 进行键盘、鼠标和快捷键操作。当目标机器已有显示器而您只需要输入控制时，仅使用 KeyCmd 即可。
 

@@ -22,11 +22,11 @@ Vă mulțumim pentru susținerea **KVM-GO** și pentru răbdarea voastră în ti
 
 Alături de aplicația **Openterface KVM** (video și control KVM complet pe telefon sau tabletă), am îmbunătățit constant **KeyCmd**, aplicația noastră însoțitoare pentru intrare de tastatură, mouse, gamepad și comenzi rapide. **KeyCmd 0.19** este versiunea pe care o recomandăm astăzi dacă utilizați KVM-GO. Asociați dispozitivul prin **USB** sau **Bluetooth**, instalați-o peste orice versiune anterioară, iar setările, profilurile și dispozitivele asociate vor fi păstrate.
 
-![KVM-GO pe un laptop cu tastatura KeyCmd pe un telefon](https://assets2.openterface.com/images/kvm-go/kvm-go-keycmd-phone-keyboard-setup.webp)
+![KVM-GO pe un laptop cu tastatura KeyCmd pe un telefon](https://assets2.openterface.com/images/kvm-go/kvm-go-keycmd-phone-keyboard-setup.webp){:style="max-width:720px;width:100%;height:auto"}
 
 Mai jos găsiți detalii despre ce poate face KeyCmd cu KVM-GO, ce mod să deschideți pentru fiecare sarcină și cum să profitați la maximum de el pe o mașină țintă reală.
 
-![Ecranul de bun venit KeyCmd](https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape_1.webp)
+![Ecranul de bun venit KeyCmd](https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape_1.webp){:style="max-height:320px;width:auto"}
 
 ## Moduri și cum să le utilizați
 
@@ -44,21 +44,21 @@ Deschideți acest mod atunci când doriți o **tastatură simplă pe tot ecranul
 
 **De ce ajută:** mai mult spațiu pe ecran pentru taste, mai puțină interfață, mai rapid atunci când aveți nevoie doar de introducere de date și nu de comenzi rapide.
 
-![Tastatură KM Basic pe tot ecranul](https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard_1.webp)
+![Tastatură KM Basic pe tot ecranul](https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard_1.webp){:style="max-height:320px;width:auto"}
 
-![Tastatură numerică KeyCmd în modul peisaj](https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape_1.webp)
+![Tastatură numerică KeyCmd în modul peisaj](https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape_1.webp){:style="max-height:320px;width:auto"}
 
 ### Tastatură și Mouse (Pro)
 
-![Tastatură divizată KM Pro în modul peisaj](https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split_1.webp)
+![Tastatură divizată KM Pro în modul peisaj](https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split_1.webp){:style="max-height:320px;width:auto"}
 
-![Tastatură și touchpad KeyCmd în modul portret](https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait_1.webp)
+![Tastatură și touchpad KeyCmd în modul portret](https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait_1.webp){:style="max-height:320px;width:auto"}
 
 Deschideți acest mod pentru **activități de control zilnice** pe mașini aflate în spatele KVM-GO: tastaturi divizate, IME, bare Shortcut Hub și editorul **Compose**.
 
 **Ideal pentru:** sesiuni de tastare mai lungi, macrocomenzi și comenzi rapide, trimiterea de blocuri de text sau scripturi către gazdă în timp ce urmăriți rezultatul pe vizualizarea KVM.
 
-![Modul Compose trimițând un script](https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait_1.webp)
+![Modul Compose trimițând un script](https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait_1.webp){:style="max-height:320px;width:auto"}
 
 Merită să încercați **Compose** dacă obișnuiți să lipiți comenzi sau scripturi des: scrieți pe telefon, revizuiți, apoi trimiteți textul ca apăsări de taste către gazdă. Un [scurt demo pe YouTube](https://www.youtube.com/watch?v=_rJF-hTF3_E) arată fluxul complet.
 
@@ -84,9 +84,9 @@ Deschideți acest mod atunci când doriți un layout de **controller virtual** p
 
 **De ce ajută:** nu sunteți limitat la un singur layout din fabrică; salvați layout-uri per joc sau per mașină și partajați presetările cu alții.
 
-![Layout presetare Gamepad](https://assets2.openterface.com/images/keymod/Gamepad-perset-1_1.webp)
+![Layout presetare Gamepad](https://assets2.openterface.com/images/keymod/Gamepad-perset-1_1.webp){:style="max-height:320px;width:auto"}
 
-![Presetare Gamepad utilizată în Minecraft](https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft_1.webp)
+![Presetare Gamepad utilizată în Minecraft](https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft_1.webp){:style="max-height:320px;width:auto"}
 
 *Presetare personalizată pentru Minecraft.*
 
@@ -108,7 +108,7 @@ O suprafață de control mai simplă, în stil **presenter**, menținută în mo
 
 **Ideal pentru:** trecerea prin diapozitive sau controale ușoare de prezentare pe țintă.
 
-![Modul Prezentare controlând Google Slides](https://assets2.openterface.com/images/keymod/KeyCmd-Presentation-Google-Slides.webp)
+![Modul Prezentare controlând Google Slides](https://assets2.openterface.com/images/keymod/KeyCmd-Presentation-Google-Slides.webp){:style="max-height:320px;width:auto"}
 
 ---
 
@@ -140,7 +140,7 @@ Pentru **toate cele trei variante KVM-GO** (HDMI, VGA și DP), nu este nevoie s�
 1. Introduceți **cablul portocaliu lung** din portul **Host** de pe KVM-GO în telefonul Android.
 2. Deschideți **KeyCmd** și conectați-vă prin **USB** în aplicație.
 
-![Portul Target al KVM-GO conectat la un laptop prin cablul USB negru scurt](https://assets2.openterface.com/images/kvm-go/kvm-go-target-port-laptop-power.webp)
+![Portul Target al KVM-GO conectat la un laptop prin cablul USB negru scurt](https://assets2.openterface.com/images/kvm-go/kvm-go-target-port-laptop-power.webp){:style="max-height:360px;width:auto"}
 
 Pentru video pe tot ecranul plus intrare, utilizați **Openterface KVM** pentru afișajul țintei și **KeyCmd** pentru tastatură, mouse și comenzi rapide. KeyCmd singur este suficient atunci când ținta are deja propriul afișaj și aveți nevoie doar de intrare.
 

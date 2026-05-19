@@ -22,11 +22,11 @@ Thank you for backing **KVM-GO** and for your patience as units move through pro
 
 Alongside the **Openterface KVM** app (video and full KVM control on your phone or tablet), we have been improving **KeyCmd**, our companion app for keyboard, mouse, gamepad, and shortcut input. **KeyCmd 0.19** is the build we recommend today if you use KVM-GO. Pair over **USB** or **Bluetooth**, install on top of any previous build, and your settings, profiles, and paired devices carry over.
 
-![KVM-GO on a laptop with KeyCmd keyboard on a phone](https://assets2.openterface.com/images/kvm-go/kvm-go-keycmd-phone-keyboard-setup.webp)
+![KVM-GO on a laptop with KeyCmd keyboard on a phone](https://assets2.openterface.com/images/kvm-go/kvm-go-keycmd-phone-keyboard-setup.webp){:style="max-width:720px;width:100%;height:auto"}
 
 Below is what KeyCmd does with KVM-GO, which mode to open for which job, and how to get the most out of it on a real target machine.
 
-![KeyCmd welcome screen](https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape_1.webp)
+![KeyCmd welcome screen](https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape_1.webp){:style="max-height:320px;width:auto"}
 
 ## Modes and how to use them
 
@@ -44,21 +44,21 @@ Open this when you want a **simple, full-screen keyboard** and nothing else gett
 
 **Why it helps:** more screen space for keys, less chrome, faster when you only need input and not shortcuts.
 
-![KM Basic full-screen keyboard](https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard_1.webp)
+![KM Basic full-screen keyboard](https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard_1.webp){:style="max-height:320px;width:auto"}
 
-![KeyCmd numpad in landscape](https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape_1.webp)
+![KeyCmd numpad in landscape](https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape_1.webp){:style="max-height:320px;width:auto"}
 
 ### Keyboard & Mouse (Pro)
 
-![KM Pro split keyboard in landscape](https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split_1.webp)
+![KM Pro split keyboard in landscape](https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split_1.webp){:style="max-height:320px;width:auto"}
 
-![KeyCmd keyboard and touchpad in portrait](https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait_1.webp)
+![KeyCmd keyboard and touchpad in portrait](https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait_1.webp){:style="max-height:320px;width:auto"}
 
 Open this for **daily control work** on machines behind KVM-GO: split keyboards, IME, Shortcut Hub strips, and the **Compose** editor.
 
 **Good for:** longer typing sessions, macros and shortcuts, sending blocks of text or scripts to the host while you watch the result on the KVM view.
 
-![Compose mode sending a script](https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait_1.webp)
+![Compose mode sending a script](https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait_1.webp){:style="max-height:320px;width:auto"}
 
 **Compose** is worth trying if you paste commands or scripts often: write on your phone, review, then send as keystrokes to the host. [Short demo on YouTube](https://www.youtube.com/watch?v=_rJF-hTF3_E) shows the flow end to end.
 
@@ -84,9 +84,9 @@ Open this when you want a **virtual controller** layout on screen, tuned for gam
 
 **Why it helps:** you are not stuck with one factory layout; save layouts per game or per machine and share presets with others.
 
-![Gamepad preset layout](https://assets2.openterface.com/images/keymod/Gamepad-perset-1_1.webp)
+![Gamepad preset layout](https://assets2.openterface.com/images/keymod/Gamepad-perset-1_1.webp){:style="max-height:320px;width:auto"}
 
-![Gamepad preset used in Minecraft](https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft_1.webp)
+![Gamepad preset used in Minecraft](https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft_1.webp){:style="max-height:320px;width:auto"}
 
 *Customized preset for Minecraft.*
 
@@ -108,7 +108,7 @@ A simpler **presenter-style** control surface, kept in **portrait** so buttons d
 
 **Good for:** stepping through slides or light presenter controls on the target.
 
-![Presentation mode controlling Google Slides](https://assets2.openterface.com/images/keymod/KeyCmd-Presentation-Google-Slides.webp)
+![Presentation mode controlling Google Slides](https://assets2.openterface.com/images/keymod/KeyCmd-Presentation-Google-Slides.webp){:style="max-height:320px;width:auto"}
 
 ---
 
@@ -140,7 +140,7 @@ For **all three KVM-GO variants** (HDMI, VGA, and DP), you do not need to plug t
 1. Plug the **long orange cable** from the **Host** port on KVM-GO into your Android phone.
 2. Open **KeyCmd** and connect over **USB** in the app.
 
-![KVM-GO Target port connected to a laptop via the short black USB cable](https://assets2.openterface.com/images/kvm-go/kvm-go-target-port-laptop-power.webp)
+![KVM-GO Target port connected to a laptop via the short black USB cable](https://assets2.openterface.com/images/kvm-go/kvm-go-target-port-laptop-power.webp){:style="max-height:360px;width:auto"}
 
 For full screen video plus input, use **Openterface KVM** for the target display and **KeyCmd** for keyboard, mouse, and shortcuts. KeyCmd alone is enough when the target already has its own display and you only need input.
 

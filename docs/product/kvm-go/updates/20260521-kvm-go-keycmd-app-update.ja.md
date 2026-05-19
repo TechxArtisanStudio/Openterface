@@ -22,11 +22,11 @@ social:
 
 **Openterface KVM** アプリ（スマホやタブレットでビデオ表示と完全な KVM 操作を実現）と並行して、キーボード、マウス、ゲームパッド、ショートカット入力用のコンパニオンアプリ **KeyCmd** の改良を続けてきました。現在、KVM-GO をお使いの方には **KeyCmd 0.19** を推奨しています。**USB** または **Bluetooth** でペアリング可能で、以前のビルドに上書きインストールしても、設定やプロファイル、ペアリング済みのデバイスはそのまま引き継がれます。
 
-![ノートパソコン上の KVM-GO とスマホ上の KeyCmd キーボード](https://assets2.openterface.com/images/kvm-go/kvm-go-keycmd-phone-keyboard-setup.webp)
+![ノートパソコン上の KVM-GO とスマホ上の KeyCmd キーボード](https://assets2.openterface.com/images/kvm-go/kvm-go-keycmd-phone-keyboard-setup.webp){:style="max-width:720px;width:100%;height:auto"}
 
 以下では、KeyCmd と KVM-GO を組み合わせることで何ができるのか、用途に合わせたモードの選び方、そして実際のターゲットマシンでの活用方法について説明します。
 
-![KeyCmd ウェルカム画面](https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape_1.webp)
+![KeyCmd ウェルカム画面](https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape_1.webp){:style="max-height:320px;width:auto"}
 
 ## 各モードと使用方法
 
@@ -44,21 +44,21 @@ social:
 
 **メリット：** キー表示のための画面スペースが広く、UI がシンプル。ショートカットではなく入力だけが必要な場合に迅速に操作できます。
 
-![KM Basic 全画面キーボード](https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard_1.webp)
+![KM Basic 全画面キーボード](https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard_1.webp){:style="max-height:320px;width:auto"}
 
-![横向きの KeyCmd テンキー](https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape_1.webp)
+![横向きの KeyCmd テンキー](https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape_1.webp){:style="max-height:320px;width:auto"}
 
 ### キーボード＆マウス（Pro）
 
-![横向きの KM Pro 分割キーボード](https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split_1.webp)
+![横向きの KM Pro 分割キーボード](https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split_1.webp){:style="max-height:320px;width:auto"}
 
-![縦向きの KeyCmd キーボードとタッチパッド](https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait_1.webp)
+![縦向きの KeyCmd キーボードとタッチパッド](https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait_1.webp){:style="max-height:320px;width:auto"}
 
 KVM-GO の背後にあるマシンでの**日常的な管理作業**に使用します。分割キーボード、IME、Shortcut Hub バー、そして **Compose** エディタに対応しています。
 
 **用途：** 長時間のタイピング、マクロやショートカットの利用、KVM ビューで結果を確認しながらホストへテキストブロックやスクリプトを送信する場合。
 
-![スクリプト送信中の Compose モード](https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait_1.webp)
+![スクリプト送信中の Compose モード](https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait_1.webp){:style="max-height:320px;width:auto"}
 
 コマンドやスクリプトを頻繁に貼り付ける場合は、**Compose** をぜひお試しください。スマホ上で入力・確認し、キーストロークとしてホストに送信できます。[YouTube のデモ動画](https://www.youtube.com/watch?v=_rJF-hTF3_E)で一連の流れをご確認いただけます。
 
@@ -84,9 +84,9 @@ KVM-GO の背後にあるマシンでの**日常的な管理作業**に使用し
 
 **メリット：** 標準のレイアウトに縛られません。ゲームごと、あるいはマシンごとにレイアウトを保存し、プリセットを他の方と共有することも可能です。
 
-![ゲームパッドのプリセットレイアウト](https://assets2.openterface.com/images/keymod/Gamepad-perset-1_1.webp)
+![ゲームパッドのプリセットレイアウト](https://assets2.openterface.com/images/keymod/Gamepad-perset-1_1.webp){:style="max-height:320px;width:auto"}
 
-![Minecraft で使用中のゲームパッドプリセット](https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft_1.webp)
+![Minecraft で使用中のゲームパッドプリセット](https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft_1.webp){:style="max-height:320px;width:auto"}
 
 *Minecraft 用にカスタマイズされたプリセット。*
 
@@ -108,7 +108,7 @@ KVM-GO の背後にあるマシンでの**日常的な管理作業**に使用し
 
 **用途：** ターゲットマシンでのスライド送りや、軽いプレゼンテーション操作。
 
-![Google スライドを操作中のプレゼンテーションモード](https://assets2.openterface.com/images/keymod/KeyCmd-Presentation-Google-Slides.webp)
+![Google スライドを操作中のプレゼンテーションモード](https://assets2.openterface.com/images/keymod/KeyCmd-Presentation-Google-Slides.webp){:style="max-height:320px;width:auto"}
 
 ---
 
@@ -140,7 +140,7 @@ KVM-GO の背後にあるマシンでの**日常的な管理作業**に使用し
 1. KVM-GO の **Host** ポートから**長いオレンジのケーブル**を Android スマホに接続します。
 2. アプリ内で **KeyCmd** を開き、**USB** 経由で接続します。
 
-![短い黒の USB ケーブルでノートパソコンに接続された KVM-GO Target ポート](https://assets2.openterface.com/images/kvm-go/kvm-go-target-port-laptop-power.webp)
+![短い黒の USB ケーブルでノートパソコンに接続された KVM-GO Target ポート](https://assets2.openterface.com/images/kvm-go/kvm-go-target-port-laptop-power.webp){:style="max-height:360px;width:auto"}
 
 全画面ビデオと入力を併用する場合は、ターゲットの表示に **Openterface KVM** を使い、キーボード、マウス、ショートカットに **KeyCmd** を使用してください。ターゲットにすでに独自のディスプレイがあり、入力だけが必要な場合は KeyCmd だけで十分です。
 

@@ -22,11 +22,11 @@ social:
 
 휴대폰이나 태블릿에서 비디오 출력과 전체 KVM 제어를 가능하게 하는 **Openterface KVM** 앱과 더불어, 저희는 키보드, 마우스, 게임패드 및 단축키 입력을 위한 보조 앱인 **KeyCmd**를 지속적으로 개선해 왔습니다. 현재 KVM-GO를 사용하시는 분들께는 **KeyCmd 0.19** 버전을 권장합니다. **USB** 또는 **블루투스**를 통해 페어링할 수 있으며, 이전 버전 위에 덮어쓰기 방식으로 설치해도 설정, 프로필 및 페어링된 장치 정보가 그대로 유지됩니다.
 
-![노트북의 KVM-GO와 휴대폰의 KeyCmd 키보드 조합](https://assets2.openterface.com/images/kvm-go/kvm-go-keycmd-phone-keyboard-setup.webp)
+![노트북의 KVM-GO와 휴대폰의 KeyCmd 키보드 조합](https://assets2.openterface.com/images/kvm-go/kvm-go-keycmd-phone-keyboard-setup.webp){:style="max-width:720px;width:100%;height:auto"}
 
 아래는 KeyCmd가 KVM-GO와 함께 수행하는 작업, 용도에 따른 모드 선택 방법, 그리고 실제 대상 기기에서 이를 최대한 활용하는 방법에 대한 안내입니다.
 
-![KeyCmd 시작 화면](https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape_1.webp)
+![KeyCmd 시작 화면](https://assets2.openterface.com/images/keymod/KeyCmd-Welcome-Screen-landscape_1.webp){:style="max-height:320px;width:auto"}
 
 ## 모드 및 사용 방법
 
@@ -44,21 +44,21 @@ social:
 
 **장점:** 키 입력을 위한 화면 공간이 더 넓고 인터페이스가 단순하며, 단축키가 아닌 순수 입력만 필요할 때 더 빠릅니다.
 
-![KM Basic 전체 화면 키보드](https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard_1.webp)
+![KM Basic 전체 화면 키보드](https://assets2.openterface.com/images/keymod/KM-Basic-Keyboard_1.webp){:style="max-height:320px;width:auto"}
 
-![가로 모드의 KeyCmd 숫자 패드](https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape_1.webp)
+![가로 모드의 KeyCmd 숫자 패드](https://assets2.openterface.com/images/keymod/KeyCmd-NumPad-landscape_1.webp){:style="max-height:320px;width:auto"}
 
 ### 키보드 및 마우스 (전문가용 - Pro)
 
-![가로 모드의 KM Pro 분리형 키보드](https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split_1.webp)
+![가로 모드의 KM Pro 분리형 키보드](https://assets2.openterface.com/images/keymod/KM-Pro-Keyboard-landscape-split_1.webp){:style="max-height:320px;width:auto"}
 
-![세로 모드의 KeyCmd 키보드와 터치패드](https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait_1.webp)
+![세로 모드의 KeyCmd 키보드와 터치패드](https://assets2.openterface.com/images/keymod/KeyCmd-Keyboard-TouchPad-portrait_1.webp){:style="max-height:320px;width:auto"}
 
 KVM-GO에 연결된 기기에서 **일상적인 관리 작업**을 수행할 때 사용하세요. 분리형 키보드, IME, 단축키 허브(Shortcut Hub) 바, 그리고 **작성(Compose)** 에디터를 지원합니다.
 
 **용도:** 긴 타이핑 세션, 매크로 및 단축키 사용, KVM 뷰를 통해 결과를 확인하면서 호스트 기기에 텍스트 블록이나 스크립트를 전송할 때 유용합니다.
 
-![스크립트를 전송 중인 작성(Compose) 모드](https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait_1.webp)
+![스크립트를 전송 중인 작성(Compose) 모드](https://assets2.openterface.com/images/keymod/KeyCmd-Script-Running-portrait_1.webp){:style="max-height:320px;width:auto"}
 
 명령어나 스크립트를 자주 붙여넣는다면 **작성(Compose)** 기능을 꼭 사용해 보세요. 휴대폰에서 텍스트를 작성하고 검토한 후 호스트에 키 입력 방식으로 전송할 수 있습니다. [YouTube의 짧은 데모 영상](https://www.youtube.com/watch?v=_rJF-hTF3_E)에서 전체 흐름을 확인하실 수 있습니다.
 
@@ -84,9 +84,9 @@ KVM-GO에 연결된 기기에서 **일상적인 관리 작업**을 수행할 때
 
 **장점:** 정해진 레이아웃에 얽매이지 않고 게임별 또는 기기별로 레이아웃을 저장하고 프리셋을 다른 사람과 공유할 수 있습니다.
 
-![게임패드 프리셋 레이아웃](https://assets2.openterface.com/images/keymod/Gamepad-perset-1_1.webp)
+![게임패드 프리셋 레이아웃](https://assets2.openterface.com/images/keymod/Gamepad-perset-1_1.webp){:style="max-height:320px;width:auto"}
 
-![마인크래프트에서 사용 중인 게임패드 프리셋](https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft_1.webp)
+![마인크래프트에서 사용 중인 게임패드 프리셋](https://assets2.openterface.com/images/keymod/Gamepad-perset-minecraft_1.webp){:style="max-height:320px;width:auto"}
 
 *마인크래프트용으로 커스텀된 프리셋.*
 
@@ -108,7 +108,7 @@ KM Pro 내부의 **프로필 및 단축키** 관리 센터입니다. 카테고�
 
 **용도:** 대상 기기에서 슬라이드를 넘기거나 가벼운 프레젠테이션 제어가 필요할 때 유용합니다.
 
-![Google 프레젠테이션을 제어 중인 프레젠테이션 모드](https://assets2.openterface.com/images/keymod/KeyCmd-Presentation-Google-Slides.webp)
+![Google 프레젠테이션을 제어 중인 프레젠테이션 모드](https://assets2.openterface.com/images/keymod/KeyCmd-Presentation-Google-Slides.webp){:style="max-height:320px;width:auto"}
 
 ---
 
@@ -140,7 +140,7 @@ KM Pro 내부의 **프로필 및 단축키** 관리 센터입니다. 카테고�
 1. KVM-GO의 **Host** 포트에서 **긴 주황색 케이블**을 안드로이드 휴대폰에 연결합니다.
 2. **KeyCmd**를 열고 앱 내에서 **USB** 연결을 선택합니다.
 
-![짧은 검은색 USB 케이블로 노트북에 연결된 KVM-GO Target 포트](https://assets2.openterface.com/images/kvm-go/kvm-go-target-port-laptop-power.webp)
+![짧은 검은색 USB 케이블로 노트북에 연결된 KVM-GO Target 포트](https://assets2.openterface.com/images/kvm-go/kvm-go-target-port-laptop-power.webp){:style="max-height:360px;width:auto"}
 
 전체 화면 비디오와 입력을 동시에 사용하려면 대상 화면 출력용으로 **Openterface KVM**을, 키보드/마우스/단축키용으로 **KeyCmd**를 사용하세요. 대상 기기에 이미 전용 디스플레이가 있고 입력 제어만 필요한 경우에는 KeyCmd만으로 충분합니다.
 
