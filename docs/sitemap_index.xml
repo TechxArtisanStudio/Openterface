@@ -36,4 +36,7 @@
   <sitemap>
     <loc>https://news.openterface.com/sitemap-index.xml</loc>
   </sitemap>
+  <sitemap>
+    <loc>https://docs.openterface.com/sitemap-index.xml</loc>
+  </sitemap>
 </sitemapindex>
