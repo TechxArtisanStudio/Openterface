@@ -22,7 +22,7 @@
     <loc>https://jp.openterface.com/sitemap-index.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://ko.openterface.com/sitemap-index.xml</loc>
+    <loc>https://kr.openterface.com/sitemap-index.xml</loc>
   </sitemap>
   <sitemap>
     <loc>https://pt.openterface.com/sitemap-index.xml</loc>
@@ -31,6 +31,6 @@
     <loc>https://ro.openterface.com/sitemap-index.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://zh.openterface.com/sitemap-index.xml</loc>
+    <loc>https://cn.openterface.com/sitemap-index.xml</loc>
   </sitemap>
 </sitemapindex>
