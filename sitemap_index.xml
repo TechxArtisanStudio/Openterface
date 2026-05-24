@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://openterface.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://en.openterface.com/sitemap-index.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://de.openterface.com/sitemap-index.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://es.openterface.com/sitemap-index.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://fr.openterface.com/sitemap-index.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://it.openterface.com/sitemap-index.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://jp.openterface.com/sitemap-index.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://ko.openterface.com/sitemap-index.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://pt.openterface.com/sitemap-index.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://ro.openterface.com/sitemap-index.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://zh.openterface.com/sitemap-index.xml</loc>
+  </sitemap>
+</sitemapindex>
