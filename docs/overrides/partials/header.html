@@ -97,5 +97,35 @@
       {% include "partials/custom-nav.html" %}
     {% endif %}
   {% endif %}
-  <script src="https://analytics.ahrefs.com/analytics.js" data-key="b3G5nUND8OglcZwfjfwixQ" async></script>
+  <script>
+  (function () {
+    var AHREFS_KEY = 'b3G5nUND8OglcZwfjfwixQ';
+    function loadAhrefs() {
+      if (document.getElementById('ahrefs-analytics')) return;
+      var s = document.createElement('script');
+      s.id = 'ahrefs-analytics';
+      s.src = 'https://analytics.ahrefs.com/analytics.js';
+      s.dataset.key = AHREFS_KEY;
+      s.async = true;
+      document.head.appendChild(s);
+    }
+    function consentAccepted() {
+      try {
+        if (localStorage.getItem('__md_cookie_consent') === 'true') return true;
+      } catch (e) {}
+      return false;
+    }
+    if (consentAccepted()) {
+      loadAhrefs();
+    } else {
+      document.addEventListener('click', function (ev) {
+        var btn = ev.target && ev.target.closest ? ev.target.closest('[data-md-value="accept"]') : null;
+        if (btn) setTimeout(loadAhrefs, 150);
+      });
+      window.addEventListener('storage', function (ev) {
+        if (ev.key === '__md_cookie_consent' && ev.newValue === 'true') loadAhrefs();
+      });
+    }
+  })();
+  </script>
 </header>
