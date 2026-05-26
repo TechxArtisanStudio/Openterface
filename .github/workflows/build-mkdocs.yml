@@ -6,11 +6,6 @@ on:
         description: 'Reason for manual deployment'
         required: false
         default: 'Manual trigger'
-  push:
-    branches:
-      - main
-  repository_dispatch:
-    types: [trigger-build]
 permissions:
   contents: read
   pages: write
